@@ -1,0 +1,24 @@
+id: 7693
+game_id: 15061
+game_slug: pinball-fx3
+name: Pinball FX3
+year: null
+user: lajestic
+runner: winesteam
+slug: pinball-fx3-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-30T03:23:59.831708Z'
+updated_at: '2018-04-02T00:48:43.652565Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 442120
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 442120

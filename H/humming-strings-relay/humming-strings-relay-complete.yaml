@@ -1,0 +1,31 @@
+id: 13796
+game_id: 27573
+game_slug: humming-strings-relay
+name: 'Humming Strings: Relay'
+year: 2015
+user: kimchitea
+runner: linux
+slug: humming-strings-relay-complete
+version: Complete
+description: 'Download: http://www.mediafire.com/file/d2dpkeumwupu3du/humming-strings-relay.zip'
+notes: ''
+created_at: '2019-05-30T02:48:44.533000Z'
+updated_at: '2019-09-09T01:52:00.815521Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: hummingstringsrelay.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/hummingstringsrelay.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/hummingstringsrelay
+  - chmodx: $GAMEDIR/lib/linux-x86_64/hummingstringsrelay
+  files:
+  - file1: N/A:Please select the game archive

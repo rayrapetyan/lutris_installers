@@ -1,0 +1,75 @@
+id: 11764
+game_id: 11178
+game_slug: playerunknowns-battlegrounds
+name: PLAYERUNKNOWN'S BATTLEGROUNDS
+year: 2017
+user: OsamaBinlada
+runner: wine
+slug: playerunknowns-battlegrounds-lite
+version: Lite
+description: Not working yet!
+notes: Only Launcher works, the game crashes when started, see more at <a href="https://bugs.winehq.org/show_bug.cgi?id=47701">Wine
+  Bugzilla</a>
+created_at: '2019-01-29T00:51:07.065000Z'
+updated_at: '2019-10-07T04:52:34.699343Z'
+draft: false
+published: true
+published_by: 19464
+rating: '1'
+steamid: 578080
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine 64-bit Prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .NET Framework 4.7.2 (This will take several minutes,
+        please wait)
+      app: dotnet472
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Visual Runtime C++ 2017
+      app: vcrun2017
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Corefonts
+      app: corefonts
+      arch: win64
+      name: winetricks
+  - task:
+      executable: launcher
+      prefix: $GAMEDIR
+      description: 'Installing the game (WARNING: Do not run the game when the installation
+        is complete)'
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows 10 mode for Wine
+      arch: win64
+      key: Version
+      value: win10
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files (x86)/PUBGLite/Launcher.exe
+    arch: win64
+  system:
+    env:
+      DXVK_HUD: 0
+  wine:
+    version: lutris-4.16-x86_64
+    dxvk: true
+  files:
+  - launcher: https://lpc-dl.playbattlegrounds.com/installer/PUBG-Lite-Setup.exe

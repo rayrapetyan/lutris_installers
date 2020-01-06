@@ -1,0 +1,24 @@
+id: 7564
+game_id: 6723
+game_slug: corpse-party
+name: Corpse Party
+year: 2016
+user: t-rex91
+runner: steam
+slug: corpse-party-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-15T22:19:31.239000Z'
+updated_at: '2018-03-20T04:39:59.514018Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 251270
+gogid: 1460712231
+gogslug: corpse_party
+humblestoreid: ''
+script:
+  game:
+    appid: 251270

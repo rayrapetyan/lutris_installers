@@ -1,0 +1,24 @@
+id: 7551
+game_id: 14200
+game_slug: regalia-of-men-and-monarchs
+name: 'Regalia: Of Men and Monarchs'
+year: 2017
+user: t-rex91
+runner: steam
+slug: regalia-of-men-and-monarchs-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-15T16:37:26.813000Z'
+updated_at: '2018-03-20T04:44:57.640129Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 464150
+gogid: 1306536711
+gogslug: regalia_of_men_and_monarchs
+humblestoreid: ''
+script:
+  game:
+    appid: 464150

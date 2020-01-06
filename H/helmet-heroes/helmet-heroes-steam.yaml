@@ -1,0 +1,24 @@
+id: 8495
+game_id: 9588
+game_slug: helmet-heroes
+name: Helmet Heroes
+year: null
+user: ZoeyGlobe
+runner: winesteam
+slug: helmet-heroes-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-01T22:15:34.484000Z'
+updated_at: '2018-06-01T22:17:45.341151Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 524970
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 524970

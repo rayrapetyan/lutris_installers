@@ -1,0 +1,17 @@
+name: Animal Super Squad
+slug: animal-super-squad
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Simulation
+aliases: []
+banner_url: /games/banner/animal-super-squad.jpg
+icon_url: /games/icon/animal-super-squad.png
+is_public: false
+updated: '2019-01-23T08:28:22.083466Z'
+steamid: 703840
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,36 @@
+id: 6413
+game_id: 2250
+game_slug: hitman-contracts
+name: 'Hitman: Contracts'
+year: 2004
+user: Stoney_Fish
+runner: winesteam
+slug: hitman-contracts-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-11-23T22:15:31.584000Z'
+updated_at: '2019-04-18T04:41:04.978568Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 247430
+gogid: 1207660853
+gogslug: hitman_contracts
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun6
+      arch: win32
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 247430
+    arch: win32

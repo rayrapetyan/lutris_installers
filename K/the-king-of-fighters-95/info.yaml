@@ -1,0 +1,19 @@
+name: The King of Fighters '95
+slug: the-king-of-fighters-95
+year: 1995
+platforms:
+- name: Arcade
+- name: Game Boy
+- name: Neo Geo
+- name: Sega Saturn
+- name: Sony PlayStation
+genres:
+- name: Fighting
+aliases: []
+banner_url: /games/banner/the-king-of-fighters-95.jpg
+icon_url: null
+is_public: true
+updated: '2019-03-05T05:46:19.678929Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,32 @@
+id: 14197
+game_id: 28124
+game_slug: the-alkabor-project
+name: The Al'Kabor Project
+year: 2012
+user: krakmojo
+runner: wine
+slug: the-alkabor-project-20
+version: '2.0'
+description: null
+notes: ''
+created_at: '2019-06-18T23:42:49.327855Z'
+updated_at: '2019-06-18T23:42:49.327878Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  files:
+  - setup:
+      filename: Takp_Installer.msi
+      url: https://drive.google.com/open?id=1iyL3BMIFJbEtHCfqMNePpLT76d_gxgvX

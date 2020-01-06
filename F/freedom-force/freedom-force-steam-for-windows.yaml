@@ -1,0 +1,24 @@
+id: 552
+game_id: 573
+game_slug: freedom-force
+name: Freedom Force
+year: null
+user: dennisjj4
+runner: winesteam
+slug: freedom-force-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: ''
+created_at: '2014-08-17T23:49:35.044000Z'
+updated_at: '2016-01-05T20:30:18.436554Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 8880
+gogid: 1445250806
+gogslug: freedom_force
+humblestoreid: ''
+script:
+  game:
+    appid: 8880

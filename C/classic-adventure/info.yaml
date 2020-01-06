@@ -1,0 +1,21 @@
+name: Classic Adventure
+slug: classic-adventure
+year: 1983
+platforms:
+- name: Amstrad CPC 464
+- name: Apple //e
+- name: Commodore 16/Plus4
+- name: Commodore 64
+- name: MSX
+- name: ZX Spectrum
+genres:
+- name: Adventure
+- name: Interactive fiction
+aliases: []
+banner_url: /games/banner/classic-adventure.jpg
+icon_url: null
+is_public: true
+updated: '2019-03-30T07:30:00.187408Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

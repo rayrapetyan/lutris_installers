@@ -1,0 +1,25 @@
+id: 8610
+game_id: 12283
+game_slug: forts
+name: Forts
+year: 2017
+user: TuiorGames
+runner: winesteam
+slug: forts-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-09T00:38:00.701755Z'
+updated_at: '2018-06-09T05:03:41.421693Z'
+draft: true
+published: true
+published_by: null
+rating: ''
+steamid: 410900
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 410900
+    arch: win64

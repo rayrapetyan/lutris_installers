@@ -1,0 +1,23 @@
+id: 1692
+game_id: 4022
+game_slug: mardek-rpg-chapter-2
+name: 'Mardek RPG: Chapter 2'
+year: 2007
+user: dennisjj4
+runner: browser
+slug: mardek-rpg-chapter-2-flash
+version: Flash
+description: ''
+notes: ''
+created_at: '2015-11-03T16:36:27.233519Z'
+updated_at: '2015-11-03T16:39:34.890850Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: http://data.fighunter.com/gamefiles/MDK2/GAME.swf

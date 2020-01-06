@@ -1,0 +1,24 @@
+id: 9667
+game_id: 20801
+game_slug: overcooked-2
+name: Overcooked! 2
+year: null
+user: elnemesio
+runner: steam
+slug: overcooked-2-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-10T05:13:44.537499Z'
+updated_at: '2018-08-10T11:36:18.753678Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 728880
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 728880

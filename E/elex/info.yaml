@@ -1,0 +1,17 @@
+name: ELEX
+slug: elex
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/elex.jpg
+icon_url: /games/icon/elex.png
+is_public: true
+updated: '2019-01-23T08:29:22.220146Z'
+steamid: 411300
+gogslug: elex
+humblestoreid: ''

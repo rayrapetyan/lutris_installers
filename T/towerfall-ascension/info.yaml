@@ -1,0 +1,17 @@
+name: TowerFall Ascension
+slug: towerfall-ascension
+year: 2013
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/towerfall-ascension.jpg
+icon_url: /games/icon/towerfall-ascension.png
+is_public: true
+updated: '2019-08-17T07:06:21.943128Z'
+steamid: 251470
+gogslug: towerfall_ascension
+humblestoreid: ''

@@ -1,0 +1,31 @@
+id: 11291
+game_id: 6063
+game_slug: sonic-the-hedgehog-3
+name: Sonic the Hedgehog 3
+year: 1994
+user: unomar
+runner: libretro
+slug: sonic-the-hedgehog-3-genesis
+version: Genesis
+description: null
+notes: ''
+created_at: '2018-12-21T17:15:45.199000Z'
+updated_at: '2018-12-23T02:56:36.277808Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: rom
+      dst: $GAMEDIR
+  files:
+  - rom: N/A:Select the game's ROM file
+  game:
+    core: genesis_plus_gx
+    main_file: rom

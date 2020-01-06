@@ -1,0 +1,70 @@
+id: 15832
+game_id: 1824
+game_slug: halo-2
+name: Halo 2
+year: 2004
+user: Sentry
+runner: wine
+slug: halo-2-project-cartographer-1
+version: Project Cartographer
+description: "Installs Project Cartographer from a given archive\r\nYou need to download\
+  \ the \"Full Game Installer + Mod\" zip from the Project Cartographer website"
+notes: "every time you launch the game a prompt comes up\r\ncompletly ignore it and\
+  \ just press \"Run\""
+created_at: '2019-09-27T20:34:13.583000Z'
+updated_at: '2019-10-27T07:59:29.770777Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE/H2/
+      file: H2install
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: $CACHE/H2/h2pc_setup_1.8.1.exe
+      prefix: $GAMEDIR
+      description: Installing Halo 2 just click through with the default settings.
+        Do not run the game at the end.
+      arch: win32
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Installing wmp9
+      app: wmp9
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting video memory size
+      app: videomemorysize=1024
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows 7 mode for Wine
+      app: win7
+      arch: win32
+      name: winetricks
+  game:
+    prefix: $GAMEDIR
+    args: -hiresfix
+    exe: drive_c/Games/Halo 2 Project Cartographer/halo2.exe
+    arch: win32
+  system:
+    disable_compositor: 'true'
+  wine:
+    version: tkg-4.6-x86_64
+    d9vk: false
+    esync: true
+  files:
+  - H2install: N/A:Please select the zip archive for the Project Cartographer installer

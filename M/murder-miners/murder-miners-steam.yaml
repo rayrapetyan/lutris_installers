@@ -1,0 +1,24 @@
+id: 3434
+game_id: 2607
+game_slug: murder-miners
+name: Murder Miners
+year: null
+user: liberodark
+runner: steam
+slug: murder-miners-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-04-01T03:03:04.679498Z'
+updated_at: '2017-04-06T19:48:07.898147Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 274900
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 274900

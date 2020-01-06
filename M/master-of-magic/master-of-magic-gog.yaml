@@ -1,0 +1,34 @@
+id: 2187
+game_id: 75
+game_slug: master-of-magic
+name: Master of Magic
+year: 1994
+user: Lulu
+runner: linux
+slug: master-of-magic-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2016-06-21T22:16:30.620000Z'
+updated_at: '2019-04-21T07:37:08.376193Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: 1207658855
+gogslug: master_of_magic
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

@@ -1,0 +1,32 @@
+id: 6029
+game_id: 7925
+game_slug: seep-universe
+name: SEEP Universe
+year: null
+user: FakeShemp
+runner: wine
+slug: seep-universe-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-10-20T16:40:07.214827Z'
+updated_at: '2018-05-19T03:41:58.028617Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 383630
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR/drive_c/Program Files/SEEP Universe
+  files:
+  - file1: N/A:Please select the Groupees executable
+  game:
+    prefix: $GAMEDIR
+    exe: $file1
+    arch: win32

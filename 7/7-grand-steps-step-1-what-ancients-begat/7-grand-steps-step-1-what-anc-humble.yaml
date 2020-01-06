@@ -1,0 +1,33 @@
+id: 4500
+game_id: 2376
+game_slug: 7-grand-steps-step-1-what-ancients-begat
+name: '7 Grand Steps, Step 1: What Ancients Begat'
+year: 2013
+user: FakeShemp
+runner: wine
+slug: 7-grand-steps-step-1-what-anc-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-19T12:59:40.101000Z'
+updated_at: '2018-05-19T03:41:50.492176Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 238930
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/7 Grand Steps/7 Grand Steps.exe
+    arch: win32

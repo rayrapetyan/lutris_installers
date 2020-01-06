@@ -1,0 +1,27 @@
+id: 9351
+game_id: 8370
+game_slug: the-room-two
+name: The Room Two
+year: null
+user: xxpassixd
+runner: winesteam
+slug: the-room-two-steam
+version: Steam
+description: "Only tested it for like one sec so far, but seems to work fine.\r\n\
+  First Application I'm submitting so i hope the arguments work.\r\n\r\nIf not go\
+  \ ahead and start the Game using : -force-d3d9"
+notes: ''
+created_at: '2018-07-24T14:14:43.623713Z'
+updated_at: '2018-07-25T05:15:11.547670Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 425580
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    args: -force-d3d9
+    appid: 425580

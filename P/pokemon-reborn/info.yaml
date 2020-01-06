@@ -1,0 +1,17 @@
+name: Pokemon Reborn
+slug: pokemon-reborn
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: RPG
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/pokemon-reborn.jpg
+icon_url: /games/icon/pokemon-reborn.png
+is_public: true
+updated: '2019-01-23T08:30:47.154046Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

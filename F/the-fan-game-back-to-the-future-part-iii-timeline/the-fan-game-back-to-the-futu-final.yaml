@@ -1,0 +1,36 @@
+id: 12634
+game_id: 26473
+game_slug: the-fan-game-back-to-the-future-part-iii-timeline-
+name: 'The Fan Game - Back to the Future Part III: Timeline of Monkey Island'
+year: 2019
+user: strider
+runner: wine
+slug: the-fan-game-back-to-the-futu-final
+version: final
+description: null
+notes: ''
+created_at: '2019-04-05T18:05:31.237000Z'
+updated_at: '2019-04-05T18:09:58.037017Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - extract:
+      dst: $GAMEDIR/drive_c/bttf3/
+      file: archive
+  files:
+  - archive: https://lutris.nyc3.digitaloceanspaces.com/games/bttf3-tlomi/TFG%20-%20BTTF%20III%20-%20Timeline%20of%20MI-.zip
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/bttf3/TFG - BTTF III - Timeline of MI.exe
+    arch: win32

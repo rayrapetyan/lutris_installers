@@ -1,0 +1,89 @@
+id: 11440
+game_id: 19031
+game_slug: unravel
+name: Unravel
+year: 2016
+user: djazz
+runner: wine
+slug: unravel-origin
+version: Origin
+description: Install Unravel with Origin
+notes: "* Requires gst-plugins-good to run.\r\n* Installs vcrun2012 with winetricks\r\
+  \n* Disables Origin in-game overlay (required or game won't launch)\r\n* Enables\
+  \ DXVK"
+created_at: '2019-01-04T23:00:22.594000Z'
+updated_at: '2019-03-08T18:50:19.021616Z'
+draft: false
+published: true
+published_by: 2045
+rating: '4'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      __GL_SHADER_DISK_CACHE: '1'
+    disable_runtime: false
+    ondemand_command: $GAMEDIR/drive_c/Program Files (x86)/Origin/updateorigin.sh
+  game:
+    prefix: $GAMEDIR
+    args: /StartClientMinimized origin://launchgame/Origin.OFR.50.0000823
+    exe: drive_c/Program Files (x86)/Origin/Origin.exe
+    arch: win64
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing vcrun2012 with winetricks
+      app: vcrun2012 win10
+      arch: win64
+      name: winetricks
+  - task:
+      executable: client
+      prefix: $GAMEDIR
+      description: Installing Origin
+      arch: win64
+      args: /silent
+      exclude_processes: Origin.exe OriginClientService.exe OriginWebHelperService.exe
+        QtWebEngineProcess.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  - task:
+      prefix: $GAMEDIR
+      executable: $GAMEDIR/drive_c/Program Files (x86)/Origin/Origin.exe
+      description: Log in to Origin, install Unravel, and then exit Origin. Do not
+        launch the game!
+      arch: win64
+      args: origin2://library/open
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  - execute: "echo '<?xml version=\"1.0\"?>\n<Settings>\n  <Setting type=\"10\" key=\"\
+      DefaultTab\" value=\"mygames\"/>\n  <Setting type=\"1\" value=\"false\" key=\"\
+      EnableIgo\"/>\n</Settings>\n' | tee \"$GAMEDIR/drive_c/users/$USER/Application\
+      \ Data/Origin/local_\"*\".xml\"\n"
+  - chmodx: updater
+  - merge:
+      src: updater
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Origin
+  files:
+  - client: https://origin-a.akamaihd.net/Origin-Client-Download/origin/live/OriginThinSetup.exe
+  - updater: https://raw.githubusercontent.com/DrDoctor13/wine-origin-updater/master/updateorigin.sh
+  wine:
+    version: tkg-protonified-3.21-x86_64
+    overrides:
+      nvapi,nvapi64: disabled
+      xaudio2_7: native,builtin
+    dxvk: true

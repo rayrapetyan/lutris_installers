@@ -1,0 +1,17 @@
+name: 198X
+slug: 198x
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Arcade
+- name: Narrative
+aliases: []
+banner_url: /games/banner/198x.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-10T10:23:07.091893Z'
+steamid: 1086010
+gogslug: ''
+humblestoreid: ''

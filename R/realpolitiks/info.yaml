@@ -1,0 +1,16 @@
+name: Realpolitiks
+slug: realpolitiks
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Management
+- name: Simulation
+aliases: []
+banner_url: /games/banner/realpolitiks.jpg
+icon_url: /games/icon/realpolitiks.png
+is_public: true
+updated: '2019-01-23T08:30:55.719436Z'
+steamid: 553260
+gogslug: realpolitiks
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 11998
+game_id: 6810
+game_slug: f-19-stealth-fighter
+name: F-19 Stealth Fighter
+year: 1988
+user: skyace65
+runner: steam
+slug: f-19-stealth-fighter-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-02-13T13:51:11.794267Z'
+updated_at: '2019-02-15T01:29:05.795894Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 347250
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 347250

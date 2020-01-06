@@ -1,0 +1,31 @@
+id: 4094
+game_id: 11547
+game_slug: crap-no-one-loves-me
+name: CRAP! No One Loves Me
+year: null
+user: FakeShemp
+runner: linux
+slug: crap-no-one-loves-me-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-04T16:17:11.131098Z'
+updated_at: '2017-06-04T22:15:30.178684Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: CNOLM_linux.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/CNOLM_linux.x86
+  - chmodx: $GAMEDIR/CNOLM_linux.x86_64
+  exe64: CNOLM_linux.x86_64
+  files:
+  - file1: N/A:Please select the Humble archive

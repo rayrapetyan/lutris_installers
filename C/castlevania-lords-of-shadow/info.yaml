@@ -1,0 +1,16 @@
+name: 'Castlevania: Lords of Shadow'
+slug: castlevania-lords-of-shadow
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: Hack and slash
+- name: Platform
+aliases: []
+banner_url: /games/banner/castlevania-lords-of-shadow.jpg
+icon_url: null
+is_public: true
+updated: '2019-12-19T17:53:42.560859Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

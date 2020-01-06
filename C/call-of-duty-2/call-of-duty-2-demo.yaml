@@ -1,0 +1,33 @@
+id: 3701
+game_id: 1238
+game_slug: call-of-duty-2
+name: Call of Duty 2
+year: 2005
+user: strider
+runner: wine
+slug: call-of-duty-2-demo
+version: Demo
+description: ''
+notes: ''
+created_at: '2017-05-16T03:48:26.920053Z'
+updated_at: '2017-05-16T03:48:32.624081Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 2630
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: demo
+      arch: win32
+      name: wineexec
+  files:
+  - demo: https://archive.org/download/CallOfDuty2Demo/cod2demo.exe
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/Activision/Call of Duty 2 Demo/CoD2SP_s.exe
+    arch: win32

@@ -1,0 +1,36 @@
+id: 14736
+game_id: 28580
+game_slug: bionicle-heroes
+name: Bionicle Heroes
+year: 2006
+user: MrRichBOB
+runner: wine
+slug: bionicle-heroes-windows-biomedia-pro
+version: Windows (Biomedia Project)
+description: This does not actually install the game--you need to provide your own
+  iso; the one from
+notes: "ISSUES:\r\n*Emulated Desktop causes poor performance and the game cannot load.\r\
+  \n     -Emulated Desktop also will cause the cursor to disappear until the game\
+  \ is exited-out of if alt-tabbing away\r\n\r\n- - - -\r\n\r\nWIDESCREEN:\r\nFirstly,\
+  \ actually load up the game, go into the video settings and set the graphics quality\
+  \ to what you desire, make sure Widescreen is set on, if given the option, and save\
+  \ your changes, to generate config file in Application Data.\r\n\r\nThen, cd to\
+  \ \"/... /drive_c/users/<username>/Local Settings/Application Data/EIDOS/BIONICLE\
+  \ Heroes\"\r\n\r\nEdit nuconfig.txt, at the bottom section, you'll see NU_PCRESW,\
+  \ NU_PCRESH, and NU_PCWIDESCREEN. These stand for PC Resolution Width and height,\
+  \ respectively, and the final sets the game to widescreen mode.\r\n\r\nTo use Widescreen,\
+  \ set NU_PCWIDESCREEN to high (1), and then change the width and height to whatever\
+  \ you like--1920x1080 works perfectly."
+created_at: '2019-07-26T23:24:43.495677Z'
+updated_at: '2019-07-26T23:24:43.495712Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  files:
+  - file1: biomediaproject.com/bmp/files/gms/console/BIONICLE%20Heroes/BIONICLE%20Heroes%20(PC).iso

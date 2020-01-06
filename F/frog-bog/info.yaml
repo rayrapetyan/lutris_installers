@@ -1,0 +1,16 @@
+name: Frog Bog
+slug: frog-bog
+year: 1982
+platforms:
+- name: Atari 2600
+- name: Intellivision
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/frog-bog.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:35.526967Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

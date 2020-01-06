@@ -1,0 +1,66 @@
+id: 14569
+game_id: 8990
+game_slug: wolcen-lords-of-mayhem
+name: 'Wolcen: Lords of Mayhem'
+year: 2016
+user: aronax
+runner: winesteam
+slug: wolcen-lords-of-mayhem-11_140719
+version: 1.1_14.07.19
+description: wine version change
+notes: "from:  staging-3.5-x86_64\r\n           to:  version: ge-protonified-4.10-x86_64\r\
+  \n-set in wine dpi to 160 for 4k displays\r\n-set in wine win 10\r\n-set in Systemoption:\
+  \ Restore resolution on game exit\r\n-set in Systemoption: Restore gamma\r\n-set\
+  \ in Systemoption: Disable desktop effects\r\n-set in Systemoption: Reset Pulseaudio"
+created_at: '2019-07-14T21:55:36.579000Z'
+updated_at: '2019-09-09T00:48:22.333732Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 424370
+gogid: 1458655673
+gogslug: wolcen_lords_of_mayhem
+humblestoreid: ''
+script:
+  winesteam:
+    prefix: $GAMEDIR
+    arch: win64
+    overrides:
+      nvapi,nvapi64: disabled
+      xaudio2_7: native,builtin
+    WineDesktop: 2560x1440
+    Desktop: false
+    version: ge-protonified-4.10-x86_64
+    args: --exec="launch Pro"
+    esync: true
+    dxvk: true
+    game: null
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 64bit Wine prefix.
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Arial font...
+      arch: win64
+      app: arial
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows 10 mode for Wine
+      arch: win64
+      key: Version
+      value: win10
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 424370
+    arch: win64

@@ -1,0 +1,24 @@
+id: 13124
+game_id: 13938
+game_slug: doodle-god-blitz
+name: Doodle God Blitz
+year: null
+user: Szaturnusz
+runner: steam
+slug: doodle-god-blitz-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-04-26T19:37:20.893846Z'
+updated_at: '2019-04-27T02:04:24.890315Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 625430
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 625430

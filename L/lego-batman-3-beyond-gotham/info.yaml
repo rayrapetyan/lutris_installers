@@ -1,0 +1,18 @@
+name: 'LEGO Batman 3: Beyond Gotham'
+slug: lego-batman-3-beyond-gotham
+year: 2014
+platforms:
+- name: Nintendo 3DS
+- name: Nintendo Wii U
+- name: Sony Playstation 3
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/lego-batman-3-beyond-gotham.jpg
+icon_url: /games/icon/lego-batman-3-beyond-gotham.png
+is_public: true
+updated: '2019-04-28T05:45:25.942454Z'
+steamid: 313690
+gogslug: ''
+humblestoreid: ''

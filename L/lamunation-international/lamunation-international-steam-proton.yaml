@@ -1,0 +1,24 @@
+id: 17181
+game_id: 30590
+game_slug: lamunation-international-
+name: LAMUNATION! -international-
+year: 2019
+user: kimchitea
+runner: steam
+slug: lamunation-international-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-12-04T14:16:09.693086Z'
+updated_at: '2019-12-04T14:16:09.693120Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 1025140
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 1025140

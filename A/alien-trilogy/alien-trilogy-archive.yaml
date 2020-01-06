@@ -1,0 +1,29 @@
+id: 2195
+game_id: 6326
+game_slug: alien-trilogy
+name: Alien Trilogy
+year: 1996
+user: strider
+runner: dosbox
+slug: alien-trilogy-archive
+version: archive
+description: ''
+notes: ''
+created_at: '2016-06-24T05:17:40.815537Z'
+updated_at: '2016-08-11T20:46:10.696732Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: TRILOGY.EXE
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: archive
+  files:
+  - archive: N/A:Select the archive containing the game

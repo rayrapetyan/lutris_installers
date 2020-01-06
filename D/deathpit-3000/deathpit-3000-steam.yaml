@@ -1,0 +1,24 @@
+id: 7971
+game_id: 17969
+game_slug: deathpit-3000
+name: DEATHPIT 3000
+year: 2017
+user: TuiorGames
+runner: steam
+slug: deathpit-3000-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-04-23T11:57:23.398377Z'
+updated_at: '2018-04-30T06:25:49.044241Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 718720
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 718720

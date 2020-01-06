@@ -1,0 +1,24 @@
+id: 10269
+game_id: 15977
+game_slug: vision-of-aurora-borealis
+name: Vision of Aurora Borealis
+year: 2016
+user: kimchitea
+runner: steam
+slug: vision-of-aurora-borealis-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-09-21T15:29:14.104643Z'
+updated_at: '2018-09-21T18:12:41.475243Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 492080
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 492080

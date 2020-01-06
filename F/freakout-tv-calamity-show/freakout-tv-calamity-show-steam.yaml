@@ -1,0 +1,24 @@
+id: 8458
+game_id: 19008
+game_slug: freakout-tv-calamity-show
+name: 'Freakout : TV Calamity Show'
+year: 2018
+user: TuiorGames
+runner: steam
+slug: freakout-tv-calamity-show-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-29T11:59:50.502341Z'
+updated_at: '2018-05-30T06:17:53.685956Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 848430

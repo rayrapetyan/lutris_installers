@@ -1,0 +1,16 @@
+name: F1 2000
+slug: f1-2000
+year: 2000
+platforms:
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/f1-2000.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:27.114196Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

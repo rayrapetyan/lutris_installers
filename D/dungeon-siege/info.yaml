@@ -1,0 +1,17 @@
+name: Dungeon Siege
+slug: dungeon-siege
+year: 2002
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Role-playing
+- name: RPG
+aliases: []
+banner_url: /games/banner/dungeon-siege.jpg
+icon_url: /games/icon/dungeon-siege.png
+is_public: true
+updated: '2019-03-24T04:16:10.499152Z'
+steamid: 39190
+gogslug: ''
+humblestoreid: ''

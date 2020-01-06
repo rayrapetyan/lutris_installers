@@ -1,0 +1,31 @@
+id: 17287
+game_id: 30703
+game_slug: sakura-apprentice
+name: Sakura Apprentice
+year: 2019
+user: kimchitea
+runner: linux
+slug: sakura-apprentice-nutaku
+version: Nutaku
+description: null
+notes: ''
+created_at: '2019-12-12T15:47:59.482000Z'
+updated_at: '2019-12-15T18:39:14.604912Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Sakura Apprentice.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Sakura Apprentice.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Sakura Apprentice
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Sakura Apprentice
+  files:
+  - file1: N/A:Please select the game archive

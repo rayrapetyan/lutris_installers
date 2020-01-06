@@ -1,0 +1,33 @@
+id: 4285
+game_id: 1691
+game_slug: aztaka
+name: Aztaka
+year: null
+user: FakeShemp
+runner: wine
+slug: aztaka-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-06-10T21:17:56.470843Z'
+updated_at: '2018-05-19T03:41:49.736076Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 37100
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the IndieGameStand installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Aztaka/Aztaka.exe
+    arch: win32

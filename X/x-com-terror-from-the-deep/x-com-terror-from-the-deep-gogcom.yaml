@@ -1,0 +1,64 @@
+id: 11015
+game_id: 1601
+game_slug: x-com-terror-from-the-deep
+name: 'X-COM: Terror from the Deep'
+year: 1995
+user: rom42
+runner: dosbox
+slug: x-com-terror-from-the-deep-gogcom
+version: GOG.com
+description: null
+notes: ''
+created_at: '2018-11-28T17:51:37.095000Z'
+updated_at: '2018-11-29T04:53:18.571664Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 7650
+gogid: 1445249983
+gogslug: xcom_terror_from_the_deep
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: wine.create_prefix
+  - task:
+      prefix: $GAMEDIR
+      name: wine.set_regedit
+      type: REG_SZ
+      value: ''
+      key: winemenubuilder.exe
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /VERYSILENT /SP- /NOCANCEL /SUPPRESSMSGBOXES '/DIR=C:/game'
+      description: Installing ...
+      name: wine.wineexec
+  - execute:
+      args: -c 'mv $GAMEDIR/drive_c/game/* $GAMEDIR'
+      file: /bin/sh
+      description: cleaning...
+      terminal: false
+  - execute:
+      args: -c 'rm -rf $GAMEDIR/drive_c $GAMEDIR/dosdevices $GAMEDIR/*.reg'
+      file: /bin/sh
+      description: cleaning...
+      terminal: false
+  - execute:
+      args: -i 's|mount C ".." -freesize 1024|mount C "." -freesize 1024|g' $GAMEDIR/dosbox_xcomtftd_single.conf
+      file: /bin/sed
+      terminal: false
+  - execute:
+      args: -c 'rm -rf $GAMEDIR/DOSBOX'
+      file: /bin/sh
+      terminal: false
+  files:
+  - game: N/A:Please select the GOG.com Windows installer
+  game:
+    config_file: $GAMEDIR/dosbox_xcomtftd.conf
+    main_file: $GAMEDIR/dosbox_xcomtftd_single.conf
+    appid: 7650

@@ -1,0 +1,92 @@
+id: 14153
+game_id: 27750
+game_slug: thandor-the-invasion
+name: 'Thandor: The Invasion'
+year: 2000
+user: ArchPCK
+runner: wine
+slug: thandor-the-invasion-105-de-innonics
+version: 1.05 DE (Innonics)
+description: "Dieser Installer ben\xF6tigt auch einen Patch, der Link ist im Installer.\r\
+  \nPatch MD5 ist 4133020e5a7c9f74a633f586d231dc6b.\r\nVirustotal Link: https://www.virustotal.com/gui/file/a6cd7445cd2ab6d36e00664b9b02d99d912704ad3fdfb98233b2705599437cf3/details"
+notes: "WARN: Stellen Sie sicher, dass Sie entweder den virtuellen Desktop (in winecfg\
+  \ Registerkarte Grafiken) mit der gew\xE4hlten Thandor-Aufl\xF6sung aktivieren oder\r\
+  \n      Thandor im Vollbildmodus mit der nativen Bildschirmaufl\xF6sung laufen lassen\
+  \ (f\xFCr manche neuere Aufl\xF6sungen wie 1080p muss die thandor.dat manuell angepasst\
+  \ werden, fertige Dateien gibt es im Spielverzeichnis (Ordner customConfigs_Tools))!\r\
+  \n       > Problem: Wenn Sie dies ignorieren, f\xFChrt dies zu einem Mauszeiger,\
+  \ der w\xE4hrend des Spiels an den oberen linken Rand springt."
+created_at: '2019-06-17T15:07:50.836000Z'
+updated_at: '2019-10-28T20:51:34.310932Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: Thandor/thandor.dat
+      description: "WARN: Stellen Sie sicher, dass Sie entweder den virtuellen Desktop\
+        \ (in winecfg Registerkarte Grafiken) mit der gew\xE4hlten Thandor-Aufl\xF6\
+        sung aktivieren oder Thandor im Vollbildmodus mit der nativen Bildschirmaufl\xF6\
+        sung laufen lassen (f\xFCr manche neuere Aufl\xF6sungen wie 1080p muss die\
+        \ thandor.dat manuell angepasst werden)!\n > Problem: Wenn Sie dies ignorieren,\
+        \ f\xFChrt dies zu einem Mauszeiger, der w\xE4hrend des Spiels an den oberen\
+        \ linken Rand springt.\n Weitere Informationen finden Sie nach der Installation\
+        \ in der Datei LinuxReadme im Verzeichnis des Spiels"
+  - task:
+      prefix: $GAMEDIR
+      description: Erzeuge WINE Prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: "Bereite Prefix f\xFCr das Ausf\xFChren des Setups vor (setze win95)"
+      app: win95
+      name: winetricks
+  - task:
+      executable: $DISC/Setup.exe
+      prefix: $GAMEDIR
+      arch: win95
+      name: wineexec
+  - execute:
+      args: e $directx61 -o$CACHE/tmp/dx6
+      file: 7z
+  - move:
+      src: $CACHE/tmp/dx6/dinput.dll
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Thandor/
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Thandor/
+      file: patch105
+  - task:
+      prefix: $GAMEDIR
+      app: winxp
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      key: GrabFullscreen
+      value: N
+      path: HKEY_CURRENT_USER\Software\Wine\X11 Driver
+      name: set_regedit
+  require-binaries: 7z
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Thandor/thandor.exe
+    arch: win64
+  system:
+    env:
+      LUTRIS_RUNTIME: '0'
+  wine:
+    overrides:
+      dinput.dll: native
+    dxvk: false
+  files:
+  - patch105: N/A:Bitte lade den Patch 1.05 von http://s000.tinyupload.com/index.php?file_id=09051709526305652937
+      (md5 4133020e5a7c9f74a633f586d231dc6b)
+  - directx61: https://archive.org/download/dx61sdkimage/dx61sdkimage.exe

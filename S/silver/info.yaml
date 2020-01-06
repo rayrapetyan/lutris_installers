@@ -1,0 +1,16 @@
+name: Silver
+slug: silver
+year: 1999
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: RPG
+aliases: []
+banner_url: /games/banner/silver.jpg
+icon_url: /games/icon/silver.png
+is_public: true
+updated: '2019-05-11T07:15:52.410600Z'
+steamid: 606680
+gogslug: silver
+humblestoreid: ''

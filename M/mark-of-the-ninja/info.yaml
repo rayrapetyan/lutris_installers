@@ -1,0 +1,16 @@
+name: Mark of the Ninja
+slug: mark-of-the-ninja
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Stealth
+aliases: []
+banner_url: /games/banner/mark-of-the-ninja.jpg
+icon_url: /games/icon/mark-of-the-ninja.png
+is_public: true
+updated: '2019-01-23T08:30:17.904329Z'
+steamid: 214560
+gogslug: mark_of_the_ninja
+humblestoreid: ''

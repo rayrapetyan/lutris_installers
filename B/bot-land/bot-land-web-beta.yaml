@@ -1,0 +1,23 @@
+id: 12491
+game_id: 26342
+game_slug: bot-land
+name: Bot Land
+year: null
+user: freaktechnik
+runner: browser
+slug: bot-land-web-beta
+version: web-beta
+description: null
+notes: ''
+created_at: '2019-03-24T01:20:35.747268Z'
+updated_at: '2019-03-25T06:02:10.670623Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://play.bot.land

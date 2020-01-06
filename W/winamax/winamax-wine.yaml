@@ -1,0 +1,39 @@
+id: 9524
+game_id: 20590
+game_slug: winamax
+name: Winamax
+year: 2010
+user: Areimas
+runner: wine
+slug: winamax-wine
+version: wine
+description: Default installation using wine runner
+notes: ''
+created_at: '2018-08-01T18:31:16.178563Z'
+updated_at: '2018-08-02T01:29:48.223498Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: winamax_installer
+      prefix: $GAMEDIR
+      description: Running Winamax Installer.
+      arch: win64
+      name: wineexec
+  files:
+  - winamax_installer: https://dl.vip.winamax.fr/client/wam/WinamaxInstall.exe
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/users/$USER/Winamax/Winamax Poker/Winamax Poker.exe
+    arch: win64

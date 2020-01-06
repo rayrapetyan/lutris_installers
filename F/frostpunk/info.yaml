@@ -1,0 +1,15 @@
+name: Frostpunk
+slug: frostpunk
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Strategy
+aliases: []
+banner_url: /games/banner/frostpunk.jpg
+icon_url: /games/icon/frostpunk.png
+is_public: true
+updated: '2019-01-23T08:29:35.861140Z'
+steamid: 323190
+gogslug: frostpunk
+humblestoreid: ''

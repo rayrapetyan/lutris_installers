@@ -1,0 +1,74 @@
+id: 10013
+game_id: 316
+game_slug: wolfenstein-3d
+name: Wolfenstein 3D
+year: 1992
+user: ugly
+runner: dosbox
+slug: wolfenstein-3d-gog
+version: GOG
+description: Uses the files from the Windows installer from GOG.
+notes: ''
+created_at: '2018-09-02T23:30:19.770000Z'
+updated_at: '2019-04-08T03:06:48.411708Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 2270
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: $GAMEDIR/DOSBOX/dosbox_wolf3d_single.conf
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file2
+  - execute:
+      args: -d "$CACHE" "$file1"
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/app
+      dst: $GAMEDIR
+  - merge:
+      src: $GAMEDIR/dosbox_wolf3d_single.conf
+      dst: $GAMEDIR/DOSBOX
+  - merge:
+      src: $GAMEDIR/dosbox_wolf3d.conf
+      dst: $GAMEDIR/DOSBOX
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/DOSBOX/dosbox_wolf3d.conf
+  - write_config:
+      section: sdl
+      key: output
+      value: overlay
+      file: $GAMEDIR/DOSBOX/dosbox_wolf3d.conf
+  - write_config:
+      section: sdl
+      key: fullscreen
+      value: false
+      file: $GAMEDIR/DOSBOX/dosbox_wolf3d.conf
+  - write_config:
+      section: sdl
+      key: fullresolution
+      value: 1920x1080
+      file: $GAMEDIR/DOSBOX/dosbox_wolf3d.conf
+  - write_config:
+      section: cpu
+      key: cycles
+      value: 7000
+      file: $GAMEDIR/DOSBOX/dosbox_wolf3d.conf
+  - write_config:
+      section: midi
+      key: midiconfig
+      value: '128:0'
+      file: $GAMEDIR/DOSBOX/dosbox_wolf3d.conf
+  files:
+  - file1: N/A:Please select the GOG installer
+  - file2: https://lutris.net/files/tools/innoextract.tar.gz
+  game:
+    config_file: $GAMEDIR/DOSBOX/dosbox_wolf3d.conf

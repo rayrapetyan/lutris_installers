@@ -1,0 +1,31 @@
+id: 5945
+game_id: 10149
+game_slug: tony-hawks-pro-skater-2
+name: Tony Hawk's Pro Skater 2
+year: 2000
+user: FakeShemp
+runner: libretro
+slug: tony-hawks-pro-skater-2-playstation
+version: PlayStation
+description: ''
+notes: ''
+created_at: '2017-10-13T10:07:20.662000Z'
+updated_at: '2017-10-13T10:40:20.459057Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the PlayStation image file
+  game:
+    core: mednafen_psx
+    main_file: file1

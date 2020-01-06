@@ -1,0 +1,17 @@
+name: Wildfire
+slug: wildfire
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Combat
+- name: Stealth
+aliases: []
+banner_url: /games/banner/wildfire.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:08.448391Z'
+steamid: null
+gogslug: wildfire
+humblestoreid: ''

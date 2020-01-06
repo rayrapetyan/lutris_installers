@@ -1,0 +1,16 @@
+name: 'Kingmaker: Rise to the Throne'
+slug: kingmaker-rise-to-the-throne
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Hidden Object
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/kingmaker-rise-to-the-throne.jpg
+icon_url: /games/icon/kingmaker-rise-to-the-throne.png
+is_public: true
+updated: '2019-06-01T06:15:39.053452Z'
+steamid: 834390
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,18 @@
+name: 'Fallout 3: Game of the Year Edition'
+slug: fallout-3-game-of-the-year-edition
+year: 2009
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Exploration
+- name: FPS
+- name: RPG
+aliases: []
+banner_url: /games/banner/fallout-3-game-of-the-year-edition.jpg
+icon_url: /games/icon/fallout-3-game-of-the-year-edition.png
+is_public: true
+updated: '2019-01-23T08:29:28.080461Z'
+steamid: 22370
+gogslug: fallout_3_game_of_the_year_edition
+humblestoreid: fallout-3-game-of-the-year-edition

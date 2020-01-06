@@ -1,0 +1,16 @@
+name: Fantasy General
+slug: fantasy-general
+year: 1996
+platforms:
+- name: Linux
+genres:
+- name: Management
+- name: Turn-based tactics
+aliases: []
+banner_url: /games/banner/fantasy-general.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:28.449004Z'
+steamid: null
+gogslug: fantasy_general
+humblestoreid: ''

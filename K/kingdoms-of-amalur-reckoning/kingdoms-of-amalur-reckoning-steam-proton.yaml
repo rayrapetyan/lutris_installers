@@ -1,0 +1,24 @@
+id: 12848
+game_id: 1379
+game_slug: kingdoms-of-amalur-reckoning
+name: 'Kingdoms of Amalur: Reckoning'
+year: 2012
+user: Testman42
+runner: steam
+slug: kingdoms-of-amalur-reckoning-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-04-16T20:58:59.318000Z'
+updated_at: '2019-05-19T07:30:29.641816Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 102500
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 102500

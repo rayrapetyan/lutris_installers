@@ -1,0 +1,24 @@
+id: 8534
+game_id: 6069
+game_slug: shakes-and-fidget
+name: Shakes and Fidget
+year: 2016
+user: Fiksofaty
+runner: browser
+slug: shakes-and-fidget-international
+version: International
+description: null
+notes: ''
+created_at: '2018-06-04T15:36:16.637000Z'
+updated_at: '2018-06-05T05:02:06.122056Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 438040
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    main_file: http://sfgame.net

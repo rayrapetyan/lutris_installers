@@ -1,0 +1,24 @@
+id: 3994
+game_id: 5005
+game_slug: pixel-heroes-byte-magic
+name: 'Pixel Heroes: Byte & Magic'
+year: null
+user: FakeShemp
+runner: steam
+slug: pixel-heroes-byte-magic-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-05-31T14:01:51.036321Z'
+updated_at: '2017-05-31T16:28:30.958434Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 338320
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 338320

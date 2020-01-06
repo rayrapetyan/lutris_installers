@@ -1,0 +1,16 @@
+name: "So\u0142tys"
+slug: soltys
+year: 1995
+platforms:
+- name: MS-DOS
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/soltys.jpg
+icon_url: /games/icon/soltys.png
+is_public: true
+updated: '2019-01-23T08:31:17.833501Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

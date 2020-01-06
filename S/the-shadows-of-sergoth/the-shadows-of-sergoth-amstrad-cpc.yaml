@@ -1,0 +1,31 @@
+id: 8084
+game_id: 18129
+game_slug: the-shadows-of-sergoth
+name: The Shadows Of Sergoth
+year: 2018
+user: te_lanus
+runner: libretro
+slug: the-shadows-of-sergoth-amstrad-cpc
+version: Amstrad CPC
+description: null
+notes: ''
+created_at: '2018-05-07T07:25:25.562377Z'
+updated_at: '2018-05-07T07:25:35.456743Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Amstrad Disk File
+  game:
+    core: cap32
+    main_file: file1

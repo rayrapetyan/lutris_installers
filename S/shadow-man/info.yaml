@@ -1,0 +1,19 @@
+name: Shadow Man
+slug: shadow-man
+year: 1999
+platforms:
+- name: Sega Dreamcast
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Horror
+aliases: []
+banner_url: /games/banner/shadow-man.jpg
+icon_url: /games/icon/shadow-man.png
+is_public: true
+updated: '2019-04-13T04:19:22.510401Z'
+steamid: 251770
+gogslug: shadow_man
+humblestoreid: ''

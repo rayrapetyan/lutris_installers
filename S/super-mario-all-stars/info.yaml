@@ -1,0 +1,16 @@
+name: Super Mario All-Stars
+slug: super-mario-all-stars
+year: 1993
+platforms:
+- name: Super Nintendo
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/super-mario-all-stars.jpg
+icon_url: /games/icon/super-mario-all-stars.png
+is_public: true
+updated: '2019-01-23T08:31:30.567636Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

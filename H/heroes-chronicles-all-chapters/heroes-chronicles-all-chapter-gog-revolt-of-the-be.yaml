@@ -1,0 +1,31 @@
+id: 17131
+game_id: 30603
+game_slug: heroes-chronicles-all-chapters
+name: 'Heroes Chronicles: All Chapters'
+year: 1993
+user: edjaa84
+runner: wine
+slug: heroes-chronicles-all-chapter-gog-revolt-of-the-be
+version: GOG Revolt of the Beastmasters
+description: "Heroes Chronicles: Revolt of the Beastmasters (Acceso Directo)\r\n\r\
+  \nRaPiMoDEBianPaKaGer"
+notes: ''
+created_at: '2019-12-01T01:45:58.550985Z'
+updated_at: '2019-12-01T01:45:58.551015Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  custom-name: Revolt of the Beastmasters
+  game:
+    prefix: ~/Games/heroes-chronicles-all-chapters
+    exe: ~/Games/heroes-chronicles-all-chapters/drive_c/GOG Games/Heroes Chronicles/Revolt
+      of the Beastmasters/Beastmaster.exe
+    working_dir: ~/Games/heroes-chronicles-all-chapters/drive_c/GOG Games/Heroes Chronicles/Revolt
+      of the Beastmasters/
+    arch: win64

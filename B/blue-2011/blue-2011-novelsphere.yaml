@@ -1,0 +1,23 @@
+id: 10661
+game_id: 23008
+game_slug: blue-2011
+name: Blue* (2011)
+year: 2011
+user: kimchitea
+runner: browser
+slug: blue-2011-novelsphere
+version: Novelsphere
+description: null
+notes: ''
+created_at: '2018-10-27T23:40:04.409518Z'
+updated_at: '2018-10-28T05:30:06.964371Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: http://www.namaage.com/blue/novelsphere/

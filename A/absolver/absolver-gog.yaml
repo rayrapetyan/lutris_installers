@@ -1,0 +1,33 @@
+id: 10458
+game_id: 14041
+game_slug: absolver
+name: Absolver
+year: 2017
+user: OsamaBinlada
+runner: wine
+slug: absolver-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2018-10-08T13:51:25.510971Z'
+updated_at: '2018-10-10T01:04:36.146754Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 473690
+gogid: 1816205133
+gogslug: absolver
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: install
+      prefix: $GAMEDIR
+      description: Installing the game
+      name: wineexec
+  files:
+  - install: N/A:Select the Windows setup file downloaded from GOG
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/GOG Games/Absolver/Absolver.exe

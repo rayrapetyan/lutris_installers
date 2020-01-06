@@ -1,0 +1,89 @@
+id: 1585
+game_id: 4267
+game_slug: rollercoaster-tycoon-deluxe
+name: 'RollerCoaster Tycoon: Deluxe'
+year: 1999
+user: Lucki
+runner: wine
+slug: rollercoaster-tycoon-deluxe-gog-ws
+version: GOG + WS
+description: "This script will install \"RollerCoaster Tycoon: Deluxe\" Gog edition\
+  \ with support for modern computer configuration..\r\nDuring install please let\
+  \ all options by default.\r\nSources: http://www.wsgf.org/dr/rollercoaster-tycoon\
+  \ and https://www.gog.com/forum/rollercoaster_tycoon_series/hack_run_rct_full_screen_at_any_resolution_up_to_1280x1024/page2\r\
+  \nBig thanks to people who gave their time to permit us playing this game in the\
+  \ best conditions."
+notes: "- During install, the game will be automatically patched to use your native\
+  \ desktop resolution in windowed mode and deactivate fullscreen mode limited to\
+  \ 1024x768.\r\n- Multilanguage support en, fr, ge, it, sp\r\n- Please report issue\
+  \ concerning this script on my github page:\r\nhttps://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2015-08-27T18:15:38.948000Z'
+updated_at: '2019-10-23T09:10:47.628846Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: 285310
+gogid: 1207658945
+gogslug: rollercoaster_tycoon_deluxe
+humblestoreid: ''
+script:
+  custom-name: RollerCoaster Tycoon Deluxe - GOG
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/RollerCoaster Tycoon Deluxe/RCT.EXE
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Preparing wineprefix...
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES
+      description: Installing...
+      name: wineexec
+  - extract:
+      src: patch
+      dst: $GAMEDIR/drive_c/tmp
+  - input_menu:
+      options:
+      - en: English
+      - fr: French
+      - ge: German
+      - it: Italian
+      - sp: Spanish
+      description: 'Choose the game''s language:'
+      id: LANG
+      preselect: en
+  - chmodx: script
+  - execute:
+      args: $RESOLUTION_WIDTH $RESOLUTION_HEIGHT $INPUT_LANG
+      file: script
+  - copy:
+      src: config
+      dst: $GAMEDIR/drive_c/GOG Games/RollerCoaster Tycoon Deluxe/Data
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_DWORD
+      value: '00000000'
+      key: csmt
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D\
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: 0 0 0
+      key: background
+      path: HKEY_CURRENT_USER\Control Panel\Colors\
+  wine:
+    Desktop: true
+  files:
+  - setup: N/A:Select the Windows installer downloaded from GOG
+  - patch: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/RollerCoaster%20Tycoon%20Deluxe/rct_multi5_exe.zip
+  - script: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/RollerCoaster%20Tycoon%20Deluxe/resolang.sh
+  - config: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/RollerCoaster%20Tycoon%20Deluxe/Game.cfg

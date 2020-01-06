@@ -1,0 +1,24 @@
+id: 11205
+game_id: 23043
+game_slug: just-cause-4
+name: Just Cause 4
+year: 2018
+user: LunaDook
+runner: steam
+slug: just-cause-4-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2018-12-13T00:43:26.973000Z'
+updated_at: '2019-05-22T00:08:43.806498Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 517630
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 517630

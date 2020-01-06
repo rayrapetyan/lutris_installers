@@ -1,0 +1,18 @@
+name: Distance
+slug: distance
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Platform
+- name: Racing
+- name: Survival
+aliases: []
+banner_url: /games/banner/distance.jpg
+icon_url: /games/icon/distance.png
+is_public: true
+updated: '2019-01-23T08:29:13.655073Z'
+steamid: 233610
+gogslug: ''
+humblestoreid: ''

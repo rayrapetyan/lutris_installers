@@ -1,0 +1,28 @@
+id: 7026
+game_id: 15693
+game_slug: her-tears-were-my-light
+name: Her Tears Were My Light
+year: 2016
+user: FakeShemp
+runner: linux
+slug: her-tears-were-my-light-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2018-01-05T14:33:19.423545Z'
+updated_at: '2018-01-05T14:34:05.016782Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: HerTearsWereMyLight.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

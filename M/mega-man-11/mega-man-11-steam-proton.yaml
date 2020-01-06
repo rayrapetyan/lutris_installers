@@ -1,0 +1,24 @@
+id: 10808
+game_id: 23232
+game_slug: mega-man-11
+name: Mega Man 11
+year: 2018
+user: zeioth
+runner: steam
+slug: mega-man-11-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2018-11-08T04:22:00.404000Z'
+updated_at: '2019-09-10T20:02:42.401962Z'
+draft: false
+published: true
+published_by: 20548
+rating: '5'
+steamid: 742300
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 742300

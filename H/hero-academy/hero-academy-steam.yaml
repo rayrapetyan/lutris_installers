@@ -1,0 +1,24 @@
+id: 133
+game_id: 644
+game_slug: hero-academy
+name: Hero Academy
+year: 2012
+user: dennisjj4
+runner: steam
+slug: hero-academy-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2013-12-19T23:26:54.886000Z'
+updated_at: '2013-12-20T10:28:22.241000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 209270
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 209270

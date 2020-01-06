@@ -1,0 +1,15 @@
+name: Arx Fatalis
+slug: arx-fatalis
+year: 2002
+platforms:
+- name: Linux
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/arx-fatalis.jpg
+icon_url: /games/icon/arx-fatalis.png
+is_public: true
+updated: '2019-03-06T18:39:51.615308Z'
+steamid: 1700
+gogslug: arx_fatalis
+humblestoreid: ''

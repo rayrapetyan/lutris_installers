@@ -1,0 +1,17 @@
+name: Sonic Adventure 2
+slug: sonic-adventure-2
+year: 2001
+platforms:
+- name: GameCube
+- name: Sega Dreamcast
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/sonic-adventure-2.jpg
+icon_url: /games/icon/sonic-adventure-2.png
+is_public: true
+updated: '2019-05-21T05:51:45.511851Z'
+steamid: 213610
+gogslug: ''
+humblestoreid: ''

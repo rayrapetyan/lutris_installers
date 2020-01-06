@@ -1,0 +1,56 @@
+id: 17261
+game_id: 28978
+game_slug: gog-galaxy-20
+name: GOG Galaxy 2.0
+year: 2019
+user: miig
+runner: wine
+slug: gog-galaxy-20-gog-galaxy-2-beta
+version: GOG Galaxy 2 beta
+description: null
+notes: ''
+created_at: '2019-12-10T18:55:29.722535Z'
+updated_at: '2019-12-10T18:55:29.722560Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    args: /runWithoutUpdating /deelevated
+    exe: drive_c/Program Files (x86)/GOG Galaxy/GalaxyClient.exe
+    arch: win64
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: corefonts
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: galaxy
+      prefix: $GAMEDIR
+      args: /silent
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  wine:
+    version: tkg-4.4-x86_64
+  files:
+  - galaxy: https://webinstallers.gog.com/download/GOG_Galaxy_2.0.exe?payload=k0POowo6AeeNZTLkPgMOLmO8t2FkfK8s89yqS5hjOywV6bd6RHPY5JL9E63Seaar0pyGLhkw7smx1TVShN0Gp8P2pUMg1RuQr50H5AEBamw3lEbvLJIZJrnr49h8A5f8FWFvvYb3FAvAsF7thJWkOmrmMwJd5B25zhYc39JDEMQom7cDSVsUw5gAPIU5KyUw7gg82OwUSpjpOoo3W6j3mEM5TDr__-gj0xiwIclBQ2Z32j4HJP5ZzMQoCBp-TSw8ami3fc0ZZTy8Kzzrd65SwkYjj9w4WRWeeJYogUeZ_uMvU5D9dooTKJ4bgVaThtuv9k99xax8z8500Mb9b2OL0i7X37CyhU1gqZt5f00XUSeS1BZ2QZgg-7uXEezYJZn-pHK8aAHXP3Qy930FGuL5083UNQoNq3wQZSzGC9SDbfeTMl_598SBsBnhxmboofQTZVguUwcamYUAOjB2tXn8QCLvEXy4mdcsY2seCoPlkyFG41oopnf1smUETBnB_lw-zYsjFtTAR3t4r_LO8W31RwWqamXQd-lbL6v9EKFQIClgVnrvP1owePT_vDZLS9Mj-HX082TVtEmHdPltPXeagqYK7THe93a8JVrulkuwL43v3fu2Kt_u1al23Bgu1P3KafN3M2YUMnlE71TSe3MhG4Hj9UOhkcCWxFCc5Ue_0BNzXc82tOyVxAf6k7r-ecj4tRFpsap4TNIcHFu6uQz0QoNl5xzxWQXCnxCx67ShqZRKpGO7STGa8w..&_ga=2.38811300.647898239.1576003177-828880860.1544897982

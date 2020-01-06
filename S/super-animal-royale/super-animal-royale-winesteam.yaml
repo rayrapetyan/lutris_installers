@@ -1,0 +1,25 @@
+id: 17171
+game_id: 25653
+game_slug: super-animal-royale
+name: Super Animal Royale
+year: null
+user: JagDogger2525
+runner: winesteam
+slug: super-animal-royale-winesteam
+version: WineSteam
+description: null
+notes: While configuring for WineSteam, under Game Settings, enter 843380 into the
+  Application ID entry box.
+created_at: '2019-12-03T20:26:16.058067Z'
+updated_at: '2019-12-03T20:26:16.058102Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 843380
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 843380

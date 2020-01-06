@@ -1,0 +1,26 @@
+id: 9927
+game_id: 6219
+game_slug: nostale
+name: NosTale
+year: 2007
+user: jona1993
+runner: winesteam
+slug: nostale-steam
+version: Steam
+description: null
+notes: '- The Gameshop and tutorials do not display well.'
+created_at: '2018-08-28T15:34:42.750000Z'
+updated_at: '2019-01-27T01:39:14.072158Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 550470
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR/NosTale
+    appid: 550470
+    arch: win64

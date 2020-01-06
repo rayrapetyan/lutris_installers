@@ -1,0 +1,16 @@
+name: Clustertruck
+slug: clustertruck
+year: null
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/clustertruck.jpg
+icon_url: /games/icon/clustertruck.png
+is_public: true
+updated: '2019-06-27T05:10:45.516513Z'
+steamid: 397950
+gogslug: clustertruck
+humblestoreid: ''

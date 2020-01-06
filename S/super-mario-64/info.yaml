@@ -1,0 +1,16 @@
+name: Super Mario 64
+slug: super-mario-64
+year: 1996
+platforms:
+- name: Nintendo 64
+- name: Nintendo Wii
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/super-mario-64.jpg
+icon_url: /games/icon/super-mario-64.png
+is_public: true
+updated: '2019-01-23T08:31:30.518466Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

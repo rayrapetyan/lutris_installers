@@ -1,0 +1,15 @@
+name: Spellspire
+slug: spellspire
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/spellspire.jpg
+icon_url: /games/icon/spellspire.png
+is_public: true
+updated: '2019-05-21T23:55:19.815174Z'
+steamid: 626580
+gogslug: ''
+humblestoreid: ''

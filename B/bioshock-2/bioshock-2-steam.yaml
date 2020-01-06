@@ -1,0 +1,26 @@
+id: 1178
+game_id: 160
+game_slug: bioshock-2
+name: BioShock 2
+year: 2010
+user: strider
+runner: winesteam
+slug: bioshock-2-steam
+version: steam
+description: null
+notes: "Turn down the textures quality to Medium to make the game playable.\r\nDisable\
+  \ ESYNC if you're encountering problems such as low-res graphics and game crashing\
+  \ upon hitting ESC to bring up menu."
+created_at: '2014-11-30T18:43:41.530000Z'
+updated_at: '2019-04-21T07:40:44.039940Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 8850
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 8850

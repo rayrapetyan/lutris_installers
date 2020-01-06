@@ -1,0 +1,47 @@
+id: 1808
+game_id: 5398
+game_slug: need-for-speed-most-wanted
+name: 'Need for Speed: Most Wanted'
+year: 2005
+user: strider
+runner: wine
+slug: need-for-speed-most-wanted-cd
+version: cd
+description: ''
+notes: 'Game is patched for full HD and uses xboxdrv for deadzone and triggers adjustments. '
+created_at: '2015-12-30T10:51:30.477383Z'
+updated_at: '2018-05-19T03:41:48.488032Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  system:
+    xboxdrv: --deadzone=6000 --trigger-as-button=true
+  game:
+    prefix: $GAMEDIR
+    arch: win32
+  installer:
+  - insert-disc:
+      requires: 0compressed.zip
+  - task:
+      executable: $DISC/AutoRun.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      executable: $DISC/AutoRun.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  - rename:
+      src: $GAMEDIR/drive_c/Program Files/EA GAMES/Need for Speed Most Wanted/speed.exe
+      dst: $GAMEDIR/drive_c/Program Files/EA GAMES/Need for Speed Most Wanted/speed2.exe
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/EA GAMES/Need for Speed Most Wanted/
+      file: hdpatch
+  exe: drive_c/Program Files/EA GAMES/Need for Speed Most Wanted/speed.exe
+  files:
+  - hdpatch: https://lutris.net/files/games/need-for-speed-most-wanted/nfsmw-hd-patch.tar.gz

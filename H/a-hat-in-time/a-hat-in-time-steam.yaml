@@ -1,0 +1,44 @@
+id: 8313
+game_id: 7712
+game_slug: a-hat-in-time
+name: A Hat in Time
+year: 2017
+user: cxf
+runner: winesteam
+slug: a-hat-in-time-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-17T01:03:28.180000Z'
+updated_at: '2019-11-24T17:31:29.535844Z'
+draft: false
+published: false
+published_by: 19464
+rating: ''
+steamid: 253230
+gogid: 1686426343
+gogslug: a_hat_in_time
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: d3dcompiler_43 d3dx9
+      name: winetricks
+  winesteam:
+    version: ge-protonified-4.9-x86_64
+    esync: true
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: compiler
+      __GL_SHADER_DISK_CACHE: 1
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+    pulse_latency: true
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 253230
+    arch: win64

@@ -1,0 +1,15 @@
+name: Fluffy Store
+slug: fluffy-store
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/fluffy-store.jpg
+icon_url: /games/icon/fluffy-store.png
+is_public: true
+updated: '2019-11-18T04:00:21.249356Z'
+steamid: 1038740
+gogslug: ''
+humblestoreid: ''

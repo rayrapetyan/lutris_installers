@@ -1,0 +1,37 @@
+id: 5760
+game_id: 2562
+game_slug: konung-3-ties-of-the-dynasty
+name: 'Konung 3: Ties of the Dynasty'
+year: null
+user: FakeShemp
+runner: wine
+slug: konung-3-ties-of-the-dynasty-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-16T20:28:08.525000Z'
+updated_at: '2018-05-19T03:41:52.421760Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 289380
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/setup.exe
+      prefix: $GAMEDIR
+      args: /sp- /verysilent /norestart /suppressmsgboxes /nogui
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/1C Company/Konung 3. Ties of the Dynasty/Konung3.exe
+    arch: win32

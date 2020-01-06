@@ -1,0 +1,40 @@
+id: 4518
+game_id: 11822
+game_slug: edelweiss
+name: Edelweiss
+year: 2006
+user: FakeShemp
+runner: wine
+slug: edelweiss-mangagamer
+version: MangaGamer
+description: ''
+notes: ''
+created_at: '2017-06-20T19:34:34.075000Z'
+updated_at: '2018-05-19T03:41:50.477458Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - extract:
+      dst: $CACHE
+      file: $file2
+  - extract:
+      format: rar
+      dst: $GAMEDIR/drive_c/Program Files/Edelweiss
+      file: $CACHE/Edelweiss.part1.exe
+  files:
+  - file1: N/A:Please select the first MangaGamer archive
+  - file2: N/A:Please select the second MangaGamer archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Edelweiss/BGI.exe
+    arch: win32

@@ -1,0 +1,68 @@
+id: 10159
+game_id: 133
+game_slug: grand-theft-auto-iii
+name: Grand Theft Auto III
+year: 2001
+user: soredake
+runner: winesteam
+slug: grand-theft-auto-iii-steam-modded
+version: Steam modded
+description: null
+notes: "- CLEO\r\n- SilentPatch\r\n- ThirteenAG's Widescreen Fix\r\n- GInput\r\n-\
+  \ freevehiclecamera"
+created_at: '2018-09-12T09:26:37.857000Z'
+updated_at: '2018-12-18T12:19:37.248101Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 12100
+gogid: null
+gogslug: ''
+humblestoreid: grand-theft-auto-iii
+script:
+  winesteam:
+    overrides:
+      winegstreamer: disabled
+      d3d8: n
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Setting up wine prefix
+      arch: win32
+      name: create_prefix
+  - extract:
+      dst: $GAMEDIR
+      file: $cleo
+  - extract:
+      dst: $GAMEDIR
+      file: $silentpatch
+  - extract:
+      dst: $GAMEDIR
+      file: $ddrawpatch
+  - extract:
+      dst: $GAMEDIR
+      file: $ginput
+  - extract:
+      dst: $GAMEDIR
+      file: $widescreenfix
+  - extract:
+      dst: $GAMEDIR
+      file: $widescreenfrontend
+  - merge:
+      src: $freevehiclecamera
+      dst: $GAMEDIR/CLEO
+  files:
+  - cleo: https://cleo.li/cleo4/III.CLEOv2.0.0.5.zip
+  - ddrawpatch: http://silent.rockstarvision.com/uploads/SilentPatchDDraw.zip
+  - silentpatch: http://silent.rockstarvision.com/uploads/SilentPatchIII.zip
+  - ginput:
+      filename: ginput.zip
+      url: https://www.gtagarage.com/mods/download.php?f=39118
+  - widescreenfix: https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/gta3/GTA3.WidescreenFix.zip
+  - widescreenfrontend: https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/gta3/GTA3.WidescreenFrontend.zip
+  - freevehiclecamera: https://github.com/ThirteenAG/III.VC.SA.CLEOScripts/releases/download/VehCameraMovement/III.VehCameraMovement.cs
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 12100
+    arch: win32

@@ -1,0 +1,16 @@
+name: X-Plane 11
+slug: x-plane-11
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Flight
+- name: Simulation
+aliases: []
+banner_url: /games/banner/x-plane-11.jpg
+icon_url: /games/icon/x-plane-11.png
+is_public: true
+updated: '2019-01-23T08:32:12.669084Z'
+steamid: 269950
+gogslug: ''
+humblestoreid: ''

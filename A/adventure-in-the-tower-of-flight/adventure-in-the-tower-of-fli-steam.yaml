@@ -1,0 +1,24 @@
+id: 2404
+game_id: 5596
+game_slug: adventure-in-the-tower-of-flight
+name: Adventure in the Tower of Flight
+year: null
+user: gschaffran
+runner: steam
+slug: adventure-in-the-tower-of-fli-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-08-09T17:33:57.816827Z'
+updated_at: '2016-09-30T20:48:11.059260Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 368830
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 368830

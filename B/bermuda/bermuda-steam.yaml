@@ -1,0 +1,24 @@
+id: 2452
+game_id: 3997
+game_slug: bermuda
+name: Bermuda
+year: 2014
+user: gschaffran
+runner: steam
+slug: bermuda-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-08-15T18:10:47.626342Z'
+updated_at: '2016-09-30T20:49:44.623894Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 337630
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 337630

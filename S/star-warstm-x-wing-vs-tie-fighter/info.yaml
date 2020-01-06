@@ -1,0 +1,15 @@
+name: "STAR WARS\u2122: X-Wing vs. TIE Fighter"
+slug: star-warstm-x-wing-vs-tie-fighter
+year: 1997
+platforms:
+- name: Windows
+genres:
+- name: Space flight
+aliases: []
+banner_url: /games/banner/star-warstm-x-wing-vs-tie-fighter.jpg
+icon_url: /games/icon/star-warstm-x-wing-vs-tie-fighter.png
+is_public: true
+updated: '2019-05-19T07:10:44.064778Z'
+steamid: 361690
+gogslug: ''
+humblestoreid: ''

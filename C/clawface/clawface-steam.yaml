@@ -1,0 +1,24 @@
+id: 7528
+game_id: 17365
+game_slug: clawface
+name: Clawface
+year: 2018
+user: t-rex91
+runner: steam
+slug: clawface-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-14T14:13:01.115589Z'
+updated_at: '2018-03-15T06:05:10.500104Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 785130
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 785130

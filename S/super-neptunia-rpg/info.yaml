@@ -1,0 +1,17 @@
+name: Super Neptunia RPG
+slug: super-neptunia-rpg
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/super-neptunia-rpg.jpg
+icon_url: /games/icon/super-neptunia-rpg.png
+is_public: true
+updated: '2019-12-19T17:52:58.313714Z'
+steamid: 1016960
+gogslug: ''
+humblestoreid: ''

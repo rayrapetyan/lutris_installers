@@ -1,0 +1,28 @@
+id: 4912
+game_id: 11872
+game_slug: the-thing-with-mistletoes
+name: The Thing With Mistletoes
+year: 2016
+user: FakeShemp
+runner: linux
+slug: the-thing-with-mistletoes-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-07-08T10:39:14.003126Z'
+updated_at: '2017-07-09T20:13:04.245217Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 587290
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: The Thing With Mistletoes.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

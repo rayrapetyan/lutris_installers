@@ -1,0 +1,39 @@
+id: 8614
+game_id: 14907
+game_slug: prey-2017
+name: Prey 2017
+year: 2017
+user: cxf
+runner: winesteam
+slug: prey-2017-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2018-06-09T00:55:13.799000Z'
+updated_at: '2019-02-16T04:20:00.258232Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 480490
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 480490
+    arch: win64

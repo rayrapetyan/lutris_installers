@@ -1,0 +1,60 @@
+id: 17458
+game_id: 21384
+game_slug: fire-emblem
+name: Fire Emblem
+year: 2003
+user: Sony_Set
+runner: libretro
+slug: fire-emblem-mgba-core
+version: mGBA core
+description: null
+notes: Test
+created_at: '2019-12-20T12:23:38.109546Z'
+updated_at: '2019-12-20T12:23:38.109570Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  count: 1
+  next: null
+  previous: null
+  results:
+  - published_by: null
+    description: ''
+    draft: false
+    steamid: null
+    created_at: null
+    rating: null
+    content: '{"runner": "libretro", "game": {"main_file": "rom", "core": "vbam"},
+      "version": "gba", "installer": [{"merge": {"dst": "$GAMEDIR", "src": "rom"}}],
+      "files": [{"rom": "N/A:Select the game''s ROM file"}]}'
+    year: 2003
+    slug: fire-emblem-gba
+    gogid: null
+    runner: libretro
+    script:
+      version: gba
+      installer:
+      - merge:
+          src: rom
+          dst: $GAMEDIR
+      files:
+      - rom: N/A:Select the game's ROM file
+      game:
+        core: mgba
+        main_file: rom
+    user: null
+    humblestoreid: ''
+    id: null
+    notes: ''
+    gogslug: ''
+    version: Nintendo Game Boy Advance
+    game_slug: fire-emblem
+    published: true
+    updated_at: null
+    name: Fire Emblem

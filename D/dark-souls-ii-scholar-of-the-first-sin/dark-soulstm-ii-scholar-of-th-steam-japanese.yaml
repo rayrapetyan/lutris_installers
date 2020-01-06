@@ -1,0 +1,46 @@
+id: 5887
+game_id: 4573
+game_slug: dark-souls-ii-scholar-of-the-first-sin
+name: "DARK SOULS\u2122 II: Scholar of the First Sin"
+year: 2012
+user: moist
+runner: winesteam
+slug: dark-soulstm-ii-scholar-of-th-steam-japanese
+version: Steam Japanese
+description: null
+notes: "In order to download the version of Dark Souls 2 with Japanese language support,\
+  \ one has to purchase the game while on a Japanese IP address. There is actually\
+  \ a different page presented for this version for a different steamid, note that\
+  \ there is a line on the store page stating that this is the version with Japanese\
+  \ support (\u304A\u77E5\u3089\u305B: \u3053\u306E\u30D0\u30FC\u30B8\u30E7\u30F3\u306E\
+  \u30B2\u30FC\u30E0\u306F\u65E5\u672C\u8A9E\u3092\u542B\u307F\u307E\u3059\u3002);\
+  \ even though there is still no support stated in the usual place for language support.\r\
+  \n\r\nThe grass and other types of foliage seem to only appear when you are standing\
+  \ in them but everything else renders right."
+created_at: '2017-10-03T22:35:22.854000Z'
+updated_at: '2019-02-09T08:43:46.342616Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 335300
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: set_regedit
+      type: REG_SZ
+      value: enabled
+      key: StrictDrawOrdering
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 236430
+    arch: win64

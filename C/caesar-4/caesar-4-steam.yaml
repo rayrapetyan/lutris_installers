@@ -1,0 +1,54 @@
+id: 9044
+game_id: 7320
+game_slug: caesar-4
+name: Caesar 4
+year: 2006
+user: Asgaroth
+runner: winesteam
+slug: caesar-4-steam
+version: Steam
+description: Steam install script has an error.
+notes: 'In order for script to install I had to change line 30 "Version: staging-3.11-x86_64"
+  to "staging-3.12-x86_64" as wine 3.11 no longer seems to be enabled. game runs fine
+  with 3.12.'
+created_at: '2018-07-06T12:41:32.963000Z'
+updated_at: '2019-05-18T06:36:57.222521Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 517810
+gogid: 1460037487
+gogslug: caesar_iv
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-3.12-x86_64
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Creating wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Using winetricks to install .Net 2.0
+      app: dotnet20
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Using winetricks to install DirectX 9_29
+      app: d3dx9_29
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Setting wine to Windows 10
+      app: win10
+      arch: win32
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 517810
+    arch: win32

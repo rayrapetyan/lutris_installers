@@ -1,0 +1,22 @@
+name: Alien 3
+slug: alien-3
+year: 1993
+platforms:
+- name: Amiga
+- name: Commodore 64
+- name: NES
+- name: Sega Game Gear
+- name: Sega Genesis / Mega Drive
+- name: Sega Master System
+- name: Super Nintendo
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/alien-3.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:18.333252Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

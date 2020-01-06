@@ -1,0 +1,32 @@
+id: 6121
+game_id: 14414
+game_slug: nonnative
+name: NONNATIVE
+year: 2017
+user: FakeShemp
+runner: wine
+slug: nonnative-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-10-26T10:25:59.365567Z'
+updated_at: '2018-05-19T03:41:55.176373Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/NONNATIVE
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/NONNATIVE/NONNATIVE.exe
+    arch: win32

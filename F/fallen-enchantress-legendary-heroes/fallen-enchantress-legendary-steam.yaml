@@ -1,0 +1,24 @@
+id: 1895
+game_id: 844
+game_slug: fallen-enchantress-legendary-heroes
+name: 'Fallen Enchantress: Legendary Heroes'
+year: null
+user: WildCoder
+runner: winesteam
+slug: fallen-enchantress-legendary-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-01-17T17:43:04.137026Z'
+updated_at: '2016-08-18T10:12:53.166161Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 228260
+gogid: 1449593992
+gogslug: fallen_enchantress_legendary_heroes
+humblestoreid: ''
+script:
+  game:
+    appid: 228260

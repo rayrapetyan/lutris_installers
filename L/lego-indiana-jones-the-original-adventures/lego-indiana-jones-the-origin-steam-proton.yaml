@@ -1,0 +1,24 @@
+id: 8875
+game_id: 6128
+game_slug: lego-indiana-jones-the-original-adventures
+name: 'LEGO Indiana Jones: The Original Adventures'
+year: 2008
+user: lordheavy
+runner: steam
+slug: lego-indiana-jones-the-origin-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2018-06-23T17:53:17.963000Z'
+updated_at: '2019-10-28T00:13:44.949507Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 32330
+gogid: 1194227151
+gogslug: lego_indiana_jones_the_original_adventures
+humblestoreid: ''
+script:
+  game:
+    appid: 32330

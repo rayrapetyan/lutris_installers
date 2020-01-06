@@ -1,0 +1,61 @@
+id: 9893
+game_id: 16451
+game_slug: kingdom-come-deliverance
+name: 'Kingdom Come: Deliverance'
+year: 2018
+user: SmashleyG
+runner: wine
+slug: kingdom-come-deliverance-gog-w-dxvk
+version: GOG w/ DXVK
+description: null
+notes: ''
+created_at: '2018-08-26T07:00:58.332000Z'
+updated_at: '2019-04-10T05:08:00.973022Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 379430
+gogid: 1719198803
+gogslug: kingdom_come_deliverance
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Running GOG Installer
+      name: wineexec
+  - merge:
+      src: $GAMEDIR/drive_c/GOG Games/Kingdom Come Deliverance/bin/Win64Shared/d3dcompiler_46.dll
+      dst: $GAMEDIR/drive_c/GOG Games/Kingdom Come Deliverance/bin/Win64
+  - merge:
+      src: $GAMEDIR/drive_c/GOG Games/Kingdom Come Deliverance/bin/Win64Shared/d3dcompiler_47.dll
+      dst: $GAMEDIR/drive_c/GOG Games/Kingdom Come Deliverance/bin/Win64
+  - merge:
+      src: $GAMEDIR/drive_c/GOG Games/Kingdom Come Deliverance/bin/Win64Shared/amd_ags_x64.dll
+      dst: $GAMEDIR/drive_c/GOG Games/Kingdom Come Deliverance/bin/Win64
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Kingdom Come Deliverance/bin/Win64/KingdomCome.exe
+  system:
+    env:
+      mesa_glthread: 'true'
+      __GL_THREADED_OPTIMIZATION: 1
+      DXVK_HUD: 0
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+      __GL_SHADER_CACHE: 1
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_STATE_CACHE: 1
+  wine:
+    version: tkg-4.0-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      xaudio2_7: native,builtin
+  files:
+  - setup: N/A:Select the GOG setup exe

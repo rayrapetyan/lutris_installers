@@ -1,0 +1,48 @@
+id: 17773
+game_id: 382
+game_slug: vampire-the-masquerade-bloodlines
+name: 'Vampire: The Masquerade - Bloodlines'
+year: 2004
+user: gto
+runner: wine
+slug: vampire-the-masquerade-bloodl-dvd
+version: DVD
+description: null
+notes: ''
+created_at: '2020-01-05T23:35:31.270606Z'
+updated_at: '2020-01-05T23:35:31.270633Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: 2600
+gogid: 1207659240
+gogslug: vampire_the_masquerade_bloodlines
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - insert-disc:
+      requires: setup.exe
+      description: Insert disc
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  - move:
+      src: patch105rc61
+      description: Moving the patch
+      dst: $GAMEDIR/drive_c/
+  - task:
+      executable: $GAMEDIR/drive_c/VTMBup105rc6.1.exe
+      prefix: $GAMEDIR
+      description: Running the Patch.
+      name: wineexec
+  files:
+  - patch105rc61: https://www.moddb.com/downloads/mirror/187322/123/e82c0e9ff94c919213c3d48fbf81960f/?referer=https%3A%2F%2Fwww.moddb.com%2Fgames%2Fvampire-the-masquerade-bloodlines%2Fdownloads
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/VTMB/VMTB.exe
+    arch: win32

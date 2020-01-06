@@ -1,0 +1,41 @@
+id: 12269
+game_id: 26096
+game_slug: touhou-1-highly-responsive-to-prayers
+name: "\u6771\u65B9\u9748\u7570\u4F1D\u3000\uFF5E Highly Responsive to Prayers"
+year: 1996
+user: Doomsdayrs
+runner: wine
+slug: highly-responsive-to-prayers-anex86-pc-98
+version: Anex86 PC-98
+description: Anex86 emulator, runs well with wine
+notes: "get anex86.bmp font and set it in config of anex86\r\nFor running the game,\
+  \ select the HDI then run. \r\nFull screen does not work. but streching the window\
+  \ out does."
+created_at: '2019-03-05T11:29:48.260000Z'
+updated_at: '2019-03-08T02:42:26.797482Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: anex86.exe
+  installer:
+  - extract:
+      dst: $GAMEDIR/
+      file: $CACHE/a.7z
+  - copy:
+      src: file2
+      dst: $GAMEDIR
+  - copy:
+      src: file3
+      dst: $GAMEDIR
+  files:
+  - file1:
+      filename: a.7z
+      url: https://github.com/romjacket/Anex86/raw/master/Anex86.7z
+  - file2: N/A:Provide the HDI file for the first game
+  - file3: N/A:Provide anex86.bmp font file

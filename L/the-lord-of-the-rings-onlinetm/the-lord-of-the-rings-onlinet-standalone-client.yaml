@@ -1,0 +1,54 @@
+id: 10306
+game_id: 824
+game_slug: the-lord-of-the-rings-onlinetm
+name: "The Lord of the Rings Online\u2122"
+year: null
+user: knathrak
+runner: wine
+slug: the-lord-of-the-rings-onlinet-standalone-client
+version: Standalone client
+description: Standalone lotro client
+notes: "At the end on the installer do not launch game and allow the installer to\
+  \ complete.\r\nDuring first launch the Akamai client will be installed which is\
+  \ used to download/update the game files"
+created_at: '2018-09-23T15:06:32.815000Z'
+updated_at: '2018-09-25T17:33:11.362509Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 212500
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing fonts
+      app: corefonts
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows version to Visual C++ 2017
+      app: vcrun2017
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows version to XP
+      app: winxp
+      name: winetricks
+  - task:
+      executable: lotro_installer
+      prefix: $GAMEDIR
+      args: --mode unattended
+      name: wineexec
+  files:
+  - lotro_installer: http://content.turbine.com/sites/clientdl/lotro/lotrolive.exe
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/StandingStoneGames/The Lord of the Rings Online/TurbineLauncher.exe

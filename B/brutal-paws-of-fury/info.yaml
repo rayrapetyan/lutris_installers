@@ -1,0 +1,18 @@
+name: 'Brutal: Paws of Fury'
+slug: brutal-paws-of-fury
+year: 1994
+platforms:
+- name: Amiga
+- name: MS-DOS
+- name: Sega Genesis / Mega Drive
+- name: Super Nintendo
+genres:
+- name: Beat'em up
+aliases: []
+banner_url: /games/banner/brutal-paws-of-fury.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:42.698777Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

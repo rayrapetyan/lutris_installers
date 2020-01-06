@@ -1,0 +1,20 @@
+name: Worms Armageddon
+slug: worms-armageddon
+year: 1999
+platforms:
+- name: Nintendo 64
+- name: Nintendo Game Boy Color
+- name: Sega Dreamcast
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Artillery
+- name: Turn-based tactics
+aliases: []
+banner_url: /games/banner/worms-armageddon.jpg
+icon_url: /games/icon/worms-armageddon.png
+is_public: true
+updated: '2019-03-06T04:48:13.117573Z'
+steamid: 217200
+gogslug: worms_armageddon
+humblestoreid: ''

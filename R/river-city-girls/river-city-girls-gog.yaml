@@ -1,0 +1,42 @@
+id: 17471
+game_id: 30594
+game_slug: river-city-girls
+name: River City Girls
+year: 2019
+user: croxxx
+runner: wine
+slug: river-city-girls-gog
+version: GOG
+description: null
+notes: "This installs the game but it is not playable currently. After showing the\
+  \ disclaimer notice the screen remains black and nothing happens.\r\nReason for\
+  \ this is the need for a Media Foundation MP4 decoder, which just does not exist\
+  \ in Winetricks currently."
+created_at: '2019-12-21T18:34:42.876000Z'
+updated_at: '2019-12-23T10:47:11.861971Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      args: /SILENT /LANG=en /SP- /NOCANCEL /SUPPRESSMSGBOXES /NOGUI
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: mf
+      name: winetricks
+  files:
+  - installer: N/A:Select the game's setup file
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/GOG Games/River City Girls/RiverCityGirls.exe
+    arch: win64

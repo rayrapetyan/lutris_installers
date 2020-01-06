@@ -1,0 +1,31 @@
+id: 10907
+game_id: 23418
+game_slug: modern-combat-4-zero-hour
+name: 'Modern Combat 4: Zero Hour'
+year: 2012
+user: te_lanus
+runner: libretro
+slug: modern-combat-4-zero-hour-j2me
+version: J2ME
+description: null
+notes: ''
+created_at: '2018-11-18T13:40:58.352771Z'
+updated_at: '2018-11-18T13:41:07.547606Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Java game file
+  game:
+    core: freej2me
+    main_file: file1

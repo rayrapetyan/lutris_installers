@@ -1,0 +1,31 @@
+id: 6455
+game_id: 14967
+game_slug: barista
+name: Barista
+year: 2004
+user: fanotriel
+runner: zdoom
+slug: barista-zdoom
+version: ZDoom
+description: null
+notes: ''
+created_at: '2017-11-28T02:29:33.273802Z'
+updated_at: '2017-11-28T02:34:30.978180Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: $download
+  files:
+  - download: http://blendogames.com/files/barista1.zip
+  game:
+    main_file: data/01.wad
+    files:
+    - data/barista.wad

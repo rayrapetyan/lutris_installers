@@ -1,0 +1,15 @@
+name: The Witness
+slug: the-witness
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/the-witness.jpg
+icon_url: /games/icon/the-witness.png
+is_public: true
+updated: '2019-01-23T08:31:48.945951Z'
+steamid: 210970
+gogslug: the_witness
+humblestoreid: the-witness

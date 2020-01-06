@@ -1,0 +1,24 @@
+id: 1229
+game_id: 3559
+game_slug: xenoraptor
+name: XenoRaptor
+year: null
+user: Xodetaetl
+runner: steam
+slug: xenoraptor-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-01-05T19:20:54.584000Z'
+updated_at: '2015-01-05T19:20:59.390000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 298280
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 298280

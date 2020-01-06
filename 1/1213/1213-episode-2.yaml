@@ -1,0 +1,28 @@
+id: 3804
+game_id: 3889
+game_slug: '1213'
+name: '1213'
+year: 2005
+user: FakeShemp
+runner: ags
+slug: 1213-episode-2
+version: Episode 2
+description: ''
+notes: ''
+created_at: '2017-05-22T18:57:37.686746Z'
+updated_at: '2017-05-27T21:14:40.008629Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: 1213_ep2.exe
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: http://www.americangirlscouts.org/1213/1213_ep2.zip

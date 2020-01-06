@@ -1,0 +1,16 @@
+name: Pokemon Revolution Online
+slug: pokemon-revolution-online
+year: 2014
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: MMORPG
+aliases: []
+banner_url: /games/banner/pokemon-revolution-online.jpg
+icon_url: /games/icon/pokemon-revolution-online.png
+is_public: true
+updated: '2019-01-23T08:30:47.187815Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

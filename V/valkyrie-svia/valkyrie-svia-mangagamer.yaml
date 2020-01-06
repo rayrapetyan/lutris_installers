@@ -1,0 +1,36 @@
+id: 4786
+game_id: 12048
+game_slug: valkyrie-svia
+name: Valkyrie Svia
+year: 2006
+user: FakeShemp
+runner: wine
+slug: valkyrie-svia-mangagamer
+version: MangaGamer
+description: ''
+notes: ''
+created_at: '2017-07-03T19:06:12.782000Z'
+updated_at: '2017-07-04T18:10:27.689340Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/ValkyrieSviaInstaller.exe
+      prefix: $GAMEDIR
+      args: /S
+      name: wineexec
+  files:
+  - file1: N/A:Please select the MangaGamer archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Games/Mangagamer/Valkyrie Svia/svia.exe

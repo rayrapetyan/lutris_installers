@@ -1,0 +1,29 @@
+id: 2500
+game_id: 1422
+game_slug: nuclear-throne
+name: Nuclear Throne
+year: null
+user: Lulu
+runner: linux
+slug: nuclear-throne-humble-bundle
+version: Humble Bundle
+description: ''
+notes: ''
+created_at: '2016-08-18T18:16:42.341527Z'
+updated_at: '2016-09-09T21:23:55.543556Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 242680
+gogid: 1448617555
+gogslug: nuclear_throne
+humblestoreid: ''
+script:
+  exe: runner
+  installer:
+  - extract:
+      file: nuclear-throne-game
+  - chmodx: $GAMEDIR/runner
+  files:
+  - nuclear-throne-game: N/A:Please select the .zip install file downloaded from humblebundle.com

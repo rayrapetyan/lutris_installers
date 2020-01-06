@@ -1,0 +1,49 @@
+id: 8731
+game_id: 1458
+game_slug: warcraft-iii-reign-of-chaos
+name: 'Warcraft III: Reign of Chaos'
+year: 2002
+user: socterean
+runner: wine
+slug: warcraft-iii-reign-of-chaos-126b-complete-editio-1
+version: 1.26b Complete Edition
+description: For CD or Digital game version.
+notes: "NOTE: for better performance it is recommended that you use Wine Staging and\
+  \ after installing the game right click on the game entry in Lutris, then click\
+  \ Wine configuration -> Staging and enable \"VAAPI as backend for DXVA2 GPU decoding\
+  \ \"\r\n\r\nIngame videos enabled again, and fixed launching issue (folder with\
+  \ incorrect name)"
+created_at: '2018-06-14T13:28:49.442000Z'
+updated_at: '2018-06-14T14:05:37.609956Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: drive_c/Program Files/Warcraft III/Warcraft III.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: 'Installing Warcraft III: Reign of Chaos'
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Switching to OpenGL renderer
+      key: Gfx OpenGL
+      value: 1
+      path: HKEY_CURRENT_USER\Software\Blizzard Entertainment\Warcraft
+      name: set_regedit
+  files:
+  - setup: 'N/A:Select the installer for Warcraft III: Reign of Chaos'
+  game:
+    prefix: $GAMEDIR
+    arch: win32

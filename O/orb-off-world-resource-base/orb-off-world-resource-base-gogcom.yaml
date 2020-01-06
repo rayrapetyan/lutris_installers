@@ -1,0 +1,53 @@
+id: 2525
+game_id: 7244
+game_slug: orb-off-world-resource-base
+name: 'O.R.B: Off-World Resource Base'
+year: 2002
+user: ssf
+runner: wine
+slug: orb-off-world-resource-base-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2016-08-21T16:22:13.972554Z'
+updated_at: '2016-09-30T21:08:07.404589Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 281390
+gogid: 1207659155
+gogslug: orb_offworld_resource_base
+humblestoreid: ''
+script:
+  gogid: orb_offworld_resource_base
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      type: REG_SZ
+      value: ''
+      key: winemenubuilder.exe
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /VERYSILENT /SP- /NOCANCEL /SUPPRESSMSGBOXES '/DIR=C:/game'
+      description: Installing...
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Disabling unused WINE features
+      app: sandbox
+      silent: true
+      name: winetricks
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/game/orb.exe
+    arch: win32

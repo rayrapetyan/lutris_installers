@@ -1,0 +1,32 @@
+id: 6997
+game_id: 15653
+game_slug: cum-fu
+name: Cum-Fu
+year: 2016
+user: FakeShemp
+runner: wine
+slug: cum-fu-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2018-01-04T00:45:31.462623Z'
+updated_at: '2018-05-19T03:41:59.924760Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR/drive_c/Program Files/Cum-Fu
+  files:
+  - file1: N/A:Please select the itch.io executable
+  game:
+    prefix: $GAMEDIR
+    exe: file1
+    arch: win32

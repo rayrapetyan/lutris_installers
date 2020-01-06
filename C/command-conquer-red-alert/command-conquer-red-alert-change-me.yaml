@@ -1,0 +1,42 @@
+id: 17650
+game_id: 25996
+game_slug: command-conquer-red-alert
+name: 'Command & Conquer: Red Alert'
+year: 1996
+user: schmarky
+runner: wine
+slug: command-conquer-red-alert-change-me
+version: Change Me
+description: null
+notes: ''
+created_at: '2019-12-29T23:15:14.223562Z'
+updated_at: '2019-12-29T23:15:14.223587Z'
+draft: false
+published: false
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      executable: videos
+      prefix: $GAMEDIR
+      name: wineexec
+  - extract:
+      dst: $GAMEDIR/drive_c/Westwood/C&C95/
+      file: cnc_ddraw
+  files:
+  - installer: https://lutris.nyc3.digitaloceanspaces.com/games/command-and-conquer/cc95v106c_r3_u4_full.exe
+  - videos: https://lutris.nyc3.digitaloceanspaces.com/games/command-and-conquer/cc95v106_videobase_eng.1.exe
+  - cnc_ddraw: https://lutris.nyc3.digitaloceanspaces.com/games/command-and-conquer/cnc-ddraw.zip
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Westwood/C&C95/C&C95.exe
+    arch: win32

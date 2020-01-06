@@ -1,0 +1,15 @@
+name: Spacelords
+slug: spacelords
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Shooter
+aliases: []
+banner_url: /games/banner/spacelords.jpg
+icon_url: /games/icon/spacelords.png
+is_public: true
+updated: '2019-01-23T08:31:20.986899Z'
+steamid: 436180
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 7461
+game_id: 12145
+game_slug: universe-in-fire
+name: Universe in Fire
+year: 2017
+user: t-rex91
+runner: steam
+slug: universe-in-fire-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-05T21:48:18.978066Z'
+updated_at: '2018-03-06T08:25:33.084100Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 604570
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 604570

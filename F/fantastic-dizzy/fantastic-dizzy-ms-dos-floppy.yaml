@@ -1,0 +1,61 @@
+id: 15107
+game_id: 24325
+game_slug: fantastic-dizzy
+name: Fantastic Dizzy
+year: 1993
+user: appoloin
+runner: dosbox
+slug: fantastic-dizzy-ms-dos-floppy
+version: MS-DOS Floppy
+description: null
+notes: ''
+created_at: '2019-08-23T15:53:01.669901Z'
+updated_at: '2019-10-06T20:12:29.690313Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - execute:
+      args: $GAMEDIR/HDD
+      file: mkdir
+  - execute:
+      args: $GAMEDIR/HDD/dizzy
+      file: mkdir
+  - write_file:
+      content: '#!/bin/bash
+
+        src=$1
+
+        dst=$2
+
+        src_path=$(echo "$1" | sed -r "s/(.+)\/.+/\1/")
+
+        cp -avr "$src_path/."  "$dst"'
+      file: $CACHE/bulkcopy.sh
+  - chmodx: $CACHE/bulkcopy.sh
+  - execute:
+      args: $game $GAMEDIR/HDD/dizzy
+      file: $CACHE/bulkcopy.sh
+  - write_file:
+      content: '[autoexec]
+
+        mount C "$GAMEDIR/HDD" -t dir
+
+        C:
+
+        cd dizzy
+
+        PCDIZZY.EXE
+
+        exit'
+      file: $GAMEDIR/fantastic_dizzy_dosbox.conf
+  files:
+  - game: N/A:Select the file pcdizzy.exe
+  game:
+    main_file: $GAMEDIR/fantastic_dizzy_dosbox.conf

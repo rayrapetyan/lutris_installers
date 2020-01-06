@@ -1,0 +1,32 @@
+id: 466
+game_id: 1221
+game_slug: typerider
+name: Type:Rider
+year: 2013
+user: strider
+runner: linux
+slug: typerider-humblebundle
+version: humblebundle
+description: Humble Bundle version
+notes: ''
+created_at: '2014-05-01T12:04:49.199000Z'
+updated_at: '2016-08-12T01:27:09.025783Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 258890
+gogid: null
+gogslug: ''
+humblestoreid: typerider
+script:
+  exe: TypeRider.x86
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: typerider-archive
+  - chmodx: $GAMEDIR/TypeRider.x86
+  - chmodx: $GAMEDIR/TypeRider.x86_64
+  exe64: TypeRider.x86_64
+  files:
+  - typerider-archive: N/A

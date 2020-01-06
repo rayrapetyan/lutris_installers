@@ -1,0 +1,17 @@
+name: Iesabel
+slug: iesabel
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Hack and slash
+- name: RPG
+aliases: []
+banner_url: /games/banner/iesabel.jpg
+icon_url: /games/icon/iesabel.png
+is_public: true
+updated: '2019-01-23T08:29:54.765300Z'
+steamid: 248710
+gogslug: ''
+humblestoreid: ''

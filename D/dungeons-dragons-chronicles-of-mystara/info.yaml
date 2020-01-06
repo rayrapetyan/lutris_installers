@@ -1,0 +1,17 @@
+name: 'Dungeons & Dragons: Chronicles of Mystara'
+slug: dungeons-dragons-chronicles-of-mystara
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/dungeons-dragons-chronicles-of-mystara.jpg
+icon_url: /games/icon/dungeons-dragons-chronicles-of-mystara.png
+is_public: true
+updated: '2019-01-23T08:29:19.440475Z'
+steamid: 229480
+gogslug: ''
+humblestoreid: ''

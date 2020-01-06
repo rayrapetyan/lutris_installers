@@ -1,0 +1,44 @@
+id: 17522
+game_id: 14374
+game_slug: powerslide
+name: Powerslide
+year: 1998
+user: Sikreci
+runner: wine
+slug: powerslide-powerslide-gog
+version: Powerslide - GOG
+description: null
+notes: ''
+created_at: '2019-12-23T18:09:48.223829Z'
+updated_at: '2019-12-23T18:09:48.223856Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: 1207659116
+gogslug: powerslide
+humblestoreid: ''
+script:
+  custom-name: Powerslide - GOG
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: swr
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES
+      description: Installing...
+      name: wineexec
+  - task:
+      executable: /drive_c/GOG Games/Powerslide/nglide_config.exe
+      prefix: $GAMEDIR
+      description: Running nGlide config...
+      name: wineexec
+  files:
+  - swr: N/A:Please select the GOG installer
+  game:
+    prefix: $GAMEDIR
+    exe: /drive_c/GOG Games/Powerslide/powerslide.exe

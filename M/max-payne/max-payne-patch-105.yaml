@@ -1,0 +1,35 @@
+id: 496
+game_id: 2044
+game_slug: max-payne
+name: Max Payne
+year: 2001
+user: Xodetaetl
+runner: wine
+slug: max-payne-patch-105
+version: Patch 1.05
+description: '[Umm, breaks the game? Worked when installing manually] Patch v1.05
+  for the CD version'
+notes: ''
+created_at: '2014-07-20T11:27:28.468000Z'
+updated_at: '2018-05-19T03:41:47.771882Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 12140
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: max-payne
+  installer:
+  - task:
+      executable: file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: http://lutris.net/files/games/max-payne/maxpayne1-05patch.exe
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/Max Payne/MaxPayne.exe
+    arch: win32

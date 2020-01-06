@@ -1,0 +1,17 @@
+name: Mario Party
+slug: mario-party
+year: 1998
+platforms:
+- name: Nintendo 64
+genres:
+- name: Action
+- name: Casual
+- name: Party
+aliases: []
+banner_url: /games/banner/mario-party.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:17.724447Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

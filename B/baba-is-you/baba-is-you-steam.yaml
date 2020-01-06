@@ -1,0 +1,24 @@
+id: 12518
+game_id: 26302
+game_slug: baba-is-you
+name: Baba Is You
+year: 2019
+user: antech
+runner: steam
+slug: baba-is-you-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-03-25T19:46:55.298132Z'
+updated_at: '2019-03-26T04:00:49.441789Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 736260
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 736260

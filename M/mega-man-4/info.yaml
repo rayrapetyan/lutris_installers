@@ -1,0 +1,16 @@
+name: Mega Man 4
+slug: mega-man-4
+year: 1991
+platforms:
+- name: NES
+- name: Sony PlayStation
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/mega-man-4.jpg
+icon_url: null
+is_public: true
+updated: '2019-06-23T20:39:30.240054Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

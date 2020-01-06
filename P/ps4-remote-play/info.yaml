@@ -1,0 +1,15 @@
+name: PS4 Remote Play
+slug: ps4-remote-play
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Tool
+aliases: []
+banner_url: /games/banner/ps4-remote-play.jpg
+icon_url: /games/icon/ps4-remote-play.png
+is_public: true
+updated: '2019-03-10T02:28:23.506246Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

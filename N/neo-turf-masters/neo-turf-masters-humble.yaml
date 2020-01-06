@@ -1,0 +1,40 @@
+id: 3808
+game_id: 7882
+game_slug: neo-turf-masters
+name: Neo Turf Masters
+year: 1996
+user: FakeShemp
+runner: linux
+slug: neo-turf-masters-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-22T20:00:43.598936Z'
+updated_at: '2017-05-27T23:55:14.525314Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1221699317
+gogslug: neo_turf_masters
+humblestoreid: ''
+script:
+  exe: NeogeoEmu.bin.x86
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data/noarch
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86_64
+      dst: $GAMEDIR
+  exe64: NeogeoEmu.bin.x86_64
+  files:
+  - file1: N/A:Please select the Humble installer

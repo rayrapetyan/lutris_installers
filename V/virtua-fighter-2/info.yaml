@@ -1,0 +1,19 @@
+name: Virtua Fighter 2
+slug: virtua-fighter-2
+year: 1994
+platforms:
+- name: Arcade
+- name: Nintendo Wii
+- name: Sega Genesis / Mega Drive
+- name: Sega Saturn
+- name: Windows
+genres:
+- name: Fighting
+aliases: []
+banner_url: /games/banner/virtua-fighter-2.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:02.960693Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

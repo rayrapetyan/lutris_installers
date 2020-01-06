@@ -1,0 +1,33 @@
+id: 4505
+game_id: 2412
+game_slug: age-of-wonders-shadow-magic
+name: 'Age of Wonders: Shadow Magic'
+year: null
+user: FakeShemp
+runner: wine
+slug: age-of-wonders-shadow-magic-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-19T19:27:43.721940Z'
+updated_at: '2018-05-19T03:41:52.470188Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 61520
+gogid: 1207658885
+gogslug: age_of_wonders_shadow_magic
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Triumph Studios/Age of Wonders Shadow Magic/AoWSM.exe
+    arch: win32

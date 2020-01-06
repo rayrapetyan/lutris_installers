@@ -1,0 +1,28 @@
+id: 3711
+game_id: 11322
+game_slug: cute-demon-crashers
+name: Cute Demon Crashers!
+year: 2015
+user: FakeShemp
+runner: linux
+slug: cute-demon-crashers-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-05-16T21:19:44.210738Z'
+updated_at: '2017-05-17T18:23:42.404959Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Cute Demon Crashers!.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

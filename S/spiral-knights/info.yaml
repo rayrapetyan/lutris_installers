@@ -1,0 +1,16 @@
+name: Spiral Knights
+slug: spiral-knights
+year: 2011
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: MMO
+aliases: []
+banner_url: /games/banner/spiral-knights.jpg
+icon_url: /games/icon/spiral-knights.png
+is_public: true
+updated: '2019-02-27T04:45:06.978003Z'
+steamid: 99900
+gogslug: ''
+humblestoreid: ''

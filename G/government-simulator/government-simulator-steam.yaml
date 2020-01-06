@@ -1,0 +1,27 @@
+id: 9639
+game_id: 20660
+game_slug: government-simulator
+name: Government Simulator
+year: null
+user: jehdin
+runner: winesteam
+slug: government-simulator-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-08T07:03:22.050000Z'
+updated_at: '2018-08-09T05:26:36.137061Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 731920
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-3.12-x86_64
+  game:
+    appid: 731920
+    arch: win64

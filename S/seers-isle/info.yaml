@@ -1,0 +1,16 @@
+name: Seers Isle
+slug: seers-isle
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Fantasy
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/seers-isle.jpg
+icon_url: /games/icon/seers-isle.png
+is_public: true
+updated: '2019-07-01T07:32:54.651265Z'
+steamid: 738650
+gogslug: ''
+humblestoreid: ''

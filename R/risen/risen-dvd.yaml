@@ -1,0 +1,41 @@
+id: 5156
+game_id: 387
+game_slug: risen
+name: Risen
+year: 2009
+user: mfxbe
+runner: wine
+slug: risen-dvd
+version: DVD
+description: Installs Risen with the latest patch 1.11 Final.
+notes: ''
+created_at: '2017-07-22T17:42:10.166000Z'
+updated_at: '2018-05-19T03:41:57.137802Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 40300
+gogid: 1207663153
+gogslug: risen
+humblestoreid: ''
+script:
+  exe: drive_c/Program Files/Deep Silver/Risen/bin/Risen.exe
+  installer:
+  - insert-disc:
+      requires: data1.cab
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      executable: file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1:
+      filename: patch.exe
+      url: https://www.worldofrisen.de/download.php?id=186
+  game:
+    prefix: $GAMEDIR
+    arch: win32

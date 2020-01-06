@@ -1,0 +1,34 @@
+id: 6661
+game_id: 10267
+game_slug: night-in-the-woods
+name: Night in the Woods
+year: 2017
+user: soredake
+runner: linux
+slug: night-in-the-woods-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2017-12-14T18:20:31.055640Z'
+updated_at: '2017-12-14T18:20:40.546811Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 481510
+gogid: 1330400591
+gogslug: night_in_the_woods
+humblestoreid: night-in-the-woods
+script:
+  installer:
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/Game
+  files:
+  - game: N/A:Select the Linux installer downloaded from GOG
+  game:
+    exe: Game/start.sh

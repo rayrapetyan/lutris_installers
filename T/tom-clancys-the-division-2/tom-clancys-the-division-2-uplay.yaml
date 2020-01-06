@@ -1,0 +1,61 @@
+id: 12345
+game_id: 26094
+game_slug: tom-clancys-the-division-2
+name: Tom Clancy's The Division 2
+year: 2019
+user: Venkarian
+runner: wine
+slug: tom-clancys-the-division-2-uplay
+version: Uplay
+description: null
+notes: ''
+created_at: '2019-03-11T19:16:43.841000Z'
+updated_at: '2019-04-12T00:28:13.296635Z'
+draft: false
+published: true
+published_by: 19464
+rating: '1'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Please wait while we install .NET 4.7.2
+      app: dotnet472
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: corefonts win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: client
+      prefix: $GAMEDIR
+      description: Installing client
+      arch: win64
+      args: /S
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/Uplay.exe
+    arch: win64
+  system:
+    env:
+      DXVK_HUD: '0'
+  wine:
+    version: tkg-4.3-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      nvapi,nvapi64: disabled
+  files:
+  - client: https://ubistatic3-a.akamaihd.net/orbit/launcher_installer/UplayInstaller.exe

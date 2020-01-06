@@ -1,0 +1,39 @@
+id: 6184
+game_id: 14457
+game_slug: megarace
+name: MegaRace
+year: 1993
+user: FakeShemp
+runner: dosbox
+slug: megarace-groupees
+version: Groupees
+description: Uses the files from the Windows installer from Groupees.
+notes: ''
+created_at: '2017-10-29T17:57:46.617000Z'
+updated_at: '2017-10-29T18:15:15.443299Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: dosboxmegarace.conf
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - extract:
+      dst: $CACHE
+      file: $file2
+  - execute:
+      args: -d "$CACHE" "$CACHE/MegaRace EN.exe"
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/app
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Groupees archive
+  - file2: https://lutris.net/files/tools/innoextract.tar.gz

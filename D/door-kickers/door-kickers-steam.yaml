@@ -1,0 +1,24 @@
+id: 215
+game_id: 1045
+game_slug: door-kickers
+name: Door Kickers
+year: 2014
+user: strider
+runner: steam
+slug: door-kickers-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-19T23:56:18.285000Z'
+updated_at: '2013-12-19T23:56:18.285000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 248610
+gogid: 1207666463
+gogslug: door_kickers
+humblestoreid: door-kickers
+script:
+  game:
+    appid: 248610

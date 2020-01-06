@@ -1,0 +1,16 @@
+name: Wacky Wheels
+slug: wacky-wheels
+year: 1994
+platforms:
+- name: Linux
+- name: MS-DOS
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/wacky-wheels.jpg
+icon_url: /games/icon/wacky-wheels.png
+is_public: true
+updated: '2019-01-23T08:32:04.722352Z'
+steamid: 358380
+gogslug: wacky_wheels
+humblestoreid: ''

@@ -1,0 +1,18 @@
+name: Shenmue I & II
+slug: shenmue-i-ii
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Fighting
+- name: RPG
+aliases: []
+banner_url: /games/banner/shenmue-i-ii.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:11.805682Z'
+steamid: 758330
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,64 @@
+id: 74
+game_id: 17
+game_slug: unreal-tournament
+name: Unreal Tournament (1999)
+year: 1999
+user: strider
+runner: linux
+slug: unreal-tournament-1999-steam
+version: steam
+description: Native linux version using Steam game data.
+notes: "If the game runs too fast, try enabling Sync to Vblank in your graphics drivers.\r\
+  \nMake sure to have osspd installed to get sound.\r\nIf using open source mesa drivers,\
+  \ switch to software rendering in the game's .ini config file."
+created_at: '2013-12-01T18:58:12.789000Z'
+updated_at: '2019-12-22T19:19:52.694420Z'
+draft: false
+published: true
+published_by: 1
+rating: '5'
+steamid: 13240
+gogid: 1207658692
+gogslug: unreal_tournament_goty
+humblestoreid: ''
+script:
+  exe: ut
+  installer:
+  - merge:
+      src: steamdata
+      dst: $GAMEDIR
+  - chmodx: utbin
+  - execute:
+      args: --noexec --nox11 --target $CACHE/tmp
+      file: utbin
+  - extract:
+      nomerge: true
+      file: $CACHE/tmp/data.tar.gz
+  - extract:
+      nomerge: true
+      file: $CACHE/tmp/NetGamesUSA.com.tar.gz
+  - extract:
+      nomerge: true
+      file: $CACHE/tmp/OpenGL_S3TC.ini.tar.gz
+  - extract:
+      nomerge: true
+      file: $CACHE/tmp/UT436-OpenGLDrv-Linux-090602.tar.gz
+  - extract:
+      nomerge: true
+      file: $CACHE/tmp/Credits.tar.gz
+  - move:
+      src: $CACHE/tmp/bin/ut
+      dst: $GAMEDIR
+  - extract:
+      nomerge: true
+      dst: $GAMEDIR
+      file: utpgpatch
+  - move:
+      src: $GAMEDIR/System/UnrealTournament.ini.PATCH
+      dst: $GAMEDIR/System/UnrealTournament.ini
+  files:
+  - utbin: https://lutris.nyc3.digitaloceanspaces.com/games/unreal-tournament/unreal.tournament_436-multilanguage.goty.run
+  - utpgpatch: https://lutris.nyc3.digitaloceanspaces.com/games/unreal-tournament/UTPGPatch451.tar.bz2
+  - steamdata:
+      filename: $STEAM:13240:/
+      url: $STEAM:13240:/

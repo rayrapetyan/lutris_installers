@@ -1,0 +1,22 @@
+name: Zoop
+slug: zoop
+year: 1995
+platforms:
+- name: Atari Jaguar
+- name: Game Boy
+- name: MS-DOS
+- name: Sega Game Gear
+- name: Sega Genesis / Mega Drive
+- name: Sega Saturn
+- name: Sony PlayStation
+- name: Super Nintendo
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/zoop.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:15.710500Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

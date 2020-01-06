@@ -1,0 +1,20 @@
+name: Hunchback
+slug: hunchback
+year: 1983
+platforms:
+- name: Amstrad CPC 464
+- name: Arcade
+- name: Commodore 64
+- name: MS-DOS
+- name: ZX Spectrum
+genres:
+- name: Arcade
+- name: Platform
+aliases: []
+banner_url: /games/banner/hunchback.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:53.127521Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

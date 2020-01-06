@@ -1,0 +1,28 @@
+id: 8082
+game_id: 18122
+game_slug: double-kick-heroes
+name: Double Kick Heroes
+year: 2018
+user: TuiorGames
+runner: winesteam
+slug: double-kick-heroes-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-06T23:16:34.493448Z'
+updated_at: '2018-05-09T05:59:14.334198Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 589670
+gogid: 1333227204
+gogslug: double_kick_heroes
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-3.7-x86_64
+    Desktop: true
+  game:
+    appid: 589670
+    arch: win64

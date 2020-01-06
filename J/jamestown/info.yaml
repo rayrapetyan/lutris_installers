@@ -1,0 +1,15 @@
+name: Jamestown
+slug: jamestown
+year: 2011
+platforms:
+- name: Linux
+genres:
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/jamestown.jpg
+icon_url: /games/icon/jamestown.png
+is_public: true
+updated: '2019-01-23T08:29:59.854582Z'
+steamid: 94200
+gogslug: ''
+humblestoreid: ''

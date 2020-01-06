@@ -1,0 +1,15 @@
+name: Garry's Mod
+slug: garrys-mod
+year: 2004
+platforms:
+- name: Linux
+genres:
+- name: Sandbox
+aliases: []
+banner_url: /games/banner/garrys-mod.jpg
+icon_url: /games/icon/garrys-mod.png
+is_public: true
+updated: '2019-01-23T08:29:38.277892Z'
+steamid: 4000
+gogslug: ''
+humblestoreid: ''

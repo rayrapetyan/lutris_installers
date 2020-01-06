@@ -1,0 +1,32 @@
+id: 6343
+game_id: 14809
+game_slug: extreme-burger-defense
+name: Extreme Burger Defense
+year: 2014
+user: FakeShemp
+runner: wine
+slug: extreme-burger-defense-humble
+version: Humble
+description: null
+notes: ''
+created_at: '2017-11-16T10:53:01.735670Z'
+updated_at: '2018-05-19T03:41:59.204904Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR/drive_c/Program Files/Extreme Burger Defense
+  files:
+  - file1: N/A:Please select the Humble executable
+  game:
+    prefix: $GAMEDIR
+    exe: file1
+    arch: win32

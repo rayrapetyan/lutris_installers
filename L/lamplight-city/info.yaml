@@ -1,0 +1,17 @@
+name: Lamplight City
+slug: lamplight-city
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Detective-mystery
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/lamplight-city.jpg
+icon_url: null
+is_public: true
+updated: '2019-02-03T13:01:18.210193Z'
+steamid: 761460
+gogslug: lamplight_city
+humblestoreid: ''

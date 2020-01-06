@@ -1,0 +1,25 @@
+id: 16460
+game_id: 4929
+game_slug: risen-3-titan-lords
+name: Risen 3 - Titan Lords
+year: null
+user: erdo_king
+runner: winesteam
+slug: risen-3-titan-lords-steam
+version: steam
+description: null
+notes: Delete old savegames manually or steam upload each of it to cloud backup. After
+  a short time this can be 100-300MB.
+created_at: '2019-10-28T17:30:28.551000Z'
+updated_at: '2019-10-29T00:56:00.967324Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 249230
+gogid: 1454068042
+gogslug: risen_3_titan_lords
+humblestoreid: ''
+script:
+  game:
+    appid: 249230

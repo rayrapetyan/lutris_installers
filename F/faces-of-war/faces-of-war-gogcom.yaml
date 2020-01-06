@@ -1,0 +1,59 @@
+id: 2611
+game_id: 5895
+game_slug: faces-of-war
+name: Faces of War
+year: null
+user: ssf
+runner: wine
+slug: faces-of-war-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2016-08-27T15:31:15.583808Z'
+updated_at: '2016-09-30T21:10:07.201593Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 289300
+gogid: 1428586504
+gogslug: faces_of_war
+humblestoreid: ''
+script:
+  gogid: faces_of_war
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      type: REG_SZ
+      value: ''
+      key: winemenubuilder.exe
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /VERYSILENT /SP- /NOCANCEL /SUPPRESSMSGBOXES '/DIR=C:/game'
+      description: Installing...
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: directx9
+      silent: false
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Disabling unused WINE features
+      app: sandbox
+      silent: true
+      name: winetricks
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/game/facesofwar.exe
+    working_dir: $GAMEDIR/drive_c/game
+    arch: win32

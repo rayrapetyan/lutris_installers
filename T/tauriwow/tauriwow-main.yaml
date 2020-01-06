@@ -1,0 +1,82 @@
+id: 16748
+game_id: 30082
+game_slug: tauriwow
+name: TauriWOW
+year: 2004
+user: kuzvala88
+runner: wine
+slug: tauriwow-main
+version: main
+description: null
+notes: ''
+created_at: '2019-11-10T15:52:26.699000Z'
+updated_at: '2019-12-15T18:40:10.834053Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Arial font
+      app: arial
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: nocrashdialog vcrun2010 win7
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: 'Wine Staging: Enabling DXVA2'
+      arch: win64
+      key: backend
+      value: va
+      path: HKEY_CURRENT_USER\Software\Wine\DXVA2
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - task:
+      executable: launcher
+      prefix: $GAMEDIR
+      exclude_processes: Launcher.exe
+      arch: win64
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Tauri Launcher/Launcher.exe
+    working_dir: $GAMEDIR
+    arch: win64
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      STAGING_SHARED_MEMORY: 1
+      DXVK_HUD: compiler
+      __GL_SHADER_DISK_CACHE: 1
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+  wine:
+    version: lutris-4.16-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      ucrtbase: n,b
+      nvapi64: disabled
+      nvapi: disabled
+      d3d12: disabled
+      api-ms-win-crt-private-l1-1-0: n,b
+  files:
+  - launcher:
+      filename: tlauncherinstaller.exe
+      url: http://launcherdata.tauri.hu/launcher/tlauncherinstaller.exe

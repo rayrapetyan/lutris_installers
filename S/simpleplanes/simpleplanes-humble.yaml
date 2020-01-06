@@ -1,0 +1,32 @@
+id: 6501
+game_id: 5737
+game_slug: simpleplanes
+name: SimplePlanes
+year: null
+user: FakeShemp
+runner: wine
+slug: simpleplanes-humble
+version: Humble
+description: null
+notes: ''
+created_at: '2017-11-30T22:47:04.343586Z'
+updated_at: '2018-05-19T03:41:49.180609Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 397340
+gogid: 1338132110
+gogslug: simpleplanes
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/SimplePlanes
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/SimplePlanes/SimplePlanes.exe
+    arch: win32

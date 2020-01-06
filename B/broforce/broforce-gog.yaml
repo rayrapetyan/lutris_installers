@@ -1,0 +1,34 @@
+id: 2286
+game_id: 2401
+game_slug: broforce
+name: Broforce
+year: 2015
+user: testfest
+runner: linux
+slug: broforce-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2016-07-09T15:05:15.522000Z'
+updated_at: '2019-04-20T21:36:39.635626Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 274190
+gogid: 1470490225
+gogslug: broforce
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

@@ -1,0 +1,15 @@
+name: Doom 3
+slug: doom-3
+year: 2004
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/doom-3.jpg
+icon_url: /games/icon/doom-3.png
+is_public: true
+updated: '2019-01-23T08:29:15.340082Z'
+steamid: 9050
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,17 @@
+name: 'SimTower: The Vertical Empire'
+slug: simtower-the-vertical-empire
+year: 1994
+platforms:
+- name: 3DO
+- name: Sega Saturn
+- name: Windows
+genres:
+- name: Simulation
+aliases: []
+banner_url: /games/banner/simtower-the-vertical-empire.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:13.981442Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

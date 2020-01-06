@@ -1,0 +1,17 @@
+name: 'Tomb Raider: The Angel of Darkness'
+slug: tomb-raider-the-angel-of-darkness
+year: 2003
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Platformer
+aliases: []
+banner_url: /games/banner/tomb-raider-the-angel-of-darkness.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:52.664079Z'
+steamid: null
+gogslug: tomb_raider_the_angel_of_darkness
+humblestoreid: ''

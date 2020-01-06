@@ -1,0 +1,32 @@
+id: 4783
+game_id: 12046
+game_slug: tower-of-elements
+name: Tower of Elements
+year: null
+user: FakeShemp
+runner: wine
+slug: tower-of-elements-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-07-03T18:00:20.847623Z'
+updated_at: '2018-05-19T03:41:55.026574Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Tower of Elements
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Tower of Elements/TowerofElements.exe
+    arch: win32

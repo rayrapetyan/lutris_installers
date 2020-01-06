@@ -1,0 +1,28 @@
+id: 3746
+game_id: 6611
+game_slug: valhalla-hills
+name: Valhalla Hills
+year: 2015
+user: FakeShemp
+runner: linux
+slug: valhalla-hills-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-20T20:05:14.142649Z'
+updated_at: '2017-05-22T17:01:50.290404Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 351910
+gogid: 1445528240
+gogslug: valhalla_hills
+humblestoreid: ''
+script:
+  exe: ValhallaHills/Binaries/Linux/ValhallaHills-Linux-Shipping
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

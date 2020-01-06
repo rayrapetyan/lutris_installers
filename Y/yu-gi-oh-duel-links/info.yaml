@@ -1,0 +1,16 @@
+name: Yu-Gi-Oh! Duel Links
+slug: yu-gi-oh-duel-links
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Cards
+- name: Strategy
+aliases: []
+banner_url: /games/banner/yu-gi-oh-duel-links.jpg
+icon_url: /games/icon/yu-gi-oh-duel-links.png
+is_public: true
+updated: '2019-01-23T08:32:13.719927Z'
+steamid: 601510
+gogslug: ''
+humblestoreid: ''

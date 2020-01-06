@@ -1,0 +1,16 @@
+name: Knobster
+slug: knobster
+year: 2017
+platforms:
+- name: Browser
+genres:
+- name: Point-and-click
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/knobster.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:06.197357Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,31 @@
+id: 5946
+game_id: 1513
+game_slug: tomb-raider-the-last-revelation
+name: 'Tomb Raider IV: The Last Revelation'
+year: 1999
+user: FakeShemp
+runner: libretro
+slug: tomb-raider-the-last-revelati-dreamcast
+version: Dreamcast
+description: ''
+notes: ''
+created_at: '2017-10-13T12:20:59.968104Z'
+updated_at: '2017-10-13T12:40:18.563964Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 224980
+gogid: 1207663513
+gogslug: tomb_raider_the_last_revelation_chronicles
+humblestoreid: tomb-raider-iv-the-last-revelation
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Dreamcast image file
+  game:
+    core: reicast
+    main_file: file1

@@ -1,0 +1,24 @@
+name: Tower Toppler aka Nebulus
+slug: tower-toppler-aka-nebulus
+year: 1987
+platforms:
+- name: Amiga
+- name: Atari 7800
+- name: Atari ST
+- name: Commodore 64
+- name: Game Boy
+- name: MS-DOS
+- name: NES
+- name: Nintendo Wii
+- name: ZX Spectrum
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/tower-toppler-aka-nebulus.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:54.106962Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

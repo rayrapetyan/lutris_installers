@@ -1,0 +1,30 @@
+id: 1192
+game_id: 585
+game_slug: dust-an-elysian-tail
+name: 'Dust: An Elysian Tail'
+year: 2012
+user: RobLoach
+runner: linux
+slug: dust-an-elysian-tail-humble-bundle
+version: Humble Bundle
+description: ''
+notes: ''
+created_at: '2014-12-03T13:39:47.445000Z'
+updated_at: '2016-08-11T20:44:38.142571Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 236090
+gogid: 1207660094
+gogslug: dust_an_elysian_tail
+humblestoreid: dust-an-elysian-tail
+script:
+  exe: DustAET
+  installer:
+  - chmodx: game
+  - execute:
+      args: --destination=$GAMEDIR
+      file: game
+  files:
+  - game: 'N/A: Select the install file downloaded from http://humblebundle.com'

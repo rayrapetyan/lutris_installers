@@ -1,0 +1,30 @@
+id: 1073
+game_id: 152
+game_slug: loom
+name: Loom
+year: 1990
+user: RobLoach
+runner: scummvm
+slug: loom-scummvm-from-archive
+version: ScummVM - From archive
+description: ''
+notes: ''
+created_at: '2014-11-13T21:07:39.263000Z'
+updated_at: '2014-11-24T11:41:05.737000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 32340
+gogid: 1425293328
+gogslug: loom
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: archive
+  files:
+  - archive: N/A:Select the game's archive file for ScummVM.
+  game:
+    game_id: loom
+    path: $GAMEDIR

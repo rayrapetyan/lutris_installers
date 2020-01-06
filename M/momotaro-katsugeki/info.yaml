@@ -1,0 +1,17 @@
+name: "Momotar\u014D Katsugeki"
+slug: momotaro-katsugeki
+year: 1990
+platforms:
+- name: TurboGrafx-16
+genres:
+- name: Platformer
+aliases:
+- slug: momotarou-katsugeki
+  name: Momotarou Katsugeki
+banner_url: /games/banner/momotaro-katsugeki.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-13T21:07:58.695673Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

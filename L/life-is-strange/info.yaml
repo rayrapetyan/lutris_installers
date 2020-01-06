@@ -1,0 +1,20 @@
+name: Life Is Strange
+slug: life-is-strange
+year: 2015
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Casual
+aliases:
+- slug: life-is-strangetm
+  name: "LIfe is Strange\u2122"
+banner_url: /games/banner/life-is-strange.jpg
+icon_url: /games/icon/life-is-strange.png
+is_public: true
+updated: '2019-12-17T20:45:32.561339Z'
+steamid: 319630
+gogslug: ''
+humblestoreid: life-is-strange-complete-season

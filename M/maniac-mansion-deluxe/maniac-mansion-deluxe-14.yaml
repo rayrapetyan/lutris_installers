@@ -1,0 +1,63 @@
+id: 2385
+game_id: 6709
+game_slug: maniac-mansion-deluxe
+name: Maniac Mansion Deluxe
+year: 2004
+user: ssf
+runner: wine
+slug: maniac-mansion-deluxe-14
+version: '1.4'
+description: 'to hear all Music, you need proper MIDI support(eg: timidity++)'
+notes: ''
+created_at: '2016-08-05T01:01:20.766217Z'
+updated_at: '2018-05-19T03:41:49.113209Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      type: REG_SZ
+      value: ''
+      key: winemenubuilder.exe
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+  - task:
+      prefix: $GAMEDIR
+      app: sound=alsa
+      silent: false
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: vd=640x480
+      silent: false
+      name: winetricks
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      description: Installing MMD
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Disabling unused WINE features
+      app: sandbox
+      silent: true
+      name: winetricks
+  files:
+  - prefix: $GAMEDIR
+    exe: drive_c/Program Files/LucasFan Games/MMD/winsetup.exe
+    arch: win32
+    game: http://www.adventurecorner.de/dl/mmd14setup.exe
+  game:
+    prefix: $GAMEDIR
+    arch: win32

@@ -1,0 +1,36 @@
+id: 403
+game_id: 1808
+game_slug: little-big-adventure-2
+name: Little Big Adventure 2
+year: 1997
+user: Xodetaetl
+runner: wine
+slug: little-big-adventure-2-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2014-01-29T03:10:27.426000Z'
+updated_at: '2019-03-17T20:52:09.811772Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 398000
+gogid: 1207658974
+gogslug: little_big_adventure_2
+humblestoreid: ''
+script:
+  exe: drive_c/GOG Games/Little Big Adventure 2/DOSBOX/DOSBox.exe
+  installer:
+  - task:
+      executable: file1
+      prefix: $GAMEDIR
+      args: /silent /nogui
+      description: Installing LBA2
+      name: wineexec
+  files:
+  - file1: "N/A:Select LBA2 GOG's installer\n Download it here: https://secure.gog.com/downlink/little_big_adventure_2/fr1installer0"
+  game:
+    prefix: $GAMEDIR
+    args: -conf "..\dosboxLBA2.conf" -conf "..\dosboxLBA2_single.conf" -noconsole
+      -c exit

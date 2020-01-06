@@ -1,0 +1,17 @@
+name: Blazing Star
+slug: blazing-star
+year: 1998
+platforms:
+- name: Arcade
+- name: Linux
+- name: Neo Geo
+genres:
+- name: Shooter
+aliases: []
+banner_url: /games/banner/blazing-star.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:38.121176Z'
+steamid: null
+gogslug: blazing_star
+humblestoreid: ''

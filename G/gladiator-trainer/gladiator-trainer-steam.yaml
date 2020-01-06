@@ -1,0 +1,24 @@
+id: 8677
+game_id: 8526
+game_slug: gladiator-trainer
+name: Gladiator Trainer
+year: null
+user: soredake
+runner: winesteam
+slug: gladiator-trainer-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-11T07:45:22.242756Z'
+updated_at: '2018-06-11T07:50:52.962875Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 527990
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 527990

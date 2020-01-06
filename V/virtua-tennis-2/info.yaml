@@ -1,0 +1,19 @@
+name: Virtua Tennis 2
+slug: virtua-tennis-2
+year: 2001
+platforms:
+- name: Arcade
+- name: Sega Dreamcast
+- name: Sony PlayStation 2
+- name: Windows
+genres:
+- name: Arcade
+- name: Sports
+aliases: []
+banner_url: /games/banner/virtua-tennis-2.jpg
+icon_url: null
+is_public: true
+updated: '2019-10-24T23:57:46.600531Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

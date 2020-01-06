@@ -1,0 +1,29 @@
+id: 6491
+game_id: 14985
+game_slug: chocolate-castle
+name: Chocolate Castle
+year: 2007
+user: fanotriel
+runner: linux
+slug: chocolate-castle-demo
+version: Demo
+description: null
+notes: ''
+created_at: '2017-11-30T01:14:19.022778Z'
+updated_at: '2017-11-30T01:15:10.689897Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: choc
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: game
+  files:
+  - game: http://www.lexaloffle.com/dl/demos/chocolate-castle-demo_1.1_i386.tar.gz

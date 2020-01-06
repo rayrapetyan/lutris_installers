@@ -1,0 +1,58 @@
+id: 8961
+game_id: 12416
+game_slug: just-causetm-3-multiplayer-mod
+name: "Just Cause\u2122 3: Multiplayer Mod"
+year: null
+user: Leo_Verto
+runner: winesteam
+slug: just-causetm-3-multiplayer-mo-steam
+version: Steam
+description: null
+notes: You may still experience performance issues depending on your hardware
+created_at: '2018-06-30T22:32:02.684000Z'
+updated_at: '2019-02-16T03:18:35.054239Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 619910
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: just-cause-3-steam-w-dxvk
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: xact
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      key: GrabFullscreen
+      value: Y
+      path: HKEY_CURRENT_USER\Software\Wine\X11 Driver
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: win7
+      arch: win64
+      name: winetricks
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+    pulse_latency: true
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 619910
+    arch: win64

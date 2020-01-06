@@ -1,0 +1,39 @@
+id: 4608
+game_id: 11869
+game_slug: conquering-the-queen
+name: Conquering the Queen
+year: 2004
+user: FakeShemp
+runner: wine
+slug: conquering-the-queen-mangagamer
+version: MangaGamer
+description: ''
+notes: ''
+created_at: '2017-06-25T21:15:00.401000Z'
+updated_at: '2017-06-27T04:15:53.859126Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: dsound
+      name: winetricks
+  files:
+  - file1: N/A:Please select the MangaGamer archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Liquid/Conquering the Queen/lcsebody.exe

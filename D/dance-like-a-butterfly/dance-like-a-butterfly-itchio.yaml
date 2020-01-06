@@ -1,0 +1,28 @@
+id: 5063
+game_id: 12250
+game_slug: dance-like-a-butterfly
+name: Dance Like a Butterfly
+year: 2015
+user: FakeShemp
+runner: linux
+slug: dance-like-a-butterfly-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-07-14T20:55:16.105872Z'
+updated_at: '2017-08-27T22:18:18.295670Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Chounomai.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

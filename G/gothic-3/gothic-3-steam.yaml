@@ -1,0 +1,24 @@
+id: 7389
+game_id: 776
+game_slug: gothic-3
+name: Gothic 3
+year: 2006
+user: Stoney_Fish
+runner: winesteam
+slug: gothic-3-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-02-24T22:17:34.763000Z'
+updated_at: '2018-02-27T02:26:22.634567Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 39500
+gogid: 1207658986
+gogslug: gothic_3
+humblestoreid: ''
+script:
+  game:
+    appid: 39500

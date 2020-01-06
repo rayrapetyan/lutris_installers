@@ -1,0 +1,20 @@
+name: "LEGO\xAE Pirates of the Caribbean The Video Game"
+slug: lego-pirates-of-the-caribbean-the-video-game
+year: 2011
+platforms:
+- name: Nintendo 3DS
+- name: Nintendo DS
+- name: Nintendo Wii
+- name: Sony Playstation 3
+- name: Sony PSP
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/lego-pirates-of-the-caribbean-the-video-game.jpg
+icon_url: /games/icon/lego-pirates-of-the-caribbean-the-video-game.png
+is_public: true
+updated: '2019-05-27T19:16:10.701466Z'
+steamid: 311770
+gogslug: lego_pirates_of_the_caribbean_the_video_game
+humblestoreid: ''

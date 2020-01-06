@@ -1,0 +1,50 @@
+id: 9207
+game_id: 15735
+game_slug: the-evil-within-2
+name: The Evil Within 2
+year: 2017
+user: Kuriot
+runner: winesteam
+slug: the-evil-within-2-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2018-07-14T12:19:05.760000Z'
+updated_at: '2019-02-16T04:51:46.286665Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 601430
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: corefonts
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: win7
+      arch: win64
+      name: winetricks
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+    pulse_latency: true
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 601430
+    arch: win64

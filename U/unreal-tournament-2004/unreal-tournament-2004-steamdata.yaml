@@ -1,0 +1,40 @@
+id: 504
+game_id: 140
+game_slug: unreal-tournament-2004
+name: Unreal Tournament 2004
+year: 2004
+user: strider
+runner: linux
+slug: unreal-tournament-2004-steamdata
+version: steamdata
+description: Native version (64bit) with game data from Steam
+notes: The game needs to be launched at least once on Windows or Wine to get the CD-Key.
+  The key can then be fetched from the registry in HKEY_LOCAL_MACHINE\Software\Unreal
+  Technology\Installed Apps\UT2004\CDKey and copied in ~/.ut2004/System/cdkey
+created_at: '2014-07-22T23:32:17.156000Z'
+updated_at: '2019-03-16T04:54:21.336678Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 13230
+gogid: 1207658691
+gogslug: unreal_tournament_2004_ece
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: data
+      dst: $GAMEDIR
+  - extract:
+      format: tgz
+      dst: $CACHE/tmp/ut2004/
+      file: utbin
+  - merge:
+      src: $CACHE/tmp/ut2004/
+      dst: $GAMEDIR
+  files:
+  - utbin: https://lutris.nyc3.digitaloceanspaces.com/games/ut2004/ut2004-x86_64.tar.gz
+  - data: $WINESTEAM:13230:/
+  game:
+    exe: System/ut2004-bin

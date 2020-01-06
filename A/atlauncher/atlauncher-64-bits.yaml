@@ -1,0 +1,40 @@
+id: 2914
+game_id: 8128
+game_slug: atlauncher
+name: AtLauncher
+year: 2012
+user: scottviger
+runner: linux
+slug: atlauncher-64-bits
+version: 64 Bits
+description: ''
+notes: Includes Java runtime 8
+created_at: '2016-10-19T02:14:58.142315Z'
+updated_at: '2016-10-26T15:55:58.837787Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: minecraft
+  installer:
+  - move:
+      src: minecraft-jar
+      dst: $GAMEDIR
+  - extract:
+      nomerge: true
+      file: java-jre
+  - extract:
+      nomerge: true
+      file: minecraft-launcher
+  - rename:
+      src: $GAMEDIR/ATLauncher.jar
+      dst: $GAMEDIR/Minecraft.jar
+  files:
+  - minecraft-jar: https://download.nodecdn.net/containers/atl/ATLauncher.jar
+  - java-jre: http://lutris.net/files/runners/jre-8u73-linux-x64.tar.gz
+  - minecraft-launcher: http://lutris.net/files/games/minecraft/wrapper_java8.tar.gz

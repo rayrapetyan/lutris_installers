@@ -1,0 +1,24 @@
+id: 7655
+game_id: 16589
+game_slug: just-deserts
+name: Just Deserts
+year: 2016
+user: t-rex91
+runner: steam
+slug: just-deserts-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-25T14:52:22.619000Z'
+updated_at: '2018-03-26T20:04:11.954761Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 488660
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 488660

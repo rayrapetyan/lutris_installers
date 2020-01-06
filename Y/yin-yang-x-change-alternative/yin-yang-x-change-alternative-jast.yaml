@@ -1,0 +1,43 @@
+id: 9491
+game_id: 20533
+game_slug: yin-yang-x-change-alternative
+name: Yin-Yang! X-Change Alternative
+year: 2006
+user: kimchitea
+runner: wine
+slug: yin-yang-x-change-alternative-jast
+version: JAST
+description: null
+notes: Text has pink outlines.
+created_at: '2018-07-31T01:35:48.305000Z'
+updated_at: '2018-07-31T18:53:26.450635Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows version to XP
+      app: winxp
+      arch: win32
+      name: winetricks
+  - task:
+      executable: $CACHE/Setup.exe
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  files:
+  - file1: N/A:Please select the JAST USA archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Yin-Yang/xca/xca.exe
+    arch: win32

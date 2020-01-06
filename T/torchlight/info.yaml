@@ -1,0 +1,15 @@
+name: Torchlight
+slug: torchlight
+year: 2009
+platforms:
+- name: Linux
+genres:
+- name: Hack and slash
+aliases: []
+banner_url: /games/banner/torchlight.jpg
+icon_url: /games/icon/torchlight.png
+is_public: true
+updated: '2019-01-23T08:31:53.379970Z'
+steamid: 41500
+gogslug: torchlight
+humblestoreid: ''

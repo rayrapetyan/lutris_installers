@@ -1,0 +1,51 @@
+id: 5250
+game_id: 10269
+game_slug: police-quest-in-pursuit-of-the-death-angel
+name: 'Police Quest: In Pursuit of the Death Angel'
+year: 1987
+user: FakeShemp
+runner: dosbox
+slug: police-quest-in-pursuit-of-th-gog
+version: GOG
+description: Uses the files from the Windows installer from GOG.
+notes: ''
+created_at: '2017-08-01T16:00:20.743000Z'
+updated_at: '2017-09-10T12:44:01.400787Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: DOSBOX/dosboxPQ1_single.conf
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file2
+  - execute:
+      args: -d "$CACHE" "$file1"
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/app
+      dst: $GAMEDIR
+  - merge:
+      src: $GAMEDIR/dosboxPQ1_single.conf
+      dst: $GAMEDIR/DOSBOX
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/dosboxPQ1.conf
+  - write_config:
+      section: sdl
+      key: fullscreen
+      value: false
+      file: $GAMEDIR/dosboxPQ1.conf
+  files:
+  - file1: N/A:Please select the GOG installer
+  - file2: https://lutris.net/files/tools/innoextract.tar.gz
+  game:
+    config_file: $GAMEDIR/dosboxPQ1.conf

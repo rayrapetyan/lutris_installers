@@ -1,0 +1,32 @@
+id: 6687
+game_id: 15164
+game_slug: princess-edge-dragonstone
+name: Princess' Edge - Dragonstone
+year: 2016
+user: FakeShemp
+runner: wine
+slug: princess-edge-dragonstone-groupees
+version: Groupees
+description: null
+notes: ''
+created_at: '2017-12-16T15:25:07.040915Z'
+updated_at: '2018-05-19T03:42:00.032221Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 444190
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Princess' Edge - Dragonstone
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Princess' Edge - Dragonstone/Princess Edge.exe
+    arch: win32

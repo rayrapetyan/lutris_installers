@@ -1,0 +1,32 @@
+id: 3753
+game_id: 11393
+game_slug: milles-knight-of-anal-tyranny-impregnated-by-lusty
+name: Milles, Knight of Anal Tyranny ~Impregnated by Lusty Tentacles at the Ends of
+  Oblivion~
+year: 2009
+user: FakeShemp
+runner: linux
+slug: milles-knight-of-anal-tyranny-mangagamer
+version: MangaGamer
+description: ''
+notes: ''
+created_at: '2017-05-20T22:09:50.962000Z'
+updated_at: '2017-05-22T17:08:59.331914Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Milles.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Milles.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Milles
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Milles
+  files:
+  - file1: N/A:Please select the MangaGamer archive

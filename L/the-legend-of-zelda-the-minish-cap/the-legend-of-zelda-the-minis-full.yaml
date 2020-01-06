@@ -1,0 +1,29 @@
+id: 9394
+game_id: 14060
+game_slug: the-legend-of-zelda-the-minish-cap
+name: 'The Legend of Zelda: The Minish Cap'
+year: 2005
+user: paperbenni
+runner: libretro
+slug: the-legend-of-zelda-the-minis-full
+version: Full
+description: null
+notes: ''
+created_at: '2018-07-26T09:20:28.176000Z'
+updated_at: '2018-10-09T05:27:33.354698Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  game:
+    core: vbam
+    main_file: file1

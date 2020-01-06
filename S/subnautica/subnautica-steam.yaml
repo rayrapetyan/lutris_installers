@@ -1,0 +1,59 @@
+id: 6226
+game_id: 4870
+game_slug: subnautica
+name: Subnautica
+year: 2018
+user: cxf
+runner: winesteam
+slug: subnautica-steam
+version: Steam
+description: null
+notes: To run in borderless windowed mode add the argument <b>-popupwindow</b> through
+  the game's Lutris configuration window under Game Options.
+created_at: '2017-11-03T07:01:51.002000Z'
+updated_at: '2019-09-09T01:42:18.974957Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 264710
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: corefonts
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2013
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: Y
+      key: HideWineExports
+      path: HKEY_CURRENT_USER\Software\Wine
+  system:
+    env:
+      __GL_THREADED_OPTIMIZATIONS: 1
+      DXVK_HUD: 0
+  wine:
+    dxvk_version: 1.2.1
+    desktop: true
+    version: tkg-4.0-x86_64
+    esync: true
+    dxvk: true
+    winedesktop: 1920x1080
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 264710
+    arch: win64

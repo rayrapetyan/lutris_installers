@@ -1,0 +1,16 @@
+name: Civilization IV
+slug: sid-meiers-civilization-iv
+year: 2005
+platforms:
+- name: Windows
+genres:
+- name: 4X
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/sid-meiers-civilization-iv.jpg
+icon_url: /games/icon/sid-meiers-civilization-iv.png
+is_public: true
+updated: '2019-01-23T08:28:53.587998Z'
+steamid: 3900
+gogslug: ''
+humblestoreid: ''

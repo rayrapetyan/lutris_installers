@@ -1,0 +1,16 @@
+name: 'The Elder Scrolls III: Morrowind GOTY Edition'
+slug: the-elder-scrolls-iii-morrowind-goty-edition
+year: 2003
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: RPG
+aliases: []
+banner_url: /games/banner/the-elder-scrolls-iii-morrowind-goty-edition.jpg
+icon_url: /games/icon/the-elder-scrolls-iii-morrowind-goty-edition.png
+is_public: true
+updated: '2019-01-23T08:31:40.721139Z'
+steamid: 22320
+gogslug: the_elder_scrolls_iii_morrowind_goty_edition
+humblestoreid: ''

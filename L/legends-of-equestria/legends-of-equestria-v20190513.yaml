@@ -1,0 +1,36 @@
+id: 3264
+game_id: 9908
+game_slug: legends-of-equestria
+name: Legends of Equestria
+year: 2017
+user: djazz
+runner: linux
+slug: legends-of-equestria-v20190513
+version: v2019.05.13
+description: null
+notes: <a href="https://forum.legendsofequestria.com/index.php?action=signup">Create
+  an account</a> in order to play! Game does not auto-update, when new versions of
+  LoE gets released you have to upgrade manually.
+created_at: '2017-02-15T11:00:51.196000Z'
+updated_at: '2019-05-18T17:37:29.547475Z'
+draft: false
+published: true
+published_by: 2045
+rating: '5'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: loe/loe.x86
+  installer:
+  - extract:
+      dst: $GAMEDIR/loe/
+      file: game
+  - chmodx: $GAMEDIR/loe/loe.x86
+  - chmodx: $GAMEDIR/loe/loe.x86_64
+  exe64: loe/loe.x86_64
+  files:
+  - game:
+      filename: loe.zip
+      url: https://djazz.se/nas/games/?dl=loe-latest

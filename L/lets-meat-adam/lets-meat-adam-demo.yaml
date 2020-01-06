@@ -1,0 +1,31 @@
+id: 9277
+game_id: 20022
+game_slug: lets-meat-adam
+name: Let's Meat Adam
+year: 2017
+user: kimchitea
+runner: linux
+slug: lets-meat-adam-demo
+version: Demo
+description: null
+notes: ''
+created_at: '2018-07-19T04:34:03.837000Z'
+updated_at: '2018-07-19T13:28:20.895913Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: LetsMEATAdam.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/LetsMEATAdam.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/LetsMEATAdam
+  - chmodx: $GAMEDIR/lib/linux-x86_64/LetsMEATAdam
+  files:
+  - file1: N/A:Please select the demo archive

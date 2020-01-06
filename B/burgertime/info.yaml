@@ -1,0 +1,19 @@
+name: BurgerTime
+slug: burgertime
+year: 1982
+platforms:
+- name: Arcade
+- name: Atari 2600
+- name: Commodore 64
+- name: Intellivision
+- name: NES
+genres:
+- name: Arcade
+aliases: []
+banner_url: /games/banner/burgertime.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:43.416376Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

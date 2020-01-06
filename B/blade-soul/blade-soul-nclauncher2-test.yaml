@@ -1,0 +1,69 @@
+id: 14960
+game_id: 18077
+game_slug: blade-soul
+name: Blade & Soul
+year: 2012
+user: WinterR
+runner: wine
+slug: blade-soul-nclauncher2-test
+version: NCLauncher2 test
+description: null
+notes: ''
+created_at: '2019-08-10T22:47:02.292000Z'
+updated_at: '2019-08-14T01:56:25.618396Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE/dxsetup
+      file: dx2010
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR
+      args: /silent
+      arch: win32
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: winekill
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2008 vcrun2013 physx corefonts
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .NET 4.7.2
+      app: dotnet472 win7
+      arch: win32
+      name: winetricks
+  - task:
+      executable: BnS
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  game:
+    args: /GameID:BnS
+    exe: drive_c/Program Files (x86)/NCSOFT/NC Launcher 2/Matryoshka.exe
+    arch: win32
+  system:
+    env:
+      PBA_ENABLE: 1
+  wine:
+    esync: true
+    UseGLSL: disabled
+  files:
+  - blade & soul: http://launcher.patcher.ncsoft.com/NCLauncher2_Installer.exe
+  - dx2010: https://lutris.net/files/tools/directx-2010.tar.gz

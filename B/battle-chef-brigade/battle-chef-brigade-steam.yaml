@@ -1,0 +1,24 @@
+id: 11253
+game_id: 11895
+game_slug: battle-chef-brigade
+name: Battle Chef Brigade
+year: 2017
+user: oscararg
+runner: steam
+slug: battle-chef-brigade-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-12-18T02:49:05.460409Z'
+updated_at: '2018-12-18T06:50:43.376960Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 452570
+gogid: 1739650883
+gogslug: battle_chef_brigade
+humblestoreid: ''
+script:
+  game:
+    appid: 452570

@@ -1,0 +1,45 @@
+id: 4872
+game_id: 12099
+game_slug: memoir-en-code
+name: Memoir En Code
+year: 2015
+user: FakeShemp
+runner: linux
+slug: memoir-en-code-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-07T08:05:20.280000Z'
+updated_at: '2017-07-09T20:07:06.048002Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: MemoirEnCode
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - extract:
+      format: ar
+      dst: $CACHE
+      file: $CACHE/MemoirEnCode.deb
+  - extract:
+      dst: $CACHE
+      file: $CACHE/data.tar.xz
+  - merge:
+      src: $CACHE/MemoirEnCode
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/MemoirEnCode_DigitalBooklet.pdf
+      dst: $GAMEDIR/MemoirEnCode_DigitalBooklet.pdf
+  - move:
+      src: $CACHE/Memoir De Code.url
+      dst: $GAMEDIR/Memoir De Code.url
+  files:
+  - file1: N/A:Please select the Groupees archive

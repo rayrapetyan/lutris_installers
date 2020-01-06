@@ -1,0 +1,48 @@
+id: 13395
+game_id: 23868
+game_slug: empire-earth-gold-edition
+name: Empire Earth Gold Edition
+year: 2001
+user: Eisi
+runner: wine
+slug: empire-earth-gold-edition-gog
+version: GOG
+description: null
+notes: "- By default the base game will be started. If you want to play the addon\
+  \ change the executable (Rightclick -> Configure -> Game Options) to drive_c/GOG\
+  \ Games/Empire Earth Gold Edition/Empire Earth - The Art of Conquest/EE-AoC.exe\r\
+  \nThe base game has to be run at least once otherwise the addon will not start.\r\
+  \n- If you want to play online you may additionally want to install the NeoEE patch\
+  \ from https://www.neoee.net/"
+created_at: '2019-05-08T17:50:18.905000Z'
+updated_at: '2019-05-18T06:37:15.857621Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: 1207658777
+gogslug: empire_earth_gold_edition
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      args: /SILENT /LANG=en /SP- /NOCANCEL /SUPPRESSMSGBOXES /NOGUI /DIR="C:/GOG
+        Games/Empire Earth Gold Edition"
+      arch: win32
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Installing directmusic
+      app: directmusic
+      arch: win32
+      name: winetricks
+  files:
+  - installer: N/A:Please select the GOG.com Windows installer
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/GOG Games/Empire Earth Gold Edition/Empire Earth/Empire
+      Earth.exe
+    arch: win32

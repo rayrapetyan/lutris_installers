@@ -1,0 +1,16 @@
+name: Foobillard++
+slug: foobillard
+year: null
+platforms:
+- name: Linux
+genres:
+- name: Simulation
+- name: Sports
+aliases: []
+banner_url: /games/banner/foobillard.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:32.966318Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

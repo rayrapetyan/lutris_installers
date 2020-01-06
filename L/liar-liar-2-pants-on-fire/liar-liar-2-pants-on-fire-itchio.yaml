@@ -1,0 +1,28 @@
+id: 6534
+game_id: 15014
+game_slug: liar-liar-2-pants-on-fire
+name: 'Liar Liar 2: Pants on Fire'
+year: 2016
+user: FakeShemp
+runner: linux
+slug: liar-liar-2-pants-on-fire-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2017-12-03T10:02:09.062388Z'
+updated_at: '2017-12-03T10:03:20.270647Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: liar liar 2.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

@@ -1,0 +1,24 @@
+id: 7406
+game_id: 942
+game_slug: cognition-an-erica-reed-thriller
+name: 'Cognition: An Erica Reed Thriller'
+year: null
+user: Aladar
+runner: winesteam
+slug: cognition-an-erica-reed-thril-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-02-26T23:21:18.202623Z'
+updated_at: '2018-02-27T02:20:55.221442Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 242780
+gogid: 1207659633
+gogslug: cognition_an_erica_reed_thriller
+humblestoreid: ''
+script:
+  game:
+    appid: 242780

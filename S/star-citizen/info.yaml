@@ -1,0 +1,19 @@
+name: Star Citizen
+slug: star-citizen
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: MMO
+- name: Space flight
+- name: Space simulation
+aliases:
+- slug: roberts-space-industry
+  name: Roberts Space Industry
+banner_url: /games/banner/star-citizen.jpg
+icon_url: /games/icon/star-citizen.png
+is_public: true
+updated: '2019-08-27T06:08:37.194683Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

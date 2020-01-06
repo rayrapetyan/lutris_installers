@@ -1,0 +1,31 @@
+id: 14091
+game_id: 27963
+game_slug: methods-the-detective-competition
+name: 'Methods: The Detective Competition'
+year: 2019
+user: kimchitea
+runner: linux
+slug: methods-the-detective-competi-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2019-06-14T22:04:02.343000Z'
+updated_at: '2019-06-17T01:44:19.161588Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Methods.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Methods.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Methods
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Methods
+  files:
+  - file1: N/A:Please select the game archive

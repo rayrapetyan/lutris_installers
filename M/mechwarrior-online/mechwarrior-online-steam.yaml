@@ -1,0 +1,58 @@
+id: 1744
+game_id: 5338
+game_slug: mechwarrior-online
+name: MechWarrior Online
+year: 2015
+user: Vorgen
+runner: winesteam
+slug: mechwarrior-online-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2015-12-23T12:41:48.840000Z'
+updated_at: '2019-10-28T19:54:23.442704Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: 342200
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE/dxsetup
+      file: dx2010
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR/prefix
+      args: /silent
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: winekill
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: arial vcrun2010 dotnet471 win7
+      arch: win64
+      name: winetricks
+  winesteam:
+    version: tkg-mwo-4.1-x86_64
+    esync: true
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  files:
+  - dx2010: https://lutris.net/files/tools/directx-2010.tar.gz
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 342200
+    arch: win64

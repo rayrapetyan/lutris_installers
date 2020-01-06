@@ -1,0 +1,16 @@
+name: Heroes of Might and Magic II
+slug: heroes-of-might-and-magic-ii
+year: 1996
+platforms:
+- name: MS-DOS
+- name: Windows
+genres:
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/heroes-of-might-and-magic-ii.jpg
+icon_url: /games/icon/heroes-of-might-and-magic-ii.png
+is_public: true
+updated: '2019-01-23T08:29:49.451376Z'
+steamid: null
+gogslug: heroes_of_might_and_magic_2_gold_edition
+humblestoreid: ''

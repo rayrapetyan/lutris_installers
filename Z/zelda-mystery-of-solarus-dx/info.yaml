@@ -1,0 +1,17 @@
+name: 'Zelda: Mystery of Solarus DX'
+slug: zelda-mystery-of-solarus-dx
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: jRPG
+- name: RPG
+aliases: []
+banner_url: /games/banner/zelda-mystery-of-solarus-dx.jpg
+icon_url: /games/icon/zelda-mystery-of-solarus-dx.png
+is_public: true
+updated: '2019-01-23T08:32:14.136978Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

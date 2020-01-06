@@ -1,0 +1,16 @@
+name: Donkey Kong
+slug: donkey-kong
+year: 1981
+platforms:
+- name: Arcade
+genres:
+- name: Arcade
+- name: Platform
+aliases: []
+banner_url: /games/banner/donkey-kong.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:14.769547Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

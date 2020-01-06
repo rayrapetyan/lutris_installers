@@ -1,0 +1,25 @@
+id: 10314
+game_id: 4119
+game_slug: total-war-attila
+name: 'Total War: ATTILA'
+year: null
+user: samuelngsh
+runner: winesteam
+slug: total-war-attila-steam-windows
+version: Steam Windows
+description: The Linux version of Total War Attila is badly optimized and there's
+  no cross-platform multiplayer.
+notes: ''
+created_at: '2018-09-23T23:43:26.572000Z'
+updated_at: '2018-09-27T05:41:54.371044Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 325610
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 325610

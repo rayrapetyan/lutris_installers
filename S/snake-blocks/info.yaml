@@ -1,0 +1,15 @@
+name: Snake Blocks
+slug: snake-blocks
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/snake-blocks.jpg
+icon_url: /games/icon/snake-blocks.png
+is_public: true
+updated: '2019-01-23T08:31:16.449648Z'
+steamid: 339320
+gogslug: ''
+humblestoreid: ''

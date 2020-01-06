@@ -1,0 +1,15 @@
+name: Soulbringer
+slug: soulbringer
+year: 2000
+platforms:
+- name: Windows
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/soulbringer.jpg
+icon_url: /games/icon/soulbringer.png
+is_public: true
+updated: '2019-01-23T08:31:18.752677Z'
+steamid: 283310
+gogslug: soulbringer
+humblestoreid: ''

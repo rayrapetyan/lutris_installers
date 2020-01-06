@@ -1,0 +1,16 @@
+name: Beyond the Wall
+slug: beyond-the-wall
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/beyond-the-wall.jpg
+icon_url: /games/icon/beyond-the-wall.png
+is_public: false
+updated: '2019-01-23T08:28:35.559490Z'
+steamid: 726120
+gogslug: ''
+humblestoreid: ''

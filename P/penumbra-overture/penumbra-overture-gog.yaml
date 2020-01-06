@@ -1,0 +1,33 @@
+id: 11410
+game_id: 165
+game_slug: penumbra-overture
+name: 'Penumbra: Overture'
+year: 2007
+user: rmolina
+runner: wine
+slug: penumbra-overture-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-01-02T00:27:56.941000Z'
+updated_at: '2019-01-19T10:58:40.980791Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 22180
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      args: /sp- /verysilent /norestart /suppressmsgboxes /nogui
+      name: wineexec
+  files:
+  - file1: N/A:Please select the GOG installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Penumbra - Overture/redist/Penumbra.exe

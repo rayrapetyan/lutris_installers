@@ -1,0 +1,15 @@
+name: Mythgard
+slug: mythgard
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Cards
+aliases: []
+banner_url: /games/banner/mythgard.jpg
+icon_url: /games/icon/mythgard.png
+is_public: true
+updated: '2019-10-29T00:43:40.800527Z'
+steamid: 839910
+gogslug: ''
+humblestoreid: ''

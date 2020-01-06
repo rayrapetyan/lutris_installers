@@ -1,0 +1,17 @@
+name: Satellite Reign
+slug: satellite-reign
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: RPG
+- name: Stealth
+aliases: []
+banner_url: /games/banner/satellite-reign.jpg
+icon_url: /games/icon/satellite-reign.png
+is_public: true
+updated: '2019-01-23T08:31:07.475472Z'
+steamid: 268870
+gogslug: satellite_reign
+humblestoreid: ''

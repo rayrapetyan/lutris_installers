@@ -1,0 +1,17 @@
+name: Outer Wilds
+slug: outer-wilds
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Open World
+- name: Space flight
+aliases: []
+banner_url: /games/banner/outer-wilds.jpg
+icon_url: /games/icon/outer-wilds.png
+is_public: true
+updated: '2019-07-20T03:00:09.684013Z'
+steamid: 753640
+gogslug: ''
+humblestoreid: ''

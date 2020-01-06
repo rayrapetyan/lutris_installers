@@ -1,0 +1,24 @@
+id: 2135
+game_id: 4960
+game_slug: olliolli2-welcome-to-olliwood
+name: 'OlliOlli2: Welcome to Olliwood'
+year: 2015
+user: strider
+runner: steam
+slug: olliolli2-welcome-to-olliwood-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-06-15T05:50:09.829865Z'
+updated_at: '2016-06-15T05:50:13.774792Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 365660
+gogid: 1438603531
+gogslug: olliolli2_welcome_to_olliwood
+humblestoreid: olliolli2-welcome-to-olliwood
+script:
+  game:
+    appid: 365660

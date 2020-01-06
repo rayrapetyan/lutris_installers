@@ -1,0 +1,29 @@
+id: 563
+game_id: 317
+game_slug: bitfighter
+name: Bitfighter
+year: 2013
+user: strider
+runner: linux
+slug: bitfighter-019e
+version: 019e
+description: Bitfighter 019e
+notes: ''
+created_at: '2014-09-13T23:22:09.991000Z'
+updated_at: '2015-05-14T21:11:54.620000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: bitfighter
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: bitfighter-archive
+  files:
+  - bitfighter-archive: http://bitfighter.org/files/bitfighter-019e-linux-standalone.tar.gz

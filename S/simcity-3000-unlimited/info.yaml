@@ -1,0 +1,16 @@
+name: SimCity 3000 Unlimited
+slug: simcity-3000-unlimited
+year: 1999
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: City building
+aliases: []
+banner_url: /games/banner/simcity-3000-unlimited.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:13.740292Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

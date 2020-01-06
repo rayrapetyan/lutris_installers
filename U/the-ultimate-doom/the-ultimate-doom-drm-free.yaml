@@ -1,0 +1,31 @@
+id: 5259
+game_id: 125
+game_slug: the-ultimate-doom
+name: The Ultimate Doom
+year: 1995
+user: bacera
+runner: zdoom
+slug: the-ultimate-doom-drm-free
+version: DRM Free
+description: "Launches a registered WAD of Doom. No Steam required.\r\n\r\nYou can\
+  \ buy a DRM free copy of Doom at https://www.gog.com/game/the_ultimate_doom"
+notes: ''
+created_at: '2017-08-03T01:46:04.038000Z'
+updated_at: '2017-08-08T18:03:49.525576Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 2280
+gogid: 1440164514
+gogslug: the_ultimate_doom
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: $iwad
+      dst: $GAMEDIR
+  files:
+  - iwad: N/A:Select your registered .WAD of The Ultimate Doom
+  game:
+    appid: 2280

@@ -1,0 +1,31 @@
+id: 9864
+game_id: 21171
+game_slug: vigilante-8-2nd-offense
+name: 'Vigilante 8: 2nd Offense'
+year: 2000
+user: kpalmab@icloud.com
+runner: libretro
+slug: vigilante-8-2nd-offense-playstation
+version: PlayStation
+description: null
+notes: ''
+created_at: '2018-08-23T21:05:23.000980Z'
+updated_at: '2018-08-24T07:49:39.851215Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the PlayStation image file
+  game:
+    core: mednafen_psx_hw
+    main_file: file1

@@ -1,0 +1,16 @@
+name: A dark room
+slug: a-dark-room
+year: 2013
+platforms:
+- name: Browser
+genres:
+- name: Action
+- name: Simulation
+aliases: []
+banner_url: /games/banner/a-dark-room.jpg
+icon_url: /games/icon/a-dark-room.png
+is_public: true
+updated: '2019-01-23T08:28:11.793226Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 798
+game_id: 2205
+game_slug: reversion-the-escape
+name: Reversion - The Escape
+year: null
+user: Xodetaetl
+runner: steam
+slug: reversion-the-escape-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T16:23:40.187000Z'
+updated_at: '2014-09-15T17:10:39.384000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 270570
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 270570

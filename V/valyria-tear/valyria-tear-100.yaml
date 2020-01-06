@@ -1,0 +1,28 @@
+id: 1295
+game_id: 3848
+game_slug: valyria-tear
+name: Valyria Tear
+year: 2014
+user: Bertram
+runner: linux
+slug: valyria-tear-100
+version: 1.0.0
+description: Episode I version x64 portable binary installer for Linux
+notes: ''
+created_at: '2015-02-12T13:34:43.620000Z'
+updated_at: '2015-02-24T17:42:40.896000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: valyriatear.x86_64
+  installer:
+  - extract:
+      file: game
+  files:
+  - game: http://downloads.sf.net/valyriatear/PortableBinaries/ValyriaTear-1.0.0-linux-x86_64.tar.bz2

@@ -1,0 +1,31 @@
+id: 11567
+game_id: 25145
+game_slug: earth-boys-are-easy
+name: Earth Boys Are Easy
+year: 2018
+user: kimchitea
+runner: linux
+slug: earth-boys-are-easy-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2019-01-13T12:03:14.041000Z'
+updated_at: '2019-01-22T08:14:55.737131Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: EarthBoysAreEasy.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/EarthBoysAreEasy.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/EarthBoysAreEasy
+  - chmodx: $GAMEDIR/lib/linux-x86_64/EarthBoysAreEasy
+  files:
+  - file1: N/A:Please select the game archive

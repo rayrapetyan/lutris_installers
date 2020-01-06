@@ -1,0 +1,24 @@
+id: 1661
+game_id: 3204
+game_slug: dragons-and-titans
+name: Dragons and Titans
+year: 2014
+user: RobLoach
+runner: steam
+slug: dragons-and-titans-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-11-02T12:07:45.663297Z'
+updated_at: '2016-01-26T19:14:19.308668Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 263500
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 263500

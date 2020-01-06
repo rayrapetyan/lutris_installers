@@ -1,0 +1,24 @@
+id: 8797
+game_id: 19393
+game_slug: my-super-tower-3
+name: My Super Tower 3
+year: 2018
+user: TuiorGames
+runner: steam
+slug: my-super-tower-3-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-19T12:33:57.415000Z'
+updated_at: '2018-08-07T03:43:18.044319Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 838640
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 838640

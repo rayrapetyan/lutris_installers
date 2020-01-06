@@ -1,0 +1,24 @@
+id: 3656
+game_id: 6291
+game_slug: ghost-in-the-shell-stand-alone-complex-first-assau
+name: Ghost in the Shell Stand Alone Complex First Assault Online
+year: null
+user: codythedragondude
+runner: winesteam
+slug: ghost-in-the-shell-stand-alon-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-05-09T14:26:04.175682Z'
+updated_at: '2017-05-10T17:16:20.441682Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 369200
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 369200

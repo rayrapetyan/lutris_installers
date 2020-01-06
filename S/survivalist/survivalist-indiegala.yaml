@@ -1,0 +1,46 @@
+id: 12654
+game_id: 3810
+game_slug: survivalist
+name: Survivalist
+year: null
+user: cxf
+runner: wine
+slug: survivalist-indiegala
+version: IndieGala
+description: null
+notes: Doesn't play music
+created_at: '2019-04-07T05:42:14.885000Z'
+updated_at: '2019-04-07T06:08:22.003168Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 340050
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Survivalist/Survivalist.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .NET 4.7.2
+      app: dotnet472
+      name: winetricks
+  - extract:
+      src: zip
+      dst: $CACHE
+  - task:
+      executable: $CACHE/SurvivalistSetup_v69.exe
+      prefix: $GAMEDIR
+      args: /silent
+      name: wineexec
+  wine:
+    version: tkg-4.0-x86_64
+  files:
+  - zip: N/A:Select survivalist_win.zip

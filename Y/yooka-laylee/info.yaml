@@ -1,0 +1,15 @@
+name: Yooka-Laylee
+slug: yooka-laylee
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/yooka-laylee.jpg
+icon_url: /games/icon/yooka-laylee.png
+is_public: true
+updated: '2019-01-23T08:32:13.186936Z'
+steamid: 360830
+gogslug: yookalaylee
+humblestoreid: ''

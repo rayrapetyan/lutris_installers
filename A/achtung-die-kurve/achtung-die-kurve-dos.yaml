@@ -1,0 +1,32 @@
+id: 1428
+game_id: 4082
+game_slug: achtung-die-kurve
+name: Achtung, die Kurve!
+year: 1995
+user: djazz
+runner: dosbox
+slug: achtung-die-kurve-dos
+version: DOS
+description: ''
+notes: ''
+created_at: '2015-03-19T23:42:09.440000Z'
+updated_at: '2017-04-27T08:55:12.035725Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: ZATACKA.EXE
+  dosbox:
+    exit: true
+  installer:
+  - extract:
+      file: game
+  files:
+  - game:
+      filename: achtung-die-kurve.zip
+      url: http://djazz.se/nas/games/?dl=achtung-die-kurve

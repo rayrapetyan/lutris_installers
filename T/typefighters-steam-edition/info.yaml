@@ -1,0 +1,16 @@
+name: Typefighters
+slug: typefighters-steam-edition
+year: null
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Educational
+aliases: []
+banner_url: /games/banner/typefighters-steam-edition.jpg
+icon_url: /games/icon/typefighters-steam-edition.png
+is_public: true
+updated: '2019-01-23T08:31:57.692688Z'
+steamid: 434290
+gogslug: ''
+humblestoreid: ''

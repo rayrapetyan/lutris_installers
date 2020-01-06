@@ -1,0 +1,24 @@
+id: 10688
+game_id: 21507
+game_slug: ignis-avis-venatio
+name: Ignis Avis Venatio
+year: 2018
+user: kimchitea
+runner: steam
+slug: ignis-avis-venatio-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-10-29T15:59:14.722041Z'
+updated_at: '2018-10-30T06:48:09.836818Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 809570
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 809570

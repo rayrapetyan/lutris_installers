@@ -1,0 +1,115 @@
+id: 13795
+game_id: 19270
+game_slug: quake-the-offering
+name: 'Quake: The Offering'
+year: 1998
+user: Lonsfor
+runner: linux
+slug: quake-the-offering-quakespasm-spiked-go
+version: Quakespasm-Spiked GOG
+description: null
+notes: ''
+created_at: '2019-05-30T02:13:23.447000Z'
+updated_at: '2019-09-09T01:51:32.206306Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: 1440166133
+gogslug: quake_the_offering
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE/innoextract
+      file: innoextract
+  - execute:
+      args: --lowercase -I pak0.pak -I pak1.pak --extract $data --output-dir $CACHE/data
+      file: $CACHE/innoextract/innoextract
+  - copy:
+      src: $CACHE/data/app/id1/pak0.pak
+      dst: $GAMEDIR/id1/
+  - copy:
+      src: $CACHE/data/app/id1/pak1.pak
+      dst: $GAMEDIR/id1/
+  - copy:
+      src: $CACHE/data/app/hipnotic/pak0.pak
+      dst: $GAMEDIR/hipnotic/
+  - copy:
+      src: $CACHE/data/app/rogue/pak0.pak
+      dst: $GAMEDIR/rogue/
+  - extract:
+      dst: $GAMEDIR/
+      file: engine
+  - chmodx: $GAMEDIR/quakespasm-spiked-linux64
+  - extract:
+      dst: $GAMEDIR/
+      file: music_main
+  - extract:
+      dst: $GAMEDIR/
+      file: music_ex1
+  - extract:
+      dst: $GAMEDIR/
+      file: music_ex2
+  - copy:
+      src: quake_config
+      dst: $GAMEDIR/id1/
+  - write_file:
+      mode: a
+      content: '_cl_name Ranger
+
+        cl_alwaysrun 1
+
+        cl_backspeed 200
+
+        cl_forwardspeed 200
+
+        cl_movespeedkey 2.0
+
+        cl_sidespeed 350
+
+        cl_upspeed 200
+
+        fov 100
+
+        gl_polyblend 1
+
+        gl_texture_anisotropy 1
+
+        scr_menuscale 1.5
+
+        scr_sbarscale 1.5
+
+        scr_showfps 1
+
+        scr_clock 1
+
+        r_wateralpha 0.8
+
+        r_waterwarp 1
+
+        pr_checkextension 0
+
+        vid_desktopfullscreen 1
+
+        vid_fullscreen 1
+
+        sensitivity 4
+
+        viewsize 110
+
+        +mlook
+
+        '
+      file: $GAMEDIR/id1/config.cfg
+  files:
+  - data: N/A:Select the game's setup file
+  - engine: http://triptohell.info/moodles/qss/quakespasm_spiked_linux64.zip
+  - quake_config: https://lutris.net/files/games/quake/config.cfg
+  - music_main: https://www.quaddicted.com/files/music/quake_campaign_soundtrack.zip
+  - music_ex1: https://www.quaddicted.com/files/music/quake_mp1_soundtrack.zip
+  - music_ex2: https://www.quaddicted.com/files/music/quake_mp2_soundtrack.zip
+  - innoextract: https://lutris.net/files/tools/innoextract.tar.gz
+  game:
+    exe: $GAMEDIR/quakespasm-spiked-linux64

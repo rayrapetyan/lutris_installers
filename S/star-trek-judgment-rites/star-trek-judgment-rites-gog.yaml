@@ -1,0 +1,38 @@
+id: 2446
+game_id: 7171
+game_slug: star-trek-judgment-rites
+name: 'Star Trek: Judgment Rites'
+year: 1993
+user: Modplanman
+runner: dosbox
+slug: star-trek-judgment-rites-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2016-08-13T21:44:31.126409Z'
+updated_at: '2016-08-15T22:16:07.609357Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 364800
+gogid: 1429089605
+gogslug: star_trek_judgment_rites
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR"
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/Game
+  files:
+  - game: N/A:Select the Linux installer downloaded from GOG
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz
+  game:
+    config_file: $GAMEDIR/Game/dosbox_stjr.conf
+    main_file: $GAMEDIR/Game/dosbox_stjr_single.conf

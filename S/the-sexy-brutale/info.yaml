@@ -1,0 +1,16 @@
+name: The Sexy Brutale
+slug: the-sexy-brutale
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/the-sexy-brutale.jpg
+icon_url: /games/icon/the-sexy-brutale.png
+is_public: true
+updated: '2019-01-23T08:31:47.053991Z'
+steamid: 552590
+gogslug: the_sexy_brutale
+humblestoreid: ''

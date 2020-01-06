@@ -1,0 +1,31 @@
+id: 4263
+game_id: 4885
+game_slug: grey-cubes
+name: Grey Cubes
+year: null
+user: FakeShemp
+runner: linux
+slug: grey-cubes-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-06-10T14:17:14.231652Z'
+updated_at: '2017-06-11T00:38:03.046638Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 371500
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: GreyCubes.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/GreyCubes.x86
+  - chmodx: $GAMEDIR/GreyCubes.x86_64
+  exe64: GreyCubes.x86_64
+  files:
+  - file1: N/A:Please select the IndieGameStand archive

@@ -1,0 +1,37 @@
+id: 2317
+game_id: 3869
+game_slug: a-bird-story
+name: A Bird Story
+year: 2014
+user: Lulu
+runner: linux
+slug: a-bird-story-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2016-07-20T18:55:29.655212Z'
+updated_at: '2016-08-18T10:15:50.483640Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 327410
+gogid: 1207666783
+gogslug: a_bird_story
+humblestoreid: ''
+script:
+  exe: Game/start.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/Game
+  files:
+  - game: 'N/A: Plese select the GOG.com Linux installer'
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

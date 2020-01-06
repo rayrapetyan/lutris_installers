@@ -1,0 +1,36 @@
+id: 2694
+game_id: 7620
+game_slug: forsaken
+name: Forsaken
+year: 1998
+user: ssf
+runner: linux
+slug: forsaken-projectx-x86-32
+version: ProjectX - x86-32
+description: ProjectX-SourcePort
+notes: ''
+created_at: '2016-09-07T17:08:26.484621Z'
+updated_at: '2016-11-10T17:06:45.863968Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1624591191
+gogslug: forsaken
+humblestoreid: ''
+script:
+  exe: start.sh
+  installer:
+  - extract:
+      format: zip
+      description: extracting...
+      file: $game
+      dst: $GAMEDIR
+  - execute:
+      args: -c "chmod +x $GAMEDIR/projectx-*-LINUX*"
+      file: /bin/sh
+      terminal: true
+  - chmodx: $GAMEDIR/start.sh
+  files:
+  - game: https://dl.dropboxusercontent.com/s/e5e4l16pzc2mvuk/projectx.zip

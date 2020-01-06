@@ -1,0 +1,41 @@
+id: 12305
+game_id: 21995
+game_slug: discord
+name: Discord
+year: 2015
+user: cxf
+runner: wine
+slug: discord-latest
+version: Latest
+description: null
+notes: '- <b>Installing games doesn''t work.</b> <a href="https://bugs.winehq.org/show_bug.cgi?id=46768">https://bugs.winehq.org/show_bug.cgi?id=46768</a>'
+created_at: '2019-03-09T02:14:42.825956Z'
+updated_at: '2019-03-09T02:15:49.667992Z'
+draft: false
+published: true
+published_by: null
+rating: '2'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/users/$USER/Local Settings/Application Data/Discord/app-0.0.304/Discord.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: dotnet472 win7
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      name: wineexec
+  wine:
+    version: tkg-4.2-x86_64
+  files:
+  - setup: https://dl.discordapp.net/apps/win/0.0.304/DiscordSetup.exe

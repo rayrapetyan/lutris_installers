@@ -1,0 +1,24 @@
+id: 10084
+game_id: 4938
+game_slug: mystik-belle
+name: Mystik Belle
+year: 2015
+user: cxf
+runner: steam
+slug: mystik-belle-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-09-07T02:55:49.845680Z'
+updated_at: '2018-09-07T02:56:00.772566Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 332610
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 332610

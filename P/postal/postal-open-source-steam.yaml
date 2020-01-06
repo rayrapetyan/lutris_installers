@@ -1,0 +1,33 @@
+id: 3146
+game_id: 493
+game_slug: postal
+name: POSTAL
+year: 1997
+user: strider
+runner: linux
+slug: postal-open-source-steam
+version: Open Source + Steam
+description: Uses the Open Source engine with Steam data
+notes: Steam requires to be running to launch the game.
+created_at: '2016-12-30T02:24:57.508000Z'
+updated_at: '2016-12-30T02:29:46.543836Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 232770
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: assets
+      dst: $GAMEDIR
+  - extract:
+      file: engine
+  files:
+  - engine: https://lutris.net/files/games/postal/postal-1.0-i686.tar.gz
+  - assets: $STEAM:232770:/
+  game:
+    exe: postal1-bin

@@ -1,0 +1,16 @@
+name: 'ERROR: Human Not Found'
+slug: error-human-not-found
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Puzzle
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/error-human-not-found.jpg
+icon_url: /games/icon/error-human-not-found.png
+is_public: true
+updated: '2019-01-23T08:29:24.355228Z'
+steamid: 771450
+gogslug: ''
+humblestoreid: ''

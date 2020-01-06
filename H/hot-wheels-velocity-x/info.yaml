@@ -1,0 +1,20 @@
+name: 'Hot Wheels: Velocity X'
+slug: hot-wheels-velocity-x
+year: 2002
+platforms:
+- name: GameCube
+- name: Nintendo Game Boy Advance
+- name: Sony PlayStation 2
+- name: Windows
+genres:
+- name: Action
+- name: Car combat
+- name: Racing
+aliases: []
+banner_url: /games/banner/hot-wheels-velocity-x.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-18T14:38:22.254551Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

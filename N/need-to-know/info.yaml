@@ -1,0 +1,17 @@
+name: Need to Know
+slug: need-to-know
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Point-and-click
+- name: Puzzle
+- name: Simulation
+aliases: []
+banner_url: /games/banner/need-to-know.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-25T06:08:19.014387Z'
+steamid: 490930
+gogslug: need_to_know
+humblestoreid: ''

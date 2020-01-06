@@ -1,0 +1,56 @@
+id: 17278
+game_id: 1817
+game_slug: the-curse-of-monkey-island
+name: The Curse of Monkey Island
+year: 1997
+user: nedddv
+runner: scummvm
+slug: the-curse-of-monkey-island-change-me
+version: Change Me
+description: null
+notes: ''
+created_at: '2019-12-11T22:56:30.500105Z'
+updated_at: '2019-12-11T22:56:30.500130Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 730820
+gogid: 1528148981
+gogslug: the_curse_of_monkey_island
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: resource
+      description: Please insert disc 1
+  - execute:
+      args: $GAMEDIR/resource
+      file: mkdir
+  - copy:
+      src: $DISC/resource
+      dst: $GAMEDIR/resource
+  - copy:
+      src: $DISC/comi.la0
+      dst: $GAMEDIR
+  - copy:
+      src: $DISC/comi.la1
+      dst: $GAMEDIR
+  - execute:
+      args: -R 775  "$GAMEDIR"
+      file: /bin/chmod
+  - insert-disc:
+      requires: resource
+      description: Please insert disc 2
+  - copy:
+      src: $DISC/resource
+      dst: $GAMEDIR/resource
+  - copy:
+      src: $DISC/comi.la2
+      dst: $GAMEDIR
+  - execute:
+      args: -R 775  "$GAMEDIR"
+      file: /bin/chmod
+  game:
+    game_id: comi
+    path: $GAMEDIR

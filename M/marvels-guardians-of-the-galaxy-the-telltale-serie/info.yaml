@@ -1,0 +1,17 @@
+name: 'Marvel''s Guardians of the Galaxy: The Telltale Series'
+slug: marvels-guardians-of-the-galaxy-the-telltale-serie
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Point-and-click
+- name: Sci-fi
+aliases: []
+banner_url: /games/banner/marvels-guardians-of-the-galaxy-the-telltale-serie.jpg
+icon_url: /games/icon/marvels-guardians-of-the-galaxy-the-telltale-serie.png
+is_public: true
+updated: '2019-01-23T08:30:18.241249Z'
+steamid: 579950
+gogslug: guardians_of_the_galaxy
+humblestoreid: ''

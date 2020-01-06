@@ -1,0 +1,24 @@
+id: 498
+game_id: 418
+game_slug: alan-wake
+name: Alan Wake
+year: 2010
+user: Xodetaetl
+runner: winesteam
+slug: alan-wake-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2014-07-21T08:36:45.701000Z'
+updated_at: '2016-10-31T22:10:38.966275Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 108710
+gogid: 1207659037
+gogslug: alan_wake
+humblestoreid: ''
+script:
+  game:
+    appid: 108710

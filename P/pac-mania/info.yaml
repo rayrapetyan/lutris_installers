@@ -1,0 +1,22 @@
+name: Pac-Mania
+slug: pac-mania
+year: 1987
+platforms:
+- name: Amiga
+- name: Amstrad CPC 464
+- name: Arcade
+- name: Commodore 64
+- name: MSX
+- name: NES
+- name: Sega Genesis / Mega Drive
+- name: ZX Spectrum
+genres:
+- name: Arcade
+aliases: []
+banner_url: /games/banner/pac-mania.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:40.700884Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

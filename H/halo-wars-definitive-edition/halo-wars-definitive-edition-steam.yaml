@@ -1,0 +1,24 @@
+id: 12138
+game_id: 11304
+game_slug: halo-wars-definitive-edition
+name: 'Halo Wars: Definitive Edition'
+year: 2017
+user: Roxxers
+runner: steam
+slug: halo-wars-definitive-edition-steam
+version: Steam
+description: Proton
+notes: ''
+created_at: '2019-02-23T11:14:31.981374Z'
+updated_at: '2019-03-15T07:41:09.052759Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 459220
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 459220

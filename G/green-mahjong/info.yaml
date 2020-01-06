@@ -1,0 +1,15 @@
+name: Green Mahjong
+slug: green-mahjong
+year: 2014
+platforms:
+- name: Browser
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/green-mahjong.jpg
+icon_url: /games/icon/green-mahjong.png
+is_public: true
+updated: '2019-01-23T08:29:43.198315Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,19 @@
+name: Moto Racer
+slug: moto-racer
+year: 1997
+platforms:
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Action
+- name: Arcade
+- name: Racing
+- name: Rally
+aliases: []
+banner_url: /games/banner/moto-racer.jpg
+icon_url: /games/icon/moto-racer.png
+is_public: true
+updated: '2019-12-15T12:26:45.112493Z'
+steamid: null
+gogslug: moto_racer
+humblestoreid: ''

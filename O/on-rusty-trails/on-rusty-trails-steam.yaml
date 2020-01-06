@@ -1,0 +1,24 @@
+id: 2862
+game_id: 7748
+game_slug: on-rusty-trails
+name: On Rusty Trails
+year: null
+user: strider
+runner: steam
+slug: on-rusty-trails-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-10-08T19:52:30.117967Z'
+updated_at: '2016-10-08T19:52:35.776954Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 277700
+gogid: 1476356259
+gogslug: on_rusty_trails
+humblestoreid: ''
+script:
+  game:
+    appid: 277700

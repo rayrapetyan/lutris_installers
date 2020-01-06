@@ -1,0 +1,24 @@
+id: 3251
+game_id: 3563
+game_slug: green-mahjong
+name: Green Mahjong
+year: 2014
+user: FakeShemp
+runner: web
+slug: green-mahjong-web
+version: Web
+description: ''
+notes: ''
+created_at: '2017-02-10T16:09:04.468000Z'
+updated_at: '2017-03-16T22:47:04.450623Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    main_file: http://greenmahjong.daniel-beck.org/

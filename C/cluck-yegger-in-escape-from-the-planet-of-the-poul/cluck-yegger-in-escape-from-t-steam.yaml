@@ -1,0 +1,24 @@
+id: 2477
+game_id: 6881
+game_slug: cluck-yegger-in-escape-from-the-planet-of-the-poul
+name: Cluck Yegger in Escape From The Planet of the Poultroid
+year: null
+user: gschaffran
+runner: steam
+slug: cluck-yegger-in-escape-from-t-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-08-17T18:32:12.129665Z'
+updated_at: '2016-09-16T20:14:29.822536Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 416800
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 416800

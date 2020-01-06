@@ -1,0 +1,56 @@
+id: 9771
+game_id: 12086
+game_slug: the-simpsons-hit-run
+name: 'The Simpsons: Hit & Run'
+year: 2003
+user: CodingKoopa
+runner: wine
+slug: the-simpsons-hit-run-pc-mod-launcher-v123
+version: PC Mod Launcher v1.23.2
+description: "Includes Lucas' Simpsons Hit & Run Mod Launcher v1.23.2, for:\r\n\r\n\
+  - Improved game compatibility on modern computers.\r\n\r\n- Tweaks to change how\
+  \ the game runs.\r\n\r\n- The ability to play mods for the game.\r\n\r\nFor more\
+  \ info on the mod launcher, see http://docs.donutteam.com/books/lucas-simpsons-hit-run-mod-launcher."
+notes: ''
+created_at: '2018-08-17T05:54:59.891000Z'
+updated_at: '2019-09-09T00:37:45.852060Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .NET 3.5 runtime
+      app: dotnet35
+      name: winetricks
+  - extract:
+      description: Extracting mod launcher archive
+      dst: drive_c/Program Files/Lucas Stuff/Lucas' Simpsons Hit & Run Tools/Lucas'
+        Simpsons Hit & Run Mod Launcher
+      file: mod-launcher-archive
+  - task:
+      prefix: $GAMEDIR
+      description: Setting mod launcher game EXE path registry key
+      key: Game EXE Path
+      value: $GAMEDIR/Simpsons.exe
+      path: HKEY_CURRENT_USER\Software\Lucas Stuff\Lucas' Simpsons Hit & Run Tools\
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      description: Setting mod launcher game directory path registry key
+      key: Game Path
+      value: $GAMEDIR
+      path: HKEY_CURRENT_USER\Software\Lucas Stuff\Lucas' Simpsons Hit & Run Tools\
+      name: set_regedit
+  files:
+  - mod-launcher-archive: https://cdn.donutteam.com/Downloads/Tools/Lucas'%20Simpsons%20Hit%20&%20Run%20Mod%20Launcher%201.23.2.zip
+  game:
+    custom-name: Lucas Simpsons Hit & Run Mod Launcher
+    exe: drive_c/Program Files/Lucas Stuff/Lucas' Simpsons Hit & Run Tools/Lucas'
+      Simpsons Hit & Run Mod Launcher/Lucas Simpsons Hit & Run Mod Launcher.exe

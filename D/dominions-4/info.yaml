@@ -1,0 +1,16 @@
+name: Dominions 4
+slug: dominions-4
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: 4X
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/dominions-4.jpg
+icon_url: /games/icon/dominions-4.png
+is_public: true
+updated: '2019-01-23T08:29:14.586424Z'
+steamid: 259060
+gogslug: ''
+humblestoreid: ''

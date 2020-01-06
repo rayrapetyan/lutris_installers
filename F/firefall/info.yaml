@@ -1,0 +1,15 @@
+name: Firefall
+slug: firefall
+year: null
+platforms:
+- name: Windows
+genres:
+- name: MMO
+aliases: []
+banner_url: /games/banner/firefall.jpg
+icon_url: /games/icon/firefall.png
+is_public: true
+updated: '2019-01-23T08:29:31.420309Z'
+steamid: 227700
+gogslug: ''
+humblestoreid: ''

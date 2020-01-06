@@ -1,0 +1,16 @@
+name: VA-11 Hall-A KIDS!
+slug: va-11-hall-a-kids
+year: 2018
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/va-11-hall-a-kids.jpg
+icon_url: null
+is_public: true
+updated: '2019-11-16T09:18:55.253139Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

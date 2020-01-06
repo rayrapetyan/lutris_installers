@@ -1,0 +1,16 @@
+name: 'Nioh: Complete Edition'
+slug: nioh-complete-edition
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: RPG
+aliases: []
+banner_url: /games/banner/nioh-complete-edition.jpg
+icon_url: /games/icon/nioh-complete-edition.png
+is_public: true
+updated: '2019-01-23T08:30:33.412483Z'
+steamid: 485510
+gogslug: ''
+humblestoreid: ''

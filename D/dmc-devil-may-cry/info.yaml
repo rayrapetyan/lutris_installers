@@ -1,0 +1,17 @@
+name: DmC Devil May Cry
+slug: dmc-devil-may-cry
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Hack and slash
+aliases: []
+banner_url: /games/banner/dmc-devil-may-cry.jpg
+icon_url: /games/icon/dmc-devil-may-cry.png
+is_public: true
+updated: '2019-01-23T08:29:14.231175Z'
+steamid: 220440
+gogslug: ''
+humblestoreid: ''

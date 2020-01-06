@@ -1,0 +1,28 @@
+id: 4836
+game_id: 11208
+game_slug: blossoms-bloom-brightest
+name: Blossoms Bloom Brightest
+year: 2017
+user: FakeShemp
+runner: linux
+slug: blossoms-bloom-brightest-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-07-05T21:18:39.491607Z'
+updated_at: '2017-07-09T20:13:14.407154Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 437720
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: BBBv1.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

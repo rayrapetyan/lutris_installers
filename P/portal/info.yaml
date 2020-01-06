@@ -1,0 +1,15 @@
+name: Portal
+slug: portal
+year: 2007
+platforms:
+- name: Linux
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/portal.jpg
+icon_url: /games/icon/portal.png
+is_public: true
+updated: '2019-01-23T08:30:48.061262Z'
+steamid: 400
+gogslug: ''
+humblestoreid: ''

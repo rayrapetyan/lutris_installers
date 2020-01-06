@@ -1,0 +1,69 @@
+id: 15357
+game_id: 3392
+game_slug: bad-mojo-redux
+name: Bad Mojo Redux
+year: 2004
+user: legluondunet
+runner: wine
+slug: bad-mojo-redux-gog
+version: GOG
+description: "This script will install \"Bad Mojo Redux\" Gog edition with support\
+  \ for modern computer config.\r\nDuring install please let all options by default.\r\
+  \nThanks to the people who contributed to play this game in the best conditions."
+notes: "- Kown issue: this game has a 640x480 resolution. If you launch it in a virtual\
+  \ Wine desktop, the Wine window will be resized to  640x480 resolution. The only\
+  \ workaround, for the moment, is to disable Wine virtual desktop. Before trying\
+  \ this workaround, verify your screen can support 640x480 resolution. \r\n- Please\
+  \ report issue concerning this script on my github page:\r\nhttps://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2019-09-07T10:00:28.059000Z'
+updated_at: '2019-09-21T21:31:15.774153Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: 255960
+gogid: 1207664623
+gogslug: bad_mojo_redux
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Preparing Wineprefix...
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: install
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES /SILENT
+      description: Installing...
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: 0 0 0
+      key: background
+      path: HKEY_CURRENT_USER\Control Panel\Colors\
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_DWORD
+      value: '00000000'
+      key: csmt
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D\
+  - execute:
+      command: cd "$GAMEDIR/drive_c/GOG Games/Bad Mojo/" ; rm -f -r unins000.* "Launch
+        Bad Mojo.lnk" webcache.zip Support.ico gog* GameuxInstallHelper.dll;
+  system:
+    reset_desktop: true
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Bad Mojo/launcher.exe
+  custom-name: Bad Mojo Redux - GOG
+  wine:
+    Desktop: false
+  files:
+  - install: N/A:Please select the GOG installer

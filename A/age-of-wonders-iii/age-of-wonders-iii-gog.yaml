@@ -1,0 +1,40 @@
+id: 8521
+game_id: 3391
+game_slug: age-of-wonders-iii
+name: Age of Wonders III
+year: 2014
+user: Bleistift33
+runner: wine
+slug: age-of-wonders-iii-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2018-06-03T12:43:41.338000Z'
+updated_at: '2019-05-18T08:13:29.265958Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 226840
+gogid: 1207660893
+gogslug: age_of_wonders_3
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2008 vcrun2010 win7
+      name: winetricks
+  - task:
+      executable: aow
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES /NOCANCEL
+      name: wineexec
+  files:
+  - aow: N/A:Select the Windows installer downloaded from GOG
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Age of Wonders III/AoW3Launcher.exe

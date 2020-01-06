@@ -1,0 +1,17 @@
+name: Blair Witch
+slug: blair-witch
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Horror
+aliases: []
+banner_url: /games/banner/blair-witch.jpg
+icon_url: /games/icon/blair-witch.png
+is_public: true
+updated: '2019-06-13T16:11:13.717548Z'
+steamid: 1092660
+gogslug: ''
+humblestoreid: ''

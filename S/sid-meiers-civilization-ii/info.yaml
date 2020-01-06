@@ -1,0 +1,16 @@
+name: Sid Meier's Civilization II
+slug: sid-meiers-civilization-ii
+year: 1996
+platforms:
+- name: MS-DOS
+- name: Sony PlayStation
+genres:
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/sid-meiers-civilization-ii.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:13.097168Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

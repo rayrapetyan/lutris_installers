@@ -1,0 +1,31 @@
+id: 14285
+game_id: 4241
+game_slug: blender
+name: Blender
+year: 1998
+user: paperbenni
+runner: linux
+slug: blender-279
+version: '2.79'
+description: The last release of blender 2.79
+notes: ''
+created_at: '2019-06-24T09:03:03.823000Z'
+updated_at: '2019-10-31T00:53:56.176425Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 365670
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/
+      file: release
+  - chmodx: $GAMEDIR/blender
+  files:
+  - release: https://download.blender.org/release/Blender2.79/latest/blender-2.79-e045fe53f1b0-linux-glibc217-x86_64.tar.bz2
+  game:
+    exe: $GAMEDIR/blender

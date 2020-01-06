@@ -1,0 +1,33 @@
+id: 4408
+game_id: 11760
+game_slug: paradise-perfect-boat-rescue
+name: Paradise Perfect Boat Rescue
+year: null
+user: FakeShemp
+runner: wine
+slug: paradise-perfect-boat-rescue-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-06-16T20:23:48.599000Z'
+updated_at: '2018-05-19T03:41:51.268237Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the IndieGameStand installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Paradise Perfect Boat Rescue/paradiseperfectboatrescue.exe
+    arch: win32

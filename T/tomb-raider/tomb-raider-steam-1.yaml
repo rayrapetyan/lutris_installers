@@ -1,0 +1,25 @@
+id: 9766
+game_id: 821
+game_slug: tomb-raider
+name: Tomb Raider
+year: 2013
+user: kamuintro
+runner: winesteam
+slug: tomb-raider-steam-1
+version: Steam
+description: Options=> Full screen disable
+notes: Shadow bug
+created_at: '2018-08-16T19:00:57.018000Z'
+updated_at: '2018-08-18T10:26:58.558171Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 203160
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 203160
+    arch: win64

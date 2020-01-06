@@ -1,0 +1,29 @@
+id: 10045
+game_id: 21495
+game_slug: mindustry
+name: Mindustry
+year: 2017
+user: basxto
+runner: linux
+slug: mindustry-itchio
+version: itch.io
+description: Download release from itch.io site
+notes: ''
+created_at: '2018-09-05T03:29:07.324377Z'
+updated_at: '2018-09-06T13:51:04.276124Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 1127400
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Mindustry
+  installer:
+  - extract:
+      file: $game
+  - chmodx: $GAMEDIR/Mindustry
+  files:
+  - game: N/A:Please select the itch.io archive

@@ -1,0 +1,34 @@
+id: 8825
+game_id: 4219
+game_slug: windward
+name: Windward
+year: null
+user: stooj
+runner: linux
+slug: windward-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2018-06-20T21:55:40.339000Z'
+updated_at: '2019-03-30T02:25:07.787320Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 326410
+gogid: 1434370838
+gogslug: windward
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

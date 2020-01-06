@@ -1,0 +1,17 @@
+name: 'The Elder Scrolls: Arena'
+slug: the-elder-scrolls-arena
+year: 1994
+platforms:
+- name: MS-DOS
+genres:
+- name: Action
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/the-elder-scrolls-arena.jpg
+icon_url: /games/icon/the-elder-scrolls-arena.png
+is_public: true
+updated: '2019-10-26T14:10:21.724696Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,32 @@
+id: 6950
+game_id: 15608
+game_slug: higurashi-when-they-cry-2009
+name: Higurashi When They Cry (2009)
+year: 2009
+user: FakeShemp
+runner: wine
+slug: higurashi-when-they-cry-2009-groupees
+version: Groupees
+description: null
+notes: ''
+created_at: '2018-01-02T00:29:10.937225Z'
+updated_at: '2018-05-19T03:42:00.048672Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Higurashi When They Cry
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Higurashi When They Cry/BGI.exe
+    arch: win32

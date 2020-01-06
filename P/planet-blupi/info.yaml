@@ -1,0 +1,16 @@
+name: Planet Blupi
+slug: planet-blupi
+year: 1997
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/planet-blupi.jpg
+icon_url: /games/icon/planet-blupi.png
+is_public: true
+updated: '2019-01-23T08:30:45.954199Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

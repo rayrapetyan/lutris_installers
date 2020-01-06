@@ -1,0 +1,29 @@
+id: 3842
+game_id: 2448
+game_slug: paper-sorcerer
+name: Paper Sorcerer
+year: null
+user: FakeShemp
+runner: linux
+slug: paper-sorcerer-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-24T15:51:54.477763Z'
+updated_at: '2017-05-27T23:57:33.543049Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 263560
+gogid: 1207664363
+gogslug: paper_sorcerer
+humblestoreid: ''
+script:
+  exe: PaperSorcererLinux.x86
+  installer:
+  - extract:
+      file: $file1
+  exe64: PaperSorcererLinux.x86_64
+  files:
+  - file1: N/A:Please select the Humble archive

@@ -1,0 +1,24 @@
+id: 2621
+game_id: 5318
+game_slug: doodle-god
+name: Doodle God
+year: null
+user: gschaffran
+runner: steam
+slug: doodle-god-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-08-29T18:44:44.024451Z'
+updated_at: '2016-09-30T21:15:21.854831Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 348360
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 348360

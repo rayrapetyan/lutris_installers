@@ -1,0 +1,28 @@
+id: 4985
+game_id: 2557
+game_slug: 8-bit-commando
+name: 8-Bit Commando
+year: 2011
+user: FakeShemp
+runner: linux
+slug: 8-bit-commando-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-12T16:21:31.854679Z'
+updated_at: '2017-08-27T21:54:11.827999Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 287860
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: bin/8bit_commando
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive

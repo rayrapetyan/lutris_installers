@@ -1,0 +1,17 @@
+name: Street Fighter X Mega Man
+slug: street-fighter-x-mega-man
+year: 2012
+platforms:
+- name: Windows
+genres:
+- name: Platform
+aliases:
+- slug: street-fighter-x-mega-man-v2
+  name: Street Fighter X Mega Man V2
+banner_url: /games/banner/street-fighter-x-mega-man.jpg
+icon_url: /games/icon/street-fighter-x-mega-man.png
+is_public: true
+updated: '2019-03-25T05:16:06.019155Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

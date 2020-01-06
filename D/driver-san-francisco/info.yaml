@@ -1,0 +1,17 @@
+name: 'Driver: San Francisco'
+slug: driver-san-francisco
+year: 2011
+platforms:
+- name: Nintendo Wii
+- name: Windows
+genres:
+- name: Action
+- name: Racing
+aliases: []
+banner_url: /games/banner/driver-san-francisco.jpg
+icon_url: /games/icon/driver-san-francisco.png
+is_public: true
+updated: '2019-01-23T08:29:17.930112Z'
+steamid: 33440
+gogslug: ''
+humblestoreid: ''

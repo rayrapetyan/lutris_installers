@@ -1,0 +1,24 @@
+id: 7218
+game_id: 5498
+game_slug: quiplash
+name: Quiplash
+year: 2015
+user: t-rex91
+runner: steam
+slug: quiplash-steam-1
+version: Steam
+description: null
+notes: ''
+created_at: '2018-02-01T20:29:36.986738Z'
+updated_at: '2018-02-02T01:10:32.588441Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 351510
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 351510

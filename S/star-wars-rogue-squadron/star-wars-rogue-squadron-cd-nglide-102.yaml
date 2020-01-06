@@ -1,0 +1,49 @@
+id: 909
+game_id: 2954
+game_slug: star-wars-rogue-squadron
+name: 'Star Wars: Rogue Squadron'
+year: 1998
+user: med_freeman
+runner: wine
+slug: star-wars-rogue-squadron-cd-nglide-102
+version: CD (nGlide 1.02)
+description: CD Version with new installer
+notes: ''
+created_at: '2014-10-01T10:29:15.625000Z'
+updated_at: '2018-12-14T03:45:45.545337Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: rogue
+      message: Insert the Rogue Squadron CD to continue
+  - task:
+      executable: ${rogue-installer}
+      prefix: GAMEDIR
+      args: /nocdprompt
+      description: Installing Rogue Squadron
+      name: wineexec
+  - task:
+      prefix: GAMEDIR
+      app: dsound
+      name: winetricks
+  - task:
+      prefix: GAMEDIR
+      description: Enable Windows 98 compatibility mode
+      key: Version
+      value: win98
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  files:
+  - rogue-installer: http://github.com/medfreeman/RogueSquadron3DInstaller/raw/master/RS3DInstaller-0.96_nglide_102.exe
+  game:
+    prefix: GAMEDIR
+    exe: drive_c/Program Files/LucasArts/ROGUE/ROGUE.EXE
+    arch: win32

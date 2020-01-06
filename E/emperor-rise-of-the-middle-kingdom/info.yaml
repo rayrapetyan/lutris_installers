@@ -1,0 +1,16 @@
+name: 'Emperor: Rise of the Middle Kingdom'
+slug: emperor-rise-of-the-middle-kingdom
+year: 2002
+platforms:
+- name: Windows
+genres:
+- name: Real-time strategy
+- name: Simulation
+aliases: []
+banner_url: /games/banner/emperor-rise-of-the-middle-kingdom.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:22.828840Z'
+steamid: null
+gogslug: emperor_rise_of_the_middle_kingdom
+humblestoreid: ''

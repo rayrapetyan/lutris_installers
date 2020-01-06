@@ -1,0 +1,25 @@
+id: 11509
+game_id: 10155
+game_slug: heat-signature
+name: Heat Signature
+year: null
+user: madmachinegun
+runner: steam
+slug: heat-signature-steam-proton
+version: Steam Proton
+description: null
+notes: Steam > Settings > Steam Play > check "Enable Steam Play for all titles", then
+  restart Steam.
+created_at: '2019-01-08T02:46:52.933000Z'
+updated_at: '2019-05-19T06:32:57.447645Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 268130
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 268130

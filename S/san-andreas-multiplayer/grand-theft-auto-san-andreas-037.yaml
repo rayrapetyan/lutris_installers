@@ -1,0 +1,45 @@
+id: 4694
+game_id: 11948
+game_slug: san-andreas-multiplayer
+name: 'Grand Theft Auto: San Andreas Multiplayer'
+year: 2005
+user: Lucki
+runner: wine
+slug: grand-theft-auto-san-andreas-037
+version: 0.3.7
+description: Includes downgrade of GTA:SA to v1.0.
+notes: ''
+created_at: '2017-06-27T20:00:10.266000Z'
+updated_at: '2019-01-11T00:51:16.660373Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: grand-theft-auto-san-andreas
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $downgrade
+  - task:
+      executable: $CACHE/gtasapatch.exe
+      prefix: $GAMEDIR
+      description: Downgrading GTA:SA...
+      name: wineexec
+  - task:
+      executable: $samp
+      prefix: $GAMEDIR
+      args: /silent
+      description: Installing SA:MP...
+      name: wineexec
+  files:
+  - downgrade: http://files.sa-mp.com/gtasapatch.zip
+  - samp: http://files.sa-mp.com/sa-mp-0.3.7-install.exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Rockstar Games/GTA San Andreas/samp.exe
+    arch: win32

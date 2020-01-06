@@ -1,0 +1,16 @@
+name: Chroma Squad
+slug: chroma-squad
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: RPG
+- name: Turn-based tactics
+aliases: []
+banner_url: /games/banner/chroma-squad.jpg
+icon_url: /games/icon/chroma-squad.png
+is_public: true
+updated: '2019-01-23T08:28:52.398843Z'
+steamid: 251130
+gogslug: chroma_squad
+humblestoreid: ''

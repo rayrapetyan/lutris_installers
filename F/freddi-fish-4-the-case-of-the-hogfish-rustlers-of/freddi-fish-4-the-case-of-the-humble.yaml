@@ -1,0 +1,39 @@
+id: 4622
+game_id: 2800
+game_slug: freddi-fish-4-the-case-of-the-hogfish-rustlers-of-
+name: 'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch'
+year: 1999
+user: FakeShemp
+runner: scummvm
+slug: freddi-fish-4-the-case-of-the-humble
+version: Humble
+description: Uses the files from the Windows installer from Humble.
+notes: ''
+created_at: '2017-06-26T09:09:02.135000Z'
+updated_at: '2017-07-04T18:06:06.569209Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 294550
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  scummvm:
+    gfx-mode: 2x
+  installer:
+  - task:
+      executable: $file1
+      prefix: $CACHE
+      args: /S
+      name: wine.wineexec
+  - merge:
+      src: $CACHE/drive_c/Games/Humongous Entertainment/Freddi Fish 4
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble installer
+  game:
+    game_id: freddi4
+    path: $GAMEDIR
+    subtitles: true

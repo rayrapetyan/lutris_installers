@@ -1,0 +1,16 @@
+name: Blue Revolver
+slug: blue-revolver
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Arcade
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/blue-revolver.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:39.622165Z'
+steamid: 439490
+gogslug: ''
+humblestoreid: ''

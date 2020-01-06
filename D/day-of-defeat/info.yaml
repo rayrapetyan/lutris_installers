@@ -1,0 +1,15 @@
+name: Day of Defeat
+slug: day-of-defeat
+year: 2003
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/day-of-defeat.jpg
+icon_url: /games/icon/day-of-defeat.png
+is_public: true
+updated: '2019-01-23T08:29:05.648515Z'
+steamid: 30
+gogslug: ''
+humblestoreid: ''

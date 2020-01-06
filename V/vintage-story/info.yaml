@@ -1,0 +1,17 @@
+name: Vintage Story
+slug: vintage-story
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Exploration
+- name: Sandbox
+- name: Survival
+aliases: []
+banner_url: /games/banner/vintage-story.jpg
+icon_url: null
+is_public: true
+updated: '2019-10-07T04:42:57.319857Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

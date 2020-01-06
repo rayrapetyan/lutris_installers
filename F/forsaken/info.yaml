@@ -1,0 +1,18 @@
+name: Forsaken
+slug: forsaken
+year: 1998
+platforms:
+- name: Nintendo 64
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Shoot'em up
+- name: Shooter
+aliases: []
+banner_url: /games/banner/forsaken.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:34.075668Z'
+steamid: null
+gogslug: forsaken
+humblestoreid: ''

@@ -1,0 +1,17 @@
+name: 'Total War: SHOGUN 2'
+slug: total-war-shogun-2
+year: 2011
+platforms:
+- name: Linux
+genres:
+- name: 4X
+- name: Real-time tactics
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/total-war-shogun-2.jpg
+icon_url: /games/icon/total-war-shogun-2.png
+is_public: true
+updated: '2019-01-23T08:31:53.727482Z'
+steamid: 34330
+gogslug: ''
+humblestoreid: ''

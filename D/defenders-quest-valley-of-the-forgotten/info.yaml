@@ -1,0 +1,16 @@
+name: 'Defender''s Quest: Valley of the Forgotten'
+slug: defenders-quest-valley-of-the-forgotten
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: RPG
+- name: Tower defense
+aliases: []
+banner_url: /games/banner/defenders-quest-valley-of-the-forgotten.jpg
+icon_url: /games/icon/defenders-quest-valley-of-the-forgotten.png
+is_public: true
+updated: '2019-05-18T09:50:08.658538Z'
+steamid: 218410
+gogslug: defenders_quest
+humblestoreid: ''

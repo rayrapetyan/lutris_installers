@@ -1,0 +1,24 @@
+id: 2344
+game_id: 590
+game_slug: crysis-wars
+name: Crysis Wars
+year: null
+user: RobLoach
+runner: winesteam
+slug: crysis-wars-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: https://appdb.winehq.org/objectManager.php?sClass=version&iId=22686
+created_at: '2016-07-27T04:47:26.089436Z'
+updated_at: '2016-08-14T22:25:30.492085Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: 17340
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 17340

@@ -1,0 +1,20 @@
+name: The Elder Scrolls Online
+slug: the-elder-scrolls-online-tamriel-unlimited
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: MMORPG
+- name: RPG
+aliases:
+- slug: the-elder-scrolls-online
+  name: The Elder Scrolls Online
+banner_url: /games/banner/the-elder-scrolls-online-tamriel-unlimited.jpg
+icon_url: /games/icon/the-elder-scrolls-online-tamriel-unlimited.png
+is_public: true
+updated: '2019-05-18T06:32:06.230964Z'
+steamid: 306130
+gogslug: ''
+humblestoreid: ''

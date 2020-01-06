@@ -1,0 +1,98 @@
+id: 11247
+game_id: 24273
+game_slug: renegade-x
+name: Renegade X
+year: 2014
+user: SonnyX
+runner: wine
+slug: renegade-x-official
+version: Official
+description: null
+notes: ''
+created_at: '2018-12-17T14:23:43.407000Z'
+updated_at: '2019-11-07T00:24:54.904576Z'
+draft: false
+published: true
+published_by: 64834
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing corefonts
+      app: corefonts
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing visual code 2008
+      app: vcrun2008
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing visual code 2010
+      app: vcrun2010
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing xact
+      app: xact
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing xact_64
+      app: xact_x64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing d3dx9
+      app: d3dx9
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing d3dx9_43.dll
+      app: d3dx9_43
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing msxml3
+      app: msxml3
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .net 4.7.2
+      app: dotnet472
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting environment to Windows7
+      app: win7
+      name: winetricks
+  - task:
+      executable: msiexec
+      prefix: $GAMEDIR
+      args: /i "$CACHE/renx/Renegade_X_Installer-d3c8456.msi" /q
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Renegade X/Launcher/Renegade X Launcher.exe
+    arch: win64
+  system:
+    env:
+      DXVK_HUD: 0
+    disable_runtime: false
+  wine:
+    version: tkg-protonified-4.6-x86_64
+    overrides:
+      nvapi,nvapi64: disabled
+    dxvk: true
+  files:
+  - renx: https://renxdownloads.nyc3.cdn.digitaloceanspaces.com/Renegade_X_Installer-d3c8456.msi

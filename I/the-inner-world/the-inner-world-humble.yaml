@@ -1,0 +1,36 @@
+id: 4457
+game_id: 1944
+game_slug: the-inner-world
+name: The Inner World
+year: null
+user: FakeShemp
+runner: linux
+slug: the-inner-world-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-18T09:29:49.178611Z'
+updated_at: '2017-06-18T23:21:53.574029Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 251430
+gogid: 1207659793
+gogslug: the_inner_world
+humblestoreid: ''
+script:
+  exe: start.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/Linux
+      dst: $GAMEDIR
+  - extract:
+      file: $file2
+  - chmodx: $GAMEDIR/start.sh
+  files:
+  - file1: N/A:Please select the Humble archive
+  - file2: https://gist.github.com/FakeShemp/fd04642d6542d468f84d1ef38b0126fa/archive/e0964ccaa5d10fefb0867eb72511f9d52c662ddb.zip

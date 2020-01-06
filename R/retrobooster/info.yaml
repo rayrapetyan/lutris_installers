@@ -1,0 +1,15 @@
+name: Retrobooster
+slug: retrobooster
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/retrobooster.jpg
+icon_url: /games/icon/retrobooster.png
+is_public: true
+updated: '2019-01-23T08:30:58.320904Z'
+steamid: 310830
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,16 @@
+name: 'Star Wars: Demolition'
+slug: star-wars-demolition
+year: 2000
+platforms:
+- name: Sega Dreamcast
+- name: Sony PlayStation
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/star-wars-demolition.jpg
+icon_url: null
+is_public: true
+updated: '2020-01-01T06:40:16.000288Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,17 @@
+name: Digimon World
+slug: digimon-world
+year: 2000
+platforms:
+- name: Sony PlayStation
+genres:
+- name: Action
+- name: Simulation
+- name: Strategy
+aliases: []
+banner_url: /games/banner/digimon-world.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:11.650975Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

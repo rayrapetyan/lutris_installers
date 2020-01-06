@@ -1,0 +1,28 @@
+id: 6718
+game_id: 4143
+game_slug: square-heroes
+name: Square Heroes
+year: null
+user: FakeShemp
+runner: linux
+slug: square-heroes-desura
+version: Desura
+description: null
+notes: ''
+created_at: '2017-12-17T19:26:01.168470Z'
+updated_at: '2017-12-17T19:27:55.200587Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 334560
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: SquareHeroes.bin.x86_64
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Desura archive

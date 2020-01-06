@@ -1,0 +1,17 @@
+name: 'Back to the Future: The Game'
+slug: back-to-the-future-the-game
+year: 2010
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Point-and-click
+- name: Sci-fi
+aliases: []
+banner_url: /games/banner/back-to-the-future-the-game.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:30.523623Z'
+steamid: null
+gogslug: back_to_the_future_the_game
+humblestoreid: ''

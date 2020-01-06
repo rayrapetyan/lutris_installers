@@ -1,0 +1,32 @@
+id: 6040
+game_id: 10718
+game_slug: savage-the-shard-of-gosen
+name: 'SAVAGE: The Shard of Gosen'
+year: null
+user: FakeShemp
+runner: wine
+slug: savage-the-shard-of-gosen-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-10-21T16:46:34.221000Z'
+updated_at: '2018-05-19T03:41:59.388280Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 408060
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR/drive_c/Program Files/SAVAGE The Shard of Gosen
+  files:
+  - file1: N/A:Please select the Groupees executable
+  game:
+    prefix: $GAMEDIR
+    exe: file1
+    arch: win32

@@ -1,0 +1,24 @@
+id: 6801
+game_id: 6346
+game_slug: one-night-stand
+name: One Night Stand
+year: 2016
+user: FakeShemp
+runner: steam
+slug: one-night-stand-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-23T21:29:25.866380Z'
+updated_at: '2017-12-23T21:29:31.349075Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 549860
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 549860

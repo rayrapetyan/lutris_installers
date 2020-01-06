@@ -1,0 +1,24 @@
+id: 9348
+game_id: 13288
+game_slug: interplanetary-enhanced-edition
+name: 'Interplanetary: Enhanced Edition'
+year: null
+user: '0x0'
+runner: steam
+slug: interplanetary-enhanced-editi-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-24T08:53:01.394000Z'
+updated_at: '2018-07-25T08:19:42.911262Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 650220
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 650220

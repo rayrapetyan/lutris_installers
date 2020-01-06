@@ -1,0 +1,16 @@
+name: 'Red Faction: Armageddon'
+slug: red-faction-armageddon
+year: 2011
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Shooter
+aliases: []
+banner_url: /games/banner/red-faction-armageddon.jpg
+icon_url: /games/icon/red-faction-armageddon.png
+is_public: true
+updated: '2019-01-23T08:30:56.383879Z'
+steamid: 55110
+gogslug: ''
+humblestoreid: ''

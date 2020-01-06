@@ -1,0 +1,24 @@
+id: 1240
+game_id: 3598
+game_slug: saviors
+name: Saviors
+year: null
+user: Xodetaetl
+runner: steam
+slug: saviors-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-01-05T19:30:04.010000Z'
+updated_at: '2015-01-05T19:40:17.681000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 314450
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 314450

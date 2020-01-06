@@ -1,0 +1,18 @@
+name: World of Warcraft (Classic)
+slug: world-of-warcraft-classic
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Exploration
+- name: Fantasy
+- name: MMORPG
+aliases: []
+banner_url: /games/banner/world-of-warcraft-classic.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-02T01:29:34.633672Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,29 @@
+id: 5962
+game_id: 5462
+game_slug: dungeon-souls
+name: Dungeon Souls
+year: 2015
+user: FakeShemp
+runner: linux
+slug: dungeon-souls-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-10-15T16:08:11.065081Z'
+updated_at: '2017-10-15T16:09:43.421706Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 383230
+gogid: 1982030524
+gogslug: dungeon_souls
+humblestoreid: ''
+script:
+  exe: runner
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/runner
+  files:
+  - file1: N/A:Please select the Humble archive

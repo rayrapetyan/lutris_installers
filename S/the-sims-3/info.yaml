@@ -1,0 +1,19 @@
+name: The Sims 3
+slug: the-sims-3
+year: 2009
+platforms:
+- name: Nintendo 3DS
+- name: Nintendo DS
+- name: Nintendo Wii
+- name: Sony Playstation 3
+- name: Windows
+genres:
+- name: Life simulation
+aliases: []
+banner_url: /games/banner/the-sims-3.jpg
+icon_url: /games/icon/the-sims-3.png
+is_public: true
+updated: '2019-07-20T03:05:55.394843Z'
+steamid: 47890
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 6476
+game_id: 1393
+game_slug: heavy-weapon-deluxe
+name: Heavy Weapon Deluxe
+year: null
+user: Stoney_Fish
+runner: winesteam
+slug: heavy-weapon-deluxe-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-11-28T22:41:49.810281Z'
+updated_at: '2017-12-13T08:11:22.691207Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 3410
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 3410

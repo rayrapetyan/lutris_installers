@@ -1,0 +1,32 @@
+id: 2908
+game_id: 8100
+game_slug: teamspeak
+name: Teamspeak
+year: 2001
+user: strider
+runner: linux
+slug: teamspeak-64-bit-330
+version: 64-bit 3.3.0
+description: null
+notes: The installer will display a terminal window to display the license, accept
+  by pressing Q and Y then close the window.
+created_at: '2016-10-18T18:21:47.803000Z'
+updated_at: '2019-09-09T01:12:36.431264Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: ts3client_runscript.sh
+  installer:
+  - chmodx: installer
+  - execute:
+      args: --target $GAMEDIR
+      file: installer
+      terminal: true
+  files:
+  - installer: https://files.teamspeak-services.com/releases/client/3.3.0/TeamSpeak3-Client-linux_amd64-3.3.0.run

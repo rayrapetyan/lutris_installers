@@ -1,0 +1,44 @@
+id: 11946
+game_id: 22182
+game_slug: skype
+name: Skype
+year: 2012
+user: cxf
+runner: wine
+slug: skype-838
+version: '8.38'
+description: null
+notes: ''
+created_at: '2019-02-09T23:37:39.488000Z'
+updated_at: '2019-02-10T00:46:57.976528Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      arch: win64
+      args: /silent
+      exclude_processes: Skype.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  files:
+  - setup: https://download.skype.com/s4l/download/win/Skype-8.38.0.161.exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Microsoft/Skype for Desktop/Skype.exe
+    arch: win64

@@ -1,0 +1,24 @@
+id: 658
+game_id: 2356
+game_slug: hack-n-slash
+name: Hack 'n' Slash
+year: 2014
+user: Xodetaetl
+runner: steam
+slug: hack-n-slash-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T11:46:55.296000Z'
+updated_at: '2014-09-15T11:52:55.088000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 246070
+gogid: null
+gogslug: ''
+humblestoreid: hack-n-slash-soundtrack
+script:
+  game:
+    appid: 246070

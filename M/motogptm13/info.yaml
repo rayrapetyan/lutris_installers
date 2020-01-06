@@ -1,0 +1,17 @@
+name: "MotoGP\u212213"
+slug: motogptm13
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: Racing
+- name: Simulation
+- name: Sports
+aliases: []
+banner_url: /games/banner/motogptm13.jpg
+icon_url: /games/icon/motogptm13.png
+is_public: true
+updated: '2019-03-30T01:11:34.287677Z'
+steamid: 240600
+gogslug: ''
+humblestoreid: ''

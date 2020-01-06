@@ -1,0 +1,33 @@
+id: 2422
+game_id: 123
+game_slug: master-levels-for-doom-ii
+name: Master Levels for DOOM II
+year: 1995
+user: RobLoach
+runner: zdoom
+slug: master-levels-for-doom-ii-zdoom-runner-steam
+version: ZDoom Runner + Steam
+description: ''
+notes: ''
+created_at: '2016-08-11T05:36:49.156732Z'
+updated_at: '2016-08-11T05:38:25.382970Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 9160
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: DOOM2.WAD
+  installer:
+  - merge:
+      src: doom2-wad
+      dst: $GAMEDIR
+  - merge:
+      src: master-wads
+      dst: $GAMEDIR
+  files:
+  - doom2-wad: $STEAM:9160:doom2/DOOM2.WAD
+  - master-wads: $STEAM:9160:master/wads

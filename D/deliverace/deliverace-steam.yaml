@@ -1,0 +1,24 @@
+id: 7974
+game_id: 17972
+game_slug: deliverace
+name: Deliverace
+year: 2018
+user: TuiorGames
+runner: steam
+slug: deliverace-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-04-23T12:22:36.794000Z'
+updated_at: '2018-04-30T06:21:39.104564Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 587540

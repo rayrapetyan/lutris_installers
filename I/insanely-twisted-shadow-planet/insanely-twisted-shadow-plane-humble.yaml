@@ -1,0 +1,33 @@
+id: 3819
+game_id: 1767
+game_slug: insanely-twisted-shadow-planet
+name: Insanely Twisted Shadow Planet
+year: null
+user: FakeShemp
+runner: linux
+slug: insanely-twisted-shadow-plane-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-23T15:27:06.744094Z'
+updated_at: '2017-05-26T00:27:45.700159Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 205730
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: fcengine-bin
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data/noarch
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble installer

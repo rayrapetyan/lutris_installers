@@ -1,0 +1,24 @@
+id: 1455
+game_id: 2681
+game_slug: strife
+name: Strife
+year: null
+user: Xodetaetl
+runner: steam
+slug: strife-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-04-10T06:48:20.201000Z'
+updated_at: '2015-04-10T06:48:24.693000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 339280
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 339280

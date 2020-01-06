@@ -1,0 +1,16 @@
+name: REVOLVER360 RE:ACTOR
+slug: revolver360-reactor
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Arcade
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/revolver360-reactor.jpg
+icon_url: /games/icon/revolver360-reactor.png
+is_public: true
+updated: '2019-01-23T08:30:59.229962Z'
+steamid: 313400
+gogslug: revolver360_reactor
+humblestoreid: ''

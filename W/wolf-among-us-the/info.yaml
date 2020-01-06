@@ -1,0 +1,17 @@
+name: Wolf Among Us, The
+slug: wolf-among-us-the
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Fantasy
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/wolf-among-us-the.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:09.757356Z'
+steamid: null
+gogslug: wolf_among_us_the
+humblestoreid: ''

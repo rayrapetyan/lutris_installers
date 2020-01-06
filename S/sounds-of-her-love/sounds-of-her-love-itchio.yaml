@@ -1,0 +1,28 @@
+id: 4840
+game_id: 11679
+game_slug: sounds-of-her-love
+name: Sounds of Her Love
+year: 2017
+user: FakeShemp
+runner: linux
+slug: sounds-of-her-love-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-07-05T21:57:10.537877Z'
+updated_at: '2017-07-09T20:13:35.908929Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 603880
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Sounds of Her Love.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

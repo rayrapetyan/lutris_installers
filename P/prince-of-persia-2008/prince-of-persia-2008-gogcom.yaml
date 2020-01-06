@@ -1,0 +1,45 @@
+id: 2872
+game_id: 145
+game_slug: prince-of-persia-2008
+name: Prince of Persia (2008)
+year: 2008
+user: ssf
+runner: wine
+slug: prince-of-persia-2008-gogcom
+version: GOG.com
+description: null
+notes: ''
+created_at: '2016-10-11T00:36:22.624000Z'
+updated_at: '2019-04-20T19:56:05.795762Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 19980
+gogid: 1207659109
+gogslug: prince_of_persia
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2005 sandbox win7
+      arch: win32
+      name: winetricks
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /SP- /NOCANCEL /SUPPRESSMSGBOXES
+      arch: win32
+      name: wineexec
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Prince of Persia/PrinceOfPersia_Launcher.exe
+    arch: win32

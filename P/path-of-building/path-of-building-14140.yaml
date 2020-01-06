@@ -1,0 +1,33 @@
+id: 14006
+game_id: 26909
+game_slug: path-of-building
+name: Path of Building
+year: 2016
+user: dhettinger
+runner: wine
+slug: path-of-building-14140
+version: 1.4.140
+description: Path of Building, an offline build planner for Path of Exile!
+notes: https://github.com/Openarl/PathOfBuilding
+created_at: '2019-06-09T06:11:22.804606Z'
+updated_at: '2019-06-09T06:11:22.804631Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/Path of Building.exe
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: pob_zip
+  wine:
+    version: tkg-4.6-x86_64
+  files:
+  - pob_zip: https://github.com/Openarl/PathOfBuilding/releases/download/v1.4.140/PathOfBuilding-1.4.140.zip

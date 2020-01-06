@@ -1,0 +1,29 @@
+id: 4443
+game_id: 11785
+game_slug: dont-move
+name: Don't Move
+year: 2013
+user: FakeShemp
+runner: linux
+slug: dont-move-humble-64bit
+version: Humble (64bit)
+description: ''
+notes: ''
+created_at: '2017-06-17T20:45:42.589000Z'
+updated_at: '2017-06-18T23:08:07.674690Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 334350
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: DontMove
+  installer:
+  - extract:
+      format: tgz
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

@@ -1,0 +1,41 @@
+id: 15879
+game_id: 28892
+game_slug: rugby-08
+name: Rugby 08
+year: 2007
+user: J2Three
+runner: wine
+slug: rugby-08-windows-cd
+version: Windows CD
+description: null
+notes: ''
+created_at: '2019-09-29T21:31:59.928268Z'
+updated_at: '2019-09-29T21:31:59.928300Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: autorun.exe
+  - task:
+      executable: $DISC/autorun.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  - move:
+      src: file_id
+      dst: $GAMEDIR
+  files:
+  - file_id: N/A:Select the game's setup file
+  - unredistributable_file: N/A
+  - prefix: $GAMEDIR/prefix
+    exe: drive_c/Program Files/EA Sports/rugby 2008/rugby08.exe
+    arch: win32
+    args: -arg
+    working_dir: $GAMEDIR/prefix
+    game: null

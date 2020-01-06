@@ -1,0 +1,32 @@
+id: 5456
+game_id: 5841
+game_slug: nyctophobia
+name: Nyctophobia
+year: null
+user: FakeShemp
+runner: linux
+slug: nyctophobia-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-21T16:22:03.855184Z'
+updated_at: '2017-08-27T21:54:35.140229Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 378100
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Nyctophobia (Linux) .x86
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/Nyctophobia v1.2 (Linux)
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Groupees archive

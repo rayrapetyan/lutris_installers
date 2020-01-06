@@ -1,0 +1,24 @@
+id: 13700
+game_id: 8941
+game_slug: jalopy
+name: Jalopy
+year: 2018
+user: cxf
+runner: steam
+slug: jalopy-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-05-24T06:24:14.417018Z'
+updated_at: '2019-05-24T06:24:19.789260Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 446020
+gogid: 1268302405
+gogslug: jalopy
+humblestoreid: ''
+script:
+  game:
+    appid: 446020

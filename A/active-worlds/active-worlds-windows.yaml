@@ -1,0 +1,37 @@
+id: 13746
+game_id: 27518
+game_slug: active-worlds
+name: Active Worlds
+year: 1995
+user: TheLimeyDragon
+runner: wine
+slug: active-worlds-windows
+version: Windows
+description: null
+notes: If you want midis to work then you will have to set up TiMidity correctly on
+  your system.
+created_at: '2019-05-26T17:06:04.709000Z'
+updated_at: '2019-06-01T05:53:33.853562Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/ActiveWorlds 3D/aworld.exe
+    arch: win32
+  installer:
+  - task:
+      executable: webinstaller
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  wine:
+    version: tkg-4.6-x86_64
+  files:
+  - webinstaller: https://www.activeworlds.com/apps/AWWebInstaller.exe

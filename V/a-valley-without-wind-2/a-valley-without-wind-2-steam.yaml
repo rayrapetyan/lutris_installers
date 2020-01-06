@@ -1,0 +1,24 @@
+id: 622
+game_id: 1151
+game_slug: a-valley-without-wind-2
+name: A Valley Without Wind 2
+year: null
+user: Xodetaetl
+runner: steam
+slug: a-valley-without-wind-2-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-14T21:37:35.873000Z'
+updated_at: '2014-09-14T21:47:57.320000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 228320
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 228320

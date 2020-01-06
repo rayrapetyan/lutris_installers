@@ -1,0 +1,31 @@
+id: 16008
+game_id: 19021
+game_slug: steam
+name: Steam
+year: 2003
+user: vanstaveren
+runner: winesteam
+slug: steam-test
+version: test
+description: null
+notes: ''
+created_at: '2019-10-05T19:15:08.605689Z'
+updated_at: '2019-10-05T19:15:08.605724Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR/prefix
+    exe: drive_c/Program Files/Steam/Steam.exe
+    arch: win64
+  wine:
+    version: tkg-4.0-x86_64
+  files:
+  - client: https://steamcdn-a.akamaihd.net/client/installer/SteamSetup.exe
+  - updater: null

@@ -1,0 +1,51 @@
+id: 5184
+game_id: 3450
+game_slug: earthworm-jim
+name: Earthworm Jim
+year: 1994
+user: FakeShemp
+runner: dosbox
+slug: earthworm-jim-gog
+version: GOG
+description: Uses the files from the Windows installer from GOG.
+notes: ''
+created_at: '2017-07-24T20:52:24.057000Z'
+updated_at: '2017-07-26T07:19:28.812767Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 38480
+gogid: 1207658672
+gogslug: earthworm_jim_1_2
+humblestoreid: ''
+script:
+  main_file: DOSBOX/dosboxEWJ1_single.conf
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file2
+  - execute:
+      args: -d "$CACHE" "$file1"
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/app
+      dst: $GAMEDIR
+  - merge:
+      src: $GAMEDIR/dosboxEWJ1_single.conf
+      dst: $GAMEDIR/DOSBOX
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/dosboxEWJ1.conf
+  - write_config:
+      section: sdl
+      key: fullscreen
+      value: false
+      file: $GAMEDIR/dosboxEWJ1.conf
+  files:
+  - file1: N/A:Please select the GOG installer
+  - file2: https://lutris.net/files/tools/innoextract.tar.gz
+  game:
+    config_file: $GAMEDIR/dosboxEWJ1.conf

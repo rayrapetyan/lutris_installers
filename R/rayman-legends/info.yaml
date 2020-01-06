@@ -1,0 +1,16 @@
+name: Rayman Legends
+slug: rayman-legends
+year: 2013
+platforms:
+- name: Nintendo Wii U
+- name: Windows
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/rayman-legends.jpg
+icon_url: /games/icon/rayman-legends.png
+is_public: true
+updated: '2019-01-23T08:30:55.044383Z'
+steamid: 242550
+gogslug: ''
+humblestoreid: ''

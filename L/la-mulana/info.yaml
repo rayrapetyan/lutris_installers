@@ -1,0 +1,17 @@
+name: La-Mulana
+slug: la-mulana
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: Platform
+aliases: []
+banner_url: /games/banner/la-mulana.jpg
+icon_url: /games/icon/la-mulana.png
+is_public: true
+updated: '2019-01-23T08:30:07.441196Z'
+steamid: 230700
+gogslug: la_mulana
+humblestoreid: ''

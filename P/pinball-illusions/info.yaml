@@ -1,0 +1,16 @@
+name: Pinball Illusions
+slug: pinball-illusions
+year: 1995
+platforms:
+- name: Amiga
+- name: MS-DOS
+genres:
+- name: Pinball
+aliases: []
+banner_url: /games/banner/pinball-illusions.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-15T22:05:02.246408Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

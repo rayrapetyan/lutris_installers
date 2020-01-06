@@ -1,0 +1,44 @@
+id: 11422
+game_id: 1058
+game_slug: kenshi
+name: Kenshi
+year: 2018
+user: Nobu
+runner: wine
+slug: kenshi-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-01-03T04:52:46.387000Z'
+updated_at: '2019-02-16T03:19:46.650310Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 233860
+gogid: 1193046833
+gogslug: kenshi
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Kenshi/kenshi_GOG_x64.exe
+    arch: win64
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: corefonts d3dx11_42 d3dx11_43 ogg physx vcrun6sp6 vb6run vcrun2003 vcrun2005
+      name: winetricks
+  - task:
+      executable: installer
+      description: Running Setup
+      name: wineexec
+  wine:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  files:
+  - installer: N/A:Select the EXE downloaded from GOG

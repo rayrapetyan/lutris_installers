@@ -1,0 +1,57 @@
+id: 12683
+game_id: 19700
+game_slug: red-faction-guerrilla-re-mars-tered
+name: Red Faction Guerrilla Re-Mars-tered
+year: 2018
+user: cxf
+runner: wine
+slug: red-faction-guerrilla-re-mars-gog-w-dxvk
+version: GOG w/ DXVK
+description: null
+notes: ''
+created_at: '2019-04-08T07:08:53.483325Z'
+updated_at: '2019-04-08T07:08:58.492994Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 667720
+gogid: 2029222893
+gogslug: red_faction_guerrilla_remarstered
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - extract:
+      dst: $CACHE/dxsetup
+      file: dx2010
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR
+      args: /silent
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Windows dependencies
+      app: vcrun2010 vcrun2012 vcrun2013 vcrun2015 win7
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Red Faction Guerrilla Re-Mars-tered/rfg.exe
+  system:
+    env:
+      DXVK_HUD: 0
+  wine:
+    version: tkg-protonified-4.5-x86_64
+    dxvk: true
+  files:
+  - dx2010: https://lutris.net/files/tools/directx-2010.tar.gz
+  - setup: N/A:Select gog setup exe

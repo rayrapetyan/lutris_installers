@@ -1,0 +1,106 @@
+id: 7902
+game_id: 17896
+game_slug: need-for-speed-payback
+name: Need for Speed Payback
+year: 2017
+user: cxf
+runner: wine
+slug: need-for-speed-payback-dxvk
+version: DXVK
+description: Only sets up Origin and DXVK you'll need to download Need for Speed Payback
+  manually.
+notes: "<b>Virtual desktop required.</b>\r\n\r\nPlease read before installing: <a\
+  \ href=\"https://github.com/lutris/lutris/wiki/Game:-Origin\">https://github.com/lutris/lutris/wiki/Game:-Origin</a>"
+created_at: '2018-04-15T00:16:47.732000Z'
+updated_at: '2019-09-09T00:40:47.376158Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: dumbxemu
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - input_menu:
+      options:
+      - Not needed for AMD. Ignore this.: AMD
+      - ? 'dxgi.customVendorId = 10de
+
+          dxgi.nvapiHack = False'
+        : Nvidia
+      description: 'Setting DXVK workarounds please choose your GPU:'
+      id: GPU
+      preselect: Not needed for AMD. Ignore this.
+  - write_file:
+      content: $INPUT_GPU
+      file: $GAMEDIR/dxvk.conf
+  - task:
+      prefix: $GAMEDIR
+      app: nocrashdialog win7
+      arch: win64
+      name: winetricks
+  - move:
+      src: $CACHE/x64/xinput9_1_0_fake.dll
+      dst: $GAMEDIR/drive_c/windows/system32
+  - move:
+      src: $CACHE/x64/xinput1_3_fake.dll
+      dst: $GAMEDIR/drive_c/windows/system32
+  - move:
+      src: $CACHE/x32/xinput1_3_fake.dll
+      dst: $GAMEDIR/drive_c/windows/syswow64
+  - move:
+      src: $CACHE/x32/xinput9_1_0_fake.dll
+      dst: $GAMEDIR/drive_c/windows/syswow64
+  - task:
+      prefix: $GAMEDIR
+      filename: xreg
+      arch: win64
+      name: set_regedit_file
+  - task:
+      executable: client
+      prefix: $GAMEDIR
+      description: Installing Origin... Login window will pop-up and close.
+      arch: win64
+      args: /silent
+      exclude_processes: Origin.exe OriginClientService.exe OriginWebHelperService.exe
+        QtWebEngineProcess.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  - chmodx: updater
+  - merge:
+      src: updater
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Origin
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Origin/Origin.exe
+    arch: win64
+  system:
+    env:
+      DXVK_CONFIG_FILE: $GAMEDIR/dxvk.conf
+      DXVK_HUD: 0
+    disable_runtime: false
+  wine:
+    version: tkg-protonified-3.21-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      nvapi,nvapi64: disabled
+      xaudio2_7: native,builtin
+  files:
+  - client: https://origin-a.akamaihd.net/Origin-Client-Download/origin/live/OriginThinSetup.exe
+  - dumbxemu: https://gitlab.com/cxf_/lutris_files/raw/master/old-dumbxinputemu.zip
+  - updater: https://raw.githubusercontent.com/DrDoctor13/wine-origin-updater/master/updateorigin.sh
+  - xreg: https://gitlab.com/cxf_/lutris_files/raw/master/xinput.reg

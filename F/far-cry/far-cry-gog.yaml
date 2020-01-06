@@ -1,0 +1,32 @@
+id: 5286
+game_id: 389
+game_slug: far-cry
+name: Far Cry
+year: 2004
+user: FakeShemp
+runner: wine
+slug: far-cry-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2017-08-06T17:30:31.128000Z'
+updated_at: '2017-08-27T21:24:04.077994Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 13520
+gogid: 1207658750
+gogslug: far_cry
+humblestoreid: far-cry
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the GOG installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Far Cry/Bin32/FarCry.exe

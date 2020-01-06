@@ -1,0 +1,15 @@
+name: Stacking
+slug: stacking
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/stacking.jpg
+icon_url: /games/icon/stacking.png
+is_public: true
+updated: '2019-01-23T08:31:23.626324Z'
+steamid: 115110
+gogslug: stacking
+humblestoreid: stacking

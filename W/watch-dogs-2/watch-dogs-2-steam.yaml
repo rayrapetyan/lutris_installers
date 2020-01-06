@@ -1,0 +1,62 @@
+id: 8031
+game_id: 9825
+game_slug: watch-dogs-2
+name: Watch Dogs 2
+year: 2016
+user: TuiorGames
+runner: winesteam
+slug: watch-dogs-2-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-01T22:27:42.922000Z'
+updated_at: '2019-10-13T08:18:36.495295Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: 447040
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - extract:
+      dst: $CACHE/dxsetup
+      file: dx2010
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR
+      description: Installing prerequisites...
+      arch: win64
+      args: /silent
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: arial vcrun2010 vcrun2012 win7 d3dcompiler_43
+      arch: win64
+      name: winetricks
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_CONFIG_FILE: $GAMEDIR/dxvk.conf
+      DXVK_HUD: compiler
+      __GL_SHADER_DISK_CACHE: 1
+  winesteam:
+    version: tkg-4.0-x86_64
+    esync: true
+    dxvk: true
+  custom-name: Watch Dogs 2
+  files:
+  - dx2010: https://lutris.net/files/tools/directx-2010.tar.gz
+  - steam: https://steamcdn-a.akamaihd.net/client/installer/SteamSetup.exe
+  - cache: https://github.com/Cervoxx/DXVKCACHE/raw/master/WD2-cache.tar.xz
+  game:
+    prefix: $GAMEDIR/prefix
+    args: -eac_launcher -nosplash
+    appid: 447040
+    arch: win64

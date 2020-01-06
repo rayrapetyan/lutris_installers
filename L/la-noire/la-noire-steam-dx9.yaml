@@ -1,0 +1,66 @@
+id: 9062
+game_id: 623
+game_slug: la-noire
+name: L.A. Noire
+year: 2011
+user: TuiorGames
+runner: winesteam
+slug: la-noire-steam-dx9
+version: Steam Dx9
+description: null
+notes: ''
+created_at: '2018-07-07T01:53:15.108000Z'
+updated_at: '2019-02-16T03:22:04.042066Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 110800
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Hold tight while we install some winetricks
+      app: d3dx9_42 d3dx9_43 vcrun2008 dotnet35sp1 win7
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: winekill
+  - task:
+      executable: $GAMEDIR/3rd/DXSETUP.exe
+      prefix: $GAMEDIR/prefix
+      args: /silent
+      arch: win32
+      name: wineexec
+  - task:
+      executable: $GAMEDIR/3rd/Social Club Setup.exe
+      prefix: $GAMEDIR/prefix
+      args: /Silent
+      arch: win32
+      name: wineexec
+  - move:
+      src: $GAMEDIR/3rd/Social Club Setup.exe
+      dst: $GAMEDIR
+  - move:
+      src: $GAMEDIR/3rd
+      dst: $CACHE
+  - execute:
+      command: mkdir "$GAMEDIR/3rd"
+  - move:
+      src: $GAMEDIR/Social Club Setup.exe
+      dst: $GAMEDIR/3rd/
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 110800
+    arch: win32

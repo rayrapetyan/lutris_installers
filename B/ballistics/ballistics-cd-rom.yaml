@@ -1,0 +1,52 @@
+id: 5787
+game_id: 13941
+game_slug: ballistics
+name: Ballistics
+year: 2001
+user: strider
+runner: wine
+slug: ballistics-cd-rom
+version: CD-ROM
+description: ''
+notes: ''
+created_at: '2017-09-18T03:20:52.189000Z'
+updated_at: '2017-09-18T03:34:35.533158Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: ballistics.ex_
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: winxp
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: directplay
+      name: winetricks
+  - task:
+      executable: $DISC/Setup.exe
+      prefix: $GAMEDIR
+      args: --windowed
+      name: wineexec
+  - move:
+      src: $GAMEDIR/drive_c/Program Files/Xicat/Ballistics/intro.avi
+      dst: $GAMEDIR/drive_c/Program Files/Xicat/Ballistics/intro.av_
+  - move:
+      src: $GAMEDIR/drive_c/Program Files/Xicat/Ballistics/xicat.avi
+      dst: $GAMEDIR/drive_c/Program Files/Xicat/Ballistics/xicat.av_
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/Xicat/Ballistics/Ballistics.exe
+    arch: win32

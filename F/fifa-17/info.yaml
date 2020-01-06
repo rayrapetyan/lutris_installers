@@ -1,0 +1,15 @@
+name: FIFA 17
+slug: fifa-17
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Sports
+aliases: []
+banner_url: /games/banner/fifa-17.jpg
+icon_url: /games/icon/fifa-17.png
+is_public: true
+updated: '2019-01-23T08:29:30.366162Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 14423
+game_id: 20567
+game_slug: forgotton-anne
+name: Forgotton Anne
+year: null
+user: frakk
+runner: winesteam
+slug: forgotton-anne-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-07-05T16:21:31.515000Z'
+updated_at: '2019-10-11T00:14:45.683316Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 542050
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 542050

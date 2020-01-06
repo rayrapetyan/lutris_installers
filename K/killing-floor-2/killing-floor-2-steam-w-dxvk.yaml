@@ -1,0 +1,41 @@
+id: 8796
+game_id: 4310
+game_slug: killing-floor-2
+name: Killing Floor 2
+year: 2016
+user: bumba
+runner: winesteam
+slug: killing-floor-2-steam-w-dxvk
+version: Steam w/ DXVK
+description: DX11 version via DXVK, runs @100fps in Ultra settings w/ Physx.
+notes: ''
+created_at: '2018-06-19T10:51:49.112000Z'
+updated_at: '2019-02-24T02:43:26.503249Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 232090
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      __GL_THREADED_OPTIMIZATIONS: 1
+      mesa_glthread: 'true'
+      DXVK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 232090
+    arch: win64

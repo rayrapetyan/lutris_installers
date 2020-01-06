@@ -1,0 +1,16 @@
+name: Age of Wonders 2
+slug: age-of-wonders-2
+year: 2002
+platforms:
+- name: Windows
+genres:
+- name: 4X
+- name: Fantasy
+aliases: []
+banner_url: /games/banner/age-of-wonders-2.jpg
+icon_url: /games/icon/age-of-wonders-2.png
+is_public: true
+updated: '2019-11-16T05:24:31.555903Z'
+steamid: 61510
+gogslug: ''
+humblestoreid: ''

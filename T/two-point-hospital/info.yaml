@@ -1,0 +1,16 @@
+name: Two Point Hospital
+slug: two-point-hospital
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Management
+- name: Simulation
+aliases: []
+banner_url: /games/banner/two-point-hospital.jpg
+icon_url: /games/icon/two-point-hospital.png
+is_public: true
+updated: '2019-02-23T02:05:47.110643Z'
+steamid: 535930
+gogslug: ''
+humblestoreid: ''

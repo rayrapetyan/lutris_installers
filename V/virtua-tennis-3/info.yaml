@@ -1,0 +1,19 @@
+name: Virtua Tennis 3
+slug: virtua-tennis-3
+year: 2007
+platforms:
+- name: Arcade
+- name: Sony Playstation 3
+- name: Sony PSP
+- name: Windows
+genres:
+- name: Arcade
+- name: Sports
+aliases: []
+banner_url: /games/banner/virtua-tennis-3.jpg
+icon_url: null
+is_public: true
+updated: '2019-10-24T23:58:50.050330Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

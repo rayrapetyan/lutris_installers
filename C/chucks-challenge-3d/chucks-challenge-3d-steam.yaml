@@ -1,0 +1,24 @@
+id: 1656
+game_id: 3425
+game_slug: chucks-challenge-3d
+name: Chucks Challenge 3D
+year: null
+user: RobLoach
+runner: steam
+slug: chucks-challenge-3d-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-11-02T12:02:23.558920Z'
+updated_at: '2016-01-05T18:29:40.842848Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 262590
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 262590

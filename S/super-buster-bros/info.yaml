@@ -1,0 +1,18 @@
+name: Super Buster Bros.
+slug: super-buster-bros
+year: 1990
+platforms:
+- name: Arcade
+- name: Super Nintendo
+genres:
+- name: Arcade
+- name: Platform
+- name: Shooter
+aliases: []
+banner_url: /games/banner/super-buster-bros.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:29.708139Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,16 @@
+name: We Are The Dwarves
+slug: we-are-the-dwarves
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/we-are-the-dwarves.jpg
+icon_url: /games/icon/we-are-the-dwarves.png
+is_public: true
+updated: '2019-01-23T08:32:07.348247Z'
+steamid: 395570
+gogslug: we_are_the_dwarves
+humblestoreid: ''

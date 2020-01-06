@@ -1,0 +1,16 @@
+name: EarthBound
+slug: earthbound
+year: 1994
+platforms:
+- name: Super Nintendo
+genres:
+- name: Adventure
+- name: jRPG
+aliases: []
+banner_url: /games/banner/earthbound.jpg
+icon_url: /games/icon/earthbound.png
+is_public: true
+updated: '2019-01-23T08:29:20.735577Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

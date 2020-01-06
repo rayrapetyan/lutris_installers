@@ -1,0 +1,17 @@
+name: Mobile Forces
+slug: mobile-forces
+year: 2002
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Shooter
+- name: Tactical
+aliases: []
+banner_url: /games/banner/mobile-forces.jpg
+icon_url: null
+is_public: true
+updated: '2019-03-17T16:51:37.240193Z'
+steamid: 837940
+gogslug: mobile_forces
+humblestoreid: ''

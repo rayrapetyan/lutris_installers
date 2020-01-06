@@ -1,0 +1,16 @@
+name: 'Culina: Hands in the Kitchen'
+slug: culina-hands-in-the-kitchen
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Simulation
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/culina-hands-in-the-kitchen.jpg
+icon_url: /games/icon/culina-hands-in-the-kitchen.png
+is_public: true
+updated: '2019-06-13T06:25:04.208432Z'
+steamid: 364000
+gogslug: ''
+humblestoreid: ''

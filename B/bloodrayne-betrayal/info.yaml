@@ -1,0 +1,15 @@
+name: 'BloodRayne: Betrayal'
+slug: bloodrayne-betrayal
+year: 2011
+platforms:
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/bloodrayne-betrayal.jpg
+icon_url: /games/icon/bloodrayne-betrayal.png
+is_public: true
+updated: '2019-01-23T08:28:39.205792Z'
+steamid: 281220
+gogslug: bloodrayne_betrayal
+humblestoreid: ''

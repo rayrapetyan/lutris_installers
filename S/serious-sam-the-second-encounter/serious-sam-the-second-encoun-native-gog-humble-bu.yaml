@@ -1,0 +1,99 @@
+id: 2039
+game_id: 250
+game_slug: serious-sam-the-second-encounter
+name: 'Serious Sam: The Second Encounter'
+year: 2002
+user: strider
+runner: linux
+slug: serious-sam-the-second-encoun-native-gog-humble-bu
+version: Native + GOG / Humble Bundle
+description: This installer uses the open source version of the engine. It is still
+  experimental and you might encounter bugs.
+notes: ''
+created_at: '2016-04-12T07:51:56.318413Z'
+updated_at: '2016-04-12T08:01:36.176771Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 41060
+gogid: 1207658877
+gogslug: serious_sam_the_second_encounter
+humblestoreid: serious-sam-hd-the-second-encounter
+script:
+  installer:
+  - extract:
+      dst: $CACHE/tmp/innoextract
+      file: innoextract
+  - execute:
+      args: --extract $ssaminstaller --output-dir $CACHE/tmp/ssam/
+      file: $CACHE/tmp/innoextract/innoextract
+  - move:
+      src: $CACHE/tmp/ssam/app/Controls
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/ssam/app/Data
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/ssam/app/Demos
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/ssam/app/Help
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/ssam/app/Levels
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/ssam/app/Locales
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/ssam/app/Mods
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/ssam/app/Players
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/ssam/app/SaveGame
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/ssam/app/Scripts
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/ssam/app/VirtualTrees
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/ssam/app/Worlds
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/ssam/app/1_04_patch.gro
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/ssam/app/1_07_tools.gro
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/ssam/app/SE1_00.gro
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/ssam/app/SE1_00_Extra.gro
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/ssam/app/SE1_00_ExtraTools.gro
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/ssam/app/SE1_00_Levels.gro
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/ssam/app/SE1_00_Logo.gro
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/ssam/app/SE1_00_Music.gro
+      dst: $GAMEDIR
+  - extract:
+      dst: $GAMEDIR/Bin
+      file: engine
+  files:
+  - ssaminstaller: N/A:Select location of GOG's executable (should be setup_serious_sam_the_second_encounter_2.1.0.8.exe)
+  - engine: https://lutris.net/files/games/serious-sam/serious-engine-i686.tar.bz2
+  - innoextract: https://lutris.net/files/tools/innoextract.tar.gz
+  game:
+    exe: Bin/ssam

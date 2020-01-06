@@ -1,0 +1,40 @@
+id: 13946
+game_id: 12237
+game_slug: what-remains-of-edith-finch
+name: What Remains of Edith Finch
+year: 2017
+user: gustawho
+runner: wine
+slug: what-remains-of-edith-finch-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-06-06T01:37:20.886000Z'
+updated_at: '2019-10-14T00:40:48.143349Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 501300
+gogid: 1651927092
+gogslug: what_remains_of_edith_finch
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2015 win7
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES /NOCANCEL
+      name: wineexec
+  files:
+  - setup: N/A:Select gog Windows setup exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/What Remains of Edith Finch/StartWRoEF.exe

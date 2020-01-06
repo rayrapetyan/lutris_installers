@@ -1,0 +1,24 @@
+id: 2368
+game_id: 757
+game_slug: sid-meiers-civilization-iii-complete
+name: "Sid Meier's Civilization\xAE III Complete"
+year: 2001
+user: RobLoach
+runner: winesteam
+slug: civilization-iii-complete-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: ''
+created_at: '2016-07-27T12:36:51.624000Z'
+updated_at: '2017-04-09T06:10:21.991575Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: 3910
+gogid: 1471405734
+gogslug: sid_meiers_civilization_iii_complete
+humblestoreid: ''
+script:
+  game:
+    appid: 3910

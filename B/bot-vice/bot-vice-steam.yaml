@@ -1,0 +1,24 @@
+id: 7384
+game_id: 14377
+game_slug: bot-vice
+name: Bot Vice
+year: 2016
+user: t-rex91
+runner: steam
+slug: bot-vice-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-02-24T18:17:11.354435Z'
+updated_at: '2018-02-25T22:47:53.823625Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 491040
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 491040

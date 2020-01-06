@@ -1,0 +1,15 @@
+name: 'Advance Wars: Dual Strike'
+slug: advance-wars-dual-strike
+year: 2005
+platforms:
+- name: Nintendo DS
+genres:
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/advance-wars-dual-strike.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:12.119380Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

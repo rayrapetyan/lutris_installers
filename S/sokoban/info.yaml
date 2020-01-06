@@ -1,0 +1,15 @@
+name: Sokoban
+slug: sokoban
+year: 1984
+platforms:
+- name: MS-DOS
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/sokoban.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:17.241670Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

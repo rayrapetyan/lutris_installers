@@ -1,0 +1,24 @@
+id: 8093
+game_id: 18136
+game_slug: war-brokers
+name: War Brokers
+year: 2018
+user: TuiorGames
+runner: steam
+slug: war-brokers-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-07T11:59:20.435574Z'
+updated_at: '2018-05-09T05:59:29.739999Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 750470
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 750470

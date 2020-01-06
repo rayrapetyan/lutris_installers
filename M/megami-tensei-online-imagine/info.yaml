@@ -1,0 +1,19 @@
+name: 'Megami Tensei Online: Imagine'
+slug: megami-tensei-online-imagine
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Fantasy
+- name: jRPG
+- name: MMO
+- name: MMORPG
+- name: RPG
+aliases: []
+banner_url: /games/banner/megami-tensei-online-imagine.jpg
+icon_url: null
+is_public: true
+updated: '2019-10-22T22:04:37.140296Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

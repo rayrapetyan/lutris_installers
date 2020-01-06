@@ -1,0 +1,15 @@
+name: 'Tomb Raider VI: The Angel of Darkness'
+slug: tomb-raider-vi-the-angel-of-darkness
+year: 2003
+platforms:
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/tomb-raider-vi-the-angel-of-darkness.jpg
+icon_url: /games/icon/tomb-raider-vi-the-angel-of-darkness.png
+is_public: true
+updated: '2019-09-24T23:54:07.295032Z'
+steamid: 225020
+gogslug: tomb_raider_the_angel_of_darkness
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 2365
+game_id: 525
+game_slug: tropico-3-steam-special-edition
+name: Tropico 3 - Steam Special Edition
+year: 2003
+user: RobLoach
+runner: winesteam
+slug: tropico-3-steam-special-editi-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: https://appdb.winehq.org/objectManager.php?sClass=application&iId=10339
+created_at: '2016-07-27T05:20:18.512755Z'
+updated_at: '2016-09-09T22:20:26.917480Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: 23490
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 23490

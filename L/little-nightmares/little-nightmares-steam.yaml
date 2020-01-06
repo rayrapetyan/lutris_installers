@@ -1,0 +1,39 @@
+id: 13113
+game_id: 11317
+game_slug: little-nightmares
+name: Little Nightmares
+year: null
+user: cxf
+runner: winesteam
+slug: little-nightmares-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-04-26T06:12:19.611156Z'
+updated_at: '2019-04-26T06:12:24.406582Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 424840
+gogid: 1433377508
+gogslug: little_nightmares
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2013 vcrun2015 win7
+      name: winetricks
+  winesteam:
+    esync: true
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: compiler
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 424840

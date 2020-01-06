@@ -1,0 +1,16 @@
+name: VICE - PROJECT DOOM
+slug: vice-project-doom
+year: 1991
+platforms:
+- name: NES
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/vice-project-doom.jpg
+icon_url: null
+is_public: true
+updated: '2019-12-21T15:45:49.934007Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

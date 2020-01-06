@@ -1,0 +1,17 @@
+name: Last Battle
+slug: last-battle
+year: 1989
+platforms:
+- name: Amiga
+- name: Commodore 64
+- name: Sega Genesis / Mega Drive
+genres:
+- name: Beat'em up
+aliases: []
+banner_url: /games/banner/last-battle.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:07.900865Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

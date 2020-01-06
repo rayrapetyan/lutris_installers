@@ -1,0 +1,24 @@
+id: 7106
+game_id: 5766
+game_slug: crashlands
+name: Crashlands
+year: null
+user: liberodark
+runner: steam
+slug: crashlands-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-01-15T14:24:51.982309Z'
+updated_at: '2018-01-15T18:05:37.389082Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 391730
+gogid: 1453474245
+gogslug: crashlands
+humblestoreid: ''
+script:
+  game:
+    appid: 391730

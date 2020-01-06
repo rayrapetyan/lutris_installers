@@ -1,0 +1,16 @@
+name: Midair
+slug: midair
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: MMOFPS
+aliases: []
+banner_url: /games/banner/midair.jpg
+icon_url: /games/icon/midair.png
+is_public: true
+updated: '2019-01-23T08:30:22.946485Z'
+steamid: 439370
+gogslug: ''
+humblestoreid: ''

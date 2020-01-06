@@ -1,0 +1,39 @@
+id: 453
+game_id: 78
+game_slug: planescape-torment
+name: 'Planescape: Torment'
+year: 1999
+user: Xodetaetl
+runner: wine
+slug: planescape-torment-mod-incredible-ui-fo
+version: '[Mod] Incredible UI for GOG'
+description: ''
+notes: ''
+created_at: '2014-03-10T21:08:25.852000Z'
+updated_at: '2016-09-30T20:40:11.586618Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: planescape_torment
+humblestoreid: ''
+script:
+  requires: planescape-torment-gog
+  exe: drive_c/GOG Games/Planescape Torment/torment.exe
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/GOG Games/Planescape Torment/
+      file: file2
+  - task:
+      executable: cmd
+      prefix: $GAMEDIR
+      description: Installing the Incredible UI mod
+      args: /c "Setup-GhostDog\'s-PST-UI.exe"
+      workdir: $GAMEDIR/drive_c/GOG Games/Planescape Torment/
+      name: wineexec
+  files:
+  - file2: N/A:http://downloads.spellholdstudios.net/Ghostdogs_PST_UI_mod_v2.2.7z
+  game:
+    prefix: $GAMEDIR

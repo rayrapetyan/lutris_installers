@@ -1,0 +1,40 @@
+id: 10929
+game_id: 23431
+game_slug: eternal-lands
+name: Eternal Lands
+year: 2003
+user: dowvd1000
+runner: linux
+slug: eternal-lands-generic
+version: Generic
+description: Generic Linux Install Script
+notes: ''
+created_at: '2018-11-20T19:29:20.063000Z'
+updated_at: '2018-11-24T04:50:25.528602Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - chmodx: elsh
+  - execute:
+      description: Running Install Script
+      file: elsh
+  - chmodx: $GAMEDIR/eternallands.sh
+  - extract:
+      dst: $GAMEDIR/sound
+      file: sound
+  - extract:
+      dst: $GAMEDIR/music
+      file: music
+  files:
+  - elsh: http://www.eternal-lands.com/el_linux_install_195.sh
+  - sound: http://www.gm.fh-koeln.de/~linke/EL-Downloads/EL_sound_191.zip
+  - music: http://www.gm.fh-koeln.de/~linke/EL-Downloads/EL_music_full.zip
+  game:
+    exe: $GAMEDIR/eternallands.sh

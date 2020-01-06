@@ -1,0 +1,30 @@
+id: 17352
+game_id: 30754
+game_slug: boa-retina
+name: Boa Retina
+year: 2017
+user: kimchitea
+runner: linux
+slug: boa-retina-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2019-12-15T17:19:14.486000Z'
+updated_at: '2019-12-22T11:26:43.791678Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: file1
+  files:
+  - file1: N/A:Please select the game archive
+  game:
+    exe: BoaRetina_Linux_v1.11.x86

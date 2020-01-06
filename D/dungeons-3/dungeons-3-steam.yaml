@@ -1,0 +1,24 @@
+id: 10451
+game_id: 14296
+game_slug: dungeons-3
+name: Dungeons 3
+year: 2017
+user: JancoSOUS
+runner: steam
+slug: dungeons-3-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-10-07T22:43:58.847910Z'
+updated_at: '2018-10-10T01:15:57.964339Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 493900
+gogid: 1346232158
+gogslug: dungeons_3
+humblestoreid: ''
+script:
+  game:
+    appid: 493900

@@ -1,0 +1,38 @@
+id: 2542
+game_id: 4214
+game_slug: ultimate-general-gettysburg
+name: 'Ultimate General: Gettysburg'
+year: null
+user: ssf
+runner: linux
+slug: ultimate-general-gettysburg-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2016-08-22T15:56:05.109020Z'
+updated_at: '2016-08-30T15:30:23.088231Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 306660
+gogid: 1420648479
+gogslug: ultimate_general_gettysburg
+humblestoreid: ''
+script:
+  exe: game/start.sh
+  gogid: ultimate_general_gettysburg
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Plese select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

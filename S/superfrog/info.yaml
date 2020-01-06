@@ -1,0 +1,16 @@
+name: Superfrog
+slug: superfrog
+year: 1993
+platforms:
+- name: Amiga
+- name: MS-DOS
+genres:
+- name: Platformer
+aliases: []
+banner_url: /games/banner/superfrog.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:30.024815Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

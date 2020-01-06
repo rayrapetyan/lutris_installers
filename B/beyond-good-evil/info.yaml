@@ -1,0 +1,20 @@
+name: Beyond Good & Evil
+slug: beyond-good-evil
+year: 2003
+platforms:
+- name: GameCube
+- name: Sony PlayStation 2
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases:
+- slug: beyond-good-and-evil
+  name: Beyond Good and Evil
+banner_url: /games/banner/beyond-good-evil.jpg
+icon_url: /games/icon/beyond-good-evil.png
+is_public: true
+updated: '2019-06-11T22:39:03.780668Z'
+steamid: 15130
+gogslug: beyond_good_and_evil
+humblestoreid: beyond-good-evil

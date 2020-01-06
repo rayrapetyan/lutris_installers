@@ -1,0 +1,24 @@
+id: 1245
+game_id: 3618
+game_slug: thief-town
+name: Thief Town
+year: null
+user: Xodetaetl
+runner: steam
+slug: thief-town-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-01-05T19:33:17.426000Z'
+updated_at: '2015-01-05T19:40:17.476000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 331220
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 331220

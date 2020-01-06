@@ -1,0 +1,18 @@
+name: Twelve Minutes
+slug: twelve-minutes
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Indie
+aliases:
+- slug: 12-minutes
+  name: 12 Minutes
+banner_url: /games/banner/twelve-minutes.jpg
+icon_url: /games/icon/twelve-minutes.png
+is_public: true
+updated: '2019-06-13T16:11:21.198360Z'
+steamid: 1097200
+gogslug: ''
+humblestoreid: ''

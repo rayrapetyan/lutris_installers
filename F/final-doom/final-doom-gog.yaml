@@ -1,0 +1,84 @@
+id: 9977
+game_id: 126
+game_slug: final-doom
+name: Final Doom
+year: 1996
+user: ugly
+runner: dosbox
+slug: final-doom-gog
+version: GOG
+description: Uses the files from the Windows installer from GOG.
+notes: "Audio (MIDI and sound FX) should work without additional setup.\r\n\r\nTo\
+  \ get better quality MIDI audio:\r\n   I - Configure --> Game Options --> Main File\
+  \ --> Select 'dosbox_doomf_settings.conf'\r\n   II - Run the game and you'll start\
+  \ the Setup\r\n   III - Press '1' for settings for TNT: Eviluition\r\n   IV - Choose\
+  \ Music Card --> General MIDI --> 330\r\n   IV - Save Parameters and Launch Final\
+  \ Doom\r\n   V - Exit game, run the game again and Press '2' for settings for Plutonia\
+  \ Experiment\r\n   VI - Choose Music Card --> General MIDI --> 330\r\n   VII - Save\
+  \ Parameters and Launch Final Doom\r\n   VIII - Exit game, Configure --> Game Options\
+  \ --> Main File --> Select 'dosbox_doomf_single.conf'\r\n   IX - Need to install\
+  \ fluid-soundfont-gm and fluidsynth.  For Mint 19:\r\nsudo apt install -y fluid-soundfont-gm\
+  \ fluidsynth\r\n  X - Open terminal and run the command (needs to be run each time\
+  \ you want to play):\r\nfluidsynth -l -s -i -aalsa -o audio.alsa.device=default\
+  \ /usr/share/sounds/sf2/FluidR3_GM.sf2\r\n  XI - Start the game."
+created_at: '2018-08-31T04:13:18.561000Z'
+updated_at: '2019-09-09T01:53:05.162474Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 2290
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: $GAMEDIR/DOSBOX/dosbox_doomf_single.conf
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file2
+  - execute:
+      args: -d "$CACHE" "$file1"
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/
+      dst: $GAMEDIR
+  - merge:
+      src: $GAMEDIR/dosbox_doomf_single.conf
+      dst: $GAMEDIR/DOSBOX
+  - merge:
+      src: $GAMEDIR/dosbox_doomf_settings.conf
+      dst: $GAMEDIR/DOSBOX
+  - merge:
+      src: $GAMEDIR/dosbox_doomf.conf
+      dst: $GAMEDIR/DOSBOX
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/DOSBOX/dosbox_doomf.conf
+  - write_config:
+      section: sdl
+      key: output
+      value: overlay
+      file: $GAMEDIR/DOSBOX/dosbox_doomf.conf
+  - write_config:
+      section: sdl
+      key: fullscreen
+      value: false
+      file: $GAMEDIR/DOSBOX/dosbox_doomf.conf
+  - write_config:
+      section: sdl
+      key: fullresolution
+      value: 1920x1080
+      file: $GAMEDIR/DOSBOX/dosbox_doomf.conf
+  - write_config:
+      section: midi
+      key: midiconfig
+      value: '128:0'
+      file: $GAMEDIR/DOSBOX/dosbox_doomf.conf
+  files:
+  - file1: N/A:Please select the GOG installer
+  - file2: https://lutris.net/files/tools/innoextract.tar.gz
+  game:
+    config_file: $GAMEDIR/DOSBOX/dosbox_doomf.conf

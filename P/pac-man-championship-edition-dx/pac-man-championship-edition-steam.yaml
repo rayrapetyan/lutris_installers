@@ -1,0 +1,24 @@
+id: 1572
+game_id: 2964
+game_slug: pac-man-championship-edition-dx
+name: PAC-MAN Championship Edition DX+
+year: null
+user: strider
+runner: winesteam
+slug: pac-man-championship-edition-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-08-05T06:27:14.487405Z'
+updated_at: '2015-08-05T06:27:19.491024Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 236450
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 236450

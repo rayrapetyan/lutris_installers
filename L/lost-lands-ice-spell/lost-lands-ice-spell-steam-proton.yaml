@@ -1,0 +1,24 @@
+id: 13254
+game_id: 27006
+game_slug: lost-lands-ice-spell
+name: 'Lost Lands: Ice Spell'
+year: 2018
+user: kimchitea
+runner: steam
+slug: lost-lands-ice-spell-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-05-01T07:07:35.323000Z'
+updated_at: '2019-05-19T06:59:15.126635Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 846690
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 846690

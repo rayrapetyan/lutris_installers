@@ -1,0 +1,25 @@
+id: 655
+game_id: 2076
+game_slug: star-conflict
+name: Star Conflict
+year: 2014
+user: Xodetaetl
+runner: steam
+slug: star-conflict-steam
+version: steam
+description: ''
+notes: The proprietary AMD driver is currently (state April 2017) not working in this
+  game, Mesa is working fine.
+created_at: '2014-09-15T11:46:30.106000Z'
+updated_at: '2017-05-16T04:35:01.921137Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 212070
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 212070

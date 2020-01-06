@@ -1,0 +1,22 @@
+name: Itch.io
+slug: itchio
+year: null
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: Arcade
+- name: Artillery
+- name: Beat'em up
+- name: City building
+- name: Horror
+- name: Wargame
+aliases: []
+banner_url: /games/banner/itchio.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:59.089147Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

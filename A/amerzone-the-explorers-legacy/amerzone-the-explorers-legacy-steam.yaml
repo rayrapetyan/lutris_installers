@@ -1,0 +1,33 @@
+id: 12424
+game_id: 3654
+game_slug: amerzone-the-explorers-legacy
+name: 'Amerzone: The Explorer''s Legacy'
+year: 1999
+user: cxf
+runner: winesteam
+slug: amerzone-the-explorers-legacy-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-03-19T04:19:56.527548Z'
+updated_at: '2019-03-19T04:20:01.879198Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 302190
+gogid: 1207658847
+gogslug: amerzone_the_explorer_legacy
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun6
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 302190

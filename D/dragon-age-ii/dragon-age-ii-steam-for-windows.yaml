@@ -1,0 +1,24 @@
+id: 2348
+game_id: 1844
+game_slug: dragon-age-ii
+name: Dragon Age II
+year: 2011
+user: RobLoach
+runner: winesteam
+slug: dragon-age-ii-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: https://appdb.winehq.org/objectManager.php?sClass=application&iId=12790
+created_at: '2016-07-27T04:52:24.517562Z'
+updated_at: '2016-08-14T22:24:29.804713Z'
+draft: false
+published: true
+published_by: null
+rating: '4'
+steamid: 47900
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 47900

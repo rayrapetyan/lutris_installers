@@ -1,0 +1,24 @@
+id: 1043
+game_id: 3358
+game_slug: snow-light
+name: Snow Light
+year: null
+user: Xodetaetl
+runner: steam
+slug: snow-light-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-11-10T10:23:16.522000Z'
+updated_at: '2014-11-10T10:28:28.150000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 329480
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 329480

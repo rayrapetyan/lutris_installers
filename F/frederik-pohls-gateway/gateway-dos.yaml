@@ -1,0 +1,28 @@
+id: 2296
+game_id: 6520
+game_slug: frederik-pohls-gateway
+name: Gateway
+year: 1992
+user: lmintmate
+runner: dosbox
+slug: gateway-dos
+version: DOS
+description: Abandonware
+notes: ''
+created_at: '2016-07-11T09:11:04.852490Z'
+updated_at: '2016-07-23T18:13:01.011179Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: GATE.EXE
+  installer:
+  - extract:
+      file: $game
+  files:
+  - game: https://lutris.net/files/games/frederik-pohls-gateway/gateway.zip

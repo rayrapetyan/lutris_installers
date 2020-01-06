@@ -1,0 +1,16 @@
+name: 'Danganronpa 2: Goodbye Despair'
+slug: danganronpa-2-goodbye-despair
+year: 2012
+platforms:
+- name: Linux
+- name: Sony PSP
+genres:
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/danganronpa-2-goodbye-despair.jpg
+icon_url: /games/icon/danganronpa-2-goodbye-despair.png
+is_public: true
+updated: '2019-01-23T08:29:03.736115Z'
+steamid: 413420
+gogslug: ''
+humblestoreid: ''

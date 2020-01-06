@@ -1,0 +1,17 @@
+name: LIMBO
+slug: limbo
+year: 2011
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Platform
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/limbo.jpg
+icon_url: /games/icon/limbo.png
+is_public: true
+updated: '2019-02-07T00:23:21.845378Z'
+steamid: 48000
+gogslug: limbo
+humblestoreid: ''

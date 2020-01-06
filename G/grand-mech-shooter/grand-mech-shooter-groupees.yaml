@@ -1,0 +1,31 @@
+id: 5054
+game_id: 12241
+game_slug: grand-mech-shooter
+name: Grand Mech Shooter
+year: 2015
+user: FakeShemp
+runner: linux
+slug: grand-mech-shooter-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-14T15:11:29.159301Z'
+updated_at: '2017-08-27T22:17:54.577630Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: GMS_Linux_Demo.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/GMS_Linux_Demo.x86
+  - chmodx: $GAMEDIR/GMS_Linux_Demo.x86_64
+  exe64: GMS_Linux_Demo.x86_64
+  files:
+  - file1: N/A:Please select the Groupees archive

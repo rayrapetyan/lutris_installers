@@ -1,0 +1,17 @@
+name: Serious Sam's Bogus Detour
+slug: serious-sams-bogus-detour
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Action
+aliases:
+- slug: serious-sam-bogus-detour
+  name: 'Serious Sam: Bogus Detour'
+banner_url: /games/banner/serious-sams-bogus-detour.jpg
+icon_url: /games/icon/serious-sams-bogus-detour.png
+is_public: true
+updated: '2019-11-09T07:05:16.749610Z'
+steamid: 272620
+gogslug: serious_sams_bogus_detour
+humblestoreid: ''

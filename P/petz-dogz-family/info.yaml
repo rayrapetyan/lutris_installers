@@ -1,0 +1,16 @@
+name: 'Petz: Dogz Family'
+slug: petz-dogz-family
+year: 2009
+platforms:
+- name: Nintendo DS
+- name: Sony PSP
+genres:
+- name: Simulation
+aliases: []
+banner_url: /games/banner/petz-dogz-family.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-14T04:03:51.715676Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

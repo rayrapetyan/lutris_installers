@@ -1,0 +1,24 @@
+id: 9736
+game_id: 16467
+game_slug: dusk
+name: DUSK
+year: 2018
+user: dtg01100
+runner: steam
+slug: dusk-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-15T01:00:07.440000Z'
+updated_at: '2019-04-05T05:59:41.862232Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 519860
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 519860

@@ -1,0 +1,29 @@
+id: 9252
+game_id: 19991
+game_slug: mobs-inc
+name: Mobs, Inc.
+year: 2015
+user: HazieHurst
+runner: linux
+slug: mobs-inc-itchio
+version: itch.io
+description: This is a Linux64 Version.
+notes: ''
+created_at: '2018-07-17T16:37:55.108000Z'
+updated_at: '2018-07-18T04:14:19.869918Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: nw
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/nw
+  files:
+  - file1: N/A:Please select the itch.io archive

@@ -1,0 +1,32 @@
+id: 5200
+game_id: 7951
+game_slug: veer
+name: Veer
+year: null
+user: FakeShemp
+runner: wine
+slug: veer-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-25T21:10:39.867826Z'
+updated_at: '2018-05-19T03:41:57.403142Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 405530
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Veer
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Veer/veer.exe
+    arch: win32

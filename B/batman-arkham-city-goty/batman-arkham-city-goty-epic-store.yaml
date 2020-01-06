@@ -1,0 +1,108 @@
+id: 15754
+game_id: 270
+game_slug: batman-arkham-city-goty
+name: 'Batman: Arkham City GOTY'
+year: 2012
+user: 751203f8735e628528b32f1f3c8e3da1
+runner: wine
+slug: batman-arkham-city-goty-epic-store
+version: Epic Store
+description: 'This installer will install the software necessary for the Epic Game
+  store.Once install is finished you''ll have to download Batman: Arkham City GOTY
+  manually through the Epic Games Launcher.'
+notes: "For a better performance, is recommendable disable DirectX 11 options and\
+  \ PhysX in game parameters.\r\n\r\nIf show you see an error message for DXSETUP.exe,\
+  \ simply you click \"No\".\r\n\r\nIf you see a DirectX installation assistant and\
+  \ Microsoft Visual C++ 2008 when launching the game cancel those installations."
+created_at: '2019-09-22T16:51:11.113000Z'
+updated_at: '2019-12-29T08:44:07.295326Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 200260
+gogid: null
+gogslug: ''
+humblestoreid: batman-arkham-city-goty-edition
+script:
+  installer:
+  - extract:
+      dst: $CACHE/directx-2010
+      file: dx10
+  - task:
+      prefix: $GAMEDIR
+      description: Creating the Wine prefix (64bits).
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing libraries.
+      app: vcrun2008
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Adding the software necessary.
+      app: arial mdx d3dcompiler_43 d3dx9_43
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .NET Framework. (3.5)
+      app: dotnet35sp1
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .NET Framework. (2.0)
+      app: dotnet20sp1
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Changing Windows version to (Win7).
+      app: win7
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  - task:
+      executable: $CACHE/directx-2010/DXSETUP.exe
+      prefix: $GAMEDIR
+      description: (Microsoft`s software) Installing directx-2010.
+      arch: win64
+      name: wineexec
+  - task:
+      executable: epicstore
+      prefix: $GAMEDIR
+      description: Running the Epic Games`s Installer.
+      arch: win64
+      exclude_processes: EpicGamesLauncher.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  game:
+    prefix: $GAMEDIR
+    args: -opengl
+    exe: drive_c/Program Files (x86)/Epic Games/Launcher/Portal/Binaries/Win32/EpicGamesLauncher.exe
+    arch: win64
+  system:
+    disable_compositor: true
+    env:
+      mesa_glthread: 'true'
+      __GL_SHADER_DISK_CACHE: '1'
+      DXVK_STATE_CACHE_PATH: $GAMEDIR/StateCache/
+      __GL_THREADED_OPTIMIZATIONS: '1'
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR/GLcacheShaders/
+      DXVK_STATE_CACHE: '1'
+  wine:
+    version: tkg-4.6-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - epicstore: https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi
+  - dx10: https://lutris.net/files/tools/directx-2010.tar.gz

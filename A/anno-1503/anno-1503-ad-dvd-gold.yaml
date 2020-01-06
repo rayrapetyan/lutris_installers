@@ -1,0 +1,57 @@
+id: 14384
+game_id: 11850
+game_slug: anno-1503
+name: Anno 1503 A.D.
+year: 2003
+user: codingHahn
+runner: wine
+slug: anno-1503-ad-dvd-gold
+version: DVD Gold
+description: Installs the gold version of the game with the DVD-ROM.
+notes: Remember to uncheck `Install Acrobat Reader` during installation
+created_at: '2019-07-02T15:09:44.502000Z'
+updated_at: '2019-09-09T01:09:09.076410Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: setup.exe
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      install_mono: false
+      install_gecko: false
+      name: create_prefix
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      description: Installing...
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Setting up winetricks...
+      app: windowmanagermanaged=n
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting up winetricks...
+      app: directmusic
+      silent: true
+      name: winetricks
+  system:
+    reset_desktop: true
+  wine:
+    version: ge-protonified-4.10-x86_64
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/ANNO 1503 GOLD/1503Startup.exe
+    arch: win32

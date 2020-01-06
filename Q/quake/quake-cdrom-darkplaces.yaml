@@ -1,0 +1,50 @@
+id: 15337
+game_id: 1
+game_slug: quake
+name: Quake
+year: 1996
+user: appoloin
+runner: linux
+slug: quake-cdrom-darkplaces
+version: CDROM + Darkplaces
+description: null
+notes: ''
+created_at: '2019-09-07T00:09:22.749893Z'
+updated_at: '2019-09-07T00:09:22.749921Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 2310
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - write_file:
+      content: '#!/bin/bash
+
+        src=$1
+
+        dst=$2
+
+        src_path=$(echo "$1" | sed -r "s/(.+)\/.+/\1/")
+
+        find "$src_path" -type f \( -iname "*.PAK"  \) -exec cp {} "$dst" \;'
+      file: $CACHE/selectcopy.sh
+  - chmodx: $CACHE/selectcopy.sh
+  - execute:
+      args: $GAMEDIR/id1
+      file: mkdir
+  - extract:
+      dst: $GAMEDIR
+      file: darkplaces-engine
+  - chmodx: $GAMEDIR/darkplaces-linux-x86_64-glx
+  - execute:
+      args: $game/ $GAMEDIR/id1
+      file: $CACHE/selectcopy.sh
+  files:
+  - darkplaces-engine: http://icculus.org/twilight/darkplaces/files/darkplacesengine20140513.zip
+  - game: N/A:Select a file with *.PAK extension
+  game:
+    exe: darkplaces-linux-x86_64-glx

@@ -1,0 +1,24 @@
+id: 8235
+game_id: 2201
+game_slug: cakewalk-loop-manager
+name: Cakewalk Loop Manager
+year: null
+user: soredake
+runner: winesteam
+slug: cakewalk-loop-manager-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T07:33:57.324523Z'
+updated_at: '2018-05-13T09:07:38.413015Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 305280
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 305280

@@ -1,0 +1,15 @@
+name: Virtua Fighter PC
+slug: virtua-fighter-pc
+year: 1996
+platforms:
+- name: Windows
+genres:
+- name: Fighting
+aliases: []
+banner_url: /games/banner/virtua-fighter-pc.jpg
+icon_url: /games/icon/virtua-fighter-pc.png
+is_public: true
+updated: '2019-10-23T23:57:23.968642Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

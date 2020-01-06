@@ -1,0 +1,93 @@
+id: 8080
+game_id: 18121
+game_slug: wing-commander-iv-the-price-of-freedom
+name: 'Wing Commander IV: The Price Of Freedom'
+year: 1996
+user: Wompus
+runner: dosbox
+slug: wing-commander-iv-the-price-o-gog-dos
+version: GoG-DOS
+description: The MS-DOS Version is available as a goodie/extra in your GoG library.
+notes: ''
+created_at: '2018-05-06T22:31:52.278000Z'
+updated_at: '2019-09-09T00:28:20.276833Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE/inno
+      file: $innoextract
+  - extract:
+      dst: $CACHE/arcext
+      file: $wing4dos
+  - execute:
+      args: --extract $CACHE/arcext/setup_wing_commander4_bonus_2.0.0.2.exe --output-dir
+        $CACHE/winggame --gog
+      file: $CACHE/inno/innoextract
+  - merge:
+      src: $CACHE/winggame/game/WC4
+      dst: $GAMEDIR/WC4
+  - merge:
+      src: $CACHE/winggame/game/CD1
+      dst: $GAMEDIR/CD1
+  - merge:
+      src: $CACHE/winggame/support/app/dosbox_wc4.conf
+      dst: $GAMEDIR
+  - input_menu:
+      options:
+      - 3840x2160: 3840x2160
+      - 2560x1440: 2560x1440
+      - 1600x1200: 1600x1200
+      - 1920x1200: 1920x1200
+      - 1920x1080: 1920x1080
+      - 1280x1024: 1280x1024
+      - 1600x900: 1600x900
+      - 1440x900: 1440x900
+      - 1280x800: 1280x800
+      - 1366x768: 1366x768
+      - 1360x768: 1360x768
+      - 1024x768: 1024x768
+      - 1280x720: 1280x720
+      description: Choose your desktop resolution
+      id: RES
+      preselect: 1920x1080
+  - write_config:
+      section: sdl
+      key: output
+      value: openglnb
+      file: $GAMEDIR/dosbox_wc4.conf
+  - write_config:
+      section: render
+      key: scaler
+      value: none
+      file: $GAMEDIR/dosbox_wc4.conf
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/dosbox_wc4.conf
+  - write_config:
+      section: sdl
+      key: fullresolution
+      value: $INPUT_RES
+      file: $GAMEDIR/dosbox_wc4.conf
+  - write_file:
+      mode: a
+      content: "[autoexec]\n@echo off\ncls\t\nmount c \"$GAMEDIR\"\nmount d \"$GAMEDIR/CD1\"\
+        \ -t cdrom\nc:\ncd WC4\ncls\nWC4.exe\nexit\n"
+      file: $GAMEDIR/dosbox_wc4.conf
+  files:
+  - wing4dos: N/A:Please select the GOG.com Wing Commander 4 Archive wing_commander_4_dos_english.zip
+  - innoextract: http://constexpr.org/innoextract/files/snapshots/innoextract-1.8-dev-2019-01-13/innoextract-1.8-dev-2019-01-13-linux.tar.xz
+  game:
+    config_file: $GAMEDIR/dosbox_wc4.conf
+    args: -noconsole
+    working_dir: $GAMEDIR
+    main_file: $GAMEDIR/WC4/WC4.EXE

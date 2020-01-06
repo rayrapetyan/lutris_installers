@@ -1,0 +1,24 @@
+id: 792
+game_id: 2677
+game_slug: war-in-a-box-paper-tanks
+name: 'War in a Box: Paper Tanks'
+year: null
+user: Xodetaetl
+runner: steam
+slug: war-in-a-box-paper-tanks-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T16:20:14.503000Z'
+updated_at: '2014-09-15T17:10:39.643000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 308460
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 308460

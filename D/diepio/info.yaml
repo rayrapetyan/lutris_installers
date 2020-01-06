@@ -1,0 +1,17 @@
+name: Diep.io
+slug: diepio
+year: 2016
+platforms:
+- name: Browser
+genres:
+- name: Action
+- name: Arcade
+- name: MMO
+aliases: []
+banner_url: /games/banner/diepio.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:11.518301Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

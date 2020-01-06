@@ -1,0 +1,15 @@
+name: 'Warcraft III: Reign of Chaos'
+slug: warcraft-iii-reign-of-chaos
+year: 2002
+platforms:
+- name: Windows
+genres:
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/warcraft-iii-reign-of-chaos.jpg
+icon_url: /games/icon/warcraft-iii-reign-of-chaos.png
+is_public: true
+updated: '2019-12-29T09:00:13.328765Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,31 @@
+id: 393
+game_id: 1737
+game_slug: heroes-of-newerth
+name: Heroes of Newerth
+year: 2010
+user: Xodetaetl
+runner: linux
+slug: heroes-of-newerth-heroesofnewerthcom
+version: heroesofnewerth.com
+description: Make sure you choose a destination folder that does not contain any space
+  in its path!
+notes: ''
+created_at: '2014-01-24T01:27:29.866000Z'
+updated_at: '2018-08-18T02:14:00.831668Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: hon.sh
+  installer:
+  - chmodx: installer
+  - execute:
+      args: --destination=$GAMEDIR
+      file: installer
+  files:
+  - installer: http://dl.heroesofnewerth.com/installers/linux/HoNClient.sh

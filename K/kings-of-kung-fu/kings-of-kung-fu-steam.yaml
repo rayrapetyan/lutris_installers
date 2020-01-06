@@ -1,0 +1,24 @@
+id: 1526
+game_id: 4375
+game_slug: kings-of-kung-fu
+name: Kings of Kung Fu
+year: 2015
+user: Xodetaetl
+runner: steam
+slug: kings-of-kung-fu-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-05-19T15:53:19.843000Z'
+updated_at: '2015-06-01T17:41:29.968000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 316930
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 316930

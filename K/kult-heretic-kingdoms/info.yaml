@@ -1,0 +1,17 @@
+name: 'Kult: Heretic Kingdoms'
+slug: kult-heretic-kingdoms
+year: 2004
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/kult-heretic-kingdoms.jpg
+icon_url: /games/icon/kult-heretic-kingdoms.png
+is_public: true
+updated: '2019-01-23T08:30:06.888297Z'
+steamid: 277650
+gogslug: ''
+humblestoreid: ''

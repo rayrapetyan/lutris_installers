@@ -1,0 +1,43 @@
+id: 2197
+game_id: 2116
+game_slug: luftrausers
+name: Luftrausers
+year: 2014
+user: ssf
+runner: linux
+slug: luftrausers-lgogdownloader
+version: LGOGDownloader
+description: 'requires lgogdownloader, don''t forget to login first: lgogdownloader
+  --login'
+notes: ''
+created_at: '2016-06-24T18:06:45.122834Z'
+updated_at: '2016-09-28T18:12:26.794826Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 233150
+gogid: 1207661993
+gogslug: luftrausers
+humblestoreid: luftrausers
+script:
+  exe: start.sh
+  installer:
+  - execute:
+      args: -c 'LD_PRELOAD='' LD_LIBRARY_PATH='' lgogdownloader --download --game
+        luftrausers --platform lin --exclude e,p,l,c,d --directory $CACHE/installer'
+      file: /bin/sh
+      terminal: true
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $CACHE/installer/luftrausers/gog_luftrausers*.sh -d $CACHE/installer data/noarch/*
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $CACHE/installer/data/noarch
+      dst: $GAMEDIR
+  - chmodx: $GAMEDIR/start.sh
+  files:
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

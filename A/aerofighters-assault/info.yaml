@@ -1,0 +1,17 @@
+name: AeroFighters Assault
+slug: aerofighters-assault
+year: 1997
+platforms:
+- name: Nintendo 64
+genres:
+- name: Action
+- name: Flight
+- name: Simulation
+aliases: []
+banner_url: /games/banner/aerofighters-assault.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:12.894765Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

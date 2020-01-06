@@ -1,0 +1,27 @@
+id: 6935
+game_id: 15596
+game_slug: magical-otoge-anholly
+name: Magical Otoge Anholly
+year: 2016
+user: FakeShemp
+runner: web
+slug: magical-otoge-anholly-online
+version: Online
+description: null
+notes: ''
+created_at: '2018-01-01T15:12:57.080000Z'
+updated_at: '2018-01-01T15:19:07.837779Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  web:
+    open_links: true
+    window_size: 1280x720
+  game:
+    main_file: http://sandbox-adventure.com/magical-otoge-anholly/

@@ -1,0 +1,19 @@
+name: Dreadnought
+slug: dreadnought
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Arcade
+- name: Flight
+- name: Simulation
+- name: Tactical shooter
+aliases: []
+banner_url: /games/banner/dreadnought.jpg
+icon_url: /games/icon/dreadnought.png
+is_public: true
+updated: '2019-01-23T08:29:17.203985Z'
+steamid: 835860
+gogslug: ''
+humblestoreid: ''

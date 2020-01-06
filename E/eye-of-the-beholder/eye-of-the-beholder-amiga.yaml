@@ -1,0 +1,42 @@
+id: 338
+game_id: 1456
+game_slug: eye-of-the-beholder
+name: Eye of the Beholder
+year: 1991
+user: strider
+runner: fsuae
+slug: eye-of-the-beholder-amiga
+version: amiga
+description: ''
+notes: ''
+created_at: '2013-12-28T14:29:29.292000Z'
+updated_at: '2014-03-15T22:36:22.378000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: disk1
+  installer:
+  - merge:
+      src: disk1
+      dst: $GAMEDIR
+  - merge:
+      src: disk2
+      dst: $GAMEDIR
+  - merge:
+      src: disk3
+      dst: $GAMEDIR
+  files:
+  - disk1: N/A
+  - disk2: N/A
+  - disk3: N/A
+  game:
+    disks:
+    - disk1
+    - disk2
+    - disk3

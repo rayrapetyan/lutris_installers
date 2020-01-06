@@ -1,0 +1,42 @@
+id: 6780
+game_id: 637
+game_slug: mortal-kombat-kollection
+name: Mortal Kombat Kollection
+year: null
+user: soredake
+runner: winesteam
+slug: mortal-kombat-kollection-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-23T20:58:34.942000Z'
+updated_at: '2019-04-20T06:50:30.624329Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 205350
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Setting up wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun6
+      name: winetricks
+  - extract:
+      format: zip
+      dst: $GAMEDIR/BINARIES/WIN32
+      file: xlive
+  files:
+  - xlive: N/A:Select the zip file from https://community.pcgamingwiki.com/files/file/576-bulletstorm-xlivedll
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 205350
+    arch: win64

@@ -1,0 +1,28 @@
+id: 14395
+game_id: 28324
+game_slug: what-never-was
+name: What Never Was
+year: 2019
+user: oscararg
+runner: linux
+slug: what-never-was-itchio
+version: Itchio
+description: null
+notes: ''
+created_at: '2019-07-03T01:48:21.943836Z'
+updated_at: '2019-10-11T00:07:21.371705Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 866440
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: WhatNeverWas.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

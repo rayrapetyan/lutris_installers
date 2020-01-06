@@ -1,0 +1,16 @@
+name: 'AngerForce: Reloaded'
+slug: angerforce-reloaded
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Shoot'em up
+- name: Shooter
+aliases: []
+banner_url: /games/banner/angerforce-reloaded.jpg
+icon_url: /games/icon/angerforce-reloaded.png
+is_public: true
+updated: '2019-10-20T07:03:08.481352Z'
+steamid: 650780
+gogslug: angerforce_reloaded
+humblestoreid: ''

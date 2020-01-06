@@ -1,0 +1,15 @@
+name: Our Home.
+slug: our-home
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/our-home.jpg
+icon_url: /games/icon/our-home.png
+is_public: true
+updated: '2019-01-23T08:30:38.682661Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

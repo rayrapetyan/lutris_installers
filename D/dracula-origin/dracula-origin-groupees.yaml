@@ -1,0 +1,37 @@
+id: 5805
+game_id: 1629
+game_slug: dracula-origin
+name: 'Dracula: Origin'
+year: 2008
+user: FakeShemp
+runner: wine
+slug: dracula-origin-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-18T21:10:09.495000Z'
+updated_at: '2018-05-19T03:41:57.746617Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 11050
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/setup.exe
+      prefix: $GAMEDIR
+      args: /sp- /verysilent /norestart /suppressmsgboxes /nogui
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Frogwares/Dracula Origin/DraculaOrigin.exe
+    arch: win32

@@ -1,0 +1,16 @@
+name: Forts
+slug: forts
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Strategy
+aliases: []
+banner_url: /games/banner/forts.jpg
+icon_url: /games/icon/forts.png
+is_public: true
+updated: '2019-01-23T08:29:34.301443Z'
+steamid: 410900
+gogslug: ''
+humblestoreid: ''

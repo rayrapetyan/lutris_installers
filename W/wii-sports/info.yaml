@@ -1,0 +1,15 @@
+name: Wii Sports
+slug: wii-sports
+year: 2006
+platforms:
+- name: Nintendo Wii
+genres:
+- name: Sports
+aliases: []
+banner_url: /games/banner/wii-sports.jpg
+icon_url: null
+is_public: true
+updated: '2019-07-20T02:57:25.821202Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

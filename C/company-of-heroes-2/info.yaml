@@ -1,0 +1,15 @@
+name: Company of Heroes 2
+slug: company-of-heroes-2
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Real-time tactics
+aliases: []
+banner_url: /games/banner/company-of-heroes-2.jpg
+icon_url: /games/icon/company-of-heroes-2.png
+is_public: true
+updated: '2019-01-23T08:28:56.875705Z'
+steamid: 231430
+gogslug: ''
+humblestoreid: ''

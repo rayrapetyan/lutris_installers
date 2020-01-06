@@ -1,0 +1,30 @@
+id: 2699
+game_id: 7621
+game_slug: dmcas-sky
+name: DMCA's Sky
+year: 2016
+user: Lulu
+runner: linux
+slug: dmcas-sky-itchio
+version: Itch.io
+description: 'Free download from: https://asmb.itch.io/dmcas-sky'
+notes: ''
+created_at: '2016-09-07T18:45:47.982000Z'
+updated_at: '2019-03-23T15:17:41.333032Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: DMCAsSky.x86_64
+  installer:
+  - extract:
+      file: dmcas-sky-game
+  - chmodx: $GAMEDIR/DMCAsSky.x86
+  - chmodx: $GAMEDIR/DMCAsSky.x86_64
+  files:
+  - dmcas-sky-game: 'N/A: Please select the .zip install file downloaded from itch.io'

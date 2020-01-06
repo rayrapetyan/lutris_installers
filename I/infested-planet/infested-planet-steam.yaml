@@ -1,0 +1,31 @@
+id: 5704
+game_id: 4196
+game_slug: infested-planet
+name: Infested Planet
+year: 2014
+user: rican-linux
+runner: winesteam
+slug: infested-planet-steam
+version: Steam
+description: Command a team of 5 elite soldiers against an alien horde of 100,000.
+  Surrounded on all sides, you must outmaneuver and outsmart the enemy.
+notes: ''
+created_at: '2017-09-11T23:02:51.391000Z'
+updated_at: '2017-09-17T19:24:57.550173Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 204530
+gogid: 1207666233
+gogslug: infested_planet
+humblestoreid: ''
+script:
+  task:
+    key: csmt
+    value: '0x1'
+    path: HKEY_CURRENT_USER\Software\Wine\Direct3D
+    type: REG_DWORD
+    name: set_regedit
+  game:
+    appid: 204530

@@ -1,0 +1,16 @@
+name: Xenogears
+slug: xenogears
+year: 1998
+platforms:
+- name: Sony PlayStation
+genres:
+- name: jRPG
+- name: RPG
+aliases: []
+banner_url: /games/banner/xenogears.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:12.226379Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

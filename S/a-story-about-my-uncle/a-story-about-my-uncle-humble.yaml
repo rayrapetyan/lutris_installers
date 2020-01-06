@@ -1,0 +1,29 @@
+id: 4006
+game_id: 3428
+game_slug: a-story-about-my-uncle
+name: A Story About My Uncle
+year: 2014
+user: FakeShemp
+runner: linux
+slug: a-story-about-my-uncle-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-31T15:51:07.886559Z'
+updated_at: '2017-05-31T16:31:08.608201Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 278360
+gogid: 1207664673
+gogslug: story_about_my_uncle_a
+humblestoreid: ''
+script:
+  exe: Binaries/linux-x86/ASAMU
+  installer:
+  - extract:
+      file: $file1
+  exe64: Binaries/linux-amd64/ASAMU
+  files:
+  - file1: N/A:Please select the Humble archive

@@ -1,0 +1,24 @@
+id: 12804
+game_id: 225
+game_slug: atom-zombie-smasher
+name: Atom Zombie Smasher
+year: 2011
+user: dublea
+runner: steam
+slug: atom-zombie-smasher-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-04-15T04:44:17.228263Z'
+updated_at: '2019-04-27T02:24:15.646162Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 55040
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 55040

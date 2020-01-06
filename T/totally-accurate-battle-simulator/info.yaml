@@ -1,0 +1,16 @@
+name: Totally Accurate Battle Simulator
+slug: totally-accurate-battle-simulator
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Simulation
+- name: Strategy
+aliases: []
+banner_url: /games/banner/totally-accurate-battle-simulator.jpg
+icon_url: /games/icon/totally-accurate-battle-simulator.png
+is_public: true
+updated: '2019-10-17T00:04:11.920844Z'
+steamid: 508440
+gogslug: ''
+humblestoreid: ''

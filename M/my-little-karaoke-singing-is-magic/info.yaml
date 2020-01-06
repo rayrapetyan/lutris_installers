@@ -1,0 +1,17 @@
+name: 'My Little Karaoke: Singing is Magic'
+slug: my-little-karaoke-singing-is-magic
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: Casual
+- name: Party
+- name: Rhythm
+aliases: []
+banner_url: /games/banner/my-little-karaoke-singing-is-magic.jpg
+icon_url: /games/icon/my-little-karaoke-singing-is-magic.png
+is_public: true
+updated: '2019-01-23T08:30:28.592403Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

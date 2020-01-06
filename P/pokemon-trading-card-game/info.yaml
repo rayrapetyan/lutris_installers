@@ -1,0 +1,16 @@
+name: Pokemon Trading Card Game
+slug: pokemon-trading-card-game
+year: 1998
+platforms:
+- name: Nintendo Game Boy Color
+genres:
+- name: Cards
+- name: Strategy
+aliases: []
+banner_url: /games/banner/pokemon-trading-card-game.jpg
+icon_url: null
+is_public: true
+updated: '2019-06-14T20:45:34.195487Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

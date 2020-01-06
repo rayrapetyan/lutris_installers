@@ -1,0 +1,99 @@
+id: 16694
+game_id: 30072
+game_slug: 3dmark_2006
+name: 3DMark 2006
+year: 2006
+user: vanstaveren
+runner: wine
+slug: 3dmark-2006-advanced-120-complet
+version: Advanced 1.2.0, complete
+description: "* License: Legacy,\r\n* Hardware acceleration benchmark software,\r\n\
+  * Legacy key: 3DM06-YKL9-C7R6-73WW-AAPA-VHKW,\r\n* Legacy user: Futuremark,\r\n\
+  * Tested: 3DMark 2001 to 2006. \r\n  They all 'work' with the Futuremark SystemInfo\
+  \ 4.15.0, \r\n  that \"comes from downloading and installing 2006\".\r\n* SystemInfo\
+  \ : 4.15.0,\r\n* MP3codec DirectShow,\r\n* DirectX: 9c,\r\n* D9VK,\r\n* OpenAl,\r\
+  \n* Visual C++: 2005, 2010."
+notes: ''
+created_at: '2019-11-08T01:11:59.334000Z'
+updated_at: '2019-12-24T10:54:47.302911Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 64-bit prefix ...
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: MP3codec DirectShow ...
+      app: l3codecx
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Visual C++ 2010 libraries ...
+      app: vcrun2010
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Visual C++ 2005 libraries ...
+      app: vcrun2005
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Windows version 8.1 ...
+      app: win81
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Vulkan ...
+      app: d9vk_master
+      arch: win64
+      name: winetricks
+  - move:
+      src: setup
+      dst: $GAMEDIR
+  - chmodx: $GAMEDIR/3dmark06.exe
+  - task:
+      executable: $GAMEDIR/3dmark06.exe
+      prefix: $GAMEDIR
+      description: 3DMark 2006 ...
+      name: wineexec
+  - task:
+      description: Register KeyCode ...
+      name: set_regedit
+      arch: win64
+      key: KeyCode
+      value: 3DM06-YKL9-C7R6-73WW-AAPA-VHKW
+      type: REG_SZ
+      path: HKEY_LOCAL_MACHINE\Software\Wow6432Node\Futuremark\3DMark06
+  - task:
+      description: Register KeyCode ...
+      name: set_regedit
+      arch: win64
+      key: KeyCode
+      value: 3DM06-YKL9-C7R6-73WW-AAPA-VHKW
+      type: REG_SZ
+      path: HKEY_USERS\S-1-5-21-0-0-0-1000\Software\Futuremark\3DMark
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files (x86)/Futuremark/3DMark06/3DMark06.exe
+    arch: win64
+  system:
+    disable_compositor: true
+  wine:
+    d9vk: true
+    Desktop: true
+  files:
+  - setup: https://benchmarks.ul.com/downloads/3dmark06.exe

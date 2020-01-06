@@ -1,0 +1,16 @@
+name: Commando
+slug: commando
+year: 1985
+platforms:
+- name: Arcade
+genres:
+- name: Action
+- name: Shooter
+aliases: []
+banner_url: /games/banner/commando.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:56.631374Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

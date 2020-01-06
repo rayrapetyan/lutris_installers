@@ -1,0 +1,34 @@
+id: 5509
+game_id: 6901
+game_slug: project-graviton
+name: Project Graviton
+year: null
+user: FakeShemp
+runner: wine
+slug: project-graviton-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-23T18:59:21.637000Z'
+updated_at: '2018-05-19T03:41:58.615499Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 437880
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      args: '"/S" "/D="C:\\Program Files\\Project Graviton""'
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Project Graviton/Project Graviton.exe
+    arch: win32

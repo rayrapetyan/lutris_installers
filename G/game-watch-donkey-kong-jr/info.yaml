@@ -1,0 +1,15 @@
+name: 'Game & Watch: Donkey Kong Jr.'
+slug: game-watch-donkey-kong-jr
+year: 1982
+platforms:
+- name: Arcade
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/game-watch-donkey-kong-jr.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:37.794359Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

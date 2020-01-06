@@ -1,0 +1,33 @@
+id: 1911
+game_id: 125
+game_slug: the-ultimate-doom
+name: The Ultimate Doom
+year: 1995
+user: strider
+runner: linux
+slug: the-ultimate-doom-john-romeros-e1m8b
+version: John Romero's e1m8b
+description: 'Alternative ending level for Doom Episode 1, released 21 years after
+  the game''s release. '
+notes: Install the "Native + Steam data (64bit)" version before.
+created_at: '2016-01-18T03:17:28.255904Z'
+updated_at: '2016-02-05T09:30:43.830988Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 2280
+gogid: 1440164514
+gogslug: the_ultimate_doom
+humblestoreid: ''
+script:
+  requires: the-ultimate-doom-native-steam-data-64
+  exe: zdoom
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: e1m8
+  files:
+  - e1m8: https://lutris.net/files/games/zdoom/e1m8b.zip
+  game:
+    args: -file e1m8b.wad -warp 8

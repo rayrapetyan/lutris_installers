@@ -1,0 +1,28 @@
+name: Steel Legions
+slug: steel-legions
+year: 2011
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Combat
+- name: Exploration
+- name: Interactive fiction
+- name: MMORPG
+- name: Open World
+- name: Programming
+- name: Sci-fi
+- name: Strategy
+- name: Tactical
+- name: Tactical shooter
+- name: Third-person shooter
+- name: Wargame
+aliases: []
+banner_url: /games/banner/steel-legions.jpg
+icon_url: null
+is_public: true
+updated: '2019-12-22T18:58:14.711806Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

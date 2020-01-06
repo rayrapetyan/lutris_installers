@@ -1,0 +1,34 @@
+id: 3017
+game_id: 8450
+game_slug: silence
+name: Silence
+year: 2016
+user: holsten
+runner: linux
+slug: silence-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2016-11-15T23:14:50.671000Z'
+updated_at: '2019-10-21T04:10:28.054591Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 314790
+gogid: 1452682147
+gogslug: silence
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

@@ -1,0 +1,24 @@
+id: 8167
+game_id: 2208
+game_slug: neotokyo
+name: "NEOTOKYO\xB0"
+year: null
+user: soredake
+runner: winesteam
+slug: neotokyo-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T06:50:25.186764Z'
+updated_at: '2018-05-12T10:19:30.508284Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 244630
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 244630

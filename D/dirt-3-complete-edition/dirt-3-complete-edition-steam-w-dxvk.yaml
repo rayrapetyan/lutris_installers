@@ -1,0 +1,50 @@
+id: 1802
+game_id: 4135
+game_slug: dirt-3-complete-edition
+name: DiRT 3 Complete Edition
+year: 2015
+user: RobLoach
+runner: winesteam
+slug: dirt-3-complete-edition-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2015-12-29T17:43:29.381000Z'
+updated_at: '2019-02-14T05:48:57.814533Z'
+draft: false
+published: true
+published_by: 19464
+rating: '5'
+steamid: 321040
+gogid: null
+gogslug: ''
+humblestoreid: dirt-3-complete-edition
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: set_regedit
+      arch: win32
+      type: REG_SZ
+      value: disabled
+      key: xinput9_1_0
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+  winesteam:
+    version: tkg-4.0-x86_64
+    x360ce-path: $GAMEDIR
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+    dumbxinputemu: true
+  system:
+    env:
+      DXVK_HUD: 0
+    pulse_latency: true
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 321040
+    arch: win32

@@ -1,0 +1,31 @@
+id: 9216
+game_id: 19942
+game_slug: kiss-psycho-circus-the-nightmare-child
+name: 'KISS: Psycho Circus - The Nightmare Child'
+year: 2000
+user: te_lanus
+runner: libretro
+slug: kiss-psycho-circus-the-nightm-dreamcast
+version: Dreamcast
+description: null
+notes: ''
+created_at: '2018-07-15T09:11:53.117642Z'
+updated_at: '2018-07-15T09:12:27.861798Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Dreamcast game file
+  game:
+    core: reicast
+    main_file: file1

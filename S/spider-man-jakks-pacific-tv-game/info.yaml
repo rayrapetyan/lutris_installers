@@ -1,0 +1,17 @@
+name: Spider-Man (JAKKS Pacific TV Game)
+slug: spider-man-jakks-pacific-tv-game
+year: 2004
+platforms:
+- name: Arcade
+genres:
+- name: Compilation
+aliases:
+- slug: jakks-pacific-tv-game-spider-man
+  name: JAKKS Pacific TV Game Spider-Man
+banner_url: /games/banner/spider-man-jakks-pacific-tv-game.jpg
+icon_url: null
+is_public: true
+updated: '2019-03-01T18:56:45.652381Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

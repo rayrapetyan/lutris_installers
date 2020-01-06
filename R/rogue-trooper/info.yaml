@@ -1,0 +1,16 @@
+name: Rogue Trooper
+slug: rogue-trooper
+year: 2006
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/rogue-trooper.jpg
+icon_url: /games/icon/rogue-trooper.png
+is_public: true
+updated: '2019-01-23T08:31:03.459995Z'
+steamid: 7020
+gogslug: rogue_trooper
+humblestoreid: ''

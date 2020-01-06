@@ -1,0 +1,28 @@
+id: 7143
+game_id: 46
+game_slug: dwarf-fortress
+name: Dwarf Fortress
+year: null
+user: pluck
+runner: linux
+slug: dwarf-fortress-linuxlnp-04412-r03
+version: LinuxLNP-0.44.12-r03
+description: null
+notes: ''
+created_at: '2018-01-20T19:45:28.039000Z'
+updated_at: '2019-04-27T09:39:59.194090Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: startlnp
+  installer:
+  - extract:
+      file: df-game
+  files:
+  - df-game: http://dffd.bay12games.com/download.php?id=13244&f=LinuxLNP-0.44.12-r03.tar.gz

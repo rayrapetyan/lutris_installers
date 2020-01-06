@@ -1,0 +1,17 @@
+name: Afterlife
+slug: afterlife
+year: 1995
+platforms:
+- name: Linux
+genres:
+- name: Building
+- name: Managerial
+- name: Simulation
+aliases: []
+banner_url: /games/banner/afterlife.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:13.337043Z'
+steamid: null
+gogslug: afterlife
+humblestoreid: ''

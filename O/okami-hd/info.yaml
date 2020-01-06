@@ -1,0 +1,17 @@
+name: "OKAMI HD / \u5927\u795E \u7D76\u666F\u7248"
+slug: okami-hd
+year: null
+platforms:
+- name: Nintendo DS
+- name: Nintendo Wii
+- name: Sony PlayStation 2
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/okami-hd.jpg
+icon_url: /games/icon/okami-hd.png
+is_public: true
+updated: '2019-01-23T08:30:36.140746Z'
+steamid: 587620
+gogslug: ''
+humblestoreid: ''

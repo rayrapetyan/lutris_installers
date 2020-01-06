@@ -1,0 +1,24 @@
+id: 409
+game_id: 882
+game_slug: war-thunder
+name: War Thunder
+year: 2012
+user: Xodetaetl
+runner: steam
+slug: war-thunder-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2014-02-04T09:38:42.167000Z'
+updated_at: '2014-11-19T10:08:19.176000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 236390
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 236390

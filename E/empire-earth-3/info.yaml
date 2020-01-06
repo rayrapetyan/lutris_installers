@@ -1,0 +1,17 @@
+name: Empire Earth 3
+slug: empire-earth-3
+year: 2007
+platforms:
+- name: Windows
+genres:
+- name: Historical
+- name: Real-time
+- name: Strategy
+aliases: []
+banner_url: /games/banner/empire-earth-3.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:22.853871Z'
+steamid: null
+gogslug: empire_earth_3
+humblestoreid: ''

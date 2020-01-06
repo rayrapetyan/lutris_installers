@@ -1,0 +1,38 @@
+id: 2225
+game_id: 4341
+game_slug: victor-vran
+name: Victor Vran
+year: 2015
+user: Lulu
+runner: linux
+slug: victor-vran-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2016-06-29T05:55:15.521153Z'
+updated_at: '2016-07-05T00:45:28.168645Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 345180
+gogid: 1433856545
+gogslug: victor_vran
+humblestoreid: ''
+script:
+  exe: Game/start.sh
+  gogid: victor_vran
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/Game
+  files:
+  - game: 'N/A: Plese select the GOG.com Linux installer'
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

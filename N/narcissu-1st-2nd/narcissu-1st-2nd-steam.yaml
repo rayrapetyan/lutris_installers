@@ -1,0 +1,24 @@
+id: 760
+game_id: 2301
+game_slug: narcissu-1st-2nd
+name: Narcissu 1st & 2nd
+year: 2007
+user: Xodetaetl
+runner: steam
+slug: narcissu-1st-2nd-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T13:54:51.918000Z'
+updated_at: '2014-09-15T16:13:30.364000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 264380
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 264380

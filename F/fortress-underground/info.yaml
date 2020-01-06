@@ -1,0 +1,19 @@
+name: 'Alcazar: The Forgotten Fortress'
+slug: fortress-underground
+year: 1987
+platforms:
+- name: Apple //e
+- name: Colecovision
+- name: Commodore 64
+- name: MSX
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/fortress-underground.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:17.922882Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

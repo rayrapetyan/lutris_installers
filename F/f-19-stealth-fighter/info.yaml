@@ -1,0 +1,15 @@
+name: F-19 Stealth Fighter
+slug: f-19-stealth-fighter
+year: 1988
+platforms:
+- name: Linux
+genres:
+- name: Flight
+aliases: []
+banner_url: /games/banner/f-19-stealth-fighter.jpg
+icon_url: /games/icon/f-19-stealth-fighter.png
+is_public: true
+updated: '2019-02-15T00:41:21.692994Z'
+steamid: 347250
+gogslug: ''
+humblestoreid: ''

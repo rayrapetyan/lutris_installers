@@ -1,0 +1,24 @@
+id: 11716
+game_id: 10267
+game_slug: night-in-the-woods
+name: Night in the Woods
+year: 2017
+user: shastao
+runner: steam
+slug: night-in-the-woods-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-01-26T03:54:11.016032Z'
+updated_at: '2019-01-27T01:14:05.780901Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 481510
+gogid: 1330400591
+gogslug: night_in_the_woods
+humblestoreid: night-in-the-woods
+script:
+  game:
+    appid: 481510

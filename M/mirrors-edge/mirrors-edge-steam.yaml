@@ -1,0 +1,39 @@
+id: 408
+game_id: 146
+game_slug: mirrors-edge
+name: Mirror's Edge
+year: 2009
+user: Xodetaetl
+runner: winesteam
+slug: mirrors-edge-steam
+version: Steam
+description: null
+notes: You may have to tick the "Automatically capture the mouse in full-screen windows"
+  checkbox in 'Wine configuration' (winecfg) to have the mouse move beyond a certain
+  range of degrees.
+created_at: '2014-02-03T22:08:09.631000Z'
+updated_at: '2019-12-29T14:54:07.652062Z'
+draft: false
+published: true
+published_by: 19464
+rating: '4'
+steamid: 17410
+gogid: 1893001152
+gogslug: mirrors_edge
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Creating WINE prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: physx
+      name: winetricks
+  wine:
+    version: lutris-4.20-x86_64
+    esync: true
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 17410

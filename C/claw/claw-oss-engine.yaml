@@ -1,0 +1,36 @@
+id: 3493
+game_id: 10447
+game_slug: claw
+name: Claw
+year: 1997
+user: strider
+runner: linux
+slug: claw-oss-engine
+version: oss-engine
+description: 'Open Source reimplementation of the game engine: https://github.com/pjasicek/CaptainClaw'
+notes: Requires the original CD
+created_at: '2017-04-02T22:51:30.658000Z'
+updated_at: '2017-04-02T23:00:39.656707Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: captainclaw
+  installer:
+  - insert-disc:
+      requires: data/claw.rez
+  - extract:
+      file: engine
+  - merge:
+      src: $DISC/data/claw.rez
+      dst: $GAMEDIR/
+  - move:
+      src: $GAMEDIR/claw.rez
+      dst: $GAMEDIR/CLAW.REZ
+  files:
+  - engine: https://lutris.net/files/games/captain-claw/captain-claw-20170402-x86_64.tar.gz

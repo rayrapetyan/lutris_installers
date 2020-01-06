@@ -1,0 +1,17 @@
+name: 'Dark Fall 2: Lights Out'
+slug: dark-fall-2-lights-out
+year: 2004
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: FPP
+- name: Horror
+aliases: []
+banner_url: /games/banner/dark-fall-2-lights-out.jpg
+icon_url: /games/icon/dark-fall-2-lights-out.png
+is_public: true
+updated: '2019-01-23T08:29:04.212265Z'
+steamid: 260710
+gogslug: dark_fall_lights_out
+humblestoreid: ''

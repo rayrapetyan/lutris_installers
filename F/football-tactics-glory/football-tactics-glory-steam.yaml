@@ -1,0 +1,25 @@
+id: 9093
+game_id: 19846
+game_slug: football-tactics-glory
+name: Football, Tactics & Glory
+year: 2018
+user: TuiorGames
+runner: winesteam
+slug: football-tactics-glory-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-08T23:53:59.515937Z'
+updated_at: '2018-07-09T03:54:34.044455Z'
+draft: true
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 375530
+    arch: win64

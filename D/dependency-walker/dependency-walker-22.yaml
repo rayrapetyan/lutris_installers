@@ -1,0 +1,43 @@
+id: 2828
+game_id: 7811
+game_slug: dependency-walker
+name: Dependency Walker
+year: null
+user: ssf
+runner: wine
+slug: dependency-walker-22
+version: '2.2'
+description: ''
+notes: ''
+created_at: '2016-10-02T17:23:18.718240Z'
+updated_at: '2016-10-03T17:26:36.688466Z'
+draft: false
+published: true
+published_by: null
+rating: '1'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - extract:
+      dst: $GAMEDIR
+      file: $tool
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      type: REG_SZ
+      value: ''
+      key: winemenubuilder.exe
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+  files:
+  - tool: http://dependencywalker.com/depends22_x86.zip
+  game:
+    prefix: $GAMEDIR
+    exe: depends.exe
+    arch: win32

@@ -1,0 +1,31 @@
+id: 11408
+game_id: 3192
+game_slug: test
+name: A test
+year: null
+user: strider
+runner: wine
+slug: a-test-prefixless
+version: prefixless
+description: null
+notes: ''
+created_at: '2019-01-01T22:21:29.870000Z'
+updated_at: '2019-01-12T06:26:18.507138Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: game
+      dst: $GAMEDIR
+  files:
+  - game: N/A:Please select the GOG Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Tales of Monkey Island/Launch of the Screaming Narwhal/MonkeyIsland101.exe

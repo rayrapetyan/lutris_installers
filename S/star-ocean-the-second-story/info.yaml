@@ -1,0 +1,15 @@
+name: 'Star Ocean: The Second Story'
+slug: star-ocean-the-second-story
+year: 1999
+platforms:
+- name: Sony PlayStation
+genres:
+- name: jRPG
+aliases: []
+banner_url: /games/banner/star-ocean-the-second-story.jpg
+icon_url: null
+is_public: true
+updated: '2019-10-22T22:04:46.342559Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

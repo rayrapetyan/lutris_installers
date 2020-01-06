@@ -1,0 +1,47 @@
+id: 12691
+game_id: 9736
+game_slug: heroes-of-might-and-magic-iii
+name: Heroes of Might and Magic III
+year: 1999
+user: dreamer_
+runner: wine
+slug: heroes-of-might-and-magic-iii-gog-hota-hd-mod
+version: GOG + HotA + HD mod
+description: Using the GOG windows version with Horn of the Abyss expansion. Comes
+  pre-installed with HD mod.
+notes: "Download: <a href=\"https://drive.google.com/uc?export=download&confirm=tHfP&id=1eAOPZbg62ucgY1_853yQLjS4-wYSwqmr\"\
+  >https://drive.google.com/uc?export=download&confirm=tHfP&id=1eAOPZbg62ucgY1_853yQLjS4-wYSwqmr</a>\r\
+  \n\r\nTo run the Complete Edition campaigns, in the launcher window: select \"Heroes3.exe\"\
+  \ and press \"Create HD exe\" button."
+created_at: '2019-04-08T16:01:01.530000Z'
+updated_at: '2019-10-28T21:09:31.677927Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: 1207658787
+gogslug: heroes_of_might_and_magic_3_complete_edition
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating WINE prefix
+      name: create_prefix
+  - task:
+      executable: installer
+      args: /SILENT /SUPPRESSMSGBOXES /NOGUI
+      description: "Running Setup, please wait\u2026"
+      name: wineexec
+  - task:
+      executable: hota_setup
+      args: /SILENT /SUPPRESSMSGBOXES /DIR="C:\GOG Games\HoMM 3 Complete"
+      description: "Running HotA setup, please wait\u2026"
+      name: wineexec
+  files:
+  - installer: N/A:Select the game's setup file
+  - hota_setup: N/A:Select HOTA setup exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/HoMM 3 Complete/HD_Launcher.exe

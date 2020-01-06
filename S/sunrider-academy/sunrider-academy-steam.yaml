@@ -1,0 +1,24 @@
+id: 6797
+game_id: 5420
+game_slug: sunrider-academy
+name: Sunrider Academy
+year: null
+user: soredake
+runner: winesteam
+slug: sunrider-academy-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-23T21:09:34.941350Z'
+updated_at: '2017-12-23T21:09:42.629313Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 340730
+gogid: 1944959747
+gogslug: sunrider_academy
+humblestoreid: ''
+script:
+  game:
+    appid: 340730

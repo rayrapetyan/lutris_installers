@@ -1,0 +1,16 @@
+name: 'Crazy Taxi 3: High Roller'
+slug: crazy-taxi-3-high-roller
+year: 2002
+platforms:
+- name: Arcade
+- name: Windows
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/crazy-taxi-3-high-roller.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:00.258654Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

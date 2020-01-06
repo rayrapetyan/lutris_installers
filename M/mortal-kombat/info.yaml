@@ -1,0 +1,22 @@
+name: Mortal Kombat
+slug: mortal-kombat
+year: 1992
+platforms:
+- name: Amiga
+- name: Arcade
+- name: Game Boy
+- name: MS-DOS
+- name: Sega Game Gear
+- name: Sega Genesis / Mega Drive
+- name: Sega Master System
+- name: Super Nintendo
+genres:
+- name: Fighting
+aliases: []
+banner_url: /games/banner/mortal-kombat.jpg
+icon_url: /games/icon/mortal-kombat.png
+is_public: true
+updated: '2019-01-23T08:30:26.649327Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

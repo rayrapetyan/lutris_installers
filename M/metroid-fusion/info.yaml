@@ -1,0 +1,17 @@
+name: Metroid Fusion
+slug: metroid-fusion
+year: 2002
+platforms:
+- name: Nintendo Game Boy Advance
+genres:
+- name: Action
+- name: Adventure
+- name: Platform
+aliases: []
+banner_url: /games/banner/metroid-fusion.jpg
+icon_url: /games/icon/metroid-fusion.png
+is_public: true
+updated: '2019-01-23T08:30:22.529770Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

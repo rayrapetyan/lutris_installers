@@ -1,0 +1,53 @@
+id: 16484
+game_id: 8224
+game_slug: the-elder-scrolls-v-skyrim-special-edition
+name: 'The Elder Scrolls V: Skyrim Special Edition'
+year: 2015
+user: aerzzyspace
+runner: steam
+slug: the-elder-scrolls-v-skyrim-sp-skyrimtogether
+version: SkyrimTogether
+description: Skyrim Special Edition + SkyrimTogether on Proton with FAudio19_08 for
+  working dialogue and music audio
+notes: "If Steam executes a first time setup it may override FAudio. To fix this execute\
+  \ the following commands on the terminal:\r\n1- cd ~/.steam/steam/steamapps/common/Skyrim\\\
+  \ Special\\ Edition/audiofix\r\n2- ./install-audio-fix.sh"
+created_at: '2019-10-30T03:51:28.799000Z'
+updated_at: '2019-12-08T23:16:06.129582Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 489830
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/audiofix
+      file: audio_fix_zip
+  - copy:
+      src: install_audio_fix
+      dst: $GAMEDIR/audiofix
+  - chmodx: $GAMEDIR/audiofix/install-audio-fix.sh
+  - execute:
+      file: $GAMEDIR/audiofix/install-audio-fix.sh
+  - copy:
+      dst: $GAMEDIR/harbor
+      file: skyrimtogether
+  - execute:
+      file: $GAMEDIR/harbor/Harbor.exe
+  system:
+    env:
+      PROTON_NO_ESYNC: 1
+    reset_pulse: true
+    pulse_latency: true
+  files:
+  - audio_fix_zip: https://github.com/Kron4ek/FAudio-Builds/releases/download/19.08/faudio-19.08.tar.xz
+  - install_audio_fix: https://github.com/rockerbacon/lutris-skyrimse-installers/releases/download/1.8.1/install-audio-fix.sh
+  - skyrimtogether:
+      filename: Harbor.exe
+      url: https://github.com/SkyrimTogether/issues-launcher/releases/download/v1.0.6/Harbor-1.0.6.exe
+  game:
+    appid: 489830

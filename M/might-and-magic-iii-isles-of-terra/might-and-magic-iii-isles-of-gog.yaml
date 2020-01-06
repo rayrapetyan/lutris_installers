@@ -1,0 +1,69 @@
+id: 10009
+game_id: 21465
+game_slug: might-and-magic-iii-isles-of-terra
+name: 'Might and Magic III: Isles of Terra'
+year: 1991
+user: ugly
+runner: dosbox
+slug: might-and-magic-iii-isles-of-gog
+version: GOG
+description: Uses the files from the Windows installer from GOG.
+notes: Audio (MIDI and sound FX) should work without additional setup.
+created_at: '2018-09-02T21:28:14.420000Z'
+updated_at: '2019-04-27T09:43:43.158988Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: $GAMEDIR/DOSBOX/dosboxMM3_single.conf
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file2
+  - execute:
+      args: -d "$CACHE" "$file1"
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/app
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/__support/app/dosboxMM3_single.conf
+      dst: $GAMEDIR/DOSBOX
+  - merge:
+      src: $CACHE/__support/app/dosboxMM3.conf
+      dst: $GAMEDIR/DOSBOX
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/DOSBOX/dosboxMM3.conf
+  - write_config:
+      section: sdl
+      key: output
+      value: overlay
+      file: $GAMEDIR/DOSBOX/dosboxMM3.conf
+  - write_config:
+      section: sdl
+      key: fullscreen
+      value: false
+      file: $GAMEDIR/DOSBOX/dosboxMM3.conf
+  - write_config:
+      section: sdl
+      key: fullresolution
+      value: 1920x1080
+      file: $GAMEDIR/DOSBOX/dosboxMM3.conf
+  - write_config:
+      section: midi
+      key: midiconfig
+      value: '128:0'
+      file: $GAMEDIR/DOSBOX/dosboxMM3.conf
+  files:
+  - file1: N/A:Please select the GOG installer
+  - file2: https://lutris.nyc3.digitaloceanspaces.com/tools/innoextract/innoextract-1.8-dev-2019-01-13-linux.tar.xz
+  game:
+    config_file: $GAMEDIR/DOSBOX/dosboxMM3.conf

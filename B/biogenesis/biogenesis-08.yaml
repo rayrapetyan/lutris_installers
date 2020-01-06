@@ -1,0 +1,31 @@
+id: 2974
+game_id: 8325
+game_slug: biogenesis
+name: Biogenesis
+year: 2006
+user: scottviger
+runner: linux
+slug: biogenesis-08
+version: '0.8'
+description: ''
+notes: Requires Java to be installed on the system
+created_at: '2016-11-04T03:03:43.667000Z'
+updated_at: '2017-06-16T18:46:20.376578Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: biogenesis
+  files:
+  - biogenesis: http://prdownloads.sourceforge.net/biogenesis/biogenesis_jar_0_8.zip
+  game:
+    args: java -jar "$GAMEDIR/biogenesis.jar"
+    exe: /usr/bin/env

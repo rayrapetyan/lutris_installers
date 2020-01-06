@@ -1,0 +1,17 @@
+name: Cold War
+slug: cold-war
+year: 2005
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Action
+- name: Stealth
+aliases: []
+banner_url: /games/banner/cold-war.jpg
+icon_url: /games/icon/cold-war.png
+is_public: true
+updated: '2019-01-23T08:28:55.606392Z'
+steamid: 260650
+gogslug: ''
+humblestoreid: ''

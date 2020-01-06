@@ -1,0 +1,18 @@
+name: 'Privateer 2: The Darkening'
+slug: privateer-2-the-darkening
+year: 1996
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Interactive fiction
+- name: Shooter
+- name: Space simulation
+aliases: []
+banner_url: /games/banner/privateer-2-the-darkening.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:49.616100Z'
+steamid: null
+gogslug: privateer_2_the_darkening
+humblestoreid: ''

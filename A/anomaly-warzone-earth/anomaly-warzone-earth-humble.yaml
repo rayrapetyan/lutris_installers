@@ -1,0 +1,36 @@
+id: 4085
+game_id: 289
+game_slug: anomaly-warzone-earth
+name: Anomaly Warzone Earth
+year: 2011
+user: FakeShemp
+runner: linux
+slug: anomaly-warzone-earth-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-03T19:05:20.826748Z'
+updated_at: '2017-06-04T22:13:38.146712Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 91200
+gogid: 1207659035
+gogslug: anomaly_warzone_earth
+humblestoreid: ''
+script:
+  exe: AnomalyWarzoneEarth
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $CACHE/AnomalyWarzoneEarth-Installer
+  - merge:
+      src: $CACHE/data
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble archive

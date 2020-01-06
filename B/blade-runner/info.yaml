@@ -1,0 +1,15 @@
+name: Blade Runner
+slug: blade-runner
+year: 1997
+platforms:
+- name: Windows
+genres:
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/blade-runner.jpg
+icon_url: /games/icon/blade-runner.png
+is_public: true
+updated: '2019-12-20T10:21:06.742684Z'
+steamid: null
+gogslug: blade_runner
+humblestoreid: ''

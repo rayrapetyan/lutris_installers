@@ -1,0 +1,24 @@
+id: 9282
+game_id: 6760
+game_slug: higurashi-when-they-cry-ch3-tatarigoroshi
+name: Higurashi When They Cry - Ch.3 Tatarigoroshi
+year: 2016
+user: kimchitea
+runner: steam
+slug: higurashi-when-they-cry-ch3-t-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-19T07:33:29.659593Z'
+updated_at: '2018-07-19T13:24:29.493064Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 472870
+gogid: 1080818996
+gogslug: higurashi_when_they_cry_hou_ch3_tatarigoroshi
+humblestoreid: ''
+script:
+  game:
+    appid: 472870

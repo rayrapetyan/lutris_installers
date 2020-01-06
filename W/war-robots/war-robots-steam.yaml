@@ -1,0 +1,24 @@
+id: 10323
+game_id: 21186
+game_slug: war-robots
+name: War Robots
+year: null
+user: romulasry
+runner: winesteam
+slug: war-robots-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-09-24T06:57:47.721289Z'
+updated_at: '2018-09-25T17:35:41.488141Z'
+draft: true
+published: true
+published_by: null
+rating: ''
+steamid: 767560
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 767560

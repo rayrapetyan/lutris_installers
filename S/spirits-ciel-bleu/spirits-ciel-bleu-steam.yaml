@@ -1,0 +1,24 @@
+id: 9262
+game_id: 16098
+game_slug: spirits-ciel-bleu
+name: 'Spirits: Ciel Bleu'
+year: 2017
+user: kimchitea
+runner: steam
+slug: spirits-ciel-bleu-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-18T05:58:46.926381Z'
+updated_at: '2018-07-18T22:28:27.071074Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 671230
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 671230

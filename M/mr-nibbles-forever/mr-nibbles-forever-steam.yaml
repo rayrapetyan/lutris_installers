@@ -1,0 +1,24 @@
+id: 2297
+game_id: 6146
+game_slug: mr-nibbles-forever
+name: Mr. Nibbles Forever
+year: 2016
+user: strider
+runner: steam
+slug: mr-nibbles-forever-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-07-14T04:30:18.821552Z'
+updated_at: '2016-07-14T04:30:23.852464Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 448050
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 448050

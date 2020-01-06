@@ -1,0 +1,56 @@
+id: 934
+game_id: 140
+game_slug: unreal-tournament-2004
+name: Unreal Tournament 2004
+year: 2004
+user: Xodetaetl
+runner: wine
+slug: unreal-tournament-2004-gog
+version: GOG
+description: null
+notes: "Recent GOG installer required (v2 or above). \r\nIf you have graphical issues,\
+  \ try the Direct3D renderer from the settings in-game or by deleting UT2004.ini\
+  \ in the game's System folder, to reset to the default configuration."
+created_at: '2014-10-20T08:50:56.524000Z'
+updated_at: '2019-03-07T04:15:40.655064Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 13230
+gogid: 1207658691
+gogslug: unreal_tournament_2004_ece
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Unreal Tournament 2004/System/UT2004.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: windowmanagermanaged=n
+      name: winetricks
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      name: wineexec
+  - write_config:
+      section: Engine.Engine
+      key: RenderDevice
+      value: OpenGLDrv.OpenGLRenderDevice
+      file: $GAMEDIR/drive_c/GOG Games/Unreal Tournament 2004/System/UT2004.ini
+  - write_config:
+      section: Editor.EditorEngine
+      key: CacheSizeMegs
+      value: 64
+      file: $GAMEDIR/drive_c/GOG Games/Unreal Tournament 2004/System/UT2004.ini
+  wine:
+    version: tkg-4.2-x86_64
+  files:
+  - game: N/A:Select the game's setup file downloaded from GOG.

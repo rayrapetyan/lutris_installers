@@ -1,0 +1,59 @@
+id: 12656
+game_id: 1110
+game_slug: call-of-cthulhu-dark-corners-of-the-earth
+name: 'Call of Cthulhu: Dark Corners of the Earth'
+year: 2006
+user: cxf
+runner: wine
+slug: call-of-cthulhu-dark-corners-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-04-07T08:06:42.049000Z'
+updated_at: '2019-04-07T08:30:45.078082Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 22340
+gogid: 1557265213
+gogslug: call_of_cthulhu_dark_corners_of_the_earth
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - extract:
+      dst: $CACHE/dxsetup
+      file: dx2010
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR
+      args: /silent
+      arch: win32
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .NET 4.7.2
+      app: dotnet472
+      arch: win32
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES
+      arch: win32
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Call of Cthulhu/Engine/CoCDCoTELauncher.exe
+    arch: win32
+  system:
+    fps_limit: '60'
+  wine:
+    version: tkg-4.0-x86_64
+  files:
+  - dx2010: https://lutris.net/files/tools/directx-2010.tar.gz
+  - setup: N/A:Select gog setup

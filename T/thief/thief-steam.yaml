@@ -1,0 +1,28 @@
+id: 8532
+game_id: 2354
+game_slug: thief
+name: Thief
+year: 2014
+user: TuiorGames
+runner: winesteam
+slug: thief-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-04T13:31:59.871402Z'
+updated_at: '2018-06-05T05:01:22.998497Z'
+draft: true
+published: true
+published_by: null
+rating: ''
+steamid: 239160
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-3.9-x86_64
+    Desktop: true
+  game:
+    appid: 239160
+    arch: win64

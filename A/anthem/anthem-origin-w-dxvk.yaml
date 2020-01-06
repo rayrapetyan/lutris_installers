@@ -1,0 +1,96 @@
+id: 12090
+game_id: 25914
+game_slug: anthem
+name: Anthem
+year: 2019
+user: erickj
+runner: wine
+slug: anthem-origin-w-dxvk
+version: Origin w/ DXVK
+description: Only sets up Origin and DXVK you'll need to download Anthem manually.
+notes: 'Please read before installing: <a href="https://github.com/lutris/lutris/wiki/Game:-Origin">https://github.com/lutris/lutris/wiki/Game:-Origin</a>'
+created_at: '2019-02-19T02:41:46.021000Z'
+updated_at: '2019-03-18T02:10:01.037789Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - execute:
+      command: mkdir "$GAMEDIR/anthem-nv-shaders"
+  - input_menu:
+      options:
+      - ? '#Not needed for AMD. Ignore this.
+
+          #d3d11.zeroInitWorkgroupMemory = False'
+        : AMD
+      - ? 'Fixes fps issues on menus.
+
+          d3d11.zeroInitWorkgroupMemory = True'
+        : Nvidia
+      description: 'Setting DXVK workarounds please choose your GPU:'
+      id: GPU
+      preselect: '#Not needed for AMD. Ignore this.
+
+        #d3d11.zeroInitWorkgroupMemory = False'
+  - write_file:
+      content: $INPUT_GPU
+      file: $GAMEDIR/dxvk.conf
+  - task:
+      prefix: $GAMEDIR
+      app: nocrashdialog vcrun2012 vcrun2013 vcrun2015 win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: client
+      prefix: $GAMEDIR
+      description: Installing Origin... Login window will pop-up and close.
+      arch: win64
+      args: /silent
+      exclude_processes: Origin.exe OriginClientService.exe OriginWebHelperService.exe
+        QtWebEngineProcess.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  - chmodx: updater
+  - merge:
+      src: updater
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Origin
+  - input_menu:
+      options:
+      - fps,frametimes,memory: 'Yes'
+      - '0': 'No'
+      description: Display DXVK fps, frametimes, and allocated memory for Anthem?
+      id: HUD
+      preselect: '0'
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Origin/Origin.exe
+    arch: win64
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR/anthem-nv-shaders
+      DXVK_CONFIG_FILE: $GAMEDIR/dxvk.conf
+      DXVK_HUD: $INPUT_HUD
+    disable_runtime: false
+  wine:
+    version: tkg-protonified-3.21-x86_64
+    overrides:
+      nvapi,nvapi64: disabled
+      xaudio2_7: native,builtin
+    dxvk: true
+  files:
+  - client: https://origin-a.akamaihd.net/Origin-Client-Download/origin/live/OriginThinSetup.exe
+  - updater: https://raw.githubusercontent.com/DrDoctor13/wine-origin-updater/master/updateorigin.sh

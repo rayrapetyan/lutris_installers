@@ -1,0 +1,31 @@
+id: 11455
+game_id: 15223
+game_slug: rage-racer
+name: Rage Racer
+year: 1997
+user: te_lanus
+runner: libretro
+slug: rage-racer-playstation
+version: Playstation
+description: null
+notes: ''
+created_at: '2019-01-05T17:20:40.738330Z'
+updated_at: '2019-01-05T17:20:50.539424Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Playstation game disc
+  game:
+    core: mednafen_psx
+    main_file: file1

@@ -1,0 +1,24 @@
+id: 6709
+game_id: 15137
+game_slug: grave-chase
+name: Grave Chase
+year: 2017
+user: cxf
+runner: steam
+slug: grave-chase-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-17T08:49:17.485450Z'
+updated_at: '2017-12-17T08:49:22.599941Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 611630
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 611630

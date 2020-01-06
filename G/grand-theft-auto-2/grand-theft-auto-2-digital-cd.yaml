@@ -1,0 +1,45 @@
+id: 3561
+game_id: 137
+game_slug: grand-theft-auto-2
+name: Grand Theft Auto 2
+year: 1999
+user: tyo100
+runner: wine
+slug: grand-theft-auto-2-digital-cd
+version: Digital / CD
+description: Install GTA2 with directplay support for Multiplayer, with virtual desktop
+  (1024x768), if you have the original DVD or you have a Digital Copy from rockstar
+  this install is for you
+notes: VirtualDesktop recommended with 1024x768, if you have a 1080p or 4K resolution
+  is really ulgy on fullscreen
+created_at: '2017-04-24T05:40:55.748000Z'
+updated_at: '2018-05-19T03:41:48.719014Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 12180
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Rockstar Games/GTA2/gta2.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Installing directplay for multiplayer support
+      app: directplay
+      silent: true
+      name: winetricks
+  - task:
+      executable: file1
+      prefix: $GAMEDIR
+      name: wineexec
+  wine:
+    WineDesktop: 1024x768
+    Desktop: true
+  files:
+  - file1: N/A:Please select GTA2 Installer

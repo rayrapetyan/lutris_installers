@@ -1,0 +1,33 @@
+id: 12343
+game_id: 3203
+game_slug: dragon-nest-europe
+name: Dragon Nest Europe
+year: null
+user: GUILHERME.TF
+runner: winesteam
+slug: dragon-nest-europe-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-03-11T13:59:24.348000Z'
+updated_at: '2019-03-25T06:42:20.079356Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 258700
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2010 win7
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 258700

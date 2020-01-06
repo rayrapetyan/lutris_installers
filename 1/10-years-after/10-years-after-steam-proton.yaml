@@ -1,0 +1,26 @@
+id: 10563
+game_id: 4362
+game_slug: 10-years-after
+name: 10 Years After
+year: 2015
+user: Jozua
+runner: steam
+slug: 10-years-after-steam-proton
+version: Steam (Proton)
+description: Installs and runs through the native Steam Client
+notes: "Enable Steam Play (if not already done):\r\nSteam > Steam > Settings > Account\
+  \ > Beta Participation > Change > Steam Beta Update > Restart\r\nSteam > Steam >\
+  \ Settings > Steam Play > Check all boxes > Restart\r\nThen run this installer"
+created_at: '2018-10-19T01:24:31.263493Z'
+updated_at: '2018-10-19T07:44:44.839675Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 339240
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 339240

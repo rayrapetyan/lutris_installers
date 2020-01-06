@@ -1,0 +1,24 @@
+id: 3157
+game_id: 9098
+game_slug: shadow-tactics-blades-of-the-shogun
+name: 'Shadow Tactics: Blades of the Shogun'
+year: 2016
+user: RobLoach
+runner: steam
+slug: shadow-tactics-blades-of-the-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-01-02T13:45:43.361304Z'
+updated_at: '2017-01-02T13:45:48.900488Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 418240
+gogid: 1601442230
+gogslug: shadow_tactics_blades_of_the_shogun
+humblestoreid: shadow-tactics-blades-of-the-shogun
+script:
+  game:
+    appid: 418240

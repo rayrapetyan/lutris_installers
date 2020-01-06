@@ -1,0 +1,24 @@
+id: 8768
+game_id: 15722
+game_slug: princess-remedy-in-a-heap-of-trouble
+name: Princess Remedy In A Heap of Trouble
+year: null
+user: Nibiron
+runner: steam
+slug: princess-remedy-in-a-heap-of-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-17T19:38:26.848800Z'
+updated_at: '2018-06-18T05:28:52.687742Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 522040
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 522040

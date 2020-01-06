@@ -1,0 +1,31 @@
+id: 2754
+game_id: 7
+game_slug: strider
+name: Strider
+year: 1989
+user: strider
+runner: libretro
+slug: strider-genesis
+version: Genesis
+description: ''
+notes: ''
+created_at: '2016-09-21T00:25:13.330826Z'
+updated_at: '2016-09-21T03:06:19.407695Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: rom
+      dst: $GAMEDIR
+  files:
+  - rom: N/A
+  game:
+    core: genesis_plus_gx
+    main_file: rom

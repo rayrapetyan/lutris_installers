@@ -1,0 +1,16 @@
+name: Duelyst
+slug: duelyst
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Cards
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/duelyst.jpg
+icon_url: /games/icon/duelyst.png
+is_public: true
+updated: '2019-01-23T08:29:18.598253Z'
+steamid: 291410
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,16 @@
+name: The Movies
+slug: the-movies
+year: 2005
+platforms:
+- name: Windows
+genres:
+- name: Business
+- name: Simulation
+aliases: []
+banner_url: /games/banner/the-movies.jpg
+icon_url: /games/icon/the-movies.png
+is_public: true
+updated: '2019-01-23T08:31:44.776047Z'
+steamid: 7900
+gogslug: ''
+humblestoreid: ''

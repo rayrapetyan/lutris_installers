@@ -1,0 +1,63 @@
+id: 1152
+game_id: 2411
+game_slug: age-of-wonders
+name: Age of Wonders
+year: 1999
+user: Xodetaetl
+runner: winesteam
+slug: age-of-wonders-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-11-27T21:20:37.677000Z'
+updated_at: '2017-05-16T04:37:29.654033Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 61500
+gogid: 1207658883
+gogslug: age_of_wonders
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/windows/system32/
+      file: $indeo_codec
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      type: REG_DWORD
+      value: 1
+      key: C:\\windows\\system32\\iac25_32.ax
+      path: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\SharedDLLs
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      type: REG_DWORD
+      value: 1
+      key: C:\\windows\\system32\\iacenc.dll
+      path: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\SharedDLLs
+  - task:
+      prefix: $GAMEDIR
+      key: msacm.iac2
+      value: C:\\windows\\system32\\iac25_32.ax
+      path: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Drivers32
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      key: vidc.iv31
+      value: ir32_32.dll
+      path: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Drivers32
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      key: iv32
+      value: ir32_32.dll
+      path: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Drivers32
+      name: set_regedit
+  files:
+  - indeo_codec: http://lutris.net/files/games/age-of-wonders/indeo_codec.tar.gz
+  game:
+    prefix: $GAMEDIR
+    appid: 61500

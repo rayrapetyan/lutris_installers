@@ -1,0 +1,15 @@
+name: 'Age of Empires: Definitive Edition'
+slug: age-of-empires-definitive-edition
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/age-of-empires-definitive-edition.jpg
+icon_url: /games/icon/age-of-empires-definitive-edition.png
+is_public: true
+updated: '2019-12-22T18:56:01.419260Z'
+steamid: 1017900
+gogslug: ''
+humblestoreid: ''

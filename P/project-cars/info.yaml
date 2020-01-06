@@ -1,0 +1,17 @@
+name: "Project CARS\u2122"
+slug: project-cars
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Racing
+- name: Simulation
+- name: Sports
+aliases: []
+banner_url: /games/banner/project-cars.jpg
+icon_url: /games/icon/project-cars.png
+is_public: true
+updated: '2019-01-23T08:30:50.144476Z'
+steamid: 234630
+gogslug: ''
+humblestoreid: ''

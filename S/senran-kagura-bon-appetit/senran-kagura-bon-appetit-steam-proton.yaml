@@ -1,0 +1,24 @@
+id: 11824
+game_id: 11885
+game_slug: senran-kagura-bon-appetit
+name: SENRAN KAGURA Bon Appetit!
+year: null
+user: mal_dun
+runner: steam
+slug: senran-kagura-bon-appetit-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-02-03T18:28:57.055000Z'
+updated_at: '2019-05-22T00:02:14.114363Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 514310
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 514310

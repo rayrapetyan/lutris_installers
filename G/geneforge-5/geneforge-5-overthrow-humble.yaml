@@ -1,0 +1,36 @@
+id: 4773
+game_id: 911
+game_slug: geneforge-5
+name: 'Geneforge 5: Overthrow'
+year: null
+user: FakeShemp
+runner: wine
+slug: geneforge-5-overthrow-humble
+version: Humble
+description: From "The Geneforge Saga"
+notes: ''
+created_at: '2017-07-03T15:03:13.295674Z'
+updated_at: '2018-05-19T03:41:54.945199Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 201010
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/Geneforge5Fullv102.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Spiderweb Software/Geneforge 5/Geneforge 5.exe
+    arch: win32

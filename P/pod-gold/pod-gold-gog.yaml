@@ -1,0 +1,75 @@
+id: 1727
+game_id: 5284
+game_slug: pod-gold
+name: POD Gold
+year: 1997
+user: Xodetaetl
+runner: wine
+slug: pod-gold-gog
+version: GOG
+description: ''
+notes: "- Requires GOG installer v2 or above\r\n- High resolutions patched in with\
+  \ nGlide.\r\n- Disabled intro video due to visual glitch with nGlide\r\n- Fixed\
+  \ music playback"
+created_at: '2015-12-13T10:16:40.844858Z'
+updated_at: '2016-03-04T18:31:52.516190Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1207658970
+gogslug: pod_gold
+humblestoreid: ''
+script:
+  exe: drive_c/GOG Games/POD GOLD/PODX3Dfx.exe
+  installer:
+  - task:
+      executable: $setup
+      prefix: $GAMEDIR
+      args: /silent /nogui /suppressmsgboxes
+      name: wineexec
+  - extract:
+      dst: $GAMEDIR/drive_c/GOG Games/POD GOLD
+      file: $podhacks
+  - task:
+      executable: $GAMEDIR/drive_c/GOG Games/POD GOLD/PodHacks.exe
+      prefix: $GAMEDIR
+      args: --install
+      name: wineexec
+  - extract:
+      dst: $GAMEDIR/drive_c/GOG Games/POD GOLD
+      file: $nglide
+  - task:
+      prefix: $GAMEDIR
+      key: Aspect
+      value: 1
+      path: HKEY_CURRENT_USER\Software\Zeus Software\nGlide
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      description: Taking too long on setting registry
+      key: Resolution
+      value: 1
+      path: HKEY_CURRENT_USER\Software\Zeus Software\nGlide
+      name: set_regedit
+  - write_config:
+      section: POD2_0
+      key: PlayIntroAtStart
+      value: 0
+      file: $GAMEDIR/drive_c/GOG Games/POD GOLD/UBISOFT/ubi.ini
+  - extract:
+      dst: $CACHE/lame
+      file: $lame
+  - execute:
+      args: --decode "$GAMEDIR/drive_c/GOG Games/POD GOLD/Track02.mp3" "$GAMEDIR/drive_c/GOG
+        Games/POD GOLD/Track02.wav"
+      description: Converting soundtrack to WAV
+      file: $CACHE/lame/lame
+  files:
+  - setup: N/A:Select the Windows setup file provided by GOG
+  - podhacks: https://lutris.net/files/games/pod/PodHacks.zip
+  - nglide: https://lutris.net/files/runners/nGlide105_with_preconf.zip
+  - lame: https://lutris.net/files/runners/lame_x86.tar.gz
+  game:
+    prefix: $GAMEDIR

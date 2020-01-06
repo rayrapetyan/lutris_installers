@@ -1,0 +1,18 @@
+name: Battle Chef Brigade
+slug: battle-chef-brigade
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: Fighting
+- name: Role-playing
+aliases: []
+banner_url: /games/banner/battle-chef-brigade.jpg
+icon_url: /games/icon/battle-chef-brigade.png
+is_public: true
+updated: '2019-01-23T08:28:32.793669Z'
+steamid: 452570
+gogslug: battle_chef_brigade
+humblestoreid: ''

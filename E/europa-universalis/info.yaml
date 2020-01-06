@@ -1,0 +1,17 @@
+name: Europa Universalis
+slug: europa-universalis
+year: 2001
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Real-time strategy
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/europa-universalis.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:25.737786Z'
+steamid: null
+gogslug: europa_universalis
+humblestoreid: ''

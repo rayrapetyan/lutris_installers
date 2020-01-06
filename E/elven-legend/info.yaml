@@ -1,0 +1,16 @@
+name: Elven Legend
+slug: elven-legend
+year: null
+platforms:
+- name: Linux
+genres:
+- name: Casual
+- name: Strategy
+aliases: []
+banner_url: /games/banner/elven-legend.jpg
+icon_url: /games/icon/elven-legend.png
+is_public: true
+updated: '2019-06-13T06:46:23.815142Z'
+steamid: 593410
+gogslug: ''
+humblestoreid: ''

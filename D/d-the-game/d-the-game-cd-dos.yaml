@@ -1,0 +1,57 @@
+id: 14838
+game_id: 12182
+game_slug: d-the-game
+name: 'D: The Game'
+year: 1995
+user: legluondunet
+runner: dosbox
+slug: d-the-game-cd-dos
+version: CD DOS
+description: "This script will install \"D\" DOS CD edition for DOSBox.\r\nDuring\
+  \ install please let all options by default.\r\nBig thanks to people who gave their\
+  \ time to permit us playing this game in the best conditions."
+notes: "- You will need the 2 CD only during install\r\n- During gaming, type \"CTRL+F4\"\
+  \ to change CD1 to CD2\r\n- Please report issue concerning this script on my Github\
+  \ page:\r\nhttps://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2019-08-02T19:41:03.805000Z'
+updated_at: '2019-11-16T07:15:21.468268Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: 510590
+gogid: 1852354510
+gogslug: d_the_game
+humblestoreid: ''
+script:
+  custom-name: D - The Game - CD DOS - DOSBox
+  installer:
+  - insert-disc:
+      requires: d/laura.exe
+      description: Please insert disc 1
+  - extract:
+      src: cdrtools
+      dst: $GAMEDIR
+  - chmodx: script
+  - execute:
+      args: disk 0
+      file: script
+  - insert-disc:
+      requires: efc/baby.raw
+      description: Please insert disc 2
+  - execute:
+      args: D_
+      file: script
+  - execute:
+      command: cd $GAMEDIR; rm -f -r *.toc; mv disk.cue D_CD1.cue; mv disk.bin D_CD1.bin;
+        mv D_.cue D_CD2.cue; mv D_.bin D_CD2.bin; sed -i 's/disk.bin/D_CD1.bin/g'
+        D_CD1.cue; sed -i 's/D_.bin/D_CD2.bin/g' D_CD2.cue
+  - copy:
+      src: conf
+      dst: $GAMEDIR
+  files:
+  - cdrtools: https://github.com/legluondunet/mlls-tools/raw/master/cdrtools/cdrtools.zip
+  - script: https://github.com/legluondunet/mlls-tools/raw/master/scripts/copycd.sh
+  - conf: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/D%20-%20The%20Game/D_dosbox.conf
+  game:
+    main_file: $GAMEDIR/D_dosbox.conf

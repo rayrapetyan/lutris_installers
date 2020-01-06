@@ -1,0 +1,25 @@
+id: 7050
+game_id: 9853
+game_slug: vrchat
+name: VRChat
+year: null
+user: Leo_Verto
+runner: winesteam
+slug: vrchat-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-01-08T04:16:18.032000Z'
+updated_at: '2018-01-19T14:25:19.199383Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 438100
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 438100
+    arch: win64

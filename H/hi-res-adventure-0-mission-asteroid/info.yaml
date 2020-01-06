@@ -1,0 +1,15 @@
+name: 'Hi-Res Adventure #0: Mission Asteroid'
+slug: hi-res-adventure-0-mission-asteroid
+year: 1980
+platforms:
+- name: Apple //e
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/hi-res-adventure-0-mission-asteroid.jpg
+icon_url: null
+is_public: true
+updated: '2019-09-15T04:46:37.437283Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

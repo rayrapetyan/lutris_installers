@@ -1,0 +1,24 @@
+id: 12500
+game_id: 26315
+game_slug: demon-king-domination-deluxe-edition
+name: 'Demon King Domination: Deluxe Edition'
+year: 2018
+user: kimchitea
+runner: steam
+slug: demon-king-domination-deluxe-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-03-24T16:22:34.867742Z'
+updated_at: '2019-03-25T05:56:11.603340Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 921530
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 921530

@@ -1,0 +1,15 @@
+name: Garfield Kart
+slug: garfield-kart
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/garfield-kart.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:38.195936Z'
+steamid: 362930
+gogslug: ''
+humblestoreid: ''

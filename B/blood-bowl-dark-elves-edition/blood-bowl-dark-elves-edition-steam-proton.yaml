@@ -1,0 +1,24 @@
+id: 13977
+game_id: 2385
+game_slug: blood-bowl-dark-elves-edition
+name: 'Blood Bowl: Dark Elves Edition'
+year: null
+user: Wompus
+runner: steam
+slug: blood-bowl-dark-elves-edition-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-06-07T20:36:52.571000Z'
+updated_at: '2019-06-13T06:43:00.800958Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 11170
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 11170

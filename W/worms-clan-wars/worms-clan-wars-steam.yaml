@@ -1,0 +1,24 @@
+id: 1363
+game_id: 1571
+game_slug: worms-clan-wars
+name: Worms Clan Wars
+year: null
+user: Xodetaetl
+runner: steam
+slug: worms-clan-wars-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-03-03T08:17:48.530000Z'
+updated_at: '2015-03-03T08:17:53.630000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 233840
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 233840

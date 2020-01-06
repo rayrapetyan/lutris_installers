@@ -1,0 +1,41 @@
+id: 5542
+game_id: 3979
+game_slug: tallowmere
+name: Tallowmere
+year: 2015
+user: FakeShemp
+runner: linux
+slug: tallowmere-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-27T10:27:53.302937Z'
+updated_at: '2017-08-27T22:27:01.180970Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 340520
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Tallowmere.x86
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - extract:
+      dst: $CACHE
+      file: $CACHE/Tallowmere-Beta229-Linux32.zip
+  - extract:
+      dst: $CACHE
+      file: $CACHE/Tallowmere-Beta229-Linux64.zip
+  - merge:
+      src: $CACHE/Tallowmere
+      dst: $GAMEDIR
+  - chmodx: $GAMEDIR/Tallowmere.x86
+  - chmodx: $GAMEDIR/Tallowmere.x86_64
+  exe64: Tallowmere.x86_64
+  files:
+  - file1: N/A:Please select the Groupees archive

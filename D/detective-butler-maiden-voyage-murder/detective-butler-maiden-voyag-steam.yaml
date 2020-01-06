@@ -1,0 +1,24 @@
+id: 8805
+game_id: 13363
+game_slug: detective-butler-maiden-voyage-murder
+name: 'Detective Butler: Maiden Voyage Murder'
+year: 2017
+user: kimchitea
+runner: winesteam
+slug: detective-butler-maiden-voyag-steam
+version: Steam
+description: null
+notes: May have display issues in fullscreen. Press F to switch to windowed mode.
+created_at: '2018-06-19T14:33:40.588006Z'
+updated_at: '2018-06-19T16:37:21.601105Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 612620
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 612620

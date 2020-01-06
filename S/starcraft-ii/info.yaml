@@ -1,0 +1,15 @@
+name: StarCraft II
+slug: starcraft-ii
+year: 2010
+platforms:
+- name: Windows
+genres:
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/starcraft-ii.jpg
+icon_url: /games/icon/starcraft-ii.png
+is_public: true
+updated: '2019-01-23T08:31:24.065216Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

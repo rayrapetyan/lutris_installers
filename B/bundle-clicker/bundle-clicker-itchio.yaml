@@ -1,0 +1,31 @@
+id: 4860
+game_id: 12090
+game_slug: bundle-clicker
+name: Bundle Clicker
+year: 2016
+user: FakeShemp
+runner: linux
+slug: bundle-clicker-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-07-06T18:59:17.128363Z'
+updated_at: '2017-07-09T20:14:51.498818Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Bundle Clicker.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Bundle Clicker.x86
+  - chmodx: $GAMEDIR/Bundle Clicker.x86_64
+  exe64: Bundle Clicker.x86_64
+  files:
+  - file1: N/A:Please select the itch.io archive

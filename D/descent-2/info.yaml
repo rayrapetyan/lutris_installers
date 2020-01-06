@@ -1,0 +1,16 @@
+name: Descent 2
+slug: descent-2
+year: 1996
+platforms:
+- name: Linux
+genres:
+- name: FPS
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/descent-2.jpg
+icon_url: /games/icon/descent-2.png
+is_public: true
+updated: '2019-01-23T08:29:10.034087Z'
+steamid: 273580
+gogslug: descent_2
+humblestoreid: ''

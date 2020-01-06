@@ -1,0 +1,22 @@
+name: Cool Spot
+slug: cool-spot
+year: 1993
+platforms:
+- name: Amiga
+- name: Game Boy
+- name: MS-DOS
+- name: Sega Game Gear
+- name: Sega Genesis / Mega Drive
+- name: Sega Master System
+- name: Super Nintendo
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/cool-spot.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:58.108615Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

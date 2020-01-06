@@ -1,0 +1,63 @@
+id: 10106
+game_id: 1458
+game_slug: warcraft-iii-reign-of-chaos
+name: 'Warcraft III: Reign of Chaos'
+year: 2002
+user: klincher
+runner: wine
+slug: warcraft-iii-reign-of-chaos-130
+version: '1.30'
+description: For CD or Digital game version.
+notes: "When Prompted by the installer, please set the install directory to 'Program\
+  \ Files', NOT 'Program Files (x86)'\r\nAlthough the installer fails on asking for\
+  \ the cd-keys on first launch of the game it will ask for the cd-keys without failure.\
+  \ If the cd-key window is blank just moved it out of screen bounds and move it back\
+  \ in. Some rendering issues."
+created_at: '2018-09-08T13:31:18.650000Z'
+updated_at: '2019-05-18T06:52:46.899333Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Arial font and FAudio...
+      arch: win32
+      app: arial faudio
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows XP mode for Wine
+      arch: win32
+      key: Version
+      value: winxp
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: 'Installing Warcraft III: Reign of Chaos'
+      name: wineexec
+  game:
+    exe: drive_c/Program Files/Warcraft III/Warcraft III.exe
+    arch: win32
+  system: {}
+  wine:
+    overrides:
+      nvapi64: disabled
+      nvapi: disabled
+      d3d12: disabled
+    dxvk: false
+  files:
+  - setup: 'N/A:Select the installer for Warcraft III: Reign of Chaos'

@@ -1,0 +1,15 @@
+name: Kitty Play
+slug: kitty-play
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/kitty-play.jpg
+icon_url: /games/icon/kitty-play.png
+is_public: true
+updated: '2019-10-18T08:04:52.370076Z'
+steamid: 823800
+gogslug: ''
+humblestoreid: ''

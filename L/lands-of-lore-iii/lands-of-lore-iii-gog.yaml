@@ -1,0 +1,37 @@
+id: 2705
+game_id: 7625
+game_slug: lands-of-lore-iii
+name: Lands of Lore III
+year: 1999
+user: Lulu
+runner: wine
+slug: lands-of-lore-iii-gog
+version: GOG
+description: ''
+notes: Not working at the moment. It says 'Please insert CD'. More testing is needed.
+created_at: '2016-09-07T20:04:34.090262Z'
+updated_at: '2017-04-02T23:49:48.893139Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1207659094
+gogslug: lands_of_lore_3
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: lol
+      prefix: $GAMEDIR
+      args: /silent /nogui
+      name: wineexec
+  - task:
+      executable: $GAMEDIR/nglide_config.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - lol: N/A:Select the Windows installer downloaded from GOG
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Lands of Lore 3/LOL3.EXE

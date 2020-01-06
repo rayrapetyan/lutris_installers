@@ -1,0 +1,24 @@
+id: 373
+game_id: 363
+game_slug: arcania-gothic-4
+name: "ArcaniA \u2013 Gothic 4"
+year: null
+user: strider
+runner: winesteam
+slug: arcania-gothic-4-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-01-15T00:29:20.618000Z'
+updated_at: '2014-01-15T00:29:24.404000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 39690
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 39690

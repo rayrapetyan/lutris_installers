@@ -1,0 +1,17 @@
+name: Dino Crisis 2
+slug: dino-crisis-2
+year: 2000
+platforms:
+- name: Sony PlayStation
+- name: Sony PSP
+- name: Windows
+genres:
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/dino-crisis-2.jpg
+icon_url: /games/icon/dino-crisis-2.png
+is_public: true
+updated: '2019-01-23T08:29:11.933899Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

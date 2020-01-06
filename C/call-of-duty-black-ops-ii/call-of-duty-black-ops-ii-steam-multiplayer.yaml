@@ -1,0 +1,24 @@
+id: 10408
+game_id: 1174
+game_slug: call-of-duty-black-ops-ii
+name: 'Call of Duty: Black Ops II'
+year: 2012
+user: SteveHeist
+runner: winesteam
+slug: call-of-duty-black-ops-ii-steam-multiplayer
+version: Steam (Multiplayer)
+description: Multiplayer installer.
+notes: Working draft - game currently does not function.
+created_at: '2018-10-03T05:02:21.388994Z'
+updated_at: '2018-10-03T11:49:27.566353Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 202970
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 202990

@@ -1,0 +1,19 @@
+name: Discovery Freelancer
+slug: discovery-freelancer
+year: 2005
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: MMO
+- name: Role-playing
+- name: Sandbox
+- name: Space simulation
+aliases: []
+banner_url: /games/banner/discovery-freelancer.jpg
+icon_url: null
+is_public: true
+updated: '2019-12-15T18:54:28.928550Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

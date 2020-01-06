@@ -1,0 +1,45 @@
+id: 2284
+game_id: 6543
+game_slug: brutal-wolfenstein
+name: Brutal Wolfenstein
+year: 2016
+user: RobLoach
+runner: zdoom
+slug: brutal-wolfenstein-45-steam-data
+version: 4.5 + Steam Data
+description: ''
+notes: ''
+created_at: '2016-07-08T20:21:47.352715Z'
+updated_at: '2016-09-03T01:24:54.704306Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: doomwad
+      dst: $GAMEDIR
+  - extract:
+      dst: $GAMEDIR
+      file: $bwzip
+  - extract:
+      dst: $GAMEDIR
+      file: $musiczip
+  - move:
+      src: $bwpk
+      dst: $GAMEDIR
+  files:
+  - doomwad: $STEAM:2300:base
+  - bwzip: https://lutris.net/files/games/brutal-wolfenstein/BW-V4.5_2.zip
+  - musiczip: https://lutris.net/files/games/brutal-wolfenstein/BW-MusicPack.zip
+  - bwpk: https://lutris.net/files/games/brutal-wolfenstein/BW-HUDPATCH.pk3
+  game:
+    main_file: DOOM2.WAD
+    files:
+    - BW-V4.5.pk3
+    - BW-MusicPack.wad

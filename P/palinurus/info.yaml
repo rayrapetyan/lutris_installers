@@ -1,0 +1,16 @@
+name: Palinurus
+slug: palinurus
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Space simulation
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/palinurus.jpg
+icon_url: /games/icon/palinurus.png
+is_public: true
+updated: '2019-01-23T08:30:41.525614Z'
+steamid: 458760
+gogslug: ''
+humblestoreid: ''

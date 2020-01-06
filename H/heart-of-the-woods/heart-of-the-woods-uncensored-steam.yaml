@@ -1,0 +1,30 @@
+id: 13132
+game_id: 26371
+game_slug: heart-of-the-woods
+name: Heart of the Woods
+year: 2019
+user: kimchitea
+runner: steam
+slug: heart-of-the-woods-uncensored-steam
+version: Uncensored Steam
+description: null
+notes: 'Patch link (under Download Demo): https://vnstudioelan.itch.io/heart-of-the-woods'
+created_at: '2019-04-26T23:35:24.095000Z'
+updated_at: '2019-04-27T09:41:19.531901Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 844660
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: $file1
+      dst: $GAMEDIR/game
+  files:
+  - file1: N/A:Please select the patch file
+  game:
+    appid: 844660

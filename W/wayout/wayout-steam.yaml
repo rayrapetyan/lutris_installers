@@ -1,0 +1,24 @@
+id: 6099
+game_id: 8543
+game_slug: wayout
+name: WayOut
+year: 2016
+user: Jozua
+runner: steam
+slug: wayout-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-10-24T10:03:13.508000Z'
+updated_at: '2017-10-27T06:09:10.002855Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 551110
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 551110

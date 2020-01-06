@@ -1,0 +1,24 @@
+id: 8008
+game_id: 4715
+game_slug: trove
+name: Trove
+year: 2015
+user: NoyTheBiche
+runner: winesteam
+slug: trove-steam
+version: Steam
+description: null
+notes: "Might work .\r\nneeds manual intervention .\r\ncheck :\r\nhttp://forums.trovegame.com/showthread.php?132201-How-can-I-get-trove-running-in-linux-mint-18.3-cinnamon&p=803214&viewfull=1#post803214"
+created_at: '2018-04-28T16:46:31.436000Z'
+updated_at: '2018-07-28T04:22:47.644101Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 304050
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 304050

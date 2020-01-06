@@ -1,0 +1,31 @@
+id: 8588
+game_id: 19152
+game_slug: fifth-axis
+name: Fifth axis
+year: 1987
+user: MrCoolSpan
+runner: libretro
+slug: fifth-axis-vice_x64
+version: vice_x64
+description: null
+notes: ''
+created_at: '2018-06-08T08:36:34.473345Z'
+updated_at: '2018-06-08T15:59:55.445627Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the game disk
+  game:
+    core: vice_x64
+    main_file: file1

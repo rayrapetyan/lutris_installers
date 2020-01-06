@@ -1,0 +1,46 @@
+id: 15729
+game_id: 29476
+game_slug: battle-chess-collection
+name: 'Battle Chess: Collection'
+year: 1994
+user: legluondunet
+runner: dosbox
+slug: battle-chess-collection-cd-collection-dosbox
+version: CD Collection + DOSBox
+description: "This script will install \"Battle Chess - Collection\" CD edition for\
+  \ DOSBox.\r\nDuring install please let all options by default. \r\nBig thanks to\
+  \ people who gave their time to permit us playing this game in the best conditions."
+notes: "- You will need the CD only during install\r\n- Please report issue concerning\
+  \ this script on my Github page:\r\nhttps://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2019-09-20T23:46:17.361000Z'
+updated_at: '2019-11-16T15:30:20.046219Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  custom-name: Battle Chess - Collection - CD - DOSBox
+  installer:
+  - insert-disc:
+      requires: chess.bat
+      description: Please insert disc
+  - extract:
+      src: cdrtools
+      dst: $GAMEDIR
+  - chmodx: script
+  - execute:
+      args: BATTLECHESS
+      file: script
+  - copy:
+      src: conf
+      dst: $GAMEDIR
+  files:
+  - cdrtools: https://github.com/legluondunet/mlls-tools/raw/master/cdrtools/cdrtools.zip
+  - script: https://github.com/legluondunet/mlls-tools/raw/master/scripts/copycd.sh
+  - conf: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Battle%20Chess%20-%20Collection/bcc_dosbox.conf
+  game:
+    main_file: $GAMEDIR/bcc_dosbox.conf

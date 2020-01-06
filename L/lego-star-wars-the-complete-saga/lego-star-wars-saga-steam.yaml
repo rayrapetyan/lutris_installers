@@ -1,0 +1,24 @@
+id: 2005
+game_id: 696
+game_slug: lego-star-wars-the-complete-saga
+name: Lego Star Wars The Complete Saga
+year: 2009
+user: strider
+runner: winesteam
+slug: lego-star-wars-saga-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-03-05T03:38:05.650627Z'
+updated_at: '2016-03-05T03:38:26.095000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 32440
+gogid: 1731318270
+gogslug: lego_star_wars_the_complete_saga
+humblestoreid: ''
+script:
+  game:
+    appid: 32440

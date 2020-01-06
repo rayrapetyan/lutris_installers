@@ -1,0 +1,19 @@
+name: Tempest (1981)
+slug: tempest-1981
+year: 1981
+platforms:
+- name: Amstrad CPC 464
+- name: Arcade
+- name: Atari ST
+- name: Browser
+- name: ZX Spectrum
+genres:
+- name: Shooter
+aliases: []
+banner_url: /games/banner/tempest-1981.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:36.730789Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

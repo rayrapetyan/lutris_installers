@@ -1,0 +1,16 @@
+name: GUNS UP!
+slug: guns-up
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Strategy
+aliases: []
+banner_url: /games/banner/guns-up.jpg
+icon_url: /games/icon/guns-up.png
+is_public: false
+updated: '2019-04-27T02:01:17.642720Z'
+steamid: 446150
+gogslug: ''
+humblestoreid: ''

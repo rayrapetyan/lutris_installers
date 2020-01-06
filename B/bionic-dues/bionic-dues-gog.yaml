@@ -1,0 +1,37 @@
+id: 5823
+game_id: 1220
+game_slug: bionic-dues
+name: Bionic Dues
+year: null
+user: CharlyDelta
+runner: linux
+slug: bionic-dues-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2017-09-20T10:35:40.710413Z'
+updated_at: '2017-09-22T18:52:57.295234Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 238910
+gogid: 1207664573
+gogslug: bionic_dues
+humblestoreid: ''
+script:
+  exe: game/start.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Please select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

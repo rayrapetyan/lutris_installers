@@ -1,0 +1,26 @@
+id: 7344
+game_id: 4909
+game_slug: guilty-gear-xx-accent-core-plus-r
+name: GUILTY GEAR XX ACCENT CORE PLUS R
+year: null
+user: JayCoda
+runner: winesteam
+slug: guilty-gear-xx-accent-core-pl-steam
+version: Steam
+description: make sure to use wine staging 2.21
+notes: ''
+created_at: '2018-02-18T03:14:04.297000Z'
+updated_at: '2018-02-18T03:22:19.637750Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 348550
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-2.21-x86_64
+  game:
+    appid: 348550

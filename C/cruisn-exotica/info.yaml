@@ -1,0 +1,18 @@
+name: Cruis'n Exotica
+slug: cruisn-exotica
+year: 1998
+platforms:
+- name: Arcade
+- name: Game Boy
+- name: Nintendo 64
+genres:
+- name: Arcade
+- name: Racing
+aliases: []
+banner_url: /games/banner/cruisn-exotica.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:01.117145Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

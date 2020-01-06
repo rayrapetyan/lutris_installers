@@ -1,0 +1,15 @@
+name: Thumper
+slug: thumper
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/thumper.jpg
+icon_url: /games/icon/thumper.png
+is_public: true
+updated: '2019-01-23T08:31:49.969805Z'
+steamid: 356400
+gogslug: ''
+humblestoreid: ''

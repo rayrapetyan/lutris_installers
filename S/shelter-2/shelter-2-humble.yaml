@@ -1,0 +1,29 @@
+id: 3721
+game_id: 4018
+game_slug: shelter-2
+name: Shelter 2
+year: null
+user: FakeShemp
+runner: linux
+slug: shelter-2-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-17T20:44:38.721182Z'
+updated_at: '2017-05-18T18:31:55.695414Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 275100
+gogid: 1424868751
+gogslug: shelter_2
+humblestoreid: ''
+script:
+  exe: Shelter2.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Shelter2.x86
+  files:
+  - file1: N/A:Please select the Humble archive

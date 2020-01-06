@@ -1,0 +1,36 @@
+id: 12719
+game_id: 715
+game_slug: train-simulator-2014
+name: Train Simulator
+year: 2009
+user: Natsuyasumi
+runner: steam
+slug: train-simulator-steam-proton
+version: Steam Proton
+description: Train Simulator runs well using Steam Play, tested with Proton 4.2.
+notes: "If, after downloading new DLCs, the level doesn't load, you may need to extract\
+  \ its .ap files.\r\nTo do this, run the created script _extract_aps_.sh, which is\
+  \ inside the steamapps/common/RailWorks folder."
+created_at: '2019-04-10T14:52:48.499000Z'
+updated_at: '2019-05-19T06:26:51.821815Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 24010
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  require-binaries: unzip
+  installer:
+  - write_file:
+      content: "#!/bin/bash\n\nfor ap_arch in $(find -name *.ap) ; do\n  echo \"===\
+        \ EXTRACTING: $ap_arch ===\"\n  unzip -o $ap_arch -d $(dirname $ap_arch)\n\
+        done\n"
+      file: $GAMEDIR/_extract_aps_.sh
+  - chmodx: $GAMEDIR/_extract_aps_.sh
+  - execute:
+      file: $GAMEDIR/_extract_aps_.sh
+  game:
+    appid: 24010

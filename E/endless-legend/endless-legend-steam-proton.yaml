@@ -1,0 +1,24 @@
+id: 10721
+game_id: 2407
+game_slug: endless-legend
+name: Endless Legend
+year: 2014
+user: Zengun
+runner: steam
+slug: endless-legend-steam-proton
+version: Steam Proton
+description: Enable Proton for all steam titles before install.
+notes: ''
+created_at: '2018-11-01T22:43:13.299000Z'
+updated_at: '2019-11-04T04:52:36.792379Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 289130
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 289130

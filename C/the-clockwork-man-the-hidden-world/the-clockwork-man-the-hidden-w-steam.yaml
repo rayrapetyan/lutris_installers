@@ -1,0 +1,24 @@
+id: 791
+game_id: 2742
+game_slug: the-clockwork-man-the-hidden-world
+name: 'The Clockwork Man: The Hidden World'
+year: null
+user: Xodetaetl
+runner: steam
+slug: the-clockwork-man-the-hidden-w-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T16:18:22.934000Z'
+updated_at: '2014-09-15T17:10:39.686000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 111010
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 111010

@@ -1,0 +1,17 @@
+name: Soul Saga
+slug: soul-saga
+year: null
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Fantasy
+- name: Role-playing
+aliases: []
+banner_url: /games/banner/soul-saga.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:19.027397Z'
+steamid: null
+gogslug: soul_saga
+humblestoreid: ''

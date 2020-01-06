@@ -1,0 +1,24 @@
+id: 9432
+game_id: 1513
+game_slug: tomb-raider-the-last-revelation
+name: 'Tomb Raider IV: The Last Revelation'
+year: 1999
+user: duhow
+runner: winesteam
+slug: tomb-raider-the-last-revelati-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-28T08:18:17.011182Z'
+updated_at: '2018-07-29T04:39:55.164853Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 224980
+gogid: 1207663513
+gogslug: tomb_raider_the_last_revelation_chronicles
+humblestoreid: tomb-raider-iv-the-last-revelation
+script:
+  game:
+    appid: 224980

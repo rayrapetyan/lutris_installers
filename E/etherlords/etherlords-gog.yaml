@@ -1,0 +1,33 @@
+id: 5457
+game_id: 2282
+game_slug: etherlords
+name: Etherlords
+year: null
+user: FakeShemp
+runner: wine
+slug: etherlords-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2017-08-21T16:31:23.893000Z'
+updated_at: '2017-08-27T01:11:04.427030Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 270770
+gogid: 1207659112
+gogslug: etherlords
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      args: /sp- /verysilent /norestart /suppressmsgboxes /nogui
+      name: wineexec
+  files:
+  - file1: N/A:Please select the GOG installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Etherlords/Etherlords.exe

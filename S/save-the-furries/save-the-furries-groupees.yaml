@@ -1,0 +1,32 @@
+id: 5309
+game_id: 5414
+game_slug: save-the-furries
+name: Save the Furries
+year: null
+user: FakeShemp
+runner: wine
+slug: save-the-furries-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-08T15:40:47.849000Z'
+updated_at: '2018-05-19T03:41:58.148691Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 325110
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Save the Furries
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Save the Furries/SaveTheFurries.exe
+    arch: win32

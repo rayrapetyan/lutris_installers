@@ -1,0 +1,28 @@
+id: 3961
+game_id: 11485
+game_slug: gunnel-vision
+name: Gunnel Vision
+year: 2016
+user: FakeShemp
+runner: linux
+slug: gunnel-vision-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-29T21:20:02.695834Z'
+updated_at: '2017-05-30T00:30:08.729074Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Gunnel Vision.x86
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

@@ -1,0 +1,17 @@
+name: Sonic the Hedgehog Spinball
+slug: sonic-the-hedgehog-spinball
+year: 1995
+platforms:
+- name: Sega Game Gear
+- name: Sega Genesis / Mega Drive
+- name: Sega Master System
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/sonic-the-hedgehog-spinball.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:18.392743Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

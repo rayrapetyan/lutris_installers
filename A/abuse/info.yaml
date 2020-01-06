@@ -1,0 +1,16 @@
+name: Abuse
+slug: abuse
+year: 1995
+platforms:
+- name: Linux
+- name: MS-DOS
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/abuse.jpg
+icon_url: /games/icon/abuse.png
+is_public: true
+updated: '2019-01-23T08:28:10.598670Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

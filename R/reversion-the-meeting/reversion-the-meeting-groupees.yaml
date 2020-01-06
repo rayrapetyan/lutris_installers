@@ -1,0 +1,28 @@
+id: 5727
+game_id: 2674
+game_slug: reversion-the-meeting
+name: Reversion - The Meeting
+year: null
+user: FakeShemp
+runner: linux
+slug: reversion-the-meeting-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-12T19:26:43.846635Z'
+updated_at: '2017-09-12T19:29:15.803619Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 281060
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: reversion
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive

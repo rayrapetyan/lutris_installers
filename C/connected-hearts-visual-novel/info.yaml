@@ -1,0 +1,15 @@
+name: Connected Hearts - Visual novel
+slug: connected-hearts-visual-novel
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/connected-hearts-visual-novel.jpg
+icon_url: /games/icon/connected-hearts-visual-novel.png
+is_public: true
+updated: '2019-01-23T08:28:57.498718Z'
+steamid: 603140
+gogslug: ''
+humblestoreid: ''

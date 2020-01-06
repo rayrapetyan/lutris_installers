@@ -1,0 +1,31 @@
+id: 4378
+game_id: 2145
+game_slug: volt
+name: Volt
+year: null
+user: FakeShemp
+runner: linux
+slug: volt-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-06-15T20:29:20.310553Z'
+updated_at: '2017-06-16T17:09:48.762217Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 290280
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: volt.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/volt.x86
+  - chmodx: $GAMEDIR/volt.x86_64
+  exe64: volt.x86_64
+  files:
+  - file1: N/A:Please select the IndieGameStand archive

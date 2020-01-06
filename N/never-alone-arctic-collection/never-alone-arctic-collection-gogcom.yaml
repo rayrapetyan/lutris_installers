@@ -1,0 +1,38 @@
+id: 2540
+game_id: 7252
+game_slug: never-alone-arctic-collection
+name: 'Never Alone: Arctic Collection'
+year: 2014
+user: ssf
+runner: linux
+slug: never-alone-arctic-collection-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2016-08-22T15:51:54.230189Z'
+updated_at: '2016-08-22T21:17:49.309525Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 295790
+gogid: 1446112277
+gogslug: never_alone_arctic_collection
+humblestoreid: ''
+script:
+  exe: game/start.sh
+  gogid: never_alone_arctic_collection
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Plese select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

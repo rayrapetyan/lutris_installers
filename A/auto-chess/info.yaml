@@ -1,0 +1,15 @@
+name: Auto Chess
+slug: auto-chess
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Strategy
+aliases: []
+banner_url: /games/banner/auto-chess.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-17T06:40:46.226922Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

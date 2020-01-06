@@ -1,0 +1,35 @@
+id: 2299
+game_id: 3456
+game_slug: descent
+name: Descent
+year: 1994
+user: strider
+runner: linux
+slug: descent-d1x-rebirth
+version: D1X-Rebirth
+description: ''
+notes: ''
+created_at: '2016-07-16T01:15:21.798011Z'
+updated_at: '2016-07-16T01:34:17.220065Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 273570
+gogid: 1207663083
+gogslug: descent
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: engine
+  - extract:
+      dst: $GAMEDIR
+      file: assets
+  files:
+  - engine: https://lutris.net/files/games/dxxrebirth/d1x-rebirth-0.58.1-x86_64.tar.gz
+  - assets: N/A:Please provide an archive containing Descent game files
+  game:
+    args: -hogdir .
+    exe: d1x-rebirth

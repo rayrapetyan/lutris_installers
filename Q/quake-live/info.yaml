@@ -1,0 +1,15 @@
+name: Quake Live
+slug: quake-live
+year: 2010
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/quake-live.jpg
+icon_url: /games/icon/quake-live.png
+is_public: true
+updated: '2019-01-23T08:30:52.821553Z'
+steamid: 282440
+gogslug: ''
+humblestoreid: ''

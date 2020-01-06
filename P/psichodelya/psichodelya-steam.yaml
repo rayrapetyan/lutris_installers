@@ -1,0 +1,24 @@
+id: 1988
+game_id: 3323
+game_slug: psichodelya
+name: Psichodelya
+year: null
+user: WildCoder
+runner: steam
+slug: psichodelya-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-02-24T15:57:04.673502Z'
+updated_at: '2016-02-28T20:12:55.180739Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 301680
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 301680

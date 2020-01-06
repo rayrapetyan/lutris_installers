@@ -1,0 +1,15 @@
+name: Freeways
+slug: freeways
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Simulation
+aliases: []
+banner_url: /games/banner/freeways.jpg
+icon_url: /games/icon/freeways.png
+is_public: true
+updated: '2019-01-23T08:29:35.318996Z'
+steamid: 780210
+gogslug: ''
+humblestoreid: ''

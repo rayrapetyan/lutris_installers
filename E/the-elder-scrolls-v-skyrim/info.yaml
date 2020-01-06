@@ -1,0 +1,17 @@
+name: 'The Elder Scrolls V: Skyrim'
+slug: the-elder-scrolls-v-skyrim
+year: 2011
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/the-elder-scrolls-v-skyrim.jpg
+icon_url: /games/icon/the-elder-scrolls-v-skyrim.png
+is_public: true
+updated: '2019-01-23T08:31:40.818794Z'
+steamid: 72850
+gogslug: ''
+humblestoreid: ''

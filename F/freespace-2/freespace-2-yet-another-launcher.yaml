@@ -1,0 +1,71 @@
+id: 2719
+game_id: 3650
+game_slug: freespace-2
+name: Freespace 2
+year: 1999
+user: ssf
+runner: linux
+slug: freespace-2-yet-another-launcher
+version: Yet Another Launcher
+description: Installs a windows-like Linux launcher
+notes: ''
+created_at: '2016-09-10T11:26:38.428750Z'
+updated_at: '2016-09-22T18:06:09.593405Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 273620
+gogid: 5
+gogslug: freespace_2
+humblestoreid: ''
+script:
+  requires: freespace-2-fs2_open
+  exe: freespace2/fs2_launcher.sh
+  installer:
+  - extract:
+      description: extracting...
+      dst: $GAMEDIR/drive_c/game
+      file: $game
+  - execute:
+      args: -c "chmod +x $GAMEDIR/freespace2/fs2_launcher"
+      file: /bin/sh
+      terminal: false
+  - execute:
+      args: -c "rm -f $GAMEDIR/freespace2/btrl_launcher"
+      file: /bin/sh
+      terminal: false
+  - execute:
+      args: -c "rm -f $GAMEDIR/freespace2/wcsaga_launcher"
+      file: /bin/sh
+      terminal: false
+  - execute:
+      args: -c "rm -f $GAMEDIR/freespace2/tbp_launcher"
+      file: /bin/sh
+      terminal: false
+  - execute:
+      args: -c "cd $CACHE && ar x ia32-libs-gtk_20140131_amd64.deb data.tar.gz"
+      file: /bin/sh
+      terminal: false
+  - extract:
+      dst: $CACHE
+      file: $CACHE/data.tar.gz
+  - move:
+      src: $CACHE/usr/lib32
+      dst: $GAMEDIR/freespace2/lib32
+  - execute:
+      args: -c "printf '#!/bin/sh\ncd $GAMEDIR/freespace2\nLD_LIBRARY_PATH=$$LD_LIBRARY_PATH:lib32
+        ./fs2_launcher \"$$@\"'>$GAMEDIR/freespace2/fs2_launcher.sh"
+      file: /bin/sh
+      terminal: false
+  - execute:
+      args: -c "printf '[launcher]\nactive_mod = ;\nexe_filepath = $GAMEDIR/freespace2/fs2_open.sh;\ngame_flags
+        = ;\n'>$GAMEDIR/freespace2/launcher6.ini"
+      file: /bin/sh
+      terminal: false
+  - chmodx: $GAMEDIR/freespace2/fs2_launcher.sh
+  files:
+  - game: http://vega.livecd.pl/~havner/yal/linux/yal-0.3-rc2-bin.tar.bz2
+  - lib32: http://archive.debian.org/debian/pool/main/i/ia32-libs-gtk/ia32-libs-gtk_20140131_amd64.deb
+  game:
+    working_dir: $GAMEDIR/drive_c/game

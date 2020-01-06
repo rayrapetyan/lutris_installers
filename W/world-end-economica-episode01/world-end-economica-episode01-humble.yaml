@@ -1,0 +1,28 @@
+id: 4458
+game_id: 2860
+game_slug: world-end-economica-episode01
+name: WORLD END ECONOMiCA episode.01
+year: 2014
+user: FakeShemp
+runner: linux
+slug: world-end-economica-episode01-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-18T09:51:55.085197Z'
+updated_at: '2017-06-18T23:25:39.542301Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 269250
+gogid: 1244437707
+gogslug: world_end_economica_episode01
+humblestoreid: ''
+script:
+  exe: wee.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

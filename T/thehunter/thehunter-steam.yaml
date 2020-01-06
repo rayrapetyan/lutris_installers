@@ -1,0 +1,24 @@
+id: 7842
+game_id: 3220
+game_slug: thehunter
+name: theHunter
+year: 2009
+user: carppence
+runner: winesteam
+slug: thehunter-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-04-07T12:07:58.904000Z'
+updated_at: '2018-04-26T00:53:43.958967Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 253710
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 253710

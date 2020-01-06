@@ -1,0 +1,24 @@
+id: 14190
+game_id: 740
+game_slug: deus-ex-human-revolution-directors-cut
+name: 'Deus Ex: Human Revolution - Director''s Cut'
+year: 2013
+user: moars42
+runner: steam
+slug: deus-ex-human-revolution-dire-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-06-18T18:53:27.662000Z'
+updated_at: '2019-10-11T02:50:36.733386Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 238010
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 238010

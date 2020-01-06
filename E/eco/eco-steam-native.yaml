@@ -1,0 +1,24 @@
+id: 16325
+game_id: 16601
+game_slug: eco
+name: Eco
+year: null
+user: dBnx
+runner: steam
+slug: eco-steam-native
+version: Steam Native
+description: null
+notes: ''
+created_at: '2019-10-20T16:03:18.853974Z'
+updated_at: '2019-11-01T02:35:27.431477Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 382310
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 382310

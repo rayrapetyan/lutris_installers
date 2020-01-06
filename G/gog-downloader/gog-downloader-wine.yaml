@@ -1,0 +1,58 @@
+id: 2235
+game_id: 6383
+game_slug: gog-downloader
+name: GOG Downloader
+year: 2014
+user: RobLoach
+runner: wine
+slug: gog-downloader-wine
+version: Wine
+description: ''
+notes: https://appdb.winehq.org/objectManager.php?sClass=application&iId=14013
+created_at: '2016-07-02T17:58:37.636616Z'
+updated_at: '2016-07-03T05:56:36.883605Z'
+draft: false
+published: true
+published_by: null
+rating: '1'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - mkdir: $HOME/.cache/winetricks/dotnet30
+  - move:
+      src: netframework
+      dst: $HOME/.cache/winetricks/dotnet30
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .NET 3.5
+      app: dotnet35
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .NET 3.5 SP1
+      app: dotnet35sp1
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Windows codecs
+      app: windowscodecs
+      name: winetricks
+  - task:
+      executable: downloader
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - netframework: https://lutris.net/files/runners/netframework3.exe
+  - downloader: http://static.gog.com/download/d3/stable/Setup_Downloader_3.6.0_stable.exe
+  game:
+    prefix: $GAMEDIR
+    version: 1.9.13-i368
+    exe: drive_c/Program Files/GOG.com/GOG.com Downloader.exe
+    arch: win32

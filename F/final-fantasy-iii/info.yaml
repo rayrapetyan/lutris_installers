@@ -1,0 +1,17 @@
+name: FINAL FANTASY III
+slug: final-fantasy-iii
+year: 1990
+platforms:
+- name: NES
+- name: Sony PSP
+genres:
+- name: jRPG
+- name: Role-playing
+aliases: []
+banner_url: /games/banner/final-fantasy-iii.jpg
+icon_url: /games/icon/final-fantasy-iii.png
+is_public: true
+updated: '2019-12-28T20:52:18.391054Z'
+steamid: 239120
+gogslug: ''
+humblestoreid: ''

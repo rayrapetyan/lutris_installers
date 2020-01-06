@@ -1,0 +1,34 @@
+id: 9974
+game_id: 13607
+game_slug: halcyon-6-lightspeed-edition
+name: 'Halcyon 6: Lightspeed Edition'
+year: 2017
+user: Uzak
+runner: linux
+slug: halcyon-6-lightspeed-edition-gog-version-64bits
+version: GOG version - 64bits
+description: null
+notes: ''
+created_at: '2018-08-30T21:06:49.286000Z'
+updated_at: '2019-08-14T01:57:37.967614Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 651660
+gogid: 1161151493
+gogslug: halcyon_6_lightspeed_edition
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

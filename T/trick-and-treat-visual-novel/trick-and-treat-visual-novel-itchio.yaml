@@ -1,0 +1,28 @@
+id: 4827
+game_id: 9708
+game_slug: trick-and-treat-visual-novel
+name: Trick and Treat - Visual Novel
+year: 2016
+user: FakeShemp
+runner: linux
+slug: trick-and-treat-visual-novel-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-07-05T19:39:21.420624Z'
+updated_at: '2017-07-09T20:11:22.538772Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 555210
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Trick and Treat.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

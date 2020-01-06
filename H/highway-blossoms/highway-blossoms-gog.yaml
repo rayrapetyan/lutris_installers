@@ -1,0 +1,35 @@
+id: 10452
+game_id: 6757
+game_slug: highway-blossoms
+name: Highway Blossoms
+year: 2016
+user: Kirtai
+runner: linux
+slug: highway-blossoms-gog
+version: GOG
+description: Install the GOG version of Highway Blossoms
+notes: ''
+created_at: '2018-10-07T23:34:50.209693Z'
+updated_at: '2018-10-10T01:13:20.234925Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 451760
+gogid: 1299369265
+gogslug: highway_blossoms
+humblestoreid: highway-blossoms
+script:
+  installer:
+  - chmodx: installer
+  - execute:
+      args: -- --i-agree-to-all-licenses --noreadme --nooptions --noprompt --destination=$GAMEDIR
+      description: Installing game, it may take a while...
+      file: installer
+  files:
+  - installer: 'N/A: Select the game''s setup file'
+  game:
+    exe: start.sh
+    args: '""'
+    appid: 451760
+    working_dir: $GAMEDIR

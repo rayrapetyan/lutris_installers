@@ -1,0 +1,35 @@
+id: 4212
+game_id: 11614
+game_slug: journey-to-the-center-of-the-earth-2003
+name: Journey to the Center of the Earth (2003)
+year: 2003
+user: FakeShemp
+runner: wine
+slug: journey-to-the-center-of-the-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-08T13:14:47.556000Z'
+updated_at: '2018-05-19T03:41:50.676552Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 474240
+gogid: 1207658863
+gogslug: journey_to_the_center_of_the_earth
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Frogwares/Journey to the Center of the Earth/JourneyToTheCenterOfTheEarth.exe
+    arch: win32
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  wine:
+    Desktop: true
+  files:
+  - file1: N/A:Please select the Humble installer

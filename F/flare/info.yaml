@@ -1,0 +1,17 @@
+name: Flare
+slug: flare
+year: 2010
+platforms:
+- name: Linux
+genres:
+- name: Dungeon crawl
+- name: Roguelike
+- name: RPG
+aliases: []
+banner_url: /games/banner/flare.jpg
+icon_url: /games/icon/flare.png
+is_public: true
+updated: '2019-01-23T08:29:31.959388Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

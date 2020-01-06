@@ -1,0 +1,15 @@
+name: Battlefield 1
+slug: battlefield-1
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/battlefield-1.jpg
+icon_url: /games/icon/battlefield-1.png
+is_public: true
+updated: '2019-01-23T08:28:32.861112Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

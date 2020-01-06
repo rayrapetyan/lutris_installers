@@ -1,0 +1,15 @@
+name: Counter-Strike
+slug: counter-strike
+year: 2000
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/counter-strike.jpg
+icon_url: /games/icon/counter-strike.png
+is_public: true
+updated: '2019-01-23T08:28:58.849547Z'
+steamid: 10
+gogslug: ''
+humblestoreid: ''

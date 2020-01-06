@@ -1,0 +1,40 @@
+id: 11072
+game_id: 8950
+game_slug: everspacetm
+name: "EVERSPACE\u2122"
+year: 2016
+user: moars42
+runner: linux
+slug: everspacetm-gog
+version: GOG
+description: null
+notes: "This installer adds the argument --syslibs by default, so if you are experiencing\
+  \ problems try removing this argument.\r\n\r\nYou might also need to comment out\
+  \ the reference to VLC in the systems libraries script in order to start the game.\r\
+  \n\r\nIn the installed directory, find the file: /game/EverspaceWithSystemLibraries.sh\
+  \ \r\n\r\nComment out the third line by adding a # to the beginning of the line.\
+  \  The line should now look like this:\r\n#PROJECT_LIBS_DIR=\"$UE4_PROJECT_ROOT/RSG/Plugins/VlcMedia/ThirdParty/vlc/Linux/x86_64-unknown-linux-gnu/lib\""
+created_at: '2018-12-03T21:43:34.948000Z'
+updated_at: '2019-04-21T07:37:24.576454Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 396750
+gogid: 1513949567
+gogslug: everspace
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    args: --syslibs
+    exe: start.sh

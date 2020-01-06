@@ -1,0 +1,16 @@
+name: Tropico 4
+slug: tropico-4
+year: 2011
+platforms:
+- name: Windows
+genres:
+- name: City building
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/tropico-4.jpg
+icon_url: /games/icon/tropico-4.png
+is_public: true
+updated: '2019-02-06T23:02:29.768517Z'
+steamid: 57690
+gogslug: tropico_4
+humblestoreid: tropico-4

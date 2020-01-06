@@ -1,0 +1,24 @@
+id: 1244
+game_id: 3620
+game_slug: prelogate
+name: Prelogate
+year: null
+user: Xodetaetl
+runner: steam
+slug: prelogate-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-01-05T19:32:57.611000Z'
+updated_at: '2015-01-05T19:40:17.517000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 332830
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 332830

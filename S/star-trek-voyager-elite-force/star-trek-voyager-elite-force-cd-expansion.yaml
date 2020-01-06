@@ -1,0 +1,45 @@
+id: 1715
+game_id: 5179
+game_slug: star-trek-voyager-elite-force
+name: 'Star Trek: Voyager - Elite Force'
+year: 2000
+user: strider
+runner: wine
+slug: star-trek-voyager-elite-force-cd-expansion
+version: CD + expansion
+description: null
+notes: ''
+created_at: '2015-11-27T23:34:14.459000Z'
+updated_at: '2019-06-12T04:14:14.338603Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: drive_c/Program Files/Raven/Star Trek Voyager Elite Force/stvoy.exe
+  installer:
+  - insert-disc:
+      requires: EF.DBD
+  - task:
+      executable: $DISC/SETUP/Setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      executable: patch
+      prefix: $GAMEDIR
+      name: wineexec
+  - insert-disc:
+      requires: ef.dbd
+  - task:
+      executable: $DISC/SETUP/Setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - patch: https://lutris.net/files/games/star-trek-voyager-elite-force/eliteforcepatch1_2.exe
+  game:
+    prefix: $GAMEDIR
+    arch: win32

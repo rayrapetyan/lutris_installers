@@ -1,0 +1,37 @@
+id: 12530
+game_id: 4716
+game_slug: the-elder-scrolls-arena
+name: 'The Elder Scrolls: Arena'
+year: 1994
+user: cxf
+runner: dosbox
+slug: the-elder-scrolls-arena-freeware-107
+version: Freeware 1.07
+description: null
+notes: ''
+created_at: '2019-03-27T05:49:34.700000Z'
+updated_at: '2019-12-15T18:44:31.830541Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: 1435828982
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: setup
+      args: /LANG=en /SP- /SILENT
+      description: I don't know how to stop it from opening the browser. Sorry.
+      name: wine.wineexec
+  - merge:
+      src: dosconfig
+      dst: $GAMEDIR/drive_c/Games/Bethesda Softworks/Arena
+  files:
+  - dosconfig: https://raw.githubusercontent.com/AccountOneOff/lutris_files/master/DosBox.conf
+  - setup: http://theelderscrolls.wiwiland.net/Fichiers/ArenaSetup.exe
+  game:
+    config_file: $GAMEDIR/drive_c/Games/Bethesda Softworks/Arena/DosBox.conf
+    main_file: $GAMEDIR/drive_c/Games/Bethesda Softworks/Arena/ACD.EXE

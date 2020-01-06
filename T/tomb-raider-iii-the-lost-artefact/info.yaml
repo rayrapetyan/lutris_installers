@@ -1,0 +1,15 @@
+name: 'Tomb Raider III: The Lost Artefact'
+slug: tomb-raider-iii-the-lost-artefact
+year: 2000
+platforms:
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/tomb-raider-iii-the-lost-artefact.jpg
+icon_url: /games/icon/tomb-raider-iii-the-lost-artefact.png
+is_public: true
+updated: '2019-09-24T13:01:32.665707Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

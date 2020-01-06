@@ -1,0 +1,106 @@
+id: 12081
+game_id: 14436
+game_slug: entropia-universe
+name: Entropia Universe
+year: 2003
+user: zenobit
+runner: wine
+slug: entropia-universe-15202
+version: 15.20.2
+description: null
+notes: "Will fail to download fully on first launch. Second launch allows you to download\
+  \ other files.\r\n\r\nDoesn't render everything well. At least not on Nvidia.\r\n\
+  \r\nPausing download when in-game crashes the game."
+created_at: '2019-02-18T14:51:53.091000Z'
+updated_at: '2019-02-19T07:44:06.260403Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2012 win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /silent
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      key: (Default)
+      value: (value not set)
+      path: HKEY_LOCAL_MACHINE\Software\MindArk\Entropia Universe
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_DWORD
+      value: '00000001'
+      key: Language
+      path: HKEY_CURRENT_USER\Software\MindArk\Entropia Universe\Language
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_DWORD
+      value: '00000001'
+      key: BGDownloadInitialized
+      path: HKEY_CURRENT_USER\Software\MindArk\Entropia Universe\DynamicContent
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: ''
+      key: BGDownloadList
+      path: HKEY_CURRENT_USER\Software\MindArk\Entropia Universe\DynamicContent
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_DWORD
+      value: '00000001'
+      key: Language
+      path: HKEY_USERS\S-1-5-21-0-0-0-1000\Software\MindArk\Entropia Universe\Language
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_DWORD
+      value: '00000001'
+      key: BGDownloadInitialized
+      path: HKEY_USERS\S-1-5-21-0-0-0-1000\Software\MindArk\Entropia Universe\DynamicContent
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: ''
+      key: BGDownloadList
+      path: HKEY_USERS\S-1-5-21-0-0-0-1000\Software\MindArk\Entropia Universe\DynamicContent
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Entropia Universe/bin32/ClientLoader.exe
+    arch: win64
+  system:
+    env:
+      PBA_ENABLE: 1
+  wine:
+    version: esync-staging-pba-3.16-x86_64
+  files:
+  - setup: http://install2.entropiauniverse.com/entropia_universe_setup.exe

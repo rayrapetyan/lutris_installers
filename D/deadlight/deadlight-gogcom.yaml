@@ -1,0 +1,32 @@
+id: 9260
+game_id: 820
+game_slug: deadlight
+name: Deadlight
+year: 2012
+user: robotkinz
+runner: wine
+slug: deadlight-gogcom
+version: GOG.com
+description: null
+notes: ''
+created_at: '2018-07-18T00:33:56.077332Z'
+updated_at: '2018-07-18T04:17:38.741634Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 211400
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the GOG.com installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Deadlight - Director's Cut/Binaries/Win64/LOTDGame.exe

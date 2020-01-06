@@ -1,0 +1,24 @@
+id: 3323
+game_id: 4973
+game_slug: dark-echo
+name: Dark Echo
+year: null
+user: FakeShemp
+runner: steam
+slug: dark-echo-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-03-12T14:11:14.515382Z'
+updated_at: '2017-03-24T21:51:58.098035Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 368650
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 368650

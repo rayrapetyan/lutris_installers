@@ -1,0 +1,25 @@
+id: 7939
+game_id: 17952
+game_slug: nicky-the-home-alone-golf-ball
+name: Nicky - The Home Alone Golf Ball
+year: 2018
+user: TuiorGames
+runner: winesteam
+slug: nicky-the-home-alone-golf-bal-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-04-20T01:37:33.399170Z'
+updated_at: '2018-05-06T07:15:41.870401Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 829370
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 829370
+    arch: win64

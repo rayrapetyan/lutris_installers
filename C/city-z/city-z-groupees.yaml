@@ -1,0 +1,32 @@
+id: 5384
+game_id: 7969
+game_slug: city-z
+name: City Z
+year: null
+user: FakeShemp
+runner: wine
+slug: city-z-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-13T18:50:36.901761Z'
+updated_at: '2018-05-19T03:41:57.651573Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 392120
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/City Z
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/City Z/CityZ.exe
+    arch: win32

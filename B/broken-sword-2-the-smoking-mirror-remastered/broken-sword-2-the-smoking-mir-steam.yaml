@@ -1,0 +1,24 @@
+id: 379
+game_id: 158
+game_slug: broken-sword-2-the-smoking-mirror-remastered
+name: "Broken Sword 2: The Smoking Mirror \u2013 Remastered"
+year: 2010
+user: strider
+runner: steam
+slug: broken-sword-2-the-smoking-mir-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-01-15T00:31:25.471000Z'
+updated_at: '2014-11-12T13:11:33.684000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 33600
+gogid: 1207658707
+gogslug: broken_sword_2__the_smoking_mirror
+humblestoreid: broken-sword-2-the-smoking-mirror
+script:
+  game:
+    appid: 33600

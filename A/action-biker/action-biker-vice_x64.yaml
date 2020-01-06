@@ -1,0 +1,31 @@
+id: 8583
+game_id: 19155
+game_slug: action-biker
+name: Action Biker
+year: 1985
+user: MrCoolSpan
+runner: libretro
+slug: action-biker-vice_x64
+version: vice_x64
+description: null
+notes: ''
+created_at: '2018-06-08T08:29:34.828000Z'
+updated_at: '2018-06-08T15:59:25.895303Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the game disk
+  game:
+    core: vice_x64
+    main_file: file1

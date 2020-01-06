@@ -1,0 +1,24 @@
+id: 673
+game_id: 2943
+game_slug: tales-of-majeyal
+name: Tales of Maj'Eyal
+year: 2012
+user: Xodetaetl
+runner: steam
+slug: tales-of-majeyal-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T12:00:46.085000Z'
+updated_at: '2014-09-24T10:39:22.676000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 259680
+gogid: 1207666523
+gogslug: tales_of_majeyal
+humblestoreid: ''
+script:
+  game:
+    appid: 259680

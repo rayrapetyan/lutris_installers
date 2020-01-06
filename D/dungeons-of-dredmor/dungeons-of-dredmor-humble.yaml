@@ -1,0 +1,28 @@
+id: 3950
+game_id: 321
+game_slug: dungeons-of-dredmor
+name: Dungeons of Dredmor
+year: 2011
+user: FakeShemp
+runner: linux
+slug: dungeons-of-dredmor-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-29T16:36:50.030263Z'
+updated_at: '2017-05-30T00:27:45.411477Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 98800
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Dredmor
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

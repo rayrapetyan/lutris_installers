@@ -1,0 +1,16 @@
+name: Heretic
+slug: heretic
+year: 1994
+platforms:
+- name: Linux
+- name: MS-DOS
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/heretic.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:49.108808Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

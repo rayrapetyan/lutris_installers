@@ -1,0 +1,15 @@
+name: Tumblestone
+slug: tumblestone
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/tumblestone.jpg
+icon_url: /games/icon/tumblestone.png
+is_public: false
+updated: '2019-06-17T00:24:47.354223Z'
+steamid: 269710
+gogslug: ''
+humblestoreid: ''

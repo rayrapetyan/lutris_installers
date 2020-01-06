@@ -1,0 +1,39 @@
+id: 13091
+game_id: 16734
+game_slug: sudden-strike-gold
+name: Sudden Strike Gold
+year: null
+user: Turbid
+runner: wine
+slug: sudden-strike-gold-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-04-25T15:24:53.085000Z'
+updated_at: '2019-04-27T05:53:41.675488Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 612300
+gogid: 1248581604
+gogslug: sudden_strike_gold
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /LANG=en /SP- /NOCANCEL /SUPPRESSMSGBOXES
+      description: Installing Sudden Strike
+      name: wineexec
+  files:
+  - setup: N/A:Select the GOG setup exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Sudden Strike/GAME_EXE.EXE
+    arch: win32

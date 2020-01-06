@@ -1,0 +1,29 @@
+id: 4842
+game_id: 6945
+game_slug: divine-slice-of-life
+name: Divine Slice of Life
+year: 2015
+user: FakeShemp
+runner: linux
+slug: divine-slice-of-life-universal
+version: Universal
+description: 'Uncensor patch from: http://dharkerstudio.com/uncensored.html'
+notes: ''
+created_at: '2017-07-06T08:05:34.319873Z'
+updated_at: '2017-07-09T20:14:10.422430Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 348540
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: divine-slice-of-life
+  installer:
+  - extract:
+      dst: $GAMEDIR/game
+      file: $file1
+  files:
+  - file1: N/A:Please select the patch archive

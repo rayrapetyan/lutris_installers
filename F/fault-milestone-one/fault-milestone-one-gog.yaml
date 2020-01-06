@@ -1,0 +1,34 @@
+id: 12748
+game_id: 3934
+game_slug: fault-milestone-one
+name: fault milestone one
+year: 2013
+user: LinuxLounge
+runner: linux
+slug: fault-milestone-one-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-04-12T10:27:10.948782Z'
+updated_at: '2019-04-26T07:12:32.491411Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 286260
+gogid: 1246233780
+gogslug: fault_milestone_one
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

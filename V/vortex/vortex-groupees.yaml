@@ -1,0 +1,35 @@
+id: 5196
+game_id: 7924
+game_slug: vortex
+name: Vortex
+year: null
+user: FakeShemp
+runner: wine
+slug: vortex-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-25T11:18:59.191000Z'
+updated_at: '2018-05-19T03:41:57.420828Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 383530
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      args: /sp- /silent /norestart
+      arch: win64
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Vortex/v1.01/Vortex/Binaries/Win64/Vortex.exe
+    arch: win64

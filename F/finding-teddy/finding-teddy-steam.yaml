@@ -1,0 +1,24 @@
+id: 542
+game_id: 1659
+game_slug: finding-teddy
+name: Finding Teddy
+year: 2013
+user: dennisjj4
+runner: steam
+slug: finding-teddy-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-08-11T16:13:40.518000Z'
+updated_at: '2014-08-19T14:45:12.056000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 259600
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 259600

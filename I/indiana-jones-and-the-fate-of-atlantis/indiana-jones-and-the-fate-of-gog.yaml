@@ -1,0 +1,37 @@
+id: 4420
+game_id: 153
+game_slug: indiana-jones-and-the-fate-of-atlantis
+name: Indiana Jones and the Fate of Atlantis
+year: 1992
+user: jungerreicherGee
+runner: scummvm
+slug: indiana-jones-and-the-fate-of-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2017-06-17T15:50:36.584000Z'
+updated_at: '2019-09-09T01:12:09.088102Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 6010
+gogid: 1207666293
+gogslug: indiana_jones_and_the_fate_of_atlantis
+humblestoreid: ''
+script:
+  scummvm:
+    aspect: true
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/data
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    game_id: atlantis
+    path: $GAMEDIR

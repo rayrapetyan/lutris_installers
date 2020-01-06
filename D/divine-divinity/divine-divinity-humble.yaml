@@ -1,0 +1,35 @@
+id: 4640
+game_id: 2408
+game_slug: divine-divinity
+name: Divine Divinity
+year: 2002
+user: FakeShemp
+runner: wine
+slug: divine-divinity-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-26T18:06:31.732000Z'
+updated_at: '2017-06-27T04:14:40.620766Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 214170
+gogid: 1207658805
+gogslug: divine_divinity
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/DivInstaller_EN.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Games/Divine Divinity/configtool.exe

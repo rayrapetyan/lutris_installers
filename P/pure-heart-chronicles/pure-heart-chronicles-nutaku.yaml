@@ -1,0 +1,31 @@
+id: 9294
+game_id: 20103
+game_slug: pure-heart-chronicles
+name: Pure Heart Chronicles
+year: 2018
+user: kimchitea
+runner: linux
+slug: pure-heart-chronicles-nutaku
+version: Nutaku
+description: null
+notes: ''
+created_at: '2018-07-20T09:18:51.828000Z'
+updated_at: '2018-07-20T13:57:25.567628Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: PureHeartChroniclesVol1.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/PureHeartChroniclesVol1.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/PureHeartChroniclesVol1
+  - chmodx: $GAMEDIR/lib/linux-x86_64/PureHeartChroniclesVol1
+  files:
+  - file1: N/A:Please select the Nutaku archive

@@ -1,0 +1,16 @@
+name: Yo Frankie!
+slug: yo-frankie
+year: 2008
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Platform
+aliases: []
+banner_url: /games/banner/yo-frankie.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:13.093872Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

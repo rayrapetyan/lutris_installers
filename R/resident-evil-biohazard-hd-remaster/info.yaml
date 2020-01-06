@@ -1,0 +1,19 @@
+name: Resident Evil / biohazard HD REMASTER
+slug: resident-evil-biohazard-hd-remaster
+year: 2002
+platforms:
+- name: GameCube
+- name: Nintendo Wii
+- name: Sony Playstation 3
+- name: Windows
+genres:
+- name: Horror
+- name: Survival
+aliases: []
+banner_url: /games/banner/resident-evil-biohazard-hd-remaster.jpg
+icon_url: /games/icon/resident-evil-biohazard-hd-remaster.png
+is_public: true
+updated: '2019-07-01T07:25:09.174360Z'
+steamid: 304240
+gogslug: ''
+humblestoreid: ''

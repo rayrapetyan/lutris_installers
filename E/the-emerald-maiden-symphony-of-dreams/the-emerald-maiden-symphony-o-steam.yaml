@@ -1,0 +1,24 @@
+id: 14143
+game_id: 6891
+game_slug: the-emerald-maiden-symphony-of-dreams
+name: 'The Emerald Maiden: Symphony of Dreams'
+year: 2016
+user: kimchitea
+runner: steam
+slug: the-emerald-maiden-symphony-o-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-06-17T04:17:32.754373Z'
+updated_at: '2019-10-11T00:01:04.238660Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 429610
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 429610

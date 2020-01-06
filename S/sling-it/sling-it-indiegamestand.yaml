@@ -1,0 +1,32 @@
+id: 6004
+game_id: 11709
+game_slug: sling-it
+name: Sling It!
+year: null
+user: FakeShemp
+runner: wine
+slug: sling-it-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-10-19T18:12:52.573510Z'
+updated_at: '2018-05-19T03:41:59.288250Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR/drive_c/Program Files/Sling It!
+  files:
+  - file1: N/A:Please select the IndieGameStand executable
+  game:
+    prefix: $GAMEDIR
+    exe: $file1
+    arch: win32

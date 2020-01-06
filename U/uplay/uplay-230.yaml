@@ -1,0 +1,50 @@
+id: 2870
+game_id: 7870
+game_slug: uplay
+name: Uplay
+year: 2012
+user: strider
+runner: wine
+slug: uplay-230
+version: '23.0'
+description: The Windows XP version.
+notes: '* Doesn''t work if Windows version is set to 7 or higher'
+created_at: '2016-10-09T22:38:41.329000Z'
+updated_at: '2019-10-28T20:35:32.392034Z'
+draft: false
+published: true
+published_by: 51687
+rating: '2'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: corefonts
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: tahoma
+      name: winetricks
+  - task:
+      executable: uplay
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Setting version to Windows XP
+      app: winxp
+      name: winetricks
+  files:
+  - uplay: https://ubistatic3-a.akamaihd.net/orbit/releases/winxp/installer/UplayInstaller.exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/Uplay.exe
+    arch: win64

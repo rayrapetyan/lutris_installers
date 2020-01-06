@@ -1,0 +1,31 @@
+id: 11421
+game_id: 24835
+game_slug: cross-love-episode-1
+name: Cross Love - Episode 1
+year: 2018
+user: kimchitea
+runner: linux
+slug: cross-love-episode-1-nutaku
+version: Nutaku
+description: null
+notes: Should work with the game purchased from other retailers, but not tested.
+created_at: '2019-01-03T04:31:46.169000Z'
+updated_at: '2019-01-22T07:47:31.825406Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: CrossLoveEp1.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/CrossLoveEp1.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/CrossLoveEp1
+  - chmodx: $GAMEDIR/lib/linux-x86_64/CrossLoveEp1
+  files:
+  - file1: N/A:Please select the game archive

@@ -1,0 +1,29 @@
+id: 8919
+game_id: 1363
+game_slug: dreamfall-the-longest-journey
+name: 'Dreamfall: The Longest Journey'
+year: null
+user: msvo
+runner: winesteam
+slug: dreamfall-the-longest-journey-steam
+version: Steam
+description: Virtual Desktop is activated with 1024x768 (Default game resolution).
+  You can choose your preferred resolution in game, and it will override Virtual Desktop
+  size.
+notes: Currently won`t run without Virtual Desktop.
+created_at: '2018-06-26T04:23:37.123000Z'
+updated_at: '2018-06-26T12:26:58.898014Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 6300
+gogid: 1207659045
+gogslug: dreamfall_the_longest_journey
+humblestoreid: ''
+script:
+  wine:
+    WineDesktop: 1024x768
+    Desktop: true
+  game:
+    appid: 6300

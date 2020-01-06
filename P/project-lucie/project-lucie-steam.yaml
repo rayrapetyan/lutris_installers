@@ -1,0 +1,24 @@
+id: 9673
+game_id: 15198
+game_slug: project-lucie
+name: Project Lucie
+year: null
+user: soredake
+runner: winesteam
+slug: project-lucie-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-10T13:59:33.301710Z'
+updated_at: '2018-08-11T06:40:49.106285Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 684460
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 684460

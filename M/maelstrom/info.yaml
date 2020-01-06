@@ -1,0 +1,15 @@
+name: 'Maelstrom: The Battle for Earth Begins'
+slug: maelstrom
+year: 2007
+platforms:
+- name: Windows
+genres:
+- name: Strategy
+aliases: []
+banner_url: /games/banner/maelstrom.jpg
+icon_url: /games/icon/maelstrom.png
+is_public: true
+updated: '2019-01-23T08:30:15.320782Z'
+steamid: 11560
+gogslug: ''
+humblestoreid: ''

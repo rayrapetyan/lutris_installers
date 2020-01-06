@@ -1,0 +1,15 @@
+name: Prey
+slug: prey
+year: 2006
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/prey.jpg
+icon_url: /games/icon/prey.png
+is_public: true
+updated: '2019-01-23T08:30:49.074602Z'
+steamid: 3970
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,17 @@
+name: Don't Starve
+slug: dont-starve
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: Survival
+aliases: []
+banner_url: /games/banner/dont-starve.jpg
+icon_url: /games/icon/dont-starve.png
+is_public: true
+updated: '2019-01-23T08:29:15.087043Z'
+steamid: 219740
+gogslug: dont_starve
+humblestoreid: dont-starve

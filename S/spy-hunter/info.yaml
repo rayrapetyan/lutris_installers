@@ -1,0 +1,20 @@
+name: Spy Hunter
+slug: spy-hunter
+year: 1983
+platforms:
+- name: Apple IIGS
+- name: Arcade
+- name: Atari 2600
+- name: Commodore 64
+- name: NES
+genres:
+- name: Arcade
+- name: Car combat
+aliases: []
+banner_url: /games/banner/spy-hunter.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:23.262794Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

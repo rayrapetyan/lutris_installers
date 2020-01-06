@@ -1,0 +1,24 @@
+id: 5860
+game_id: 8198
+game_slug: worms-wmd
+name: Worms W.M.D
+year: 2016
+user: Leeo97one
+runner: steam
+slug: worms-wmd-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-09-27T19:33:10.979458Z'
+updated_at: '2017-10-27T06:42:46.352860Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 327030
+gogid: 1387286368
+gogslug: worms_wmd
+humblestoreid: ''
+script:
+  game:
+    appid: 327030

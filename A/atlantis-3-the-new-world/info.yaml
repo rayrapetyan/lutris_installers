@@ -1,0 +1,17 @@
+name: 'Atlantis 3: The New World'
+slug: atlantis-3-the-new-world
+year: 2001
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: FPP
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/atlantis-3-the-new-world.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:28.264608Z'
+steamid: null
+gogslug: atlantis_3_the_new_world
+humblestoreid: ''

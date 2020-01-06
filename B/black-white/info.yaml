@@ -1,0 +1,17 @@
+name: Black & White
+slug: black-white
+year: 2001
+platforms:
+- name: Windows
+genres:
+- name: Comedy
+- name: Fantasy
+- name: Simulation
+aliases: []
+banner_url: /games/banner/black-white.jpg
+icon_url: null
+is_public: true
+updated: '2019-02-06T20:21:18.179041Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

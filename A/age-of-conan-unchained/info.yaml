@@ -1,0 +1,15 @@
+name: 'Age of Conan: Unchained'
+slug: age-of-conan-unchained
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: MMORPG
+aliases: []
+banner_url: /games/banner/age-of-conan-unchained.jpg
+icon_url: /games/icon/age-of-conan-unchained.png
+is_public: true
+updated: '2019-01-23T08:28:14.112608Z'
+steamid: 217750
+gogslug: ''
+humblestoreid: ''

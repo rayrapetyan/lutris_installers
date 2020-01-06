@@ -1,0 +1,16 @@
+name: Escape from Monkey Island
+slug: escape-from-monkey-island
+year: 2000
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/escape-from-monkey-island.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:24.546465Z'
+steamid: null
+gogslug: escape_from_monkey_island
+humblestoreid: ''

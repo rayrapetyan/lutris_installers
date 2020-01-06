@@ -1,0 +1,17 @@
+name: Ascendant
+slug: ascendant
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/ascendant.jpg
+icon_url: /games/icon/ascendant.png
+is_public: true
+updated: '2019-10-13T23:49:29.076569Z'
+steamid: 296930
+gogslug: ascendant
+humblestoreid: ''

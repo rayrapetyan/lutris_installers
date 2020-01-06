@@ -1,0 +1,24 @@
+id: 5422
+game_id: 9429
+game_slug: sherlock-holmes-the-devils-daughter
+name: 'Sherlock Holmes: The Devil''s Daughter'
+year: null
+user: NuSuey
+runner: winesteam
+slug: sherlock-holmes-the-devils-da-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-08-18T21:56:05.902990Z'
+updated_at: '2017-08-27T21:49:08.336957Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 350640
+gogid: 1839766730
+gogslug: sherlock_holmes_the_devils_daughter
+humblestoreid: ''
+script:
+  game:
+    appid: 350640

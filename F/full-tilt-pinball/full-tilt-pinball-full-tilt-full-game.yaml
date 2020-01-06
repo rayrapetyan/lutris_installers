@@ -1,0 +1,90 @@
+id: 13602
+game_id: 5473
+game_slug: full-tilt-pinball
+name: Full Tilt! Pinball
+year: 1995
+user: antech
+runner: wine
+slug: full-tilt-pinball-full-tilt-full-game
+version: Full Tilt! (Full Game)
+description: This downloads the setup files to Full Tilt! from the freeware game Marble
+  Drop, also made by Maxis, which contains both games.
+notes: You can remove the C:\marble-drop-iso\ directory entirely after installation
+  if you want to save disk space.
+created_at: '2019-05-18T11:02:52.076000Z'
+updated_at: '2019-09-09T01:49:44.391734Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/marble-drop-iso
+      file: marble_drop_iso
+  - write_file:
+      content: '[InstallShield Silent]
+
+        Version=v3.00.000
+
+        File=Response File
+
+        [Application]
+
+        Name=FullTilt!
+
+        Version=1.1
+
+        Company=Maxis
+
+        [DlgOrder]
+
+        Dlg0=Welcome-0
+
+        Count=4
+
+        Dlg1=AskOptions-0
+
+        Dlg2=AskDestPath-0
+
+        Dlg3=MessageBox-0
+
+        [Welcome-0]
+
+        Result=1
+
+        [AskOptions-0]
+
+        Result=1
+
+        Sel-0=0
+
+        Sel-1=1
+
+        [AskDestPath-0]
+
+        szPath=C:\Maxis\FullTilt
+
+        Result=1
+
+        [MessageBox-0]
+
+        Result=1
+
+        '
+      file: $GAMEDIR/drive_c/marble-drop-iso/FullTilt/setup.iss
+  - task:
+      executable: C:\marble-drop-iso\FullTilt\setup.exe
+      prefix: $GAMEDIR
+      args: -s -f1 setup.iss
+      working_dir: $GAMEDIR/drive_c/marble-drop-iso/FullTilt/
+      name: wineexec
+  files:
+  - marble_drop_iso: https://archive.org/download/marble-drop/Marble%20Drop%20%281997%29%28Maxis%29.iso
+  game:
+    prefix: $GAMEDIR/
+    exe: $GAMEDIR/drive_c/ProgramData/Microsoft/Windows/Start Menu/Programs/Maxis/FullTilt!.lnk

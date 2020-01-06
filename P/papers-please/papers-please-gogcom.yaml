@@ -1,0 +1,34 @@
+id: 2546
+game_id: 2051
+game_slug: papers-please
+name: Papers, Please
+year: 2013
+user: ssf
+runner: linux
+slug: papers-please-gogcom
+version: GOG.com
+description: null
+notes: ''
+created_at: '2016-08-22T16:01:22.441000Z'
+updated_at: '2019-09-08T23:02:59.474738Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 239030
+gogid: 1207659209
+gogslug: papers_please
+humblestoreid: papers-please
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

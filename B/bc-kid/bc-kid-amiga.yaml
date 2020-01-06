@@ -1,0 +1,28 @@
+id: 31
+game_id: 44
+game_slug: bc-kid
+name: BC Kid
+year: 1992
+user: strider
+runner: fsuae
+slug: bc-kid-amiga
+version: amiga
+description: Free version provided by Factor 5
+notes: ''
+created_at: '2013-06-29T21:37:54Z'
+updated_at: '2014-03-15T22:35:25.786000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: BCKid.adf
+  installer:
+  - extract:
+      file: bckid-archive
+  files:
+  - bckid-archive: http://www.factor5.de/downloads/bckid.zip

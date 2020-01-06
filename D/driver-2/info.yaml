@@ -1,0 +1,17 @@
+name: Driver 2
+slug: driver-2
+year: 2000
+platforms:
+- name: Sony PlayStation
+genres:
+- name: Action
+- name: Racing
+- name: Sandbox
+aliases: []
+banner_url: /games/banner/driver-2.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:17.854414Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

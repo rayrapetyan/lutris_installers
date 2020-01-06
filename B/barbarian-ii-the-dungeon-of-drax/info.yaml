@@ -1,0 +1,21 @@
+name: 'Barbarian II: The Dungeon of Drax'
+slug: barbarian-ii-the-dungeon-of-drax
+year: 1988
+platforms:
+- name: Amiga
+- name: Amstrad CPC 464
+- name: Atari ST
+- name: Commodore 64
+- name: MS-DOS
+- name: MSX
+- name: ZX Spectrum
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/barbarian-ii-the-dungeon-of-drax.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:31.557652Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

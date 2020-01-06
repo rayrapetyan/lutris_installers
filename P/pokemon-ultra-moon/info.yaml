@@ -1,0 +1,16 @@
+name: 'Pokemon: Ultra Moon'
+slug: pokemon-ultra-moon
+year: 2017
+platforms:
+- name: Nintendo 3DS
+genres:
+- name: RPG
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/pokemon-ultra-moon.jpg
+icon_url: null
+is_public: true
+updated: '2019-07-31T05:35:12.246146Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

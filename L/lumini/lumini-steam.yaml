@@ -1,0 +1,24 @@
+id: 2232
+game_id: 6359
+game_slug: lumini
+name: Lumini
+year: 2015
+user: RobLoach
+runner: steam
+slug: lumini-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-07-01T02:52:57.158174Z'
+updated_at: '2016-07-01T02:54:41.247065Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 360840
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 360840

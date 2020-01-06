@@ -1,0 +1,586 @@
+id: 10178
+game_id: 21730
+game_slug: perfect-world-level-up
+name: Perfect World - Level Up!
+year: 2005
+user: vinikira
+runner: wine
+slug: perfect-world-level-up-dx9toopengl
+version: DX9ToOpenGL
+description: "Perfect World Level Up Games!\r\nBefore run the script, get the file\
+  \ installer in this page (web or torrent version): http://perfectworld.uol.com.br/download\
+  \ and then select when installer ask for him.\r\nAfter installation finish, make\
+  \ sure that the checkbox \"Launch game now\" is unchecked, an only run the game\
+  \ when lutris scripts finish."
+notes: ''
+created_at: '2018-09-13T20:19:04.800000Z'
+updated_at: '2019-10-28T21:02:25.148159Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: pw_installer
+      prefix: $GAMEDIR
+      description: Running Perfect World Installer.
+      arch: win32
+      args: --mode unattended
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Internet Explorer 8
+      arch: win32
+      app: ie8
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing DirectX 9
+      arch: win32
+      app: d3dx9
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing tahoma font
+      arch: win32
+      app: tahoma
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing corefonts
+      arch: win32
+      app: corefonts
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing vb6run
+      arch: win32
+      app: vb6run
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing VCRUN2005
+      arch: win32
+      app: vcrun2005
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing VCRUN2008
+      arch: win32
+      app: vcrun2008
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing xact
+      app: xact
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing dinput
+      app: dinput
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing vcrun6
+      app: vcrun6
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: OpenGL Renderer
+      arch: win32
+      key: DirectDrawRenderer
+      value: opengl
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*atl80'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*atl90'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*d3dx9_24'
+      value: native
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*d3dx9_25'
+      value: native
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*d3dx9_26'
+      value: native
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*d3dx9_27'
+      value: native
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*d3dx9_28'
+      value: native
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*d3dx9_29'
+      value: native
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*d3dx9_30'
+      value: native
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*d3dx9_31'
+      value: native
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*d3dx9_32'
+      value: native
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*d3dx9_33'
+      value: native
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*d3dx9_34'
+      value: native
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*d3dx9_35'
+      value: native
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*d3dx9_36'
+      value: native
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*d3dx9_37'
+      value: native
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*d3dx9_38'
+      value: native
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*d3dx9_39'
+      value: native
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*d3dx9_40'
+      value: native
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*d3dx9_41'
+      value: native
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*d3dx9_42'
+      value: native
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*d3dx9_43'
+      value: native
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*dinput'
+      value: native
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*d3dx9_43'
+      value: native
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*iexplorer.exe'
+      value: native
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*itircl'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*itss'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*jscript'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*msctf'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*mshtml'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*msvcm80'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*msvcm90'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*msvcp80'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*msvcp90'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*msvcr80'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*msvcr90'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*shdoclc'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*shdocvw'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*shlwapi'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*updspapi'
+      value: builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*urlmon'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*vcomp'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*vcomp90'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*wininet'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*x3daudio1_0'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*x3daudio1_1'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*x3daudio1_2'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*x3daudio1_3'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*x3daudio1_4'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*x3daudio1_5'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*x3daudio1_6'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*x3daudio1_7'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*xapofx1_1'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*xapofx1_2'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*xapofx1_3'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*xapofx1_4'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*xapofx1_5'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*xaudio2_0'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*xaudio2_2'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*xaudio2_3'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*xaudio2_4'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*xaudio2_5'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*xaudio2_6'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*xaudio2_7'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      description: Adding DLL Overrides
+      arch: win32
+      key: '*xmllite'
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows version to Windows 7
+      arch: win32
+      app: win7
+      silent: true
+      name: winetricks
+  system:
+    env:
+      __GL_THREADED_OPTIMIZATIONS: '1'
+      MESA_GLTHREAD: 'true'
+  files:
+  - pw_installer: N/A:Select the game's setup file
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/Level Up/Perfect World/launcher/Launcher.exe
+    working_dir: $GAMEDIR
+    arch: win32

@@ -1,0 +1,36 @@
+id: 2910
+game_id: 4099
+game_slug: technic-launcher
+name: Technic Launcher
+year: 2011
+user: scottviger
+runner: linux
+slug: technic-launcher-latest
+version: Latest
+description: Technic Launcher launcher without a Java wrapper.
+notes: Does not include Java runtime
+created_at: '2016-10-19T00:54:44.132758Z'
+updated_at: '2016-10-23T19:24:30.141651Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: techniclauncher-jar
+      dst: $GAMEDIR
+  - execute:
+      args: -ns "$HOME/.technic/" "$GAMEDIR/Data folder"
+      file: /bin/ls
+  game:
+    args: java -jar "$GAMEDIR/TechnicLauncher.jar"
+    exe: /usr/bin/env
+  game_slug: techniclauncher
+  exe: TechnicLauncher.jar
+  files:
+  - techniclauncher-jar: http://launcher.technicpack.net/launcher4/347/TechnicLauncher.jar

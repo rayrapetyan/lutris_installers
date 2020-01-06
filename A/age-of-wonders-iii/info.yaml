@@ -1,0 +1,17 @@
+name: Age of Wonders III
+slug: age-of-wonders-iii
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Turn-based strategy
+aliases:
+- slug: age-of-wonders-3
+  name: Age of Wonders 3
+banner_url: /games/banner/age-of-wonders-iii.jpg
+icon_url: /games/icon/age-of-wonders-iii.png
+is_public: true
+updated: '2019-05-18T08:10:09.280622Z'
+steamid: 226840
+gogslug: age_of_wonders_3
+humblestoreid: ''

@@ -1,0 +1,16 @@
+name: Choice Chamber
+slug: choice-chamber
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Arcade
+- name: Twitch
+aliases: []
+banner_url: /games/banner/choice-chamber.jpg
+icon_url: /games/icon/choice-chamber.png
+is_public: true
+updated: '2019-01-23T08:28:51.914012Z'
+steamid: 359960
+gogslug: ''
+humblestoreid: ''

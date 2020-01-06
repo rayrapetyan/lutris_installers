@@ -1,0 +1,16 @@
+name: The Letter
+slug: the-letter
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Horror
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/the-letter.jpg
+icon_url: /games/icon/the-letter.png
+is_public: true
+updated: '2019-10-10T23:59:34.019043Z'
+steamid: 460430
+gogslug: ''
+humblestoreid: ''

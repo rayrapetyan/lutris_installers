@@ -1,0 +1,31 @@
+id: 8968
+game_id: 19615
+game_slug: i-promise
+name: "I Promise! (\u042F \u043E\u0431\u0435\u0449\u0430\u044E!)"
+year: 2015
+user: kimchitea
+runner: linux
+slug: i-promise-132
+version: 1.3.2
+description: Free download
+notes: ''
+created_at: '2018-07-01T05:32:05.403000Z'
+updated_at: '2019-04-23T03:53:46.835342Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: I Promise.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/I Promise.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/I Promise
+  - chmodx: $GAMEDIR/lib/linux-x86_64/I Promise
+  files:
+  - file1: N/A:Please select the game archive.

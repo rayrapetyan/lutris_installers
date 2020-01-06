@@ -1,0 +1,17 @@
+name: 'World in Conflict: Complete Edition'
+slug: world-in-conflict-complete-edition
+year: 2007
+platforms:
+- name: Windows
+genres:
+- name: Modern
+- name: Real-time
+- name: Strategy
+aliases: []
+banner_url: /games/banner/world-in-conflict-complete-edition.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:10.432811Z'
+steamid: null
+gogslug: world_in_conflict_complete_edition
+humblestoreid: ''

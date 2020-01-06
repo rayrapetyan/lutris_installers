@@ -1,0 +1,31 @@
+id: 5669
+game_id: 6793
+game_slug: soda-drinker-pro
+name: Soda Drinker Pro
+year: null
+user: FakeShemp
+runner: linux
+slug: soda-drinker-pro-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-10T16:44:33.457823Z'
+updated_at: '2017-09-10T16:45:49.605603Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 347720
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Soda Drinker Pro Linux.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Soda Drinker Pro Linux.x86
+  - chmodx: $GAMEDIR/Soda Drinker Pro Linux.x86_64
+  exe64: Soda Drinker Pro Linux.x86_64
+  files:
+  - file1: N/A:Please select the Groupees archive

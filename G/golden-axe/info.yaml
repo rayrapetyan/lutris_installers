@@ -1,0 +1,25 @@
+name: Golden Axe
+slug: golden-axe
+year: 1989
+platforms:
+- name: Amiga
+- name: Amstrad CPC 464
+- name: Arcade
+- name: Atari ST
+- name: Commodore 64
+- name: MS-DOS
+- name: Sega Genesis / Mega Drive
+- name: Sega Master System
+- name: TurboGrafx-16
+- name: Windows
+- name: ZX Spectrum
+genres:
+- name: Beat'em up
+aliases: []
+banner_url: /games/banner/golden-axe.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:41.171935Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

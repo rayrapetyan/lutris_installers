@@ -1,0 +1,24 @@
+id: 2786
+game_id: 7751
+game_slug: hackmud
+name: Hackmud
+year: 2016
+user: Lulu
+runner: steam
+slug: hackmud-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-09-27T17:52:45.766576Z'
+updated_at: '2016-09-30T21:18:04.867622Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 469920
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 469920

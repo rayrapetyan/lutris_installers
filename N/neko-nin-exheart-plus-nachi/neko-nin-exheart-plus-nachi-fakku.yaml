@@ -1,0 +1,32 @@
+id: 6876
+game_id: 15309
+game_slug: neko-nin-exheart-plus-nachi
+name: NEKO-NIN exHeart +PLUS Nachi
+year: 2017
+user: FakeShemp
+runner: wine
+slug: neko-nin-exheart-plus-nachi-fakku
+version: FAKKU!
+description: null
+notes: ''
+created_at: '2017-12-27T17:40:55.003194Z'
+updated_at: '2018-05-19T03:42:00.173168Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 744520
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/NEKO-NIN exHeart +PLUS Nachi
+      file: $file1
+  files:
+  - file1: N/A:Please select the FAKKU! archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/NEKO-NIN exHeart +PLUS Nachi/nekonin_nachi.exe
+    arch: win32

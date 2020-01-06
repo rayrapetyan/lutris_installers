@@ -1,0 +1,37 @@
+id: 1265
+game_id: 1077
+game_slug: aliens-versus-predator-classic-2000
+name: Aliens versus Predator Classic 2000
+year: 2010
+user: strider
+runner: linux
+slug: aliens-versus-predator-classi-gog-native
+version: GOG - Native
+description: This installer uses the installer from GOG to get the game data and the
+  open source native executable from http://icculus.org/avp/
+notes: "Press Ctrl+G to grab the mouse\r\nPress Alt+Enter to switch to fullscreen\
+  \ mode"
+created_at: '2015-01-28T21:10:55.116000Z'
+updated_at: '2016-05-10T16:17:45.629037Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 3730
+gogid: 1207665883
+gogslug: aliens_versus_predator_classic_2000
+humblestoreid: ''
+script:
+  exe: drive_c/GOG Games/AvP Classic/avp
+  installer:
+  - task:
+      executable: avpinstaller
+      prefix: $GAMEDIR
+      args: /silent /nogui
+      name: wine.wineexec
+  - extract:
+      dst: $GAMEDIR/drive_c/GOG Games/AvP Classic
+      file: avpexe
+  files:
+  - avpexe: https://lutris.net/files/games/alien-versus-predator/avp.tar.gz
+  - avpinstaller: N/A:Select the game's Windows installer downloaded from GOG.

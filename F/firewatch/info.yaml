@@ -1,0 +1,16 @@
+name: Firewatch
+slug: firewatch
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Casual
+aliases: []
+banner_url: /games/banner/firewatch.jpg
+icon_url: /games/icon/firewatch.png
+is_public: true
+updated: '2019-01-23T08:29:31.520939Z'
+steamid: 383870
+gogslug: firewatch
+humblestoreid: ''

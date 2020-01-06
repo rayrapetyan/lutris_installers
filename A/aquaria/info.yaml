@@ -1,0 +1,16 @@
+name: Aquaria
+slug: aquaria
+year: 2007
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/aquaria.jpg
+icon_url: /games/icon/aquaria.png
+is_public: true
+updated: '2019-01-23T08:28:23.640688Z'
+steamid: 24420
+gogslug: aquaria
+humblestoreid: ''

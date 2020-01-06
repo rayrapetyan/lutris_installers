@@ -1,0 +1,38 @@
+id: 2638
+game_id: 31
+game_slug: broken-sword-1-shadow-of-the-templars-directors-cu
+name: "Broken Sword: The Shadow of the Templars \u2013 The Director's Cut"
+year: 2009
+user: ssf
+runner: linux
+slug: broken-sword-1-the-shadow-of-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2016-08-31T18:02:09.436596Z'
+updated_at: '2016-09-25T19:55:18.815956Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 57640
+gogid: 1207658900
+gogslug: broken_sword_directors_cut
+humblestoreid: broken-sword-shadow-of-the-templars-the-directors-cut
+script:
+  exe: game/start.sh
+  gogid: broken_sword_directors_cut
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Please select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

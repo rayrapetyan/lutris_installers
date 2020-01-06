@@ -1,0 +1,16 @@
+name: The Solus Project
+slug: the-solus-project
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Simulation
+aliases: []
+banner_url: /games/banner/the-solus-project.jpg
+icon_url: /games/icon/the-solus-project.png
+is_public: true
+updated: '2019-01-23T08:31:47.502575Z'
+steamid: 313630
+gogslug: the_solus_project
+humblestoreid: ''

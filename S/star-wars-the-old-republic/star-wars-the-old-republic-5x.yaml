@@ -1,0 +1,73 @@
+id: 17703
+game_id: 3709
+game_slug: star-wars-the-old-republic
+name: 'Star Wars: The Old Republic'
+year: 2011
+user: Pheoxy
+runner: wine
+slug: star-wars-the-old-republic-5x
+version: 5.X
+description: Updated SWTOR Installer with DXVK 1.5
+notes: ''
+created_at: '2020-01-02T11:48:08.894303Z'
+updated_at: '2020-01-02T11:48:08.894329Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing winetricks
+      app: msxml3 msls31 winhttp vcrun2008 d3dx9
+      arch: win64
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /S
+      description: Installing Star Wars - The Old Republic
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - execute:
+      command: mkdir -p "$GAMEDIR/drive_c/Program Files (x86)/Electronic Arts/BioWare/Star
+        Wars - The Old Republic"
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Electronic Arts/BioWare/Star Wars
+        - The Old Republic
+      file: $GAMEDIR/drive_c/users/$USER/Temp/InstallSWTOR/swtor.rar
+  - merge:
+      src: launcher
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Electronic Arts/BioWare/Star Wars
+        - The Old Republic
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Electronic Arts/BioWare/Star Wars - The Old Republic/launcher.exe
+    arch: win64
+  system:
+    env:
+      __GL_THREADED_OPTIMIZATIONS: 1
+      mesa_glthread: 'true'
+      PBA_ENABLE: 1
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      __GL_SHADER_DISK_CACHE: 1
+  wine:
+    dxvk_version: 1.5
+    version: lutris-4.21-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - setup: https://swtor-a.akamaihd.net/installer/SWTOR_setup.exe
+  - launcher: https://raw.githubusercontent.com/AccountOneOff/lutris_files/master/launcher.settings

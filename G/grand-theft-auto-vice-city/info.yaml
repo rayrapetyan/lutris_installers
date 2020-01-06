@@ -1,0 +1,17 @@
+name: 'Grand Theft Auto: Vice City'
+slug: grand-theft-auto-vice-city
+year: 2002
+platforms:
+- name: Sony PlayStation 2
+- name: Windows
+genres:
+- name: Action
+- name: Sandbox
+aliases: []
+banner_url: /games/banner/grand-theft-auto-vice-city.jpg
+icon_url: /games/icon/grand-theft-auto-vice-city.png
+is_public: true
+updated: '2019-01-23T08:29:42.526104Z'
+steamid: 12110
+gogslug: ''
+humblestoreid: grand-theft-auto-vice-city

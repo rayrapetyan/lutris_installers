@@ -1,0 +1,17 @@
+name: Final Fantasy V
+slug: final-fantasy-v
+year: 1992
+platforms:
+- name: Sony PlayStation
+- name: Super Nintendo
+genres:
+- name: Role-playing
+- name: RPG
+aliases: []
+banner_url: /games/banner/final-fantasy-v.jpg
+icon_url: /games/icon/final-fantasy-v.png
+is_public: true
+updated: '2019-12-28T20:52:01.305304Z'
+steamid: 382890
+gogslug: ''
+humblestoreid: ''

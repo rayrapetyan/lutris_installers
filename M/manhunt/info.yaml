@@ -1,0 +1,16 @@
+name: Manhunt
+slug: manhunt
+year: 2004
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Stealth
+aliases: []
+banner_url: /games/banner/manhunt.jpg
+icon_url: /games/icon/manhunt.png
+is_public: true
+updated: '2019-01-23T08:30:17.074895Z'
+steamid: 12130
+gogslug: ''
+humblestoreid: ''

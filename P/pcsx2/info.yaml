@@ -1,0 +1,17 @@
+name: PCSX2
+slug: pcsx2
+year: 2002
+platforms:
+- name: Windows
+genres:
+- name: Tool
+aliases:
+- slug: pcsx2-emulador
+  name: PCSX2 Emulador
+banner_url: /games/banner/pcsx2.jpg
+icon_url: null
+is_public: true
+updated: '2019-11-01T00:33:21.777676Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,19 @@
+name: Halo Online
+slug: halo-online
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+- name: Shooter
+aliases:
+- slug: eldewrito
+  name: Eldewrito
+banner_url: /games/banner/halo-online.jpg
+icon_url: /games/icon/halo-online.png
+is_public: true
+updated: '2019-05-17T05:47:33.552387Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

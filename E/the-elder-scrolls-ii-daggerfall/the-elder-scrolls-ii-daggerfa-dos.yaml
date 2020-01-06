@@ -1,0 +1,33 @@
+id: 347
+game_id: 1593
+game_slug: the-elder-scrolls-ii-daggerfall
+name: 'The Elder Scrolls II: Daggerfall'
+year: 1996
+user: strider
+runner: dosbox
+slug: the-elder-scrolls-ii-daggerfa-dos
+version: DOS
+description: Daggerfall preinstalled, free download thanks to Bethesda Softworks.
+notes: ''
+created_at: '2014-01-08T23:02:46.636000Z'
+updated_at: '2015-01-29T18:47:03.983000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  dosbox:
+    scaler: hq3x
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: df-game
+  files:
+  - df-game: http://lutris.net/files/games/the-elder-scrolls-ii-daggerfall/daggerfall_preinstalled.tar.gz
+  game:
+    config_file: $GAMEDIR/dosbox_daggerfall.conf
+    main_file: $GAMEDIR/dosbox_daggerfall_play.conf

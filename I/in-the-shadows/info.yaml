@@ -1,0 +1,17 @@
+name: In the Shadows
+slug: in-the-shadows
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Arcade
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/in-the-shadows.jpg
+icon_url: null
+is_public: true
+updated: '2019-05-10T16:55:57.797679Z'
+steamid: 470580
+gogslug: in_the_shadows
+humblestoreid: ''

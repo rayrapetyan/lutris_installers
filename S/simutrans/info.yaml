@@ -1,0 +1,17 @@
+name: Simutrans
+slug: simutrans
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Construction
+- name: Management
+- name: Simulation
+aliases: []
+banner_url: /games/banner/simutrans.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:14.024536Z'
+steamid: 434520
+gogslug: ''
+humblestoreid: ''

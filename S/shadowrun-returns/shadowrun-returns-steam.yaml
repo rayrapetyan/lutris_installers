@@ -1,0 +1,24 @@
+id: 91
+game_id: 74
+game_slug: shadowrun-returns
+name: Shadowrun Returns
+year: 2013
+user: Xodetaetl
+runner: steam
+slug: shadowrun-returns-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2013-12-15T21:32:45.948000Z'
+updated_at: '2013-12-15T22:51:36.202000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 234650
+gogid: 1207660413
+gogslug: shadowrun_returns
+humblestoreid: shadowrun-returns
+script:
+  game:
+    appid: 234650

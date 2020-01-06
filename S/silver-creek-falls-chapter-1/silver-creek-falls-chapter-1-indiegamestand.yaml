@@ -1,0 +1,32 @@
+id: 4264
+game_id: 5035
+game_slug: silver-creek-falls-chapter-1
+name: Silver Creek Falls - Chapter 1
+year: null
+user: FakeShemp
+runner: wine
+slug: silver-creek-falls-chapter-1-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-06-10T14:22:48.691053Z'
+updated_at: '2018-05-19T03:41:51.118781Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 392450
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Silver Creek Falls Chapter 1
+      file: $file1
+  files:
+  - file1: N/A:Please select the IndieGameStand archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Silver Creek Falls Chapter 1/Game.exe
+    arch: win32

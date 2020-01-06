@@ -1,0 +1,29 @@
+id: 8481
+game_id: 16733
+game_slug: shogo-mobile-armor-division
+name: 'Shogo: Mobile Armor Division'
+year: null
+user: strider
+runner: linux
+slug: shogo-mobile-armor-division-loki
+version: Loki
+description: null
+notes: ''
+created_at: '2018-05-31T03:16:11.763000Z'
+updated_at: '2018-06-01T05:05:03.344043Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 610860
+gogid: 1207658659
+gogslug: shogo_mobile_armor_division
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: setup.sh
+  - execute:
+      file: $DISC/setup.sh
+  game:
+    exe: Shogo

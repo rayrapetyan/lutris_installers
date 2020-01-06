@@ -1,0 +1,17 @@
+name: Spooky's Jump Scare Mansion
+slug: spookys-jump-scare-mansion
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Horror
+aliases:
+- slug: spookys-house-of-jump-scares
+  name: Spooky's House of Jump Scares
+banner_url: /games/banner/spookys-jump-scare-mansion.jpg
+icon_url: /games/icon/spookys-jump-scare-mansion.png
+is_public: true
+updated: '2019-11-09T07:38:42.243660Z'
+steamid: 356670
+gogslug: ''
+humblestoreid: ''

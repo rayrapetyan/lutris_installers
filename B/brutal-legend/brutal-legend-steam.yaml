@@ -1,0 +1,24 @@
+id: 181
+game_id: 333
+game_slug: brutal-legend
+name: "Br\xFCtal Legend"
+year: 2009
+user: strider
+runner: steam
+slug: brutal-legend-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-19T23:56:17.252000Z'
+updated_at: '2013-12-19T23:56:17.252000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 225260
+gogid: 1207659253
+gogslug: brutal_legend
+humblestoreid: brutal-legend
+script:
+  game:
+    appid: 225260

@@ -1,0 +1,32 @@
+id: 4459
+game_id: 6740
+game_slug: world-end-economica-episode02
+name: WORLD END ECONOMiCA episode.02
+year: 2015
+user: FakeShemp
+runner: wine
+slug: world-end-economica-episode02-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-18T09:55:14.988980Z'
+updated_at: '2018-05-19T03:41:51.987605Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 368160
+gogid: 1852249874
+gogslug: world_end_economica_episode02
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/WORLD END ECONOMiCA Episode 02
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/WORLD END ECONOMiCA Episode 02/wee02.exe
+    arch: win32

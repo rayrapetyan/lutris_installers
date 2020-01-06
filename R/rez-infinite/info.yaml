@@ -1,0 +1,16 @@
+name: Rez Infinite
+slug: rez-infinite
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Shooter
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/rez-infinite.jpg
+icon_url: /games/icon/rez-infinite.png
+is_public: true
+updated: '2019-09-09T03:06:35.224695Z'
+steamid: 636450
+gogslug: ''
+humblestoreid: ''

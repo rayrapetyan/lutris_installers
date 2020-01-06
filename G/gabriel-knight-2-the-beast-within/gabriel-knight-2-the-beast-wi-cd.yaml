@@ -1,0 +1,72 @@
+id: 16957
+game_id: 7313
+game_slug: gabriel-knight-2-the-beast-within
+name: 'Gabriel Knight 2: The Beast Within'
+year: 1995
+user: legluondunet
+runner: scummvm
+slug: gabriel-knight-2-the-beast-wi-cd
+version: CD
+description: "This script will install \"Gabriel Knight 2: The Beast Within\" CD edition\
+  \ for ScummVM.\r\nDuring install please let all options by default.\r\nBig thanks\
+  \ to people who gave their time to permit us playing this game in the best conditions."
+notes: "- You will need the 6 CD only during install.\r\n- Please report issue concerning\
+  \ this script on my Github page:\r\nhttps://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2019-11-22T22:28:15.338000Z'
+updated_at: '2019-12-13T05:40:11.135886Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: 496760
+gogid: 1207658837
+gogslug: gabriel_knight_2_the_beast_within
+humblestoreid: ''
+script:
+  custom-name: Gabriel Knight 2 - The Beast Within - CD - ScummVM
+  installer:
+  - insert-disc:
+      requires: gk2r1.001
+      description: Please insert disc 1
+  - merge:
+      src: $DISC
+      dst: $GAMEDIR/CD1
+  - insert-disc:
+      requires: gk2r1.002
+      description: Please insert disc 2
+  - merge:
+      src: $DISC
+      dst: $GAMEDIR/CD2
+  - insert-disc:
+      requires: gk2r1.003
+      description: Please insert disc 3
+  - merge:
+      src: $DISC
+      dst: $GAMEDIR/CD3
+  - insert-disc:
+      requires: gk2r1.004
+      description: Please insert disc 4
+  - merge:
+      src: $DISC
+      dst: $GAMEDIR/CD4
+  - insert-disc:
+      requires: gk2r1.005
+      description: Please insert disc 5
+  - merge:
+      src: $DISC
+      dst: $GAMEDIR/CD5
+  - insert-disc:
+      requires: gk2r1.006
+      description: Please insert disc 6
+  - merge:
+      src: $DISC
+      dst: $GAMEDIR/CD6
+  - chmodx: script
+  - execute:
+      file: script
+  files:
+  - script: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Gabriel%20Knight%202%20-%20The%20Beast%20Within/clean.sh
+  game:
+    game_id: gk2
+    path: $GAMEDIR
+    subtitles: true

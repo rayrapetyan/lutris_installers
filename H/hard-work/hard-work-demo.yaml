@@ -1,0 +1,31 @@
+id: 11607
+game_id: 24490
+game_slug: hard-work
+name: Hard Work
+year: 2018
+user: kimchitea
+runner: linux
+slug: hard-work-demo
+version: Demo
+description: null
+notes: https://denpasoft.com/products/hard-work-demo
+created_at: '2019-01-16T17:14:14.350000Z'
+updated_at: '2019-01-19T10:20:02.014394Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 942800
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: hardworkdemo.sh
+  installer:
+  - extract:
+      file: file1
+  - chmodx: $GAMEDIR/hardworkdemo.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/hardworkdemo
+  - chmodx: $GAMEDIR/lib/linux-x86_64/hardworkdemo
+  files:
+  - file1: N/A:Please select the demo archive

@@ -1,0 +1,35 @@
+id: 4568
+game_id: 11854
+game_slug: forbidden-love-with-my-wifes-sister
+name: "Forbidden Love with My Wife\u2019s Sister"
+year: 2011
+user: FakeShemp
+runner: wine
+slug: forbidden-love-with-my-wifes-mangagamer
+version: MangaGamer
+description: ''
+notes: ''
+created_at: '2017-06-24T15:32:06.964000Z'
+updated_at: '2017-06-24T16:17:38.150097Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/Forbidden Love with My Wife's Sister Setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the MangaGamer archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Games/MangaGamer/Forbidden Love with My Wife's Sister/yomeimo.exe

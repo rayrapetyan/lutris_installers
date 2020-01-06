@@ -1,0 +1,24 @@
+id: 1962
+game_id: 5570
+game_slug: a-mass-of-dead
+name: A Mass of Dead
+year: null
+user: WildCoder
+runner: steam
+slug: a-mass-of-dead-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-02-06T20:21:23.152958Z'
+updated_at: '2016-02-08T21:47:35.793632Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 269630
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 269630

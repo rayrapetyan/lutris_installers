@@ -1,0 +1,43 @@
+id: 7989
+game_id: 17980
+game_slug: battletech
+name: BATTLETECH
+year: 2018
+user: TuiorGames
+runner: winesteam
+slug: battletech-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2018-04-26T00:54:05.903000Z'
+updated_at: '2019-02-14T05:26:33.043729Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 637090
+gogid: 1482783682
+gogslug: battletech_game
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing .NET 4.7.2
+      app: dotnet472
+      arch: win64
+      name: winetricks
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 637090
+    arch: win64

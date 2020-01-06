@@ -1,0 +1,16 @@
+name: Moto Racer 2
+slug: moto-racer-2
+year: 1998
+platforms:
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/moto-racer-2.jpg
+icon_url: /games/icon/moto-racer-2.png
+is_public: true
+updated: '2019-12-15T12:31:14.102866Z'
+steamid: null
+gogslug: moto_racer_2
+humblestoreid: ''

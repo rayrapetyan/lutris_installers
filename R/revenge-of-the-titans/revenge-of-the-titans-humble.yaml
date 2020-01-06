@@ -1,0 +1,28 @@
+id: 4111
+game_id: 171
+game_slug: revenge-of-the-titans
+name: Revenge of the Titans
+year: 2010
+user: FakeShemp
+runner: linux
+slug: revenge-of-the-titans-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-04T19:10:48.601383Z'
+updated_at: '2017-06-04T22:03:41.802714Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 93200
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: revenge.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

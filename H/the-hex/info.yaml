@@ -1,0 +1,16 @@
+name: The Hex
+slug: the-hex
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Puzzle
+- name: RPG
+aliases: []
+banner_url: /games/banner/the-hex.jpg
+icon_url: /games/icon/the-hex.png
+is_public: true
+updated: '2019-02-15T06:26:13.987583Z'
+steamid: 510420
+gogslug: ''
+humblestoreid: ''

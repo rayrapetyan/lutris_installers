@@ -1,0 +1,32 @@
+id: 5625
+game_id: 8419
+game_slug: ravenfield
+name: Ravenfield
+year: 2016
+user: Lucki
+runner: linux
+slug: ravenfield-itchio
+version: itch.io
+description: Download at https://steelraven7.itch.io/ravenfield
+notes: ''
+created_at: '2017-09-08T13:17:56.534000Z'
+updated_at: '2017-09-17T19:27:11.618302Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 636480
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $archive
+  - chmodx: $GAMEDIR/Ravenfield.x86_64
+  files:
+  - archive: "N/A:Select Ravenfield_[\u2026]_Linux.zip"
+  game:
+    prefix: $GAMEDIR
+    exe: Ravenfield.x86_64

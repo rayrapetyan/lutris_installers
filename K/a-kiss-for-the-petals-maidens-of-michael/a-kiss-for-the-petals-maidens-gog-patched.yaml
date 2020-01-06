@@ -1,0 +1,44 @@
+id: 12723
+game_id: 24257
+game_slug: a-kiss-for-the-petals-maidens-of-michael
+name: A Kiss For The Petals - Maidens of Michael
+year: 2018
+user: kimchitea
+runner: linux
+slug: a-kiss-for-the-petals-maidens-gog-patched
+version: GOG Patched
+description: 'Patch download: <a href="https://www.mangagamer.com/freedownload.php?product_name=A+Kiss+For+The+Petals+-+Maidens+of+Michael+%28download%29">https://www.mangagamer.com/freedownload.php?product_name=A+Kiss+For+The+Petals+-+Maidens+of+Michael+%28download%29</a>'
+notes: ''
+created_at: '2019-04-10T19:07:52.766000Z'
+updated_at: '2019-04-11T03:45:27.681635Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: 2111616299
+gogslug: a_kiss_for_the_petals_maidens_of_michael
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/game
+      dst: $GAMEDIR
+  - extract:
+      dst: $CACHE/patch
+      file: patch
+  - merge:
+      src: $CACHE/patch/game
+      dst: $GAMEDIR/game
+  - chmodx: $GAMEDIR/MaidensOfMichael.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/MaidensOfMichael
+  - chmodx: $GAMEDIR/lib/linux-x86_64/MaidensOfMichael
+  files:
+  - goginstaller: N/A:Plese select the GOG.com Linux installer
+  - patch: N/A:Please select the MangaGamer patch archive
+  game:
+    exe: MaidensOfMichael.sh

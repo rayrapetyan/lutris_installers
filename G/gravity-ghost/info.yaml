@@ -1,0 +1,15 @@
+name: Gravity Ghost
+slug: gravity-ghost
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Arcade
+aliases: []
+banner_url: /games/banner/gravity-ghost.jpg
+icon_url: /games/icon/gravity-ghost.png
+is_public: true
+updated: '2019-01-23T08:29:42.980741Z'
+steamid: 251490
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,23 @@
+name: DOOM (1993)
+slug: doom-1993
+year: 1993
+platforms:
+- name: 3DO
+- name: Atari Jaguar
+- name: Linux
+- name: MS-DOS
+- name: Nintendo Game Boy Advance
+- name: Sega 32X
+- name: Sega Saturn
+- name: Sony PlayStation
+- name: Super Nintendo
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/doom-1993.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:15.329189Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

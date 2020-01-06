@@ -1,0 +1,16 @@
+name: WayOut
+slug: wayout
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Casual
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/wayout.jpg
+icon_url: /games/icon/wayout.png
+is_public: true
+updated: '2019-01-23T08:32:07.172219Z'
+steamid: 551110
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 7508
+game_id: 2393
+game_slug: halo-spartan-assault
+name: 'Halo: Spartan Assault'
+year: 2014
+user: CharlyDelta
+runner: winesteam
+slug: halo-spartan-assault-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-12T17:38:36.696515Z'
+updated_at: '2018-03-12T17:40:30.433456Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 277430
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 277430

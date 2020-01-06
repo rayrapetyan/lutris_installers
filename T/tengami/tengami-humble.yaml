@@ -1,0 +1,33 @@
+id: 4221
+game_id: 4588
+game_slug: tengami
+name: Tengami
+year: null
+user: FakeShemp
+runner: wine
+slug: tengami-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-08T17:08:16.961108Z'
+updated_at: '2018-05-19T03:41:51.235053Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 299680
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Tengami/Tengami.exe
+    arch: win32

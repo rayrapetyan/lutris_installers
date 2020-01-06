@@ -1,0 +1,33 @@
+id: 4642
+game_id: 641
+game_slug: edna-harvey-harveys-new-eyes
+name: 'Edna & Harvey: Harvey''s New Eyes'
+year: 2012
+user: FakeShemp
+runner: wine
+slug: edna-harvey-harveys-new-eyes-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-26T18:49:52.944000Z'
+updated_at: '2018-05-19T03:41:53.363153Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 219910
+gogid: 1207664343
+gogslug: edna_harvey_harveys_new_eyes
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Daedalic Entertainment/Edna & Harvey Harvey's New Eyes/harvey.exe
+    arch: win32

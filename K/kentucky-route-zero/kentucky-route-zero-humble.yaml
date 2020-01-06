@@ -1,0 +1,29 @@
+id: 4024
+game_id: 552
+game_slug: kentucky-route-zero
+name: Kentucky Route Zero
+year: 2013
+user: FakeShemp
+runner: linux
+slug: kentucky-route-zero-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-31T18:47:22.314939Z'
+updated_at: '2017-06-04T22:01:31.097297Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 231200
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: KentuckyRouteZero.x86
+  installer:
+  - extract:
+      file: $file1
+  exe64: KentuckyRouteZero.x86_64
+  files:
+  - file1: N/A:Please select the Humble archive

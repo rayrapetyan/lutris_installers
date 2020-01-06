@@ -1,0 +1,24 @@
+id: 8413
+game_id: 4864
+game_slug: one-way-to-die-steam-edition
+name: 'One Way To Die: Steam Edition'
+year: null
+user: Nibiron
+runner: steam
+slug: one-way-to-die-steam-edition-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-25T13:42:54.901000Z'
+updated_at: '2018-05-26T07:48:34.503987Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 388490
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 388490

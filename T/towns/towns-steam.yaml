@@ -1,0 +1,24 @@
+id: 250
+game_id: 551
+game_slug: towns
+name: Towns
+year: null
+user: strider
+runner: steam
+slug: towns-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-19T23:56:19.835000Z'
+updated_at: '2013-12-19T23:56:19.836000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 221020
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 221020

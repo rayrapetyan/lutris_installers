@@ -1,0 +1,24 @@
+id: 6811
+game_id: 2364
+game_slug: famaze
+name: Famaze
+year: null
+user: soredake
+runner: winesteam
+slug: famaze-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-23T22:13:31.928364Z'
+updated_at: '2017-12-23T22:13:38.611158Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 297210
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 297210

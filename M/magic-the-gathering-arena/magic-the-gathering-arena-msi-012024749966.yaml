@@ -1,0 +1,80 @@
+id: 17302
+game_id: 17988
+game_slug: magic-the-gathering-arena
+name: 'Magic: The Gathering Arena'
+year: 2017
+user: wakingrufus
+runner: wine
+slug: magic-the-gathering-arena-msi-012024749966
+version: MSI 0.1.2024.749966
+description: null
+notes: ''
+created_at: '2019-12-13T03:22:08.939000Z'
+updated_at: '2019-12-26T05:04:34.228190Z'
+draft: false
+published: false
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Wizards of the Coast/MTGA/MTGA.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      key: GrabFullscreen
+      value: Y
+      path: HKEY_CURRENT_USER\Software\Wine\X11 Driver
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      key: UseTakeFocus
+      value: N
+      path: HKEY_CURRENT_USER\Software\Wine\X11 Driver
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .NET 4.7.2. This will take a while...
+      app: dotnet472
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: xact arial win10
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - copy:
+      src: setup
+      dst: $CACHE/mtg-arena/
+  - task:
+      executable: msiexec
+      prefix: $GAMEDIR
+      description: Installing Magic the Gathering Arena
+      arch: win32
+      args: /i "$CACHE/mtg-arena/MTGAInstaller_0.1.2024.749966.msi" /q
+      exclude_processes: mscorsvw.exe rundll32.exe MTGA.exe UnityCrashHandler32.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  wine:
+    version: tkg-unity-4.5-x86_64
+    esync: true
+    Desktop: true
+  files:
+  - setup: https://mtgarena.downloads.wizards.com/Live/Windows32/versions/2024.749966/MTGAInstaller_0.1.2024.749966.msi

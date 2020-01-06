@@ -1,0 +1,19 @@
+name: Mana Spark
+slug: mana-spark
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Fantasy
+- name: Indie
+- name: Roguelike
+- name: RPG
+aliases: []
+banner_url: /games/banner/mana-spark.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:16.981943Z'
+steamid: 630720
+gogslug: mana_spark
+humblestoreid: ''

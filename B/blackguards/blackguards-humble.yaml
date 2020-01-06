@@ -1,0 +1,36 @@
+id: 4232
+game_id: 2987
+game_slug: blackguards
+name: Blackguards
+year: null
+user: FakeShemp
+runner: wine
+slug: blackguards-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-08T20:36:19.958000Z'
+updated_at: '2018-05-19T03:41:50.626740Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 249650
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Daedalic Entertainment GmbH/Blackguards/Blackguards.exe
+    arch: win32

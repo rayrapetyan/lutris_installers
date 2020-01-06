@@ -1,0 +1,17 @@
+name: 'Grand Ages: Medieval'
+slug: grand-ages-medieval
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: RPG
+- name: Simulation
+- name: Strategy
+aliases: []
+banner_url: /games/banner/grand-ages-medieval.jpg
+icon_url: /games/icon/grand-ages-medieval.png
+is_public: true
+updated: '2019-01-23T08:29:42.131285Z'
+steamid: 310470
+gogslug: grand_ages_medieval
+humblestoreid: ''

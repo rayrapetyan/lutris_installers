@@ -1,0 +1,56 @@
+id: 6517
+game_id: 1313
+game_slug: fallout-2
+name: Fallout 2
+year: 1998
+user: soredake
+runner: wine
+slug: fallout-2-restoration-project-
+version: Restoration Project for GOG
+description: null
+notes: ''
+created_at: '2017-12-01T20:18:31.682000Z'
+updated_at: '2018-12-11T08:38:36.217173Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 38410
+gogid: 1440166436
+gogslug: fallout_2
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: restoration
+      prefix: $GAMEDIR
+      description: Installing the Restoration Project mod
+      arch: win64
+      working_dir: $GAMEDIR/drive_c/GOG Games/Fallout 2/
+      name: wineexec
+  - task:
+      executable: f2_res_Config.exe
+      prefix: $GAMEDIR
+      description: "Configuring the Hi-res patch.\n Make sure you enable it before\
+        \ clicking Done"
+      arch: win64
+      working_dir: $GAMEDIR/drive_c/GOG Games/Fallout 2/
+      name: wineexec
+  - execute:
+      args: sed -i 's/SingleCore=1/SingleCore=0/g' '$GAMEDIR/drive_c/GOG Games/Fallout
+        2/ddraw.ini'
+      file: /usr/bin/env
+  - execute:
+      args: chmod 444 '$GAMEDIR/drive_c/GOG Games/Fallout 2/[dD]ata/[pP]roto/[iI]tems/*'
+        '$GAMEDIR/drive_c/GOG Games/Fallout 2/[dD]ata/[pP]roto/[cC]ritters/*'
+      file: /usr/bin/env
+  requires: fallout-2-gog
+  require-binaries: sed, chmod
+  game:
+    exe: drive_c/GOG Games/Fallout 2/FALLOUT2.EXE
+  custom-name: Fallout 2 (Restoration Project)
+  wine:
+    overrides:
+      ddraw.dll: n
+  files:
+  - restoration: http://www.killap.net/fallout2/expansion/2.3.3/F2_Restoration_Project_2.3.3.exe

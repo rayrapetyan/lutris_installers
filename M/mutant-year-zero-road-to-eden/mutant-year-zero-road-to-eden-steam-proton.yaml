@@ -1,0 +1,24 @@
+id: 14358
+game_id: 23592
+game_slug: mutant-year-zero-road-to-eden
+name: 'Mutant Year Zero: Road to Eden'
+year: 2018
+user: d0nk0tr0n
+runner: steam
+slug: mutant-year-zero-road-to-eden-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-06-30T18:12:23.180000Z'
+updated_at: '2019-10-17T01:15:20.024109Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 760060
+gogid: 1226193907
+gogslug: mutant_year_zero_road_to_eden
+humblestoreid: ''
+script:
+  game:
+    appid: 760060

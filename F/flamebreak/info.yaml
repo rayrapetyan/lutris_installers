@@ -1,0 +1,16 @@
+name: Flamebreak
+slug: flamebreak
+year: null
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: RPG
+aliases: []
+banner_url: /games/banner/flamebreak.jpg
+icon_url: /games/icon/flamebreak.png
+is_public: false
+updated: '2019-03-09T05:14:31.827014Z'
+steamid: 399640
+gogslug: ''
+humblestoreid: ''

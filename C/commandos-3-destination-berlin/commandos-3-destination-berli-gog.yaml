@@ -1,0 +1,41 @@
+id: 1360
+game_id: 796
+game_slug: commandos-3-destination-berlin
+name: 'Commandos 3: Destination Berlin'
+year: 2003
+user: Xodetaetl
+runner: wine
+slug: commandos-3-destination-berli-gog
+version: GOG
+description: ''
+notes: "- Recent GOG installer required (v2 or above).\r\n- Uses the Commandos 2+3\
+  \ GOG installer but only installs Commandos 3.\r\n- Fix for multiplayer by TCP/IP\
+  \ included.\r\n- The mouse may not be captured well initially, just move it around\
+  \ until the cursor appears and avoid clicking until then. Use the Escape key to\
+  \ skip the intro movies."
+created_at: '2015-02-27T14:22:48.645000Z'
+updated_at: '2015-02-27T14:34:34.819000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 6840
+gogid: null
+gogslug: commandos_2_3
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      app: directplay amstream quartz
+      name: winetricks
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /silent /nogui /components=component1
+      name: wineexec
+  files:
+  - game: N/A:Select the Windows installer provided by GOG
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/GOG Games/Commandos 2 and 3/Commandos 3/Commandos3.exe

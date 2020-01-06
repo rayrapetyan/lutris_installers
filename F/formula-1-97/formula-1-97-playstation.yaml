@@ -1,0 +1,31 @@
+id: 9242
+game_id: 19980
+game_slug: formula-1-97
+name: Formula 1 '97
+year: 1997
+user: te_lanus
+runner: libretro
+slug: formula-1-97-playstation
+version: Playstation
+description: null
+notes: ''
+created_at: '2018-07-16T18:02:04.173185Z'
+updated_at: '2018-07-16T18:03:47.571189Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Playstation game disc
+  game:
+    core: mednafen_psx
+    main_file: file1

@@ -1,0 +1,44 @@
+id: 4784
+game_id: 12047
+game_slug: ultimate-boob-wars-big-breasts-vs-flat-chests
+name: 'Ultimate Boob Wars!!: Big Breasts vs Flat Chests'
+year: 2012
+user: FakeShemp
+runner: wine
+slug: ultimate-boob-wars-big-breast-mangagamer
+version: MangaGamer
+description: ''
+notes: ''
+created_at: '2017-07-03T18:39:53.185000Z'
+updated_at: '2017-07-04T18:10:42.581785Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - extract:
+      dst: $CACHE
+      file: $file2
+  - extract:
+      dst: $CACHE
+      file: $file3
+  - task:
+      executable: $CACHE/BoobWars2.exe
+      prefix: $GAMEDIR
+      args: /sp- /silent /norestart
+      name: wineexec
+  files:
+  - file1: N/A:Please select the first MangaGamer archive
+  - file2: N/A:Please select the second MangaGamer archive
+  - file3: N/A:Please select the third MangaGamer archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Games/Mangagamer/Boob Wars 2/Boob Wars 2.exe

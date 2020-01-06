@@ -1,0 +1,45 @@
+id: 2004
+game_id: 96
+game_slug: darksiders-ii
+name: Darksiders II
+year: 2012
+user: strider
+runner: winesteam
+slug: darksiders-ii-steam
+version: Steam
+description: ''
+notes: "Don't change the shadows quality in the games settings above medium or the\
+  \ game will crash before entering the main menu.\r\nIf you have and want to fix\
+  \ it, you can follow the instructions posted here:\r\nhttps://steamcommunity.com/app/388410/discussions/0/496880503063789705/\
+  \ (replace the steam id with 50650)\r\n\r\nDisable antialiasing to avoid graphical\
+  \ glitches."
+created_at: '2016-03-02T23:44:40.016482Z'
+updated_at: '2016-10-19T05:47:48.817991Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 50650
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing vcrun 2010
+      arch: win32
+      app: vcrun2010
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing d3dcompiler_43
+      arch: win32
+      app: d3dcompiler_43
+      silent: true
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 50650
+    arch: win32

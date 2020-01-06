@@ -1,0 +1,24 @@
+id: 6463
+game_id: 1893
+game_slug: bejeweled-2-deluxe
+name: Bejeweled 2 Deluxe
+year: null
+user: Stoney_Fish
+runner: winesteam
+slug: bejeweled-2-deluxe-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-11-28T22:20:27.448358Z'
+updated_at: '2017-12-13T08:12:10.687301Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 3300
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 3300

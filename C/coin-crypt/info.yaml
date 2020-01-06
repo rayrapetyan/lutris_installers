@@ -1,0 +1,16 @@
+name: Coin Crypt
+slug: coin-crypt
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: Roguelike
+- name: RPG
+aliases: []
+banner_url: /games/banner/coin-crypt.jpg
+icon_url: /games/icon/coin-crypt.png
+is_public: true
+updated: '2019-01-23T08:28:55.532500Z'
+steamid: 264690
+gogslug: ''
+humblestoreid: ''

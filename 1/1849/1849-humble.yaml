@@ -1,0 +1,33 @@
+id: 4173
+game_id: 2781
+game_slug: '1849'
+name: '1849'
+year: 2014
+user: FakeShemp
+runner: wine
+slug: 1849-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-06T17:56:34.634402Z'
+updated_at: '2018-05-19T03:41:49.926006Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 290970
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/1849/1849.exe
+    arch: win32

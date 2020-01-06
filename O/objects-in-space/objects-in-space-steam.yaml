@@ -1,0 +1,24 @@
+id: 8966
+game_id: 19546
+game_slug: objects-in-space
+name: Objects in Space
+year: 2018
+user: TuiorGames
+runner: winesteam
+slug: objects-in-space-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-01T01:36:55.066754Z'
+updated_at: '2018-07-01T03:36:23.729876Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 824070
+gogid: 1538068873
+gogslug: objects_in_space
+humblestoreid: ''
+script:
+  game:
+    appid: 824070

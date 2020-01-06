@@ -1,0 +1,16 @@
+name: Dragonsphere
+slug: dragonsphere
+year: 1994
+platforms:
+- name: MS-DOS
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/dragonsphere.jpg
+icon_url: /games/icon/dragonsphere.png
+is_public: true
+updated: '2019-01-23T08:29:16.804239Z'
+steamid: 327940
+gogslug: dragonsphere
+humblestoreid: ''

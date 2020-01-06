@@ -1,0 +1,17 @@
+name: Undead Horde
+slug: undead-horde
+year: 2019
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/undead-horde.jpg
+icon_url: /games/icon/undead-horde.png
+is_public: true
+updated: '2019-10-14T00:34:17.842157Z'
+steamid: 790850
+gogslug: undead_horde
+humblestoreid: ''

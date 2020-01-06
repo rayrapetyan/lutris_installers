@@ -1,0 +1,24 @@
+id: 3351
+game_id: 6638
+game_slug: hitman
+name: HITMAN
+year: 2016
+user: uso
+runner: steam
+slug: hitmantm-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-03-15T13:46:32.919200Z'
+updated_at: '2017-03-23T11:50:10.321609Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 236870
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 236870

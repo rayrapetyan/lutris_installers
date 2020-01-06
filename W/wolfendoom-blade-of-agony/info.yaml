@@ -1,0 +1,16 @@
+name: WolfenDoom - Blade of Agony
+slug: wolfendoom-blade-of-agony
+year: 2017
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/wolfendoom-blade-of-agony.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:09.765702Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

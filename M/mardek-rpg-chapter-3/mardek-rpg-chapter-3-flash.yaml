@@ -1,0 +1,23 @@
+id: 1693
+game_id: 5014
+game_slug: mardek-rpg-chapter-3
+name: 'Mardek RPG: Chapter 3'
+year: 2015
+user: dennisjj4
+runner: browser
+slug: mardek-rpg-chapter-3-flash
+version: Flash
+description: ''
+notes: ''
+created_at: '2015-11-03T16:57:49.436473Z'
+updated_at: '2015-11-03T16:59:37.594907Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: http://data.fighunter.com/gamefiles/MDK3/GAME.swf

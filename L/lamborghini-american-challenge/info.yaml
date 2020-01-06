@@ -1,0 +1,20 @@
+name: 'Lamborghini: American Challenge'
+slug: lamborghini-american-challenge
+year: 1994
+platforms:
+- name: Amiga
+- name: Atari ST
+- name: Commodore 64
+- name: Game Boy
+- name: MS-DOS
+- name: Super Nintendo
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/lamborghini-american-challenge.jpg
+icon_url: null
+is_public: true
+updated: '2019-06-03T06:22:56.703380Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

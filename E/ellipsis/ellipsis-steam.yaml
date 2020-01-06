@@ -1,0 +1,24 @@
+id: 8952
+game_id: 9747
+game_slug: ellipsis
+name: Ellipsis
+year: 2017
+user: kadin
+runner: steam
+slug: ellipsis-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-30T01:27:16.166000Z'
+updated_at: '2018-08-07T03:49:13.990149Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 514620
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 514620

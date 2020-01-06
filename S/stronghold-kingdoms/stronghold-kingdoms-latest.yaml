@@ -1,0 +1,46 @@
+id: 12821
+game_id: 676
+game_slug: stronghold-kingdoms
+name: Stronghold Kingdoms
+year: 2012
+user: thmarth
+runner: wine
+slug: stronghold-kingdoms-latest
+version: Latest
+description: null
+notes: ''
+created_at: '2019-04-15T19:00:13.948637Z'
+updated_at: '2019-05-18T07:40:59.040336Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 47410
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/Firefly Studios/Stronghold Kingdoms/StrongholdKingdoms.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing dependencies
+      app: riched20 dotnet35sp1
+      name: winetricks
+  - task:
+      executable: $gameinstaller
+      prefix: $GAMEDIR
+      description: Installing Stronghold Kingdoms
+      name: wineexec
+  wine:
+    version: tkg-protonified-4.5-x86_64
+  files:
+  - gameinstaller: https://static.strongholdkingdoms.com/Kingdoms/StrongholdKingdoms-Setup.exe

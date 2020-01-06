@@ -1,0 +1,29 @@
+id: 3012
+game_id: 4812
+game_slug: freeorion
+name: FreeOrion
+year: null
+user: scottviger
+runner: linux
+slug: freeorion-046
+version: 0.4.6
+description: ''
+notes: ''
+created_at: '2016-11-15T03:29:08.900303Z'
+updated_at: '2016-11-21T21:34:22.688922Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: freeorion
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: game
+  files:
+  - game: https://netcologne.dl.sourceforge.net/project/open-source-games/freeorion.tar.xz

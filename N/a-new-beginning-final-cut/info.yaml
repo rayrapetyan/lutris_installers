@@ -1,0 +1,17 @@
+name: A New Beginning - Final Cut
+slug: a-new-beginning-final-cut
+year: 2010
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Modern
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/a-new-beginning-final-cut.jpg
+icon_url: /games/icon/a-new-beginning-final-cut.png
+is_public: true
+updated: '2019-01-23T08:28:21.796183Z'
+steamid: 105000
+gogslug: a_new_beginning
+humblestoreid: ''

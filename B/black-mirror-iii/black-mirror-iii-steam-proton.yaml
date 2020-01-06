@@ -1,0 +1,24 @@
+id: 16126
+game_id: 3738
+game_slug: black-mirror-iii
+name: Black Mirror III
+year: 2011
+user: cxf
+runner: steam
+slug: black-mirror-iii-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-10-12T01:22:38.335106Z'
+updated_at: '2019-10-12T01:22:43.124910Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 286480
+gogid: 1430743890
+gogslug: black_mirror_3
+humblestoreid: ''
+script:
+  game:
+    appid: 286480

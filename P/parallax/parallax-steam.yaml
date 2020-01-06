@@ -1,0 +1,24 @@
+id: 4269
+game_id: 5516
+game_slug: parallax
+name: Parallax
+year: null
+user: FakeShemp
+runner: steam
+slug: parallax-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-06-10T15:35:34.566728Z'
+updated_at: '2017-06-11T00:40:02.762067Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 325060
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 325060

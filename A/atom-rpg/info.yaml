@@ -1,0 +1,17 @@
+name: ATOM RPG
+slug: atom-rpg
+year: 2018
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Role-playing
+- name: RPG
+aliases: []
+banner_url: /games/banner/atom-rpg.jpg
+icon_url: /games/icon/atom-rpg.png
+is_public: true
+updated: '2019-12-22T18:56:50.806175Z'
+steamid: 552620
+gogslug: ''
+humblestoreid: ''

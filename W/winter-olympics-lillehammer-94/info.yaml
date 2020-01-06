@@ -1,0 +1,22 @@
+name: 'Winter Olympics: Lillehammer ''94'
+slug: winter-olympics-lillehammer-94
+year: 1993
+platforms:
+- name: Amiga
+- name: MS-DOS
+- name: Sega Game Gear
+- name: Sega Genesis / Mega Drive
+- name: Sega Master System
+- name: Super Nintendo
+genres:
+- name: Sports
+aliases:
+- slug: winter-olympics
+  name: Winter Olympics
+banner_url: /games/banner/winter-olympics-lillehammer-94.jpg
+icon_url: null
+is_public: true
+updated: '2019-04-23T09:53:31.939175Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

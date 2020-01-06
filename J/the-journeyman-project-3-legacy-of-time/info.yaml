@@ -1,0 +1,19 @@
+name: 'The Journeyman Project 3: Legacy of Time'
+slug: the-journeyman-project-3-legacy-of-time
+year: 1998
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: FPP
+- name: Puzzle
+aliases:
+- slug: journeyman-project-3-legacy-of-time-the
+  name: 'Journeyman Project 3: Legacy of Time, The'
+banner_url: /games/banner/the-journeyman-project-3-legacy-of-time.jpg
+icon_url: /games/icon/the-journeyman-project-3-legacy-of-time.png
+is_public: true
+updated: '2019-10-31T22:14:38.024290Z'
+steamid: null
+gogslug: journeyman_project_3
+humblestoreid: ''

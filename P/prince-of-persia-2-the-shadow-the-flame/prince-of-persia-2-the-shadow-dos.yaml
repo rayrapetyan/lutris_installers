@@ -1,0 +1,35 @@
+id: 8319
+game_id: 13817
+game_slug: prince-of-persia-2-the-shadow-the-flame
+name: 'Prince of Persia 2: The Shadow & The Flame'
+year: 1996
+user: maxlefou
+runner: dosbox
+slug: prince-of-persia-2-the-shadow-dos
+version: DOS
+description: null
+notes: Use the archive from myabandonware.com (NOT the iso one)
+created_at: '2018-05-18T11:13:48.540000Z'
+updated_at: '2018-05-18T21:10:38.515171Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: archive
+  - task:
+      executable: SETUP.EXE
+      description: Launching setup. In the sound options, take SoundBlaster and leave
+        the rest by default for a better audio.
+      name: dosexec
+  files:
+  - archive: N/A:Select the game's archive file
+  game:
+    main_file: PRINCE.EXE

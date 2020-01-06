@@ -1,0 +1,17 @@
+name: The Forest
+slug: the-forest
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Simulation
+aliases: []
+banner_url: /games/banner/the-forest.jpg
+icon_url: /games/icon/the-forest.png
+is_public: true
+updated: '2019-01-23T08:31:41.450707Z'
+steamid: 242760
+gogslug: ''
+humblestoreid: ''

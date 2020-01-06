@@ -1,0 +1,17 @@
+name: 'STAR WARS: X-Wing Alliance'
+slug: star-wars-x-wing-alliance
+year: 1999
+platforms:
+- name: Windows
+genres:
+- name: Action
+aliases:
+- slug: star-warstm-x-wing-alliancetm
+  name: "STAR WARS\u2122: X-Wing Alliance\u2122"
+banner_url: /games/banner/star-wars-x-wing-alliance.jpg
+icon_url: /games/icon/star-wars-x-wing-alliance.png
+is_public: true
+updated: '2019-04-24T02:21:45.007790Z'
+steamid: 361670
+gogslug: star_wars_xwing_alliance
+humblestoreid: ''

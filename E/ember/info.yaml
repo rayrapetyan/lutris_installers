@@ -1,0 +1,17 @@
+name: Ember
+slug: ember
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Fantasy
+- name: RPG
+aliases: []
+banner_url: /games/banner/ember.jpg
+icon_url: /games/icon/ember.png
+is_public: true
+updated: '2019-04-20T04:52:12.359256Z'
+steamid: 339580
+gogslug: ember
+humblestoreid: ''

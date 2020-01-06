@@ -1,0 +1,15 @@
+name: Visual Pinball
+slug: visual-pinball
+year: 2000
+platforms:
+- name: Windows
+genres:
+- name: Pinball
+aliases: []
+banner_url: /games/banner/visual-pinball.jpg
+icon_url: null
+is_public: true
+updated: '2019-12-17T02:30:22.315552Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

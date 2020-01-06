@@ -1,0 +1,16 @@
+name: SOMA
+slug: soma
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Horror
+- name: Survival
+aliases: []
+banner_url: /games/banner/soma.jpg
+icon_url: /games/icon/soma.png
+is_public: true
+updated: '2019-01-23T08:31:17.861543Z'
+steamid: 282140
+gogslug: soma
+humblestoreid: ''

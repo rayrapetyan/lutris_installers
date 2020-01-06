@@ -1,0 +1,16 @@
+name: 'Star Trek: Alien Domain'
+slug: star-trek-alien-domain
+year: 2015
+platforms:
+- name: Browser
+genres:
+- name: Real-time strategy
+- name: Real-time tactics
+aliases: []
+banner_url: /games/banner/star-trek-alien-domain.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:24.938668Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

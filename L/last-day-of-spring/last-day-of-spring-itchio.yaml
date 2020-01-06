@@ -1,0 +1,31 @@
+id: 13256
+game_id: 27103
+game_slug: last-day-of-spring
+name: last day of spring
+year: 2019
+user: kimchitea
+runner: linux
+slug: last-day-of-spring-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2019-05-01T08:09:22.818000Z'
+updated_at: '2019-05-01T23:50:33.532162Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: springgame.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/springgame.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/springgame
+  - chmodx: $GAMEDIR/lib/linux-x86_64/springgame
+  files:
+  - file1: N/A:Please select the game archive

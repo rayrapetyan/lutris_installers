@@ -1,0 +1,34 @@
+id: 12504
+game_id: 14911
+game_slug: memoranda
+name: Memoranda
+year: 2017
+user: cxf
+runner: linux
+slug: memoranda-indiegala
+version: IndieGala
+description: null
+notes: ''
+created_at: '2019-03-25T04:11:25.114000Z'
+updated_at: '2019-03-25T04:13:25.814129Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 430410
+gogid: 1675237416
+gogslug: memoranda
+humblestoreid: ''
+script:
+  installer:
+  - execute:
+      command: 7z rn $zip $(7z l $zip | grep '\\' | awk '{ print $6, gensub(/\\/,
+        "/", "g", $6); }' | paste -s)
+  - extract:
+      dst: $GAMEDIR
+      file: zip
+  - chmodx: $GAMEDIR/runner
+  files:
+  - zip: N/A:Please select memoranda_lin.zip
+  game:
+    exe: $GAMEDIR/runner

@@ -1,0 +1,42 @@
+id: 9311
+game_id: 20113
+game_slug: tears-to-tiara
+name: Tears to Tiara
+year: 2005
+user: kimchitea
+runner: wine
+slug: tears-to-tiara-dvd-english-patch
+version: DVD + English patch
+description: null
+notes: ''
+created_at: '2018-07-21T11:02:14.283000Z'
+updated_at: '2019-10-28T20:35:51.068494Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: setup.exe
+      description: Insert the Tears to Tiara DVD
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  - task:
+      executable: patch
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  files:
+  - patch: http://dakkodango.com/files/ttt_english_v1.1.exe
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/Leaf/Tears to Tiara/TtT English.exe
+    arch: win32

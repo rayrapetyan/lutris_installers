@@ -1,0 +1,15 @@
+name: 'Street Fighter: The Movie'
+slug: street-fighter-the-movie
+year: 1995
+platforms:
+- name: Arcade
+genres:
+- name: Fighting
+aliases: []
+banner_url: /games/banner/street-fighter-the-movie.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:27.998652Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

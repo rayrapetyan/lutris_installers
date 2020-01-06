@@ -1,0 +1,23 @@
+id: 6348
+game_id: 14814
+game_slug: candy-box-2
+name: Candy Box 2
+year: 2013
+user: fanotriel
+runner: browser
+slug: candy-box-2-online
+version: Online
+description: null
+notes: ''
+created_at: '2017-11-16T17:04:10.864000Z'
+updated_at: '2017-11-17T00:15:36.077289Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://candybox2.github.io/

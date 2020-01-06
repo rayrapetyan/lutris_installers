@@ -1,0 +1,43 @@
+id: 11248
+game_id: 23215
+game_slug: knives-out-for-pc
+name: Knives Out
+year: 2018
+user: aggelalex
+runner: wine
+slug: knives-out-windows
+version: Windows
+description: Keyboard input not working
+notes: ''
+created_at: '2018-12-17T15:19:52.528000Z'
+updated_at: '2019-10-07T03:22:50.469336Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/hyxd/Engine/Binaries/Win32/hyxd.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2010 wininet
+      name: winetricks
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      name: wineexec
+  wine:
+    version: lutris-4.16-x86_64
+    overrides:
+      wininet: builtin,native
+  files:
+  - game: https://g83.gdl.netease.com/427390-hyxd-1.0.20-overseas-setup.exe

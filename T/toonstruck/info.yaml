@@ -1,0 +1,16 @@
+name: Toonstruck
+slug: toonstruck
+year: 1996
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/toonstruck.jpg
+icon_url: /games/icon/toonstruck.png
+is_public: true
+updated: '2019-12-15T18:22:01.938332Z'
+steamid: 369830
+gogslug: toonstruck
+humblestoreid: ''

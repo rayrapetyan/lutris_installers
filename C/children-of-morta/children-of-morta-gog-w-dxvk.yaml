@@ -1,0 +1,96 @@
+id: 15445
+game_id: 21767
+game_slug: children-of-morta
+name: Children of Morta
+year: null
+user: alinmear
+runner: wine
+slug: children-of-morta-gog-w-dxvk
+version: GOG w/ DXVK
+description: null
+notes: ''
+created_at: '2019-09-10T15:35:43.444000Z'
+updated_at: '2019-10-28T00:16:50.553398Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 330020
+gogid: 1774901766
+gogslug: children_of_morta
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: mf
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      component: mediafoundation
+      arch: win64
+      cabfile: $HOME/.cache/winetricks/win7sp1/windows6.1-KB976932-X64.exe
+      name: install_cab_component
+  - task:
+      prefix: $GAMEDIR
+      component: mf_
+      arch: win64
+      cabfile: $HOME/.cache/winetricks/win7sp1/windows6.1-KB976932-X64.exe
+      name: install_cab_component
+  - task:
+      prefix: $GAMEDIR
+      component: mfreadwrite
+      arch: win64
+      cabfile: $HOME/.cache/winetricks/win7sp1/windows6.1-KB976932-X64.exe
+      name: install_cab_component
+  - task:
+      prefix: $GAMEDIR
+      component: wmadmod
+      arch: win64
+      cabfile: $HOME/.cache/winetricks/win7sp1/windows6.1-KB976932-X64.exe
+      name: install_cab_component
+  - task:
+      prefix: $GAMEDIR
+      component: wmvdecod
+      arch: win64
+      cabfile: $HOME/.cache/winetricks/win7sp1/windows6.1-KB976932-X64.exe
+      name: install_cab_component
+  - task:
+      prefix: $GAMEDIR
+      app: xact
+      arch: win64
+      name: winetricks
+  - task:
+      executable: goginstaller
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES /NOCANCEL
+      description: Installing Children of Morta
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: win7
+      arch: win64
+      name: winetricks
+  - move:
+      src: mfplat_dll
+      dst: $GAMEDIR/drive_c/GOG Games/Children of Morta
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Children of Morta/ChildrenOfMorta.exe
+    arch: win64
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: compiler
+      __GL_SHADER_DISK_CACHE: 1
+  wine:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  files:
+  - goginstaller: N/A:Select the installer downloaded from GOG
+  - mfplat_dll: https://lutris.net/files/tools/dll/mfplat/x64/mfplat.dll

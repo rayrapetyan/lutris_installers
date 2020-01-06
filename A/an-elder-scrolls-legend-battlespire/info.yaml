@@ -1,0 +1,16 @@
+name: 'An Elder Scrolls Legend: Battlespire'
+slug: an-elder-scrolls-legend-battlespire
+year: 1997
+platforms:
+- name: MS-DOS
+genres:
+- name: Action
+- name: RPG
+aliases: []
+banner_url: /games/banner/an-elder-scrolls-legend-battlespire.jpg
+icon_url: /games/icon/an-elder-scrolls-legend-battlespire.png
+is_public: true
+updated: '2019-01-23T08:28:21.785168Z'
+steamid: null
+gogslug: an_elder_scrolls_legend_battlespire
+humblestoreid: ''

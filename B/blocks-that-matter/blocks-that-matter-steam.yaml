@@ -1,0 +1,24 @@
+id: 527
+game_id: 2056
+game_slug: blocks-that-matter
+name: Blocks That Matter
+year: 2011
+user: dennisjj4
+runner: steam
+slug: blocks-that-matter-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2014-08-09T10:24:20.236000Z'
+updated_at: '2014-08-09T10:24:56.563000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 111800
+gogid: 1207665193
+gogslug: blocks_that_matter
+humblestoreid: ''
+script:
+  game:
+    appid: 111800

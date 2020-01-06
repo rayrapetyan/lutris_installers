@@ -1,0 +1,16 @@
+name: Stellaris
+slug: stellaris
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: 4X
+- name: Strategy
+aliases: []
+banner_url: /games/banner/stellaris.jpg
+icon_url: /games/icon/stellaris.png
+is_public: true
+updated: '2019-01-23T08:31:26.794999Z'
+steamid: 281990
+gogslug: stellaris
+humblestoreid: ''

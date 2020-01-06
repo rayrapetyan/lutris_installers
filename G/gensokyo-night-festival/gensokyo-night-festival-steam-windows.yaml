@@ -1,0 +1,38 @@
+id: 17571
+game_id: 30875
+game_slug: gensokyo-night-festival
+name: Gensokyo Night Festival
+year: null
+user: Tudi20
+runner: winesteam
+slug: gensokyo-night-festival-steam-windows
+version: Steam (Windows)
+description: null
+notes: ''
+created_at: '2019-12-26T05:15:53.532395Z'
+updated_at: '2019-12-26T05:15:53.532421Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 1122050
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    WineDesktop: 1024x768
+    overrides:
+      ddraw.dll: n
+    Desktop: true
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Setting up wine prefix
+      arch: win64
+      name: create_prefix
+  game:
+    prefix: $GAMEDIR/prefix
+    args: --some-args
+    appid: 1122050
+    arch: win64

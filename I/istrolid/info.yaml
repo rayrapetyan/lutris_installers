@@ -1,0 +1,16 @@
+name: Istrolid
+slug: istrolid
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Building
+- name: Strategy
+aliases: []
+banner_url: /games/banner/istrolid.jpg
+icon_url: /games/icon/istrolid.png
+is_public: true
+updated: '2019-12-22T18:06:58.527261Z'
+steamid: 449140
+gogslug: ''
+humblestoreid: ''

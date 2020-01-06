@@ -1,0 +1,33 @@
+id: 16178
+game_id: 19439
+game_slug: space-rogue
+name: Space Rogue
+year: 2016
+user: cxf
+runner: winesteam
+slug: space-rogue-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-10-14T03:23:39.735476Z'
+updated_at: '2019-10-14T03:23:45.028403Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 364300
+gogid: 1383775419
+gogslug: space_rogue
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2010 dotnet40 win7
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 364300

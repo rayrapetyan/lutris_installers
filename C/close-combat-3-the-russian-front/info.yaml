@@ -1,0 +1,17 @@
+name: 'Close Combat 3: The Russian Front'
+slug: close-combat-3-the-russian-front
+year: 1999
+platforms:
+- name: Windows
+genres:
+- name: Historical
+- name: Real-time
+- name: Strategy
+aliases: []
+banner_url: /games/banner/close-combat-3-the-russian-front.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:54.514115Z'
+steamid: null
+gogslug: close_combat_3_the_russian_front
+humblestoreid: ''

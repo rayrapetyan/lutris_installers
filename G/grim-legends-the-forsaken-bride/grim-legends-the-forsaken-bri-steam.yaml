@@ -1,0 +1,24 @@
+id: 1950
+game_id: 3296
+game_slug: grim-legends-the-forsaken-bride
+name: 'Grim Legends: The Forsaken Bride'
+year: null
+user: WildCoder
+runner: steam
+slug: grim-legends-the-forsaken-bri-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-01-31T15:09:13.565805Z'
+updated_at: '2016-02-02T14:14:47.459597Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 284850
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 284850

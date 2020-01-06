@@ -1,0 +1,17 @@
+name: 'Enemy Engaged: Apache vs Havoc'
+slug: enemy-engaged-apache-vs-havoc
+year: 1998
+platforms:
+- name: Windows
+genres:
+- name: FPP
+- name: Simulation
+- name: Tactical
+aliases: []
+banner_url: /games/banner/enemy-engaged-apache-vs-havoc.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:23.395008Z'
+steamid: null
+gogslug: apache_vs_havoc
+humblestoreid: ''

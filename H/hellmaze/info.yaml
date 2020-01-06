@@ -1,0 +1,16 @@
+name: HellMaze
+slug: hellmaze
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Casual
+aliases: []
+banner_url: /games/banner/hellmaze.jpg
+icon_url: /games/icon/hellmaze.png
+is_public: true
+updated: '2019-01-23T08:29:48.791934Z'
+steamid: 882260
+gogslug: ''
+humblestoreid: ''

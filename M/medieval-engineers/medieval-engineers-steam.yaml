@@ -1,0 +1,57 @@
+id: 9832
+game_id: 4242
+game_slug: medieval-engineers
+name: Medieval Engineers
+year: null
+user: Holston
+runner: winesteam
+slug: medieval-engineers-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-21T06:35:28.092000Z'
+updated_at: '2018-08-22T16:53:28.635184Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 333950
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-3.11-x86_64
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing corefonts. This will take a while...
+      app: corefonts
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing corefonts. This will take a while...
+      app: vcrun2017
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing corefonts. This will take a while...
+      app: dotnet40
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing corefonts. This will take a while...
+      app: dotnet46
+      arch: win64
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 333950
+    arch: win64

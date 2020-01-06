@@ -1,0 +1,16 @@
+name: Final Doom
+slug: final-doom
+year: 1996
+platforms:
+- name: Linux
+- name: Sony PlayStation
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/final-doom.jpg
+icon_url: /games/icon/final-doom.png
+is_public: true
+updated: '2019-01-23T08:29:30.645627Z'
+steamid: 2290
+gogslug: ''
+humblestoreid: ''

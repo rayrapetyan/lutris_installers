@@ -1,0 +1,16 @@
+name: Z.A.R.
+slug: zar
+year: 1998
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+aliases: []
+banner_url: /games/banner/zar.jpg
+icon_url: /games/icon/zar.png
+is_public: true
+updated: '2019-10-11T02:16:50.144867Z'
+steamid: 351820
+gogslug: ''
+humblestoreid: ''

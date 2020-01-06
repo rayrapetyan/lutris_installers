@@ -1,0 +1,32 @@
+id: 2107
+game_id: 3098
+game_slug: akane-the-kunoichi
+name: Akane the Kunoichi
+year: 2014
+user: strider
+runner: winesteam
+slug: akane-the-kunoichi-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-06-15T04:40:49.722832Z'
+updated_at: '2016-06-15T04:42:43.494816Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 291130
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing .NET 4.0
+      app: dotnet40
+      silent: true
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 291130

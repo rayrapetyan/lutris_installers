@@ -1,0 +1,31 @@
+id: 4097
+game_id: 4209
+game_slug: crowntakers
+name: Crowntakers
+year: 2014
+user: FakeShemp
+runner: linux
+slug: crowntakers-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-04T16:32:33.092716Z'
+updated_at: '2017-06-04T22:15:50.939578Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 294370
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Crowntakers.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Crowntakers.x86
+  - chmodx: $GAMEDIR/Crowntakers.x86_64
+  exe64: Crowntakers.x86_64
+  files:
+  - file1: N/A:Please select the Humble archive

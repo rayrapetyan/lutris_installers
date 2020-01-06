@@ -1,0 +1,33 @@
+id: 11303
+game_id: 6033
+game_slug: star-wars-episode-i-racer
+name: 'Star Wars Episode I: Racer'
+year: 1999
+user: Non0w
+runner: wine
+slug: star-wars-episode-i-racer-gog
+version: GOG
+description: null
+notes: The script use GUI installation because using innoextract or silent option
+  for gog installer don't work
+created_at: '2018-12-22T13:22:36.930000Z'
+updated_at: '2018-12-23T02:54:08.648019Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: 1288119483
+gogslug: star_wars_episode_i_racer
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - setup: N/A:Select the Windows setup file downloaded from GOG
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/STAR WARS Racer/SWEP1RCR.EXE

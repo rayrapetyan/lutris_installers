@@ -1,0 +1,28 @@
+id: 28
+game_id: 42
+game_slug: maniadrive
+name: ManiaDrive
+year: 2006
+user: strider
+runner: linux
+slug: maniadrive-12
+version: '1.2'
+description: ''
+notes: ''
+created_at: '2013-06-29T14:07:36Z'
+updated_at: '2014-01-27T14:17:44.880000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: mania_drive.sh
+  installer:
+  - extract:
+      file: mania-drive-game
+  files:
+  - mania-drive-game: http://garr.dl.sourceforge.net/project/maniadrive/maniadrive/1.2/ManiaDrive-1.2-linux-i386.tar.gz

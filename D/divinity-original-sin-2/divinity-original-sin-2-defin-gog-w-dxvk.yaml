@@ -1,0 +1,47 @@
+id: 8954
+game_id: 8935
+game_slug: divinity-original-sin-2
+name: 'Divinity: Original Sin 2 - Definitive Edition'
+year: 2016
+user: cxf
+runner: wine
+slug: divinity-original-sin-2-defin-gog-w-dxvk
+version: GOG w/ DXVK
+description: Requires D:OS2 files from GOG for setup.
+notes: 'After installing the game, you can install the DLC (Sir Iora the Squirrel
+  Companion) by first downloading it and then executing it in the wine prefix (right
+  click on Divinity: Original Sin 2 in Lutris and click on "Run EXE inside Wine prefix"
+  and select the DLC installer.'
+created_at: '2018-06-30T03:52:12.379000Z'
+updated_at: '2019-10-14T01:33:30.840352Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 435150
+gogid: 1584823040
+gogslug: divinity_original_sin_2
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /SP- /NOCANCEL /SUPPRESSMSGBOXES
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Divinity - Original Sin 2/DefEd/bin/EoCApp.exe
+    arch: win64
+  system:
+    env:
+      DXVK_HUD: compiler
+  wine:
+    overrides:
+      xaudio2_7: native
+    dxvk: true
+  files:
+  - setup: 'N/A: Please select the setup.exe downloaded from GOG.com'

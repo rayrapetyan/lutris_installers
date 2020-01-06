@@ -1,0 +1,56 @@
+id: 10850
+game_id: 852
+game_slug: dungeons-dragons-online
+name: "Dungeons & Dragons Online\xAE"
+year: null
+user: vfreeze_31
+runner: wine
+slug: dungeons-dragons-online-standalone-w-dxvk
+version: Standalone w/ DXVK
+description: null
+notes: ''
+created_at: '2018-11-12T13:16:37.982000Z'
+updated_at: '2019-02-14T05:55:03.971103Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 206480
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: win7
+      name: winetricks
+  - merge:
+      src: setup
+      dst: $GAMEDIR/drive_c/Program Files (x86)/StandingStoneGames/Dungeons & Dragons
+        Online
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Installing Dungeons & Dragons
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/StandingStoneGames/Dungeons & Dragons Online/TurbineLauncher.exe
+    arch: win64
+  system:
+    env:
+      DXVK_HUD: 0
+    reset_pulse: true
+    pulse_latency: true
+  wine:
+    version: tkg-4.0-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - setup: http://content.turbine.com/sites/clientdl/ddo/ddolive.exe

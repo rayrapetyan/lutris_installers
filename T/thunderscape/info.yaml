@@ -1,0 +1,17 @@
+name: Thunderscape
+slug: thunderscape
+year: 1995
+platforms:
+- name: Windows
+genres:
+- name: Fantasy
+- name: Role-playing
+- name: Turn-based
+aliases: []
+banner_url: /games/banner/thunderscape.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:50.054365Z'
+steamid: null
+gogslug: thunderscape
+humblestoreid: ''

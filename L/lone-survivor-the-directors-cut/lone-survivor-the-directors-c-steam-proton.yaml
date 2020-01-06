@@ -1,0 +1,24 @@
+id: 13417
+game_id: 278
+game_slug: lone-survivor-the-directors-cut
+name: 'Lone Survivor: The Director''s Cut'
+year: 2013
+user: marciocr
+runner: steam
+slug: lone-survivor-the-directors-c-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-05-09T15:21:29.564000Z'
+updated_at: '2019-05-19T07:06:00.155875Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 209830
+gogid: 1207660084
+gogslug: lone_survivor_directors_cut
+humblestoreid: ''
+script:
+  game:
+    appid: 209830

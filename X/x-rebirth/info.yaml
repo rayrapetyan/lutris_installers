@@ -1,0 +1,15 @@
+name: X Rebirth
+slug: x-rebirth
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Space flight
+aliases: []
+banner_url: /games/banner/x-rebirth.jpg
+icon_url: /games/icon/x-rebirth.png
+is_public: true
+updated: '2019-01-23T08:32:12.695260Z'
+steamid: 2870
+gogslug: x_rebirth
+humblestoreid: ''

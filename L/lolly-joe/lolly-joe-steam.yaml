@@ -1,0 +1,24 @@
+id: 4891
+game_id: 6896
+game_slug: lolly-joe
+name: Lolly Joe
+year: null
+user: FakeShemp
+runner: steam
+slug: lolly-joe-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-07-07T17:49:06.394369Z'
+updated_at: '2017-07-09T20:03:13.872803Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 436060
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 436060

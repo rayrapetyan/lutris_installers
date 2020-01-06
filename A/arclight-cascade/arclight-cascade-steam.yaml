@@ -1,0 +1,24 @@
+id: 8241
+game_id: 10110
+game_slug: arclight-cascade
+name: Arclight Cascade
+year: null
+user: soredake
+runner: winesteam
+slug: arclight-cascade-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T07:36:22.684481Z'
+updated_at: '2018-05-11T22:46:30.054436Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 391210
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 391210

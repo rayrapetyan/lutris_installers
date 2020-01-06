@@ -1,0 +1,36 @@
+id: 17125
+game_id: 30603
+game_slug: heroes-chronicles-all-chapters
+name: 'Heroes Chronicles: All Chapters'
+year: 1993
+user: edjaa84
+runner: wine
+slug: heroes-chronicles-all-chapter-gog-warlords-of-the-
+version: GOG Warlords of the Wastelands
+description: "Heroes Chronicles: Warlords of the Wastelands + Full Installation\r\n\
+  \r\nRaPiMoDEBianPaKaGer"
+notes: Para obtener los accesos directos a las expansiones puedes hacerlo manualmente
+  o instalarlos desde el mismo lutris, solo deberas configurarlo adecuadamente.
+created_at: '2019-12-01T00:38:49.381979Z'
+updated_at: '2019-12-01T00:38:49.382004Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the GOG installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Heroes Chronicles/Warlords of the Wasteland/Warlords.exe
+    working_dir: $GAMEDIR/drive_c/GOG Games/Heroes Chronicles/Warlords of the Wasteland/
+    arch: win64

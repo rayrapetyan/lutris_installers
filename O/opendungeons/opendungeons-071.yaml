@@ -1,0 +1,33 @@
+id: 2821
+game_id: 3720
+game_slug: opendungeons
+name: OpenDungeons
+year: 2015
+user: Cronyk
+runner: linux
+slug: opendungeons-071
+version: 0.7.1
+description: ''
+notes: Requires 64bit X11 and GL libraries installed on the system (should be there
+  by default on most 64bit Linux installations).
+created_at: '2016-10-01T10:27:09.565097Z'
+updated_at: '2016-10-02T15:07:20.698196Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: opendungeons.x86_64
+  installer:
+  - extract:
+      file: game
+  - extract:
+      dst: $GAMEDIR/lib
+      file: pcre
+  files:
+  - game: https://lutris.net/files/games/opendungeons/OpenDungeons-0.7.1-Linux64.tar.gz
+  - pcre: https://lutris.net/files/lib64/libpcre.so.1.gz

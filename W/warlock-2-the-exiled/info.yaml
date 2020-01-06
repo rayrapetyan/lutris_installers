@@ -1,0 +1,16 @@
+name: 'Warlock 2: the Exiled'
+slug: warlock-2-the-exiled
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: 4X
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/warlock-2-the-exiled.jpg
+icon_url: /games/icon/warlock-2-the-exiled.png
+is_public: true
+updated: '2019-08-17T07:07:28.721720Z'
+steamid: 205990
+gogslug: ''
+humblestoreid: ''

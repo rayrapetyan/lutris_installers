@@ -1,0 +1,28 @@
+id: 4081
+game_id: 295
+game_slug: rochard
+name: Rochard
+year: 2011
+user: FakeShemp
+runner: linux
+slug: rochard-humble-64bit
+version: Humble (64bit)
+description: ''
+notes: ''
+created_at: '2017-06-03T14:16:23.991872Z'
+updated_at: '2017-06-04T22:13:51.282859Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 107800
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Rochard
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

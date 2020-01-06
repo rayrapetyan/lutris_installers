@@ -1,0 +1,25 @@
+id: 16733
+game_id: 17170
+game_slug: counter-strike-global-offensive-sdk
+name: 'Counter Strike: Global Offensive SDK'
+year: 2012
+user: Sentry
+runner: steam
+slug: counter-strike-global-offensi-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-11-09T21:38:07.279000Z'
+updated_at: '2019-11-16T09:08:36.285434Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: counter-strike-global-offensiv-linux-steam
+  game:
+    appid: 745

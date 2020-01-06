@@ -1,0 +1,16 @@
+name: Hale
+slug: hale
+year: 2011
+platforms:
+- name: Linux
+genres:
+- name: RPG
+- name: Turn-based tactics
+aliases: []
+banner_url: /games/banner/hale.jpg
+icon_url: /games/icon/hale.png
+is_public: true
+updated: '2019-01-23T08:29:45.865909Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

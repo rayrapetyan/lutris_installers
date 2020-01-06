@@ -1,0 +1,24 @@
+id: 16405
+game_id: 6114
+game_slug: mad-games-tycoon
+name: Mad Games Tycoon
+year: null
+user: Ripolak
+runner: steam
+slug: mad-games-tycoon-steam-proton
+version: Steam Proton
+description: null
+notes: Install corefonts to make text in the menus appear.
+created_at: '2019-10-25T18:30:45.275000Z'
+updated_at: '2019-10-26T21:34:01.930393Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 341000
+gogid: 1814585271
+gogslug: mad_games_tycoon
+humblestoreid: ''
+script:
+  game:
+    appid: 341000

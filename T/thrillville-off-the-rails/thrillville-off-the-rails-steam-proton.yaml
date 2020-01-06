@@ -1,0 +1,24 @@
+id: 16505
+game_id: 8346
+game_slug: thrillville-off-the-rails
+name: 'Thrillville: Off the Rails'
+year: null
+user: Zekromaster
+runner: steam
+slug: thrillville-off-the-rails-steam-proton
+version: Steam Proton
+description: null
+notes: Use Steam Play
+created_at: '2019-10-31T13:51:27.171000Z'
+updated_at: '2019-10-31T22:06:09.276176Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 6080
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 6080

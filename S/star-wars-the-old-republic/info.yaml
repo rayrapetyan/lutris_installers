@@ -1,0 +1,15 @@
+name: 'Star Wars: The Old Republic'
+slug: star-wars-the-old-republic
+year: 2011
+platforms:
+- name: Windows
+genres:
+- name: MMO
+aliases: []
+banner_url: /games/banner/star-wars-the-old-republic.jpg
+icon_url: /games/icon/star-wars-the-old-republic.png
+is_public: true
+updated: '2019-03-28T02:48:50.446105Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

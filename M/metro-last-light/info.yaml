@@ -1,0 +1,15 @@
+name: 'Metro: Last Light'
+slug: metro-last-light
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/metro-last-light.jpg
+icon_url: /games/icon/metro-last-light.png
+is_public: true
+updated: '2019-01-23T08:30:22.592426Z'
+steamid: 43160
+gogslug: ''
+humblestoreid: ''

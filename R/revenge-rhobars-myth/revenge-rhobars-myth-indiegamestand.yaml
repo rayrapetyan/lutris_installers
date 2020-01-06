@@ -1,0 +1,37 @@
+id: 4328
+game_id: 4709
+game_slug: revenge-rhobars-myth
+name: 'Revenge: Rhobar''s myth'
+year: null
+user: FakeShemp
+runner: wine
+slug: revenge-rhobars-myth-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-06-13T12:23:54.101000Z'
+updated_at: '2018-05-19T03:41:52.022489Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 324270
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      app: dotnet40
+      name: winetricks
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the IndieGameStand installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Revenge Rhobar's myth/RevengeLauncher.exe
+    arch: win32

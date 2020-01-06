@@ -1,0 +1,20 @@
+name: Lands of Lore III
+slug: lands-of-lore-iii
+year: 1999
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Fantasy
+- name: FPP
+- name: RPG
+aliases:
+- slug: lands-of-lore-3
+  name: Lands of Lore 3
+banner_url: /games/banner/lands-of-lore-iii.jpg
+icon_url: null
+is_public: true
+updated: '2019-05-19T05:46:31.349988Z'
+steamid: null
+gogslug: lands_of_lore_3
+humblestoreid: ''

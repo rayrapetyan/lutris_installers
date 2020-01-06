@@ -1,0 +1,16 @@
+name: Costume Quest
+slug: costume-quest
+year: 2010
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/costume-quest.jpg
+icon_url: /games/icon/costume-quest.png
+is_public: true
+updated: '2019-01-23T08:28:58.720246Z'
+steamid: 115100
+gogslug: costume_quest
+humblestoreid: costume-quest

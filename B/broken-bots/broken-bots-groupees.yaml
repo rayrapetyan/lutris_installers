@@ -1,0 +1,32 @@
+id: 6058
+game_id: 5057
+game_slug: broken-bots
+name: Broken Bots
+year: null
+user: FakeShemp
+runner: wine
+slug: broken-bots-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-10-22T11:55:09.062197Z'
+updated_at: '2018-05-19T03:41:57.928466Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 366620
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Broken Bots
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Broken Bots/brokenbots.exe
+    arch: win32

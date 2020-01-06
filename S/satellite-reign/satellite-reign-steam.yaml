@@ -1,0 +1,24 @@
+id: 1542
+game_id: 4325
+game_slug: satellite-reign
+name: Satellite Reign
+year: 2015
+user: Xodetaetl
+runner: steam
+slug: satellite-reign-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-05-19T16:03:26.378000Z'
+updated_at: '2015-06-01T17:41:29.302000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 268870
+gogid: 1428054996
+gogslug: satellite_reign
+humblestoreid: ''
+script:
+  game:
+    appid: 268870

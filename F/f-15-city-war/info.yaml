@@ -1,0 +1,16 @@
+name: F-15 City War
+slug: f-15-city-war
+year: 1990
+platforms:
+- name: NES
+genres:
+- name: Flight
+- name: Shooter
+aliases: []
+banner_url: /games/banner/f-15-city-war.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:27.214177Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

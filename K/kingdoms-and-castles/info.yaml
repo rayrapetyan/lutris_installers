@@ -1,0 +1,19 @@
+name: Kingdoms and Castles
+slug: kingdoms-and-castles
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Building
+- name: City building
+- name: Fantasy
+- name: Simulation
+- name: Strategy
+aliases: []
+banner_url: /games/banner/kingdoms-and-castles.jpg
+icon_url: /games/icon/kingdoms-and-castles.png
+is_public: true
+updated: '2019-01-23T08:30:04.043041Z'
+steamid: 569480
+gogslug: kingdoms_castles
+humblestoreid: ''

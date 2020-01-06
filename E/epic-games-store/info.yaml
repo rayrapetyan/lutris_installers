@@ -1,0 +1,17 @@
+name: Epic Games Store
+slug: epic-games-store
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Tool
+aliases:
+- slug: epic-games-launcher
+  name: Epic Games Launcher
+banner_url: /games/banner/epic-games-store.jpg
+icon_url: /games/icon/epic-games-store.png
+is_public: true
+updated: '2019-04-16T06:12:12.084673Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

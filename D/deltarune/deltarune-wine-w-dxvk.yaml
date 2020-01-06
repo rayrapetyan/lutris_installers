@@ -1,0 +1,64 @@
+id: 10712
+game_id: 23054
+game_slug: deltarune
+name: Deltarune
+year: 2018
+user: zeioth
+runner: wine
+slug: deltarune-wine-w-dxvk
+version: Wine w/ DXVK
+description: 'Download required: <a href="https://www.deltarune.com/">https://www.deltarune.com/</a>'
+notes: "Set up Vulkan first: <a href=\"https://github.com/lutris/lutris/wiki/How-to:-DXVK\"\
+  >Click here for a how-to guide.</a>\r\n\r\nUses DXVK to make game run at normal\
+  \ speed.\r\n\r\nPress Alt+Enter for fullscreen."
+created_at: '2018-11-01T06:22:44.577000Z'
+updated_at: '2019-04-20T18:44:08.247583Z'
+draft: false
+published: true
+published_by: 19464
+rating: '5'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2015 win7
+      arch: win32
+      name: winetricks
+  - write_file:
+      content: '$PLUGINSDIR
+
+        $TEMP'
+      file: $CACHE/exclude.txt
+  - execute:
+      command: 7z x -x@"$CACHE/exclude.txt" "$CACHE/installer/SURVEY_PROGRAM_WINDOWS_ENGLISH.exe"
+        -o"$GAMEDIR/drive_c/Program Files/SURVEY_PROGRAM"
+  - write_config:
+      section: fps-cap
+      key: dxgi.syncInterval
+      value: 2
+      file: $GAMEDIR/dxvk.conf
+  - write_config:
+      section: fps-cap
+      key: dxgi.numBackBuffers
+      value: 4
+      file: $GAMEDIR/dxvk.conf
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/SURVEY_PROGRAM/DELTARUNE.exe
+    arch: win32
+  system:
+    fps_limit: '30'
+  wine:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  files:
+  - installer: https://fangamer-store.sfo2.digitaloceanspaces.com/SURVEY_PROGRAM_WINDOWS_ENGLISH.exe

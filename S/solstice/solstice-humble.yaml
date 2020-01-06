@@ -1,0 +1,33 @@
+id: 4141
+game_id: 7892
+game_slug: solstice
+name: Solstice
+year: null
+user: FakeShemp
+runner: wine
+slug: solstice-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-05T18:31:41.448000Z'
+updated_at: '2018-05-19T03:41:52.520638Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 317280
+gogid: 1803808607
+gogslug: solstice
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Solstice/Solstice.exe
+    arch: win32

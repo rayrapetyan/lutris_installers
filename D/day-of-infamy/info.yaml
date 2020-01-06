@@ -1,0 +1,19 @@
+name: Day of Infamy
+slug: day-of-infamy
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: FPS
+- name: Shooter
+- name: Simulation
+- name: Strategy
+aliases: []
+banner_url: /games/banner/day-of-infamy.jpg
+icon_url: /games/icon/day-of-infamy.png
+is_public: true
+updated: '2019-01-23T08:29:05.683678Z'
+steamid: 447820
+gogslug: ''
+humblestoreid: ''

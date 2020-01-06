@@ -1,0 +1,17 @@
+name: 'A.I.R.: Anti-Intruder Rangers'
+slug: air-anti-intruder-rangers
+year: 1987
+platforms:
+- name: PC-98
+genres:
+- name: Action
+aliases:
+- slug: air
+  name: AIR
+banner_url: /games/banner/air-anti-intruder-rangers.jpg
+icon_url: null
+is_public: true
+updated: '2019-06-25T05:57:30.390906Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

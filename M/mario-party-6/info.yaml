@@ -1,0 +1,17 @@
+name: Mario Party 6
+slug: mario-party-6
+year: 2004
+platforms:
+- name: GameCube
+genres:
+- name: Board
+- name: Casual
+- name: Turn-based
+aliases: []
+banner_url: /games/banner/mario-party-6.jpg
+icon_url: null
+is_public: true
+updated: '2019-07-31T05:35:10.037531Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

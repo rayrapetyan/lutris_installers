@@ -1,0 +1,24 @@
+id: 13991
+game_id: 13608
+game_slug: starlight-vega
+name: Starlight Vega
+year: 2016
+user: kimchitea
+runner: steam
+slug: starlight-vega-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-06-08T10:08:05.979054Z'
+updated_at: '2019-06-13T06:45:27.072081Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 377690
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 377690

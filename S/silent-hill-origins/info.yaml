@@ -1,0 +1,17 @@
+name: 'Silent Hill: Origins'
+slug: silent-hill-origins
+year: 2007
+platforms:
+- name: Sony PlayStation 2
+- name: Sony PSP
+genres:
+- name: Horror
+- name: Survival
+aliases: []
+banner_url: /games/banner/silent-hill-origins.jpg
+icon_url: /games/icon/silent-hill-origins.png
+is_public: true
+updated: '2019-10-07T03:50:01.194013Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

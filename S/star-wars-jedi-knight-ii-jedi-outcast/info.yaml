@@ -1,0 +1,15 @@
+name: 'Star Wars Jedi Knight II: Jedi Outcast'
+slug: star-wars-jedi-knight-ii-jedi-outcast
+year: 2002
+platforms:
+- name: Linux
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/star-wars-jedi-knight-ii-jedi-outcast.jpg
+icon_url: /games/icon/star-wars-jedi-knight-ii-jedi-outcast.png
+is_public: true
+updated: '2019-01-23T08:31:25.594170Z'
+steamid: 6030
+gogslug: star_wars_jedi_knight_ii_jedi_outcast
+humblestoreid: ''

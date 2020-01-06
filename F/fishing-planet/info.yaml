@@ -1,0 +1,16 @@
+name: Fishing Planet
+slug: fishing-planet
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Casual
+- name: Simulation
+aliases: []
+banner_url: /games/banner/fishing-planet.jpg
+icon_url: /games/icon/fishing-planet.png
+is_public: true
+updated: '2019-01-23T08:29:31.620721Z'
+steamid: 380600
+gogslug: ''
+humblestoreid: ''

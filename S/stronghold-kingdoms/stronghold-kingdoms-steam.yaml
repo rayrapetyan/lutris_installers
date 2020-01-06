@@ -1,0 +1,24 @@
+id: 6010
+game_id: 676
+game_slug: stronghold-kingdoms
+name: Stronghold Kingdoms
+year: 2012
+user: Frankiva
+runner: winesteam
+slug: stronghold-kingdoms-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-10-19T23:03:48.808750Z'
+updated_at: '2017-10-27T06:09:46.549095Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 47410
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 47410

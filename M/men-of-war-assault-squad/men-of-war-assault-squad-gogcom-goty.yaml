@@ -1,0 +1,46 @@
+id: 2655
+game_id: 1089
+game_slug: men-of-war-assault-squad
+name: 'Men of War: Assault Squad'
+year: null
+user: ssf
+runner: wine
+slug: men-of-war-assault-squad-gogcom-goty
+version: GOG.com - GOTY
+description: GOG.com GOTY upgrade
+notes: ''
+created_at: '2016-08-31T20:08:28.896762Z'
+updated_at: '2016-09-30T21:16:03.594036Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 64000
+gogid: 1428580803
+gogslug: men_of_war_assault_squad
+humblestoreid: ''
+script:
+  requires: men-of-war-assault-squad-gogcom
+  gogid: men_of_war_assault_squad_goty_edition_upgrade
+  installer:
+  - execute:
+      args: -c 'ln -s $game $GAMEDIR/drive_c/goty.exe'
+      file: /bin/sh
+      terminal: false
+  - task:
+      executable: $GAMEDIR/drive_c/goty.exe
+      prefix: $GAMEDIR
+      args: /VERYSILENT /SP- /NOCANCEL /SUPPRESSMSGBOXES
+      description: Installing...
+      name: wineexec
+  - execute:
+      args: -c 'rm -f $GAMEDIR/drive_c/goty.exe'
+      file: /bin/sh
+      terminal: false
+  files:
+  - game: N/A:Please select the GOG.com Windows GOTY installer.
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/game/mow_assault_squad.exe
+    working_dir: $GAMEDIR/drive_c/game
+    arch: win32

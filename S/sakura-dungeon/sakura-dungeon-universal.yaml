@@ -1,0 +1,29 @@
+id: 6960
+game_id: 9709
+game_slug: sakura-dungeon
+name: Sakura Dungeon
+year: 2016
+user: FakeShemp
+runner: linux
+slug: sakura-dungeon-universal
+version: Universal
+description: 'Adult patch downloaded from: https://we.tl/EGJuqaTyOd'
+notes: ''
+created_at: '2018-01-02T14:40:56.272203Z'
+updated_at: '2018-01-02T14:43:27.629545Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 407330
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: sakura-dungeon
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR/game
+  files:
+  - file1: N/A:Please select the patch

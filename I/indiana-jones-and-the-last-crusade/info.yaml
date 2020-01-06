@@ -1,0 +1,18 @@
+name: Indiana Jones and the Last Crusade
+slug: indiana-jones-and-the-last-crusade
+year: 1989
+platforms:
+- name: Amiga
+- name: Linux
+- name: MS-DOS
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/indiana-jones-and-the-last-crusade.jpg
+icon_url: /games/icon/indiana-jones-and-the-last-crusade.png
+is_public: true
+updated: '2019-01-23T08:29:56.164972Z'
+steamid: 32310
+gogslug: indiana_jones_and_the_last_crusade
+humblestoreid: ''

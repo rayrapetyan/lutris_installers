@@ -1,0 +1,45 @@
+id: 9931
+game_id: 3932
+game_slug: hyperdimension-neptunia-rebirth1
+name: Hyperdimension Neptunia Re;Birth1
+year: 2015
+user: Nobu
+runner: wine
+slug: hyperdimension-neptunia-rebir-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2018-08-28T23:58:14.583000Z'
+updated_at: '2018-09-18T07:01:23.544925Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 282900
+gogid: 1445338941
+gogslug: hyperdimension_neptunia_rebirth1
+humblestoreid: ''
+script:
+  task:
+    prefix: $GAMEDIR
+    app: xact devenum quartz wmp10
+    arch: win32
+    name: winetricks
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      description: Installing...
+      arch: win32
+      args: /SUPPRESSMSGBOXES '/DIR=C:/game'
+      name: wineexec
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/game/NeptuniaReBirth1.exe

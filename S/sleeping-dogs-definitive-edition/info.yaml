@@ -1,0 +1,16 @@
+name: 'Sleeping Dogs: Definitive Edition'
+slug: sleeping-dogs-definitive-edition
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/sleeping-dogs-definitive-edition.jpg
+icon_url: /games/icon/sleeping-dogs-definitive-edition.png
+is_public: true
+updated: '2019-01-23T08:31:15.569587Z'
+steamid: 307690
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 13899
+game_id: 15973
+game_slug: con-amore
+name: Con Amore
+year: 2015
+user: kimchitea
+runner: steam
+slug: con-amore-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-06-03T04:18:58.101642Z'
+updated_at: '2019-06-13T06:23:36.337508Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 486230
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 486230

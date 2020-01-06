@@ -1,0 +1,17 @@
+name: 'The Legend of Kyrandia: Book One'
+slug: the-legend-of-kyrandia-book-one
+year: 1992
+platforms:
+- name: Amiga
+- name: MS-DOS
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/the-legend-of-kyrandia-book-one.jpg
+icon_url: /games/icon/the-legend-of-kyrandia-book-one.png
+is_public: true
+updated: '2019-01-23T08:31:43.641351Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

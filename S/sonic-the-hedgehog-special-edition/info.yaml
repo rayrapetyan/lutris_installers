@@ -1,0 +1,17 @@
+name: Sonic the Hedgehog Special Edition
+slug: sonic-the-hedgehog-special-edition
+year: 2010
+platforms:
+- name: Sega Genesis / Mega Drive
+genres:
+- name: Platform
+aliases:
+- slug: sonic-1-special-version
+  name: Sonic 1 Special Version
+banner_url: /games/banner/sonic-the-hedgehog-special-edition.jpg
+icon_url: null
+is_public: true
+updated: '2019-02-23T02:08:12.397766Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

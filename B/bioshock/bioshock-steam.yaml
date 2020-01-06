@@ -1,0 +1,30 @@
+id: 48
+game_id: 62
+game_slug: bioshock
+name: BioShock
+year: 2007
+user: strider
+runner: winesteam
+slug: bioshock-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-07-20T12:27:47Z'
+updated_at: '2018-03-22T07:27:31.945805Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 7670
+gogid: null
+gogslug: ''
+humblestoreid: bioshock
+script:
+  winesteam:
+    Audio: alsa
+    MouseWarpOverride: force
+    overrides:
+      dxgi: disabled
+    Desktop: Default
+  game:
+    appid: 7670

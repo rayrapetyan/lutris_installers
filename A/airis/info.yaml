@@ -1,0 +1,15 @@
+name: AIRIS
+slug: airis
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/airis.jpg
+icon_url: /games/icon/airis.png
+is_public: true
+updated: '2019-04-20T04:53:06.533099Z'
+steamid: 628610
+gogslug: ''
+humblestoreid: ''

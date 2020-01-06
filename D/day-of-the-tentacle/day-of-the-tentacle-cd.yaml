@@ -1,0 +1,42 @@
+id: 1936
+game_id: 67
+game_slug: day-of-the-tentacle
+name: Day of the Tentacle
+year: 1993
+user: Xodetaetl
+runner: scummvm
+slug: day-of-the-tentacle-cd
+version: CD
+description: ''
+notes: ''
+created_at: '2016-01-26T19:49:53.042886Z'
+updated_at: '2016-01-26T20:05:33.774721Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  scummvm:
+    gfx-mode: 3x
+    aspect: true
+  installer:
+  - insert-disc:
+      requires: dott/tentacle.000
+  - merge:
+      src: $DISC/dott/monster.sou
+      dst: $GAMEDIR
+  - merge:
+      src: $DISC/dott/tentacle.000
+      dst: $GAMEDIR
+  - merge:
+      src: $DISC/dott/tentacle.001
+      dst: $GAMEDIR
+  files:
+  - dummy: http://lutris.net/static/images/logo.png
+  game:
+    game_id: tentacle
+    path: $GAMEDIR

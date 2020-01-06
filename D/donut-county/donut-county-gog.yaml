@@ -1,0 +1,40 @@
+id: 12429
+game_id: 23153
+game_slug: donut-county
+name: Donut County
+year: null
+user: ShadowStrike
+runner: wine
+slug: donut-county-gog
+version: GOG
+description: null
+notes: Has errors near end of install, but after selecting OK to all errors the installer
+  finishes and game runs correctly.
+created_at: '2019-03-19T15:05:46.345000Z'
+updated_at: '2019-03-20T00:06:41.095445Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 702670
+gogid: 1402984756
+gogslug: donut_county
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: goginstaller
+      prefix: $GAMEDIR
+      args: /LANG=English /SP- /SUPPRESSMSGBOXES
+      arch: win64
+      name: wineexec
+  files:
+  - goginstaller: N/A:Please select the GOG.com Windows installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Donut County/DonutCounty.exe
+    arch: win64

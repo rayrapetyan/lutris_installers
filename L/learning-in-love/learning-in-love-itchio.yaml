@@ -1,0 +1,31 @@
+id: 9109
+game_id: 19848
+game_slug: learning-in-love
+name: Learning in Love!
+year: 2018
+user: kimchitea
+runner: linux
+slug: learning-in-love-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2018-07-09T01:46:34.230000Z'
+updated_at: '2018-07-09T04:01:13.551175Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Learning in Love!.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Learning in Love!.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Learning in Love!
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Learning in Love!
+  files:
+  - file1: N/A:Please select the itch.io archive

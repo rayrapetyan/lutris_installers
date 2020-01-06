@@ -1,0 +1,24 @@
+id: 1158
+game_id: 1604
+game_slug: x-com-ufo-defense
+name: 'X-COM: UFO Defense'
+year: 1993
+user: ErcVitez
+runner: winesteam
+slug: x-com-ufo-defense-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-11-28T07:44:44.916000Z'
+updated_at: '2014-11-28T10:03:15.486000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 7760
+gogid: 1445250340
+gogslug: xcom_ufo_defense
+humblestoreid: ''
+script:
+  game:
+    appid: 7760

@@ -1,0 +1,29 @@
+id: 585
+game_id: 2031
+game_slug: teleglitch
+name: Teleglitch
+year: 2013
+user: Xodetaetl
+runner: steam
+slug: teleglitch-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2014-09-14T20:55:40.870000Z'
+updated_at: '2014-09-14T20:55:45.845000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: file_id
+      dst: $GAMEDIR
+  files:
+  - file_id: http://location
+  - unredistribuable_file: N/A

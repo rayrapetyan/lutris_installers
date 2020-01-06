@@ -1,0 +1,54 @@
+id: 16673
+game_id: 381
+game_slug: fallout
+name: Fallout
+year: 1997
+user: soredake
+runner: winesteam
+slug: fallout-steam-fup-test
+version: Steam FUP TEST
+description: null
+notes: ''
+created_at: '2019-11-06T20:49:53.013809Z'
+updated_at: '2019-11-06T20:49:53.013836Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: 38400
+gogid: 1440166342
+gogslug: fallout
+humblestoreid: ''
+script:
+  winesteam:
+    overrides:
+      ddraw.dll: native
+  installer:
+  - input_menu:
+      options:
+      - en_US.UTF-8: English
+      - ru_RU.UTF-8: Russian + English
+      description: 'Choose the desired language (russian language will be unavailable
+        if you select english language):'
+      id: LANG
+      preselect: English
+  - task:
+      executable: fup
+      env:
+        LC_ALL: $LANG
+      description: Installing the FUP mod, select game folder as install folder
+      prefix: $GAMEDIR/prefix
+      working_dir: $GAMEDIR
+      name: wineexec
+  - task:
+      executable: f1_res_Config.exe
+      prefix: $GAMEDIR/prefix
+      description: "Configuring the Hi-res patch.\n Make sure you enable it before\
+        \ clicking Done"
+      working_dir: $GAMEDIR
+      name: wineexec
+  files:
+  - fup: 'N/A: Select file downloaded from https://www.mediafire.com/file/o7hm7dj8x2epoz0/Fallout_Update_Pack_%5B2.1.0%5D.exe/file'
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 38400

@@ -1,0 +1,16 @@
+name: Diddy Kong Racing
+slug: diddy-kong-racing
+year: 1997
+platforms:
+- name: Nintendo 64
+genres:
+- name: Arcade
+- name: Racing
+aliases: []
+banner_url: /games/banner/diddy-kong-racing.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:11.435208Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

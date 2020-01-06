@@ -1,0 +1,36 @@
+id: 4217
+game_id: 11619
+game_slug: figures-of-happiness
+name: Figures of Happiness
+year: 2003
+user: FakeShemp
+runner: wine
+slug: figures-of-happiness-jast-usa
+version: JAST USA
+description: ''
+notes: ''
+created_at: '2017-06-08T15:21:06.537000Z'
+updated_at: '2018-05-19T03:41:48.284622Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/figures-install-0.3.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the JAST USA archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/AngelSmile/Figures of Happiness/SIAWAUS.EXE
+    arch: win32

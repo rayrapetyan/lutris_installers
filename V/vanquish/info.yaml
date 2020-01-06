@@ -1,0 +1,16 @@
+name: Vanquish
+slug: vanquish
+year: 2013
+platforms:
+- name: Sony Playstation 3
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/vanquish.jpg
+icon_url: /games/icon/vanquish.png
+is_public: true
+updated: '2019-01-23T08:32:01.468896Z'
+steamid: 460810
+gogslug: ''
+humblestoreid: vanquish

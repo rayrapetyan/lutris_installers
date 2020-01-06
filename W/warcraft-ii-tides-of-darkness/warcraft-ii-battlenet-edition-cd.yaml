@@ -1,0 +1,40 @@
+id: 5815
+game_id: 6768
+game_slug: warcraft-ii-tides-of-darkness
+name: 'Warcraft II: Tides of Darkness'
+year: 1999
+user: Retroth
+runner: wine
+slug: warcraft-ii-battlenet-edition-cd
+version: CD
+description: ''
+notes: ''
+created_at: '2017-09-19T18:02:53.465000Z'
+updated_at: '2018-05-19T03:41:50.511095Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1418669891
+gogslug: warcraft_2_battlenet_edition
+humblestoreid: ''
+script:
+  exe: drive_c/Program Files/Warcraft II BNE/Warcraft II BNE.exe
+  installer:
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Installing Warcraft II Battle.net Edition
+      name: wineexec
+  - task:
+      executable: patch
+      prefix: $GAMEDIR
+      description: Patching Warcraft II Battle.net Edition to 2.02
+      name: wineexec
+  files:
+  - patch: http://download.fileplanet.com/ftp1/fpnew/patches/War2Patch_202.exe
+  - setup: N/A:Select the installer for Warcraft II Battle.net Edition
+  game:
+    prefix: $GAMEDIR
+    arch: win32

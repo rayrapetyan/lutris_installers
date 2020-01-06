@@ -1,0 +1,37 @@
+id: 2590
+game_id: 3179
+game_slug: dins-curse
+name: Din's Curse
+year: null
+user: Lulu
+runner: linux
+slug: dins-curse-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2016-08-24T18:36:20.832691Z'
+updated_at: '2016-08-29T04:56:03.603163Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 217290
+gogid: 1207665923
+gogslug: dins_curse
+humblestoreid: ''
+script:
+  exe: Game/start.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/Game
+  files:
+  - game: 'N/A: Plese select the GOG.com Linux installer'
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

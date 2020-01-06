@@ -1,0 +1,19 @@
+name: PlanetSide 2 - Nanite Systems Operatives
+slug: planetside-2
+year: 2012
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+- name: MMO
+- name: MMOFPS
+- name: MMORPG
+aliases: []
+banner_url: /games/banner/planetside-2.jpg
+icon_url: /games/icon/planetside-2.png
+is_public: true
+updated: '2019-05-20T01:55:42.048548Z'
+steamid: 218230
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,41 @@
+id: 10677
+game_id: 8599
+game_slug: battlerite
+name: Battlerite
+year: 2017
+user: cxf
+runner: winesteam
+slug: battlerite-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2018-10-28T20:33:27.166000Z'
+updated_at: '2019-03-02T01:54:02.040784Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 504370
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: allfonts
+      arch: win64
+      name: winetricks
+  winesteam:
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 504370
+    arch: win64

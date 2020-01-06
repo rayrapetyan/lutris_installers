@@ -1,0 +1,38 @@
+id: 14981
+game_id: 23898
+game_slug: temple-of-elemental-evil-the
+name: Temple of Elemental Evil, The
+year: 2003
+user: Lethiks
+runner: wine
+slug: temple-of-elemental-evil-the-gog
+version: GoG
+description: null
+notes: ''
+created_at: '2019-08-12T16:55:42.141000Z'
+updated_at: '2019-08-14T01:35:14.969193Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: 1207658889
+gogslug: the_temple_of_elemental_evil
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/drive_c/GOG Games/Temple of Elemental Evil/ToEE.exe
+    arch: win64
+  installer:
+  - task:
+      executable: setup
+      args: /SILENT /LANG=en /SP- /NOCANCEL /SUPPRESSMSGBOXES /NOGUI
+      description: Installing. This may take a while...
+      arch: win64
+      name: wineexec
+  wine:
+    version: ge-protonified-4.10
+    esync: true
+  files:
+  - setup: 'N/A: Please select the setup.exe downloaded from GOG.com'

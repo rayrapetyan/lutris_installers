@@ -1,0 +1,31 @@
+id: 7479
+game_id: 17231
+game_slug: 3d-tennis
+name: 3D Tennis
+year: 1983
+user: te_lanus
+runner: libretro
+slug: 3d-tennis-msx
+version: MSX
+description: null
+notes: ''
+created_at: '2018-03-07T06:26:04.858541Z'
+updated_at: '2018-03-07T06:26:14.924646Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the MSX Cartridge file
+  game:
+    core: fmsx
+    main_file: file1

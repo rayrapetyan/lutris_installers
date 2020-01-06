@@ -1,0 +1,31 @@
+id: 16807
+game_id: 27038
+game_slug: meritocracy-of-the-oni-blade
+name: Meritocracy of the Oni & Blade
+year: null
+user: lilithfr
+runner: wine
+slug: meritocracy-of-the-oni-blade-dlsite
+version: DLsite
+description: Used to install the package "RE234198" from DLsite
+notes: ''
+created_at: '2019-11-13T23:36:17.756255Z'
+updated_at: '2019-11-13T23:36:17.756289Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: 885940
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Games/dlsite/
+      file: $file1
+  files:
+  - file1: N/A:Please select the DLsite archive
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Games/dlsite/Meritocracy of the Oni & Blade/Game.exe

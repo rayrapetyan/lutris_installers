@@ -1,0 +1,16 @@
+name: 'Shovel Knight: Specter of Torment'
+slug: shovel-knight-specter-of-torment
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/shovel-knight-specter-of-torment.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:12.706482Z'
+steamid: 589510
+gogslug: shovel_knight_specter_of_torment
+humblestoreid: ''

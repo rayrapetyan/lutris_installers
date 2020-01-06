@@ -1,0 +1,24 @@
+id: 1507
+game_id: 4228
+game_slug: lux-delux
+name: Lux Delux
+year: null
+user: Xodetaetl
+runner: steam
+slug: lux-delux-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-04-25T17:54:51.618000Z'
+updated_at: '2015-04-25T17:55:45.772000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 341950
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 341950

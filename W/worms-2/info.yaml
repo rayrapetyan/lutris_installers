@@ -1,0 +1,16 @@
+name: Worms 2
+slug: worms-2
+year: 1997
+platforms:
+- name: Windows
+genres:
+- name: Artillery
+- name: Turn-based tactics
+aliases: []
+banner_url: /games/banner/worms-2.jpg
+icon_url: /games/icon/worms-2.png
+is_public: true
+updated: '2019-01-23T08:32:11.075615Z'
+steamid: null
+gogslug: worms_2
+humblestoreid: ''

@@ -1,0 +1,20 @@
+name: 'Dunjonquest: Temple of Apshai'
+slug: dunjonquest-temple-of-apshai
+year: 1979
+platforms:
+- name: Amiga
+- name: Atari ST
+- name: Commodore 64
+- name: Commodore VIC-20
+- name: MS-DOS
+genres:
+- name: Roguelike
+- name: Role-playing
+aliases: []
+banner_url: /games/banner/dunjonquest-temple-of-apshai.jpg
+icon_url: null
+is_public: true
+updated: '2019-12-17T02:30:36.318933Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

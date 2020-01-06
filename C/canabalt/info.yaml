@@ -1,0 +1,17 @@
+name: Canabalt
+slug: canabalt
+year: 2009
+platforms:
+- name: Commodore 64
+- name: Linux
+- name: Sony PSP
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/canabalt.jpg
+icon_url: /games/icon/canabalt.png
+is_public: true
+updated: '2019-02-24T19:48:13.524532Z'
+steamid: 358960
+gogslug: ''
+humblestoreid: ''

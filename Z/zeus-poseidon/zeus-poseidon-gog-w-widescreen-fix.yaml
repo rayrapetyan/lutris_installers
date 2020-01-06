@@ -1,0 +1,69 @@
+id: 4485
+game_id: 9681
+game_slug: zeus-poseidon
+name: Zeus + Poseidon
+year: null
+user: Lucki
+runner: wine
+slug: zeus-poseidon-gog-w-widescreen-fix
+version: GOG w/ Widescreen Fix
+description: Requires GOG installer v2 or above.
+notes: ''
+created_at: '2017-06-18T16:37:25.855000Z'
+updated_at: '2019-02-09T04:35:18.716519Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 566050
+gogid: 1207659039
+gogslug: zeus_poseidon
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $setup
+      prefix: $GAMEDIR
+      args: /silent /nogui /suppressmsgboxes /dir="C:\GOG Games\Zeus and Poseidon"
+      name: wineexec
+  - extract:
+      dst: $CACHE
+      file: $wide
+  - merge:
+      src: $save1
+      dst: $GAMEDIR/drive_c/GOG Games/Zeus and Poseidon
+  - merge:
+      src: $save2
+      dst: $GAMEDIR/drive_c/GOG Games/Zeus and Poseidon
+  - input_menu:
+      options:
+      - 1280x720: 1280x720
+      - 1280x800: 1280x800
+      - 1280x1024: 1280x1024
+      - 1360x768: 1360x768
+      - 1440x900: 1440x900
+      - 1600x900: 1600x900
+      - 1680x1050: 1680x1050
+      - 1920x1080: 1920x1080
+      - 1920x1200: 1920x1200
+      - 2048x1152: 2048x1152
+      - 2560x1440: 2560x1440
+      - 2560x1600: 2560x1600
+      description: 'Choose the desired resolution:'
+      id: RESOLUTION
+      preselect: 1920x1080
+  - merge:
+      src: $CACHE/$INPUT_RESOLUTION
+      dst: $GAMEDIR/drive_c/GOG Games/Zeus and Poseidon
+  files:
+  - setup: N/A:Select the Windows installer downloaded from GOG
+  - wide: http://www.wsgfmedia.com/jackfuste/Zeus/Zeus.7z
+  - save1:
+      filename: Zeus.inf
+      url: https://drive.google.com/uc?export=download&id=0B_fe1fNijaueMGZYNTdybEhxUDg
+  - save2:
+      filename: Zeusmap.inf
+      url: https://drive.google.com/uc?export=download&id=0B_fe1fNijaueMFNJSFZOUFFkWjA
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/GOG Games/Zeus and Poseidon/Zeus.exe

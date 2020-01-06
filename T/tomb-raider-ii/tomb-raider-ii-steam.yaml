@@ -1,0 +1,40 @@
+id: 10927
+game_id: 6688
+game_slug: tomb-raider-ii
+name: Tomb Raider II
+year: 1997
+user: callash
+runner: winesteam
+slug: tomb-raider-ii-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-11-20T12:32:35.663000Z'
+updated_at: '2018-11-29T01:43:29.180726Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 225300
+gogid: 1207663483
+gogslug: tomb_raider_123
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      filename: regpatch
+      arch: win32
+      name: set_regedit_file
+  files:
+  - regpatch:
+      filename: tr2.reg
+      url: https://pastebin.com/raw/pTLmxe6H
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 225300
+    arch: win32

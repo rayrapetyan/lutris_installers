@@ -1,0 +1,35 @@
+id: 3677
+game_id: 1231
+game_slug: recettear-an-item-shops-tale
+name: 'Recettear: An Item Shop''s Tale'
+year: null
+user: dlove67
+runner: winesteam
+slug: recettear-an-item-shops-tale-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-05-14T01:19:00.907000Z'
+updated_at: '2017-05-15T15:16:10.784659Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 70400
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      description: Installing dsound
+      app: dsound
+      silent: true
+      name: winetricks
+  - task:
+      description: Installing directmusic
+      app: directmusic
+      silent: true
+      name: winetricks
+  game:
+    appid: 70400

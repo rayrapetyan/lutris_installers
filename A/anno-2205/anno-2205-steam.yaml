@@ -1,0 +1,30 @@
+id: 8430
+game_id: 9724
+game_slug: anno-2205
+name: Anno 2205
+year: 2015
+user: juliotux
+runner: winesteam
+slug: anno-2205-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-26T16:21:25.950000Z'
+updated_at: '2019-02-14T01:02:31.844649Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 375910
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    appid: 375910

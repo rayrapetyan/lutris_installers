@@ -1,0 +1,41 @@
+id: 16513
+game_id: 20565
+game_slug: qube-2
+name: Q.U.B.E. 2
+year: 2018
+user: cxf
+runner: wine
+slug: qube-2-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-10-31T22:29:38.394300Z'
+updated_at: '2019-10-31T22:29:45.444867Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 359100
+gogid: 1199381642
+gogslug: qube_2
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /NOCANCEL /SP- /SUPPRESSMSGBOXES
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Q.U.B.E 2/QUBE.exe
+  system:
+    env:
+      DXVK_HUD: compiler
+  wine:
+    dxvk: true
+  files:
+  - setup: N/A:Select gog setup exe

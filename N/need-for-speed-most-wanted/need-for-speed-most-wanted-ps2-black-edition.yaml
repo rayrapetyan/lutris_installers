@@ -1,0 +1,28 @@
+id: 11282
+game_id: 5398
+game_slug: need-for-speed-most-wanted
+name: 'Need for Speed: Most Wanted'
+year: 2005
+user: owm111
+runner: pcsx2
+slug: need-for-speed-most-wanted-ps2-black-edition
+version: PS2 Black Edition
+description: Based off of NFSU2's installer
+notes: ''
+created_at: '2018-12-20T21:48:56.719399Z'
+updated_at: '2018-12-21T00:48:06.365678Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: iso
+      dst: $GAMEDIR
+  files:
+  - iso: N/A:Select the game's ISO file

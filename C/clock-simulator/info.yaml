@@ -1,0 +1,15 @@
+name: Clock Simulator
+slug: clock-simulator
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Simulation
+aliases: []
+banner_url: /games/banner/clock-simulator.jpg
+icon_url: /games/icon/clock-simulator.png
+is_public: true
+updated: '2019-01-23T08:28:54.364091Z'
+steamid: 501120
+gogslug: ''
+humblestoreid: ''

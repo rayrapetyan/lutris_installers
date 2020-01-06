@@ -1,0 +1,17 @@
+name: The Feeble Files
+slug: the-feeble-files
+year: 1998
+platforms:
+- name: Amiga
+- name: Windows
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/the-feeble-files.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:41.214464Z'
+steamid: null
+gogslug: the_feeble_files
+humblestoreid: ''

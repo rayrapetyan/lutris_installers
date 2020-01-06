@@ -1,0 +1,38 @@
+id: 1582
+game_id: 4729
+game_slug: zero-k
+name: Zero-k
+year: 2015
+user: scottviger
+runner: linux
+slug: zero-k-self-updater
+version: self updater
+description: http links -> https links
+notes: "Require: \r\nmono-complete \r\nlibsdl2-2.0-0\r\nlibopenal1"
+created_at: '2015-08-19T21:23:42.638000Z'
+updated_at: '2019-09-09T00:18:42.717517Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 334920
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: chobby
+      dst: $GAMEDIR
+  - merge:
+      src: zero_k
+      dst: $GAMEDIR
+  system:
+    disable_runtime: true
+  files:
+  - chobby: https://zero-k.info/lobby/Chobby.exe
+  - zero_k: https://zero-k.info/lobby/Zero-K.exe
+  game:
+    exe: /usr/bin/mono
+    args: $GAMEDIR/Chobby.exe
+    working_dir: $GAMEDIR

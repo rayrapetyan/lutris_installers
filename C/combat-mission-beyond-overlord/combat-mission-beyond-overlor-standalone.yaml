@@ -1,0 +1,62 @@
+id: 15018
+game_id: 23880
+game_slug: combat-mission-beyond-overlord
+name: 'Combat Mission: Beyond Overlord'
+year: 2001
+user: odziom91
+runner: wine
+slug: combat-mission-beyond-overlor-standalone
+version: Standalone
+description: This game requires dgVoodoo2 and DXVK for Graphic Card detection.
+notes: ''
+created_at: '2019-08-15T20:41:40.811000Z'
+updated_at: '2019-08-29T02:50:08.546806Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: 1207658821
+gogslug: combat_mission_beyond_overlord
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/Combat Mission - Beyond Overlord/Combat Mission.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      install_mono: false
+      description: Creating prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing d3dcompiler_43 and d3dcompiler_47...
+      app: d3dcompiler_43 d3dcompiler_47 quartz
+      arch: win32
+      name: winetricks
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Combat Mission - Beyond Overlord/
+      file: dgvoodoo
+  - write_config:
+      section: DirectX
+      key: dgVoodooWatermark
+      value: false
+      file: $GAMEDIR/drive_c/Program Files/Combat Mission - Beyond Overlord/dgVoodoo.conf
+  wine:
+    overrides:
+      ddraw.dll: native
+    dxvk: true
+  files:
+  - dgvoodoo: https://lutris.net/files/tools/dgvoodoo_2.55.4_dx1-7.tar.xz
+  - installer: 'N/A:Select the Setup executable from your CD:'

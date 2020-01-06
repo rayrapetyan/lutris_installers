@@ -1,0 +1,19 @@
+name: Dr. Mario
+slug: dr-mario
+year: 1990
+platforms:
+- name: Game Boy
+- name: NES
+- name: Nintendo 3DS
+- name: Nintendo Game Boy Advance
+- name: Super Nintendo
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/dr-mario.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:18.004771Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

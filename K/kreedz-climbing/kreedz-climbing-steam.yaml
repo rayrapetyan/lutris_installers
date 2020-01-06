@@ -1,0 +1,24 @@
+id: 10803
+game_id: 13380
+game_slug: kreedz-climbing
+name: Kreedz Climbing
+year: null
+user: AHampster
+runner: steam
+slug: kreedz-climbing-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-11-07T17:09:51.104669Z'
+updated_at: '2018-11-08T06:09:28.125416Z'
+draft: true
+published: true
+published_by: null
+rating: ''
+steamid: 626680
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 626680

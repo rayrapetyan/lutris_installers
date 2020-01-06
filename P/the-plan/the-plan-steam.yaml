@@ -1,0 +1,24 @@
+id: 767
+game_id: 1882
+game_slug: the-plan
+name: The Plan
+year: 2013
+user: Xodetaetl
+runner: steam
+slug: the-plan-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T13:59:39.956000Z'
+updated_at: '2014-09-15T16:13:29.084000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 250600
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 250600

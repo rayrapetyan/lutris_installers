@@ -1,0 +1,112 @@
+id: 8878
+game_id: 12186
+game_slug: the-sims-2
+name: The Sims 2
+year: 2004
+user: citrusalex
+runner: wine
+slug: the-sims-2-wined3d-universal-dv
+version: WineD3D | Universal DVD
+description: Installs DVD version of The Sims 2. It's universal for all editions and
+  offline installers.
+notes: "<b>IMPORTANT: READ THE MANUAL AND INSTALL DEPENDENCIES!</b>\r\nSee <a href=\"\
+  https://github.com/lutris/lutris/wiki/Game:-The-Sims-2\">https://github.com/lutris/lutris/wiki/Game:-The-Sims-2</a>\r\
+  \n\r\n- <b>Please select the executable in the Lutris configuration after installing\
+  \ the game.</b>\r\n\r\n- <b>To fix various issues with the game</b> (broken family\
+  \ thumbnails, models exploding), start the game once, exit when it enters the town\
+  \ selection menu, then <b>Stop</b> the game in the Lutris client. Next time you\
+  \ launch it, the fixes will already be applied.\r\n\r\n- As this installer has only\
+  \ been tested with the Ultimate Collection, correct functionality of other editions\
+  \ is not guaranteed.\r\n\r\n- For support, contact @Tannis Root on Linux Gamers\
+  \ Group server."
+created_at: '2018-06-23T22:17:31.934000Z'
+updated_at: '2019-11-07T08:35:34.501479Z'
+draft: false
+published: false
+published_by: 51687
+rating: '3'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine Prefix...
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing dependencies...
+      arch: win32
+      app: mfc42
+      silent: 'true'
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting version to xp...
+      arch: win32
+      key: Version
+      value: winxp
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Vertex Shader Model to 2...
+      arch: win32
+      type: REG_DWORD
+      value: '00000002'
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D
+      key: MaxShaderModelVS
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Pixel Shader Model to 2...
+      arch: win32
+      type: REG_DWORD
+      value: '00000002'
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D
+      key: MaxShaderModelPS
+      name: set_regedit
+  - copy:
+      src: script
+      dst: $GAMEDIR
+  - chmodx: $GAMEDIR/sims2fix.sh
+  - extract:
+      dst: "$GAMEDIR/drive_c/users/$USER/My Documents/EA Games/The Sims\u2122 2 Ultimate\
+        \ Collection/Downloads"
+      file: fixes
+  - write_file:
+      content: 'boolprop useshaders true
+
+        boolProp   createNVidiaWorkaroundTexture false
+
+        '
+      file: "$GAMEDIR/drive_c/users/$USER/My Documents/EA Games/The Sims\u2122 2 Ultimate\
+        \ Collection/Config/userstartup.cheat"
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - task:
+      executable: file
+      prefix: $GAMEDIR
+      description: Installing The Sims 2...
+      arch: win32
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  game:
+    prefix: $GAMEDIR
+    arch: win32
+  system:
+    env:
+      WINE_LARGE_ADDRESS_AWARE: 1
+    prelaunch_command: $GAMEDIR/sims2fix.sh
+  wine:
+    version: lutris-sims2-4.12.1-x86_64
+  files:
+  - fixes: https://github.com/tannisroot/installer-fixes/raw/master/sims2_fixes.tar.xz
+  - script: https://raw.githubusercontent.com/tannisroot/installer-fixes/master/sims2fix.sh
+  - file: N/A:Select the game's setup file

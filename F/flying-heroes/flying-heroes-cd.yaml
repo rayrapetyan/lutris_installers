@@ -1,0 +1,33 @@
+id: 11862
+game_id: 25609
+game_slug: flying-heroes
+name: Flying Heroes
+year: 2000
+user: qsf
+runner: wine
+slug: flying-heroes-cd
+version: CD
+description: null
+notes: "OBS: Set a low screen resolution on startup. Eg. \t1024 x 768 (tested working\
+  \ nicely)\r\nFor some reason 1920X1080 stutter/ start minimized."
+created_at: '2019-02-05T16:47:27.873000Z'
+updated_at: '2019-02-07T04:31:49.557799Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: drive_c/Program Files (x86)/Take2/Flying Heroes/fh.exe
+  installer:
+  - insert-disc:
+      requires: fh.exe
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  game:
+    prefix: $GAMEDIR

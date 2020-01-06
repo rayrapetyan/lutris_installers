@@ -1,0 +1,16 @@
+name: 'Ecco the Dolphin: Defender of the Future'
+slug: ecco-the-dolphin-defender-of-the-future
+year: 2000
+platforms:
+- name: Sega Dreamcast
+- name: Sony PlayStation 2
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/ecco-the-dolphin-defender-of-the-future.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:21.110890Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,39 @@
+id: 8572
+game_id: 8576
+game_slug: quantum-break
+name: Quantum Break
+year: 2016
+user: cxf
+runner: winesteam
+slug: quantum-break-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2018-06-07T21:42:35.042000Z'
+updated_at: '2019-02-16T04:24:41.225446Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 474960
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 474960
+    arch: win64

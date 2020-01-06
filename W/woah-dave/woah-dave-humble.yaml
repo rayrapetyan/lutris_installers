@@ -1,0 +1,32 @@
+id: 3784
+game_id: 4304
+game_slug: woah-dave
+name: Woah Dave!
+year: null
+user: FakeShemp
+runner: linux
+slug: woah-dave-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-22T07:55:50.928000Z'
+updated_at: '2017-05-26T00:18:55.762716Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 315110
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: WoahDave
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/WoahDave-Humble-Release-20141105
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble archive

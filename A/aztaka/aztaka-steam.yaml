@@ -1,0 +1,24 @@
+id: 6441
+game_id: 1691
+game_slug: aztaka
+name: Aztaka
+year: null
+user: Stoney_Fish
+runner: winesteam
+slug: aztaka-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-11-26T23:23:55.247996Z'
+updated_at: '2017-12-17T05:41:54.508075Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 37100
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 37100

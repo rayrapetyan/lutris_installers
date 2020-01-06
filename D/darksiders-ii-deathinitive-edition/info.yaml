@@ -1,0 +1,16 @@
+name: 'Darksiders II: Deathinitive Edition'
+slug: darksiders-ii-deathinitive-edition
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Hack and slash
+aliases: []
+banner_url: /games/banner/darksiders-ii-deathinitive-edition.jpg
+icon_url: /games/icon/darksiders-ii-deathinitive-edition.png
+is_public: true
+updated: '2019-02-05T16:12:48.292977Z'
+steamid: 388410
+gogslug: darksiders_ii_deathinitive_edition
+humblestoreid: ''

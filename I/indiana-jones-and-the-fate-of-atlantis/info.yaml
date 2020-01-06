@@ -1,0 +1,18 @@
+name: Indiana Jones and the Fate of Atlantis
+slug: indiana-jones-and-the-fate-of-atlantis
+year: 1992
+platforms:
+- name: Amiga
+- name: MS-DOS
+- name: Windows
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/indiana-jones-and-the-fate-of-atlantis.jpg
+icon_url: /games/icon/indiana-jones-and-the-fate-of-atlantis.png
+is_public: true
+updated: '2019-01-23T08:29:56.139078Z'
+steamid: 6010
+gogslug: indiana_jones_and_the_fate_of_atlantis
+humblestoreid: ''

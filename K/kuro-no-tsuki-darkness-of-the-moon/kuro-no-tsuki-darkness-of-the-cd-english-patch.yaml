@@ -1,0 +1,59 @@
+id: 9379
+game_id: 20102
+game_slug: kuro-no-tsuki-darkness-of-the-moon
+name: Kuro no Tsuki - Darkness of the Moon
+year: 2001
+user: kimchitea
+runner: wine
+slug: kuro-no-tsuki-darkness-of-the-cd-english-patch
+version: CD + English patch
+description: null
+notes: "Workarounds for Japanese characters in files and folders:\r\n- Before installing,\
+  \ copy the installer (250 MB exe) from the CD and rename it something with a .zip\
+  \ extension.\r\n- When installing the patch, change the install location to C:\\\
+  kuro-no-tsuki\r\n- After the installer is finished, rename the game exe something\
+  \ without Japanese characters. In the Lutris client, right click the game -> configure\
+  \ -> game options -> select the renamed executable.\r\n- If the game isn't centered\
+  \ in the virtual desktop the first time you launch it, quit and relaunch."
+created_at: '2018-07-25T13:38:44.264000Z'
+updated_at: '2018-07-26T06:20:28.678829Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/kuro-no-tsuki
+      file: $install
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows version to XP
+      app: winxp
+      arch: win32
+      name: winetricks
+  - extract:
+      dst: $CACHE
+      file: $patch
+  - task:
+      executable: $CACHE/knt-patch-1[1].0.0.1.exe
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/kuro-no-tsuki
+    arch: win32
+  system:
+    env:
+      LC_ALL: ja_JP.UTF-8
+  wine:
+    WineDesktop: 800x600
+    Desktop: true
+  files:
+  - install: N/A:Please select the installer
+  - patch: N/A:Please select the English patch archive

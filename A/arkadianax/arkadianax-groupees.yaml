@@ -1,0 +1,33 @@
+id: 6836
+game_id: 15266
+game_slug: arkadianax
+name: ARKADIANAX
+year: 2013
+user: FakeShemp
+runner: wine
+slug: arkadianax-groupees
+version: Groupees
+description: null
+notes: ''
+created_at: '2017-12-24T01:12:29.516789Z'
+updated_at: '2018-05-19T03:41:59.338438Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/ARKADIANAX/ARKADIANAX.exe
+    arch: win32

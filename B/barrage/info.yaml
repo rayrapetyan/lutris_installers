@@ -1,0 +1,15 @@
+name: Barrage
+slug: barrage
+year: 2003
+platforms:
+- name: Linux
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/barrage.jpg
+icon_url: /games/icon/barrage.png
+is_public: true
+updated: '2019-01-23T08:28:31.683057Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

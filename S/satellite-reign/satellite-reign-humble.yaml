@@ -1,0 +1,31 @@
+id: 6156
+game_id: 4325
+game_slug: satellite-reign
+name: Satellite Reign
+year: 2015
+user: FakeShemp
+runner: linux
+slug: satellite-reign-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-10-28T10:25:03.761469Z'
+updated_at: '2017-10-28T10:27:42.692740Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 268870
+gogid: 1428054996
+gogslug: satellite_reign
+humblestoreid: ''
+script:
+  exe: SatelliteReignLinux.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/SatelliteReignLinux.x86
+  - chmodx: $GAMEDIR/SatelliteReignLinux.x86_64
+  exe64: SatelliteReignLinux.x86_64
+  files:
+  - file1: N/A:Please select the Humble archive

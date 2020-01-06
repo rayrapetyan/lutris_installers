@@ -1,0 +1,16 @@
+name: Sublevel Zero Redux
+slug: sublevel-zero
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Shooter
+aliases: []
+banner_url: /games/banner/sublevel-zero.jpg
+icon_url: /games/icon/sublevel-zero.png
+is_public: true
+updated: '2019-01-23T08:31:28.717231Z'
+steamid: 327880
+gogslug: sublevel_zero
+humblestoreid: ''

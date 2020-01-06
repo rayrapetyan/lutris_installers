@@ -1,0 +1,24 @@
+id: 2032
+game_id: 205
+game_slug: sam-max-105-reality-20
+name: 'Sam & Max 105: Reality 2.0'
+year: null
+user: strider
+runner: winesteam
+slug: sam-max-105-reality-20-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-04-02T09:15:09.028992Z'
+updated_at: '2016-04-02T09:15:13.295254Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 8240
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 8240

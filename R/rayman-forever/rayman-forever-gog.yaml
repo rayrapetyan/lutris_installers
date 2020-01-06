@@ -1,0 +1,45 @@
+id: 6223
+game_id: 14528
+game_slug: rayman-forever
+name: Rayman Forever
+year: 1998
+user: FakeShemp
+runner: dosbox
+slug: rayman-forever-gog
+version: GOG
+description: "This script will install \"Rayman Forever\" GOG edition for Dosbox.\r\
+  \nDuring install please let all options by default."
+notes: "- Known issues: Rayman Forever does not have cinematics and incomplete soundtracks:\
+  \ https://www.gog.com/forum/rayman_series/rayman_pc_faq\r\n- x360 gamepad support"
+created_at: '2017-11-02T21:00:09.743000Z'
+updated_at: '2019-10-23T08:59:35.546799Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: null
+gogid: 1207658919
+gogslug: rayman_forever
+humblestoreid: ''
+script:
+  custom-name: Rayman Forever - GOG - DOSBOX
+  installer:
+  - extract:
+      dst: $CACHE
+      file: file2
+  - execute:
+      args: -d "$GAMEDIR" "file1"
+      file: $CACHE/innoextract
+  - merge:
+      src: $GAMEDIR/__support/app/
+      dst: $GAMEDIR/Dosbox
+  - chmodx: script
+  - execute:
+      file: script
+  files:
+  - file1: N/A:Please select the GOG installer
+  - file2: http://constexpr.org/innoextract/files/snapshots/innoextract-1.8-dev-2019-01-13/innoextract-1.8-dev-2019-01-13-linux.tar.xz
+  - script: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Rayman%20Forever/clean.sh
+  game:
+    config_file: $GAMEDIR/Dosbox/Rayman_Forever_dosbox.conf
+    main_file: $GAMEDIR/Dosbox/Rayman_Forever_single_dosbox.conf

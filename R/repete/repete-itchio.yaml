@@ -1,0 +1,41 @@
+id: 4867
+game_id: 6906
+game_slug: repete
+name: RePete
+year: null
+user: FakeShemp
+runner: linux
+slug: repete-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-07-06T21:32:35.496000Z'
+updated_at: '2017-07-09T20:07:18.341158Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 448010
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: repete
+  installer:
+  - extract:
+      format: ar
+      dst: $CACHE
+      file: $file1
+  - extract:
+      dst: $CACHE
+      file: $CACHE/data.tar.gz
+  - merge:
+      src: $CACHE/bin
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/lib/repete
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the itch.io installer
+  game:
+    ld_preload: $GAMEDIR/liblove.so.0

@@ -1,0 +1,15 @@
+name: Dungeon Fighter Online
+slug: dungeon-fighter-online
+year: null
+platforms:
+- name: Windows
+genres:
+- name: MMORPG
+aliases: []
+banner_url: /games/banner/dungeon-fighter-online.jpg
+icon_url: /games/icon/dungeon-fighter-online.png
+is_public: true
+updated: '2019-01-23T08:29:19.073476Z'
+steamid: 495910
+gogslug: ''
+humblestoreid: ''

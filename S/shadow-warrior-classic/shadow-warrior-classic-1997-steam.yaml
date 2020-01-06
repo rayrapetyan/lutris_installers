@@ -1,0 +1,31 @@
+id: 15
+game_id: 27
+game_slug: shadow-warrior-classic
+name: Shadow Warrior Classic
+year: 1997
+user: strider
+runner: dosbox
+slug: shadow-warrior-classic-1997-steam
+version: steam
+description: Free game, downloaded with Steam but run without.
+notes: ''
+created_at: '2013-06-27T21:26:59Z'
+updated_at: '2015-02-09T12:16:06.792000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 238070
+gogid: 1207659142
+gogslug: shadow_warrior_complete
+humblestoreid: ''
+script:
+  main_file: dosbox_swarrior_single.conf
+  installer:
+  - merge:
+      src: steam-data
+      dst: $GAMEDIR
+  files:
+  - steam-data: $STEAM:238070:gameroot
+  game:
+    config_file: $GAMEDIR/dosbox_swarrior.conf

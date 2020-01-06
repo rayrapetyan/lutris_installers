@@ -1,0 +1,32 @@
+id: 4712
+game_id: 4470
+game_slug: sanctuaryrpg-black-edition
+name: 'SanctuaryRPG: Black Edition'
+year: 2015
+user: FakeShemp
+runner: wine
+slug: sanctuaryrpg-black-edition-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-28T18:50:36.749304Z'
+updated_at: '2018-05-19T03:41:53.440203Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 328760
+gogid: 1423487549
+gogslug: sanctuaryrpg_black_edition
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/SanctuaryRPG
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/SanctuaryRPG/SanctuaryRPG.exe
+    arch: win32

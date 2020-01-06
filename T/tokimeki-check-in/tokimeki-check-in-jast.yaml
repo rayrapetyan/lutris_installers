@@ -1,0 +1,37 @@
+id: 9495
+game_id: 20537
+game_slug: tokimeki-check-in
+name: Tokimeki Check-in!
+year: 2001
+user: kimchitea
+runner: wine
+slug: tokimeki-check-in-jast
+version: JAST
+description: null
+notes: ''
+created_at: '2018-07-31T06:19:27.591000Z'
+updated_at: '2018-07-31T18:57:47.816438Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/tokimeki-install-1.1.exe
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  files:
+  - file1: N/A:Please select the JAST USA archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Crowd/Tokimeki Check-in!/checkin.exe
+    arch: win32

@@ -1,0 +1,31 @@
+id: 8915
+game_id: 19528
+game_slug: inverness-nights
+name: Inverness Nights
+year: 2017
+user: kimchitea
+runner: linux
+slug: inverness-nights-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2018-06-25T23:51:27.925000Z'
+updated_at: '2018-06-26T03:40:47.313613Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Inverness Nights.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Inverness Nights.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Inverness Nights
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Inverness Nights
+  files:
+  - file1: N/A:Please select the itch.io archive

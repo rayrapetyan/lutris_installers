@@ -1,0 +1,15 @@
+name: 'X2: The Threat'
+slug: x2-the-threat
+year: 2003
+platforms:
+- name: Windows
+genres:
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/x2-the-threat.jpg
+icon_url: /games/icon/x2-the-threat.png
+is_public: true
+updated: '2019-01-23T08:32:11.778478Z'
+steamid: 2800
+gogslug: x2_the_threat
+humblestoreid: ''

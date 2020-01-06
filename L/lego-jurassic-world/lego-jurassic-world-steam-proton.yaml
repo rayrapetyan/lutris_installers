@@ -1,0 +1,24 @@
+id: 15788
+game_id: 6168
+game_slug: lego-jurassic-world
+name: "LEGO\xAE Jurassic World"
+year: 2015
+user: kean83
+runner: steam
+slug: lego-jurassic-world-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-09-25T11:58:44.458179Z'
+updated_at: '2019-10-11T01:36:37.521703Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 352400
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 352400

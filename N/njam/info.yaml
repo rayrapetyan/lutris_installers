@@ -1,0 +1,15 @@
+name: Njam
+slug: njam
+year: 1999
+platforms:
+- name: Linux
+genres:
+- name: Arcade
+aliases: []
+banner_url: /games/banner/njam.jpg
+icon_url: /games/icon/njam.png
+is_public: true
+updated: '2019-01-23T08:30:33.462440Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

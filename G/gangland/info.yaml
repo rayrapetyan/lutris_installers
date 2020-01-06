@@ -1,0 +1,17 @@
+name: Gangland
+slug: gangland
+year: 2004
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Managerial
+- name: Role-playing
+aliases: []
+banner_url: /games/banner/gangland.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:38.052821Z'
+steamid: null
+gogslug: gangland
+humblestoreid: ''

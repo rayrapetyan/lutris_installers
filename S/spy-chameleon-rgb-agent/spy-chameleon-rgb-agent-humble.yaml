@@ -1,0 +1,29 @@
+id: 3820
+game_id: 2585
+game_slug: spy-chameleon-rgb-agent
+name: Spy Chameleon - RGB Agent
+year: null
+user: FakeShemp
+runner: linux
+slug: spy-chameleon-rgb-agent-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-23T15:44:24.712429Z'
+updated_at: '2017-05-26T00:10:35.395137Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 297490
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Spy Chameleon RGB Agent.x86
+  installer:
+  - extract:
+      file: $file1
+  exe64: Spy Chameleon RGB Agent.x86_64
+  files:
+  - file1: N/A:Please select the Humble archive

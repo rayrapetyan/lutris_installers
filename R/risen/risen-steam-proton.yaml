@@ -1,0 +1,25 @@
+id: 12016
+game_id: 387
+game_slug: risen
+name: Risen
+year: 2009
+user: citiroller
+runner: steam
+slug: risen-steam-proton
+version: Steam Proton
+description: "Enable Steam Play for all titles:\r\nSteam > Steam > Settings > Steam\
+  \ Play > Check all boxes > Restart\r\nThen run this installer"
+notes: ''
+created_at: '2019-02-14T19:27:39.557000Z'
+updated_at: '2019-05-22T00:00:10.837572Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 40300
+gogid: 1207663153
+gogslug: risen
+humblestoreid: ''
+script:
+  game:
+    appid: 40300

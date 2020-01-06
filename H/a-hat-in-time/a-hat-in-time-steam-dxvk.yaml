@@ -1,0 +1,41 @@
+id: 13383
+game_id: 7712
+game_slug: a-hat-in-time
+name: A Hat in Time
+year: 2017
+user: citrusalex
+runner: winesteam
+slug: a-hat-in-time-steam-dxvk
+version: Steam | DXVK
+description: Greatly improves performance.
+notes: ''
+created_at: '2019-05-08T01:28:57.599000Z'
+updated_at: '2019-12-29T11:23:59.360642Z'
+draft: false
+published: true
+published_by: 51687
+rating: '5'
+steamid: 253230
+gogid: 1686426343
+gogslug: a_hat_in_time
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: create_prefix
+  winesteam:
+    version: lutris-4.20-x86_64
+    esync: true
+    dxvk: true
+  system:
+    env:
+      DXVK_LOG_LEVEL: none
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR/prefix
+      DXVK_HUD: compiler
+      __GL_SHADER_DISK_CACHE: 1
+      DXVK_STATE_CACHE_PATH: $GAMEDIR/prefix
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 253230
+    arch: win64

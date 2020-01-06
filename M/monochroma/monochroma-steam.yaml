@@ -1,0 +1,24 @@
+id: 917
+game_id: 3067
+game_slug: monochroma
+name: Monochroma
+year: null
+user: Xodetaetl
+runner: steam
+slug: monochroma-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-10-01T17:56:09.879000Z'
+updated_at: '2014-10-01T17:56:18.440000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 265830
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 265830

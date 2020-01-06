@@ -1,0 +1,15 @@
+name: Broforce
+slug: broforce
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/broforce.jpg
+icon_url: /games/icon/broforce.png
+is_public: true
+updated: '2019-01-23T08:28:42.280005Z'
+steamid: 274190
+gogslug: broforce
+humblestoreid: ''

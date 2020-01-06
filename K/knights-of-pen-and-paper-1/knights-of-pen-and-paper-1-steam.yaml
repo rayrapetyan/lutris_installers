@@ -1,0 +1,24 @@
+id: 288
+game_id: 861
+game_slug: knights-of-pen-and-paper-1
+name: Knights of Pen and Paper +1
+year: 2013
+user: strider
+runner: steam
+slug: knights-of-pen-and-paper-1-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-20T00:21:42.704000Z'
+updated_at: '2013-12-20T00:21:42.704000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 231740
+gogid: null
+gogslug: ''
+humblestoreid: knights-of-pen-paper-1-edition
+script:
+  game:
+    appid: 231740

@@ -1,0 +1,16 @@
+name: Golf With Your Friends
+slug: golf-with-your-friends
+year: 2016
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Casual
+aliases: []
+banner_url: /games/banner/golf-with-your-friends.jpg
+icon_url: /games/icon/golf-with-your-friends.png
+is_public: true
+updated: '2019-02-15T06:34:46.818877Z'
+steamid: 431240
+gogslug: ''
+humblestoreid: ''

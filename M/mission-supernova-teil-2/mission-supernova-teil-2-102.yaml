@@ -1,0 +1,36 @@
+id: 4738
+game_id: 11980
+game_slug: mission-supernova-teil-2
+name: Mission Supernova Teil 2
+year: 1994
+user: FakeShemp
+runner: dosbox
+slug: mission-supernova-teil-2-102
+version: '1.02'
+description: ''
+notes: ''
+created_at: '2017-06-30T19:20:14.115076Z'
+updated_at: '2017-07-01T19:32:18.956667Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: ms2.exe
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $file1
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/dosbox_lutris.conf
+  files:
+  - file1: http://outpost.simplicity.de/msn/ms2.zip
+  game:
+    config_file: $GAMEDIR/dosbox_lutris.conf

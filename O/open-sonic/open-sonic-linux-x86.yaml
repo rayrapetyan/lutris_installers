@@ -1,0 +1,29 @@
+id: 3519
+game_id: 10567
+game_slug: open-sonic
+name: Open Sonic
+year: 2008
+user: paperbenni
+runner: linux
+slug: open-sonic-linux-x86
+version: Linux x86
+description: ''
+notes: ''
+created_at: '2017-04-12T20:24:43.840000Z'
+updated_at: '2017-05-16T04:26:04.903841Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: opensonic_bin
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: os
+  files:
+  - os: https://github.com/paperbenni/hello-world/raw/master/opensnc-linux-0.1.4.tar.gz

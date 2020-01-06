@@ -1,0 +1,32 @@
+id: 6894
+game_id: 15336
+game_slug: dave-gnukem
+name: Dave Gnukem
+year: 2004
+user: maxlefou
+runner: linux
+slug: dave-gnukem-081
+version: '0.81'
+description: null
+notes: ''
+created_at: '2017-12-29T13:04:01.597000Z'
+updated_at: '2017-12-29T16:35:37.734941Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: archive
+  files:
+  - archive: http://maxlefou33.free.fr/linux/dave_gnukem.zip
+  game:
+    prefix: $GAMEDIR
+    args: -f
+    exe: davegnukem

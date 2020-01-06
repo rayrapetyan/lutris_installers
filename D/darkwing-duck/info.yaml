@@ -1,0 +1,17 @@
+name: Darkwing Duck
+slug: darkwing-duck
+year: 1993
+platforms:
+- name: Game Boy
+- name: NES
+- name: TurboGrafx-16
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/darkwing-duck.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:05.164645Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

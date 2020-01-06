@@ -1,0 +1,51 @@
+id: 16265
+game_id: 17978
+game_slug: trials-in-tainted-space
+name: Trials in Tainted Space
+year: null
+user: sl3k
+runner: wine
+slug: trials-in-tainted-space-adobe-air
+version: Adobe AIR
+description: null
+notes: ''
+created_at: '2019-10-18T08:58:02.785000Z'
+updated_at: '2019-12-23T19:58:48.962321Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  require-binaries: unzip, rm
+  installer:
+  - move:
+      src: game_archive
+      dst: $GAMEDIR/game.zip
+  - execute:
+      args: game.zip
+      working_dir: $GAMEDIR
+      description: Extracting game data
+      file: unzip
+  - execute:
+      args: game.zip
+      description: Removing temporary ZIP file
+      file: rm
+  - chmodx: $GAMEDIR/TiTS 0.8.031/Adobe AIR
+  - chmodx: $GAMEDIR/TiTS 0.8.031/Adobe AIR/Versions
+  - chmodx: $GAMEDIR/TiTS 0.8.031/Adobe AIR/Versions/1.0
+  - chmodx: $GAMEDIR/TiTS 0.8.031/Adobe AIR/Versions/1.0/Resources
+  - chmodx: $GAMEDIR/TiTS 0.8.031/Adobe AIR/Versions/1.0/Resources/WebKit
+  - chmodx: $GAMEDIR/TiTS 0.8.031/Adobe AIR/Versions/1.0/Resources/Licenses
+  - chmodx: $GAMEDIR/TiTS 0.8.031/Adobe AIR/Versions/1.0/Resources/Licenses/pcre2
+  - chmodx: $GAMEDIR/TiTS 0.8.031/Adobe AIR/Versions/1.0/Resources/Licenses/pixman
+  - chmodx: $GAMEDIR/TiTS 0.8.031/Adobe AIR/Versions/1.0/Resources/Licenses/cairo
+  files:
+  - game_archive: https://www.fenoxo.com/play/latest_airzip.php
+  game:
+    prefix: $GAMEDIR/prefix
+    exe: $GAMEDIR/TiTS 0.8.031/TiTS 0.8.031.exe
+    working_dir: $GAMEDIR

@@ -1,0 +1,17 @@
+name: OLDTV
+slug: v
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Arcade
+- name: Casual
+- name: Indie
+aliases: []
+banner_url: /games/banner/v.jpg
+icon_url: /games/icon/v.png
+is_public: true
+updated: '2019-12-22T19:01:07.261236Z'
+steamid: 643270
+gogslug: ''
+humblestoreid: ''

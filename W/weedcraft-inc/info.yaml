@@ -1,0 +1,17 @@
+name: Weedcraft Inc
+slug: weedcraft-inc
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Indie
+- name: Simulation
+- name: Strategy
+aliases: []
+banner_url: /games/banner/weedcraft-inc.jpg
+icon_url: /games/icon/weedcraft-inc.png
+is_public: true
+updated: '2019-06-12T04:27:24.775711Z'
+steamid: 622720
+gogslug: weedcraft_inc
+humblestoreid: ''

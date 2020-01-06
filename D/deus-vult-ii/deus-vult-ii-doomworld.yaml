@@ -1,0 +1,44 @@
+id: 10267
+game_id: 21828
+game_slug: deus-vult-ii
+name: Deus Vult II
+year: 2008
+user: miky_kr5
+runner: zdoom
+slug: deus-vult-ii-doomworld
+version: Doomworld
+description: Pwad file from the Doomworld forums. Requires either the DOOM 2 or the
+  Freedoom phase 2 iwad to play.
+notes: ''
+created_at: '2018-09-21T12:32:43.952970Z'
+updated_at: '2018-09-21T18:11:47.294778Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      src: $dvii
+      dst: $CACHE
+  - merge:
+      src: $doom2
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/DVII-1i.wad
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/brightmaps.pk3
+      dst: $GAMEDIR
+  files:
+  - doom2: N/A:Please select either the DOOM 2 or Freedoom phase 2 iwad file.
+  - dvii: http://youfailit.net/pub/idgames/levels/doom2/Ports/d-f/dvii-1i.zip
+  game:
+    main_file: $doom2
+    files:
+    - DVII-1i.wad
+    - brightmaps.pk3

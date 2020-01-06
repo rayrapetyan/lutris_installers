@@ -1,0 +1,16 @@
+name: 'Mordheim: City of the Damned'
+slug: mordheim-city-of-the-damned
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Real-time strategy
+- name: RPG
+aliases: []
+banner_url: /games/banner/mordheim-city-of-the-damned.jpg
+icon_url: /games/icon/mordheim-city-of-the-damned.png
+is_public: true
+updated: '2019-01-23T08:30:26.516618Z'
+steamid: 276810
+gogslug: ''
+humblestoreid: ''

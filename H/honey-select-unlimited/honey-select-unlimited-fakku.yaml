@@ -1,0 +1,33 @@
+id: 14332
+game_id: 28274
+game_slug: honey-select-unlimited
+name: Honey Select Unlimited
+year: 2018
+user: PAdresse
+runner: wine
+slug: honey-select-unlimited-fakku
+version: FAKKU!
+description: null
+notes: ''
+created_at: '2019-06-28T18:22:49.221924Z'
+updated_at: '2019-06-28T18:22:49.221958Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  task:
+    app: dotnet40
+    name: winetricks
+  extract:
+    dst: $GAMEDIR/drive_c/Honey Select Unlimited/
+    file: game_archive
+  files:
+  - game_archive: N/A:Select _Honey_Select_Unlimited_Windows_FAKKU.zip you bought
+      and downloaded from fakku.net
+  game:
+    exe: $GAMEDIR/drive_c/Honey Select Unlimited/Launcher.exe

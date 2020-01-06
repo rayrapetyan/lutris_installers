@@ -1,0 +1,32 @@
+id: 5560
+game_id: 1633
+game_slug: 7-wonders-ii
+name: 7 Wonders II
+year: 2008
+user: FakeShemp
+runner: wine
+slug: 7-wonders-ii-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-31T20:47:32.637042Z'
+updated_at: '2018-05-19T03:41:57.845048Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 15900
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/7 Wonders II
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/7 Wonders II/WondersII_1_13.exe
+    arch: win32

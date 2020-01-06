@@ -1,0 +1,37 @@
+id: 14926
+game_id: 25995
+game_slug: g-police
+name: G-Police
+year: 1997
+user: zandeez
+runner: wine
+slug: g-police-windows-pc-cdrom
+version: Windows PC-CDROM
+description: Installs from original CD ROM.
+notes: CD is required to play.
+created_at: '2019-08-08T19:06:43.802273Z'
+updated_at: '2019-08-08T19:06:43.802306Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  wine:
+    version: staging-3.9-i386
+    arch: win32
+  script:
+    installer:
+    - insert-disc:
+        requires: gpolice.exe
+    - task:
+        executable: $DISC/setup.exe
+        prefix: $GAMEDIR
+        name: wineexec
+    game:
+      prefix: $GAMEDIR
+      exe: drive_c/Program Files/Psygnosis/G-Police/gpolice.exe
+      arch: win32

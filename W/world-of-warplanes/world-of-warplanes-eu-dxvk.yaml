@@ -1,0 +1,63 @@
+id: 13808
+game_id: 21766
+game_slug: world-of-warplanes
+name: World of Warplanes
+year: null
+user: salmonit
+runner: wine
+slug: world-of-warplanes-eu-dxvk
+version: EU DXVK
+description: null
+notes: ''
+created_at: '2019-05-30T18:37:42.681081Z'
+updated_at: '2019-05-30T18:37:42.681109Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: 790710
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: corefonts win10
+      arch: win64
+      name: winetricks
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      description: Installing World of Warplanes
+      arch: win64
+      args: /VERYSILENT /CLOSEAPPLICATIONS
+      exclude_processes: explorer.exe rpcss.exe services.exe winedevice.exe plugplay.exe
+        WargamingGameUpdater.exe WoWPLauncher.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Games/World_of_Warplanes/WoWPLauncher.exe
+    arch: win64
+  system:
+    env:
+      DXVK_HUD: 0
+    pulse_latency: true
+  wine:
+    version: tkg-4.0-x86_64
+    WineDesktop: 1920x1080
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+    Desktop: true
+  files:
+  - game: http://redirect.wargaming.net/WGC/Wargaming_Game_Center_Install_WoWP_EU.exe

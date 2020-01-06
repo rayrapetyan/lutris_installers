@@ -1,0 +1,15 @@
+name: Anime Studio Simulator
+slug: anime-studio-simulator
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/anime-studio-simulator.jpg
+icon_url: /games/icon/anime-studio-simulator.png
+is_public: true
+updated: '2019-01-23T08:28:22.144336Z'
+steamid: 508230
+gogslug: ''
+humblestoreid: ''

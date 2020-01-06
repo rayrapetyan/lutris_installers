@@ -1,0 +1,17 @@
+name: Roller Coaster Tycoon
+slug: roller-coaster-1
+year: 1999
+platforms:
+- name: Windows
+genres:
+- name: Construction
+- name: Management
+- name: Simulation
+aliases: []
+banner_url: /games/banner/roller-coaster-1.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:03.550720Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

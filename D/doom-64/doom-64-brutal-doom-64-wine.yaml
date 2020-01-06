@@ -1,0 +1,38 @@
+id: 2966
+game_id: 5029
+game_slug: doom-64
+name: Doom 64
+year: 1997
+user: RobLoach
+runner: wine
+slug: doom-64-brutal-doom-64-wine
+version: Brutal Doom 64 Wine
+description: Brutal Doom 64 Version 1C, with Doom 2 Steam data
+notes: http://www.moddb.com/mods/brutal-doom-64/
+created_at: '2016-11-02T11:26:50.134339Z'
+updated_at: '2016-11-07T19:34:29.457148Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - extract:
+      dst: $GAMEDIR
+      file: $bd64
+  - merge:
+      src: wad-data
+      dst: $GAMEDIR/Brutal Doom 64
+  files:
+  - bd64: http://files.robloach.net/lutris/bd64_v1cqfix.zip
+  - wad-data: $STEAM:2300:base
+  game:
+    prefix: $GAMEDIR
+    exe: Brutal Doom 64/bd64.exe

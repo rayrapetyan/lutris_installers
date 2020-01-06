@@ -1,0 +1,24 @@
+id: 2480
+game_id: 5071
+game_slug: crystal-picnic
+name: Crystal Picnic
+year: null
+user: gschaffran
+runner: steam
+slug: crystal-picnic-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-08-17T18:36:34.016705Z'
+updated_at: '2016-09-30T20:52:41.593602Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 415890
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 415890

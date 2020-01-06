@@ -1,0 +1,24 @@
+id: 1132
+game_id: 1865
+game_slug: 7-days-to-die
+name: 7 Days to Die
+year: 2013
+user: Xodetaetl
+runner: steam
+slug: 7-days-to-die-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-11-23T10:12:10.772000Z'
+updated_at: '2014-11-23T10:12:15.387000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 251570
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 251570

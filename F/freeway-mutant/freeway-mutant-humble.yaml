@@ -1,0 +1,32 @@
+id: 6345
+game_id: 14812
+game_slug: freeway-mutant
+name: Freeway Mutant
+year: 2014
+user: FakeShemp
+runner: wine
+slug: freeway-mutant-humble
+version: Humble
+description: null
+notes: ''
+created_at: '2017-11-16T13:30:12.651510Z'
+updated_at: '2018-05-19T03:41:59.321720Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR/drive_c/Program Files/Freeway Mutant
+  files:
+  - file1: N/A:Please select the Humble executable
+  game:
+    prefix: $GAMEDIR
+    exe: file1
+    arch: win32

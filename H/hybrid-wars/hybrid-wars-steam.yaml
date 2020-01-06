@@ -1,0 +1,24 @@
+id: 3336
+game_id: 10280
+game_slug: hybrid-wars
+name: Hybrid Wars
+year: null
+user: uso
+runner: steam
+slug: hybrid-wars-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-03-14T12:38:02.993024Z'
+updated_at: '2017-03-29T01:01:28.266972Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 411540
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 411540

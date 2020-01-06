@@ -1,0 +1,65 @@
+id: 9307
+game_id: 13498
+game_slug: hellblade-senuas-sacrifice
+name: 'Hellblade: Senua''s Sacrifice'
+year: 2017
+user: Redante
+runner: wine
+slug: hellblade-senuas-sacrifice-gog
+version: GOG
+description: null
+notes: Progress bar may not appear on installer. The game will install in the background
+created_at: '2018-07-20T23:50:01.841000Z'
+updated_at: '2019-12-29T08:37:19.680647Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 414340
+gogid: 1573355755
+gogslug: hellblade_senuas_sacrifice
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/HellbladeSenuasSacrifice/HellbladeGame.exe
+    arch: win64
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - extract:
+      dst: $CACHE/dxsetup
+      file: directx
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR
+      args: /silent
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      key: HideWineExports
+      value: Y
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2012 vcrun2013 vcrun2015 win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      name: wineexec
+  wine:
+    version: lutris-4.20-x86_64
+    dxvk: true
+  files:
+  - setup: N/A:Select the installation executable downloaded from GOG
+  - directx: https://lutris.net/files/tools/directx-2010.tar.gz

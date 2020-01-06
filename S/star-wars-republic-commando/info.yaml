@@ -1,0 +1,15 @@
+name: Star Wars Republic Commando
+slug: star-wars-republic-commando
+year: 2005
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/star-wars-republic-commando.jpg
+icon_url: /games/icon/star-wars-republic-commando.png
+is_public: true
+updated: '2019-01-23T08:31:25.699936Z'
+steamid: 6000
+gogslug: star_wars_republic_commando
+humblestoreid: ''

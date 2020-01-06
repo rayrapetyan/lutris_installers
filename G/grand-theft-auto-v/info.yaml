@@ -1,0 +1,23 @@
+name: Grand Theft Auto V
+slug: grand-theft-auto-v
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Racing
+- name: Sandbox
+- name: Shooter
+aliases:
+- slug: gtav
+  name: GTAV
+- slug: gta-v
+  name: GTA V
+banner_url: /games/banner/grand-theft-auto-v.jpg
+icon_url: /games/icon/grand-theft-auto-v.png
+is_public: true
+updated: '2019-11-04T03:33:01.149479Z'
+steamid: 271590
+gogslug: ''
+humblestoreid: ''

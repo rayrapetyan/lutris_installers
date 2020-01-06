@@ -1,0 +1,28 @@
+id: 13704
+game_id: 27341
+game_slug: mod-organizer-2
+name: Mod Organizer 2
+year: null
+user: Sonoma
+runner: wine
+slug: mod-organizer-2-1
+version: '.1'
+description: null
+notes: ''
+created_at: '2019-05-24T12:27:36.972578Z'
+updated_at: '2019-05-24T12:27:36.972614Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      dst: ~/Games/mod-organizer-2
+  files:
+  - file_id: https://github.com/ModOrganizer2/modorganizer/releases/download/v2.2.0/Mod.Organizer-2.2.0.0.exe
+  - unredistribuable_file: N/A

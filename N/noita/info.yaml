@@ -1,0 +1,18 @@
+name: Noita
+slug: noita
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Pixel Graphics
+- name: Roguelike
+- name: Simulation
+aliases: []
+banner_url: /games/banner/noita.jpg
+icon_url: null
+is_public: true
+updated: '2019-10-06T23:12:41.006598Z'
+steamid: 881100
+gogslug: ''
+humblestoreid: ''

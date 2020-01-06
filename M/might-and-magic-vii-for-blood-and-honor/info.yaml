@@ -1,0 +1,19 @@
+name: 'Might and Magic VII: For Blood and Honor'
+slug: might-and-magic-vii-for-blood-and-honor
+year: 1999
+platforms:
+- name: Windows
+genres:
+- name: Fantasy
+- name: FPP
+- name: RPG
+aliases:
+- slug: might-and-magic-7-for-blood-and-honor
+  name: 'Might and Magic 7: For Blood and Honor'
+banner_url: /games/banner/might-and-magic-vii-for-blood-and-honor.jpg
+icon_url: /games/icon/might-and-magic-vii-for-blood-and-honor.png
+is_public: true
+updated: '2019-05-12T04:06:59.685145Z'
+steamid: null
+gogslug: might_and_magic_7_for_blood_and_honor
+humblestoreid: ''

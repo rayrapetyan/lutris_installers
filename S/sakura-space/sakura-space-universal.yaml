@@ -1,0 +1,29 @@
+id: 4887
+game_id: 11782
+game_slug: sakura-space
+name: Sakura Space
+year: 2016
+user: pmatulka
+runner: linux
+slug: sakura-space-universal
+version: Universal
+description: Adult Patch
+notes: ''
+created_at: '2017-07-07T12:20:45.357764Z'
+updated_at: '2017-07-09T20:11:40.389873Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 521500
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: sakura-space
+  installer:
+  - move:
+      dst: $GAMEDIR/game
+      file: $file1
+  files:
+  - file1: https://denpasoft.com/space/archive.rpa

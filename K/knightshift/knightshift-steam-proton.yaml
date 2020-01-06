@@ -1,0 +1,25 @@
+id: 14711
+game_id: 1212
+game_slug: knightshift
+name: KnightShift
+year: 2003
+user: Pancdarien
+runner: steam
+slug: knightshift-steam-proton
+version: Steam Proton
+description: null
+notes: "You'll have to enable SteamPlay for this title\r\nYou'll need to run the game\
+  \ in the windowed mode. Otherwise it will not start"
+created_at: '2019-07-25T17:55:59.375000Z'
+updated_at: '2019-10-11T00:40:30.132285Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 254060
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 254060

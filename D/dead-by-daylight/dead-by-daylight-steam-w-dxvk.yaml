@@ -1,0 +1,70 @@
+id: 6720
+game_id: 8148
+game_slug: dead-by-daylight
+name: Dead by Daylight
+year: null
+user: Kuro
+runner: winesteam
+slug: dead-by-daylight-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2017-12-18T02:07:28.758000Z'
+updated_at: '2019-02-14T05:40:52.218766Z'
+draft: false
+published: true
+published_by: 19464
+rating: '1'
+steamid: 381210
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Creating Wine Prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing Visual C++ 2010
+      app: vcrun2010
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing Visual C++ 2013
+      app: vcrun2013
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing Visual C++ 2015
+      app: vcrun2013
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing .NET 4.7.2
+      app: dotnet472
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Switching to Windows 7
+      app: win7
+      arch: win64
+      name: winetricks
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 381210
+    arch: win64

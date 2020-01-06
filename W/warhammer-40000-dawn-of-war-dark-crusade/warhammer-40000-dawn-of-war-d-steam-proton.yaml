@@ -1,0 +1,24 @@
+id: 14479
+game_id: 1324
+game_slug: warhammer-40000-dawn-of-war-dark-crusade
+name: "Warhammer 40,000: Dawn of War \u2013 Dark Crusade"
+year: 2006
+user: rbarbe
+runner: steam
+slug: warhammer-40000-dawn-of-war-d-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-07-08T12:50:02.151000Z'
+updated_at: '2019-10-11T00:25:36.645221Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 4580
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 4580

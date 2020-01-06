@@ -1,0 +1,30 @@
+id: 14570
+game_id: 8610
+game_slug: rec-room
+name: Rec Room
+year: null
+user: dzlandis
+runner: steam
+slug: rec-room-steam-latest
+version: Steam Latest
+description: Install Rec Room through Steam normally then click the plus button on
+  Lutris to add a new game. After you click the plus button you should see a little
+  menu appear, click Import Games. Select Steam and you should see a button that says
+  Rec Room. Click the button and import the game. Once you have done that you are
+  ready to play! Just launch Rec Room through Lutris and you are set!
+notes: Rec Room may run slowly on some computers. You may have to wait several minutes
+  to go between dorm's, lobby's and games. You may get kicked from lobby's or games
+  and sent back to your dorm.
+created_at: '2019-07-14T23:19:33.340432Z'
+updated_at: '2019-07-14T23:19:33.340466Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 471710
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 471710

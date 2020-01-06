@@ -1,0 +1,29 @@
+id: 6443
+game_id: 4598
+game_slug: minilens
+name: Minilens
+year: 2015
+user: fanotriel
+runner: linux
+slug: minilens-12-32bit
+version: 1.2 32bit
+description: null
+notes: ''
+created_at: '2017-11-27T01:35:48.223396Z'
+updated_at: '2017-12-21T16:00:41.688984Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: minilens.x86
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: game
+  files:
+  - game: https://github.com/KOBUGE-Games/minilens/releases/download/v1.2/Minilens-1.2-Linux32.tar.bz2

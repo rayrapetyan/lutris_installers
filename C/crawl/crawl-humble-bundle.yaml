@@ -1,0 +1,31 @@
+id: 2798
+game_id: 4031
+game_slug: crawl
+name: Crawl
+year: null
+user: Lulu
+runner: linux
+slug: crawl-humble-bundle
+version: Humble Bundle
+description: ''
+notes: ''
+created_at: '2016-09-28T20:43:19.958000Z'
+updated_at: '2017-10-28T10:15:22.620648Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 293780
+gogid: 1207665263
+gogslug: crawl
+humblestoreid: ''
+script:
+  exe: Crawl.x86
+  installer:
+  - extract:
+      file: crawl-game
+  - chmodx: $GAMEDIR/Crawl.x86
+  - chmodx: $GAMEDIR/Crawl.x86_64
+  exe64: Crawl.x86_64
+  files:
+  - crawl-game: N/A:Please select the .zip install file downloaded from humblebundle.com

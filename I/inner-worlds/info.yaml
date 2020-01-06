@@ -1,0 +1,18 @@
+name: Inner Worlds
+slug: inner-worlds
+year: 1996
+platforms:
+- name: Linux
+- name: MS-DOS
+genres:
+- name: Action
+- name: Adventure
+- name: Platform
+aliases: []
+banner_url: /games/banner/inner-worlds.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:57.080656Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

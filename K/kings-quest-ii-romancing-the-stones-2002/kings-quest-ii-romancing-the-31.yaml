@@ -1,0 +1,44 @@
+id: 5768
+game_id: 13930
+game_slug: kings-quest-ii-romancing-the-stones-2002
+name: 'King''s Quest II: Romancing the Stones (2002)'
+year: 2002
+user: XoraTheImmortal
+runner: ags
+slug: kings-quest-ii-romancing-the-31
+version: '3.1'
+description: null
+notes: "- ignore errors during installation\r\n- don't change the install path"
+created_at: '2017-09-17T00:46:49.851000Z'
+updated_at: '2019-03-19T04:22:24.737857Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $CACHE
+      description: Creating Wine prefix
+      arch: win32
+      name: wine.create_prefix
+  - task:
+      executable: $installer
+      prefix: $CACHE
+      description: Installing ...
+      arch: win32
+      name: wine.wineexec
+  - merge:
+      src: $CACHE/drive_c/Program Files/AGD Interactive/King's Quest II
+      description: Copying files
+      dst: $GAMEDIR
+  files:
+  - installer:
+      filename: Kq2vga31c.exe
+      url: http://agdinteractive.com/countdl.php?action=download&game=12
+  game:
+    main_file: $GAMEDIR/Kq2vga.exe

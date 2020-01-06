@@ -1,0 +1,15 @@
+name: Eador. Imperium
+slug: eador-imperium
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/eador-imperium.jpg
+icon_url: /games/icon/eador-imperium.png
+is_public: false
+updated: '2019-01-23T08:29:20.608790Z'
+steamid: 477730
+gogslug: eador_imperium
+humblestoreid: ''

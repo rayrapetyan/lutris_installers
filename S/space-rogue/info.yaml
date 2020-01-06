@@ -1,0 +1,16 @@
+name: Space Rogue
+slug: space-rogue
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Simulation
+- name: Strategy
+aliases: []
+banner_url: /games/banner/space-rogue.jpg
+icon_url: /games/icon/space-rogue.png
+is_public: true
+updated: '2019-10-14T03:30:00.588708Z'
+steamid: 364300
+gogslug: space_rogue
+humblestoreid: ''

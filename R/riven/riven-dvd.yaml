@@ -1,0 +1,35 @@
+id: 2430
+game_id: 406
+game_slug: riven
+name: Riven
+year: 1997
+user: Xodetaetl
+runner: wine
+slug: riven-dvd
+version: DVD
+description: null
+notes: ''
+created_at: '2016-08-11T14:45:44.881000Z'
+updated_at: '2019-09-09T03:05:08.685955Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 63610
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: riven.exe
+  - task:
+      executable: $DISC/Setup.EXE
+      prefix: $GAMEDIR
+      name: wineexec
+  wine:
+    WineDesktop: 640x480
+    Desktop: true
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/temp.exe

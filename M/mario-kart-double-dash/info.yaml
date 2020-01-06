@@ -1,0 +1,15 @@
+name: 'Mario Kart: Double Dash!!'
+slug: mario-kart-double-dash
+year: 2003
+platforms:
+- name: GameCube
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/mario-kart-double-dash.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:17.649595Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

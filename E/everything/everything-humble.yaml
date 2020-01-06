@@ -1,0 +1,29 @@
+id: 6330
+game_id: 11868
+game_slug: everything
+name: Everything
+year: null
+user: FakeShemp
+runner: linux
+slug: everything-humble
+version: Humble
+description: null
+notes: ''
+created_at: '2017-11-14T12:03:15.303149Z'
+updated_at: '2017-11-14T12:04:58.757519Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 582270
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Everything.x86
+  installer:
+  - extract:
+      file: $file1
+  exe64: Everything.x86_64
+  files:
+  - file1: N/A:Please select the Humble archive

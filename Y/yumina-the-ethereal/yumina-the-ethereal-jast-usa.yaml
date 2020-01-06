@@ -1,0 +1,51 @@
+id: 4571
+game_id: 11855
+game_slug: yumina-the-ethereal
+name: Yumina the Ethereal
+year: 2008
+user: FakeShemp
+runner: wine
+slug: yumina-the-ethereal-jast-usa
+version: JAST USA
+description: ''
+notes: ''
+created_at: '2017-06-24T17:43:05.807000Z'
+updated_at: '2017-07-01T19:23:10.472687Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $file2
+      dst: $CACHE
+  - merge:
+      src: $file3
+      dst: $CACHE
+  - merge:
+      src: $file4
+      dst: $CACHE
+  - task:
+      executable: $CACHE/Setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: corefonts
+      name: winetricks
+  files:
+  - file1: N/A:Please select the JAST USA setup archive
+  - file2: N/A:Please select the fist data archive
+  - file3: N/A:Please select the second data archive
+  - file4: N/A:Please select the third data archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Games/Jast Densetsu/Yumina/Yumina.exe

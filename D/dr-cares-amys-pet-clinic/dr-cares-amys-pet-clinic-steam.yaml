@@ -1,0 +1,25 @@
+id: 9604
+game_id: 19132
+game_slug: dr-cares-amys-pet-clinic
+name: Dr. Cares - Amy's Pet Clinic
+year: 2018
+user: kimchitea
+runner: winesteam
+slug: dr-cares-amys-pet-clinic-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-06T01:46:11.993115Z'
+updated_at: '2018-08-06T04:26:30.870502Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 806960
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 806960
+    arch: win32

@@ -1,0 +1,29 @@
+id: 4027
+game_id: 4219
+game_slug: windward
+name: Windward
+year: null
+user: FakeShemp
+runner: linux
+slug: windward-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-31T19:16:26.186243Z'
+updated_at: '2017-06-04T21:49:05.308892Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 326410
+gogid: 1434370838
+gogslug: windward
+humblestoreid: ''
+script:
+  exe: Windward.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Windward.x86
+  files:
+  - file1: N/A:Please select the Humble archive

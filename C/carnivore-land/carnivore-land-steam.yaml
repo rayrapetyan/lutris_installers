@@ -1,0 +1,24 @@
+id: 3466
+game_id: 10412
+game_slug: carnivore-land
+name: Carnivore Land
+year: null
+user: liberodark
+runner: steam
+slug: carnivore-land-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-04-01T09:46:07.679033Z'
+updated_at: '2017-04-02T23:47:45.406719Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 397860
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 397860

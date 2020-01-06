@@ -1,0 +1,26 @@
+id: 3651
+game_id: 1777
+game_slug: advent-rising
+name: Advent Rising
+year: 2005
+user: codythedragondude
+runner: winesteam
+slug: advent-rising-steam
+version: Steam
+description: "for optional community patch go to the community patch website http://www.miketyndall.com/setz/Advent%20Revising/\
+  \ \r\nthis community patch fixes a lot of the issues the pc port has\r\ninstructions\
+  \ are included in fine detail on that website"
+notes: ''
+created_at: '2017-05-08T15:28:59.605782Z'
+updated_at: '2017-05-09T17:23:04.860390Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 3800
+gogid: 1207658810
+gogslug: advent_rising
+humblestoreid: ''
+script:
+  game:
+    appid: 3800

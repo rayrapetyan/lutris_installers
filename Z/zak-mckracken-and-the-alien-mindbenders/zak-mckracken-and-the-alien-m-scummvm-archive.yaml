@@ -1,0 +1,31 @@
+id: 2240
+game_id: 6386
+game_slug: zak-mckracken-and-the-alien-mindbenders
+name: Zak McKracken and the Alien Mindbenders
+year: 1988
+user: RobLoach
+runner: scummvm
+slug: zak-mckracken-and-the-alien-m-scummvm-archive
+version: ScummVM Archive
+description: ''
+notes: ''
+created_at: '2016-07-03T05:02:41.431614Z'
+updated_at: '2016-07-03T07:52:02.783787Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 559070
+gogid: 1425040088
+gogslug: zak_mckracken_and_the_alien_mindbenders
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: file1
+  files:
+  - file1: N/A:Select the archive file containing the game data used by ScummVM
+  game:
+    game_id: zak
+    path: $GAMEDIR

@@ -1,0 +1,15 @@
+name: 'Baldur''s Gate II: Enhanced Edition'
+slug: baldurs-gate-ii-enhanced-edition
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/baldurs-gate-ii-enhanced-edition.jpg
+icon_url: /games/icon/baldurs-gate-ii-enhanced-edition.png
+is_public: true
+updated: '2019-05-14T04:36:34.632613Z'
+steamid: 257350
+gogslug: ''
+humblestoreid: ''

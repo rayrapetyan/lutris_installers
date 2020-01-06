@@ -1,0 +1,16 @@
+name: Darksiders
+slug: darksiders
+year: 2010
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/darksiders.jpg
+icon_url: /games/icon/darksiders.png
+is_public: true
+updated: '2019-01-23T08:29:04.724644Z'
+steamid: 50620
+gogslug: ''
+humblestoreid: ''

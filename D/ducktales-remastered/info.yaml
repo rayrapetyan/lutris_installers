@@ -1,0 +1,16 @@
+name: DuckTales Remastered
+slug: ducktales-remastered
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/ducktales-remastered.jpg
+icon_url: /games/icon/ducktales-remastered.png
+is_public: true
+updated: '2019-01-23T08:29:18.572982Z'
+steamid: 237630
+gogslug: ''
+humblestoreid: ''

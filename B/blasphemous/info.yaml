@@ -1,0 +1,17 @@
+name: Blasphemous
+slug: blasphemous
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Metroidvania
+- name: Pixel Graphics
+aliases: []
+banner_url: /games/banner/blasphemous.jpg
+icon_url: null
+is_public: true
+updated: '2019-10-25T16:16:48.918699Z'
+steamid: 774361
+gogslug: ''
+humblestoreid: ''

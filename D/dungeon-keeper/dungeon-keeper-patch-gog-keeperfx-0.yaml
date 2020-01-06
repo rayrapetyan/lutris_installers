@@ -1,0 +1,37 @@
+id: 1068
+game_id: 1819
+game_slug: dungeon-keeper
+name: Dungeon Keeper
+year: 1997
+user: Xodetaetl
+runner: wine
+slug: dungeon-keeper-patch-gog-keeperfx-0
+version: '[Patch] GOG - KeeperFX 0.4.5'
+description: KeeperFX engine patch for the GOG version. KeeperFX is an improved, libre
+  engine for Dungeon Keeper allowing higher resolutions and better performance.
+notes: "- IMPORTANT: When asked about installing Java, answer NO. \r\n- Music won't\
+  \ play. This should be fixed with a future version of KeeperFX.\r\n- Tip: press\
+  \ Alt+R in-game to double the resolution."
+created_at: '2014-11-13T17:17:36.155000Z'
+updated_at: '2016-02-05T19:13:12.423684Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1207658934
+gogslug: dungeon_keeper
+humblestoreid: ''
+script:
+  requires: dungeon-keeper-gog
+  installer:
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /silent /dir='c:\GOG Games\Dungeon Keeper Gold'
+      name: wineexec
+  files:
+  - setup: https://lutris.net/files/games/dungeon-keeper/KeeperFX_0.4.5_Installer.exe
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/GOG Games/Dungeon Keeper Gold/launcher.exe

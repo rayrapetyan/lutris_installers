@@ -1,0 +1,31 @@
+id: 9810
+game_id: 9781
+game_slug: croc-2
+name: Croc 2
+year: 1999
+user: VGJUNKY
+runner: libretro
+slug: croc-2-playstation
+version: Playstation
+description: null
+notes: ''
+created_at: '2018-08-19T18:49:11.194720Z'
+updated_at: '2018-08-19T19:12:20.536845Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: bin_file
+      dst: $GAMEDIR
+  files:
+  - bin_file: N/A:Please select the PlayStation Bin file.
+  game:
+    core: pcsx_rearmed
+    main_file: bin_file

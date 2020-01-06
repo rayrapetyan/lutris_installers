@@ -1,0 +1,38 @@
+id: 901
+game_id: 657
+game_slug: supreme-commander
+name: Supreme Commander
+year: 2007
+user: strider
+runner: winesteam
+slug: supreme-commander-steam
+version: steam
+description: null
+notes: "Don't turn on the \"Bloom\" setting as it will result in a black screen for\
+  \ some graphic cards/driver.\r\nChanging the resolution may crash the game or display\
+  \ a grey screen.\r\nIf game rendering seems to get stuck on the first frame, set\
+  \ the 'fidelity' setting to medium or lower."
+created_at: '2014-09-21T19:47:39.449000Z'
+updated_at: '2018-07-07T07:46:56.797975Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 9350
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    Desktop: true
+  installer:
+  - merge:
+      src: game-config
+      dst: $GAMEDIR/drive_c/users/$USER/Local Settings/Application Data/Gas Powered
+        Games/SupremeCommander/
+  files:
+  - game-config: http://lutris.net/files/games/supreme-commander/Game.prefs
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 9350
+    arch: win64

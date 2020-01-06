@@ -1,0 +1,29 @@
+id: 5556
+game_id: 1552
+game_slug: shufflepuck-cantina-deluxe
+name: Shufflepuck Cantina Deluxe
+year: 2013
+user: FakeShemp
+runner: linux
+slug: shufflepuck-cantina-deluxe-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-31T19:48:58.984481Z'
+updated_at: '2017-08-31T19:57:05.914590Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 259510
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: ShufflepuckCantinaDeluxe
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/ShufflepuckCantinaDeluxe
+  files:
+  - file1: N/A:Please select the Groupees archive

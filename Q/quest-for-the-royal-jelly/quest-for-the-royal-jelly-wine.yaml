@@ -1,0 +1,29 @@
+id: 3221
+game_id: 9343
+game_slug: quest-for-the-royal-jelly
+name: Quest for the Royal Jelly
+year: 2012
+user: ashes999
+runner: wine
+slug: quest-for-the-royal-jelly-wine
+version: Wine
+description: ''
+notes: ''
+created_at: '2017-01-31T22:12:21.271000Z'
+updated_at: '2017-03-16T01:54:43.685010Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: archive
+  files:
+  - archive: http://deengames.com/games/windows/quest-for-the-royal-jelly-1.0.zip
+  game:
+    exe: Game.exe

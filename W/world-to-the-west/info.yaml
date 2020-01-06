@@ -1,0 +1,17 @@
+name: World to the West
+slug: world-to-the-west
+year: 2017
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/world-to-the-west.jpg
+icon_url: /games/icon/world-to-the-west.png
+is_public: true
+updated: '2019-01-23T08:32:10.858470Z'
+steamid: 530020
+gogslug: world_to_the_west
+humblestoreid: ''

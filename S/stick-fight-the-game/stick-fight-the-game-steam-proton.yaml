@@ -1,0 +1,28 @@
+id: 11137
+game_id: 14657
+game_slug: stick-fight-the-game
+name: 'Stick Fight: The Game'
+year: 2017
+user: ttpcodes
+runner: steam
+slug: stick-fight-the-game-steam-proton
+version: Steam Proton
+description: Installs and runs through the native Steam Client via Steam Play and
+  Proton.
+notes: ''
+created_at: '2018-12-11T04:48:11.277000Z'
+updated_at: '2019-05-22T00:09:16.067711Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 674940
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  system:
+    env:
+      PROTON_USE_WINED3D11: 1
+  game:
+    appid: 674940

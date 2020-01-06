@@ -1,0 +1,17 @@
+name: Sonic 3 and Knuckles
+slug: sonic-3-and-knuckles
+year: 1994
+platforms:
+- name: Sega Genesis / Mega Drive
+- name: Windows
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/sonic-3-and-knuckles.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:18.043487Z'
+steamid: 71162
+gogslug: ''
+humblestoreid: sonic-3-and-knuckles

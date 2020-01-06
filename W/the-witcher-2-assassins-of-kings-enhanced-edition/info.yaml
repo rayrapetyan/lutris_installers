@@ -1,0 +1,23 @@
+name: 'The Witcher 2: Assassins of Kings Enhanced Edition'
+slug: the-witcher-2-assassins-of-kings-enhanced-edition
+year: 2011
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Action
+- name: RPG
+aliases:
+- slug: the-witcher-2
+  name: The Witcher 2
+- slug: the-witcher-2-assassins-of-kings
+  name: 'The Witcher 2: Assassins of Kings'
+- slug: witcher-2
+  name: Witcher 2
+banner_url: /games/banner/the-witcher-2-assassins-of-kings-enhanced-edition.jpg
+icon_url: /games/icon/the-witcher-2-assassins-of-kings-enhanced-edition.png
+is_public: true
+updated: '2019-02-27T01:08:39.079196Z'
+steamid: 20920
+gogslug: the_witcher_2
+humblestoreid: the-witcher-2-assassins-of-kings-enhanced-edition

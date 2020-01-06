@@ -1,0 +1,17 @@
+name: 'Star Wars Episode I: Racer'
+slug: star-wars-episode-i-racer
+year: 1999
+platforms:
+- name: Nintendo 64
+- name: Sega Dreamcast
+- name: Windows
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/star-wars-episode-i-racer.jpg
+icon_url: /games/icon/star-wars-episode-i-racer.png
+is_public: true
+updated: '2019-10-24T19:04:29.922979Z'
+steamid: null
+gogslug: star_wars_episode_i_racer
+humblestoreid: ''

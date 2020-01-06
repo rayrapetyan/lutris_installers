@@ -1,0 +1,24 @@
+id: 7830
+game_id: 3179
+game_slug: dins-curse
+name: Din's Curse
+year: null
+user: Talvi
+runner: steam
+slug: dins-curse-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-04-07T01:23:24.948795Z'
+updated_at: '2018-04-12T05:53:50.044692Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 217290
+gogid: 1207665923
+gogslug: dins_curse
+humblestoreid: ''
+script:
+  game:
+    appid: 217290

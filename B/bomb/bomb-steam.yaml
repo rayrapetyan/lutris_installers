@@ -1,0 +1,24 @@
+id: 1491
+game_id: 4212
+game_slug: bomb
+name: BOMB
+year: null
+user: Xodetaetl
+runner: steam
+slug: bomb-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-04-25T17:48:03.817000Z'
+updated_at: '2015-04-25T17:55:46.713000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 301500
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 301500

@@ -1,0 +1,17 @@
+name: 'Ravensword: Shadowlands'
+slug: ravensword-shadowlands
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/ravensword-shadowlands.jpg
+icon_url: /games/icon/ravensword-shadowlands.png
+is_public: true
+updated: '2019-10-07T03:28:40.221913Z'
+steamid: 253410
+gogslug: ''
+humblestoreid: ''

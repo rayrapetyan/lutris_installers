@@ -1,0 +1,17 @@
+name: Tekken Advance
+slug: tekken-advance
+year: 2002
+platforms:
+- name: Nintendo Game Boy Advance
+genres:
+- name: Action
+- name: Arcade
+- name: Fighting
+aliases: []
+banner_url: /games/banner/tekken-advance.jpg
+icon_url: null
+is_public: true
+updated: '2019-11-01T23:07:30.628510Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

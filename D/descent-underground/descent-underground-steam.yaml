@@ -1,0 +1,24 @@
+id: 2120
+game_id: 5449
+game_slug: descent-underground
+name: 'Descent: Underground'
+year: 2015
+user: strider
+runner: steam
+slug: descent-underground-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-06-15T05:43:32.223515Z'
+updated_at: '2016-06-15T05:43:36.920687Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 360950
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 360950

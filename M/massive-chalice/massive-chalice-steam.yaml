@@ -1,0 +1,24 @@
+id: 1351
+game_id: 3740
+game_slug: massive-chalice
+name: MASSIVE CHALICE
+year: null
+user: Xodetaetl
+runner: steam
+slug: massive-chalice-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-02-25T20:02:35.022000Z'
+updated_at: '2015-02-25T20:44:02.490000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 246110
+gogid: 1432894004
+gogslug: massive_chalice
+humblestoreid: ''
+script:
+  game:
+    appid: 246110

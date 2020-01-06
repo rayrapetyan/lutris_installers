@@ -1,0 +1,24 @@
+id: 2264
+game_id: 495
+game_slug: eador-masters-of-the-broken-world
+name: Eador. Masters of the Broken World
+year: null
+user: s1ns3nt
+runner: steam
+slug: eador-masters-of-the-broken-w-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-07-05T23:49:25.982461Z'
+updated_at: '2016-07-06T05:33:34.269068Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 232050
+gogid: 1207659194
+gogslug: eador_masters_of_the_broken_world
+humblestoreid: ''
+script:
+  game:
+    appid: 232050

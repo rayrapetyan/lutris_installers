@@ -1,0 +1,17 @@
+name: XBill
+slug: xbill
+year: 1994
+platforms:
+- name: Linux
+genres:
+- name: Arcade
+- name: Parody
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/xbill.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:11.959674Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

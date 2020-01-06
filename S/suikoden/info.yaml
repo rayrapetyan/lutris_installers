@@ -1,0 +1,15 @@
+name: Suikoden
+slug: suikoden
+year: 1995
+platforms:
+- name: Sony PlayStation
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/suikoden.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:29.066923Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,17 @@
+name: Phantasy Star 0
+slug: phantasy-star-0
+year: 2009
+platforms:
+- name: Nintendo DS
+genres:
+- name: RPG
+aliases:
+- slug: phantasy-star-zero
+  name: Phantasy Star Zero
+banner_url: /games/banner/phantasy-star-0.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-14T04:15:41.894307Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 1817
+game_id: 1261
+game_slug: bulletstorm
+name: Bulletstorm
+year: null
+user: RobLoach
+runner: winesteam
+slug: bulletstorm-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: ''
+created_at: '2016-01-05T06:22:39.248000Z'
+updated_at: '2017-04-08T03:42:38.300428Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 99810
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 99810

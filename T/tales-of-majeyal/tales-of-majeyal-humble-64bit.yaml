@@ -1,0 +1,29 @@
+id: 4253
+game_id: 2943
+game_slug: tales-of-majeyal
+name: Tales of Maj'Eyal
+year: 2012
+user: FakeShemp
+runner: linux
+slug: tales-of-majeyal-humble-64bit
+version: Humble (64bit)
+description: ''
+notes: ''
+created_at: '2017-06-09T21:22:14.499068Z'
+updated_at: '2017-06-11T00:47:26.615897Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 259680
+gogid: 1207666523
+gogslug: tales_of_majeyal
+humblestoreid: ''
+script:
+  exe: t-engine
+  installer:
+  - extract:
+      format: bz2
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

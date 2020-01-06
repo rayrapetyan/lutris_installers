@@ -1,0 +1,17 @@
+name: Timespinner
+slug: timespinner
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Metroidvania
+- name: Platformer
+aliases: []
+banner_url: /games/banner/timespinner.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:51.138705Z'
+steamid: 368620
+gogslug: timespinner
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 5002
+game_id: 8966
+game_slug: perils-of-man
+name: Perils of Man
+year: null
+user: pmatulka
+runner: steam
+slug: perils-of-man-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-07-12T19:45:08.457902Z'
+updated_at: '2017-08-27T21:48:14.140123Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 347710
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 347710

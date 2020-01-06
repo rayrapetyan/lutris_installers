@@ -1,0 +1,29 @@
+id: 11096
+game_id: 23656
+game_slug: homeworld-2
+name: Homeworld 2
+year: 2003
+user: Brouzuf
+runner: wine
+slug: homeworld-2-retail-cd-versions-1
+version: Retail CD versions 1.0 and 1.1.
+description: null
+notes: ''
+created_at: '2018-12-06T09:29:25.325999Z'
+updated_at: '2018-12-14T13:10:51.051032Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: file_id
+      dst: $GAMEDIR
+  files:
+  - file_id: N/A:Select the game's setup file
+  - unredistribuable_file: N/A

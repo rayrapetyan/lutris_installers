@@ -1,0 +1,16 @@
+name: Car Mechanic Simulator 2015
+slug: car-mechanic-simulator-2015
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Building
+- name: Simulation
+aliases: []
+banner_url: /games/banner/car-mechanic-simulator-2015.jpg
+icon_url: /games/icon/car-mechanic-simulator-2015.png
+is_public: true
+updated: '2019-04-18T03:28:24.992090Z'
+steamid: 320300
+gogslug: ''
+humblestoreid: ''

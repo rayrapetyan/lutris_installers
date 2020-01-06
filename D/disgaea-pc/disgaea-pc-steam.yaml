@@ -1,0 +1,24 @@
+id: 4846
+game_id: 6095
+game_slug: disgaea-pc
+name: Disgaea PC
+year: null
+user: jimj316
+runner: winesteam
+slug: disgaea-pc-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-07-06T09:10:37.835995Z'
+updated_at: '2017-07-09T20:10:49.552169Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 405900
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 405900

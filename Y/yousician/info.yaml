@@ -1,0 +1,16 @@
+name: Yousician
+slug: yousician
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Educational
+- name: Rhythm
+aliases: []
+banner_url: /games/banner/yousician.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:13.577675Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

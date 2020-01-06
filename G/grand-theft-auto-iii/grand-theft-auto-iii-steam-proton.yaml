@@ -1,0 +1,24 @@
+id: 12884
+game_id: 133
+game_slug: grand-theft-auto-iii
+name: Grand Theft Auto III
+year: 2001
+user: Testman42
+runner: steam
+slug: grand-theft-auto-iii-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-04-16T21:08:09.196000Z'
+updated_at: '2019-05-19T07:19:14.462899Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 12100
+gogid: null
+gogslug: ''
+humblestoreid: grand-theft-auto-iii
+script:
+  game:
+    appid: 12100

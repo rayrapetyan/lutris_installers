@@ -1,0 +1,35 @@
+id: 12655
+game_id: 3810
+game_slug: survivalist
+name: Survivalist
+year: null
+user: cxf
+runner: winesteam
+slug: survivalist-steam
+version: Steam
+description: null
+notes: Doesn't play music
+created_at: '2019-04-07T06:08:55.096057Z'
+updated_at: '2019-04-07T06:08:59.857500Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 340050
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: dotnet472
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 340050

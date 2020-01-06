@@ -1,0 +1,28 @@
+id: 4858
+game_id: 11004
+game_slug: cinderella-phenomenon
+name: Cinderella Phenomenon
+year: 2016
+user: FakeShemp
+runner: linux
+slug: cinderella-phenomenon-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-07-06T17:59:15.755543Z'
+updated_at: '2017-07-09T20:11:33.064629Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 568770
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: CinderellaPhenomenon.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

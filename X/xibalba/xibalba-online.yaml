@@ -1,0 +1,23 @@
+id: 4510
+game_id: 11818
+game_slug: xibalba
+name: Xibalba
+year: 2014
+user: scottviger
+runner: browser
+slug: xibalba-online
+version: Online
+description: ''
+notes: ''
+created_at: '2017-06-19T21:03:14.123721Z'
+updated_at: '2017-06-24T16:20:56.101806Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: http://phoboslab.org/xibalba/

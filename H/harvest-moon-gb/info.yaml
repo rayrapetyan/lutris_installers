@@ -1,0 +1,16 @@
+name: Harvest Moon GB
+slug: harvest-moon-gb
+year: 1997
+platforms:
+- name: Game Boy
+- name: Nintendo Game Boy Color
+genres:
+- name: Simulation
+aliases: []
+banner_url: /games/banner/harvest-moon-gb.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:47.417076Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,17 @@
+name: Shadow Warrior 2
+slug: shadow-warrior-2
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: FPS
+aliases: []
+banner_url: /games/banner/shadow-warrior-2.jpg
+icon_url: /games/icon/shadow-warrior-2.png
+is_public: true
+updated: '2019-01-23T08:31:11.089384Z'
+steamid: 324800
+gogslug: shadow_warrior_2
+humblestoreid: ''

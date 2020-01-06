@@ -1,0 +1,15 @@
+name: 'Star Wars: Return Of The Jedi'
+slug: star-wars-return-of-the-jedi
+year: 1984
+platforms:
+- name: Arcade
+genres:
+- name: Arcade
+aliases: []
+banner_url: /games/banner/star-wars-return-of-the-jedi.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:25.713306Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

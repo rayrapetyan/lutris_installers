@@ -1,0 +1,15 @@
+name: TrackMania
+slug: trackmania
+year: 2004
+platforms:
+- name: Windows
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/trackmania.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:54.382301Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

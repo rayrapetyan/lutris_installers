@@ -1,0 +1,24 @@
+id: 67
+game_id: 82
+game_slug: borderlands
+name: Borderlands
+year: 2009
+user: strider
+runner: steam
+slug: borderlands-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2013-10-03T20:34:42Z'
+updated_at: '2019-01-07T06:24:11.500884Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 8980
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 8980

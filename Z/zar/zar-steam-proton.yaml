@@ -1,0 +1,24 @@
+id: 16072
+game_id: 5431
+game_slug: zar
+name: Z.A.R.
+year: 1998
+user: LeXofLeviafan
+runner: steam
+slug: zar-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-10-09T19:26:36.187000Z'
+updated_at: '2019-10-11T02:16:43.727652Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 351820
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 351820

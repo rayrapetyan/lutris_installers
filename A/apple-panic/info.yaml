@@ -1,0 +1,17 @@
+name: Apple Panic
+slug: apple-panic
+year: 1981
+platforms:
+- name: Apple //e
+- name: Atari 800
+- name: MS-DOS
+genres:
+- name: Platformer
+aliases: []
+banner_url: /games/banner/apple-panic.jpg
+icon_url: null
+is_public: true
+updated: '2019-06-25T07:49:50.240157Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

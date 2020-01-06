@@ -1,0 +1,24 @@
+id: 13184
+game_id: 2387
+game_slug: lego-batman-2
+name: LEGO Batman 2
+year: 2012
+user: skyace65
+runner: steam
+slug: lego-batman-2-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-04-28T13:53:11.883000Z'
+updated_at: '2019-05-19T07:13:13.247223Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 213330
+gogid: 1193585573
+gogslug: legor_batman_2_dc_super_heroes
+humblestoreid: ''
+script:
+  game:
+    appid: 213330

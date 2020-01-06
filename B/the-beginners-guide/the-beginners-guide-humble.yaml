@@ -1,0 +1,35 @@
+id: 4825
+game_id: 4962
+game_slug: the-beginners-guide
+name: The Beginner's Guide
+year: 2015
+user: FakeShemp
+runner: linux
+slug: the-beginners-guide-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-07-05T19:25:38.002637Z'
+updated_at: '2017-07-09T20:14:04.879795Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 303210
+gogid: null
+gogslug: ''
+humblestoreid: the-beginners-guide
+script:
+  exe: beginnersguide
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $CACHE/The Beginner's Guide Setup
+  - extract:
+      file: $CACHE/data/tbg.tar
+  files:
+  - file1: N/A:Please select the Humble archive

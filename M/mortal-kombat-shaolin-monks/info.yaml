@@ -1,0 +1,18 @@
+name: 'Mortal Kombat: Shaolin Monks'
+slug: mortal-kombat-shaolin-monks
+year: 2005
+platforms:
+- name: Sony PlayStation 2
+genres:
+- name: Action
+- name: Action-adventure
+- name: Adventure
+- name: Fighting
+aliases: []
+banner_url: /games/banner/mortal-kombat-shaolin-monks.jpg
+icon_url: null
+is_public: true
+updated: '2019-12-27T23:51:41.631529Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

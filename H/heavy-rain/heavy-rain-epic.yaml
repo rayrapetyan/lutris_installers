@@ -1,0 +1,115 @@
+id: 17266
+game_id: 30687
+game_slug: heavy-rain
+name: Heavy Rain
+year: 2019
+user: Fander
+runner: wine
+slug: heavy-rain-epic
+version: Epic
+description: Configures mfplat dlls, d3dcompiler_43.dll, xaudio2_7.dll along with
+  epic games store dependencies.
+notes: You would need to sign in to Epic Games Launcher and manually download the
+  game. While shader caching you might experience some slowdowns and audio crackling,
+  but after cache is built it will run smoothly with no audio problems.
+created_at: '2019-12-11T05:16:23.339000Z'
+updated_at: '2019-12-11T11:10:45.862026Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE/dxsetup
+      file: audio
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: mf
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      component: mediafoundation
+      cabfile: $HOME/.cache/winetricks/win7sp1/windows6.1-KB976932-X64.exe
+      name: install_cab_component
+  - task:
+      prefix: $GAMEDIR
+      component: mf_
+      cabfile: $HOME/.cache/winetricks/win7sp1/windows6.1-KB976932-X64.exe
+      name: install_cab_component
+  - task:
+      prefix: $GAMEDIR
+      component: mfreadwrite
+      cabfile: $HOME/.cache/winetricks/win7sp1/windows6.1-KB976932-X64.exe
+      name: install_cab_component
+  - task:
+      prefix: $GAMEDIR
+      component: wmadmod
+      cabfile: $HOME/.cache/winetricks/win7sp1/windows6.1-KB976932-X64.exe
+      name: install_cab_component
+  - task:
+      prefix: $GAMEDIR
+      component: wmvdecod
+      cabfile: $HOME/.cache/winetricks/win7sp1/windows6.1-KB976932-X64.exe
+      name: install_cab_component
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR
+      args: /silent
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  - task:
+      prefix: $GAMEDIR
+      description: Installing dependencies
+      app: arial dotnet48 d3dcompiler_43 d3dcompiler_47 d3dx9
+      arch: win64
+      name: winetricks
+  - copy:
+      src: epic
+      dst: $CACHE/epic/
+  - task:
+      executable: msiexec
+      prefix: $GAMEDIR
+      arch: win64
+      args: /i "$CACHE/epic/EpicGamesLauncherInstaller.msi" /q
+      exclude_processes: EpicGamesLauncher.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  game:
+    prefix: $GAMEDIR
+    args: -opengl
+    exe: drive_c/Program Files (x86)/Epic Games/Launcher/Portal/Binaries/Win32/EpicGamesLauncher.exe
+    arch: win64
+  system:
+    env:
+      MESA_GL_VERSION_OVERRIDE: 4.4COMPAT
+      PULSE_LATENCY_MSEC: 60
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: compiler
+      __GL_SHADER_DISK_CACHE: 1
+  wine:
+    version: lutris-4.21-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      mfplat: native,builtin
+      xaudio2_7: native,builtin
+  files:
+  - epic: https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi
+  - audio: https://lutris.net/files/tools/directx-2010.tar.gz
+  - mfplat_dll_64: https://lutris.net/files/tools/dll/mfplat/x64/mfplat.dll

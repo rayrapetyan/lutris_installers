@@ -1,0 +1,133 @@
+id: 9595
+game_id: 11799
+game_slug: anno-1602-ad
+name: Anno 1602 A.D.
+year: 1998
+user: Medath
+runner: wine
+slug: anno-1602-cd
+version: CD
+description: null
+notes: ''
+created_at: '2018-08-05T12:49:15.616954Z'
+updated_at: '2018-08-06T06:04:37.340270Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1438168222
+gogslug: anno_1602_ad
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: ANNO1602
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - write_file:
+      content: '[InstallShield Silent]
+
+        Version=v7.00
+
+        File=Response File
+
+        [File Transfer]
+
+        OverwrittenReadOnly=NoToAll
+
+        [{077A7810-A937-4465-AD08-ACED9807995F}-DlgOrder]
+
+        Dlg0={077A7810-A937-4465-AD08-ACED9807995F}-SdWelcome-0
+
+        Count=8
+
+        Dlg1={077A7810-A937-4465-AD08-ACED9807995F}-SdLicense-0
+
+        Dlg2={077A7810-A937-4465-AD08-ACED9807995F}-SdAskDestPath-0
+
+        Dlg3={077A7810-A937-4465-AD08-ACED9807995F}-SdSelectFolder-0
+
+        Dlg4={077A7810-A937-4465-AD08-ACED9807995F}-AskOptions-0
+
+        Dlg5={077A7810-A937-4465-AD08-ACED9807995F}-AskOptions-1
+
+        Dlg6={077A7810-A937-4465-AD08-ACED9807995F}-SdStartCopy-0
+
+        Dlg7={077A7810-A937-4465-AD08-ACED9807995F}-SdFinish-0
+
+        [{077A7810-A937-4465-AD08-ACED9807995F}-SdWelcome-0]
+
+        Result=1
+
+        [{077A7810-A937-4465-AD08-ACED9807995F}-SdLicense-0]
+
+        Result=1
+
+        [{077A7810-A937-4465-AD08-ACED9807995F}-SdAskDestPath-0]
+
+        szDir=C:\game\ANNO 1602
+
+        Result=1
+
+        [{077A7810-A937-4465-AD08-ACED9807995F}-SdSelectFolder-0]
+
+        szFolder=ANNO 1602
+
+        Result=1
+
+        [{077A7810-A937-4465-AD08-ACED9807995F}-AskOptions-0]
+
+        Result=1
+
+        Sel-0=0
+
+        Sel-1=1
+
+        [{077A7810-A937-4465-AD08-ACED9807995F}-AskOptions-1]
+
+        Result=1
+
+        Sel-0=0
+
+        Sel-1=1
+
+        [{077A7810-A937-4465-AD08-ACED9807995F}-SdStartCopy-0]
+
+        Result=1
+
+        [Application]
+
+        Name=ANNO 1602
+
+        Version=1.00
+
+        Company=Sunflowers
+
+        Lang=0007
+
+        [{077A7810-A937-4465-AD08-ACED9807995F}-SdFinish-0]
+
+        Result=1
+
+        bOpt1=0
+
+        bOpt2=0
+
+        [{B545E170-BB2F-4FB9-81FB-22D15E2822F8}-DlgOrder]
+
+        Count=0
+
+        '
+      description: Creating installer config file
+      file: $GAMEDIR/drive_c/setup.iss
+  - task:
+      executable: $DISC/setup.exe
+      args: -s -f1"C:\setup.iss"
+      description: Installing Game
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/game/ANNO 1602/1602.exe

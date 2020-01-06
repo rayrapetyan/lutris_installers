@@ -1,0 +1,15 @@
+name: 'Game & Watch: Mickey Mouse'
+slug: game-watch-mickey-mouse
+year: 1977
+platforms:
+- name: Arcade
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/game-watch-mickey-mouse.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:37.852410Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

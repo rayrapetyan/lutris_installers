@@ -1,0 +1,23 @@
+id: 9957
+game_id: 21363
+game_slug: a-dark-room
+name: A dark room
+year: 2013
+user: vogu66
+runner: browser
+slug: a-dark-room-online
+version: Online
+description: null
+notes: ''
+created_at: '2018-08-29T13:07:22.357000Z'
+updated_at: '2018-08-31T00:06:41.198258Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: http://adarkroom.doublespeakgames.com/

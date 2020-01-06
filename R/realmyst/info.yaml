@@ -1,0 +1,16 @@
+name: realMyst
+slug: realmyst
+year: 2000
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/realmyst.jpg
+icon_url: /games/icon/realmyst.png
+is_public: true
+updated: '2019-10-26T18:17:53.803056Z'
+steamid: 63600
+gogslug: ''
+humblestoreid: ''

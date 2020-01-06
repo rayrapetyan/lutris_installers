@@ -1,0 +1,15 @@
+name: 'Duke Nukem: Time to Kill'
+slug: duke-nukem-time-to-kill
+year: 1998
+platforms:
+- name: Sony PlayStation
+genres:
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/duke-nukem-time-to-kill.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:18.839461Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

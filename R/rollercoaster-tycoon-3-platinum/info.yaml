@@ -1,0 +1,16 @@
+name: 'RollerCoaster Tycoon 3: Platinum!'
+slug: rollercoaster-tycoon-3-platinum
+year: 2006
+platforms:
+- name: Windows
+genres:
+- name: Simulation
+- name: Strategy
+aliases: []
+banner_url: /games/banner/rollercoaster-tycoon-3-platinum.jpg
+icon_url: /games/icon/rollercoaster-tycoon-3-platinum.png
+is_public: true
+updated: '2019-10-23T14:38:35.111165Z'
+steamid: 2700
+gogslug: rollercoaster_tycoon_3
+humblestoreid: ''

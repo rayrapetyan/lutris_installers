@@ -1,0 +1,16 @@
+name: 'A Plague Tale: Innocence'
+slug: a-plague-tale-innocence
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Stealth
+aliases: []
+banner_url: /games/banner/a-plague-tale-innocence.jpg
+icon_url: /games/icon/a-plague-tale-innocence.png
+is_public: true
+updated: '2020-01-01T18:41:37.700360Z'
+steamid: 752590
+gogslug: ''
+humblestoreid: ''

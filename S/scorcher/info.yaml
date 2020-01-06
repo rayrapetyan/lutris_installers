@@ -1,0 +1,18 @@
+name: Scorcher
+slug: scorcher
+year: 1996
+platforms:
+- name: MS-DOS
+- name: Sega Saturn
+- name: Windows
+genres:
+- name: Arcade
+- name: Racing
+aliases: []
+banner_url: /games/banner/scorcher.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:08.186644Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,17 @@
+name: Spooky Station
+slug: spooky-station
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Dungeon crawl
+aliases: []
+banner_url: /games/banner/spooky-station.jpg
+icon_url: null
+is_public: true
+updated: '2019-12-19T17:53:19.090927Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

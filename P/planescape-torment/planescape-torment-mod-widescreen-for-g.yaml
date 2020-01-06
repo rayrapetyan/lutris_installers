@@ -1,0 +1,38 @@
+id: 396
+game_id: 78
+game_slug: planescape-torment
+name: 'Planescape: Torment'
+year: 1999
+user: Xodetaetl
+runner: wine
+slug: planescape-torment-mod-widescreen-for-g
+version: '[Mod] Widescreen for GOG'
+description: ''
+notes: ''
+created_at: '2014-01-26T22:28:16.592000Z'
+updated_at: '2016-09-30T19:56:27.158195Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: planescape_torment
+humblestoreid: ''
+script:
+  requires: planescape-torment
+  exe: drive_c/GOG Games/Planescape Torment/torment.exe
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR/drive_c/GOG Games/Planescape Torment/
+  - task:
+      executable: file1
+      prefix: $GAMEDIR
+      description: Installing the widescreen mod
+      workdir: $GAMEDIR/drive_c/GOG Games/Planescape Torment/
+      name: wineexec
+  files:
+  - file1: "N/A:Select the widescreen installer \nDownload it from http://forums.gibberlings3.net/index.php?app=downloads&showfile=896"
+  game:
+    prefix: $GAMEDIR

@@ -1,0 +1,33 @@
+id: 10594
+game_id: 13488
+game_slug: pyre
+name: Pyre
+year: null
+user: Siarkowy
+runner: linux
+slug: pyre-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2018-10-21T19:10:00.613000Z'
+updated_at: '2018-10-22T18:45:52.327405Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 462770
+gogid: 1408852789
+gogslug: pyre
+humblestoreid: ''
+script:
+  exe: start.sh
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data/noarch
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the GOG installer

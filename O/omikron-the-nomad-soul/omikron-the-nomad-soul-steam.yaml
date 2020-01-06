@@ -1,0 +1,24 @@
+id: 7935
+game_id: 3552
+game_slug: omikron-the-nomad-soul
+name: Omikron - The Nomad Soul
+year: null
+user: JayCoda
+runner: winesteam
+slug: omikron-the-nomad-soul-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-04-18T17:35:33.194067Z'
+updated_at: '2018-04-30T07:04:10.006259Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 243000
+gogid: 1207659190
+gogslug: omikron_the_nomad_soul
+humblestoreid: ''
+script:
+  game:
+    appid: 243000

@@ -1,0 +1,28 @@
+id: 8779
+game_id: 19361
+game_slug: hadaka-shitsuji-naked-butlers
+name: Hadaka Shitsuji - Naked Butlers
+year: 2017
+user: kimchitea
+runner: linux
+slug: hadaka-shitsuji-naked-butlers-mangagamer
+version: MangaGamer
+description: null
+notes: ''
+created_at: '2018-06-18T05:09:27.366000Z'
+updated_at: '2018-06-18T09:55:22.667345Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 1031020
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Hadaka.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the MangaGamer archive

@@ -1,0 +1,24 @@
+id: 776
+game_id: 2869
+game_slug: frederic-resurrection-of-music
+name: 'Frederic: Resurrection of Music'
+year: null
+user: Xodetaetl
+runner: steam
+slug: frederic-resurrection-of-music-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T16:02:19.952000Z'
+updated_at: '2014-09-15T16:13:28.698000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 301190
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 301190

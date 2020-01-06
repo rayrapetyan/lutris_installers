@@ -1,0 +1,15 @@
+name: 'Command & Conquer: Red Alert 3'
+slug: command-and-conquer-red-alert-3
+year: 2008
+platforms:
+- name: Windows
+genres:
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/command-and-conquer-red-alert-3.jpg
+icon_url: /games/icon/command-and-conquer-red-alert-3.png
+is_public: true
+updated: '2019-09-11T17:31:18.685298Z'
+steamid: 17480
+gogslug: ''
+humblestoreid: ''

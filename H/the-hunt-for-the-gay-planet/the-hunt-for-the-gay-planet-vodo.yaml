@@ -1,0 +1,31 @@
+id: 6316
+game_id: 14785
+game_slug: the-hunt-for-the-gay-planet
+name: The Hunt for the Gay Planet
+year: null
+user: FakeShemp
+runner: web
+slug: the-hunt-for-the-gay-planet-vodo
+version: Vodo
+description: null
+notes: ''
+created_at: '2017-11-12T18:43:49.595610Z'
+updated_at: '2017-11-12T18:45:50.749948Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: $file1
+  web:
+    window_size: 1280x720
+  files:
+  - file1: N/A:Please select the Vodo archive
+  game:
+    main_file: $GAMEDIR/index.html

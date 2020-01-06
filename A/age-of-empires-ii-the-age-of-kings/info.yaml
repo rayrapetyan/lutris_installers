@@ -1,0 +1,15 @@
+name: 'Age of Empires II: The Age of Kings'
+slug: age-of-empires-ii-the-age-of-kings
+year: 1999
+platforms:
+- name: Windows
+genres:
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/age-of-empires-ii-the-age-of-kings.jpg
+icon_url: /games/icon/age-of-empires-ii-the-age-of-kings.png
+is_public: true
+updated: '2019-01-23T08:28:14.381392Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

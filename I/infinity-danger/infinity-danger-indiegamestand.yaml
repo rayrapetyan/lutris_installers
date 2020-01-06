@@ -1,0 +1,37 @@
+id: 4392
+game_id: 11755
+game_slug: infinity-danger
+name: Infinity Danger
+year: 2012
+user: FakeShemp
+runner: wine
+slug: infinity-danger-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-06-16T17:27:06.012000Z'
+updated_at: '2018-05-19T03:41:52.254952Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      app: xna40
+      name: winetricks
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the IndieGameStand installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Milkstone Studios/Infinity Danger/InfinityDanger.exe
+    arch: win32

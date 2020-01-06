@@ -1,0 +1,24 @@
+id: 3675
+game_id: 8223
+game_slug: sid-meiers-civilization-vi
+name: Sid Meier's Civilization VI
+year: 2016
+user: Wompus
+runner: steam
+slug: sid-meiers-civilization-vi-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-05-13T21:24:47.076364Z'
+updated_at: '2017-05-14T17:24:18.849475Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 289070
+gogid: null
+gogslug: ''
+humblestoreid: sid-meiers-civilization-6
+script:
+  game:
+    appid: 289070

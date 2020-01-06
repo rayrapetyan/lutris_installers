@@ -1,0 +1,25 @@
+id: 9707
+game_id: 20878
+game_slug: talisman-the-reaper-expansion
+name: 'Talisman: The Reaper Expansion'
+year: 2014
+user: meltinn
+runner: winesteam
+slug: talisman-the-reaper-expansion-steam
+version: Steam
+description: 'Requires Talisman: Digital Edition.'
+notes: ''
+created_at: '2018-08-12T10:09:39.996460Z'
+updated_at: '2018-08-12T14:57:33.915098Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: talisman-digital-edition-steam
+  game:
+    appid: 258810

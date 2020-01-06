@@ -1,0 +1,40 @@
+id: 9505
+game_id: 2052
+game_slug: flatout-2
+name: FlatOut 2
+year: 2006
+user: Medath
+runner: wine
+slug: flatout-2-dvd
+version: DVD
+description: Sets up the DVD version of the game with wine
+notes: The setup of the game automatically creates the file "FlatOut 2.lnk" on your
+  Desktop. It is not needed and can be safely deleted.
+created_at: '2018-07-31T20:11:26.752000Z'
+updated_at: '2019-09-09T00:07:02.803086Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 2990
+gogid: 1207660523
+gogslug: flatout_2
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: FlatOut2.msi
+  - task:
+      prefix: $GAMEDIR
+      description: Installing DirectX 9
+      app: d3dx9_30
+      name: winetricks
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      description: Running setup of the game. Just proceed and keep all settings at
+        their defaults
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Empire Interactive/FlatOut2/FlatOut2.exe

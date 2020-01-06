@@ -1,0 +1,24 @@
+id: 11469
+game_id: 22195
+game_slug: how-to-fool-a-liar-king
+name: How to Fool a Liar King
+year: 2017
+user: kimchitea
+runner: steam
+slug: how-to-fool-a-liar-king-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-01-06T05:09:50.287000Z'
+updated_at: '2019-05-22T00:06:42.922950Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 635790
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 635790

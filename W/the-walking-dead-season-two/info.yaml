@@ -1,0 +1,16 @@
+name: 'The Walking Dead: Season Two'
+slug: the-walking-dead-season-two
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/the-walking-dead-season-two.jpg
+icon_url: /games/icon/the-walking-dead-season-two.png
+is_public: true
+updated: '2019-01-23T08:31:48.546373Z'
+steamid: 261030
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,37 @@
+id: 362
+game_id: 1681
+game_slug: final-fight
+name: Final Fight
+year: 1991
+user: strider
+runner: fsuae
+slug: final-fight-amiga
+version: amiga
+description: ''
+notes: ''
+created_at: '2014-01-12T05:01:15.922000Z'
+updated_at: '2017-05-01T08:51:11.259272Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: disk1
+      dst: $GAMEDIR
+  - merge:
+      src: disk2
+      dst: $GAMEDIR
+  files:
+  - disk1: N/A
+  - disk2: N/A
+  game:
+    disks:
+    - disk1
+    - disk2
+    main_file: disk1

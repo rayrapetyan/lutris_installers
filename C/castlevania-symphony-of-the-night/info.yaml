@@ -1,0 +1,17 @@
+name: 'Castlevania: Symphony of the Night'
+slug: castlevania-symphony-of-the-night
+year: 1997
+platforms:
+- name: Sony PlayStation
+genres:
+- name: Action
+- name: Adventure
+- name: Platform
+aliases: []
+banner_url: /games/banner/castlevania-symphony-of-the-night.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:47.909871Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

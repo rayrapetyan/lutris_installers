@@ -1,0 +1,15 @@
+name: '007: GoldenEye (Tiger)'
+slug: 007-goldeneye-tiger
+year: 1995
+platforms:
+- name: Arcade
+genres:
+- name: Shooter
+aliases: []
+banner_url: /games/banner/007-goldeneye-tiger.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:07.190828Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

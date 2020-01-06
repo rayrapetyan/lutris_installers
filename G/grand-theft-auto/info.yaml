@@ -1,0 +1,18 @@
+name: Grand Theft Auto
+slug: grand-theft-auto
+year: 1997
+platforms:
+- name: MS-DOS
+- name: Nintendo Game Boy Color
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/grand-theft-auto.jpg
+icon_url: /games/icon/grand-theft-auto.png
+is_public: true
+updated: '2019-10-16T19:42:00.906805Z'
+steamid: 12170
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,43 @@
+id: 5769
+game_id: 13931
+game_slug: kings-quest-iii-to-heir-is-human-2011
+name: 'King''s Quest III: To Heir is Human (2011)'
+year: 2011
+user: XoraTheImmortal
+runner: ags
+slug: kings-quest-iii-to-heir-is-hu-11
+version: '1.1'
+description: ''
+notes: "- ignore errors during installation\r\n- don't change the install path"
+created_at: '2017-09-17T01:03:56.962000Z'
+updated_at: '2018-05-19T03:41:53.082884Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $CACHE
+      description: Creating Wine prefix
+      name: wine.create_prefix
+  - task:
+      executable: $installer
+      prefix: $CACHE
+      description: Installing ...
+      arch: win32
+      name: wine.wineexec
+  - merge:
+      src: $CACHE/drive_c/Program Files/AGD Interactive/King's Quest III Redux
+      description: Copying files
+      dst: $GAMEDIR
+  files:
+  - installer:
+      filename: KQ3_Redux11.exe
+      url: http://agdinteractive.com/countdl.php?action=download&game=13
+  game:
+    main_file: $GAMEDIR/Kq3Redux.exe

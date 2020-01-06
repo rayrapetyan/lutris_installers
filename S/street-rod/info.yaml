@@ -1,0 +1,16 @@
+name: Street Rod
+slug: street-rod
+year: 1989
+platforms:
+- name: Amiga
+- name: MS-DOS
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/street-rod.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:28.081752Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

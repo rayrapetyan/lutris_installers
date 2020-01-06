@@ -1,0 +1,24 @@
+id: 8203
+game_id: 15511
+game_slug: entropy-zero
+name: 'Entropy : Zero'
+year: null
+user: soredake
+runner: winesteam
+slug: entropy-zero-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T07:09:15.971327Z'
+updated_at: '2018-05-13T09:04:32.016793Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 714070
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 714070

@@ -1,0 +1,26 @@
+name: Alien Syndrome
+slug: alien-syndrome
+year: 1986
+platforms:
+- name: Amiga
+- name: Amstrad CPC 464
+- name: Arcade
+- name: Atari ST
+- name: Commodore 64
+- name: MS-DOS
+- name: MSX
+- name: NES
+- name: Sega Game Gear
+- name: Sega Master System
+- name: X68000
+- name: ZX Spectrum
+genres:
+- name: Shooter
+aliases: []
+banner_url: /games/banner/alien-syndrome.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:19.233671Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 17431
+game_id: 1289
+game_slug: need-for-speed-undercover
+name: 'Need for Speed: Undercover'
+year: null
+user: mbalps4ps3
+runner: wine
+slug: need-for-speed-undercover-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-12-19T14:43:46.544560Z'
+updated_at: '2019-12-19T14:43:46.544586Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: 17430
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 17430

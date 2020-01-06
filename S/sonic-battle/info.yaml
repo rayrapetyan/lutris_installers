@@ -1,0 +1,16 @@
+name: Sonic Battle
+slug: sonic-battle
+year: 2003
+platforms:
+- name: Nintendo Game Boy Advance
+genres:
+- name: Action
+- name: Fighting
+aliases: []
+banner_url: /games/banner/sonic-battle.jpg
+icon_url: null
+is_public: true
+updated: '2019-12-15T18:30:16.263501Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

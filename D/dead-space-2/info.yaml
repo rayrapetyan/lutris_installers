@@ -1,0 +1,16 @@
+name: Dead Space 2
+slug: dead-space-2
+year: 2011
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Survival
+aliases: []
+banner_url: /games/banner/dead-space-2.jpg
+icon_url: /games/icon/dead-space-2.png
+is_public: true
+updated: '2019-01-23T08:29:06.903318Z'
+steamid: 47780
+gogslug: ''
+humblestoreid: ''

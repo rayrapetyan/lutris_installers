@@ -1,0 +1,45 @@
+id: 6525
+game_id: 5787
+game_slug: gobliins-2-the-prince-buffoon
+name: 'Gobliins 2: The Prince Buffoon'
+year: 1992
+user: FakeShemp
+runner: scummvm
+slug: gobliins-2-the-prince-buffoon-groupees
+version: Groupees
+description: Uses the files from the Gobliiins Trilogy installer from Groupees.
+notes: ''
+created_at: '2017-12-01T23:05:57.955290Z'
+updated_at: '2017-12-01T23:07:37.627541Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: rar
+      dst: $CACHE
+      file: $file1
+  - extract:
+      dst: $CACHE
+      file: $CACHE/Multi5.zip
+  - extract:
+      dst: $CACHE
+      file: $CACHE/Common.zip
+  - merge:
+      src: $CACHE/Gobliins2
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/Games/Gobliins2
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Groupees installer
+  game:
+    game_id: gob2
+    path: $GAMEDIR
+    subtitles: true

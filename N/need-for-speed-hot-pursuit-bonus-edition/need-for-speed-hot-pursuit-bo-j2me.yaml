@@ -1,0 +1,31 @@
+id: 13525
+game_id: 27298
+game_slug: need-for-speed-hot-pursuit-bonus-edition
+name: 'Need for Speed: Hot Pursuit Bonus Edition'
+year: 2013
+user: te_lanus
+runner: libretro
+slug: need-for-speed-hot-pursuit-bo-j2me
+version: J2ME
+description: null
+notes: ''
+created_at: '2019-05-14T15:18:22.599423Z'
+updated_at: '2019-05-14T15:18:37.576186Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Java game file
+  game:
+    core: freej2me
+    main_file: file1

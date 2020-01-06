@@ -1,0 +1,16 @@
+name: Xenonauts
+slug: xenonauts
+year: 2014
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Turn-based tactics
+aliases: []
+banner_url: /games/banner/xenonauts.jpg
+icon_url: /games/icon/xenonauts.png
+is_public: true
+updated: '2019-01-23T08:32:12.245573Z'
+steamid: 223830
+gogslug: xenonauts
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 11299
+game_id: 6027
+game_slug: fnaf-world
+name: FNaF World
+year: null
+user: FoeX
+runner: winesteam
+slug: fnaf-world-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-12-22T09:49:41.335595Z'
+updated_at: '2018-12-23T02:50:06.823111Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 427920
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 427920

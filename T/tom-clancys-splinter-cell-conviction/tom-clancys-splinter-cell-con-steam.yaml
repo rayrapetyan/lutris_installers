@@ -1,0 +1,26 @@
+id: 7536
+game_id: 390
+game_slug: tom-clancys-splinter-cell-conviction
+name: 'Tom Clancy''s Splinter Cell: Conviction'
+year: 2010
+user: cxf
+runner: winesteam
+slug: tom-clancys-splinter-cell-con-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-15T06:26:17.788834Z'
+updated_at: '2018-03-15T06:26:21.972481Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 33229
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-2.21-x86_64
+  game:
+    appid: 33229

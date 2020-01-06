@@ -1,0 +1,60 @@
+id: 16872
+game_id: 153
+game_slug: indiana-jones-and-the-fate-of-atlantis
+name: Indiana Jones and the Fate of Atlantis
+year: 1992
+user: legluondunet
+runner: scummvm
+slug: indiana-jones-and-the-fate-of-gog-multi5
+version: GOG + MULTI5
+description: "This script will install \"Indiana Jones and the Fate of Atlantis\"\
+  \ GOG edition for ScummVM.\r\nDuring install please let all options by default.\r\
+  \nThanks to the people who contributed to play this game in the best conditions."
+notes: "- Multilanguage: you could choose your preferred subtitles language during\
+  \ install between english, french, italian spanish and german. The voices will still\
+  \ stay in english.\r\n- Please report issue concerning this script on my Github\
+  \ page:\r\nhttps://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2019-11-17T11:30:25.595000Z'
+updated_at: '2019-11-17T16:19:48.389105Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: 6010
+gogid: 1207666293
+gogslug: indiana_jones_and_the_fate_of_atlantis
+humblestoreid: ''
+script:
+  custom-name: Indiana Jones and the Fate of Atlantis - GOG
+  scummvm:
+    aspect: true
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/data
+      dst: $GAMEDIR
+  - extract:
+      src: multi5
+      dst: $CACHE
+  - input_menu:
+      options:
+      - keep: I prefer to keep the default install language
+      - fr: French
+      - sp: Spanish
+      - ge: German
+      - it: Italian
+      description: 'Please choose your preferred subtitles language:'
+      id: LANG
+      preselect: keep
+  - merge:
+      src: $CACHE/$INPUT_LANG
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  - multi5: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Indiana%20Jones%20and%20the%20Fate%20of%20Atlantis/indi4_multi5.zip
+  game:
+    game_id: atlantis
+    path: $GAMEDIR

@@ -1,0 +1,17 @@
+name: Feudal Alloy
+slug: feudal-alloy
+year: null
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/feudal-alloy.jpg
+icon_url: /games/icon/feudal-alloy.png
+is_public: true
+updated: '2019-01-23T08:29:30.115932Z'
+steamid: 699670
+gogslug: feudal_alloy
+humblestoreid: ''

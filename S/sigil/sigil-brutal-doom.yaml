@@ -1,0 +1,44 @@
+id: 13838
+game_id: 27591
+game_slug: sigil
+name: Sigil
+year: 2019
+user: maxlefou
+runner: zdoom
+slug: sigil-brutal-doom
+version: Brutal Doom
+description: null
+notes: ''
+created_at: '2019-05-31T20:20:34.330000Z'
+updated_at: '2019-06-11T22:21:29.944678Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      src: $sigil
+      dst: $CACHE
+  - extract:
+      dst: $GAMEDIR
+      file: brutal
+  - merge:
+      src: $doom
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/SIGIL.wad
+      dst: $GAMEDIR
+  files:
+  - doom: N/A:Please select the Ultimate Doom iwad file.
+  - brutal: https://lutris.robloach.net/bd21testApr25.zip
+  - sigil: https://www.romerogames.ie/s/SIGIL_V1_1.zip
+  game:
+    main_file: $doom
+    files:
+    - SIGIL.wad
+    - bd21testApr25.pk3

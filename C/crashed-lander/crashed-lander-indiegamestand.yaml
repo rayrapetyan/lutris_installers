@@ -1,0 +1,31 @@
+id: 4365
+game_id: 3816
+game_slug: crashed-lander
+name: Crashed Lander
+year: null
+user: FakeShemp
+runner: linux
+slug: crashed-lander-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-06-15T17:45:31.087550Z'
+updated_at: '2017-06-16T17:17:26.195110Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 340450
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: CrashedLander.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/CrashedLander.x86
+  - chmodx: $GAMEDIR/CrashedLander.x86_64
+  exe64: CrashedLander.x86_64
+  files:
+  - file1: N/A:Please select the IndieGameStand archive

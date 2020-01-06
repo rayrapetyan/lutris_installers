@@ -1,0 +1,31 @@
+id: 10140
+game_id: 21690
+game_slug: airwolf-ii
+name: Airwolf II
+year: 1986
+user: te_lanus
+runner: libretro
+slug: airwolf-ii-commodore-16
+version: Commodore 16
+description: null
+notes: ''
+created_at: '2018-09-09T18:19:36.784985Z'
+updated_at: '2018-09-09T18:19:49.401572Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the C16 game file
+  game:
+    core: vice_xplus4
+    main_file: file1

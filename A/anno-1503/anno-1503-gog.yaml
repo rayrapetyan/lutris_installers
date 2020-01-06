@@ -1,0 +1,52 @@
+id: 4558
+game_id: 11850
+game_slug: anno-1503
+name: Anno 1503 A.D.
+year: 2003
+user: wackba
+runner: wine
+slug: anno-1503-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2017-06-24T12:00:42.805000Z'
+updated_at: '2019-03-01T20:52:04.137105Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/game/1503Startup.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /VERYSILENT /SP- /NOCANCEL /SUPPRESSMSGBOXES '/DIR=C:/game'
+      description: Installing...
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: windowmanagermanaged=n
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: directmusic
+      silent: true
+      name: winetricks
+  wine:
+    version: tkg-protonified-4.1-x86_64
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.

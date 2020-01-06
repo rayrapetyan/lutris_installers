@@ -1,0 +1,32 @@
+id: 13105
+game_id: 17701
+game_slug: on-earth-as-it-is-in-heaven-a-kinetic-novel
+name: On Earth As It Is In Heaven - A Kinetic Novel
+year: 2017
+user: kimchitea
+runner: linux
+slug: on-earth-as-it-is-in-heaven-a-steam
+version: Steam
+description: Native Linux version using Steam game data.
+notes: ''
+created_at: '2019-04-25T22:50:31.648000Z'
+updated_at: '2019-04-26T04:16:52.474614Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 662260
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: On_Earth_as_it_is_in_Heaven.sh
+  installer:
+  - merge:
+      src: steam-data
+      dst: $GAMEDIR
+  - chmodx: $GAMEDIR/On_Earth_as_it_is_in_Heaven.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/On_Earth_as_it_is_in_Heaven
+  - chmodx: $GAMEDIR/lib/linux-x86_64/On_Earth_as_it_is_in_Heaven
+  files:
+  - steam-data: $STEAM:662260:/

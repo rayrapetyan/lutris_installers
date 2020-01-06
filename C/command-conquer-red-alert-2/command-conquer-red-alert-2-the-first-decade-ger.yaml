@@ -1,0 +1,34 @@
+id: 2935
+game_id: 8201
+game_slug: command-conquer-red-alert-2
+name: 'Command & Conquer: Red Alert 2'
+year: 2000
+user: Lulu
+runner: wine
+slug: command-conquer-red-alert-2-the-first-decade-ger
+version: The First Decade (German)
+description: ''
+notes: ''
+created_at: '2016-10-22T19:37:46.240000Z'
+updated_at: '2018-05-19T03:41:48.969651Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: drive_c/Program Files/EA Games/Command & Conquer Die ersten 10 Jahre/Command
+    & Conquer Red Alert(tm) II/AR2/Ra2.exe
+  installer:
+  - insert-disc:
+      requires: setup.exe
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    arch: win32

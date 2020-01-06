@@ -1,0 +1,38 @@
+id: 5056
+game_id: 12243
+game_slug: deus-machina-demonbane
+name: Deus Machina Demonbane
+year: 2003
+user: FakeShemp
+runner: wine
+slug: deus-machina-demonbane-jast-usa
+version: JAST USA
+description: null
+notes: ''
+created_at: '2017-07-14T16:02:32.881000Z'
+updated_at: '2019-04-17T01:40:50.738110Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/Demonbane_Setup.exe
+      prefix: $GAMEDIR
+      args: '"/sp-" "/silent" "/norestart" /DIR="C:\\Program Files\\Deus Machina Demonbane"'
+      arch: win32
+      name: wineexec
+  files:
+  - file1: N/A:Please select the JAST USA archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Deus Machina Demonbane/db_usa.exe
+    arch: win32

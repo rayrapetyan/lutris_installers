@@ -1,0 +1,24 @@
+id: 13100
+game_id: 12125
+game_slug: lilys-day-off
+name: Lily's Day Off
+year: 2017
+user: kimchitea
+runner: steam
+slug: lilys-day-off-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-04-25T21:23:43.882789Z'
+updated_at: '2019-04-26T07:07:18.711749Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 575650
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 575650

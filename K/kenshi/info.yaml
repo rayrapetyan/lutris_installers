@@ -1,0 +1,17 @@
+name: Kenshi
+slug: kenshi
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: RPG
+- name: Simulation
+- name: Strategy
+aliases: []
+banner_url: /games/banner/kenshi.jpg
+icon_url: /games/icon/kenshi.png
+is_public: true
+updated: '2019-01-23T08:30:02.845475Z'
+steamid: 233860
+gogslug: kenshi
+humblestoreid: ''

@@ -1,0 +1,48 @@
+id: 10073
+game_id: 21529
+game_slug: plutonia-2
+name: Plutonia 2
+year: 2008
+user: miky_kr5
+runner: zdoom
+slug: plutonia-2-doomworld
+version: Doomworld
+description: Pwad file from Doomworld. Requires either the Final Doom "The Plutonia
+  Experiment" iwad to play.
+notes: Plutonia 2 requires explicitly the Final Doom "The Plutonia Experiment" iwad
+  file, it is not compatible with the Doom 2 iwad.
+created_at: '2018-09-06T17:54:05.606000Z'
+updated_at: '2018-09-11T05:51:20.566967Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      src: $pl2
+      dst: $CACHE
+  - merge:
+      src: $plutonia
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/PL2.WAD
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/PL2.DEH
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/PL2.ICO
+      dst: $GAMEDIR
+  files:
+  - plutonia: N/A:Please select the Final Doom The Plutonia Experiment iwad file.
+  - pl2: http://youfailit.net/pub/idgames/levels/doom2/megawads/pl2.zip
+  game:
+    main_file: $plutonia
+    files:
+    - PL2.WAD
+    - PL2.DEH

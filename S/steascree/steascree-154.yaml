@@ -1,0 +1,29 @@
+id: 9326
+game_id: 20130
+game_slug: steascree
+name: SteaScree
+year: null
+user: kimchitea
+runner: linux
+slug: steascree-154
+version: 1.5.4
+description: null
+notes: ''
+created_at: '2018-07-23T02:48:42.854000Z'
+updated_at: '2018-07-23T04:25:16.595177Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Start SteaScree
+  installer:
+  - extract:
+      src: file_id
+  - chmodx: $GAMEDIR/Start SteaScree
+  files:
+  - file_id: https://steascree.download/steascree-1.5.4-linux-x64.tar.gz

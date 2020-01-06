@@ -1,0 +1,26 @@
+id: 4418
+game_id: 11780
+game_slug: super-scrapped-robot
+name: Super Scrapped Robot
+year: 2014
+user: FakeShemp
+runner: web
+slug: super-scrapped-robot-online
+version: Online
+description: null
+notes: ''
+created_at: '2017-06-17T12:39:21.590000Z'
+updated_at: '2019-10-14T21:19:57.751081Z'
+draft: false
+published: true
+published_by: 1465
+rating: '5'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  web:
+    window_size: 1280x720
+  game:
+    main_file: http://play.scrappedrobot.com/

@@ -1,0 +1,24 @@
+id: 8210
+game_id: 5155
+game_slug: close-your-eyes
+name: Close Your Eyes
+year: null
+user: soredake
+runner: winesteam
+slug: close-your-eyes-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T07:12:01.867460Z'
+updated_at: '2018-05-13T09:03:44.291869Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 377330
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 377330

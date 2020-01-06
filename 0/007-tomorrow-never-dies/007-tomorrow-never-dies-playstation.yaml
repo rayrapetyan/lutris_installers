@@ -1,0 +1,31 @@
+id: 7253
+game_id: 5783
+game_slug: 007-tomorrow-never-dies
+name: '007: Tomorrow Never Dies'
+year: 1999
+user: t-rex91
+runner: libretro
+slug: 007-tomorrow-never-dies-playstation
+version: Playstation
+description: null
+notes: ''
+created_at: '2018-02-06T17:59:39.184194Z'
+updated_at: '2018-02-06T21:32:28.903173Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the PlayStation image file
+  game:
+    core: mednafen_psx_hw
+    main_file: file1

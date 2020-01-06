@@ -1,0 +1,17 @@
+name: System Shock 2
+slug: system-shock-2
+year: 1999
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Horror
+- name: RPG
+aliases: []
+banner_url: /games/banner/system-shock-2.jpg
+icon_url: /games/icon/system-shock-2.png
+is_public: true
+updated: '2019-01-23T08:31:34.228700Z'
+steamid: 238210
+gogslug: system_shock_2
+humblestoreid: ''

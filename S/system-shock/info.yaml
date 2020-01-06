@@ -1,0 +1,15 @@
+name: System Shock
+slug: system-shock
+year: 1994
+platforms:
+- name: MS-DOS
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/system-shock.jpg
+icon_url: /games/icon/system-shock.png
+is_public: true
+updated: '2019-01-23T08:31:34.212137Z'
+steamid: null
+gogslug: system_shock
+humblestoreid: ''

@@ -1,0 +1,25 @@
+id: 15841
+game_id: 1175
+game_slug: call-of-duty-black-ops-ii-multiplayer
+name: 'Call of Duty: Black Ops II - Multiplayer'
+year: null
+user: HappyToxic
+runner: winesteam
+slug: call-of-duty-black-ops-ii-mul-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-09-28T05:45:35.339000Z'
+updated_at: '2019-11-16T09:00:46.779289Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 202990
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: call-of-duty-black-ops-ii-steam
+  game:
+    appid: 202990

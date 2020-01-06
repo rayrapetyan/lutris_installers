@@ -1,0 +1,24 @@
+id: 924
+game_id: 3232
+game_slug: sigils-of-elohim
+name: Sigils of Elohim
+year: 2014
+user: dennisjj4
+runner: steam
+slug: sigils-of-elohim-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-10-14T15:10:09.046000Z'
+updated_at: '2014-10-14T15:14:28.649000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 321480
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 321480

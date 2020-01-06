@@ -1,0 +1,36 @@
+id: 14443
+game_id: 1120
+game_slug: earth-2160
+name: Earth 2160
+year: null
+user: Eisi
+runner: wine
+slug: earth-2160-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-07-06T17:48:24.666000Z'
+updated_at: '2019-09-09T00:59:41.284780Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 1900
+gogid: 1207658740
+gogslug: earth_2160
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      args: /SILENT /LANG=en /SP- /NOCANCEL /SUPPRESSMSGBOXES /NOGUI /DIR="C:/GOG
+        Games/Earth 2160"
+      arch: win32
+      name: wineexec
+  files:
+  - installer: N/A:Please select the GOG.com Windows installer
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/GOG Games/Earth 2160/Earth2160_START.exe
+    arch: win32

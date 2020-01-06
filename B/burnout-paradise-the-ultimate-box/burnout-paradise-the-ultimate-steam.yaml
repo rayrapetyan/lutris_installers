@@ -1,0 +1,25 @@
+id: 78
+game_id: 147
+game_slug: burnout-paradise-the-ultimate-box
+name: 'Burnout Paradise: The Ultimate Box'
+year: 2009
+user: strider
+runner: winesteam
+slug: burnout-paradise-the-ultimate-steam
+version: steam
+description: null
+notes: "The game don't block anti-aliasing x16 even your graphic card don't support\
+  \ it for this game.\r\nhttps://bugs.winehq.org/show_bug.cgi?id=44847"
+created_at: '2013-12-01T20:21:00.576000Z'
+updated_at: '2018-05-06T07:30:47.370907Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 24740
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 24740

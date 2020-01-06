@@ -1,0 +1,15 @@
+name: Ice Climber
+slug: ice-climber
+year: 1985
+platforms:
+- name: NES
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/ice-climber.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:54.203627Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,15 @@
+name: 'Mutant Year Zero: Road to Eden'
+slug: mutant-year-zero-road-to-eden
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Turn-based tactics
+aliases: []
+banner_url: /games/banner/mutant-year-zero-road-to-eden.jpg
+icon_url: /games/icon/mutant-year-zero-road-to-eden.png
+is_public: true
+updated: '2019-10-17T01:19:14.252422Z'
+steamid: 760060
+gogslug: mutant_year_zero_road_to_eden
+humblestoreid: ''

@@ -1,0 +1,32 @@
+id: 6005
+game_id: 2211
+game_slug: super-crate-box
+name: Super Crate Box
+year: 2010
+user: FakeShemp
+runner: wine
+slug: super-crate-box-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-10-19T18:16:23.553067Z'
+updated_at: '2018-05-19T03:41:59.354893Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 212800
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR/drive_c/Program Files/Super Crate Box
+  files:
+  - file1: N/A:Please select the Humble executable
+  game:
+    prefix: $GAMEDIR
+    exe: $file1
+    arch: win32

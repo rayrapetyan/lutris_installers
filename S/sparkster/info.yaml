@@ -1,0 +1,17 @@
+name: Sparkster
+slug: sparkster
+year: 1994
+platforms:
+- name: Sega Genesis / Mega Drive
+- name: Super Nintendo
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/sparkster.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:21.770332Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 2438
+game_id: 4246
+game_slug: styx-master-of-shadows
+name: 'Styx: Master of Shadows'
+year: 2014
+user: strider
+runner: winesteam
+slug: styx-master-of-shadows-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-08-12T01:43:44.431496Z'
+updated_at: '2016-08-12T01:43:50.199278Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 242640
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 242640

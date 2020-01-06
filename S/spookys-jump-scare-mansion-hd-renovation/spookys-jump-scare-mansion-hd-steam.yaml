@@ -1,0 +1,24 @@
+id: 8325
+game_id: 13504
+game_slug: spookys-jump-scare-mansion-hd-renovation
+name: 'Spooky''s Jump Scare Mansion: HD Renovation'
+year: 2016
+user: TuiorGames
+runner: winesteam
+slug: spookys-jump-scare-mansion-hd-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-19T00:21:17.375358Z'
+updated_at: '2018-05-19T06:27:12.119998Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 577690
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 577690

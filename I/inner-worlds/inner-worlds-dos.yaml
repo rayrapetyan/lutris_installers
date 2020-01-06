@@ -1,0 +1,28 @@
+id: 3317
+game_id: 10254
+game_slug: inner-worlds
+name: Inner Worlds
+year: 1996
+user: zerothis
+runner: dosbox
+slug: inner-worlds-dos
+version: DOS
+description: ''
+notes: ''
+created_at: '2017-03-11T00:03:05.178000Z'
+updated_at: '2017-05-18T19:25:25.189812Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: IW.EXE
+  installer:
+  - extract:
+      file: gamearchive
+  files:
+  - gamearchive: https://lutris.net/files/games/inner-worlds/iw.zip

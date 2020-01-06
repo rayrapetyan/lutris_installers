@@ -1,0 +1,24 @@
+id: 10569
+game_id: 22155
+game_slug: maplestory-2
+name: MapleStory 2
+year: null
+user: lclc98
+runner: winesteam
+slug: maplestory-2-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-10-20T05:24:29.126143Z'
+updated_at: '2018-10-20T11:29:53.147592Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 560380
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 560380

@@ -1,0 +1,20 @@
+name: 'Tom Clancy''s Rainbow Six 2: Rogue Spear'
+slug: tom-clancys-rainbow-six-2-rogue-spear
+year: 1999
+platforms:
+- name: Nintendo Game Boy Advance
+- name: Sega Dreamcast
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+- name: Tactical shooter
+aliases: []
+banner_url: /games/banner/tom-clancys-rainbow-six-2-rogue-spear.jpg
+icon_url: /games/icon/tom-clancys-rainbow-six-2-rogue-spear.png
+is_public: true
+updated: '2019-10-21T01:48:56.176092Z'
+steamid: 13660
+gogslug: ''
+humblestoreid: ''

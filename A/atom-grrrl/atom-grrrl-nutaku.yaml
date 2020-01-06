@@ -1,0 +1,31 @@
+id: 6131
+game_id: 14419
+game_slug: atom-grrrl
+name: Atom Grrrl!!
+year: 2014
+user: FakeShemp
+runner: linux
+slug: atom-grrrl-nutaku
+version: Nutaku
+description: ''
+notes: ''
+created_at: '2017-10-26T19:09:11.552254Z'
+updated_at: '2017-10-26T19:11:43.618722Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 432490
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: atomgrrrl.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/atomgrrrl.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/atomgrrrl
+  - chmodx: $GAMEDIR/lib/linux-x86_64/atomgrrrl
+  files:
+  - file1: N/A:Please select the Nutaku archive

@@ -1,0 +1,16 @@
+name: FreeOrion
+slug: freeorion
+year: null
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: 4X
+aliases: []
+banner_url: /games/banner/freeorion.jpg
+icon_url: /games/icon/freeorion.png
+is_public: true
+updated: '2019-04-26T05:23:20.777348Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

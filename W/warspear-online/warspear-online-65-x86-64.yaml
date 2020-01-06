@@ -1,0 +1,42 @@
+id: 2698
+game_id: 7622
+game_slug: warspear-online
+name: Warspear Online
+year: null
+user: ssf
+runner: linux
+slug: warspear-online-65-x86-64
+version: 6.5 - x86-64
+description: ''
+notes: 'req: ar(GNU coreutils)'
+created_at: '2016-09-07T18:01:01.385000Z'
+updated_at: '2017-06-17T04:28:40.036421Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 326360
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: warspear-online
+  installer:
+  - execute:
+      args: -c "cd $CACHE && ar x warspear_6.5.0_amd64.deb data.tar.gz"
+      file: /bin/sh
+      terminal: true
+  - extract:
+      dst: $CACHE
+      file: $CACHE/data.tar.gz
+  - move:
+      src: $CACHE/opt/warspear/warspear-online
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/opt/warspear/warspear.pak
+      dst: $GAMEDIR
+  - chmodx: $GAMEDIR/warspear-online
+  files:
+  - warspear_archive:
+      filename: warspear_6.5.0_amd64.deb
+      url: https://warspear-online.com/en/files/linux64

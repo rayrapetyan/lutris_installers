@@ -1,0 +1,24 @@
+id: 1712
+game_id: 4647
+game_slug: codename-cure
+name: Codename CURE
+year: 2017
+user: dennisjj4
+runner: steam
+slug: codename-cure-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-11-24T01:48:11.296042Z'
+updated_at: '2016-01-20T00:24:53.215768Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 355180
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 355180

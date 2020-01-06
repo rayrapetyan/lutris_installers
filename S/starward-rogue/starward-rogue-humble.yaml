@@ -1,0 +1,32 @@
+id: 8836
+game_id: 5767
+game_slug: starward-rogue
+name: Starward Rogue
+year: null
+user: basxto
+runner: linux
+slug: starward-rogue-humble
+version: Humble
+description: null
+notes: ''
+created_at: '2018-06-21T04:04:23.242651Z'
+updated_at: '2018-06-21T10:23:49.579807Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 410820
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $GAMEDIR
+      file: $game
+  files:
+  - game: 'N/A: Please select the .zip install file downloaded from humblebundle.com'
+  game:
+    exe: $GAMEDIR/StarwardRogueLinux.x86
+    exe64: $GAMEDIR/StarwardRogueLinux.x86_64

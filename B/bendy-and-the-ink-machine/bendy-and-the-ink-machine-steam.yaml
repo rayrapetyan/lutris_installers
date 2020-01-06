@@ -1,0 +1,27 @@
+id: 4333
+game_id: 11135
+game_slug: bendy-and-the-ink-machine
+name: Bendy and the Ink Machine
+year: 2017
+user: joonatoona
+runner: steam
+slug: bendy-and-the-ink-machine-steam
+version: Steam
+description: null
+notes: "To make steam version works on Linux, add the next to launch options (of the\
+  \ game) at steam: -screen-fullscreen 0\r\nThen change the \"plugins\" directory\
+  \ of Bendy's local files with the \"plugins\" files of any other game with Unity\
+  \ Engine."
+created_at: '2017-06-14T04:08:15.789000Z'
+updated_at: '2018-05-06T07:30:07.764534Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 622650
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 622650

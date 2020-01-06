@@ -1,0 +1,37 @@
+id: 16604
+game_id: 5772
+game_slug: shantae-and-the-pirates-curse
+name: Shantae and the Pirate's Curse
+year: 2015
+user: cxf
+runner: wine
+slug: shantae-and-the-pirates-curse-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-11-04T04:46:16.422257Z'
+updated_at: '2019-11-04T04:46:21.457174Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 345820
+gogid: 1456141287
+gogslug: shantae_and_the_pirates_curse
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /NOCANCEL /SP- /SUPPRESSMSGBOXES
+      name: wineexec
+  files:
+  - setup: N/A:Select gog setup exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Shantae and the Pirate's Curse/Shantae and the Pirate's
+      Curse.exe

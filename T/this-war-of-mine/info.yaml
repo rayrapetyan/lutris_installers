@@ -1,0 +1,17 @@
+name: This War of Mine
+slug: this-war-of-mine
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Indie
+- name: Simulation
+aliases: []
+banner_url: /games/banner/this-war-of-mine.jpg
+icon_url: /games/icon/this-war-of-mine.png
+is_public: true
+updated: '2019-11-18T03:53:06.538718Z'
+steamid: 282070
+gogslug: this_war_of_mine
+humblestoreid: ''

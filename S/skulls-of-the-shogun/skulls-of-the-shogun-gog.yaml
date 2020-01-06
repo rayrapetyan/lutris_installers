@@ -1,0 +1,37 @@
+id: 2580
+game_id: 2095
+game_slug: skulls-of-the-shogun
+name: Skulls of the Shogun
+year: null
+user: Lulu
+runner: linux
+slug: skulls-of-the-shogun-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2016-08-23T21:59:05.020992Z'
+updated_at: '2016-09-30T20:52:15.828937Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 228960
+gogid: 1425657908
+gogslug: skulls_of_the_shogun
+humblestoreid: ''
+script:
+  exe: Game/start.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/Game
+  files:
+  - game: 'N/A: Plese select the GOG.com Linux installer'
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

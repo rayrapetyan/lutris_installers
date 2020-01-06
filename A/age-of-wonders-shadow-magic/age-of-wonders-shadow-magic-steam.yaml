@@ -1,0 +1,26 @@
+id: 1151
+game_id: 2412
+game_slug: age-of-wonders-shadow-magic
+name: 'Age of Wonders: Shadow Magic'
+year: null
+user: Xodetaetl
+runner: winesteam
+slug: age-of-wonders-shadow-magic-steam
+version: steam
+description: ''
+notes: "After launching the game, choose Configuration and change the Cursors option\
+  \ to Color.\r\nIf the Linux panel or windows appear on top of the fullscreen game,\
+  \ hit Alt+Enter twice to fix it."
+created_at: '2014-11-27T20:26:08.923000Z'
+updated_at: '2014-11-27T20:26:13.501000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 61520
+gogid: 1207658885
+gogslug: age_of_wonders_shadow_magic
+humblestoreid: ''
+script:
+  game:
+    appid: 61520

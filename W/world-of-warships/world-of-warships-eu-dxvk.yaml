@@ -1,0 +1,63 @@
+id: 7674
+game_id: 11406
+game_slug: world-of-warships
+name: World of Warships
+year: 2015
+user: crusty
+runner: wine
+slug: world-of-warships-eu-dxvk
+version: EU DXVK
+description: null
+notes: ''
+created_at: '2018-03-27T18:14:46.708000Z'
+updated_at: '2019-02-16T05:08:45.185478Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 552990
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: corefonts win10
+      arch: win64
+      name: winetricks
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      description: Installing World of Warships
+      arch: win64
+      args: /VERYSILENT /CLOSEAPPLICATIONS
+      exclude_processes: explorer.exe rpcss.exe services.exe winedevice.exe plugplay.exe
+        WargamingGameUpdater.exe WoWSLauncher.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Games/World_of_Warships/WoWSLauncher.exe
+    arch: win64
+  system:
+    env:
+      DXVK_HUD: 0
+    pulse_latency: true
+  wine:
+    version: tkg-4.0-x86_64
+    WineDesktop: 1920x1080
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+    Desktop: true
+  files:
+  - game: http://dl-wows-gc.wargaming.net/eu/files/ilcClx1YzB/WoWS_internet_install_eu.exe

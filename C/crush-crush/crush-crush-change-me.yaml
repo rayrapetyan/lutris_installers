@@ -1,0 +1,23 @@
+id: 17193
+game_id: 7039
+game_slug: crush-crush
+name: Crush Crush
+year: 2016
+user: Aqual
+runner: browser
+slug: crush-crush-change-me
+version: Change Me
+description: null
+notes: ''
+created_at: '2019-12-05T20:44:27.482246Z'
+updated_at: '2019-12-05T20:44:27.482271Z'
+draft: false
+published: false
+published_by: 1
+rating: ''
+steamid: 459820
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://www.nutaku.net/games/crush-crush/

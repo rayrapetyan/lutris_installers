@@ -1,0 +1,17 @@
+name: "NieR:Automata\u2122"
+slug: nierautomata
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: RPG
+- name: Sci-fi
+aliases: []
+banner_url: /games/banner/nierautomata.jpg
+icon_url: /games/icon/nierautomata.png
+is_public: true
+updated: '2019-03-17T19:12:17.928300Z'
+steamid: 524220
+gogslug: ''
+humblestoreid: ''

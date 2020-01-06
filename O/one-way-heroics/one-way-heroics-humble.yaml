@@ -1,0 +1,32 @@
+id: 4206
+game_id: 2115
+game_slug: one-way-heroics
+name: One Way Heroics
+year: null
+user: FakeShemp
+runner: wine
+slug: one-way-heroics-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-08T08:12:44.323512Z'
+updated_at: '2018-05-19T03:41:52.628275Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 266210
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/One Way Heroics
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/One Way Heroics/Game.exe
+    arch: win32

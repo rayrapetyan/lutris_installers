@@ -1,0 +1,25 @@
+id: 14273
+game_id: 1511
+game_slug: dead-rising-2-off-the-record
+name: 'Dead Rising 2: Off the Record'
+year: 2011
+user: FakeShemp
+runner: steam
+slug: dead-rising-2-off-the-record-steam-proton
+version: Steam Proton
+description: null
+notes: You will need to check "Enable Steam Play for all titles" under the "Steam
+  Play" tab in your Steam settings for the game to install.
+created_at: '2019-06-23T15:29:53.994000Z'
+updated_at: '2019-06-23T15:31:46.024353Z'
+draft: false
+published: true
+published_by: 1465
+rating: ''
+steamid: 45770
+gogid: null
+gogslug: ''
+humblestoreid: dead-rising-2-off-the-record
+script:
+  game:
+    appid: 45770

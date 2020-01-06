@@ -1,0 +1,15 @@
+name: NBA 2K15
+slug: nba-2k15
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Sports
+aliases: []
+banner_url: /games/banner/nba-2k15.jpg
+icon_url: /games/icon/nba-2k15.png
+is_public: true
+updated: '2019-01-23T08:30:30.568164Z'
+steamid: 282350
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,17 @@
+name: Artifact
+slug: artifact
+year: 2018
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Cards
+- name: Strategy
+aliases: []
+banner_url: /games/banner/artifact.jpg
+icon_url: /games/icon/artifact.png
+is_public: true
+updated: '2019-03-28T04:14:12.655666Z'
+steamid: 583950
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,45 @@
+id: 16110
+game_id: 14915
+game_slug: diluvion-resubmerged
+name: 'Diluvion: Resubmerged'
+year: 2017
+user: cxf
+runner: wine
+slug: diluvion-resubmerged-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-10-11T01:24:01.352412Z'
+updated_at: '2019-10-11T01:24:07.305510Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 446790
+gogid: 1276899051
+gogslug: diluvion
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2012 vcrun2013 vcrun2015 win7
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES /NOCANCEL
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Diluvion/Diluvion.exe
+  system:
+    env:
+      DXVK_HUD: compiler
+  wine:
+    dxvk: true
+  files:
+  - setup: N/A:Select GOG setup exe

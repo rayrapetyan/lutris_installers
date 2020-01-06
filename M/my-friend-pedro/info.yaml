@@ -1,0 +1,15 @@
+name: My Friend Pedro
+slug: my-friend-pedro
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/my-friend-pedro.jpg
+icon_url: /games/icon/my-friend-pedro.png
+is_public: true
+updated: '2019-06-21T00:40:33.860468Z'
+steamid: 557340
+gogslug: my_friend_pedro
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 5234
+game_id: 9892
+game_slug: alekhines-gun
+name: Alekhine's Gun
+year: null
+user: liberodark
+runner: winesteam
+slug: alekhines-gun-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-07-30T00:46:48.234490Z'
+updated_at: '2017-08-08T18:06:31.236082Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 406720
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 406720

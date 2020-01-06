@@ -1,0 +1,19 @@
+name: Re-Volt
+slug: re-volt
+year: 1999
+platforms:
+- name: Linux
+- name: Nintendo 64
+- name: Sega Dreamcast
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/re-volt.jpg
+icon_url: /games/icon/re-volt.png
+is_public: true
+updated: '2019-01-23T08:30:59.179193Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

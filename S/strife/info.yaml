@@ -1,0 +1,15 @@
+name: Strife
+slug: strife
+year: null
+platforms:
+- name: Linux
+genres:
+- name: Moba
+aliases: []
+banner_url: /games/banner/strife.jpg
+icon_url: /games/icon/strife.png
+is_public: true
+updated: '2019-01-23T08:31:28.242909Z'
+steamid: 339280
+gogslug: ''
+humblestoreid: ''

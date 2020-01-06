@@ -1,0 +1,15 @@
+name: 'Game & Watch: Judge'
+slug: game-watch-judge
+year: 1980
+platforms:
+- name: Arcade
+genres:
+- name: Casual
+aliases: []
+banner_url: /games/banner/game-watch-judge.jpg
+icon_url: null
+is_public: true
+updated: '2019-09-17T05:22:23.681644Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

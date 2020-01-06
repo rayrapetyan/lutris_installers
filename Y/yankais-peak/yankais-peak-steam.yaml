@@ -1,0 +1,24 @@
+id: 11177
+game_id: 23781
+game_slug: yankais-peak
+name: YANKAI'S PEAK.
+year: null
+user: strider
+runner: steam
+slug: yankais-peak-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-12-12T07:15:56.895043Z'
+updated_at: '2018-12-12T07:15:56.895074Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 654910
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: '654910'

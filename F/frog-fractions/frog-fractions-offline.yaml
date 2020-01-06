@@ -1,0 +1,37 @@
+id: 3645
+game_id: 9146
+game_slug: frog-fractions
+name: Frog Fractions
+year: 2012
+user: djazz
+runner: web
+slug: frog-fractions-offline
+version: Offline
+description: null
+notes: ''
+created_at: '2017-05-06T19:26:03.731000Z'
+updated_at: '2019-10-14T21:06:56.569081Z'
+draft: false
+published: true
+published_by: 1465
+rating: '5'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: game
+  web:
+    remove_margin: true
+    enable_flash: true
+    disable_scrolling: true
+    window_size: 640x480
+  files:
+  - game:
+      filename: frog-fractions.tar.xz
+      url: http://djazz.se/nas/games/?dl=frog-fractions
+  game:
+    main_file: $GAMEDIR/index.html

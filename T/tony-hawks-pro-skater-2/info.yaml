@@ -1,0 +1,19 @@
+name: Tony Hawk's Pro Skater 2
+slug: tony-hawks-pro-skater-2
+year: 2000
+platforms:
+- name: Nintendo 64
+- name: Nintendo Game Boy Color
+- name: Sega Dreamcast
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Sports
+aliases: []
+banner_url: /games/banner/tony-hawks-pro-skater-2.jpg
+icon_url: /games/icon/tony-hawks-pro-skater-2.png
+is_public: true
+updated: '2019-01-23T08:31:53.114286Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

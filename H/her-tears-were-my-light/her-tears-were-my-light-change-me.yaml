@@ -1,0 +1,27 @@
+id: 17623
+game_id: 15693
+game_slug: her-tears-were-my-light
+name: Her Tears Were My Light
+year: 2016
+user: HydratedTurtle
+runner: web
+slug: her-tears-were-my-light-change-me
+version: Change Me
+description: null
+notes: ''
+created_at: '2019-12-29T06:20:25.431695Z'
+updated_at: '2019-12-29T06:20:25.431721Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  web:
+    open_links: true
+    window_size: 1280x720
+  game:
+    main_file: http://sandbox-adventure.com/her-tears-were-my-light/

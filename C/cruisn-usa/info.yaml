@@ -1,0 +1,16 @@
+name: Cruis'n USA
+slug: cruisn-usa
+year: 1994
+platforms:
+- name: Arcade
+- name: Nintendo 64
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/cruisn-usa.jpg
+icon_url: /games/icon/cruisn-usa.png
+is_public: true
+updated: '2019-02-07T18:03:25.865195Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

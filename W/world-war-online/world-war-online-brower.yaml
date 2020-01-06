@@ -1,0 +1,23 @@
+id: 16357
+game_id: 29880
+game_slug: world-war-online
+name: World War Online
+year: 2015
+user: cxf
+runner: browser
+slug: world-war-online-brower
+version: Brower
+description: null
+notes: ''
+created_at: '2019-10-22T20:23:06.589413Z'
+updated_at: '2019-10-22T20:23:12.831189Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://www.worldwaronline.com

@@ -1,0 +1,20 @@
+name: 'Tomb Raider IV: The Last Revelation'
+slug: tomb-raider-the-last-revelation
+year: 1999
+platforms:
+- name: Sega Dreamcast
+- name: Sony PlayStation
+- name: Sony PSP
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Exploration
+aliases: []
+banner_url: /games/banner/tomb-raider-the-last-revelation.jpg
+icon_url: /games/icon/tomb-raider-the-last-revelation.png
+is_public: true
+updated: '2019-09-25T09:28:51.058021Z'
+steamid: 224980
+gogslug: tomb_raider_the_last_revelation_chronicles
+humblestoreid: tomb-raider-iv-the-last-revelation

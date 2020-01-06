@@ -1,0 +1,35 @@
+id: 9482
+game_id: 3951
+game_slug: nekopara-vol-1
+name: NEKOPARA Vol. 1
+year: 2014
+user: kimchitea
+runner: wine
+slug: nekopara-vol-1-dlc
+version: DLC
+description: null
+notes: Tested with the <a href="http://www.dlsite.com/ecchi-eng/work/=/product_id/RE205284.html">DLsite
+  version</a>
+created_at: '2018-07-30T17:39:24.684000Z'
+updated_at: '2018-08-01T08:37:11.102897Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 333600
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: nekopara-vol-1-steam
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $patch
+  - task:
+      executable: $CACHE/nekopara_vol1_Steam_R18Patch.exe
+      prefix: $HOME/.local/share/lutris/runners/winesteam/prefix
+      arch: win32
+      name: wineexec
+  files:
+  - patch: N/A:Please select the DLC archive

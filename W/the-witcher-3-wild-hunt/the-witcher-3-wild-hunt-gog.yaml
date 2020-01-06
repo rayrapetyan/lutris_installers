@@ -1,0 +1,54 @@
+id: 5770
+game_id: 4418
+game_slug: the-witcher-3-wild-hunt
+name: 'The Witcher 3: Wild Hunt'
+year: 2015
+user: joomars
+runner: wine
+slug: the-witcher-3-wild-hunt-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2017-09-17T08:54:47.064000Z'
+updated_at: '2019-06-19T06:02:45.795971Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 292030
+gogid: 1207664643
+gogslug: the_witcher_3_wild_hunt
+humblestoreid: the-witcher-3-wild-hunt-game-of-the-year-edition
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES /NOCANCEL
+      description: Installing Witcher 3
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: faudio
+      arch: win64
+      name: winetricks
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/The Witcher 3 Wild Hunt/bin/x64/witcher3.exe
+    arch: win64
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+    pulse_latency: false
+  wine:
+    version: tkg-4.0-x86_64
+    dxvk: true
+    Desktop: true
+  files:
+  - setup: N/A:Select the game's setup file

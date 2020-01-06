@@ -1,0 +1,17 @@
+name: F-117A Nighthawk Stealth Fighter 2.0
+slug: f-117a-nighthawk-stealth-fighter-20
+year: 1991
+platforms:
+- name: Linux
+genres:
+- name: Combat
+- name: Historical
+- name: Simulation
+aliases: []
+banner_url: /games/banner/f-117a-nighthawk-stealth-fighter-20.jpg
+icon_url: /games/icon/f-117a-nighthawk-stealth-fighter-20.png
+is_public: true
+updated: '2019-01-23T08:29:27.106271Z'
+steamid: 328920
+gogslug: f117a_nighthawk_stealth_fighter_20
+humblestoreid: ''

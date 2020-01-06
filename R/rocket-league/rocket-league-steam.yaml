@@ -1,0 +1,24 @@
+id: 2716
+game_id: 4974
+game_slug: rocket-league
+name: Rocket League
+year: 2015
+user: RobLoach
+runner: steam
+slug: rocket-league-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-09-09T20:36:44.363000Z'
+updated_at: '2017-10-27T18:46:29.240648Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 252950
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 252950

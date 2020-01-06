@@ -1,0 +1,17 @@
+name: "STAR WARS\u2122 Galactic Battlegrounds Saga"
+slug: star-wars-galactic-battlegrounds-saga
+year: 2001
+platforms:
+- name: Windows
+genres:
+- name: Real-time strategy
+aliases:
+- slug: star-warstm-galactic-battlegrounds-saga
+  name: "STAR WARS\u2122 Galactic Battlegrounds Saga"
+banner_url: /games/banner/star-wars-galactic-battlegrounds-saga.jpg
+icon_url: /games/icon/star-wars-galactic-battlegrounds-saga.png
+is_public: true
+updated: '2019-03-19T05:53:59.873332Z'
+steamid: 356500
+gogslug: star_wars_galactic_battlegrounds_saga
+humblestoreid: ''

@@ -1,0 +1,16 @@
+name: Ignition
+slug: ignition
+year: 1997
+platforms:
+- name: MS-DOS
+- name: Windows
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/ignition.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:55.096872Z'
+steamid: 577990
+gogslug: ignition
+humblestoreid: ''

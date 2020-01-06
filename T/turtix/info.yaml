@@ -1,0 +1,15 @@
+name: Turtix
+slug: turtix
+year: 2007
+platforms:
+- name: Windows
+genres:
+- name: Platformer
+aliases: []
+banner_url: /games/banner/turtix.jpg
+icon_url: null
+is_public: true
+updated: '2019-04-20T09:33:24.303140Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

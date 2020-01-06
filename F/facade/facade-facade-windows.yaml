@@ -1,0 +1,35 @@
+id: 12738
+game_id: 26667
+game_slug: facade
+name: "Fa\xE7ade  (Facade)"
+year: 2005
+user: TheLimeyDragon
+runner: wine
+slug: facade-facade-windows
+version: Windows
+description: 'Version 1.1b can be downloaded here: https://games.softpedia.com/get/Freeware-Games/Facade.shtml'
+notes: ''
+created_at: '2019-04-11T20:38:41.464000Z'
+updated_at: '2019-10-28T20:57:50.009630Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: facadeinst
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  files:
+  - facadeinst: "N/A:Please select the Fa\xE7ade Installer (FacadeInstaller1.1b.exe\
+      \ or FacadeInstaller103p.exe)"
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/Facade/util/sources/facade/animEngineStarter.exe
+    arch: win32

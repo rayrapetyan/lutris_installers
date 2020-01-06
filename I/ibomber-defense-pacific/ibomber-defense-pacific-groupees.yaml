@@ -1,0 +1,39 @@
+id: 5606
+game_id: 834
+game_slug: ibomber-defense-pacific
+name: iBomber Defense Pacific
+year: 2012
+user: FakeShemp
+runner: linux
+slug: ibomber-defense-pacific-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-06T09:19:29.181442Z'
+updated_at: '2017-09-06T09:20:35.075224Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 206690
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: iBomberDefensePacific
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - extract:
+      format: ar
+      dst: $CACHE
+      file: $CACHE/DEB x64/ibomber-defense-pacific_20130125_amd64.deb
+  - extract:
+      dst: $CACHE
+      file: $CACHE/data.tar.gz
+  - merge:
+      src: $CACHE/games/ibomber-defense-pacific/
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Groupees archive

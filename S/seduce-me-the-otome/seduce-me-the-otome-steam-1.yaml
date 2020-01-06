@@ -1,0 +1,24 @@
+id: 3929
+game_id: 4654
+game_slug: seduce-me-the-otome
+name: Seduce Me the Otome
+year: null
+user: krm513
+runner: steam
+slug: seduce-me-the-otome-steam-1
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-05-27T23:20:06.988805Z'
+updated_at: '2017-05-27T23:59:41.034814Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 367120
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 367120

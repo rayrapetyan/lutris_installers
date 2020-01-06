@@ -1,0 +1,16 @@
+name: Worms Pinball
+slug: worms-pinball
+year: 1998
+platforms:
+- name: Windows
+genres:
+- name: Pinball
+- name: Simulation
+aliases: []
+banner_url: /games/banner/worms-pinball.jpg
+icon_url: /games/icon/worms-pinball.png
+is_public: true
+updated: '2019-01-23T08:32:11.212256Z'
+steamid: 70660
+gogslug: ''
+humblestoreid: ''

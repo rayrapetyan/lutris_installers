@@ -1,0 +1,53 @@
+id: 14910
+game_id: 15621
+game_slug: cube-world
+name: Cube World
+year: 2019
+user: IceAmaura
+runner: wine
+slug: cube-world-change-me
+version: Change Me
+description: null
+notes: ''
+created_at: '2019-08-07T15:04:54.530489Z'
+updated_at: '2019-08-07T15:04:54.530530Z'
+draft: false
+published: false
+published_by: 19464
+rating: ''
+steamid: 1128000
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 32bit Wine prefix.
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Visual C++ 2012 libs.
+      app: vcrun2012
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing MS XACT Engine (32bits).
+      app: xact
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Set orm=backbuffer.
+      app: orm=backbuffer
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - setup: N/A:Select cube world setup
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Cube World/Cube.exe
+    arch: win32

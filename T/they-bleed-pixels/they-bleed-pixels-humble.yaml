@@ -1,0 +1,33 @@
+id: 3708
+game_id: 1160
+game_slug: they-bleed-pixels
+name: They Bleed Pixels
+year: 2012
+user: FakeShemp
+runner: linux
+slug: they-bleed-pixels-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-16T20:36:19.980434Z'
+updated_at: '2017-05-19T16:27:36.218248Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 211260
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: TheyBleedPixels
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble installer

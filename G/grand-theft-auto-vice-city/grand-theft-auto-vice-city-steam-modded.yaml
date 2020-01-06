@@ -1,0 +1,64 @@
+id: 11254
+game_id: 134
+game_slug: grand-theft-auto-vice-city
+name: 'Grand Theft Auto: Vice City'
+year: 2002
+user: soredake
+runner: winesteam
+slug: grand-theft-auto-vice-city-steam-modded
+version: Steam modded
+description: null
+notes: "- SilentPatch\r\n- ThirteenAG's Widescreen Fix\r\n- GInput\r\n\r\nNo CLEO\
+  \ because with it game crashes with \"Unhandled exception\"."
+created_at: '2018-12-18T11:54:20.933000Z'
+updated_at: '2019-02-19T12:57:35.892645Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: 12110
+gogid: null
+gogslug: ''
+humblestoreid: grand-theft-auto-vice-city
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      gameoverlayrenderer: disabled
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Setting up wine prefix
+      arch: win64
+      name: create_prefix
+  - extract:
+      dst: $GAMEDIR
+      file: asiloader
+  - extract:
+      dst: $GAMEDIR
+      file: silentpatch
+  - extract:
+      dst: $GAMEDIR
+      file: ddrawpatch
+  - extract:
+      dst: $GAMEDIR
+      file: ginput
+  - extract:
+      dst: $GAMEDIR
+      file: widescreenfix
+  - extract:
+      dst: $GAMEDIR
+      file: widescreenfrontend
+  files:
+  - ddrawpatch: http://silent.rockstarvision.com/uploads/SilentPatchDDraw.zip
+  - silentpatch: http://silent.rockstarvision.com/uploads/SilentPatchVC.zip
+  - asiloader: https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases/download/v4.47/Ultimate-ASI-Loader.zip
+  - ginput:
+      filename: ginput.zip
+      url: https://www.gtagarage.com/mods/download.php?f=39119
+  - widescreenfix: https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/gtavc/GTAVC.WidescreenFix.zip
+  - widescreenfrontend: https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/gtavc/GTAVC.WidescreenFrontend.zip
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 12110
+    arch: win64

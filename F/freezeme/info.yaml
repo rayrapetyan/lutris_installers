@@ -1,0 +1,15 @@
+name: FreezeME
+slug: freezeme
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/freezeme.jpg
+icon_url: /games/icon/freezeme.png
+is_public: true
+updated: '2019-01-23T08:29:35.335459Z'
+steamid: 390210
+gogslug: ''
+humblestoreid: ''

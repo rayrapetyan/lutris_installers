@@ -1,0 +1,31 @@
+id: 3993
+game_id: 2575
+game_slug: kill-the-bad-guy
+name: Kill The Bad Guy
+year: null
+user: FakeShemp
+runner: linux
+slug: kill-the-bad-guy-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-31T13:57:07.550245Z'
+updated_at: '2017-05-31T16:28:23.274570Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 293940
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: KillTheBadGuy.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/KillTheBadGuy.x86
+  - chmodx: $GAMEDIR/KillTheBadGuy.x86_64
+  exe64: KillTheBadGuy.x86_64
+  files:
+  - file1: N/A:Please select the Humble archive

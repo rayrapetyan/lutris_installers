@@ -1,0 +1,49 @@
+id: 15169
+game_id: 29097
+game_slug: affari-tuoi
+name: Affari Tuoi
+year: 2008
+user: tognee
+runner: wine
+slug: affari-tuoi-cd
+version: CD
+description: null
+notes: ''
+created_at: '2019-08-27T20:46:13.255000Z'
+updated_at: '2019-09-08T23:33:45.372345Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating WINE prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: winxp
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: xna31
+      name: winetricks
+  - insert-disc:
+      requires: AffariTuoi_0.exe
+  - task:
+      executable: $DISC/AffariTuoi_0.exe
+      description: Installing Affari Tuoi, don't change default settings.
+      arch: win32
+      name: wineexec
+  wine:
+    version: tkg-4.0-x86_64
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Mindscape/Affari Tuoi/DOND.exe
+    arch: win32

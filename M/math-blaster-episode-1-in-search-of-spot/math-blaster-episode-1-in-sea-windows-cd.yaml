@@ -1,0 +1,32 @@
+id: 2629
+game_id: 7288
+game_slug: math-blaster-episode-1-in-search-of-spot
+name: 'Math Blaster: Episode 1 - In Search of Spot'
+year: 1993
+user: Lulu
+runner: wine
+slug: math-blaster-episode-1-in-sea-windows-cd
+version: Windows CD
+description: 'CD image available from archive.org: https://archive.org/details/MathBlasterEpisode1InSearchOfSpot'
+notes: Install under default location.
+created_at: '2016-08-30T06:58:01.943563Z'
+updated_at: '2016-10-09T21:58:20.145491Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: drive_c/MBWINCD/MB4.EXE
+  installer:
+  - insert-disc:
+      requires: mb4.exe
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  game:
+    prefix: $GAMEDIR

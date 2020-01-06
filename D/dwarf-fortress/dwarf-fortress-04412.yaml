@@ -1,0 +1,30 @@
+id: 6495
+game_id: 46
+game_slug: dwarf-fortress
+name: Dwarf Fortress
+year: null
+user: Noxes
+runner: linux
+slug: dwarf-fortress-04412
+version: 0.44.12
+description: null
+notes: ''
+created_at: '2017-11-30T03:35:33.167000Z'
+updated_at: '2018-12-20T06:11:58.630426Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: df
+  installer:
+  - extract:
+      file: df-game
+  - execute:
+      command: rm $GAMEDIR/libs/libstdc++.so.6
+  files:
+  - df-game: http://www.bay12games.com/dwarves/df_44_12_linux.tar.bz2

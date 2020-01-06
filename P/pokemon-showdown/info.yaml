@@ -1,0 +1,16 @@
+name: "Pok\xE9mon Showdown"
+slug: pokemon-showdown
+year: 2011
+platforms:
+- name: Browser
+genres:
+- name: RPG
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/pokemon-showdown.jpg
+icon_url: null
+is_public: true
+updated: '2019-02-06T20:20:39.472667Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

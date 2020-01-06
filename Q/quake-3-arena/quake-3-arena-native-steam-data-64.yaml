@@ -1,0 +1,39 @@
+id: 1772
+game_id: 19
+game_slug: quake-3-arena
+name: Quake 3 Arena
+year: 1999
+user: strider
+runner: linux
+slug: quake-3-arena-native-steam-data-64
+version: Native + Steam data (64bit)
+description: null
+notes: ''
+created_at: '2015-12-28T19:28:46.112000Z'
+updated_at: '2019-02-01T10:29:29.748861Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 2200
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: ioquake3
+  installer:
+  - chmodx: ioquake3installer
+  - mkdir: $GAMEDIR/bin
+  - execute:
+      args: -- -i $GAMEDIR -b $GAMEDIR/bin
+      file: ioquake3installer
+  - merge:
+      src: steam_data
+      dst: $GAMEDIR/baseq3
+  - extract:
+      dst: $GAMEDIR
+      file: testbuild
+  files:
+  - ioquake3installer: http://ioquake3.org/files/1.36/installer/ioquake3-1.36-7.1.x86_64.run
+  - testbuild: http://ioquake3.org/files/jenkins/latest/gcc/no_options/release-linux-x86_64.zip
+  - steam_data: $STEAM:2200:baseq3

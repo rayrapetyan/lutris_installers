@@ -1,0 +1,75 @@
+id: 13137
+game_id: 696
+game_slug: lego-star-wars-the-complete-saga
+name: Lego Star Wars The Complete Saga
+year: 2009
+user: cxf
+runner: wine
+slug: lego-star-wars-the-complete-s-dvd-nocdfix
+version: DVD + NoCDFix
+description: This installer is for the Games for Windows DVD released 2009.The CD
+  is only needed for installation. A NoCDfix will be downloaded so the game can be
+  played without the cd in the drive. This installer should make it easy to use every
+  gamepad to play together or alone.
+notes: "Depending on your gamepad you have to either deactivate the *(event) or *(js)\
+  \ device in the joystick control panel.(You have to try which)\r\nYou might encounter\
+  \ issues when changing the resolution in game. Then just restart and your proper\
+  \ resolution will be shown.\r\nIf you're camera is weirdly placed on the ground\
+  \ at the after starting a new game, exit to menu (with keyboard) and start a new\
+  \ game again."
+created_at: '2019-04-27T02:43:21.619000Z'
+updated_at: '2019-04-27T03:32:24.403335Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 32440
+gogid: 1731318270
+gogslug: lego_star_wars_the_complete_saga
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/LucasArts/LEGO Star Wars - The Complete Saga/LEGOStarWarsSaga.exe
+    arch: win32
+  installer:
+  - insert-disc:
+      requires: LEGOStarWarsSaga.msi
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Windows File System (Wine Bottle)
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      args: /L1033
+      description: Please follow the instructions of the Installer
+      name: wineexec
+  - extract:
+      description: Installing x360 dinput8 for controller support
+      dst: $GAMEDIR/drive_c/Program Files/LucasArts/LEGO Star Wars - The Complete
+        Saga/
+      file: X360
+  - extract:
+      format: tgz
+      description: Installing NoCD fix
+      file: NoCDfix
+      dst: $GAMEDIR/drive_c/Program Files/LucasArts/LEGO Star Wars - The Complete
+        Saga/
+  - extract:
+      format: tgz
+      description: Setting up Gamepad support
+      file: GamepadSupportSettings
+      dst: $GAMEDIR/drive_c/Program Files/LucasArts/LEGO Star Wars - The Complete
+        Saga/
+  - execute:
+      args: -v -c "env WINEPREFIX=$GAMEDIR wine regedit '$GAMEDIR/drive_c/Program
+        Files/LucasArts/LEGO Star Wars - The Complete Saga/wine_custom_user.reg'"
+      file: /bin/sh
+  wine:
+    xinput: true
+  files:
+  - GamepadSupportSettings: https://dl.dropboxusercontent.com/s/o1d6nndmczd2els/LutrisGamepadSupportSettings.tar.gz
+  - NoCDfix: https://dl.dropboxusercontent.com/s/aha1vuhh4i0uu5k/LutrisLegoStarWarsNoCDfix.tar.gz
+  - X360: https://lutris.net/files/tools/x360ce-dinput8.tar.gz

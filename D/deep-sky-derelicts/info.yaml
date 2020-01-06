@@ -1,0 +1,17 @@
+name: Deep Sky Derelicts
+slug: deep-sky-derelicts
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Cards
+- name: Roguelike
+- name: Turn-based tactics
+aliases: []
+banner_url: /games/banner/deep-sky-derelicts.jpg
+icon_url: /games/icon/deep-sky-derelicts.png
+is_public: true
+updated: '2019-03-30T00:55:52.634625Z'
+steamid: 698640
+gogslug: deep_sky_derelicts
+humblestoreid: ''

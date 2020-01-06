@@ -1,0 +1,16 @@
+name: DCS World
+slug: dcs-world
+year: 2008
+platforms:
+- name: Windows
+genres:
+- name: Flight
+- name: Simulation
+aliases: []
+banner_url: /games/banner/dcs-world.jpg
+icon_url: /games/icon/dcs-world.png
+is_public: true
+updated: '2019-04-15T06:00:21.190763Z'
+steamid: 223750
+gogslug: ''
+humblestoreid: ''

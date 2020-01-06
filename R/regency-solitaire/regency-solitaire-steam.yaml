@@ -1,0 +1,24 @@
+id: 9525
+game_id: 7266
+game_slug: regency-solitaire
+name: Regency Solitaire
+year: null
+user: Hopfenmeister
+runner: winesteam
+slug: regency-solitaire-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-01T18:52:16.131000Z'
+updated_at: '2018-08-02T01:33:06.993230Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 351090
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 351090

@@ -1,0 +1,24 @@
+id: 15789
+game_id: 8436
+game_slug: minion-masters
+name: Minion Masters
+year: null
+user: kean83
+runner: steam
+slug: minion-masters-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-09-25T11:59:38.224685Z'
+updated_at: '2019-10-11T01:42:38.613575Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 489520
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 489520

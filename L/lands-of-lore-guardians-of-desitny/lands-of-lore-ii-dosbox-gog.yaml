@@ -1,0 +1,72 @@
+id: 6681
+game_id: 15162
+game_slug: lands-of-lore-guardians-of-desitny
+name: 'Lands of Lore: Guardians of Destiny'
+year: 1997
+user: knathrak
+runner: dosbox
+slug: lands-of-lore-ii-dosbox-gog
+version: Dosbox + GOG
+description: Uses the windows GOG installer and run through dosbox without emulated
+  3dfx hw accelaration
+notes: ''
+created_at: '2017-12-16T12:59:02.759000Z'
+updated_at: '2019-05-18T06:43:22.836265Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $fileextract
+  - execute:
+      args: -d "$CACHE" "$installer"
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/app
+      dst: $GAMEDIR
+  - merge:
+      src: $GAMEDIR/dosboxLOL2_single.conf
+      dst: $GAMEDIR/DOSBOX
+  - write_config:
+      section: sdl
+      key: output
+      value: opengl
+      file: $GAMEDIR/dosboxLOL2.conf
+  - write_config:
+      section: sdl
+      key: fulldouble
+      value: true
+      file: $GAMEDIR/dosboxLOL2.conf
+  - write_config:
+      section: sdl
+      key: fullresolution
+      value: desktop
+      file: $GAMEDIR/dosboxLOL2.conf
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/dosboxLOL2.conf
+  - write_config:
+      section: render
+      key: scaler
+      value: normal2x
+      file: $GAMEDIR/dosboxLOL2.conf
+  - write_config:
+      section: cpu
+      key: cputype
+      value: auto
+      file: $GAMEDIR/dosboxLOL2.conf
+  files:
+  - installer: "N/A:Select the GOG.com game setup file. Download it here: \nhttps://www.gog.com/downloads/lands_of_lore_guardians_of_destiny/en1installer1\n"
+  - fileextract: https://lutris.net/files/tools/innoextract.tar.gz
+  game:
+    config_file: $GAMEDIR/dosboxLOL2.conf
+    main_file: DOSBOX/dosboxLOL2_single.conf

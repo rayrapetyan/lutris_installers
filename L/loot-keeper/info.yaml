@@ -1,0 +1,16 @@
+name: Loot Keeper
+slug: loot-keeper
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Management
+- name: Roguelike
+aliases: []
+banner_url: /games/banner/loot-keeper.jpg
+icon_url: /games/icon/loot-keeper.png
+is_public: true
+updated: '2019-01-23T08:30:12.676823Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,89 @@
+id: 16476
+game_id: 397
+game_slug: the-witcher-2-assassins-of-kings-enhanced-edition
+name: 'The Witcher 2: Assassins of Kings Enhanced Edition'
+year: 2011
+user: appoloin
+runner: wine
+slug: the-witcher-2-assassins-of-ki-gog-34025-galliumnin
+version: GOG  3.4.0.25 + GalliumNine
+description: null
+notes: "Gallium Nine is for AMD and INTEL GPU's only \r\n\r\nImportant: <b>You must\
+  \ supply the exe and bin files yourself.</b> \r\n\r\nIf launcher doesn't work first\
+  \ time run the executable  in \r\n\"drive_c/GOG Games/The Witcher 2 Enhanced Edition/bin/witcher2.exe\"\
+  \r\nlauncher should now work\r\n\"drive_c/GOG Games/The Witcher 2 Enhanced Edition/Launcher.exe\"\
+  \r\n\r\nIf you get an import DLL error, open a console using winetricks and enable\
+  \ GalliumNine with this command \"wine ninewinecfg\""
+created_at: '2019-10-29T15:46:51.060000Z'
+updated_at: '2019-10-31T00:48:11.474479Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 20920
+gogid: 1207658930
+gogslug: the_witcher_2
+humblestoreid: the-witcher-2-assassins-of-kings-enhanced-edition
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      install_mono: false
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: d3dx9_36
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: d3dx9_39
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: gdiplus
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: dotnet40
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2010 win7
+      arch: win32
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /nogui
+      description: Installing Witcher 2
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: galliumnine
+      arch: win32
+      name: winetricks
+  - task:
+      executable: ninewinecfg
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      executable: $GAMEDIR/drive_c/GOG Games/The Witcher 2 Enhanced Edition/bin/Configurator.exe
+      prefix: $GAMEDIR
+      description: Setup
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/GOG Games/The Witcher 2 Enhanced Edition/Launcher.exe
+    arch: win32
+  system:
+    env:
+      __GL_THREADED_OPTIMIZATIONS: '1'
+  wine:
+    Desktop: true
+  files:
+  - setup: N/A:Select the game's setup file from GOG

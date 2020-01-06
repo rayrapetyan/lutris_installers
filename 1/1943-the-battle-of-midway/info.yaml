@@ -1,0 +1,21 @@
+name: '1943: The Battle of Midway'
+slug: 1943-the-battle-of-midway
+year: 1987
+platforms:
+- name: Amiga
+- name: Amstrad CPC 464
+- name: Arcade
+- name: Atari ST
+- name: Commodore 64
+- name: NES
+- name: ZX Spectrum
+genres:
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/1943-the-battle-of-midway.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:08.148631Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

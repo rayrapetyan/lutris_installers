@@ -1,0 +1,15 @@
+name: Neverwinter
+slug: neverwinter
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: MMORPG
+aliases: []
+banner_url: /games/banner/neverwinter.jpg
+icon_url: /games/icon/neverwinter.png
+is_public: true
+updated: '2019-01-23T08:30:31.942387Z'
+steamid: 109600
+gogslug: ''
+humblestoreid: ''

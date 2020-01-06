@@ -1,0 +1,19 @@
+name: Left 4 Dead
+slug: left-4-dead
+year: 2008
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: FPS
+- name: Horror
+- name: Shooter
+aliases: []
+banner_url: /games/banner/left-4-dead.jpg
+icon_url: /games/icon/left-4-dead.png
+is_public: true
+updated: '2019-01-23T08:30:08.669352Z'
+steamid: 500
+gogslug: ''
+humblestoreid: ''

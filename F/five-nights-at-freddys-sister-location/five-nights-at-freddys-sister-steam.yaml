@@ -1,0 +1,24 @@
+id: 6812
+game_id: 8367
+game_slug: five-nights-at-freddys-sister-location
+name: 'Five Nights at Freddy''s: Sister Location'
+year: null
+user: soredake
+runner: winesteam
+slug: five-nights-at-freddys-sister-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-23T22:13:53.908520Z'
+updated_at: '2017-12-23T22:14:00.975581Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 506610
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 506610

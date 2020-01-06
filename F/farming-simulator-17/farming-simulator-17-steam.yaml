@@ -1,0 +1,30 @@
+id: 4305
+game_id: 11447
+game_slug: farming-simulator-17
+name: Farming Simulator 17
+year: 2016
+user: nyanloutre
+runner: winesteam
+slug: farming-simulator-17-steam
+version: Steam
+description: ''
+notes: "Edit game.xml in installation dir and replace render D3D_11 with OGL_4 (if\
+  \ you know how do do it in the script please edit it)\r\n\r\nDetails here : https://appdb.winehq.org/objectManager.php?sClass=version&iId=35306"
+created_at: '2017-06-11T20:40:55.637926Z'
+updated_at: '2017-06-12T19:48:27.099880Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 447020
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    overrides:
+      d3dcompiler_46: b
+      openal32: b
+    UseGLSL: disabled
+  game:
+    appid: 447020

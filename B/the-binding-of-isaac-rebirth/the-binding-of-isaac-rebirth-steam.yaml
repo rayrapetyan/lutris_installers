@@ -1,0 +1,24 @@
+id: 1021
+game_id: 3386
+game_slug: the-binding-of-isaac-rebirth
+name: 'The Binding of Isaac: Rebirth'
+year: 2014
+user: Xodetaetl
+runner: steam
+slug: the-binding-of-isaac-rebirth-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2014-11-06T21:30:16.523000Z'
+updated_at: '2014-11-06T21:30:35.689000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 250900
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 250900

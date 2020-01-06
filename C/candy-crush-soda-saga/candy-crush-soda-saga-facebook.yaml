@@ -1,0 +1,23 @@
+id: 7356
+game_id: 16557
+game_slug: candy-crush-soda-saga
+name: Candy Crush Soda Saga
+year: 2011
+user: TuiorGames
+runner: browser
+slug: candy-crush-soda-saga-facebook
+version: Facebook
+description: null
+notes: ''
+created_at: '2018-02-19T11:01:59.987044Z'
+updated_at: '2018-02-21T02:31:04.977703Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://apps.facebook.com/400935103449571

@@ -1,0 +1,54 @@
+id: 12528
+game_id: 2986
+game_slug: memoria
+name: Memoria
+year: null
+user: BucklingSpring
+runner: wine
+slug: memoria-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-03-27T04:55:06.987000Z'
+updated_at: '2019-03-28T04:12:24.162296Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 243200
+gogid: 1207659803
+gogslug: memoria
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /SILENT /LANG=en /SP- /NOCANCEL /SUPPRESSMSGBOXES /NOGUI
+      description: Installing Memoria
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: win7
+      arch: win64
+      name: winetricks
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+      SDL_AUDIODRIVER: winmm
+    wine:
+      dxvk_version: 1.0.1
+      version: tkg-4.1
+      dxvk: true
+  files:
+  - setup: N/A:Select the game's installer (setup_memoria_*.exe)
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Memoria/memoria.exe
+    arch: win64

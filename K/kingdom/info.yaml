@@ -1,0 +1,16 @@
+name: 'Kingdom: Classic'
+slug: kingdom
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Platform
+- name: Strategy
+aliases: []
+banner_url: /games/banner/kingdom.jpg
+icon_url: /games/icon/kingdom.png
+is_public: true
+updated: '2019-01-23T08:30:03.805122Z'
+steamid: 368230
+gogslug: ''
+humblestoreid: ''

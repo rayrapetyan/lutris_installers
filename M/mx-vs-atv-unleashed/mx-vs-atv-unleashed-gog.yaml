@@ -1,0 +1,32 @@
+id: 5248
+game_id: 7189
+game_slug: mx-vs-atv-unleashed
+name: MX vs. ATV Unleashed
+year: null
+user: FakeShemp
+runner: wine
+slug: mx-vs-atv-unleashed-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2017-08-01T15:20:26.290000Z'
+updated_at: '2017-08-08T17:59:30.204203Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 359220
+gogid: 1441801923
+gogslug: mx_vs_atv_unleashed
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the GOG installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/MX vs. ATV Unleashed/MXvsATV.exe

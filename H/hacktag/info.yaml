@@ -1,0 +1,17 @@
+name: Hacktag
+slug: hacktag
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Stealth
+aliases: []
+banner_url: /games/banner/hacktag.jpg
+icon_url: /games/icon/hacktag.png
+is_public: true
+updated: '2019-01-23T08:29:45.632328Z'
+steamid: 622770
+gogslug: ''
+humblestoreid: ''

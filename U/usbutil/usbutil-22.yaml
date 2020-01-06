@@ -1,0 +1,46 @@
+id: 15154
+game_id: 29091
+game_slug: usbutil
+name: USBUtil
+year: null
+user: TuiorGames
+runner: wine
+slug: usbutil-22
+version: '2.2'
+description: null
+notes: ''
+created_at: '2019-08-27T13:10:28.566289Z'
+updated_at: '2019-08-27T13:10:28.566319Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  script:
+    installer:
+    - task:
+        executable: installer
+        prefix: $GAMEDIR/prefix
+        arch: win32
+        name: wineexec
+    game:
+      prefix: $GAMEDIR/prefix
+      exe: $GAMEDIR/USBUTIL v2.2 rev1.0.7z
+      args: --some-args
+      working_dir: $GAMEDIR/prefix
+      arch: win64
+    system:
+      env:
+        SOMEENV: true
+      terminal: true
+    wine:
+      WineDesktop: 1024x768
+      overrides:
+        ddraw.dll: n
+      Desktop: true
+    files:
+    - installer: /USBUTIL v2.2 rev1.0/USBUtil v2.2 rev1.0.exe

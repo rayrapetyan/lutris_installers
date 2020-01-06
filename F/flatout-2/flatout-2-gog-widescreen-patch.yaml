@@ -1,0 +1,35 @@
+id: 516
+game_id: 2052
+game_slug: flatout-2
+name: FlatOut 2
+year: 2006
+user: Xodetaetl
+runner: wine
+slug: flatout-2-gog-widescreen-patch
+version: GOG widescreen patch
+description: Widescreen patch for the GOG version. By ThirteenAG.
+notes: ''
+created_at: '2014-07-30T15:03:55.279000Z'
+updated_at: '2016-09-29T20:19:13.404523Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 2990
+gogid: 1207660523
+gogslug: flatout_2
+humblestoreid: ''
+script:
+  requires: flatout-2-gog
+  installer:
+  - extract:
+      dst: $GAMEDIR/Game/prefix/drive_c/GOG Games/FlatOut 2/
+      file: $patch
+  - task:
+      prefix: $GAMEDIR/Game/prefix
+      key: dinput8
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  files:
+  - patch: https://lutris.net/files/games/flatout-2/Flatout2_widescreen_fix.zip

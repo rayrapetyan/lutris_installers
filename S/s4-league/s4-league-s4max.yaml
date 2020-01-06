@@ -1,0 +1,45 @@
+id: 13791
+game_id: 27568
+game_slug: s4-league
+name: S4 League
+year: null
+user: LuigiTheHunter
+runner: wine
+slug: s4-league-s4max
+version: S4MAX
+description: This uses the S4Max P Server.
+notes: ''
+created_at: '2019-05-29T20:46:38.727687Z'
+updated_at: '2019-05-29T20:46:38.727718Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - move:
+      src: setup
+      dst: $GAMEDIR/drive_c/Program Files (x86)/S4Max
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Installing Farming Simulator 17...
+      name: wineexec
+  - execute:
+      command: sed -i 's/D3D_11/OGL_4/g' '$GAMEDIR/drive_c/Program Files (x86)/Farming
+        Simulator 2017/game.xml'
+  files:
+  - setup: N/A:Select the ZIP for S4Max (S4max Game.zip)
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/S4Max
+    arch: win64

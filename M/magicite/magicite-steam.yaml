@@ -1,0 +1,24 @@
+id: 916
+game_id: 3069
+game_slug: magicite
+name: Magicite
+year: null
+user: Xodetaetl
+runner: steam
+slug: magicite-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-10-01T17:54:30.573000Z'
+updated_at: '2014-10-01T17:54:34.653000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 268750
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 268750

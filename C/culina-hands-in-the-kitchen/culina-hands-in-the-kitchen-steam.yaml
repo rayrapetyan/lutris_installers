@@ -1,0 +1,24 @@
+id: 13902
+game_id: 15907
+game_slug: culina-hands-in-the-kitchen
+name: 'Culina: Hands in the Kitchen'
+year: 2016
+user: kimchitea
+runner: steam
+slug: culina-hands-in-the-kitchen-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-06-03T04:28:02.856732Z'
+updated_at: '2019-06-13T06:25:03.126322Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 364000
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 364000

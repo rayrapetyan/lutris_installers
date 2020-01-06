@@ -1,0 +1,26 @@
+id: 6306
+game_id: 14766
+game_slug: afternoon-in-the-house-of-secrets
+name: Afternoon in the House of Secrets
+year: 2009
+user: FakeShemp
+runner: web
+slug: afternoon-in-the-house-of-sec-online
+version: Online
+description: null
+notes: ''
+created_at: '2017-11-12T13:50:50.272387Z'
+updated_at: '2017-11-12T13:51:41.779196Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  web:
+    window_size: 800x600
+  game:
+    main_file: http://www.auntiepixelante.com/secrets/

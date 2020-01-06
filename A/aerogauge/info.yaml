@@ -1,0 +1,16 @@
+name: AeroGauge
+slug: aerogauge
+year: 1998
+platforms:
+- name: Nintendo 64
+genres:
+- name: Action
+- name: Racing
+aliases: []
+banner_url: /games/banner/aerogauge.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:12.919688Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

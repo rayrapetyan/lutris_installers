@@ -1,0 +1,15 @@
+name: 'Quake II: Ground Zero'
+slug: quake-ii-ground-zero
+year: 1998
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/quake-ii-ground-zero.jpg
+icon_url: /games/icon/quake-ii-ground-zero.png
+is_public: false
+updated: '2019-01-23T08:30:52.774425Z'
+steamid: 2340
+gogslug: ''
+humblestoreid: ''

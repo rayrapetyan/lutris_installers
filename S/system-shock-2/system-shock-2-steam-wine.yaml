@@ -1,0 +1,25 @@
+id: 508
+game_id: 2047
+game_slug: system-shock-2
+name: System Shock 2
+year: 1999
+user: Xodetaetl
+runner: winesteam
+slug: system-shock-2-steam-wine
+version: Steam Wine
+description: Steam Windows version, because apparently it's the only one to have co-op
+  multiplayer.
+notes: ''
+created_at: '2014-07-25T22:35:48.881000Z'
+updated_at: '2014-07-25T22:35:54.972000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 238210
+gogid: 1207659172
+gogslug: system_shock_2
+humblestoreid: ''
+script:
+  game:
+    appid: 238210

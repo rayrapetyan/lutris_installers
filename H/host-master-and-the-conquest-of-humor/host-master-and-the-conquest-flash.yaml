@@ -1,0 +1,26 @@
+id: 3256
+game_id: 4492
+game_slug: host-master-and-the-conquest-of-humor
+name: Host Master and the Conquest of Humor
+year: 2009
+user: FakeShemp
+runner: web
+slug: host-master-and-the-conquest-flash
+version: Flash
+description: null
+notes: ''
+created_at: '2017-02-11T11:43:14.412000Z'
+updated_at: '2019-10-14T21:01:21.399092Z'
+draft: false
+published: true
+published_by: 1465
+rating: '5'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  web:
+    enable_flash: true
+  game:
+    main_file: http://www.doublefine.com/themes/site_themes/default/flash/GDCgame.swf

@@ -1,0 +1,17 @@
+name: WCW Nitro
+slug: wcw-nitro
+year: 1998
+platforms:
+- name: Nintendo 64
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Sports
+aliases: []
+banner_url: /games/banner/wcw-nitro.jpg
+icon_url: null
+is_public: true
+updated: '2019-09-05T14:40:53.454098Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

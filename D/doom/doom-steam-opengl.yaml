@@ -1,0 +1,44 @@
+id: 5921
+game_id: 6164
+game_slug: doom
+name: DOOM
+year: 2016
+user: GloriousEggroll
+runner: winesteam
+slug: doom-steam-opengl
+version: Steam-opengl
+description: null
+notes: ''
+created_at: '2017-10-08T06:49:34.092000Z'
+updated_at: '2018-11-04T03:44:40.898922Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: 379720
+gogid: null
+gogslug: ''
+humblestoreid: doom
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2015
+      arch: win64
+      name: winetricks
+  - extract:
+      dst: $CACHE
+      file: $chroma
+  - merge:
+      src: $CACHE/CChromaEditorLibrary.dll
+      dst: $GAMEDIR
+  system:
+    disable_runtime: true
+    pulse_latency: true
+  files:
+  - chroma: https://github.com/Riesi/CChromaEditor/files/2277158/CChromaEditorLibrary.zip
+  game:
+    prefix: $GAMEDIR/prefix
+    args: +r_renderapi 0
+    appid: 379720
+    arch: win64

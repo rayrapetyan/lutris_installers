@@ -1,0 +1,18 @@
+name: 'Warplanes: WW2 Dogfight'
+slug: warplanes-ww2-dogfight
+year: null
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Action
+- name: Fighting
+- name: Indie
+aliases: []
+banner_url: /games/banner/warplanes-ww2-dogfight.jpg
+icon_url: null
+is_public: true
+updated: '2019-07-20T02:57:24.130259Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

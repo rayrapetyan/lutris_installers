@@ -1,0 +1,23 @@
+id: 2018
+game_id: 5775
+game_slug: agario
+name: Agar.io
+year: 2015
+user: rawBasic
+runner: browser
+slug: agario-browser
+version: Browser
+description: null
+notes: ''
+created_at: '2016-03-11T00:06:03.393000Z'
+updated_at: '2018-07-01T03:37:56.307553Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://agar.io/

@@ -1,0 +1,24 @@
+id: 7457
+game_id: 2614
+game_slug: legacy-of-kain-soul-reaver
+name: 'Legacy of Kain: Soul Reaver'
+year: 1999
+user: strider
+runner: winesteam
+slug: legacy-of-kain-soul-reaver-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-05T08:00:50.732204Z'
+updated_at: '2018-03-05T08:01:01.649807Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 224920
+gogid: 1207659030
+gogslug: legacy_of_kain_soul_reaver
+humblestoreid: ''
+script:
+  game:
+    appid: 224920

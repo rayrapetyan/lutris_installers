@@ -1,0 +1,15 @@
+name: 'Counter-Strike: Global Offensive'
+slug: counter-strike-global-offensive
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/counter-strike-global-offensive.jpg
+icon_url: /games/icon/counter-strike-global-offensive.png
+is_public: true
+updated: '2019-02-09T04:29:44.332455Z'
+steamid: 730
+gogslug: ''
+humblestoreid: ''

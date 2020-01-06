@@ -1,0 +1,24 @@
+id: 947
+game_id: 2242
+game_slug: angry-video-game-nerd-adventures
+name: Angry Video Game Nerd Adventures
+year: 2013
+user: strider
+runner: winesteam
+slug: angry-video-game-nerd-adventur-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-10-26T13:18:11.015000Z'
+updated_at: '2014-10-26T13:18:19.440000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 237740
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 237740

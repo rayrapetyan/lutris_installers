@@ -1,0 +1,44 @@
+id: 13285
+game_id: 5300
+game_slug: double-dragon-trilogy
+name: Double Dragon Trilogy
+year: null
+user: ShadowStrike
+runner: wine
+slug: double-dragon-trilogy-gog
+version: GOG
+description: Click OK on errors near end of installer and installer will complete
+  correctly.
+notes: Ignore Microsoft Visual C++ errors and game will launch correctly.
+created_at: '2019-05-02T11:20:27.196000Z'
+updated_at: '2019-05-04T02:14:49.926179Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 314150
+gogid: 1420716694
+gogslug: double_dragon_trilogy
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2013
+      name: winetricks
+  - task:
+      executable: goginstaller
+      prefix: $GAMEDIR
+      args: /LANG=English /SP- /SUPPRESSMSGBOXES
+      arch: win64
+      name: wineexec
+  files:
+  - goginstaller: N/A:Please select the GOG.com Windows installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Double Dragon Trilogy/ddtrilogy.exe
+    arch: win64

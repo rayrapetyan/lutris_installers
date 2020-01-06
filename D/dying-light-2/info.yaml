@@ -1,0 +1,16 @@
+name: Dying Light 2
+slug: dying-light-2
+year: 2020
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: RPG
+aliases: []
+banner_url: /games/banner/dying-light-2.jpg
+icon_url: /games/icon/dying-light-2.png
+is_public: true
+updated: '2019-06-13T16:11:25.758174Z'
+steamid: 534380
+gogslug: ''
+humblestoreid: ''

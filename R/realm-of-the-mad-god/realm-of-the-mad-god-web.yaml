@@ -1,0 +1,27 @@
+id: 8428
+game_id: 679
+game_slug: realm-of-the-mad-god
+name: Realm of the Mad God
+year: null
+user: ibrokemypie
+runner: web
+slug: realm-of-the-mad-god-web
+version: Web
+description: null
+notes: ''
+created_at: '2018-05-26T13:27:56.883000Z'
+updated_at: '2018-05-27T04:14:59.153001Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 200210
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://realmofthemadgodhrd.appspot.com/client
+  web:
+    enable_flash: true
+  game:
+    appid: 200210

@@ -1,0 +1,24 @@
+id: 2967
+game_id: 4603
+game_slug: lumino-city
+name: Lumino City
+year: 2014
+user: RobLoach
+runner: winesteam
+slug: lumino-city-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: ''
+created_at: '2016-11-02T17:22:39.617743Z'
+updated_at: '2016-11-02T17:31:29.099577Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: 205020
+gogid: 1207667103
+gogslug: lumino_city
+humblestoreid: ''
+script:
+  game:
+    appid: 205020

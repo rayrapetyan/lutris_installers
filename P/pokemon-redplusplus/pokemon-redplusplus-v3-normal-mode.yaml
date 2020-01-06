@@ -1,0 +1,41 @@
+id: 11357
+game_id: 24363
+game_slug: pokemon-redplusplus
+name: "Pok\xE9mon RedPlusPlus"
+year: 2018
+user: Zekromaster
+runner: mednafen
+slug: pokemon-redplusplus-v3-normal-mode
+version: v3 - Normal Mode
+description: null
+notes: ''
+created_at: '2018-12-26T16:46:15.957000Z'
+updated_at: '2019-01-19T10:56:13.668635Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  custom-name: "Pok\xE8mon Red++ v3 - Normal Mode"
+  installer:
+  - move:
+      src: patch
+      dst: $GAMEDIR
+  - copy:
+      src: pokered
+      dst: $GAMEDIR
+  - rename:
+      src: pokered
+      dst: $GAMEDIR/pokeredpp3normal.gbc
+  files:
+  - patch:
+      filename: pokeredpp3normal.gbc.ips
+      url: https://raw.githubusercontent.com/TheFakeMateo/RedPlusPlus/master/patches/rpp%20v3%20normal.ips
+  - pokered: "N/A:Please select your pok\xE8red rom"
+  game:
+    machine: gb
+    main_file: $GAMEDIR/pokeredpp3normal.gbc

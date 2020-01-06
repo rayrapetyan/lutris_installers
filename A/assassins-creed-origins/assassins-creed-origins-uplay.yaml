@@ -1,0 +1,48 @@
+id: 15516
+game_id: 14741
+game_slug: assassins-creed-origins
+name: Assassin's Creed Origins
+year: 2017
+user: miig
+runner: wine
+slug: assassins-creed-origins-uplay
+version: Uplay
+description: This should install UPlay to allow you to download Assassin's Creed Origins
+  and play. The game runs flawlessly at a stable 60fps.
+notes: "For it to work I had to disable  System options / Prefer System libraries.\r\
+  \n\r\nThe only issue that I noticed is with the stone circles mission the sky view\
+  \ makes the game crash or run very slowly."
+created_at: '2019-09-14T00:08:56.154000Z'
+updated_at: '2019-10-06T22:09:16.288026Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 582160
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/Uplay.exe
+    arch: win64
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: corefonts vcrun2017 win7
+      name: winetricks
+  - task:
+      executable: uplay
+      prefix: $GAMEDIR
+      args: /S
+      name: wineexec
+  wine:
+    version: lutris-4.15-x86_64
+    dxvk: true
+  files:
+  - uplay: https://ubistatic3-a.akamaihd.net/orbit/launcher_installer/UplayInstaller.exe

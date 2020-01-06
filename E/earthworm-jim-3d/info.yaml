@@ -1,0 +1,16 @@
+name: Earthworm Jim 3D
+slug: earthworm-jim-3d
+year: 1999
+platforms:
+- name: Nintendo 64
+- name: Windows
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/earthworm-jim-3d.jpg
+icon_url: /games/icon/earthworm-jim-3d.png
+is_public: true
+updated: '2019-01-23T08:29:20.894464Z'
+steamid: 41600
+gogslug: earthworm_jim_3d
+humblestoreid: ''

@@ -1,0 +1,18 @@
+name: Tom Clancy's The Division
+slug: tom-clancys-the-division
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: RPG
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/tom-clancys-the-division.jpg
+icon_url: /games/icon/tom-clancys-the-division.png
+is_public: true
+updated: '2019-01-23T08:31:53.016256Z'
+steamid: 365590
+gogslug: ''
+humblestoreid: ''

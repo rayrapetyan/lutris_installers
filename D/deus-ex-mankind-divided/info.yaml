@@ -1,0 +1,20 @@
+name: 'Deus Ex: Mankind Divided'
+slug: deus-ex-mankind-divided
+year: 2016
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+- name: RPG
+aliases:
+- slug: deus-ex-mankind-dividedtm
+  name: "Deus Ex: Mankind Divided\u2122"
+banner_url: /games/banner/deus-ex-mankind-divided.jpg
+icon_url: /games/icon/deus-ex-mankind-divided.png
+is_public: true
+updated: '2019-02-27T07:21:58.972582Z'
+steamid: 337000
+gogslug: ''
+humblestoreid: ''

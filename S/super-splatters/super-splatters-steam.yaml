@@ -1,0 +1,24 @@
+id: 788
+game_id: 1540
+game_slug: super-splatters
+name: Super Splatters
+year: null
+user: Xodetaetl
+runner: steam
+slug: super-splatters-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T16:17:07.961000Z'
+updated_at: '2014-09-15T17:10:39.815000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 95000
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 95000

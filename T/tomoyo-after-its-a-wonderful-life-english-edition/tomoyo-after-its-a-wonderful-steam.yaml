@@ -1,0 +1,24 @@
+id: 11774
+game_id: 10552
+game_slug: tomoyo-after-its-a-wonderful-life-english-edition
+name: Tomoyo After ~It's a Wonderful Life~ English Edition
+year: null
+user: talklittle
+runner: winesteam
+slug: tomoyo-after-its-a-wonderful-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-01-30T07:40:12.154000Z'
+updated_at: '2019-01-31T04:36:07.604628Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 462990
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 462990

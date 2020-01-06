@@ -1,0 +1,24 @@
+id: 3331
+game_id: 5243
+game_slug: dont-be-patchman
+name: Don't Be Patchman
+year: null
+user: uso
+runner: steam
+slug: dont-be-patchman-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-03-14T11:52:19.373688Z'
+updated_at: '2017-03-17T22:41:00.077286Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 378410
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 378410

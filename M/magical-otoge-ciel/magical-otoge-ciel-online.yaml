@@ -1,0 +1,27 @@
+id: 6976
+game_id: 9577
+game_slug: magical-otoge-ciel
+name: Magical Otoge Ciel
+year: 2015
+user: FakeShemp
+runner: web
+slug: magical-otoge-ciel-online
+version: Online
+description: null
+notes: ''
+created_at: '2018-01-03T01:22:18.638880Z'
+updated_at: '2018-01-03T01:23:22.459371Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 521470
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  web:
+    open_links: true
+    window_size: 1280x720
+  game:
+    main_file: http://sandbox-adventure.com/magical-otoge-ciel/

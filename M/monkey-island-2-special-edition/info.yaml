@@ -1,0 +1,16 @@
+name: "Monkey Island 2 Special Edition: LeChuck\u2019s Revenge"
+slug: monkey-island-2-special-edition
+year: 2010
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/monkey-island-2-special-edition.jpg
+icon_url: /games/icon/monkey-island-2-special-edition.png
+is_public: true
+updated: '2019-01-23T08:30:25.716875Z'
+steamid: 32460
+gogslug: monkey_island_2_special_edition_lechucks_revenge
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 16451
+game_id: 29961
+game_slug: nba-2k20
+name: NBA 2K20
+year: 2019
+user: cxf
+runner: steam
+slug: nba-2k20-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-10-28T00:20:47.096004Z'
+updated_at: '2019-10-28T00:20:51.075160Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 1089350
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 1089350

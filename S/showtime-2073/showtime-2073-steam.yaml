@@ -1,0 +1,24 @@
+id: 3478
+game_id: 5948
+game_slug: showtime-2073
+name: SHOWTIME 2073
+year: null
+user: liberodark
+runner: steam
+slug: showtime-2073-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-04-01T10:26:13.475650Z'
+updated_at: '2017-04-06T19:46:04.973424Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 411080
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 411080

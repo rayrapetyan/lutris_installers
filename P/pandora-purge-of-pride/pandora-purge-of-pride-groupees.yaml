@@ -1,0 +1,28 @@
+id: 5653
+game_id: 3901
+game_slug: pandora-purge-of-pride
+name: 'Pandora: Purge of Pride'
+year: 2013
+user: FakeShemp
+runner: linux
+slug: pandora-purge-of-pride-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-10T10:56:12.031435Z'
+updated_at: '2017-09-10T10:58:21.064598Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Pandora.x86
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive

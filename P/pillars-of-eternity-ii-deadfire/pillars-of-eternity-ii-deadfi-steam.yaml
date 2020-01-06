@@ -1,0 +1,24 @@
+id: 8290
+game_id: 17448
+game_slug: pillars-of-eternity-ii-deadfire
+name: 'Pillars of Eternity II: Deadfire'
+year: 2018
+user: TuiorGames
+runner: steam
+slug: pillars-of-eternity-ii-deadfi-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-14T12:35:39.780854Z'
+updated_at: '2018-05-14T16:02:59.532814Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 560130
+gogid: 1788509829
+gogslug: pillars_of_eternity_2_game
+humblestoreid: ''
+script:
+  game:
+    appid: 560130

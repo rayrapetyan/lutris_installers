@@ -1,0 +1,24 @@
+id: 1350
+game_id: 3742
+game_slug: the-detail
+name: The Detail
+year: null
+user: Xodetaetl
+runner: steam
+slug: the-detail-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-02-25T20:00:00.293000Z'
+updated_at: '2015-02-25T20:44:02.552000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 319970
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 319970

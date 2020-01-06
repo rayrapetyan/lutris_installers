@@ -1,0 +1,40 @@
+id: 15414
+game_id: 1216
+game_slug: total-war-rome-ii
+name: 'Total War: ROME II'
+year: 2013
+user: doctor-nick
+runner: wine
+slug: total-war-rome-ii-standalone
+version: Standalone
+description: total war rome2s
+notes: ''
+created_at: '2019-09-09T03:51:38.286992Z'
+updated_at: '2019-09-09T03:51:38.287024Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: 214950
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/TotalWarRome2/Rome2.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating WINE prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: setup
+      description: Running Setup, please wait...
+      name: wineexec
+  wine:
+    version: lutris-4.15-x86_64
+  files:
+  - setup: 'N/A: Select the game''s setup file'

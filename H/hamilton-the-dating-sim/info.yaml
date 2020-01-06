@@ -1,0 +1,16 @@
+name: 'Hamilton: The Dating Sim'
+slug: hamilton-the-dating-sim
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Dating
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/hamilton-the-dating-sim.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:46.624258Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

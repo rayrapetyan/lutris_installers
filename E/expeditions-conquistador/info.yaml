@@ -1,0 +1,16 @@
+name: 'Expeditions: Conquistador'
+slug: expeditions-conquistador
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: RPG
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/expeditions-conquistador.jpg
+icon_url: /games/icon/expeditions-conquistador.png
+is_public: true
+updated: '2019-01-23T08:29:26.832653Z'
+steamid: 237430
+gogslug: expeditions_conquistador
+humblestoreid: ''

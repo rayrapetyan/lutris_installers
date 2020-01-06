@@ -1,0 +1,15 @@
+name: 'Mario Kart: Super Circuit'
+slug: mario-kart-super-circuit
+year: 2001
+platforms:
+- name: Nintendo Game Boy Advance
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/mario-kart-super-circuit.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:17.666308Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,17 @@
+name: 'Reigns: Game of Thrones'
+slug: reigns-game-of-thrones
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Fantasy
+- name: Simulation
+aliases: []
+banner_url: /games/banner/reigns-game-of-thrones.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:57.127327Z'
+steamid: 897820
+gogslug: reigns_game_of_thrones
+humblestoreid: ''

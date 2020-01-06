@@ -1,0 +1,15 @@
+name: TERA
+slug: tera
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: MMORPG
+aliases: []
+banner_url: /games/banner/tera.jpg
+icon_url: /games/icon/tera.png
+is_public: true
+updated: '2019-01-23T08:31:37.193139Z'
+steamid: 323370
+gogslug: ''
+humblestoreid: ''

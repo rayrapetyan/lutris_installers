@@ -1,0 +1,24 @@
+id: 11214
+game_id: 2930
+game_slug: lego-the-hobbit
+name: LEGO - The Hobbit
+year: 2014
+user: dowvd1000
+runner: steam
+slug: lego-the-hobbit-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2018-12-14T02:46:59.262000Z'
+updated_at: '2019-05-19T06:35:03.064265Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 285160
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 285160

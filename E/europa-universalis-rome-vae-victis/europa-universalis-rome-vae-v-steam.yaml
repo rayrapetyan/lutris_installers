@@ -1,0 +1,24 @@
+id: 6191
+game_id: 1926
+game_slug: europa-universalis-rome-vae-victis
+name: 'Europa Universalis: Rome - Vae Victis'
+year: null
+user: jonius
+runner: winesteam
+slug: europa-universalis-rome-vae-v-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-10-30T14:04:56.429529Z'
+updated_at: '2017-11-04T23:04:37.401792Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 23440
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 23440

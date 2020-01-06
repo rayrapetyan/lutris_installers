@@ -1,0 +1,17 @@
+name: 'Osiris: New Dawn'
+slug: osiris-new-dawn
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Open World
+- name: Sci-fi
+- name: Survival
+aliases: []
+banner_url: /games/banner/osiris-new-dawn.jpg
+icon_url: /games/icon/osiris-new-dawn.png
+is_public: true
+updated: '2019-01-23T08:30:38.425492Z'
+steamid: 402710
+gogslug: ''
+humblestoreid: ''

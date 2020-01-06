@@ -1,0 +1,24 @@
+id: 8466
+game_id: 4792
+game_slug: games-of-glory
+name: Games of Glory
+year: null
+user: phoenixx68
+runner: winesteam
+slug: games-of-glory-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-29T15:40:51.218869Z'
+updated_at: '2018-05-30T06:19:33.375328Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 342150
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 342150

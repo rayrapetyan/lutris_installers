@@ -1,0 +1,24 @@
+id: 1233
+game_id: 3577
+game_slug: left-in-the-dark-no-one-on-board
+name: 'Left in the Dark: No One on Board'
+year: null
+user: Xodetaetl
+runner: steam
+slug: left-in-the-dark-no-one-on-bo-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-01-05T19:24:48.934000Z'
+updated_at: '2015-01-05T19:24:53.071000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 284890
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 284890

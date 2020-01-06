@@ -1,0 +1,15 @@
+name: 'Battle Chess: Collection'
+slug: battle-chess-collection
+year: 1994
+platforms:
+- name: MS-DOS
+genres:
+- name: Chess
+aliases: []
+banner_url: /games/banner/battle-chess-collection.jpg
+icon_url: /games/icon/battle-chess-collection.png
+is_public: true
+updated: '2019-10-22T19:01:49.780664Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

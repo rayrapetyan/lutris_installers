@@ -1,0 +1,31 @@
+id: 9712
+game_id: 20888
+game_slug: brian-lara-cricket
+name: Brian Lara Cricket
+year: 1998
+user: te_lanus
+runner: libretro
+slug: brian-lara-cricket-playstation
+version: Playstation
+description: null
+notes: ''
+created_at: '2018-08-12T19:31:06.487261Z'
+updated_at: '2018-08-12T19:31:24.257333Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  fifiles:
+  - file1: N/A:Please select the Playstation Disc
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  game:
+    core: mednafen_psx_hw
+    main_file: file1

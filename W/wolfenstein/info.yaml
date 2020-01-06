@@ -1,0 +1,15 @@
+name: Wolfenstein
+slug: wolfenstein
+year: 2009
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/wolfenstein.jpg
+icon_url: /games/icon/wolfenstein.png
+is_public: true
+updated: '2019-01-23T08:32:09.795057Z'
+steamid: 10170
+gogslug: ''
+humblestoreid: ''

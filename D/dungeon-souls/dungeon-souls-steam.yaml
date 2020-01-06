@@ -1,0 +1,24 @@
+id: 1833
+game_id: 5462
+game_slug: dungeon-souls
+name: Dungeon Souls
+year: 2015
+user: RobLoach
+runner: steam
+slug: dungeon-souls-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-01-06T21:46:45.714145Z'
+updated_at: '2016-01-06T21:49:36.573872Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 383230
+gogid: 1982030524
+gogslug: dungeon_souls
+humblestoreid: ''
+script:
+  game:
+    appid: 383230

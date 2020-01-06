@@ -1,0 +1,24 @@
+id: 2781
+game_id: 7744
+game_slug: duelyst
+name: Duelyst
+year: 2016
+user: RobLoach
+runner: winesteam
+slug: duelyst-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: ''
+created_at: '2016-09-26T03:47:00.165637Z'
+updated_at: '2016-10-01T04:33:25.710565Z'
+draft: false
+published: true
+published_by: null
+rating: '1'
+steamid: 291410
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 291410

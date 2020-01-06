@@ -1,0 +1,24 @@
+id: 308
+game_id: 193
+game_slug: toki-tori
+name: Toki Tori
+year: null
+user: strider
+runner: steam
+slug: toki-tori-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-20T00:21:43.781000Z'
+updated_at: '2013-12-20T00:21:43.781000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 38700
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 38700

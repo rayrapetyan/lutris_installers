@@ -1,0 +1,24 @@
+id: 12352
+game_id: 26114
+game_slug: dawn-of-man
+name: Dawn of Man
+year: 2019
+user: cxf
+runner: winesteam
+slug: dawn-of-man-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-03-12T06:18:02.764160Z'
+updated_at: '2019-03-12T06:21:28.550526Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 858810
+gogid: 899257943
+gogslug: dawn_of_man
+humblestoreid: ''
+script:
+  game:
+    appid: 858810

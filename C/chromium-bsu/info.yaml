@@ -1,0 +1,16 @@
+name: Chromium B.S.U.
+slug: chromium-bsu
+year: 2000
+platforms:
+- name: Linux
+genres:
+- name: Arcade
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/chromium-bsu.jpg
+icon_url: /games/icon/chromium-bsu.png
+is_public: true
+updated: '2019-01-23T08:28:52.437459Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,35 @@
+id: 12624
+game_id: 8129
+game_slug: jojos-bizarre-adventure
+name: JoJo's Bizarre Adventure
+year: 1998
+user: Zekromaster
+runner: mednafen
+slug: jojos-bizarre-adventure-playstation-bincue
+version: PlayStation (.bin/.cue)
+description: null
+notes: ''
+created_at: '2019-04-04T16:03:07.209503Z'
+updated_at: '2019-04-26T06:33:40.332511Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - copy:
+      src: cue
+      dst: $GAMEDIR
+  - copy:
+      src: bin
+      dst: $GAMEDIR
+  files:
+  - cue: 'N/A: Please select your .cue file'
+  - bin: 'N/A: Please select your .bin file'
+  game:
+    machine: psx
+    main_file: cue

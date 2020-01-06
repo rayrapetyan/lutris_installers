@@ -1,0 +1,31 @@
+id: 8
+game_id: 12
+game_slug: openarena
+name: OpenArena
+year: 2005
+user: strider
+runner: linux
+slug: open-arena-088
+version: 0.8.8
+description: ''
+notes: ''
+created_at: '2013-06-29T14:30:48Z'
+updated_at: '2014-01-27T14:41:27.074000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: openarena.i386
+  installer:
+  - extract:
+      file: openarena-0.8.8
+  - chmodx: openarena.x86_64
+  - chmodx: openarena.i386
+  exe64: openarena.x86_64
+  files:
+  - openarena-0.8.8: http://download.tuxfamily.org/openarena/rel/088/openarena-0.8.8.zip

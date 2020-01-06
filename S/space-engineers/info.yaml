@@ -1,0 +1,18 @@
+name: Space Engineers
+slug: space-engineers
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Sandbox
+- name: Simulation
+- name: Strategy
+aliases: []
+banner_url: /games/banner/space-engineers.jpg
+icon_url: /games/icon/space-engineers.png
+is_public: true
+updated: '2019-01-31T04:48:01.830601Z'
+steamid: 244850
+gogslug: ''
+humblestoreid: ''

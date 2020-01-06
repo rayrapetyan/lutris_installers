@@ -1,0 +1,40 @@
+id: 10122
+game_id: 21662
+game_slug: valiant
+name: Valiant
+year: 2015
+user: miky_kr5
+runner: zdoom
+slug: valiant-regular
+version: Regular
+description: Pwad file from Doomworld. Requires either the DOOM 2 or the Freedoom
+  phase 2 iwad to play.
+notes: ''
+created_at: '2018-09-09T00:08:23.219047Z'
+updated_at: '2018-09-09T03:07:50.615561Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      src: $valiant
+      dst: $CACHE
+  - merge:
+      src: $doom2
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/Valiant.wad
+      dst: $GAMEDIR
+  files:
+  - doom2: N/A:Please select either the DOOM 2 or Freedoom phase 2 iwad file.
+  - valiant: http://youfailit.net/pub/idgames/levels/doom2/Ports/megawads/valiant.zip
+  game:
+    main_file: $doom2
+    files:
+    - Valiant.wad

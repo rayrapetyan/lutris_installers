@@ -1,0 +1,28 @@
+id: 11126
+game_id: 23659
+game_slug: forgotten-paradise
+name: Forgotten Paradise
+year: 2018
+user: t-rex91
+runner: linux
+slug: forgotten-paradise-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2018-12-09T22:56:37.490987Z'
+updated_at: '2018-12-14T13:12:22.117140Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Forgotten_Paradise.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

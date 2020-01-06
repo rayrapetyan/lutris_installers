@@ -1,0 +1,16 @@
+name: 'Battle Chasers: Nightwar'
+slug: battle-chasers-nightwar
+year: 2017
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: jRPG
+aliases: []
+banner_url: /games/banner/battle-chasers-nightwar.jpg
+icon_url: /games/icon/battle-chasers-nightwar.png
+is_public: true
+updated: '2019-01-23T08:28:32.784842Z'
+steamid: 451020
+gogslug: battle_chasers_nightwar
+humblestoreid: ''

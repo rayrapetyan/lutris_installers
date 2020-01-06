@@ -1,0 +1,16 @@
+name: "Assassin\u2019s Creed Unity"
+slug: assassins-creed-unity
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/assassins-creed-unity.jpg
+icon_url: /games/icon/assassins-creed-unity.png
+is_public: true
+updated: '2019-04-18T04:27:10.466534Z'
+steamid: 289650
+gogslug: ''
+humblestoreid: assassins-creed-unity

@@ -1,0 +1,16 @@
+name: BYTEPATH
+slug: bytepath
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: RPG
+aliases: []
+banner_url: /games/banner/bytepath.jpg
+icon_url: /games/icon/bytepath.png
+is_public: true
+updated: '2019-01-23T08:28:43.950063Z'
+steamid: 760330
+gogslug: ''
+humblestoreid: ''

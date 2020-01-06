@@ -1,0 +1,25 @@
+id: 9693
+game_id: 10262
+game_slug: magical-eyes-red-is-for-anguish
+name: Magical Eyes - Red is for Anguish
+year: 2016
+user: kimchitea
+runner: winesteam
+slug: magical-eyes-red-is-for-angui-steam
+version: Steam
+description: null
+notes: Fullscreen mode may freeze the game.
+created_at: '2018-08-11T16:48:50.289000Z'
+updated_at: '2018-08-11T21:26:12.264667Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 366780
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 366780
+    arch: win32

@@ -1,0 +1,33 @@
+id: 4526
+game_id: 2106
+game_slug: agricultural-simulator-historical-farming
+name: 'Agricultural Simulator: Historical Farming'
+year: 2012
+user: FakeShemp
+runner: wine
+slug: agricultural-simulator-histor-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-20T21:33:57.270000Z'
+updated_at: '2018-05-19T03:41:49.962197Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 259890
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Agricultural Simulator Historical Farming/agrarhistory2012.exe
+    arch: win32

@@ -1,0 +1,104 @@
+id: 8376
+game_id: 1512
+game_slug: tomb-raider-i
+name: Tomb Raider I
+year: 1996
+user: nastys
+runner: wine
+slug: tomb-raider-i-gold-cd-glrage
+version: Gold CD GLRage
+description: Native Windows version of Unfinished Business and Shadow of the Cat.
+  PC (DOS) CD of Tomb Raider (not the bonus disc) required.
+notes: Currently only the main menu is working.
+created_at: '2018-05-22T13:49:39.478000Z'
+updated_at: '2019-10-28T20:47:18.178226Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: 224960
+gogid: 1207663463
+gogslug: tomb_raider_1
+humblestoreid: ''
+script:
+  files:
+  - trub:
+      referer: http://tombraiders.net/
+      filename: trubsoft.zip
+      url: http://tombraiders.net/stella/files/gamefiles/TR1files/trubsoft.exe
+  - trati: https://web.archive.org/web/20081121063015if_/http://ftp.eidos-france.fr/pub/fr/tomb_raider/patches/tombatiragepro.zip
+  - tratiub: https://web.archive.org/web/20081120212648if_/http://ftp.eidos-france.fr/pub/fr/tomb_raider/patches/tombati.zip
+  - glrage: https://github.com/ata4/glrage/releases/download/r10/glrage_r10.zip
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/TOMBGOLD/Tombub.exe
+    arch: win32
+  installer:
+  - insert-disc:
+      requires: tomb.exe
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix...
+      arch: win32
+      name: create_prefix
+  - merge:
+      src: $DISC
+      description: Copying game files...
+      dst: $GAMEDIR/drive_c/TOMBGOLD
+  - extract:
+      src: trati
+      description: Installing 3D Rage Pro patch...
+      dst: $GAMEDIR/drive_c/TOMBGOLD
+  - move:
+      src: $GAMEDIR/drive_c/TOMBGOLD/ATI.exe
+      description: Installing 3D Rage Pro patch...
+      dst: $GAMEDIR/drive_c/TOMBGOLD/ATI.zip
+  - extract:
+      src: $GAMEDIR/drive_c/TOMBGOLD/ATI.zip
+      description: Installing 3D Rage Pro patch...
+      dst: $GAMEDIR/drive_c/TOMBGOLD
+  - extract:
+      src: glrage
+      description: Installing GLRage...
+      dst: $GAMEDIR/drive_c/TOMBGOLD
+  - extract:
+      src: trub
+      description: Installing Tomb Raider Unfinished Business and Shadow of the Cat...
+      dst: $GAMEDIR/drive_c/TOMBGOLD
+  - move:
+      src: $GAMEDIR/drive_c/TOMBGOLD/DATA/CAT.TUB
+      description: Installing Tomb Raider Unfinished Business and Shadow of the Cat...
+      dst: $GAMEDIR/drive_c/TOMBGOLD/data/cat.tub
+  - move:
+      src: $GAMEDIR/drive_c/TOMBGOLD/DATA/CRED0.PCX
+      description: Installing Tomb Raider Unfinished Business and Shadow of the Cat...
+      dst: $GAMEDIR/drive_c/TOMBGOLD/data/cred0.pcx
+  - move:
+      src: $GAMEDIR/drive_c/TOMBGOLD/DATA/EGYPT.TUB
+      description: Installing Tomb Raider Unfinished Business and Shadow of the Cat...
+      dst: $GAMEDIR/drive_c/TOMBGOLD/data/egypt.tub
+  - move:
+      src: $GAMEDIR/drive_c/TOMBGOLD/DATA/END.TUB
+      description: Installing Tomb Raider Unfinished Business and Shadow of the Cat...
+      dst: $GAMEDIR/drive_c/TOMBGOLD/data/end.tub
+  - move:
+      src: $GAMEDIR/drive_c/TOMBGOLD/DATA/END2.TUB
+      description: Installing Tomb Raider Unfinished Business and Shadow of the Cat...
+      dst: $GAMEDIR/drive_c/TOMBGOLD/data/end2.tub
+  - move:
+      src: $GAMEDIR/drive_c/TOMBGOLD/DATA/TITLEH.PCX
+      description: Installing Tomb Raider Unfinished Business and Shadow of the Cat...
+      dst: $GAMEDIR/drive_c/TOMBGOLD/data/titleh.pcx
+  - move:
+      src: $GAMEDIR/drive_c/TOMBGOLD/DATA
+      description: Installing Tomb Raider Unfinished Business and Shadow of the Cat...
+      dst: $GAMEDIR/drive_c/TOMBGOLD/DATA_
+  - extract:
+      src: tratiub
+      description: Installing 3D Rage Pro patch for Unfinished Business and Shadow
+        of the Cat...
+      dst: $GAMEDIR/drive_c/TOMBGOLD
+  wine:
+    overrides:
+      ddraw.dll: n,b
+  script: null

@@ -1,0 +1,24 @@
+id: 10722
+game_id: 1078
+game_slug: endless-space
+name: Endless Space
+year: null
+user: Zengun
+runner: steam
+slug: endless-space-steam-proton
+version: Steam Proton
+description: Enable Proton for all titles before installing this!
+notes: ''
+created_at: '2018-11-01T22:44:37.235000Z'
+updated_at: '2019-11-04T04:51:32.237071Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 208140
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 208140

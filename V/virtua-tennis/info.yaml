@@ -1,0 +1,18 @@
+name: Virtua Tennis
+slug: virtua-tennis
+year: 1999
+platforms:
+- name: Arcade
+- name: Sega Dreamcast
+- name: Windows
+genres:
+- name: Arcade
+- name: Sports
+aliases: []
+banner_url: /games/banner/virtua-tennis.jpg
+icon_url: null
+is_public: true
+updated: '2019-10-24T23:55:53.480058Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

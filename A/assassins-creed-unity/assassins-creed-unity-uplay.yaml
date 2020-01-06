@@ -1,0 +1,78 @@
+id: 12912
+game_id: 4169
+game_slug: assassins-creed-unity
+name: "Assassin\u2019s Creed Unity"
+year: 2014
+user: cxf
+runner: wine
+slug: assassins-creed-unity-uplay
+version: Uplay
+description: Only installs Uplay and settings. The game will be installed on first
+  launch.
+notes: When launching the game, it will ask if you want to start without the overlay.
+  Please do *not* enable the overlay there and just launch it.
+created_at: '2019-04-18T04:13:09.187000Z'
+updated_at: '2019-09-08T23:19:57.803861Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 289650
+gogid: null
+gogslug: ''
+humblestoreid: assassins-creed-unity
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      install_mono: false
+      install_gecko: false
+      arch: win64
+      name: create_prefix
+  - write_file:
+      content: "overlay: \n  enabled: false\n"
+      file: $GAMEDIR/drive_c/users/$USER/Local Settings/Application Data/Ubisoft Game
+        Launcher/settings.yml
+  - write_file:
+      content: dxgi.maxFrameLatency = 1
+      file: $GAMEDIR/dxvk.conf
+  - extract:
+      dst: $CACHE/dxsetup
+      file: dx2010
+  - extract:
+      description: Extracting DXVK state cache
+      dst: $GAMEDIR
+      file: acunity
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR
+      args: /silent
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: arial win7 d3dcompiler_43 faudio
+      name: winetricks
+  - task:
+      executable: uplay
+      prefix: $GAMEDIR
+      args: /S
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    args: uplay://launch/720/0
+    exe: drive_c/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/Uplay.exe
+    arch: win64
+  system:
+    env:
+      DXVK_CONFIG_FILE: $GAMEDIR/dxvk.conf
+      DXVK_HUD: compiler
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+  wine:
+    version: ge-protonified-4.10-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - dx2010: https://lutris.net/files/tools/directx-2010.tar.gz
+  - uplay: https://ubistatic3-a.akamaihd.net/orbit/launcher_installer/UplayInstaller.exe
+  - acunity: https://github.com/tannisroot/dxvk-caches/raw/master/ACU.tar.xz

@@ -1,0 +1,30 @@
+id: 12601
+game_id: 26438
+game_slug: trap-shrine
+name: "Trap Shrine / \u5973\u88C5\u795E\u793E"
+year: 2019
+user: kimchitea
+runner: steam
+slug: trap-shrine-steam-proton-patched
+version: Steam Proton Patched
+description: null
+notes: ''
+created_at: '2019-04-01T14:11:49.621000Z'
+updated_at: '2019-05-19T07:01:43.370456Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 951000
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/pac
+      file: patch
+  files:
+  - patch: N/A:Please select the patch archive from http://no-strike.jp/shrine/download-en.html
+  game:
+    appid: 951000

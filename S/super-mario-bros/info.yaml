@@ -1,0 +1,17 @@
+name: Super Mario Bros.
+slug: super-mario-bros
+year: 1985
+platforms:
+- name: Arcade
+- name: NES
+- name: Nintendo Game Boy Advance
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/super-mario-bros.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:30.576333Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

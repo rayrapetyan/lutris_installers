@@ -1,0 +1,15 @@
+name: Yandere Simulator
+slug: yandere-simulator
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Simulation
+aliases: []
+banner_url: /games/banner/yandere-simulator.jpg
+icon_url: /games/icon/yandere-simulator.png
+is_public: true
+updated: '2019-01-23T08:32:12.834937Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

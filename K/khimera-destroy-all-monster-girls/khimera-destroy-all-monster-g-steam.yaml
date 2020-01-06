@@ -1,0 +1,24 @@
+id: 7261
+game_id: 6417
+game_slug: khimera-destroy-all-monster-girls
+name: 'Khimera: Destroy All Monster Girls'
+year: null
+user: Barachel
+runner: winesteam
+slug: khimera-destroy-all-monster-g-steam
+version: Steam
+description: null
+notes: Can't connect online
+created_at: '2018-02-07T02:12:56.356606Z'
+updated_at: '2018-02-09T00:15:00.438465Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 467380
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 467380

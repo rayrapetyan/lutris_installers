@@ -1,0 +1,34 @@
+id: 6107
+game_id: 3799
+game_slug: final-dusk
+name: Final Dusk
+year: null
+user: FakeShemp
+runner: wine
+slug: final-dusk-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-10-24T18:42:22.177000Z'
+updated_at: '2018-05-19T03:41:59.538776Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 337420
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      args: /sp- /verysilent /norestart /suppressmsgboxes /nogui
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Final Dusk/Final Dusk.exe
+    arch: win32

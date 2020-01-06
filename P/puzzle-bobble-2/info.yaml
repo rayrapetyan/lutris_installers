@@ -1,0 +1,19 @@
+name: Puzzle Bobble 2
+slug: puzzle-bobble-2
+year: 1995
+platforms:
+- name: Arcade
+- name: Game Boy
+- name: MS-DOS
+- name: Nintendo 64
+- name: Sony PlayStation
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/puzzle-bobble-2.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:52.025804Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

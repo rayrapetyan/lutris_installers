@@ -1,0 +1,31 @@
+id: 8913
+game_id: 14322
+game_slug: a-foretold-affair
+name: A Foretold Affair
+year: 2017
+user: kimchitea
+runner: linux
+slug: a-foretold-affair-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2018-06-25T23:39:01.334210Z'
+updated_at: '2018-06-26T03:40:55.381833Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 586670
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: A_Foretold_Affair.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/A_Foretold_Affair.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/A_Foretold_Affair
+  - chmodx: $GAMEDIR/lib/linux-x86_64/A_Foretold_Affair
+  files:
+  - file1: N/A:Please select the itch.io archive

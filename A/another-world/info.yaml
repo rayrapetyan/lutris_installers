@@ -1,0 +1,17 @@
+name: Another World
+slug: another-world
+year: 1991
+platforms:
+- name: Amiga
+- name: MS-DOS
+- name: Super Nintendo
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/another-world.jpg
+icon_url: /games/icon/another-world.png
+is_public: true
+updated: '2019-01-23T08:28:22.762366Z'
+steamid: 233550
+gogslug: ''
+humblestoreid: ''

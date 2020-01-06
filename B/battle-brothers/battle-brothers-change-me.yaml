@@ -1,0 +1,32 @@
+id: 14082
+game_id: 5913
+game_slug: battle-brothers
+name: Battle Brothers
+year: 2017
+user: quest
+runner: wine
+slug: battle-brothers-change-me
+version: Change Me
+description: null
+notes: ''
+created_at: '2019-06-14T02:13:49.261690Z'
+updated_at: '2019-06-14T02:13:49.261732Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 365360
+gogid: 1590012242
+gogslug: battle_brothers
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: create_prefix
+  system:
+    env:
+      MESA_GL_VERSION_OVERRIDE: 3.3COMPAT
+  game:
+    appid: 365360
+    exe: $GAMEDIR/prefix

@@ -1,0 +1,24 @@
+id: 6874
+game_id: 11597
+game_slug: rain-world
+name: Rain World
+year: null
+user: Archduke
+runner: winesteam
+slug: rain-world-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-27T11:20:33.259000Z'
+updated_at: '2017-12-27T13:29:56.961367Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 312520
+gogid: 1541665964
+gogslug: rain_world
+humblestoreid: ''
+script:
+  game:
+    appid: 312520

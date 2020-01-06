@@ -1,0 +1,17 @@
+name: Yuzu
+slug: yuzu
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Tool
+aliases:
+- slug: yuzu-emulator
+  name: Yuzu Emulator
+banner_url: /games/banner/yuzu.jpg
+icon_url: null
+is_public: true
+updated: '2019-10-17T02:33:02.041682Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

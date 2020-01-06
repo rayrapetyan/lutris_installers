@@ -1,0 +1,33 @@
+id: 2896
+game_id: 7975
+game_slug: infinite-mario
+name: Infinite Mario
+year: null
+user: ssf
+runner: web
+slug: infinite-mario-html5
+version: HTML5
+description: ''
+notes: ''
+created_at: '2016-10-15T00:27:38.496653Z'
+updated_at: '2016-10-16T15:51:09.170444Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: game
+  main_file: main.html
+  web:
+    open_links: true
+    disable_scrolling: true
+    window_size: 640x480
+  files:
+  - game: https://github.com/robertkleffner/mariohtml5/archive/master.zip

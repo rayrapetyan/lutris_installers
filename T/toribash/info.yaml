@@ -1,0 +1,17 @@
+name: Toribash
+slug: toribash
+year: null
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Fighting
+- name: Strategy
+aliases: []
+banner_url: /games/banner/toribash.jpg
+icon_url: /games/icon/toribash.png
+is_public: true
+updated: '2019-01-23T08:31:53.459141Z'
+steamid: 248570
+gogslug: ''
+humblestoreid: ''

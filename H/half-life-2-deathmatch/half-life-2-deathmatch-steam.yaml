@@ -1,0 +1,24 @@
+id: 111
+game_id: 107
+game_slug: half-life-2-deathmatch
+name: 'Half-Life 2: Deathmatch'
+year: 2004
+user: dennisjj4
+runner: steam
+slug: half-life-2-deathmatch-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2013-12-17T18:16:33.543000Z'
+updated_at: '2013-12-17T23:39:16.244000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 320
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 320

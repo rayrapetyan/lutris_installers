@@ -1,0 +1,15 @@
+name: 'Warhammer Online: Age of Reckoning'
+slug: warhammer-online-age-of-reckoning
+year: 2008
+platforms:
+- name: Windows
+genres:
+- name: MMORPG
+aliases: []
+banner_url: /games/banner/warhammer-online-age-of-reckoning.jpg
+icon_url: /games/icon/warhammer-online-age-of-reckoning.png
+is_public: false
+updated: '2019-01-23T08:32:06.028585Z'
+steamid: 24700
+gogslug: ''
+humblestoreid: ''

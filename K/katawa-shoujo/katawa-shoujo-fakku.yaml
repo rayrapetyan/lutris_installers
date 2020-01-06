@@ -1,0 +1,31 @@
+id: 6832
+game_id: 3515
+game_slug: katawa-shoujo
+name: Katawa Shoujo
+year: 2012
+user: FakeShemp
+runner: linux
+slug: katawa-shoujo-fakku
+version: FAKKU!
+description: null
+notes: ''
+created_at: '2017-12-23T23:50:01.573544Z'
+updated_at: '2017-12-23T23:51:27.641528Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Katawa Shoujo.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - extract:
+      file: $CACHE/[4ls]_katawa_shoujo_1.3.1-[linux-x86][18161880].tar.bz2
+  files:
+  - file1: N/A:Please select the FAKKU! archive

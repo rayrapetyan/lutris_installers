@@ -1,0 +1,24 @@
+id: 9731
+game_id: 20931
+game_slug: exapunks
+name: EXAPUNKS
+year: 2018
+user: GovanifY
+runner: steam
+slug: exapunks-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-14T16:22:17.461987Z'
+updated_at: '2018-08-15T00:36:09.266163Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 716490
+gogid: 2070729622
+gogslug: exapunks
+humblestoreid: ''
+script:
+  game:
+    appid: 716490

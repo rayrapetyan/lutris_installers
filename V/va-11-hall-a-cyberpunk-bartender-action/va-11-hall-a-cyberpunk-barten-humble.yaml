@@ -1,0 +1,39 @@
+id: 3810
+game_id: 8410
+game_slug: va-11-hall-a-cyberpunk-bartender-action
+name: 'VA-11 Hall-A: Cyberpunk Bartender Action'
+year: 2016
+user: FakeShemp
+runner: linux
+slug: va-11-hall-a-cyberpunk-barten-humble
+version: Humble
+description: null
+notes: ''
+created_at: '2017-05-22T20:26:56.580000Z'
+updated_at: '2019-10-16T22:07:05.895775Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 447530
+gogid: 2074961301
+gogslug: va11_halla
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: main_file
+  - move:
+      src: $CACHE/VA-11 Hall-A Linux/linux_content/runner
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/VA-11 Hall-A Linux/linux_content/lib
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/VA-11 Hall-A Linux/linux_content/assets
+      dst: $GAMEDIR
+  files:
+  - main_file: N/A:Please select the Humble archive
+  game:
+    exe: runner

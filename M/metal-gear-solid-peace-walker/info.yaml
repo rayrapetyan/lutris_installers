@@ -1,0 +1,17 @@
+name: 'Metal Gear Solid: Peace Walker'
+slug: metal-gear-solid-peace-walker
+year: 2010
+platforms:
+- name: Sony PSP
+genres:
+- name: Action
+- name: Adventure
+- name: Stealth
+aliases: []
+banner_url: /games/banner/metal-gear-solid-peace-walker.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:22.086399Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

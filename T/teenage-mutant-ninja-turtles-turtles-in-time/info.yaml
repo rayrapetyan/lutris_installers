@@ -1,0 +1,16 @@
+name: 'Teenage Mutant Ninja Turtles: Turtles in Time'
+slug: teenage-mutant-ninja-turtles-turtles-in-time
+year: 1991
+platforms:
+- name: Arcade
+- name: Super Nintendo
+genres:
+- name: Beat'em up
+aliases: []
+banner_url: /games/banner/teenage-mutant-ninja-turtles-turtles-in-time.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:36.288181Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,17 @@
+name: Daxter
+slug: daxter
+year: 2008
+platforms:
+- name: Sony PSP
+genres:
+- name: Action
+- name: Adventure
+- name: Platform
+aliases: []
+banner_url: /games/banner/daxter.jpg
+icon_url: null
+is_public: true
+updated: '2019-02-07T20:03:11.628847Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

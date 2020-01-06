@@ -1,0 +1,18 @@
+name: Assassin's Creed
+slug: assassins-creed
+year: 2008
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases:
+- slug: assassins-creed-directors-cut
+  name: 'Assassin''s Creed: Director''s Cut'
+banner_url: /games/banner/assassins-creed.jpg
+icon_url: /games/icon/assassins-creed.png
+is_public: true
+updated: '2019-03-11T05:46:55.091482Z'
+steamid: 15100
+gogslug: assassins_creed_directors_cut
+humblestoreid: assassins-creed-directors-cut

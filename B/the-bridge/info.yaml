@@ -1,0 +1,16 @@
+name: 'The Bridge '
+slug: the-bridge
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Platform
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/the-bridge.jpg
+icon_url: /games/icon/the-bridge.png
+is_public: true
+updated: '2019-01-23T08:31:39.205228Z'
+steamid: 204240
+gogslug: ''
+humblestoreid: ''

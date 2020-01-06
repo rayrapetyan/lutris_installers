@@ -1,0 +1,29 @@
+id: 11643
+game_id: 25253
+game_slug: happy-wheels
+name: Happy Wheels
+year: 2010
+user: cxf
+runner: web
+slug: happy-wheels-web
+version: Web
+description: null
+notes: Press alt+f4 to close
+created_at: '2019-01-19T02:06:48.078000Z'
+updated_at: '2019-01-19T22:43:07.438331Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: http://www.totaljerkface.com/happy_wheels.tjf
+  web:
+    disable_menu_bar: true
+    remove_margin: true
+    enable_flash: true
+    window_size: 1920x1080
+    fullscreen: true

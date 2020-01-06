@@ -1,0 +1,24 @@
+id: 16548
+game_id: 450
+game_slug: serious-sam-double-d-xxl
+name: Serious Sam Double D XXL
+year: null
+user: monyarm
+runner: steam
+slug: serious-sam-double-d-xxl-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-11-02T09:17:08.185456Z'
+updated_at: '2019-11-02T09:17:08.185492Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 111600
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 111600

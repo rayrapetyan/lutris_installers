@@ -1,0 +1,45 @@
+id: 2849
+game_id: 7831
+game_slug: ambient-prologue
+name: Ambient.Prologue
+year: null
+user: djazz
+runner: wine
+slug: ambientprologue-beta-preview-1
+version: Beta Preview 1
+description: 'Warning: When starting the game there''s a loud noise. Lower volume
+  before playing. Requires registration to start game (free).'
+notes: 64-bit only
+created_at: '2016-10-06T09:21:35.547000Z'
+updated_at: '2017-04-27T08:59:07.305108Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: game
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2015
+      arch: win64
+      silent: true
+      name: winetricks
+  files:
+  - game:
+      filename: ambient-beta.zip
+      url: http://djazz.se/nas/games/?dl=ambient-beta
+  game:
+    prefix: $GAMEDIR/prefix
+    exe: Ambient_Prologue_Beta_Preview_1_open/A_P_Pr_05.exe
+    arch: win64

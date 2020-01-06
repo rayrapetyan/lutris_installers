@@ -1,0 +1,17 @@
+name: Cobalt
+slug: cobalt
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Arcade
+- name: Shooter
+aliases: []
+banner_url: /games/banner/cobalt.jpg
+icon_url: /games/icon/cobalt.png
+is_public: false
+updated: '2019-01-23T08:28:55.088011Z'
+steamid: 357340
+gogslug: ''
+humblestoreid: ''

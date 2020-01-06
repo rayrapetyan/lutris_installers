@@ -1,0 +1,29 @@
+id: 3712
+game_id: 2457
+game_slug: mini-metro
+name: Mini Metro
+year: 2015
+user: FakeShemp
+runner: linux
+slug: mini-metro-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-16T21:44:00.412491Z'
+updated_at: '2017-05-17T18:21:05.488150Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 287980
+gogid: 1434554947
+gogslug: mini_metro
+humblestoreid: ''
+script:
+  exe: Mini Metro.x86
+  installer:
+  - extract:
+      file: $file1
+  exe64: Mini Metro.x86_64
+  files:
+  - file1: N/A:Please select the Humble archive

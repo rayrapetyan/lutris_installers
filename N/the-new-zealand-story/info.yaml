@@ -1,0 +1,25 @@
+name: The New Zealand Story
+slug: the-new-zealand-story
+year: 1988
+platforms:
+- name: Amiga
+- name: Amstrad CPC 6128
+- name: Arcade
+- name: Atari ST
+- name: Commodore 64
+- name: NES
+- name: Sega Genesis / Mega Drive
+- name: Sega Master System
+- name: TurboGrafx-16
+- name: ZX Spectrum
+genres:
+- name: Arcade
+- name: Platform
+aliases: []
+banner_url: /games/banner/the-new-zealand-story.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:44.951161Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

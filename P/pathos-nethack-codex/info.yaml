@@ -1,0 +1,15 @@
+name: 'Pathos: NetHack Codex'
+slug: pathos-nethack-codex
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: Roguelike
+aliases: []
+banner_url: /games/banner/pathos-nethack-codex.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-04T12:38:18.323140Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

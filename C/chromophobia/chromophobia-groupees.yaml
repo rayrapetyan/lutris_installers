@@ -1,0 +1,32 @@
+id: 6731
+game_id: 15204
+game_slug: chromophobia
+name: Chromophobia
+year: null
+user: FakeShemp
+runner: wine
+slug: chromophobia-groupees
+version: Groupees
+description: null
+notes: ''
+created_at: '2017-12-19T23:09:16.537946Z'
+updated_at: '2018-05-19T03:42:00.156258Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR/drive_c/Program Files/Chromophobia
+  files:
+  - file1: N/A:Please select the Groupees executable
+  game:
+    prefix: $GAMEDIR
+    exe: file1
+    arch: win32

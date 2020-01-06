@@ -1,0 +1,21 @@
+name: Ryzom
+slug: ryzom
+year: 2004
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: Fantasy
+- name: MMORPG
+- name: RPG
+- name: Sandbox
+- name: Sci-fi
+aliases: []
+banner_url: /games/banner/ryzom.jpg
+icon_url: /games/icon/ryzom.png
+is_public: true
+updated: '2019-08-27T06:09:11.835060Z'
+steamid: 373720
+gogslug: ''
+humblestoreid: ''

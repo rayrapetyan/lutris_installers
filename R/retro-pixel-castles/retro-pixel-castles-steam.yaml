@@ -1,0 +1,24 @@
+id: 1242
+game_id: 3611
+game_slug: retro-pixel-castles
+name: Retro-Pixel Castles
+year: null
+user: Xodetaetl
+runner: steam
+slug: retro-pixel-castles-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-01-05T19:31:20.801000Z'
+updated_at: '2015-01-05T19:40:17.599000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 328080
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 328080

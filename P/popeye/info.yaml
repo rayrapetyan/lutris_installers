@@ -1,0 +1,16 @@
+name: Popeye
+slug: popeye
+year: 1986
+platforms:
+- name: NES
+genres:
+- name: Arcade
+- name: Platform
+aliases: []
+banner_url: /games/banner/popeye.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:47.897836Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,15 @@
+name: 'Star Wars: Episode I - Battle for Naboo'
+slug: star-wars-episode-i-battle-for-naboo
+year: 2000
+platforms:
+- name: Nintendo 64
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/star-wars-episode-i-battle-for-naboo.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:25.497145Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

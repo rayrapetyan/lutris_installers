@@ -1,0 +1,28 @@
+id: 9646
+game_id: 12330
+game_slug: starship-corporation
+name: Starship Corporation
+year: null
+user: jehdin
+runner: winesteam
+slug: starship-corporation-steam
+version: Steam
+description: null
+notes: Might complain that it stopped responding, but just keep waiting, the game
+  can take a few minutes to load.
+created_at: '2018-08-08T20:37:52.449000Z'
+updated_at: '2018-08-09T05:15:44.286064Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 292330
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-3.12-x86_64
+  game:
+    appid: 292330
+    arch: win64

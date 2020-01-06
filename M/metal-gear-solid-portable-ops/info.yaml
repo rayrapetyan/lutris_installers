@@ -1,0 +1,18 @@
+name: 'Metal Gear Solid: Portable Ops'
+slug: metal-gear-solid-portable-ops
+year: 2006
+platforms:
+- name: Sony PSP
+genres:
+- name: Action
+- name: Adventure
+- name: Stealth
+- name: Tactical shooter
+aliases: []
+banner_url: /games/banner/metal-gear-solid-portable-ops.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:22.094694Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

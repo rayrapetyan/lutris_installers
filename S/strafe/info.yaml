@@ -1,0 +1,15 @@
+name: "STRAFE\xAE"
+slug: strafe
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Shooter
+aliases: []
+banner_url: /games/banner/strafe.jpg
+icon_url: /games/icon/strafe.png
+is_public: true
+updated: '2019-01-23T08:31:27.558186Z'
+steamid: 442780
+gogslug: strafe
+humblestoreid: ''

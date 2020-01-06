@@ -1,0 +1,31 @@
+id: 5910
+game_id: 8523
+game_slug: seasons-after-fall
+name: Seasons after Fall
+year: 2017
+user: rican-linux
+runner: winesteam
+slug: seasons-after-fall-steam
+version: Steam
+description: Seasons After Fall is a 2D platform-puzzler game that will let you dive
+  into a captivating universe and explore a land governed by magic and nature.
+notes: ''
+created_at: '2017-10-07T03:26:19.667917Z'
+updated_at: '2017-10-12T16:44:48.291866Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 366320
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  task:
+    key: csmt
+    value: '0x1'
+    path: HKEY_CURRENT_USER\Software\Wine\Direct3D
+    type: REG_DWORD
+    name: set_regedit
+  game:
+    appid: 366320

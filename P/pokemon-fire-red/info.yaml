@@ -1,0 +1,18 @@
+name: "Pok\xE9mon FireRed"
+slug: pokemon-fire-red
+year: 2004
+platforms:
+- name: Nintendo Game Boy Advance
+genres:
+- name: jRPG
+- name: RPG
+aliases:
+- slug: pokemon-firered-version
+  name: "Pok\xE9mon FireRed Version"
+banner_url: /games/banner/pokemon-fire-red.jpg
+icon_url: null
+is_public: true
+updated: '2019-04-17T06:38:09.147673Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,16 @@
+name: SnarfQuest Tales
+slug: snarfquest-tales
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/snarfquest-tales.jpg
+icon_url: /games/icon/snarfquest-tales.png
+is_public: true
+updated: '2019-01-23T08:31:16.608954Z'
+steamid: 372340
+gogslug: ''
+humblestoreid: ''

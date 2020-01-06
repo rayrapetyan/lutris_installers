@@ -1,0 +1,28 @@
+id: 3966
+game_id: 3715
+game_slug: dreamfall-chapters
+name: Dreamfall Chapters
+year: null
+user: FakeShemp
+runner: linux
+slug: dreamfall-chapters-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-30T07:37:02.526517Z'
+updated_at: '2017-05-30T10:03:23.483598Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 237850
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Dreamfall Chapters
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

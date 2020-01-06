@@ -1,0 +1,38 @@
+id: 3585
+game_id: 7705
+game_slug: bioshock-2-remastered
+name: BioShock 2 Remastered
+year: 2016
+user: strider
+runner: winesteam
+slug: bioshock-2-remastered-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-04-28T17:56:39.058000Z'
+updated_at: '2019-12-29T08:45:48.904329Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 409720
+gogid: 1111208428
+gogslug: bioshock_2_remastered
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    esync: false
+    dxvk: true
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2010 vcrun2012 win7
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    args: -nointro
+    appid: 409720

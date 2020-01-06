@@ -1,0 +1,42 @@
+id: 1288
+game_id: 443
+game_slug: star-wars-jedi-knight-jedi-academy
+name: 'Star Wars Jedi Knight: Jedi Academy'
+year: 2003
+user: strider
+runner: linux
+slug: star-wars-jedi-knight-jedi-ac-nativesteam-data
+version: Native+steam data
+description: Uses the Steam game data with the libre engine OpenJK.
+notes: ''
+created_at: '2015-02-09T12:55:34.435000Z'
+updated_at: '2018-04-30T23:53:28.757760Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 6020
+gogid: 1428935726
+gogslug: star_wars_jedi_knight_jedi_academy
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: steam-data
+      dst: $GAMEDIR
+  - extract:
+      file: openjk-build
+  - merge:
+      src: $GAMEDIR/JediAcademy/base
+      dst: $GAMEDIR/base
+  - merge:
+      src: $GAMEDIR/JediAcademy/OpenJK
+      dst: $GAMEDIR/base
+  - merge:
+      src: $GAMEDIR/JediAcademy
+      dst: $GAMEDIR
+  files:
+  - openjk-build: http://builds.openjk.org/openjk-2018-02-26-e3f22070-linux-64.tar.gz
+  - steam-data: $WINESTEAM:6020:GameData
+  game:
+    exe: $GAMEDIR/openjk_sp.x86_64

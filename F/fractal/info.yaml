@@ -1,0 +1,15 @@
+name: Fractal
+slug: fractal
+year: 2011
+platforms:
+- name: Linux
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/fractal.jpg
+icon_url: /games/icon/fractal.png
+is_public: true
+updated: '2019-01-23T08:29:34.585634Z'
+steamid: 61310
+gogslug: ''
+humblestoreid: fractal

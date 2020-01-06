@@ -1,0 +1,26 @@
+id: 4728
+game_id: 2705
+game_slug: tom-clancys-rainbow-six-3-gold-edition
+name: 'Tom Clancy''s Rainbow Six 3: Gold Edition'
+year: null
+user: codythedragondude
+runner: winesteam
+slug: tom-clancys-rainbow-six-3-gol-steam
+version: Steam
+description: ''
+notes: takes a few minutes to start the game works but was unable to change resolution
+  could be a distro related issue resolution in ini file is correct however will not
+  change resolution when in game
+created_at: '2017-06-30T05:11:36.542000Z'
+updated_at: '2017-07-01T19:05:50.815290Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 19830
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 19830

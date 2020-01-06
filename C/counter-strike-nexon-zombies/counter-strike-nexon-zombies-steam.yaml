@@ -1,0 +1,24 @@
+id: 7910
+game_id: 3042
+game_slug: counter-strike-nexon-zombies
+name: 'Counter-Strike Nexon: Zombies'
+year: 2014
+user: TuiorGames
+runner: winesteam
+slug: counter-strike-nexon-zombies-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-04-16T13:46:54.273912Z'
+updated_at: '2018-04-30T23:39:15.736225Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 273110
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 273110

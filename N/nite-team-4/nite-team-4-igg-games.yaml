@@ -1,0 +1,31 @@
+id: 16444
+game_id: 26711
+game_slug: nite-team-4
+name: NITE Team 4
+year: null
+user: Nicisnice1234
+runner: browser
+slug: nite-team-4-igg-games
+version: igg games
+description: null
+notes: ''
+created_at: '2019-10-27T16:53:27.164433Z'
+updated_at: '2019-10-27T16:53:27.164459Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 544390
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  files:
+  - file1: https://example.com/gamesetup.exe
+  - file2: N/A:Select the game's setup file
+  - file3:
+      referer: www.igg games.com
+      filename: actual_local_filename.zip
+      url: https://example.com/url-that-doesnt-resolve-to-a-proper-filename
+  game:
+    appid: 544390

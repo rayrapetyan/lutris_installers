@@ -1,0 +1,19 @@
+name: 'ToeJam & Earl: Back in the Groove'
+slug: toejam-earl-back-in-the-groove
+year: 2019
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Action
+- name: Exploration
+- name: Platformer
+- name: Strategy
+aliases: []
+banner_url: /games/banner/toejam-earl-back-in-the-groove.jpg
+icon_url: /games/icon/toejam-earl-back-in-the-groove.png
+is_public: true
+updated: '2019-06-10T12:04:16.048477Z'
+steamid: 516110
+gogslug: ''
+humblestoreid: ''

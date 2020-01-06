@@ -1,0 +1,24 @@
+id: 6458
+game_id: 9476
+game_slug: winning-putt-golf-online
+name: 'Winning Putt: Golf Online'
+year: null
+user: NuSuey
+runner: winesteam
+slug: winning-putt-golf-online-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-11-28T18:11:04.740030Z'
+updated_at: '2017-11-30T20:39:20.188241Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 458960
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 458960

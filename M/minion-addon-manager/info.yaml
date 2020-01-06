@@ -1,0 +1,16 @@
+name: Minion Addon manager
+slug: minion-addon-manager
+year: 2014
+platforms:
+- name: Windows
+- name: Z-machine
+genres:
+- name: Tool
+aliases: []
+banner_url: /games/banner/minion-addon-manager.jpg
+icon_url: null
+is_public: true
+updated: '2019-03-17T19:12:30.624761Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

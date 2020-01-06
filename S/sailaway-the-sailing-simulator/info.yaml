@@ -1,0 +1,16 @@
+name: Sailaway - The Sailing Simulator
+slug: sailaway-the-sailing-simulator
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Racing
+- name: Simulation
+aliases: []
+banner_url: /games/banner/sailaway-the-sailing-simulator.jpg
+icon_url: /games/icon/sailaway-the-sailing-simulator.png
+is_public: true
+updated: '2019-01-23T08:31:06.210726Z'
+steamid: 552920
+gogslug: ''
+humblestoreid: ''

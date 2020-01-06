@@ -1,0 +1,24 @@
+id: 8409
+game_id: 16346
+game_slug: the-norwood-suite
+name: The Norwood Suite
+year: null
+user: mymindstorm
+runner: winesteam
+slug: the-norwood-suite-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-25T03:43:39.270000Z'
+updated_at: '2018-05-25T03:57:01.752023Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 696480
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 696480

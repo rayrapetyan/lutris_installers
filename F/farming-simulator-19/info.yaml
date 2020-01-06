@@ -1,0 +1,15 @@
+name: Farming Simulator 19
+slug: farming-simulator-19
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Simulation
+aliases: []
+banner_url: /games/banner/farming-simulator-19.jpg
+icon_url: /games/icon/farming-simulator-19.png
+is_public: true
+updated: '2019-05-23T12:54:27.425351Z'
+steamid: 787860
+gogslug: ''
+humblestoreid: ''

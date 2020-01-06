@@ -1,0 +1,16 @@
+name: 'Alien 3: The Gun'
+slug: alien-3-the-gun
+year: 1993
+platforms:
+- name: Arcade
+genres:
+- name: Arcade
+- name: Shooter
+aliases: []
+banner_url: /games/banner/alien-3-the-gun.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:18.349664Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

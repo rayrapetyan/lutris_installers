@@ -1,0 +1,24 @@
+id: 6626
+game_id: 11350
+game_slug: sundered
+name: Sundered
+year: 2017
+user: Talvi
+runner: steam
+slug: sundered-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-10T17:19:33.202000Z'
+updated_at: '2019-09-09T01:30:35.957941Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 535480
+gogid: 1116941879
+gogslug: sundered
+humblestoreid: ''
+script:
+  game:
+    appid: 535480

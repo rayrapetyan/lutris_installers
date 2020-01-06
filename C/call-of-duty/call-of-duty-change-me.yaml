@@ -1,0 +1,36 @@
+id: 17757
+game_id: 1237
+game_slug: call-of-duty
+name: Call of Duty
+year: null
+user: gto
+runner: wine
+slug: call-of-duty-change-me
+version: Change Me
+description: ''
+notes: ''
+created_at: '2020-01-05T10:47:55.290513Z'
+updated_at: '2020-01-05T10:47:55.290538Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 2620
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  system:
+    env:
+      __GL_ExtensionStringVersion: '17700'
+  installer:
+  - insert-disc:
+      requires: Setup/SoF2.exe
+  - task:
+      executable: $DISC/Setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  exe: drive_c/Program Files/Soldier of Fortune II - Double Helix/SoF2.exe
+  game:
+    prefix: $GAMEDIR
+    arch: win32

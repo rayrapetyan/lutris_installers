@@ -1,0 +1,15 @@
+name: 'Half-Life: Source'
+slug: half-life-source
+year: 2004
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/half-life-source.jpg
+icon_url: /games/icon/half-life-source.png
+is_public: true
+updated: '2019-01-23T08:29:46.380145Z'
+steamid: 280
+gogslug: ''
+humblestoreid: ''

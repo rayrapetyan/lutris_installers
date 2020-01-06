@@ -1,0 +1,20 @@
+name: Konami's Ping Pong
+slug: konamis-ping-pong
+year: 1985
+platforms:
+- name: Amstrad CPC 464
+- name: Arcade
+- name: Commodore 64
+- name: MSX
+- name: NES
+- name: ZX Spectrum
+genres:
+- name: Sports
+aliases: []
+banner_url: /games/banner/konamis-ping-pong.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-13T07:21:28.850457Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

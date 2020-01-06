@@ -1,0 +1,28 @@
+id: 13939
+game_id: 5785
+game_slug: chex-quest
+name: Chex Quest
+year: 1996
+user: Bolts
+runner: zdoom
+slug: chex-quest-wad
+version: wad
+description: null
+notes: ''
+created_at: '2019-06-05T19:45:25.506376Z'
+updated_at: '2019-06-05T19:45:25.506405Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: $iwad
+      dst: $GAMEDIR
+  files:
+  - iwad: N/A:Select your .WAD of Chex Quest

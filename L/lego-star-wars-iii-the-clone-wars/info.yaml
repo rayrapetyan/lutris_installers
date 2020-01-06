@@ -1,0 +1,21 @@
+name: "LEGO\xAE Star Wars\u2122 III - The Clone Wars\u2122"
+slug: lego-star-wars-iii-the-clone-wars
+year: 2011
+platforms:
+- name: Nintendo 3DS
+- name: Nintendo DS
+- name: Nintendo Wii
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases:
+- slug: lego-star-wars-3-the-clone-wars
+  name: 'Lego Star Wars 3: The Clone Wars'
+banner_url: /games/banner/lego-star-wars-iii-the-clone-wars.jpg
+icon_url: /games/icon/lego-star-wars-iii-the-clone-wars.png
+is_public: true
+updated: '2019-04-27T03:08:52.271629Z'
+steamid: 32510
+gogslug: lego_star_wars_the_clone_wars
+humblestoreid: ''

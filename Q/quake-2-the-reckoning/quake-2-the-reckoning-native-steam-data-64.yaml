@@ -1,0 +1,36 @@
+id: 17
+game_id: 30
+game_slug: quake-2-the-reckoning
+name: 'Quake 2: The Reckoning'
+year: 1998
+user: strider
+runner: linux
+slug: quake-2-the-reckoning-native-steam-data-64
+version: Native + Steam data (64-bit)
+description: ''
+notes: Install Quake 2 "Native + Steam data" version before this.
+created_at: '2013-06-24T19:29:22Z'
+updated_at: '2017-05-26T00:19:05.511207Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 2330
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: quake-2-native-steam-data
+  exe: quake2
+  installer:
+  - merge:
+      src: steam-data
+      dst: $GAMEDIR/xatrix
+  - extract:
+      dst: $GAMEDIR/xatrix
+      file: xatrix-so
+  files:
+  - steam-data: $STEAM:2330:xatrix
+  - xatrix-so: https://lutris.net/files/games/quake-2/yamagi-xatrix-5.34-x86_64.tar.gz
+  game:
+    args: +set game xatrix $*

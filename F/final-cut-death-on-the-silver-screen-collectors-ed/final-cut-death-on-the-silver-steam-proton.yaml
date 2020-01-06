@@ -1,0 +1,24 @@
+id: 16586
+game_id: 30034
+game_slug: final-cut-death-on-the-silver-screen-collectors-ed
+name: 'Final Cut: Death on the Silver Screen Collector''s Edition'
+year: 2012
+user: kimchitea
+runner: steam
+slug: final-cut-death-on-the-silver-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-11-03T06:23:45.460000Z'
+updated_at: '2019-11-04T03:31:30.377973Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 514740
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 514740

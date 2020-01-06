@@ -1,0 +1,17 @@
+name: Guilty Gear Isuka
+slug: guilty-gear-isuka
+year: 2003
+platforms:
+- name: Arcade
+- name: Sony PlayStation 2
+- name: Windows
+genres:
+- name: Fighting
+aliases: []
+banner_url: /games/banner/guilty-gear-isuka.jpg
+icon_url: /games/icon/guilty-gear-isuka.png
+is_public: true
+updated: '2019-01-23T08:29:44.432385Z'
+steamid: 267900
+gogslug: ''
+humblestoreid: ''

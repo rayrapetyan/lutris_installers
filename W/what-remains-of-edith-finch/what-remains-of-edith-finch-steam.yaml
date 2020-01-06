@@ -1,0 +1,24 @@
+id: 9293
+game_id: 12237
+game_slug: what-remains-of-edith-finch
+name: What Remains of Edith Finch
+year: 2017
+user: DrDoctor13
+runner: winesteam
+slug: what-remains-of-edith-finch-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-20T02:35:24.706000Z'
+updated_at: '2018-07-20T13:56:52.031925Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 501300
+gogid: 1651927092
+gogslug: what_remains_of_edith_finch
+humblestoreid: ''
+script:
+  game:
+    appid: 501300

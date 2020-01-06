@@ -1,0 +1,31 @@
+id: 5621
+game_id: 4412
+game_slug: donkey-kong
+name: Donkey Kong
+year: 1981
+user: maxlefou
+runner: libretro
+slug: donkey-kong-nes
+version: NES
+description: ''
+notes: ''
+created_at: '2017-09-07T21:39:58.059000Z'
+updated_at: '2017-09-17T19:28:15.264201Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: rom
+      dst: $GAMEDIR
+  files:
+  - rom: N/A:Select the game's ROM file
+  game:
+    core: fceumm
+    main_file: rom

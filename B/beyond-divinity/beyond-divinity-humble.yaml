@@ -1,0 +1,37 @@
+id: 4576
+game_id: 2414
+game_slug: beyond-divinity
+name: Beyond Divinity
+year: 2004
+user: FakeShemp
+runner: wine
+slug: beyond-divinity-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-24T18:37:54.168000Z'
+updated_at: '2017-06-26T14:14:40.711115Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 219760
+gogid: 1207658806
+gogslug: beyond_divinity
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Larian Studios/Beyond Divinity/div.exe
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/BeyondInstaller_EN.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  wine:
+    Desktop: true
+  files:
+  - file1: N/A:Please select the Humble archive

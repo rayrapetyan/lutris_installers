@@ -1,0 +1,20 @@
+name: 'Legacy of Kain: Soul Reaver'
+slug: legacy-of-kain-soul-reaver
+year: 1999
+platforms:
+- name: Sega Dreamcast
+- name: Sony PlayStation
+- name: Sony Playstation 3
+- name: Sony PSP
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/legacy-of-kain-soul-reaver.jpg
+icon_url: /games/icon/legacy-of-kain-soul-reaver.png
+is_public: true
+updated: '2019-12-17T02:28:30.501362Z'
+steamid: 224920
+gogslug: legacy_of_kain_soul_reaver
+humblestoreid: ''

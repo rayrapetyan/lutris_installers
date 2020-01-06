@@ -1,0 +1,16 @@
+name: The Final Station
+slug: the-final-station
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/the-final-station.jpg
+icon_url: /games/icon/the-final-station.png
+is_public: true
+updated: '2019-01-23T08:31:41.265938Z'
+steamid: 435530
+gogslug: the_final_station
+humblestoreid: ''

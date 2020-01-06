@@ -1,0 +1,24 @@
+id: 4294
+game_id: 1531
+game_slug: just-cause-2-multiplayer-mod
+name: 'Just Cause 2: Multiplayer Mod'
+year: null
+user: schaap137
+runner: winesteam
+slug: just-cause-2-multiplayer-mod-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: ''
+created_at: '2017-06-11T13:07:45.521439Z'
+updated_at: '2017-06-12T18:22:13.026892Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 259080
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 259080

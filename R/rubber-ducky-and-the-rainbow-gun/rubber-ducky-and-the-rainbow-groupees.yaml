@@ -1,0 +1,32 @@
+id: 6222
+game_id: 6880
+game_slug: rubber-ducky-and-the-rainbow-gun
+name: Rubber Ducky and the Rainbow Gun
+year: null
+user: FakeShemp
+runner: wine
+slug: rubber-ducky-and-the-rainbow-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-11-02T20:41:40.686000Z'
+updated_at: '2018-05-19T03:41:59.171198Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 416550
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR/drive_c/Program Files/Rubber Ducky and the Rainbow Gun
+  files:
+  - file1: N/A:Please select the Groupees executable
+  game:
+    prefix: $GAMEDIR
+    exe: file1
+    arch: win32

@@ -1,0 +1,32 @@
+id: 6017
+game_id: 4771
+game_slug: escape-machines
+name: Escape Machines
+year: null
+user: FakeShemp
+runner: wine
+slug: escape-machines-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-10-20T15:15:44.850683Z'
+updated_at: '2018-05-19T03:41:56.993902Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 363490
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR/drive_c/Program Files/Escape Machines
+  files:
+  - file1: N/A:Please select the Groupees executable
+  game:
+    prefix: $GAMEDIR
+    exe: $file1
+    arch: win32

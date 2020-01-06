@@ -1,0 +1,30 @@
+id: 1841
+game_id: 5474
+game_slug: jumpman-lives
+name: Jumpman Lives!
+year: 1991
+user: RobLoach
+runner: dosbox
+slug: jumpman-lives-registered
+version: Registered
+description: ''
+notes: ''
+created_at: '2016-01-08T01:33:54.624570Z'
+updated_at: '2016-11-21T07:39:46.866410Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: JMAN2.exe
+  installer:
+  - extract:
+      format: zip
+      dst: $GAMEDIR
+      file: $download
+  files:
+  - download: N/A:Download and select the registered version from http://www.classicdosgames.com/game/Jumpman_Lives!.html

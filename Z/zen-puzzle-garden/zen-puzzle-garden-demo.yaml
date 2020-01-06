@@ -1,0 +1,29 @@
+id: 6493
+game_id: 2027
+game_slug: zen-puzzle-garden
+name: Zen Puzzle Garden
+year: 2003
+user: fanotriel
+runner: linux
+slug: zen-puzzle-garden-demo
+version: Demo
+description: null
+notes: ''
+created_at: '2017-11-30T01:24:02.633560Z'
+updated_at: '2017-11-30T01:24:36.510978Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: zen
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: game
+  files:
+  - game: http://www.lexaloffle.com/dl/demos/zen-puzzle-garden-demo_1.3_i386.tar.gz

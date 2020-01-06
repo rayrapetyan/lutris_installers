@@ -1,0 +1,32 @@
+id: 523
+game_id: 2055
+game_slug: soltys
+name: "So\u0142tys"
+year: 1995
+user: dennisjj4
+runner: scummvm
+slug: soltys-scummvm
+version: ScummVM
+description: ''
+notes: ''
+created_at: '2014-08-06T01:46:31.158000Z'
+updated_at: '2014-09-19T12:21:17.572000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  scummvm:
+    aspect: true
+  installer:
+  - extract:
+      file: file1
+  files:
+  - file1: http://prdownloads.sourceforge.net/scummvm/soltys-en-v1.0.zip
+  game:
+    game_id: soltys
+    path: $GAMEDIR

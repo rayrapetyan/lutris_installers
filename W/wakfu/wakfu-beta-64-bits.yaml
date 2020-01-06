@@ -1,0 +1,29 @@
+id: 5514
+game_id: 2962
+game_slug: wakfu
+name: Wakfu
+year: 2012
+user: Leeo97one
+runner: linux
+slug: wakfu-beta-64-bits
+version: "B\xEAta (64 bits)"
+description: ''
+notes: ''
+created_at: '2017-08-24T11:43:35.757000Z'
+updated_at: '2017-08-26T23:37:28.092713Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 215080
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: WakfuBeta
+  installer:
+  - extract:
+      file: $archive
+  - chmodx: $GAMEDIR/WakfuBeta
+  files:
+  - archive: http://dl.ak.ankama.com/games/installers/beta/wakfu-beta-amd64.tar.gz

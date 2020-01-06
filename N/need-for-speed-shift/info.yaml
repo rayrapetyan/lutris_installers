@@ -1,0 +1,16 @@
+name: 'Need for Speed: SHIFT'
+slug: need-for-speed-shift
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Racing
+- name: Simulation
+aliases: []
+banner_url: /games/banner/need-for-speed-shift.jpg
+icon_url: /games/icon/need-for-speed-shift.png
+is_public: true
+updated: '2019-05-20T01:56:03.276076Z'
+steamid: 24870
+gogslug: ''
+humblestoreid: ''

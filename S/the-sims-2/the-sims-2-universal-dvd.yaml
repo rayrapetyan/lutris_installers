@@ -1,0 +1,65 @@
+id: 14881
+game_id: 12186
+game_slug: the-sims-2
+name: The Sims 2
+year: 2004
+user: citrusalex
+runner: wine
+slug: the-sims-2-universal-dvd
+version: Universal DVD
+description: Installs DVD version of The Sims 2. It's universal for all editions and
+  offline installers.
+notes: "<b>IMPORTANT: READ THE MANUAL AND INSTALL DEPENDENCIES!</b>\r\nSee <a href=\"\
+  https://github.com/lutris/lutris/wiki/Game:-The-Sims-2\">https://github.com/lutris/lutris/wiki/Game:-The-Sims-2</a>\r\
+  \n\r\n- <b>Please select the executable in the Lutris configuration after installing\
+  \ the game.</b>\r\n\r\n- As this installer has only been tested with the Ultimate\
+  \ Collection, correct functionality of other editions is not guaranteed.\r\n\r\n\
+  - For support, contact @Tannis Root on Lutris Discord server."
+created_at: '2019-08-06T15:42:56.013000Z'
+updated_at: '2019-12-02T00:12:28.546269Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine Prefix...
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing dependencies...
+      app: mfc42 d3dcompiler_43 d3dx9
+      silent: 'true'
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - task:
+      executable: file
+      prefix: $GAMEDIR
+      description: Installing The Sims 2...
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  game:
+    prefix: $GAMEDIR
+    arch: win64
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+      WINE_LARGE_ADDRESS_AWARE: 1
+  wine:
+    version: lutris-4.20-x86_64
+    d9vk: true
+  files:
+  - file: N/A:Select the game's setup file

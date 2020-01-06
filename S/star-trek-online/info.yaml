@@ -1,0 +1,15 @@
+name: Star Trek Online
+slug: star-trek-online
+year: 2010
+platforms:
+- name: Windows
+genres:
+- name: MMORPG
+aliases: []
+banner_url: /games/banner/star-trek-online.jpg
+icon_url: /games/icon/star-trek-online.png
+is_public: true
+updated: '2019-01-23T08:31:25.075036Z'
+steamid: 9900
+gogslug: ''
+humblestoreid: ''

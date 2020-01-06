@@ -1,0 +1,38 @@
+id: 1122
+game_id: 63
+game_slug: titan-quest
+name: Titan Quest
+year: 2006
+user: Xodetaetl
+runner: wine
+slug: titan-quest-cd-patch-101-to-130
+version: CD - Patch 1.01 to 1.30
+description: Last official patch for the CD release.
+notes: "Apply to a game at the base version (1.01)\r\nIncludes a no-CD patch"
+created_at: '2014-11-20T13:52:09.864000Z'
+updated_at: '2018-05-19T03:41:48.134032Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 4540
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: titan-quest-cd
+  exe: drive_c/Program Files/THQ/Titan Quest/Titan Quest 1.30 nocd.exe
+  installer:
+  - task:
+      executable: patch
+      prefix: $GAMEDIR
+      name: wineexec
+  - move:
+      src: nocd
+      dst: $GAMEDIR/drive_c/Program Files/THQ/Titan Quest/
+  files:
+  - patch: http://lutris.net/files/games/titan-quest/Patch_Standalone_101_to_130r2.exe
+  - nocd: http://lutris.net/files/games/titan-quest/Titan Quest 1.30 nocd.exe
+  game:
+    prefix: $GAMEDIR
+    arch: win32

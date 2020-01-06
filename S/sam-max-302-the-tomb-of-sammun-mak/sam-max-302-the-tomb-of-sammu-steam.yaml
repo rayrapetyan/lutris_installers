@@ -1,0 +1,24 @@
+id: 1171
+game_id: 213
+game_slug: sam-max-302-the-tomb-of-sammun-mak
+name: 'Sam & Max 302: The Tomb of Sammun-Mak'
+year: null
+user: Xodetaetl
+runner: winesteam
+slug: sam-max-302-the-tomb-of-sammu-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-11-28T11:21:28.908000Z'
+updated_at: '2014-11-28T11:21:37.059000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 31230
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 31230

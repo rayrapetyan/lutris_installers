@@ -1,0 +1,24 @@
+id: 2266
+game_id: 2407
+game_slug: endless-legend
+name: Endless Legend
+year: 2014
+user: s1ns3nt
+runner: winesteam
+slug: endless-legend-steam
+version: Steam
+description: ''
+notes: https://appdb.winehq.org/objectManager.php?sClass=application&iId=16492
+created_at: '2016-07-05T23:51:06.980523Z'
+updated_at: '2016-07-06T05:32:31.522297Z'
+draft: false
+published: true
+published_by: null
+rating: '4'
+steamid: 289130
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 289130

@@ -1,0 +1,29 @@
+id: 9444
+game_id: 20462
+game_slug: the-siege-of-the-necromancer
+name: The Siege of the Necromancer
+year: 2012
+user: kimchitea
+runner: linux
+slug: the-siege-of-the-necromancer-humble-32-bit
+version: Humble (32-bit)
+description: null
+notes: ''
+created_at: '2018-07-29T03:35:40.483000Z'
+updated_at: '2018-07-29T04:37:49.233875Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Gamebook Adventures 2 - Siege of the Necromancer.x86
+  installer:
+  - extract:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble archive

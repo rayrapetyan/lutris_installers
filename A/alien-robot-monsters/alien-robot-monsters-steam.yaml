@@ -1,0 +1,24 @@
+id: 7100
+game_id: 10411
+game_slug: alien-robot-monsters
+name: Alien Robot Monsters
+year: null
+user: liberodark
+runner: steam
+slug: alien-robot-monsters-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-01-15T14:18:06.070421Z'
+updated_at: '2018-01-15T18:04:39.960019Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 391250
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 391250

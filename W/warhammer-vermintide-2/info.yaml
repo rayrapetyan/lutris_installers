@@ -1,0 +1,18 @@
+name: 'Warhammer: Vermintide 2'
+slug: warhammer-vermintide-2
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: RPG
+aliases:
+- slug: warhammer-vermintide-2-closed-test
+  name: warhammer vermintide 2 closed test
+banner_url: /games/banner/warhammer-vermintide-2.jpg
+icon_url: /games/icon/warhammer-vermintide-2.png
+is_public: true
+updated: '2020-01-03T02:55:25.553114Z'
+steamid: 552500
+gogslug: ''
+humblestoreid: ''

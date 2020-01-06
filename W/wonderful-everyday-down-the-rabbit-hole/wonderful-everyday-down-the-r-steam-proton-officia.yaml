@@ -1,0 +1,30 @@
+id: 10055
+game_id: 16094
+game_slug: wonderful-everyday-down-the-rabbit-hole
+name: Wonderful Everyday Down the Rabbit-Hole
+year: 2017
+user: kimchitea
+runner: steam
+slug: wonderful-everyday-down-the-r-steam-proton-officia
+version: Steam Proton + Official Patch
+description: null
+notes: '- <a href="https://jastusa.com/wonderful-everyday">patch link</a>'
+created_at: '2018-09-05T19:47:27.098000Z'
+updated_at: '2019-05-22T00:05:33.360009Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 658620
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $patch
+  files:
+  - patch: N/A:Please select the patch archive
+  game:
+    appid: 658620

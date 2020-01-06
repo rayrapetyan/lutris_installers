@@ -1,0 +1,39 @@
+id: 4466
+game_id: 640
+game_slug: mcpixel
+name: McPixel
+year: null
+user: FakeShemp
+runner: linux
+slug: mcpixel-humble-deb
+version: Humble (deb)
+description: ''
+notes: ''
+created_at: '2017-06-18T11:44:55.685000Z'
+updated_at: '2017-06-18T23:06:49.762088Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 220860
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: bin/McPixel
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - extract:
+      format: ar
+      dst: $CACHE
+      file: $CACHE/McPixel.deb
+  - extract:
+      dst: $CACHE
+      file: $CACHE/data.tar.gz
+  - merge:
+      src: $CACHE/opt/McPixel/McPixel
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble archive

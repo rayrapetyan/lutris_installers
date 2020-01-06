@@ -1,0 +1,31 @@
+id: 16249
+game_id: 29793
+game_slug: 2-guys-1-laptop
+name: 2 Guys 1 Laptop
+year: 2019
+user: kimchitea
+runner: linux
+slug: 2-guys-1-laptop-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2019-10-17T02:37:45.684000Z'
+updated_at: '2019-10-21T04:04:29.920950Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: 2-guys-1-laptop.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/2-guys-1-laptop.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/2-guys-1-laptop
+  - chmodx: $GAMEDIR/lib/linux-x86_64/2-guys-1-laptop
+  files:
+  - file1: N/A:Please select the game archive

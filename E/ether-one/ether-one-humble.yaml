@@ -1,0 +1,34 @@
+id: 4143
+game_id: 2535
+game_slug: ether-one
+name: Ether One
+year: null
+user: FakeShemp
+runner: wine
+slug: ether-one-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-05T20:12:31.420000Z'
+updated_at: '2018-05-19T03:41:52.612009Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 265950
+gogid: 1207661343
+gogslug: ether_one
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      arch: win64
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Ether One/EtherOne.exe
+    arch: win64

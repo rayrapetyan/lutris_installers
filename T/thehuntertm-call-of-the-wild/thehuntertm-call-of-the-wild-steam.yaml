@@ -1,0 +1,31 @@
+id: 9647
+game_id: 12333
+game_slug: thehuntertm-call-of-the-wild
+name: "theHunter\u2122: Call of the Wild"
+year: 2017
+user: jehdin
+runner: winesteam
+slug: thehuntertm-call-of-the-wild-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-08T21:25:37.698000Z'
+updated_at: '2019-02-16T04:52:52.682777Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 518790
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    appid: 518790
+    arch: win64

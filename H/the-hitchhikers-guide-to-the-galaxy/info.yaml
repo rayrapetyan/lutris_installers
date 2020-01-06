@@ -1,0 +1,17 @@
+name: The Hitchhiker's Guide to the Galaxy
+slug: the-hitchhikers-guide-to-the-galaxy
+year: 1984
+platforms:
+- name: Browser
+- name: Z-machine
+genres:
+- name: Adventure
+- name: Interactive fiction
+aliases: []
+banner_url: /games/banner/the-hitchhikers-guide-to-the-galaxy.jpg
+icon_url: /games/icon/the-hitchhikers-guide-to-the-galaxy.png
+is_public: true
+updated: '2019-01-23T08:31:42.232991Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

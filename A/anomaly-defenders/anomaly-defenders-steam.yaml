@@ -1,0 +1,24 @@
+id: 919
+game_id: 3001
+game_slug: anomaly-defenders
+name: Anomaly Defenders
+year: null
+user: Xodetaetl
+runner: steam
+slug: anomaly-defenders-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-10-01T17:58:54.408000Z'
+updated_at: '2014-10-01T17:58:58.418000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 294750
+gogid: 1207664863
+gogslug: anomaly_defenders
+humblestoreid: ''
+script:
+  game:
+    appid: 294750

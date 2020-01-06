@@ -1,0 +1,37 @@
+id: 11373
+game_id: 17985
+game_slug: total-annihilation-kingdoms
+name: Total Annihilation Kingdoms
+year: 1999
+user: nephitejnf
+runner: wine
+slug: total-annihilation-kingdoms-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2018-12-28T06:51:34.996000Z'
+updated_at: '2019-03-01T20:43:35.537485Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: 1207658912
+gogslug: total_annihilation_kingdoms
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      app: gdiplus
+      name: wintricks
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      args: /VERYSILENT /SUPRESSMSGBOXES
+      name: wineexec
+  files:
+  - installer: N/A:Select the Total Annihilation Kingdoms installer provided by GOG.
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Total Annihilation Kingdoms/Kingdoms.exe

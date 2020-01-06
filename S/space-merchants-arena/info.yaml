@@ -1,0 +1,16 @@
+name: 'Space Merchants: Arena'
+slug: space-merchants-arena
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: RPG
+aliases: []
+banner_url: /games/banner/space-merchants-arena.jpg
+icon_url: /games/icon/space-merchants-arena.png
+is_public: true
+updated: '2019-01-23T08:31:21.061362Z'
+steamid: 548080
+gogslug: ''
+humblestoreid: ''

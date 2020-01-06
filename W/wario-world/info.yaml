@@ -1,0 +1,16 @@
+name: Wario World
+slug: wario-world
+year: 2003
+platforms:
+- name: GameCube
+genres:
+- name: Beat'em up
+- name: Platformer
+aliases: []
+banner_url: /games/banner/wario-world.jpg
+icon_url: null
+is_public: true
+updated: '2019-06-08T22:22:34.173597Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,16 @@
+name: The Secret of Monkey Island
+slug: the-secret-of-monkey-island
+year: 1990
+platforms:
+- name: MS-DOS
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/the-secret-of-monkey-island.jpg
+icon_url: /games/icon/the-secret-of-monkey-island.png
+is_public: true
+updated: '2019-01-23T08:31:46.785564Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

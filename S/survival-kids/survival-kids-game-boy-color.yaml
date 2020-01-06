@@ -1,0 +1,31 @@
+id: 7958
+game_id: 17967
+game_slug: survival-kids
+name: Survival Kids
+year: 1999
+user: maxlefou
+runner: libretro
+slug: survival-kids-game-boy-color
+version: Game Boy Color
+description: null
+notes: ''
+created_at: '2018-04-22T13:51:00.422312Z'
+updated_at: '2018-04-30T06:19:35.351363Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: rom
+      dst: $GAMEDIR
+  files:
+  - rom: N/A:Select the game's ROM file
+  game:
+    core: gambatte
+    main_file: rom

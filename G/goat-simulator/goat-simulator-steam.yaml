@@ -1,0 +1,24 @@
+id: 502
+game_id: 2046
+game_slug: goat-simulator
+name: Goat Simulator
+year: 2014
+user: Xodetaetl
+runner: steam
+slug: goat-simulator-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2014-07-21T18:37:13.624000Z'
+updated_at: '2017-09-15T21:52:56.832932Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: 265930
+gogid: null
+gogslug: ''
+humblestoreid: goat-simulator
+script:
+  game:
+    appid: 265930

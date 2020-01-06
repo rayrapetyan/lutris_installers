@@ -1,0 +1,15 @@
+name: Soldat
+slug: soldat
+year: 2002
+platforms:
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/soldat.jpg
+icon_url: /games/icon/soldat.png
+is_public: true
+updated: '2019-01-23T08:31:17.483375Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

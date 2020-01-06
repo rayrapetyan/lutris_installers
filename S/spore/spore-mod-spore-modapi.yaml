@@ -1,0 +1,54 @@
+id: 15012
+game_id: 1599
+game_slug: spore
+name: Spore
+year: 2008
+user: ThePixelMouse
+runner: wine
+slug: spore-mod-spore-modapi
+version: '[Mod] Spore ModAPI'
+description: null
+notes: ''
+created_at: '2019-08-14T18:59:27.751000Z'
+updated_at: '2019-09-09T00:17:10.948637Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 17390
+gogid: 1948823323
+gogslug: spore_collection
+humblestoreid: ''
+script:
+  requires: spore-origin | spore-origin-d9vk | spore-gog | spore-gog-d9vk | spore-steam
+    | spore-steam-d9vk
+  custom-name: Spore ModAPI
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      app: dotnet452
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting version to 7...
+      arch: win32
+      key: Version
+      value: win7
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - task:
+      executable: modApiInstaller
+      prefix: $GAMEDIR
+      description: Installing the ModAPI
+      arch: win32
+      name: wineexec
+  files:
+  - modApiInstaller:
+      filename: SporeModApi.exe
+      url: https://drive.google.com/uc?export=download&id=1enaNUryG7ElSbYFLDLBI-XHaeie8ZPwR
+  game:
+    exe: drive_c/ProgramData/SPORE ModAPI Launcher Kit/Spore ModAPI Launcher.exe

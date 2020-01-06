@@ -1,0 +1,24 @@
+id: 6288
+game_id: 14677
+game_slug: blood-feed
+name: Blood Feed
+year: 2017
+user: fanotriel
+runner: steam
+slug: blood-feed-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-11-09T18:17:39.348050Z'
+updated_at: '2017-11-11T21:44:44.223454Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 575950
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 575950

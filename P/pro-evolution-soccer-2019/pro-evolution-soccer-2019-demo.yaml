@@ -1,0 +1,64 @@
+id: 10597
+game_id: 21756
+game_slug: pro-evolution-soccer-2019
+name: PRO EVOLUTION SOCCER 2019
+year: 2018
+user: cxf
+runner: winesteam
+slug: pro-evolution-soccer-2019-demo
+version: Demo
+description: null
+notes: Issue to accept EULA in game since SHIFT+TAB bug in Steam Overlay (unable to  close).
+  you have to accept it and exit game. Re Launch the game and it won't appear again.
+created_at: '2018-10-21T22:31:20.440000Z'
+updated_at: '2019-09-09T01:26:27.912305Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 770240
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: msxml3
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: dotnet472
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2017
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: takao
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: win7
+      arch: win64
+      name: winetricks
+  winesteam:
+    version: tkg-4.0-x86_64
+    esync: true
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 996480
+    arch: win64

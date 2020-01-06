@@ -1,0 +1,24 @@
+id: 11930
+game_id: 25654
+game_slug: evoland-legendary-edition
+name: Evoland Legendary Edition
+year: 2019
+user: romulasry
+runner: steam
+slug: evoland-legendary-edition-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-02-09T01:44:27.623178Z'
+updated_at: '2019-02-09T04:36:15.593440Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 1020470
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 1020470

@@ -1,0 +1,32 @@
+id: 5212
+game_id: 7950
+game_slug: melter-man
+name: Melter Man
+year: null
+user: FakeShemp
+runner: wine
+slug: melter-man-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-26T08:22:10.334299Z'
+updated_at: '2018-05-19T03:41:57.629134Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 404460
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Melter Man
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Melter Man/MelterMan-EarlyAccessWindows-V2.exe
+    arch: win32

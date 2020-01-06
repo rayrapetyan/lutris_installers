@@ -1,0 +1,24 @@
+id: 11090
+game_id: 23497
+game_slug: moai-v-collectors-edition
+name: "MOAI V: Collector\u2019s Edition"
+year: 2017
+user: kimchitea
+runner: steam
+slug: moai-v-collectors-edition-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2018-12-05T13:34:02.697000Z'
+updated_at: '2019-05-22T00:10:19.287293Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 793940
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 793940

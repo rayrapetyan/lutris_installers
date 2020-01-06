@@ -1,0 +1,24 @@
+id: 601
+game_id: 1375
+game_slug: beatbuddy-tale-of-the-guardians-demo
+name: 'Beatbuddy: Tale of the Guardians Demo'
+year: null
+user: Xodetaetl
+runner: steam
+slug: beatbuddy-tale-of-the-guardian-steam-demo
+version: Steam demo
+description: ''
+notes: ''
+created_at: '2014-09-14T21:17:49.084000Z'
+updated_at: '2014-09-14T21:28:53.599000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 249150
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 249150

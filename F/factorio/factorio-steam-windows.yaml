@@ -1,0 +1,29 @@
+id: 10485
+game_id: 4116
+game_slug: factorio
+name: Factorio
+year: 2016
+user: vertinog
+runner: winesteam
+slug: factorio-steam-windows
+version: Steam (Windows)
+description: null
+notes: Due to issues with random computer freezes and lock ups when exiting. Running
+  the game via wine solves the issue until the new version comes out and testing can
+  be done to verify it is no longer an issue.
+created_at: '2018-10-12T01:23:44.245000Z'
+updated_at: '2019-02-14T06:03:04.581484Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 427520
+gogid: 1238653230
+gogslug: factorio
+humblestoreid: ''
+script:
+  wine:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  game:
+    appid: 427520

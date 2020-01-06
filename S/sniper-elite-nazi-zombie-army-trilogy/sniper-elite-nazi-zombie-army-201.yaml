@@ -1,0 +1,33 @@
+id: 6674
+game_id: 15144
+game_slug: sniper-elite-nazi-zombie-army-trilogy
+name: 'Sniper Elite: Nazi Zombie Army Trilogy'
+year: 2015
+user: Rodolfowski
+runner: wine
+slug: sniper-elite-nazi-zombie-army-201
+version: 2.0.1
+description: null
+notes: ''
+created_at: '2017-12-15T03:27:52.265000Z'
+updated_at: '2018-05-19T03:41:59.272010Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 301640
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: NZA
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - game: N/A:Select the installer provided by RG.
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/SENZA/SENZA.exe
+    arch: win32

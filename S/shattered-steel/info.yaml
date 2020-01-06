@@ -1,0 +1,17 @@
+name: Shattered Steel
+slug: shattered-steel
+year: 1996
+platforms:
+- name: MS-DOS
+- name: Windows
+genres:
+- name: Action
+- name: Shooter
+aliases: []
+banner_url: /games/banner/shattered-steel.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:11.671548Z'
+steamid: 624060
+gogslug: shattered_steel
+humblestoreid: ''

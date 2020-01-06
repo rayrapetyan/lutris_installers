@@ -1,0 +1,24 @@
+id: 6438
+game_id: 6132
+game_slug: battle-academy
+name: Battle Academy
+year: 2010
+user: lajestic
+runner: winesteam
+slug: battle-academy-steam
+version: Steam
+description: null
+notes: When running Battle Academy, uncheck "Fullscreen".
+created_at: '2017-11-26T23:11:21.983000Z'
+updated_at: '2017-12-10T00:35:20.579234Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 287070
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 287070

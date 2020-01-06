@@ -1,0 +1,24 @@
+id: 757
+game_id: 1194
+game_slug: toki-tori-2
+name: Toki Tori 2+
+year: null
+user: Xodetaetl
+runner: steam
+slug: toki-tori-2-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T13:53:10.099000Z'
+updated_at: '2014-09-15T16:13:30.488000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 201420
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 201420

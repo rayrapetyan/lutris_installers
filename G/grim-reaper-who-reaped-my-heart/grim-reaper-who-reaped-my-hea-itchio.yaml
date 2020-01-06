@@ -1,0 +1,32 @@
+id: 16134
+game_id: 29705
+game_slug: grim-reaper-who-reaped-my-heart
+name: Grim Reaper Who Reaped My Heart
+year: null
+user: madamondine
+runner: wine
+slug: grim-reaper-who-reaped-my-hea-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2019-10-12T03:35:52.516530Z'
+updated_at: '2019-10-12T03:35:52.516564Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Grim Reaper Who Reaped My Heart
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/New installer for Grim Reaper Who Reaped My Heart/VelCensored.exe.exe
+    arch: win32

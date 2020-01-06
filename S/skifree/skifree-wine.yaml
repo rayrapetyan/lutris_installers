@@ -1,0 +1,31 @@
+id: 6887
+game_id: 15332
+game_slug: skifree
+name: SkiFree
+year: 1991
+user: maxlefou
+runner: wine
+slug: skifree-wine
+version: Wine
+description: null
+notes: ''
+created_at: '2017-12-28T19:47:43.653000Z'
+updated_at: '2017-12-29T16:33:37.571608Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: archive
+  files:
+  - archive: https://ski.ihoc.net/ski32.zip
+  game:
+    prefix: $GAMEDIR
+    exe: ski32.exe

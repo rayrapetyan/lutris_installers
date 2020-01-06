@@ -1,0 +1,15 @@
+name: 'Warhammer: End Times - Vermintide'
+slug: warhammer-end-times-vermintide
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/warhammer-end-times-vermintide.jpg
+icon_url: /games/icon/warhammer-end-times-vermintide.png
+is_public: true
+updated: '2019-02-05T20:23:50.020681Z'
+steamid: 235540
+gogslug: ''
+humblestoreid: warhammer-end-times-vermintide

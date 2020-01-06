@@ -1,0 +1,45 @@
+id: 17438
+game_id: 7304
+game_slug: titan-quest-anniversary-edition
+name: Titan Quest Anniversary Edition
+year: 2016
+user: Elouin
+runner: wine
+slug: titan-quest-anniversary-editi-gog
+version: GOG
+description: null
+notes: "Installer will Download base Game automatically. To install Ragnarok and Atlantis,\
+  \ download those from the GOG Website and then click \"Run EXE inside wine prefix\"\
+  \ and choose the installers.\r\n\r\nAt the end of all installations there will be\
+  \ errors you can just click ok on."
+created_at: '2019-12-19T16:10:57.847000Z'
+updated_at: '2019-12-20T18:34:09.685919Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 475150
+gogid: 1196955511
+gogslug: titan_quest_anniversary_edition
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Titan Quest - Anniversary Edition/TQ.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Installing dependencies
+      app: vcrun2010 vcrun2012 vcrun2013 vcrun2015 d3dcompiler_43 d3dcompiler_47 win7
+      name: winetricks
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      description: Installing Titan Quest
+      name: wineexec
+  wine:
+    version: lutris-4.20-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.

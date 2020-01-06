@@ -1,0 +1,15 @@
+name: AisleRiot Solitaire
+slug: aisleriot-solitaire
+year: 1995
+platforms:
+- name: Linux
+genres:
+- name: Cards
+aliases: []
+banner_url: /games/banner/aisleriot-solitaire.jpg
+icon_url: /games/icon/aisleriot-solitaire.png
+is_public: true
+updated: '2019-01-23T08:28:17.189228Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

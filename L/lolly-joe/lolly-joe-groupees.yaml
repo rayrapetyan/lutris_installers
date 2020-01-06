@@ -1,0 +1,30 @@
+id: 4890
+game_id: 6896
+game_slug: lolly-joe
+name: Lolly Joe
+year: null
+user: FakeShemp
+runner: linux
+slug: lolly-joe-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-07T17:43:10.285000Z'
+updated_at: '2017-07-09T20:02:58.143054Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 436060
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: LollyPawJoeAlpha/Binaries/Linux/LollyPawJoeAlpha
+  installer:
+  - extract:
+      dst: $GAMEDIR/LollyPawJoeAlpha
+      file: $file1
+  - chmodx: $GAMEDIR/LollyPawJoeAlpha/Binaries/Linux/LollyPawJoeAlpha
+  files:
+  - file1: N/A:Please select the Groupees archive

@@ -1,0 +1,18 @@
+name: Sumoman
+slug: sumoman
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: Platform
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/sumoman.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:29.233679Z'
+steamid: 552970
+gogslug: ''
+humblestoreid: ''

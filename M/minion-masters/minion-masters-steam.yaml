@@ -1,0 +1,26 @@
+id: 3121
+game_id: 8436
+game_slug: minion-masters
+name: Minion Masters
+year: null
+user: beansmyname
+runner: winesteam
+slug: minion-masters-steam
+version: Steam
+description: null
+notes: "While the game does run, many of the textures are rendered as solid pink.\
+  \ If this is not the case for you, please report that in IRC or on the forums.\r\
+  \n\r\nTested only on Intel Integrated Graphics"
+created_at: '2016-12-23T09:17:26.618000Z'
+updated_at: '2019-10-11T01:42:57.517513Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 489520
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 489520

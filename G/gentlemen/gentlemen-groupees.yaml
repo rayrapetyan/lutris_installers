@@ -1,0 +1,29 @@
+id: 6056
+game_id: 1655
+game_slug: gentlemen
+name: Gentlemen!
+year: null
+user: FakeShemp
+runner: linux
+slug: gentlemen-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-10-22T11:44:45.285721Z'
+updated_at: '2017-10-22T11:46:04.592855Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 253570
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Gentlemen.x86
+  installer:
+  - extract:
+      file: $file1
+  exe64: Gentlemen.x86_64
+  files:
+  - file1: N/A:Please select the Groupees archive

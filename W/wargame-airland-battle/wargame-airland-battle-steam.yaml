@@ -1,0 +1,24 @@
+id: 166
+game_id: 1183
+game_slug: wargame-airland-battle
+name: 'Wargame: AirLand Battle'
+year: null
+user: strider
+runner: steam
+slug: wargame-airland-battle-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-19T23:56:16.765000Z'
+updated_at: '2013-12-19T23:56:16.765000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 222750
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 222750

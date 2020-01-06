@@ -1,0 +1,32 @@
+id: 5318
+game_id: 13467
+game_slug: screamer-4x4
+name: Screamer 4x4
+year: 2000
+user: FakeShemp
+runner: wine
+slug: screamer-4x4-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2017-08-09T12:25:07.916000Z'
+updated_at: '2017-08-27T21:22:46.763086Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1207664523
+gogslug: screamer_4x4
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the GOG installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Screamer 4x4/launcher.exe

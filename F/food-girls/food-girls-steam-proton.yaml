@@ -1,0 +1,24 @@
+id: 17104
+game_id: 30468
+game_slug: food-girls
+name: "\u98DF\u7528\u7CFB\u5C11\u5973 Food Girls"
+year: 2019
+user: kimchitea
+runner: steam
+slug: food-girls-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-11-30T03:04:25.969220Z'
+updated_at: '2019-12-15T18:38:21.957615Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 985080
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 985080

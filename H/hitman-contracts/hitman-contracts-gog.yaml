@@ -1,0 +1,45 @@
+id: 12897
+game_id: 2250
+game_slug: hitman-contracts
+name: 'Hitman: Contracts'
+year: 2004
+user: Logeater
+runner: wine
+slug: hitman-contracts-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-04-17T07:51:53.487000Z'
+updated_at: '2019-04-18T04:39:46.744650Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 247430
+gogid: 1207660853
+gogslug: hitman_contracts
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun6
+      arch: win32
+      name: winetricks
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES
+      arch: win32
+      name: wineexec
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Hitman 2 Silent Assassin/hitman2.exe
+    arch: win32

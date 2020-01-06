@@ -1,0 +1,16 @@
+name: 'Wolfenstein II: The New Colossus'
+slug: wolfenstein-ii-the-new-colossus
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+aliases: []
+banner_url: /games/banner/wolfenstein-ii-the-new-colossus.jpg
+icon_url: /games/icon/wolfenstein-ii-the-new-colossus.png
+is_public: true
+updated: '2019-01-23T08:32:09.859324Z'
+steamid: 612880
+gogslug: ''
+humblestoreid: ''

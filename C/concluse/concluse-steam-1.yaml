@@ -1,0 +1,24 @@
+id: 9186
+game_id: 19853
+game_slug: concluse
+name: CONCLUSE
+year: 2018
+user: soredake
+runner: winesteam
+slug: concluse-steam-1
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-12T05:58:37.910282Z'
+updated_at: '2018-07-12T05:58:49.691034Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 826230
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 826230

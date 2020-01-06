@@ -1,0 +1,79 @@
+id: 12074
+game_id: 24578
+game_slug: metro-exodus
+name: Metro Exodus
+year: 2019
+user: OsamaBinlada
+runner: wine
+slug: metro-exodus-epic-store
+version: Epic Store
+description: Only installs Epic Games Store. Must install game manually.
+notes: ''
+created_at: '2019-02-18T00:18:41.350000Z'
+updated_at: '2019-09-09T00:29:31.490142Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 412020
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE/dxsetup
+      file: audio
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR
+      args: /silent
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  - task:
+      prefix: $GAMEDIR
+      description: Installing dependencies
+      app: arial dotnet48
+      arch: win64
+      name: winetricks
+  - copy:
+      src: epic
+      dst: $CACHE/epic/
+  - task:
+      executable: msiexec
+      prefix: $GAMEDIR
+      arch: win64
+      args: /i "$CACHE/epic/EpicGamesLauncherInstaller.msi" /q
+      exclude_processes: EpicGamesLauncher.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  game:
+    prefix: $GAMEDIR
+    args: -opengl
+    exe: drive_c/Program Files (x86)/Epic Games/Launcher/Portal/Binaries/Win32/EpicGamesLauncher.exe
+    arch: win64
+  system:
+    env:
+      MESA_GL_VERSION_OVERRIDE: 4.4COMPAT
+      PULSE_LATENCY_MSEC: 60
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: 1
+      __GL_SHADER_DISK_CACHE: 1
+  wine:
+    version: ge-protonified-4.10-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - epic: https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi
+  - audio: https://lutris.net/files/tools/directx-2010.tar.gz

@@ -1,0 +1,29 @@
+id: 444
+game_id: 1834
+game_slug: south-park-the-stick-of-truth
+name: 'South Park: The Stick of Truth'
+year: 2014
+user: Xodetaetl
+runner: winesteam
+slug: south-park-the-stick-of-truth-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2014-03-05T18:41:32.947000Z'
+updated_at: '2014-10-28T21:09:10.846000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 213670
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      app: d3dx10
+      silent: true
+      name: winetricks
+  game:
+    appid: 213670

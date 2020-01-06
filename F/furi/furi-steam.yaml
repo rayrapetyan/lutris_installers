@@ -1,0 +1,28 @@
+id: 5909
+game_id: 10082
+game_slug: furi
+name: Furi
+year: 2016
+user: NuSuey
+runner: winesteam
+slug: furi-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-10-06T20:02:36.905000Z'
+updated_at: '2017-10-08T21:55:02.622441Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 423230
+gogid: 2098128602
+gogslug: furi
+humblestoreid: ''
+script:
+  system:
+    env:
+      WINEDLLOVERRIDES: d3d11=
+  game:
+    args: -force-d3d9
+    appid: 423230

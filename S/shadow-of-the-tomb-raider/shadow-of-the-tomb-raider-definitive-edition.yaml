@@ -1,0 +1,24 @@
+id: 16846
+game_id: 21745
+game_slug: shadow-of-the-tomb-raider
+name: Shadow of the Tomb Raider
+year: 2018
+user: UndeadhunterBE
+runner: steam
+slug: shadow-of-the-tomb-raider-definitive-edition
+version: Definitive Edition
+description: Native Linux version
+notes: ''
+created_at: '2019-11-16T09:38:56.040661Z'
+updated_at: '2019-12-15T18:43:56.515843Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 750920
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 750920

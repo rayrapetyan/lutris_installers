@@ -1,0 +1,25 @@
+id: 7940
+game_id: 17953
+game_slug: friday-the-13th-killer-puzzle
+name: 'Friday the 13th: Killer Puzzle'
+year: 2018
+user: TuiorGames
+runner: winesteam
+slug: friday-the-13th-killer-puzzle-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-04-20T01:45:52.324887Z'
+updated_at: '2018-05-06T07:15:39.356497Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 795100
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 795100
+    arch: win64

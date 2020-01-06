@@ -1,0 +1,17 @@
+name: 'Castlevania: The Adventure'
+slug: castlevania-the-adventure
+year: 1989
+platforms:
+- name: Game Boy
+- name: Nintendo 3DS
+- name: Nintendo Game Boy Color
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/castlevania-the-adventure.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:47.918029Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

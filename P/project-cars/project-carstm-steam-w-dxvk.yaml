@@ -1,0 +1,34 @@
+id: 8374
+game_id: 3165
+game_slug: project-cars
+name: "Project CARS\u2122"
+year: 2015
+user: leillo1975
+runner: winesteam
+slug: project-carstm-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: I found problems in fullscreen mode. After the first screen (Slightly Mad Studios
+  logo), the game gets blocked. Please set up a virtual desktop to correctly execute
+  the game.
+created_at: '2018-05-22T07:54:12.173000Z'
+updated_at: '2019-05-19T07:07:41.513528Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 234630
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    overrides:
+      xaudio2_7: native,builtin
+  system:
+    env:
+      DXVK_HUD: 0
+    pulse_latency: true
+  game:
+    appid: 234630
+    arch: win64

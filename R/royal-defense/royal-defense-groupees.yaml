@@ -1,0 +1,32 @@
+id: 5117
+game_id: 5308
+game_slug: royal-defense
+name: Royal Defense
+year: null
+user: FakeShemp
+runner: wine
+slug: royal-defense-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-20T17:14:17.714761Z'
+updated_at: '2018-05-19T03:41:56.960606Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 291170
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Royal Defense
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Royal Defense/Royal Defense.exe
+    arch: win32

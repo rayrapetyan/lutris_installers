@@ -1,0 +1,16 @@
+name: MINDNIGHT
+slug: mindnight
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: RPG
+- name: Strategy
+aliases: []
+banner_url: /games/banner/mindnight.jpg
+icon_url: /games/icon/mindnight.png
+is_public: true
+updated: '2019-01-23T08:30:23.805840Z'
+steamid: 667870
+gogslug: ''
+humblestoreid: ''

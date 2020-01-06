@@ -1,0 +1,22 @@
+name: Salamander
+slug: salamander
+year: 1986
+platforms:
+- name: Amstrad CPC 464
+- name: Arcade
+- name: Commodore 64
+- name: MSX
+- name: NES
+- name: TurboGrafx-16
+- name: X68000
+- name: ZX Spectrum
+genres:
+- name: Shooter
+aliases: []
+banner_url: /games/banner/salamander.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-17T11:31:55.255022Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

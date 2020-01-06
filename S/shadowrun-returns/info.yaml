@@ -1,0 +1,16 @@
+name: Shadowrun Returns
+slug: shadowrun-returns
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: RPG
+- name: Turn-based tactics
+aliases: []
+banner_url: /games/banner/shadowrun-returns.jpg
+icon_url: /games/icon/shadowrun-returns.png
+is_public: true
+updated: '2019-01-23T08:31:10.872913Z'
+steamid: 234650
+gogslug: shadowrun_returns
+humblestoreid: shadowrun-returns

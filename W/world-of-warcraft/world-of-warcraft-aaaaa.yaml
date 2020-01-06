@@ -1,0 +1,103 @@
+id: 17651
+game_id: 2033
+game_slug: world-of-warcraft
+name: World of Warcraft
+year: 2004
+user: strowser
+runner: wine
+slug: world-of-warcraft-aaaaa
+version: aaaaa
+description: null
+notes: ''
+created_at: '2019-12-29T23:51:58.938559Z'
+updated_at: '2019-12-29T23:51:58.938582Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 64bit Wine prefix.
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Arial font
+      app: arial
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows 10 mode for Wine
+      arch: win64
+      key: Version
+      value: win10
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      description: 'Wine Staging: Enabling DXVA2'
+      arch: win64
+      key: backend
+      value: va
+      path: HKEY_CURRENT_USER\Software\Wine\DXVA2
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - write_json:
+      description: Disabling Sound/Hardware Acceleration/Streaming in Blizzard App
+      data:
+        Client:
+          HardwareAcceleration: 'false'
+          GameLaunchWindowBehavior: '2'
+          Sound:
+            Enabled: 'false'
+      file: $GAMEDIR/drive_c/users/$USER/Application Data/Battle.net/Battle.net.config
+  - task:
+      executable: setup
+      description: 'Installing Blizzard App
+
+        ------------------------------
+
+        Do not try to log into Battle.net. Lutris will automatically close the login
+        window. After Lutris installer is finished, you can start Blizzard App with
+        "Launch the game", and install / locate your Blizzard game.'
+      exclude_processes: Battle.net.exe Agent.exe "Battle.net Helper.exe"
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Battle.net/Battle.net.exe
+    arch: win64
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      STAGING_SHARED_MEMORY: 1
+      DXVK_HUD: compiler
+      __GL_SHADER_DISK_CACHE: 1
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+    exclude_processes: Agent.exe "Battle.net Helper.exe"
+  wine:
+    version: lutris-4.16-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      ucrtbase: n,b
+      nvapi64: disabled
+      nvapi: disabled
+      d3d12: disabled
+      api-ms-win-crt-private-l1-1-0: n,b
+  files:
+  - setup:
+      filename: Battle.net-Setup.exe
+      url: https://www.battle.net/download/getInstallerForGame?os=win&locale=enUS&version=LIVE&gameProgram=BATTLENET_APP

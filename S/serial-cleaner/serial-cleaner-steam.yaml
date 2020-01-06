@@ -1,0 +1,24 @@
+id: 6590
+game_id: 13491
+game_slug: serial-cleaner
+name: Serial Cleaner
+year: 2017
+user: Talvi
+runner: steam
+slug: serial-cleaner-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-10T00:54:41.839968Z'
+updated_at: '2017-12-18T02:59:23.907739Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 522210
+gogid: 1264767742
+gogslug: serial_cleaner
+humblestoreid: ''
+script:
+  game:
+    appid: 522210

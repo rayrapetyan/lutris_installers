@@ -1,0 +1,30 @@
+id: 12975
+game_id: 9014
+game_slug: albion-online
+name: Albion Online
+year: 2017
+user: stop50
+runner: linux
+slug: albion-online-standalone
+version: Standalone
+description: null
+notes: ''
+created_at: '2019-04-20T07:56:53.972000Z'
+updated_at: '2019-09-09T00:12:36.977685Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 761890
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      file: installer
+  files:
+  - installer: https://live.albiononline.com/clients/20190819134915/albion-online-setup
+  game:
+    exe: $GAMEDIR/data/Albion-Online

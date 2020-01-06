@@ -1,0 +1,24 @@
+id: 1473
+game_id: 4171
+game_slug: fist-of-jesus
+name: Fist of Jesus
+year: 2014
+user: Xodetaetl
+runner: steam
+slug: fist-of-jesus-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-04-24T07:26:13.978000Z'
+updated_at: '2015-04-25T17:39:21.132000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 321110
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 321110

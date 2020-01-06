@@ -1,0 +1,15 @@
+name: OpenTTD
+slug: openttd
+year: null
+platforms:
+- name: Linux
+genres:
+- name: Simulation
+aliases: []
+banner_url: /games/banner/openttd.jpg
+icon_url: /games/icon/openttd.png
+is_public: true
+updated: '2019-01-23T08:30:37.515379Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

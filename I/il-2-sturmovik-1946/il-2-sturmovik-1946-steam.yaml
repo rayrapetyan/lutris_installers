@@ -1,0 +1,27 @@
+id: 9640
+game_id: 587
+game_slug: il-2-sturmovik-1946
+name: 'IL-2 Sturmovik: 1946'
+year: null
+user: jehdin
+runner: winesteam
+slug: il-2-sturmovik-1946-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-08T07:12:54.731000Z'
+updated_at: '2018-08-09T05:27:00.540155Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 15320
+gogid: 1207658749
+gogslug: il_2_sturmovik_1946
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-3.12-x86_64
+  game:
+    appid: 15320
+    arch: win64

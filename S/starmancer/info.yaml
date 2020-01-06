@@ -1,0 +1,17 @@
+name: Starmancer
+slug: starmancer
+year: null
+platforms:
+- name: Linux
+genres:
+- name: Indie
+- name: Simulation
+- name: Strategy
+aliases: []
+banner_url: /games/banner/starmancer.jpg
+icon_url: /games/icon/starmancer.png
+is_public: true
+updated: '2019-06-13T21:12:14.276592Z'
+steamid: 1062000
+gogslug: ''
+humblestoreid: ''

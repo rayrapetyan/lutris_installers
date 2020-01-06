@@ -1,0 +1,15 @@
+name: BrowserQuest
+slug: browserquest
+year: 2012
+platforms:
+- name: Browser
+genres:
+- name: MMORPG
+aliases: []
+banner_url: /games/banner/browserquest.jpg
+icon_url: /games/icon/browserquest.png
+is_public: true
+updated: '2019-01-23T08:28:42.582736Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,16 @@
+name: Ananias Roguelike
+slug: ananias-roguelike
+year: 2015
+platforms:
+- name: Browser
+- name: Linux
+genres:
+- name: Roguelike
+aliases: []
+banner_url: /games/banner/ananias-roguelike.jpg
+icon_url: /games/icon/ananias-roguelike.png
+is_public: true
+updated: '2019-01-23T08:28:21.410162Z'
+steamid: 372080
+gogslug: ''
+humblestoreid: ''

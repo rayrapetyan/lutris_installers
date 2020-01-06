@@ -1,0 +1,48 @@
+id: 9593
+game_id: 14741
+game_slug: assassins-creed-origins
+name: Assassin's Creed Origins
+year: 2017
+user: romulasry
+runner: winesteam
+slug: assassins-creed-origins-steam
+version: Steam
+description: null
+notes: Works great after disabling Uplay overlay.
+created_at: '2018-08-05T09:09:12.776000Z'
+updated_at: '2019-10-06T22:11:59.384923Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 582160
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: corefonts vcrun2017 win7
+      name: winetricks
+  - task:
+      executable: uplay
+      prefix: $GAMEDIR/prefix
+      args: /S
+      name: wineexec
+  winesteam:
+    version: lutris-4.15-x86_64
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: compiler
+  files:
+  - uplay: https://ubistatic3-a.akamaihd.net/orbit/launcher_installer/UplayInstaller.exe
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 582160
+    arch: win64

@@ -1,0 +1,24 @@
+id: 9452
+game_id: 10666
+game_slug: catacombs-of-the-undercity
+name: Catacombs of the Undercity
+year: 2016
+user: kimchitea
+runner: steam
+slug: catacombs-of-the-undercity-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-29T14:40:36.278465Z'
+updated_at: '2018-07-29T21:59:04.697793Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 352440
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 352440

@@ -1,0 +1,18 @@
+name: Fragile Allegiance
+slug: fragile-allegiance
+year: 1996
+platforms:
+- name: Linux
+- name: MS-DOS
+- name: Windows
+genres:
+- name: 4X
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/fragile-allegiance.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:34.667653Z'
+steamid: 383100
+gogslug: fragile_allegiance
+humblestoreid: ''

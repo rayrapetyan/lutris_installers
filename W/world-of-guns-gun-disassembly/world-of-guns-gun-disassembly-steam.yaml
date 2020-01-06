@@ -1,0 +1,24 @@
+id: 687
+game_id: 2220
+game_slug: world-of-guns-gun-disassembly
+name: 'World of Guns: Gun Disassembly'
+year: null
+user: Xodetaetl
+runner: steam
+slug: world-of-guns-gun-disassembly-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T13:00:28.664000Z'
+updated_at: '2014-09-15T13:26:54.843000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 262410
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 262410

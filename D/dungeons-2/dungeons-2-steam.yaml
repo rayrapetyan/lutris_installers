@@ -1,0 +1,24 @@
+id: 3665
+game_id: 4948
+game_slug: dungeons-2
+name: Dungeons 2
+year: 2015
+user: strider
+runner: steam
+slug: dungeons-2-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-05-11T17:37:45.267574Z'
+updated_at: '2017-05-11T17:37:51.461131Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 262280
+gogid: 1436885138
+gogslug: dungeons_2
+humblestoreid: ''
+script:
+  game:
+    appid: 262280

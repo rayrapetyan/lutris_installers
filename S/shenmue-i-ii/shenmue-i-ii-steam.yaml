@@ -1,0 +1,28 @@
+id: 9144
+game_id: 19878
+game_slug: shenmue-i-ii
+name: Shenmue I & II
+year: 2018
+user: TuiorGames
+runner: winesteam
+slug: shenmue-i-ii-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-10T23:50:34.820000Z'
+updated_at: '2019-09-08T23:18:45.585024Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 758330
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  game:
+    appid: 758330
+    arch: win64

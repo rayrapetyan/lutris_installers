@@ -1,0 +1,17 @@
+name: Cultist Simulator
+slug: cultist-simulator
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Horror
+- name: RPG
+aliases: []
+banner_url: /games/banner/cultist-simulator.jpg
+icon_url: /games/icon/cultist-simulator.png
+is_public: true
+updated: '2019-03-30T00:58:09.481930Z'
+steamid: 718670
+gogslug: cultist_simulator
+humblestoreid: ''

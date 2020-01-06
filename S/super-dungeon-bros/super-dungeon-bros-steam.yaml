@@ -1,0 +1,33 @@
+id: 7139
+game_id: 8146
+game_slug: super-dungeon-bros
+name: Super Dungeon Bros
+year: 2016
+user: cxf
+runner: winesteam
+slug: super-dungeon-bros-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-01-19T18:34:54.237000Z'
+updated_at: '2018-01-19T19:05:15.503727Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 306000
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-2.21-x86_64
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 306000
+    arch: win64

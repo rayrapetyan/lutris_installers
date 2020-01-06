@@ -1,0 +1,35 @@
+id: 12753
+game_id: 13502
+game_slug: flowers-le-volume-sur-printemps-
+name: Flowers -Le volume sur printemps-
+year: 2016
+user: kimchitea
+runner: wine
+slug: flowers-le-volume-sur-printem-jast-usa
+version: JAST USA
+description: null
+notes: ''
+created_at: '2019-04-12T16:15:30.534000Z'
+updated_at: '2019-05-18T07:39:25.781153Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 452440
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: file1
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  files:
+  - file1: N/A:Please select the JAST installer (setup.exe). setup.2 should be in
+      the same location.
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Flowers - Spring/FLOWERS.exe
+    arch: win32

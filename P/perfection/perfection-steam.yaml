@@ -1,0 +1,24 @@
+id: 269
+game_id: 1200
+game_slug: perfection
+name: Perfection.
+year: null
+user: strider
+runner: steam
+slug: perfection-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-19T23:56:20.403000Z'
+updated_at: '2013-12-19T23:56:20.403000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 246360
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 246360

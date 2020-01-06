@@ -1,0 +1,33 @@
+id: 4084
+game_id: 11540
+game_slug: sleepwalkers-journey
+name: Sleepwalker's Journey
+year: 2012
+user: FakeShemp
+runner: linux
+slug: sleepwalkers-journey-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-03T18:25:59.368504Z'
+updated_at: '2017-06-04T21:55:27.935016Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Sleepwalker
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble installer

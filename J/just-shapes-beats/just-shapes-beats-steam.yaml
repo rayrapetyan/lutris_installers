@@ -1,0 +1,24 @@
+id: 12625
+game_id: 20098
+game_slug: just-shapes-beats
+name: Just Shapes & Beats
+year: null
+user: ttpcodes
+runner: steam
+slug: just-shapes-beats-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-04-04T18:16:51.611067Z'
+updated_at: '2019-04-05T06:53:03.947157Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 531510
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 531510

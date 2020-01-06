@@ -1,0 +1,33 @@
+id: 4213
+game_id: 2982
+game_slug: dominique-pamplemousse
+name: Dominique Pamplemousse
+year: null
+user: FakeShemp
+runner: wine
+slug: dominique-pamplemousse-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-08T13:23:51.117000Z'
+updated_at: '2018-05-19T03:41:51.218526Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 270310
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Dominique Pamplemousse/Dominique Pamplemousse.exe
+    arch: win32

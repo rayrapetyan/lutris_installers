@@ -1,0 +1,38 @@
+id: 15656
+game_id: 1091
+game_slug: baldurs-gate-enhanced-edition
+name: 'Baldur''s Gate: Enhanced Edition'
+year: 2013
+user: appoloin
+runner: wine
+slug: baldurs-gate-enhanced-edition-gog-windows
+version: GOG (Windows)
+description: null
+notes: ''
+created_at: '2019-09-18T19:12:15.545000Z'
+updated_at: '2019-12-17T02:32:22.826856Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 228280
+gogid: 1207666353
+gogslug: baldurs_gate_enhanced_edition
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      install_mono: false
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: $setup
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - setup: N/A:Select the GOG installer
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/GOG Games/Baldur's Gate - Enhanced Edition/Baldur.exe
+    arch: win32

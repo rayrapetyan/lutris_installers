@@ -1,0 +1,39 @@
+id: 16956
+game_id: 8209
+game_slug: brutal-doom
+name: Brutal Doom
+year: 2010
+user: aerzzyspace
+runner: zdoom
+slug: brutal-doom-freedoom-wad
+version: Freedoom WAD
+description: Brutal Doom on Freedoom Phase 1 and 2. You can select a WAD at startup
+  through GZDOOM.
+notes: By default this installer includes Freedoom v0.12.1 Phase 1 and 2.  If you
+  wish to load other WAD files you can place them in install directory.
+created_at: '2019-11-22T22:26:25.329000Z'
+updated_at: '2019-12-23T20:01:21.849069Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: brutal_doom
+  - extract:
+      file: freedoom
+  files:
+  - brutal_doom:
+      referer: https://www.moddb.com/mods/brutal-doom/downloads/brutal-doom-v21-beta
+      filename: brutalv21.rar
+      url: https://www.moddb.com/downloads/mirror/95667/122/09db6f425510d638d3a1f6783f95cd97
+  - freedoom: https://github.com/freedoom/freedoom/releases/download/v0.12.1/freedoom-0.12.1.zip
+  game:
+    savedir: $GAMEDIR
+    files:
+    - $GAMEDIR/brutalv21.pk3

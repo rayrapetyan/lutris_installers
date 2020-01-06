@@ -1,0 +1,30 @@
+id: 9357
+game_id: 8630
+game_slug: ragnarok-clicker
+name: Ragnarok Clicker
+year: null
+user: ashton
+runner: winesteam
+slug: ragnarok-clicker-steam
+version: Steam
+description: it's a modified clicker heroes engine as such clicker heroes installer
+  works with this
+notes: "i just copied clicker heroes settings and it works.\r\n\r\nprefix arch 64bit\r\
+  \nWindowed  (virtual desktop)\r\nstaging-3.11-x86_64\r\n\r\neverything else default"
+created_at: '2018-07-24T20:14:11.690343Z'
+updated_at: '2018-07-25T05:14:58.933154Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 493370
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-3.11-x86_64
+    Desktop: true
+  game:
+    appid: 493370
+    arch: win64

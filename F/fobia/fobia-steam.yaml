@@ -1,0 +1,24 @@
+id: 8686
+game_id: 19256
+game_slug: fobia
+name: Fobia
+year: 2018
+user: TuiorGames
+runner: steam
+slug: fobia-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-11T11:55:16.603000Z'
+updated_at: '2018-08-07T03:36:15.662999Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 870450
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 870450

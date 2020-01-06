@@ -1,0 +1,44 @@
+id: 8998
+game_id: 12074
+game_slug: full-throttle-remastered
+name: Full Throttle Remastered
+year: 2017
+user: stooj
+runner: linux
+slug: full-throttle-remastered-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2018-07-03T10:25:50.203000Z'
+updated_at: '2019-03-30T02:39:03.287958Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 228360
+gogid: 1325415523
+gogslug: full_throttle_remastered
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  - execute:
+      command: cat $GAMEDIR/game/full.data.split00 $GAMEDIR/game/full.data.split01
+        > $GAMEDIR/game/full.data
+      description: Merging data files
+  - move:
+      src: $GAMEDIR/game/full.data.split00
+      dst: $CACHE
+  - move:
+      src: $GAMEDIR/game/full.data.split01
+      dst: $CACHE
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

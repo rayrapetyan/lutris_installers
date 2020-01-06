@@ -1,0 +1,15 @@
+name: Mortal Kombat X
+slug: mortal-kombat-x
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Fighting
+aliases: []
+banner_url: /games/banner/mortal-kombat-x.jpg
+icon_url: /games/icon/mortal-kombat-x.png
+is_public: true
+updated: '2019-02-21T04:07:51.146205Z'
+steamid: 307780
+gogslug: ''
+humblestoreid: ''

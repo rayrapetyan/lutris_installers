@@ -1,0 +1,16 @@
+name: 'Commandos 2: Men of Courage'
+slug: commandos-2-men-of-courage
+year: 2001
+platforms:
+- name: Windows
+genres:
+- name: Real-time tactics
+- name: Stealth
+aliases: []
+banner_url: /games/banner/commandos-2-men-of-courage.jpg
+icon_url: /games/icon/commandos-2-men-of-courage.png
+is_public: true
+updated: '2019-01-23T08:28:56.658820Z'
+steamid: 6830
+gogslug: commandos_2_3
+humblestoreid: ''

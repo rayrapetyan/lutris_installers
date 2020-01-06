@@ -1,0 +1,24 @@
+id: 7539
+game_id: 5887
+game_slug: adom-ancient-domains-of-mystery
+name: ADOM (Ancient Domains Of Mystery)
+year: 2015
+user: t-rex91
+runner: steam
+slug: adom-ancient-domains-of-myste-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-15T15:01:20.483000Z'
+updated_at: '2018-03-20T04:43:09.574621Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 333300
+gogid: 1499192955
+gogslug: adom
+humblestoreid: ''
+script:
+  game:
+    appid: 333300

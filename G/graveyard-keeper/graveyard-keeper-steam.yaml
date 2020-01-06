@@ -1,0 +1,24 @@
+id: 14551
+game_id: 20956
+game_slug: graveyard-keeper
+name: Graveyard Keeper
+year: 2018
+user: bonifaccy
+runner: steam
+slug: graveyard-keeper-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-07-13T05:27:01.377000Z'
+updated_at: '2019-09-09T00:37:56.495688Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 599140
+gogid: 1780408621
+gogslug: graveyard_keeper
+humblestoreid: ''
+script:
+  game:
+    appid: 599140

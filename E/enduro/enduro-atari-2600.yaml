@@ -1,0 +1,29 @@
+id: 17345
+game_id: 30733
+game_slug: enduro
+name: Enduro
+year: 1983
+user: leandrovitals
+runner: stella
+slug: enduro-atari-2600
+version: Atari 2600
+description: null
+notes: ''
+created_at: '2019-12-15T01:43:23.504000Z'
+updated_at: '2019-12-19T18:04:43.835607Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: rom
+  installer:
+  - merge:
+      src: rom
+      dst: $GAMEDIR
+  files:
+  - rom: N/A:Select the game''s ROM file

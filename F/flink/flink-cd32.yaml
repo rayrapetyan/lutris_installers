@@ -1,0 +1,31 @@
+id: 357
+game_id: 1677
+game_slug: flink
+name: Flink
+year: 1994
+user: strider
+runner: fsuae
+slug: flink-cd32
+version: CD32
+description: ''
+notes: ''
+created_at: '2014-01-12T02:32:56.592000Z'
+updated_at: '2014-08-17T22:21:04.611000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: Flink (1994)(Psygnosis)(M4)[!].cue
+  fsuae:
+    model: CD32
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: cdrom-archive
+  files:
+  - cdrom-archive: N/A

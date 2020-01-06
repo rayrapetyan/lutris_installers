@@ -1,0 +1,15 @@
+name: iO
+slug: io
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/io.jpg
+icon_url: /games/icon/io.png
+is_public: true
+updated: '2019-01-23T08:29:58.274154Z'
+steamid: 324070
+gogslug: ''
+humblestoreid: ''

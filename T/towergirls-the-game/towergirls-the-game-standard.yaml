@@ -1,0 +1,43 @@
+id: 3120
+game_id: 9094
+game_slug: towergirls-the-game
+name: 'Towergirls: the Game'
+year: 2018
+user: irlittz
+runner: wine
+slug: towergirls-the-game-standard
+version: Standard
+description: null
+notes: ''
+created_at: '2016-12-23T02:40:52.450000Z'
+updated_at: '2019-10-28T20:18:17.123433Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Towergirls/Towergirls.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - extract:
+      dst: $GAMEDIR/drive_c/Towergirls/
+      file: game_archive
+  - task:
+      prefix: $GAMEDIR
+      app: d3dx9_43 d3dcompiler_43
+      arch: win32
+      name: winetricks
+  wine:
+    version: lutris-sims2-4.12.1
+  files:
+  - game_archive: N/A:'Select the release archive file from https://towerkc.blogspot.com/'

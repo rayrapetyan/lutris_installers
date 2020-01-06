@@ -1,0 +1,15 @@
+name: Influent
+slug: influent
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Simulation
+aliases: []
+banner_url: /games/banner/influent.jpg
+icon_url: /games/icon/influent.png
+is_public: true
+updated: '2019-01-23T08:29:56.798865Z'
+steamid: 274980
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,35 @@
+id: 16137
+game_id: 24870
+game_slug: uurnog
+name: Uurnog
+year: null
+user: Steely
+runner: wine
+slug: uurnog-humble
+version: Humble
+description: null
+notes: I used Proton 4.11 but I don't know if it's needed.
+created_at: '2019-10-12T06:26:34.234000Z'
+updated_at: '2019-10-16T21:29:12.623035Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: uurnog
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - installer: N/A:Please select the installer for this game
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Nifflas/Uurnog/Uurnog.exe

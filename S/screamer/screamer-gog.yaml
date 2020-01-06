@@ -1,0 +1,51 @@
+id: 5160
+game_id: 7725
+game_slug: screamer
+name: Screamer
+year: 1995
+user: FakeShemp
+runner: dosbox
+slug: screamer-gog
+version: GOG
+description: Uses the files from the Windows installer from GOG.
+notes: ''
+created_at: '2017-07-22T21:40:12.352000Z'
+updated_at: '2017-07-26T07:21:16.316655Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 697580
+gogid: 1207658726
+gogslug: screamer
+humblestoreid: ''
+script:
+  main_file: DOSBOX/dosboxScreamer_single.conf
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file2
+  - execute:
+      args: -d "$CACHE" "$file1"
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/app
+      dst: $GAMEDIR
+  - merge:
+      src: $GAMEDIR/dosboxScreamer_single.conf
+      dst: $GAMEDIR/DOSBOX
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/dosboxScreamer.conf
+  - write_config:
+      section: sdl
+      key: fullscreen
+      value: false
+      file: $GAMEDIR/dosboxScreamer.conf
+  files:
+  - file1: N/A:Please select the GOG installer
+  - file2: https://lutris.net/files/tools/innoextract.tar.gz
+  game:
+    config_file: $GAMEDIR/dosboxScreamer.conf

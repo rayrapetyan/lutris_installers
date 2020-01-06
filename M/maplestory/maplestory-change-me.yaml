@@ -1,0 +1,87 @@
+id: 17721
+game_id: 1455
+game_slug: maplestory
+name: MapleStory
+year: null
+user: aragmor
+runner: wine
+slug: maplestory-change-me
+version: Change Me
+description: 'This is an installer for a private server version, it follows the guide
+  for Linux installation from the game forum: <a href="https://forum.maplelegends.com/index.php?threads/playing-maple-legends-on-a-linux-box-the-guide.5400/">https://forum.maplelegends.com/index.php?threads/playing-maple-legends-on-a-linux-box-the-guide.5400/</a>
+  for easier installation.'
+notes: "Must download setup exe from the <a href=\"https://maplelegends.com/download>website</a>before\
+  \ running this installer.\r\n\r\nMust provide your own ijl15, ws2_32, and ws2help\
+  \ dll files.\r\n\r\nFor game updates you have to download the patch installer for\
+  \ windows at <a href=\"https://maplelegends.com/download\">https://maplelegends.com/download</a>\
+  \ and load it with lutris by right clicking the game banner and selecting \"Run\
+  \ EXE inside wine prefix\""
+created_at: '2020-01-03T16:06:37.962030Z'
+updated_at: '2020-01-03T16:06:37.962055Z'
+draft: false
+published: false
+published_by: 19464
+rating: ''
+steamid: 216150
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/MapleLegendsHD/MapleLegends.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun6sp6
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      key: Version
+      value: win98
+      path: HKEY_CURRENT_USER\Software\Wine\AppDefaults\MapleLegends.exe
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      key: Version
+      value: win98
+      path: HKEY_CURRENT_USER\Software\Wine\AppDefaults\MapleLegendsWindowed.exe
+      name: set_regedit
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      key: Version
+      value: winxp
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  - rename:
+      src: $GAMEDIR/drive_c/windows/system32/ws2_32.dll
+      dst: $GAMEDIR/drive_c/windows/system32/ws2_32.dll.bak
+  - move:
+      src: ws2
+      dst: $GAMEDIR/drive_c/windows/system32
+  - move:
+      src: ws2help
+      dst: $GAMEDIR/drive_c/windows/system32
+  - move:
+      src: ijl15
+      dst: $GAMEDIR/drive_c/windows/system32
+  wine:
+    version: lutris-nofshack-4.18-x86_64
+  files:
+  - setup: N/A:Select the game's setup file
+  - ijl15: N/A:Select ijl15.dll
+  - ws2: N/A:Select ws2_32.dll
+  - ws2help: N/A:Select ws2help.dll

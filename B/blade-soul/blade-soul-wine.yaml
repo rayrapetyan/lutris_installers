@@ -1,0 +1,71 @@
+id: 8054
+game_id: 18077
+game_slug: blade-soul
+name: Blade & Soul
+year: 2012
+user: zeioth
+runner: wine
+slug: blade-soul-wine
+version: Wine
+description: 'UPDATE: Since 2018 this game uses gameguard, so it is unlikely to work
+  with wine ever again.'
+notes: ''
+created_at: '2018-05-04T19:23:40.899000Z'
+updated_at: '2019-04-05T05:47:57.497893Z'
+draft: false
+published: true
+published_by: 19464
+rating: '1'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE/dxsetup
+      file: dx2010
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR
+      args: /silent
+      arch: win32
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: winekill
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2008 vcrun2013 physx corefonts
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .NET 4.7.2
+      app: dotnet472 win7
+      arch: win32
+      name: winetricks
+  - task:
+      executable: BnS
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  game:
+    args: /LauncherID:"GameForge" /CompanyID:"12" /GameID:"BnS" /LUpdateAddr:"updater.nclauncher.ncsoft.com
+      "
+    exe: drive_c/Program Files/NCWest/NCLauncher/NCLauncher.exe
+    arch: win32
+  system:
+    env:
+      PBA_ENABLE: 1
+  wine:
+    esync: true
+    UseGLSL: disabled
+  files:
+  - blade & soul: http://download.bladeandsoul.com/BnS_Launcher_Setup.exe
+  - dx2010: https://lutris.net/files/tools/directx-2010.tar.gz

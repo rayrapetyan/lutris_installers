@@ -1,0 +1,24 @@
+id: 6798
+game_id: 6525
+game_slug: sunrider-liberation-day-captains-edition
+name: 'Sunrider: Liberation Day - Captain''s Edition'
+year: null
+user: soredake
+runner: winesteam
+slug: sunrider-liberation-day-capta-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-23T21:13:29.779630Z'
+updated_at: '2017-12-23T21:13:36.752114Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 358750
+gogid: 1310542797
+gogslug: sunrider_liberation_day_captains_edition
+humblestoreid: ''
+script:
+  game:
+    appid: 358750

@@ -1,0 +1,39 @@
+id: 906
+game_id: 2953
+game_slug: one-must-fall-2097
+name: One Must Fall 2097
+year: 1994
+user: strider
+runner: dosbox
+slug: one-must-fall-2097-msdos
+version: msdos
+description: v2.1 Registered Version
+notes: ''
+created_at: '2014-09-26T23:17:56.449000Z'
+updated_at: '2019-09-09T01:10:54.969777Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: OMF21.EXE
+  installer:
+  - extract:
+      file: omf2097
+  - task:
+      executable: $GAMEDIR/INSTALL.EXE
+      name: dosexec
+  - write_file:
+      content: '[cpu]
+
+        cycles=fixed 11000'
+      file: $GAMEDIR/dosbox.conf
+  files:
+  - omf2097: https://lutris.net/files/games/one-must-fall-2097/omf21cd.zip
+  game:
+    config_file: dosbox.conf
+    main_file: OMF/OMF.EXE

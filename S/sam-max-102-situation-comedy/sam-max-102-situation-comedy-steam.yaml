@@ -1,0 +1,24 @@
+id: 1196
+game_id: 201
+game_slug: sam-max-102-situation-comedy
+name: 'Sam & Max 102: Situation: Comedy'
+year: null
+user: strider
+runner: winesteam
+slug: sam-max-102-situation-comedy-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-12-04T20:42:50.543000Z'
+updated_at: '2014-12-04T20:42:56.207000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 8210
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 8210

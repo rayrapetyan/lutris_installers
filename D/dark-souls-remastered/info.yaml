@@ -1,0 +1,15 @@
+name: "DARK SOULS\u2122: REMASTERED"
+slug: dark-souls-remastered
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/dark-souls-remastered.jpg
+icon_url: /games/icon/dark-souls-remastered.png
+is_public: true
+updated: '2019-01-23T08:29:05.040528Z'
+steamid: 570940
+gogslug: ''
+humblestoreid: ''

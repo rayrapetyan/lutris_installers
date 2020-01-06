@@ -1,0 +1,87 @@
+id: 16384
+game_id: 29949
+game_slug: warhammer-online-return-to-reckoning
+name: 'Warhammer Online: Return to Reckoning'
+year: 2008
+user: Niqu3d-1
+runner: wine
+slug: warhammer-online-return-to-re-torrent
+version: torrent
+description: "Make sure to follow the join us page first \r\nhttps://www.returnofreckoning.com/join.php\r\
+  \n\r\nThis is not my original work i found it on the official RoR fourms and was\
+  \ posted by the user Wdesu\r\nThank you Wdesu for your help on making the script"
+notes: im working on trying to get this to work
+created_at: '2019-10-24T19:24:38.240000Z'
+updated_at: '2019-12-25T16:38:48.778761Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: RoRLauncher.exe
+      message: Please provide a path to your game folder (it should contain RoRLauncher.exe).
+  - merge:
+      src: $DISC
+      dst: $GAMEDIR/prefix/drive_c/Program Files (x86)/Return of Reckoning
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: corefonts
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: comctl32ocx
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: comctl32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: comdlg32ocx
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2012
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: d3dx9
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: directx9
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: d3dx9_36
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: dotnet40
+      name: winetricks
+  system:
+    env:
+      STAGING_SHARED_MEMORY: 1
+      STAGING_RT_PRIORITY_BASE: 90
+      WINEDLLOVERRIDES: winemenubuilder.exe=d d3d11=
+      STAGING_RT_PRIORITY_SERVER: 90
+      WINEPREFIX: $GAMEDIR/prefix
+      CSMT: enabled
+      WINEARCH: win64
+      WINEDEBUG: -all
+    terminal: false
+  game:
+    prefix: $GAMEDIR/prefix
+    exe: $GAMEDIR/prefix/drive_c/Program Files (x86)/Return of Reckoning/RoRLauncher.exe
+    working_dir: $GAMEDIR/prefix/drive_c/Program Files (x86)/Return of Reckoning

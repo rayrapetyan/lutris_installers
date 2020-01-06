@@ -1,0 +1,17 @@
+name: Forager
+slug: forager
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Managerial
+- name: Role-playing
+- name: Simulation
+aliases: []
+banner_url: /games/banner/forager.jpg
+icon_url: null
+is_public: true
+updated: '2019-04-22T17:39:21.565625Z'
+steamid: 751780
+gogslug: forager
+humblestoreid: ''

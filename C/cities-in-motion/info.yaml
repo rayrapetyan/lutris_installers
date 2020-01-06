@@ -1,0 +1,15 @@
+name: Cities in Motion
+slug: cities-in-motion
+year: 2011
+platforms:
+- name: Linux
+genres:
+- name: Simulation
+aliases: []
+banner_url: /games/banner/cities-in-motion.jpg
+icon_url: /games/icon/cities-in-motion.png
+is_public: true
+updated: '2019-01-23T08:28:53.131614Z'
+steamid: 73010
+gogslug: cities_in_motion
+humblestoreid: ''

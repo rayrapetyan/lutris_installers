@@ -1,0 +1,54 @@
+id: 4465
+game_id: 193
+game_slug: toki-tori
+name: Toki Tori
+year: null
+user: FakeShemp
+runner: linux
+slug: toki-tori-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-18T11:39:06.275976Z'
+updated_at: '2017-06-18T23:26:39.430249Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 38700
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: TokiTori.bin.x86
+  installer:
+  - execute:
+      args: --tar -xf -C $CACHE
+      file: $file1
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/instarchive_all_x86
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/instarchive_all_x86_64
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/instarchive_all
+  - extract:
+      format: tar
+      dst: $GAMEDIR
+      file: $CACHE/instarchive_all_x86~
+  - extract:
+      format: tar
+      dst: $GAMEDIR
+      file: $CACHE/instarchive_all_x86_64~
+  - extract:
+      format: tar
+      dst: $GAMEDIR
+      file: $CACHE/instarchive_all~
+  exe64: TokiTori.bin.x86_64
+  files:
+  - file1: N/A:Please select the Humble installer

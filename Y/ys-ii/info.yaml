@@ -1,0 +1,16 @@
+name: Ys II
+slug: ys-ii
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: jRPG
+aliases: []
+banner_url: /games/banner/ys-ii.jpg
+icon_url: /games/icon/ys-ii.png
+is_public: true
+updated: '2019-01-23T08:32:13.661744Z'
+steamid: 223870
+gogslug: ''
+humblestoreid: ''

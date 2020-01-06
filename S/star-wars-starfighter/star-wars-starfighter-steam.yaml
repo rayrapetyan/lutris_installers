@@ -1,0 +1,26 @@
+id: 1291
+game_id: 2474
+game_slug: star-wars-starfighter
+name: Star Wars Starfighter
+year: 2002
+user: strider
+runner: winesteam
+slug: star-wars-starfighter-steam
+version: Steam
+description: ''
+notes: "- Videos appear black\r\n- Remap your roll axis in the config panel if your\
+  \ ship keeps spinning arround (you may have to keep the desired axis pressed and\
+  \ click \"Apply\")"
+created_at: '2015-02-10T21:02:16.209000Z'
+updated_at: '2015-02-10T21:57:14.830000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 32350
+gogid: 1421404999
+gogslug: star_wars_starfighter
+humblestoreid: ''
+script:
+  game:
+    appid: 32350

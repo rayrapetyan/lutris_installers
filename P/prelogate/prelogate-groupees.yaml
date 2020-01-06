@@ -1,0 +1,28 @@
+id: 6713
+game_id: 3620
+game_slug: prelogate
+name: Prelogate
+year: null
+user: FakeShemp
+runner: linux
+slug: prelogate-groupees
+version: Groupees
+description: null
+notes: ''
+created_at: '2017-12-17T16:09:24.403870Z'
+updated_at: '2017-12-17T16:13:10.825540Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 332830
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Prelogate.x86
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive

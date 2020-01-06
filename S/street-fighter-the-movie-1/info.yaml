@@ -1,0 +1,16 @@
+name: Street Fighter The Movie
+slug: street-fighter-the-movie-1
+year: 1995
+platforms:
+- name: Sega Saturn
+- name: Sony PlayStation
+genres:
+- name: Fighting
+aliases: []
+banner_url: /games/banner/street-fighter-the-movie-1.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:27.990313Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

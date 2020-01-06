@@ -1,0 +1,24 @@
+id: 261
+game_id: 271
+game_slug: ftl-faster-than-light
+name: 'FTL: Faster Than Light'
+year: 2012
+user: strider
+runner: steam
+slug: ftl-faster-than-light-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-19T23:56:20.179000Z'
+updated_at: '2013-12-19T23:56:20.179000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 212680
+gogid: 1207659102
+gogslug: faster_than_light
+humblestoreid: ftl-faster-than-light
+script:
+  game:
+    appid: 212680

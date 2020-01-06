@@ -1,0 +1,32 @@
+id: 4511
+game_id: 11819
+game_slug: date-almost-anything
+name: Date (Almost) Anything
+year: 2017
+user: FakeShemp
+runner: wine
+slug: date-almost-anything-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-06-19T21:18:20.387402Z'
+updated_at: '2018-05-19T03:41:51.619525Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Date (Almost) Anything
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Date (Almost) Anything/DateAlmostAnythingSim.exe
+    arch: win32

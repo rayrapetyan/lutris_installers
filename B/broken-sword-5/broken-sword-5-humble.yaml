@@ -1,0 +1,28 @@
+id: 3741
+game_id: 1308
+game_slug: broken-sword-5
+name: Broken Sword 5
+year: null
+user: FakeShemp
+runner: linux
+slug: broken-sword-5-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-20T17:08:23.263876Z'
+updated_at: '2017-05-28T00:00:24.767392Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 262940
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: BS5
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

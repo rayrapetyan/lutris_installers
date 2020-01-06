@@ -1,0 +1,32 @@
+id: 6541
+game_id: 1468
+game_slug: pineapple-smash-crew
+name: 'Pineapple Smash Crew '
+year: null
+user: FakeShemp
+runner: wine
+slug: pineapple-smash-crew-groupees
+version: Groupees
+description: null
+notes: ''
+created_at: '2017-12-03T17:30:28.660435Z'
+updated_at: '2018-05-19T03:41:52.904025Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 204390
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR/drive_c/Program Files/Pineapple Smash Crew
+  files:
+  - file1: N/A:Please select the Groupees executable
+  game:
+    prefix: $GAMEDIR
+    exe: file1
+    arch: win32

@@ -1,0 +1,24 @@
+id: 3640
+game_id: 419
+game_slug: alan-wakes-american-nightmare
+name: Alan Wake's American Nightmare
+year: 2012
+user: codythedragondude
+runner: winesteam
+slug: alan-wakes-american-nightmare-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-05-05T17:28:12.640000Z'
+updated_at: '2017-05-07T00:31:28.332126Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 202750
+gogid: 1207659038
+gogslug: alan_wakes_american_nightmare
+humblestoreid: alan-wakes-american-nightmare
+script:
+  game:
+    appid: 202750

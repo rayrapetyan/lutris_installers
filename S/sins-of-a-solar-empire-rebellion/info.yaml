@@ -1,0 +1,17 @@
+name: 'Sins of a Solar Empire: Rebellion'
+slug: sins-of-a-solar-empire-rebellion
+year: 2012
+platforms:
+- name: Windows
+genres:
+- name: Real-time strategy
+- name: Space simulation
+- name: Strategy
+aliases: []
+banner_url: /games/banner/sins-of-a-solar-empire-rebellion.jpg
+icon_url: /games/icon/sins-of-a-solar-empire-rebellion.png
+is_public: true
+updated: '2019-01-23T08:31:14.186665Z'
+steamid: 204880
+gogslug: ''
+humblestoreid: ''

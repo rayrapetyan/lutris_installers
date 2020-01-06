@@ -1,0 +1,31 @@
+id: 5199
+game_id: 15
+game_slug: minecraft
+name: Minecraft
+year: 2011
+user: mrCyborg
+runner: linux
+slug: minecraft-multimc
+version: MultiMC
+description: "MultiMC is a free, open source launcher for Minecraft, managed by @peterixxx\
+  \ and @02JanDal. It allows you to have multiple, separate instances of Minecraft\
+  \ (each with their own mods, texture packs, saves, etc) and helps you manage them\
+  \ and their associated options with a simple interface.\r\n\r\nhttps://multimc.org/"
+notes: Does not include Java runtime
+created_at: '2017-07-25T20:31:52.575000Z'
+updated_at: '2017-07-26T07:15:01.325100Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: MultiMC
+  installer:
+  - extract:
+      file: files
+  files:
+  - files: https://files.multimc.org/downloads/mmc-stable-lin64.tar.gz

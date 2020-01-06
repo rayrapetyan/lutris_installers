@@ -1,0 +1,24 @@
+id: 163
+game_id: 521
+game_slug: anomaly-warzone-earth-mobile-campaign
+name: Anomaly Warzone Earth Mobile Campaign
+year: null
+user: strider
+runner: steam
+slug: anomaly-warzone-earth-mobile-c-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-19T23:56:16.685000Z'
+updated_at: '2013-12-19T23:56:16.685000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 252170
+gogid: 1207667143
+gogslug: anomaly_warzone_earth_mobile_campaign
+humblestoreid: ''
+script:
+  game:
+    appid: 252170

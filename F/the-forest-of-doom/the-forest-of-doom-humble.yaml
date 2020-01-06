@@ -1,0 +1,29 @@
+id: 3983
+game_id: 3683
+game_slug: the-forest-of-doom
+name: The Forest of Doom
+year: 2014
+user: FakeShemp
+runner: linux
+slug: the-forest-of-doom-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-30T20:46:47.675998Z'
+updated_at: '2017-05-31T16:27:06.967346Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 270490
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: The Forest of Doom.x86
+  installer:
+  - extract:
+      file: $file1
+  exe64: The Forest of Doom.x86_64
+  files:
+  - file1: N/A:Please select the Humble archive

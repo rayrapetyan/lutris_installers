@@ -1,0 +1,17 @@
+name: 'Jagged Alliance: Deadly Games'
+slug: jagged-alliance-deadly-games
+year: 1995
+platforms:
+- name: Windows
+genres:
+- name: Modern
+- name: Strategy
+- name: Turn-based
+aliases: []
+banner_url: /games/banner/jagged-alliance-deadly-games.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:59.673801Z'
+steamid: null
+gogslug: jagged_alliance_deadly_games
+humblestoreid: ''

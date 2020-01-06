@@ -1,0 +1,16 @@
+name: Farming Simulator 17
+slug: farming-simulator-17
+year: 2016
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Simulation
+aliases: []
+banner_url: /games/banner/farming-simulator-17.jpg
+icon_url: /games/icon/farming-simulator-17.png
+is_public: true
+updated: '2019-12-17T02:30:12.482510Z'
+steamid: 447020
+gogslug: ''
+humblestoreid: ''

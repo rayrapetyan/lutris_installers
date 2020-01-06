@@ -1,0 +1,36 @@
+id: 16450
+game_id: 6129
+game_slug: lego-indiana-jones-2-the-adventure-continues
+name: 'LEGO Indiana Jones 2: The Adventure Continues'
+year: 2010
+user: cxf
+runner: wine
+slug: lego-indiana-jones-2-the-adve-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-10-28T00:07:45.994126Z'
+updated_at: '2019-10-28T00:07:50.722948Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 32450
+gogid: 1432943043
+gogslug: lego_indiana_jones_2_the_adventure_continues
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /NOCANCEL /SP- /SUPPRESSMSGBOXES
+      name: wineexec
+  files:
+  - setup: N/A:Select GOG setup exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/LEGO Indiana Jones 2 - The Adventure Continues/LEGOIndy2.exe

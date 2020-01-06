@@ -1,0 +1,24 @@
+id: 16177
+game_id: 16224
+game_slug: space-rogue-classic
+name: Space Rogue Classic
+year: 1989
+user: cxf
+runner: steam
+slug: space-rogue-classic-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-10-14T03:13:58.659583Z'
+updated_at: '2019-10-14T03:14:02.627118Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 569200
+gogid: 1958880681
+gogslug: space_rogue_classic
+humblestoreid: ''
+script:
+  game:
+    appid: 569200

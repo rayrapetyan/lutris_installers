@@ -1,0 +1,15 @@
+name: Rage 2
+slug: rage-2
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/rage-2.jpg
+icon_url: /games/icon/rage-2.png
+is_public: true
+updated: '2019-05-18T00:27:38.907834Z'
+steamid: 548570
+gogslug: ''
+humblestoreid: ''

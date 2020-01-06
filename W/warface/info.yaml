@@ -1,0 +1,17 @@
+name: Warface
+slug: warface
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: MMOFPS
+- name: Shooter
+aliases: []
+banner_url: /games/banner/warface.jpg
+icon_url: /games/icon/warface.png
+is_public: true
+updated: '2019-01-23T08:32:05.434375Z'
+steamid: 291480
+gogslug: ''
+humblestoreid: ''

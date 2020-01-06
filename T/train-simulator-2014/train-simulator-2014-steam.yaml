@@ -1,0 +1,36 @@
+id: 3505
+game_id: 715
+game_slug: train-simulator-2014
+name: Train Simulator
+year: 2009
+user: fl0id
+runner: winesteam
+slug: train-simulator-2014-steam
+version: Steam
+description: Train Simulator allos trainsim enthusiasts to enjoy a variety of trains,
+  tracks and configurations with lots of dlc available.
+notes: ''
+created_at: '2017-04-09T10:29:32.700000Z'
+updated_at: '2017-12-10T00:39:22.136029Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 24010
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      app: ie8
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: truefonts
+      name: winetricks
+  wine:
+    version: 1.8
+  game:
+    appid: 24010

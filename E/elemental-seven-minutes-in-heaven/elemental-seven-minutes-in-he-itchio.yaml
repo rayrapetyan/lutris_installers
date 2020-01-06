@@ -1,0 +1,31 @@
+id: 9203
+game_id: 19929
+game_slug: elemental-seven-minutes-in-heaven
+name: 'Elemental: Seven Minutes in Heaven'
+year: 2016
+user: kimchitea
+runner: linux
+slug: elemental-seven-minutes-in-he-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2018-07-14T10:44:59.921000Z'
+updated_at: '2018-07-15T22:41:06.164749Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Elemental_Seven_Minutes_in_Heaven.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Elemental_Seven_Minutes_in_Heaven.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Elemental_Seven_Minutes_in_Heaven
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Elemental_Seven_Minutes_in_Heaven
+  files:
+  - file1: N/A:Please select the itch.io archive

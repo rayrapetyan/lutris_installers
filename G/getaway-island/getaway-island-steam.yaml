@@ -1,0 +1,32 @@
+id: 8847
+game_id: 16065
+game_slug: getaway-island
+name: Getaway Island
+year: 2017
+user: kimchitea
+runner: linux
+slug: getaway-island-steam
+version: Steam
+description: Native Linux version using Steam game data.
+notes: ''
+created_at: '2018-06-21T15:23:02.552226Z'
+updated_at: '2018-06-21T15:57:27.110612Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 605190
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: GetawayIsland.sh
+  installer:
+  - merge:
+      src: steam-data
+      dst: $GAMEDIR
+  - chmodx: $GAMEDIR/GetawayIsland.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/GetawayIsland
+  - chmodx: $GAMEDIR/lib/linux-x86_64/GetawayIsland
+  files:
+  - steam-data: $WINESTEAM:605190:/

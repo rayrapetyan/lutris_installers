@@ -1,0 +1,16 @@
+name: Technobabylon
+slug: technobabylon
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Point-and-click
+- name: Sci-fi
+aliases: []
+banner_url: /games/banner/technobabylon.jpg
+icon_url: /games/icon/technobabylon.png
+is_public: true
+updated: '2019-05-20T01:55:22.088590Z'
+steamid: 307580
+gogslug: technobabylon
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 9060
+game_id: 15249
+game_slug: the-merchant-memoirs
+name: The Merchant Memoirs
+year: 2017
+user: kimchitea
+runner: winesteam
+slug: the-merchant-memoirs-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-07T01:42:38.099568Z'
+updated_at: '2018-07-07T07:38:40.939258Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 726520
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 726520

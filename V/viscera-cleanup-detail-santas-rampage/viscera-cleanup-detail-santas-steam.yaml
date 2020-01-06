@@ -1,0 +1,40 @@
+id: 10928
+game_id: 1587
+game_slug: viscera-cleanup-detail-santas-rampage
+name: 'Viscera Cleanup Detail: Santa''s Rampage'
+year: null
+user: alistair_porter
+runner: winesteam
+slug: viscera-cleanup-detail-santas-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-11-20T18:44:58.034000Z'
+updated_at: '2018-11-22T22:37:45.659911Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 265210
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-3.20-x86_64
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Please wait while we install VC++ 2012 and .NET 4.7.2. This will
+        take a while.
+      app: vcrun2012 dotnet472 win7
+      arch: win64
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 265210
+    arch: win64

@@ -1,0 +1,22 @@
+name: Retro City Rampage DX
+slug: retro-city-rampagetm
+year: 2012
+platforms:
+- name: Linux
+- name: MS-DOS
+- name: Nintendo 3DS
+- name: Nintendo Wii
+- name: Sony PSP
+genres:
+- name: Action
+- name: Adventure
+aliases:
+- slug: retro-city-rampage-486
+  name: Retro City Rampage 486!
+banner_url: /games/banner/retro-city-rampagetm.jpg
+icon_url: /games/icon/retro-city-rampagetm.png
+is_public: true
+updated: '2019-08-10T20:50:47.329141Z'
+steamid: 204630
+gogslug: ''
+humblestoreid: retro-city-rampage-dx

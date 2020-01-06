@@ -1,0 +1,29 @@
+id: 4035
+game_id: 11520
+game_slug: bureaucrap
+name: Bureaucrap
+year: 2016
+user: FakeShemp
+runner: linux
+slug: bureaucrap-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-01T13:38:46.674399Z'
+updated_at: '2017-06-02T02:52:41.445653Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Bureocrap.x86
+  installer:
+  - extract:
+      file: $file1
+  exe64: Bureocrap.x86_64
+  files:
+  - file1: N/A:Please select the Humble archive

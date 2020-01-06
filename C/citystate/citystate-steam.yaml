@@ -1,0 +1,24 @@
+id: 13242
+game_id: 22157
+game_slug: citystate
+name: Citystate
+year: null
+user: jpreston84
+runner: winesteam
+slug: citystate-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-04-30T22:09:05.301862Z'
+updated_at: '2019-05-18T07:13:21.875994Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 774351
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 774351

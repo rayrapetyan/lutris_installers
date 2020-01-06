@@ -1,0 +1,31 @@
+id: 7516
+game_id: 17333
+game_slug: shadow-tower
+name: Shadow Tower
+year: 1999
+user: Shakkol
+runner: libretro
+slug: shadow-tower-playstation
+version: PlayStation
+description: null
+notes: ''
+created_at: '2018-03-13T11:18:01.201000Z'
+updated_at: '2018-03-13T22:08:20.007609Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the PlayStation image file
+  game:
+    core: mednafen_psx_hw
+    main_file: file1

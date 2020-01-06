@@ -1,0 +1,16 @@
+name: Zombs.io
+slug: zombsio
+year: 2017
+platforms:
+- name: Browser
+genres:
+- name: Arcade
+- name: Tower defense
+aliases: []
+banner_url: /games/banner/zombsio.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:15.562009Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

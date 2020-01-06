@@ -1,0 +1,16 @@
+name: Jumpdrive
+slug: jumpdrive
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Simulation
+aliases: []
+banner_url: /games/banner/jumpdrive.jpg
+icon_url: /games/icon/jumpdrive.png
+is_public: true
+updated: '2019-01-23T08:30:01.441044Z'
+steamid: 291250
+gogslug: ''
+humblestoreid: ''

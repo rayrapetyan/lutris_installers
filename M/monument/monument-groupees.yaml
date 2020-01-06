@@ -1,0 +1,31 @@
+id: 5479
+game_id: 5065
+game_slug: monument
+name: Monument
+year: null
+user: FakeShemp
+runner: linux
+slug: monument-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-22T15:46:17.053648Z'
+updated_at: '2017-08-27T22:02:55.710616Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 376730
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Monument.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Monument.x86
+  - chmodx: $GAMEDIR/Monument.x86_64
+  exe64: Monument.x86_64
+  files:
+  - file1: N/A:Please select the Groupees archive

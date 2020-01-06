@@ -1,0 +1,17 @@
+name: Sonic Adventure
+slug: sonic-adventure
+year: 1998
+platforms:
+- name: Sega Dreamcast
+genres:
+- name: Action
+- name: Adventure
+- name: Platformer
+aliases: []
+banner_url: /games/banner/sonic-adventure.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-17T06:23:02.878827Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 5424
+game_id: 5684
+game_slug: runestone-keeper
+name: Runestone Keeper
+year: null
+user: NuSuey
+runner: winesteam
+slug: runestone-keeper-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-08-18T23:21:53.372722Z'
+updated_at: '2017-08-27T21:49:33.990254Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 339400
+gogid: 1445608249
+gogslug: runestone_keeper
+humblestoreid: ''
+script:
+  game:
+    appid: 339400

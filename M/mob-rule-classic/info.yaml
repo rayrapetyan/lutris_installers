@@ -1,0 +1,17 @@
+name: Mob Rule Classic
+slug: mob-rule-classic
+year: 1999
+platforms:
+- name: Windows
+genres:
+- name: Building
+- name: Managerial
+- name: Simulation
+aliases: []
+banner_url: /games/banner/mob-rule-classic.jpg
+icon_url: /games/icon/mob-rule-classic.png
+is_public: false
+updated: '2019-01-23T08:30:25.347439Z'
+steamid: 600420
+gogslug: mob_rule
+humblestoreid: ''

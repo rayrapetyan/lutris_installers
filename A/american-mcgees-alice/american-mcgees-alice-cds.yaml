@@ -1,0 +1,33 @@
+id: 12801
+game_id: 24388
+game_slug: american-mcgees-alice
+name: American McGee's Alice
+year: 2000
+user: dublea
+runner: wine
+slug: american-mcgees-alice-cds
+version: CDs
+description: Basic installer to use with both CDs that you own.
+notes: ''
+created_at: '2019-04-15T02:45:20.625721Z'
+updated_at: '2019-05-18T08:25:11.393487Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: Autoplay.exe
+  - task:
+      executable: $DISC/Setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/EA Games/American McGee's Alice/Alice.exe
+    arch: win32

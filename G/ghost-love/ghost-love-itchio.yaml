@@ -1,0 +1,31 @@
+id: 14748
+game_id: 28596
+game_slug: ghost-love
+name: Ghost Love
+year: 2018
+user: kimchitea
+runner: linux
+slug: ghost-love-itchio
+version: itch.io
+description: null
+notes: Download the Windows version.
+created_at: '2019-07-28T00:18:44.221000Z'
+updated_at: '2019-09-09T00:38:05.362702Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: GhostLove.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/GhostLove.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/GhostLove
+  - chmodx: $GAMEDIR/lib/linux-x86_64/GhostLove
+  files:
+  - file1: N/A:Please select the itch.io archive

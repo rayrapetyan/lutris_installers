@@ -1,0 +1,37 @@
+id: 2150
+game_id: 3
+game_slug: braid
+name: Braid
+year: 2008
+user: ssf
+runner: linux
+slug: braid-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2016-06-19T12:06:19.980533Z'
+updated_at: '2016-08-22T15:46:57.784681Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 26800
+gogid: 1461061433
+gogslug: braid
+humblestoreid: braid
+script:
+  exe: game/start.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Plese select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

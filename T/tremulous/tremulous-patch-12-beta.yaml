@@ -1,0 +1,32 @@
+id: 1421
+game_id: 4056
+game_slug: tremulous
+name: Tremulous
+year: 2006
+user: djazz
+runner: linux
+slug: tremulous-patch-12-beta
+version: 'Patch 1.2 Beta '
+description: ''
+notes: This is a patch only, so it requires you have already installed Tremulous 1.1.0.
+created_at: '2015-03-16T09:24:23.761000Z'
+updated_at: '2016-02-05T19:08:28.889237Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: tremulous-110-32-bit
+  exe: tremulous-gpp.x86
+  installer:
+  - extract:
+      file: tremulous
+  - chmodx: tremulous-gpp.x86
+  - chmodx: tremulous-gpp.x86_64
+  exe64: tremulous-gpp.x86_64
+  files:
+  - tremulous: http://prdownloads.sourceforge.net/tremulous/tremulous-gpp1.zip

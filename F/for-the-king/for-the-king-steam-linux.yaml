@@ -1,0 +1,24 @@
+id: 11134
+game_id: 11907
+game_slug: for-the-king
+name: For The King
+year: 2018
+user: Bloodaxe
+runner: steam
+slug: for-the-king-steam-linux
+version: Steam Linux
+description: null
+notes: ''
+created_at: '2018-12-10T23:17:25.719162Z'
+updated_at: '2018-12-12T05:20:43.131757Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 527230
+gogid: 1376475724
+gogslug: for_the_king
+humblestoreid: ''
+script:
+  game:
+    appid: 527230

@@ -1,0 +1,29 @@
+id: 1090
+game_id: 3472
+game_slug: vertigo
+name: Vertigo
+year: 2011
+user: strider
+runner: linux
+slug: vertigo-native
+version: native
+description: Native version
+notes: ''
+created_at: '2014-11-15T17:37:55.874000Z'
+updated_at: '2014-11-15T17:44:50.787000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 465430
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: launch.sh
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: vertigo-archive
+  files:
+  - vertigo-archive: https://lutris.net/files/games/vertigo/vertigo.tar.gz

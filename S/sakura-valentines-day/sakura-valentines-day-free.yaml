@@ -1,0 +1,31 @@
+id: 13870
+game_id: 27659
+game_slug: sakura-valentines-day
+name: Sakura Valentine's Day
+year: 2017
+user: kimchitea
+runner: linux
+slug: sakura-valentines-day-free
+version: Free
+description: null
+notes: 'Download: <a href="https://wingedcloud.wetransfer.com/downloads/853ae3bafed06622602b905147c09a1420170214204752/6f0941">https://wingedcloud.wetransfer.com/downloads/853ae3bafed06622602b905147c09a1420170214204752/6f0941</a>'
+created_at: '2019-06-02T07:07:29.834000Z'
+updated_at: '2019-06-13T08:03:17.900648Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: SakuraValentinesDay.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/SakuraValentinesDay.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/SakuraValentinesDay
+  - chmodx: $GAMEDIR/lib/linux-x86_64/SakuraValentinesDay
+  files:
+  - file1: N/A:Please select the game archive

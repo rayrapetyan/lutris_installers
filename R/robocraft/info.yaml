@@ -1,0 +1,17 @@
+name: Robocraft
+slug: robocraft
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Sandbox
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/robocraft.jpg
+icon_url: /games/icon/robocraft.png
+is_public: true
+updated: '2019-01-23T08:31:02.407850Z'
+steamid: 301520
+gogslug: ''
+humblestoreid: ''

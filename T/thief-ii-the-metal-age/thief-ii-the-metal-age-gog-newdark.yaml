@@ -1,0 +1,57 @@
+id: 15465
+game_id: 14851
+game_slug: thief-ii-the-metal-age
+name: 'Thief II: The Metal Age'
+year: 2000
+user: appoloin
+runner: wine
+slug: thief-ii-the-metal-age-gog-newdark
+version: GOG + NewDark
+description: "The newdark mod is required. You can download the exe from \r\nhttps://drive.google.com/open?id=1YBaL69D9xHazanNIqo5L14jynl85czcx"
+notes: ''
+created_at: '2019-09-11T23:45:51.093631Z'
+updated_at: '2019-09-11T23:45:51.093660Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 211740
+gogid: 1207659001
+gogslug: thief_2_the_metal_age
+humblestoreid: ''
+script:
+  files:
+  - setup: N/A:Select setup file from GOG
+  - patch: N/A:Select Patch EXE
+  Desktop: true
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      install_mono: false
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2008
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: directx9
+      arch: win32
+      name: winetricks
+  - task:
+      executable: $setup
+      prefix: $GAMEDIR
+      description: Installing Thief 2
+      name: wineexec
+  - task:
+      executable: $patch
+      prefix: $GAMEDIR
+      description: Installing NewDark
+      name: wineexec
+  wine: null
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/GOG.com/Thief 2/Thief2.exe
+    arch: win32

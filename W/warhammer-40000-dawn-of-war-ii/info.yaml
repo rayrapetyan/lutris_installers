@@ -1,0 +1,15 @@
+name: 'Warhammer 40,000: Dawn of War II'
+slug: warhammer-40000-dawn-of-war-ii
+year: null
+platforms:
+- name: Linux
+genres:
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/warhammer-40000-dawn-of-war-ii.jpg
+icon_url: /games/icon/warhammer-40000-dawn-of-war-ii.png
+is_public: true
+updated: '2019-01-23T08:32:05.674880Z'
+steamid: 15620
+gogslug: ''
+humblestoreid: ''

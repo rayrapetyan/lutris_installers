@@ -1,0 +1,83 @@
+id: 5792
+game_id: 13942
+game_slug: starcraft-remastered
+name: Starcraft Remastered
+year: 2017
+user: Dox
+runner: wine
+slug: starcraft-remastered-dx9-to-opengl
+version: DX9 to OpenGL
+description: Starcraft Remastered - DX9 - 64 bit - Staging
+notes: "**IMPORTANT: INSTALL THE DEPENDENCIES FIRST**\r\nSee <a href=\"https://github.com/lutris/lutris/wiki/Game:-Blizzard-App\"\
+  >https://github.com/lutris/lutris/wiki/Game:-Blizzard-App</a>"
+created_at: '2017-09-18T10:01:05.704000Z'
+updated_at: '2019-10-28T21:24:46.915692Z'
+draft: false
+published: true
+published_by: 51687
+rating: '5'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 64bit Wine prefix.
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Arial font
+      app: arial
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting fontsmooth=rbg
+      app: fontsmooth-rgb
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows 10 mode for Wine
+      arch: win64
+      key: Version
+      value: win10
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  - write_json:
+      description: Disabling Sound/Hardware Acceleration/Streaming in Blizzard App
+      data:
+        Client:
+          HardwareAcceleration: 'false'
+          GameLaunchWindowBehavior: '2'
+          Sound:
+            Enabled: 'false'
+          Streaming:
+            StreamingEnabled: 'false'
+      file: $GAMEDIR/drive_c/users/$USER/Application Data/Battle.net/Battle.net.config
+  - task:
+      executable: setup
+      description: 'Installing Blizzard App
+
+        ------------------------------
+
+        Do not try to log into Battle.net. Lutris will automatically close the login
+        window. After Lutris installer is finished, you can start Blizzard App with
+        "Launch the game", and install / locate your Blizzard game.'
+      exclude_processes: Battle.net.exe Agent.exe "Battle.net Helper.exe"
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  files:
+  - setup:
+      filename: Battle.net-Setup.exe
+      url: https://www.battle.net/download/getInstallerForGame?os=win&version=LIVE&gameProgram=BATTLENET_APP
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Battle.net/Battle.net Launcher.exe
+    arch: win64

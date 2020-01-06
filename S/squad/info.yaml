@@ -1,0 +1,18 @@
+name: Squad
+slug: squad
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+- name: RPG
+- name: Simulation
+aliases: []
+banner_url: /games/banner/squad.jpg
+icon_url: /games/icon/squad.png
+is_public: true
+updated: '2019-01-23T08:31:23.371786Z'
+steamid: 393380
+gogslug: ''
+humblestoreid: ''

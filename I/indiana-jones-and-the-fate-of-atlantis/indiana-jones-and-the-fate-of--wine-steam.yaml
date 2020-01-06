@@ -1,0 +1,24 @@
+id: 994
+game_id: 153
+game_slug: indiana-jones-and-the-fate-of-atlantis
+name: Indiana Jones and the Fate of Atlantis
+year: 1992
+user: RobLoach
+runner: winesteam
+slug: indiana-jones-and-the-fate-of--wine-steam
+version: Wine Steam
+description: ''
+notes: ''
+created_at: '2014-10-28T23:17:29.424000Z'
+updated_at: '2014-11-03T14:33:43.959000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 6010
+gogid: 1207666293
+gogslug: indiana_jones_and_the_fate_of_atlantis
+humblestoreid: ''
+script:
+  game:
+    appid: 6010

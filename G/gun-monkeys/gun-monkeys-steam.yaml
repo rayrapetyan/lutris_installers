@@ -1,0 +1,24 @@
+id: 8128
+game_id: 2096
+game_slug: gun-monkeys
+name: Gun Monkeys
+year: null
+user: soredake
+runner: winesteam
+slug: gun-monkeys-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T06:11:02.843538Z'
+updated_at: '2018-05-13T09:12:31.917335Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 239450
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 239450

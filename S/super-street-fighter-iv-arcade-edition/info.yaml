@@ -1,0 +1,18 @@
+name: Ultra Street Fighter IV
+slug: super-street-fighter-iv-arcade-edition
+year: 2008
+platforms:
+- name: Arcade
+- name: Nintendo DS
+- name: Sony Playstation 3
+- name: Windows
+genres:
+- name: Fighting
+aliases: []
+banner_url: /games/banner/super-street-fighter-iv-arcade-edition.jpg
+icon_url: /games/icon/super-street-fighter-iv-arcade-edition.png
+is_public: true
+updated: '2019-01-23T08:31:58.585024Z'
+steamid: 45760
+gogslug: ''
+humblestoreid: ''

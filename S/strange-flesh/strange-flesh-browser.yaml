@@ -1,0 +1,23 @@
+id: 10385
+game_id: 21991
+game_slug: strange-flesh
+name: Strange Flesh
+year: 2017
+user: cxf
+runner: browser
+slug: strange-flesh-browser
+version: Browser
+description: null
+notes: Ad-block must be disabled.
+created_at: '2018-10-01T02:32:06.289020Z'
+updated_at: '2018-10-01T02:32:13.657219Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: http://greatestbear.com/app/index.html

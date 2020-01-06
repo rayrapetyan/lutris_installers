@@ -1,0 +1,24 @@
+id: 11037
+game_id: 22202
+game_slug: creative-destruction-pc
+name: Creative Destruction PC
+year: 2018
+user: OsamaBinlada
+runner: winesteam
+slug: creative-destruction-pc-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-11-30T08:50:52.046000Z'
+updated_at: '2018-12-02T01:59:03.572358Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 893520

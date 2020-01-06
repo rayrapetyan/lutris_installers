@@ -1,0 +1,15 @@
+name: The Crew
+slug: the-crew
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/the-crew.jpg
+icon_url: /games/icon/the-crew.png
+is_public: true
+updated: '2019-11-04T03:37:55.836065Z'
+steamid: 241560
+gogslug: ''
+humblestoreid: ''

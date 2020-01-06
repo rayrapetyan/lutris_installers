@@ -1,0 +1,44 @@
+id: 2853
+game_id: 7832
+game_slug: kings-quest-i-quest-for-the-crown-adg-remake
+name: 'King''s Quest I: Quest for the Crown [ADG Remake]'
+year: null
+user: ssf
+runner: ags
+slug: kings-quest-i-quest-for-the-c-40
+version: '4.0'
+description: null
+notes: "- ignore errors during installation\r\n- don't change the install path"
+created_at: '2016-10-07T11:38:34.432000Z'
+updated_at: '2019-03-19T04:30:49.060829Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $CACHE
+      description: Creating Wine prefix
+      arch: win32
+      name: wine.create_prefix
+  - task:
+      executable: $installer
+      prefix: $CACHE
+      description: Installing ...
+      arch: win32
+      name: wine.wineexec
+  - merge:
+      src: $CACHE/drive_c/Program Files/AGD Interactive/King's Quest I
+      description: Copying files
+      dst: $GAMEDIR
+  files:
+  - installer:
+      filename: Kq1vga41c.exe
+      url: http://agdinteractive.com/countdl.php?action=download&game=11
+  game:
+    main_file: $GAMEDIR/Kq1vga.exe

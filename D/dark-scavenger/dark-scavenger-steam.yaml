@@ -1,0 +1,37 @@
+id: 8017
+game_id: 2574
+game_slug: dark-scavenger
+name: Dark Scavenger
+year: null
+user: Tr4sK
+runner: steam
+slug: dark-scavenger-steam
+version: Steam
+description: null
+notes: "This installer will try to install AdobeAir from the binaries. It seems that\
+  \ the keyring is better supported from Lutris and at least it will try to install\
+  \ it.\r\n\r\nIf Adobe AIR crash, try to install it on your own. That\u2019s how\
+  \ I fixed the issue.\r\n\r\nHere is the repo I used for Debian 9++:\r\nhttp://update.devolo.com/linux/apt/"
+created_at: '2018-04-29T20:27:53.615000Z'
+updated_at: '2018-04-30T06:55:17.197319Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 293880
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: $air
+      dst: $GAMEDIR/AIR/
+  - chmodx: $GAMEDIR/AIR/AdobeAIRInstaller.bin
+  - execute:
+      file: $GAMEDIR/AIR/AdobeAIRInstaller.bin
+      terminal: false
+  files:
+  - air: http://airdownload.adobe.com/air/lin/download/2.6/AdobeAIRInstaller.bin
+  game:
+    appid: 293880

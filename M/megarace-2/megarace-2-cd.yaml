@@ -1,0 +1,53 @@
+id: 16875
+game_id: 1832
+game_slug: megarace-2
+name: MegaRace 2
+year: 1996
+user: legluondunet
+runner: dosbox
+slug: megarace-2-cd
+version: CD
+description: "This script will install \"Megarace 2\" DOS CD edition for DOSBox.\r\
+  \nDuring install please let all options by default.\r\nBig thanks to people who\
+  \ gave their time to permit us playing this game in the best conditions."
+notes: "- You will need the 2 CD only one time during install\r\n- During gaming,\
+  \ type \"CTRL+F4\" to change CD1 to CD2\r\n- x360 gamepad support\r\n- Please report\
+  \ issue concerning this script on my Github page:\r\nhttps://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2019-11-17T17:04:32.759000Z'
+updated_at: '2019-11-17T17:49:00.092451Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: 733760
+gogid: 1207658758
+gogslug: megarace_1_2
+humblestoreid: ''
+script:
+  custom-name: Megarace 2 - CD DOS - DOSBox
+  installer:
+  - insert-disc:
+      requires: m.exe
+      description: Please insert disc 1
+  - extract:
+      src: cdrtools
+      dst: $GAMEDIR
+  - chmodx: script
+  - execute:
+      args: megarace O
+      file: script
+  - insert-disc:
+      requires: track2/bayou.1
+      description: Please insert disc 2
+  - execute:
+      args: mr2fd2
+      file: script
+  - copy:
+      src: conf
+      dst: $GAMEDIR
+  files:
+  - cdrtools: https://github.com/legluondunet/mlls-tools/raw/master/cdrtools/cdrtools.zip
+  - script: https://github.com/legluondunet/mlls-tools/raw/master/scripts/copycd.sh
+  - conf: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Megarace%202/megarace2_dosbox.conf
+  game:
+    main_file: $GAMEDIR/megarace2_dosbox.conf

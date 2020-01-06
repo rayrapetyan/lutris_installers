@@ -1,0 +1,15 @@
+name: 'Total War: WARHAMMER II'
+slug: total-war-warhammer-ii
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Strategy
+aliases: []
+banner_url: /games/banner/total-war-warhammer-ii.jpg
+icon_url: /games/icon/total-war-warhammer-ii.png
+is_public: true
+updated: '2019-05-27T04:26:12.458355Z'
+steamid: 594570
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,31 @@
+id: 432
+game_id: 625
+game_slug: antichamber
+name: Antichamber
+year: 2013
+user: strider
+runner: linux
+slug: antichamber-humble-bundle
+version: Humble Bundle
+description: Humble Bundle version
+notes: ''
+created_at: '2014-02-20T20:37:38.484000Z'
+updated_at: '2019-02-16T14:47:47.909406Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 219890
+gogid: null
+gogslug: ''
+humblestoreid: antichamber
+script:
+  installer:
+  - chmodx: installer
+  - execute:
+      args: -- --destination=$GAMEDIR
+      file: installer
+  files:
+  - installer: N/A:Please select the .sh file downloaded from http://humblebundle.com
+  game:
+    exe: Antichamber.sh

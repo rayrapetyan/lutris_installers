@@ -1,0 +1,38 @@
+id: 9790
+game_id: 920
+game_slug: alien-shooter-2-reloaded
+name: 'Alien Shooter 2: Reloaded'
+year: 2009
+user: LeXofLeviafan
+runner: wine
+slug: alien-shooter-2-reloaded-gog
+version: GOG
+description: This is the Wine+GOG version. You need to provide the GOG windows installer
+notes: ''
+created_at: '2018-08-18T17:01:22.443944Z'
+updated_at: '2018-08-19T19:07:48.225664Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 33120
+gogid: 1207658711
+gogslug: alien_shooter_2_reloaded
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /SUPPRESSMSGBOXES '/DIR=C:/game'
+      description: Installing...
+      name: wineexec
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/game/AlienShooter.exe

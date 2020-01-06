@@ -1,0 +1,60 @@
+id: 15490
+game_id: 16438
+game_slug: lighthouse-the-dark-being
+name: 'Lighthouse: The Dark Being'
+year: 1996
+user: appoloin
+runner: scummvm
+slug: lighthouse-the-dark-being-2cd
+version: 2CD
+description: null
+notes: ''
+created_at: '2019-09-12T17:37:05.510061Z'
+updated_at: '2019-09-12T17:37:05.510090Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: 1322165223
+gogslug: lighthouse_the_dark_being
+humblestoreid: ''
+script:
+  installer:
+  - write_file:
+      content: '#!/bin/bash
+
+        src=$1
+
+        dst=$2
+
+        cp -avr "$src/."  "$dst"'
+      file: $CACHE/bulkcopy.sh
+  - chmodx: $CACHE/bulkcopy.sh
+  - insert-disc:
+      requires: version
+      description: Please insert disc 1
+  - execute:
+      args: $DISC $GAMEDIR
+      file: $CACHE/bulkcopy.sh
+  - execute:
+      args: -R 775  "$GAMEDIR"
+      file: /bin/chmod
+  - execute:
+      args: $GAMEDIR/resource.aud  $GAMEDIR/RESAUD.000
+      file: /bin/mv
+  - insert-disc:
+      requires: version
+      description: Please insert disc 2
+  - execute:
+      args: $DISC $GAMEDIR
+      file: $CACHE/bulkcopy.sh
+  - execute:
+      args: -R 775  "$GAMEDIR"
+      file: /bin/chmod
+  - execute:
+      args: $GAMEDIR/resource.aud  $GAMEDIR/RESAUD.001
+      file: /bin/mv
+  game:
+    game_id: sci
+    path: $GAMEDIR

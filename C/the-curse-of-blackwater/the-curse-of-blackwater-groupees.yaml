@@ -1,0 +1,29 @@
+id: 6639
+game_id: 15081
+game_slug: the-curse-of-blackwater
+name: The Curse of Blackwater
+year: null
+user: FakeShemp
+runner: linux
+slug: the-curse-of-blackwater-groupees
+version: Groupees
+description: null
+notes: ''
+created_at: '2017-12-10T23:57:47.702227Z'
+updated_at: '2017-12-10T23:59:46.631864Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: The Curse of Blackwater
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/The Curse of Blackwater
+  files:
+  - file1: N/A:Please select the Groupees archive

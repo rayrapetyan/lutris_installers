@@ -1,0 +1,32 @@
+id: 6000
+game_id: 11532
+game_slug: 10-second-ninja-x
+name: 10 Second Ninja X
+year: 2016
+user: FakeShemp
+runner: wine
+slug: 10-second-ninja-x-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-10-19T16:50:21.749000Z'
+updated_at: '2018-05-19T03:41:59.104374Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 435790
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR/drive_c/Program Files/10 Second Ninja X
+  files:
+  - file1: N/A:Please select the Humble executable
+  game:
+    prefix: $GAMEDIR
+    exe: $file1
+    arch: win32

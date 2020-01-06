@@ -1,0 +1,35 @@
+id: 4248
+game_id: 667
+game_slug: flatout
+name: FlatOut
+year: 2004
+user: Udi
+runner: wine
+slug: flatout-gog-widescreen-patch
+version: GOG widescreen patch
+description: Widescreen patch for the GOG version. By ThirteenAG.
+notes: ''
+created_at: '2017-06-09T17:55:26.164000Z'
+updated_at: '2019-10-20T00:08:11.984779Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 6220
+gogid: 1207658693
+gogslug: flatout
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/GOG Games/FlatOut/
+      file: patch
+  - task:
+      prefix: $GAMEDIR/prefix
+      key: dinput8
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  files:
+  - patch: https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/flatout/Flatout.WidescreenFix.zip
+  extends: flatout-gog-wine

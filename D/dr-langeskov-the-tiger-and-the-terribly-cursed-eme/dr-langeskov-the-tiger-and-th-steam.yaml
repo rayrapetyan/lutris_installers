@@ -1,0 +1,24 @@
+id: 2462
+game_id: 5535
+game_slug: dr-langeskov-the-tiger-and-the-terribly-cursed-eme
+name: 'Dr. Langeskov, The Tiger, and The Terribly Cursed Emerald: A Whirlwind Heist'
+year: null
+user: linuxgnuru
+runner: winesteam
+slug: dr-langeskov-the-tiger-and-th-steam
+version: Steam
+description: ''
+notes: Installed fine but won't start; will run kind of from command line
+created_at: '2016-08-16T15:03:40.072950Z'
+updated_at: '2016-10-09T21:49:24.566831Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 409160
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 409160

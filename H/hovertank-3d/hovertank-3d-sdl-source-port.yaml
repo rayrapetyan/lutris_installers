@@ -1,0 +1,49 @@
+id: 11237
+game_id: 24298
+game_slug: hovertank-3d
+name: Hovertank 3D
+year: 1991
+user: miky_kr5
+runner: linux
+slug: hovertank-3d-sdl-source-port
+version: SDL source port
+description: Compiles and installs the SDL_Hovertank3D source port from source code.
+  Requires a zip file with the game data files to work.
+notes: Requires CMake, G++ and the SDL 2 development files to be installed system-wide
+created_at: '2018-12-16T07:08:31.459052Z'
+updated_at: '2018-12-17T07:12:27.702573Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  require-binaries: cmake, g++
+  installer:
+  - extract:
+      src: $archive
+      dst: $GAMEDIR
+  - extract:
+      src: $sourceport
+      dst: $CACHE
+  - execute:
+      command: mkdir $CACHE/build
+      working_dir: $CACHE
+  - execute:
+      command: cd $CACHE/build && cmake -D CMAKE_CXX_FLAGS="-fno-operator-names" $CACHE
+      working_dir: $CACHE/build
+  - execute:
+      command: cd $CACHE/build && make
+      working_dir: $CACHE/build
+  - merge:
+      src: $CACHE/build/game
+      dst: $GAMEDIR
+  files:
+  - archive: N/A:Select the game's archive file
+  - sourceport: https://github.com/Codes4Fun/SDL_Hovertank3D/archive/master.zip
+  game:
+    exe: $GAMEDIR/game
+    working_dir: $GAMEDIR

@@ -1,0 +1,27 @@
+id: 12974
+game_id: 14420
+game_slug: wolfenstein-ii-the-new-colossus
+name: 'Wolfenstein II: The New Colossus'
+year: 2017
+user: tokyo_raven_eu
+runner: steam
+slug: wolfenstein-ii-the-new-coloss-steam-proton
+version: Steam Proton
+description: null
+notes: "To make script work you need to enable Proton support for all titles.\r\n\
+  You can do that with heading to Settings --> Steam Play --> Enable Steam Play for\
+  \ all other titles.\r\n\r\nThen restart Steam and you can proceed with installation\
+  \ since game isn't Valve tested."
+created_at: '2019-04-20T07:22:56.922000Z'
+updated_at: '2019-05-19T07:16:28.276478Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 612880
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 612880

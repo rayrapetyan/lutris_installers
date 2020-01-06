@@ -1,0 +1,34 @@
+id: 531
+game_id: 2058
+game_slug: myth-ii-soulblighter
+name: 'Myth II: Soulblighter'
+year: 1998
+user: Xodetaetl
+runner: wine
+slug: myth-ii-soulblighter-patch-18
+version: Patch 1.8
+description: Community patch v1.8 from Project Magma
+notes: ''
+created_at: '2014-08-10T14:23:24.152000Z'
+updated_at: '2018-05-19T03:41:47.822026Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: myth-ii-soulblighter-cd
+  installer:
+  - task:
+      executable: file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: http://ovocean.com/partage/lutris/myth2/Myth2_180.exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Myth II/Myth II.exe
+    arch: win32

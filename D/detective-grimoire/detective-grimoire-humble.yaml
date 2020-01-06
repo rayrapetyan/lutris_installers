@@ -1,0 +1,28 @@
+id: 3976
+game_id: 2769
+game_slug: detective-grimoire
+name: Detective Grimoire
+year: 2014
+user: FakeShemp
+runner: linux
+slug: detective-grimoire-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-30T19:39:44.037050Z'
+updated_at: '2017-05-31T16:23:00.222717Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 272600
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: run.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

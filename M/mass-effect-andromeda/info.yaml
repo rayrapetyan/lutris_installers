@@ -1,0 +1,17 @@
+name: 'Mass Effect: Andromeda'
+slug: mass-effect-andromeda
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: RPG
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/mass-effect-andromeda.jpg
+icon_url: /games/icon/mass-effect-andromeda.png
+is_public: true
+updated: '2019-01-23T08:30:18.684054Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

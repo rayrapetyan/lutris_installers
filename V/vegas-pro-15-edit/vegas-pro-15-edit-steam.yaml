@@ -1,0 +1,38 @@
+id: 11964
+game_id: 24343
+game_slug: vegas-pro-15-edit
+name: VEGAS Pro 15 Edit
+year: 2018
+user: cxf
+runner: winesteam
+slug: vegas-pro-15-edit-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-02-11T07:47:56.165000Z'
+updated_at: '2019-02-11T07:48:42.758221Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 689790
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2008 vcrun2010 vcrun2012 vcrun2013
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing .NET 4.7.2
+      app: dotnet472 win7
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 689790

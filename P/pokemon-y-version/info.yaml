@@ -1,0 +1,16 @@
+name: "Pok\xE9mon Y Version"
+slug: pokemon-y-version
+year: 2013
+platforms:
+- name: Nintendo 3DS
+genres:
+- name: jRPG
+- name: RPG
+aliases: []
+banner_url: /games/banner/pokemon-y-version.jpg
+icon_url: null
+is_public: true
+updated: '2019-06-07T05:21:41.994599Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

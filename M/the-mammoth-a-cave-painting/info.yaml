@@ -1,0 +1,16 @@
+name: 'The Mammoth: A Cave Painting'
+slug: the-mammoth-a-cave-painting
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/the-mammoth-a-cave-painting.jpg
+icon_url: /games/icon/the-mammoth-a-cave-painting.png
+is_public: true
+updated: '2019-01-23T08:31:44.442022Z'
+steamid: 751690
+gogslug: ''
+humblestoreid: ''

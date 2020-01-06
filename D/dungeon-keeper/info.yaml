@@ -1,0 +1,17 @@
+name: Dungeon Keeper
+slug: dungeon-keeper
+year: 1997
+platforms:
+- name: MS-DOS
+genres:
+- name: Action
+- name: Management
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/dungeon-keeper.jpg
+icon_url: /games/icon/dungeon-keeper.png
+is_public: true
+updated: '2019-01-23T08:29:19.156652Z'
+steamid: null
+gogslug: dungeon_keeper
+humblestoreid: ''

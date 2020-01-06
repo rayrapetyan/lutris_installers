@@ -1,0 +1,15 @@
+name: 'Serious Sam: The First Encounter'
+slug: serious-sam-the-first-encounter
+year: 2001
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/serious-sam-the-first-encounter.jpg
+icon_url: /games/icon/serious-sam-the-first-encounter.png
+is_public: true
+updated: '2019-01-23T08:31:09.928093Z'
+steamid: 41050
+gogslug: serious_sam_the_first_encounter
+humblestoreid: serious-sam-hd-the-first-encounter

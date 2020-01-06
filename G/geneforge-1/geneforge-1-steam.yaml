@@ -1,0 +1,24 @@
+id: 1944
+game_id: 907
+game_slug: geneforge-1
+name: Geneforge
+year: null
+user: WildCoder
+runner: winesteam
+slug: geneforge-1-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-01-31T15:01:21.188874Z'
+updated_at: '2016-09-30T20:40:53.732693Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 200960
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 200960

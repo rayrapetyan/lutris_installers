@@ -1,0 +1,24 @@
+id: 810
+game_id: 445
+game_slug: hacker-evolution
+name: Hacker Evolution
+year: null
+user: Xodetaetl
+runner: steam
+slug: hacker-evolution-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T16:32:42.654000Z'
+updated_at: '2014-09-15T17:10:38.862000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 70100
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 70100

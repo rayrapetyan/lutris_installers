@@ -1,0 +1,37 @@
+id: 4182
+game_id: 11601
+game_slug: lewdest-labyrinth
+name: Lewdest Labyrinth
+year: 2016
+user: FakeShemp
+runner: wine
+slug: lewdest-labyrinth-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-06-06T20:31:27.965000Z'
+updated_at: '2018-05-19T03:41:50.610388Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Lewdest Labyrinth
+      file: $file1
+  - task:
+      prefix: $GAMEDIR
+      app: corefonts
+      name: winetricks
+  files:
+  - file1: N/A:Please select the itch.io archive
+  game:
+    prefix: $GAMEDIR
+    args: -force-d3d9
+    exe: drive_c/Program Files/Lewdest Labyrinth/LewdestLabyrinth_V4.exe
+    arch: win32

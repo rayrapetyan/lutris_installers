@@ -1,0 +1,23 @@
+id: 1700
+game_id: 5031
+game_slug: freeciv
+name: Freeciv
+year: 1996
+user: RobLoach
+runner: browser
+slug: freeciv-online
+version: Online
+description: 3d webgl version
+notes: ''
+created_at: '2015-11-06T01:40:51.137000Z'
+updated_at: '2018-08-12T14:56:48.821196Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://www.isotrident.com/webclient/?action=new&renderer=webgl

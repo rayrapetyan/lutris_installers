@@ -1,0 +1,24 @@
+id: 8230
+game_id: 1290
+game_slug: mlb-front-office-manager
+name: "MLB\xAE Front Office Manager"
+year: null
+user: soredake
+runner: winesteam
+slug: mlb-front-office-manager-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T07:31:44.730989Z'
+updated_at: '2018-05-13T09:07:45.993957Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 7780
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 7780

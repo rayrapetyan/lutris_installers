@@ -1,0 +1,24 @@
+id: 2414
+game_id: 5597
+game_slug: the-architect
+name: The Architect
+year: null
+user: gschaffran
+runner: steam
+slug: the-architect-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-08-09T18:14:16.981247Z'
+updated_at: '2016-08-12T06:12:38.252663Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 375420
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 375420

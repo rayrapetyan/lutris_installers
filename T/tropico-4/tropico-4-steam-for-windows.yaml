@@ -1,0 +1,24 @@
+id: 3043
+game_id: 451
+game_slug: tropico-4
+name: Tropico 4
+year: 2011
+user: RobLoach
+runner: winesteam
+slug: tropico-4-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: ''
+created_at: '2016-11-23T14:52:22.223057Z'
+updated_at: '2016-11-23T14:52:36.529147Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: 57690
+gogid: 1435068351
+gogslug: tropico_4
+humblestoreid: tropico-4
+script:
+  game:
+    appid: 57690

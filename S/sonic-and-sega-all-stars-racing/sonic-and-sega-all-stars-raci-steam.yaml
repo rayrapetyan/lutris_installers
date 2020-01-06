@@ -1,0 +1,25 @@
+id: 5295
+game_id: 1247
+game_slug: sonic-and-sega-all-stars-racing
+name: Sonic and SEGA All Stars Racing
+year: 2010
+user: codythedragondude
+runner: winesteam
+slug: sonic-and-sega-all-stars-raci-steam
+version: Steam
+description: to change resolution and other settings right click on the game in lutris
+  click run exe inside wine prefix navigate to the games folder and click on config.exe
+notes: ''
+created_at: '2017-08-07T06:47:16.455000Z'
+updated_at: '2017-08-08T18:02:28.638140Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 34190
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 34190

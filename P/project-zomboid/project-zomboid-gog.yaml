@@ -1,0 +1,34 @@
+id: 2293
+game_id: 1051
+game_slug: project-zomboid
+name: Project Zomboid
+year: 2013
+user: testfest
+runner: linux
+slug: project-zomboid-gog
+version: GOG
+description: null
+notes: "Requires the latest version of GOG's Linux installer.\r\nRequires java 8."
+created_at: '2016-07-10T09:37:19.069000Z'
+updated_at: '2019-09-09T00:55:57.743250Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 108600
+gogid: 1453298883
+gogslug: project_zomboid
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

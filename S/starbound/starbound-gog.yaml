@@ -1,0 +1,34 @@
+id: 3141
+game_id: 532
+game_slug: starbound
+name: Starbound
+year: null
+user: ufokraana
+runner: linux
+slug: starbound-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2016-12-28T05:18:31.371000Z'
+updated_at: '2018-12-23T07:29:41.789638Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 211820
+gogid: 1452598881
+gogslug: starbound
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

@@ -1,0 +1,53 @@
+id: 2882
+game_id: 1415
+game_slug: the-chronicles-of-riddick-assault-on-dark-athena
+name: 'The Chronicles of Riddick: Assault on Dark Athena'
+year: null
+user: ssf
+runner: wine
+slug: the-chronicles-of-riddick-ass-gogcom
+version: GOG.com
+description: 'The GOG version of Chronicles of Riddick: Assault on Dark Athena includes
+  a graphically enhanced remake The Chronicles of Riddick: Escape from Butcher Bay
+  and the sequel, Assault on Dark Athena.'
+notes: ''
+created_at: '2016-10-11T16:40:16.905626Z'
+updated_at: '2019-03-23T16:39:38.661207Z'
+draft: false
+published: true
+published_by: null
+rating: '1'
+steamid: 9860
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  gogid: the_chronicles_of_riddick_assault_on_dark_athena
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /VERYSILENT /SP- /NOCANCEL /SUPPRESSMSGBOXES '/DIR=C:/game'
+      description: Installing...
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Disabling unused WINE features
+      app: sandbox
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: windowmanagermanaged=n
+      silent: true
+      name: winetricks
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/game/DarkAthena_Launcher.exe
+    arch: win32

@@ -1,0 +1,17 @@
+name: BRINK
+slug: brink
+year: 2011
+platforms:
+- name: Sony Playstation 3
+- name: Windows
+genres:
+- name: Shooter
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/brink.jpg
+icon_url: /games/icon/brink.png
+is_public: true
+updated: '2019-01-23T08:28:42.225179Z'
+steamid: 22350
+gogslug: ''
+humblestoreid: ''

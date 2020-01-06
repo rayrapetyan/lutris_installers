@@ -1,0 +1,32 @@
+id: 6108
+game_id: 13616
+game_slug: swordlord
+name: Swordlord
+year: null
+user: FakeShemp
+runner: wine
+slug: swordlord-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-10-24T18:52:54.349527Z'
+updated_at: '2018-05-19T03:41:59.588410Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 512150
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Swordlord/Swordlord.exe
+    arch: win32

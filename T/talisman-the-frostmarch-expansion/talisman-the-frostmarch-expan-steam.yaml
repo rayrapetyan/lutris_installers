@@ -1,0 +1,25 @@
+id: 9735
+game_id: 20936
+game_slug: talisman-the-frostmarch-expansion
+name: 'Talisman: The Frostmarch Expansion'
+year: 2014
+user: meltinn
+runner: winesteam
+slug: talisman-the-frostmarch-expan-steam
+version: Steam
+description: 'Requires Talisman: Digital Edition.'
+notes: ''
+created_at: '2018-08-14T23:35:23.126799Z'
+updated_at: '2018-08-16T06:22:14.312190Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: talisman-digital-edition-steam
+  game:
+    appid: 267772

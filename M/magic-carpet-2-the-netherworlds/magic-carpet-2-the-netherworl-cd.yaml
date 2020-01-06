@@ -1,0 +1,60 @@
+id: 7733
+game_id: 17723
+game_slug: magic-carpet-2-the-netherworlds
+name: 'Magic Carpet 2: The Netherworlds'
+year: 1995
+user: founderio
+runner: dosbox
+slug: magic-carpet-2-the-netherworl-cd
+version: CD
+description: null
+notes: "During setup, the installer will call the sound setup. When presented with\
+  \ the \"Sound Configuration Utility\" chose the following options, in order:\r\n\
+  * \"Select and configure digital audio driver\" (the second option)\r\n* \"Creative\
+  \ Labs Sound Blaster 16 or AWE32\" (the default option)\r\n* \"Attempt to configure\
+  \ sound driver automatically\" (the default option)\r\n* \"OK\"\r\n* \"Done\"\r\n\
+  \r\nYou can use the mouse to select the options. The red square is your cursor.\r\
+  \n\r\nOnce in the game, hit 'R' to switch to high res mode."
+created_at: '2018-04-02T18:28:44.558000Z'
+updated_at: '2018-05-02T01:01:09.144197Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1207659187
+gogslug: magic_carpet_2_the_netherworlds
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: netherw.exe
+  - merge:
+      src: $DISC
+      dst: $GAMEDIR/
+  - write_config:
+      section: dosbox
+      key: memsize
+      value: 64
+      file: $GAMEDIR/dosbox_netherw.conf
+  - write_config:
+      section: cpu
+      key: cycles
+      value: fixed 45000
+      file: $GAMEDIR/dosbox_netherw.conf
+  - write_config:
+      section: cpu
+      key: cycleup
+      value: 5000
+      file: $GAMEDIR/dosbox_netherw.conf
+  - write_config:
+      section: cpu
+      key: cycledown
+      value: 5000
+      file: $GAMEDIR/dosbox_netherw.conf
+  - task:
+      executable: $GAMEDIR/nwsetup.bat
+      name: dosexec
+  game:
+    config_file: $GAMEDIR/dosbox_netherw.conf
+    main_file: $GAMEDIR/netherw.exe

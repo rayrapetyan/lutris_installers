@@ -1,0 +1,32 @@
+id: 10214
+game_id: 14248
+game_slug: jydge
+name: JYDGE
+year: 2017
+user: Uzak
+runner: linux
+slug: jydge-humble-bundle
+version: Humble Bundle
+description: null
+notes: ''
+created_at: '2018-09-16T12:47:18.244000Z'
+updated_at: '2018-09-18T07:00:57.886078Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 654050
+gogid: 1352176936
+gogslug: jydge
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $GAMEDIR/
+      file: $archive
+  files:
+  - archive: N/A:Select the Linux archive downloaded from HumbleBundle
+  game:
+    exe: $GAMEDIR/JYDGE
+    working_dir: $GAMEDIR

@@ -1,0 +1,15 @@
+name: Aberoth
+slug: aberoth
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: MMORPG
+aliases: []
+banner_url: /games/banner/aberoth.jpg
+icon_url: /games/icon/aberoth.png
+is_public: true
+updated: '2019-01-23T08:28:10.268529Z'
+steamid: 354200
+gogslug: ''
+humblestoreid: ''

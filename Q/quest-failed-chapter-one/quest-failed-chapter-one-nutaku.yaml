@@ -1,0 +1,31 @@
+id: 13867
+game_id: 16250
+game_slug: quest-failed-chapter-one
+name: Quest Failed - Chapter One
+year: 2016
+user: kimchitea
+runner: linux
+slug: quest-failed-chapter-one-nutaku
+version: Nutaku
+description: null
+notes: ''
+created_at: '2019-06-02T06:45:10.731000Z'
+updated_at: '2019-09-09T01:46:34.157762Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Quest Failed - Chapter One.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Quest Failed - Chapter One.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Quest Failed - Chapter One
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Quest Failed - Chapter One
+  files:
+  - file1: N/A:Please select the game archive

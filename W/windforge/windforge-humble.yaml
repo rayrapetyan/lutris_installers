@@ -1,0 +1,33 @@
+id: 4803
+game_id: 2381
+game_slug: windforge
+name: Windforge
+year: null
+user: FakeShemp
+runner: wine
+slug: windforge-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-07-04T18:50:12.235000Z'
+updated_at: '2018-05-19T03:41:55.292946Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 266170
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Snowed In Studios/Windforge/Bin/Windforge.exe
+    arch: win32

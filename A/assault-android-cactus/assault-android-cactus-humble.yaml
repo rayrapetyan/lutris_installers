@@ -1,0 +1,31 @@
+id: 3971
+game_id: 518
+game_slug: assault-android-cactus
+name: Assault Android Cactus
+year: null
+user: FakeShemp
+runner: linux
+slug: assault-android-cactus-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-30T17:52:35.506837Z'
+updated_at: '2017-05-31T16:26:25.860378Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 250110
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: cactus.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/cactus.x86
+  - chmodx: $GAMEDIR/cactus.x86_64
+  exe64: cactus.x86_64
+  files:
+  - file1: N/A:Please select the Humble archive

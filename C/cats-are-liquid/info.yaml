@@ -1,0 +1,18 @@
+name: Cats are Liquid - A Light in the Shadows
+slug: cats-are-liquid
+year: 2015
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Adventure
+- name: Indie
+- name: Platformer
+aliases: []
+banner_url: /games/banner/cats-are-liquid.jpg
+icon_url: /games/icon/cats-are-liquid.png
+is_public: false
+updated: '2019-04-03T08:46:24.837565Z'
+steamid: 498330
+gogslug: ''
+humblestoreid: ''

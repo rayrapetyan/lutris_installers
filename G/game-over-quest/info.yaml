@@ -1,0 +1,16 @@
+name: Game Over Quest
+slug: game-over-quest
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/game-over-quest.jpg
+icon_url: /games/icon/game-over-quest.png
+is_public: true
+updated: '2019-01-27T01:29:48.077499Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

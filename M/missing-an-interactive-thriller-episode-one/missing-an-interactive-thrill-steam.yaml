@@ -1,0 +1,24 @@
+id: 2977
+game_id: 5539
+game_slug: missing-an-interactive-thriller-episode-one
+name: 'MISSING: An Interactive Thriller - Episode One'
+year: null
+user: dj_who
+runner: steam
+slug: missing-an-interactive-thrill-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-11-04T23:20:06.651000Z'
+updated_at: '2016-12-30T02:12:37.442180Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 354650
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 354650

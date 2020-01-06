@@ -1,0 +1,17 @@
+name: ASTROKILL
+slug: astrokill
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Space flight
+- name: Space simulation
+aliases: []
+banner_url: /games/banner/astrokill.jpg
+icon_url: /games/icon/astrokill.png
+is_public: true
+updated: '2019-01-23T08:28:27.880733Z'
+steamid: 376880
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,68 @@
+id: 3031
+game_id: 8483
+game_slug: bethesda-launcher
+name: Bethesda Launcher
+year: 2015
+user: RobLoach
+runner: wine
+slug: bethesda-launcher-latest-w-dxvk
+version: Latest w/ DXVK
+description: null
+notes: "Included is a script named <tt>helper.sh</tt>, placed in the launcher folder,\
+  \ it's used to workaround an issue with installing and updating games. \r\n\r\n\
+  It's located in Bethesda Launcher folder <tt>$GAMEDIR/drive_c/Program Files (x86)/Bethesda.Net\
+  \ Launcher</tt>\r\n\r\nTo use: Install your game through the launcher and wait for\
+  \ the error, open a terminal, <tt>cd</tt> into your Bethesda.net Launcher folder,\
+  \ and run <tt>./helper.sh</tt>. Install your game."
+created_at: '2016-11-21T06:36:28.101000Z'
+updated_at: '2019-03-26T01:09:26.248557Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2012 corefonts win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Installing Bethesda Launcher. Please do not sign in. Launcher will
+        close shortly after opening.
+      arch: win64
+      args: /silent
+      exclude_processes: BethesdaNetLauncher.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  - move:
+      src: helper
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Bethesda.net Launcher
+  - chmodx: $GAMEDIR/drive_c/Program Files (x86)/Bethesda.net Launcher/helper.sh
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Bethesda.net Launcher/BethesdaNetLauncher.exe
+    working_dir: $GAMEDIR/drive_c/Program Files (x86)/Bethesda.net Launcher
+    arch: win64
+  system:
+    env:
+      DXVK_HUD: 0
+  wine:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  files:
+  - setup: https://download.cdp.bethesda.net/BethesdaNetLauncher_Setup.exe
+  - helper: https://raw.githubusercontent.com/Makaronelle/bethesda-linux-helper/master/helper.sh

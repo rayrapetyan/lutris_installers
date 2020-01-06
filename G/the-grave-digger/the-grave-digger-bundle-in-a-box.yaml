@@ -1,0 +1,35 @@
+id: 4857
+game_id: 6791
+game_slug: the-grave-digger
+name: The Grave Digger
+year: null
+user: FakeShemp
+runner: linux
+slug: the-grave-digger-bundle-in-a-box
+version: Bundle in a Box
+description: ''
+notes: ''
+created_at: '2017-07-06T17:50:58.321926Z'
+updated_at: '2017-07-09T20:11:10.379405Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 345340
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: GraveDigger.x86
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/TheGraveDigger
+      dst: $GAMEDIR
+  - chmodx: $GAMEDIR/GraveDigger.x86
+  - chmodx: $GAMEDIR/GraveDigger.x86_64
+  exe64: GraveDigger.x86_64
+  files:
+  - file1: N/A:Please select the BIAB archive

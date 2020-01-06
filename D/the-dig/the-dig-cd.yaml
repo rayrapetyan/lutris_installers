@@ -1,0 +1,35 @@
+id: 16522
+game_id: 154
+game_slug: the-dig
+name: The Dig
+year: 1995
+user: monyarm
+runner: scummvm
+slug: the-dig-cd
+version: CD
+description: Installs The Dig from the CD
+notes: ''
+created_at: '2019-11-01T19:03:12.481000Z'
+updated_at: '2019-11-01T22:59:15.422455Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 6040
+gogid: 1425299904
+gogslug: the_dig
+humblestoreid: ''
+script:
+  scummvm:
+    fullscreen: true
+  installer:
+  - insert-disc:
+      requires: DIG/DIG.FLC
+      description: Please insert disc
+  - merge:
+      src: $DISC/DIG
+      dst: $GAMEDIR
+  game:
+    game_id: dig
+    path: $GAMEDIR
+    subtitles: true

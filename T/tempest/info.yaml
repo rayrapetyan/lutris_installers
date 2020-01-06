@@ -1,0 +1,17 @@
+name: Tempest
+slug: tempest
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Business
+- name: Fighting
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/tempest.jpg
+icon_url: /games/icon/tempest.png
+is_public: false
+updated: '2019-01-23T08:31:36.696574Z'
+steamid: 418180
+gogslug: tempest
+humblestoreid: ''

@@ -1,0 +1,81 @@
+id: 13593
+game_id: 27299
+game_slug: return-of-reckoning
+name: Return of Reckoning
+year: 2019
+user: Leylan
+runner: wine
+slug: return-of-reckoning-01
+version: '0.1'
+description: Draft
+notes: ''
+created_at: '2019-05-17T23:53:04.049539Z'
+updated_at: '2019-05-17T23:53:04.049562Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing fonts
+      app: corefonts
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Visual C++ 2017
+      app: vcrun2017
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing DotNet 4.0
+      app: dotnet40
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Directx3D 9.0c
+      app: d3dx9
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows version to Windows 10
+      app: win10
+      name: winetricks
+  - execute:
+      command: mkdir -p "$GAMEDIR/drive_c/Program Files (x86)/Return of Reckoning/"
+  - move:
+      src: launcher
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Return of Reckoning/RoRLauncher.exe
+  - task:
+      executable: launcher
+      prefix: $GAMEDIR
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    args: -maploadinfo
+    exe: drive_c/Program Files (x86)/Return of Reckoning/RoRLauncher.exe
+    arch: win64
+  system:
+    env:
+      DXVK_LOG_LEVEL: none
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_STATE_CACHE: 1
+      mesa_glthread: 'true'
+  wine:
+    version: tkg-4.0-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - launcher: https://launcher.returnofreckoning.com/RoRLauncher.exe

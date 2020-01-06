@@ -1,0 +1,16 @@
+name: Tick's Tales
+slug: ticks-tales
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/ticks-tales.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:50.137313Z'
+steamid: 411610
+gogslug: ''
+humblestoreid: ''

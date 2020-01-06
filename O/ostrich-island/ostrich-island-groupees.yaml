@@ -1,0 +1,30 @@
+id: 5515
+game_id: 3798
+game_slug: ostrich-island
+name: Ostrich Island
+year: null
+user: FakeShemp
+runner: linux
+slug: ostrich-island-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-24T12:28:40.318442Z'
+updated_at: '2017-08-27T21:48:09.676939Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 337270
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: OstrichIsland.x86
+  installer:
+  - extract:
+      format: tgz
+      file: $file1
+  exe64: OstrichIsland.x86_64
+  files:
+  - file1: N/A:Please select the Groupees archive

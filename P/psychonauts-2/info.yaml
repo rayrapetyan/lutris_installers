@@ -1,0 +1,17 @@
+name: Psychonauts 2
+slug: psychonauts-2
+year: 2020
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: Platformer
+aliases: []
+banner_url: /games/banner/psychonauts-2.jpg
+icon_url: /games/icon/psychonauts-2.png
+is_public: true
+updated: '2019-06-13T21:12:20.938135Z'
+steamid: 607080
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,15 @@
+name: Hearthstone
+slug: hearthstone
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Cards
+aliases: []
+banner_url: /games/banner/hearthstone.jpg
+icon_url: /games/icon/hearthstone.png
+is_public: true
+updated: '2019-01-23T08:29:48.039727Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

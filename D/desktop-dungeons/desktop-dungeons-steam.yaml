@@ -1,0 +1,24 @@
+id: 574
+game_id: 2105
+game_slug: desktop-dungeons
+name: Desktop Dungeons
+year: null
+user: Xodetaetl
+runner: steam
+slug: desktop-dungeons-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2014-09-14T19:11:06.954000Z'
+updated_at: '2014-09-14T19:11:11.483000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 226620
+gogid: 1207664703
+gogslug: desktop_dungeons
+humblestoreid: ''
+script:
+  game:
+    appid: 226620

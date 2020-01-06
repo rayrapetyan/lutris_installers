@@ -1,0 +1,56 @@
+id: 11327
+game_id: 12086
+game_slug: the-simpsons-hit-run
+name: 'The Simpsons: Hit & Run'
+year: 2003
+user: CodingKoopa
+runner: wine
+slug: the-simpsons-hit-run-pc-multiplayer-launc
+version: PC Multiplayer Launcher v16
+description: "Includes Lucas' Simpsons Hit & Run Multiplayer Launcher v16, for:\r\n\
+  \r\n- Improved game compatibility on modern computers.\r\n\r\n- Tweaks to change\
+  \ how the game runs.\r\n\r\n- The ability to play mods for the game, with other\
+  \ players.\r\n\r\nFor more info on the multiplayer launcher, see https://donut.team/q/mp."
+notes: ''
+created_at: '2018-12-24T18:33:52.936000Z'
+updated_at: '2018-12-27T01:27:15.407657Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .NET 3.5 Service Pack 1 runtime
+      app: dotnet35sp1
+      name: winetricks
+  - extract:
+      description: Extracting mod launcher archive
+      dst: drive_c/Program Files/Lucas Stuff/Lucas' Simpsons Hit & Run Tools/Lucas'
+        Simpsons Hit & Run Multiplayer Launcher/
+      file: multiplayer-launcher-archive
+  - task:
+      prefix: $GAMEDIR
+      description: Setting mod launcher game EXE path registry key
+      key: Game EXE Path
+      value: $GAMEDIR/Simpsons.exe
+      path: HKEY_CURRENT_USER\Software\Lucas Stuff\Lucas' Simpsons Hit & Run Tools\
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      description: Setting mod launcher game directory path registry key
+      key: Game Path
+      value: $GAMEDIR
+      path: HKEY_CURRENT_USER\Software\Lucas Stuff\Lucas' Simpsons Hit & Run Tools\
+      name: set_regedit
+  files:
+  - multiplayer-launcher-archive: http://multiplayer.donutteam.com/game/sharmp/downloads/sharmp16.zip
+  game:
+    custom-name: Lucas Simpsons Hit & Run Multiplayer
+    exe: drive_c/Program Files/Lucas Stuff/Lucas' Simpsons Hit & Run Tools/Lucas'
+      Simpsons Hit & Run Multiplayer Launcher/Launch.exe

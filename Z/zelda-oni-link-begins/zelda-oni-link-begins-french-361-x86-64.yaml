@@ -1,0 +1,37 @@
+id: 2156
+game_id: 6309
+game_slug: zelda-oni-link-begins
+name: 'Zelda: Oni Link Begins'
+year: 2009
+user: ssf
+runner: linux
+slug: zelda-oni-link-begins-french-361-x86-64
+version: french 3.6.1 - x86-64
+description: null
+notes: ''
+created_at: '2016-06-19T16:22:10.958000Z'
+updated_at: '2018-07-21T04:38:29.933902Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: start.sh
+  installer:
+  - extract:
+      format: tgz
+      file: game
+  - move:
+      src: $CACHE/fixlibs.sh
+      dst: $GAMEDIR/start.sh
+  - chmodx: $GAMEDIR/start.sh
+  - execute:
+      args: -i 's/<GAMEBIN>/ZeldaOLB/' $GAMEDIR/start.sh
+      file: /bin/sed
+  files:
+  - game: http://www.zeldaroth.fr/compteur.php?id=65
+  - fixlib: https://raw.githubhttps://raw.githubusercontent.com/AccountOneOff/lutris_files/master/fixlibs.sh

@@ -1,0 +1,24 @@
+id: 9828
+game_id: 233
+game_slug: worms-ultimate-mayhem
+name: Worms Ultimate Mayhem
+year: null
+user: Mexx
+runner: winesteam
+slug: worms-ultimate-mayhem-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-20T22:00:51.778589Z'
+updated_at: '2018-08-21T08:18:47.209207Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 70600
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 70600

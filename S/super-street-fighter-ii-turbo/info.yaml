@@ -1,0 +1,18 @@
+name: Super Street Fighter II Turbo
+slug: super-street-fighter-ii-turbo
+year: 1994
+platforms:
+- name: Amiga
+- name: Arcade
+- name: MS-DOS
+- name: Sega Dreamcast
+genres:
+- name: Fighting
+aliases: []
+banner_url: /games/banner/super-street-fighter-ii-turbo.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:31.486693Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

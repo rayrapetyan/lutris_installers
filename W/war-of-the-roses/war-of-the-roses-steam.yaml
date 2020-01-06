@@ -1,0 +1,24 @@
+id: 2060
+game_id: 823
+game_slug: war-of-the-roses
+name: War of the Roses
+year: null
+user: jrb0001
+runner: winesteam
+slug: war-of-the-roses-steam
+version: Steam
+description: ''
+notes: The game uses EasyAntiCheat which prevents the launch.
+created_at: '2016-05-01T12:02:15.127606Z'
+updated_at: '2016-08-12T00:52:13.292890Z'
+draft: false
+published: true
+published_by: null
+rating: '1'
+steamid: 42160
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 42160

@@ -1,0 +1,24 @@
+id: 661
+game_id: 1422
+game_slug: nuclear-throne
+name: Nuclear Throne
+year: null
+user: Xodetaetl
+runner: steam
+slug: nuclear-throne-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T11:48:30.725000Z'
+updated_at: '2014-09-15T11:52:54.964000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 242680
+gogid: 1448617555
+gogslug: nuclear_throne
+humblestoreid: ''
+script:
+  game:
+    appid: 242680

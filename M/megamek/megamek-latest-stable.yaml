@@ -1,0 +1,31 @@
+id: 2179
+game_id: 6320
+game_slug: megamek
+name: MegaMek
+year: null
+user: Lulu
+runner: linux
+slug: megamek-latest-stable
+version: Latest stable
+description: Latest version downloaded from SourceForge
+notes: Requires Java (probably already installed on your system)
+created_at: '2016-06-20T22:21:28.825043Z'
+updated_at: '2016-07-08T21:05:18.953820Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: startup.sh
+  installer:
+  - extract:
+      format: tgz
+      file: megamek-game
+  - chmodx: $GAMEDIR/startup.sh
+  files:
+  - megamek-game: https://sourceforge.net/projects/megamek/files/latest/download?source=files
+  steamid: null

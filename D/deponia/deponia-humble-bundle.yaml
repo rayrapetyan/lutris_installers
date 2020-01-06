@@ -1,0 +1,29 @@
+id: 2808
+game_id: 638
+game_slug: deponia
+name: Deponia
+year: 2012
+user: strider
+runner: linux
+slug: deponia-humble-bundle
+version: Humble Bundle
+description: ''
+notes: ''
+created_at: '2016-09-30T06:29:03.406252Z'
+updated_at: '2016-09-30T06:30:27.698417Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 214340
+gogid: 1207659103
+gogslug: deponia
+humblestoreid: deponia
+script:
+  exe: start
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: game
+  files:
+  - game: N/A:Please select the Humble Bundle Linux installer

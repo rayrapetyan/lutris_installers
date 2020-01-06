@@ -1,0 +1,17 @@
+name: Fatal Fury Special
+slug: fatal-fury-special
+year: 1993
+platforms:
+- name: Arcade
+- name: Linux
+- name: Neo Geo
+genres:
+- name: Fighting
+aliases: []
+banner_url: /games/banner/fatal-fury-special.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:29.241191Z'
+steamid: null
+gogslug: fatal_fury_special
+humblestoreid: ''

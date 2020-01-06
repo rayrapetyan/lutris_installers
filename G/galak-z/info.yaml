@@ -1,0 +1,15 @@
+name: GALAK-Z
+slug: galak-z
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/galak-z.jpg
+icon_url: /games/icon/galak-z.png
+is_public: true
+updated: '2019-01-23T08:29:36.981075Z'
+steamid: 300580
+gogslug: galak_z
+humblestoreid: ''

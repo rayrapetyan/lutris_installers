@@ -1,0 +1,15 @@
+name: Battlefield 3
+slug: battlefield-3
+year: 2011
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/battlefield-3.jpg
+icon_url: /games/icon/battlefield-3.png
+is_public: true
+updated: '2019-01-23T08:28:32.901818Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

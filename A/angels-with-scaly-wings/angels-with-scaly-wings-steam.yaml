@@ -1,0 +1,24 @@
+id: 7485
+game_id: 15091
+game_slug: angels-with-scaly-wings
+name: Angels with Scaly Wings
+year: 2017
+user: t-rex91
+runner: steam
+slug: angels-with-scaly-wings-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-07T15:53:16.855575Z'
+updated_at: '2018-03-07T19:17:57.942287Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 571880
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 571880

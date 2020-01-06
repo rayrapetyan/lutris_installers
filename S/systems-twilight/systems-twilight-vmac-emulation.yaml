@@ -1,0 +1,32 @@
+id: 5832
+game_id: 14113
+game_slug: systems-twilight
+name: System's Twilight
+year: 1994
+user: maxlefou
+runner: wine
+slug: systems-twilight-vmac-emulation
+version: vMac Emulation
+description: ''
+notes: ''
+created_at: '2017-09-21T12:55:55.107000Z'
+updated_at: '2017-10-27T06:11:07.501152Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: archive
+  files:
+  - archive: http://eblong.com/zarf/ftp/Systems-Twilight-Win.zip
+  game:
+    prefix: $GAMEDIR
+    args: disk1.dsk disk2.dsk
+    exe: Mini vMac.exe

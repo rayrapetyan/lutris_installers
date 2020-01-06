@@ -1,0 +1,17 @@
+name: 'Imperium Galactica II: Alliances'
+slug: imperium-galactica-ii-alliances
+year: 1999
+platforms:
+- name: Linux
+genres:
+- name: Real-time
+- name: Sci-fi
+- name: Strategy
+aliases: []
+banner_url: /games/banner/imperium-galactica-ii-alliances.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:55.704942Z'
+steamid: null
+gogslug: imperium_galactica_ii_alliances
+humblestoreid: ''

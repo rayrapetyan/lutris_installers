@@ -1,0 +1,24 @@
+id: 8138
+game_id: 752
+game_slug: archeblade
+name: Archeblade
+year: null
+user: soredake
+runner: winesteam
+slug: archeblade-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T06:15:26.699866Z'
+updated_at: '2018-05-13T09:14:04.438156Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 207230
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 207230

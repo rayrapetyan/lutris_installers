@@ -1,0 +1,19 @@
+name: Double Cross
+slug: double-cross
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Indie
+- name: Mystery
+- name: Platformer
+aliases: []
+banner_url: /games/banner/double-cross.jpg
+icon_url: null
+is_public: true
+updated: '2019-04-26T07:11:14.847379Z'
+steamid: 838010
+gogslug: ''
+humblestoreid: ''

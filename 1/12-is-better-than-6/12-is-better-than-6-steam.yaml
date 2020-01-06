@@ -1,0 +1,24 @@
+id: 3464
+game_id: 6751
+game_slug: 12-is-better-than-6
+name: 12 is Better Than 6
+year: 2015
+user: liberodark
+runner: steam
+slug: 12-is-better-than-6-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-04-01T09:36:41.258736Z'
+updated_at: '2017-04-03T19:05:23.086524Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 410110
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 410110

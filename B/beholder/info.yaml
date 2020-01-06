@@ -1,0 +1,17 @@
+name: Beholder
+slug: beholder
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Indie
+- name: Strategy
+aliases: []
+banner_url: /games/banner/beholder.jpg
+icon_url: /games/icon/beholder.png
+is_public: true
+updated: '2019-11-18T03:59:51.558478Z'
+steamid: 475550
+gogslug: beholder
+humblestoreid: ''

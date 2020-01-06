@@ -1,0 +1,33 @@
+id: 8858
+game_id: 19481
+game_slug: star-trek-armada
+name: Star Trek - Armada
+year: 2000
+user: stevecrox
+runner: wine
+slug: star-trek-armada-cd
+version: CD
+description: null
+notes: ''
+created_at: '2018-06-22T21:55:23.790000Z'
+updated_at: '2018-08-02T07:45:37.582131Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: file_id
+      dst: $GAMEDIR
+  files:
+  - file_id: h"N/A:Select the game's setup file"
+  - unredistribuable_file: N/A
+  game:
+    prefix: $GAMEDIR
+    args: -arg
+    exe: drive_c/Program Files/Activision/Star Trek - Armada/Armada.exe

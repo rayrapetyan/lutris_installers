@@ -1,0 +1,16 @@
+name: Hawken
+slug: hawken
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+aliases: []
+banner_url: /games/banner/hawken.jpg
+icon_url: /games/icon/hawken.png
+is_public: true
+updated: '2019-01-23T08:29:47.799823Z'
+steamid: 271290
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,88 @@
+id: 13282
+game_id: 16721
+game_slug: starship-titanic
+name: Starship Titanic
+year: 1998
+user: legluondunet
+runner: wine
+slug: starship-titanic-cd-cnc-ddraw
+version: CD + cnc-ddraw
+description: "This script will install \"Starship Titanic\" CD edition with support\
+  \ for modern screen resolution.\r\nDuring install please let all options by default.\r\
+  \nThis script uses cnc-ddraw: https://github.com/CnCNet/cnc-ddraw\r\nTo modify graphic\
+  \ config, edit ddraw.ini text file. \r\nLook at ddraw_original.ini file for instructions.\r\
+  \nBig thanks to people who gave their time to permit us playing this game in the\
+  \ best conditions."
+notes: "- Please report issue concerning this script on my github page:\r\nhttps://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2019-05-02T10:39:31.867000Z'
+updated_at: '2019-09-09T00:22:46.001481Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 467290
+gogid: 1441102382
+gogslug: starship_titanic
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Starship Titanic/St.exe
+  installer:
+  - insert-disc:
+      requires: Autorun.exe
+  - task:
+      executable: $GAMEDIR/drive_c/windows/explorer.exe
+      args: /desktop=StarshipTitanic,1024x780 $DISC/Autorun.exe
+      description: Running setup of the game. Just proceed and keep all settings at
+        their defaults
+      name: wineexec
+  - extract:
+      dst: $GAMEDIR/drive_c/Starship Titanic/
+      file: cncddraw
+  - execute:
+      command: cp "$GAMEDIR/drive_c/Starship Titanic/ddraw.ini" "$GAMEDIR/drive_c/Starship
+        Titanic/ddraw_original.ini"
+  - write_config:
+      data:
+        ddraw:
+          windowed: true
+          maintas: true
+          maxfps: -1
+          renderer: opengl
+          border: false
+          width: $RESOLUTION_WIDTH
+          vsync: true
+          height: $RESOLUTION_HEIGHT
+          fullscreen: false
+          singlecpu: false
+      file: $GAMEDIR/drive_c/Starship Titanic/ddraw.ini
+      merge: true
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: native,builtin
+      key: ddraw
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides\
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_DWORD
+      value: '00000000'
+      key: csmt
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D\
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: 0 0 0
+      key: background
+      path: HKEY_CURRENT_USER\Control Panel\Colors\
+  wine:
+    Desktop: true
+  files:
+  - cncddraw: https://github.com/CnCNet/cnc-ddraw/files/3139881/ddraw.zip

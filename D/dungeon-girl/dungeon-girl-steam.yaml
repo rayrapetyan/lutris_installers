@@ -1,0 +1,27 @@
+id: 9506
+game_id: 20561
+game_slug: dungeon-girl
+name: Dungeon Girl
+year: null
+user: sunderkeenin
+runner: winesteam
+slug: dungeon-girl-steam
+version: Steam
+description: null
+notes: Weird kerning on text but game is functional. No tweaks included or required.
+created_at: '2018-08-01T00:16:01.828000Z'
+updated_at: '2018-08-01T01:00:13.278554Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 494090
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    WineDesktop: 1024x768
+    Desktop: true
+  game:
+    appid: 494090

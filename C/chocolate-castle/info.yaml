@@ -1,0 +1,15 @@
+name: Chocolate Castle
+slug: chocolate-castle
+year: 2007
+platforms:
+- name: Linux
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/chocolate-castle.jpg
+icon_url: /games/icon/chocolate-castle.png
+is_public: true
+updated: '2019-01-23T08:28:51.696814Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

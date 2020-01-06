@@ -1,0 +1,16 @@
+name: 'Duke Nukem: Total Meltdown'
+slug: duke-nukem-total-meltdown
+year: 1996
+platforms:
+- name: Sony PlayStation
+genres:
+- name: Action
+- name: FPS
+aliases: []
+banner_url: /games/banner/duke-nukem-total-meltdown.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:18.847227Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

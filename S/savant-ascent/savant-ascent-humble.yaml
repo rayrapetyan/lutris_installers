@@ -1,0 +1,29 @@
+id: 3909
+game_id: 530
+game_slug: savant-ascent
+name: Savant - Ascent
+year: 2013
+user: FakeShemp
+runner: linux
+slug: savant-ascent-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-26T16:20:54.240524Z'
+updated_at: '2017-05-27T21:17:36.183076Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 259530
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: runner
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/runner
+  files:
+  - file1: N/A:Please select the Humble archive

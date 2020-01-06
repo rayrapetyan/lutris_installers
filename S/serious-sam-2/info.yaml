@@ -1,0 +1,15 @@
+name: Serious Sam 2
+slug: serious-sam-2
+year: 2005
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/serious-sam-2.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:09.690740Z'
+steamid: 204340
+gogslug: ''
+humblestoreid: ''

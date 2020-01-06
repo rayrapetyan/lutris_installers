@@ -1,0 +1,30 @@
+id: 10829
+game_id: 23352
+game_slug: hexoshi
+name: Hexoshi
+year: 2016
+user: basxto
+runner: linux
+slug: hexoshi-02
+version: '0.2'
+description: null
+notes: ''
+created_at: '2018-11-11T01:04:40.291000Z'
+updated_at: '2018-11-12T18:57:20.300794Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: game
+  files:
+  - game: http://download.savannah.gnu.org/releases/hexoshi/0.2/hexoshi-0.2-gnulinux-x86_64.tar.gz
+  game:
+    exe: $GAMEDIR/hexoshi

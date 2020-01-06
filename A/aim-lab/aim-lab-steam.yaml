@@ -1,0 +1,29 @@
+id: 12407
+game_id: 20304
+game_slug: aim-lab
+name: Aim Lab
+year: null
+user: FlickBait
+runner: winesteam
+slug: aim-lab-steam
+version: Steam
+description: Wine Steam Version. Runs flawlessly without any noticeable bugs.
+notes: ''
+created_at: '2019-03-17T03:02:17.273000Z'
+updated_at: '2019-03-20T00:02:41.446976Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 714010
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  wine:
+    version: tkg-4.0-x86_64
+    MouseWarpOverride: enable
+    dxvk: false
+    esync: true
+  game:
+    appid: 714010

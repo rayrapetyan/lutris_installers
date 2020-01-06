@@ -1,0 +1,24 @@
+id: 1859
+game_id: 5277
+game_slug: hacknet
+name: Hacknet
+year: 2015
+user: stooj
+runner: steam
+slug: hacknet-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-01-13T04:35:32.886719Z'
+updated_at: '2016-01-13T16:54:06.507246Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 365450
+gogid: 1439474400
+gogslug: hacknet
+humblestoreid: ''
+script:
+  game:
+    appid: 365450

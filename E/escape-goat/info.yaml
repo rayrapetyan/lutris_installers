@@ -1,0 +1,16 @@
+name: Escape Goat
+slug: escape-goat
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: Platform
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/escape-goat.jpg
+icon_url: /games/icon/escape-goat.png
+is_public: true
+updated: '2019-01-23T08:29:24.654487Z'
+steamid: 251370
+gogslug: escape_goat
+humblestoreid: ''

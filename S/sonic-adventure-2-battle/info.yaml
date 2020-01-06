@@ -1,0 +1,17 @@
+name: Sonic Adventure 2 Battle
+slug: sonic-adventure-2-battle
+year: 2002
+platforms:
+- name: GameCube
+genres:
+- name: Action
+- name: Adventure
+- name: Platform
+aliases: []
+banner_url: /games/banner/sonic-adventure-2-battle.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:18.101485Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 16218
+game_id: 28506
+game_slug: neptunia-shooter
+name: Neptunia Shooter
+year: 2019
+user: packof14eggies
+runner: steam
+slug: neptunia-shooter-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-10-16T14:06:07.871000Z'
+updated_at: '2019-10-16T19:32:49.445466Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 1037590
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 1037590

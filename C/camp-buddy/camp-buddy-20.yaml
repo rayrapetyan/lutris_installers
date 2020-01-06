@@ -1,0 +1,31 @@
+id: 15158
+game_id: 20510
+game_slug: camp-buddy
+name: Camp Buddy
+year: 2018
+user: Faizhaizat
+runner: linux
+slug: camp-buddy-20
+version: '2.0'
+description: null
+notes: Windows version also includes Linux binaries.
+created_at: '2019-08-27T15:35:30.163000Z'
+updated_at: '2019-09-09T00:01:55.007667Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Camp_Buddy.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Camp_Buddy.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Camp_Buddy
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Camp_Buddy
+  files:
+  - file1: N/A:Please select the game archive

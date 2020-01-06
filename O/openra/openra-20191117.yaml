@@ -1,0 +1,34 @@
+id: 1976
+game_id: 70
+game_slug: openra
+name: OpenRA
+year: null
+user: Xodetaetl
+runner: linux
+slug: openra-20191117
+version: '20191117'
+description: null
+notes: "Requires Mono to be installed on your system: https://www.mono-project.com/download/stable/#download-lin\
+  \ or try \"sudo apt install mono-devel\"\r\n\r\nOpenRA will not launch and crash\
+  \ on boot without it."
+created_at: '2016-02-11T13:00:08.670000Z'
+updated_at: '2019-12-23T20:05:28.903337Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  system:
+    disable_runtime: true
+  installer:
+  - move:
+      src: file1
+      dst: $GAMEDIR
+  - chmodx: $GAMEDIR/OpenRA-Red-Alert-x86_64.AppImage
+  exe: OpenRA-Red-Alert-x86_64.AppImage
+  files:
+  - file1: https://github.com/OpenRA/OpenRA/releases/download/release-20191117/OpenRA-Red-Alert-x86_64.AppImage

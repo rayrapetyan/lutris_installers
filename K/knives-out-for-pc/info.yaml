@@ -1,0 +1,18 @@
+name: Knives Out
+slug: knives-out-for-pc
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: FPS
+- name: Simulation
+- name: Survival
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/knives-out-for-pc.jpg
+icon_url: /games/icon/knives-out-for-pc.png
+is_public: true
+updated: '2019-10-07T03:27:25.335058Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

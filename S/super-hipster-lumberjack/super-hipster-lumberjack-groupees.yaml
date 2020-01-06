@@ -1,0 +1,32 @@
+id: 5453
+game_id: 6843
+game_slug: super-hipster-lumberjack
+name: Super Hipster Lumberjack
+year: null
+user: FakeShemp
+runner: wine
+slug: super-hipster-lumberjack-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-21T14:13:17.364900Z'
+updated_at: '2018-05-19T03:41:52.387137Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 388340
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Super Hipster Lumberjack
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Super Hipster Lumberjack/Super Hipster Lumberjack V1.3.exe
+    arch: win32

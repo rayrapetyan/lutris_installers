@@ -1,0 +1,38 @@
+id: 1686
+game_id: 1421
+game_slug: viscera-cleanup-detail-shadow-warrior
+name: 'Viscera Cleanup Detail: Shadow Warrior'
+year: 2011
+user: RobLoach
+runner: winesteam
+slug: viscera-cleanup-detail-shadow-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2015-11-02T12:28:03.900000Z'
+updated_at: '2018-11-20T04:50:56.634357Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 255520
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    verison: tkg-3.20-x86_64
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: dotnet472
+      arch: win64
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 255520
+    arch: win64

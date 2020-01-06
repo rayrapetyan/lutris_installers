@@ -1,0 +1,24 @@
+id: 5907
+game_id: 11512
+game_slug: space-pirates-and-zombies-2
+name: Space Pirates and Zombies 2
+year: null
+user: husjon
+runner: steam
+slug: space-pirates-and-zombies-2-steam-1
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-10-06T09:58:13.627874Z'
+updated_at: '2017-10-19T05:08:58.548901Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 252470
+gogid: 2129289196
+gogslug: space_pirates_and_zombies_2
+humblestoreid: ''
+script:
+  game:
+    appid: 252470

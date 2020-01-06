@@ -1,0 +1,36 @@
+id: 17206
+game_id: 16257
+game_slug: minecraft-feed-the-beast
+name: Minecraft - Feed the Beast
+year: 2012
+user: sinker1345
+runner: linux
+slug: minecraft-feed-the-beast-feed-the-beast
+version: Feed The Beast
+description: edited download path for jar file to correct site as of 06 Dec 2019
+notes: "Requires Oracle Java Runtimes\r\nFor Ubuntu/Mint:\r\n    sudo add-apt-repository\
+  \ ppa:webupd8team/java\r\n    sudo apt update\r\n    sudo apt install oracle-java8-installer\r\
+  \n\r\nDoesn't work on Java v9.\r\n\r\nDepending on your java install, you may need\
+  \ to change the java location in Lutris under Game Options:\r\nExecutable \"/usr/bin/java\""
+created_at: '2019-12-06T22:30:13.089000Z'
+updated_at: '2019-12-23T20:01:52.227414Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: FTB_Launcher
+      dst: $GAMEDIR
+  - chmodx: $GAMEDIR/FTB_Launcher.jar
+  files:
+  - FTB_Launcher: https://dist.creeper.host/FTB2/launcher/FTB_Launcher.jar
+  game:
+    exe: /usr/bin/java
+    args: -jar FTB_Launcher.jar
+    working_dir: $GAMEDIR

@@ -1,0 +1,18 @@
+name: Grand Theft Auto 2
+slug: grand-theft-auto-2
+year: 1999
+platforms:
+- name: Nintendo Game Boy Color
+- name: Sega Dreamcast
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/grand-theft-auto-2.jpg
+icon_url: /games/icon/grand-theft-auto-2.png
+is_public: true
+updated: '2019-01-23T08:29:42.291668Z'
+steamid: 12180
+gogslug: ''
+humblestoreid: ''

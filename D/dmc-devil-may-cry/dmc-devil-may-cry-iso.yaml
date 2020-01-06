@@ -1,0 +1,57 @@
+id: 8762
+game_id: 750
+game_slug: dmc-devil-may-cry
+name: DmC Devil May Cry
+year: 2013
+user: strider
+runner: wine
+slug: dmc-devil-may-cry-iso
+version: ISO
+description: null
+notes: ''
+created_at: '2018-06-17T00:03:35.610000Z'
+updated_at: '2018-10-27T09:00:43.138318Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 220440
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: setup.exe
+  - task:
+      prefix: $GAMEDIR
+      install_mono: false
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: mfc42
+      arch: win32
+      silent: false
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun6
+      arch: win32
+      silent: false
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: dotnet40
+      arch: win32
+      silent: false
+      name: winetricks
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: DMC.exe
+    arch: win32

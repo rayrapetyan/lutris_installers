@@ -1,0 +1,17 @@
+name: Warlords
+slug: warlords
+year: 1990
+platforms:
+- name: Amiga
+- name: MS-DOS
+genres:
+- name: Strategy
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/warlords.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:06.196059Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

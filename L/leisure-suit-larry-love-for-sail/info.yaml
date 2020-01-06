@@ -1,0 +1,18 @@
+name: 'Leisure Suit Larry: Love for Sail!'
+slug: leisure-suit-larry-love-for-sail
+year: 1996
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Adventure
+aliases:
+- slug: leisure-suit-larry-7-love-for-sail
+  name: Leisure Suit Larry 7 - Love for Sail
+banner_url: /games/banner/leisure-suit-larry-love-for-sail.jpg
+icon_url: /games/icon/leisure-suit-larry-love-for-sail.png
+is_public: true
+updated: '2019-03-30T02:16:00.266597Z'
+steamid: 765890
+gogslug: leisure_suit_larry_love_for_sail
+humblestoreid: ''

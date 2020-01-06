@@ -1,0 +1,24 @@
+id: 1197
+game_id: 199
+game_slug: sam-max-101-culture-shock
+name: 'Sam & Max 101: Culture Shock'
+year: null
+user: strider
+runner: winesteam
+slug: sam-max-101-culture-shock-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-12-04T20:43:16.591000Z'
+updated_at: '2014-12-04T20:43:22.010000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 8200
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 8200

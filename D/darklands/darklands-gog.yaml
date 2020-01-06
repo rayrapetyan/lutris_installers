@@ -1,0 +1,41 @@
+id: 1050
+game_id: 3441
+game_slug: darklands
+name: Darklands
+year: 1992
+user: Xodetaetl
+runner: dosbox
+slug: darklands-gog
+version: GOG
+description: null
+notes: "Requires the latest version of GOG's Linux installer.\r\nUses game data from\
+  \ GOG with DOSBox from Lutris."
+created_at: '2014-11-11T09:45:40.922000Z'
+updated_at: '2019-03-25T04:21:03.019169Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 327930
+gogid: 1207658972
+gogslug: darklands
+humblestoreid: ''
+script:
+  main_file: dosboxDarklands_single.conf
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/Game/dosboxDarklands.conf
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    config_file: $GAMEDIR/dosboxDarklands.conf

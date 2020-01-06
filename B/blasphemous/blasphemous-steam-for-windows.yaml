@@ -1,0 +1,25 @@
+id: 15737
+game_id: 29356
+game_slug: blasphemous
+name: Blasphemous
+year: 2019
+user: zeioth
+runner: winesteam
+slug: blasphemous-steam-for-windows
+version: Steam for windows
+description: null
+notes: '* To run this game you must manually install <a href="https://github.com/z0z0z/mf-install">this
+  fix</a>.'
+created_at: '2019-09-21T13:27:18.547215Z'
+updated_at: '2019-09-21T13:54:55.270820Z'
+draft: false
+published: true
+published_by: null
+rating: '4'
+steamid: 774361
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 774361

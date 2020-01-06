@@ -1,0 +1,33 @@
+id: 1750
+game_id: 5380
+game_slug: outlaws
+name: Outlaws
+year: 1997
+user: Xodetaetl
+runner: wine
+slug: outlaws-gog
+version: GOG
+description: ''
+notes: GOG installer v2 or above required
+created_at: '2015-12-27T07:56:20.324300Z'
+updated_at: '2016-08-30T15:31:00.295922Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1425302464
+gogslug: outlaws_a_handful_of_missions
+humblestoreid: ''
+script:
+  exe: drive_c/GOG Games/Outlaws/outlaws.exe
+  installer:
+  - task:
+      executable: $setup
+      prefix: $GAMEDIR
+      args: /silent /nogui /suppressmsgboxes
+      name: wineexec
+  files:
+  - setup: N/A:Select the Windows installer provided by GOG
+  game:
+    prefix: $GAMEDIR

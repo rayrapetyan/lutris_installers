@@ -1,0 +1,17 @@
+name: 'MONSTER HUNTER: WORLD'
+slug: monster-hunter-world
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/monster-hunter-world.jpg
+icon_url: /games/icon/monster-hunter-world.png
+is_public: true
+updated: '2019-01-23T08:30:25.924652Z'
+steamid: 582010
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,25 @@
+id: 10514
+game_id: 19516
+game_slug: insurgency-sandstorm
+name: 'Insurgency: Sandstorm'
+year: 2018
+user: TuiorGames
+runner: winesteam
+slug: insurgency-sandstorm-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-10-15T14:00:03.307731Z'
+updated_at: '2018-10-16T06:42:19.449356Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 581320
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 581320
+    arch: win64

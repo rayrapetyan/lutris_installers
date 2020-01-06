@@ -1,0 +1,24 @@
+id: 2454
+game_id: 5719
+game_slug: biodrone-battle
+name: Biodrone Battle
+year: null
+user: gschaffran
+runner: steam
+slug: biodrone-battle-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-08-15T18:13:20.223729Z'
+updated_at: '2016-09-30T21:11:46.274030Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 377290
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 377290

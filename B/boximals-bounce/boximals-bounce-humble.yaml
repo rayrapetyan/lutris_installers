@@ -1,0 +1,28 @@
+id: 3772
+game_id: 11407
+game_slug: boximals-bounce
+name: Boximals Bounce
+year: 2014
+user: FakeShemp
+runner: linux
+slug: boximals-bounce-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-21T18:24:27.264452Z'
+updated_at: '2017-05-26T00:16:38.394304Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: VSG_BB_LinuxBuild.x86
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

@@ -1,0 +1,17 @@
+name: 'Total War: WARHAMMER'
+slug: total-war-warhammer
+year: 2016
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Real-time tactics
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/total-war-warhammer.jpg
+icon_url: /games/icon/total-war-warhammer.png
+is_public: true
+updated: '2019-08-17T07:01:50.717243Z'
+steamid: 364360
+gogslug: ''
+humblestoreid: ''

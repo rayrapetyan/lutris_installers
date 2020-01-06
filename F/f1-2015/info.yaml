@@ -1,0 +1,16 @@
+name: F1 2015
+slug: f1-2015
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Racing
+- name: Simulation
+aliases: []
+banner_url: /games/banner/f1-2015.jpg
+icon_url: /games/icon/f1-2015.png
+is_public: true
+updated: '2019-10-30T19:59:37.494898Z'
+steamid: 286570
+gogslug: ''
+humblestoreid: f1-2015

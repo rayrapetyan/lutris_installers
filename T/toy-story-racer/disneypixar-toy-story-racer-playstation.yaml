@@ -1,0 +1,31 @@
+id: 11451
+game_id: 24517
+game_slug: toy-story-racer
+name: Toy Story Racer
+year: 2001
+user: te_lanus
+runner: libretro
+slug: disneypixar-toy-story-racer-playstation
+version: Playstation
+description: null
+notes: ''
+created_at: '2019-01-05T17:16:24.405337Z'
+updated_at: '2019-01-05T17:16:53.965023Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Playstation game disc
+  game:
+    core: mednafen_psx
+    main_file: file1

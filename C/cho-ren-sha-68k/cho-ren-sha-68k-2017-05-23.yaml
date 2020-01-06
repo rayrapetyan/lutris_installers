@@ -1,0 +1,39 @@
+id: 2246
+game_id: 6499
+game_slug: cho-ren-sha-68k
+name: Cho Ren Sha 68k
+year: 1995
+user: ssf
+runner: wine
+slug: cho-ren-sha-68k-2017-05-23
+version: '2017-05-23'
+description: null
+notes: ''
+created_at: '2016-07-04T18:07:08.336000Z'
+updated_at: '2019-05-12T03:46:05.677476Z'
+draft: false
+published: true
+published_by: 19464
+rating: '5'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - extract:
+      dst: $GAMEDIR
+      file: game
+  system:
+    use_us_layout: true
+  files:
+  - game: http://www2.tky.3web.ne.jp/~yosshin/my_works/CH170523.ZIP
+  game:
+    prefix: $GAMEDIR
+    exe: LATEST.exe
+    arch: win32

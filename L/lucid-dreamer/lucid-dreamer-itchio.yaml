@@ -1,0 +1,28 @@
+id: 6716
+game_id: 15182
+game_slug: lucid-dreamer
+name: Lucid Dreamer
+year: 2017
+user: FakeShemp
+runner: linux
+slug: lucid-dreamer-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2017-12-17T16:42:18.850826Z'
+updated_at: '2017-12-17T16:44:23.185515Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: LucidDreamer.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

@@ -1,0 +1,31 @@
+id: 13717
+game_id: 26896
+game_slug: student-transfer
+name: Student Transfer
+year: 2015
+user: kimchitea
+runner: linux
+slug: student-transfer-43
+version: '4.3'
+description: null
+notes: ''
+created_at: '2019-05-25T01:01:46.571000Z'
+updated_at: '2019-06-01T06:20:43.134008Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: StudentTransfer.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/StudentTransfer.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/StudentTransfer
+  - chmodx: $GAMEDIR/lib/linux-x86_64/StudentTransfer
+  files:
+  - file1: N/A:Please select the game archive

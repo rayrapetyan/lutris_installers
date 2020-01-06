@@ -1,0 +1,24 @@
+id: 313
+game_id: 528
+game_slug: anna-extended-edition
+name: Anna - Extended Edition
+year: 2013
+user: strider
+runner: steam
+slug: anna-extended-edition-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-20T00:21:44.127000Z'
+updated_at: '2013-12-20T00:21:44.127000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 217690
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 217690

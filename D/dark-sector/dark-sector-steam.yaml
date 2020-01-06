@@ -1,0 +1,24 @@
+id: 8392
+game_id: 1219
+game_slug: dark-sector
+name: Dark Sector
+year: 2008
+user: Snow_Guard
+runner: winesteam
+slug: dark-sector-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-23T07:23:02.026266Z'
+updated_at: '2018-05-24T03:49:28.285682Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 29900
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 29900

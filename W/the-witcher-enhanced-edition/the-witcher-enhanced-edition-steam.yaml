@@ -1,0 +1,45 @@
+id: 1560
+game_id: 388
+game_slug: the-witcher-enhanced-edition
+name: 'The Witcher: Enhanced Edition'
+year: 2007
+user: Freso
+runner: winesteam
+slug: the-witcher-enhanced-edition-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2015-06-09T00:21:08.383000Z'
+updated_at: '2018-11-29T16:39:42.395068Z'
+draft: false
+published: true
+published_by: 1
+rating: '5'
+steamid: 20900
+gogid: 1207658924
+gogslug: the_witcher
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      app: d3dx9_35
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      key: CheckFloatConstants
+      value: enabled
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D
+      name: set_regedit
+  winesteam:
+    version: tkg-3.21-x86_64
+    esync: 'true'
+  system:
+    env:
+      __GL_THREADED_OPTIMIZATIONS: '1'
+      mesa_glthread: 'true'
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 20900

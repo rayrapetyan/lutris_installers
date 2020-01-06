@@ -1,0 +1,15 @@
+name: Duke Nukem
+slug: duke-nukem
+year: null
+platforms:
+- name: MS-DOS
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/duke-nukem.jpg
+icon_url: /games/icon/duke-nukem.png
+is_public: true
+updated: '2019-03-04T18:49:04.367241Z'
+steamid: 240160
+gogslug: ''
+humblestoreid: ''

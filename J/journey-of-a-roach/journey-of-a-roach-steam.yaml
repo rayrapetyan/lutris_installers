@@ -1,0 +1,24 @@
+id: 630
+game_id: 655
+game_slug: journey-of-a-roach
+name: Journey of a Roach
+year: null
+user: Xodetaetl
+runner: steam
+slug: journey-of-a-roach-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-14T21:44:49.325000Z'
+updated_at: '2014-09-14T21:47:56.989000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 255300
+gogid: 1207661723
+gogslug: journey_of_a_roach
+humblestoreid: ''
+script:
+  game:
+    appid: 255300

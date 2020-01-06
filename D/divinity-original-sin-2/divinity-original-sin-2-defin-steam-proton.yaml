@@ -1,0 +1,24 @@
+id: 12557
+game_id: 8935
+game_slug: divinity-original-sin-2
+name: 'Divinity: Original Sin 2 - Definitive Edition'
+year: 2016
+user: Wompus
+runner: steam
+slug: divinity-original-sin-2-defin-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-03-29T11:50:49.677000Z'
+updated_at: '2019-05-22T00:15:43.443897Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 435150
+gogid: 1584823040
+gogslug: divinity_original_sin_2
+humblestoreid: ''
+script:
+  game:
+    appid: 435150

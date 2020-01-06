@@ -1,0 +1,25 @@
+id: 2097
+game_id: 2863
+game_slug: 100-orange-juice
+name: 100% Orange Juice
+year: 2013
+user: strider
+runner: winesteam
+slug: 100-orange-juice-steam
+version: Steam
+description: null
+notes: In the menu that opens before the game starts, disable "Full-Color Screen"
+  and "Full-Color Textures".
+created_at: '2016-06-15T01:17:38.233000Z'
+updated_at: '2018-06-27T04:23:10.148634Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 282800
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 282800

@@ -1,0 +1,16 @@
+name: Tales of Maj'Eyal
+slug: tales-of-majeyal
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: Roguelike
+- name: RPG
+aliases: []
+banner_url: /games/banner/tales-of-majeyal.jpg
+icon_url: /games/icon/tales-of-majeyal.png
+is_public: true
+updated: '2019-01-23T08:31:34.864643Z'
+steamid: 259680
+gogslug: tales_of_majeyal
+humblestoreid: ''

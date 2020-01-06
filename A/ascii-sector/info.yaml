@@ -1,0 +1,18 @@
+name: Ascii Sector
+slug: ascii-sector
+year: 2007
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: Economic
+- name: Space simulation
+aliases: []
+banner_url: /games/banner/ascii-sector.jpg
+icon_url: null
+is_public: true
+updated: '2019-06-14T20:45:17.857125Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

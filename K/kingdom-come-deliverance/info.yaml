@@ -1,0 +1,17 @@
+name: 'Kingdom Come: Deliverance'
+slug: kingdom-come-deliverance
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/kingdom-come-deliverance.jpg
+icon_url: /games/icon/kingdom-come-deliverance.png
+is_public: true
+updated: '2019-01-23T08:30:03.817312Z'
+steamid: 379430
+gogslug: kingdom_come_deliverance
+humblestoreid: ''

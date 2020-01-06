@@ -1,0 +1,15 @@
+name: STEINS;GATE
+slug: steinsgate
+year: 2009
+platforms:
+- name: Windows
+genres:
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/steinsgate.jpg
+icon_url: /games/icon/steinsgate.png
+is_public: true
+updated: '2019-01-23T08:31:26.740160Z'
+steamid: 412830
+gogslug: ''
+humblestoreid: ''

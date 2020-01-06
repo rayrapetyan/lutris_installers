@@ -1,0 +1,93 @@
+id: 9908
+game_id: 15315
+game_slug: the-sims
+name: The Sims
+year: 2000
+user: citrusalex
+runner: wine
+slug: the-sims-vulkan
+version: Vulkan
+description: "REQUIRES a NoCD executable. Please download it before continuing. Uses\
+  \ dgvoodoo Graphics Api Wrapper by Dege.\r\nOfficial website <a href=\"http://dege.fw.hu\"\
+  >http://dege.fw.hu</a>"
+notes: "- Please set up Vulkan first. <a href=\"https://github.com/lutris/lutris/wiki/How-to:-DXVK\"\
+  >Click here for a how-to guide</a>\r\n- Ignore the message about lacking memory,\
+  \ just press Yes and continue.\r\n- Don't press \"Play\" after the setup of the\
+  \ game has finished. Just wait for the installer to finish.\r\n- This installer\
+  \ has only been tested with Complete Collection and Deluxe Edition, but other versions\
+  \ should work too.\r\n- NoCD executable for Deluxe Edition (<b>you need unrar to\
+  \ get it extracted</b>): <a href=\"http://www.gameburnworld.com/gp/gamefixes/simsdeluxeedition.shtml\"\
+  >http://www.gameburnworld.com/gp/gamefixes/simsdeluxeedition.shtml</a>\r\n- NoCD\
+  \ executable for Complete Collection (<b>you need unrar get it extracted</b>): \r\
+  \n<a href=\"http://www.gameburnworld.com/gp/gamefixes/simscompletecollection.shtml\"\
+  >http://www.gameburnworld.com/gp/gamefixes/simscompletecollection.shtml</a>"
+created_at: '2018-08-27T05:56:10.272000Z'
+updated_at: '2019-12-22T02:48:18.340026Z'
+draft: false
+published: true
+published_by: 1
+rating: '4'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/Maxis/The Sims/Sims.exe
+    args: -r1024x768 -skip_intro -skip_verify
+    working_dir: $GAMEDIR/drive_c/Program Files/Maxis/The Sims/
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      install_mono: false
+      description: Creating prefix
+      arch: win32
+      name: create_prefix
+  - copy:
+      src: nocd
+      dst: $GAMEDIR/Sims.exe
+  - execute:
+      command: chmod 770 "$GAMEDIR/Sims.exe"
+      description: Changing permissions...
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - task:
+      prefix: $GAMEDIR
+      description: Installing d3dcompiler_43 and d3dcompiler_47...
+      app: d3dcompiler_43 d3dcompiler_47 quartz
+      arch: win32
+      name: winetricks
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      description: Installing The Sims...
+      arch: win32
+      exclude_processes: Start.exe start.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - merge:
+      src: $GAMEDIR/Sims.exe
+      dst: $GAMEDIR/drive_c/Program Files/Maxis/The Sims/
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Maxis/The Sims/
+      file: dgvoodoo
+  - write_config:
+      section: DirectX
+      key: dgVoodooWatermark
+      value: false
+      file: $GAMEDIR/drive_c/Program Files/Maxis/The Sims/dgVoodoo.conf
+  wine:
+    version: tkg-protonified-3.21-x86_64
+    overrides:
+      winegstreamer: disabled
+      ddraw: native
+    dxvk: true
+  files:
+  - dgvoodoo: https://lutris.net/files/tools/dgvoodoo_2.55.4_dx1-7.tar.xz
+  - nocd: 'N/A:Select the NoCD executable (Sims.exe):'
+  - installer: 'N/A:Select the Setup executable (Setup.exe in Setup folder, NOT start.exe):'

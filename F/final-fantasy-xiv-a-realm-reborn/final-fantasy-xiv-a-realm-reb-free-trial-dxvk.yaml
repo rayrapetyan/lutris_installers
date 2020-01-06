@@ -1,0 +1,70 @@
+id: 10215
+game_id: 2136
+game_slug: final-fantasy-xiv-a-realm-reborn
+name: 'FINAL FANTASY XIV: A Realm Reborn'
+year: 2014
+user: Gremgoll
+runner: wine
+slug: final-fantasy-xiv-a-realm-reb-free-trial-dxvk
+version: Free Trial - DXVK
+description: FFXIV Standalone Installer (Free Trial)
+notes: ''
+created_at: '2018-09-16T15:59:13.442000Z'
+updated_at: '2019-06-19T06:18:05.667115Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 39210
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Changing to Windows 7
+      app: win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: ffxivinstaller
+      prefix: $GAMEDIR
+      description: Running FFXIV Installer.
+      arch: win64
+      name: wine.wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Adding Registry Entries for FFXIV Launcher
+      arch: win64
+      type: REG_SZ
+      value: Y
+      path: HKEY_CURRENT_USER\Software\Wine
+      key: HideWineExports
+      name: set_regedit
+  - execute:
+      command: mkdir -p "$GAMEDIR"/drive_c/users/$USER/My\ Documents/My\ Games/FINAL\
+        FANTASY\ XIV\ -\ A\ Realm\ Reborn
+  - execute:
+      command: echo -e "<FINAL FANTASY XIV Config File>\n\n<Cutscene Settings>\nCutsceneMovieOpening
+        1" > "$GAMEDIR"/drive_c/users/$USER/My\ Documents/My\ Games/FINAL\ FANTASY\
+        XIV\ -\ A\ Realm\ Reborn/FFXIV.cfg
+  - execute:
+      command: echo -e "<FINAL FANTASY XIV Boot Config File>\n\n<Version>\nBrowserType
+        2" > "$GAMEDIR"/drive_c/users/$USER/My\ Documents/My\ Games/FINAL\ FANTASY\
+        XIV\ -\ A\ Realm\ Reborn/FFXIV_BOOT.cfg
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/SquareEnix/FINAL FANTASY XIV - A Realm Reborn/boot/ffxivboot.exe
+    arch: win64
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      __GL_SHADER_DISK_CACHE: 1
+    pulse_latency: true
+  wine:
+    version: ge-protonified-4.10-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - ffxivinstaller: http://gdl.square-enix.com/ffxiv/inst/ffxivsetup_ft.exe

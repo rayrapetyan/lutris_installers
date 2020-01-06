@@ -1,0 +1,17 @@
+name: 8-Bit Invaders!
+slug: 8-bit-invaders
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Real-time
+- name: Strategy
+- name: Tactical
+aliases: []
+banner_url: /games/banner/8-bit-invaders.jpg
+icon_url: /games/icon/8-bit-invaders.png
+is_public: false
+updated: '2019-01-23T08:28:09.856514Z'
+steamid: 531680
+gogslug: 8bit_invaders
+humblestoreid: ''

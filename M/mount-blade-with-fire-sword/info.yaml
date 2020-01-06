@@ -1,0 +1,19 @@
+name: 'Mount & Blade: With Fire & Sword'
+slug: mount-blade-with-fire-sword
+year: 2011
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Historical
+- name: Role-playing
+aliases:
+- slug: mount-blade-with-fire-and-sword
+  name: 'Mount & Blade: With Fire and Sword'
+banner_url: /games/banner/mount-blade-with-fire-sword.jpg
+icon_url: /games/icon/mount-blade-with-fire-sword.png
+is_public: true
+updated: '2019-04-27T05:49:06.148519Z'
+steamid: 48720
+gogslug: mount_blade_with_fire_sword
+humblestoreid: ''

@@ -1,0 +1,32 @@
+id: 6231
+game_id: 14531
+game_slug: end-my-world
+name: End My World
+year: 2013
+user: FakeShemp
+runner: wine
+slug: end-my-world-desura
+version: Desura
+description: ''
+notes: ''
+created_at: '2017-11-03T20:43:17.037043Z'
+updated_at: '2018-05-19T03:41:59.671923Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR/drive_c/Program Files/End My World
+  files:
+  - file1: N/A:Please select the Desura executable
+  game:
+    prefix: $GAMEDIR
+    exe: file1
+    arch: win32

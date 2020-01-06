@@ -1,0 +1,39 @@
+id: 13280
+game_id: 3660
+game_slug: mugen
+name: M.U.G.E.N
+year: 1999
+user: soredake
+runner: wine
+slug: mugen-jojos-bizarre-advent
+version: JoJo's Bizarre Adventure
+description: JoJo's Bizarre Adventure M.U.G.E.N 1.1 (Beta 2) Golden Wind Edition
+notes: ''
+created_at: '2019-05-02T04:37:12.274000Z'
+updated_at: '2019-05-17T12:28:49.238311Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  custom-name: M.U.G.E.N (JoJo's Bizarre Adventure Golden Wind Edition)
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - extract:
+      dst: $CACHE
+      file: jjba_mugen
+  - merge:
+      src: $CACHE/JoJo's Bizarre Adventure M.U.G.E.N
+      dst: $GAMEDIR/drive_c/jojo_mugen
+  files:
+  - jjba_mugen: N/A:Download from https://bit.ly/2PAxLHK
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/jojo_mugen/mugen.exe

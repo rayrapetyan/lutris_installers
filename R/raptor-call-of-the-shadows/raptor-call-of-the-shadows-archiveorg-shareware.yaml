@@ -1,0 +1,37 @@
+id: 2443
+game_id: 6518
+game_slug: raptor-call-of-the-shadows
+name: 'Raptor: Call of The Shadows'
+year: 2010
+user: RobLoach
+runner: dosbox
+slug: raptor-call-of-the-shadows-archiveorg-shareware
+version: Archive.org Shareware
+description: Shareware version
+notes: ''
+created_at: '2016-08-12T06:22:25.056187Z'
+updated_at: '2016-08-14T22:20:26.192892Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 336060
+gogid: 1207658879
+gogslug: raptor_call_of_the_shadows_2010_edition
+humblestoreid: raptor-call-of-the-shadows-2010-edition
+script:
+  main_file: RAPTOR/RAP.EXE
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $installer
+  - task:
+      executable: $GAMEDIR/INSTALL.EXE
+      args: -exit
+      name: dosexec
+  - task:
+      executable: $GAMEDIR/RAPTOR/SETUP.EXE
+      args: -exit
+      name: dosexec
+  files:
+  - installer: https://archive.org/download/RaptorCallOfTheShadows/1rap12.zip

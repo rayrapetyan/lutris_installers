@@ -1,0 +1,16 @@
+name: Wrack
+slug: wrack
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+aliases: []
+banner_url: /games/banner/wrack.jpg
+icon_url: /games/icon/wrack.png
+is_public: true
+updated: '2019-10-11T02:18:19.993804Z'
+steamid: 253610
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,18 @@
+name: The Clue!
+slug: the-clue
+year: 1994
+platforms:
+- name: Amiga
+- name: MS-DOS
+genres:
+- name: Adventure
+- name: Point-and-click
+- name: Simulation
+aliases: []
+banner_url: /games/banner/the-clue.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:39.648959Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

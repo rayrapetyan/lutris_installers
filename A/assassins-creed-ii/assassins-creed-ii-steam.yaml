@@ -1,0 +1,45 @@
+id: 4188
+game_id: 618
+game_slug: assassins-creed-ii
+name: Assassin's Creed II
+year: null
+user: Onurb
+runner: winesteam
+slug: assassins-creed-ii-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-06-07T16:49:05.107000Z'
+updated_at: '2019-06-16T22:27:16.340225Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: 33230
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      description: Installing crypt32
+      app: crypt32
+      name: winetricks
+  - task:
+      description: Installing vcrun2008
+      app: vcrun2008
+      name: winetricks
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: compiler
+      __GL_SHADER_DISK_CACHE: 1
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+  wine:
+    esync: true
+    dxvk: true
+    overrides:
+      nvapi64: disabled
+      nvapi: disabled
+  game:
+    appid: 33230

@@ -1,0 +1,17 @@
+name: The Dreadnaught Factor
+slug: the-dreadnaught-factor
+year: 1983
+platforms:
+- name: Atari 5200
+- name: Atari 800
+- name: Intellivision
+genres:
+- name: Shooter
+aliases: []
+banner_url: /games/banner/the-dreadnaught-factor.jpg
+icon_url: null
+is_public: true
+updated: '2019-07-11T06:13:58.981086Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

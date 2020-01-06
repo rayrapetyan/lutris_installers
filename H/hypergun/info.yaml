@@ -1,0 +1,17 @@
+name: HYPERGUN
+slug: hypergun
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPP
+- name: Roguelike
+aliases: []
+banner_url: /games/banner/hypergun.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:53.662220Z'
+steamid: null
+gogslug: hypergun
+humblestoreid: ''

@@ -1,0 +1,51 @@
+id: 15137
+game_id: 4335
+game_slug: archeage
+name: ArcheAge
+year: 2015
+user: rp.serejo
+runner: wine
+slug: archeage-glyph
+version: Glyph
+description: Glyph client installation
+notes: ''
+created_at: '2019-08-25T18:00:35.086000Z'
+updated_at: '2019-10-27T04:55:22.181420Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 304030
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files (x86)/Glyph/GlyphClientApp.exe
+    arch: win64
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 64bit Wine prefix.
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: arial d3dcompiler_43 d3dcompiler_42 vcrun2010
+      arch: win64
+      name: winetricks
+  - task:
+      executable: setup
+      description: 'Installing Glyph App. An installer will open.
+
+        ------------------------------
+
+        To progress, manually continue installation in that window.'
+      arch: win64
+      name: wineexec
+  wine:
+    version: lutris-4.16-x86_64
+    dxvk: true
+  files:
+  - setup: http://download.dyn.triongames.com/GlyphInstall-9999-123.exe

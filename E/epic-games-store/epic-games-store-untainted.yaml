@@ -1,0 +1,67 @@
+id: 17526
+game_id: 14114
+game_slug: epic-games-store
+name: Epic Games Store
+year: null
+user: citrusalex
+runner: wine
+slug: epic-games-store-untainted
+version: Untainted
+description: null
+notes: ''
+created_at: '2019-12-23T21:11:08.350000Z'
+updated_at: '2019-12-29T07:24:35.012605Z'
+draft: false
+published: false
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  - task:
+      prefix: $GAMEDIR
+      description: Installing dependencies
+      app: arial
+      arch: win64
+      name: winetricks
+  - copy:
+      src: epic
+      dst: $CACHE/epic/
+  - task:
+      executable: msiexec
+      prefix: $GAMEDIR
+      arch: win64
+      args: /i "$CACHE/epic/EpicGamesLauncherInstaller.msi" /q
+      exclude_processes: EpicGamesLauncher.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  game:
+    prefix: $GAMEDIR
+    args: -opengl -SkipBuildPatchPrereq
+    exe: drive_c/Program Files (x86)/Epic Games/Launcher/Portal/Binaries/Win32/EpicGamesLauncher.exe
+    arch: win64
+  system:
+    env:
+      MESA_GL_VERSION_OVERRIDE: 4.4COMPAT
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: compiler
+      __GL_SHADER_DISK_CACHE: 1
+  wine:
+    version: lutris-5.0-rc3-x86_64
+    esync: true
+  files:
+  - epic: https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi

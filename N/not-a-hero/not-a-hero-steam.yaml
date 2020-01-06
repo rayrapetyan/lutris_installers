@@ -1,0 +1,24 @@
+id: 2146
+game_id: 5553
+game_slug: not-a-hero
+name: NOT A HERO
+year: null
+user: Lulu
+runner: steam
+slug: not-a-hero-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-06-17T19:01:46.687417Z'
+updated_at: '2016-09-29T20:20:05.618568Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 274270
+gogid: 1429698467
+gogslug: not_a_hero
+humblestoreid: ''
+script:
+  game:
+    appid: 274270

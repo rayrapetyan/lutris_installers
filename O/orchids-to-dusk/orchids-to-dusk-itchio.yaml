@@ -1,0 +1,31 @@
+id: 5061
+game_id: 12248
+game_slug: orchids-to-dusk
+name: Orchids to Dusk
+year: 2015
+user: FakeShemp
+runner: linux
+slug: orchids-to-dusk-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-07-14T20:35:08.816317Z'
+updated_at: '2017-08-27T22:18:13.145552Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Orchids to Dusk.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Orchids to Dusk.x86
+  - chmodx: $GAMEDIR/Orchids to Dusk.x86_64
+  exe64: Orchids to Dusk.x86_64
+  files:
+  - file1: N/A:Please select the itch.io archive

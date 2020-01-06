@@ -1,0 +1,16 @@
+name: 'Star Wars: Episode I - The Phantom Menace'
+slug: star-wars-episode-i-the-phantom-menace
+year: 1999
+platforms:
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/star-wars-episode-i-the-phantom-menace.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:25.530346Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

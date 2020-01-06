@@ -1,0 +1,20 @@
+name: Strider II
+slug: strider-ii
+year: 1990
+platforms:
+- name: Amiga
+- name: Commodore 64
+- name: Sega Game Gear
+- name: Sega Genesis / Mega Drive
+- name: Sega Master System
+- name: ZX Spectrum
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/strider-ii.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:28.231831Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

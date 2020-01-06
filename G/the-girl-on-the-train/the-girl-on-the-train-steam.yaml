@@ -1,0 +1,24 @@
+id: 7656
+game_id: 15250
+game_slug: the-girl-on-the-train
+name: The Girl on the Train
+year: 2017
+user: t-rex91
+runner: steam
+slug: the-girl-on-the-train-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-25T15:14:09.944000Z'
+updated_at: '2018-03-26T20:06:35.786208Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 729330
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 729330

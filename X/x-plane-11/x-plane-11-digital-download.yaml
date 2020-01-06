@@ -1,0 +1,35 @@
+id: 7893
+game_id: 10590
+game_slug: x-plane-11
+name: X-Plane 11
+year: 2017
+user: g4b1bb097
+runner: linux
+slug: x-plane-11-digital-download
+version: Digital download
+description: null
+notes: ''
+created_at: '2018-04-13T14:50:28.770000Z'
+updated_at: '2018-05-02T00:59:44.655793Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 269950
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: $installer
+  - execute:
+      file: $GAMEDIR/X-Plane 11 Installer Linux
+      terminal: false
+  files:
+  - installer:
+      filename: X-PlaneInstaller.zip
+      url: http://www.x-plane.com/update/installers11/X-Plane11InstallerLinux.zip
+  game:
+    exe: X-Plane-x86_64
+    working_dir: $GAMEDIR/X-Plane 11

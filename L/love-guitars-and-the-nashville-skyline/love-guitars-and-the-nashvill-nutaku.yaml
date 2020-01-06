@@ -1,0 +1,28 @@
+id: 7037
+game_id: 15700
+game_slug: love-guitars-and-the-nashville-skyline
+name: Love, Guitars, and the Nashville Skyline
+year: 2016
+user: FakeShemp
+runner: linux
+slug: love-guitars-and-the-nashvill-nutaku
+version: Nutaku
+description: null
+notes: Also works with the Denpasoft version.
+created_at: '2018-01-05T23:15:43.523000Z'
+updated_at: '2019-09-09T01:42:42.893107Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 555650
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: LGN.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Nutaku archive

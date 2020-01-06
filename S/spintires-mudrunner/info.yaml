@@ -1,0 +1,15 @@
+name: 'Spintires: MudRunner'
+slug: spintires-mudrunner
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Simulation
+aliases: []
+banner_url: /games/banner/spintires-mudrunner.jpg
+icon_url: /games/icon/spintires-mudrunner.png
+is_public: true
+updated: '2019-04-20T04:52:56.201554Z'
+steamid: 675010
+gogslug: ''
+humblestoreid: ''

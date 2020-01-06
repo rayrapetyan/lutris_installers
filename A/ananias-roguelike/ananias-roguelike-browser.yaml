@@ -1,0 +1,23 @@
+id: 9270
+game_id: 11466
+game_slug: ananias-roguelike
+name: Ananias Roguelike
+year: 2015
+user: kimchitea
+runner: browser
+slug: ananias-roguelike-browser
+version: Browser
+description: null
+notes: ''
+created_at: '2018-07-18T10:26:17.110705Z'
+updated_at: '2018-07-19T03:39:59.492317Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 372080
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: http://ananiasgame.com/play/

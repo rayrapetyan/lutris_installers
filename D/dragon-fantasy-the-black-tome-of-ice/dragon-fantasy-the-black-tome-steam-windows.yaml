@@ -1,0 +1,32 @@
+id: 11433
+game_id: 10451
+game_slug: dragon-fantasy-the-black-tome-of-ice
+name: 'Dragon Fantasy: The Black Tome of Ice'
+year: 2015
+user: violaian
+runner: winesteam
+slug: dragon-fantasy-the-black-tome-steam-windows
+version: Steam (Windows)
+description: Wine Steam Installer
+notes: Native Linux port can crash on first battle.
+created_at: '2019-01-04T07:01:45.639822Z'
+updated_at: '2019-01-22T07:50:16.622703Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 328000
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-3.21-x86_64
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Setting up wine prefix
+      name: create_prefix
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 328000

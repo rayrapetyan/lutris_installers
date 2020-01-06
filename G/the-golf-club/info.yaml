@@ -1,0 +1,16 @@
+name: The Golf Club
+slug: the-golf-club
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Simulation
+- name: Sports
+aliases: []
+banner_url: /games/banner/the-golf-club.jpg
+icon_url: /games/icon/the-golf-club.png
+is_public: true
+updated: '2019-01-23T08:31:41.793143Z'
+steamid: 269730
+gogslug: ''
+humblestoreid: ''

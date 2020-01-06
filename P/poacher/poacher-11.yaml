@@ -1,0 +1,42 @@
+id: 4316
+game_id: 3897
+game_slug: poacher
+name: Poacher
+year: 2012
+user: FakeShemp
+runner: wine
+slug: poacher-11
+version: '1.1'
+description: ''
+notes: ''
+created_at: '2017-06-12T18:50:33.239000Z'
+updated_at: '2018-05-19T03:41:51.154980Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      app: directmusic
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: dsound
+      name: winetricks
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      args: '"/D="C:\\Program Files""'
+      name: wineexec
+  files:
+  - file1: http://cdn.themis-media.com/media/sites/escapistmagazine/games/yahtzee/poacher_installer.1_1.exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Poacher/Poacher.exe
+    arch: win32

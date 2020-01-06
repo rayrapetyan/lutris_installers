@@ -1,0 +1,44 @@
+id: 8608
+game_id: 845
+game_slug: far-cry-3-blood-dragon
+name: Far Cry 3 - Blood Dragon
+year: 2013
+user: cxf
+runner: winesteam
+slug: far-cry-3-blood-dragon-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2018-06-09T00:23:22.260000Z'
+updated_at: '2019-02-14T06:05:34.523791Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 233270
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: corefonts
+      arch: win64
+      name: winetricks
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 233270
+    arch: win64

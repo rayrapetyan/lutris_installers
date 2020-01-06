@@ -1,0 +1,24 @@
+id: 10591
+game_id: 6056
+game_slug: outdrive
+name: OutDrive
+year: null
+user: Siarkowy
+runner: winesteam
+slug: outdrive-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-10-21T18:31:13.373000Z'
+updated_at: '2018-10-24T06:47:37.044893Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 441870
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 441870

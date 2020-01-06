@@ -1,0 +1,28 @@
+id: 4405
+game_id: 11759
+game_slug: irukandji
+name: Irukandji
+year: null
+user: FakeShemp
+runner: linux
+slug: irukandji-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-06-16T19:48:16.649973Z'
+updated_at: '2017-06-17T19:28:04.085217Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Irukandji
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the IndieGameStand archive

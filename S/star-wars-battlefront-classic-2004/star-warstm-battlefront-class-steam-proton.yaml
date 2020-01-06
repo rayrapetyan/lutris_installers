@@ -1,0 +1,25 @@
+id: 13365
+game_id: 27186
+game_slug: star-wars-battlefront-classic-2004
+name: STAR WARS Battlefront (Classic, 2004)
+year: 2004
+user: skyace65
+runner: steam
+slug: star-warstm-battlefront-class-steam-proton
+version: Steam Proton
+description: null
+notes: Since this game is not officially whitelisted, you have to enable Steam Play
+  for all titles in Steam's settings prior to installation.
+created_at: '2019-05-07T14:02:51.484000Z'
+updated_at: '2019-05-19T07:08:33.666485Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 1058020
+gogid: 1668107107
+gogslug: star_wars_battlefront
+humblestoreid: ''
+script:
+  game:
+    appid: 1058020

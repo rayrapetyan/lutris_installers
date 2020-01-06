@@ -1,0 +1,16 @@
+name: Book of Demons
+slug: book-of-demons
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Dungeon crawl
+- name: Hack and slash
+aliases: []
+banner_url: /games/banner/book-of-demons.jpg
+icon_url: /games/icon/book-of-demons.png
+is_public: true
+updated: '2019-01-23T08:28:40.305637Z'
+steamid: 449960
+gogslug: ''
+humblestoreid: ''

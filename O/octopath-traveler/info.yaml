@@ -1,0 +1,17 @@
+name: Octopath Traveler
+slug: octopath-traveler
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: RPG
+aliases:
+- slug: octopath-traveller
+  name: Octopath Traveller
+banner_url: /games/banner/octopath-traveler.jpg
+icon_url: /games/icon/octopath-traveler.png
+is_public: true
+updated: '2019-10-27T23:22:39.906338Z'
+steamid: 921570
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,58 @@
+id: 15306
+game_id: 13434
+game_slug: call-of-cthulhu-shadow-of-the-comet
+name: 'Call of Cthulhu: Shadow of the Comet'
+year: 1993
+user: legluondunet
+runner: dosbox
+slug: call-of-cthulhu-shadow-of-the-gog-windows-setup-ex
+version: GOG + Windows setup exe
+description: "This script will install \"Call of Cthulhu: Shadow of the Comet\" GOG\
+  \ edition for DOSBox.\r\nDuring install please let all options by default.\r\nBig\
+  \ thanks to people who gave their time to permit us playing this game in the best\
+  \ conditions."
+notes: "- This script will need the GOG windows setup executable.\r\n- Multilanguage:\
+  \ you can choose game text language between english, french, italian, german and\
+  \ spanish.\r\n- Please report issue concerning this script on my Github page:\r\n\
+  https://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2019-09-05T12:20:16.729000Z'
+updated_at: '2019-11-16T14:49:38.506278Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: 389470
+gogid: 1431942210
+gogslug: call_of_cthulhu_shadow_of_the_comet
+humblestoreid: ''
+script:
+  custom-name: Call of Cthulhu - Shadow of the Comet - GOG
+  installer:
+  - extract:
+      dst: $CACHE
+      file: inno
+  - execute:
+      args: -d "$GAMEDIR" "$install"
+      file: $CACHE/innoextract
+  - input_menu:
+      options:
+      - '0': "Fran\xE7ais"
+      - '1': English
+      - '2': "Espa\xF1ol"
+      - '3': Deutsch
+      - '4': Italiano
+      description: Please choose your preferred game's text language
+      id: LANG
+      preselect: 1
+  - chmodx: script
+  - execute:
+      args: $INPUT_LANG
+      file: script
+  files:
+  - install: N/A:Please select the GOG installer
+  - inno: http://constexpr.org/innoextract/files/snapshots/innoextract-1.8-dev-2019-01-13/innoextract-1.8-dev-2019-01-13-linux.tar.xz
+  - script: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Call%20of%20Cthulhu%20-%20Shadow%20of%20the%20Comet/clean.sh
+  game:
+    prefix: $GAMEDIR
+    config_file: $GAMEDIR/dosbox_conf/dosbox_sotc_single.conf
+    main_file: dosbox_conf/dosbox_sotc.conf

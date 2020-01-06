@@ -1,0 +1,24 @@
+id: 7171
+game_id: 16256
+game_slug: leisure-suit-larry-magna-cum-laude-uncut-and-uncen
+name: Leisure Suit Larry - Magna Cum Laude Uncut and Uncensored
+year: 2004
+user: martynjlewis
+runner: winesteam
+slug: leisure-suit-larry-magna-cum-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-01-27T18:37:35.589383Z'
+updated_at: '2018-01-28T07:54:30.846314Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 765900
+gogid: 1207659225
+gogslug: leisure_suit_larry_magna_cum_laude_uncut_and_uncensored
+humblestoreid: ''
+script:
+  game:
+    appid: 765900

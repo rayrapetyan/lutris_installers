@@ -1,0 +1,40 @@
+id: 12602
+game_id: 7611
+game_slug: the-settlers-iv-gold-edition
+name: 'The Settlers IV: Gold Edition'
+year: 2002
+user: dotevo
+runner: wine
+slug: the-settlers-iv-gold-edition-cd-zota-edycja-pl
+version: "CD Z\u0142ota Edycja PL"
+description: null
+notes: ''
+created_at: '2019-04-01T18:39:33.327000Z'
+updated_at: '2019-04-23T04:14:06.589892Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: 1207659254
+gogslug: the_settlers_4_gold_edition
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: setup.exe
+      description: Insert disc
+  - task:
+      prefix: $GAMEDIR
+      install_mono: false
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      description: Running installator.
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Ubisoft/Settlers IV - Zlota Edycja/S4.exe
+    arch: win32

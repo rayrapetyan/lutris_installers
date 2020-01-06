@@ -1,0 +1,29 @@
+id: 4258
+game_id: 4723
+game_slug: supercharged-robot-vulkaiser
+name: Supercharged Robot VULKAISER
+year: null
+user: FakeShemp
+runner: linux
+slug: supercharged-robot-vulkaiser-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-10T09:28:55.909061Z'
+updated_at: '2017-06-11T00:15:36.577047Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 349680
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Vulkaiser
+  installer:
+  - extract:
+      format: tgz
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

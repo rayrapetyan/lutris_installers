@@ -1,0 +1,15 @@
+name: Love
+slug: love
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/love.jpg
+icon_url: /games/icon/love.png
+is_public: true
+updated: '2019-01-23T08:30:13.510605Z'
+steamid: 269270
+gogslug: ''
+humblestoreid: ''

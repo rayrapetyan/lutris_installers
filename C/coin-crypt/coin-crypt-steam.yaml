@@ -1,0 +1,24 @@
+id: 1879
+game_id: 3534
+game_slug: coin-crypt
+name: Coin Crypt
+year: 2013
+user: WildCoder
+runner: winesteam
+slug: coin-crypt-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-01-17T15:16:42.840765Z'
+updated_at: '2016-09-30T20:39:45.117229Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 264690
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 264690

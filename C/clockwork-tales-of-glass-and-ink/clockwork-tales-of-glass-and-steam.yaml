@@ -1,0 +1,24 @@
+id: 1878
+game_id: 3295
+game_slug: clockwork-tales-of-glass-and-ink
+name: 'Clockwork Tales: Of Glass and Ink'
+year: 2013
+user: WildCoder
+runner: steam
+slug: clockwork-tales-of-glass-and-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-01-17T15:16:02.255780Z'
+updated_at: '2016-02-02T14:13:33.699824Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 284830
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 284830

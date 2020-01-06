@@ -1,0 +1,24 @@
+id: 16516
+game_id: 14656
+game_slug: moero-chronicle
+name: Moero Chronicle
+year: 2017
+user: packof14eggies
+runner: steam
+slug: moero-chronicle-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-11-01T08:02:03.118000Z'
+updated_at: '2019-11-01T23:08:35.686262Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 638160
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 638160

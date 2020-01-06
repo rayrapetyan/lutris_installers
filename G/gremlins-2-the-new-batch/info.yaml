@@ -1,0 +1,20 @@
+name: 'Gremlins 2: The New Batch'
+slug: gremlins-2-the-new-batch
+year: 1991
+platforms:
+- name: Amiga
+- name: Atari ST
+- name: Commodore 64
+- name: MS-DOS
+- name: MSX
+- name: ZX Spectrum
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/gremlins-2-the-new-batch.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:43.239858Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

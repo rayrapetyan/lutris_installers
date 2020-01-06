@@ -1,0 +1,25 @@
+id: 1993
+game_id: 5613
+game_slug: godot-engine
+name: Godot Engine
+year: 2014
+user: Akien
+runner: steam
+slug: godot-engine-steam
+version: Steam
+description: Latest stable version (64-bit), self-contained with the demos and export
+  templates.
+notes: ''
+created_at: '2016-02-28T12:59:00.508922Z'
+updated_at: '2016-02-28T17:01:31.726536Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 404790
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 404790

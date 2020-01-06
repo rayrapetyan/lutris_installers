@@ -1,0 +1,26 @@
+id: 5631
+game_id: 10161
+game_slug: yu-gi-oh-legacy-of-the-duelist
+name: Yu-Gi-Oh! Legacy of the Duelist
+year: null
+user: catman1900
+runner: winesteam
+slug: yu-gi-oh-legacy-of-the-duelis-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-09-09T02:25:43.541202Z'
+updated_at: '2017-09-17T20:09:36.957701Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 480650
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  wine:
+    version: staging-2.16-x86_64
+  game:
+    appid: 480650

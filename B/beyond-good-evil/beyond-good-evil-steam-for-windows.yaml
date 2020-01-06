@@ -1,0 +1,25 @@
+id: 481
+game_id: 383
+game_slug: beyond-good-evil
+name: Beyond Good & Evil
+year: 2003
+user: Xodetaetl
+runner: winesteam
+slug: beyond-good-evil-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: "If you get skipping sound, set cpufreq of cpu0 to 'performance'.\r\nThere\
+  \ may be some issues with some screen resolutions."
+created_at: '2014-07-16T09:07:36.688000Z'
+updated_at: '2016-10-08T23:20:41.284798Z'
+draft: false
+published: true
+published_by: null
+rating: '3'
+steamid: 15130
+gogid: 1207658746
+gogslug: beyond_good_and_evil
+humblestoreid: beyond-good-evil
+script:
+  game:
+    appid: 15130

@@ -1,0 +1,48 @@
+id: 10072
+game_id: 21528
+game_slug: back-to-saturn-x-episode-2-tower-in-the-fountain-o
+name: 'Back to Saturn X Episode 2: Tower in the Fountain of Sparks'
+year: 2014
+user: miky_kr5
+runner: zdoom
+slug: back-to-saturn-x-episode-2-to-doomworld
+version: Doomworld
+description: Pwad file from the Doomworld forums. Requires either the DOOM 2 or the
+  Freedoom phase 2 iwad to play.
+notes: ''
+created_at: '2018-09-06T17:31:24.508914Z'
+updated_at: '2018-09-06T18:12:21.014161Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      src: $btsx
+      dst: $CACHE
+  - merge:
+      src: $doom2
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/btsx_e2a.wad
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/btsx_e2b.wad
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/btsx_e2.deh
+      dst: $GAMEDIR
+  files:
+  - doom2: N/A:Please select either the DOOM 2 or Freedoom phase 2 iwad file.
+  - btsx: http://esselfortium.net/wasd/btsx_e2_b3.zip
+  game:
+    args: -deh btsx_e2.deh
+    files:
+    - btsx_e2a.wad
+    - btsx_e2b.wad
+    main_file: $doom2

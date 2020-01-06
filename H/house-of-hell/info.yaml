@@ -1,0 +1,16 @@
+name: House of Hell
+slug: house-of-hell
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Horror
+- name: Interactive fiction
+aliases: []
+banner_url: /games/banner/house-of-hell.jpg
+icon_url: /games/icon/house-of-hell.png
+is_public: true
+updated: '2019-01-23T08:29:52.685826Z'
+steamid: 419810
+gogslug: ''
+humblestoreid: ''

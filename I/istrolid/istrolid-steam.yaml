@@ -1,0 +1,24 @@
+id: 6986
+game_id: 6280
+game_slug: istrolid
+name: Istrolid
+year: 2016
+user: edwan.vi
+runner: steam
+slug: istrolid-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-01-03T22:41:04.157131Z'
+updated_at: '2018-01-16T21:29:33.973035Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 449140
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 449140

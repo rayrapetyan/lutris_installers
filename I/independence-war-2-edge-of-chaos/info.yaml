@@ -1,0 +1,17 @@
+name: 'Independence War 2: Edge of Chaos'
+slug: independence-war-2-edge-of-chaos
+year: 2001
+platforms:
+- name: Windows
+genres:
+- name: Sci-fi
+- name: Shooter
+- name: Simulation
+aliases: []
+banner_url: /games/banner/independence-war-2-edge-of-chaos.jpg
+icon_url: /games/icon/independence-war-2-edge-of-chaos.png
+is_public: false
+updated: '2019-01-23T08:29:56.061404Z'
+steamid: 359630
+gogslug: independence_war_2
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 1154
+game_id: 422
+game_slug: kings-bounty-the-legend
+name: 'King''s Bounty: The Legend'
+year: null
+user: Xodetaetl
+runner: winesteam
+slug: kings-bounty-the-legend-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-11-27T22:13:21.575000Z'
+updated_at: '2014-11-27T22:13:25.478000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 25900
+gogid: 1207658867
+gogslug: kings_bounty_the_legend
+humblestoreid: ''
+script:
+  game:
+    appid: 25900

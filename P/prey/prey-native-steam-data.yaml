@@ -1,0 +1,38 @@
+id: 6274
+game_id: 563
+game_slug: prey
+name: Prey
+year: 2006
+user: soredake
+runner: linux
+slug: prey-native-steam-data
+version: Native (Steam data)
+description: null
+notes: ''
+created_at: '2017-11-07T20:44:36.443000Z'
+updated_at: '2018-05-05T02:04:31.097156Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 3970
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - execute:
+      args: $installer  -d "$GAMEDIR" "data/prey-linux-x86/*"
+      file: unzip
+  - merge:
+      src: $GAMEDIR/data/prey-linux-x86
+      dst: $GAMEDIR
+  - merge:
+      src: $steamdata/base/
+      dst: $GAMEDIR/base
+  files:
+  - steamdata: $WINESTEAM:3970:/
+  - installer: https://icculus.org/prey/downloads/prey-installer-02192009.bin
+  game:
+    exe: prey
+    working_dir: $GAMEDIR

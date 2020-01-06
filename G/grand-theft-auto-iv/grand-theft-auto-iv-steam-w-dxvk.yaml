@@ -1,0 +1,51 @@
+id: 13478
+game_id: 391
+game_slug: grand-theft-auto-iv
+name: Grand Theft Auto IV
+year: 2008
+user: maltahl
+runner: winesteam
+slug: grand-theft-auto-iv-steam-w-dxvk
+version: Steam w/ DXVK
+description: Includes xlive patch to circumvent GFWL.
+notes: "Online play is disabled due to xlive patch.\r\n**CONFIGURE AND INSTALL THE\
+  \ DEPENDENCIES FIRST**\r\nInstructions for Vulkan drivers (for D9VK support): https://github.com/lutris/lutris/wiki/Installing-drivers"
+created_at: '2019-05-12T13:38:58.275000Z'
+updated_at: '2019-12-23T19:26:56.604333Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 12210
+gogid: null
+gogslug: ''
+humblestoreid: grand-theft-auto-iv
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: create_prefix
+  - merge:
+      src: xlive
+      dst: $GAMEDIR/GTAIV
+  - task:
+      prefix: $GAMEDIR/prefix
+      key: GrabFullScreen
+      value: Y
+      path: HKEY_CURRENT_USER\Software\Wine\X11 Driver
+      name: set_regedit
+  winesteam:
+    version: lutris-4.16-x86_64
+    dxvk: true
+  system:
+    env:
+      DXVK_LOG_LEVEL: none
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: compiler
+      __GL_SHADER_DISK_CACHE: 1
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+  files:
+  - xlive: https://github.com/AccountOneOff/lutris_files/raw/master/xlive.dll
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 12210

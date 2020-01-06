@@ -1,0 +1,24 @@
+id: 11234
+game_id: 1423
+game_slug: dayz
+name: DayZ
+year: null
+user: anniez
+runner: winesteam
+slug: dayz-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-12-16T01:32:59.175189Z'
+updated_at: '2018-12-17T07:10:01.614404Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 221100
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 221100

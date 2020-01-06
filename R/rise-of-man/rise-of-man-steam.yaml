@@ -1,0 +1,25 @@
+id: 7472
+game_id: 16768
+game_slug: rise-of-man
+name: Rise of Man
+year: 2017
+user: TuiorGames
+runner: winesteam
+slug: rise-of-man-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-07T00:00:03.267000Z'
+updated_at: '2018-03-30T03:48:54.144164Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 670490
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 670490
+    arch: win64

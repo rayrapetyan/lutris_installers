@@ -1,0 +1,32 @@
+id: 5375
+game_id: 6530
+game_slug: ninja-pizza-girl
+name: Ninja Pizza Girl
+year: null
+user: FakeShemp
+runner: wine
+slug: ninja-pizza-girl-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-13T12:21:31.033972Z'
+updated_at: '2018-05-19T03:41:58.500584Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 319470
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Ninja Pizza Girl
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Ninja Pizza Girl/NinjaPizzaGirl.exe
+    arch: win32

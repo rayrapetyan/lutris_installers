@@ -1,0 +1,32 @@
+id: 4277
+game_id: 4086
+game_slug: bloop-reloaded
+name: Bloop Reloaded
+year: null
+user: FakeShemp
+runner: wine
+slug: bloop-reloaded-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-06-10T18:49:04.139758Z'
+updated_at: '2018-05-19T03:41:49.297879Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 315060
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Bloop Reloaded
+      file: $file1
+  files:
+  - file1: N/A:Please select the IndieGameStand archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Bloop Reloaded/BloopReloaded.exe
+    arch: win32

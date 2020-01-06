@@ -1,0 +1,46 @@
+id: 12032
+game_id: 16345
+game_slug: megaton-rainfall
+name: Megaton Rainfall
+year: null
+user: cxf
+runner: wine
+slug: megaton-rainfall-gog-w-dxvk
+version: GOG w/ DXVK
+description: null
+notes: ''
+created_at: '2019-02-16T05:24:53.919370Z'
+updated_at: '2019-02-16T05:25:03.463014Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 430210
+gogid: 1822672814
+gogslug: megaton_rainfall
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    args: /novr
+    exe: drive_c/GOG Games/Megaton Rainfall/MegatonRainfall.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2010 vcrun2015 win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: goginstaller
+      prefix: $GAMEDIR
+      arch: win64
+      name: wineexec
+  wine:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  files:
+  - goginstaller: N/A:Select gog setup

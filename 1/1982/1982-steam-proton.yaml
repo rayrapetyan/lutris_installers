@@ -1,0 +1,24 @@
+id: 15797
+game_id: 13390
+game_slug: '1982'
+name: '1982'
+year: null
+user: Hyperclocked
+runner: steam
+slug: 1982-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-09-25T23:46:08.761000Z'
+updated_at: '2019-10-11T01:43:21.808768Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 639650
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 639650

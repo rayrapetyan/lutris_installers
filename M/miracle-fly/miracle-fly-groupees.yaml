@@ -1,0 +1,32 @@
+id: 4933
+game_id: 7478
+game_slug: miracle-fly
+name: Miracle Fly
+year: null
+user: FakeShemp
+runner: wine
+slug: miracle-fly-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-08T20:20:32.260596Z'
+updated_at: '2018-05-19T03:41:55.736593Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 395140
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Miracle Fly
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Miracle Fly/Miracle Fly - Demo.exe
+    arch: win32

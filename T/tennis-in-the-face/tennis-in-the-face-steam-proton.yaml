@@ -1,0 +1,24 @@
+id: 13990
+game_id: 8728
+game_slug: tennis-in-the-face
+name: Tennis in the Face
+year: 2015
+user: kimchitea
+runner: steam
+slug: tennis-in-the-face-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-06-08T10:06:31.587000Z'
+updated_at: '2019-06-13T06:45:13.983979Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 394290
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 394290

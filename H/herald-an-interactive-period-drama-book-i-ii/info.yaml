@@ -1,0 +1,19 @@
+name: 'Herald: An Interactive Period Drama - Book I & II'
+slug: herald-an-interactive-period-drama-book-i-ii
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Narrative
+- name: Point-and-click
+aliases:
+- slug: herald-an-interactive-period-drama
+  name: 'Herald: An Interactive Period Drama'
+banner_url: /games/banner/herald-an-interactive-period-drama-book-i-ii.jpg
+icon_url: /games/icon/herald-an-interactive-period-drama-book-i-ii.png
+is_public: true
+updated: '2019-05-19T05:59:01.863076Z'
+steamid: 380810
+gogslug: herald_an_interactive_period_drama_book_i_ii
+humblestoreid: ''

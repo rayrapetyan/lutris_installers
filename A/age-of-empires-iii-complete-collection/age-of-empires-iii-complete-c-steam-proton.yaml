@@ -1,0 +1,38 @@
+id: 11665
+game_id: 853
+game_slug: age-of-empires-iii-complete-collection
+name: 'Age of Empires III: Complete Collection'
+year: 2009
+user: bumba
+runner: steam
+slug: age-of-empires-iii-complete-c-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-01-20T15:14:55.558000Z'
+updated_at: '2019-01-22T08:58:38.939293Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 105450
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - chmodx: protontricks
+  - execute:
+      command: $CACHE/protontricks 105450 corefonts
+  - execute:
+      command: $CACHE/protontricks 105450 l3codecx
+  - execute:
+      command: $CACHE/protontricks 105450 mfc42
+  - execute:
+      command: $CACHE/protontricks 105450 winxp
+  files:
+  - protontricks: https://raw.githubusercontent.com/Sirmentio/protontricks/master/protontricks
+  game:
+    args: +noIntroCinematics
+    appid: 105450
+    arch: win32

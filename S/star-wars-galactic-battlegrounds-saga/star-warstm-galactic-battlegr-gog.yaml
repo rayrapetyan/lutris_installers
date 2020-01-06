@@ -1,0 +1,33 @@
+id: 12425
+game_id: 5642
+game_slug: star-wars-galactic-battlegrounds-saga
+name: "STAR WARS\u2122 Galactic Battlegrounds Saga"
+year: 2001
+user: nephitejnf
+runner: wine
+slug: star-warstm-galactic-battlegr-gog
+version: GOG
+description: null
+notes: Error messages may pop up, you can just hit OK on them all.
+created_at: '2019-03-19T04:24:44.492000Z'
+updated_at: '2019-03-19T05:52:27.252015Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 356500
+gogid: 1421404646
+gogslug: star_wars_galactic_battlegrounds_saga
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: goginstaller
+      prefix: $GAMEDIR
+      args: /NOGUI /SUPPRESSMSGBOXES
+      name: wineexec
+  files:
+  - goginstaller: N/A:Select the installer from GOG
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/GOG Games/Star Wars - Galactic Battlegrounds/Game/battlegrounds_x1.exe

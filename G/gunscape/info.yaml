@@ -1,0 +1,15 @@
+name: Gunscape
+slug: gunscape
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/gunscape.jpg
+icon_url: /games/icon/gunscape.png
+is_public: true
+updated: '2019-01-23T08:29:44.975671Z'
+steamid: 342480
+gogslug: ''
+humblestoreid: ''

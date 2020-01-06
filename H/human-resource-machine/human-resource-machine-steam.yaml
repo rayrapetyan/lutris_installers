@@ -1,0 +1,24 @@
+id: 2129
+game_id: 5521
+game_slug: human-resource-machine
+name: Human Resource Machine
+year: null
+user: strider
+runner: steam
+slug: human-resource-machine-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-06-15T05:47:12.640606Z'
+updated_at: '2016-06-15T05:47:17.722350Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 375820
+gogid: 1444812654
+gogslug: human_resource_machine
+humblestoreid: ''
+script:
+  game:
+    appid: 375820

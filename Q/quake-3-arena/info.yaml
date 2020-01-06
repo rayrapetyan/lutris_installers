@@ -1,0 +1,15 @@
+name: Quake 3 Arena
+slug: quake-3-arena
+year: 1999
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/quake-3-arena.jpg
+icon_url: /games/icon/quake-3-arena.png
+is_public: true
+updated: '2019-02-01T10:13:44.880175Z'
+steamid: 2200
+gogslug: ''
+humblestoreid: ''

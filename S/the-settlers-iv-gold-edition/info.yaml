@@ -1,0 +1,17 @@
+name: 'The Settlers IV: Gold Edition'
+slug: the-settlers-iv-gold-edition
+year: 2002
+platforms:
+- name: Windows
+genres:
+- name: Real-time strategy
+aliases:
+- slug: settlers-4-gold-edition-the
+  name: 'Settlers 4: Gold Edition, The'
+banner_url: /games/banner/the-settlers-iv-gold-edition.jpg
+icon_url: /games/icon/the-settlers-iv-gold-edition.png
+is_public: true
+updated: '2019-03-25T06:18:51.192268Z'
+steamid: null
+gogslug: the_settlers_4_gold_edition
+humblestoreid: ''

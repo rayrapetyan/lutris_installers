@@ -1,0 +1,23 @@
+id: 7629
+game_id: 17553
+game_slug: wanders
+name: Wanders
+year: 2018
+user: westscz
+runner: browser
+slug: wanders-browser
+version: Browser
+description: null
+notes: ''
+created_at: '2018-03-23T17:21:16.052000Z'
+updated_at: '2018-03-23T22:44:19.560762Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://wanderers.io/

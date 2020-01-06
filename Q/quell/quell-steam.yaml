@@ -1,0 +1,24 @@
+id: 1910
+game_id: 5509
+game_slug: quell
+name: Quell
+year: 2015
+user: WildCoder
+runner: winesteam
+slug: quell-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-01-17T18:27:37.797979Z'
+updated_at: '2016-09-25T19:52:07.573074Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 344480
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 344480

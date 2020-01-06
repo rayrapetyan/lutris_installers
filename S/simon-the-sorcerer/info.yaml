@@ -1,0 +1,17 @@
+name: Simon the Sorcerer
+slug: simon-the-sorcerer
+year: 1994
+platforms:
+- name: Amiga
+- name: MS-DOS
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/simon-the-sorcerer.jpg
+icon_url: /games/icon/simon-the-sorcerer.png
+is_public: true
+updated: '2019-01-23T08:31:13.831950Z'
+steamid: null
+gogslug: simon_the_sorcerer
+humblestoreid: ''

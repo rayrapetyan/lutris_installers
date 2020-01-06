@@ -1,0 +1,16 @@
+name: Ironcast
+slug: ironcast
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Puzzle
+- name: Roguelike
+aliases: []
+banner_url: /games/banner/ironcast.jpg
+icon_url: /games/icon/ironcast.png
+is_public: true
+updated: '2019-01-23T08:29:58.423402Z'
+steamid: 327670
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,29 @@
+id: 2008
+game_id: 3698
+game_slug: freedom-planet
+name: Freedom Planet
+year: 2014
+user: Juan
+runner: linux
+slug: freedom-planet-humble-bundle
+version: Humble Bundle
+description: ''
+notes: ''
+created_at: '2016-03-05T17:18:30.937121Z'
+updated_at: '2016-03-07T15:08:46.756797Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 248310
+gogid: 1207667013
+gogslug: freedom_planet
+humblestoreid: freedom-planet
+script:
+  exe: run.sh
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: game
+  files:
+  - game: 'N/A: Select the .tar.gz archive downloaded from Humble Bundle'

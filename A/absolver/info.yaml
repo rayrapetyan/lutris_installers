@@ -1,0 +1,16 @@
+name: Absolver
+slug: absolver
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Fighting
+aliases: []
+banner_url: /games/banner/absolver.jpg
+icon_url: /games/icon/absolver.png
+is_public: true
+updated: '2019-01-23T08:28:10.551270Z'
+steamid: 473690
+gogslug: absolver
+humblestoreid: ''

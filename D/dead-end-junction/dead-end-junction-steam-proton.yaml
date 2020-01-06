@@ -1,0 +1,24 @@
+id: 13909
+game_id: 16876
+game_slug: dead-end-junction
+name: Dead End Junction
+year: 2016
+user: kimchitea
+runner: steam
+slug: dead-end-junction-steam-proton
+version: Steam Proton
+description: null
+notes: Only works in windowed mode.
+created_at: '2019-06-03T04:49:03.760000Z'
+updated_at: '2019-06-13T06:26:28.143663Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 518280
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 518280

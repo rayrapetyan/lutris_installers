@@ -1,0 +1,32 @@
+id: 3764
+game_id: 7159
+game_slug: turmoil
+name: Turmoil
+year: null
+user: FakeShemp
+runner: linux
+slug: turmoil-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-21T15:03:18.962912Z'
+updated_at: '2017-05-26T00:12:54.926976Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 361280
+gogid: 1812631235
+gogslug: turmoil
+humblestoreid: ''
+script:
+  exe: runner
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - extract:
+      file: $CACHE/Turmoil.zip
+  - chmodx: $GAMEDIR/runner
+  files:
+  - file1: N/A:Please select the Humble archive

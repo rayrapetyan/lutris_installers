@@ -1,0 +1,24 @@
+id: 11992
+game_id: 6124
+game_slug: master-of-orion-2
+name: Master of Orion 2
+year: 1996
+user: skyace65
+runner: steam
+slug: master-of-orion-2-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-02-13T03:50:19.261026Z'
+updated_at: '2019-02-15T01:31:43.249014Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 410980
+gogid: 1207661633
+gogslug: master_of_orion_1_2
+humblestoreid: ''
+script:
+  game:
+    appid: 410980

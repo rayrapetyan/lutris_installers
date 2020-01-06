@@ -1,0 +1,16 @@
+name: "Star Trek\u2122: Starfleet Academy"
+slug: star-trektm-starfleet-academy
+year: 1997
+platforms:
+- name: Windows
+genres:
+- name: Simulation
+- name: Space flight
+aliases: []
+banner_url: /games/banner/star-trektm-starfleet-academy.jpg
+icon_url: /games/icon/star-trektm-starfleet-academy.png
+is_public: true
+updated: '2019-10-11T00:28:52.853880Z'
+steamid: 364810
+gogslug: ''
+humblestoreid: ''

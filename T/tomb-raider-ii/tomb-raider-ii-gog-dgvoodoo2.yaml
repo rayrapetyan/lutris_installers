@@ -1,0 +1,195 @@
+id: 13341
+game_id: 6688
+game_slug: tomb-raider-ii
+name: Tomb Raider II
+year: 1997
+user: legluondunet
+runner: wine
+slug: tomb-raider-ii-gog-dgvoodoo2
+version: GOG + DgVoodoo2
+description: "This script will install \"Tomb Raider II\" Gog edition with support\
+  \ for modern computer config.\r\nDuring install please let all options by default.\r\
+  \nThis script uses different projects:\r\ndgVoodoo2: http://www.dege.freeweb.hu/\r\
+  \nTR2Main by Arsunt: https://github.com/Arsunt/TR2Main\r\nLibzplay: http://libzplay.sourceforge.net/WELCOME.html\r\
+  \nOther sources: https://www.tombraiderforums.com\r\nThanks to the people who contributed\
+  \ to play this game in the best conditions."
+notes: "- Add Tomb Raider II Gold extension.\r\n- TR2 has insufficient controller\
+  \ support, I invite you to use a keymapper. You will find profiles for x360 (Antimicro)\
+  \ and Steam Controller (sc-controller) in the \"gamepad profiles\" folder.\r\n-\
+  \ Please report issue concerning this script on my github page:\r\nhttps://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2019-05-05T11:29:07.762000Z'
+updated_at: '2019-09-21T21:23:27.482767Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: 225300
+gogid: 1207663483
+gogslug: tomb_raider_123
+humblestoreid: ''
+script:
+  custom-name: Tomb Raider II Gold - GOG
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Tomb Raider 2/TR2M1.BAT
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating WINE prefix
+      arch: win64
+      name: create_prefix
+  - extract:
+      dst: $CACHE
+      file: inno
+  - execute:
+      args: -d "$CACHE" "$setup"
+      file: $CACHE/innoextract
+  - move:
+      src: $CACHE/app
+      dst: $GAMEDIR/drive_c/GOG Games/Tomb Raider 2/
+  - execute:
+      command: cd "$GAMEDIR/drive_c/GOG Games/Tomb Raider 2/"; mv Tomb2.exe Tomb2.gog
+  - extract:
+      dst: $GAMEDIR/drive_c/GOG Games/Tomb Raider 2/
+      file: tr2main
+  - extract:
+      dst: $GAMEDIR/drive_c/GOG Games/Tomb Raider 2/
+      file: dgv
+  - copy:
+      src: $GAMEDIR/drive_c/GOG Games/Tomb Raider 2/MS/x86/DDraw.dll
+      dst: $GAMEDIR/drive_c/GOG Games/Tomb Raider 2/
+  - copy:
+      src: $GAMEDIR/drive_c/GOG Games/Tomb Raider 2/MS/x86/D3DImm.dll
+      dst: $GAMEDIR/drive_c/GOG Games/Tomb Raider 2/
+  - execute:
+      command: cd "$GAMEDIR/drive_c/GOG Games/Tomb Raider 2/"; mv dgVoodoo.conf dgVoodoo_original.conf
+  - write_config:
+      data:
+        General:
+          CaptureMouse: false
+          ScalingMode: stretched_ar
+          FullScreenMode: false
+        DirectX:
+          dgVoodooWatermark: false
+          Resolution: max_qhd_isf
+          ForceVerticalSync: true
+          VRAM: 256
+      file: $GAMEDIR/drive_c/GOG Games/Tomb Raider 2/dgVoodoo.conf
+  - extract:
+      dst: $GAMEDIR/drive_c/GOG Games/Tomb Raider 2/
+      file: audiodll
+  - move:
+      src: menu1
+      dst: $GAMEDIR/drive_c/GOG Games/Tomb Raider 2/
+  - move:
+      src: menu2
+      dst: $GAMEDIR/drive_c/GOG Games/Tomb Raider 2/
+  - merge:
+      src: gppx360
+      dst: $GAMEDIR/drive_c/GOG Games/Tomb Raider 2/gamepad profiles/
+  - merge:
+      src: gppsteam
+      dst: $GAMEDIR/drive_c/GOG Games/Tomb Raider 2/gamepad profiles/
+  - merge:
+      src: gppreadme
+      dst: $GAMEDIR/drive_c/GOG Games/Tomb Raider 2/gamepad profiles/
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: native,builtin
+      key: ddraw
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides\
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: native,builtin
+      key: winmm
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides\
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_DWORD
+      value: '00000002'
+      key: InvBackgroundMode
+      path: HKEY_CURRENT_USER\Software\Core Design\Tomb Raider II\Game
+  - task:
+      prefix: $GAMEDIR
+      app: d3dcompiler_47
+      name: winetricks
+  - move:
+      src: wpp
+      dst: $GAMEDIR/drive_c/
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: c:\\tr2.bmp
+      key: wallpaper
+      path: HKEY_CURRENT_USER\Control Panel\Desktop\
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: 91 0 0
+      key: background
+      path: HKEY_CURRENT_USER\Control Panel\Colors\
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: 0 0 0
+      key: ActiveTitle
+      path: HKEY_CURRENT_USER\Control Panel\Colors\
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: 204 51 0
+      key: GradientActiveTitle
+      path: HKEY_CURRENT_USER\Control Panel\Colors\
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_DWORD
+      value: '00000000'
+      key: csmt
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D\
+  - chmodx: script
+  - execute:
+      file: script
+  - extract:
+      src: ext
+      dst: $GAMEDIR/drive_c/GOG Games/Tomb Raider 2 Golden Mask/data/
+  wine:
+    dxvk: true
+    Desktop: true
+  files:
+  - setup: N/A:Select the installer downloaded from GOG
+  - tr2main: https://github.com/Arsunt/TR2Main/releases/download/v0.8.2/TR2Main_v0.8.2.zip
+  - ext: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Tomb%20Raider%20II/gold.zip
+  - inno: http://constexpr.org/innoextract/files/snapshots/innoextract-1.8-dev-2019-01-13/innoextract-1.8-dev-2019-01-13-linux.tar.xz
+  - dgv: https://github.com/legluondunet/mlls-tools/raw/master/dgVoodoo2/dgVoodoo2_61.zip
+  - audiodll: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Tomb%20Raider%20II/zplaymm.zip
+  - menu1: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Tomb Raider
+      II/TR2M1.BAT
+  - menu2: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Tomb Raider
+      II/TR2M2.BAT
+  - gppx360: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Tomb
+      Raider II/gamepad%20profiles/tr1-2_x360.gamecontroller.amgp
+  - gppsteam: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Tomb
+      Raider 2/gamepad%20profiles/tr1-2_steam.sccprofile
+  - gppreadme: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Tomb
+      Raider 2/gamepad%20profiles/tr1-2_gamepad_readme.html
+  - script: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Tomb
+      Raider II/clean.sh
+  - wpp: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Tomb%20Raider%20II/tr2.bmp

@@ -1,0 +1,16 @@
+name: 'Commandos 3: Destination Berlin'
+slug: commandos-3-destination-berlin
+year: 2003
+platforms:
+- name: Windows
+genres:
+- name: Real-time tactics
+- name: Stealth
+aliases: []
+banner_url: /games/banner/commandos-3-destination-berlin.jpg
+icon_url: /games/icon/commandos-3-destination-berlin.png
+is_public: true
+updated: '2019-01-23T08:28:56.675101Z'
+steamid: 6840
+gogslug: commandos_2_3
+humblestoreid: ''

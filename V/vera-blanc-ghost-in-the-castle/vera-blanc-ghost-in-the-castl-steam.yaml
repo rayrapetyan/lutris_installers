@@ -1,0 +1,39 @@
+id: 13716
+game_id: 3904
+game_slug: vera-blanc-ghost-in-the-castle
+name: 'Vera Blanc: Ghost In The Castle'
+year: 2010
+user: kimchitea
+runner: linux
+slug: vera-blanc-ghost-in-the-castl-steam
+version: Steam
+description: Uses the binaries from the demo version to run the Steam version from
+  https://lutris.net/games/winter-wolves-classic-games-collection/ natively in Linux.
+notes: ''
+created_at: '2019-05-25T00:40:20.347000Z'
+updated_at: '2019-06-13T07:52:53.760424Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Vera Blanc - Ghost In The Castle.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Vera Blanc - Ghost In The Castle.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Vera Blanc - Ghost In The Castle
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Vera Blanc - Ghost In The Castle
+  - merge:
+      src: steam-data
+      dst: $CACHE
+  - merge:
+      src: $CACHE/vb02/game
+      dst: $GAMEDIR/game
+  files:
+  - file1: N/A:Please select the demo archive
+  - steam-data: $STEAM:646150:/

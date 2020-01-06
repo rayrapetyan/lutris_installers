@@ -1,0 +1,32 @@
+id: 15159
+game_id: 20510
+game_slug: camp-buddy
+name: Camp Buddy
+year: 2018
+user: Faizhaizat
+runner: linux
+slug: camp-buddy-balance
+version: Balance
+description: null
+notes: 'Demo link: https://blitsgames.com/product/camp-buddy-demo/ (download the PC
+  version)'
+created_at: '2019-08-27T15:38:20.111000Z'
+updated_at: '2019-09-09T00:01:57.301466Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: '[BLits]_Camp_Buddy_Demo_v2.0.sh'
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/[BLits]_Camp_Buddy_Demo_v2.0.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/[BLits]_Camp_Buddy_Demo_v2.0
+  - chmodx: $GAMEDIR/lib/linux-x86_64/[BLits]_Camp_Buddy_Demo_v2.0
+  files:
+  - file1: N/A:Please select the demo archive

@@ -1,0 +1,31 @@
+id: 6154
+game_id: 14429
+game_slug: spyro-2-riptos-rage
+name: 'Spyro 2: Ripto''s Rage!'
+year: 1999
+user: FakeShemp
+runner: libretro
+slug: spyro-2-riptos-rage-playstation
+version: PlayStation
+description: ''
+notes: ''
+created_at: '2017-10-28T10:03:10.529300Z'
+updated_at: '2017-10-28T10:07:11.193363Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the PlayStation image file
+  game:
+    core: mednafen_psx_hw
+    main_file: file1

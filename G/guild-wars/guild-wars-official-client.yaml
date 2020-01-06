@@ -1,0 +1,37 @@
+id: 5411
+game_id: 1367
+game_slug: guild-wars
+name: Guild Wars
+year: 2005
+user: TemporaryShadow
+runner: wine
+slug: guild-wars-official-client
+version: Official Client
+description: ''
+notes: ''
+created_at: '2017-08-17T14:06:45.322000Z'
+updated_at: '2017-12-21T15:49:48.862938Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 29600
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - move:
+      src: client
+      dst: $GAMEDIR
+  - chmodx: $GAMEDIR/GwSetup.exe
+  files:
+  - client: http://cloudfront.guildwars2.com/client/GwSetup.exe
+  game:
+    prefix: $GAMEDIR
+    args: null
+    exe: GwSetup.exe

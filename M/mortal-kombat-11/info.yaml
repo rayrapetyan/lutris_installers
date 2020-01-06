@@ -1,0 +1,16 @@
+name: Mortal Kombat 11
+slug: mortal-kombat-11
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Fighting
+aliases: []
+banner_url: /games/banner/mortal-kombat-11.jpg
+icon_url: /games/icon/mortal-kombat-11.png
+is_public: true
+updated: '2019-04-28T05:46:34.743966Z'
+steamid: 976310
+gogslug: ''
+humblestoreid: ''

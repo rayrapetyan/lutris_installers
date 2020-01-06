@@ -1,0 +1,37 @@
+id: 5685
+game_id: 1781
+game_slug: commandos-strike-force
+name: 'Commandos: Strike Force'
+year: null
+user: FakeShemp
+runner: wine
+slug: commandos-strike-force-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-11T11:43:03.590000Z'
+updated_at: '2018-05-19T03:41:53.951809Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 6820
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/CSF-Setup.exe
+      prefix: $GAMEDIR
+      args: /sp- /verysilent /norestart /suppressmsgboxes /nogui
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Pyro Studios/Commandos Strike Force/CommXPC.exe
+    arch: win32

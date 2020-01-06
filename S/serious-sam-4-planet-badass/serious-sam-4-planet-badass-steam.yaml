@@ -1,0 +1,24 @@
+id: 7976
+game_id: 17974
+game_slug: serious-sam-4-planet-badass
+name: 'Serious Sam 4: Planet Badass'
+year: 2018
+user: TuiorGames
+runner: steam
+slug: serious-sam-4-planet-badass-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-04-23T12:41:00.034482Z'
+updated_at: '2018-05-07T02:57:26.700145Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 257420
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 257420

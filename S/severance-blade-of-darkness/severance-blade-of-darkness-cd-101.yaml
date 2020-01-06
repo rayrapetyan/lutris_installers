@@ -1,0 +1,49 @@
+id: 9133
+game_id: 19857
+game_slug: severance-blade-of-darkness
+name: 'Severance: Blade of Darkness'
+year: 2001
+user: stoilkov
+runner: wine
+slug: severance-blade-of-darkness-cd-101
+version: CD 1.0.1
+description: null
+notes: "During install process uncheck 'Install DirectX' and 'View Readme file'\r\n\
+  Intro doesn't work press 'Space Bar' or 'ESC' to skip it\r\nVideo mode has an included\
+  \ option for 'rOpenGL' video those of you that may have issues\r\nSet audio to 'Miles\
+  \ Fast 2D Positional Audio'"
+created_at: '2018-07-10T16:31:03.571000Z'
+updated_at: '2018-07-11T03:14:02.274451Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Codemasters/Severance/Bin/Blade.exe
+    arch: win32
+  installer:
+  - insert-disc:
+      requires: SetUp.exe
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix...
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: $DISC/SetUp.exe
+      description: Installing Severance Blade of Darkness...
+      arch: win32
+      name: wineexec
+  - extract:
+      src: raster
+      dst: $GAMEDIR/drive_c/Codemasters/Severance/
+  wine:
+    Desktop: true
+  files:
+  - raster: http://rampage.bigtruck-canada.ca/blade/oth/raster.zip

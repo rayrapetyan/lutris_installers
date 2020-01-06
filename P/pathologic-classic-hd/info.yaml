@@ -1,0 +1,15 @@
+name: Pathologic Classic HD
+slug: pathologic-classic-hd
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/pathologic-classic-hd.jpg
+icon_url: /games/icon/pathologic-classic-hd.png
+is_public: true
+updated: '2019-12-28T22:18:13.336930Z'
+steamid: 384110
+gogslug: pathologic_classic_hd
+humblestoreid: ''

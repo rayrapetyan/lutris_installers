@@ -1,0 +1,37 @@
+id: 2339
+game_id: 4987
+game_slug: else-heartbreak
+name: Else Heart.Break()
+year: 2015
+user: Lulu
+runner: linux
+slug: else-heartbreak-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2016-07-24T20:12:33.567606Z'
+updated_at: '2016-07-27T12:42:58.921725Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 400110
+gogid: 1442485613
+gogslug: else_heartbreak
+humblestoreid: ''
+script:
+  exe: Game/start.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/Game
+  files:
+  - game: 'N/A: Plese select the GOG.com Linux installer'
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

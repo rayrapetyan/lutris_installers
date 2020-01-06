@@ -1,0 +1,29 @@
+id: 2973
+game_id: 8324
+game_slug: manaplus
+name: ManaPlus
+year: 2013
+user: scottviger
+runner: linux
+slug: manaplus-latest
+version: latest
+description: null
+notes: ''
+created_at: '2016-11-04T02:20:46.013000Z'
+updated_at: '2018-03-04T00:43:19.708789Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: ./runme.sh
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: game
+  files:
+  - game: http://download.evolonline.org/manaplus/nightly/manaplus-nightly-20170218.tar.bz2

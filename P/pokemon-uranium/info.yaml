@@ -1,0 +1,15 @@
+name: Pokemon Uranium
+slug: pokemon-uranium
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/pokemon-uranium.jpg
+icon_url: /games/icon/pokemon-uranium.png
+is_public: true
+updated: '2019-01-23T08:30:47.271436Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

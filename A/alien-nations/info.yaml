@@ -1,0 +1,17 @@
+name: Alien Nations
+slug: alien-nations
+year: 1999
+platforms:
+- name: Windows
+genres:
+- name: Fantasy
+- name: Real-time
+- name: Strategy
+aliases: []
+banner_url: /games/banner/alien-nations.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:18.691631Z'
+steamid: null
+gogslug: alien_nations
+humblestoreid: ''

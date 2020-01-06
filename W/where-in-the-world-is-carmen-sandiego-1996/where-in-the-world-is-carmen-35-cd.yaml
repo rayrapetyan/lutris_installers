@@ -1,0 +1,66 @@
+id: 10245
+game_id: 21791
+game_slug: where-in-the-world-is-carmen-sandiego-1996
+name: Where in the World Is Carmen Sandiego? (1996)
+year: 1996
+user: Mr_Alert
+runner: wine
+slug: where-in-the-world-is-carmen-35-cd
+version: 3.5 - CD
+description: null
+notes: The game uses Xephyr to set a 640x480x16bit color screen mode.
+created_at: '2018-09-19T02:47:36.603650Z'
+updated_at: '2018-09-22T01:20:06.057510Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: setup32/is_setup.exe
+  - merge:
+      src: $DISC
+      dst: $GAMEDIR/disc
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Sandboxing Wine prefix
+      app: sandbox
+      arch: win32
+      name: winetricks
+  - task:
+      letter: x
+      prefix: $GAMEDIR
+      path: $GAMEDIR/disc
+      name: set_drive_path
+  - task:
+      prefix: $GAMEDIR
+      description: Using Windows 95
+      app: win95
+      arch: win32
+      name: winetricks
+  - task:
+      executable: $GAMEDIR/disc/setup32/is_setup.exe
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  system:
+    xephyr_resolution: 640x480
+    xephyr: 16bpp
+  wine:
+    WineDesktop: 640x480
+    Desktop: true
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/Broderbund Software/Where in the World is
+      Carmen Sandiego v3.5/CSWrld32.exe
+    arch: win32

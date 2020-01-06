@@ -1,0 +1,28 @@
+id: 3797
+game_id: 3711
+game_slug: 6-days-a-sacrifice
+name: 6 Days A Sacrifice
+year: 2007
+user: FakeShemp
+runner: ags
+slug: 6-days-a-sacrifice-10
+version: '1.0'
+description: ''
+notes: ''
+created_at: '2017-05-22T16:30:08.061279Z'
+updated_at: '2017-05-28T00:04:51.800112Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: 6das.exe
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: http://yahtzee.roushimsx.com/6days.zip

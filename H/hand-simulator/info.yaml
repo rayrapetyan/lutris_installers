@@ -1,0 +1,15 @@
+name: Hand Simulator
+slug: hand-simulator
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Simulation
+aliases: []
+banner_url: /games/banner/hand-simulator.jpg
+icon_url: /games/icon/hand-simulator.png
+is_public: false
+updated: '2019-01-23T08:29:46.831316Z'
+steamid: 657200
+gogslug: ''
+humblestoreid: ''

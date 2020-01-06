@@ -1,0 +1,16 @@
+name: 'Dark Fall 1: The Journal'
+slug: dark-fall-1-the-journal
+year: 2003
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/dark-fall-1-the-journal.jpg
+icon_url: /games/icon/dark-fall-1-the-journal.png
+is_public: true
+updated: '2019-01-23T08:29:04.204222Z'
+steamid: 260690
+gogslug: ''
+humblestoreid: ''

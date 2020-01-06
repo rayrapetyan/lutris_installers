@@ -1,0 +1,38 @@
+id: 10434
+game_id: 22084
+game_slug: algormortis
+name: algormortis
+year: 2014
+user: kimchitea
+runner: linux
+slug: algormortis-itchio
+version: itch.io
+description: null
+notes: Uses the Ren'Py SDK to run the Windows version natively in Linux.
+created_at: '2018-10-06T18:26:25.899176Z'
+updated_at: '2018-10-07T05:57:30.061338Z'
+draft: true
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $file1
+  - extract:
+      dst: $CACHE/algormortis
+      file: $file2
+  - merge:
+      src: $CACHE/algormortis
+      dst: $GAMEDIR/algormortis
+  files:
+  - file1: https://www.renpy.org/dl/6.17.7/renpy-6.17.7-sdk.tar.bz2
+  - file2: N/A:Please select the itch.io archive for Windows
+  game:
+    args: algormortis
+    exe: $GAMEDIR/renpy.sh

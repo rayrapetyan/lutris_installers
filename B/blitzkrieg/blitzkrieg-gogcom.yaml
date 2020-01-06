@@ -1,0 +1,56 @@
+id: 2509
+game_id: 7226
+game_slug: blitzkrieg
+name: Blitzkrieg
+year: 2003
+user: ssf
+runner: wine
+slug: blitzkrieg-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2016-08-19T10:05:51.035182Z'
+updated_at: '2016-09-30T21:07:21.901154Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      type: REG_SZ
+      value: ''
+      key: winemenubuilder.exe
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /VERYSILENT /SP- /NOCANCEL /SUPPRESSMSGBOXES '/DIR=C:/game'
+      description: Installing...
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Disabling unused WINE features
+      app: sandbox
+      silent: true
+      name: winetricks
+  gogid: blitzkrieg
+  system:
+    disable_runtime: true
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/game/Run/game.exe
+    working_dir: $GAMEDIR/drive_c/game
+    arch: win32

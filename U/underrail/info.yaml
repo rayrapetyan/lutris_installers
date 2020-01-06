@@ -1,0 +1,20 @@
+name: Underrail
+slug: underrail
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Indie
+- name: Open World
+- name: Role-playing
+- name: RPG
+- name: Tactical
+- name: Turn-based
+aliases: []
+banner_url: /games/banner/underrail.jpg
+icon_url: /games/icon/underrail.png
+is_public: true
+updated: '2019-02-19T02:58:48.748119Z'
+steamid: 250520
+gogslug: underrail
+humblestoreid: ''

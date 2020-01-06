@@ -1,0 +1,37 @@
+id: 9727
+game_id: 1314
+game_slug: fallout-tactics
+name: Fallout Tactics
+year: null
+user: RookDerby
+runner: wine
+slug: fallout-tactics-gog
+version: Gog
+description: GOG version 2.1+
+notes: https://appdb.winehq.org/objectManager.php?sClass=application&iId=602
+created_at: '2018-08-14T02:46:41.825986Z'
+updated_at: '2018-08-16T06:23:09.835920Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 38420
+gogid: 1440163405
+gogslug: fallout_tactics
+humblestoreid: ''
+script:
+  exe: drive_c/GOG Games/Fallout Tactics/BOS.exe
+  installer:
+  - task:
+      executable: arc
+      prefix: $GAMEDIR
+      args: null
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: directplay
+      name: winetricks
+  files:
+  - arc: N/A:Select the Windows installer downloaded from GOG
+  game:
+    prefix: $GAMEDIR

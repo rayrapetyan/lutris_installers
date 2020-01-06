@@ -1,0 +1,32 @@
+id: 11927
+game_id: 9681
+game_slug: zeus-poseidon
+name: Zeus + Poseidon
+year: null
+user: deckoff
+runner: wine
+slug: zeus-poseidon-gog
+version: GOG
+description: Installs the GOG version of the game, without any mods
+notes: ''
+created_at: '2019-02-08T23:04:43.837000Z'
+updated_at: '2019-10-28T21:00:33.732991Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: 566050
+gogid: 1207659039
+gogslug: zeus_poseidon
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the GOG installer
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/GOG Games/Zeus and Poseidon/Zeus.exe

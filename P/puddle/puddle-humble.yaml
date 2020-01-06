@@ -1,0 +1,28 @@
+id: 3704
+game_id: 481
+game_slug: puddle
+name: Puddle
+year: null
+user: FakeShemp
+runner: linux
+slug: puddle-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-16T19:39:43.273000Z'
+updated_at: '2017-05-17T18:22:14.880166Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 222140
+gogid: 1207659122
+gogslug: puddle
+humblestoreid: ''
+script:
+  exe: Puddle
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

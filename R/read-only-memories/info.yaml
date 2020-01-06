@@ -1,0 +1,18 @@
+name: '2064: Read Only Memories'
+slug: read-only-memories
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Indie
+- name: Point-and-click
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/read-only-memories.jpg
+icon_url: /games/icon/read-only-memories.png
+is_public: true
+updated: '2019-10-29T21:11:33.031554Z'
+steamid: 330820
+gogslug: read_only_memories
+humblestoreid: 2064-read-only-memories

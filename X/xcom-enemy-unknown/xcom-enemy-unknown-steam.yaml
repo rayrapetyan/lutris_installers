@@ -1,0 +1,24 @@
+id: 475
+game_id: 550
+game_slug: xcom-enemy-unknown
+name: 'XCOM: Enemy Unknown'
+year: 2012
+user: Xodetaetl
+runner: steam
+slug: xcom-enemy-unknown-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-06-22T08:59:37.587000Z'
+updated_at: '2014-06-22T08:59:43.736000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 200510
+gogid: null
+gogslug: xcom_enemy_unknown_complete_pack
+humblestoreid: ''
+script:
+  game:
+    appid: 200510

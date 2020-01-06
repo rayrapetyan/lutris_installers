@@ -1,0 +1,24 @@
+id: 17685
+game_id: 1322
+game_slug: magic-the-gathering-duels-of-the-planeswalkers-201
+name: 'Magic: The Gathering - Duels of the Planeswalkers 2012'
+year: null
+user: AlphaAngel
+runner: steam
+slug: magic-the-gathering-duels-of-steam-with-proton
+version: Steam with Proton
+description: null
+notes: ''
+created_at: '2020-01-01T10:48:44.026051Z'
+updated_at: '2020-01-01T10:48:44.026076Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 97330
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 97330

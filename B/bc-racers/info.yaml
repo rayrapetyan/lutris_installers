@@ -1,0 +1,17 @@
+name: BC Racers
+slug: bc-racers
+year: 1995
+platforms:
+- name: 3DO
+- name: MS-DOS
+- name: Sega 32X
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/bc-racers.jpg
+icon_url: null
+is_public: true
+updated: '2019-02-26T14:40:40.274425Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 3593
+game_id: 3316
+game_slug: haegemonia-legions-of-iron
+name: 'Haegemonia: Legions of Iron'
+year: null
+user: schaap137
+runner: winesteam
+slug: haegemonia-legions-of-iron-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: ''
+created_at: '2017-04-29T23:32:53.751461Z'
+updated_at: '2017-05-04T02:03:52.826602Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 294770
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 294770

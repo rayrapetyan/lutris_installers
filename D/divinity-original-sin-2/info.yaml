@@ -1,0 +1,17 @@
+name: 'Divinity: Original Sin 2 - Definitive Edition'
+slug: divinity-original-sin-2
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: RPG
+- name: Strategy
+aliases: []
+banner_url: /games/banner/divinity-original-sin-2.jpg
+icon_url: /games/icon/divinity-original-sin-2.png
+is_public: true
+updated: '2019-01-23T08:29:14.104661Z'
+steamid: 435150
+gogslug: divinity_original_sin_2
+humblestoreid: ''

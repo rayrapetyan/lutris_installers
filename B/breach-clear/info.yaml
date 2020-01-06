@@ -1,0 +1,17 @@
+name: Breach & Clear
+slug: breach-clear
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Modern
+- name: Strategy
+- name: Turn-based
+aliases: []
+banner_url: /games/banner/breach-clear.jpg
+icon_url: /games/icon/breach-clear.png
+is_public: true
+updated: '2019-01-23T08:28:41.545607Z'
+steamid: 266130
+gogslug: breach_and_clear
+humblestoreid: ''

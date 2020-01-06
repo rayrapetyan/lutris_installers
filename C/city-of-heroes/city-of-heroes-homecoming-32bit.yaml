@@ -1,0 +1,62 @@
+id: 15221
+game_id: 4300
+game_slug: city-of-heroes
+name: City of Heroes
+year: null
+user: nuggetsauce
+runner: wine
+slug: city-of-heroes-homecoming-32bit
+version: Homecoming - 32bit
+description: "For additional install instructions:\r\nhttps://forums.homecomingservers.com/topic/584-dredds-guide-to-loading-city-of-heroes/"
+notes: "When run for the first  time it will ask for an install directory.  You can\
+  \ use what is selected by default.\r\n\r\nThe Tequila client may have issues downloading\
+  \ some of the other software it can run like paragon chat.  This will prevent the\
+  \ play button from appearing.  You can by pass that by just double clicking on Homecoming\
+  \ in the navbar to load the game.\r\n\r\nAfter loading the game you might need to\
+  \ hit \"Alt-Enter\" to change to windowed mode as the resolution may not be supported."
+created_at: '2019-08-31T16:27:28.542000Z'
+updated_at: '2019-09-08T23:22:32.403285Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 29550
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Corefonts
+      app: corefonts
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing MS .NET 3.5
+      app: dotnet35
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing DirectInput 8
+      app: dinput8
+      silent: true
+      name: winetricks
+  - execute:
+      command: mkdir -p "$GAMEDIR/drive_c/Games/CoH"
+  - move:
+      src: client
+      dst: $GAMEDIR/drive_c/Games/CoH/tequila.exe
+  files:
+  - client: http://patch.savecoh.com/tequila.exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Games/CoH/tequila.exe
+    arch: win32

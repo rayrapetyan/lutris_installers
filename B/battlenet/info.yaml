@@ -1,0 +1,15 @@
+name: Blizzard Battle.net
+slug: battlenet
+year: 1996
+platforms:
+- name: Windows
+genres:
+- name: Tool
+aliases: []
+banner_url: /games/banner/battlenet.jpg
+icon_url: /games/icon/battlenet.png
+is_public: true
+updated: '2019-09-11T17:31:35.510833Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

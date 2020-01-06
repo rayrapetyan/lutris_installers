@@ -1,0 +1,33 @@
+id: 8932
+game_id: 7646
+game_slug: the-king-of-fighters-2002
+name: The King of Fighters 2002
+year: 2002
+user: basxto
+runner: mame
+slug: the-king-of-fighters-2002-mamegog
+version: MAME+GOG
+description: This is the GOG version of The King of Fighters 2002 running in MAME.
+notes: 'needs file: gog_the_king_of_fighters_2002_"given version".sh'
+created_at: '2018-06-27T22:10:03.577000Z'
+updated_at: '2018-06-28T04:35:32.019695Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 2114035213
+gogslug: the_king_of_fighters_2002
+humblestoreid: ''
+script:
+  main_file: kof2002.zip
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: -j $game -d "$GAMEDIR" "data/noarch/game/kof2002.zip" "data/noarch/game/neogeo.zip"
+      file: $CACHE/unzip
+  files:
+  - game: N/A:Select the Linux installer downloaded from GOG
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

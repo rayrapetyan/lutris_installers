@@ -1,0 +1,58 @@
+id: 9041
+game_id: 7214
+game_slug: blitzkrieg-3
+name: Blitzkrieg 3
+year: 2017
+user: Asgaroth
+runner: winesteam
+slug: blitzkrieg-3-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: "[1] Game does not exit properly, alt-tab to lutris to stop the runner.\r\n\
+  [2] In game settings -> camera, there is a black box, I'm not sure what is meant\
+  \ to be there. Just making a note of it here."
+created_at: '2018-07-06T11:11:23.321000Z'
+updated_at: '2019-02-14T05:07:43.405484Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 235380
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Creating wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Using winetricks to install Visual C++ 2010 libraries
+      app: vcrun2010
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Using winetricks to install DirectX 11_43
+      app: d3dx11_43
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Setting wine to Windows 10
+      app: win10
+      arch: win64
+      name: winetricks
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 235380
+    arch: win64

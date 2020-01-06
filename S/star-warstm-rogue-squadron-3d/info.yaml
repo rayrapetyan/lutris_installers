@@ -1,0 +1,15 @@
+name: "STAR WARS\u2122: Rogue Squadron 3D"
+slug: star-warstm-rogue-squadron-3d
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/star-warstm-rogue-squadron-3d.jpg
+icon_url: /games/icon/star-warstm-rogue-squadron-3d.png
+is_public: true
+updated: '2019-04-24T01:40:51.326453Z'
+steamid: 455910
+gogslug: star_wars_rogue_squadron_3d
+humblestoreid: ''

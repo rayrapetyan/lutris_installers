@@ -1,0 +1,31 @@
+id: 9317
+game_id: 20119
+game_slug: karl-quappe
+name: Karl Quappe
+year: 2017
+user: te_lanus
+runner: libretro
+slug: karl-quappe-vectrex
+version: Vectrex
+description: null
+notes: ''
+created_at: '2018-07-21T20:38:37.140030Z'
+updated_at: '2018-07-21T20:38:52.916057Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Vectrex game file
+  game:
+    core: vecx
+    main_file: file1

@@ -1,0 +1,24 @@
+id: 3531
+game_id: 5859
+game_slug: poi
+name: Poi
+year: null
+user: liberodark
+runner: steam
+slug: poi-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-04-17T19:01:13.823617Z'
+updated_at: '2017-04-18T19:21:40.231123Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 401810
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 401810

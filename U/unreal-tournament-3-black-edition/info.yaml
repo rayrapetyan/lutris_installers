@@ -1,0 +1,15 @@
+name: 'Unreal Tournament 3: Black Edition'
+slug: unreal-tournament-3-black-edition
+year: 2007
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/unreal-tournament-3-black-edition.jpg
+icon_url: /games/icon/unreal-tournament-3-black-edition.png
+is_public: true
+updated: '2019-01-23T08:32:00.429736Z'
+steamid: 13210
+gogslug: ''
+humblestoreid: ''

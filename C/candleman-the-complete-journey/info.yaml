@@ -1,0 +1,17 @@
+name: 'Candleman: The Complete Journey'
+slug: candleman-the-complete-journey
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Platformer
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/candleman-the-complete-journey.jpg
+icon_url: null
+is_public: true
+updated: '2019-07-12T15:44:01.943885Z'
+steamid: 591630
+gogslug: candleman
+humblestoreid: ''

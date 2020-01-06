@@ -1,0 +1,61 @@
+id: 16354
+game_id: 27299
+game_slug: return-of-reckoning
+name: Return of Reckoning
+year: 2019
+user: Bragga
+runner: wine
+slug: return-of-reckoning-online-private-serve
+version: Online Private Server
+description: "files:\r\n- lotro_installer: http://launcher.returnofreckoning.com/RoRLauncher.exe\r\
+  \n\r\n  prefix: $GAMEDIR\r\ninstaller:\r\n- task:\r\n    description: Creating Wine\
+  \ prefix\r\n    name: create_prefix\r\n    prefix: $GAMEDIR\r\n- task:\r\n    app:\
+  \ corefonts\r\n    description: Installing fonts\r\n    name: winetricks\r\n   \
+  \ prefix: $GAMEDIR\r\n- task:\r\n    app: vcrun2017\r\n    description: Setting\
+  \ Windows version to Visual C++ 2017"
+notes: ''
+created_at: '2019-10-22T14:28:15.501651Z'
+updated_at: '2019-10-22T14:28:15.501679Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/Return of Reckoning/
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing fonts
+      app: corefonts
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows version to Visual C++ 2017
+      app: vcrun2017
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows version to Windows10
+      app: win10
+      name: winetricks
+  - task:
+      executable: lotro_installer
+      prefix: $GAMEDIR
+      args: --mode unattended
+      name: wineexec
+  wine:
+    version: lutris-4.13-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - ror_installer: https://launcher.returnofreckoning.com/RoRInstaller.exe

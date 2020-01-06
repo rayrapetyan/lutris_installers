@@ -1,0 +1,36 @@
+id: 4532
+game_id: 643
+game_slug: a-new-beginning-final-cut
+name: A New Beginning - Final Cut
+year: 2010
+user: FakeShemp
+runner: wine
+slug: a-new-beginning-final-cut-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-21T20:47:54.039000Z'
+updated_at: '2018-05-19T03:41:50.077512Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 105000
+gogid: 1207659150
+gogslug: a_new_beginning
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Daedalic Entertainment/A New Beginning - Final Cut/anb.exe
+    arch: win32

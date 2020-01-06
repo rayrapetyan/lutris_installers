@@ -1,0 +1,18 @@
+name: Wolfenstein 3D
+slug: wolfenstein-3d
+year: 1992
+platforms:
+- name: Apple IIGS
+- name: Browser
+- name: Linux
+- name: MS-DOS
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/wolfenstein-3d.jpg
+icon_url: /games/icon/wolfenstein-3d.png
+is_public: true
+updated: '2019-04-09T15:31:15.351581Z'
+steamid: 2270
+gogslug: ''
+humblestoreid: ''

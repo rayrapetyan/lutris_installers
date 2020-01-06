@@ -1,0 +1,43 @@
+id: 13762
+game_id: 801
+game_slug: avernum-5
+name: Avernum 5
+year: null
+user: Lethiks
+runner: wine
+slug: avernum-5-gog
+version: GoG
+description: null
+notes: ''
+created_at: '2019-05-27T20:41:36.321000Z'
+updated_at: '2019-06-17T01:45:37.181024Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 206040
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: setup
+      args: /SILENT /LANG=en /SP- /NOCANCEL /SUPPRESSMSGBOXES /NOGUI
+      description: Installing. This may take a while...
+      arch: win64
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Avernum 5/Avernum 5.exe
+    arch: win64
+  system:
+    env:
+      DXVK_HUD: 0
+  wine:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native
+    dxvk: true
+  files:
+  - setup: 'N/A: Please select the setup.exe downloaded from GOG.com'

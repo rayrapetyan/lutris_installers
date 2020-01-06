@@ -1,0 +1,15 @@
+name: Quantum Break
+slug: quantum-break
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/quantum-break.jpg
+icon_url: /games/icon/quantum-break.png
+is_public: true
+updated: '2019-01-23T08:30:52.910696Z'
+steamid: 474960
+gogslug: ''
+humblestoreid: ''

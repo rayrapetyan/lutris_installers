@@ -1,0 +1,30 @@
+id: 3959
+game_id: 11484
+game_slug: jack-claw
+name: Jack Claw
+year: 2011
+user: FakeShemp
+runner: linux
+slug: jack-claw-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-29T20:45:11.152091Z'
+updated_at: '2017-05-29T21:06:42.753824Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: claw-bin
+  installer:
+  - extract:
+      file: $file1
+  - execute:
+      file: $GAMEDIR/setup.sh
+  files:
+  - file1: N/A:Please select the Humble archive

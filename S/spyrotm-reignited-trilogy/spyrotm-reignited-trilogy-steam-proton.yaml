@@ -1,0 +1,25 @@
+id: 15743
+game_id: 29315
+game_slug: spyrotm-reignited-trilogy
+name: "Spyro\u2122 Reignited Trilogy"
+year: 2019
+user: zeioth
+runner: steam
+slug: spyrotm-reignited-trilogy-steam-proton
+version: Steam Proton
+description: null
+notes: '* This game might require to manually install <a href="https://github.com/z0z0z/mf-install">this
+  fix</a>.'
+created_at: '2019-09-21T18:59:38.116954Z'
+updated_at: '2019-09-21T18:59:55.234251Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 996580
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 996580

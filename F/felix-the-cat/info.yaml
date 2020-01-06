@@ -1,0 +1,15 @@
+name: Felix the Cat
+slug: felix-the-cat
+year: 1992
+platforms:
+- name: NES
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/felix-the-cat.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:29.857785Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

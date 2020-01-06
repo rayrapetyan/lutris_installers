@@ -1,0 +1,31 @@
+id: 2575
+game_id: 4565
+game_slug: deadnaut
+name: Deadnaut
+year: null
+user: Lulu
+runner: linux
+slug: deadnaut-gog
+version: GOG
+description: ''
+notes: "Requires the following packages to be installed: \r\nlibc6:i386, libasound2:i386,\
+  \ libasound2-data:i386, libasound2-plugins:i386 and dependencies.\r\n\r\n32-bit\
+  \ binary only"
+created_at: '2016-08-23T19:14:27.041273Z'
+updated_at: '2016-09-30T21:10:47.086793Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 337040
+gogid: 1425559795
+gogslug: deadnaut
+humblestoreid: ''
+script:
+  exe: start.sh
+  installer:
+  - extract:
+      file: deadnaut-game
+  - chmodx: $GAMEDIR/start.sh
+  files:
+  - deadnaut-game: N/A:Please select the .tar.gz install file downloaded from gog.com

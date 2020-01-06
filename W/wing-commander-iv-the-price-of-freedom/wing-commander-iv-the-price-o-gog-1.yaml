@@ -1,0 +1,35 @@
+id: 8081
+game_id: 18121
+game_slug: wing-commander-iv-the-price-of-freedom
+name: 'Wing Commander IV: The Price Of Freedom'
+year: 1996
+user: Wompus
+runner: wine
+slug: wing-commander-iv-the-price-o-gog-1
+version: GoG
+description: "wing Commander 4 GoG DVD version\r\n\r\nNOT FUNCTIONING YET"
+notes: ''
+created_at: '2018-05-06T22:33:27.025000Z'
+updated_at: '2018-05-09T05:52:33.266323Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.set_wing_commander4_2.0.x.x.exe
+  game:
+    exe: drive_c/GOG Games/Wing Commander IV/wc4dvd.exe

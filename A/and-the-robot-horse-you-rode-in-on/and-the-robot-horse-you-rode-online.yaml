@@ -1,0 +1,26 @@
+id: 6313
+game_id: 14783
+game_slug: and-the-robot-horse-you-rode-in-on
+name: And the Robot Horse You Rode in On
+year: null
+user: FakeShemp
+runner: web
+slug: and-the-robot-horse-you-rode-online
+version: Online
+description: null
+notes: ''
+created_at: '2017-11-12T18:28:12.155000Z'
+updated_at: '2017-11-12T18:29:31.180319Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  web:
+    window_size: 1024x768
+  game:
+    main_file: http://www.auntiepixelante.com/2100ad/

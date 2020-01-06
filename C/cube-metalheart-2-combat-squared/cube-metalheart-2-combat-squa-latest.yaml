@@ -1,0 +1,30 @@
+id: 17774
+game_id: 31058
+game_slug: cube-metalheart-2-combat-squared
+name: Cube MetalHeart 2 - Combat Squared
+year: 2015
+user: strider
+runner: linux
+slug: cube-metalheart-2-combat-squa-latest
+version: latest
+description: null
+notes: ''
+created_at: '2020-01-06T03:30:52.426548Z'
+updated_at: '2020-01-06T03:31:02.710336Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      src: cubemh2
+      dst: $GAMEDIR
+  files:
+  - cubemh2: N/A:Download the game from https://memorix101.itch.io/cmh2
+  game:
+    exe: launch_game

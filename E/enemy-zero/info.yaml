@@ -1,0 +1,17 @@
+name: Enemy Zero
+slug: enemy-zero
+year: 1996
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Horror
+aliases: []
+banner_url: /games/banner/enemy-zero.jpg
+icon_url: /games/icon/enemy-zero.png
+is_public: true
+updated: '2019-10-13T20:29:57.929778Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

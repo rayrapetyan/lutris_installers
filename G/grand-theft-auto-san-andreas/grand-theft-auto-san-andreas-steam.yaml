@@ -1,0 +1,24 @@
+id: 2079
+game_id: 135
+game_slug: grand-theft-auto-san-andreas
+name: 'Grand Theft Auto: San Andreas'
+year: 2005
+user: martynjlewis
+runner: winesteam
+slug: grand-theft-auto-san-andreas-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2016-06-07T19:39:54.054000Z'
+updated_at: '2019-01-10T10:19:36.412170Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 12120
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 12120

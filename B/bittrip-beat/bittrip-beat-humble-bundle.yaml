@@ -1,0 +1,33 @@
+id: 2489
+game_id: 196
+game_slug: bittrip-beat
+name: BIT.TRIP BEAT
+year: 2010
+user: strider
+runner: linux
+slug: bittrip-beat-humble-bundle
+version: Humble Bundle
+description: ''
+notes: ''
+created_at: '2016-08-17T22:32:24.906475Z'
+updated_at: '2016-08-17T22:32:30.176730Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 63700
+gogid: 1460735408
+gogslug: bittrip_beat
+humblestoreid: ''
+script:
+  exe: bit.trip.beat
+  installer:
+  - extract:
+      dst: $CACHE
+      file: archive
+  - merge:
+      src: $CACHE/bit.trip.beat
+      dst: $GAMEDIR
+  files:
+  - archive: N/A:Please provide the game installer provided by Humble Bundle in tar.gz
+      format

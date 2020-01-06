@@ -1,0 +1,33 @@
+id: 2956
+game_id: 27
+game_slug: shadow-warrior-classic
+name: Shadow Warrior Classic
+year: 1997
+user: strider
+runner: linux
+slug: shadow-warrior-classic-gog
+version: GOG
+description: Shadow Warrior Classic Complete is available for free on GOG.com
+notes: ''
+created_at: '2016-10-30T19:07:06.591000Z'
+updated_at: '2017-05-23T01:04:58.126476Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 238070
+gogid: 1207659142
+gogslug: shadow_warrior_complete
+humblestoreid: ''
+script:
+  exe: start.sh
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: game
+  - merge:
+      src: $CACHE/data/noarch
+      dst: $GAMEDIR
+  files:
+  - game: N/A:Please select the GOG.com Linux installer

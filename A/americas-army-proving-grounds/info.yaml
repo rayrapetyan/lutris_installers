@@ -1,0 +1,18 @@
+name: 'America''s Army: Proving Grounds'
+slug: americas-army-proving-grounds
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+aliases:
+- slug: americas-army-proving-grounds-beta
+  name: 'America''s Army: Proving Grounds Beta'
+banner_url: /games/banner/americas-army-proving-grounds.jpg
+icon_url: /games/icon/americas-army-proving-grounds.png
+is_public: false
+updated: '2019-05-24T06:57:55.981268Z'
+steamid: 203290
+gogslug: ''
+humblestoreid: ''

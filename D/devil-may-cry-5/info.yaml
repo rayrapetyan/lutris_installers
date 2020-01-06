@@ -1,0 +1,15 @@
+name: Devil May Cry 5
+slug: devil-may-cry-5
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/devil-may-cry-5.jpg
+icon_url: /games/icon/devil-may-cry-5.png
+is_public: true
+updated: '2019-03-09T05:26:16.831035Z'
+steamid: 601150
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,39 @@
+id: 9149
+game_id: 19882
+game_slug: the-boy-i-like
+name: The Boy I Like?
+year: 2014
+user: kimchitea
+runner: linux
+slug: the-boy-i-like-english-patched
+version: English patched
+description: null
+notes: "Download instructions: https://kudaratan.wordpress.com/2014/12/20/the-boy-i-like-english-patch/\r\
+  \nOnscripter: https://web.archive.org/web/20180804033515/http://unclemion.com/onscripter/releases"
+created_at: '2018-07-11T02:26:18.619000Z'
+updated_at: '2019-09-09T02:01:41.505842Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: onscripter-en
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $file1
+  - extract:
+      dst: $GAMEDIR
+      file: $file2
+  - extract:
+      dst: $GAMEDIR
+      file: $file3
+  - chmodx: $GAMEDIR/onscripter-en
+  files:
+  - file1: N/A:Please select the game archive
+  - file2: N/A:Please select the Onscripter archive
+  - file3: N/A:Please select the patch archive

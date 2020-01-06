@@ -1,0 +1,23 @@
+id: 9733
+game_id: 20935
+game_slug: knobster
+name: Knobster
+year: 2017
+user: adroit
+runner: browser
+slug: knobster-master
+version: master
+description: Opens the game at https://mazechazer.gitlab.io/knobster/
+notes: ''
+created_at: '2018-08-14T19:52:29.364000Z'
+updated_at: '2018-08-16T06:21:02.054979Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://mazechazer.gitlab.io/knobster/

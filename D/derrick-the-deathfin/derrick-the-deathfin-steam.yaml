@@ -1,0 +1,24 @@
+id: 796
+game_id: 2780
+game_slug: derrick-the-deathfin
+name: Derrick the Deathfin
+year: 2012
+user: Xodetaetl
+runner: steam
+slug: derrick-the-deathfin-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T16:21:46.918000Z'
+updated_at: '2014-09-15T17:10:39.470000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 287780
+gogid: null
+gogslug: ''
+humblestoreid: derrick-the-deathfin
+script:
+  game:
+    appid: 287780

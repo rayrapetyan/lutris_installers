@@ -1,0 +1,32 @@
+id: 4196
+game_id: 4756
+game_slug: royal-bounty-hd
+name: Royal Bounty HD
+year: null
+user: FakeShemp
+runner: wine
+slug: royal-bounty-hd-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-07T19:08:08.270677Z'
+updated_at: '2018-05-19T03:41:51.686110Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 337210
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Royal Bounty HD
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Royal Bounty HD/royalbountyhd.exe
+    arch: win32

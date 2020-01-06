@@ -1,0 +1,33 @@
+id: 9039
+game_id: 9736
+game_slug: heroes-of-might-and-magic-iii
+name: Heroes of Might and Magic III
+year: 1999
+user: 2m
+runner: wine
+slug: heroes-of-might-and-magic-iii-gog
+version: GOG
+description: null
+notes: The first time is not possible to skip the cgi introduction, but this problem
+  doesn't affect in the following executions.
+created_at: '2018-07-06T10:23:15.168000Z'
+updated_at: '2019-09-09T01:33:06.093945Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: 1207658787
+gogslug: heroes_of_might_and_magic_3_complete_edition
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the GOG installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/HoMM 3 Complete/Heroes3.exe

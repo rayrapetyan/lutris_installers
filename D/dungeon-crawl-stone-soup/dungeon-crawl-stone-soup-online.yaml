@@ -1,0 +1,23 @@
+id: 3374
+game_id: 87
+game_slug: dungeon-crawl-stone-soup
+name: Dungeon Crawl Stone Soup
+year: 1995
+user: scottviger
+runner: browser
+slug: dungeon-crawl-stone-soup-online
+version: Online
+description: ''
+notes: ''
+created_at: '2017-03-19T03:21:49.191000Z'
+updated_at: '2017-04-03T19:07:52.720699Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: http://crawl.develz.org/play.htm

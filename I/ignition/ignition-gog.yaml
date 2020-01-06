@@ -1,0 +1,33 @@
+id: 5215
+game_id: 9187
+game_slug: ignition
+name: Ignition
+year: 1997
+user: FakeShemp
+runner: linux
+slug: ignition-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2017-07-26T15:51:38.416696Z'
+updated_at: '2017-08-27T21:47:56.706968Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 577990
+gogid: 1914950878
+gogslug: ignition
+humblestoreid: ''
+script:
+  exe: start.sh
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data/noarch
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the GOG installer

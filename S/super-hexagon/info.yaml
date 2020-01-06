@@ -1,0 +1,15 @@
+name: Super Hexagon
+slug: super-hexagon
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/super-hexagon.jpg
+icon_url: /games/icon/super-hexagon.png
+is_public: true
+updated: '2019-01-23T08:31:30.263899Z'
+steamid: 221640
+gogslug: super_hexagon
+humblestoreid: super-hexagon

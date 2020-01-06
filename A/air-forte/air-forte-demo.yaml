@@ -1,0 +1,29 @@
+id: 6445
+game_id: 935
+game_slug: air-forte
+name: Air Forte
+year: 2010
+user: fanotriel
+runner: linux
+slug: air-forte-demo
+version: Demo
+description: null
+notes: ''
+created_at: '2017-11-27T02:30:35.650611Z'
+updated_at: '2017-11-27T02:32:27.497630Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 55020
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: AirForte
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: game
+  files:
+  - game: http://www.blendogames.com/files/airfortedemo.tar.gz

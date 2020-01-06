@@ -1,0 +1,16 @@
+name: "The Signal From T\xF6lva"
+slug: the-signal-from-tolva
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: FPS
+aliases: []
+banner_url: /games/banner/the-signal-from-tolva.jpg
+icon_url: /games/icon/the-signal-from-tolva.png
+is_public: true
+updated: '2019-01-23T08:31:47.294569Z'
+steamid: 457760
+gogslug: the_signal_from_tolva
+humblestoreid: ''

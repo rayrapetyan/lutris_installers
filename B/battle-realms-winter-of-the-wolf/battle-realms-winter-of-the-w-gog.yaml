@@ -1,0 +1,36 @@
+id: 13472
+game_id: 8635
+game_slug: battle-realms-winter-of-the-wolf
+name: Battle Realms + Winter of the Wolf
+year: 2012
+user: Eisi
+runner: wine
+slug: battle-realms-winter-of-the-w-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-05-12T09:32:27.267000Z'
+updated_at: '2019-05-18T06:39:12.782421Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: 1207659111
+gogslug: battle_realms_winter_of_the_wolf
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      args: /SILENT /LANG=en /SP- /NOCANCEL /SUPPRESSMSGBOXES /NOGUI /DIR="C:/GOG
+        Games/Battle Realms + Winter of the Wolf"
+      arch: win32
+      name: wineexec
+  files:
+  - installer: N/A:Please select the GOG.com Windows installer
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/GOG Games/Battle Realms + Winter of the Wolf/Battle_Realms_F.exe
+    arch: win32

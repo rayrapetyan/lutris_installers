@@ -1,0 +1,17 @@
+name: Disney The Lion King
+slug: disney-the-lion-king
+year: 1994
+platforms:
+- name: MS-DOS
+- name: Sega Genesis / Mega Drive
+- name: Super Nintendo
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/disney-the-lion-king.jpg
+icon_url: /games/icon/disney-the-lion-king.png
+is_public: true
+updated: '2019-11-23T22:47:28.174275Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,15 @@
+name: Duck Game
+slug: duck-game
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/duck-game.jpg
+icon_url: /games/icon/duck-game.png
+is_public: true
+updated: '2019-05-04T19:14:22.389256Z'
+steamid: 312530
+gogslug: ''
+humblestoreid: ''

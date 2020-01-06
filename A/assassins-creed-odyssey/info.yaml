@@ -1,0 +1,17 @@
+name: Assassin's Creed Odyssey
+slug: assassins-creed-odyssey
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/assassins-creed-odyssey.jpg
+icon_url: /games/icon/assassins-creed-odyssey.png
+is_public: true
+updated: '2019-01-23T08:28:27.372376Z'
+steamid: 812140
+gogslug: ''
+humblestoreid: ''

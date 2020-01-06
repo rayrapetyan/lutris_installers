@@ -1,0 +1,24 @@
+id: 11197
+game_id: 23802
+game_slug: chess-puzzles
+name: Chess Puzzles
+year: null
+user: strider
+runner: steam
+slug: chess-puzzles-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-12-12T07:16:31.665617Z'
+updated_at: '2018-12-12T07:16:31.665650Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 874380
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: '874380'

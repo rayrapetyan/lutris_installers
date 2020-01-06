@@ -1,0 +1,18 @@
+name: SHENZHEN I/O
+slug: shenzhen-io
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Programming
+- name: Puzzle
+aliases:
+- slug: shenzen-io
+  name: SHENZEN I/O
+banner_url: /games/banner/shenzhen-io.jpg
+icon_url: /games/icon/shenzhen-io.png
+is_public: true
+updated: '2019-10-14T02:27:23.356279Z'
+steamid: 504210
+gogslug: shenzhen_io
+humblestoreid: ''

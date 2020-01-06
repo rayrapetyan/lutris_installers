@@ -1,0 +1,17 @@
+name: EverQuest p1999
+slug: everquest-p1999
+year: 1999
+platforms:
+- name: Linux
+genres:
+- name: MMO
+- name: MMORPG
+- name: RPG
+aliases: []
+banner_url: /games/banner/everquest-p1999.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:26.071569Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

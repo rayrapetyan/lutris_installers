@@ -1,0 +1,32 @@
+id: 5664
+game_id: 3875
+game_slug: the-tiny-tale-2
+name: The Tiny Tale 2
+year: null
+user: FakeShemp
+runner: wine
+slug: the-tiny-tale-2-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-10T14:45:26.051574Z'
+updated_at: '2018-05-19T03:41:49.448494Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 340720
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/The Tiny Tale 2
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/The Tiny Tale 2/TTT2.exe
+    arch: win32

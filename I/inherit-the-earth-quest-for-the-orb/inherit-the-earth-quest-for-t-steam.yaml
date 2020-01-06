@@ -1,0 +1,24 @@
+id: 1349
+game_id: 3749
+game_slug: inherit-the-earth-quest-for-the-orb
+name: 'Inherit the Earth: Quest for the Orb'
+year: 1994
+user: Xodetaetl
+runner: steam
+slug: inherit-the-earth-quest-for-t-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-02-25T19:58:36.585000Z'
+updated_at: '2015-02-25T20:44:02.613000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 257260
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 257260

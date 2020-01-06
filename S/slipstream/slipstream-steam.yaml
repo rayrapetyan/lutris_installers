@@ -1,0 +1,24 @@
+id: 8367
+game_id: 18432
+game_slug: slipstream
+name: Slipstream
+year: 2018
+user: TuiorGames
+runner: steam
+slug: slipstream-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-21T23:00:50.016156Z'
+updated_at: '2018-05-22T14:39:50.138777Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 732810
+gogid: 1099471765
+gogslug: slipstream
+humblestoreid: ''
+script:
+  game:
+    appid: 732810

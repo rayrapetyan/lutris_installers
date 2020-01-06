@@ -1,0 +1,29 @@
+id: 17153
+game_id: 23560
+game_slug: geforce-now
+name: GeForce NOW
+year: 2015
+user: Synoven
+runner: wine
+slug: geforce-now-26
+version: '2.6'
+description: null
+notes: ''
+created_at: '2019-12-01T21:23:59.375000Z'
+updated_at: '2019-12-22T19:27:07.546665Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  files:
+  - file1: https://download.nvidia.com/gfnpc/GeForceNOW-release.exe
+  - file2: https://download.nvidia.com/gfnpc/GeForceNOW-release.exe
+  - file3:
+      referer: https://download.nvidia.com/gfnpc/GeForceNOW-release.exe
+      filename: GeForceNOW-release.exe
+      url: https://download.nvidia.com/gfnpc/GeForceNOW-release.exe

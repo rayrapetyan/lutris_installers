@@ -1,0 +1,31 @@
+id: 5180
+game_id: 5724
+game_slug: lightrise
+name: Lightrise
+year: null
+user: FakeShemp
+runner: linux
+slug: lightrise-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-24T18:56:17.463820Z'
+updated_at: '2017-08-27T22:23:17.357235Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 382250
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Linux_universal.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Linux_universal.x86
+  - chmodx: $GAMEDIR/Linux_universal.x86_64
+  exe64: Linux_universal.x86_64
+  files:
+  - file1: N/A:Please select the Groupees archive

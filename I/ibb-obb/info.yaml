@@ -1,0 +1,18 @@
+name: ibb & obb
+slug: ibb-obb
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: Platform
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/ibb-obb.jpg
+icon_url: /games/icon/ibb-obb.png
+is_public: true
+updated: '2019-01-23T08:29:54.066496Z'
+steamid: 95400
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,58 @@
+id: 12511
+game_id: 15621
+game_slug: cube-world
+name: Cube World
+year: 2019
+user: Coolsh0e
+runner: wine
+slug: cube-world-alpha
+version: Alpha
+description: null
+notes: ''
+created_at: '2019-03-25T09:16:48.885000Z'
+updated_at: '2019-09-09T00:20:45.444231Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 1128000
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 32bit Wine prefix.
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Visual C++ 2012 libs.
+      app: vcrun2012
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing MS XACT Engine (32bits).
+      app: xact_jun2010
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing WinHTTP.
+      app: winhttp
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Set orm=backbuffer.
+      app: orm=backbuffer
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - setup: N/A:Select Cube World setup executable
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Cube World/CubeLauncher.exe
+    arch: win32

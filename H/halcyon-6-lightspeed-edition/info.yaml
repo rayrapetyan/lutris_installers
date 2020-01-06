@@ -1,0 +1,17 @@
+name: 'Halcyon 6: Lightspeed Edition'
+slug: halcyon-6-lightspeed-edition
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: RPG
+- name: Sci-fi
+- name: Strategy
+aliases: []
+banner_url: /games/banner/halcyon-6-lightspeed-edition.jpg
+icon_url: /games/icon/halcyon-6-lightspeed-edition.png
+is_public: true
+updated: '2019-08-17T07:00:19.721955Z'
+steamid: 651660
+gogslug: halcyon_6_lightspeed_edition
+humblestoreid: ''

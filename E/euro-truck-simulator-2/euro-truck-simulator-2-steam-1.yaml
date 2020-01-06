@@ -1,0 +1,56 @@
+id: 17112
+game_id: 488
+game_slug: euro-truck-simulator-2
+name: Euro Truck Simulator 2
+year: 2012
+user: etovai
+runner: winesteam
+slug: euro-truck-simulator-2-steam-1
+version: Steam
+description: null
+notes: ''
+created_at: '2019-11-30T11:36:23.709613Z'
+updated_at: '2019-11-30T11:36:23.709640Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: 227300
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - write_file:
+      content: dxgi.nvapiHack = False
+      file: $GAMEDIR/prefix/dxvk.conf
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: winekill
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2017 xact
+      arch: win64
+      name: winetricks
+  winesteam:
+    version: lutris-mk11-4.18-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      msvcr120: n,b
+      nvapi,nvapi64: disabled
+  system:
+    env:
+      STAGING_SHARED_MEMORY: 0
+      DXVK_CONFIG_FILE: $GAMEDIR/prefix/dxvk.conf
+      DXVK_HUD: compiler
+    pulse_latency: true
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 227300
+    arch: win64

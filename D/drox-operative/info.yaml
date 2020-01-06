@@ -1,0 +1,16 @@
+name: Drox Operative
+slug: drox-operative
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: RPG
+aliases: []
+banner_url: /games/banner/drox-operative.jpg
+icon_url: /games/icon/drox-operative.png
+is_public: true
+updated: '2019-01-23T08:29:18.263749Z'
+steamid: 274480
+gogslug: drox_operative
+humblestoreid: ''

@@ -1,0 +1,15 @@
+name: AssaultCube Reloaded
+slug: assaultcube-reloaded
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/assaultcube-reloaded.jpg
+icon_url: /games/icon/assaultcube-reloaded.png
+is_public: true
+updated: '2019-01-23T08:28:27.506063Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

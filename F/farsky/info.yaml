@@ -1,0 +1,16 @@
+name: FarSky
+slug: farsky
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Sandbox
+- name: Survival
+aliases: []
+banner_url: /games/banner/farsky.jpg
+icon_url: /games/icon/farsky.png
+is_public: true
+updated: '2019-01-23T08:29:29.058724Z'
+steamid: 286340
+gogslug: ''
+humblestoreid: ''

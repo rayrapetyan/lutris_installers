@@ -1,0 +1,24 @@
+name: Pirate Galaxy
+slug: pirate-galaxy
+year: 2009
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Combat
+- name: Interactive fiction
+- name: MMORPG
+- name: Open World
+- name: Shooter
+- name: Space flight
+- name: Survival
+- name: Third-person shooter
+- name: Wargame
+aliases: []
+banner_url: /games/banner/pirate-galaxy.jpg
+icon_url: null
+is_public: true
+updated: '2019-12-22T18:58:25.171832Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

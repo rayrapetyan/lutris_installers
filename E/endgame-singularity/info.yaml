@@ -1,0 +1,18 @@
+name: 'Endgame: Singularity'
+slug: endgame-singularity
+year: 2005
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Sci-fi
+- name: Simulation
+- name: Strategy
+aliases: []
+banner_url: /games/banner/endgame-singularity.jpg
+icon_url: null
+is_public: true
+updated: '2019-07-23T03:41:03.588394Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

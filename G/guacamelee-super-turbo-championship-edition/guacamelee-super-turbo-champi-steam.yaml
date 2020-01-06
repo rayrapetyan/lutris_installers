@@ -1,0 +1,26 @@
+id: 6957
+game_id: 3243
+game_slug: guacamelee-super-turbo-championship-edition
+name: Guacamelee! Super Turbo Championship Edition
+year: null
+user: simon76
+runner: winesteam
+slug: guacamelee-super-turbo-champi-steam
+version: Steam
+description: null
+notes: "- Microsoft VC Redist Package cannot be installed from the first time setup,\
+  \ error message will pop up every time you run the game\r\n- Quitting from the ui\
+  \ does not work, should exit by pressing alt+f4"
+created_at: '2018-01-02T07:05:00.398000Z'
+updated_at: '2018-01-02T15:59:36.129011Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 275390
+gogid: 1207665733
+gogslug: guacamelee_super_turbo_championship_edition
+humblestoreid: ''
+script:
+  game:
+    appid: 275390

@@ -1,0 +1,34 @@
+id: 8483
+game_id: 4573
+game_slug: dark-souls-ii-scholar-of-the-first-sin
+name: "DARK SOULS\u2122 II: Scholar of the First Sin"
+year: 2012
+user: cxf
+runner: winesteam
+slug: dark-soulstm-ii-scholar-of-th-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2018-05-31T18:58:17.258000Z'
+updated_at: '2019-02-14T05:39:44.647685Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 335300
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+    pulse_latency: true
+  game:
+    appid: 335300
+    arch: win64

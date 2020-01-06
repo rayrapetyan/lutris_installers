@@ -1,0 +1,24 @@
+id: 8213
+game_id: 3228
+game_slug: cubic-castles
+name: Cubic Castles
+year: null
+user: soredake
+runner: winesteam
+slug: cubic-castles-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T07:13:07.174711Z'
+updated_at: '2018-05-13T09:04:51.875640Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 317470
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 317470

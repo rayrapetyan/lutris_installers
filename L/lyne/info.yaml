@@ -1,0 +1,15 @@
+name: LYNE
+slug: lyne
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/lyne.jpg
+icon_url: /games/icon/lyne.png
+is_public: true
+updated: '2019-01-23T08:30:14.604510Z'
+steamid: 266010
+gogslug: ''
+humblestoreid: ''

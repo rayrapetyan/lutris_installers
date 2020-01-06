@@ -1,0 +1,26 @@
+id: 6012
+game_id: 586
+game_slug: deus-ex-invisible-war
+name: 'Deus Ex: Invisible War'
+year: 2003
+user: bacera
+runner: winesteam
+slug: deus-ex-invisible-war-steam
+version: Steam
+description: ''
+notes: 'Patch your game with Visible Upgrade: Unofficial patch for Deus Ex 2 (http://ttlg.com/forums/showthread.php?t=147423)
+  to use windowed mode, add some minor fixes, and optionally add the Unified Texture
+  Pack.'
+created_at: '2017-10-20T01:43:04.943000Z'
+updated_at: '2017-10-29T01:04:59.331869Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 6920
+gogid: 1207659068
+gogslug: deus_ex_invisible_war
+humblestoreid: ''
+script:
+  game:
+    appid: 6920

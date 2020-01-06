@@ -1,0 +1,24 @@
+id: 643
+game_id: 1003
+game_slug: shattered-haven
+name: Shattered Haven
+year: null
+user: Xodetaetl
+runner: steam
+slug: shattered-haven-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-14T21:54:45.657000Z'
+updated_at: '2014-09-14T23:23:35.944000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 234370
+gogid: 1207659160
+gogslug: shattered_haven
+humblestoreid: ''
+script:
+  game:
+    appid: 234370

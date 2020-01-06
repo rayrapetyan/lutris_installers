@@ -1,0 +1,17 @@
+name: 'D&D Stronghold: Kingdom Simulator'
+slug: dd-stronghold-kingdom-simulator
+year: 1992
+platforms:
+- name: Linux
+genres:
+- name: Managerial
+- name: Real-time
+- name: Strategy
+aliases: []
+banner_url: /games/banner/dd-stronghold-kingdom-simulator.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:05.898333Z'
+steamid: null
+gogslug: dd_stronghold_kingdom_simulator
+humblestoreid: ''

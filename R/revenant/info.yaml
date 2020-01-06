@@ -1,0 +1,17 @@
+name: Revenant
+slug: revenant
+year: 1999
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Fantasy
+- name: Role-playing
+aliases: []
+banner_url: /games/banner/revenant.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:58.887597Z'
+steamid: null
+gogslug: revenant
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 8312
+game_id: 18151
+game_slug: the-fall-part-2-unbound
+name: 'The Fall Part 2: Unbound'
+year: 2018
+user: cxf
+runner: steam
+slug: the-fall-part-2-unbound-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-17T00:57:07.213134Z'
+updated_at: '2018-05-17T00:57:13.936920Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 510490
+gogid: 2130544434
+gogslug: the_fall_part_2_unbound
+humblestoreid: ''
+script:
+  game:
+    appid: 510490

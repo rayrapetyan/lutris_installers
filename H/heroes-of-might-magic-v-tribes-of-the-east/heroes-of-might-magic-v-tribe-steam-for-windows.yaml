@@ -1,0 +1,24 @@
+id: 1759
+game_id: 2455
+game_slug: heroes-of-might-magic-v-tribes-of-the-east
+name: 'Heroes of Might & Magic V: Tribes of the East'
+year: 2007
+user: RobLoach
+runner: winesteam
+slug: heroes-of-might-magic-v-tribe-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: ''
+created_at: '2015-12-27T18:34:43.896958Z'
+updated_at: '2016-02-23T00:57:11.354991Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 15370
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 15370

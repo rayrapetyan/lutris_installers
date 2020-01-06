@@ -1,0 +1,17 @@
+name: 'Star Trek: Voyager - Elite Force'
+slug: star-trek-voyager-elite-force
+year: 2000
+platforms:
+- name: Linux
+- name: Sony PlayStation 2
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/star-trek-voyager-elite-force.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-17T07:02:09.828345Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

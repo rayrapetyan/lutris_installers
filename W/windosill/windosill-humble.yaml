@@ -1,0 +1,30 @@
+id: 6009
+game_id: 720
+game_slug: windosill
+name: Windosill
+year: 2009
+user: FakeShemp
+runner: linux
+slug: windosill-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-10-19T18:30:41.197000Z'
+updated_at: '2017-10-19T18:35:18.821493Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 37600
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: file1
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  - chmodx: file1
+  files:
+  - file1: N/A:Please select the Humble executable

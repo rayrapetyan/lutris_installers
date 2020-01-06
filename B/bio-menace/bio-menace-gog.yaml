@@ -1,0 +1,38 @@
+id: 2186
+game_id: 5085
+game_slug: bio-menace
+name: Bio Menace
+year: 1993
+user: Lulu
+runner: linux
+slug: bio-menace-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2016-06-21T22:10:48.097010Z'
+updated_at: '2016-07-03T05:12:28.491306Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 358180
+gogid: 1449569170
+gogslug: bio_menace
+humblestoreid: ''
+script:
+  exe: Game/start.sh
+  gogid: bio_menace
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/Game
+  files:
+  - game: 'N/A: Plese select the GOG.com Linux installer'
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

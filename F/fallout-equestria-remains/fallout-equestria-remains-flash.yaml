@@ -1,0 +1,28 @@
+id: 6531
+game_id: 15011
+game_slug: fallout-equestria-remains
+name: 'Fallout Equestria: Remains'
+year: 2017
+user: djazz
+runner: web
+slug: fallout-equestria-remains-flash
+version: Flash
+description: null
+notes: Internet access is required to play
+created_at: '2017-12-02T18:20:52.702000Z'
+updated_at: '2017-12-30T16:46:27.534138Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  web:
+    maximize_window: true
+    remove_margin: true
+    enable_flash: true
+  game:
+    main_file: http://foe.ucoz.org/pfe.html

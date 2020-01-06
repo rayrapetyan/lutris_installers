@@ -1,0 +1,24 @@
+id: 952
+game_id: 549
+game_slug: borderlands-2
+name: Borderlands 2
+year: 2012
+user: RobLoach
+runner: steam
+slug: borderlands-2-steam
+version: steam
+description: null
+notes: ''
+created_at: '2014-10-28T17:11:57.091000Z'
+updated_at: '2018-10-30T14:47:05.011671Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 49520
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 49520

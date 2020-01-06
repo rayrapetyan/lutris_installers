@@ -1,0 +1,27 @@
+id: 12472
+game_id: 25595
+game_slug: sekirotm-shadows-die-twice
+name: "Sekiro\u2122: Shadows Die Twice"
+year: 2019
+user: OsamaBinlada
+runner: steam
+slug: sekirotm-shadows-die-twice-steam-proton
+version: Steam Proton
+description: null
+notes: "Enable Steam Play (if not already done) and disable Steam Overlay\r\n\r\n\
+  Steam > Steam > Settings > Steam Play > Check all boxes > Restart\r\nSteam > Steam\
+  \ > Settings > In-Game > Uncheck \"Enable the Steam Overlay while in-game\"\r\n\
+  Then run this installer"
+created_at: '2019-03-23T01:57:07.818000Z'
+updated_at: '2019-05-19T06:28:30.541316Z'
+draft: false
+published: true
+published_by: 19464
+rating: '5'
+steamid: 814380
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 814380

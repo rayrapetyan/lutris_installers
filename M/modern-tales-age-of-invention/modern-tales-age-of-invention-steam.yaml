@@ -1,0 +1,24 @@
+id: 10689
+game_id: 20858
+game_slug: modern-tales-age-of-invention
+name: 'Modern Tales: Age of Invention'
+year: 2017
+user: kimchitea
+runner: steam
+slug: modern-tales-age-of-invention-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-10-29T16:45:07.002176Z'
+updated_at: '2018-10-30T06:48:27.212146Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 678970
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 678970

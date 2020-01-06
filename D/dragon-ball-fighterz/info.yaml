@@ -1,0 +1,16 @@
+name: 'Dragon Ball: FighterZ'
+slug: dragon-ball-fighterz
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Fighting
+aliases: []
+banner_url: /games/banner/dragon-ball-fighterz.jpg
+icon_url: /games/icon/dragon-ball-fighterz.png
+is_public: true
+updated: '2019-01-23T08:29:16.362318Z'
+steamid: 678950
+gogslug: ''
+humblestoreid: ''

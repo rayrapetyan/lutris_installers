@@ -1,0 +1,20 @@
+name: Crash Bandicoot
+slug: crash-bandicoot
+year: 1996
+platforms:
+- name: Sony PlayStation
+- name: Sony Playstation 3
+- name: Sony PSP
+genres:
+- name: Action
+- name: Platform
+aliases:
+- slug: crash-bandicoot-psp
+  name: Crash Bandicoot psp
+banner_url: /games/banner/crash-bandicoot.jpg
+icon_url: null
+is_public: true
+updated: '2019-11-04T03:07:28.830544Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

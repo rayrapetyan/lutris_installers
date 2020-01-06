@@ -1,0 +1,60 @@
+id: 11628
+game_id: 25248
+game_slug: swan-song
+name: Swan Song
+year: 2005
+user: kimchitea
+runner: wine
+slug: swan-song-english-patched-dlsi
+version: English Patched DLsite
+description: "Game: <a href=\"https://www.dlsite.com/pro/work/=/product_id/VJ006878.html\"\
+  >DLsite</a>\r\nFan Patch: <a href=\"http://www.mediafire.com/file/a4cyj8fr9j2tdnf/SWAN_SONG_English_v1.0_%5BYandere_Translations%5D.exe\"\
+  >Mediafire</a>"
+notes: "To install the game, click N, N, N, uncheck the box, N, I, uncheck the box,\
+  \ F.\r\n\r\nTo install the patch, choose Custom Installation, change the installation\
+  \ path to C:\\flyingshine\\swan_dl and uncheck \"Game and temporary files\", ignoring\
+  \ the warnings."
+created_at: '2019-01-18T02:59:51.976000Z'
+updated_at: '2019-01-22T08:20:21.189556Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/swan_install.exe
+      env:
+        LC_ALL: ja_JP.UTF-8
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  - task:
+      executable: $file2
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing Windows Media Player 9
+      arch: win32
+      app: wmp9
+      silent: true
+      name: winetricks
+  system:
+    env:
+      LC_ALL: ja_JP.UTF-8
+  files:
+  - file1: N/A:Please select the DLsite archive
+  - file2: N/A:Please select the patch installer
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/flyingshine/swan_dl/SWANSONG.exe
+    arch: win32

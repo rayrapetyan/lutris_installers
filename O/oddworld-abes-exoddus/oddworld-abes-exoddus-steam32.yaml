@@ -1,0 +1,73 @@
+id: 16430
+game_id: 142
+game_slug: oddworld-abes-exoddus
+name: 'Oddworld: Abe''s Exoddus'
+year: 1998
+user: vanstaveren
+runner: wine
+slug: oddworld-abes-exoddus-steam32
+version: Steam32
+description: xboxdrv package needs to be installed.
+notes: ''
+created_at: '2019-10-27T02:05:38.690769Z'
+updated_at: '2019-10-27T02:05:38.690796Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 15710
+gogid: 1207658709
+gogslug: oddworld_abes_exoddus
+humblestoreid: ''
+script:
+  installer:
+  - execute:
+      command: mv -v $HOME/.local/share/lutris/runners/winesteam/prefix /tmp/dump
+      description: Removing any existing winesteam-prefixes ...
+  - task:
+      prefix: $HOME/.local/share/lutris/runners/winesteam/prefix
+      description: Creating 32-bit prefix ...
+      arch: win32
+      name: create_prefix
+  - move:
+      src: SteamSetup.exe
+      dst: $HOME/.local/share/lutris/runners/winesteam/prefix/drive_c/
+  - chmodx: $HOME/.local/share/lutris/runners/winesteam/prefix/drive_c/SteamSetup.exe
+  - task:
+      executable: $HOME/.local/share/lutris/runners/winesteam/prefix/drive_c/SteamSetup.exe
+      prefix: $HOME/.local/share/lutris/runners/winesteam/prefix
+      args: /S
+      description: Steam ...
+      name: wineexec
+  - task:
+      prefix: $HOME/.local/share/lutris/runners/winesteam/prefix
+      description: Windows version 8.1 ...
+      app: win81
+      arch: win32
+      name: winetricks
+  - write_file:
+      content: cd $HOME/.local/share/lutris/runners/winesteam/prefix/drive_c/Program\
+        Files/Steam && WINEPREFIX="$HOME/.local/share/lutris/runners/winesteam/prefix"
+        wine Steam.exe -fullscreen -applaunch 15710
+      description: Creating Oddworld:_Abes_Exoddus.sh with prefix ...
+      file: $HOME/.local/share/lutris/runners/winesteam/prefix/drive_c/Oddworld:_Abe's_Exoddus.sh
+  - chmodx: $HOME/.local/share/lutris/runners/winesteam/prefix/drive_c/Oddworld:_Abe's_Exoddus.sh
+  - execute:
+      command: rm $HOME/.local/share/lutris/runners/winesteam/prefix/drive_c/SteamSetup.exe
+      description: Clean-up ...
+  game:
+    prefix: $HOME/.local/share/lutris/runners/winesteam/prefix
+    exe: $HOME/.local/share/lutris/runners/winesteam/prefix/drive_c/Program Files/Steam/Steam.exe
+    arch: win32
+    args: -fullscreen -nojoy -applaunch 15710
+    appid: '15710'
+    custom-name: 'Oddworld: Abes Exoddus'
+  system:
+    resolution: 640x480
+    reset_desktop: true
+    xboxdrv: xboxdrv
+  wine:
+    esync: true
+  files:
+  - youtube-video: https://www.youtube.com/watch?v=m_fVqIXIZ7k
+  - SteamSetup.exe: https://steamcdn-a.akamaihd.net/client/installer/SteamSetup.exe

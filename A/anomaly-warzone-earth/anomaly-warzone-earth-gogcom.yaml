@@ -1,0 +1,38 @@
+id: 2652
+game_id: 289
+game_slug: anomaly-warzone-earth
+name: Anomaly Warzone Earth
+year: 2011
+user: ssf
+runner: linux
+slug: anomaly-warzone-earth-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2016-08-31T18:35:33.307989Z'
+updated_at: '2016-09-30T21:09:14.786506Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 91200
+gogid: 1207659035
+gogslug: anomaly_warzone_earth
+humblestoreid: ''
+script:
+  exe: game/start.sh
+  gogid: anomaly_warzone_earth
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Please select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

@@ -1,0 +1,29 @@
+id: 6020
+game_id: 299
+game_slug: intrusion-2
+name: Intrusion 2
+year: 2012
+user: FakeShemp
+runner: linux
+slug: intrusion-2-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-10-20T15:26:46.443584Z'
+updated_at: '2017-10-20T15:28:51.293394Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 214970
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: file1
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble executable

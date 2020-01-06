@@ -1,0 +1,28 @@
+id: 8560
+game_id: 19149
+game_slug: bubble-bobble-also-featuring-rainbow-islands
+name: Bubble Bobble also featuring Rainbow Islands
+year: 1996
+user: MrCoolSpan
+runner: libretro
+slug: bubble-bobble-also-featuring-playstation
+version: Playstation
+description: null
+notes: ''
+created_at: '2018-06-07T09:17:06.523922Z'
+updated_at: '2018-06-07T20:13:01.768419Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: file_id
+      dst: $GAMEDIR
+  files:
+  - file_id: N/A:Please select the PlayStation image file

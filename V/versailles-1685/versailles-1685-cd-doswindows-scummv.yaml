@@ -1,0 +1,75 @@
+id: 14797
+game_id: 28634
+game_slug: versailles-1685
+name: Versailles 1685
+year: 1996
+user: legluondunet
+runner: scummvm
+slug: versailles-1685-cd-doswindows-scummv
+version: CD DOS/Windows + ScummVM
+description: "This script will install \"Versailles 1685\" DOS/Windows CD edition\
+  \ for ScummVM.\r\nBig thanks to people who gave their time to permit us playing\
+  \ this game in the best conditions."
+notes: "- You will need the 2 CD only one time during install\r\n- compatible CD DOS\
+  \ or CD Hybrid DOS/Windows\r\n- Please report issue concerning this script on my\
+  \ Github page:\r\nhttps://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2019-07-31T09:20:20.460000Z'
+updated_at: '2019-11-16T07:40:39.484007Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  custom-name: Versailles 1685 - CD DOS/Windows - ScummVM
+  installer:
+  - insert-disc:
+      requires: DATAS_V/CDVER1.BIN
+      description: Please insert "Versailles 1685" CD 1
+  - merge:
+      src: $DISC
+      dst: $GAMEDIR/Versailles 1685/cd1
+  - insert-disc:
+      requires: DATAS_V/CDVER2.BIN
+      description: Please insert "Versailles 1685" 2
+  - merge:
+      src: $DISC
+      dst: $GAMEDIR/Versailles 1685/cd2
+  - execute:
+      command: cd "$GAMEDIR/Versailles 1685/"; chmod -R +rw *; for SRC in `find *
+        -depth`/; do DST=`dirname "${SRC}"`/`basename "${SRC}" | tr '[a-z]' '[A-Z]'`;
+        if [ "${SRC}" != "${DST}" ]; then  [ ! -e "${DST}" ] && mv -T "${SRC}" "${DST}"
+        || echo "${SRC} was not renamed"; fi; done;
+  - merge:
+      src: $GAMEDIR/Versailles 1685/CD1/DATAS_V/
+      dst: $GAMEDIR/Versailles 1685/
+  - execute:
+      command: cp -fR "$GAMEDIR/Versailles 1685/CD1/INSTALL/DATA/"* "$GAMEDIR/Versailles
+        1685"; cp -fR "$GAMEDIR/Versailles 1685/CD1/INSTALL/WIN/PROGRAM.Z" "$GAMEDIR/Versailles
+        1685/";
+      description: in case of CD hybrid DOS/Windows
+  - execute:
+      command: cp -fR "$GAMEDIR/Versailles 1685/CD1/INSTALL/DATAS_V/"* "$GAMEDIR/Versailles
+        1685"; cp -fR "$GAMEDIR/Versailles 1685/CD1/INSTALL/VERSAILL.PGM" "$GAMEDIR/Versailles
+        1685/";
+      description: in case of CD DOS
+  - merge:
+      src: $GAMEDIR/Versailles 1685/CD2/DATAS_V/
+      dst: $GAMEDIR/Versailles 1685/
+  - copy:
+      src: dat
+      dst: $GAMEDIR/Versailles 1685/
+  - move:
+      src: $GAMEDIR/Versailles 1685/CD1
+      dst: $CACHE
+  - move:
+      src: $GAMEDIR/Versailles 1685/CD2
+      dst: $CACHE
+  files:
+  - dat: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Versailles%201685/cryomni3d.dat
+  game:
+    game_id: versailles
+    path: $GAMEDIR/Versailles 1685/

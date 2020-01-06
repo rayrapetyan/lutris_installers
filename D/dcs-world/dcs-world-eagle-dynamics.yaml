@@ -1,0 +1,73 @@
+id: 15006
+game_id: 3219
+game_slug: dcs-world
+name: DCS World
+year: 2008
+user: Bragga
+runner: wine
+slug: dcs-world-eagle-dynamics
+version: Eagle Dynamics
+description: "Install the non-Steam version of DCS World directly from the Eagle Dynamics\
+  \ website. \r\nThis installer will allow you to play without any other configuration."
+notes: To be able to use your Joystick/Hotas  you must configure your game in Lutris.
+  Into "Runner options", check "Show advanced options", scroll down and disable "Autoconfigure
+  joypads".
+created_at: '2019-08-14T13:53:08.323000Z'
+updated_at: '2019-09-09T00:17:26.532637Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 223750
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2017
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: corefonts win10
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: d3dcompiler_43
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: xact
+      arch: win64
+      name: winetricks
+  - task:
+      executable: client
+      prefix: $GAMEDIR
+      description: Installing client
+      arch: win64
+      args: /S
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Eagle Dynamics/DCS World/bin/DCS_updater.exe
+    arch: win64
+  system:
+    env: null
+    DXVK_HUD: '0'
+  wine:
+    version: lutris-4.13-x86_64
+    esync: true
+    dxvk: true
+    nvapi,nvapi64: disabled
+    overrides: null
+  files:
+  - client: https://updates.digitalcombatsimulator.com/installers/DCS_World_web.exe

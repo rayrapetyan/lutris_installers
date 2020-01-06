@@ -1,0 +1,24 @@
+id: 8355
+game_id: 18416
+game_slug: the-watchmaker
+name: The Watchmaker
+year: 2018
+user: TuiorGames
+runner: steam
+slug: the-watchmaker-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-21T12:31:45.197800Z'
+updated_at: '2018-05-21T14:24:13.247551Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 504430
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 504430

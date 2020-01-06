@@ -1,0 +1,30 @@
+id: 11321
+game_id: 1265
+game_slug: sonic-adventure-dx
+name: Sonic Adventure DX
+year: 2003
+user: soredake
+runner: winesteam
+slug: sonic-adventure-dx-steam-modded
+version: Steam modded
+description: null
+notes: ''
+created_at: '2018-12-24T08:15:01.618000Z'
+updated_at: '2018-12-24T08:15:58.566977Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 71250
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      app: dotnet40
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 71250

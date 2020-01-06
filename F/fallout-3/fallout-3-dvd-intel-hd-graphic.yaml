@@ -1,0 +1,57 @@
+id: 5335
+game_id: 1398
+game_slug: fallout-3
+name: Fallout 3
+year: 2008
+user: HermesConrad
+runner: wine
+slug: fallout-3-dvd-intel-hd-graphic
+version: DVD + Intel HD graphics
+description: Retail Fallout 3 on DVD.
+notes: 2017/11/08 - On 64bit systems, you must use a Wine version close to 1.8.5.  Current
+  Linux distributions and current Wine versions have an issue with running 32bit gstreamer
+  libs on 64bit systems.
+created_at: '2017-08-11T23:29:07.567000Z'
+updated_at: '2018-06-19T04:45:25.309810Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 22300
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: setup.exe
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: quartz
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      type: REG_DWORD
+      value: '00000402'
+      key: VideoPciDeviceID
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      type: REG_DWORD
+      value: 000010de
+      key: VideoPciVendorID
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D
+  game:
+    prefix: $GAMEDIR
+    exe: /home/alongton/Games/fallout-3/drive_c/Program Files/Bethesda Softworks/Fallout
+      3/Fallout3.exe

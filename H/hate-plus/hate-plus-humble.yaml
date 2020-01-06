@@ -1,0 +1,32 @@
+id: 3888
+game_id: 1732
+game_slug: hate-plus
+name: Hate Plus
+year: null
+user: FakeShemp
+runner: linux
+slug: hate-plus-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-25T19:57:25.343022Z'
+updated_at: '2017-05-27T21:19:37.530136Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 239700
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: HatePlus.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/hateplus_lin
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble archive

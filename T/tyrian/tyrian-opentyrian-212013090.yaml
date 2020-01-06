@@ -1,0 +1,28 @@
+id: 1059
+game_id: 3469
+game_slug: tyrian
+name: Tyrian
+year: 1995
+user: Xodetaetl
+runner: linux
+slug: tyrian-opentyrian-212013090
+version: OpenTyrian 2.1.20130907
+description: OpenTyrian is a libre engine for Tyrian 2.1
+notes: ''
+created_at: '2014-11-12T09:35:26.170000Z'
+updated_at: '2014-12-15T21:08:01.805000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: opentyrian
+  installer:
+  - extract:
+      file: game
+  files:
+  - game: http://lutris.net/files/games/tyrian/opentyrian-2.1.tar.gz

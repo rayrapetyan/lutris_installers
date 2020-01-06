@@ -1,0 +1,30 @@
+id: 11726
+game_id: 25387
+game_slug: dwarf
+name: dWARf
+year: 2019
+user: Frankiva
+runner: linux
+slug: dwarf-unexpected-launcher
+version: Unexpected Launcher
+description: null
+notes: ''
+created_at: '2019-01-26T19:19:10.058391Z'
+updated_at: '2019-01-27T01:31:10.147705Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Unexpected_Launcher_x86_64.AppImage
+  installer:
+  - move:
+      src: file_id
+      dst: $GAMEDIR
+  - chmodx: Unexpected_Launcher_x86_64.AppImage
+  files:
+  - file_id: https://s3-eu-west-1.amazonaws.com/updater-launcher/Unexpected_Launcher_x86_64.AppImage

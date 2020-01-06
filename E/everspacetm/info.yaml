@@ -1,0 +1,16 @@
+name: "EVERSPACE\u2122"
+slug: everspacetm
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Simulation
+aliases: []
+banner_url: /games/banner/everspacetm.jpg
+icon_url: /games/icon/everspacetm.png
+is_public: true
+updated: '2019-01-23T08:29:26.105702Z'
+steamid: 396750
+gogslug: everspace
+humblestoreid: ''

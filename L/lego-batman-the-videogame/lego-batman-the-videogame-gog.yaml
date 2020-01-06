@@ -1,0 +1,47 @@
+id: 5455
+game_id: 872
+game_slug: lego-batman-the-videogame
+name: 'LEGO Batman: The Videogame'
+year: 2008
+user: FakeShemp
+runner: wine
+slug: lego-batman-the-videogame-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2017-08-21T15:30:51.564000Z'
+updated_at: '2019-12-23T19:56:37.132753Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 21000
+gogid: 1423058542
+gogslug: lego_batman_the_videogame
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      args: /sp- /norestart /nogui
+      name: wineexec
+  - task:
+      executable: $file2
+      prefix: $GAMEDIR
+      args: /sp- /verysilent /norestart /suppressmsgboxes /nogui
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: d3dx9
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: ole32
+      name: winetricks
+  files:
+  - file1: N/A:Please select the GOG installer
+  - file2: N/A:Please select the patch from GOG
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/LEGO Batman/LEGOBatman.exe

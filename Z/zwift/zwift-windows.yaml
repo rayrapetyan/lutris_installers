@@ -1,0 +1,31 @@
+id: 17705
+game_id: 30983
+game_slug: zwift
+name: Zwift
+year: 2020
+user: henningeiden1798
+runner: wine
+slug: zwift-windows
+version: Windows
+description: Version  1.0.44368
+notes: ''
+created_at: '2020-01-02T13:25:28.487916Z'
+updated_at: '2020-01-02T13:25:28.487943Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: $CACHE/game_file_id
+      dst: $GAMEDIR
+  files:
+  - file1:
+      referer: www.zwift.com
+      filename: ZwiftSetup.exe
+      url: https://zwift.com/download/win

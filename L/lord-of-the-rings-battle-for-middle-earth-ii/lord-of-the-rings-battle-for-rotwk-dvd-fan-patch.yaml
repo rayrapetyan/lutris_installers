@@ -1,0 +1,71 @@
+id: 17706
+game_id: 22919
+game_slug: lord-of-the-rings-battle-for-middle-earth-ii
+name: Lord of the Rings - Battle for Middle Earth II
+year: 2006
+user: CyFreeze
+runner: wine
+slug: lord-of-the-rings-battle-for-rotwk-dvd-fan-patch
+version: RotWK DVD + Fan Patch
+description: Expansion to the base game. Does require the base game to be installed
+  in the same prefix.
+notes: The base game needs to be set to patch 1.06 using the Patch Switcher for the
+  Expansion to function.
+created_at: '2020-01-02T15:36:37.912485Z'
+updated_at: '2020-01-02T15:36:37.912511Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: lord-of-the-rings-battle-for-middle-earth-ii
+  installer:
+  - insert-disc:
+      requires: autorun.exe
+  - task:
+      executable: $DISC/autorun.exe
+      prefix: $GAMEDIR
+      description: Run Installer
+      arch: win32
+      working_dir: $DISC
+      name: wineexec
+  - task:
+      executable: patch202
+      prefix: $GAMEDIR
+      description: Installing unoffical patch 2.02 v8.0.0
+      arch: win32
+      name: wineexec
+  - task:
+      executable: patch2021
+      prefix: $GAMEDIR
+      description: Installing unoffical patch 2.02 v8.0.1
+      arch: win32
+      name: wineexec
+  - write_file:
+      content: 'AudioLOD = Low
+
+        HasSeenLogoMovies = yes
+
+        IdealStaticGameLOD = VeryLow
+
+        Resolution = 1920 1080
+
+        StaticGameLOD = VeryLow
+
+        TimesInGame = 2'
+      file: $GAMEDIR/drive_c/users/$USER/Application Data/My The Lord of the Rings,
+        The Rise of the Witch-king Files/Options.ini
+  files:
+  - patch202: https://gitlab.com/rotwk202/2.02-installer/raw/binaries/202_v8_full.exe
+  - patch2021: https://gitlab.com/rotwk202/2.02-installer/raw/binaries/202_v801_updater.exe
+  game:
+    prefix: $GAMEDIR
+    version: lutris-4.20-x86_64
+    args: -mod "$GAMEDIR/drive_c/Program Files/AOTR4.0/aotr"
+    exe: $GAMEDIR/drive_c/Program Files/Electronic Arts/The Lord of the Rings, The
+      Rise of the Witch-king/lotrbfme2ep1.exe
+    arch: win32

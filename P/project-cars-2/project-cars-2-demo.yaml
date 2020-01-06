@@ -1,0 +1,30 @@
+id: 10474
+game_id: 14550
+game_slug: project-cars-2
+name: Project CARS 2
+year: 2017
+user: Medath
+runner: winesteam
+slug: project-cars-2-demo
+version: Demo
+description: null
+notes: ''
+created_at: '2018-10-10T17:48:17.901000Z'
+updated_at: '2019-02-16T04:21:27.789050Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 378860
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    appid: 737770

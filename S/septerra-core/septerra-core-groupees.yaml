@@ -1,0 +1,33 @@
+id: 5488
+game_id: 1208
+game_slug: septerra-core
+name: Septerra Core
+year: null
+user: FakeShemp
+runner: wine
+slug: septerra-core-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-22T17:01:18.722000Z'
+updated_at: '2018-05-19T03:41:56.744876Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 253940
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Valkyrie Studios/Septerra Core/septerra.exe
+    arch: win32

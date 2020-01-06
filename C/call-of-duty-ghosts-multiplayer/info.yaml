@@ -1,0 +1,15 @@
+name: 'Call of Duty: Ghosts - Multiplayer'
+slug: call-of-duty-ghosts-multiplayer
+year: null
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/call-of-duty-ghosts-multiplayer.jpg
+icon_url: /games/icon/call-of-duty-ghosts-multiplayer.png
+is_public: false
+updated: '2019-11-16T05:24:07.574715Z'
+steamid: 209170
+gogslug: ''
+humblestoreid: ''

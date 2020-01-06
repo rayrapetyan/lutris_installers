@@ -1,0 +1,24 @@
+id: 1344
+game_id: 3765
+game_slug: flower-shop-winter-in-fairbrook
+name: 'Flower Shop: Winter In Fairbrook'
+year: null
+user: Xodetaetl
+runner: steam
+slug: flower-shop-winter-in-fairbro-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-02-25T19:45:52.269000Z'
+updated_at: '2015-02-25T20:44:02.957000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 311680
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 311680

@@ -1,0 +1,24 @@
+id: 1033
+game_id: 3061
+game_slug: flockers
+name: Flockers
+year: null
+user: Xodetaetl
+runner: steam
+slug: flockers-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-11-10T10:14:10.682000Z'
+updated_at: '2014-11-10T10:28:29.358000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 260330
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 260330

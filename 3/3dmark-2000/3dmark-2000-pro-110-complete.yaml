@@ -1,0 +1,85 @@
+id: 16730
+game_id: 29999
+game_slug: 3dmark-2000
+name: 3DMark 2000
+year: 2000
+user: vanstaveren
+runner: wine
+slug: 3dmark-2000-pro-110-complete
+version: Pro 1.1.0, complete
+description: "* License: Legacy,\r\n* Hardware acceleration benchmark software,\r\n\
+  * Legacy key: 6VZTY-SDZ75-KA9V7,\r\n* Legacy user: Futuremark,\r\n* MP3codec DirectShow,\r\
+  \n* DirectX: 7."
+notes: ''
+created_at: '2019-11-09T21:06:38.029960Z'
+updated_at: '2019-11-09T21:06:38.029984Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 64-bit prefix ...
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: MP3codec DirectShow ...
+      app: l3codecx
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Windows version 98 ...
+      app: win98
+      arch: win64
+      name: winetricks
+  - move:
+      src: setup
+      dst: $GAMEDIR
+  - chmodx: $GAMEDIR/3dmark2000.exe
+  - task:
+      executable: $GAMEDIR/3dmark2000.exe
+      prefix: $GAMEDIR
+      description: 3DMark 2000 ...
+      name: wineexec
+  - task:
+      description: Register ExePath ...
+      name: set_regedit
+      arch: win64
+      key: ExePath
+      value: C:\\Program Files (x86)\\MadOnion.com\\3DMark2000\\3DMark2000.exe
+      type: REG_SZ
+      path: HKEY_LOCAL_MACHINE\Software\Wow6432Node\MadOnion.com\3DMark2000
+  - task:
+      description: Register KeyCode ...
+      name: set_regedit
+      arch: win64
+      key: 3DMarkRegKey
+      value: 6VZTY-SDZ75-KA9V7
+      type: REG_SZ
+      path: HKEY_LOCAL_MACHINE\Software\Wow6432Node\MadOnion.com\Registration2000
+  - task:
+      description: Register KeyCode ...
+      name: set_regedit
+      arch: win64
+      key: 3DMarkRegName
+      value: Futuremark
+      type: REG_SZ
+      path: HKEY_LOCAL_MACHINE\Software\Wow6432Node\MadOnion.com\Registration2000
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files (x86)/MadOnion.com/3DMark2000/3DMark2000.exe
+    arch: win64
+  system:
+    disable_compositor: true
+  wine:
+    Desktop: true
+  files:
+  - setup: https://benchmarks.ul.com/downloads/3dmark2000.exe

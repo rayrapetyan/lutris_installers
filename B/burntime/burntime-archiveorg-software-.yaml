@@ -1,0 +1,24 @@
+id: 17704
+game_id: 30982
+game_slug: burntime
+name: Burntime
+year: 1993
+user: schmarky
+runner: browser
+slug: burntime-archiveorg-software-
+version: Archive.org Software Library
+description: No installation needed due to in-browser emulation.
+notes: Uses EM-DOSBOX in-browser emulation
+created_at: '2020-01-02T12:45:08.847563Z'
+updated_at: '2020-01-02T12:45:08.847594Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  files:
+  - main_file: https://archive.org/details/msdos_Burntime_1993

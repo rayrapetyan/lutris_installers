@@ -1,0 +1,24 @@
+id: 1489
+game_id: 4210
+game_slug: exodus-wars-fractured-empire
+name: 'Exodus Wars: Fractured Empire'
+year: null
+user: Xodetaetl
+runner: steam
+slug: exodus-wars-fractured-empire-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-04-25T17:47:43.419000Z'
+updated_at: '2015-04-25T17:55:46.837000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 297270
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 297270

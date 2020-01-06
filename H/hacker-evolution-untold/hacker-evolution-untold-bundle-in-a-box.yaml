@@ -1,0 +1,31 @@
+id: 5774
+game_id: 446
+game_slug: hacker-evolution-untold
+name: Hacker Evolution - Untold
+year: null
+user: FakeShemp
+runner: linux
+slug: hacker-evolution-untold-bundle-in-a-box
+version: Bundle in a Box
+description: ''
+notes: ''
+created_at: '2017-09-17T19:07:15.012118Z'
+updated_at: '2017-09-17T19:09:13.246149Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 70110
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: hacker-evolution
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - extract:
+      file: $CACHE/heflightzero-2.2-rc3-5-g48e8f7a-linux-x86_64.tar.gz
+  files:
+  - file1: N/A:Please select the BIAB archive

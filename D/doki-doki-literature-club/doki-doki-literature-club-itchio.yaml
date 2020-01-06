@@ -1,0 +1,28 @@
+id: 5961
+game_id: 14268
+game_slug: doki-doki-literature-club
+name: Doki Doki Literature Club!
+year: 2017
+user: FakeShemp
+runner: linux
+slug: doki-doki-literature-club-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2017-10-15T15:57:48.034000Z'
+updated_at: '2019-10-30T21:48:52.350767Z'
+draft: false
+published: true
+published_by: 1465
+rating: '5'
+steamid: 698780
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: DDLC.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

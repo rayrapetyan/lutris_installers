@@ -1,0 +1,82 @@
+id: 13753
+game_id: 27543
+game_slug: gzdoom-builder-bugfix
+name: Ultimate Doom Builder
+year: 2019
+user: doctor-nick
+runner: wine
+slug: gzdoom-builder-bugfix-r3097-32-bit
+version: r3097 (32-bit)
+description: Installs the git build from DRD Team.
+notes: "This may take a while; the dotnet461 installer is buggy and stalls a lot.\r\
+  \n\r\nIf you are having video issues, try setting the environmental variable `__GL_MaxFramesAllowed`\
+  \ to 0 instead of 1. (Configure->System options->Show Advanced->Environment variables)"
+created_at: '2019-05-27T09:42:18.137000Z'
+updated_at: '2019-11-16T09:04:57.172381Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - extract:
+      src: gzdoom_installer
+      dst: $GAMEDIR/drive_c/gzdoom_builder
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Core Fonts
+      app: corefonts
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Direct X 9
+      app: d3dx9
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Direct3D compiler 4.3
+      app: d3dcompiler_43
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .NET framework 4.6.1
+      app: dotnet461
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting WINE version to WinXP
+      app: winxp
+      silent: true
+      name: winetricks
+  - write_file:
+      mode: a
+      content: textlabelfontname = "Arial";
+      file: $GAMEDIR/drive_c/gzdoom_builder/GZBuilder.default.cfg
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/gzdoom_builder/Builder.exe
+    arch: win32
+  system:
+    env:
+      __GL_MaxFramesAllowed: 1
+  wine:
+    version: tkg-4.6-x86_64
+    esync: false
+    dxvk: false
+    overrides:
+      d3dcompiler_43: native
+  files:
+  - gzdoom_installer: https://devbuilds.drdteam.org/gzdbbf/GZDoom_Builder_Bugfix-r3097.7z

@@ -1,0 +1,42 @@
+id: 10405
+game_id: 22045
+game_slug: gunbound
+name: GunBound Classic (Thor's Hammer)
+year: null
+user: anniez
+runner: wine
+slug: gunbound-classic-thors-hammer-gunbound_classic_v75
+version: GunBound_Classic_v750.msi
+description: null
+notes: "Step 1 - Requires registered account. Register here: <a href=\"http://gunboundclassic.com\"\
+  >http://gunboundclassic.com</a>\r\n\r\nStep 2 - Requires game files from MEGA. Download\
+  \ here: <a href=\"https://mega.nz/#!P4IEBTwY!dkqc2sBh40L9ft9hmhO2PuAwYShK9_fihrIwsk4sNYQ\"\
+  >GunBound_Classic_v750.msi</a>\r\n\r\nAfter Installation:\r\n    When the launcher\
+  \ executes, select 'Options' to enable music and effects to your liking. \"System\
+  \ Option\" section is irrelevant and can be ignored."
+created_at: '2018-10-03T01:11:30.992000Z'
+updated_at: '2018-10-03T11:48:11.865608Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: gunbound_msi
+      prefix: $GAMEDIR
+      arch: win64
+      name: wineexec
+  files:
+  - gunbound_msi: N/A:Select the GunBound_Classic_v750.msi setup file from Step 2
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Softnyx/Gunbound/Launcher.exe

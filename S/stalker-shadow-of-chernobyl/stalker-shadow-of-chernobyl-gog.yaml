@@ -1,0 +1,55 @@
+id: 6033
+game_id: 811
+game_slug: stalker-shadow-of-chernobyl
+name: 'S.T.A.L.K.E.R.: Shadow of Chernobyl'
+year: null
+user: bacera
+runner: wine
+slug: stalker-shadow-of-chernobyl-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2017-10-21T02:12:15.775000Z'
+updated_at: '2019-04-07T01:12:27.241610Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 4500
+gogid: 1207660573
+gogslug: stalker_shadow_of_chernobyl
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - extract:
+      dst: $CACHE/dxsetup
+      file: dx2010
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR
+      args: /silent
+      arch: win32
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2003 vcrun2005
+      arch: win32
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /LANG=en /SP- /SUPPRESSMSGBOXES
+      arch: win32
+      name: wineexec
+  files:
+  - dx2010: https://lutris.net/files/tools/directx-2010.tar.gz
+  - setup: N/A:Select the GOG setup exe
+  game:
+    prefix: $GAMEDIR
+    args: -nointro
+    exe: drive_c/GOG Games/S.T.A.L.K.E.R. Shadow of Chernobyl/bin/XR_3DA.exe
+    arch: win32

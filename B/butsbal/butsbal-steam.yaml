@@ -1,0 +1,24 @@
+id: 2459
+game_id: 6835
+game_slug: butsbal
+name: Butsbal
+year: null
+user: gschaffran
+runner: steam
+slug: butsbal-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-08-15T18:24:34.213594Z'
+updated_at: '2016-09-16T20:12:12.792177Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 375330
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 375330

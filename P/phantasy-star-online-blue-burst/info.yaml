@@ -1,0 +1,16 @@
+name: 'Phantasy Star Online: Blue Burst'
+slug: phantasy-star-online-blue-burst
+year: 2004
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: MMORPG
+aliases: []
+banner_url: /games/banner/phantasy-star-online-blue-burst.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-17T07:01:16.686354Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

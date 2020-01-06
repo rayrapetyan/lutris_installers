@@ -1,0 +1,94 @@
+id: 10864
+game_id: 4275
+game_slug: elite-dangerous
+name: 'Elite: Dangerous'
+year: 2014
+user: fl_2018
+runner: wine
+slug: elite-dangerous-standalone-w-dxvk
+version: Standalone w/ DXVK
+description: null
+notes: Download the setup exe by signing in to your Frontier account and visiting
+  the <a href="https://www.frontierstore.net/downloadable/customer/products/">My Downloadable
+  Products</a> page of the Frontier Store.
+created_at: '2018-11-14T05:42:57.248000Z'
+updated_at: '2019-12-23T20:02:12.329080Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 359320
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Internet Explorer 8 (necessary!))
+      app: ie8
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Dot.NET 4.7.2
+      app: dotnet472
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing vcrun2010 vcrun2012 vcrun2015
+      app: vcrun2010 vcrun2012 vcrun2015
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing MS Line Services
+      app: msls31
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Quartz
+      app: quartz
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Arial
+      app: arial
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Set Windows version to Windows 7
+      app: win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Installing Elite Dangerous
+      arch: win64
+      args: /silent
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Frontier/EDLaunch/EDLaunch.exe
+    arch: win64
+  system:
+    env:
+      DXVK_HUD: 0
+    pulse_latency: true
+  wine:
+    version: lutris-4.20-x86_64
+    dxvk: true
+  files:
+  - setup: N/A:Select setup exe for Elite Dangerous

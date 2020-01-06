@@ -1,0 +1,52 @@
+id: 11058
+game_id: 23604
+game_slug: adobe-digital-editions
+name: Adobe Digital Editions
+year: 2013
+user: sorsasampo
+runner: wine
+slug: adobe-digital-editions-201
+version: 2.0.1
+description: null
+notes: ''
+created_at: '2018-12-02T11:12:47.718000Z'
+updated_at: '2019-10-28T20:56:33.338779Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Installing corefonts
+      app: corefonts
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing dotnet35sp1
+      app: dotnet35sp1
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing windowscodecs
+      app: windowscodecs
+      arch: win32
+      name: winetricks
+  - task:
+      executable: setup
+      description: Installing Adobe Digital Editions 2.0
+      arch: win32
+      name: wineexec
+  files:
+  - setup: http://download.adobe.com/pub/adobe/digitaleditions/ADE_2.0_Installer.exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Adobe/Adobe Digital Editions 2.0/DigitalEditions.exe
+    arch: win32

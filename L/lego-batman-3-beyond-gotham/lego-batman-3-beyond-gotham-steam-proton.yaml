@@ -1,0 +1,25 @@
+id: 13185
+game_id: 4221
+game_slug: lego-batman-3-beyond-gotham
+name: 'LEGO Batman 3: Beyond Gotham'
+year: 2014
+user: skyace65
+runner: steam
+slug: lego-batman-3-beyond-gotham-steam-proton
+version: Steam Proton
+description: null
+notes: Since this game is not officially whitelisted, you have to enable Steam Play
+  for all titles in Steam's settings prior to installation.
+created_at: '2019-04-28T13:53:41.857000Z'
+updated_at: '2019-05-19T07:12:56.920692Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 313690
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 313690

@@ -1,0 +1,35 @@
+id: 11477
+game_id: 21419
+game_slug: bundesfighter-2-turbo
+name: Bundesfighter 2 Turbo
+year: 2017
+user: schlaukopp96
+runner: wine
+slug: bundesfighter-2-turbo-windows
+version: Windows
+description: null
+notes: Runs flawlessly, I think.
+created_at: '2019-01-06T17:55:05.865000Z'
+updated_at: '2019-01-22T07:56:24.619055Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - extract:
+      dst: $GAMEDIR/Bundesfighter 2 Turbo
+      file: $fileGameZip
+  - chmodx: $GAMEDIR/Bundesfighter 2 Turbo/bundes_win.exe
+  files:
+  - fileGameZip: http://bundesfighter.de/download/bundes_win.zip
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/Bundesfighter 2 Turbo/bundes_win.exe

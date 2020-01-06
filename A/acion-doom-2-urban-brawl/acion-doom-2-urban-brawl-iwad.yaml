@@ -1,0 +1,33 @@
+id: 10150
+game_id: 21704
+game_slug: acion-doom-2-urban-brawl
+name: 'Action Doom 2: Urban Brawl'
+year: 2008
+user: miky_kr5
+runner: zdoom
+slug: acion-doom-2-urban-brawl-iwad
+version: Iwad
+description: Stand-alone wad file.
+notes: ''
+created_at: '2018-09-11T03:53:20.357070Z'
+updated_at: '2018-09-11T05:52:43.432336Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      src: $adoom
+      dst: $CACHE
+  - merge:
+      src: $CACHE/action2.wad
+      dst: $GAMEDIR
+  files:
+  - adoom: http://files1.mancubus.net/?file=doom/action2.zip
+  game:
+    main_file: action2.wad

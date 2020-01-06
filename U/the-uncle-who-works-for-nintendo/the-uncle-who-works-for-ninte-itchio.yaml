@@ -1,0 +1,23 @@
+id: 9618
+game_id: 20667
+game_slug: the-uncle-who-works-for-nintendo
+name: the uncle who works for nintendo
+year: 2014
+user: kimchitea
+runner: browser
+slug: the-uncle-who-works-for-ninte-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2018-08-06T23:29:51.928450Z'
+updated_at: '2018-08-07T02:19:15.560784Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://ztul.itch.io/the-uncle-who-works-for-nintendo

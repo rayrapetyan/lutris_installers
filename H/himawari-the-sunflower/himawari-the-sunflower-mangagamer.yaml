@@ -1,0 +1,56 @@
+id: 13573
+game_id: 16163
+game_slug: himawari-the-sunflower-
+name: Himawari - The Sunflower -
+year: 2016
+user: kimchitea
+runner: wine
+slug: himawari-the-sunflower-mangagamer
+version: MangaGamer
+description: null
+notes: "Click the bottom left button on the installer.\r\nVideos may not work; press\
+  \ Enter to skip."
+created_at: '2019-05-16T23:16:51.693000Z'
+updated_at: '2019-10-16T23:35:28.220135Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 554290
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: file1
+  - extract:
+      dst: $GAMEDIR
+      file: file2
+  - task:
+      executable: $GAMEDIR/Himawari.part1.exe
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  - extract:
+      dst: $GAMEDIR/Himawari
+      file: file3
+  - extract:
+      dst: $GAMEDIR/Himawari
+      file: file4
+  - move:
+      src: $GAMEDIR/Himawari.part1.exe
+      dst: $CACHE
+  - move:
+      src: $GAMEDIR/Himawari.part2.rar
+      dst: $CACHE
+  files:
+  - file1: N/A:Please select the MangaGamer archive 1/4.
+  - file2: N/A:Please select the MangaGamer archive 2/4.
+  - file3: N/A:Please select the MangaGamer archive 3/4.
+  - file4: N/A:Please select the MangaGamer archive 4/4.
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/Himawari/Himawari.exe
+    arch: win32

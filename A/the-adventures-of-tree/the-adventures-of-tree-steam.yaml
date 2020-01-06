@@ -1,0 +1,24 @@
+id: 2409
+game_id: 4482
+game_slug: the-adventures-of-tree
+name: The Adventures of Tree
+year: null
+user: gschaffran
+runner: steam
+slug: the-adventures-of-tree-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-08-09T17:50:30.991693Z'
+updated_at: '2016-08-18T10:13:56.453942Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 354860
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 354860

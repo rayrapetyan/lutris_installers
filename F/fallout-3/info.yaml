@@ -1,0 +1,16 @@
+name: Fallout 3
+slug: fallout-3
+year: 2008
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: RPG
+aliases: []
+banner_url: /games/banner/fallout-3.jpg
+icon_url: /games/icon/fallout-3.png
+is_public: true
+updated: '2019-01-23T08:29:28.050080Z'
+steamid: 22300
+gogslug: ''
+humblestoreid: ''

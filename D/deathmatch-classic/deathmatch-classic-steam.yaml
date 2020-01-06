@@ -1,0 +1,24 @@
+id: 118
+game_id: 100
+game_slug: deathmatch-classic
+name: Deathmatch Classic
+year: 2001
+user: dennisjj4
+runner: steam
+slug: deathmatch-classic-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2013-12-17T18:33:38.032000Z'
+updated_at: '2013-12-17T23:37:53.266000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 40
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 40

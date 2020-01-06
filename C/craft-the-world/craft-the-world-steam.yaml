@@ -1,0 +1,26 @@
+id: 7864
+game_id: 4345
+game_slug: craft-the-world
+name: Craft The World
+year: 2013
+user: MikMikus
+runner: winesteam
+slug: craft-the-world-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-04-08T18:41:28.982000Z'
+updated_at: '2018-04-09T01:01:53.968990Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 248390
+gogid: 1443622961
+gogslug: craft_the_world
+humblestoreid: ''
+script:
+  winesteam:
+    quit_steam_on_exit: true
+  game:
+    appid: 248390

@@ -1,0 +1,24 @@
+id: 16292
+game_id: 7844
+game_slug: total-war-warhammer
+name: 'Total War: WARHAMMER'
+year: 2016
+user: Thanos
+runner: winesteam
+slug: total-war-warhammer-steam-wine
+version: Steam (Wine)
+description: null
+notes: ''
+created_at: '2019-10-19T19:00:40.107006Z'
+updated_at: '2019-10-19T19:00:40.107045Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 364360
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 364360

@@ -1,0 +1,40 @@
+id: 4140
+game_id: 419
+game_slug: alan-wakes-american-nightmare
+name: Alan Wake's American Nightmare
+year: 2012
+user: FakeShemp
+runner: wine
+slug: alan-wakes-american-nightmare-humble
+version: Humble
+description: null
+notes: ''
+created_at: '2017-06-05T18:11:20.156000Z'
+updated_at: '2018-09-17T07:55:18.683110Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 202750
+gogid: 1207659038
+gogslug: alan_wakes_american_nightmare
+humblestoreid: alan-wakes-american-nightmare
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/AlanWakesAmericanNightmare.exe
+      prefix: $GAMEDIR
+      args: /sp- /verysilent /norestart /suppressmsgboxes /nogui
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: gdiplus
+      name: winetricks
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Remedy/Alan Wakes American Nightmare/alan_wakes_american_nightmare.exe

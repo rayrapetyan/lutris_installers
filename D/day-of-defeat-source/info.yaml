@@ -1,0 +1,15 @@
+name: 'Day of Defeat: Source'
+slug: day-of-defeat-source
+year: 2010
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/day-of-defeat-source.jpg
+icon_url: /games/icon/day-of-defeat-source.png
+is_public: true
+updated: '2019-01-23T08:29:05.664234Z'
+steamid: 300
+gogslug: ''
+humblestoreid: ''

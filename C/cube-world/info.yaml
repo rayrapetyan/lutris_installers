@@ -1,0 +1,17 @@
+name: Cube World
+slug: cube-world
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: RPG
+- name: Sandbox
+aliases: []
+banner_url: /games/banner/cube-world.jpg
+icon_url: null
+is_public: true
+updated: '2020-01-03T01:57:24.026241Z'
+steamid: 1128000
+gogslug: ''
+humblestoreid: ''

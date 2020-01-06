@@ -1,0 +1,17 @@
+name: Galaxy of Pen and Paper
+slug: galaxy-of-pen-and-paper
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Role-playing
+- name: Sci-fi
+- name: Turn-based
+aliases: []
+banner_url: /games/banner/galaxy-of-pen-and-paper.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:37.128252Z'
+steamid: null
+gogslug: galaxy_of_pen_and_paper
+humblestoreid: ''

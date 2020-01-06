@@ -1,0 +1,17 @@
+name: Grand Theft Auto IV
+slug: grand-theft-auto-iv
+year: 2008
+platforms:
+- name: Sony Playstation 3
+- name: Windows
+genres:
+- name: Action
+- name: Sandbox
+aliases: []
+banner_url: /games/banner/grand-theft-auto-iv.jpg
+icon_url: /games/icon/grand-theft-auto-iv.png
+is_public: true
+updated: '2019-01-23T08:29:42.430880Z'
+steamid: 12210
+gogslug: ''
+humblestoreid: grand-theft-auto-iv

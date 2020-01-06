@@ -1,0 +1,45 @@
+id: 15480
+game_id: 7313
+game_slug: gabriel-knight-2-the-beast-within
+name: 'Gabriel Knight 2: The Beast Within'
+year: 1995
+user: appoloin
+runner: scummvm
+slug: gabriel-knight-2-the-beast-wi-dvd
+version: DVD
+description: null
+notes: ''
+created_at: '2019-09-12T16:11:43.412323Z'
+updated_at: '2019-11-01T02:51:15.189842Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 496760
+gogid: 1207658837
+gogslug: gabriel_knight_2_the_beast_within
+humblestoreid: ''
+script:
+  installer:
+  - write_file:
+      content: '#!/bin/bash
+
+        src=$1
+
+        dst=$2
+
+        cp -avr "$src/."  "$dst"'
+      file: $CACHE/bulkcopy-alt.sh
+  - chmodx: $CACHE/bulkcopy-alt.sh
+  - insert-disc:
+      requires: GK2CD.BAT
+      description: Please insert disc
+  - execute:
+      args: $DISC $GAMEDIR
+      file: $CACHE/bulkcopy-alt.sh
+  - execute:
+      args: -R 775  "$GAMEDIR"
+      file: /bin/chmod
+  game:
+    game_id: sci
+    path: $GAMEDIR

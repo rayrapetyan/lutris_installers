@@ -1,0 +1,16 @@
+name: 'Wonder Boy: The Dragon''s Trap'
+slug: wonder-boy-the-dragons-trap
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Platform
+- name: RPG
+aliases: []
+banner_url: /games/banner/wonder-boy-the-dragons-trap.jpg
+icon_url: /games/icon/wonder-boy-the-dragons-trap.png
+is_public: true
+updated: '2019-01-23T08:32:10.033284Z'
+steamid: 543260
+gogslug: wonder_boy_the_dragons_trap
+humblestoreid: ''

@@ -1,0 +1,17 @@
+name: Urban Chaos
+slug: urban-chaos
+year: 1999
+platforms:
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Action
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/urban-chaos.jpg
+icon_url: /games/icon/urban-chaos.png
+is_public: true
+updated: '2019-01-23T08:32:00.794279Z'
+steamid: 243060
+gogslug: urban_chaos
+humblestoreid: ''

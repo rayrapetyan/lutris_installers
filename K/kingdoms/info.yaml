@@ -1,0 +1,15 @@
+name: Kingdoms
+slug: kingdoms
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/kingdoms.jpg
+icon_url: /games/icon/kingdoms.png
+is_public: true
+updated: '2019-01-23T08:30:04.034127Z'
+steamid: 409590
+gogslug: ''
+humblestoreid: ''

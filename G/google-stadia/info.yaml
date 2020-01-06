@@ -1,0 +1,15 @@
+name: Google Stadia
+slug: google-stadia
+year: 2019
+platforms:
+- name: Browser
+genres:
+- name: Tool
+aliases: []
+banner_url: /games/banner/google-stadia.jpg
+icon_url: null
+is_public: true
+updated: '2019-06-25T05:56:04.630668Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,31 @@
+id: 6314
+game_id: 14784
+game_slug: where-in-the-galaxy-is-kremlin-san-antonio
+name: Where in the Galaxy is Kremlin San Antonio?
+year: null
+user: FakeShemp
+runner: web
+slug: where-in-the-galaxy-is-kremli-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2017-11-12T18:36:17.117361Z'
+updated_at: '2017-11-12T18:39:39.933493Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: $file1
+  web:
+    window_size: 800x600
+  files:
+  - file1: N/A:Please select the itch.io archive
+  game:
+    main_file: $GAMEDIR/game.html

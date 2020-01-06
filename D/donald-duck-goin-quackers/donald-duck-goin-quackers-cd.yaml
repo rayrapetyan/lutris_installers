@@ -1,0 +1,48 @@
+id: 10908
+game_id: 23419
+game_slug: donald-duck-goin-quackers
+name: 'Disney''s Donald Duck: Goin'' Quackers'
+year: 2000
+user: Medath
+runner: wine
+slug: donald-duck-goin-quackers-cd
+version: CD
+description: null
+notes: "Select English as the installer language. Otherwise this script <i>will</i>\
+  \ fail.\r\n\r\nTested with a German CD"
+created_at: '2018-11-18T16:04:04.839841Z'
+updated_at: '2018-11-18T17:28:05.456280Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: DONALDAG.GID
+  - task:
+      prefix: $GAMEDIR
+      description: Disk Found. Creating 32bit Wine prefix
+      name: create_prefix
+  - task:
+      executable: $DISC/setup/SETUP.EXE
+      description: Installing Game. You have to use English as the installer language
+        (You will be able to change the game language afterwards) and please don't
+        change the installation directory!
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Indeo and setting the Windows version to XP. No manual
+        action is required.
+      app: --unattended winxp icodecs
+      name: winetricks
+  wine:
+    WineDesktop: 800x600
+    Desktop: true
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Disney Interactive/Donald Duck/Donald.exe

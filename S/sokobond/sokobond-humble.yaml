@@ -1,0 +1,28 @@
+id: 3751
+game_id: 2369
+game_slug: sokobond
+name: Sokobond
+year: null
+user: FakeShemp
+runner: linux
+slug: sokobond-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-20T21:44:36.484010Z'
+updated_at: '2017-05-28T00:00:06.281126Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 290260
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: run-sokobond.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

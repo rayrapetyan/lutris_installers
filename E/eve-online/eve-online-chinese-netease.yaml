@@ -1,0 +1,55 @@
+id: 12180
+game_id: 1397
+game_slug: eve-online
+name: EVE Online
+year: 2003
+user: '530100644'
+runner: wine
+slug: eve-online-chinese-netease
+version: "\u4E2D\u6587/Chinese Netease"
+description: null
+notes: ''
+created_at: '2019-02-26T15:07:32.505000Z'
+updated_at: '2019-03-13T18:04:12.313355Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: 8500
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/EVE/eve.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 64bit Wine prefix.
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows 10 mode for Wine
+      arch: win64
+      key: Version
+      value: win10
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      app: arial
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Running EVE Online Installer. Please do not run the game until
+        this script finishes installing.
+      name: wineexec
+  wine:
+    version: tkg-4.0-x86_64
+  files:
+  - setup:
+      filename: EVE_Online_Launcher_1457536.exe
+      url: https://ma79.gdl.netease.com/EVE_Online_Launcher_1457536.exe

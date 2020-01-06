@@ -1,0 +1,30 @@
+id: 10060
+game_id: 4068
+game_slug: brawlhalla
+name: Brawlhalla
+year: 2017
+user: OsamaBinlada
+runner: winesteam
+slug: brawlhalla-steam-wine
+version: Steam Wine
+description: null
+notes: ''
+created_at: '2018-09-06T01:31:42.234000Z'
+updated_at: '2019-10-06T23:56:29.441228Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 291550
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    esync: true
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: compiler
+  game:
+    appid: 291550

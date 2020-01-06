@@ -1,0 +1,23 @@
+id: 2880
+game_id: 7880
+game_slug: raining-chain
+name: Raining Chain
+year: null
+user: ssf
+runner: browser
+slug: raining-chain-html5
+version: HTML5
+description: ''
+notes: ''
+created_at: '2016-10-11T14:49:03.936671Z'
+updated_at: '2016-10-15T16:47:19.061304Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: http://rainingchain.com/game

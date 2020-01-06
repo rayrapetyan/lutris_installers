@@ -1,0 +1,33 @@
+id: 4346
+game_id: 3511
+game_slug: letter-quest-grimms-journey
+name: 'Letter Quest: Grimm''s Journey'
+year: 2014
+user: FakeShemp
+runner: wine
+slug: letter-quest-grimms-journey-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-06-14T16:31:26.803000Z'
+updated_at: '2018-05-19T03:41:52.104198Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 328730
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the IndieGameStand installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Letter Quest/letterquest.exe
+    arch: win32

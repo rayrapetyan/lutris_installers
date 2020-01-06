@@ -1,0 +1,24 @@
+id: 1688
+game_id: 568
+game_slug: gumboy-crazy-adventures
+name: 'Gumboy: Crazy Adventures'
+year: null
+user: RobLoach
+runner: winesteam
+slug: gumboy-crazy-adventures-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-11-02T12:36:34.628477Z'
+updated_at: '2016-01-26T18:34:07.099201Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 2520
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 2520

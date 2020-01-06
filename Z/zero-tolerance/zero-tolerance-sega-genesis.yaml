@@ -1,0 +1,28 @@
+id: 1635
+game_id: 4989
+game_slug: zero-tolerance
+name: Zero Tolerance
+year: 1994
+user: Xodetaetl
+runner: dgen
+slug: zero-tolerance-sega-genesis
+version: Sega Genesis
+description: Game file provided by Lutris. Zero Tolerance is freeware.
+notes: ''
+created_at: '2015-10-31T15:36:50.055549Z'
+updated_at: '2016-04-15T21:43:57.829239Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: Zerotole.bin
+  installer:
+  - extract:
+      file: $rom
+  files:
+  - rom: http://lutris.net/files/games/zero-tolerance/zero-tolerance.zip

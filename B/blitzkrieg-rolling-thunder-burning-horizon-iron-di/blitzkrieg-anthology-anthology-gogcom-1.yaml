@@ -1,0 +1,57 @@
+id: 2511
+game_id: 7227
+game_slug: blitzkrieg-rolling-thunder-burning-horizon-iron-di
+name: Blitzkrieg Rolling Thunder - Burning Horizon - Iron Division
+year: 2005
+user: ssf
+runner: wine
+slug: blitzkrieg-anthology-anthology-gogcom-1
+version: Anthology - GOG.com
+description: ''
+notes: ''
+created_at: '2016-08-19T10:49:32.776360Z'
+updated_at: '2016-09-29T21:14:44.958313Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1207659071
+gogslug: blitzkrieg_anthology
+humblestoreid: ''
+script:
+  game_slug: blitzkrieg-rolling-thunder-burning-horizon-iron-division
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      type: REG_SZ
+      value: ''
+      key: winemenubuilder.exe
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /VERYSILENT /SP- /NOCANCEL /SUPPRESSMSGBOXES '/DIR=C:/game'
+      description: Installing...
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Disabling unused WINE features
+      app: sandbox
+      silent: true
+      name: winetricks
+  gogid: blitzkrieg_burning_horizon_rolling_thunder
+  system:
+    disable_runtime: true
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/game/Run/game.exe
+    working_dir: $GAMEDIR/drive_c/game
+    arch: win32

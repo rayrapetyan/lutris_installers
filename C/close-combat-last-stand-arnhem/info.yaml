@@ -1,0 +1,17 @@
+name: 'Close Combat: Last Stand Arnhem'
+slug: close-combat-last-stand-arnhem
+year: 2011
+platforms:
+- name: Windows
+genres:
+- name: Historical
+- name: Real-time
+- name: Strategy
+aliases: []
+banner_url: /games/banner/close-combat-last-stand-arnhem.jpg
+icon_url: null
+is_public: true
+updated: '2019-04-10T07:17:22.228992Z'
+steamid: 936530
+gogslug: close_combat_last_stand_arnhem
+humblestoreid: ''

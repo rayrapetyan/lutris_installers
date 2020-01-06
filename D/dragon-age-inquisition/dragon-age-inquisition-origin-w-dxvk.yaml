@@ -1,0 +1,65 @@
+id: 10499
+game_id: 22164
+game_slug: dragon-age-inquisition
+name: Dragon Age Inquisition
+year: 2014
+user: MarcCDB
+runner: wine
+slug: dragon-age-inquisition-origin-w-dxvk
+version: Origin w/ DXVK
+description: Only sets up Origin and DXVK you'll need to download Dragon Age Inquisition
+  manually.
+notes: 'Please read before installing: <a href="https://github.com/lutris/lutris/wiki/Game:-Origin">https://github.com/lutris/lutris/wiki/Game:-Origin</a>'
+created_at: '2018-10-13T21:18:38.019000Z'
+updated_at: '2019-04-01T22:32:11.344520Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: nocrashdialog win81
+      arch: win64
+      name: winetricks
+  - task:
+      executable: client
+      prefix: $GAMEDIR
+      description: Installing Origin... Login window will pop-up and close.
+      arch: win64
+      args: /silent
+      exclude_processes: Origin.exe OriginClientService.exe QtWebEngineProcess.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - chmodx: updater
+  - merge:
+      src: updater
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Origin
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Origin/Origin.exe
+    arch: win64
+  system:
+    env:
+      DXVK_HUD: 0
+  wine:
+    version: tkg-protonified-3.21-x86_64
+    overrides:
+      nvapi,nvapi64: disabled
+      xaudio2_7: native,builtin
+    dxvk: true
+  files:
+  - client: https://origin-a.akamaihd.net/Origin-Client-Download/origin/live/OriginThinSetup.exe
+  - updater: https://raw.githubusercontent.com/DrDoctor13/wine-origin-updater/master/updateorigin.sh

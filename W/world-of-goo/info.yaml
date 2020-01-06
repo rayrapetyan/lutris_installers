@@ -1,0 +1,15 @@
+name: World of Goo
+slug: world-of-goo
+year: 2008
+platforms:
+- name: Linux
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/world-of-goo.jpg
+icon_url: /games/icon/world-of-goo.png
+is_public: true
+updated: '2019-01-23T08:32:10.550878Z'
+steamid: 22000
+gogslug: world_of_goo
+humblestoreid: ''

@@ -1,0 +1,35 @@
+id: 3507
+game_id: 4084
+game_slug: the-lost-vikings
+name: The Lost Vikings
+year: 1992
+user: strider
+runner: wine
+slug: the-lost-vikings-blizzard-classics
+version: Blizzard Classics
+description: ''
+notes: ''
+created_at: '2017-04-09T20:20:41.936000Z'
+updated_at: '2018-05-19T03:41:51.803568Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - extract:
+      file: installer
+  files:
+  - installer: http://dist.blizzard.com/downloads/classics/9f8ba2a406416a70cfe1bc97ec5346ba/The_Lost_Vikings.zip
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/Blizzard Classics/Blackthorne/blackthorne.exe
+    arch: win32

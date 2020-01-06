@@ -1,0 +1,15 @@
+name: 'Wing Commander II: Deluxe Edition'
+slug: wing-commander-ii-deluxe-edition
+year: 1991
+platforms:
+- name: Windows
+genres:
+- name: Space simulation
+aliases: []
+banner_url: /games/banner/wing-commander-ii-deluxe-edition.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:08.973596Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

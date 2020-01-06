@@ -1,0 +1,28 @@
+id: 16504
+game_id: 14651
+game_slug: superdimension-neptune-vs-sega-hard-girls
+name: Superdimension Neptune VS Sega Hard Girls
+year: 2017
+user: packof14eggies
+runner: steam
+slug: superdimension-neptune-vs-seg-steam-proton
+version: Steam Proton
+description: null
+notes: "The game will launch to the title screen as-is, but will hang a couple of\
+  \ minutes into the game unless winetricks xact is run. After first launch, run one\
+  \ of the following commands to fix the problem:\r\n\r\n$ WINEPREFIX=/path/to/steam/steamapps/compatdata/571530/pfx\
+  \ winetricks xact\r\n\r\nor with protontricks:\r\n$ protontricks 571530 xact\r\n\
+  \r\nand restart the game. Following this, it should work as expected."
+created_at: '2019-10-31T12:20:56.090000Z'
+updated_at: '2019-10-31T22:05:16.663972Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 571530
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 571530

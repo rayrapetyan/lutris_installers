@@ -1,0 +1,31 @@
+id: 7851
+game_id: 9562
+game_slug: zula-europe
+name: Zula Europe
+year: null
+user: Szaturnusz
+runner: winesteam
+slug: zula-europe-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-04-08T08:34:54.662000Z'
+updated_at: '2018-04-26T00:55:20.631778Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 513650
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-3.5-x86_64
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      app: gdiplus
+      name: winetricks
+  game:
+    appid: 513650

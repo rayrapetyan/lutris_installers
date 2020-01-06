@@ -1,0 +1,16 @@
+name: Ticket to Ride
+slug: ticket-to-ride
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: Board
+- name: Casual
+aliases: []
+banner_url: /games/banner/ticket-to-ride.jpg
+icon_url: /games/icon/ticket-to-ride.png
+is_public: true
+updated: '2019-03-15T07:17:02.993962Z'
+steamid: 108200
+gogslug: ''
+humblestoreid: ''

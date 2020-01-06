@@ -1,0 +1,38 @@
+id: 12099
+game_id: 5613
+game_slug: godot-engine
+name: Godot Engine
+year: 2014
+user: Zumo
+runner: linux
+slug: godot-engine-306
+version: 3.0.6
+description: 64-bit self-contained binary with export templates.
+notes: ''
+created_at: '2019-02-19T15:19:13.177000Z'
+updated_at: '2019-03-01T20:31:02.407260Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 404790
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      description: Extracting Godot Engine...
+      dst: $GAMEDIR
+      file: file_engine
+  - chmodx: Godot_v3.0.6-stable_x11.64
+  - extract:
+      format: zip
+      description: Extracting export templates...
+      file: file_templates
+      dst: $GAMEDIR/editor_data/templates
+  files:
+  - file_engine: https://downloads.tuxfamily.org/godotengine/3.0.6/Godot_v3.0.6-stable_x11.64.zip
+  - file_templates: https://download.tuxfamily.org/godotengine/3.0.6/Godot_v3.0.6-stable_export_templates.tpz
+  game:
+    exe: Godot_v3.0.6-stable_x11.64

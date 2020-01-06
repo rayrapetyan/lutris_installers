@@ -1,0 +1,15 @@
+name: Heroes of the Storm
+slug: heroes-of-the-storm
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Moba
+aliases: []
+banner_url: /games/banner/heroes-of-the-storm.jpg
+icon_url: /games/icon/heroes-of-the-storm.png
+is_public: true
+updated: '2019-01-23T08:29:49.612257Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

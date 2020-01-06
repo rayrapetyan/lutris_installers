@@ -1,0 +1,31 @@
+id: 13208
+game_id: 4241
+game_slug: blender
+name: Blender
+year: 1998
+user: paperbenni
+runner: linux
+slug: blender-280
+version: '2.80'
+description: Blender 2.8 release
+notes: ''
+created_at: '2019-04-29T13:00:39.221000Z'
+updated_at: '2019-10-31T00:53:50.617496Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 365670
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/
+      file: release
+  - chmodx: $GAMEDIR/blender
+  files:
+  - release: https://ftp.halifax.rwth-aachen.de/blender/release/Blender2.80/blender-2.80-linux-glibc217-x86_64.tar.bz2
+  game:
+    exe: $GAMEDIR/blender

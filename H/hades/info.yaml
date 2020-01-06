@@ -1,0 +1,16 @@
+name: Hades
+slug: hades
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: RPG
+aliases: []
+banner_url: /games/banner/hades.jpg
+icon_url: null
+is_public: true
+updated: '2019-12-21T16:12:34.914830Z'
+steamid: 1145360
+gogslug: ''
+humblestoreid: ''

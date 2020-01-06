@@ -1,0 +1,32 @@
+id: 4160
+game_id: 1028
+game_slug: thirty-flights-of-loving
+name: Thirty Flights of Loving
+year: 2012
+user: FakeShemp
+runner: wine
+slug: thirty-flights-of-loving-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-06T16:47:36.541196Z'
+updated_at: '2018-05-19T03:41:49.289662Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 214700
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Thirty Flights of Loving
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Thirty Flights of Loving/tfol.exe
+    arch: win32

@@ -1,0 +1,24 @@
+id: 13726
+game_id: 13665
+game_slug: gladiabots
+name: Gladiabots
+year: null
+user: moars42
+runner: steam
+slug: gladiabots-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-05-25T18:23:22.945352Z'
+updated_at: '2019-06-01T06:22:52.209299Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 871930
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 871930

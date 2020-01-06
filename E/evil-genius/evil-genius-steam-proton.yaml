@@ -1,0 +1,24 @@
+id: 13416
+game_id: 950
+game_slug: evil-genius
+name: Evil Genius
+year: null
+user: marciocr
+runner: steam
+slug: evil-genius-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-05-09T14:58:48.107000Z'
+updated_at: '2019-05-19T07:06:18.006290Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 3720
+gogid: 1207658775
+gogslug: evil_genius
+humblestoreid: ''
+script:
+  game:
+    appid: 3720

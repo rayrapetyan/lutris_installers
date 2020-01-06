@@ -1,0 +1,38 @@
+id: 17156
+game_id: 6197
+game_slug: momodora-reverie-under-the-moonlight
+name: 'Momodora: Reverie Under the Moonlight'
+year: 2016
+user: hitagi
+runner: wine
+slug: momodora-reverie-under-the-mo-gogcom
+version: GOG.com
+description: null
+notes: ''
+created_at: '2019-12-02T00:33:55.114000Z'
+updated_at: '2019-12-20T17:59:10.104172Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 428550
+gogid: 1079762750
+gogslug: momodora_reverie_under_the_moonlight
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  files:
+  - game: N/A:Select the Windows setup file downloaded from GOG
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Momodora - Reverie Under the Moonlight/MomodoraRUtM.exe
+    arch: win32

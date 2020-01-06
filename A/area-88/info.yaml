@@ -1,0 +1,21 @@
+name: Area 88
+slug: area-88
+year: 1988
+platforms:
+- name: Amiga
+- name: Amstrad CPC 464
+- name: Arcade
+- name: Atari ST
+- name: Commodore 64
+- name: Super Nintendo
+- name: ZX Spectrum
+genres:
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/area-88.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:24.511993Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

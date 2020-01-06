@@ -1,0 +1,39 @@
+id: 10242
+game_id: 21788
+game_slug: where-in-the-usa-is-carmen-sandiego
+name: Where in the U.S.A. Is Carmen Sandiego?
+year: 1986
+user: Mr_Alert
+runner: dosbox
+slug: where-in-the-usa-is-carmen-sa-dos
+version: DOS
+description: null
+notes: ''
+created_at: '2018-09-19T01:59:57.826060Z'
+updated_at: '2018-09-19T23:59:47.880961Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: CARMEN.EXE
+  - merge:
+      src: $DISC
+      dst: $GAMEDIR/a
+  - task:
+      commands:
+      - 'A:'
+      - CARMEN.EXE
+      - exit
+      path: $GAMEDIR/play.conf
+      drives:
+        a: $GAMEDIR/a
+      name: makeconfig
+  game:
+    main_file: $GAMEDIR/play.conf

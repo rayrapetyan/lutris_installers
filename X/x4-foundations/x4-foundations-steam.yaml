@@ -1,0 +1,24 @@
+id: 13661
+game_id: 21389
+game_slug: x4-foundations
+name: 'X4: Foundations'
+year: null
+user: blackphidora
+runner: steam
+slug: x4-foundations-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-05-21T11:58:42.198000Z'
+updated_at: '2019-06-13T06:15:06.788775Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 392160
+gogid: 1395669635
+gogslug: x4_foundations
+humblestoreid: ''
+script:
+  game:
+    appid: 392160

@@ -1,0 +1,26 @@
+id: 10916
+game_id: 21989
+game_slug: assetto-corsa-competizione
+name: Assetto Corsa Competizione
+year: 2018
+user: blackcape
+runner: steam
+slug: assetto-corsa-competizione-steam-proton
+version: Steam Proton
+description: null
+notes: "Enable Steam Play and set \"Enable Steam Play for all titles\" on\r\n\r\n\
+  Tested using Nvidia + xinerama + triple screen setup.\r\n\r\nWorks with some freezings\
+  \ after settings changes. After restart settings okay and game playable."
+created_at: '2018-11-18T21:15:06.563000Z'
+updated_at: '2019-05-19T06:39:46.992638Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 805550
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 805550

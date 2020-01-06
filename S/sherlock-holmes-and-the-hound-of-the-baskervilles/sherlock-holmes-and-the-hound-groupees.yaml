@@ -1,0 +1,38 @@
+id: 5803
+game_id: 1617
+game_slug: sherlock-holmes-and-the-hound-of-the-baskervilles
+name: Sherlock Holmes and The Hound of The Baskervilles
+year: null
+user: FakeShemp
+runner: wine
+slug: sherlock-holmes-and-the-hound-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-18T20:37:27.964000Z'
+updated_at: '2018-05-19T03:41:57.471309Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 209230
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/SHTHOBCE-EN_setup.exe
+      prefix: $GAMEDIR
+      args: /sp- /verysilent /norestart /suppressmsgboxes /nogui
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Waterlily Games/Sherlock Holmes and The Hound of The
+      Baskervilles/SherlockHolmes_TheHoundofTheBaskervilles.exe
+    arch: win32

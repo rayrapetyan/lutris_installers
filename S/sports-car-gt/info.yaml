@@ -1,0 +1,16 @@
+name: Sports Car GT
+slug: sports-car-gt
+year: 1999
+platforms:
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/sports-car-gt.jpg
+icon_url: null
+is_public: true
+updated: '2019-09-05T13:05:50.252358Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

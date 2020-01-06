@@ -1,0 +1,56 @@
+id: 10901
+game_id: 1316
+game_slug: command-and-conquer-3-tiberium-wars
+name: 'Command & Conquer 3: Tiberium Wars'
+year: 2007
+user: dmsun
+runner: wine
+slug: command-and-conquer-3-tiberiu-retail-dvd
+version: Retail DVD
+description: null
+notes: "This will install C&C3 Tiberium Wars from a DVD. Copy the contents of the\
+  \ DVD to a folder in your home directory and run 'setup.exe' from that copy.\r\n\
+  \r\nDownload the v1.09 patch and execute that from the wineprefix after install\
+  \ has completed.\r\n\r\nSubsequently, you may wish to download a NO-CD crack."
+created_at: '2018-11-18T05:46:08.810000Z'
+updated_at: '2019-02-14T05:23:03.572626Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 24790
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: setup.exe
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: nocrashdialog win7
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - task:
+      prefix: $GAMEDIR
+      description: Setting OS as Windows 7.
+      key: Version
+      value: win7
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  wine:
+    version: tkg-3.21-x86_64
+    WineDesktop: 1280x720
+    Desktop: true
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Electronic Arts/Command & Conquer 3/CNC3.exe
+    arch: win32

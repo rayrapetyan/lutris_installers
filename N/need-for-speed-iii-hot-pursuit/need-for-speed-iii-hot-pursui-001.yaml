@@ -1,0 +1,41 @@
+id: 14966
+game_id: 15140
+game_slug: need-for-speed-iii-hot-pursuit
+name: 'Need for Speed III: Hot Pursuit'
+year: 1998
+user: shadACII
+runner: wine
+slug: need-for-speed-iii-hot-pursui-001
+version: '0.01'
+description: 'Installer for Need for Speed III: Hot Pursuit Next Gen Version by RejZoR'
+notes: Game runs fine with default options chosen by patch installer, nothing more
+  tested so far.
+created_at: '2019-08-11T12:01:15.960000Z'
+updated_at: '2019-08-14T01:47:48.293662Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: automenu.exe
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - installer: 'N/A: Select the Nextgen Patch Setup File'
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/Need for Speed 3 Hot Pursuit NextGen/nfs3.exe
+    working_dir: $GAMEDIR/drive_c/Program Files/Need for Speed 3 Hot Pursuit NextGen/
+    arch: win32

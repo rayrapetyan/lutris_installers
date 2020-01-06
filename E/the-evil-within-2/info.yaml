@@ -1,0 +1,17 @@
+name: The Evil Within 2
+slug: the-evil-within-2
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Horror
+aliases: []
+banner_url: /games/banner/the-evil-within-2.jpg
+icon_url: /games/icon/the-evil-within-2.png
+is_public: true
+updated: '2019-01-23T08:31:41.056180Z'
+steamid: 601430
+gogslug: ''
+humblestoreid: ''

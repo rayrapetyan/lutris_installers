@@ -1,0 +1,32 @@
+id: 6862
+game_id: 15296
+game_slug: neko-nin-exheart-plus-saiha
+name: NEKO-NIN exHeart +PLUS Saiha
+year: 2017
+user: FakeShemp
+runner: wine
+slug: neko-nin-exheart-plus-saiha-fakku
+version: FAKKU!
+description: null
+notes: ''
+created_at: '2017-12-25T21:13:18.739159Z'
+updated_at: '2018-05-19T03:41:57.661991Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 750990
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/NEKO-NIN exHeart +PLUS Saiha
+      file: $file1
+  files:
+  - file1: N/A:Please select the FAKKU! archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/NEKO-NIN exHeart +PLUS Saiha/nekonin_saiha.exe
+    arch: win32

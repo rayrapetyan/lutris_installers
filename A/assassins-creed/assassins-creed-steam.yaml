@@ -1,0 +1,24 @@
+id: 3183
+game_id: 619
+game_slug: assassins-creed
+name: Assassin's Creed
+year: 2008
+user: bradgy
+runner: winesteam
+slug: assassins-creed-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-01-26T17:31:09.128000Z'
+updated_at: '2017-12-07T13:26:14.139312Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 15100
+gogid: 1207659023
+gogslug: assassins_creed_directors_cut
+humblestoreid: assassins-creed-directors-cut
+script:
+  game:
+    appid: 15100

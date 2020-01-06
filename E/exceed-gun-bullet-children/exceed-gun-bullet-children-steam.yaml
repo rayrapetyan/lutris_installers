@@ -1,0 +1,24 @@
+id: 8198
+game_id: 1197
+game_slug: exceed-gun-bullet-children
+name: eXceed - Gun Bullet Children
+year: null
+user: soredake
+runner: winesteam
+slug: exceed-gun-bullet-children-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T07:06:15.138965Z'
+updated_at: '2018-05-13T09:08:48.018592Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 207370
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 207370

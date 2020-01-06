@@ -1,0 +1,24 @@
+id: 14342
+game_id: 28279
+game_slug: seers-isle
+name: Seers Isle
+year: 2018
+user: kimchitea
+runner: steam
+slug: seers-isle-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-06-29T07:00:03.527432Z'
+updated_at: '2019-10-11T00:03:50.703097Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 738650
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 738650

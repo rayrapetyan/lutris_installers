@@ -1,0 +1,15 @@
+name: CS2D
+slug: cs2d
+year: 2004
+platforms:
+- name: Linux
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/cs2d.jpg
+icon_url: /games/icon/cs2d.png
+is_public: true
+updated: '2019-01-23T08:29:01.693120Z'
+steamid: 666220
+gogslug: ''
+humblestoreid: ''

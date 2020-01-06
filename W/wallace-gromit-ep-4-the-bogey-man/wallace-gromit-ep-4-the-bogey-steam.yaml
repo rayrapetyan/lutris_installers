@@ -1,0 +1,24 @@
+id: 1188
+game_id: 342
+game_slug: wallace-gromit-ep-4-the-bogey-man
+name: 'Wallace & Gromit Ep 4: The Bogey Man'
+year: null
+user: Xodetaetl
+runner: winesteam
+slug: wallace-gromit-ep-4-the-bogey-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2014-12-02T13:07:03.238000Z'
+updated_at: '2014-12-02T13:07:10.058000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 31130
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 31130

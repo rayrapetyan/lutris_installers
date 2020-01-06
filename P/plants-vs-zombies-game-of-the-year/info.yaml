@@ -1,0 +1,16 @@
+name: 'Plants vs. Zombies: Game of the Year Edition'
+slug: plants-vs-zombies-game-of-the-year
+year: 2009
+platforms:
+- name: Windows
+genres:
+- name: Real-time tactics
+- name: Tower defense
+aliases: []
+banner_url: /games/banner/plants-vs-zombies-game-of-the-year.jpg
+icon_url: /games/icon/plants-vs-zombies-game-of-the-year.png
+is_public: true
+updated: '2019-01-23T08:30:46.290091Z'
+steamid: 3590
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,30 @@
+id: 1294
+game_id: 3847
+game_slug: chivalry-is-not-dead
+name: Chivalry is Not Dead
+year: 2007
+user: dennisjj4
+runner: scummvm
+slug: chivalry-is-not-dead-scummvm
+version: scummvm
+description: Free download
+notes: ''
+created_at: '2015-02-12T03:43:35.802000Z'
+updated_at: '2018-01-19T14:25:02.623361Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: file_id
+  files:
+  - file_id: http://games.squinky.me/downloads/chivalry/chivalry.zip
+  game:
+    game_id: chivalry
+    path: $GAMEDIR

@@ -1,0 +1,24 @@
+id: 9264
+game_id: 16062
+game_slug: flamels-miracle
+name: "Flamel's miracle\uFF08\u5F17\u62C9\u6885\u5C14\u7684\u5947\u8FF9\uFF09"
+year: 2017
+user: kimchitea
+runner: steam
+slug: flamels-miracle-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-18T06:45:27.653688Z'
+updated_at: '2018-07-18T22:29:11.102988Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 599480
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 599480

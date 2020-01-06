@@ -1,0 +1,24 @@
+id: 2456
+game_id: 6865
+game_slug: bitardia
+name: Bitardia
+year: null
+user: gschaffran
+runner: steam
+slug: bitardia-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-08-15T18:16:20.343389Z'
+updated_at: '2016-09-30T20:47:54.905480Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 405010
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 405010

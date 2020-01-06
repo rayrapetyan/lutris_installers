@@ -1,0 +1,15 @@
+name: Sonic Classic Heroes
+slug: sonic-classic-heroes
+year: 2013
+platforms:
+- name: Sega Genesis / Mega Drive
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/sonic-classic-heroes.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-30T02:41:47.465603Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

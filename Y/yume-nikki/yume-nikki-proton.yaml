@@ -1,0 +1,24 @@
+id: 17550
+game_id: 7722
+game_slug: yume-nikki
+name: Yume Nikki
+year: 2004
+user: soredake
+runner: steam
+slug: yume-nikki-proton
+version: Proton
+description: null
+notes: ''
+created_at: '2019-12-24T20:16:21.716435Z'
+updated_at: '2019-12-24T20:16:28.197887Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 650700
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 650700

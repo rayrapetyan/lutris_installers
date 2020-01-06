@@ -1,0 +1,16 @@
+name: Darkest Dungeon
+slug: darkest-dungeon
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: RPG
+- name: Strategy
+aliases: []
+banner_url: /games/banner/darkest-dungeon.jpg
+icon_url: /games/icon/darkest-dungeon.png
+is_public: true
+updated: '2019-01-23T08:29:04.124154Z'
+steamid: 262060
+gogslug: darkest_dungeon
+humblestoreid: darkest-dungeon

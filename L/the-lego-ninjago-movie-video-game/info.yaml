@@ -1,0 +1,16 @@
+name: "The LEGO\xAE NINJAGO\xAE Movie Video Game"
+slug: the-lego-ninjago-movie-video-game
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/the-lego-ninjago-movie-video-game.jpg
+icon_url: /games/icon/the-lego-ninjago-movie-video-game.png
+is_public: true
+updated: '2019-06-13T06:42:36.761286Z'
+steamid: 640590
+gogslug: ''
+humblestoreid: ''

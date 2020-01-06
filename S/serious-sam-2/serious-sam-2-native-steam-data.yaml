@@ -1,0 +1,67 @@
+id: 447
+game_id: 45
+game_slug: serious-sam-2
+name: Serious Sam 2
+year: 2005
+user: strider
+runner: wine
+slug: serious-sam-2-native-steam-data
+version: Native + Steam data
+description: null
+notes: "You can set the resolution to FullHD or 4K by editing  Content/SeriousSam2/Sam2.ini\
+  \ (gfx_pixResWidth and gfx_pixResHeight). \r\nIf you experience jerky mouse movements,\
+  \ try setting gfx_iFinish to 2."
+created_at: '2014-03-09T00:52:53.953000Z'
+updated_at: '2018-10-20T11:28:03.917117Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 204340
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: serioussam2
+  installer:
+  - merge:
+      src: data1
+      dst: $GAMEDIR
+  - merge:
+      src: $data2
+      dst: $GAMEDIR
+  - merge:
+      src: $data3
+      dst: $GAMEDIR
+  - merge:
+      src: $data4
+      dst: $GAMEDIR
+  - merge:
+      src: $data5
+      dst: $GAMEDIR
+  - merge:
+      src: $data5
+      dst: $GAMEDIR
+  - extract:
+      dst: $CACHE/installer/serious-sam-2
+      file: installer
+  - extract:
+      dst: $GAMEDIR
+      file: $CACHE/installer/serious-sam-2/serious.sam.2_beta_rc2.1.tar.bz2
+  - extract:
+      nomerge: true
+      dst: $GAMEDIR
+      file: $CACHE/installer/serious-sam-2/sed2_help.tar.gz
+  - merge:
+      src: $CACHE/installer/serious-sam-2/bin
+      dst: $GAMEDIR
+  - chmodx: $GAMEDIR/serioussam2
+  - chmodx: $GAMEDIR/serioussam2-editor
+  files:
+  - data1: $STEAM:204340:All_PC_01.gro
+  - data2: $STEAM:204340:All_PC_02.gro
+  - data3: $STEAM:204340:All_PC_03.gro
+  - data4: $STEAM:204340:Movies_PC_01.gro
+  - data5: $STEAM:204340:Movies_PC_02.gro
+  - data6: $STEAM:204340:Patch_02_068.gro
+  - installer: https://lutris.net/files/games/serious-sam-2/flibitSam2_2070b.tar.gz

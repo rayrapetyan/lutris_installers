@@ -1,0 +1,90 @@
+id: 15686
+game_id: 29425
+game_slug: chronomaster
+name: Chronomaster
+year: 1995
+user: appoloin
+runner: dosbox
+slug: chronomaster-cdrom
+version: CDrom
+description: null
+notes: ''
+created_at: '2019-09-19T00:05:49.278234Z'
+updated_at: '2019-09-19T00:05:49.278262Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - execute:
+      args: $GAMEDIR/HDD $GAMEDIR/CDD $GAMEDIR/CDD/DISK1
+      file: mkdir
+  - write_file:
+      content: '#!/bin/bash
+
+        src=$1
+
+        dst=$2
+
+        src_path=$(echo "$1" | sed -r "s/(.+)\/.+/\1/")
+
+        cp -avr "$src_path/."  "$dst"'
+      file: $CACHE/bulkcopy.sh
+  - chmodx: $CACHE/bulkcopy.sh
+  - execute:
+      args: $game $GAMEDIR/CDD/DISK1
+      file: $CACHE/bulkcopy.sh
+  - write_file:
+      content: '[sdl]
+
+        sensitivity=10
+
+        [autoexec]
+
+        mount D "$GAMEDIR/CDD/DISK1" -t cdrom
+
+        mount C "$GAMEDIR/HDD" -t dir
+
+        d:
+
+        install
+
+        exit'
+      file: $GAMEDIR/Chronomaster-setup.conf
+  - task:
+      config_file: $GAMEDIR/Chronomaster-setup.conf
+      working_dir: $GAMEDIR/HDD
+      name: dosexec
+  - write_file:
+      content: '[sdl]
+
+        sensitivity=20
+
+        [autoexec]
+
+        mount D "$GAMEDIR/CDD/DISK1" -t cdrom
+
+        mount C "$GAMEDIR/HDD" -t dir
+
+        c:
+
+        cd CAPSTONE
+
+        cd CHRONO
+
+        run
+
+        exit'
+      file: $GAMEDIR/Chronomaster.conf
+  - execute:
+      args: -R 775  "$GAMEDIR"
+      file: /bin/chmod
+  files:
+  - game: N/A:Select file INSTALL.exe.
+  game:
+    main_file: $GAMEDIR/Chronomaster.conf

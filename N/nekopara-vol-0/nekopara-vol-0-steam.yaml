@@ -1,0 +1,24 @@
+id: 7704
+game_id: 5905
+game_slug: nekopara-vol-0
+name: NEKOPARA Vol. 0
+year: 2015
+user: Tudi20
+runner: winesteam
+slug: nekopara-vol-0-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-30T23:38:44.537977Z'
+updated_at: '2018-04-02T00:44:08.464092Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 385800
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 385800

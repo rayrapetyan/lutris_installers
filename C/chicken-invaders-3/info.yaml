@@ -1,0 +1,15 @@
+name: Chicken Invaders 3
+slug: chicken-invaders-3
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Arcade
+aliases: []
+banner_url: /games/banner/chicken-invaders-3.jpg
+icon_url: /games/icon/chicken-invaders-3.png
+is_public: true
+updated: '2019-01-23T08:28:51.011949Z'
+steamid: 377460
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,28 @@
+id: 6068
+game_id: 2140
+game_slug: krunch
+name: KRUNCH
+year: null
+user: FakeShemp
+runner: linux
+slug: krunch-desura
+version: Desura
+description: ''
+notes: ''
+created_at: '2017-10-22T19:34:50.723811Z'
+updated_at: '2017-10-22T19:35:55.421400Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 280500
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: KRUNCH
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Desura archive

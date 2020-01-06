@@ -1,0 +1,29 @@
+id: 4566
+game_id: 5442
+game_slug: sakura-fantasy-chapter-1
+name: Sakura Fantasy Chapter 1
+year: 2015
+user: FakeShemp
+runner: linux
+slug: sakura-fantasy-chapter-1-universal
+version: Universal
+description: Adult Patch
+notes: ''
+created_at: '2017-06-24T15:11:01.776063Z'
+updated_at: '2017-06-24T16:25:43.938549Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 375200
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: sakura-fantasy-chapter-1
+  installer:
+  - extract:
+      dst: $GAMEDIR/game
+      file: $file1
+  files:
+  - file1: https://denpasoft.com/sakura_fantasy_patch.rar

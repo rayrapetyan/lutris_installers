@@ -1,0 +1,30 @@
+id: 465
+game_id: 1234
+game_slug: bridge-constructor
+name: Bridge Constructor
+year: 2013
+user: strider
+runner: linux
+slug: bridge-constructor-humble-bundle
+version: Humble Bundle
+description: ''
+notes: ''
+created_at: '2014-05-01T11:52:56.348000Z'
+updated_at: '2014-08-17T21:55:25.238000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 250460
+gogid: null
+gogslug: ''
+humblestoreid: bridge-constructor
+script:
+  exe: BridgeConstructor.x86
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: bridge-archive
+  - chmodx: $GAMEDIR/BridgeConstructor.x86
+  files:
+  - bridge-archive: N/A:Select archive downloaded from http://humblebundle.com

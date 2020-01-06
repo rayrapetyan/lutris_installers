@@ -1,0 +1,35 @@
+id: 5627
+game_id: 13722
+game_slug: the-legend-of-zelda
+name: The Legend of Zelda
+year: 1987
+user: maxlefou
+runner: libretro
+slug: the-legend-of-zelda-fds
+version: FDS
+description: ''
+notes: ''
+created_at: '2017-09-08T19:29:21.567838Z'
+updated_at: '2017-09-17T20:09:32.974884Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: rom
+      dst: $GAMEDIR
+  - merge:
+      src: bios
+      dst: $GAMEDIR
+  files:
+  - rom: N/A:Select the game's ROM file
+  - bios: N/A:Select the Famicom Disk System BIOS file (usually disksys.rom)
+  game:
+    core: fceumm
+    main_file: rom

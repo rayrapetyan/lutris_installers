@@ -1,0 +1,15 @@
+name: Battlefield V
+slug: battlefield-v
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/battlefield-v.jpg
+icon_url: /games/icon/battlefield-v.png
+is_public: true
+updated: '2019-01-23T08:28:32.935380Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

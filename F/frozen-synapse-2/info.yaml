@@ -1,0 +1,17 @@
+name: Frozen Synapse 2
+slug: frozen-synapse-2
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Strategy
+- name: Tactical
+- name: Turn-based
+aliases: []
+banner_url: /games/banner/frozen-synapse-2.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:35.986124Z'
+steamid: 445020
+gogslug: frozen_synapse_2
+humblestoreid: ''

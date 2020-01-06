@@ -1,0 +1,16 @@
+name: Space Panic
+slug: space-panic
+year: 1980
+platforms:
+- name: Arcade
+- name: Colecovision
+genres:
+- name: Platformer
+aliases: []
+banner_url: /games/banner/space-panic.jpg
+icon_url: null
+is_public: true
+updated: '2019-09-05T05:12:17.329246Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

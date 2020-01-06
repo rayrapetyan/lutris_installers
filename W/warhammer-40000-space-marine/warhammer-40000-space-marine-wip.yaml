@@ -1,0 +1,25 @@
+id: 3968
+game_id: 815
+game_slug: warhammer-40000-space-marine
+name: Warhammer 40,000 Space Marine
+year: null
+user: Cronyk
+runner: winesteam
+slug: warhammer-40000-space-marine-wip
+version: WIP
+description: Game starts and runs, but with graphic issues and it crashes randomly.
+notes: ''
+created_at: '2017-05-30T16:39:20.137000Z'
+updated_at: '2018-09-03T21:48:05.407596Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 55150
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 55150
+    arch: win64

@@ -1,0 +1,39 @@
+id: 2340
+game_id: 1
+game_slug: quake
+name: Quake
+year: 1996
+user: strider
+runner: linux
+slug: quake-vkquake-095
+version: vkQuake 0.95
+description: Vulkan port of Quake (requires to have the game on Steam)
+notes: ''
+created_at: '2016-07-26T04:57:19.544000Z'
+updated_at: '2017-12-15T05:45:06.077413Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 2310
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: vkquake
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: engine
+  - merge:
+      src: steam-data
+      dst: $GAMEDIR/id1
+  - move:
+      src: $GAMEDIR/id1/PAK0.PAK
+      dst: $GAMEDIR/id1/pak0.pak
+  - move:
+      src: $GAMEDIR/id1/PAK1.PAK
+      dst: $GAMEDIR/id1/pak1.pak
+  files:
+  - engine: https://lutris.net/files/games/quake/vkquake-0.95-x86_64.tar.gz
+  - steam-data: $STEAM:2310:Id1

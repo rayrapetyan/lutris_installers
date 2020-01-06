@@ -1,0 +1,31 @@
+id: 4971
+game_id: 5749
+game_slug: tracks-and-turrets
+name: Tracks and Turrets
+year: null
+user: FakeShemp
+runner: linux
+slug: tracks-and-turrets-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-11T18:43:55.288668Z'
+updated_at: '2017-07-27T00:56:51.785471Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 404370
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: TNT-Groupees.x86_64
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/TNT-Groupees.x86
+  - chmodx: $GAMEDIR/TNT-Groupees.x86_64
+  exe64: TNT-Groupees.x86_64
+  files:
+  - file1: N/A:Please select the Groupees archive

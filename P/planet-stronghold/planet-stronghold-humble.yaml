@@ -1,0 +1,28 @@
+id: 3915
+game_id: 2291
+game_slug: planet-stronghold
+name: Planet Stronghold
+year: null
+user: FakeShemp
+runner: linux
+slug: planet-stronghold-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-27T18:27:28.881114Z'
+updated_at: '2017-05-27T23:52:48.153656Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 291050
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Planet Stronghold.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

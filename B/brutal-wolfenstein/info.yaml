@@ -1,0 +1,15 @@
+name: Brutal Wolfenstein
+slug: brutal-wolfenstein
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/brutal-wolfenstein.jpg
+icon_url: /games/icon/brutal-wolfenstein.png
+is_public: true
+updated: '2019-01-23T08:28:42.715402Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

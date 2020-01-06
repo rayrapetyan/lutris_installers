@@ -1,0 +1,43 @@
+id: 3309
+game_id: 3656
+game_slug: game-of-thrones-a-telltale-games-series
+name: Game of Thrones - A Telltale Games Series
+year: 2014
+user: NuSuey
+runner: wine
+slug: game-of-thrones-a-telltale-ga-telltale-game-client
+version: Telltale game client
+description: Game client from Telltale's website (telltale.com)
+notes: ''
+created_at: '2017-03-10T08:56:12.677000Z'
+updated_at: '2018-05-19T03:41:50.914883Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 330840
+gogid: 1432208050
+gogslug: game_of_thrones_season_1
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Disabling unused WINE features
+      app: sandbox
+      silent: true
+      name: winetricks
+  files:
+  - game: N/A:Please select the Telletale (Download Center) Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Telltale Games/Game of Thrones/Thrones.exe
+    arch: win32

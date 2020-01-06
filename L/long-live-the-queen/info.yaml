@@ -1,0 +1,17 @@
+name: Long Live The Queen
+slug: long-live-the-queen
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: RPG
+- name: Simulation
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/long-live-the-queen.jpg
+icon_url: /games/icon/long-live-the-queen.png
+is_public: true
+updated: '2019-01-23T08:30:12.521288Z'
+steamid: 251990
+gogslug: long_live_the_queen
+humblestoreid: ''

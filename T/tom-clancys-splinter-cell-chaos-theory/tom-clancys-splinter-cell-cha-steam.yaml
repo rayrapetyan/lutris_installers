@@ -1,0 +1,24 @@
+id: 4894
+game_id: 695
+game_slug: tom-clancys-splinter-cell-chaos-theory
+name: 'Tom Clancy''s Splinter Cell: Chaos Theory'
+year: 2005
+user: fabi2607
+runner: winesteam
+slug: tom-clancys-splinter-cell-cha-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-07-07T18:32:07.787718Z'
+updated_at: '2017-07-09T20:12:48.751752Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 13570
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 13570

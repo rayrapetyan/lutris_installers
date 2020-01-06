@@ -1,0 +1,17 @@
+name: Alien Shooter + Expansions
+slug: alien-shooter-expansions
+year: 2003
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Sci-fi
+- name: Shooter
+aliases: []
+banner_url: /games/banner/alien-shooter-expansions.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:18.816158Z'
+steamid: null
+gogslug: alien_shooter_expansions
+humblestoreid: ''

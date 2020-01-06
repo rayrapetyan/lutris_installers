@@ -1,0 +1,29 @@
+id: 2421
+game_id: 126
+game_slug: final-doom
+name: Final Doom
+year: 1996
+user: RobLoach
+runner: zdoom
+slug: final-doom-tnt
+version: TNT
+description: ''
+notes: ''
+created_at: '2016-08-11T05:32:40.960935Z'
+updated_at: '2016-08-16T00:14:56.162283Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 2290
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: TNT.WAD
+  installer:
+  - merge:
+      src: wad-data
+      dst: $GAMEDIR
+  files:
+  - wad-data: $STEAM:2290:base

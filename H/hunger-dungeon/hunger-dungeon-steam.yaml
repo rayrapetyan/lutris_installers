@@ -1,0 +1,24 @@
+id: 3174
+game_id: 8088
+game_slug: hunger-dungeon
+name: Hunger Dungeon
+year: null
+user: MatheusGASource
+runner: steam
+slug: hunger-dungeon-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-01-17T18:33:20.089000Z'
+updated_at: '2017-03-16T02:10:22.211095Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 513560
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 513560

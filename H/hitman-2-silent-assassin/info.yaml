@@ -1,0 +1,17 @@
+name: 'Hitman 2: Silent Assassin'
+slug: hitman-2-silent-assassin
+year: 2002
+platforms:
+- name: GameCube
+- name: Sony PlayStation 2
+- name: Windows
+genres:
+- name: Stealth
+aliases: []
+banner_url: /games/banner/hitman-2-silent-assassin.jpg
+icon_url: /games/icon/hitman-2-silent-assassin.png
+is_public: true
+updated: '2019-01-23T08:29:51.048258Z'
+steamid: 6850
+gogslug: hitman_2_silent_assassin
+humblestoreid: ''

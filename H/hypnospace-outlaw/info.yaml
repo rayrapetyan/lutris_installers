@@ -1,0 +1,15 @@
+name: Hypnospace Outlaw
+slug: hypnospace-outlaw
+year: 2019
+platforms:
+- name: Linux
+genres:
+- name: Simulation
+aliases: []
+banner_url: /games/banner/hypnospace-outlaw.jpg
+icon_url: /games/icon/hypnospace-outlaw.png
+is_public: true
+updated: '2019-10-16T22:22:19.111064Z'
+steamid: 844590
+gogslug: hypnospace_outlaw
+humblestoreid: ''

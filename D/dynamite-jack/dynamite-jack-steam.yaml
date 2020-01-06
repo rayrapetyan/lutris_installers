@@ -1,0 +1,24 @@
+id: 266
+game_id: 254
+game_slug: dynamite-jack
+name: Dynamite Jack
+year: null
+user: strider
+runner: steam
+slug: dynamite-jack-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-19T23:56:20.323000Z'
+updated_at: '2013-12-19T23:56:20.323000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 202730
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 202730

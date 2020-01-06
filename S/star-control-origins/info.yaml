@@ -1,0 +1,15 @@
+name: 'Star Control: Origins'
+slug: star-control-origins
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/star-control-origins.jpg
+icon_url: /games/icon/star-control-origins.png
+is_public: true
+updated: '2019-02-17T00:45:32.175237Z'
+steamid: 271260
+gogslug: star_control_origins
+humblestoreid: ''

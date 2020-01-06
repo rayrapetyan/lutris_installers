@@ -1,0 +1,37 @@
+id: 4673
+game_id: 889
+game_slug: flotilla
+name: Flotilla
+year: null
+user: FakeShemp
+runner: wine
+slug: flotilla-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-27T10:18:04.519000Z'
+updated_at: '2018-05-19T03:41:54.618018Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 55000
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: dotnet20
+      name: winetricks
+  files:
+  - file1: N/A:Please select the Humble installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Flotilla/flotilla.exe
+    arch: win32

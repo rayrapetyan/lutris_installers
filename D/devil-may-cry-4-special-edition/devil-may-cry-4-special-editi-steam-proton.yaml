@@ -1,0 +1,24 @@
+id: 12281
+game_id: 5877
+game_slug: devil-may-cry-4-special-edition
+name: "Devil May Cry\xAE 4 Special Edition"
+year: null
+user: romulasry
+runner: steam
+slug: devil-may-cry-4-special-editi-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-03-07T08:02:22.731000Z'
+updated_at: '2019-05-22T00:15:23.158723Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 329050
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 329050

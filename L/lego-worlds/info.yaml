@@ -1,0 +1,16 @@
+name: "LEGO\xAE Worlds"
+slug: lego-worlds
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Sandbox
+aliases: []
+banner_url: /games/banner/lego-worlds.jpg
+icon_url: /games/icon/lego-worlds.png
+is_public: true
+updated: '2019-06-12T04:23:30.510058Z'
+steamid: 332310
+gogslug: ''
+humblestoreid: ''

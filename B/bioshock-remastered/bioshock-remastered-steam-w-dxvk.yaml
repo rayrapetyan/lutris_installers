@@ -1,0 +1,27 @@
+id: 2869
+game_id: 7704
+game_slug: bioshock-remastered
+name: BioShock Remastered
+year: 2016
+user: strider
+runner: winesteam
+slug: bioshock-remastered-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2016-10-09T21:40:07.451000Z'
+updated_at: '2019-12-29T08:45:10.913647Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 409710
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  game:
+    appid: 409710

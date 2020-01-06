@@ -1,0 +1,63 @@
+id: 7970
+game_id: 3397
+game_slug: the-legend-of-heroes-trails-in-the-sky
+name: 'The Legend of Heroes: Trails in the Sky'
+year: 2014
+user: xaque
+runner: wine
+slug: the-legend-of-heroes-trails-i-gog
+version: GOG
+description: Runs the DX8 version by default.
+notes: "After GOG installer finishes, some error messages will show up. You can ignore\
+  \ them.\r\n\r\nThe video works and if you add Japanese voices  it will work (see\
+  \ here : https://github.com/ZhenjianYang/SoraVoice)\r\n\r\nThe DX9 version may have\
+  \ menu scaling issues at higher resolutions unless you disable \"High-Res Assets\"\
+  \ in the config."
+created_at: '2018-04-23T06:22:24.495000Z'
+updated_at: '2019-09-09T01:50:37.860096Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 251150
+gogid: 1207665083
+gogslug: the_legend_of_heroes_trails_in_the_sky
+humblestoreid: ''
+script:
+  exe: drive_c/GOG Games/The Legend of Heroes - Trails in the Sky/ed6_win.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix...
+      name: create_prefix
+  - task:
+      executable: gog
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: quartz
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: amstream
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: dinput8
+      name: winetricks
+  - task:
+      executable: lavf
+      prefix: $GAMEDIR
+      description: Install LavFilter to have movies
+      name: wineexec
+  - task:
+      executable: C:/GOG Games/The Legend of Heroes - Trails in the Sky/Config.exe
+      prefix: $GAMEDIR
+      description: Running config tool for first time launch...
+      name: wineexec
+  files:
+  - lavf: https://github.com/Nevcairiel/LAVFilters/releases/download/0.74.1/LAVFilters-0.74.1-Installer.exe
+  - gog: N/A:Select the Windows GOG installer
+  game:
+    prefix: $GAMEDIR

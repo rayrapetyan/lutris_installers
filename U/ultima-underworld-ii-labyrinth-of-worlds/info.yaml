@@ -1,0 +1,17 @@
+name: 'Ultima Underworld II: Labyrinth of Worlds'
+slug: ultima-underworld-ii-labyrinth-of-worlds
+year: 1993
+platforms:
+- name: MS-DOS
+genres:
+- name: Action
+- name: Dungeon crawl
+- name: RPG
+aliases: []
+banner_url: /games/banner/ultima-underworld-ii-labyrinth-of-worlds.jpg
+icon_url: /games/icon/ultima-underworld-ii-labyrinth-of-worlds.png
+is_public: true
+updated: '2019-01-23T08:31:58.499918Z'
+steamid: null
+gogslug: ultima_underworld_1_2
+humblestoreid: ''

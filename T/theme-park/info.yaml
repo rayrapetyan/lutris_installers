@@ -1,0 +1,28 @@
+name: Theme Park
+slug: theme-park
+year: 1994
+platforms:
+- name: 3DO
+- name: Amiga
+- name: Atari Jaguar
+- name: MS-DOS
+- name: Nintendo DS
+- name: Sega Genesis / Mega Drive
+- name: Sega Saturn
+- name: Sony PlayStation
+- name: Sony PSP
+- name: Super Nintendo
+- name: Windows
+genres:
+- name: City building
+- name: Construction
+- name: Management
+- name: Simulation
+aliases: []
+banner_url: /games/banner/theme-park.jpg
+icon_url: /games/icon/theme-park.png
+is_public: true
+updated: '2019-03-28T04:06:57.043364Z'
+steamid: null
+gogslug: theme_park
+humblestoreid: ''

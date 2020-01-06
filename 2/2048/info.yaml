@@ -1,0 +1,15 @@
+name: '2048'
+slug: '2048'
+year: 2014
+platforms:
+- name: Browser
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/2048.jpg
+icon_url: /games/icon/2048.png
+is_public: true
+updated: '2019-01-23T08:28:08.432836Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

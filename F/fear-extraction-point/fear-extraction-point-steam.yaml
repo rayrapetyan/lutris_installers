@@ -1,0 +1,25 @@
+id: 1897
+game_id: 610
+game_slug: fear-extraction-point
+name: 'F.E.A.R.: Extraction Point'
+year: null
+user: WildCoder
+runner: winesteam
+slug: fear-extraction-point-steam
+version: Steam
+description: ''
+notes: Set the resolution of the game in $PREFIX/drive_c/users/Public/Documents/TimeGate
+  Studios/FEARXP/settings.cfg (note the Public, which is rather unusual).
+created_at: '2016-01-17T17:44:17.816194Z'
+updated_at: '2016-08-12T04:41:54.578354Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: 21110
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 21110

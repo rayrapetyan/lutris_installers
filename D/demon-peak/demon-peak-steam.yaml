@@ -1,0 +1,24 @@
+id: 5227
+game_id: 12418
+game_slug: demon-peak
+name: Demon Peak
+year: null
+user: strider
+runner: steam
+slug: demon-peak-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-07-29T07:58:47.611968Z'
+updated_at: '2017-07-29T07:58:55.422642Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 525380
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 525380

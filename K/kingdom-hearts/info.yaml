@@ -1,0 +1,17 @@
+name: Kingdom Hearts
+slug: kingdom-hearts
+year: 2002
+platforms:
+- name: Sony PlayStation 2
+genres:
+- name: Action
+- name: Hack and slash
+- name: RPG
+aliases: []
+banner_url: /games/banner/kingdom-hearts.jpg
+icon_url: /games/icon/kingdom-hearts.png
+is_public: true
+updated: '2019-01-23T08:30:03.841394Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

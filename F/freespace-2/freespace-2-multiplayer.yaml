@@ -1,0 +1,38 @@
+id: 2739
+game_id: 3650
+game_slug: freespace-2
+name: Freespace 2
+year: 1999
+user: ssf
+runner: linux
+slug: freespace-2-multiplayer
+version: Multiplayer
+description: adds multiplayer support over FS2NetD
+notes: 'for more information see here: ( http://www.hard-light.net/wiki/index.php/Multiplayer_Getting_Started_Guide
+  )'
+created_at: '2016-09-15T15:24:30.990442Z'
+updated_at: '2016-09-22T18:05:56.595843Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 273620
+gogid: 5
+gogslug: freespace_2
+humblestoreid: ''
+script:
+  requires: freespace-2-fs2_open
+  installer:
+  - move:
+      src: $mmp
+      dst: $GAMEDIR/freespace2
+  - move:
+      src: $mvp
+      dst: $GAMEDIR/freespace2
+  - execute:
+      args: -c "printf 'fs2netd.game-warden.com\n12000'>$GAMEDIR/freespace2/data/fs2open_pxo.cfg"
+      file: /bin/sh
+      terminal: false
+  files:
+  - mmp: http://web.archive.org/web/20081022231035/http://www.fszmirror.com/files/multi-voice-pack.vp
+  - mvp http://web.archive.org/web/20071012171549/http://fszmirror.com/files/multi-mission-pack.vp

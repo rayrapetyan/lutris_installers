@@ -1,0 +1,15 @@
+name: BRTV
+slug: brtv
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Simulation
+aliases: []
+banner_url: /games/banner/brtv.jpg
+icon_url: /games/icon/brtv.png
+is_public: true
+updated: '2019-10-31T12:11:54.481222Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

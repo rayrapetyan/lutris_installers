@@ -1,0 +1,17 @@
+name: Eye of the Beholder
+slug: eye-of-the-beholder
+year: 1991
+platforms:
+- name: Amiga
+- name: MS-DOS
+genres:
+- name: Dungeon crawl
+- name: RPG
+aliases: []
+banner_url: /games/banner/eye-of-the-beholder.jpg
+icon_url: /games/icon/eye-of-the-beholder.png
+is_public: true
+updated: '2019-01-23T08:29:27.064652Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

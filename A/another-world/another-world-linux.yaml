@@ -1,0 +1,24 @@
+id: 4170
+game_id: 1453
+game_slug: another-world
+name: Another World
+year: 1991
+user: coco
+runner: steam
+slug: another-world-linux
+version: linux
+description: ''
+notes: ''
+created_at: '2017-06-06T17:48:39.762000Z'
+updated_at: '2017-06-08T04:43:51.585446Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 233550
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 233550

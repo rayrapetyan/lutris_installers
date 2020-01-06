@@ -1,0 +1,24 @@
+id: 7103
+game_id: 15791
+game_slug: block-survival-legend-of-the-lost-islands
+name: 'Block Survival: Legend of the Lost Islands'
+year: null
+user: liberodark
+runner: steam
+slug: block-survival-legend-of-the-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-01-15T14:23:49.431013Z'
+updated_at: '2018-01-15T18:04:55.002421Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 641980
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 641980

@@ -1,0 +1,32 @@
+id: 2714
+game_id: 7629
+game_slug: zaxxon-retro-remake
+name: Zaxxon Retro Remake
+year: 2002
+user: ssf
+runner: linux
+slug: zaxxon-retro-remake-04125-i386
+version: 0.4.125 - i386
+description: ''
+notes: ''
+created_at: '2016-09-08T20:11:03.894738Z'
+updated_at: '2016-09-09T19:49:08.887364Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: zaxrr
+  installer:
+  - extract:
+      format: tgz
+      description: extracting...
+      file: $game
+      dst: $GAMEDIR
+  - chmodx: $GAMEDIR/zaxrr
+  files:
+  - game: https://d1cxvcw9gjxu2x.cloudfront.net/projects/1503#zaxrr.wip.0.4.125.tgz

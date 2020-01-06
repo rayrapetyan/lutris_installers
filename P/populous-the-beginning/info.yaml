@@ -1,0 +1,16 @@
+name: 'Populous: The Beginning'
+slug: populous-the-beginning
+year: 1998
+platforms:
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/populous-the-beginning.jpg
+icon_url: /games/icon/populous-the-beginning.png
+is_public: true
+updated: '2019-01-23T08:30:47.947841Z'
+steamid: null
+gogslug: populous_the_beginning
+humblestoreid: ''

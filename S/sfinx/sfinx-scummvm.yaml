@@ -1,0 +1,32 @@
+id: 6963
+game_id: 3249
+game_slug: sfinx
+name: Sfinx
+year: 1997
+user: FakeShemp
+runner: scummvm
+slug: sfinx-scummvm
+version: ScummVM
+description: 'Free download from: http://www.scummvm.org'
+notes: ''
+created_at: '2018-01-02T17:02:19.015087Z'
+updated_at: '2018-01-02T17:03:43.155879Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $file1
+  files:
+  - file1: http://www.scummvm.org/frs/extras/Sfinx/sfinx-en-v1.1.zip
+  game:
+    game_id: sfinx
+    path: $GAMEDIR
+    subtitles: true

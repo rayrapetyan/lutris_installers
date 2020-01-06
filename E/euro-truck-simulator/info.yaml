@@ -1,0 +1,15 @@
+name: Euro Truck Simulator
+slug: euro-truck-simulator
+year: 2009
+platforms:
+- name: Windows
+genres:
+- name: Simulation
+aliases: []
+banner_url: /games/banner/euro-truck-simulator.jpg
+icon_url: /games/icon/euro-truck-simulator.png
+is_public: true
+updated: '2019-01-23T08:29:25.857624Z'
+steamid: 232010
+gogslug: ''
+humblestoreid: ''

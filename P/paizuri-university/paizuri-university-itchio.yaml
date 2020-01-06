@@ -1,0 +1,28 @@
+id: 7436
+game_id: 17167
+game_slug: paizuri-university
+name: Paizuri University
+year: 2017
+user: t-rex91
+runner: linux
+slug: paizuri-university-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2018-03-04T00:12:49.480824Z'
+updated_at: '2018-03-04T22:51:45.349209Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Paizuri University.x86
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

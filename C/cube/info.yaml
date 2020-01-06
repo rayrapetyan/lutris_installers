@@ -1,0 +1,15 @@
+name: Cube
+slug: cube
+year: 2002
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/cube.jpg
+icon_url: /games/icon/cube.png
+is_public: false
+updated: '2019-01-23T08:29:01.832669Z'
+steamid: 538140
+gogslug: ''
+humblestoreid: ''

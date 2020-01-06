@@ -1,0 +1,24 @@
+id: 1143
+game_id: 1032
+game_slug: aquanox-2-revelation
+name: 'AquaNox 2: Revelation'
+year: null
+user: Xodetaetl
+runner: winesteam
+slug: aquanox-2-revelation-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-11-27T13:44:13.032000Z'
+updated_at: '2014-11-27T13:44:27.588000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 39640
+gogid: 1207658851
+gogslug: aquanox_2_revelation
+humblestoreid: ''
+script:
+  game:
+    appid: 39640

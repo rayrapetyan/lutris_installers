@@ -1,0 +1,33 @@
+id: 10270
+game_id: 21830
+game_slug: graverobber-episode-one
+name: GRAVEROBBER - Episode One
+year: 2014
+user: kimchitea
+runner: linux
+slug: graverobber-episode-one-itchio
+version: itch.io
+description: Free download
+notes: ''
+created_at: '2018-09-21T16:02:38.325853Z'
+updated_at: '2018-09-22T01:22:17.701791Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Graverobber.sh
+  installer:
+  - extract:
+      format: bz2
+      dst: $GAMEDIR
+      file: $file1
+  - chmodx: $GAMEDIR/Graverobber.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Graverobber
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Graverobber
+  files:
+  - file1: N/A:Please select the itch.io archive

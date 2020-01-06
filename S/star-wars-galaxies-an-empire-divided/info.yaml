@@ -1,0 +1,15 @@
+name: 'Star Wars Galaxies: An Empire Divided'
+slug: star-wars-galaxies-an-empire-divided
+year: 2003
+platforms:
+- name: Linux
+genres:
+- name: MMORPG
+aliases: []
+banner_url: /games/banner/star-wars-galaxies-an-empire-divided.jpg
+icon_url: /games/icon/star-wars-galaxies-an-empire-divided.png
+is_public: true
+updated: '2019-01-23T08:31:25.555577Z'
+steamid: 24170
+gogslug: ''
+humblestoreid: ''

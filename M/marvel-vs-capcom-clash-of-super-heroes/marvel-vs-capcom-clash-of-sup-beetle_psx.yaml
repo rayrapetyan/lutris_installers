@@ -1,0 +1,27 @@
+id: 9838
+game_id: 21125
+game_slug: marvel-vs-capcom-clash-of-super-heroes
+name: 'Marvel vs. Capcom: Clash of Super Heroes'
+year: 1998
+user: RobLoach
+runner: libretro
+slug: marvel-vs-capcom-clash-of-sup-beetle_psx
+version: beetle_psx
+description: null
+notes: ''
+created_at: '2018-08-21T10:48:04.992531Z'
+updated_at: '2018-08-21T10:48:11.190481Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  files:
+  - rom: N/A:Select the game's ROM file
+  game:
+    core: beetle_pax
+    main_file: rom

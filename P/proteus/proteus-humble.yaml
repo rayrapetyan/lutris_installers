@@ -1,0 +1,33 @@
+id: 3719
+game_id: 326
+game_slug: proteus
+name: Proteus
+year: null
+user: FakeShemp
+runner: linux
+slug: proteus-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-17T20:20:17.099749Z'
+updated_at: '2017-05-18T18:33:21.285843Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 219680
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Proteus
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble installer

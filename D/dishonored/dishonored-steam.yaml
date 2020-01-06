@@ -1,0 +1,24 @@
+id: 356
+game_id: 88
+game_slug: dishonored
+name: Dishonored
+year: 2012
+user: strider
+runner: winesteam
+slug: dishonored-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-01-12T02:19:17.946000Z'
+updated_at: '2014-01-12T02:19:22.117000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 205100
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 205100

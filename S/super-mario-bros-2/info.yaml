@@ -1,0 +1,15 @@
+name: Super Mario Bros. 2
+slug: super-mario-bros-2
+year: 1988
+platforms:
+- name: NES
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/super-mario-bros-2.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:30.584464Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

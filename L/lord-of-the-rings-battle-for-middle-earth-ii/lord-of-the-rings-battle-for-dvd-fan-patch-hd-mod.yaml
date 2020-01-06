@@ -1,0 +1,81 @@
+id: 17614
+game_id: 22919
+game_slug: lord-of-the-rings-battle-for-middle-earth-ii
+name: Lord of the Rings - Battle for Middle Earth II
+year: 2006
+user: CyFreeze
+runner: wine
+slug: lord-of-the-rings-battle-for-dvd-fan-patch-hd-mod
+version: DVD + Fan Patch + HD Mod
+description: "When asked to run the Patch Switcher do so and choose the patch you\
+  \ want to install. Version 1.09 is recommend but can be changed at any time.\r\n\
+  \r\nThe game features a limited amount of in-game resolution options. The default\
+  \ will be 1080p. To use e.g. 1440p you'll have to edit the Options.ini manually\
+  \ or re-run the Patch Switcher and click the \"Fix my resolution\" button."
+notes: ''
+created_at: '2019-12-28T16:48:43.551985Z'
+updated_at: '2019-12-28T16:48:43.552010Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - insert-disc:
+      requires: autorun.exe
+  - task:
+      executable: $DISC/autorun.exe
+      prefix: $GAMEDIR
+      description: Run Installer
+      arch: win32
+      working_dir: $DISC
+      name: wineexec
+  - task:
+      executable: hdmod
+      prefix: $GAMEDIR
+      description: Installing hd mod
+      arch: win32
+      name: wineexec
+  - task:
+      executable: patch109
+      prefix: $GAMEDIR
+      description: Installing unoffical patch 1.09
+      arch: win32
+      name: wineexec
+  - write_file:
+      content: 'AudioLOD = Low
+
+        HasSeenLogoMovies = yes
+
+        IdealStaticGameLOD = VeryLow
+
+        Resolution = 1920 1080
+
+        StaticGameLOD = VeryLow
+
+        TimesInGame = 2'
+      file: $GAMEDIR/drive_c/users/$USER/Application Data/My Battle for Middle-earth(tm)
+        II Files/Options.ini
+  files:
+  - patch109:
+      referer: https://duckduckgo.com
+      filename: BFME2 PatchSwitcher Setup.exe
+      url: http://www.shatabrick.org/downloads/BFME2%20PatchSwitcher%20Setup.exe
+  - hdmod: N/A:Download the Mod from https://www.moddb.com/mods/battle-for-middle-earth-2-hd-edition/downloads/bfme-2-hd-edition-v-11
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/Electronic Arts/The Battle for Middle-earth
+      (tm) II/lotrbfme2.exe
+    arch: win32
+    version: lutris-4.20-x86_64
+    args: -mod "$GAMEDIR/drive_c/users/$USER/Application Data/My Battle for Middle-earth(tm)
+      II Files/HDEdition.big"
+    wine: null

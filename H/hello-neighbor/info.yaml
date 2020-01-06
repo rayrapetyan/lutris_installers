@@ -1,0 +1,16 @@
+name: Hello Neighbor
+slug: hello-neighbor
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Strategy
+aliases: []
+banner_url: /games/banner/hello-neighbor.jpg
+icon_url: /games/icon/hello-neighbor.png
+is_public: true
+updated: '2019-10-12T02:55:10.992118Z'
+steamid: 521890
+gogslug: hello_neighbor
+humblestoreid: ''

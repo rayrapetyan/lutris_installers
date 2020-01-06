@@ -1,0 +1,15 @@
+name: Candle
+slug: candle
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/candle.jpg
+icon_url: /games/icon/candle.png
+is_public: true
+updated: '2019-01-23T08:28:45.317853Z'
+steamid: 420060
+gogslug: candle
+humblestoreid: ''

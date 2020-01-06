@@ -1,0 +1,25 @@
+id: 15742
+game_id: 5463
+game_slug: final-fantasy-type-0-hd
+name: FINAL FANTASY TYPE-0 HD
+year: null
+user: zeioth
+runner: steam
+slug: final-fantasy-type-0-hd-steam-proton
+version: Steam Proton
+description: null
+notes: '* This game might require to manually install <a href="https://github.com/z0z0z/mf-install">this
+  fix</a>.'
+created_at: '2019-09-21T18:54:07.086348Z'
+updated_at: '2019-10-11T01:35:35.795107Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 340170
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 340170

@@ -1,0 +1,31 @@
+id: 8260
+game_id: 6676
+game_slug: devil-daggers
+name: Devil Daggers
+year: 2016
+user: RunningDroid
+runner: linux
+slug: devil-daggers-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2018-05-10T04:29:30.516923Z'
+updated_at: '2018-05-11T22:27:20.164801Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 422970
+gogid: 1922333849
+gogslug: devil_daggers
+humblestoreid: ''
+script:
+  installer:
+  - execute:
+      args: -- --i-agree-to-all-licenses --noreadme --nooptions --noprompt --destination=$GAMEDIR
+      file: installer
+  files:
+  - installer: N/A:Select the game's setup file
+  game:
+    exe: $GAMEDIR/start.sh
+    working_dir: $GAMEDIR

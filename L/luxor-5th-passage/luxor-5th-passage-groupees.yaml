@@ -1,0 +1,32 @@
+id: 6502
+game_id: 1639
+game_slug: luxor-5th-passage
+name: 'Luxor: 5th Passage'
+year: null
+user: FakeShemp
+runner: wine
+slug: luxor-5th-passage-groupees
+version: Groupees
+description: null
+notes: ''
+created_at: '2017-11-30T23:07:49.253397Z'
+updated_at: '2018-05-19T03:41:49.439190Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 60340
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Luxor 5th Passage
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Luxor 5th Passage/Luxor - 5th Passage.exe
+    arch: win32

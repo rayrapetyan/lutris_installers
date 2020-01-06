@@ -1,0 +1,49 @@
+id: 17741
+game_id: 25042
+game_slug: garena
+name: Garena
+year: 2017
+user: x22232
+runner: wine
+slug: garena-change-me
+version: Change Me
+description: null
+notes: ''
+created_at: '2020-01-04T15:07:41.517356Z'
+updated_at: '2020-01-04T15:07:41.517379Z'
+draft: false
+published: false
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: 'Installing the garena (WARNING: Don''t login, close the window)'
+      arch: win64
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files (x86)/Garena/Garena/Garena.exe
+    arch: win64
+  system:
+    env:
+      __GL_THREADED_OPTIMIZATIONS: 1
+      mesa_glthread: true
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+  wine:
+    dxvk: true
+  files:
+  - setup: http://cdn.gxx.garenanow.com/gxx/pc/installer/Garena-v2.0-VN.exe

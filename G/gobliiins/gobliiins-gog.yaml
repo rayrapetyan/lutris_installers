@@ -1,0 +1,39 @@
+id: 5272
+game_id: 3549
+game_slug: gobliiins
+name: Gobliiins
+year: 1991
+user: FakeShemp
+runner: scummvm
+slug: gobliiins-gog
+version: GOG
+description: Uses the files from the Windows installer from GOG.
+notes: ''
+created_at: '2017-08-04T10:56:50.201000Z'
+updated_at: '2017-08-08T17:59:16.886755Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file2
+  - execute:
+      args: -d "$CACHE" "$file1"
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/app
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the GOG installer
+  - file2: https://lutris.net/files/tools/innoextract.tar.gz
+  game:
+    game_id: gob1
+    path: $GAMEDIR
+    subtitles: true

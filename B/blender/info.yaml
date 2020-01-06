@@ -1,0 +1,15 @@
+name: Blender
+slug: blender
+year: 1998
+platforms:
+- name: Linux
+genres:
+- name: Programming
+aliases: []
+banner_url: /games/banner/blender.jpg
+icon_url: /games/icon/blender.png
+is_public: true
+updated: '2019-08-17T07:03:53.128268Z'
+steamid: 365670
+gogslug: ''
+humblestoreid: ''

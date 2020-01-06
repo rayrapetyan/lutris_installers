@@ -1,0 +1,52 @@
+id: 2976
+game_id: 5960
+game_slug: dragons-dogma-dark-arisen
+name: 'Dragon''s Dogma: Dark Arisen'
+year: null
+user: strider
+runner: winesteam
+slug: dragons-dogma-dark-arisen-steam
+version: Steam
+description: Hopefully makes the installer, install WineTricks to make the game actually
+  run past the starting screen. Hopefully...
+notes: 'adds WineTricks: d3dx9, vcrun2010, wmp9, xact'
+created_at: '2016-11-04T17:39:17.142000Z'
+updated_at: '2019-04-12T00:43:41.804936Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 367500
+gogid: 1242384383
+gogslug: dragons_dogma_dark_arisen
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing XACT
+      app: xact
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing d3dx9
+      app: d3dx9
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing vcrun2010
+      app: vcrun2010
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing wmp9
+      app: wmp9 win7
+      arch: win32
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 367500
+    arch: win32

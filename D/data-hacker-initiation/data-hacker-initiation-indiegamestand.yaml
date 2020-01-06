@@ -1,0 +1,33 @@
+id: 4376
+game_id: 2687
+game_slug: data-hacker-initiation
+name: 'Data Hacker: Initiation'
+year: null
+user: FakeShemp
+runner: wine
+slug: data-hacker-initiation-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-06-15T20:02:53.244000Z'
+updated_at: '2018-05-19T03:41:50.201142Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 311860
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the IndieGameStand installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Data Hacker Initiation/Game.exe
+    arch: win32

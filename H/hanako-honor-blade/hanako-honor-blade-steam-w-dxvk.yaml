@@ -1,0 +1,39 @@
+id: 8737
+game_id: 11364
+game_slug: hanako-honor-blade
+name: 'Hanako: Honor & Blade'
+year: 2017
+user: cxf
+runner: winesteam
+slug: hanako-honor-blade-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: Unplayable because of stutters whenever near enemies.
+created_at: '2018-06-14T18:40:15.927000Z'
+updated_at: '2019-02-16T03:12:45.041081Z'
+draft: false
+published: true
+published_by: 19464
+rating: '2'
+steamid: 349510
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: xact
+      name: winetricks
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 349510

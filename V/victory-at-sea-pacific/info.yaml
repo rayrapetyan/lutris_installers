@@ -1,0 +1,17 @@
+name: Victory at Sea Pacific
+slug: victory-at-sea-pacific
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Naval
+- name: Real-time
+- name: Strategy
+aliases: []
+banner_url: /games/banner/victory-at-sea-pacific.jpg
+icon_url: null
+is_public: true
+updated: '2019-04-11T14:12:00.374847Z'
+steamid: 806950
+gogslug: victory_at_sea_pacific
+humblestoreid: ''

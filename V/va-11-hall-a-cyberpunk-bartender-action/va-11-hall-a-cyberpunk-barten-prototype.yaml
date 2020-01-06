@@ -1,0 +1,37 @@
+id: 16611
+game_id: 8410
+game_slug: va-11-hall-a-cyberpunk-bartender-action
+name: 'VA-11 Hall-A: Cyberpunk Bartender Action'
+year: 2016
+user: soredake
+runner: linux
+slug: va-11-hall-a-cyberpunk-barten-prototype
+version: Prototype
+description: null
+notes: ''
+created_at: '2019-11-04T13:45:47.102000Z'
+updated_at: '2019-11-06T23:17:03.971400Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 447530
+gogid: 2074961301
+gogslug: va11_halla
+humblestoreid: ''
+script:
+  require-binaries: tar
+  game:
+    exe: $GAMEDIR/VA-11_Hall_A.sh
+  installer:
+  - extract:
+      description: Extracting game data, it will take a while...
+      dst: $GAMEDIR
+      file: game
+  - chmodx: $GAMEDIR/VA-11_Hall_A.sh
+  - chmodx: $GAMEDIR/lib/linux-x86_64/VA-11_Hall_A
+  - chmodx: $GAMEDIR/lib/linux-i686/VA-11_Hall_A
+  files:
+  - game: 'N/A: Please select the VA-11 HALL-A PROTOTYPE .tar.bz2 install file downloaded
+      from https://sukebangames.itch.io/va11proto'
+  custom-name: VA-11 HALL-A PROTOTYPE

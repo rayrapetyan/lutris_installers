@@ -1,0 +1,15 @@
+name: AssaultCube
+slug: assault-cube
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/assault-cube.jpg
+icon_url: /games/icon/assault-cube.png
+is_public: true
+updated: '2019-01-23T08:28:27.497673Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

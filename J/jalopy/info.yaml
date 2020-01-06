@@ -1,0 +1,17 @@
+name: Jalopy
+slug: jalopy
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Indie
+- name: Simulation
+aliases: []
+banner_url: /games/banner/jalopy.jpg
+icon_url: /games/icon/jalopy.png
+is_public: true
+updated: '2019-08-17T07:01:19.810698Z'
+steamid: 446020
+gogslug: jalopy
+humblestoreid: ''

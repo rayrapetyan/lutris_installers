@@ -1,0 +1,60 @@
+id: 12645
+game_id: 688
+game_slug: hitman-blood-money
+name: 'Hitman: Blood Money'
+year: 2006
+user: Triffnix
+runner: wine
+slug: hitman-blood-money-gog
+version: GOG
+description: null
+notes: Changing the video resolution in-game crashes the game. Restart the game after
+  changing the resolution or edit drive_c/GOG Games/Hitman Blood Money/HitmanBloodMoney.ini
+  in the game's directory instead.
+created_at: '2019-04-06T21:47:48.185000Z'
+updated_at: '2019-04-08T01:31:10.670458Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 6860
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Hitman Blood Money/HitmanBloodMoney.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating WINE prefix
+      arch: win32
+      name: create_prefix
+  - extract:
+      dst: $CACHE/dxsetup
+      file: dx2010
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR/prefix
+      args: /silent
+      arch: win32
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2003 win7
+      arch: win32
+      name: winetricks
+  - task:
+      executable: installer
+      args: /VERYSILENT /SUPPRESSMSGBOXES
+      description: Running Setup, please wait...
+      arch: win32
+      name: wineexec
+  wine:
+    version: tkg-protonified-4.1-x86_64
+    esync: true
+  files:
+  - dx2010: https://lutris.net/files/tools/directx-2010.tar.gz
+  - installer: N/A:Select the EXE downloaded from GOG

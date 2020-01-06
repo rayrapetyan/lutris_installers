@@ -1,0 +1,39 @@
+id: 4800
+game_id: 12068
+game_slug: watch-paint-dry-the-game
+name: 'Watch Paint Dry: The Game'
+year: 2016
+user: FakeShemp
+runner: wine
+slug: watch-paint-dry-the-game-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-04T17:40:54.047000Z'
+updated_at: '2018-05-19T03:41:55.095020Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - move:
+      src: $CACHE/Watch Paint Dry
+      dst: $GAMEDIR/drive_c/Program Files
+  - task:
+      executable: $GAMEDIR/drive_c/Program Files//Watch Paint Dry.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Watch Paint Dry/Game.exe
+    arch: win32

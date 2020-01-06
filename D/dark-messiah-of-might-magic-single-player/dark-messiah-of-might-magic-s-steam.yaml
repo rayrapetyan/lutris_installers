@@ -1,0 +1,28 @@
+id: 4551
+game_id: 561
+game_slug: dark-messiah-of-might-magic-single-player
+name: Dark Messiah of Might & Magic Single Player
+year: null
+user: johnbarbrook
+runner: winesteam
+slug: dark-messiah-of-might-magic-s-steam
+version: Steam
+description: Dark Messiah of Might and Magic is a first-person action video game with
+  role-playing elements developed by Arkane Studios. The player controls Sareth, the
+  apprentice of the wizard Phenrig, after he is sent to the city of Stonehelm to accompany
+  an expedition trying to retrieve a powerful artifact known as "The Skull of Shadows".
+notes: "Game quits after video settings change, and keyboard may need to be mapped\
+  \ on non-standard configurations.\r\n\r\nOther than that, everything works great!"
+created_at: '2017-06-23T20:21:20.759000Z'
+updated_at: '2017-06-24T16:13:04.190708Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 2100
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 2100

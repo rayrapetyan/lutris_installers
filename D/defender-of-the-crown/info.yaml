@@ -1,0 +1,17 @@
+name: Defender of the Crown
+slug: defender-of-the-crown
+year: 1986
+platforms:
+- name: Windows
+genres:
+- name: Fantasy
+- name: Strategy
+- name: Turn-based
+aliases: []
+banner_url: /games/banner/defender-of-the-crown.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:07.949711Z'
+steamid: null
+gogslug: defender_of_the_crown
+humblestoreid: ''

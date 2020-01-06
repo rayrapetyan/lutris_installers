@@ -1,0 +1,80 @@
+id: 7110
+game_id: 3476
+game_slug: the-elder-scrolls-iii-morrowind-goty-edition
+name: 'The Elder Scrolls III: Morrowind GOTY Edition'
+year: 2003
+user: veleiro
+runner: linux
+slug: the-elder-scrolls-iii-morrowi-openmw-gog
+version: OpenMW + GOG
+description: OpenMW 0.45.0 x64 engine + GOG game data
+notes: Upon first run, the Morrowind.ini file needs to be converted to openmw through
+  the automated installer. The modules for the main game also need to be placed in
+  the proper order within the launcher; the steam installation seems to have them
+  out of order by default.
+created_at: '2018-01-15T20:13:46.560000Z'
+updated_at: '2019-12-22T11:18:00.030810Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 22320
+gogid: 1440163901
+gogslug: the_elder_scrolls_iii_morrowind_goty_edition
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: openmwarchive
+  - extract:
+      dst: $CACHE/innoextract
+      file: innoextract
+  - execute:
+      args: --extract $mwdata --output-dir $CACHE/mwdata/
+      file: $CACHE/innoextract/innoextract
+  - merge:
+      src: $CACHE/mwdata/app/Data Files
+      dst: $GAMEDIR/data
+  - move:
+      src: $CACHE/mwdata/app/Morrowind.ini
+      dst: $GAMEDIR
+  - extract:
+      dst: $GAMEDIR/data
+      file: entertainers
+  - extract:
+      dst: $GAMEDIR/data
+      file: bittercoastsounds
+  - extract:
+      dst: $GAMEDIR/data
+      file: areaeffectarrows
+  - extract:
+      dst: $GAMEDIR/data
+      file: ebartifact
+  - extract:
+      dst: $GAMEDIR/data
+      file: masterindex
+  - extract:
+      dst: $GAMEDIR/data
+      file: lefemmarmor
+  - extract:
+      dst: $GAMEDIR/data
+      file: adamantiumarmor
+  - extract:
+      dst: $GAMEDIR/data
+      file: firemoth
+  files:
+  - openmwarchive: https://downloads.openmw.org/linux/generic/openmw-0.45.0-Linux-64Bit.tar.gz
+  - mwdata: N/A:Please select the GOG.com Linux installer
+  - innoextract: https://lutris.net/files/tools/innoextract.tar.gz
+  - entertainers: https://cdn.bethsoft.com/elderscrolls/morrowind/other/entertainers.zip
+  - bittercoastsounds: https://cdn.bethsoft.com/elderscrolls/morrowind/other/bittercoastsounds.zip
+  - areaeffectarrows: https://cdn.bethsoft.com/elderscrolls/morrowind/other/area_effect_arrows.zip
+  - ebartifact: https://cdn.bethsoft.com/elderscrolls/morrowind/other/ebartifact.zip
+  - masterindex: https://cdn.bethsoft.com/elderscrolls/morrowind/other/masterindex.zip
+  - lefemmarmor: https://cdn.bethsoft.com/elderscrolls/morrowind/other/lefemmarmor1.1.zip
+  - adamantiumarmor: https://cdn.bethsoft.com/elderscrolls/morrowind/other/adamantiumarmor.zip
+  - firemoth: https://cdn.bethsoft.com/elderscrolls/morrowind/other/firemoth1.1.zip
+  game:
+    ld_library_path: $GAMEDIR/lib
+    exe: openmw-launcher

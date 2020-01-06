@@ -1,0 +1,24 @@
+id: 11088
+game_id: 23517
+game_slug: dark-parables-goldilocks-and-the-fallen-star-colle
+name: 'Dark Parables: Goldilocks and the Fallen Star Collector''s Edition'
+year: 2015
+user: kimchitea
+runner: steam
+slug: dark-parables-goldilocks-and-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2018-12-05T13:18:22.142000Z'
+updated_at: '2019-05-22T00:11:00.164031Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 711890
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 711890

@@ -1,0 +1,37 @@
+id: 4493
+game_id: 178
+game_slug: back-to-the-future-ep-1-its-about-time
+name: 'Back to the Future: Ep 1 - It''s About Time'
+year: 2010
+user: FakeShemp
+runner: wine
+slug: back-to-the-future-ep-1-its-a-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-18T22:13:28.363000Z'
+updated_at: '2018-05-19T03:41:50.862133Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 31290
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/BackToTheFuture101_15.03_full_nodrm.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Telltale Games/Back to the Future The Game/Episode
+      1/BackToTheFuture101.exe
+    arch: win32

@@ -1,0 +1,24 @@
+id: 4876
+game_id: 4255
+game_slug: shan-gui
+name: Shan Gui
+year: null
+user: pmatulka
+runner: steam
+slug: shan-gui-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-07-07T12:04:07.468568Z'
+updated_at: '2017-07-09T20:12:02.334138Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 307050
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 307050

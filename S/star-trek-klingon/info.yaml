@@ -1,0 +1,15 @@
+name: 'Star Trek: Klingon'
+slug: star-trek-klingon
+year: 1996
+platforms:
+- name: Windows
+genres:
+- name: Interactive fiction
+aliases: []
+banner_url: /games/banner/star-trek-klingon.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:25.046543Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

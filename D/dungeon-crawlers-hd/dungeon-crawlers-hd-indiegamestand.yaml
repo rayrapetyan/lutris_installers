@@ -1,0 +1,33 @@
+id: 4261
+game_id: 4526
+game_slug: dungeon-crawlers-hd
+name: Dungeon Crawlers HD
+year: null
+user: FakeShemp
+runner: wine
+slug: dungeon-crawlers-hd-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-06-10T14:08:55.422000Z'
+updated_at: '2018-05-19T03:41:52.789431Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 355100
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the IndieGameStand installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Dungeon Crawlers HD/Dungeon Crawlers HD.exe
+    arch: win32

@@ -1,0 +1,28 @@
+id: 2154
+game_id: 6308
+game_slug: zelda-classic
+name: Zelda Classic
+year: 1998
+user: ssf
+runner: linux
+slug: zelda-classic-2502-x86
+version: 2.50.2 - x86
+description: null
+notes: ''
+created_at: '2016-06-19T13:41:17.966000Z'
+updated_at: '2017-12-26T22:00:48.709046Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: zlaunch-l
+  installer:
+  - extract:
+      file: zeldaclassic
+  files:
+  - zeldaclassic: http://www.zeldaclassic.com/files/zc-2-50-2-linux.tar.gz

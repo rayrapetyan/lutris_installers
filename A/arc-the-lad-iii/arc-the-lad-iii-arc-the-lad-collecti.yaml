@@ -1,0 +1,48 @@
+id: 9795
+game_id: 21029
+game_slug: arc-the-lad-iii
+name: Arc the Lad III
+year: 2002
+user: AlexRavenheart
+runner: libretro
+slug: arc-the-lad-iii-arc-the-lad-collecti
+version: Arc the Lad Collection
+description: null
+notes: ''
+created_at: '2018-08-18T19:32:28.357000Z'
+updated_at: '2018-08-19T19:08:40.565619Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: disc_1_image
+      dst: $GAMEDIR
+  - merge:
+      src: disc_2_image
+      dst: $GAMEDIR
+  - merge:
+      src: disc_1_cue
+      dst: $GAMEDIR
+  - merge:
+      src: disc_2_cue
+      dst: $GAMEDIR
+  - write_file:
+      content: '$disc_1_cue
+
+        $disc_2_cue'
+      file: $GAMEDIR/Arc the Lad III.m3u
+  files:
+  - disc_1_image: N/A:Please select the PlayStation Disc 1 Image file
+  - disc_1_cue: N/A:Please select the PlayStation Disc 1 Cue file
+  - disc_2_image: N/A:Please select the PlayStation Disc 2 Image file
+  - disc_2_cue: N/A:Please select the PlayStation Disc 2 Cue file
+  game:
+    core: mednafen_psx_hw
+    main_file: $GAMEDIR/Arc the Lad III.m3u

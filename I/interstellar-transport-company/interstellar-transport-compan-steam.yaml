@@ -1,0 +1,24 @@
+id: 8846
+game_id: 15806
+game_slug: interstellar-transport-company
+name: Interstellar Transport Company
+year: null
+user: Wompus
+runner: steam
+slug: interstellar-transport-compan-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-21T15:03:47.986040Z'
+updated_at: '2018-06-21T15:57:20.603692Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 573490
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 573490

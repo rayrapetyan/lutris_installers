@@ -1,0 +1,52 @@
+id: 1704
+game_id: 133
+game_slug: grand-theft-auto-iii
+name: Grand Theft Auto III
+year: 2001
+user: strider
+runner: winesteam
+slug: grand-theft-auto-iii-steam
+version: Steam
+description: Includes SilentPatch
+notes: ''
+created_at: '2015-11-13T11:33:53.034000Z'
+updated_at: '2018-07-13T08:48:52.545534Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 12100
+gogid: null
+gogslug: ''
+humblestoreid: grand-theft-auto-iii
+script:
+  winesteam:
+    overrides:
+      winegstreamer: disabled
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: create_prefix
+  - extract:
+      dst: $CACHE
+      file: $silentpatch
+  - extract:
+      dst: $CACHE
+      file: $ddrawpatch
+  - merge:
+      src: $CACHE/ddraw.dll
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/SilentPatchIII.asi
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/models/particle.txd
+      dst: $GAMEDIR/models
+  files:
+  - ddrawpatch: http://silent.rockstarvision.com/uploads/SilentPatchDDraw.zip
+  - silentpatch: http://silent.rockstarvision.com/uploads/SilentPatchIII.zip
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 12100
+    arch: win32

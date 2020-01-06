@@ -1,0 +1,17 @@
+name: Orphan
+slug: orphan
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Platformer
+aliases: []
+banner_url: /games/banner/orphan.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:38.349346Z'
+steamid: null
+gogslug: orphan
+humblestoreid: ''

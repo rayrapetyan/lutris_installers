@@ -1,0 +1,33 @@
+id: 351
+game_id: 126
+game_slug: final-doom
+name: Final Doom
+year: 1996
+user: strider
+runner: linux
+slug: final-doom-steam
+version: steam
+description: Uses zdoom 64bit
+notes: ''
+created_at: '2014-01-11T15:52:28.712000Z'
+updated_at: '2015-12-28T23:01:16.137713Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 2290
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: zdoom
+  installer:
+  - merge:
+      src: wad-data
+      dst: $GAMEDIR
+  - extract:
+      dst: $GAMEDIR
+      file: zdoom64
+  files:
+  - wad-data: $STEAM:2290:base
+  - zdoom64: https://lutris.net/files/games/zdoom/zdoom-2.8pre-1887-g1070bd9-x86_64.tar.gz

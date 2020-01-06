@@ -1,0 +1,17 @@
+name: Dawn of Man
+slug: dawn-of-man
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: City building
+- name: Simulation
+- name: Strategy
+aliases: []
+banner_url: /games/banner/dawn-of-man.jpg
+icon_url: /games/icon/dawn-of-man.png
+is_public: true
+updated: '2019-03-12T06:15:45.462111Z'
+steamid: 858810
+gogslug: dawn_of_man
+humblestoreid: ''

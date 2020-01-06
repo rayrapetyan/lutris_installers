@@ -1,0 +1,24 @@
+id: 8665
+game_id: 6728
+game_slug: see-no-evil
+name: See No Evil
+year: null
+user: soredake
+runner: winesteam
+slug: see-no-evil-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-11T07:42:30.565767Z'
+updated_at: '2018-06-11T07:49:57.633363Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 313830
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 313830

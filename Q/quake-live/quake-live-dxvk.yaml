@@ -1,0 +1,35 @@
+id: 13399
+game_id: 3147
+game_slug: quake-live
+name: Quake Live
+year: 2010
+user: zeioth
+runner: winesteam
+slug: quake-live-dxvk
+version: DXVK
+description: This version uses DXVK, which greatly improves performance but may not
+  work completely correctly.
+notes: ''
+created_at: '2019-05-08T19:55:49.515000Z'
+updated_at: '2019-12-25T16:49:36.827417Z'
+draft: false
+published: true
+published_by: 68872
+rating: ''
+steamid: 282440
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    esync: true
+    dxvk: true
+  system:
+    disable_compositor: 'true'
+    env:
+      DXVK_LOG_LEVEL: none
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      STAGING_SHARED_MEMORY: 1
+      DXVK_HUD: devinfo,frametimes,fps
+  game:
+    appid: 282440

@@ -1,0 +1,41 @@
+id: 4525
+game_id: 4605
+game_slug: the-marvellous-miss-take
+name: The Marvellous Miss Take
+year: null
+user: FakeShemp
+runner: wine
+slug: the-marvellous-miss-take-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-20T21:07:55.357000Z'
+updated_at: '2018-05-19T03:41:49.852648Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 327310
+gogid: 1207666973
+gogslug: the_marvellous_miss_take
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: dotnet45
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: win7
+      name: winetricks
+  files:
+  - file1: N/A:Please select the Humble installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Wonderstruck Games/The Marvellous Miss Take/misstake.exe
+    arch: win32

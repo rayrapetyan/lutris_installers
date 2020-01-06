@@ -1,0 +1,17 @@
+name: FlatOut
+slug: flatout
+year: 2004
+platforms:
+- name: Linux
+- name: Sony PlayStation 2
+- name: Windows
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/flatout.jpg
+icon_url: /games/icon/flatout.png
+is_public: true
+updated: '2019-01-23T08:29:32.042327Z'
+steamid: 6220
+gogslug: flatout
+humblestoreid: ''

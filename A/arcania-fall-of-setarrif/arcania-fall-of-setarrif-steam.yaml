@@ -1,0 +1,24 @@
+id: 6774
+game_id: 1795
+game_slug: arcania-fall-of-setarrif
+name: 'Arcania: Fall of Setarrif'
+year: null
+user: soredake
+runner: winesteam
+slug: arcania-fall-of-setarrif-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-23T20:53:03.528331Z'
+updated_at: '2017-12-23T20:53:14.535918Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 65610
+gogid: 1282519889
+gogslug: arcania_fall_of_setarrif
+humblestoreid: ''
+script:
+  game:
+    appid: 65610

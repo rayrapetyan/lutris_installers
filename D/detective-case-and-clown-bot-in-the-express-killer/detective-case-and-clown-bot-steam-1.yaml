@@ -1,0 +1,24 @@
+id: 8987
+game_id: 19673
+game_slug: detective-case-and-clown-bot-in-the-express-killer
+name: 'Detective Case and Clown Bot in: The Express Killer'
+year: 2018
+user: TuiorGames
+runner: steam
+slug: detective-case-and-clown-bot-steam-1
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-02T13:39:49.867422Z'
+updated_at: '2018-07-02T15:53:29.648832Z'
+draft: true
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 711920

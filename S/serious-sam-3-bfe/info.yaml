@@ -1,0 +1,15 @@
+name: 'Serious Sam 3: BFE'
+slug: serious-sam-3-bfe
+year: 2011
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/serious-sam-3-bfe.jpg
+icon_url: /games/icon/serious-sam-3-bfe.png
+is_public: true
+updated: '2019-01-23T08:31:09.744357Z'
+steamid: 41070
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,31 @@
+id: 11399
+game_id: 24571
+game_slug: the-amazing-spider-man-1990
+name: The Amazing Spider-Man (1990)
+year: 1990
+user: te_lanus
+runner: libretro
+slug: the-amazing-spider-man-1990-commodore-64
+version: Commodore 64
+description: null
+notes: ''
+created_at: '2019-01-01T09:54:17.886400Z'
+updated_at: '2019-01-01T09:54:32.323628Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Commodore 64 game file
+  game:
+    core: vice_x64
+    main_file: file1

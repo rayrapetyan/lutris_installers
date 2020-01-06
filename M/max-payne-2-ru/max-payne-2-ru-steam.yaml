@@ -1,0 +1,24 @@
+id: 7079
+game_id: 5077
+game_slug: max-payne-2-ru
+name: Max Payne 2 (RU)
+year: null
+user: cxf
+runner: winesteam
+slug: max-payne-2-ru-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-01-13T05:30:42.871113Z'
+updated_at: '2018-01-13T05:30:47.653253Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 12260
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 12260

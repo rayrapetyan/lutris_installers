@@ -1,0 +1,17 @@
+name: Untitled Goose Game
+slug: untitled-goose-game
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Comedy
+- name: Puzzle
+- name: Stealth
+aliases: []
+banner_url: /games/banner/untitled-goose-game.jpg
+icon_url: /games/icon/untitled-goose-game.png
+is_public: true
+updated: '2019-10-06T23:38:17.944383Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

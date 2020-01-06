@@ -1,0 +1,31 @@
+id: 5155
+game_id: 12351
+game_slug: hitogotchi
+name: Hitogotchi
+year: 2015
+user: FakeShemp
+runner: linux
+slug: hitogotchi-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-07-22T11:04:57.511113Z'
+updated_at: '2017-07-26T16:19:09.843863Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Hitogotchi.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Hitogotchi.x86
+  - chmodx: $GAMEDIR/Hitogotchi.x86_64
+  exe64: Hitogotchi.x86_64
+  files:
+  - file1: N/A:Please select the itch.io archive

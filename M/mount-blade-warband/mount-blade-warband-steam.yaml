@@ -1,0 +1,24 @@
+id: 1006
+game_id: 73
+game_slug: mount-blade-warband
+name: 'Mount & Blade: Warband'
+year: 2010
+user: Xodetaetl
+runner: steam
+slug: mount-blade-warband-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-10-30T18:43:18.253000Z'
+updated_at: '2014-10-30T18:43:24.133000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 48700
+gogid: 1207666913
+gogslug: mount_blade_warband
+humblestoreid: ''
+script:
+  game:
+    appid: 48700

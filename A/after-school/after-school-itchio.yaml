@@ -1,0 +1,29 @@
+id: 4921
+game_id: 12149
+game_slug: after-school
+name: After School
+year: 2015
+user: FakeShemp
+runner: linux
+slug: after-school-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-07-08T15:49:06.176000Z'
+updated_at: '2017-07-09T20:05:09.914639Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: AfterSchool.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/AfterSchool.x86
+  files:
+  - file1: N/A:Please select the itch.io archive

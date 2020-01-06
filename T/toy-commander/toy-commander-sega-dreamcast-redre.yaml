@@ -1,0 +1,31 @@
+id: 10030
+game_id: 21477
+game_slug: toy-commander
+name: Toy Commander
+year: 1999
+user: VGJUNKY
+runner: libretro
+slug: toy-commander-sega-dreamcast-redre
+version: Sega Dreamcast redream
+description: Sega Dreamcast emulator with no bios required.
+notes: ''
+created_at: '2018-09-04T00:01:40.892000Z'
+updated_at: '2018-09-06T10:22:54.622579Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: gdi_file
+      dst: $GAMEDIR
+  files:
+  - gdi_file: N/A:Please select the Dreamcast gdi file.
+  game:
+    core: redream
+    main_file: gdi_file

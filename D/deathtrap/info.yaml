@@ -1,0 +1,16 @@
+name: Deathtrap
+slug: deathtrap
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: RPG
+- name: Tower defense
+aliases: []
+banner_url: /games/banner/deathtrap.jpg
+icon_url: /games/icon/deathtrap.png
+is_public: true
+updated: '2019-01-23T08:29:07.466545Z'
+steamid: 310510
+gogslug: deathtrap
+humblestoreid: deathtrap

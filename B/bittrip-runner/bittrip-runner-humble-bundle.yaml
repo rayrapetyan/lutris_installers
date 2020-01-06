@@ -1,0 +1,29 @@
+id: 395
+game_id: 257
+game_slug: bittrip-runner
+name: BIT.TRIP Runner
+year: 2010
+user: strider
+runner: linux
+slug: bittrip-runner-humble-bundle
+version: Humble Bundle
+description: ''
+notes: ''
+created_at: '2014-01-25T20:10:43.861000Z'
+updated_at: '2014-08-17T21:53:50.642000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 63710
+gogid: 1460734409
+gogslug: bittrip_runner
+humblestoreid: bittrip-runner
+script:
+  exe: bit.trip.runner/bit.trip.runner
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: runner-archive
+  files:
+  - runner-archive: 'N/A: Select the .tar.gz archive downloaded from http://humblebundle.com'

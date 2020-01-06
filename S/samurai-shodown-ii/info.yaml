@@ -1,0 +1,19 @@
+name: Samurai Shodown II
+slug: samurai-shodown-ii
+year: 1994
+platforms:
+- name: Arcade
+- name: Linux
+- name: Neo Geo
+genres:
+- name: Action
+- name: Combat
+- name: Fighting
+aliases: []
+banner_url: /games/banner/samurai-shodown-ii.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:07.076221Z'
+steamid: null
+gogslug: samurai_shodown_2
+humblestoreid: ''

@@ -1,0 +1,16 @@
+name: Overlord
+slug: overlord
+year: 2007
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/overlord.jpg
+icon_url: /games/icon/overlord.png
+is_public: true
+updated: '2019-01-23T08:30:39.734078Z'
+steamid: 11450
+gogslug: ''
+humblestoreid: ''

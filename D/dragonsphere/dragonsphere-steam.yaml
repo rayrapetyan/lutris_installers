@@ -1,0 +1,24 @@
+id: 1057
+game_id: 3444
+game_slug: dragonsphere
+name: Dragonsphere
+year: 1994
+user: RobLoach
+runner: steam
+slug: dragonsphere-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2014-11-12T09:06:03.934000Z'
+updated_at: '2014-11-12T09:32:12.733000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 327940
+gogid: 1207658927
+gogslug: dragonsphere
+humblestoreid: ''
+script:
+  game:
+    appid: 327940

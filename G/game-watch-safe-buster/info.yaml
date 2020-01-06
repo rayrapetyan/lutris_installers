@@ -1,0 +1,15 @@
+name: 'Game & Watch: Safe Buster'
+slug: game-watch-safe-buster
+year: 1988
+platforms:
+- name: Arcade
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/game-watch-safe-buster.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-08T18:49:00.243901Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

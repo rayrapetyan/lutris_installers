@@ -1,0 +1,15 @@
+name: GCompris
+slug: gcompris
+year: 2000
+platforms:
+- name: Linux
+genres:
+- name: Educational
+aliases: []
+banner_url: /games/banner/gcompris.jpg
+icon_url: /games/icon/gcompris.png
+is_public: true
+updated: '2019-01-23T08:29:38.511965Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

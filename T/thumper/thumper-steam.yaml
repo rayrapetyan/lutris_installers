@@ -1,0 +1,39 @@
+id: 8816
+game_id: 9732
+game_slug: thumper
+name: Thumper
+year: 2016
+user: bumba
+runner: winesteam
+slug: thumper-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-20T13:34:12.726000Z'
+updated_at: '2019-02-24T02:47:03.877797Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 356400
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  system:
+    env:
+      __GL_THREADED_OPTIMIZATIONS: 1
+      mesa_glthread: 'true'
+      DXVK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 356400
+    arch: win64

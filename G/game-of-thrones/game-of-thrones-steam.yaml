@@ -1,0 +1,42 @@
+id: 9994
+game_id: 736
+game_slug: game-of-thrones
+name: 'Game of Thrones '
+year: null
+user: d0nk0tr0n
+runner: winesteam
+slug: game-of-thrones-steam
+version: Steam
+description: Game of Thrones RPG installer with resolution and fullscreen config fix.
+notes: ''
+created_at: '2018-09-02T00:15:47.848124Z'
+updated_at: '2018-09-04T14:48:46.100731Z'
+draft: true
+published: true
+published_by: null
+rating: ''
+steamid: 208730
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - write_config:
+      section: SystemSettings
+      key: ResX
+      value: 1920
+      file: $GAMEDIR/prefix/drive_c/users/$USER/My Documents/Game of Thrones/UnrealEngine3/AGOTGame/Config/AGOTEngine.ini
+  - write_config:
+      section: SystemSettings
+      key: ResY
+      value: 1080
+      file: $GAMEDIR/prefix/drive_c/users/$USER/My Documents/Game of Thrones/UnrealEngine3/AGOTGame/Config/AGOTEngine.ini
+  - write_config:
+      section: SystemSettings
+      key: Fullscreen
+      value: true
+      file: $GAMEDIR/prefix/drive_c/users/$USER/My Documents/Game of Thrones/UnrealEngine3/AGOTGame/Config/AGOTEngine.ini
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 208730
+    arch: win64

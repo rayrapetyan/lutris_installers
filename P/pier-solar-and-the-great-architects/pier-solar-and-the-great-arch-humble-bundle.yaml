@@ -1,0 +1,31 @@
+id: 2805
+game_id: 3093
+game_slug: pier-solar-and-the-great-architects
+name: Pier Solar and the Great Architects
+year: 2010
+user: Lulu
+runner: linux
+slug: pier-solar-and-the-great-arch-humble-bundle
+version: Humble Bundle
+description: ''
+notes: ''
+created_at: '2016-09-29T22:02:52.019012Z'
+updated_at: '2016-09-30T20:48:16.250430Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 286220
+gogid: 1207666563
+gogslug: pier_solar_and_the_great_architects
+humblestoreid: ''
+script:
+  exe: PierSolar_linux/pshd.linux32
+  installer:
+  - extract:
+      file: game
+  - chmodx: $GAMEDIR/PierSolar_linux/pshd.linux32
+  - chmodx: $GAMEDIR/PierSolar_linux/pshd.linux64
+  exe64: PierSolar_linux/pshd.linux64
+  files:
+  - game: N/A:Please select the .zip install file downloaded from humblebundle.com

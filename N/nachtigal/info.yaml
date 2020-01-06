@@ -1,0 +1,15 @@
+name: Nachtigal
+slug: nachtigal
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/nachtigal.jpg
+icon_url: /games/icon/nachtigal.png
+is_public: true
+updated: '2019-01-23T08:30:29.400615Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

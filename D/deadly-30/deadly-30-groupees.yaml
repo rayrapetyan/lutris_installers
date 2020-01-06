@@ -1,0 +1,32 @@
+id: 6008
+game_id: 2174
+game_slug: deadly-30
+name: Deadly 30
+year: null
+user: FakeShemp
+runner: wine
+slug: deadly-30-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-10-19T18:26:34.767943Z'
+updated_at: '2018-05-19T03:41:59.521448Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 264730
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR/drive_c/Program Files/Deadly 30
+  files:
+  - file1: N/A:Please select the Groupees executable
+  game:
+    prefix: $GAMEDIR
+    exe: $file1
+    arch: win32

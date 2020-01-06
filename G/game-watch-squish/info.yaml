@@ -1,0 +1,15 @@
+name: 'Game & Watch: Squish'
+slug: game-watch-squish
+year: 1986
+platforms:
+- name: Arcade
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/game-watch-squish.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:37.868969Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

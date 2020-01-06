@@ -1,0 +1,15 @@
+name: 'GWENT: The Witcher Card Game'
+slug: gwent-the-witcher-card-game
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Cards
+aliases: []
+banner_url: /games/banner/gwent-the-witcher-card-game.jpg
+icon_url: /games/icon/gwent-the-witcher-card-game.png
+is_public: true
+updated: '2019-01-23T08:29:45.274051Z'
+steamid: null
+gogslug: gwent_the_witcher_card_game
+humblestoreid: ''

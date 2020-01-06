@@ -1,0 +1,17 @@
+name: Grand Theft Auto III
+slug: grand-theft-auto-iii
+year: 2001
+platforms:
+- name: Sony PlayStation 2
+- name: Windows
+genres:
+- name: Action
+- name: Sandbox
+aliases: []
+banner_url: /games/banner/grand-theft-auto-iii.jpg
+icon_url: /games/icon/grand-theft-auto-iii.png
+is_public: true
+updated: '2019-01-23T08:29:42.378300Z'
+steamid: 12100
+gogslug: ''
+humblestoreid: grand-theft-auto-iii

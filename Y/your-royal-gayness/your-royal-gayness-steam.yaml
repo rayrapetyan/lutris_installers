@@ -1,0 +1,24 @@
+id: 8773
+game_id: 16158
+game_slug: your-royal-gayness
+name: Your Royal Gayness
+year: 2018
+user: kimchitea
+runner: steam
+slug: your-royal-gayness-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-17T19:58:58.922856Z'
+updated_at: '2018-06-18T05:24:49.578824Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 765210
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 765210

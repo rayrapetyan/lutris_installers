@@ -1,0 +1,24 @@
+id: 8803
+game_id: 19400
+game_slug: bff-or-die
+name: BFF or Die
+year: 2018
+user: TuiorGames
+runner: steam
+slug: bff-or-die-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-19T13:20:12.363000Z'
+updated_at: '2018-08-02T07:51:13.643873Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 652360
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 652360

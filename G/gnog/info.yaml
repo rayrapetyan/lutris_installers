@@ -1,0 +1,17 @@
+name: GNOG
+slug: gnog
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Fantasy
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/gnog.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:40.395929Z'
+steamid: 290510
+gogslug: gnog
+humblestoreid: ''

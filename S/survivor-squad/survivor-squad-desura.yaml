@@ -1,0 +1,29 @@
+id: 6636
+game_id: 808
+game_slug: survivor-squad
+name: Survivor Squad
+year: null
+user: FakeShemp
+runner: linux
+slug: survivor-squad-desura
+version: Desura
+description: null
+notes: ''
+created_at: '2017-12-10T23:40:19.224381Z'
+updated_at: '2017-12-10T23:43:25.312868Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 258050
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Survivor_Squad.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Survivor_Squad.x86
+  files:
+  - file1: N/A:Please select the Desura archive

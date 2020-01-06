@@ -1,0 +1,24 @@
+id: 7455
+game_id: 4133
+game_slug: five-nights-at-freddys-3
+name: Five Nights at Freddy's 3
+year: null
+user: benoitj
+runner: winesteam
+slug: five-nights-at-freddys-3-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-04T18:39:09.401000Z'
+updated_at: '2018-03-04T23:02:29.195537Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 354140
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 354140

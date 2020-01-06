@@ -1,0 +1,28 @@
+id: 440
+game_id: 74
+game_slug: shadowrun-returns
+name: Shadowrun Returns
+year: 2013
+user: Xodetaetl
+runner: linux
+slug: shadowrun-returns-humble-bundle
+version: Humble Bundle
+description: Archived version from Humble Store
+notes: ''
+created_at: '2014-03-03T19:23:42.094000Z'
+updated_at: '2016-02-10T14:44:26.464081Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 234650
+gogid: 1207660413
+gogslug: shadowrun_returns
+humblestoreid: shadowrun-returns
+script:
+  exe: Shadowrun.sh
+  installer:
+  - extract:
+      file: file1
+  files:
+  - file1: N/A:Select the Shadowrun Returns archive provided by Humble Bundle.

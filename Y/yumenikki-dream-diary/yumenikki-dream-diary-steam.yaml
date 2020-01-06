@@ -1,0 +1,24 @@
+id: 17120
+game_id: 16692
+game_slug: yumenikki-dream-diary-
+name: YUMENIKKI -DREAM DIARY-
+year: 2018
+user: nowhereprisioner
+runner: steam
+slug: yumenikki-dream-diary-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-11-30T19:25:42.256055Z'
+updated_at: '2019-11-30T19:25:42.256088Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 774811
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 774811

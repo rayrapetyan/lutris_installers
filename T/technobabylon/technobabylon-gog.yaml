@@ -1,0 +1,39 @@
+id: 12325
+game_id: 4659
+game_slug: technobabylon
+name: Technobabylon
+year: 2015
+user: memin
+runner: wine
+slug: technobabylon-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-03-10T14:41:12.933000Z'
+updated_at: '2019-04-26T05:59:33.442405Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 307580
+gogid: 1430234218
+gogslug: technobabylon
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES /NOCANCEL
+      arch: win32
+      name: wineexec
+  files:
+  - installer: N/A:Select the Windows installer provided by GOG
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Technobabylon/Technobabylon.exe
+    arch: win32

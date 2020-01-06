@@ -1,0 +1,17 @@
+name: 'Army Men: World War'
+slug: army-men-world-war
+year: 2000
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Modern
+- name: Shooter
+aliases: []
+banner_url: /games/banner/army-men-world-war.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:26.228993Z'
+steamid: null
+gogslug: army_men_world_war
+humblestoreid: ''

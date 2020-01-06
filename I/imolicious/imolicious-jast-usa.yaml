@@ -1,0 +1,31 @@
+id: 13051
+game_id: 26975
+game_slug: imolicious
+name: Imolicious
+year: 2018
+user: kimchitea
+runner: linux
+slug: imolicious-jast-usa
+version: JAST USA
+description: null
+notes: https://jastusa.com/imolicious
+created_at: '2019-04-23T18:42:26.976000Z'
+updated_at: '2019-04-24T02:32:01.471886Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Imolicious.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Imolicious.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Imolicious
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Imolicious
+  files:
+  - file1: N/A:Please select the JAST archive

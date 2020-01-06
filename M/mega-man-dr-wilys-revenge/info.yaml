@@ -1,0 +1,16 @@
+name: 'Mega Man: Dr. Wily''s Revenge'
+slug: mega-man-dr-wilys-revenge
+year: 1991
+platforms:
+- name: Game Boy
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/mega-man-dr-wilys-revenge.jpg
+icon_url: null
+is_public: true
+updated: '2019-07-20T02:57:29.423725Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

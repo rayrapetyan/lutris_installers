@@ -1,0 +1,31 @@
+id: 10317
+game_id: 21887
+game_slug: bugs-bunny-taz-time-busters
+name: 'Bugs Bunny & Taz: Time Busters'
+year: 2000
+user: VGJUNKY
+runner: libretro
+slug: bugs-bunny-taz-time-busters-playstation
+version: Playstation
+description: null
+notes: ''
+created_at: '2018-09-24T00:57:51.654628Z'
+updated_at: '2018-09-27T05:17:09.035791Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: bin_file
+      dst: $GAMEDIR
+  files:
+  - bin_file: N/A:Please select the PlayStation Bin file.
+  game:
+    core: pcsx_rearmed
+    main_file: bin_file

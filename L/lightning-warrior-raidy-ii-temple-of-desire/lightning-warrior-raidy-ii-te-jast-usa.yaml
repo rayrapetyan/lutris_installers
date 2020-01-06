@@ -1,0 +1,42 @@
+id: 5970
+game_id: 14295
+game_slug: lightning-warrior-raidy-ii-temple-of-desire
+name: 'Lightning Warrior Raidy II: Temple of Desire'
+year: 1996
+user: FakeShemp
+runner: wine
+slug: lightning-warrior-raidy-ii-te-jast-usa
+version: JAST USA
+description: ''
+notes: ''
+created_at: '2017-10-15T19:24:28.293000Z'
+updated_at: '2018-05-19T03:41:54.997196Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/Raidy_II_Setup.exe
+      prefix: $GAMEDIR
+      args: /sp- /verysilent /norestart /suppressmsgboxes /nogui /DIR="C:\\Program
+        Files\\Lightning Warrior Raidy II"
+      name: wineexec
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Lightning Warrior Raidy II
+      file: $file2
+  files:
+  - file1: N/A:Please select the JAST USA archive
+  - file2: N/A:Please select the patch archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Lightning Warrior Raidy II/Raidy_2_US.exe
+    arch: win32

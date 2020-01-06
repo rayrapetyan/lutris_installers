@@ -1,0 +1,24 @@
+id: 6602
+game_id: 12106
+game_slug: the-signal-from-tolva
+name: "The Signal From T\xF6lva"
+year: 2017
+user: Talvi
+runner: steam
+slug: the-signal-from-tolva-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-10T01:42:29.718315Z'
+updated_at: '2017-12-18T03:37:12.594359Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 457760
+gogid: 1665406546
+gogslug: the_signal_from_tolva
+humblestoreid: ''
+script:
+  game:
+    appid: 457760

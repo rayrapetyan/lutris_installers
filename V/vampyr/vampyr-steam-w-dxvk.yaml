@@ -1,0 +1,35 @@
+id: 8541
+game_id: 19059
+game_slug: vampyr
+name: Vampyr
+year: 2018
+user: TuiorGames
+runner: winesteam
+slug: vampyr-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2018-06-04T23:46:33.696000Z'
+updated_at: '2019-02-16T05:01:57.101958Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 427290
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    esync: true
+    dxvk: true
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+    pulse_latency: true
+  game:
+    appid: 427290
+    arch: win64

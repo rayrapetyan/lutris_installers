@@ -1,0 +1,35 @@
+id: 27
+game_id: 16
+game_slug: unreal-gold
+name: Unreal Gold
+year: 1998
+user: strider
+runner: linux
+slug: unreal-gold-native-steam-data
+version: Native + steam data
+description: Native Linux version using Steam game data.
+notes: ''
+created_at: '2013-06-29T13:45:18Z'
+updated_at: '2015-06-15T04:22:10.106000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 13250
+gogid: 1207658679
+gogslug: unreal_gold
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: steam-data
+      dst: $GAMEDIR
+  - extract:
+      file: old-unreal
+  files:
+  - old-unreal: https://lutris.net/files/games/unreal-gold/old-unreal-227i.tar.bz2
+  - steam-data: $STEAM:13250:/
+  game:
+    exe: System/UnrealLinux.bin
+    ld_library_path: $GAMEDIR/lib
+    working_dir: $GAMEDIR/System

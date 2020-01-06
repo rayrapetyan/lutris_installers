@@ -1,0 +1,38 @@
+id: 13847
+game_id: 1915
+game_slug: darkstar-one
+name: DarkStar One
+year: 2006
+user: gavandor
+runner: wine
+slug: darkstar-one-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-06-01T13:33:23.111000Z'
+updated_at: '2019-10-14T00:27:31.583420Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 12330
+gogid: 1207658704
+gogslug: darkstar_one
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Darkstar One/DarkStarOne.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES /NOCANCEL
+      name: wineexec
+  wine:
+    esync: true
+  files:
+  - setup: N/A:Select the game's setup file

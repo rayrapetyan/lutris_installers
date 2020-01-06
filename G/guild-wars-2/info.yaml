@@ -1,0 +1,15 @@
+name: Guild Wars 2
+slug: guild-wars-2
+year: 2012
+platforms:
+- name: Windows
+genres:
+- name: MMORPG
+aliases: []
+banner_url: /games/banner/guild-wars-2.jpg
+icon_url: /games/icon/guild-wars-2.png
+is_public: true
+updated: '2019-12-17T02:31:01.396536Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

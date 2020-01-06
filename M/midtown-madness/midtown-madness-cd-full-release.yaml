@@ -1,0 +1,68 @@
+id: 17405
+game_id: 5282
+game_slug: midtown-madness
+name: Midtown Madness
+year: 1999
+user: QwertyChouskie
+runner: wine
+slug: midtown-madness-cd-full-release
+version: CD Full Release
+description: Installs the game and the necessary patches to launch and run the game
+  relatively smoothly on Linux.  The game is run using Xephyr to satisfy the 16-bit
+  color requirement.
+notes: "When the Midtown Madness 2 installer has finished, do not click \"Play Now\"\
+  , as the game will not launch.  Close the window and allow the Lutris installer\
+  \ to continue.\r\n\r\nNote: After installation, the game will launch without the\
+  \ CD, but the CD needs to be inserted for the music to work.  If there is still\
+  \ no music, make sure MIDTOWN (the data portion of the CD) is mounted in the file\
+  \ manager.\r\n\r\nFun fact:  As the music uses CD audio, you can stick the Midtown\
+  \ Madness CD in your CD player and listen to the game's soundtrack!"
+created_at: '2019-12-17T21:10:06.766000Z'
+updated_at: '2019-12-22T19:19:46.084733Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: setup.exe
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: winxp csmt=off
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: wineexec
+  - task:
+      executable: directplay_patch
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: wineexec
+  - task:
+      executable: xppat_patch
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: wineexec
+  system:
+    xephyr_fullscreen: false
+    xephyr: 16bpp
+  files:
+  - setup: N/A:Select 'setup.exe' on the game disc
+  - xppat_patch: https://jacobspctuneup.tk/Midtown/mm1xppat.EXE
+  - directplay_patch: https://jacobspctuneup.tk/Midtown/directplayupdate.exe
+  game:
+    prefix: $GAMEDIR/prefix
+    exe: $GAMEDIR/prefix/drive_c/Program Files/Microsoft Games/Midtown Madness/midtown.exe
+    working_dir: $GAMEDIR/prefix
+    arch: win32

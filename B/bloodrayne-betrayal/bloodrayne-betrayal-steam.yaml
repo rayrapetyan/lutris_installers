@@ -1,0 +1,24 @@
+id: 1602
+game_id: 3575
+game_slug: bloodrayne-betrayal
+name: 'BloodRayne: Betrayal'
+year: 2011
+user: KimplE
+runner: winesteam
+slug: bloodrayne-betrayal-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-09-29T19:28:39.846797Z'
+updated_at: '2016-08-18T10:10:28.467186Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 281220
+gogid: 1446645601
+gogslug: bloodrayne_betrayal
+humblestoreid: ''
+script:
+  game:
+    appid: 281220

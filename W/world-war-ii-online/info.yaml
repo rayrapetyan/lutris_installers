@@ -1,0 +1,16 @@
+name: World War II Online
+slug: world-war-ii-online
+year: null
+platforms:
+- name: Windows
+genres:
+- name: MMOFPS
+- name: Wargame
+aliases: []
+banner_url: /games/banner/world-war-ii-online.jpg
+icon_url: /games/icon/world-war-ii-online.png
+is_public: true
+updated: '2019-01-23T08:32:10.941960Z'
+steamid: 251950
+gogslug: ''
+humblestoreid: ''

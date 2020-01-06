@@ -1,0 +1,45 @@
+id: 15582
+game_id: 11826
+game_slug: discworld
+name: Discworld
+year: 1995
+user: appoloin
+runner: scummvm
+slug: discworld-cdrom
+version: CDrom
+description: null
+notes: ''
+created_at: '2019-09-15T16:58:40.124561Z'
+updated_at: '2019-09-15T16:58:40.124599Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - write_file:
+      content: '#!/bin/bash
+
+        src=$1
+
+        dst=$2
+
+        find "$src" -type f \( -name "*.IDX" -o -name "*.GRA" -o -name "*.SCN" -o
+        -name "*.SMP" -o -name "*.TXT" -o -name "FAT.OPL" -o -name "MIDI.DAT"  -o
+        -name "INDEX" -o -name "SAMPLE.AD" -o -name "SAMPLE.OPL" \) -exec cp {} "$dst"
+        \;'
+      file: $CACHE/selectcopy.sh
+  - chmodx: $CACHE/selectcopy.sh
+  - insert-disc:
+      requires: DWU.EXE
+      description: Please insert disc
+  - execute:
+      args: $DISC/ $GAMEDIR
+      file: $CACHE/selectcopy.sh
+  game:
+    game_id: tinsel
+    path: $GAMEDIR

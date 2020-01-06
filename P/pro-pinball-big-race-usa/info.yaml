@@ -1,0 +1,17 @@
+name: Pro Pinball Big Race USA
+slug: pro-pinball-big-race-usa
+year: 1998
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Pinball
+- name: Simulation
+aliases: []
+banner_url: /games/banner/pro-pinball-big-race-usa.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:50.766920Z'
+steamid: null
+gogslug: pro_pinball_big_race_usa
+humblestoreid: ''

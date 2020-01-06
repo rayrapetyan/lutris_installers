@@ -1,0 +1,17 @@
+name: 'Soulcaster: Part I & II'
+slug: soulcaster-part-i-ii
+year: 2012
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Action
+- name: Strategy
+aliases: []
+banner_url: /games/banner/soulcaster-part-i-ii.jpg
+icon_url: /games/icon/soulcaster-part-i-ii.png
+is_public: true
+updated: '2019-12-05T04:43:37.314195Z'
+steamid: 460970
+gogslug: ''
+humblestoreid: soulcaster-book-i-ii

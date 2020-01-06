@@ -1,0 +1,37 @@
+id: 3506
+game_id: 10303
+game_slug: blackthorne
+name: Blackthorne
+year: 1994
+user: strider
+runner: wine
+slug: blackthorne-blizzard-classics
+version: Blizzard Classics
+description: ''
+notes: ''
+created_at: '2017-04-09T20:15:02.093000Z'
+updated_at: '2018-05-19T03:41:51.787541Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - installer: http://dist.blizzard.com/downloads/blackthorne/5e1a0ce1d84e3ee3005dd26181e14a2f/Blackthorne-Setup.exe
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/Blizzard Classics/Blackthorne/blackthorne.exe
+    arch: win32

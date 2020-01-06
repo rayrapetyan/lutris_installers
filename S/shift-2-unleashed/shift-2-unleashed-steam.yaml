@@ -1,0 +1,24 @@
+id: 3867
+game_id: 1292
+game_slug: shift-2-unleashed
+name: Shift 2 Unleashed
+year: null
+user: rensch77
+runner: winesteam
+slug: shift-2-unleashed-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-05-25T08:45:46.063569Z'
+updated_at: '2017-05-27T21:16:28.526467Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 47920
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 47920

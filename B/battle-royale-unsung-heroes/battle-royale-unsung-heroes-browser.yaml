@@ -1,0 +1,23 @@
+id: 7673
+game_id: 17628
+game_slug: battle-royale-unsung-heroes
+name: Battle Royale Unsung Heroes
+year: 2017
+user: t-rex91
+runner: browser
+slug: battle-royale-unsung-heroes-browser
+version: Browser
+description: null
+notes: ''
+created_at: '2018-03-27T15:46:57.048626Z'
+updated_at: '2018-03-27T17:14:16.191754Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  Main_file: https://bruh.io

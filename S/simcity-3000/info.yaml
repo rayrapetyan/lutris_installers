@@ -1,0 +1,16 @@
+name: SimCity 3000
+slug: simcity-3000
+year: 2000
+platforms:
+- name: Windows
+genres:
+- name: Management
+- name: Strategy
+aliases: []
+banner_url: /games/banner/simcity-3000.jpg
+icon_url: /games/icon/simcity-3000.png
+is_public: true
+updated: '2019-10-06T09:07:11.708974Z'
+steamid: null
+gogslug: simcity_3000
+humblestoreid: ''

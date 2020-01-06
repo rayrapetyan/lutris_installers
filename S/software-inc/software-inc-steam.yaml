@@ -1,0 +1,25 @@
+id: 15846
+game_id: 5902
+game_slug: software-inc
+name: Software Inc.
+year: null
+user: ramram
+runner: steam
+slug: software-inc-steam
+version: Steam
+description: null
+notes: Only Ubuntu is officially supported, may need workarounds for more up-to-date
+  distributions like Arch.
+created_at: '2019-09-28T16:20:52.883381Z'
+updated_at: '2019-10-07T20:08:31.545893Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 362620
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 362620

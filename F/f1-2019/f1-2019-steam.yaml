@@ -1,0 +1,68 @@
+id: 17481
+game_id: 28905
+game_slug: f1-2019
+name: F1 2019
+year: 2019
+user: OsamaBinlada
+runner: winesteam
+slug: f1-2019-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-12-22T11:43:28.597436Z'
+updated_at: '2019-12-22T11:43:28.597463Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 928600
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: msxml3
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: dotnet472
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2017
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: takao
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Setting Windows 7 mode for Wine
+      arch: win64
+      key: Version
+      value: win7
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  winesteam:
+    version: tkg-4.0-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      d3d12: disabled
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 928600
+    arch: win64

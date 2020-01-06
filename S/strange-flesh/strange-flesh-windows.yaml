@@ -1,0 +1,37 @@
+id: 11463
+game_id: 21991
+game_slug: strange-flesh
+name: Strange Flesh
+year: 2017
+user: schlaukopp96
+runner: wine
+slug: strange-flesh-windows
+version: Windows
+description: "Electron-based, only runs on 64-bit systems.\r\nTroubleshooting instructions\
+  \ can be found inside the game's directory."
+notes: The font is entirely missing. Aside from that it (probably) works perfectly.
+created_at: '2019-01-05T22:29:02.966000Z'
+updated_at: '2019-01-22T07:55:50.502174Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - extract:
+      dst: $GAMEDIR/Strange Flesh
+      file: $fileGameZip
+  - chmodx: $GAMEDIR/Strange Flesh/Game Files/Strange Flesh.exe
+  files:
+  - fileGameZip: https://greatestbear.com/Strange%20Flesh%20-%20Windows.zip
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/Strange Flesh/Game Files/Strange Flesh.exe

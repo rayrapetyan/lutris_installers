@@ -1,0 +1,24 @@
+id: 13905
+game_id: 12738
+game_slug: demon-hunter-3-revelation
+name: 'Demon Hunter 3: Revelation'
+year: 2016
+user: kimchitea
+runner: steam
+slug: demon-hunter-3-revelation-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-06-03T04:41:29.785646Z'
+updated_at: '2019-06-13T06:25:36.940789Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 527420
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 527420

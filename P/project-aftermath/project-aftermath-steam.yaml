@@ -1,0 +1,24 @@
+id: 6417
+game_id: 933
+game_slug: project-aftermath
+name: Project Aftermath
+year: null
+user: Stoney_Fish
+runner: winesteam
+slug: project-aftermath-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-11-24T19:12:43.689161Z'
+updated_at: '2017-11-26T01:58:19.572225Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 21400
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 21400

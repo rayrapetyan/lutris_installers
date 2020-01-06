@@ -1,0 +1,24 @@
+id: 7919
+game_id: 17921
+game_slug: horizon-chase-turbo
+name: Horizon Chase Turbo
+year: 2018
+user: TuiorGames
+runner: steam
+slug: horizon-chase-turbo-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-04-16T21:36:52.024000Z'
+updated_at: '2018-05-06T07:28:15.355729Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 389140
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 7874

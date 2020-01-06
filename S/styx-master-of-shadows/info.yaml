@@ -1,0 +1,17 @@
+name: 'Styx: Master of Shadows'
+slug: styx-master-of-shadows
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Stealth
+aliases: []
+banner_url: /games/banner/styx-master-of-shadows.jpg
+icon_url: /games/icon/styx-master-of-shadows.png
+is_public: true
+updated: '2019-01-23T08:31:28.667960Z'
+steamid: 242640
+gogslug: ''
+humblestoreid: ''

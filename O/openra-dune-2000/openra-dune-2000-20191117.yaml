@@ -1,0 +1,32 @@
+id: 12380
+game_id: 21890
+game_slug: openra-dune-2000
+name: OpenRA Dune 2000
+year: null
+user: rregeer
+runner: linux
+slug: openra-dune-2000-20191117
+version: '20191117'
+description: null
+notes: ''
+created_at: '2019-03-14T20:18:56.036000Z'
+updated_at: '2019-12-23T20:04:38.232686Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  require-binaries: mono
+  installer:
+  - chmodx: openra
+  - move:
+      src: openra
+      dst: $GAMEDIR
+  files:
+  - openra: https://github.com/OpenRA/OpenRA/releases/download/release-20191117/OpenRA-Dune-2000-x86_64.AppImage
+  game:
+    exe: OpenRA-Dune-2000-x86_64.AppImage

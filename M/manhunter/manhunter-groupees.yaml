@@ -1,0 +1,38 @@
+id: 5711
+game_id: 2326
+game_slug: manhunter
+name: Manhunter
+year: null
+user: FakeShemp
+runner: wine
+slug: manhunter-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-12T09:07:02.064000Z'
+updated_at: '2018-05-19T03:41:58.341701Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 302250
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      app: d3dx9
+      name: winetricks
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      args: /sp- /verysilent /norestart /suppressmsgboxes /nogui
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Manhunter/MH.exe
+    arch: win32

@@ -1,0 +1,16 @@
+name: Anodyne
+slug: anodyne
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/anodyne.jpg
+icon_url: /games/icon/anodyne.png
+is_public: true
+updated: '2019-01-23T08:28:22.495865Z'
+steamid: 234900
+gogslug: anodyne
+humblestoreid: ''

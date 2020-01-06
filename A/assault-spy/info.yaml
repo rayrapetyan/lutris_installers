@@ -1,0 +1,15 @@
+name: Assault Spy
+slug: assault-spy
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/assault-spy.jpg
+icon_url: /games/icon/assault-spy.png
+is_public: true
+updated: '2019-10-20T06:56:34.848625Z'
+steamid: 767930
+gogslug: assault_spy
+humblestoreid: ''

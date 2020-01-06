@@ -1,0 +1,24 @@
+id: 16310
+game_id: 28969
+game_slug: gibbous-a-cthulhu-adventure
+name: Gibbous - A Cthulhu Adventure
+year: 2019
+user: cxf
+runner: steam
+slug: gibbous-a-cthulhu-adventure-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-10-20T05:27:30.239211Z'
+updated_at: '2019-10-20T05:27:36.805517Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 914020
+gogid: 1376056537
+gogslug: gibbous_a_cthulhu_adventure
+humblestoreid: ''
+script:
+  game:
+    appid: 914020

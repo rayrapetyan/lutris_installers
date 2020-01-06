@@ -1,0 +1,33 @@
+id: 8254
+game_id: 18142
+game_slug: gauntlet-2014
+name: Gauntlet (2014)
+year: 2014
+user: nitzanel
+runner: winesteam
+slug: gauntlet-2014-slayer-edition
+version: Slayer Edition
+description: null
+notes: ''
+created_at: '2018-05-09T17:00:42.566000Z'
+updated_at: '2018-05-09T21:16:06.361561Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: allfonts
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 258970

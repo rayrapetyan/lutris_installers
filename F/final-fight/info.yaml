@@ -1,0 +1,17 @@
+name: Final Fight
+slug: final-fight
+year: 1991
+platforms:
+- name: Amiga
+- name: Arcade
+- name: Super Nintendo
+genres:
+- name: Beat'em up
+aliases: []
+banner_url: /games/banner/final-fight.jpg
+icon_url: /games/icon/final-fight.png
+is_public: true
+updated: '2019-01-23T08:29:31.017657Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,54 @@
+id: 7034
+game_id: 8090
+game_slug: world-of-tanks-blitz
+name: World of Tanks Blitz
+year: 2016
+user: cxf
+runner: winesteam
+slug: world-of-tanks-blitz-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-01-05T20:13:57.711000Z'
+updated_at: '2019-02-24T02:47:09.078038Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 444200
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2013 vcrun2017
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing .NET 4.7.2
+      app: dotnet472 win7
+      arch: win64
+      name: winetricks
+  winesteam:
+    version: esync-staging-pba-3.16-x86_64
+    WineDesktop: 1920x1080
+    esync: true
+    Desktop: true
+  system:
+    env:
+      __GL_THREADED_OPTIMIZATIONS: 1
+      mesa_glthread: 'true'
+      PBA_ENABLE: 1
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      __GL_SHADER_DISK_CACHE: 1
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 444200
+    arch: win64

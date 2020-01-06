@@ -1,0 +1,24 @@
+id: 1308
+game_id: 3870
+game_slug: silent-service-2
+name: Silent Service 2
+year: null
+user: Xodetaetl
+runner: steam
+slug: silent-service-2-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-02-25T18:32:32.370000Z'
+updated_at: '2015-02-25T20:44:05.213000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 329670
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 329670

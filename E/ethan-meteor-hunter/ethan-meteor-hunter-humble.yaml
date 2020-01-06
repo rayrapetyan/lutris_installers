@@ -1,0 +1,39 @@
+id: 4580
+game_id: 1963
+game_slug: ethan-meteor-hunter
+name: 'Ethan: Meteor Hunter'
+year: null
+user: FakeShemp
+runner: wine
+slug: ethan-meteor-hunter-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-24T19:59:23.625000Z'
+updated_at: '2018-05-19T03:41:53.282030Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 266330
+gogid: 1207659913
+gogslug: ethan_meteor_hunter
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - move:
+      src: $CACHE/Ethan Meteor Hunter
+      dst: $GAMEDIR/drive_c/Program Files/Ethan Meteor Hunter
+  - task:
+      prefix: $GAMEDIR
+      app: xact
+      name: winetricks
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Ethan Meteor Hunter/LaunchConfig.exe
+    arch: win32

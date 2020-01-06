@@ -1,0 +1,16 @@
+name: My Summer Car
+slug: my-summer-car
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Racing
+- name: Simulation
+aliases: []
+banner_url: /games/banner/my-summer-car.jpg
+icon_url: /games/icon/my-summer-car.png
+is_public: true
+updated: '2019-06-13T07:41:46.180681Z'
+steamid: 516750
+gogslug: ''
+humblestoreid: ''

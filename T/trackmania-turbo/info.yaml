@@ -1,0 +1,16 @@
+name: Trackmania Turbo
+slug: trackmania-turbo
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Arcade
+- name: Racing
+aliases: []
+banner_url: /games/banner/trackmania-turbo.jpg
+icon_url: /games/icon/trackmania-turbo.png
+is_public: true
+updated: '2019-08-27T06:08:19.898420Z'
+steamid: 375900
+gogslug: ''
+humblestoreid: ''

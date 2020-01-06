@@ -1,0 +1,51 @@
+id: 5449
+game_id: 4491
+game_slug: worlds-of-ultima-the-savage-empire
+name: 'Worlds of Ultima: The Savage Empire'
+year: 1990
+user: FakeShemp
+runner: dosbox
+slug: worlds-of-ultima-the-savage-e-gog
+version: GOG
+description: Uses the files from the Windows installer from GOG.
+notes: ''
+created_at: '2017-08-21T12:44:50.830837Z'
+updated_at: '2017-08-27T21:54:15.907504Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1207659061
+gogslug: worlds_of_ultima_the_savage_empire
+humblestoreid: ''
+script:
+  main_file: DOSBOX/dosboxSAVAGE_single.conf
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file2
+  - execute:
+      args: -d "$CACHE" "$file1"
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/app
+      dst: $GAMEDIR
+  - merge:
+      src: $GAMEDIR/dosboxSAVAGE_single.conf
+      dst: $GAMEDIR/DOSBOX
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/dosboxSAVAGE.conf
+  - write_config:
+      section: sdl
+      key: fullscreen
+      value: false
+      file: $GAMEDIR/dosboxSAVAGE.conf
+  files:
+  - file1: N/A:Please select the GOG installer
+  - file2: https://lutris.net/files/tools/innoextract.tar.gz
+  game:
+    config_file: $GAMEDIR/dosboxSAVAGE.conf

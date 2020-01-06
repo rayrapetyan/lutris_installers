@@ -1,0 +1,20 @@
+name: RollerCoaster Tycoon 2
+slug: rollercoaster-tycoon-2
+year: 2002
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Construction
+- name: Management
+- name: Simulation
+aliases:
+- slug: openrct2
+  name: OpenRCT2
+banner_url: /games/banner/rollercoaster-tycoon-2.jpg
+icon_url: /games/icon/rollercoaster-tycoon-2.png
+is_public: true
+updated: '2019-12-08T17:41:15.145759Z'
+steamid: 285330
+gogslug: rollercoaster_tycoon_2
+humblestoreid: ''

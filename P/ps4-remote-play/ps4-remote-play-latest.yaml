@@ -1,0 +1,51 @@
+id: 12321
+game_id: 26215
+game_slug: ps4-remote-play
+name: PS4 Remote Play
+year: null
+user: cxf
+runner: wine
+slug: ps4-remote-play-latest
+version: Latest
+description: null
+notes: "DOES NOT WORK\r\n\r\nDoesn't render correctly and you can't sign in.\r\n\r\
+  \nIf you want to use remote play on your PS4, you can give a try to this client\
+  \ -> https://github.com/thestr4ng3r/chiaki"
+created_at: '2019-03-10T02:03:18.552000Z'
+updated_at: '2019-12-22T11:18:31.133788Z'
+draft: false
+published: true
+published_by: 20548
+rating: '1'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .NET 4.7.2
+      app: vcrun2013 dotnet472 win10
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /extract
+      name: wineexec
+  - move:
+      src: $CACHE/setup/B3CD2F9
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Sony/PS4 Remote Play
+  - copy:
+      src: $GAMEDIR/drive_c/Program Files (x86)/Sony/PS4 Remote Play/scenp.dll
+      dst: $GAMEDIR/drive_c/windows/syswow64
+  - execute:
+      command: mkdir -p "$GAMEDIR/drive_c/users/$USER/Local Settings/Application Data/Temp"
+  files:
+  - setup: https://remoteplay.dl.playstation.net/remoteplay/module/win/RemotePlayInstaller.exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Sony/PS4 Remote Play/RemotePlay.exe

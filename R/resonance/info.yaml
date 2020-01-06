@@ -1,0 +1,17 @@
+name: Resonance
+slug: resonance
+year: 2012
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/resonance.jpg
+icon_url: /games/icon/resonance.png
+is_public: true
+updated: '2019-01-23T08:30:58.036855Z'
+steamid: 212050
+gogslug: resonance
+humblestoreid: ''

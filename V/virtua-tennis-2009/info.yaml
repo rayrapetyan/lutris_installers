@@ -1,0 +1,18 @@
+name: Virtua Tennis 2009
+slug: virtua-tennis-2009
+year: 2009
+platforms:
+- name: Nintendo Wii
+- name: Sony Playstation 3
+- name: Windows
+genres:
+- name: Arcade
+- name: Sports
+aliases: []
+banner_url: /games/banner/virtua-tennis-2009.jpg
+icon_url: /games/icon/virtua-tennis-2009.png
+is_public: true
+updated: '2019-10-24T23:58:24.892321Z'
+steamid: 10690
+gogslug: ''
+humblestoreid: ''

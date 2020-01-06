@@ -1,0 +1,33 @@
+id: 3982
+game_id: 218
+game_slug: beat-hazard
+name: Beat Hazard
+year: null
+user: FakeShemp
+runner: linux
+slug: beat-hazard-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-30T20:42:09.558076Z'
+updated_at: '2017-05-31T16:21:59.463806Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 49600
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: BeatHazard
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble installer

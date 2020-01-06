@@ -1,0 +1,62 @@
+id: 17399
+game_id: 17988
+game_slug: magic-the-gathering-arena
+name: 'Magic: The Gathering Arena'
+year: 2017
+user: stotes
+runner: wine
+slug: magic-the-gathering-arena-change-me-3
+version: Change Me
+description: "Updates existing install with MSP File\r\nCheck https://mtgarena.downloads.wizards.com/Live/Windows32/version\
+  \ first and check if the field \"CurrentPatchURL\" is set correctly. Otherwise you\
+  \ need to use the \"Automated Installer (Latest)\" Version I published before."
+notes: ''
+created_at: '2019-12-17T20:00:16.486419Z'
+updated_at: '2019-12-17T20:00:16.486458Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - write_file:
+      content: "#!/bin/bash \n OUTPUT=$1 \n VERSIONSITE=\"https://mtgarena.downloads.wizards.com/Live/Windows32/version\"\
+        \ \n VERSIONKEY=\"CurrentPatchURL\" \n MSIURL=$(curl $VERSIONSITE | grep $VERSIONKEY\
+        \ | sed -r 's/(\\s*\"[^\\\"]+\":\\s*\")([^\\\"]+)(\",?\\s*)/\\2/g') \n wget\
+        \ $MSIURL -O $OUTPUT \n"
+      file: $CACHE/download.sh
+  - chmodx: $CACHE/download.sh
+  - execute:
+      args: $CACHE/MTGAPatch.msp
+      description: Downloading Patch ...
+      file: $CACHE/download.sh
+  - task:
+      executable: msiexec
+      prefix: $GAMEDIR
+      description: Updating Magic the Gathering Arena ...
+      args: /p "$CACHE/MTGAPatch.msp"
+      exclude_processes: MTGALauncher.ex MTGALauncher.exe mscorsvw.exe rundll32.exe
+        rpcss.exe powershell.exe MTGA.exe UnityCrashHandler32.exe svchost.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Wizards of the Coast/MTGA/MTGA.exe
+    arch: win64
+  system:
+    pulse_latency: true
+  wine:
+    version: lutris-mtga-4.21-x86_64
+    esync: true
+    Desktop: true
+  files:
+  - setup: https://mtgarena.downloads.wizards.com/Live/Windows32/version

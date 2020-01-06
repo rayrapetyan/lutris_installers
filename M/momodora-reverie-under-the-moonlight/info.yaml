@@ -1,0 +1,16 @@
+name: 'Momodora: Reverie Under the Moonlight'
+slug: momodora-reverie-under-the-moonlight
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/momodora-reverie-under-the-moonlight.jpg
+icon_url: /games/icon/momodora-reverie-under-the-moonlight.png
+is_public: true
+updated: '2019-01-23T08:30:25.583226Z'
+steamid: 428550
+gogslug: momodora_reverie_under_the_moonlight
+humblestoreid: ''

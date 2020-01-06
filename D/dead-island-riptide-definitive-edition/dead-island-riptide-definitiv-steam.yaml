@@ -1,0 +1,24 @@
+id: 3422
+game_id: 6149
+game_slug: dead-island-riptide-definitive-edition
+name: Dead Island Riptide Definitive Edition
+year: null
+user: liberodark
+runner: steam
+slug: dead-island-riptide-definitiv-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-04-01T02:54:56.522376Z'
+updated_at: '2017-04-05T16:21:49.296068Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 383180
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 383180

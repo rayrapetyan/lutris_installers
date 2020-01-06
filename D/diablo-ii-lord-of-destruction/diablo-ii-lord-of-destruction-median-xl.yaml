@@ -1,0 +1,45 @@
+id: 11652
+game_id: 11301
+game_slug: diablo-ii-lord-of-destruction
+name: 'Diablo II: Lord of Destruction'
+year: 2001
+user: RobLoach
+runner: wine
+slug: diablo-ii-lord-of-destruction-median-xl
+version: median-xl
+description: Work-In-Progress Median XL Diablo II overhaul modification https://www.median-xl.com
+notes: Work-In-Progress
+created_at: '2019-01-19T16:27:58.328454Z'
+updated_at: '2019-01-19T16:39:17.661275Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      executable: patch114
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      executable: median
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - installer:
+      filename: d2.exe
+      url: https://www.battle.net/download/getLegacy?product=D2XP&locale=en-US&os=WIN
+  - patch114: http://ftp.blizzard.com/pub/diablo2exp/patches/PC/LODPatch_114d.exe
+  - median: https://get.median-xl.com
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Diablo II/Diablo II.exe
+    arch: win32

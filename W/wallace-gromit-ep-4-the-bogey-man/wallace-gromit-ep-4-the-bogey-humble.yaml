@@ -1,0 +1,37 @@
+id: 4667
+game_id: 342
+game_slug: wallace-gromit-ep-4-the-bogey-man
+name: 'Wallace & Gromit Ep 4: The Bogey Man'
+year: null
+user: FakeShemp
+runner: wine
+slug: wallace-gromit-ep-4-the-bogey-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-27T08:40:08.533814Z'
+updated_at: '2018-05-19T03:41:54.201953Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 31130
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/WG NoDRM/WallaceGromit104_200910201322_full_nodrm.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Telltale Games/Wallace and Gromits Grand Adventures/The
+      Bogey Man/WallaceGromit104.exe
+    arch: win32

@@ -1,0 +1,15 @@
+name: 'Stormworks: Build and Rescue'
+slug: stormworks-build-and-rescue
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Simulation
+aliases: []
+banner_url: /games/banner/stormworks-build-and-rescue.jpg
+icon_url: /games/icon/stormworks-build-and-rescue.png
+is_public: true
+updated: '2019-04-20T04:53:55.267579Z'
+steamid: 573090
+gogslug: ''
+humblestoreid: ''

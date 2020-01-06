@@ -1,0 +1,24 @@
+id: 16019
+game_id: 3224
+game_slug: grand-chase
+name: Grand Chase
+year: null
+user: azulers
+runner: wine
+slug: grand-chase-windows
+version: windows
+description: null
+notes: ''
+created_at: '2019-10-06T13:29:51.403113Z'
+updated_at: '2019-10-06T13:29:51.403147Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: 304270
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 304270

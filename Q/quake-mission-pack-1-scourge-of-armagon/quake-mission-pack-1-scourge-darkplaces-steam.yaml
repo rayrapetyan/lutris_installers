@@ -1,0 +1,33 @@
+id: 1774
+game_id: 119
+game_slug: quake-mission-pack-1-scourge-of-armagon
+name: 'Quake Mission Pack 1: Scourge of Armagon'
+year: 1997
+user: strider
+runner: linux
+slug: quake-mission-pack-1-scourge-darkplaces-steam
+version: Darkplaces + Steam
+description: ''
+notes: ''
+created_at: '2015-12-28T19:52:59.791563Z'
+updated_at: '2015-12-28T19:56:27.686254Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 9040
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: darkplaces-linux-686-glx
+  requires: quake-darkplaces-steam
+  installer:
+  - merge:
+      src: steam-data
+      dst: $GAMEDIR/hipnotic
+  game:
+    args: -game hipnotic -hipnotic
+  files:
+  - steam-data: $STEAM:9040:hipnotic
+  exe64: darkplaces-linux-x86_64-glx

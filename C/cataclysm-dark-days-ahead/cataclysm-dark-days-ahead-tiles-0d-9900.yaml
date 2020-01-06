@@ -1,0 +1,30 @@
+id: 9916
+game_id: 7845
+game_slug: cataclysm-dark-days-ahead
+name: 'Cataclysm: Dark Days Ahead'
+year: null
+user: basxto
+runner: linux
+slug: cataclysm-dark-days-ahead-tiles-0d-9900
+version: Tiles 0.D-9900
+description: null
+notes: ''
+created_at: '2018-08-28T04:16:38.461000Z'
+updated_at: '2019-11-16T08:38:23.905129Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: cataclysm-launcher
+  installer:
+  - extract:
+      src: game
+      format: tgz
+      dst: $GAMEDIR/
+  files:
+  - game: http://dev.narc.ro/cataclysm/jenkins-latest/Linux_x64/Tiles/cataclysmdda-0.D-Linux_x64-Tiles-9900.tar.gz

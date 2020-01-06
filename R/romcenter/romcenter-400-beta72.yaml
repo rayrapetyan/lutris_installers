@@ -1,0 +1,39 @@
+id: 2668
+game_id: 7299
+game_slug: romcenter
+name: RomCenter
+year: 1997
+user: RobLoach
+runner: wine
+slug: romcenter-400-beta72
+version: 4.0.0-beta7.2
+description: ''
+notes: Requires 7z extraction support (not yet implemented)
+created_at: '2016-09-01T22:33:25.276075Z'
+updated_at: '2016-09-09T20:02:07.972708Z'
+draft: false
+published: true
+published_by: null
+rating: '1'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - extract:
+      description: Extracting RomCenter
+      dst: $GAMEDIR/drive_c/Program Files/RomCenter
+      file: $download
+  - chmodx: $GAMEDIR/drive_c/Program Files/RomCenter/RomCenter.exe
+  files:
+  - download: http://www.romcenter.com/download/rc_4_0_0_beta7_2.7z
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/RomCenter/RomCenter.exe
+    working_dir: $GAMEDIR/drive_c/Program Files/RomCenter
+    arch: win32

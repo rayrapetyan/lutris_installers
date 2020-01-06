@@ -1,0 +1,32 @@
+id: 5121
+game_id: 4896
+game_slug: frankenstein-master-of-death
+name: 'Frankenstein: Master of Death'
+year: null
+user: FakeShemp
+runner: wine
+slug: frankenstein-master-of-death-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-20T18:17:14.339748Z'
+updated_at: '2018-05-19T03:41:56.969036Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 347430
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Frankenstein Master of Death
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Frankenstein Master of Death/Frankenstein_MasterOfDeath.exe
+    arch: win32

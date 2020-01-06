@@ -1,0 +1,24 @@
+id: 17556
+game_id: 2352
+game_slug: dark-soulstm-ii
+name: "DARK SOULS\u2122 II"
+year: null
+user: rafaelor20
+runner: steam
+slug: dark-soulstm-ii-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-12-24T21:43:35.640368Z'
+updated_at: '2019-12-24T21:43:35.640394Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 236430
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 236430

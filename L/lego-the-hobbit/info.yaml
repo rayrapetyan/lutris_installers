@@ -1,0 +1,19 @@
+name: LEGO - The Hobbit
+slug: lego-the-hobbit
+year: 2014
+platforms:
+- name: Nintendo 3DS
+- name: Nintendo Wii U
+- name: Sony Playstation 3
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/lego-the-hobbit.jpg
+icon_url: /games/icon/lego-the-hobbit.png
+is_public: true
+updated: '2019-05-19T06:35:09.448870Z'
+steamid: 285160
+gogslug: ''
+humblestoreid: ''

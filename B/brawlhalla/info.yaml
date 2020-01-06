@@ -1,0 +1,16 @@
+name: Brawlhalla
+slug: brawlhalla
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Fighting
+aliases: []
+banner_url: /games/banner/brawlhalla.jpg
+icon_url: /games/icon/brawlhalla.png
+is_public: true
+updated: '2019-01-23T08:28:41.466135Z'
+steamid: 291550
+gogslug: ''
+humblestoreid: ''

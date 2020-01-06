@@ -1,0 +1,32 @@
+id: 2939
+game_id: 2925
+game_slug: warcraft-iii-the-frozen-throne
+name: 'Warcraft III: The Frozen Throne'
+year: 2003
+user: strider
+runner: wine
+slug: warcraft-iii-the-frozen-thron-dota-v683d
+version: DOTA v6.83d
+description: ''
+notes: ''
+created_at: '2016-10-23T19:39:57.888941Z'
+updated_at: '2018-05-19T03:41:48.803370Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: dota
+      dst: $GAMEDIR/drive_c/Program Files/Warcraft III/Maps/FrozenThrone/
+  files:
+  - dota: http://media.playdota.com/maps/eng/DotA%20v6.83d.w3x
+  extends: warcraft-iii-the-frozen-throne
+  game:
+    prefix: $GAMEDIR
+    arch: win32

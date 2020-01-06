@@ -1,0 +1,24 @@
+id: 8139
+game_id: 1914
+game_slug: need-for-speed-shift
+name: 'Need for Speed: SHIFT'
+year: null
+user: soredake
+runner: winesteam
+slug: need-for-speed-shift-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T06:16:03.619670Z'
+updated_at: '2018-05-13T09:13:49.798565Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 24870
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 24870

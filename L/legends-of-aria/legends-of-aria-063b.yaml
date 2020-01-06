@@ -1,0 +1,49 @@
+id: 8070
+game_id: 18090
+game_slug: legends-of-aria
+name: Legends of Aria
+year: 2018
+user: the_mentor
+runner: wine
+slug: legends-of-aria-063b
+version: 0.6.3b
+description: null
+notes: ''
+created_at: '2018-05-06T14:56:55.011000Z'
+updated_at: '2018-07-21T10:37:15.321674Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 594770
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    arch: win32
+  script:
+    installer:
+    - executable: $installer
+      prefix: $GAMEDIR
+      task: null
+      arch: win64
+      name: wineexec
+    game:
+      prefix: $GAMEDIR
+      exe: drive_c/Program Files/Legends of Aria Beta/LegendsOfAria.exe
+      working_dir: $GAMEDIR
+      arch: win64
+    system:
+      env:
+        SOMEENV: true
+        WINEDLLOVERRIDES: d3d11=
+      terminal: true
+    wine:
+      WineDesktop: 1024x768
+      overrides:
+        ddraw.dll: n
+      Desktop: true
+    files:
+    - installer: http://cdn.legendsofaria.com/LegendsOfAria-07.1.exe

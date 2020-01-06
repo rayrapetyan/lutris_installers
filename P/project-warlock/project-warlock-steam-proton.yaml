@@ -1,0 +1,24 @@
+id: 14101
+game_id: 22209
+game_slug: project-warlock
+name: Project Warlock
+year: 2018
+user: jacksapper
+runner: steam
+slug: project-warlock-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-06-15T05:19:33.528000Z'
+updated_at: '2019-06-17T00:18:57.423105Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 893680
+gogid: 1459073823
+gogslug: project_warlock
+humblestoreid: ''
+script:
+  game:
+    appid: 893680

@@ -1,0 +1,16 @@
+name: The Blackwell Deception
+slug: the-blackwell-deception
+year: 2011
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/the-blackwell-deception.jpg
+icon_url: /games/icon/the-blackwell-deception.png
+is_public: true
+updated: '2019-01-23T08:31:38.982462Z'
+steamid: 80360
+gogslug: blackwell_bundle
+humblestoreid: ''

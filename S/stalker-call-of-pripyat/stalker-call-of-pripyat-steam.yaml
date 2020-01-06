@@ -1,0 +1,24 @@
+id: 3200
+game_id: 812
+game_slug: stalker-call-of-pripyat
+name: 'S.T.A.L.K.E.R.: Call of Pripyat'
+year: null
+user: bradgy
+runner: winesteam
+slug: stalker-call-of-pripyat-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-01-26T19:04:07.026000Z'
+updated_at: '2018-08-07T02:45:57.179521Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 41700
+gogid: 1207660583
+gogslug: stalker_call_of_pripyat
+humblestoreid: ''
+script:
+  game:
+    appid: 41700

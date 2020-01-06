@@ -1,0 +1,24 @@
+id: 9674
+game_id: 9062
+game_slug: the-lions-song
+name: The Lion's Song
+year: null
+user: soredake
+runner: winesteam
+slug: the-lions-song-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-10T13:59:58.764460Z'
+updated_at: '2018-08-11T06:40:46.597369Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 437160
+gogid: 1740490644
+gogslug: the_lions_song
+humblestoreid: ''
+script:
+  game:
+    appid: 437160

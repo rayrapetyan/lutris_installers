@@ -1,0 +1,87 @@
+id: 16412
+game_id: 17407
+game_slug: surviving-mars
+name: Surviving Mars
+year: 2018
+user: cxf
+runner: wine
+slug: surviving-mars-epic-games-store
+version: Epic Games Store
+description: null
+notes: ''
+created_at: '2019-10-26T01:03:17.509785Z'
+updated_at: '2019-10-26T01:03:28.178053Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 464920
+gogid: 2129244347
+gogslug: surviving_mars
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE/dxsetup
+      file: audio
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - extract:
+      dst: $CACHE/mfinstaller
+      file: mfinstaller
+  - execute:
+      env:
+        WINEPREFIX: $GAMEDIR
+      command: $CACHE/mfinstaller/install-mf.sh
+      terminal: true
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR
+      args: /silent
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  - task:
+      prefix: $GAMEDIR
+      description: Installing dependencies
+      app: arial dotnet48
+      arch: win64
+      name: winetricks
+  - copy:
+      src: epic
+      dst: $CACHE/epic/
+  - task:
+      executable: msiexec
+      prefix: $GAMEDIR
+      arch: win64
+      args: /i "$CACHE/epic/EpicGamesLauncherInstaller.msi" /q
+      exclude_processes: EpicGamesLauncher.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  game:
+    prefix: $GAMEDIR
+    args: -opengl
+    exe: drive_c/Program Files (x86)/Epic Games/Launcher/Portal/Binaries/Win32/EpicGamesLauncher.exe
+    arch: win64
+  system:
+    env:
+      MESA_GL_VERSION_OVERRIDE: 4.4COMPAT
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: compiler
+      __GL_SHADER_DISK_CACHE: 1
+  wine:
+    version: lutris-4.16-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - epic: https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi
+  - audio: https://lutris.net/files/tools/directx-2010.tar.gz
+  - mfinstaller: https://github.com/z0z0z/mf-install/archive/master.zip

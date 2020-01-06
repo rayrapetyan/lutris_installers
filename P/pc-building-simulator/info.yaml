@@ -1,0 +1,16 @@
+name: PC Building Simulator
+slug: pc-building-simulator
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Educational
+- name: Simulation
+aliases: []
+banner_url: /games/banner/pc-building-simulator.jpg
+icon_url: /games/icon/pc-building-simulator.png
+is_public: true
+updated: '2019-01-23T08:30:42.884120Z'
+steamid: 621060
+gogslug: ''
+humblestoreid: ''

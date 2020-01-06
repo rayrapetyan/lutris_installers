@@ -1,0 +1,16 @@
+name: The Bard's Tale
+slug: the-bards-tale
+year: 2004
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/the-bards-tale.jpg
+icon_url: /games/icon/the-bards-tale.png
+is_public: true
+updated: '2019-01-23T08:31:38.652039Z'
+steamid: 41900
+gogslug: the_bards_tale
+humblestoreid: ''

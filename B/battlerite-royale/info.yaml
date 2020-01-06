@@ -1,0 +1,17 @@
+name: Battlerite Royale
+slug: battlerite-royale
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Moba
+- name: Party
+aliases: []
+banner_url: /games/banner/battlerite-royale.jpg
+icon_url: /games/icon/battlerite-royale.png
+is_public: true
+updated: '2019-01-23T08:28:33.393399Z'
+steamid: 879160
+gogslug: ''
+humblestoreid: ''

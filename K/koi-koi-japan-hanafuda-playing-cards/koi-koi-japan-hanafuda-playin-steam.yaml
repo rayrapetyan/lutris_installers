@@ -1,0 +1,24 @@
+id: 6896
+game_id: 6738
+game_slug: koi-koi-japan-hanafuda-playing-cards
+name: Koi-Koi Japan [Hanafuda playing cards]
+year: 2015
+user: maxlefou
+runner: winesteam
+slug: koi-koi-japan-hanafuda-playin-steam
+version: Steam
+description: null
+notes: Works nice but expect some lag and occasionnal graphical glitches
+created_at: '2017-12-29T17:09:36.449000Z'
+updated_at: '2017-12-30T18:44:12.928893Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 364930
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 364930

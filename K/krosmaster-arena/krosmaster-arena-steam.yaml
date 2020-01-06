@@ -1,0 +1,24 @@
+id: 1702
+game_id: 4277
+game_slug: krosmaster-arena
+name: Krosmaster Arena
+year: 2015
+user: RobLoach
+runner: steam
+slug: krosmaster-arena-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-11-10T19:15:57.374548Z'
+updated_at: '2015-11-26T16:24:47.030400Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 329790
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 329790

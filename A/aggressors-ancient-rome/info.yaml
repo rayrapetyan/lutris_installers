@@ -1,0 +1,17 @@
+name: 'Aggressors: Ancient Rome'
+slug: aggressors-ancient-rome
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Historical
+- name: Strategy
+- name: Turn-based
+aliases: []
+banner_url: /games/banner/aggressors-ancient-rome.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:15.912921Z'
+steamid: 783210
+gogslug: aggressors_ancient_rome
+humblestoreid: ''

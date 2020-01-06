@@ -1,0 +1,44 @@
+id: 8401
+game_id: 17875
+game_slug: sonicomi
+name: Sonicomi
+year: null
+user: diamondburned
+runner: winesteam
+slug: sonicomi-steam
+version: Steam
+description: null
+notes: Game runs smoothly. However, only Low works at the moment. Medium or High gives
+  a black screen.
+created_at: '2018-05-24T04:16:24.016000Z'
+updated_at: '2018-05-26T07:54:03.332640Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 444140
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-2.21-i386
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: directx9
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: winxp
+      arch: win32
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 444140
+    arch: win32

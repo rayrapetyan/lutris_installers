@@ -1,0 +1,51 @@
+id: 5372
+game_id: 7317
+game_slug: phantasmagoria
+name: Phantasmagoria
+year: 1995
+user: FakeShemp
+runner: dosbox
+slug: phantasmagoria-gog
+version: GOG
+description: Uses the files from the Windows installer from GOG.
+notes: ''
+created_at: '2017-08-13T11:35:17.720049Z'
+updated_at: '2017-08-27T22:28:27.073843Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 501990
+gogid: 1207658834
+gogslug: phantasmagoria
+humblestoreid: ''
+script:
+  main_file: DOSBOX/dosboxPHANT_single.conf
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file2
+  - execute:
+      args: -d "$CACHE" "$file1"
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/app
+      dst: $GAMEDIR
+  - merge:
+      src: $GAMEDIR/dosboxPHANT_single.conf
+      dst: $GAMEDIR/DOSBOX
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/dosboxPHANT.conf
+  - write_config:
+      section: sdl
+      key: fullscreen
+      value: false
+      file: $GAMEDIR/dosboxPHANT.conf
+  files:
+  - file1: N/A:Please select the GOG installer
+  - file2: https://lutris.net/files/tools/innoextract.tar.gz
+  game:
+    config_file: $GAMEDIR/dosboxPHANT.conf

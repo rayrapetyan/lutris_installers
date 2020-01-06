@@ -1,0 +1,16 @@
+name: "LEGO\xAE City Undercover"
+slug: lego-city-undercover
+year: 2013
+platforms:
+- name: Nintendo Wii U
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/lego-city-undercover.jpg
+icon_url: /games/icon/lego-city-undercover.png
+is_public: true
+updated: '2019-05-27T19:15:57.049340Z'
+steamid: 578330
+gogslug: ''
+humblestoreid: ''

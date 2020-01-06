@@ -1,0 +1,15 @@
+name: 'Game & Watch: Mickey & Donald'
+slug: game-watch-mickey-donald
+year: 1982
+platforms:
+- name: Arcade
+genres:
+- name: Arcade
+aliases: []
+banner_url: /games/banner/game-watch-mickey-donald.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:37.844337Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

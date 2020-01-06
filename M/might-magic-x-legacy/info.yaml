@@ -1,0 +1,15 @@
+name: 'Might & Magic X: Legacy'
+slug: might-magic-x-legacy
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/might-magic-x-legacy.jpg
+icon_url: /games/icon/might-magic-x-legacy.png
+is_public: true
+updated: '2019-01-23T08:30:23.355083Z'
+steamid: 238750
+gogslug: ''
+humblestoreid: ''

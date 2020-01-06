@@ -1,0 +1,17 @@
+name: Friking Shark
+slug: friking-shark
+year: null
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Action
+- name: Shoot'em up
+aliases: []
+banner_url: null
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:35.476914Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

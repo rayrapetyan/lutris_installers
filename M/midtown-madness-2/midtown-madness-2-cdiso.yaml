@@ -1,0 +1,96 @@
+id: 11129
+game_id: 23727
+game_slug: midtown-madness-2
+name: Midtown Madness 2
+year: 2000
+user: Clifforus
+runner: wine
+slug: midtown-madness-2-cdiso
+version: CD/ISO
+description: "Installs Midtown Madness 2 and uses dgvoodoo Graphics Api Wrapper by\
+  \ Dege, (c) 2013-2019\r\nOfficial website <a href=\"http://dege.fw.hu/\">http://dege.fw.hu/</a>"
+notes: "dgVoodoo2 is DirectX 11 wrapper for older graphics APIs, so naturally,  you\
+  \ need to have a system that is capable of running DXVK.\r\n\r\nThe executable is\
+  \ case sensitive. If your No-CD exe file begins with a lowercase m (midtown2.exe),\
+  \ then please rename it to have a capital M (Midtown2.exe), or the installer will\
+  \ fail at the final step.\r\n\r\nWhen installing Midtown Madness 2, do not set up\
+  \ a custom install path. Using anything other than the default path will not work.\r\
+  \n\r\nWhen the Midtown Madness 2 installer has finished, do not click \"Play Now\"\
+  . The game will work, but will perform poorly and Lutris will think the game is\
+  \ still installing. Close the window and allow the Lutris installer to continue.\r\
+  \n\r\nOnce the Lutris installer is finished, you are advised to manually configure\
+  \ dgVoodoo2 to use your desired video settings. To do this, right click on Midtown\
+  \ Madness 2 in your Lutris library, and click on \"Run EXE inside wine prefix\"\
+  . Navigate to \"drive_c/Program Files/Microsoft Games/Midtown Madness 2/\" within\
+  \ the prefix and open \"dgVoodooCtl.exe\".\r\n\r\nIf you configure dgVoodoo2 to\
+  \ force the resolution, then you must choose a resolution with the same aspect ratio\
+  \ in the video settings within Midtown Madness 2, or the game will appear stretched.\r\
+  \n\r\nIf you want to install mods then be aware that while they do work, some custom\
+  \ maps can cause extreme stuttering in certain areas and may lead to GPU hangs in\
+  \ rare cases. I am investigating the cause of this."
+created_at: '2018-12-10T10:49:07.157000Z'
+updated_at: '2019-10-28T21:15:28.492785Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Microsoft Games/Midtown Madness 2/Midtown2.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix...
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing DirectMusic...
+      app: directmusic
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Indeo codec...
+      app: icodecs
+      arch: win32
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Installing Midtown Madness 2...
+      name: wineexec
+  - merge:
+      src: nocd
+      description: Installing No-CD executable...
+      dst: $GAMEDIR/drive_c/Program Files/Microsoft Games/Midtown Madness 2/
+  - extract:
+      description: Extracting dgVoodoo2 archive...
+      dst: $GAMEDIR/drive_c/dgvoodoo/
+      file: dgvoodoo
+  - move:
+      src: $GAMEDIR/drive_c/dgvoodoo/dgVoodooCpl.exe
+      description: Installing dgVoodoo2 (1/3)...
+      dst: $GAMEDIR/drive_c/Program Files/Microsoft Games/Midtown Madness 2/
+  - move:
+      src: $GAMEDIR/drive_c/dgvoodoo/dgVoodoo.conf
+      description: Installing dgVoodoo2 (2/3)...
+      dst: $GAMEDIR/drive_c/Program Files/Microsoft Games/Midtown Madness 2/
+  - merge:
+      src: $GAMEDIR/drive_c/dgvoodoo/MS/
+      description: Installing dgVoodoo (3/3)...
+      dst: $GAMEDIR/drive_c/Program Files/Microsoft Games/Midtown Madness 2/
+  wine:
+    overrides:
+      ddraw: native
+    dxvk: true
+  files:
+  - setup: N/A:Please select the Midtown Madness 2 setup executable (setup.exe)
+  - nocd: 'N/A:Please select the No-CD executable for Midtown Madness 2 (Midtown2.exe)
+      NOTE: Case sensitive'
+  - dgvoodoo: http://www.dege.freeweb.hu/dgVoodoo2/dgVoodoo2_55_4.zip

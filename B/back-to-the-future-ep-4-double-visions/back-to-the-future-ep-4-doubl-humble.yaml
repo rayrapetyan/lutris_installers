@@ -1,0 +1,37 @@
+id: 4497
+game_id: 177
+game_slug: back-to-the-future-ep-4-double-visions
+name: 'Back to the Future: Ep 4 - Double Visions'
+year: 2011
+user: FakeShemp
+runner: wine
+slug: back-to-the-future-ep-4-doubl-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-19T12:40:21.557774Z'
+updated_at: '2018-05-19T03:41:48.790186Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 94520
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/BackToTheFuture104_full_nodrm.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Telltale Games/Back to the Future The Game/Episode
+      4/BackToTheFuture104.exe
+    arch: win32

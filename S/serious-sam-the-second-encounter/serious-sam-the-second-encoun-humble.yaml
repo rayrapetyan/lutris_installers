@@ -1,0 +1,67 @@
+id: 4695
+game_id: 250
+game_slug: serious-sam-the-second-encounter
+name: 'Serious Sam: The Second Encounter'
+year: 2002
+user: FakeShemp
+runner: linux
+slug: serious-sam-the-second-encoun-humble
+version: Humble
+description: Dynamically linked native version using assets from the Humble Bundle
+  "Serious Sam Classic" Windows version.
+notes: ''
+created_at: '2017-06-27T20:11:53.620000Z'
+updated_at: '2018-05-19T03:41:54.585269Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 41060
+gogid: 1207658877
+gogslug: serious_sam_the_second_encounter
+humblestoreid: serious-sam-hd-the-second-encounter
+script:
+  exe: ssamtse
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/Setup.exe
+      prefix: $CACHE
+      args: /S
+      arch: win32
+      name: wine.wineexec
+  - merge:
+      src: $CACHE/drive_c/Program Files/Serious Sam Classic - The Second Encounter
+      dst: $GAMEDIR
+  - execute:
+      args: --tar -xf -C $CACHE
+      file: $file2
+  - extract:
+      nomerge: true
+      dst: $GAMEDIR
+      file: $CACHE/bins.tar.bz2
+  - extract:
+      dst: $CACHE
+      file: $CACHE/bins.tar.bz2
+  - merge:
+      src: $CACHE/Data
+      dst: $GAMEDIR/Data
+  - merge:
+      src: $CACHE/Levels
+      dst: $GAMEDIR/Levels
+  - extract:
+      dst: $GAMEDIR
+      file: $file3
+  - chmodx: $GAMEDIR/ssamtse
+  - move:
+      src: $CACHE/libEntitiesMP.so
+      dst: $GAMEDIR/Bin/libEntities.so
+  - merge:
+      src: $CACHE/libGameMP.so
+      dst: $GAMEDIR/Bin/libGame.so
+  files:
+  - file1: N/A:Please select the Humble archive
+  - file2: N/A:Please select the Linux installer downloaded from www.liflg.org/?catid=6&gameid=71
+  - file3: https://gist.github.com/FakeShemp/9498f37525d2e6edd8d1e64899223f8e/archive/d6162529586a40ae381c5c24d1ec3a4c11fc9c37.zip

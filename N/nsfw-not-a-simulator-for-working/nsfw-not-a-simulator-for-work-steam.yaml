@@ -1,0 +1,24 @@
+id: 7575
+game_id: 8542
+game_slug: nsfw-not-a-simulator-for-working
+name: NSFW ~ Not a Simulator For Working
+year: null
+user: t-rex91
+runner: steam
+slug: nsfw-not-a-simulator-for-work-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-16T17:34:32.922000Z'
+updated_at: '2018-03-20T04:41:41.646454Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 545030
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 545030

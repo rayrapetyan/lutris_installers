@@ -1,0 +1,24 @@
+id: 192
+game_id: 277
+game_slug: oil-rush
+name: Oil Rush
+year: null
+user: strider
+runner: steam
+slug: oil-rush-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-19T23:56:17.548000Z'
+updated_at: '2013-12-19T23:56:17.548000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 200390
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 200390

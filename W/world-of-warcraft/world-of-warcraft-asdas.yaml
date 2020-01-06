@@ -1,0 +1,161 @@
+id: 17195
+game_id: 2033
+game_slug: world-of-warcraft
+name: World of Warcraft
+year: 2004
+user: mrredblade
+runner: linux
+slug: world-of-warcraft-asdas
+version: asdas
+description: aada
+notes: ''
+created_at: '2019-12-06T06:44:39.938495Z'
+updated_at: '2019-12-06T06:44:39.938519Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  count: 1
+  next: null
+  previous: null
+  results:
+  - published_by: 42279
+    description: null
+    draft: false
+    steamid: null
+    created_at: '2018-06-02T16:31:22.806000Z'
+    rating: '5'
+    content: "files:\n- setup:\n    filename: Battle.net-Setup.exe\n    url: https://www.battle.net/download/getInstallerForGame?os=win&locale=enUS&version=LIVE&gameProgram=BATTLENET_APP\n\
+      game:\n  arch: win64\n  exe: drive_c/Program Files (x86)/Battle.net/Battle.net.exe\n\
+      \  prefix: $GAMEDIR\ninstaller:\n- task:\n    arch: win64\n    description:\
+      \ Creating 64bit Wine prefix.\n    name: create_prefix\n    prefix: $GAMEDIR\n\
+      - task:\n    app: arial\n    arch: win64\n    description: Installing Arial\
+      \ font\n    name: winetricks\n    prefix: $GAMEDIR\n- task:\n    arch: win64\n\
+      \    description: Setting Windows 10 mode for Wine\n    key: Version\n    name:\
+      \ set_regedit\n    path: HKEY_CURRENT_USER\\Software\\Wine\n    prefix: $GAMEDIR\n\
+      \    value: win10\n- task:\n    arch: win64\n    description: 'Wine Staging:\
+      \ Enabling DXVA2'\n    key: backend\n    name: set_regedit\n    path: HKEY_CURRENT_USER\\\
+      Software\\Wine\\DXVA2\n    prefix: $GAMEDIR\n    value: va\n- task:\n    name:\
+      \ winekill\n    prefix: $GAMEDIR\n- write_json:\n    data:\n      Client:\n\
+      \        GameLaunchWindowBehavior: '2'\n        HardwareAcceleration: 'false'\n\
+      \        Sound:\n          Enabled: 'false'\n    description: Disabling Sound/Hardware\
+      \ Acceleration/Streaming in Blizzard App\n    file: $GAMEDIR/drive_c/users/$USER/Application\
+      \ Data/Battle.net/Battle.net.config\n- task:\n    arch: win64\n    description:\
+      \ 'Installing Blizzard App\n\n      ------------------------------\n\n     \
+      \ Do not try to log into Battle.net. Lutris will automatically close the login\n\
+      \      window. After Lutris installer is finished, you can start Blizzard App\
+      \ with\n      \"Launch the game\", and install / locate your Blizzard game.'\n\
+      \    exclude_processes: Battle.net.exe Agent.exe \"Battle.net Helper.exe\"\n\
+      \    executable: setup\n    name: wineexec\n- task:\n    name: winekill\n  \
+      \  prefix: $GAMEDIR\nsystem:\n  env:\n    DXVK_HUD: compiler\n    DXVK_STATE_CACHE_PATH:\
+      \ $GAMEDIR\n    STAGING_SHARED_MEMORY: 1\n    __GL_SHADER_DISK_CACHE: 1\n  \
+      \  __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR\n  exclude_processes: Agent.exe \"\
+      Battle.net Helper.exe\"\nwine:\n  dxvk: true\n  esync: true\n  overrides:\n\
+      \    api-ms-win-crt-private-l1-1-0: n,b\n    d3d12: disabled\n    nvapi: disabled\n\
+      \    nvapi64: disabled\n    ucrtbase: n,b\n  version: lutris-4.16-x86_64\n"
+    year: 2004
+    slug: world-of-warcraft-battlenet
+    gogid: null
+    runner: wine
+    script:
+      installer:
+      - task:
+          prefix: $GAMEDIR
+          description: Creating 64bit Wine prefix.
+          arch: win64
+          name: create_prefix
+      - task:
+          prefix: $GAMEDIR
+          description: Installing Arial font
+          app: arial
+          arch: win64
+          name: winetricks
+      - task:
+          prefix: $GAMEDIR
+          description: Setting Windows 10 mode for Wine
+          arch: win64
+          key: Version
+          value: win10
+          path: HKEY_CURRENT_USER\Software\Wine
+          name: set_regedit
+      - task:
+          prefix: $GAMEDIR
+          description: 'Wine Staging: Enabling DXVA2'
+          arch: win64
+          key: backend
+          value: va
+          path: HKEY_CURRENT_USER\Software\Wine\DXVA2
+          name: set_regedit
+      - task:
+          prefix: $GAMEDIR
+          name: winekill
+      - write_json:
+          description: Disabling Sound/Hardware Acceleration/Streaming in Blizzard
+            App
+          data:
+            Client:
+              HardwareAcceleration: 'false'
+              GameLaunchWindowBehavior: '2'
+              Sound:
+                Enabled: 'false'
+          file: $GAMEDIR/drive_c/users/$USER/Application Data/Battle.net/Battle.net.config
+      - task:
+          executable: setup
+          description: 'Installing Blizzard App
+
+            ------------------------------
+
+            Do not try to log into Battle.net. Lutris will automatically close the
+            login window. After Lutris installer is finished, you can start Blizzard
+            App with "Launch the game", and install / locate your Blizzard game.'
+          exclude_processes: Battle.net.exe Agent.exe "Battle.net Helper.exe"
+          arch: win64
+          name: wineexec
+      - task:
+          prefix: $GAMEDIR
+          name: winekill
+      game:
+        prefix: $GAMEDIR
+        exe: drive_c/Program Files (x86)/Battle.net/Battle.net.exe
+        arch: win64
+      system:
+        env:
+          __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+          STAGING_SHARED_MEMORY: 1
+          DXVK_HUD: compiler
+          __GL_SHADER_DISK_CACHE: 1
+          DXVK_STATE_CACHE_PATH: $GAMEDIR
+        exclude_processes: Agent.exe "Battle.net Helper.exe"
+      wine:
+        version: lutris-4.16-x86_64
+        esync: true
+        dxvk: true
+        overrides:
+          ucrtbase: n,b
+          nvapi64: disabled
+          nvapi: disabled
+          d3d12: disabled
+          api-ms-win-crt-private-l1-1-0: n,b
+      files:
+      - setup:
+          filename: Battle.net-Setup_.exe
+          url: https://battle.net/download/getInstaller?os=win&installer=Battle.net-Setup.exe
+    user: Dox
+    humblestoreid: ''
+    id: 8505
+    notes: "**IMPORTANT: INSTALL THE DEPENDENCIES FIRST**\r\nRead: <a href=\"https://github.com/lutris/lutris/wiki/Game:-World-of-Warcraft\"\
+      >Game: World-of-Warcraft</a> before trying to install World of Warcraft. And\
+      \ install the needed dependencies for Wine into your system. Also, make sure\
+      \ you have Vulkan set up correctly."
+    game_id: 2033
+    gogslug: ''
+    version: Battle.net
+    game_slug: world-of-warcraft
+    published: true
+    updated_at: '2019-10-18T20:58:13.338021Z'
+    name: World of Warcraft

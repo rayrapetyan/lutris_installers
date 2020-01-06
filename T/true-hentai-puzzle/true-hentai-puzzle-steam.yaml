@@ -1,0 +1,24 @@
+id: 11175
+game_id: 23779
+game_slug: true-hentai-puzzle
+name: True Hentai Puzzle
+year: null
+user: strider
+runner: steam
+slug: true-hentai-puzzle-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-12-12T07:15:55.313654Z'
+updated_at: '2018-12-12T07:15:55.313687Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 780020
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: '780020'

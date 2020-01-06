@@ -1,0 +1,24 @@
+id: 1400
+game_id: 4020
+game_slug: invisible-apartment
+name: Invisible Apartment
+year: 2015
+user: Xodetaetl
+runner: steam
+slug: invisible-apartment-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-03-11T11:36:24.540000Z'
+updated_at: '2015-03-11T11:37:39.757000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 351790
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 351790

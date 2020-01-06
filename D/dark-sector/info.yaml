@@ -1,0 +1,16 @@
+name: Dark Sector
+slug: dark-sector
+year: 2008
+platforms:
+- name: Sony Playstation 3
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/dark-sector.jpg
+icon_url: /games/icon/dark-sector.png
+is_public: true
+updated: '2019-01-23T08:29:04.689938Z'
+steamid: 29900
+gogslug: ''
+humblestoreid: ''

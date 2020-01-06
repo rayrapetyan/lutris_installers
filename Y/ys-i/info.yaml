@@ -1,0 +1,15 @@
+name: Ys I
+slug: ys-i
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: jRPG
+aliases: []
+banner_url: /games/banner/ys-i.jpg
+icon_url: /games/icon/ys-i.png
+is_public: true
+updated: '2019-01-23T08:32:13.645305Z'
+steamid: 223810
+gogslug: ys_i_ii_chronicles
+humblestoreid: ''

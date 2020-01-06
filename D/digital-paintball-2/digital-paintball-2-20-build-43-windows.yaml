@@ -1,0 +1,33 @@
+id: 9478
+game_id: 20521
+game_slug: digital-paintball-2
+name: Digital Paintball 2
+year: 1998
+user: Medath
+runner: wine
+slug: digital-paintball-2-20-build-43-windows
+version: 2.0 (build 43) Windows
+description: Sets up the Windows version of the game with wine
+notes: ''
+created_at: '2018-07-30T16:35:53.503000Z'
+updated_at: '2019-12-25T10:30:42.875868Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /S
+      name: wineexec
+  files:
+  - setup: https://downloads.sourceforge.net/paintball2/paintball2_build043_full.exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Games/Paintball2/paintball2.exe

@@ -1,0 +1,16 @@
+name: Darwin Project
+slug: darwin-project
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Arcade
+aliases: []
+banner_url: /games/banner/darwin-project.jpg
+icon_url: /games/icon/darwin-project.png
+is_public: true
+updated: '2019-01-23T08:29:05.223063Z'
+steamid: 544920
+gogslug: ''
+humblestoreid: ''

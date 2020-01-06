@@ -1,0 +1,30 @@
+id: 2027
+game_id: 4613
+game_slug: quintet
+name: Quintet
+year: 2013
+user: Lucki
+runner: linux
+slug: quintet-standalone
+version: Standalone
+description: ''
+notes: ''
+created_at: '2016-03-19T20:18:13.433902Z'
+updated_at: '2016-03-24T14:36:58.405408Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 340350
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: $Game
+  - chmodx: $GAMEDIR/linux/Quintet.x86
+  files:
+  - Game: http://quintet.us/files/quintet-linux.zip
+  game:
+    exe: $GAMEDIR/linux/Quintet.x86

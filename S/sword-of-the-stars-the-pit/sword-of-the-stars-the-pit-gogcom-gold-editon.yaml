@@ -1,0 +1,77 @@
+id: 2693
+game_id: 732
+game_slug: sword-of-the-stars-the-pit
+name: 'Sword of the Stars: The Pit'
+year: null
+user: ssf
+runner: wine
+slug: sword-of-the-stars-the-pit-gogcom-gold-editon
+version: GOG.com - Gold Editon
+description: ''
+notes: ''
+created_at: '2016-09-07T16:29:35.760885Z'
+updated_at: '2016-09-26T17:18:06.829320Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 233700
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  gogid: sword_of_the_stars_the_pit_gold_edition
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      type: REG_SZ
+      value: ''
+      key: winemenubuilder.exe
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+  - task:
+      prefix: $GAMEDIR
+      description: Installing...
+      app: corefonts
+      silent: true
+      name: winetricks
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /SP- /NOCANCEL /SUPPRESSMSGBOXES '/DIR=C:/game'
+      description: Installing...
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .net
+      app: dotnet40
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing xna
+      app: xna40
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing...
+      app: xinput
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Disabling unused WINE features
+      app: sandbox
+      silent: true
+      name: winetricks
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/game/ThePit.exe
+    arch: win32

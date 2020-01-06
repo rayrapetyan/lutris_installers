@@ -1,0 +1,44 @@
+id: 1994
+game_id: 5613
+game_slug: godot-engine
+name: Godot Engine
+year: 2014
+user: Akien
+runner: linux
+slug: godot-engine-214
+version: 2.1.4
+description: 64-bit self-contained binary with demos and export templates.
+notes: ''
+created_at: '2016-02-28T13:43:20.563000Z'
+updated_at: '2017-12-10T00:36:03.081761Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 404790
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: file_engine
+  - chmodx: Godot_v2.1.4-stable_x11.64
+  - move:
+      src: file_sc_config
+      dst: $GAMEDIR
+  - extract:
+      dst: $GAMEDIR/demos
+      file: file_demos
+  - extract:
+      format: zip
+      dst: $GAMEDIR/editor_data/templates
+      file: file_templates
+  files:
+  - file_engine: http://download.tuxfamily.org/godotengine/2.1.4/Godot_v2.1.4-stable_x11.64.zip
+  - file_sc_config: http://downloads.tuxfamily.org/godotengine/._sc_
+  - file_demos: http://download.tuxfamily.org/godotengine/demos/2.1/Godot-Demos-2.1.4-stable.zip
+  - file_templates: http://download.tuxfamily.org/godotengine/2.1.4/Godot_v2.1.4-stable_export_templates.tpz
+  game:
+    exe: Godot_v2.1.4-stable_x11.64

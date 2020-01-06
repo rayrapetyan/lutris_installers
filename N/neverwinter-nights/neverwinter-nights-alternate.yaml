@@ -1,0 +1,117 @@
+id: 6235
+game_id: 4386
+game_slug: neverwinter-nights
+name: Neverwinter Nights
+year: 2002
+user: strider
+runner: linux
+slug: neverwinter-nights-alternate
+version: Alternate
+description: Alternative installer if the other one doesn't work.
+notes: "If the game crashes on Intel GPUs, remove libtxc-dxtn-s2tc0:i386\r\nMovies\
+  \ are currently not working, but it should be possible to make work.\r\n\r\nRequires\
+  \ unrar to install!"
+created_at: '2017-11-04T22:59:38.582000Z'
+updated_at: '2019-04-05T06:12:55.783524Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: 1207658890
+gogslug: neverwinter_nights_diamond_edition
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE/tmp/innoextract
+      file: innoextract
+  - execute:
+      args: --extract $nwinstaller --output-dir $CACHE/tmp/nwn/ --gog
+      file: $CACHE/tmp/innoextract/innoextract
+  - move:
+      src: $CACHE/tmp/nwn/game/ambient
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/nwn/game/data
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/nwn/game/dmvault
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/nwn/game/erf
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/nwn/game/hak
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/nwn/game/localvault
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/nwn/game/modules
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/nwn/game/movies
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/nwn/game/music
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/nwn/game/nwm
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/nwn/game/override
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/nwn/game/texturepacks
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/nwn/game/chitin.key
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/nwn/game/dialog.tlk
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/nwn/game/xp1.key
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/nwn/game/xp2.key
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/nwn/game/xp2patch.key
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/nwn/game/xp3.key
+      dst: $GAMEDIR
+  - extract:
+      dst: $GAMEDIR
+      file: nwclientgold
+  - extract:
+      dst: $GAMEDIR
+      file: nwclient161
+  - execute:
+      args: u+w -R $GAMEDIR
+      file: /bin/chmod
+  - extract:
+      dst: $GAMEDIR
+      file: nwclient169
+  - extract:
+      dst: $GAMEDIR
+      file: nwlauncher
+  - execute:
+      file: $GAMEDIR/nwn.sh
+  - move:
+      src: $GAMEDIR/nwncdkey.ini
+      dst: $GAMEDIR/nwncdkey.ini.bak
+  - move:
+      src: $CACHE/tmp/nwn/support/app/nwncdkey.ini
+      dst: $GAMEDIR
+  files:
+  - nwinstaller: N/A:Select location of GOG's executable (should be setup_nwn_diamond_2.1.x.x.exe)
+  - innoextract: https://lutris.net/files/tools/innoextract.tar.gz
+  - nwclientgold: https://lutris.net/files/games/neverwinter-nights/nwclientgold.tar.gz
+  - nwclient161: https://lutris.net/files/games/neverwinter-nights/nwclienthotu.tar.gz
+  - nwclient169: https://lutris.net/files/games/neverwinter-nights/English_linuxclient169_xp2.tar.gz
+  - nwlauncher: https://lutris.net/files/games/neverwinter-nights/nwnlauncher.tar.gz
+  game:
+    exe: nwn.sh

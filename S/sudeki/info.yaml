@@ -1,0 +1,17 @@
+name: Sudeki
+slug: sudeki
+year: 2005
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/sudeki.jpg
+icon_url: /games/icon/sudeki.png
+is_public: true
+updated: '2019-01-23T08:31:28.949581Z'
+steamid: 233350
+gogslug: sudeki
+humblestoreid: ''

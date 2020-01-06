@@ -1,0 +1,19 @@
+name: 'Call of Duty: Modern Warfare 3'
+slug: call-of-duty-modern-warfare-3
+year: 2011
+platforms:
+- name: Nintendo Wii
+- name: Sony Playstation 3
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+- name: Shooter
+aliases: []
+banner_url: /games/banner/call-of-duty-modern-warfare-3.jpg
+icon_url: /games/icon/call-of-duty-modern-warfare-3.png
+is_public: true
+updated: '2019-01-23T08:28:44.744666Z'
+steamid: 42680
+gogslug: ''
+humblestoreid: ''

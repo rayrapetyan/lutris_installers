@@ -1,0 +1,33 @@
+id: 5655
+game_id: 1127
+game_slug: clones
+name: Clones
+year: null
+user: FakeShemp
+runner: wine
+slug: clones-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-10T11:13:41.735000Z'
+updated_at: '2018-05-19T03:41:48.115526Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 72400
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Clones/Bin/ClonesGame.exe
+    arch: win32

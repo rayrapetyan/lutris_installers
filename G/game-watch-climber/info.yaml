@@ -1,0 +1,15 @@
+name: 'Game & Watch: Climber'
+slug: game-watch-climber
+year: 1986
+platforms:
+- name: Arcade
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/game-watch-climber.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:37.786136Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

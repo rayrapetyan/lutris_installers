@@ -1,0 +1,29 @@
+id: 6307
+game_id: 14767
+game_slug: barrel-patrol-3d
+name: Barrel Patrol 3D
+year: 2001
+user: fanotriel
+runner: linux
+slug: barrel-patrol-3d-090beta
+version: 0.90beta
+description: null
+notes: ''
+created_at: '2017-11-12T14:04:17.083759Z'
+updated_at: '2017-11-14T22:30:49.031692Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: barrel_patrol_3d
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: game
+  files:
+  - game: http://www.fathomgames.com/downloads/barrel_patrol_3d.0.90.linux.tar.gz

@@ -1,0 +1,36 @@
+id: 10265
+game_id: 18234
+game_slug: senran-kagura-peach-beach-splash
+name: SENRAN KAGURA Peach Beach Splash
+year: 2018
+user: Erde
+runner: winesteam
+slug: senran-kagura-peach-beach-spl-dxvk
+version: DXVK
+description: null
+notes: ''
+created_at: '2018-09-21T07:09:42.100000Z'
+updated_at: '2019-02-16T04:31:00.034707Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 696170
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  system:
+    pulse_latency: true
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 696170
+    arch: win64

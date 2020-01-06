@@ -1,0 +1,16 @@
+name: 'Gothic II: Gold Edition'
+slug: gothic-ii-gold-edition
+year: 2003
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/gothic-ii-gold-edition.jpg
+icon_url: /games/icon/gothic-ii-gold-edition.png
+is_public: true
+updated: '2019-01-23T08:29:41.990605Z'
+steamid: 39510
+gogslug: gothic_2_gold_edition
+humblestoreid: ''

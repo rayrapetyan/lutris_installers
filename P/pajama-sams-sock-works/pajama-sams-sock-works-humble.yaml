@@ -1,0 +1,39 @@
+id: 4634
+game_id: 2796
+game_slug: pajama-sams-sock-works
+name: Pajama Sam's Sock Works
+year: null
+user: FakeShemp
+runner: scummvm
+slug: pajama-sams-sock-works-humble
+version: Humble
+description: Uses the files from the Windows installer from Humble.
+notes: ''
+created_at: '2017-06-26T16:43:06.612000Z'
+updated_at: '2017-07-04T18:05:07.758183Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 292840
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  scummvm:
+    gfx-mode: 2x
+  installer:
+  - task:
+      executable: $file1
+      prefix: $CACHE
+      args: /S
+      name: wine.wineexec
+  - merge:
+      src: $CACHE/drive_c/Games/Humongous Entertainment/Pajama Sam's Sock Works
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble installer
+  game:
+    game_id: socks
+    path: $GAMEDIR
+    subtitles: true

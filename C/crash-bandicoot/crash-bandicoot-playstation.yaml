@@ -1,0 +1,31 @@
+id: 7136
+game_id: 8390
+game_slug: crash-bandicoot
+name: Crash Bandicoot
+year: 1996
+user: Noxes
+runner: libretro
+slug: crash-bandicoot-playstation
+version: playstation
+description: null
+notes: ''
+created_at: '2018-01-19T01:03:50.846000Z'
+updated_at: '2018-03-13T22:06:37.625795Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the PlayStation CD image file
+  game:
+    core: mednafen_psx_hw
+    main_file: file1

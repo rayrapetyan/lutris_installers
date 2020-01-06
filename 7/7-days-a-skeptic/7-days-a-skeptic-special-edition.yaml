@@ -1,0 +1,34 @@
+id: 3247
+game_id: 3712
+game_slug: 7-days-a-skeptic
+name: 7 Days a Skeptic
+year: 2004
+user: FakeShemp
+runner: ags
+slug: 7-days-a-skeptic-special-edition
+version: Special Edition
+description: ''
+notes: ''
+created_at: '2017-02-08T20:40:20.865000Z'
+updated_at: '2017-06-10T23:50:38.624355Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: 7days.exe
+  installer:
+  - extract:
+      dst: $CACHE
+      file: game
+  - extract:
+      dst: $GAMEDIR
+      file: $CACHE/FullyRamblomatic-SpecialEditions/7daysse.zip
+  files:
+  - game:
+      filename: 7daysse.zip
+      url: http://www.g4g.it/download/redirect.php?dlid=3158

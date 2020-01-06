@@ -1,0 +1,32 @@
+id: 2768
+game_id: 6709
+game_slug: maniac-mansion-deluxe
+name: Maniac Mansion Deluxe
+year: 2004
+user: strider
+runner: ags
+slug: maniac-mansion-deluxe-adventure-game-studi
+version: Adventure Game Studio
+description: ''
+notes: ''
+created_at: '2016-09-22T21:00:12.148841Z'
+updated_at: '2016-09-22T21:21:04.532747Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: gameArchive
+  files:
+  - gameArchive:
+      filename: maniac-mansion-deluxe.zip
+      url: http://legacy.agsarchives.com/download-file/GameID/319/maniac-mansion-deluxe.html
+  game:
+    main_file: Maniac.exe

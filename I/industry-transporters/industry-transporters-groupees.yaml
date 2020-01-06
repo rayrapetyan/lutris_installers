@@ -1,0 +1,39 @@
+id: 5392
+game_id: 6836
+game_slug: industry-transporters
+name: Industry Transporters
+year: null
+user: FakeShemp
+runner: wine
+slug: industry-transporters-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-13T20:27:54.115000Z'
+updated_at: '2018-05-19T03:41:57.337991Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 376150
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/ITA_64bitSetup.exe
+      prefix: $GAMEDIR
+      args: /batch
+      arch: win64
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/MK game production/Industry Transporters Alpha 64bit/Industry
+      Transporters.exe
+    arch: win32

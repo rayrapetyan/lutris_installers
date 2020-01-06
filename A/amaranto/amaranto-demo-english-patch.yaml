@@ -1,0 +1,39 @@
+id: 9158
+game_id: 19890
+game_slug: amaranto
+name: Amaranto
+year: 2008
+user: kimchitea
+runner: linux
+slug: amaranto-demo-english-patch
+version: Demo + English patch
+description: null
+notes: "Onscripter: https://web.archive.org/web/20180804033515/http://unclemion.com/onscripter/releases\r\
+  \nPatch: http://www.mediafire.com/file/3y43ndykjtlm65m/trial_english.zip"
+created_at: '2018-07-11T06:56:20.765000Z'
+updated_at: '2019-09-09T02:01:53.840571Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: onscripter-en
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $demo
+  - extract:
+      dst: $GAMEDIR
+      file: $patch
+  - extract:
+      dst: $GAMEDIR
+      file: $ons
+  - chmodx: $GAMEDIR/onscripter-en
+  files:
+  - demo: http://trial.dlsite.com/doujin/RJ046000/RJ045681_trial.zip
+  - patch: N/A:Please select the patch archive
+  - ons: N/A:Please select the Onscripter archive

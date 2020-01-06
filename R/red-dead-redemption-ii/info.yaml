@@ -1,0 +1,18 @@
+name: Red Dead Redemption II
+slug: red-dead-redemption-ii
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Open World
+aliases:
+- slug: red-dead-redemption-2
+  name: Red Dead Redemption 2
+banner_url: /games/banner/red-dead-redemption-ii.jpg
+icon_url: /games/icon/red-dead-redemption-ii.png
+is_public: true
+updated: '2019-12-04T10:45:41.586292Z'
+steamid: 1174180
+gogslug: ''
+humblestoreid: ''

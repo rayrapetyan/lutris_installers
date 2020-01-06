@@ -1,0 +1,24 @@
+id: 1646
+game_id: 2499
+game_slug: volgarr-the-viking
+name: Volgarr the Viking
+year: 2013
+user: RobLoach
+runner: steam
+slug: volgarr-the-viking-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-11-02T11:46:53.363256Z'
+updated_at: '2016-03-03T11:01:37.017496Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 247240
+gogid: 1207659623
+gogslug: volgarr_the_viking
+humblestoreid: volgarr-the-viking
+script:
+  game:
+    appid: 247240

@@ -1,0 +1,38 @@
+id: 16194
+game_id: 26119
+game_slug: emperor-battle-for-dune
+name: 'Emperor: Battle for Dune'
+year: 2001
+user: edjaa84
+runner: wine
+slug: emperor-battle-for-dune-portable
+version: Portable
+description: 'Emperor: Battle for Dune (Wine64)RaPiMoDEBianPaKaGer'
+notes: "Recuerda Instalar el juego mediante el men\xFA conceptual\r\n> Run EXE inside\
+  \ wine prefix."
+created_at: '2019-10-14T21:26:09.516007Z'
+updated_at: '2019-10-16T04:35:05.520162Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/
+      description: Cambiando a Windows XP
+      app: winxp
+      silent: true
+      name: winetricks
+  files:
+  - dune: "N/A:Se\xF1ala el instalador, solo para iniciar"
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files (x86)/Emperor Battle For Dune/Emperor.exe
+    args: -C
+    working_dir: $GAMEDIR/drive_c/Program Files (x86)/Emperor Battle For Dune
+    arch: win64

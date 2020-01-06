@@ -1,0 +1,24 @@
+id: 93
+game_id: 97
+game_slug: counter-strike
+name: Counter-Strike
+year: 2000
+user: Xodetaetl
+runner: steam
+slug: counter-strike-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2013-12-15T22:48:33.577000Z'
+updated_at: '2013-12-15T22:51:36.152000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 10
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 10

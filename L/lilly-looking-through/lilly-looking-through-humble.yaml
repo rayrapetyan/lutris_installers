@@ -1,0 +1,33 @@
+id: 4572
+game_id: 1650
+game_slug: lilly-looking-through
+name: Lilly Looking Through
+year: null
+user: FakeShemp
+runner: wine
+slug: lilly-looking-through-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-24T18:04:26.178000Z'
+updated_at: '2018-05-19T03:41:54.634241Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 250030
+gogid: 1207659903
+gogslug: lilly_looking_through
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/GeetaGames/LillyLookingThrough/LillyLookingThrough.exe
+    arch: win32

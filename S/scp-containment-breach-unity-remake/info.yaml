@@ -1,0 +1,17 @@
+name: 'SCP: Containment Breach - Unity Remake'
+slug: scp-containment-breach-unity-remake
+year: 2017
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Horror
+- name: Survival
+aliases: []
+banner_url: /games/banner/scp-containment-breach-unity-remake.jpg
+icon_url: /games/icon/scp-containment-breach-unity-remake.png
+is_public: true
+updated: '2019-09-11T17:33:26.674520Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

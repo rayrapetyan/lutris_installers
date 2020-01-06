@@ -1,0 +1,24 @@
+id: 6467
+game_id: 3013
+game_slug: astropop-deluxe
+name: AstroPop Deluxe
+year: null
+user: Stoney_Fish
+runner: winesteam
+slug: astropop-deluxe-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-11-28T22:25:28.631210Z'
+updated_at: '2017-12-17T14:27:38.857372Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 3340
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 3340

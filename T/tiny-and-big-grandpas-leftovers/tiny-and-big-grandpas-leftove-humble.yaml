@@ -1,0 +1,28 @@
+id: 3834
+game_id: 280
+game_slug: tiny-and-big-grandpas-leftovers
+name: 'Tiny and Big: Grandpa''s Leftovers'
+year: 2012
+user: FakeShemp
+runner: linux
+slug: tiny-and-big-grandpas-leftove-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-24T11:56:26.893774Z'
+updated_at: '2017-05-27T21:12:24.708684Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 205910
+gogid: 1207659048
+gogslug: tiny_and_big_grandpas_leftovers
+humblestoreid: ''
+script:
+  exe: tinyandbig-launcher
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

@@ -1,0 +1,39 @@
+id: 13684
+game_id: 1823
+game_slug: lego-racers
+name: Lego Racers
+year: 1999
+user: Smeltie
+runner: wine
+slug: lego-racers-retail-cd
+version: Retail CD
+description: "Wine version for the retail cd version.\r\nYou will need the original\
+  \ game cd for this."
+notes: ''
+created_at: '2019-05-22T21:48:54.853000Z'
+updated_at: '2019-09-09T01:59:29.029027Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: Setup.exe
+      message: Insert disc
+  - merge:
+      src: $DISC
+      description: Copying disc to cache
+      dst: $CACHE/cdrom
+  - task:
+      executable: $CACHE/cdrom/Setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    args: -novideo
+    exe: drive_c/Program Files (x86)/LEGO Media/Games/LEGO Racers/LEGORacers.exe

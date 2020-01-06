@@ -1,0 +1,39 @@
+id: 12158
+game_id: 12107
+game_slug: pokerstars
+name: PokerStars
+year: 2001
+user: property
+runner: wine
+slug: pokerstars-ger
+version: GER
+description: null
+notes: ''
+created_at: '2019-02-25T00:31:12.371000Z'
+updated_at: '2019-05-12T04:02:00.236613Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      description: Installing Poker Stars
+      name: wineexec
+  files:
+  - installer:
+      filename: installer.exe
+      url: https://www.pokerstars.eu/de/PokerStarsInstallEU.exe?PAGE=1
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/PokerStars.EU/PokerStars.exe
+    arch: win64

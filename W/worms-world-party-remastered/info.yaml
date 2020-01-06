@@ -1,0 +1,17 @@
+name: Worms World Party Remastered
+slug: worms-world-party-remastered
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Artillery
+- name: Turn-based tactics
+aliases: []
+banner_url: /games/banner/worms-world-party-remastered.jpg
+icon_url: /games/icon/worms-world-party-remastered.png
+is_public: true
+updated: '2019-01-23T08:32:11.342896Z'
+steamid: 270910
+gogslug: worms_world_party_remastered
+humblestoreid: ''

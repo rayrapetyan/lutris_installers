@@ -1,0 +1,54 @@
+id: 10622
+game_id: 22975
+game_slug: savage-xr
+name: Savage XR
+year: 2012
+user: sea-eye-aya
+runner: wine
+slug: savage-xr-010
+version: 0.1.0
+description: null
+notes: "During the Savage XR installation please choose:\r\n\t* The default installation\
+  \ location\r\n\t* The default settings\r\n\r\nOnce install and the Savage XR AuotUpdater\
+  \ has run you will be presented with a login screen, either:\r\n\t1) Register a\
+  \ user name for in game statistics to be recorded (shot accuracy, win/loses etc).\r\
+  \n\t2) Leave fields blank for Guest login."
+created_at: '2018-10-24T17:50:26.827000Z'
+updated_at: '2018-10-27T22:58:50.014196Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Savage XR/savage.exe
+    arch: win32
+  system:
+    env:
+      __GL_THREADED_OPTIMIZATIONS: '1'
+      mesa_glthread: 'true'
+      __GL_SHADER_DISK_CACHE: '1'
+  wine:
+    version: staging-3.18-x86_64
+    overrides:
+      d3d11: disabled
+      ddraw: native
+  files:
+  - installer:
+      filename: xr_setup-1.0-cl_win_prod.exe
+      url: http://www.newerth.com/?id=downloads&op=downloadFile&file=xr_setup-1.0-cl_win_prod.exe&mirrorid=2

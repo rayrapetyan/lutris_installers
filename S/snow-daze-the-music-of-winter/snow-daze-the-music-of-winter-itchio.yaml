@@ -1,0 +1,28 @@
+id: 7503
+game_id: 17303
+game_slug: snow-daze-the-music-of-winter
+name: Snow Daze - The Music of Winter
+year: 2017
+user: t-rex91
+runner: linux
+slug: snow-daze-the-music-of-winter-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2018-03-11T14:55:28.023463Z'
+updated_at: '2018-03-12T05:14:31.084990Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: SnowDaze.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

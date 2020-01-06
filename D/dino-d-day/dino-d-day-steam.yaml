@@ -1,0 +1,24 @@
+id: 3404
+game_id: 435
+game_slug: dino-d-day
+name: Dino D-Day
+year: null
+user: scottviger
+runner: winesteam
+slug: dino-d-day-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-03-30T00:35:43.090000Z'
+updated_at: '2017-03-31T15:05:59.592307Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 70000
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 70000

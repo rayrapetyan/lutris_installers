@@ -1,0 +1,15 @@
+name: Billard-GL
+slug: billardgl
+year: 2001
+platforms:
+- name: Linux
+genres:
+- name: Simulation
+aliases: []
+banner_url: /games/banner/billardgl.jpg
+icon_url: null
+is_public: true
+updated: '2019-07-20T02:59:18.666991Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

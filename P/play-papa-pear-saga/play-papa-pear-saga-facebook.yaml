@@ -1,0 +1,23 @@
+id: 7364
+game_id: 16566
+game_slug: play-papa-pear-saga
+name: Play Papa Pear Saga
+year: 2013
+user: TuiorGames
+runner: browser
+slug: play-papa-pear-saga-facebook
+version: Facebook
+description: null
+notes: ''
+created_at: '2018-02-20T10:48:38.942678Z'
+updated_at: '2018-02-21T02:47:35.018643Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://apps.facebook.com/papapear/

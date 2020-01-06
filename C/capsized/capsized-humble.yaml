@@ -1,0 +1,33 @@
+id: 4093
+game_id: 197
+game_slug: capsized
+name: Capsized
+year: 2011
+user: FakeShemp
+runner: linux
+slug: capsized-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-04T16:07:25.022979Z'
+updated_at: '2017-06-04T22:15:23.406872Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 95300
+gogid: 1207659151
+gogslug: capsized
+humblestoreid: ''
+script:
+  exe: Capsized
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble installer

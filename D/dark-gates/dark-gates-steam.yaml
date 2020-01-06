@@ -1,0 +1,24 @@
+id: 1334
+game_id: 3787
+game_slug: dark-gates
+name: Dark Gates
+year: null
+user: Xodetaetl
+runner: steam
+slug: dark-gates-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-02-25T19:39:42.838000Z'
+updated_at: '2015-02-25T20:44:03.578000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 333730
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 333730

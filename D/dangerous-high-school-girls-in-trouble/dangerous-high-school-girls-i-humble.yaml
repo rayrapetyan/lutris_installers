@@ -1,0 +1,35 @@
+id: 4616
+game_id: 3008
+game_slug: dangerous-high-school-girls-in-trouble
+name: Dangerous High School Girls in Trouble!
+year: null
+user: FakeShemp
+runner: wine
+slug: dangerous-high-school-girls-i-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-26T06:42:30.774000Z'
+updated_at: '2018-05-19T03:41:53.163760Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 27400
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/DangerousHSGirls/prog/brigiton.exe
+    arch: win32
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  wine:
+    Desktop: true
+  files:
+  - file1: N/A:Please select the Humble installer

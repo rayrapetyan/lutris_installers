@@ -1,0 +1,33 @@
+id: 3303
+game_id: 8599
+game_slug: battlerite
+name: Battlerite
+year: 2017
+user: NuSuey
+runner: winesteam
+slug: battlerite-steam-dx9
+version: Steam Dx9
+description: null
+notes: ''
+created_at: '2017-03-05T15:04:31.971000Z'
+updated_at: '2019-02-11T05:03:17.191407Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 504370
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-unity-4.1-x86_64
+  installer:
+  - task:
+      app: allfonts
+      arch: win64
+      name: winetricks
+  game:
+    args: -force-d3d9
+    appid: 504370
+    arch: win64

@@ -1,0 +1,19 @@
+name: 'Chuck Rock II: Son of Chuck'
+slug: chuck-rock-ii-son-of-chuck
+year: 1993
+platforms:
+- name: Amiga
+- name: Sega 32X
+- name: Sega Game Gear
+- name: Sega Genesis / Mega Drive
+- name: Sega Master System
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/chuck-rock-ii-son-of-chuck.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:52.687762Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

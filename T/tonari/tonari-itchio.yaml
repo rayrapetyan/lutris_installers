@@ -1,0 +1,41 @@
+id: 12488
+game_id: 26340
+game_slug: tonari
+name: TONARI
+year: 2018
+user: ioangogo
+runner: wine
+slug: tonari-itchio
+version: itch.io
+description: null
+notes: Missing intro text
+created_at: '2019-03-23T23:25:01.111000Z'
+updated_at: '2019-03-23T23:48:10.300206Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine Prefix...
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: corefonts
+      name: winetricks
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Tonari
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Tonari/TONARI by izioq.exe
+    arch: win32

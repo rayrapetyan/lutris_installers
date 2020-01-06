@@ -1,0 +1,24 @@
+id: 841
+game_id: 943
+game_slug: dead-sky
+name: Dead Sky
+year: null
+user: Xodetaetl
+runner: steam
+slug: dead-sky-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T16:57:18.074000Z'
+updated_at: '2014-09-15T17:10:37.445000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 259700
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 259700

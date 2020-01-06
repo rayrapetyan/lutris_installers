@@ -1,0 +1,28 @@
+id: 1913
+game_id: 4055
+game_slug: ryzom
+name: Ryzom
+year: 2004
+user: RobLoach
+runner: linux
+slug: ryzom-client
+version: Client
+description: null
+notes: "[Lutris can't extract 7zip. :^/] -- Xod\r\n\r\nNeeds https://github.com/lutris/lutris/issues/323"
+created_at: '2016-01-19T14:00:22.927000Z'
+updated_at: '2019-09-09T00:19:22.428789Z'
+draft: false
+published: true
+published_by: 1
+rating: '1'
+steamid: 373720
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: ryzom
+  installer:
+  - extract:
+      file: $client
+  files:
+  - client: https://download.ryzom.com/ryzom_installer_linux.tar.bz2

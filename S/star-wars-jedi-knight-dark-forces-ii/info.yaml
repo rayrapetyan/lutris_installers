@@ -1,0 +1,16 @@
+name: 'Star Wars Jedi Knight: Dark Forces II'
+slug: star-wars-jedi-knight-dark-forces-ii
+year: 1997
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+aliases: []
+banner_url: /games/banner/star-wars-jedi-knight-dark-forces-ii.jpg
+icon_url: /games/icon/star-wars-jedi-knight-dark-forces-ii.png
+is_public: true
+updated: '2019-01-23T08:31:25.577791Z'
+steamid: 32380
+gogslug: star_wars_jedi_knight_dark_forces_ii
+humblestoreid: ''

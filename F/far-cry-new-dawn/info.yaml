@@ -1,0 +1,16 @@
+name: Far Cry New Dawn
+slug: far-cry-new-dawn
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+aliases: []
+banner_url: /games/banner/far-cry-new-dawn.jpg
+icon_url: /games/icon/far-cry-new-dawn.png
+is_public: true
+updated: '2019-02-19T03:14:50.305352Z'
+steamid: 939960
+gogslug: ''
+humblestoreid: ''

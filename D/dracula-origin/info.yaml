@@ -1,0 +1,16 @@
+name: 'Dracula: Origin'
+slug: dracula-origin
+year: 2008
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/dracula-origin.jpg
+icon_url: /games/icon/dracula-origin.png
+is_public: true
+updated: '2019-01-23T08:29:16.196453Z'
+steamid: 11050
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,15 @@
+name: Snapshot
+slug: snapshot
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/snapshot.jpg
+icon_url: /games/icon/snapshot.png
+is_public: true
+updated: '2019-01-23T08:31:16.585429Z'
+steamid: 204220
+gogslug: snapshot
+humblestoreid: ''

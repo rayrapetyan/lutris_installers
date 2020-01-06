@@ -1,0 +1,18 @@
+name: Caveman Stories
+slug: caveman-stories
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Casual
+- name: Strategy
+aliases: []
+banner_url: /games/banner/caveman-stories.jpg
+icon_url: null
+is_public: true
+updated: '2019-11-17T11:45:46.939588Z'
+steamid: 814590
+gogslug: ''
+humblestoreid: ''

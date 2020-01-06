@@ -1,0 +1,24 @@
+id: 16089
+game_id: 14795
+game_slug: project-gorgon
+name: 'Project: Gorgon'
+year: 2018
+user: sam6420
+runner: steam
+slug: project-gorgon-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-10-10T18:40:06.625000Z'
+updated_at: '2019-10-11T02:21:47.361095Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 342940
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 342940

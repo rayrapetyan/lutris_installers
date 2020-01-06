@@ -1,0 +1,30 @@
+id: 17414
+game_id: 4996
+game_slug: colossal-cave-adventure
+name: Colossal Cave Adventure
+year: 1977
+user: NogNoa
+runner: frotz
+slug: colossal-cave-adventure-350-points
+version: 350 points
+description: The original game as written by Willie Crowther and expanded by Don Woods.
+notes: ''
+created_at: '2019-12-18T10:28:08.892335Z'
+updated_at: '2019-12-18T10:28:08.892369Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: game
+      dst: $GAMEDIR
+  files:
+  - game: http://mirror.ifarchive.org/if-archive/games/zcode/Advent.z5
+  game:
+    story: $GAMEDIR/Advent.z5

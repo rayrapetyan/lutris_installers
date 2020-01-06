@@ -1,0 +1,27 @@
+id: 51
+game_id: 65
+game_slug: darksiders
+name: Darksiders
+year: 2010
+user: strider
+runner: winesteam
+slug: darksiders-steam-xboxdrv
+version: steam (xboxdrv)
+description: ''
+notes: ''
+created_at: '2013-07-20T15:59:42Z'
+updated_at: '2016-02-25T10:29:35.290892Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 50620
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  system:
+    xboxdrv: --silent --deadzone 8000 --trigger-as-button --ui-axismap X2=ABS_Z,Y2=ABS_RX,LT=ABS_RY,RT=ABS_RZ
+      --ui-buttonmap Guide=BTN_BACK,Start=BTN_SELECT,DU=BTN_MODE,DR=BTN_THUMBR,DL=BTN_THUMBL,TL=BTN_TL2
+  game:
+    appid: 50620

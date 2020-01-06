@@ -1,0 +1,24 @@
+id: 8134
+game_id: 4252
+game_slug: how-do-you-do-it
+name: how do you Do It?
+year: null
+user: soredake
+runner: winesteam
+slug: how-do-you-do-it-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T06:13:23.911596Z'
+updated_at: '2018-05-13T09:17:24.901363Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 353360
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 353360

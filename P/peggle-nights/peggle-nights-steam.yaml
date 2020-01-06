@@ -1,0 +1,24 @@
+id: 6409
+game_id: 1879
+game_slug: peggle-nights
+name: Peggle Nights
+year: null
+user: Stoney_Fish
+runner: winesteam
+slug: peggle-nights-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-11-23T21:45:03.152844Z'
+updated_at: '2017-11-30T20:39:03.659523Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 3540
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 3540

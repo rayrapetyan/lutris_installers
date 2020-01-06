@@ -1,0 +1,24 @@
+id: 16172
+game_id: 5297
+game_slug: gabriel-knight-sins-of-the-fathers
+name: 'Gabriel Knight: Sins of the Fathers'
+year: 1993
+user: cxf
+runner: steam
+slug: gabriel-knight-sins-of-the-fa-steam-proton-1
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-10-14T00:08:53.039925Z'
+updated_at: '2019-10-14T00:08:57.951555Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 495700
+gogid: 1207658828
+gogslug: gabriel_knight_sins_of_the_fathers
+humblestoreid: ''
+script:
+  game:
+    appid: 495700

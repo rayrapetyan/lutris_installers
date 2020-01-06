@@ -1,0 +1,35 @@
+id: 11939
+game_id: 5351
+game_slug: her-story
+name: Her Story
+year: null
+user: SteamTuxer
+runner: wine
+slug: her-story-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-02-09T15:42:46.672000Z'
+updated_at: '2019-02-15T01:16:21.256416Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 368370
+gogid: 1435240365
+gogslug: her_story
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      executable: goginstaller
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - goginstaller: N/A:Select gog installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Her Story/HerStory.exe

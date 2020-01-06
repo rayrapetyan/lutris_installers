@@ -1,0 +1,21 @@
+name: Dig Dug
+slug: dig-dug
+year: 1982
+platforms:
+- name: Arcade
+- name: Atari 2600
+- name: Atari 5200
+- name: Atari 7800
+- name: Commodore 64
+- name: Game Boy
+- name: Nintendo Game Boy Advance
+genres:
+- name: Arcade
+aliases: []
+banner_url: /games/banner/dig-dug.jpg
+icon_url: null
+is_public: true
+updated: '2019-10-22T22:04:40.648849Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

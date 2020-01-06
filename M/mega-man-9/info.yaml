@@ -1,0 +1,18 @@
+name: Mega Man 9
+slug: mega-man-9
+year: 2008
+platforms:
+- name: Nintendo Wii
+- name: Sony Playstation 3
+genres:
+- name: Pixel Graphics
+- name: Platformer
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/mega-man-9.jpg
+icon_url: null
+is_public: true
+updated: '2019-06-19T05:21:38.154995Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

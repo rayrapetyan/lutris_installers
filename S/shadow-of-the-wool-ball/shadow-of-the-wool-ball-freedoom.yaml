@@ -1,0 +1,35 @@
+id: 6485
+game_id: 14737
+game_slug: shadow-of-the-wool-ball
+name: Shadow Of The Wool Ball
+year: 2016
+user: fanotriel
+runner: zdoom
+slug: shadow-of-the-wool-ball-freedoom
+version: Freedoom
+description: null
+notes: ''
+created_at: '2017-11-29T14:21:59.544986Z'
+updated_at: '2017-12-21T15:58:59.885017Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: freedoom2.wad
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $freedoom
+  - extract:
+      dst: $GAMEDIR
+      file: $download
+  files:
+  - download: N/A:Select file downloaded from http://www.mediafire.com/file/ewov0iaa2dy8nk5/ShadowOfTheWoolBall-1.3.zip
+  - freedoom: https://github.com/freedoom/freedoom/releases/download/v0.11.3/freedoom-0.11.3.zip
+  game:
+    files: ShadowOfTheWoolBall.wad

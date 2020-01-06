@@ -1,0 +1,33 @@
+id: 14347
+game_id: 9192
+game_slug: lords-of-the-realm
+name: Lords of the Realm
+year: null
+user: Qwertyk
+runner: wine
+slug: lords-of-the-realm-cd-gog-2107
+version: CD [GOG, 2.1.0.7]
+description: Wine + GOG installer and version.
+notes: The GOG installer seems to have several errors at the end of the install but
+  the game runs fine.
+created_at: '2019-06-29T16:26:56.236000Z'
+updated_at: '2019-09-09T01:12:19.347360Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 254920
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the GOG installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Lords of the Realm I (CD)/CHOICE.EXE

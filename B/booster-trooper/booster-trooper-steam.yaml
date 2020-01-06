@@ -1,0 +1,24 @@
+id: 1645
+game_id: 1607
+game_slug: booster-trooper
+name: Booster Trooper
+year: null
+user: RobLoach
+runner: winesteam
+slug: booster-trooper-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-11-02T11:42:48.865309Z'
+updated_at: '2016-01-28T18:08:11.722726Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 27920
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 27920

@@ -1,0 +1,64 @@
+id: 17321
+game_id: 3364
+game_slug: guild-wars-2
+name: Guild Wars 2
+year: 2012
+user: eagledelta1
+runner: wine
+slug: guild-wars-2-guild-wars-2-armored-2
+version: Guild Wars 2 Armored Nvidia
+description: "This is a special build based on GW2 player ArmoredVehicle's custom\
+  \ WINE build that is uploaded to the Guild Wars 2 Forums: \r\n\r\nhttps://en-forum.guildwars2.com/discussion/31192/playing-guild-wars-2-on-linux-performance-optimizations-and-more/p1\r\
+  \n\r\nAn SSD is strongly recommended for improved performance."
+notes: For AMD/Intel users, please use the Armored Mesa installer as this one is NVidia
+  specific.
+created_at: '2019-12-13T20:28:40.401000Z'
+updated_at: '2019-12-23T10:46:15.661691Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating win64 prefix
+      arch: win64
+      name: create_prefix
+  - execute:
+      command: mkdir -p "$GAMEDIR/drive_c/Program Files/Guild Wars 2"
+  - move:
+      src: client
+      dst: $GAMEDIR/drive_c/Program Files/Guild Wars 2/GW2-64.exe
+  game:
+    prefix: $GAMEDIR
+    args: -maploadinfo
+    exe: drive_c/Program Files/Guild Wars 2/GW2-64.exe
+    arch: win64
+  system:
+    disable_compositor: 'true'
+    env:
+      __GL_FSAA_MODE: 0
+      DXVK_LOG_LEVEL: none
+      STAGING_SHARED_MEMORY: 1
+      __GL_DEFAULT_LOG_ANISO: 0
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      __GL_SYNC_TO_VBLANK: 0
+      WINEARCH: wine64
+      __NV_PRIME_RENDER_OFFLOAD: 1
+      LD_PRELOAD: libpthread.so.0 libGL.so.1
+      DXVK_HUD: 0
+      __GL_THREADED_OPTIMIZATIONS: 1
+      WINEDEBUG: -all
+      __GL_SHADER_DISK_CACHE_SKIP_CLEANUP: 1
+      __GL_YIELD: NOTHING
+  wine:
+    version: lutris-4.21-x86_64
+    d9vk: true
+    esync: true
+  files:
+  - client: https://s3.amazonaws.com/gw2cdn/client/branches/Gw2Setup-64.exe

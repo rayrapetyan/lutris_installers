@@ -1,0 +1,24 @@
+id: 8206
+game_id: 2194
+game_slug: face-of-mankind
+name: Face of Mankind
+year: null
+user: soredake
+runner: winesteam
+slug: face-of-mankind-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T07:10:29.676042Z'
+updated_at: '2018-05-13T09:00:52.814516Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 299700
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 299700

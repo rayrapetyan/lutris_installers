@@ -1,0 +1,105 @@
+id: 4046
+game_id: 5227
+game_slug: one-piece-pirate-warriors-3
+name: ONE PIECE PIRATE WARRIORS 3
+year: null
+user: oem
+runner: winesteam
+slug: one-piece-pirate-warriors-3-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-06-02T08:04:10.039000Z'
+updated_at: '2018-08-25T14:01:04.744335Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 331600
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Setting Windows version to XP
+      arch: win32
+      app: winxp
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing devenum
+      arch: win32
+      app: devenum
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing quartz
+      arch: win32
+      app: quartz
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing Windows Media Player 10
+      arch: win32
+      app: wmp10
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Setting Windows version to Windows 7
+      app: win7
+      arch: win32
+      name: winetricks
+  - write_file:
+      content: '[xboxdrv]
+
+        silent=true
+
+        trigger-as-button=true
+
+        deadzone=4000
+
+        [buttonmap]
+
+        A=X
+
+        X=A
+
+        B=Y
+
+        Y=B
+
+        guide=back
+
+        back=guide
+
+        start=tl
+
+        tl=tr
+
+        tr=start
+
+        [ui-axismap]
+
+        x2=ABS_Z
+
+        y2=ABS_RZ
+
+        [xboxdrv-daemon]
+
+        dbus=disabled
+
+        '
+      description: Create config for XBOX 360 controller
+      file: $GAMEDIR/remap.xboxdrv
+  system:
+    xboxdrv: $GAMEDIR/remap.xboxdrv
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 331600
+    arch: win32

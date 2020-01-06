@@ -1,0 +1,24 @@
+id: 684
+game_id: 2168
+game_slug: heroes-rise-the-hero-project
+name: 'Heroes Rise: The Hero Project'
+year: null
+user: Xodetaetl
+runner: steam
+slug: heroes-rise-the-hero-project-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T12:57:25.215000Z'
+updated_at: '2014-09-15T13:26:54.972000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 304290
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 304290

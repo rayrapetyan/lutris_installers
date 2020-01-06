@@ -1,0 +1,35 @@
+id: 10195
+game_id: 21752
+game_slug: blameless-a-god-game
+name: Blameless - A God Game
+year: 2015
+user: ProgrammerPanda
+runner: wine
+slug: blameless-a-god-game-033
+version: 0.3.3
+description: This is the windows version, which i prefer.
+notes: 'Before proceeding make you sure you''ve already downloaded the game''s zip
+  file. Download here: https://gamejolt.com/games/blameless-a-god-game/82896/download/build/262322'
+created_at: '2018-09-15T10:43:52.896000Z'
+updated_at: '2018-09-17T02:18:52.195288Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    args: -arg
+    exe: $GAMEDIR/BlamelessFiles/Blameless0.3.3_x86.exe
+  installer:
+  - extract:
+      dst: $GAMEDIR/BlamelessFiles/
+      file: GameZip
+  wine:
+    version: 3.14-x86_64file
+  files:
+  - GameZip: N/A:Please select the zip archive.

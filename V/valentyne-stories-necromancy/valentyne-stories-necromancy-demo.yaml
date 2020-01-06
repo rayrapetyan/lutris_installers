@@ -1,0 +1,32 @@
+id: 14381
+game_id: 28318
+game_slug: valentyne-stories-necromancy
+name: Valentyne Stories Necromancy
+year: null
+user: kimchitea
+runner: linux
+slug: valentyne-stories-necromancy-demo
+version: Demo
+description: null
+notes: Download the Windows release.
+created_at: '2019-07-02T03:15:34.079000Z'
+updated_at: '2019-09-09T01:09:35.287378Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: ValentyneStoriesNecromancy.sh
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $file1
+  - chmodx: $GAMEDIR/ValentyneStoriesNecromancy.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/ValentyneStoriesNecromancy
+  - chmodx: $GAMEDIR/lib/linux-x86_64/ValentyneStoriesNecromancy
+  files:
+  - file1: N/A:Please select the game archive

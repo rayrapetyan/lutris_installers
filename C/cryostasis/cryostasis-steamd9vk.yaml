@@ -1,0 +1,41 @@
+id: 17254
+game_id: 1625
+game_slug: cryostasis
+name: Cryostasis
+year: null
+user: soredake
+runner: winesteam
+slug: cryostasis-steamd9vk
+version: Steam/D9VK
+description: null
+notes: ''
+created_at: '2019-12-10T09:27:00.986000Z'
+updated_at: '2019-12-28T21:31:32.814318Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 7850
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: lutris-4.21-x86_64
+    esync: true
+    dxvk: true
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: physx d3dcompiler_43 d3dcompiler_47 d3dx9
+      arch: win32
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 7850
+    arch: win32

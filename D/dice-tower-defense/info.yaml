@@ -1,0 +1,15 @@
+name: Dice Tower Defense
+slug: dice-tower-defense
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Tower defense
+aliases: []
+banner_url: /games/banner/dice-tower-defense.jpg
+icon_url: /games/icon/dice-tower-defense.png
+is_public: true
+updated: '2019-01-23T08:29:11.418176Z'
+steamid: 700660
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 1946
+game_id: 909
+game_slug: geneforge-3
+name: Geneforge III
+year: null
+user: WildCoder
+runner: winesteam
+slug: geneforge-3-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-01-31T15:03:32.072996Z'
+updated_at: '2016-09-22T18:06:49.523919Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 200990
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 200990

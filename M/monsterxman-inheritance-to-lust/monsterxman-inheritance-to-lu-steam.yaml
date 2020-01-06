@@ -1,0 +1,24 @@
+id: 8679
+game_id: 19055
+game_slug: monsterxman-inheritance-to-lust
+name: 'MonsterxMan: Inheritance To Lust'
+year: 2018
+user: soredake
+runner: steam
+slug: monsterxman-inheritance-to-lu-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-11T07:45:48.417000Z'
+updated_at: '2018-08-04T08:30:22.823610Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 836440
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 836440

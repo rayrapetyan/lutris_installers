@@ -1,0 +1,51 @@
+id: 12677
+game_id: 22208
+game_slug: breathedge
+name: Breathedge
+year: 2018
+user: cxf
+runner: winesteam
+slug: breathedge-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: '*This game might require to manually install <a href="https://github.com/z0z0z/mf-install">this
+  fix</a>.'
+created_at: '2019-04-08T06:43:29.980000Z'
+updated_at: '2019-09-21T18:52:03.240297Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 738520
+gogid: 2104548474
+gogslug: breathedge
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: create_prefix
+  - extract:
+      dst: $CACHE/dxsetup
+      file: dx2010
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR/prefix
+      args: /silent
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2013 vcrun2015 win7
+      name: winetricks
+  winesteam:
+    version: tkg-protonified-4.5-x86_64
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  files:
+  - dx2010: https://lutris.net/files/tools/directx-2010.tar.gz
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 738520

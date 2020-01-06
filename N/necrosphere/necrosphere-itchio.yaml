@@ -1,0 +1,23 @@
+id: 9083
+game_id: 19825
+game_slug: necrosphere
+name: Necrosphere
+year: 2017
+user: TuiorGames
+runner: browser
+slug: necrosphere-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2018-07-08T01:38:28.453000Z'
+updated_at: '2018-08-24T07:40:03.192803Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 607400
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://catnigiri.itch.io/necrosphere

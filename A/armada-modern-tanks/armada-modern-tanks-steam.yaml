@@ -1,0 +1,24 @@
+id: 12323
+game_id: 18934
+game_slug: armada-modern-tanks
+name: 'Armada: Modern Tanks'
+year: null
+user: jamesjon
+runner: steam
+slug: armada-modern-tanks-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-03-10T10:23:19.162527Z'
+updated_at: '2019-04-05T06:48:21.911577Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 782660
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 782660

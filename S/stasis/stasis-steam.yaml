@@ -1,0 +1,24 @@
+id: 5382
+game_id: 7671
+game_slug: stasis
+name: STASIS
+year: null
+user: dj_who
+runner: steam
+slug: stasis-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-08-13T17:11:42.728000Z'
+updated_at: '2017-08-15T04:04:47.895542Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 380150
+gogid: 1439548178
+gogslug: stasis
+humblestoreid: ''
+script:
+  game:
+    appid: 380150

@@ -1,0 +1,19 @@
+name: Parodius Da!
+slug: parodius-da
+year: 1992
+platforms:
+- name: Arcade
+- name: Game Boy
+- name: NES
+- name: Sega Saturn
+- name: Super Nintendo
+genres:
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/parodius-da.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:42.309699Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

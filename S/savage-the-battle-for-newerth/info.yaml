@@ -1,0 +1,17 @@
+name: 'Savage: The Battle for Newerth'
+slug: savage-the-battle-for-newerth
+year: 2003
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: FPS
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/savage-the-battle-for-newerth.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:07.603394Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

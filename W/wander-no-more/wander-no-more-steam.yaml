@@ -1,0 +1,24 @@
+id: 7604
+game_id: 11871
+game_slug: wander-no-more
+name: Wander No More
+year: 2016
+user: oscararg
+runner: steam
+slug: wander-no-more-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-19T12:07:53.152000Z'
+updated_at: '2018-03-20T04:22:52.446504Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 463020
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 463020

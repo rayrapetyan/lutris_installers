@@ -1,0 +1,31 @@
+id: 5255
+game_id: 3338
+game_slug: nicole-otome-version
+name: Nicole (otome version)
+year: 2013
+user: FakeShemp
+runner: linux
+slug: nicole-otome-version-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-01T21:07:33.634000Z'
+updated_at: '2017-08-27T21:25:05.233177Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 307190
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Nicole.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Nicole.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Nicole
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Nicole
+  files:
+  - file1: N/A:Please select the Groupees archive

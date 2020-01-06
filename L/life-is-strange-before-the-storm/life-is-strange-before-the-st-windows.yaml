@@ -1,0 +1,24 @@
+id: 4542
+game_id: 11849
+game_slug: life-is-strange-before-the-storm
+name: 'Life is Strange: Before the Storm'
+year: 2017
+user: Cronyk
+runner: winesteam
+slug: life-is-strange-before-the-st-windows
+version: Windows
+description: null
+notes: ''
+created_at: '2017-06-22T22:09:03.607000Z'
+updated_at: '2019-12-17T19:52:58.965194Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 554620
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 554620

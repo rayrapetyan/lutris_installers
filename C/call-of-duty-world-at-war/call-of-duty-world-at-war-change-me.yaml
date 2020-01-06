@@ -1,0 +1,24 @@
+id: 17082
+game_id: 1243
+game_slug: call-of-duty-world-at-war
+name: 'Call of Duty: World at War'
+year: 2008
+user: murko678
+runner: winesteam
+slug: call-of-duty-world-at-war-change-me
+version: Change Me
+description: ''
+notes: ''
+created_at: '2019-11-29T09:21:07.495731Z'
+updated_at: '2019-11-29T09:21:07.495766Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 10090
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 10090

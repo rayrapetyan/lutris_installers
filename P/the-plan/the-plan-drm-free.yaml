@@ -1,0 +1,31 @@
+id: 3278
+game_id: 1882
+game_slug: the-plan
+name: The Plan
+year: 2013
+user: FakeShemp
+runner: linux
+slug: the-plan-drm-free
+version: DRM-free
+description: ''
+notes: ''
+created_at: '2017-02-18T18:04:59.888111Z'
+updated_at: '2017-03-23T11:48:22.185846Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 250600
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: The Plan.x86
+  installer:
+  - extract:
+      file: file1
+  - chmodx: $GAMEDIR/The Plan.x86
+  - chmodx: $GAMEDIR/The Plan.x86_64
+  exe64: The Plan.x86_64
+  files:
+  - file1: https://s3.amazonaws.com/theplangame/LINUX/ThePlan.zip

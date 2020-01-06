@@ -1,0 +1,28 @@
+id: 7931
+game_id: 17935
+game_slug: far-cry-5
+name: Far Cry 5
+year: 2018
+user: TuiorGames
+runner: winesteam
+slug: far-cry-5-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-04-18T14:01:12.870000Z'
+updated_at: '2019-02-14T06:06:15.534512Z'
+draft: false
+published: true
+published_by: 19464
+rating: '1'
+steamid: 552520
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  game:
+    appid: 552520
+    arch: win64

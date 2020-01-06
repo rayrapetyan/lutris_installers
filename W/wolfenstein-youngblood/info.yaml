@@ -1,0 +1,16 @@
+name: 'Wolfenstein: Youngblood'
+slug: wolfenstein-youngblood
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+aliases: []
+banner_url: /games/banner/wolfenstein-youngblood.jpg
+icon_url: null
+is_public: true
+updated: '2019-06-13T21:12:10.883985Z'
+steamid: 1056960
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,33 @@
+id: 4575
+game_id: 798
+game_slug: avernum-escape-from-the-pit
+name: 'Avernum: Escape From the Pit'
+year: null
+user: FakeShemp
+runner: wine
+slug: avernum-escape-from-the-pit-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-24T18:31:43.030000Z'
+updated_at: '2018-05-19T03:41:53.263237Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 208400
+gogid: 1420630484
+gogslug: avernum_escape_from_the_pit
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Spiderweb Software/Avernum - Escape From the Pit/Avernum.exe
+    arch: win32

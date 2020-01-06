@@ -1,0 +1,46 @@
+id: 2999
+game_id: 8420
+game_slug: maniaplanet
+name: Maniaplanet
+year: 2011
+user: Lucki
+runner: wine
+slug: maniaplanet-standalone
+version: Standalone
+description: null
+notes: ''
+created_at: '2016-11-13T00:32:24.867000Z'
+updated_at: '2019-09-09T01:53:16.255672Z'
+draft: false
+published: true
+published_by: 1
+rating: '5'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /silent
+      description: Installing Maniaplanet
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/ManiaPlanet/ManiaPlanetLauncher.exe
+    arch: win64
+  system:
+    env:
+      DXVK_HUD: 0
+  wine:
+    version: tkg-protonified-4.6-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - setup: http://files.v04.maniaplanet.com/setups/Maniaplanet_Setup.exe

@@ -1,0 +1,29 @@
+id: 2918
+game_id: 5495
+game_slug: the-adventures-of-square
+name: The Adventures of Square
+year: 2015
+user: dennisjj4
+runner: zdoom
+slug: the-adventures-of-square-14
+version: '1.4'
+description: null
+notes: ''
+created_at: '2016-10-19T02:48:18.560000Z'
+updated_at: '2018-05-06T07:11:57.096074Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: $download
+  files:
+  - download: http://adventuresofsquare.com/downloads/square-ep1-pk3-1.4.zip
+  game:
+    main_file: square1.pk3

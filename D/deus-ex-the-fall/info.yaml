@@ -1,0 +1,19 @@
+name: 'Deus Ex: The Fall'
+slug: deus-ex-the-fall
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: FPS
+- name: RPG
+- name: Shooter
+aliases: []
+banner_url: /games/banner/deus-ex-the-fall.jpg
+icon_url: /games/icon/deus-ex-the-fall.png
+is_public: true
+updated: '2019-01-23T08:29:10.862311Z'
+steamid: 258180
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,17 @@
+name: Survius
+slug: survius
+year: null
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Horror
+- name: Survival
+aliases: []
+banner_url: /games/banner/survius.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:31.936183Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

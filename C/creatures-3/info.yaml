@@ -1,0 +1,16 @@
+name: Creatures 3
+slug: creatures-3
+year: 1999
+platforms:
+- name: Windows
+genres:
+- name: Life simulation
+- name: Sandbox
+aliases: []
+banner_url: /games/banner/creatures-3.jpg
+icon_url: /games/icon/creatures-3.png
+is_public: true
+updated: '2019-01-23T08:29:00.400242Z'
+steamid: null
+gogslug: creatures_exodus
+humblestoreid: ''

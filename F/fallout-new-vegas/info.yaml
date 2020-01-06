@@ -1,0 +1,16 @@
+name: 'Fallout: New Vegas'
+slug: fallout-new-vegas
+year: 2010
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: RPG
+aliases: []
+banner_url: /games/banner/fallout-new-vegas.jpg
+icon_url: /games/icon/fallout-new-vegas.png
+is_public: true
+updated: '2019-01-23T08:29:28.193569Z'
+steamid: 22380
+gogslug: fallout_new_vegas_ultimate_edition
+humblestoreid: fallout-new-vegas-ultimate-edition

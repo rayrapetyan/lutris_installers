@@ -1,0 +1,15 @@
+name: Counter-Strike 2D
+slug: counter-strike-2d
+year: 2004
+platforms:
+- name: Linux
+genres:
+- name: Shooter
+aliases: []
+banner_url: /games/banner/counter-strike-2d.jpg
+icon_url: /games/icon/counter-strike-2d.png
+is_public: true
+updated: '2019-01-23T08:28:58.858562Z'
+steamid: 666220
+gogslug: ''
+humblestoreid: ''

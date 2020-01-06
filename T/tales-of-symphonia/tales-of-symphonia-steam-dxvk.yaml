@@ -1,0 +1,40 @@
+id: 9827
+game_id: 6703
+game_slug: tales-of-symphonia
+name: Tales of Symphonia
+year: 2003
+user: phantomgannon
+runner: winesteam
+slug: tales-of-symphonia-steam-dxvk
+version: Steam DXVK
+description: null
+notes: ''
+created_at: '2018-08-20T20:02:52.398000Z'
+updated_at: '2019-11-16T09:09:08.237665Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 372360
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: ge-protonified-nofshack-4.9-x86_64
+    esync: true
+    dxvk: true
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: allfonts
+      arch: win64
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 372360
+    arch: win64

@@ -1,0 +1,17 @@
+name: P.A.M.E.L.A.
+slug: pamela
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Horror
+- name: Sci-fi
+- name: Survival
+aliases: []
+banner_url: /games/banner/pamela.jpg
+icon_url: /games/icon/pamela.png
+is_public: true
+updated: '2019-07-23T03:43:00.257196Z'
+steamid: 427880
+gogslug: ''
+humblestoreid: ''

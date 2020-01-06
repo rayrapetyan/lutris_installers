@@ -1,0 +1,36 @@
+id: 4757
+game_id: 2380
+game_slug: signs-of-life
+name: Signs of Life
+year: null
+user: FakeShemp
+runner: wine
+slug: signs-of-life-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-07-03T08:31:54.757000Z'
+updated_at: '2018-05-19T03:41:54.526762Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 263200
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Signs of Life
+      file: $file1
+  - task:
+      prefix: $GAMEDIR
+      app: xna40
+      name: winetricks
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Signs of Life/Signs Of Life.exe
+    arch: win32

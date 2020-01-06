@@ -1,0 +1,34 @@
+id: 5726
+game_id: 1349
+game_slug: earth-2140
+name: Earth 2140
+year: null
+user: FakeShemp
+runner: wine
+slug: earth-2140-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-12T19:17:33.153000Z'
+updated_at: '2018-05-19T03:41:53.610685Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 253860
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      args: /S
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Reality Pump/Earth 2140/E2140.exe
+    arch: win32

@@ -1,0 +1,86 @@
+id: 10065
+game_id: 21509
+game_slug: battlefield-v
+name: Battlefield V
+year: 2018
+user: cxf
+runner: wine
+slug: battlefield-v-dxvk
+version: DXVK
+description: Only sets up Origin and DXVK you'll need to download Battlefield V manually.
+notes: 'Please read before installing: <a href="https://github.com/lutris/lutris/wiki/Game:-Origin">https://github.com/lutris/lutris/wiki/Game:-Origin</a>'
+created_at: '2018-09-06T08:57:27.079000Z'
+updated_at: '2019-04-15T05:42:02.461481Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - execute:
+      command: mkdir "$GAMEDIR/bfv-nv-shaders"
+  - input_menu:
+      options:
+      - Not needed for AMD. Ignore this.: AMD
+      - ? 'dxgi.customVendorId = 10de
+
+          dxgi.nvapiHack = False'
+        : Nvidia
+      description: 'Setting DXVK workarounds please choose your GPU:'
+      id: GPU
+      preselect: Not needed for AMD. Ignore this.
+  - write_file:
+      content: $INPUT_GPU
+      file: $GAMEDIR/dxvk.conf
+  - task:
+      prefix: $GAMEDIR
+      app: nocrashdialog vcrun2017 win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: client
+      prefix: $GAMEDIR
+      description: Installing Origin... Login window will pop-up and close.
+      arch: win64
+      args: /silent
+      exclude_processes: Origin.exe OriginClientService.exe OriginWebHelperService.exe
+        QtWebEngineProcess.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  - chmodx: updater
+  - merge:
+      src: updater
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Origin
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Origin/Origin.exe
+    arch: win64
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR/bfv-nv-shaders
+      STAGING_SHARED_MEMORY: '0'
+      DXVK_CONFIG_FILE: $GAMEDIR/dxvk.conf
+      DXVK_HUD: 0
+    disable_runtime: false
+    exclude_processes: QtWebEngineProcess.exe ActivationUI.exe OriginWebHelperService.exe
+  wine:
+    version: tkg-protonified-3.21-x86_64
+    overrides:
+      nvapi,nvapi64: disabled
+      xaudio2_7: native,builtin
+    dxvk: true
+  files:
+  - client: https://origin-a.akamaihd.net/Origin-Client-Download/origin/live/OriginThinSetup.exe
+  - updater: https://raw.githubusercontent.com/DrDoctor13/wine-origin-updater/master/updateorigin.sh

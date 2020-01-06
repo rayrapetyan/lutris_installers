@@ -1,0 +1,17 @@
+name: Strife (1996)
+slug: strife-1996
+year: 1996
+platforms:
+- name: Linux
+- name: MS-DOS
+genres:
+- name: FPS
+- name: RPG
+aliases: []
+banner_url: /games/banner/strife-1996.jpg
+icon_url: /games/icon/strife-1996.png
+is_public: true
+updated: '2019-01-23T08:31:28.248499Z'
+steamid: 317040
+gogslug: ''
+humblestoreid: ''

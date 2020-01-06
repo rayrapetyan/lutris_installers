@@ -1,0 +1,24 @@
+id: 2529
+game_id: 7191
+game_slug: 12-labours-of-hercules-iv-mother-nature
+name: '12 Labours of Hercules IV: Mother Nature'
+year: 2015
+user: linuxgnuru
+runner: winesteam
+slug: 12-labours-of-hercules-iv-mot-steam
+version: Steam
+description: ''
+notes: This won't run in 64bit linux so this is the steam windows version
+created_at: '2016-08-21T18:45:11.515896Z'
+updated_at: '2016-09-16T20:12:46.092303Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 396800
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 396800

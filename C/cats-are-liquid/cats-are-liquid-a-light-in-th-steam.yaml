@@ -1,0 +1,30 @@
+id: 12757
+game_id: 11217
+game_slug: cats-are-liquid
+name: Cats are Liquid - A Light in the Shadows
+year: 2015
+user: cgytrus
+runner: steam
+slug: cats-are-liquid-a-light-in-th-steam
+version: Steam
+description: null
+notes: 'When I ran the game first time - there was a bug - 1x1 resolution, so, if
+  you will have this issue, you should go to ~/.config/unity3d/LastQuarter Studios/Cats
+  are Liquid and open the "prefs" file in the text editor. Then you change the NUM
+  in this line, to change screen height: "<pref name="Screenmanager Resolution Height"
+  type="int">NUM</pref>", and NUM here, to change width: "<pref name="Screenmanager
+  Resolution Width" type="int">NUM</pref>" (or you can change NUM here to 1, to use
+  your native resolution: "<pref name="Screenmanager Resolution Use Native" type="int">NUM</pref>")'
+created_at: '2019-04-12T17:25:36.374000Z'
+updated_at: '2019-04-26T07:02:57.366211Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 498330
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 498330

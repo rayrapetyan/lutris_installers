@@ -1,0 +1,46 @@
+id: 15424
+game_id: 24021
+game_slug: tesla-effect-a-tex-murphy-adventure
+name: 'Tesla Effect: A Tex Murphy Adventure'
+year: 2014
+user: appoloin
+runner: wine
+slug: tesla-effect-a-tex-murphy-adv-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-09-09T16:46:23.233000Z'
+updated_at: '2019-10-06T21:11:13.893161Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: 1207664503
+gogslug: tesla_effect_a_tex_murphy_adventure
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Tesla Effect - A Tex Murphy Adventure/TeslaEffect.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      install_mono: false
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: corefonts
+      arch: win32
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  wine:
+    Desktop: true
+  files:
+  - setup: N/A:Select the game's setup exe

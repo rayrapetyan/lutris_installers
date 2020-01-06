@@ -1,0 +1,17 @@
+name: Pacific General
+slug: pacific-general
+year: 1997
+platforms:
+- name: Windows
+genres:
+- name: Historical
+- name: Strategy
+- name: Turn-based
+aliases: []
+banner_url: /games/banner/pacific-general.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:40.609424Z'
+steamid: null
+gogslug: pacific_general
+humblestoreid: ''

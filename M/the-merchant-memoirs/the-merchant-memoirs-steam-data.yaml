@@ -1,0 +1,32 @@
+id: 13693
+game_id: 15249
+game_slug: the-merchant-memoirs
+name: The Merchant Memoirs
+year: 2017
+user: kimchitea
+runner: linux
+slug: the-merchant-memoirs-steam-data
+version: Steam Data
+description: Native Linux version using Steam game data.
+notes: ''
+created_at: '2019-05-23T18:55:01.900000Z'
+updated_at: '2019-06-13T06:54:52.281714Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 726520
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Merchant_Memoirs.sh
+  installer:
+  - merge:
+      src: steam-data
+      dst: $GAMEDIR
+  - chmodx: $GAMEDIR/Merchant_Memoirs.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Merchant_Memoirs
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Merchant_Memoirs
+  files:
+  - steam-data: $STEAM:726520:/

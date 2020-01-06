@@ -1,0 +1,15 @@
+name: Singularity
+slug: singularity
+year: 2010
+platforms:
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/singularity.jpg
+icon_url: /games/icon/singularity.png
+is_public: true
+updated: '2019-11-18T03:56:27.436600Z'
+steamid: 42670
+gogslug: singularity
+humblestoreid: ''

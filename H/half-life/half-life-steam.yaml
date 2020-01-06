@@ -1,0 +1,24 @@
+id: 97
+game_id: 103
+game_slug: half-life
+name: Half-Life
+year: 1998
+user: Xodetaetl
+runner: steam
+slug: half-life-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2013-12-15T23:16:22.522000Z'
+updated_at: '2013-12-15T23:17:25.132000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 70
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 70

@@ -1,0 +1,24 @@
+id: 1896
+game_id: 180
+game_slug: fear-3
+name: F.E.A.R. 3
+year: null
+user: WildCoder
+runner: winesteam
+slug: fear-3-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-01-17T17:43:55.971257Z'
+updated_at: '2016-08-11T20:51:55.250633Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 21100
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 21100

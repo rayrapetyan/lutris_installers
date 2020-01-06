@@ -1,0 +1,19 @@
+name: 'Hitman: Contracts'
+slug: hitman-contracts
+year: 2004
+platforms:
+- name: Sony PlayStation 2
+- name: Windows
+genres:
+- name: Action
+- name: Stealth
+aliases:
+- slug: hitman-3-contracts
+  name: 'Hitman 3: Contracts'
+banner_url: /games/banner/hitman-contracts.jpg
+icon_url: /games/icon/hitman-contracts.png
+is_public: true
+updated: '2019-04-18T04:39:29.702914Z'
+steamid: 247430
+gogslug: hitman_contracts
+humblestoreid: ''

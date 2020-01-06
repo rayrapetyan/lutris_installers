@@ -1,0 +1,28 @@
+id: 3542
+game_id: 833
+game_slug: the-darkness-ii
+name: The Darkness II
+year: 2012
+user: strider
+runner: winesteam
+slug: the-darkness-ii-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-04-20T02:50:59.492000Z'
+updated_at: '2019-12-23T19:46:57.086420Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 67370
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: lutris-4.16-x86_64
+    dxvk: true
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 67370

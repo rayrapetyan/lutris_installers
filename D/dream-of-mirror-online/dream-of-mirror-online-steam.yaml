@@ -1,0 +1,24 @@
+id: 8219
+game_id: 4798
+game_slug: dream-of-mirror-online
+name: Dream Of Mirror Online
+year: null
+user: soredake
+runner: winesteam
+slug: dream-of-mirror-online-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T07:15:36.091165Z'
+updated_at: '2018-05-11T22:40:30.399235Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 335820
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 335820

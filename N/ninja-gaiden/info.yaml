@@ -1,0 +1,15 @@
+name: Ninja Gaiden
+slug: ninja-gaiden
+year: 1989
+platforms:
+- name: NES
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/ninja-gaiden.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:33.221275Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

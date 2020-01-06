@@ -1,0 +1,32 @@
+id: 6007
+game_id: 3534
+game_slug: coin-crypt
+name: Coin Crypt
+year: 2013
+user: FakeShemp
+runner: wine
+slug: coin-crypt-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-10-19T18:23:39.674170Z'
+updated_at: '2018-05-19T03:41:59.438113Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 264690
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR/drive_c/Program Files/Coin Crypt
+  files:
+  - file1: N/A:Please select the IndieGameStand executable
+  game:
+    prefix: $GAMEDIR
+    exe: $file1
+    arch: win32

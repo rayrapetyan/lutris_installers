@@ -1,0 +1,16 @@
+name: QuantZ
+slug: quantz
+year: 2009
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/quantz.jpg
+icon_url: /games/icon/quantz.png
+is_public: true
+updated: '2019-01-23T08:30:52.975980Z'
+steamid: 37800
+gogslug: ''
+humblestoreid: ''

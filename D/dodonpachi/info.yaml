@@ -1,0 +1,17 @@
+name: DoDonPachi
+slug: dodonpachi
+year: 1997
+platforms:
+- name: Arcade
+- name: Sega Saturn
+- name: Sony PlayStation
+genres:
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/dodonpachi.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-08T12:03:40.667059Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

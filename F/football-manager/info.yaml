@@ -1,0 +1,31 @@
+name: Football Manager
+slug: football-manager
+year: 1981
+platforms:
+- name: Amiga
+- name: Amstrad CPC 464
+- name: Amstrad CPC 6128
+- name: Atari 130XE
+- name: Atari 400
+- name: Atari 600XL
+- name: Atari 800
+- name: Atari 800XL
+- name: Commodore 16/Plus4
+- name: Commodore 64
+- name: Commodore VIC-20
+- name: MS-DOS
+- name: MSX
+- name: Sinclair Z81
+- name: ZX Spectrum
+genres:
+- name: Management
+- name: Simulation
+- name: Sports
+aliases: []
+banner_url: /games/banner/football-manager.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:33.024125Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

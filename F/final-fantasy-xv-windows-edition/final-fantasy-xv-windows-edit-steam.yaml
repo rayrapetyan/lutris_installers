@@ -1,0 +1,47 @@
+id: 8032
+game_id: 17545
+game_slug: final-fantasy-xv-windows-edition
+name: FINAL FANTASY XV WINDOWS EDITION
+year: 2018
+user: TuiorGames
+runner: winesteam
+slug: final-fantasy-xv-windows-edit-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-01T22:33:32.210000Z'
+updated_at: '2019-02-24T02:43:03.100974Z'
+draft: false
+published: true
+published_by: 19464
+rating: '1'
+steamid: 637650
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2015
+      arch: win64
+      name: winetricks
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  system:
+    env:
+      mesa_glthread: 'true'
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_STATE_CACHE: 1
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 637650
+    arch: win64

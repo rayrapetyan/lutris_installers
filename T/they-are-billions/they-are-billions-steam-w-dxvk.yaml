@@ -1,0 +1,78 @@
+id: 9858
+game_id: 16253
+game_slug: they-are-billions
+name: They Are Billions
+year: 2019
+user: neowinx
+runner: winesteam
+slug: they-are-billions-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2018-08-23T15:46:35.420000Z'
+updated_at: '2019-11-01T03:39:05.366439Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 644930
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Creating prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing corefonts
+      app: corefonts
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2017
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: d3dx11_42
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: d3dx11_43
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing .NET 4.7.2 (it may take a while)
+      app: dotnet472
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: gdiplus
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: win7
+      arch: win64
+      name: winetricks
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+    pulse_latency: true
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 644930
+    arch: win64

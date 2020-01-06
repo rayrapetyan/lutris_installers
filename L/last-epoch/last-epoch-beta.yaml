@@ -1,0 +1,31 @@
+id: 11504
+game_id: 25018
+game_slug: last-epoch
+name: Last Epoch
+year: null
+user: moars42
+runner: linux
+slug: last-epoch-beta
+version: BETA
+description: Installs the game launcher, you still need to have an account and buy
+  the game.
+notes: ''
+created_at: '2019-01-07T20:58:16.508000Z'
+updated_at: '2019-10-27T03:48:19.196552Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 899770
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: launcher
+  files:
+  - launcher: https://lastepochgame.com/wp-content/uploads/2018/09/launcher-linux.zip
+  game:
+    exe: $GAMEDIR/Launcher

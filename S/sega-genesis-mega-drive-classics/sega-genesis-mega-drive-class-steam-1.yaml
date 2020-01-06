@@ -1,0 +1,24 @@
+id: 8380
+game_id: 1255
+game_slug: sega-genesis-mega-drive-classics
+name: SEGA Genesis & Mega Drive Classics
+year: 2010
+user: oscararg
+runner: steam
+slug: sega-genesis-mega-drive-class-steam-1
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-22T18:40:42.325000Z'
+updated_at: '2018-05-24T07:14:31.463461Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 34270
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 34270

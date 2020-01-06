@@ -1,0 +1,20 @@
+name: Lego Star Wars The Complete Saga
+slug: lego-star-wars-the-complete-saga
+year: 2009
+platforms:
+- name: Nintendo DS
+- name: Nintendo Wii
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases:
+- slug: lego-star-wars-saga
+  name: Lego Star Wars Saga
+banner_url: /games/banner/lego-star-wars-the-complete-saga.jpg
+icon_url: /games/icon/lego-star-wars-the-complete-saga.png
+is_public: true
+updated: '2019-04-27T02:46:26.453205Z'
+steamid: 32440
+gogslug: lego_star_wars_the_complete_saga
+humblestoreid: ''

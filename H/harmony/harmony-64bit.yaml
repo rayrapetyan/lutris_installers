@@ -1,0 +1,38 @@
+id: 353
+game_id: 1592
+game_slug: harmony
+name: Harmony
+year: 2009
+user: strider
+runner: linux
+slug: harmony-64bit
+version: 64bit
+description: ''
+notes: '2015.04.08: Fixed no sound playing (changed audio backend to Alsa)'
+created_at: '2014-01-11T20:41:44.120000Z'
+updated_at: '2015-04-28T15:23:40.980000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: zdoom
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: harmony-game
+  - extract:
+      dst: $GAMEDIR
+      file: zdoom64
+  - write_config:
+      section: GlobalSettings
+      key: snd_output
+      value: alsa
+      file: $GAMEDIR/harm1.ini
+  files:
+  - harmony-game: http://www.evil-soft.com/Heretic/harmonyv1.1.zip
+  - zdoom64: http://lutris.net/files/games/zdoom/zdoom64.tar.gz

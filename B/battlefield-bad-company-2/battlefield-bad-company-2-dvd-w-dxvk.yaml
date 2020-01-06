@@ -1,0 +1,77 @@
+id: 10817
+game_id: 617
+game_slug: battlefield-bad-company-2
+name: 'Battlefield: Bad Company 2'
+year: 2010
+user: sbor
+runner: wine
+slug: battlefield-bad-company-2-dvd-w-dxvk
+version: DVD w/ DXVK
+description: null
+notes: ''
+created_at: '2018-11-09T15:05:41.551000Z'
+updated_at: '2019-02-14T05:00:51.379109Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 24960
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: Setup.exe
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Changing to Windows 7
+      app: win7
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing VisualC++ Runtime vcrun2005
+      app: vcrun2005
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing VisualC++ Runtime vcrun2008
+      app: vcrun2008
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing VisualC++ Runtime vcrun2010
+      app: vcrun2010 win7
+      arch: win32
+      name: winetricks
+  - task:
+      executable: $DISC/Autorun.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  - write_config:
+      section: Controls
+      key: bBackgroundMouse
+      value: '1'
+      file: $GAMEDIR/drive_c/users/$USER/My Documents/BFBC2/settings.ini
+  - write_config:
+      section: Graphics
+      key: DxVersion
+      value: 11
+      file: $GAMEDIR/drive_c/users/$USER/My Documents/BFBC2/settings.ini
+  system:
+    env:
+      DXVK_HUD: 0
+  wine:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Electronic Arts/Battlefield Bad Company 2/BFBC2Updater.exe
+    arch: win32

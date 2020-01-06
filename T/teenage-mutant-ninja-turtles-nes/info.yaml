@@ -1,0 +1,16 @@
+name: Teenage Mutant Ninja Turtles (NES)
+slug: teenage-mutant-ninja-turtles-nes
+year: 1989
+platforms:
+- name: NES
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/teenage-mutant-ninja-turtles-nes.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:36.246953Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

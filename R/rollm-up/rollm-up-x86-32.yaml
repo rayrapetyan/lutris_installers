@@ -1,0 +1,47 @@
+id: 2686
+game_id: 7609
+game_slug: rollm-up
+name: Roll'm Up
+year: 1999
+user: ssf
+runner: linux
+slug: rollm-up-x86-32
+version: x86-32
+description: null
+notes: 'req: ar(GNU coreutils)'
+created_at: '2016-09-05T19:37:44.412339Z'
+updated_at: '2017-11-27T01:56:18.389010Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: start.sh
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $game
+  - chmodx: $GAMEDIR/Rollemup
+  - execute:
+      args: -c "cd $CACHE && ar x  libstdc++2.8_2.90.29-2.deb data.tar.gz"
+      file: /bin/sh
+      terminal: true
+  - extract:
+      dst: $CACHE
+      file: $CACHE/data.tar.gz
+  - move:
+      src: $CACHE/lib
+      dst: $GAMEDIR/lib
+  - execute:
+      args: -c "printf '#!/bin/sh\ncd $GAMEDIR\nLD_PRELOAD=lib/libstdc++.so.2.8.0
+        ./Rollemup \"$$@\"'>$GAMEDIR/start.sh"
+      file: /bin/sh
+      terminal: true
+  - chmodx: $GAMEDIR/start.sh
+  files:
+  - game: http://www.pro-linux.de/files/rollemup/Rollemup.tar.gz
+  - libstdc++2.8_2.90.29-2.deb: http://archive.debian.org/debian/dists/potato/main/binary-i386/oldlibs/libstdc++2.8_2.90.29-2.deb

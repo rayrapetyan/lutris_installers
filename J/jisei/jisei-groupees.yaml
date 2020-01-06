@@ -1,0 +1,28 @@
+id: 5586
+game_id: 3919
+game_slug: jisei
+name: Jisei
+year: 2010
+user: FakeShemp
+runner: linux
+slug: jisei-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-04T19:24:07.988150Z'
+updated_at: '2017-09-04T19:25:12.949857Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 754460
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: jisei.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive

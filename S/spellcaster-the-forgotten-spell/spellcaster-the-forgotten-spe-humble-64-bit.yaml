@@ -1,0 +1,29 @@
+id: 9420
+game_id: 20446
+game_slug: spellcaster-the-forgotten-spell
+name: 'Spellcaster: The Forgotten Spell'
+year: 2014
+user: kimchitea
+runner: linux
+slug: spellcaster-the-forgotten-spe-humble-64-bit
+version: Humble (64-bit)
+description: null
+notes: ''
+created_at: '2018-07-27T22:22:35.700000Z'
+updated_at: '2018-07-28T04:22:58.743615Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Spellcaster - The Forgotten Spell.x86_64
+  installer:
+  - extract:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble archive

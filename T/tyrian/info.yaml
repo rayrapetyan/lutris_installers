@@ -1,0 +1,15 @@
+name: Tyrian
+slug: tyrian
+year: 1995
+platforms:
+- name: Linux
+genres:
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/tyrian.jpg
+icon_url: /games/icon/tyrian.png
+is_public: true
+updated: '2019-01-23T08:31:57.808489Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

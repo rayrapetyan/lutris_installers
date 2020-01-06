@@ -1,0 +1,41 @@
+id: 2711
+game_id: 7628
+game_slug: netpanzer
+name: netPanzer
+year: null
+user: ssf
+runner: linux
+slug: netpanzer-087-x86
+version: 0.8.7 - x86
+description: ''
+notes: ''
+created_at: '2016-09-08T17:28:28.163913Z'
+updated_at: '2016-09-09T19:48:11.671764Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: start.sh
+  installer:
+  - extract:
+      format: zip
+      description: extracting...
+      file: $game
+      dst: $GAMEDIR
+  - execute:
+      args: -c "chmod +x $GAMEDIR/netpanzer-x*"
+      file: /bin/sh
+      terminal: true
+  - execute:
+      args: -c "printf '#!/bin/sh\ncd $GAMEDIR\nif [ \"$$(uname -m)\" = \"x86_64\"
+        ]\nthen\n./netpanzer-x64 \"$$@\"\nelse\n./netpanzer-x32 \"$$@\"\nfi'>$GAMEDIR/start.sh"
+      file: /bin/sh
+      terminal: true
+  - chmodx: $GAMEDIR/start.sh
+  files:
+  - game: http://www.netpanzer.info/Download/NetPanzer/Releases/0.8.7/netpanzer-0.8.7-Ubuntu_x32-x64_portable.zip

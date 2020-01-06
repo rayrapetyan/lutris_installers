@@ -1,0 +1,95 @@
+id: 17081
+game_id: 22972
+game_slug: af
+name: Affinity Designer
+year: 2014
+user: WarfaceZ
+runner: wine
+slug: affinity-designer-173
+version: 1.7.3
+description: null
+notes: Loading screen is black
+created_at: '2019-11-29T08:04:53.466000Z'
+updated_at: '2020-01-01T11:48:41.944509Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 64bit Wine prefix.
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Arial font
+      app: arial
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .NET 3.5 SP1 will take a while...
+      app: dotnet35sp1
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .NET 4.7.2 will take a while...
+      app: dotnet472
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows 10 mode for Wine
+      arch: win64
+      key: Version
+      value: win10
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      description: 'Wine Staging: Enabling DXVA2'
+      arch: win64
+      key: backend
+      value: va
+      path: HKEY_CURRENT_USER\Software\Wine\DXVA2
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Affinity/Designer/Designer.exe
+    arch: win64
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      STAGING_SHARED_MEMORY: 1
+      DXVK_HUD: compiler
+      __GL_SHADER_DISK_CACHE: 1
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+  wine:
+    version: lutris-vkchildwindow-5.0-rc2-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      ucrtbase: n,b
+      nvapi64: disabled
+      nvapi: disabled
+      d3d12: disabled
+  files:
+  - setup: N/A:Select Affinity designer installer

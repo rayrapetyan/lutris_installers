@@ -1,0 +1,44 @@
+id: 6773
+game_id: 6133
+game_slug: collapse
+name: Collapse
+year: null
+user: soredake
+runner: winesteam
+slug: collapse-steam
+version: Steam
+description: null
+notes: Game works only in windows 95-98 mode, otherwise crashes
+created_at: '2017-12-23T20:41:17.911000Z'
+updated_at: '2019-12-22T11:29:19.162403Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 289620
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Setting version to 98 for collapse.exe...
+      arch: win32
+      key: Version
+      value: win98
+      path: HKEY_CURRENT_USER\Software\Wine\AppDefaults\collapse.exe
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: wmp10
+      arch: win32
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 289620
+    arch: win32

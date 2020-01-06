@@ -1,0 +1,16 @@
+name: Octodad
+slug: octodad
+year: 2011
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/octodad.jpg
+icon_url: /games/icon/octodad.png
+is_public: true
+updated: '2019-01-23T08:30:35.348255Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

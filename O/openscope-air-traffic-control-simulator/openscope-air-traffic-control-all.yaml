@@ -1,0 +1,23 @@
+id: 17159
+game_id: 26150
+game_slug: openscope-air-traffic-control-simulator
+name: openScope Air Traffic Control Simulator
+year: null
+user: Controll_Alex
+runner: browser
+slug: openscope-air-traffic-control-all
+version: All
+description: Nothing to say.
+notes: Nothing to say.
+created_at: '2019-12-02T23:09:43.247000Z'
+updated_at: '2019-12-22T19:24:42.517478Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://www.openscope.co/

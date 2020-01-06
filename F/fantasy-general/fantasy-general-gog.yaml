@@ -1,0 +1,35 @@
+id: 4414
+game_id: 10589
+game_slug: fantasy-general
+name: Fantasy General
+year: 1996
+user: jungerreicherGee
+runner: linux
+slug: fantasy-general-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2017-06-16T23:02:09.072000Z'
+updated_at: '2019-03-31T05:38:45.111059Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: 1430136345
+gogslug: fantasy_general
+humblestoreid: ''
+script:
+  exe: game/start.sh
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

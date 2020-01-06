@@ -1,0 +1,21 @@
+name: Eldevin
+slug: eldevin
+year: 2014
+platforms:
+- name: Browser
+- name: Linux
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Casual
+- name: MMORPG
+- name: RPG
+aliases: []
+banner_url: /games/banner/eldevin.jpg
+icon_url: /games/icon/eldevin.png
+is_public: true
+updated: '2019-01-23T08:29:21.862420Z'
+steamid: 298160
+gogslug: ''
+humblestoreid: ''

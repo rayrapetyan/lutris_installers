@@ -1,0 +1,31 @@
+id: 5642
+game_id: 2145
+game_slug: volt
+name: Volt
+year: null
+user: FakeShemp
+runner: linux
+slug: volt-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-09T20:55:37.580615Z'
+updated_at: '2017-09-09T20:56:46.248735Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 290280
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: volt.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/volt.x86
+  - chmodx: $GAMEDIR/volt.x86_64
+  exe64: volt.x86_64
+  files:
+  - file1: N/A:Please select the Groupees archive

@@ -1,0 +1,17 @@
+name: Apache Longbow
+slug: apache-longbow
+year: 1995
+platforms:
+- name: Windows
+genres:
+- name: Combat
+- name: Modern
+- name: Simulation
+aliases: []
+banner_url: /games/banner/apache-longbow.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:23.111044Z'
+steamid: null
+gogslug: apache_longbow
+humblestoreid: ''

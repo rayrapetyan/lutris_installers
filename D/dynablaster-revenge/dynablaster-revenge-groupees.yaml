@@ -1,0 +1,29 @@
+id: 6695
+game_id: 2038
+game_slug: dynablaster-revenge
+name: Dynablaster Revenge
+year: 2014
+user: FakeShemp
+runner: linux
+slug: dynablaster-revenge-groupees
+version: Groupees
+description: null
+notes: ''
+created_at: '2017-12-16T20:44:26.903380Z'
+updated_at: '2017-12-16T20:45:55.763050Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: dynablaster_linux_x86
+  installer:
+  - extract:
+      file: $file1
+  exe64: dynablaster_linux_x64
+  files:
+  - file1: N/A:Please select the Groupees archive

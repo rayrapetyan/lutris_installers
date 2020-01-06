@@ -1,0 +1,16 @@
+name: Sky Rogue
+slug: sky-rogue
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Arcade
+- name: Flight
+aliases: []
+banner_url: /games/banner/sky-rogue.jpg
+icon_url: /games/icon/sky-rogue.png
+is_public: true
+updated: '2019-01-23T08:31:15.049544Z'
+steamid: 381020
+gogslug: ''
+humblestoreid: ''

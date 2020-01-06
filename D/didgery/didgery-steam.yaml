@@ -1,0 +1,24 @@
+id: 4131
+game_id: 10386
+game_slug: didgery
+name: Didgery
+year: null
+user: strider
+runner: winesteam
+slug: didgery-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-06-04T22:21:40.250980Z'
+updated_at: '2017-06-04T22:21:47.410406Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 429270
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 429270

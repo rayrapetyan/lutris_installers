@@ -1,0 +1,29 @@
+id: 2906
+game_id: 8097
+game_slug: prince-of-persia
+name: Prince of Persia
+year: 1989
+user: strider
+runner: linux
+slug: prince-of-persia-sdlpop
+version: SDLPoP
+description: An open-source port of Prince of Persia, based on the disassembly of
+  the DOS version.
+notes: Disable the Lutris runtime if sound effects have issues.
+created_at: '2016-10-17T03:36:49.747110Z'
+updated_at: '2016-10-17T03:40:17.398741Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: prince
+  installer:
+  - extract:
+      file: sdlpop
+  files:
+  - sdlpop: https://lutris.net/files/games/prince-of-persia/prince-of-persia-1.17-x86_64.tar.gz

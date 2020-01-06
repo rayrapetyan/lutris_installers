@@ -1,0 +1,15 @@
+name: Rochard
+slug: rochard
+year: 2011
+platforms:
+- name: Linux
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/rochard.jpg
+icon_url: /games/icon/rochard.png
+is_public: true
+updated: '2019-01-23T08:31:02.782944Z'
+steamid: 107800
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 7600
+game_id: 3096
+game_slug: dubwars
+name: DubWars
+year: 2016
+user: oscararg
+runner: steam
+slug: dubwars-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-19T04:21:29.465904Z'
+updated_at: '2018-03-20T04:18:25.272348Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 290000
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 290000

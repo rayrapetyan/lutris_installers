@@ -1,0 +1,108 @@
+id: 11203
+game_id: 5390
+game_slug: gog-galaxy
+name: GOG Galaxy
+year: 2014
+user: soredake
+runner: wine
+slug: gog-galaxy-gog-galaxy-20-all-in
+version: GOG Galaxy 2.0 All-in-One
+description: DXVK + esync + fsync + game fixes
+notes: "Now work:\r\n- Crysis 1\r\n- Vampire: The Masquerade - Bloodlines\r\n\r\n\
+  VA-11 Hall-A: Cyberpunk Bartender Action and Undertale crash with overlay in-game\
+  \ enabled."
+created_at: '2018-12-12T12:54:51.788000Z'
+updated_at: '2019-12-27T11:15:56.294623Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: galaxy
+      prefix: $GAMEDIR
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Setting wine version to xp for Crysis.exe
+      arch: win64
+      key: Version
+      value: winxp64
+      path: HKEY_CURRENT_USER\Software\Wine\AppDefaults\Crysis.exe
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      description: Setting wine version to xp for Crysis64.exe
+      arch: win64
+      key: Version
+      value: winxp64
+      path: HKEY_CURRENT_USER\Software\Wine\AppDefaults\Crysis64.exe
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      description: Setting ddraw to native for FALLOUT2.EXE (sfall)
+      arch: win64
+      key: ddraw
+      value: native
+      path: HKEY_CURRENT_USER\Software\Wine\AppDefaults\FALLOUT2.EXE\DllOverrides
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      description: Setting ddraw to native for FALLOUTW.exe (sfall)
+      arch: win64
+      key: ddraw
+      value: native
+      path: HKEY_CURRENT_USER\Software\Wine\AppDefaults\FALLOUTW.exe\DllOverrides
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      description: Setting dbghelp to native,builtin for Vampire.exe (Vampire The
+        Masquerade - Bloodlines)
+      arch: win64
+      key: dbghelp
+      value: native,builtin
+      path: HKEY_CURRENT_USER\Software\Wine\AppDefaults\Vampire.exe\DllOverrides
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      description: Setting winegstreamer to null for Game.exe (Mafia 1)
+      arch: win64
+      key: winegstreamer
+      value: null
+      path: HKEY_CURRENT_USER\Software\Wine\AppDefaults\Game.exe\DllOverrides
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      description: Installing needed libraries
+      app: corefonts vcrun6 d3dcompiler_43 d3dcompiler_47 d3dx9 d3dx10_43 win7
+      arch: win64
+      name: winetricks
+  game:
+    prefix: $GAMEDIR
+    args: /runWithoutUpdating /deelevated
+    exe: drive_c/Program Files (x86)/GOG Galaxy/GalaxyClient.exe
+    arch: win64
+  system:
+    env:
+      PROTON_FSHACK_INTEGER_SCALING: '1'
+      WINEFSYNC: '1'
+      STAGING_SHARED_MEMORY: '1'
+      DXVK_HUD: compiler
+      WINE_LARGE_ADDRESS_AWARE: '1'
+    restore_gamma: true
+  wine:
+    version: lutris-4.20-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - galaxy: 'N/A: Select GOG Galaxy 2.0 installer downloaded from https://www.gogalaxy.com/en'

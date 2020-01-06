@@ -1,0 +1,24 @@
+id: 2787
+game_id: 7752
+game_slug: ticks-tales
+name: Tick's Tales
+year: 2016
+user: Lulu
+runner: steam
+slug: ticks-tales-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-09-27T18:21:01.528526Z'
+updated_at: '2016-09-30T19:51:14.317946Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 411610
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 411610

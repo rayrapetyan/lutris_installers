@@ -1,0 +1,40 @@
+id: 9625
+game_id: 17623
+game_slug: tibia
+name: Tibia
+year: 1995
+user: duhow
+runner: wine
+slug: tibia-112
+version: '11.2'
+description: null
+notes: Might not run due to BattlEye anti-cheat engine.
+created_at: '2018-08-07T11:20:17.186000Z'
+updated_at: '2019-09-09T00:43:08.962697Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/users/$USER/Local Settings/Application Data/Tibia/Tibia.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Changing to Windows 7
+      app: win7
+      name: winetricks
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      args: /S
+      name: wineexec
+  wine:
+    version: staging-3.12-x86_64
+  files:
+  - installer: https://static.tibia.com/download/Tibia_Setup.exe

@@ -1,0 +1,40 @@
+id: 12022
+game_id: 25777
+game_slug: lilium-x-triangle
+name: Lilium x Triangle
+year: 2019
+user: kimchitea
+runner: wine
+slug: lilium-x-triangle-jast-usa
+version: JAST USA
+description: null
+notes: ''
+created_at: '2019-02-15T10:07:56.989000Z'
+updated_at: '2019-02-19T03:34:38.989644Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $game
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Installing fonts with winetricks
+      app: allfonts
+      arch: win32
+      name: winetricks
+  files:
+  - game: N/A:Please select the JAST USA installer
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/JAST USA/LiliumTriangle/Lilium.exe
+    arch: win32

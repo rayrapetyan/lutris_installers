@@ -1,0 +1,21 @@
+name: Time Commando
+slug: time-commando
+year: 1996
+platforms:
+- name: MS-DOS
+- name: Sega Saturn
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Beat'em up
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/time-commando.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:50.662524Z'
+steamid: null
+gogslug: time_commando
+humblestoreid: ''

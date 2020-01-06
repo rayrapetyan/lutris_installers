@@ -1,0 +1,38 @@
+id: 5799
+game_id: 698
+game_slug: sherlock-holmes-the-mystery-of-the-mummy
+name: 'Sherlock Holmes: The Mystery of The Mummy'
+year: null
+user: FakeShemp
+runner: wine
+slug: sherlock-holmes-the-mystery-o-groupees-1
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-18T19:05:47.277000Z'
+updated_at: '2018-05-19T03:41:53.526145Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 11130
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/SH1-EN_setup.exe
+      prefix: $GAMEDIR
+      args: /sp- /verysilent /norestart /suppressmsgboxes /nogui
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: "drive_c/Program Files/Frogwares/Sherlock Holmes \u2013 The Mystery of the\
+      \ Mummy/tmotm.exe"
+    arch: win32

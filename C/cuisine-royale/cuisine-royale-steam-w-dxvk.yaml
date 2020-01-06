@@ -1,0 +1,30 @@
+id: 8787
+game_id: 19358
+game_slug: cuisine-royale
+name: Cuisine Royale
+year: 2018
+user: Amosar
+runner: winesteam
+slug: cuisine-royale-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: Doesn't work due to anti cheat
+created_at: '2018-06-18T18:59:08.065000Z'
+updated_at: '2019-02-14T05:35:14.691194Z'
+draft: false
+published: true
+published_by: 19464
+rating: '1'
+steamid: 884660
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    appid: 884660

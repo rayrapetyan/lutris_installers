@@ -1,0 +1,17 @@
+name: 'Moebius: Empire Rising'
+slug: moebius-empire-rising
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Detective-mystery
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/moebius-empire-rising.jpg
+icon_url: /games/icon/moebius-empire-rising.png
+is_public: false
+updated: '2019-01-23T08:30:25.455240Z'
+steamid: 264520
+gogslug: moebius
+humblestoreid: ''

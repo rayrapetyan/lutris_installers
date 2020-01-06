@@ -1,0 +1,28 @@
+id: 5041
+game_id: 12230
+game_slug: sweet-and-spices
+name: Sweet and Spices
+year: 2016
+user: FakeShemp
+runner: linux
+slug: sweet-and-spices-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-07-13T20:34:03.167864Z'
+updated_at: '2017-08-27T21:49:26.152987Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Sweet & Spices.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

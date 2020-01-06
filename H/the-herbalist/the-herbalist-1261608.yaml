@@ -1,0 +1,28 @@
+id: 3277
+game_id: 9346
+game_slug: the-herbalist
+name: The Herbalist
+year: 2016
+user: FakeShemp
+runner: linux
+slug: the-herbalist-1261608
+version: 1.2.6.1608
+description: ''
+notes: ''
+created_at: '2017-02-18T17:47:34.595000Z'
+updated_at: '2017-08-15T04:21:56.865406Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 542260
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: travnica.sh
+  installer:
+  - extract:
+      file: file1
+  files:
+  - file1: https://download.moonworks.ru/travnica-1.2.6.1608-linux-nosteam.tar.bz2

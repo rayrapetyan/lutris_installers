@@ -1,0 +1,24 @@
+id: 8455
+game_id: 19005
+game_slug: solstice-chronicles-mia
+name: 'Solstice Chronicles: MIA'
+year: 2017
+user: TuiorGames
+runner: steam
+slug: solstice-chronicles-mia-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-29T11:39:48.236556Z'
+updated_at: '2018-05-30T06:19:58.044050Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 528160
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 528160

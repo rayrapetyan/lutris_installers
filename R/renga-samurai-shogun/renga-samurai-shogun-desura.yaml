@@ -1,0 +1,32 @@
+id: 6730
+game_id: 13972
+game_slug: renga-samurai-shogun
+name: Renga Samurai Shogun
+year: 2013
+user: FakeShemp
+runner: wine
+slug: renga-samurai-shogun-desura
+version: Desura
+description: null
+notes: ''
+created_at: '2017-12-19T22:30:52.955000Z'
+updated_at: '2018-05-19T03:42:00.106508Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR/drive_c/Program Files/Renga Samurai Shogun
+  files:
+  - file1: N/A:Please select the Desura executable
+  game:
+    prefix: $GAMEDIR
+    exe: file1
+    arch: win32

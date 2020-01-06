@@ -1,0 +1,32 @@
+id: 5388
+game_id: 3860
+game_slug: millennium-5-the-battle-of-the-millennium
+name: Millennium 5 - The Battle of the Millennium
+year: null
+user: FakeShemp
+runner: wine
+slug: millennium-5-the-battle-of-th-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-13T19:51:29.328596Z'
+updated_at: '2018-05-19T03:41:58.132006Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 298850
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Millennium 5
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Millennium 5/MM5.exe
+    arch: win32

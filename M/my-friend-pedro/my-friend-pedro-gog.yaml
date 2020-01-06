@@ -1,0 +1,45 @@
+id: 14233
+game_id: 27814
+game_slug: my-friend-pedro
+name: My Friend Pedro
+year: 2019
+user: dekart811
+runner: wine
+slug: my-friend-pedro-gog
+version: GOG
+description: null
+notes: The installer will complain 3 times with various indices out of range errors
+  at around 95% complete. Click OK through each of these and it will install fine.
+created_at: '2019-06-21T00:14:00.334000Z'
+updated_at: '2019-06-22T18:48:01.902966Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 557340
+gogid: 1102856701
+gogslug: my_friend_pedro
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /SP- /NOCANCEL /SUPPRESSMSGBOXES
+      description: Installing My Friend Pedro
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/My Friend Pedro/My Friend Pedro - Blood Bullets Bananas.exe
+    arch: win64
+  system:
+    env:
+      DXVK_HUD: compiler
+  wine:
+    dxvk: true
+  files:
+  - setup: N/A:Select the game's setup file

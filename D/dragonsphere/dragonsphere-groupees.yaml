@@ -1,0 +1,54 @@
+id: 5492
+game_id: 3444
+game_slug: dragonsphere
+name: Dragonsphere
+year: 1994
+user: FakeShemp
+runner: dosbox
+slug: dragonsphere-groupees
+version: Groupees
+description: Uses the files from the Windows installer from Groupees.
+notes: ''
+created_at: '2017-08-22T18:31:32.536000Z'
+updated_at: '2017-08-27T00:52:33.417817Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 327940
+gogid: 1207658927
+gogslug: dragonsphere
+humblestoreid: ''
+script:
+  main_file: DOSBOX/dosboxDragonsphere_single.conf
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - extract:
+      dst: $CACHE
+      file: $file2
+  - execute:
+      args: -d "$CACHE" "$CACHE/setup_dragonsphere.exe"
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/app
+      dst: $GAMEDIR
+  - merge:
+      src: $GAMEDIR/dosboxDragonsphere_single.conf
+      dst: $GAMEDIR/DOSBOX
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/dosboxDragonsphere.conf
+  - write_config:
+      section: sdl
+      key: fullscreen
+      value: false
+      file: $GAMEDIR/dosboxDragonsphere.conf
+  files:
+  - file1: N/A:Please select the Groupees archive
+  - file2: https://lutris.net/files/tools/innoextract.tar.gz
+  game:
+    config_file: $GAMEDIR/dosboxDragonsphere.conf

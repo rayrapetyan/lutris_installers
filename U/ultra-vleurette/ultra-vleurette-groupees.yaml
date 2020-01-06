@@ -1,0 +1,32 @@
+id: 4310
+game_id: 11701
+game_slug: ultra-vleurette
+name: Ultra Vleurette
+year: 2016
+user: FakeShemp
+runner: wine
+slug: ultra-vleurette-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-06-12T16:35:06.716000Z'
+updated_at: '2018-05-19T03:41:50.325231Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Ultra Vleurette
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Ultra Vleurette/Ultra Vleurette.exe
+    arch: win32

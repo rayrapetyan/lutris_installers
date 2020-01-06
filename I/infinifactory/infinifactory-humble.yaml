@@ -1,0 +1,31 @@
+id: 4012
+game_id: 4322
+game_slug: infinifactory
+name: Infinifactory
+year: null
+user: FakeShemp
+runner: linux
+slug: infinifactory-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-31T16:41:42.500440Z'
+updated_at: '2017-06-04T22:14:40.072342Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 300570
+gogid: 1436435983
+gogslug: infinifactory
+humblestoreid: ''
+script:
+  exe: infinifactory.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/infinifactory.x86
+  - chmodx: $GAMEDIR/infinifactory.x86_64
+  exe64: infinifactory.x86_64
+  files:
+  - file1: N/A:Please select the Humble archive

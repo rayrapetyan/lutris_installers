@@ -1,0 +1,24 @@
+id: 10868
+game_id: 14190
+game_slug: world-war-ii-online
+name: World War II Online
+year: null
+user: Caydel
+runner: winesteam
+slug: world-war-ii-online-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-11-14T20:17:12.922000Z'
+updated_at: '2018-11-18T08:47:04.184490Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 251950
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 251950

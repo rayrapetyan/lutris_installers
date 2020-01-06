@@ -1,0 +1,17 @@
+name: The World Next Door
+slug: the-world-next-door
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Narrative
+aliases: []
+banner_url: /games/banner/the-world-next-door.jpg
+icon_url: null
+is_public: true
+updated: '2019-10-18T07:55:13.535565Z'
+steamid: 755470
+gogslug: the_world_next_door
+humblestoreid: ''

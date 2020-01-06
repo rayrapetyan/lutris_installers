@@ -1,0 +1,35 @@
+id: 6516
+game_id: 1313
+game_slug: fallout-2
+name: Fallout 2
+year: 1998
+user: soredake
+runner: wine
+slug: fallout-2-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2017-12-01T19:46:08.524000Z'
+updated_at: '2018-12-11T08:12:29.091603Z'
+draft: false
+published: true
+published_by: 20548
+rating: platinum
+steamid: 38410
+gogid: 1440166436
+gogslug: fallout_2
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      args: /silent /nogui /suppressmsgboxes
+      arch: win64
+      name: wineexec
+  files:
+  - installer: N/A:Select the Windows installer provided by GOG
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Fallout 2/fallout2.exe
+    arch: win64

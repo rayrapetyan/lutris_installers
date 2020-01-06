@@ -1,0 +1,30 @@
+id: 1433
+game_id: 4098
+game_slug: horsegame
+name: HorseGame
+year: null
+user: djazz
+runner: linux
+slug: horsegame-demo-64-bit
+version: Demo 64-bit
+description: null
+notes: ''
+created_at: '2015-03-22T14:44:32.756000Z'
+updated_at: '2019-03-23T15:08:48.976040Z'
+draft: false
+published: true
+published_by: 2045
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: tgz
+      file: game
+  - chmodx: HorseGame - U4.3 - Linux 64.x86_64
+  exe64: HorseGame - U4.3 - Linux 64.x86_64
+  files:
+  - game: http://download.equidev.net/HorseGame%20U4.3%20-%20Linux%2064.tar.gz

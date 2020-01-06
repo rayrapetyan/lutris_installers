@@ -1,0 +1,46 @@
+id: 8251
+game_id: 4168
+game_slug: grand-theft-auto-v
+name: Grand Theft Auto V
+year: 2013
+user: maltahl
+runner: winesteam
+slug: grand-theft-auto-v-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: On first launch, resolution in Grand Theft Auto may be a bit borked. Switch
+  game to borderless windowed mode in settings to workaround that.
+created_at: '2018-05-09T15:42:41.761000Z'
+updated_at: '2020-01-02T16:51:43.168487Z'
+draft: false
+published: true
+published_by: 51687
+rating: '4'
+steamid: 271590
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: arial
+      name: winetricks
+  winesteam:
+    version: lutris-fshack-5.0-rc2-x86_64
+    esync: false
+    dxvk: true
+    overrides:
+      winedbg.exe: d
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: compiler
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 271590
+    arch: win64

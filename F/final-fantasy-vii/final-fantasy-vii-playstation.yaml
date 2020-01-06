@@ -1,0 +1,39 @@
+id: 6685
+game_id: 1643
+game_slug: final-fantasy-vii
+name: Final Fantasy VII
+year: 1997
+user: FakeShemp
+runner: libretro
+slug: final-fantasy-vii-playstation
+version: PlayStation
+description: null
+notes: ''
+created_at: '2017-12-16T14:36:47.967944Z'
+updated_at: '2017-12-16T14:43:44.939704Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 39140
+gogid: null
+gogslug: ''
+humblestoreid: final-fantasy-vii
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  - merge:
+      src: file2
+      dst: $GAMEDIR
+  - merge:
+      src: file3
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the PlayStation CD1 image file
+  - file2: N/A:Please select the PlayStation CD2 image file
+  - file3: N/A:Please select the PlayStation CD3 image file
+  game:
+    core: mednafen_psx_hw
+    main_file: file1

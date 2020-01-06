@@ -1,0 +1,16 @@
+name: World War Z
+slug: world-war-z
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/world-war-z.jpg
+icon_url: null
+is_public: true
+updated: '2019-04-17T12:06:21.692935Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

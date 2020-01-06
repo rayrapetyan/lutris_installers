@@ -1,0 +1,28 @@
+id: 7635
+game_id: 9475
+game_slug: palinurus
+name: Palinurus
+year: 2015
+user: oscararg
+runner: linux
+slug: palinurus-itchio
+version: Itchio
+description: null
+notes: ''
+created_at: '2018-03-24T05:43:38.765152Z'
+updated_at: '2018-03-26T20:17:17.027359Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 458760
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Palinurus.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

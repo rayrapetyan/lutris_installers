@@ -1,0 +1,18 @@
+name: GreedFall
+slug: greedfall
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Role-playing
+- name: RPG
+aliases: []
+banner_url: /games/banner/greedfall.jpg
+icon_url: /games/icon/greedfall.png
+is_public: true
+updated: '2019-10-11T01:48:55.514650Z'
+steamid: 606880
+gogslug: ''
+humblestoreid: ''

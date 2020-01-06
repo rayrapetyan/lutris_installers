@@ -1,0 +1,35 @@
+id: 9469
+game_id: 19261
+game_slug: raft
+name: Raft
+year: 2018
+user: ShadowApex
+runner: winesteam
+slug: raft-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-29T20:00:12.970000Z'
+updated_at: '2019-02-16T04:25:58.506181Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 648800
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+  game:
+    appid: 648800
+    arch: win64

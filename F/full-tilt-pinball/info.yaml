@@ -1,0 +1,15 @@
+name: Full Tilt! Pinball
+slug: full-tilt-pinball
+year: 1995
+platforms:
+- name: Windows
+genres:
+- name: Pinball
+aliases: []
+banner_url: /games/banner/full-tilt-pinball.jpg
+icon_url: /games/icon/full-tilt-pinball.png
+is_public: true
+updated: '2019-01-23T08:29:36.278022Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

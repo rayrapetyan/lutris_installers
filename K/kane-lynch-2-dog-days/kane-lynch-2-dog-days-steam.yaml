@@ -1,0 +1,24 @@
+id: 7437
+game_id: 1341
+game_slug: kane-lynch-2-dog-days
+name: 'Kane & Lynch 2: Dog Days'
+year: null
+user: strider
+runner: winesteam
+slug: kane-lynch-2-dog-days-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-04T01:22:09.114314Z'
+updated_at: '2018-03-04T01:50:43.777514Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: 28000
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 28000

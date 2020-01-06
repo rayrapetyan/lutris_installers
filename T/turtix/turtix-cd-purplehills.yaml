@@ -1,0 +1,43 @@
+id: 12936
+game_id: 26856
+game_slug: turtix
+name: Turtix
+year: 2007
+user: nalquas
+runner: wine
+slug: turtix-cd-purplehills
+version: CD (Purplehills)
+description: Tested with a German Purplehills CD
+notes: "CD needs to be mounted for installation;\r\nCD only needed for installation"
+created_at: '2019-04-19T09:28:00.835000Z'
+updated_at: '2019-04-20T09:33:20.090451Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: Start.exe
+      message: Please insert your Turtix installation disc.
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: $DISC/Start.exe
+      prefix: $GAMEDIR
+      arch: win64
+      name: wineexec
+  system:
+    reset_desktop: true
+  wine:
+    version: tkg-4.6-x86_64
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Purplehills/Turtix/Turtix.exe
+    arch: win64

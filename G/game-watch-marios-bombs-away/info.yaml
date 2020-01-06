@@ -1,0 +1,15 @@
+name: 'Game & Watch: Mario''s Bombs Away'
+slug: game-watch-marios-bombs-away
+year: 1983
+platforms:
+- name: Arcade
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/game-watch-marios-bombs-away.jpg
+icon_url: null
+is_public: true
+updated: '2019-09-02T09:26:00.765047Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

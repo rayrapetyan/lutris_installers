@@ -1,0 +1,38 @@
+id: 2648
+game_id: 5289
+game_slug: dead-synchronicity-tomorrow-comes-today
+name: 'Dead Synchronicity: Tomorrow Comes Today'
+year: 2015
+user: ssf
+runner: linux
+slug: dead-synchronicity-tomorrow-c-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2016-08-31T18:27:55.040253Z'
+updated_at: '2016-09-16T20:11:40.072144Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 339190
+gogid: 1427188253
+gogslug: dead_synchronicity_tomorrow_comes_today
+humblestoreid: ''
+script:
+  exe: game/start.sh
+  gogid: dead_synchronicity_tomorrow_comes_today
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Please select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

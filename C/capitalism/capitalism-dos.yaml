@@ -1,0 +1,29 @@
+id: 5327
+game_id: 13480
+game_slug: capitalism
+name: Capitalism
+year: 1995
+user: 982956cb18969289f02e9560179efe7e
+runner: dosbox
+slug: capitalism-dos
+version: DOS
+description: ''
+notes: ''
+created_at: '2017-08-10T20:47:57.068000Z'
+updated_at: '2017-08-11T16:46:41.611739Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: CAPSTART.EXE
+  installer:
+  - extract:
+      file: capitalism-archive
+  files:
+  - capitalism-archive: N/A:Select the archive containing Civilization's install files.
+      It can be downloaded as abandonware.

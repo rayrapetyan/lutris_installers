@@ -1,0 +1,24 @@
+id: 16181
+game_id: 15124
+game_slug: session-skateboarding-sim-game
+name: 'Session: Skateboarding Sim Game'
+year: 2019
+user: cxf
+runner: steam
+slug: session-skateboarding-sim-gam-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-10-14T05:07:17.361345Z'
+updated_at: '2019-10-14T05:07:25.345872Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 861650
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 861650

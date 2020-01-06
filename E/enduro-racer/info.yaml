@@ -1,0 +1,19 @@
+name: Enduro Racer
+slug: enduro-racer
+year: 1986
+platforms:
+- name: Amstrad CPC 464
+- name: Arcade
+- name: Atari ST
+- name: Commodore 64
+- name: ZX Spectrum
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/enduro-racer.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:23.370005Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

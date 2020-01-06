@@ -1,0 +1,34 @@
+id: 2643
+game_id: 1686
+game_slug: chaos-on-deponia
+name: Chaos on Deponia
+year: 2012
+user: ssf
+runner: linux
+slug: chaos-on-deponia-gogcom
+version: GOG.com
+description: null
+notes: ''
+created_at: '2016-08-31T18:22:04.135000Z'
+updated_at: '2019-04-21T08:42:29.716212Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 220740
+gogid: 1207659124
+gogslug: deponia_2_chaos_on_deponia
+humblestoreid: chaos-on-deponia
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

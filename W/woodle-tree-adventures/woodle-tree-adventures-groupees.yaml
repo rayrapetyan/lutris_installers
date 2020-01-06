@@ -1,0 +1,33 @@
+id: 5811
+game_id: 2156
+game_slug: woodle-tree-adventures
+name: Woodle Tree Adventures
+year: null
+user: FakeShemp
+runner: wine
+slug: woodle-tree-adventures-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-19T17:35:51.897000Z'
+updated_at: '2018-05-19T03:41:58.781157Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 299460
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/WoodleTreeAdventures/WoodleTreeAdventures.exe
+    arch: win32

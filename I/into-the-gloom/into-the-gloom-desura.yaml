@@ -1,0 +1,32 @@
+id: 6993
+game_id: 4145
+game_slug: into-the-gloom
+name: Into The Gloom
+year: null
+user: FakeShemp
+runner: wine
+slug: into-the-gloom-desura
+version: Desura
+description: null
+notes: ''
+created_at: '2018-01-04T00:04:40.817510Z'
+updated_at: '2018-05-19T03:41:59.705337Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 342350
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Into The Gloom
+      file: $file1
+  files:
+  - file1: N/A:Please select the Desura archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Into The Gloom/ITGv1.3[JP][EN].exe
+    arch: win32

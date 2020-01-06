@@ -1,0 +1,18 @@
+name: World of Warcraft
+slug: world-of-warcraft
+year: 2004
+platforms:
+- name: Windows
+genres:
+- name: Exploration
+- name: MMO
+- name: MMORPG
+- name: RPG
+aliases: []
+banner_url: /games/banner/world-of-warcraft.jpg
+icon_url: /games/icon/world-of-warcraft.png
+is_public: true
+updated: '2019-11-16T08:42:12.341574Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

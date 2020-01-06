@@ -1,0 +1,37 @@
+id: 9494
+game_id: 20536
+game_slug: the-sagara-family
+name: The Sagara Family
+year: 2005
+user: kimchitea
+runner: wine
+slug: the-sagara-family-jast
+version: JAST
+description: null
+notes: ''
+created_at: '2018-07-31T06:14:10.698000Z'
+updated_at: '2018-07-31T18:52:39.316071Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/sagara-install-1.3.exe
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  files:
+  - file1: N/A:Please select the JAST USA archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/ZyX/The Sagara Family/SAGARAUS_MP3.EXE
+    arch: win32

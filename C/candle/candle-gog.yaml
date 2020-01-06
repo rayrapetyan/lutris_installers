@@ -1,0 +1,34 @@
+id: 16248
+game_id: 8934
+game_slug: candle
+name: Candle
+year: 2016
+user: Talvi
+runner: linux
+slug: candle-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-10-17T02:33:59.368616Z'
+updated_at: '2019-10-18T04:34:58.138316Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 420060
+gogid: 1411619402
+gogslug: candle
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

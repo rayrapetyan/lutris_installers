@@ -1,0 +1,24 @@
+id: 12864
+game_id: 1467
+game_slug: mutant-storm-reloaded
+name: Mutant Storm Reloaded
+year: null
+user: Testman42
+runner: steam
+slug: mutant-storm-reloaded-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-04-16T21:03:19.750000Z'
+updated_at: '2019-05-19T07:26:40.203372Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 110630
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 110630

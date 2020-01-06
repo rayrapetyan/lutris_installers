@@ -1,0 +1,19 @@
+name: Project Zomboid
+slug: project-zomboid
+year: 2013
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Action
+- name: Horror
+- name: Sandbox
+- name: Survival
+aliases: []
+banner_url: /games/banner/project-zomboid.jpg
+icon_url: /games/icon/project-zomboid.png
+is_public: true
+updated: '2019-01-23T08:30:50.684829Z'
+steamid: 108600
+gogslug: project_zomboid
+humblestoreid: ''

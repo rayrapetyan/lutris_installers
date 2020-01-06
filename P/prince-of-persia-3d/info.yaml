@@ -1,0 +1,18 @@
+name: Prince of Persia 3D
+slug: prince-of-persia-3d
+year: 1999
+platforms:
+- name: Sega Dreamcast
+- name: Windows
+genres:
+- name: Action
+- name: Platform
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/prince-of-persia-3d.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:49.266444Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

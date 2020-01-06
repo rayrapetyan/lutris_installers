@@ -1,0 +1,25 @@
+id: 8282
+game_id: 14302
+game_slug: under-night-in-birth-exelate
+name: UNDER NIGHT IN-BIRTH Exe:Late
+year: null
+user: Mar2ck
+runner: winesteam
+slug: under-night-in-birth-exelate-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-13T23:50:55.721005Z'
+updated_at: '2018-05-14T03:42:54.335303Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 452510
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 452510
+    arch: win32

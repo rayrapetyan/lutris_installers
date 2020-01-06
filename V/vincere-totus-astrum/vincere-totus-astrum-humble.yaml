@@ -1,0 +1,32 @@
+id: 4798
+game_id: 12067
+game_slug: vincere-totus-astrum
+name: Vincere Totus Astrum
+year: 2017
+user: FakeShemp
+runner: wine
+slug: vincere-totus-astrum-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-07-04T16:49:45.871007Z'
+updated_at: '2018-05-19T03:41:55.193073Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Vincere Totus Astrum
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Vincere Totus Astrum/VTA.exe
+    arch: win32

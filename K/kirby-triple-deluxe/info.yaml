@@ -1,0 +1,15 @@
+name: 'Kirby: Triple Deluxe'
+slug: kirby-triple-deluxe
+year: 2014
+platforms:
+- name: Nintendo 3DS
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/kirby-triple-deluxe.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:05.283845Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,31 @@
+id: 6312
+game_id: 14783
+game_slug: and-the-robot-horse-you-rode-in-on
+name: And the Robot Horse You Rode in On
+year: null
+user: FakeShemp
+runner: web
+slug: and-the-robot-horse-you-rode-vodo
+version: Vodo
+description: null
+notes: ''
+created_at: '2017-11-12T18:26:38.665000Z'
+updated_at: '2017-11-12T18:29:32.729737Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: $file1
+  web:
+    window_size: 1024x768
+  files:
+  - file1: N/A:Please select the Vodo archive
+  game:
+    main_file: $GAMEDIR/index.html

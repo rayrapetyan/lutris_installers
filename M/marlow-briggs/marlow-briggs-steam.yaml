@@ -1,0 +1,24 @@
+id: 2361
+game_id: 2655
+game_slug: marlow-briggs
+name: Marlow Briggs
+year: null
+user: RobLoach
+runner: winesteam
+slug: marlow-briggs-steam
+version: Steam
+description: ''
+notes: https://www.winehq.org/search?q=Marlow+Briggs
+created_at: '2016-07-27T05:10:25.610632Z'
+updated_at: '2016-09-09T22:20:56.535610Z'
+draft: false
+published: true
+published_by: null
+rating: '1'
+steamid: 249680
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 249680

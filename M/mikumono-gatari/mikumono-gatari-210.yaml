@@ -1,0 +1,28 @@
+id: 7992
+game_id: 17984
+game_slug: mikumono-gatari
+name: "MikuMono Gatari(\u30DF\u30AF\u3082\u306E\u304C\u305F\u308A\u3000\uFF5E\u30E6\
+  \u30E1\u3068\u305F\u3044\u305B\u3064\u306A\u3082\u306E\uFF5E)"
+year: 2012
+user: yossi
+runner: wine
+slug: mikumono-gatari-210
+version: '2.10'
+description: null
+notes: ''
+created_at: '2018-04-26T15:39:09.160000Z'
+updated_at: '2018-05-06T07:15:12.086942Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: file1
+  files:
+  - file1: http://www.peposoft.com/peposoft2010/GAME/MikuMono_Yume_2_10.zip

@@ -1,0 +1,19 @@
+name: Micro Machines 2 - Turbo Tournament
+slug: micro-machines-2-turbo-tournament
+year: 1996
+platforms:
+- name: Game Boy
+- name: MS-DOS
+- name: Sega Game Gear
+- name: Sega Genesis / Mega Drive
+- name: Super Nintendo
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/micro-machines-2-turbo-tournament.jpg
+icon_url: null
+is_public: true
+updated: '2019-07-20T02:51:35.321522Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

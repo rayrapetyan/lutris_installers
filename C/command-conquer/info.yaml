@@ -1,0 +1,19 @@
+name: Command & Conquer
+slug: command-conquer
+year: 1995
+platforms:
+- name: MS-DOS
+- name: Nintendo 64
+- name: Sega Saturn
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/command-conquer.jpg
+icon_url: /games/icon/command-conquer.png
+is_public: true
+updated: '2019-02-07T18:00:57.442262Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

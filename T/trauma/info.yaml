@@ -1,0 +1,15 @@
+name: TRAUMA
+slug: trauma
+year: 2011
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/trauma.jpg
+icon_url: /games/icon/trauma.png
+is_public: true
+updated: '2019-01-23T08:31:55.168053Z'
+steamid: 98100
+gogslug: ''
+humblestoreid: ''

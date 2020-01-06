@@ -1,0 +1,24 @@
+id: 10488
+game_id: 22152
+game_slug: airheart-tales-of-broken-wings
+name: AIRHEART - Tales of broken Wings
+year: 2018
+user: frakk
+runner: winesteam
+slug: airheart-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-10-12T11:21:01.614061Z'
+updated_at: '2018-10-14T06:09:52.820514Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 531180
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 531180

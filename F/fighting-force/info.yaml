@@ -1,0 +1,17 @@
+name: Fighting Force
+slug: fighting-force
+year: 1997
+platforms:
+- name: Nintendo 64
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Beat'em up
+aliases: []
+banner_url: /games/banner/fighting-force.jpg
+icon_url: null
+is_public: true
+updated: '2019-06-02T05:34:41.047863Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

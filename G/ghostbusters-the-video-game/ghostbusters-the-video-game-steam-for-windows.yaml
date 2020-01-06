@@ -1,0 +1,24 @@
+id: 1818
+game_id: 150
+game_slug: ghostbusters-the-video-game
+name: 'Ghostbusters: The Video Game'
+year: null
+user: RobLoach
+runner: winesteam
+slug: ghostbusters-the-video-game-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: https://appdb.winehq.org/objectManager.php?sClass=version&iId=25779
+created_at: '2016-01-05T06:32:47.501150Z'
+updated_at: '2016-01-06T21:49:36.710610Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 9870
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 9870

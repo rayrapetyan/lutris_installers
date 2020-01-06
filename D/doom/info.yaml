@@ -1,0 +1,15 @@
+name: DOOM
+slug: doom
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/doom.jpg
+icon_url: /games/icon/doom.png
+is_public: true
+updated: '2019-01-23T08:29:15.313048Z'
+steamid: 379720
+gogslug: ''
+humblestoreid: doom

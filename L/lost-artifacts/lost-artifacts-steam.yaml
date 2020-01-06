@@ -1,0 +1,24 @@
+id: 9066
+game_id: 19110
+game_slug: lost-artifacts
+name: Lost Artifacts
+year: null
+user: kimchitea
+runner: winesteam
+slug: lost-artifacts-steam
+version: Steam
+description: null
+notes: Many graphical glitches, including invisible characters and obstacles.
+created_at: '2018-07-07T03:05:29.184212Z'
+updated_at: '2018-07-07T07:43:56.492477Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 708150
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 708150

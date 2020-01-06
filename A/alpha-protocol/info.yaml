@@ -1,0 +1,15 @@
+name: Alpha Protocol
+slug: alpha-protocol
+year: 2010
+platforms:
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/alpha-protocol.jpg
+icon_url: /games/icon/alpha-protocol.png
+is_public: true
+updated: '2019-01-23T08:28:19.880544Z'
+steamid: 34010
+gogslug: ''
+humblestoreid: ''

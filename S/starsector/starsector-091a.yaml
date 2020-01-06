@@ -1,0 +1,35 @@
+id: 9279
+game_id: 20023
+game_slug: starsector
+name: Starsector
+year: 2010
+user: nulljdq
+runner: linux
+slug: starsector-091a
+version: 0.9.1a
+description: null
+notes: ''
+created_at: '2018-07-19T07:17:04.381000Z'
+updated_at: '2019-09-09T00:30:38.164417Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: $game
+  files:
+  - game: http://s3.amazonaws.com/fractalsoftworks/starsector/starsector_linux-0.9.1a-RC8.zip
+  game:
+    exe: jre_linux/bin/java
+    args: -server -XX:CompilerThreadPriority=1 -XX:+CompilerThreadHintNoPreempt -Djava.library.path=./native/linux
+      -Xms1536m -Xmx1536m -Xss1024k -classpath janino.jar:commons-compiler.jar:commons-compiler-jdk.jar:starfarer.api.jar:starfarer_obf.jar:jogg-0.0.7.jar:jorbis-0.0.15.jar:json.jar:lwjgl.jar:jinput.jar:log4j-1.2.9.jar:lwjgl_util.jar:fs.sound_obf.jar:fs.common_obf.jar:xstream-1.4.10.jar
+      -Dcom.fs.starfarer.settings.paths.saves=./saves -Dcom.fs.starfarer.settings.paths.screenshots=./screenshots
+      -Dcom.fs.starfarer.settings.paths.mods=./mods -Dcom.fs.starfarer.settings.paths.logs=.
+      com.fs.starfarer.StarfarerLauncher
+    working_dir: $GAMEDIR

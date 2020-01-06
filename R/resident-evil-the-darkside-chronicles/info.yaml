@@ -1,0 +1,16 @@
+name: 'Resident Evil: The Darkside Chronicles'
+slug: resident-evil-the-darkside-chronicles
+year: 2009
+platforms:
+- name: Nintendo Wii
+- name: Sony Playstation 3
+genres:
+- name: Shooter
+aliases: []
+banner_url: /games/banner/resident-evil-the-darkside-chronicles.jpg
+icon_url: null
+is_public: true
+updated: '2019-11-01T23:28:27.566295Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

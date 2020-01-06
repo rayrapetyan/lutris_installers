@@ -1,0 +1,24 @@
+id: 6093
+game_id: 5640
+game_slug: the-guild-gold-edition
+name: The Guild Gold Edition
+year: null
+user: husjon
+runner: winesteam
+slug: the-guild-gold-edition-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-10-23T21:34:10.761037Z'
+updated_at: '2017-10-30T01:01:41.579759Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 39520
+gogid: 1207658720
+gogslug: the_guild_gold_edition
+humblestoreid: ''
+script:
+  game:
+    appid: 39520

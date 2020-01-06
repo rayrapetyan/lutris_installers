@@ -1,0 +1,19 @@
+name: HITMAN
+slug: hitman
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: Stealth
+- name: Tactical shooter
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/hitman.jpg
+icon_url: /games/icon/hitman.png
+is_public: true
+updated: '2019-01-23T08:29:51.015462Z'
+steamid: 236870
+gogslug: ''
+humblestoreid: ''

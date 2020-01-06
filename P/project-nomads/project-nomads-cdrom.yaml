@@ -1,0 +1,53 @@
+id: 17527
+game_id: 30861
+game_slug: project-nomads
+name: Project Nomads
+year: 2002
+user: Maxattax
+runner: wine
+slug: project-nomads-cdrom
+version: CDROM
+description: Installs a patch including bugfixes and a nocd fix so the game will run
+  inside a Wine sandbox.
+notes: 'Sometimes the patch does not install correctly. If the game does not start,
+  try manually downloading the patch and overwriting `nomads.exe` with it from here:
+  https://anonfile.com/V5N0ScH2n5/nomads_exe'
+created_at: '2019-12-23T22:42:23.149000Z'
+updated_at: '2019-12-24T10:54:26.741571Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - insert-disc:
+      requires: Setup.exe
+  - task:
+      executable: $DISC/Setup.exe
+      prefix: $GAMEDIR
+      description: Installing Project Nomads. Do not install DirectX, check for upgrades,
+        or launch the game.
+      name: wineexec
+  - move:
+      src: $GAMEDIR/drive_c/Program Files/Project Nomads/Run/bin/win32/nomads.exe
+      description: Backing up original executable
+      dst: $GAMEDIR/drive_c/Program Files/Project Nomads/Run/bin/win32/nomads.bak.exe
+  - move:
+      src: patch
+      description: Installing patch
+      dst: $GAMEDIR/drive_c/Program Files/Project Nomads/Run/bin/win32/nomads.exe
+  files:
+  - patch: https://paste.rs/Wdw
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/Project Nomads/Run/bin/win32/nomads.exe
+    arch: win32

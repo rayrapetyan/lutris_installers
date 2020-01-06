@@ -1,0 +1,17 @@
+name: Cauldron
+slug: cauldron
+year: 1985
+platforms:
+- name: ZX Spectrum
+- name: ZX Spectrum 128
+genres:
+- name: Platform
+- name: Platformer
+aliases: []
+banner_url: /games/banner/cauldron.jpg
+icon_url: null
+is_public: true
+updated: '2019-11-01T23:34:51.341311Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,16 @@
+name: Star Wars Battlefront (2015)
+slug: star-wars-battlefront-2015
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Shooter
+aliases: []
+banner_url: /games/banner/star-wars-battlefront-2015.jpg
+icon_url: /games/icon/star-wars-battlefront-2015.png
+is_public: true
+updated: '2019-03-15T07:16:15.196446Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

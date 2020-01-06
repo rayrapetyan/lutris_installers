@@ -1,0 +1,24 @@
+id: 9684
+game_id: 10376
+game_slug: city-climber
+name: City Climber
+year: 2017
+user: hockdudu
+runner: steam
+slug: city-climber-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-11T09:37:05.514000Z'
+updated_at: '2018-08-11T21:27:30.355627Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 538840
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 538840

@@ -1,0 +1,24 @@
+id: 802
+game_id: 2575
+game_slug: kill-the-bad-guy
+name: Kill The Bad Guy
+year: null
+user: Xodetaetl
+runner: steam
+slug: kill-the-bad-guy-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T16:26:06.941000Z'
+updated_at: '2014-09-15T17:10:39.212000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 293940
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 293940

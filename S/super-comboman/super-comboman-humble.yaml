@@ -1,0 +1,32 @@
+id: 4691
+game_id: 3048
+game_slug: super-comboman
+name: Super Comboman
+year: null
+user: FakeShemp
+runner: wine
+slug: super-comboman-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-27T18:03:18.339756Z'
+updated_at: '2018-05-19T03:41:53.983536Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 250280
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Super Comboman
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Super Comboman/SCM.exe
+    arch: win32

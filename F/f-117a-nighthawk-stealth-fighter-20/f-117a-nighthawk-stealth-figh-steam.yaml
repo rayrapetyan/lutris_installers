@@ -1,0 +1,24 @@
+id: 3217
+game_id: 4804
+game_slug: f-117a-nighthawk-stealth-fighter-20
+name: F-117A Nighthawk Stealth Fighter 2.0
+year: 1991
+user: FakeShemp
+runner: steam
+slug: f-117a-nighthawk-stealth-figh-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-01-31T20:45:20.127374Z'
+updated_at: '2017-03-16T01:57:08.757743Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 328920
+gogid: 1207664473
+gogslug: f117a_nighthawk_stealth_fighter_20
+humblestoreid: ''
+script:
+  game:
+    appid: 328920

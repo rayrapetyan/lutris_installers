@@ -1,0 +1,17 @@
+name: 'Pillars of Eternity II: Deadfire'
+slug: pillars-of-eternity-ii-deadfire
+year: 2018
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/pillars-of-eternity-ii-deadfire.jpg
+icon_url: /games/icon/pillars-of-eternity-ii-deadfire.png
+is_public: true
+updated: '2019-02-09T22:56:27.033236Z'
+steamid: 560130
+gogslug: pillars_of_eternity_2_game
+humblestoreid: ''

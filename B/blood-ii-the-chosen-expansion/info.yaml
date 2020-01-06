@@ -1,0 +1,15 @@
+name: 'Blood II: The Chosen + Expansion'
+slug: blood-ii-the-chosen-expansion
+year: 1998
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/blood-ii-the-chosen-expansion.jpg
+icon_url: /games/icon/blood-ii-the-chosen-expansion.png
+is_public: true
+updated: '2019-01-23T08:28:39.030243Z'
+steamid: 299050
+gogslug: blood_2_the_chosen_expansion
+humblestoreid: ''

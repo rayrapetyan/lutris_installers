@@ -1,0 +1,24 @@
+id: 8187
+game_id: 14230
+game_slug: the-shrouded-isle
+name: The Shrouded Isle
+year: null
+user: soredake
+runner: winesteam
+slug: the-shrouded-isle-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T06:57:38.951369Z'
+updated_at: '2018-05-12T10:20:22.527060Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 501320
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 501320

@@ -1,0 +1,15 @@
+name: "Caf\xE9 Memoria"
+slug: cafe-memoria
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/cafe-memoria.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:44.217024Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,104 @@
+id: 17559
+game_id: 7611
+game_slug: the-settlers-iv-gold-edition
+name: 'The Settlers IV: Gold Edition'
+year: 2002
+user: Kesefon
+runner: wine
+slug: the-settlers-iv-gold-edition-cd-german
+version: CD German
+description: null
+notes: ''
+created_at: '2019-12-24T22:45:21.356000Z'
+updated_at: '2019-12-25T10:16:44.200498Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: 1207659254
+gogslug: the_settlers_4_gold_edition
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: S4/setup.exe
+      description: Insert disc
+  - task:
+      prefix: $GAMEDIR
+      install_mono: false
+      arch: win32
+      name: create_prefix
+  - write_config:
+      description: Creating installer config file
+      data:
+        SprintfBox-0:
+          Result: 7
+        DlgOrder:
+          Dlg8: AskOptions-0
+          Dlg4: SdComponentDialog-0
+          Count: 9
+          Dlg6: SprintfBox-1
+          Dlg5: SdSelectFolder-0
+          Dlg0: SprintfBox-0
+          Dlg7: SprintfBox-2
+          Dlg2: SdLicense-0
+          Dlg1: SdWelcome-0
+          Dlg3: SdSetupTypeEx-0
+        SdSelectFolder-0:
+          szFolder: Blue Byte\Die Siedler IV
+          Result: 1
+        SdWelcome-0:
+          Result: 1
+        SprintfBox-1:
+          Result: 7
+        SdSetupTypeEx-0:
+          Result: Custom
+        SdComponentDialog-0:
+          szDir: C:\Blue Byte\Die Siedler IV
+          Game\Maps(Other)-type: string
+          Game-count: 3
+          Component-0: Game
+          Component-1: Movies
+          Game-2: Game\Maps(Other)
+          Component-type: string
+          Component-2: Music
+          Game\Maps(Other)-2: Game\Maps(Other)\Tutorial
+          Result: 1
+          Game\Maps(Other)-1: Game\Maps(Other)\Mutliplayer
+          Game-0: Game\LanguageDefs
+          Game\Maps(Other)-count: 3
+          Component-3: BBInstallShieldExtension
+          Game\Maps(Other)-0: Game\Maps(Other)\Singleplayer
+          Game-1: Game\GFX
+          Component-count: 4
+          Game-type: string
+        SprintfBox-2:
+          Result: 7
+        Application:
+          Lang: 7
+          Company: BlueByte
+          Name: Settlers4
+          Version: 0.0
+        SdLicense-0:
+          Result: 1
+        File Transfer:
+          OverwriteReadOnly: NoToAll
+        AskOptions-0:
+          Sel-0: 0
+          Result: 1
+          Sel-1: 0
+        InstallShield Silent:
+          File: Response File
+          Version: v5.00.000
+      file: $GAMEDIR/drive_c/setup.iss
+  - task:
+      executable: $DISC/S4/setup.exe
+      prefix: $GAMEDIR
+      args: /s /f1"C:\setup.iss"
+      description: Running installator.
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Blue Byte/Die Siedler IV/S4.exe
+    arch: win32

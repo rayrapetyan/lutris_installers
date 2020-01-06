@@ -1,0 +1,19 @@
+name: Syphon Filter
+slug: syphon-filter
+year: 1999
+platforms:
+- name: Sony PlayStation
+- name: Sony Playstation 3
+- name: Sony PSP
+genres:
+- name: Action
+- name: Stealth
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/syphon-filter.jpg
+icon_url: /games/icon/syphon-filter.png
+is_public: true
+updated: '2019-11-01T23:15:53.330208Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

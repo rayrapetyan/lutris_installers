@@ -1,0 +1,28 @@
+id: 8879
+game_id: 19489
+game_slug: strider-2014
+name: Strider (2014)
+year: 2014
+user: strider
+runner: winesteam
+slug: strider-2014-steam
+version: Steam
+description: null
+notes: After running the game the first time,  edit the config file [Steam folder]/userdata/[Steam
+  ID]/235210/local/vars_pc.cfg and set video_multithreadedRendering to false. This
+  will fix rendering glitches in the game.
+created_at: '2018-06-23T23:10:21.727000Z'
+updated_at: '2019-03-26T19:58:48.584672Z'
+draft: false
+published: true
+published_by: 1
+rating: '4'
+steamid: 235210
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    dxvk: true
+  game:
+    appid: 235210

@@ -1,0 +1,28 @@
+id: 3802
+game_id: 3712
+game_slug: 7-days-a-skeptic
+name: 7 Days a Skeptic
+year: 2004
+user: FakeShemp
+runner: ags
+slug: 7-days-a-skeptic-10
+version: '1.0'
+description: ''
+notes: ''
+created_at: '2017-05-22T17:01:16.095660Z'
+updated_at: '2017-05-28T00:02:25.451652Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: 7days.exe
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: http://www.clawofcat.com/yahtzee/7days.zip

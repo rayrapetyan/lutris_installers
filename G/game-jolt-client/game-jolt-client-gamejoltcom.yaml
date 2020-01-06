@@ -1,0 +1,30 @@
+id: 2162
+game_id: 6314
+game_slug: game-jolt-client
+name: Game Jolt Client
+year: 2015
+user: ssf
+runner: linux
+slug: game-jolt-client-gamejoltcom
+version: gamejolt.com
+description: null
+notes: ''
+created_at: '2016-06-19T19:30:08.835000Z'
+updated_at: '2018-09-12T13:39:39.400880Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: game-jolt-client
+  installer:
+  - extract:
+      format: tgz
+      file: tool
+  - chmodx: linux64
+  files:
+  - tool: https://f-cdn.gamejolt.net/data/games/5/162/362412/protected-files-cdn/5b9661e9b5380/linux64.tar.gz?secure=-e4Jah4AlOGzp3Mw3jrNzQ,1536752838

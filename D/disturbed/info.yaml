@@ -1,0 +1,16 @@
+name: Disturbed
+slug: disturbed
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/disturbed.jpg
+icon_url: /games/icon/disturbed.png
+is_public: true
+updated: '2019-01-23T08:29:13.836632Z'
+steamid: 529780
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,42 @@
+id: 11892
+game_id: 25634
+game_slug: moonstone-a-hard-days-knight
+name: 'Moonstone: A Hard Days Knight'
+year: 1991
+user: strider
+runner: fsuae
+slug: moonstone-a-hard-days-knight-amiga
+version: Amiga
+description: null
+notes: ''
+created_at: '2019-02-07T03:00:37.247000Z'
+updated_at: '2019-02-07T17:37:53.350479Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: disk1
+      dst: $GAMEDIR
+  - merge:
+      src: disk2
+      dst: $GAMEDIR
+  - merge:
+      src: disk3
+      dst: $GAMEDIR
+  files:
+  - disk1: N/A
+  - disk2: N/A
+  - disk3: N/A
+  game:
+    disks:
+    - disk1
+    - disk2
+    - disk3
+    main_file: disk1

@@ -1,0 +1,24 @@
+id: 1971
+game_id: 2792
+game_slug: spy-fox-in-hold-the-mustard
+name: 'SPY Fox in: Hold the Mustard'
+year: null
+user: WildCoder
+runner: steam
+slug: spy-fox-in-hold-the-mustard-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-02-06T20:28:15.496828Z'
+updated_at: '2016-02-08T21:45:51.424897Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 292300
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 292300

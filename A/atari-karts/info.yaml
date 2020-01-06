@@ -1,0 +1,15 @@
+name: Atari Karts
+slug: atari-karts
+year: 1995
+platforms:
+- name: Atari Jaguar
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/atari-karts.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:28.131077Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

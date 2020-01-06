@@ -1,0 +1,16 @@
+name: Mario Kart 64
+slug: mario-kart-64
+year: 1996
+platforms:
+- name: Nintendo 64
+- name: Nintendo Wii
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/mario-kart-64.jpg
+icon_url: /games/icon/mario-kart-64.png
+is_public: true
+updated: '2019-02-23T02:02:01.232527Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

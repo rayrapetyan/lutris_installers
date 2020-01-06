@@ -1,0 +1,31 @@
+id: 11453
+game_id: 21677
+game_slug: activision-classics
+name: Activision Classics
+year: 1998
+user: te_lanus
+runner: libretro
+slug: activision-classics-playstation
+version: Playstation
+description: null
+notes: ''
+created_at: '2019-01-05T17:18:01.502384Z'
+updated_at: '2019-01-05T17:19:52.966485Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Playstation game disc
+  game:
+    core: mednafen_psx
+    main_file: file1

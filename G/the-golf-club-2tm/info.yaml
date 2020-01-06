@@ -1,0 +1,16 @@
+name: "The Golf Club 2\u2122"
+slug: the-golf-club-2tm
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Simulation
+- name: Sports
+aliases: []
+banner_url: /games/banner/the-golf-club-2tm.jpg
+icon_url: /games/icon/the-golf-club-2tm.png
+is_public: true
+updated: '2019-01-23T08:31:41.807748Z'
+steamid: 554510
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,15 @@
+name: Skype
+slug: skype
+year: 2012
+platforms:
+- name: Windows
+genres:
+- name: Tool
+aliases: []
+banner_url: /games/banner/skype.jpg
+icon_url: /games/icon/skype.png
+is_public: true
+updated: '2019-02-10T00:44:22.713152Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

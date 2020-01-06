@@ -1,0 +1,26 @@
+id: 10005
+game_id: 2430
+game_slug: f1-race-stars
+name: F1 Race Stars
+year: null
+user: savunma
+runner: winesteam
+slug: f1-race-stars-steam
+version: Steam
+description: F1 Race Stars is a great game, and the installer is just a test
+notes: ''
+created_at: '2018-09-02T18:48:35.161000Z'
+updated_at: '2018-09-15T03:14:18.717843Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 203680
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    StrictDrawOrdering: enabled
+  game:
+    appid: 203680

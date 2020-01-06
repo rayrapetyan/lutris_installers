@@ -1,0 +1,15 @@
+name: Madden NFL 19
+slug: madden-nfl-19
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Sports
+aliases: []
+banner_url: /games/banner/madden-nfl-19.jpg
+icon_url: /games/icon/madden-nfl-19.png
+is_public: true
+updated: '2019-06-11T22:55:18.578390Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,28 @@
+id: 10926
+game_id: 3736
+game_slug: dying-light
+name: Dying Light
+year: 2015
+user: carlinux
+runner: winesteam
+slug: dying-light-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2018-11-20T00:00:52.708000Z'
+updated_at: '2019-02-14T05:55:18.714354Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 239140
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  game:
+    appid: 239140
+    arch: win64

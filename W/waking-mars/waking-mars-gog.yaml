@@ -1,0 +1,33 @@
+id: 6067
+game_id: 314
+game_slug: waking-mars
+name: Waking Mars
+year: 2012
+user: FakeShemp
+runner: wine
+slug: waking-mars-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2017-10-22T19:29:27.981000Z'
+updated_at: '2017-10-22T19:33:07.536007Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 227200
+gogid: 1207659181
+gogslug: waking_mars
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      args: /sp- /verysilent /norestart /suppressmsgboxes /nogui
+      name: wineexec
+  files:
+  - file1: N/A:Please select the GOG installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Waking Mars/mars-pc.exe

@@ -1,0 +1,36 @@
+id: 5706
+game_id: 13887
+game_slug: pizza-dude
+name: Pizza Dude
+year: 2005
+user: strider
+runner: wine
+slug: pizza-dude-release
+version: Release
+description: ''
+notes: ''
+created_at: '2017-09-12T05:17:37.748000Z'
+updated_at: '2017-09-12T06:05:27.078285Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    exe: $GAMEDIR/Pizza.exe
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: pizzagame
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: create_prefix
+  wine:
+    prefix: $GAMEDIR/prefix
+  files:
+  - pizzagame: https://lutris.net/files/games/pizza-dude/pizzadude.zip

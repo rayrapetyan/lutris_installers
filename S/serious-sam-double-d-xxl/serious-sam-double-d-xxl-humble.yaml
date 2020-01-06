@@ -1,0 +1,40 @@
+id: 4569
+game_id: 450
+game_slug: serious-sam-double-d-xxl
+name: Serious Sam Double D XXL
+year: null
+user: FakeShemp
+runner: wine
+slug: serious-sam-double-d-xxl-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-24T15:42:09.354000Z'
+updated_at: '2018-05-19T03:41:50.711248Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 111600
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      prefix: $GAMEDIR
+      app: xna40
+      name: winetricks
+  - task:
+      executable: $CACHE/SeriousSamDoubleD_setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/SeriousSamDoubleD/SSGame.exe
+    arch: win32

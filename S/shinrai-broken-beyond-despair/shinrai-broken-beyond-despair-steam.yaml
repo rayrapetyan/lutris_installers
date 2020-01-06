@@ -1,0 +1,24 @@
+id: 9555
+game_id: 15984
+game_slug: shinrai-broken-beyond-despair
+name: SHINRAI - Broken Beyond Despair
+year: 2016
+user: kimchitea
+runner: steam
+slug: shinrai-broken-beyond-despair-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-03T15:02:12.646297Z'
+updated_at: '2018-08-04T08:32:45.256053Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 499910
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 499910

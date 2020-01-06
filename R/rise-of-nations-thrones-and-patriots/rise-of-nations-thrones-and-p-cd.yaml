@@ -1,0 +1,44 @@
+id: 15453
+game_id: 29347
+game_slug: rise-of-nations-thrones-and-patriots
+name: 'Rise of Nations: Thrones and Patriots'
+year: 2004
+user: LemiSt24
+runner: wine
+slug: rise-of-nations-thrones-and-p-cd
+version: CD
+description: Expects the dgvoodoo / DXVK - version of Rise of Nations to already be
+  installed.
+notes: ''
+created_at: '2019-09-11T01:42:53.337000Z'
+updated_at: '2019-10-06T21:24:58.535220Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      arch: win64
+      name: wineexec
+  requires: rise-of-nations
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Microsoft Games/Rise of Nations/patriots.exe
+  system:
+    env:
+      PULSE_LATENCY_MSEC: '30'
+  wine:
+    version: lutris-4.13-x86_64
+    esync: false
+    dxvk: true
+    overrides:
+      d3d8, d3d9, d3dimm, ddraw: native
+  files:
+  - setup: N/A:Select the addon's setup file

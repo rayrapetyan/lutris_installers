@@ -1,0 +1,37 @@
+id: 2802
+game_id: 474
+game_slug: gateways
+name: Gateways
+year: null
+user: Lulu
+runner: linux
+slug: gateways-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2016-09-29T20:41:58.763569Z'
+updated_at: '2016-09-30T20:47:01.597445Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 216290
+gogid: 1207659733
+gogslug: gateways
+humblestoreid: ''
+script:
+  exe: Game/start.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/Game
+  files:
+  - game: 'N/A: Plese select the GOG.com Linux installer'
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

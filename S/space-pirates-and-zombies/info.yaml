@@ -1,0 +1,17 @@
+name: Space Pirates and Zombies
+slug: space-pirates-and-zombies
+year: 2011
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Real-time strategy
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/space-pirates-and-zombies.jpg
+icon_url: /games/icon/space-pirates-and-zombies.png
+is_public: true
+updated: '2019-01-23T08:31:21.184006Z'
+steamid: 107200
+gogslug: space_pirates_and_zombies
+humblestoreid: ''

@@ -1,0 +1,16 @@
+name: "Pok\xE9mon Sapphire Version"
+slug: pokemon-sapphire-version
+year: 2002
+platforms:
+- name: Nintendo Game Boy Advance
+genres:
+- name: jRPG
+- name: RPG
+aliases: []
+banner_url: /games/banner/pokemon-sapphire-version.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:47.213540Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

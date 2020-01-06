@@ -1,0 +1,31 @@
+id: 4021
+game_id: 7793
+game_slug: beholder
+name: Beholder
+year: 2016
+user: FakeShemp
+runner: linux
+slug: beholder-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-31T18:32:48.086472Z'
+updated_at: '2017-06-04T22:16:08.517325Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 475550
+gogid: 2146639343
+gogslug: beholder
+humblestoreid: ''
+script:
+  exe: Beholder.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Beholder.x86
+  - chmodx: $GAMEDIR/Beholder.x86_64
+  exe64: Beholder.x86_64
+  files:
+  - file1: N/A:Please select the Humble archive

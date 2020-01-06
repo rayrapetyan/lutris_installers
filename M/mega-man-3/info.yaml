@@ -1,0 +1,17 @@
+name: Mega Man 3
+slug: mega-man-3
+year: 1990
+platforms:
+- name: NES
+- name: Sony PlayStation
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/mega-man-3.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:21.019187Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,35 @@
+id: 4960
+game_id: 7956
+game_slug: iso-sphere
+name: iso-Sphere
+year: null
+user: FakeShemp
+runner: wine
+slug: iso-sphere-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-10T20:15:15.651029Z'
+updated_at: '2018-05-19T03:41:55.995864Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 414060
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - move:
+      src: $CACHE/iso-sphere
+      dst: $GAMEDIR/drive_c/Program Files/iso-Sphere
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/iso-Sphere/game.exe
+    arch: win32

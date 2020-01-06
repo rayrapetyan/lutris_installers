@@ -1,0 +1,32 @@
+id: 472
+game_id: 2037
+game_slug: simon-the-sorcerer
+name: Simon the Sorcerer
+year: 1994
+user: strider
+runner: scummvm
+slug: simon-the-sorcerer-scummvm-from-archive
+version: ScummVM - From archive
+description: ''
+notes: ''
+created_at: '2014-05-29T21:20:47.804000Z'
+updated_at: '2014-11-17T16:40:04.115000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 2134529414
+gogslug: simon_the_sorcerer
+humblestoreid: ''
+script:
+  scummvm:
+    aspect: true
+  installer:
+  - extract:
+      file: simon-archive
+  files:
+  - simon-archive: N/A:Select the game's archive for ScummVM
+  game:
+    game_id: simon1
+    path: $GAMEDIR

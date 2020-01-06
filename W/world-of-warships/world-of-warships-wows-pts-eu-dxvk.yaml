@@ -1,0 +1,65 @@
+id: 10373
+game_id: 11406
+game_slug: world-of-warships
+name: World of Warships
+year: 2015
+user: DataDisrupter
+runner: wine
+slug: world-of-warships-wows-pts-eu-dxvk
+version: WoWs-PTS EU DXVK
+description: World of Warships Europe version Public Test Server with DXVK
+notes: '- Don''t start the game until the installer is finished'
+created_at: '2018-09-29T16:54:16.624000Z'
+updated_at: '2019-02-14T00:19:24.120384Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 552990
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: nocrashdialog
+      arch: win64
+      name: winetricks
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      description: Installing World of Warships PTS. This could take a while...
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: corefonts
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Wine to Windows 10
+      app: win10
+      arch: win64
+      name: winetricks
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Games/World_of_Warships-PTS/WoWSLauncher.exe
+    arch: win64
+  system:
+    env:
+      DXVK_HUD: 0
+    pulse_latency: false
+  wine:
+    version: tkg-4.1-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  files:
+  - game:
+      filename: WoWS_PublicTest.exe
+      url: http://dl-wows-gc.wargaming.net/projects/PT/ru/files/oiu8123haqw/WoWS_PublicTest.exe

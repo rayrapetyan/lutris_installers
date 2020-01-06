@@ -1,0 +1,59 @@
+id: 10602
+game_id: 12352
+game_slug: freeso
+name: FreeSO
+year: 2017
+user: BorderKontrol
+runner: linux
+slug: freeso-native
+version: Native
+description: This installer uses the "macextras" provided by the developer to run
+  the game on Linux. The download of the main game can take a very long time.
+notes: "Requires cabextract and curl during installation\r\nRequires sdl2 and mono\
+  \ at runtime"
+created_at: '2018-10-22T18:33:35.925000Z'
+updated_at: '2019-12-23T20:04:26.057023Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  require-binaries: mono, cabextract, curl
+  installer:
+  - execute:
+      command: curl --cookie-jar $CACHE/cookies https://servo.freeso.org/?guest=1
+  - execute:
+      command: curl --cookie $CACHE/cookies https://servo.freeso.org/repository/download/FreeSO_TsoClient/1275:id/client-843.zip
+        --create-dirs -o $GAMEDIR/tmp/client/client.zip
+      terminal: true
+  - extract:
+      dst: $GAMEDIR/FreeSO
+      file: $GAMEDIR/tmp/client/client.zip
+  - extract:
+      dst: $GAMEDIR/FreeSO
+      file: $macextras
+  - extract:
+      dst: $GAMEDIR/tmp/tso
+      file: $tso
+  - execute:
+      command: cabextract -d $GAMEDIR/FreeSO/game $GAMEDIR/tmp/tso/Data1.cab
+  - extract:
+      dst: $GAMEDIR/tmp/tsopatcher
+      file: $tsopatcher
+  - execute:
+      command: mono $GAMEDIR/tmp/tsopatcher/TSOVersionPatcherF.exe $GAMEDIR/tmp/tsopatcher/1239toNI.tsop
+        $GAMEDIR/FreeSO/game
+  - chmodx: $GAMEDIR/FreeSO/freeso.command
+  - chmodx: $GAMEDIR/FreeSO/freeso3d.command
+  - execute:
+      command: rm -r $GAMEDIR/tmp
+  files:
+  - tso: https://ia801903.us.archive.org/tarview.php?tar=/33/items/Fileplanet_dd_042006/Fileplanet_dd_042006.tar&file=042006/TSO_Installer_v1.1239.1.0.zip
+  - macextras: https://freeso.org/stuff/macextras.zip
+  - tsopatcher: https://github.com/riperiperi/TSO-Version-Patcher/releases/download/v1.0/Release.zip
+  game:
+    exe: $GAMEDIR/FreeSO/freeso.command

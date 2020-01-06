@@ -1,0 +1,24 @@
+id: 14400
+game_id: 13293
+game_slug: induction
+name: Induction
+year: 2017
+user: lo48576
+runner: steam
+slug: induction-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-07-03T09:13:47.556162Z'
+updated_at: '2019-10-11T00:09:31.840097Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 381890
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 381890

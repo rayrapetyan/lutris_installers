@@ -1,0 +1,43 @@
+id: 16889
+game_id: 30408
+game_slug: steel-legions
+name: Steel Legions
+year: 2011
+user: igorpf
+runner: linux
+slug: steel-legions-steel-legions
+version: Steel Legions
+description: 'Steel Legions: java-vm x86_x64'
+notes: "A instala\xE7\xE3o do jogo nesta plataforma funciona de maneira diferente\
+  \ como na plataforma original nativa do jogo, e para isso os seguintes itens ser\xE3\
+  o baixados e utilizados para rodar o jogo tais como \"Wine\" em formato \"AppImage\"\
+  \ e os arquivos principais que s\xE3o do jogo!"
+created_at: '2019-11-18T12:29:43.095998Z'
+updated_at: '2019-11-18T12:29:43.096029Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: SteelLegions
+  - chmodx: $GAMEDIR/AppImage/Wine-SSG.AppImage
+  linux: {}
+  system:
+    env:
+      WINEARCH: win32
+      WINEDEBUG: -all
+      WINEOVERRIDES: msvcp140=native
+      WINEDLLOVERRIDES: winemenubuilder.exe=d
+      WINEPREFIZ: $GAMEDIR/
+  files:
+  - SteelLegions: https://ufpr.dl.sourceforge.net/project/ssg-fan-dev/Steel%20Legions/SteelLegions.zip
+  game:
+    args: wine $GAMEDIR/Files/Launcher.exe
+    exe: $GAMEDIR/AppImage/Wine-SSG.AppImage

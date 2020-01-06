@@ -1,0 +1,24 @@
+id: 1752
+game_id: 541
+game_slug: sid-meiers-civilization-iv-colonization
+name: 'Civilization IV: Colonization'
+year: 2008
+user: RobLoach
+runner: winesteam
+slug: civilization-iv-colonization-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: ''
+created_at: '2015-12-27T18:04:34.446000Z'
+updated_at: '2017-05-16T04:38:46.814992Z'
+draft: false
+published: true
+published_by: null
+rating: '4'
+steamid: 34470
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 16810

@@ -1,0 +1,61 @@
+id: 8486
+game_id: 612
+game_slug: test-drive-unlimited-2
+name: Test Drive Unlimited 2
+year: 2011
+user: zdzichu1
+runner: wine
+slug: test-drive-unlimited-2-cd
+version: CD
+description: null
+notes: ''
+created_at: '2018-06-01T15:58:48.308000Z'
+updated_at: '2018-07-28T04:22:53.628805Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 9930
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: win7
+      name: winetricks
+  - task:
+      executable: installer
+      prefix: $GAMEDIR/prefix
+      description: Installing game
+      arch: win32
+      args: /DIR="C:/Program Files/Atari/TDU2"
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing dinput8
+      app: dinput8
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing .NET 2.0
+      app: dotnet20sp2
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing .NET 3.5
+      app: dotnet35sp1
+      arch: win32
+      name: winetricks
+  files:
+  - installer: N/A:Select the game's setup file
+  game:
+    prefix: $GAMEDIR/prefix
+    exe: drive_c/Program Files/Atari/TDU2/UpLauncher.exe
+    arch: win32

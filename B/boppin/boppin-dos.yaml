@@ -1,0 +1,40 @@
+id: 5765
+game_id: 13929
+game_slug: boppin
+name: Boppin'
+year: 1994
+user: maxlefou
+runner: dosbox
+slug: boppin-dos
+version: DOS
+description: null
+notes: Use the archive from myabandonware.com
+created_at: '2017-09-16T21:44:30.863000Z'
+updated_at: '2018-05-19T05:25:27.042449Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: archive
+  - write_config:
+      section: autoexec
+      key: joysticktype
+      value: none
+      file: $GAMEDIR/dosbox_boppin.conf
+  - task:
+      executable: setup.exe
+      description: Setting sound. Take SoundBlaster, Eight voices, 16 bits and SoundBlaster.
+      name: dosexec
+  files:
+  - archive: N/A:Select the game's archive file
+  game:
+    config_file: $GAMEDIR/dosbox_boppin.conf
+    main_file: boppin.exe

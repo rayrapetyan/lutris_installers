@@ -1,0 +1,17 @@
+name: Iron Harvest
+slug: iron-harvest
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Fantasy
+- name: Real-time
+- name: Strategy
+aliases: []
+banner_url: /games/banner/iron-harvest.jpg
+icon_url: null
+is_public: true
+updated: '2019-12-04T02:38:53.198043Z'
+steamid: 826630
+gogslug: iron_harvest
+humblestoreid: ''

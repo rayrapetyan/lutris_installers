@@ -1,0 +1,17 @@
+name: 'Star Wars: TIE Fighter'
+slug: star-wars-tie-fighter
+year: 1994
+platforms:
+- name: MS-DOS
+- name: Windows
+genres:
+- name: Action
+- name: Space simulation
+aliases: []
+banner_url: /games/banner/star-wars-tie-fighter.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:25.855723Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

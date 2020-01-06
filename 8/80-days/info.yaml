@@ -1,0 +1,15 @@
+name: 80 Days
+slug: 80-days
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Strategy
+aliases: []
+banner_url: /games/banner/80-days.jpg
+icon_url: /games/icon/80-days.png
+is_public: true
+updated: '2019-01-23T08:28:09.718039Z'
+steamid: 381780
+gogslug: 80_days
+humblestoreid: ''

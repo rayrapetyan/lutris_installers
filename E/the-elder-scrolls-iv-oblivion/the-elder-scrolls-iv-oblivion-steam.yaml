@@ -1,0 +1,25 @@
+id: 86
+game_id: 148
+game_slug: the-elder-scrolls-iv-oblivion
+name: 'The Elder Scrolls IV: Oblivion GOTY Edition'
+year: 2007
+user: strider
+runner: winesteam
+slug: the-elder-scrolls-iv-oblivion-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-15T13:57:32.950000Z'
+updated_at: '2019-06-02T03:06:59.189971Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 22330
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 22330

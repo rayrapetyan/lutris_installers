@@ -1,0 +1,18 @@
+name: The Need for Speed
+slug: the-need-for-speed
+year: 1994
+platforms:
+- name: 3DO
+- name: MS-DOS
+- name: Sega Saturn
+- name: Sony PlayStation
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/the-need-for-speed.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:44.917910Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

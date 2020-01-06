@@ -1,0 +1,16 @@
+name: Hackmud
+slug: hackmud
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: RPG
+- name: Simulation
+aliases: []
+banner_url: /games/banner/hackmud.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:45.558494Z'
+steamid: 469920
+gogslug: ''
+humblestoreid: ''

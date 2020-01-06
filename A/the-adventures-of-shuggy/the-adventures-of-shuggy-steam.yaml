@@ -1,0 +1,24 @@
+id: 2230
+game_id: 6330
+game_slug: the-adventures-of-shuggy
+name: The Adventures of Shuggy
+year: 2012
+user: RobLoach
+runner: steam
+slug: the-adventures-of-shuggy-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-07-01T02:13:35.415214Z'
+updated_at: '2016-07-01T02:13:44.440717Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 211440
+gogid: 1207659763
+gogslug: the_adventures_of_shuggy
+humblestoreid: ''
+script:
+  game:
+    appid: 211440

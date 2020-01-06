@@ -1,0 +1,16 @@
+name: 'Tom Clancy''s Splinter Cell: Blacklist'
+slug: tom-clancys-splinter-cell-blacklist
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Stealth
+aliases: []
+banner_url: /games/banner/tom-clancys-splinter-cell-blacklist.jpg
+icon_url: /games/icon/tom-clancys-splinter-cell-blacklist.png
+is_public: true
+updated: '2019-11-01T23:12:59.717114Z'
+steamid: 235600
+gogslug: ''
+humblestoreid: ''

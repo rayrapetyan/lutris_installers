@@ -1,0 +1,17 @@
+name: Victoria II
+slug: victoria-ii
+year: 2010
+platforms:
+- name: Windows
+genres:
+- name: Strategy
+aliases:
+- slug: victoria-2
+  name: Victoria 2
+banner_url: /games/banner/victoria-ii.jpg
+icon_url: /games/icon/victoria-ii.png
+is_public: true
+updated: '2019-03-09T02:07:38.654233Z'
+steamid: 42960
+gogslug: ''
+humblestoreid: ''

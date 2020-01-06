@@ -1,0 +1,15 @@
+name: 'Quake Mission Pack 1: Scourge of Armagon'
+slug: quake-mission-pack-1-scourge-of-armagon
+year: 1997
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/quake-mission-pack-1-scourge-of-armagon.jpg
+icon_url: /games/icon/quake-mission-pack-1-scourge-of-armagon.png
+is_public: true
+updated: '2019-01-23T08:30:52.836178Z'
+steamid: 9040
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,35 @@
+id: 13291
+game_id: 10310
+game_slug: river-city-ransom-underground
+name: 'River City Ransom: Underground'
+year: null
+user: Haste666
+runner: linux
+slug: river-city-ransom-underground-gog
+version: GOG
+description: Download gog_river_city_ransom_underground_2.0.0.1
+notes: If controller is not working, go to river-city-ransom-underground/game/lib64
+  and rename libSDL2-2.0.so.0 to libSDL2-2.0.so.0.backup, to use your system one.
+created_at: '2019-05-02T13:23:49.235000Z'
+updated_at: '2019-05-04T02:15:04.402586Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 422810
+gogid: 2030715678
+gogslug: river_city_ransom_underground
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

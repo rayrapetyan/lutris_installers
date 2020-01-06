@@ -1,0 +1,28 @@
+id: 3999
+game_id: 1713
+game_slug: ironclad-tactics
+name: Ironclad Tactics
+year: null
+user: FakeShemp
+runner: linux
+slug: ironclad-tactics-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-31T14:17:56.474070Z'
+updated_at: '2017-05-31T16:29:34.269645Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 226960
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Ironclad Tactics/ironcladtactics.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

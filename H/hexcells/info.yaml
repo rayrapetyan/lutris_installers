@@ -1,0 +1,15 @@
+name: Hexcells
+slug: hexcells
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/hexcells.jpg
+icon_url: /games/icon/hexcells.png
+is_public: true
+updated: '2019-01-23T08:29:50.028948Z'
+steamid: 265890
+gogslug: ''
+humblestoreid: hexcells-complete-pack

@@ -1,0 +1,31 @@
+id: 9416
+game_id: 20196
+game_slug: the-rose-of-segunda
+name: The Rose of Segunda
+year: 2018
+user: kimchitea
+runner: linux
+slug: the-rose-of-segunda-itchio
+version: itch.io
+description: null
+notes: Also works for the itch.io demo version.
+created_at: '2018-07-27T17:30:12.556000Z'
+updated_at: '2018-07-28T04:22:50.032240Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 858050
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: TROS.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/TROS.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/TROS
+  - chmodx: $GAMEDIR/lib/linux-x86_64/TROS
+  files:
+  - file1: N/A:Please select the itch.io archive

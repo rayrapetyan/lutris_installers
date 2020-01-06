@@ -1,0 +1,38 @@
+id: 8058
+game_id: 18079
+game_slug: star-trek-bridge-commander
+name: 'Star Trek: Bridge Commander'
+year: 2002
+user: J2Three
+runner: wine
+slug: star-trek-bridge-commander-10
+version: '1.0'
+description: "This installer should create a 32bit prefix and prompt for the install\
+  \ disc.\r\n\r\nThe game should run without any modification on almost any wine version\
+  \ 1.4 and upwards.\r\n\r\nTo Do: Add updates and mod installations"
+notes: ''
+created_at: '2018-05-04T22:43:25.683284Z'
+updated_at: '2018-05-06T07:09:16.022083Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: Setup.exe
+  - task:
+      executable: $DISC/Setup/Setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - installer: N/A:Select the game's setup file
+  game:
+    prefix: $GAMEDIR/prefix
+    exe: drive_c/Program Files/Activision/Bridge Commander/stbc.exe
+    working_dir: $GAMEDIR/prefix
+    arch: win32

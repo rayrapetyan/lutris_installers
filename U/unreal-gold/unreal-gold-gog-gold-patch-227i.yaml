@@ -1,0 +1,148 @@
+id: 14389
+game_id: 16
+game_slug: unreal-gold
+name: Unreal Gold
+year: 1998
+user: legluondunet
+runner: wine
+slug: unreal-gold-gog-gold-patch-227i
+version: GOG Gold + Patch 227i
+description: "This script will install \"Unreal Gold\" GOG edition with last patch\
+  \ 227i from \r\nhttps://www.oldunreal.com/.\r\nDuring install please let all options\
+  \ by default.\r\nThanks to the people who helped us play this game in the best conditions."
+notes: "- Multilanguage support (en,fr,de,it,sp).\r\n- You could choose to play between\
+  \ Linux and Windows version.\r\n- Please report issue concerning this script on\
+  \ my Github page:\r\nhttps://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2019-07-02T21:10:42.106000Z'
+updated_at: '2019-12-20T15:24:15.768274Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: 13250
+gogid: 1207658679
+gogslug: unreal_gold
+humblestoreid: ''
+script:
+  custom-name: Unreal Gold 227i - GOG
+  game:
+    prefix: $GAMEDIR
+    args: c:\\GOG Games\\Unreal Gold\\unreal_gold.bat
+    exe: drive_c/windows/syswow64/wineconsole.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      install_mono: false
+      install_gecko: true
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: gog
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES /SILENT
+      description: Installing...
+      name: wineexec
+  - extract:
+      src: libs
+      dst: $GAMEDIR/drive_c/GOG Games/Unreal Gold/libs
+  - extract:
+      src: patch
+      dst: $GAMEDIR/drive_c/GOG Games/Unreal Gold/
+  - chmodx: $GAMEDIR/drive_c/GOG Games/Unreal Gold/System/UnrealLinux.bin
+  - input_menu:
+      options:
+      - int: English
+      - frt: French
+      - det: German
+      - itt: Italian
+      - est: Spanish
+      description: 'Choose your game''s language:'
+      id: LANG
+      preselect: int
+  - chmodx: script
+  - execute:
+      args: $INPUT_LANG $RESOLUTION_WIDTH $RESOLUTION_HEIGHT
+      file: script
+  - write_file:
+      content: '#!/bin/sh
+
+        cd System
+
+        MESA_EXTENSION_MAX_YEAR=1999
+
+        #LD_LIBRARY_PATH=../lin_convenience_libs
+
+        #export LD_LIBRARY_PATH
+
+        #exec ./UnrealLinux.bin -log
+
+        LD_LIBRARY_PATH=../libs ./UnrealLinux.bin -log'
+      file: $GAMEDIR/drive_c/GOG Games/Unreal Gold/UnrealLinux.sh
+  - chmodx: $GAMEDIR/drive_c/GOG Games/Unreal Gold/UnrealLinux.sh
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_DWORD
+      value: '00000000'
+      key: csmt
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D\
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: c:\\unreal_gold.bmp
+      key: wallpaper
+      path: HKEY_CURRENT_USER\Control Panel\Desktop\
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: 0 0 0
+      key: background
+      path: HKEY_CURRENT_USER\Control Panel\Colors\
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: 0 0 0
+      key: ActiveTitle
+      path: HKEY_CURRENT_USER\Control Panel\Colors\
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: 255 179 102
+      key: GradientActiveTitle
+      path: HKEY_CURRENT_USER\Control Panel\Colors\
+  - copy:
+      src: menu
+      dst: $GAMEDIR/drive_c/GOG Games/Unreal Gold/
+  - copy:
+      src: wpp
+      dst: $GAMEDIR/drive_c/
+  - merge:
+      src: gpr
+      dst: $GAMEDIR/drive_c/GOG Games/Unreal Gold/gamepad profiles/
+  - copy:
+      src: gpx360
+      dst: $GAMEDIR/drive_c/GOG Games/Unreal Gold/gamepad profiles/
+  - copy:
+      src: gpsc
+      dst: $GAMEDIR/drive_c/GOG Games/Unreal Gold/gamepad profiles/
+  wine:
+    Desktop: true
+  files:
+  - gog: N/A:Select the EXE downloaded from GOG
+  - libs: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Unreal/unreal_libs_i386.tar.bz2
+  - patch: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Unreal/unreal_patch_227i_MULTI5.zip
+  - script: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Unreal/defconfig.sh
+  - menu: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Unreal/unreal_gold.bat
+  - wpp: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Unreal/unreal_gold.bmp
+  - gpr: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Unreal/gamepad%20profiles/unreal_gamepad_readme.html
+  - gpx360: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Unreal/gamepad%20profiles/unreal_x360.gamecontroller.amgp
+  - gpsc: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Unreal/gamepad%20profiles/unreal_steam.sccprofile

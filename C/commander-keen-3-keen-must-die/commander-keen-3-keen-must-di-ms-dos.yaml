@@ -1,0 +1,62 @@
+id: 15135
+game_id: 29054
+game_slug: commander-keen-3-keen-must-die
+name: 'Commander Keen 3: Keen Must Die!'
+year: 1990
+user: appoloin
+runner: dosbox
+slug: commander-keen-3-keen-must-di-ms-dos
+version: MS-DOS
+description: null
+notes: ''
+created_at: '2019-08-25T15:23:08.727150Z'
+updated_at: '2019-08-25T15:23:08.727182Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - execute:
+      args: $GAMEDIR/HDD $GAMEDIR/HDD/keen3
+      file: mkdir
+  - write_file:
+      content: '#!/bin/bash
+
+        src=$1
+
+        dst=$2
+
+        src_path=$(echo "$1" | sed -r "s/(.+)\/.+/\1/")
+
+        cp -avr "$src_path/."  "$dst"'
+      file: $CACHE/bulkcopy.sh
+  - chmodx: $CACHE/bulkcopy.sh
+  - execute:
+      args: $game $GAMEDIR/HDD/keen3
+      file: $CACHE/bulkcopy.sh
+  - write_file:
+      content: '[cpu]
+
+        cputype=386_slow
+
+        [autoexec]
+
+        mount C "$GAMEDIR/HDD" -t dir
+
+        C:
+
+        cd keen3
+
+        keen3.EXE
+
+        exit'
+      file: $GAMEDIR/commander_keen.conf
+  files:
+  - game: N/A:Select the file Keen3.exe
+  game:
+    main_file: $GAMEDIR/commander_keen.conf

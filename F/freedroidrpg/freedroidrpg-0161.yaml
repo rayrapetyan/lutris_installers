@@ -1,0 +1,28 @@
+id: 6071
+game_id: 3999
+game_slug: freedroidrpg
+name: FreedroidRPG
+year: null
+user: 982956cb18969289f02e9560179efe7e
+runner: linux
+slug: freedroidrpg-0161
+version: 0.16.1
+description: ''
+notes: ''
+created_at: '2017-10-22T22:29:54.650000Z'
+updated_at: '2017-10-27T06:05:01.855105Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: bin/freedroidRPG
+  installer:
+  - extract:
+      file: freedroidrpg
+  files:
+  - freedroidrpg: ftp://ftp.osuosl.org/pub/freedroid/freedroidRPG-0.16/freedroidRPG-0.16.1.tar.gz

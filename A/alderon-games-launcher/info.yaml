@@ -1,0 +1,15 @@
+name: Alderon Games Launcher
+slug: alderon-games-launcher
+year: 2019
+platforms:
+- name: Linux
+genres:
+- name: Tool
+aliases: []
+banner_url: /games/banner/alderon-games-launcher.jpg
+icon_url: null
+is_public: true
+updated: '2019-10-27T07:20:20.737214Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

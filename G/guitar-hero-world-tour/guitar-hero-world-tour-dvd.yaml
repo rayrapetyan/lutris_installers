@@ -1,0 +1,41 @@
+id: 14663
+game_id: 20507
+game_slug: guitar-hero-world-tour
+name: 'Guitar Hero: World Tour'
+year: 2009
+user: OsamaBinlada
+runner: wine
+slug: guitar-hero-world-tour-dvd
+version: DVD
+description: Disable "crowd" option in game.
+notes: If you get "dxvk memory allocation failed" error add "PROTON_FORCE_LARGE_ADDRESS_AWARE
+  = 1" or "WINE_LARGE_ADDRESS_AWARE = 1" depending on if you're using Proton or not
+  to environment variables
+created_at: '2019-07-22T00:19:22.197000Z'
+updated_at: '2019-12-24T10:57:57.922471Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Installing the game...
+      name: wineexec
+  files:
+  - setup: N/A:Select the installer for Guitar Hero World Tour (.exe file)
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Aspyr/Guitar Hero World Tour/GHWT.exe
+    arch: win32

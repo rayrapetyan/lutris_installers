@@ -1,0 +1,57 @@
+id: 8475
+game_id: 10447
+game_slug: claw
+name: Claw
+year: 1997
+user: nastys
+runner: wine
+slug: claw-dvd
+version: DVD
+description: Installer for the DVD version of the game (it should also work with the
+  CD version). This will also patch the game to version 1.3.0.
+notes: "- A MIDI device or synthesizer (e.g. Qsynth) is required for in-game music\
+  \ playback\r\n- CD-quality movies will be played instead of the DVD ones"
+created_at: '2018-05-30T18:42:30.131000Z'
+updated_at: '2019-10-27T07:45:05.468088Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: DATA/CLAW.REZ
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix...
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: $DISC/SETUP.EXE
+      prefix: $GAMEDIR
+      description: Installing Claw...
+      arch: win32
+      name: wineexec
+  - extract:
+      src: patch
+      description: Patching Claw...
+      dst: $GAMEDIR/drive_c/games/claw/
+  - task:
+      prefix: $GAMEDIR
+      description: Setting registry keys...
+      arch: win32
+      type: REG_DWORD
+      value: 1
+      path: HKEY_LOCAL_MACHINE\Software\Monolith Productions\Claw\1.0
+      key: Disable DVD Movies
+      name: set_regedit
+  files:
+  - patch: http://kapitanpazur.piasta.pl/dl/claw13.zip
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/games/claw/CLAW.EXE
+    arch: win32

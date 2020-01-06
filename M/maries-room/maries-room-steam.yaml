@@ -1,0 +1,24 @@
+id: 9185
+game_id: 18630
+game_slug: maries-room
+name: Marie's Room
+year: null
+user: soredake
+runner: winesteam
+slug: maries-room-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-12T05:56:32.661204Z'
+updated_at: '2018-07-12T05:56:49.472483Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 648390
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 648390

@@ -1,0 +1,16 @@
+name: Reigns
+slug: reigns
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: RPG
+aliases: []
+banner_url: /games/banner/reigns.jpg
+icon_url: /games/icon/reigns.png
+is_public: true
+updated: '2019-01-23T08:30:57.120047Z'
+steamid: 474750
+gogslug: reigns
+humblestoreid: ''

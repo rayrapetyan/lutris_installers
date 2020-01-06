@@ -1,0 +1,30 @@
+id: 13897
+game_id: 20611
+game_slug: catch-canvas
+name: Catch Canvas
+year: 2016
+user: kimchitea
+runner: steam
+slug: catch-canvas-steam-uncensored
+version: Steam Uncensored
+description: null
+notes: ''
+created_at: '2019-06-03T02:41:56.169000Z'
+updated_at: '2019-06-12T05:08:51.544340Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 459550
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/game
+      file: file1
+  files:
+  - file1: http://razzartvisual.com/wp-content/uploads/2016/10/CC-H-Patch.zip
+  game:
+    appid: 459550

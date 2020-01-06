@@ -1,0 +1,36 @@
+id: 4201
+game_id: 11610
+game_slug: heart-de-roommate
+name: Heart de Roommate
+year: 2003
+user: FakeShemp
+runner: wine
+slug: heart-de-roommate-jast-usa
+version: JAST USA
+description: ''
+notes: ''
+created_at: '2017-06-07T21:42:43.764000Z'
+updated_at: '2018-05-19T03:41:52.088809Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/roomate-install-0.1.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the JAST USA archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Angelsmile/Heard de Roomate/HRUS.EXE
+    arch: win32

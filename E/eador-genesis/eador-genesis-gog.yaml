@@ -1,0 +1,37 @@
+id: 12573
+game_id: 496
+game_slug: eador-genesis
+name: Eador. Genesis
+year: null
+user: cxf
+runner: wine
+slug: eador-genesis-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-03-30T21:21:43.000205Z'
+updated_at: '2019-03-30T21:21:47.465712Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 235660
+gogid: 1207659147
+gogslug: eador_genesis
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /LANG=en /SP- /SUPPRESSMSGBOXES
+      name: wineexec
+  files:
+  - setup: N/A:Select the Linux installer downloaded from GOG
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Eador - Genesis/Eador.exe
+    arch: win64

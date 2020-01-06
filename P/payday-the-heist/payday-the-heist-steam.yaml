@@ -1,0 +1,24 @@
+id: 6809
+game_id: 874
+game_slug: payday-the-heist
+name: 'PAYDAY: The Heist'
+year: 2011
+user: soredake
+runner: winesteam
+slug: payday-the-heist-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-23T22:11:20.226198Z'
+updated_at: '2017-12-23T22:11:29.296775Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 24240
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 24240

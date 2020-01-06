@@ -1,0 +1,24 @@
+id: 12878
+game_id: 924
+game_slug: clive-barkers-jericho
+name: Clive Barker's Jericho
+year: null
+user: Testman42
+runner: steam
+slug: clive-barkers-jericho-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-04-16T21:06:52.019000Z'
+updated_at: '2019-05-19T07:21:17.247260Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 11420
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 11420

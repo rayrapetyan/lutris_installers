@@ -1,0 +1,16 @@
+name: Aion
+slug: aion
+year: 2009
+platforms:
+- name: Windows
+genres:
+- name: Fantasy
+- name: MMORPG
+aliases: []
+banner_url: /games/banner/aion.jpg
+icon_url: /games/icon/aion.png
+is_public: true
+updated: '2019-01-23T08:28:16.500628Z'
+steamid: 29640
+gogslug: ''
+humblestoreid: ''

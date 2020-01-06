@@ -1,0 +1,24 @@
+id: 1540
+game_id: 4329
+game_slug: oscura-lost-light
+name: 'Oscura: Lost Light'
+year: null
+user: Xodetaetl
+runner: steam
+slug: oscura-lost-light-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-05-19T16:02:09.066000Z'
+updated_at: '2015-06-01T17:41:29.385000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 320520
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 320520

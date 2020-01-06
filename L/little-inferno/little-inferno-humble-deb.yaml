@@ -1,0 +1,57 @@
+id: 4446
+game_id: 303
+game_slug: little-inferno
+name: Little Inferno
+year: 2012
+user: FakeShemp
+runner: linux
+slug: little-inferno-humble-deb
+version: Humble (deb)
+description: ''
+notes: ''
+created_at: '2017-06-17T21:52:58.131406Z'
+updated_at: '2017-06-18T23:22:46.818468Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 221260
+gogid: 1444053723
+gogslug: little_inferno
+humblestoreid: little-inferno
+script:
+  exe: LittleInferno.bin.x86
+  installer:
+  - extract:
+      format: ar
+      dst: $CACHE
+      file: $file1
+  - extract:
+      dst: $CACHE
+      file: $CACHE/data.tar.gz
+  - move:
+      src: $CACHE/opt/little-inferno/lib
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/opt/little-inferno/shaders
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/opt/little-inferno/debug.pak
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/opt/little-inferno/embed.pak
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/opt/little-inferno/frontend.pak
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/opt/little-inferno/LittleInferno.bin.x86
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/opt/little-inferno/LittleInferno.png
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/opt/little-inferno/resource.pak
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble installer

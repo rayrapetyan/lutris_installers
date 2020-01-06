@@ -1,0 +1,28 @@
+id: 6219
+game_id: 14524
+game_slug: ideka-halloween-special
+name: I.D.E.K.A Halloween Special
+year: 2015
+user: FakeShemp
+runner: linux
+slug: ideka-halloween-special-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-11-02T09:31:04.852862Z'
+updated_at: '2017-11-02T09:32:01.098411Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: I.D.E.K.A. Horror Special.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

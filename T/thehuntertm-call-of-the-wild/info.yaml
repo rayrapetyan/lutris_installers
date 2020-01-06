@@ -1,0 +1,17 @@
+name: "theHunter\u2122: Call of the Wild"
+slug: thehuntertm-call-of-the-wild
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Simulation
+- name: Sports
+aliases: []
+banner_url: /games/banner/thehuntertm-call-of-the-wild.jpg
+icon_url: /games/icon/thehuntertm-call-of-the-wild.png
+is_public: true
+updated: '2019-01-23T08:31:42.392003Z'
+steamid: 518790
+gogslug: ''
+humblestoreid: ''

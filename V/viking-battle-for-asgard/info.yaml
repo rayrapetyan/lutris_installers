@@ -1,0 +1,15 @@
+name: 'Viking: Battle for Asgard'
+slug: viking-battle-for-asgard
+year: 2012
+platforms:
+- name: Windows
+genres:
+- name: Hack and slash
+aliases: []
+banner_url: /games/banner/viking-battle-for-asgard.jpg
+icon_url: /games/icon/viking-battle-for-asgard.png
+is_public: true
+updated: '2019-01-23T08:32:02.556576Z'
+steamid: 211160
+gogslug: ''
+humblestoreid: ''

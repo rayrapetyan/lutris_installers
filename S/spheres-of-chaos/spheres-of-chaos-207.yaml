@@ -1,0 +1,33 @@
+id: 11989
+game_id: 25755
+game_slug: spheres-of-chaos
+name: Spheres of Chaos
+year: 1992
+user: strider
+runner: linux
+slug: spheres-of-chaos-207
+version: '2.07'
+description: null
+notes: "You will need this registration key: bbd8b010c7ee50c492b30454dd504d87\r\n\
+  Requires some messing with permissions on the .chaos folder, or it can't save its\
+  \ registration file"
+created_at: '2019-02-13T02:43:52.363000Z'
+updated_at: '2019-02-13T02:48:45.467446Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: installer
+  - chmodx: $GAMEDIR/Chaosl
+  files:
+  - installer: http://www.spheresofchaos.com/files/chaosl.zip
+  game:
+    exe: Chaosl

@@ -1,0 +1,24 @@
+id: 2470
+game_id: 4473
+game_slug: cafe-0-the-drowned-mermaid
+name: CAFE 0 ~The Drowned Mermaid~
+year: null
+user: gschaffran
+runner: steam
+slug: cafe-0-the-drowned-mermaid-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-08-17T18:25:31.159509Z'
+updated_at: '2016-09-25T19:52:18.255685Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 335660
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 335660

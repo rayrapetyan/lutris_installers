@@ -1,0 +1,28 @@
+id: 5984
+game_id: 9052
+game_slug: neon-chrome
+name: Neon Chrome
+year: null
+user: FakeShemp
+runner: linux
+slug: neon-chrome-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-10-18T18:29:52.893735Z'
+updated_at: '2017-10-18T18:30:51.072092Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 428750
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: NeonChrome
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

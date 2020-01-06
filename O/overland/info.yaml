@@ -1,0 +1,17 @@
+name: Overland
+slug: overland
+year: 2019
+platforms:
+- name: Linux
+genres:
+- name: Strategy
+- name: Survival
+- name: Turn-based
+aliases: []
+banner_url: /games/banner/overland.jpg
+icon_url: null
+is_public: true
+updated: '2019-02-15T03:54:47.345975Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

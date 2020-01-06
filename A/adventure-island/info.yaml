@@ -1,0 +1,18 @@
+name: Adventure Island
+slug: adventure-island
+year: 1986
+platforms:
+- name: Game Boy
+- name: MSX
+- name: NES
+- name: Nintendo Game Boy Advance
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/adventure-island.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:12.436584Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

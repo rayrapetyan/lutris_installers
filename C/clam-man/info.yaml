@@ -1,0 +1,16 @@
+name: Clam Man
+slug: clam-man
+year: 2019
+platforms:
+- name: Linux
+genres:
+- name: Comedy
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/clam-man.jpg
+icon_url: null
+is_public: true
+updated: '2019-06-13T06:13:44.986231Z'
+steamid: 1000640
+gogslug: ''
+humblestoreid: ''

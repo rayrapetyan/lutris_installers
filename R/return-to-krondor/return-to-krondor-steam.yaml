@@ -1,0 +1,25 @@
+id: 12510
+game_id: 9680
+game_slug: return-to-krondor
+name: Return to Krondor
+year: 1998
+user: cxf
+runner: winesteam
+slug: return-to-krondor-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-03-25T06:46:57.043000Z'
+updated_at: '2019-03-25T06:47:34.513812Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 564960
+gogid: 1207658840
+gogslug: return_to_krondor
+humblestoreid: ''
+script:
+  game:
+    appid: 564960
+    arch: win32

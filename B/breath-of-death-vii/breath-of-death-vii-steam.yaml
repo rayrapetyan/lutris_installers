@@ -1,0 +1,67 @@
+id: 7591
+game_id: 710
+game_slug: breath-of-death-vii
+name: 'Breath of Death VII '
+year: null
+user: king_dick
+runner: winesteam
+slug: breath-of-death-vii-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-18T06:02:01.767000Z'
+updated_at: '2018-04-26T00:30:06.241011Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 107300
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: dotnet40
+      silent: false
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: xna40
+      silent: false
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: devenum
+      silent: false
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: quartz
+      silent: false
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: wmp9
+      silent: false
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: qedit
+      silent: false
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: dsdmo
+      silent: false
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 107300
+    arch: win32

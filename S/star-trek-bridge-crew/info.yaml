@@ -1,0 +1,17 @@
+name: 'Star Trek: Bridge Crew'
+slug: star-trek-bridge-crew
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: RPG
+- name: Sci-fi
+- name: Simulation
+aliases: []
+banner_url: /games/banner/star-trek-bridge-crew.jpg
+icon_url: /games/icon/star-trek-bridge-crew.png
+is_public: true
+updated: '2019-07-23T03:46:09.203413Z'
+steamid: 527100
+gogslug: ''
+humblestoreid: ''

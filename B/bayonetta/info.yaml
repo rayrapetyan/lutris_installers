@@ -1,0 +1,16 @@
+name: Bayonetta
+slug: bayonetta
+year: 2017
+platforms:
+- name: Nintendo Wii U
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/bayonetta.jpg
+icon_url: /games/icon/bayonetta.png
+is_public: true
+updated: '2019-01-23T08:28:33.729231Z'
+steamid: 460790
+gogslug: ''
+humblestoreid: ''

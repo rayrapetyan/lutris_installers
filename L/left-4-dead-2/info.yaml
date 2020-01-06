@@ -1,0 +1,15 @@
+name: Left 4 Dead 2
+slug: left-4-dead-2
+year: 2009
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/left-4-dead-2.jpg
+icon_url: /games/icon/left-4-dead-2.png
+is_public: true
+updated: '2019-01-23T08:30:08.802764Z'
+steamid: 550
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,38 @@
+id: 9900
+game_id: 18021
+game_slug: heroes-of-might-and-magic-ii
+name: Heroes of Might and Magic II
+year: 1996
+user: BadThwomp
+runner: dosbox
+slug: heroes-of-might-and-magic-ii-gog-2
+version: GOG
+description: null
+notes: ''
+created_at: '2018-08-26T12:51:55.525264Z'
+updated_at: '2018-08-27T06:36:45.020753Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1207658785
+gogslug: heroes_of_might_and_magic_2_gold_edition
+humblestoreid: ''
+script:
+  main_file: DOSBOX/dosboxhomm2_single.conf
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file2
+  - execute:
+      args: -d "$CACHE" "$file1"
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/app
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the GOG installer
+  - file2: https://lutris.net/files/tools/innoextract.tar.gz
+  game:
+    config_file: $GAMEDIR/dosboxhomm2.conf

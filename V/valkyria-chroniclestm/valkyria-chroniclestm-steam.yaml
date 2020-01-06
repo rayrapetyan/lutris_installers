@@ -1,0 +1,26 @@
+id: 5845
+game_id: 4234
+game_slug: valkyria-chroniclestm
+name: "Valkyria Chronicles\u2122"
+year: null
+user: ParObsidian
+runner: winesteam
+slug: valkyria-chroniclestm-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-09-24T15:37:09.378000Z'
+updated_at: '2019-09-09T01:28:47.848634Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 294860
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    esync: false
+  game:
+    appid: 294860

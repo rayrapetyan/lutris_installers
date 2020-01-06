@@ -1,0 +1,16 @@
+name: Planet Zoo
+slug: planet-zoo
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Simulation
+- name: Strategy
+aliases: []
+banner_url: /games/banner/planet-zoo.jpg
+icon_url: /games/icon/planet-zoo.png
+is_public: true
+updated: '2019-06-13T16:11:36.109730Z'
+steamid: 703080
+gogslug: ''
+humblestoreid: ''

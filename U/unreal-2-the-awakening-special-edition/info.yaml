@@ -1,0 +1,17 @@
+name: 'Unreal 2: The Awakening Special Edition'
+slug: unreal-2-the-awakening-special-edition
+year: 2003
+platforms:
+- name: Windows
+genres:
+- name: FPP
+- name: Sci-fi
+- name: Shooter
+aliases: []
+banner_url: /games/banner/unreal-2-the-awakening-special-edition.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:00.143029Z'
+steamid: null
+gogslug: unreal_2_the_awakening_se
+humblestoreid: ''

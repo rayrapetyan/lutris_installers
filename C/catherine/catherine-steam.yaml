@@ -1,0 +1,90 @@
+id: 11545
+game_id: 18175
+game_slug: catherine
+name: Catherine
+year: 2011
+user: cxf
+runner: winesteam
+slug: catherine-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-01-10T21:50:52.731000Z'
+updated_at: '2019-12-29T08:32:35.612286Z'
+draft: false
+published: true
+published_by: 19464
+rating: '1'
+steamid: 893180
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE/dxsetup
+      file: dx2010
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR/prefix
+      args: /silent
+      arch: win32
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: winekill
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: mf vcrun2017
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      component: mediafoundation
+      arch: win32
+      cabfile: $HOME/.cache/winetricks/win7sp1/windows6.1-KB976932-X86.exe
+      name: install_cab_component
+  - task:
+      prefix: $GAMEDIR/prefix
+      component: mf_
+      arch: win32
+      cabfile: $HOME/.cache/winetricks/win7sp1/windows6.1-KB976932-X86.exe
+      name: install_cab_component
+  - task:
+      prefix: $GAMEDIR/prefix
+      component: mfreadwrite
+      arch: win32
+      cabfile: $HOME/.cache/winetricks/win7sp1/windows6.1-KB976932-X86.exe
+      name: install_cab_component
+  - task:
+      prefix: $GAMEDIR/prefix
+      component: wmadmod
+      arch: win32
+      cabfile: $HOME/.cache/winetricks/win7sp1/windows6.1-KB976932-X86.exe
+      name: install_cab_component
+  - task:
+      prefix: $GAMEDIR/prefix
+      component: wmvdecod
+      arch: win32
+      cabfile: $HOME/.cache/winetricks/win7sp1/windows6.1-KB976932-X86.exe
+      name: install_cab_component
+  - move:
+      src: mfplat_dll
+      dst: $GAMEDIR
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: win7
+      arch: win32
+      name: winetricks
+  files:
+  - mfplat_dll: https://lutris.net/files/tools/dll/mfplat/x32/mfplat.dll
+  - dx2010: https://lutris.net/files/tools/directx-2010.tar.gz
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 893180
+    arch: win32

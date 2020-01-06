@@ -1,0 +1,24 @@
+id: 3873
+game_id: 2200
+game_slug: battle-islands
+name: Battle Islands
+year: null
+user: rensch77
+runner: winesteam
+slug: battle-islands-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-05-25T08:52:31.925711Z'
+updated_at: '2017-05-28T00:01:35.220261Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 305260
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 305260

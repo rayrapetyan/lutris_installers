@@ -1,0 +1,24 @@
+id: 10326
+game_id: 1745
+game_slug: the-tiny-bang-story
+name: The Tiny Bang Story
+year: 2011
+user: oscararg
+runner: steam
+slug: the-tiny-bang-story-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-09-24T18:56:34.655696Z'
+updated_at: '2018-09-25T17:34:46.301104Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 96000
+gogid: 1658358203
+gogslug: the_tiny_bang_story
+humblestoreid: ''
+script:
+  game:
+    appid: 96000

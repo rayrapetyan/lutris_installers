@@ -1,0 +1,32 @@
+id: 2275
+game_id: 5342
+game_slug: convoy
+name: Convoy
+year: 2015
+user: Lulu
+runner: linux
+slug: convoy-humble-bundle
+version: Humble Bundle
+description: ''
+notes: 'Tested with version: January 2016'
+created_at: '2016-07-06T18:30:56.612123Z'
+updated_at: '2016-07-06T21:00:00.900214Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 318230
+gogid: 1432538826
+gogslug: convoy
+humblestoreid: ''
+script:
+  exe: Convoy.x86
+  installer:
+  - extract:
+      file: convoy-game
+  - chmodx: $GAMEDIR/Convoy.x86
+  - chmodx: $GAMEDIR/Convoy.x86_64
+  exe64: Convoy.x86_64
+  steamid: '318230'
+  files:
+  - convoy-game: N/A:Please select the .zip install file downloaded from humblebundle.com

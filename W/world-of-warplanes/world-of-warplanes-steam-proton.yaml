@@ -1,0 +1,24 @@
+id: 16238
+game_id: 21766
+game_slug: world-of-warplanes
+name: World of Warplanes
+year: null
+user: cxf
+runner: steam
+slug: world-of-warplanes-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-10-16T23:39:46.184604Z'
+updated_at: '2019-10-16T23:39:50.843049Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 790710
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 790710

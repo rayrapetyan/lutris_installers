@@ -1,0 +1,32 @@
+id: 7314
+game_id: 6385
+game_slug: automobilista
+name: Automobilista
+year: null
+user: littlechalan
+runner: winesteam
+slug: automobilista-steam
+version: Steam
+description: null
+notes: "Force Feedback in Logitech Wheels don't work\r\nIf you use WinXP in Wineconf\
+  \ the game give an error at Start"
+created_at: '2018-02-15T20:47:14.634000Z'
+updated_at: '2018-05-06T07:30:15.667300Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 431600
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows 7 mode for Wine
+      app: win7
+      arch: win32
+      name: winetricks
+  game:
+    appid: 431600

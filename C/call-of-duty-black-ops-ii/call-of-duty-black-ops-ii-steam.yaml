@@ -1,0 +1,25 @@
+id: 8339
+game_id: 1174
+game_slug: call-of-duty-black-ops-ii
+name: 'Call of Duty: Black Ops II'
+year: 2012
+user: Swedneck
+runner: winesteam
+slug: call-of-duty-black-ops-ii-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-19T22:09:03.835000Z'
+updated_at: '2018-05-20T07:58:19.099913Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 202970
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 202970
+    arch: win64

@@ -1,0 +1,37 @@
+id: 14
+game_id: 28
+game_slug: quake-2
+name: Quake 2
+year: 1997
+user: strider
+runner: linux
+slug: quake-2-native-steam-data
+version: Native + steam data
+description: Requires to own the game on Steam. Uses the improved and open engine
+  Yamagi
+notes: ''
+created_at: '2013-06-24T19:32:10Z'
+updated_at: '2018-11-18T23:01:54.756882Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 2320
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: quake2
+  installer:
+  - extract:
+      file: yamagi-quake2-x64
+  - merge:
+      src: quake2-data
+      dst: $GAMEDIR/baseq2
+  - extract:
+      dst: $GAMEDIR/baseq2/music
+      file: quake2-music
+  files:
+  - yamagi-quake2-x64: https://lutris.nyc3.digitaloceanspaces.com/games/quake-2/yamagi-yquake2-7.30-x86_64.tar.gz
+  - quake2-data: $STEAM:2320:baseq2
+  - quake2-music: https://lutris.net/files/games/quake-2/quake2-music.tar.gz

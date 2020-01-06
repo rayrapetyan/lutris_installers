@@ -1,0 +1,28 @@
+id: 8909
+game_id: 16009
+game_slug: requiescence
+name: Requiescence
+year: 2016
+user: kimchitea
+runner: linux
+slug: requiescence-itchio
+version: itch.io
+description: null
+notes: Works for both the R-18 and PG-13 versions.
+created_at: '2018-06-25T18:41:50.799220Z'
+updated_at: '2018-06-26T03:38:39.808192Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 530360
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Requiesence.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

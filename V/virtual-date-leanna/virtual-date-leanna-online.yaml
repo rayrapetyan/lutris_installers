@@ -1,0 +1,23 @@
+id: 7371
+game_id: 16598
+game_slug: virtual-date-leanna
+name: Virtual Date - Leanna
+year: null
+user: t-rex91
+runner: browser
+slug: virtual-date-leanna-online
+version: Online
+description: null
+notes: ''
+created_at: '2018-02-22T14:05:15.827491Z'
+updated_at: '2018-02-24T05:00:40.779458Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: http://www.vdategames.com/leanna/begin.html

@@ -1,0 +1,29 @@
+id: 6571
+game_id: 95
+game_slug: kerbal-space-program
+name: Kerbal Space Program
+year: 2011
+user: jimj316
+runner: linux
+slug: kerbal-space-program-ksp-website
+version: KSP Website
+description: This will install KSP from a .ZIP archive downloaded from kerbalspaceprogram.com.
+notes: ''
+created_at: '2017-12-09T22:47:18.659000Z'
+updated_at: '2017-12-10T00:27:58.952014Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 220200
+gogid: 1429864849
+gogslug: kerbal_space_program
+humblestoreid: ''
+script:
+  exe: KSP.x86_64
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/KSP.x86_64
+  files:
+  - file1: N/A:Please select the kerbalspaceprogram.com archive

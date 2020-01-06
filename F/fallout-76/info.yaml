@@ -1,0 +1,16 @@
+name: Fallout 76
+slug: fallout-76
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: RPG
+aliases: []
+banner_url: /games/banner/fallout-76.jpg
+icon_url: /games/icon/fallout-76.png
+is_public: true
+updated: '2019-01-23T08:29:28.114839Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

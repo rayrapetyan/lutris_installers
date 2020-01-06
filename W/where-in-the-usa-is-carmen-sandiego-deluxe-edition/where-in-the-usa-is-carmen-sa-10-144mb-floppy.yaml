@@ -1,0 +1,75 @@
+id: 10244
+game_id: 21790
+game_slug: where-in-the-usa-is-carmen-sandiego-deluxe-edition
+name: Where in the U.S.A. Is Carmen Sandiego? (Deluxe Edition)
+year: 1993
+user: Mr_Alert
+runner: dosbox
+slug: where-in-the-usa-is-carmen-sa-10-144mb-floppy
+version: 1.0 - 1.44MB Floppy
+description: null
+notes: ''
+created_at: '2018-09-19T02:33:39.757046Z'
+updated_at: '2018-09-20T00:09:22.129050Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - mkdir: $GAMEDIR/c
+  - insert-disc:
+      requires: FILE1
+  - merge:
+      src: $DISC
+      dst: $GAMEDIR/a
+  - insert-disc:
+      requires: FILE2
+  - merge:
+      src: $DISC
+      dst: $GAMEDIR/a
+  - insert-disc:
+      requires: FILE3
+  - merge:
+      src: $DISC
+      dst: $GAMEDIR/a
+  - insert-disc:
+      requires: FILE4
+  - merge:
+      src: $DISC
+      dst: $GAMEDIR/a
+  - insert-disc:
+      requires: FILE5
+  - merge:
+      src: $DISC
+      dst: $GAMEDIR/a
+  - task:
+      commands:
+      - 'C:'
+      - CD USAD
+      - CARMEN.EXE
+      - exit
+      path: $GAMEDIR/play.conf
+      drives:
+        c: $GAMEDIR/c
+      name: makeconfig
+  - task:
+      commands:
+      - 'A:'
+      - INSTALL.COM
+      - exit
+      path: $GAMEDIR/install.conf
+      drives:
+        a: $GAMEDIR/a
+        c: $GAMEDIR/c
+      name: makeconfig
+  - task:
+      config_file: $GAMEDIR/install.conf
+      working_dir: $GAMEDIR
+      name: dosexec
+  game:
+    main_file: $GAMEDIR/play.conf

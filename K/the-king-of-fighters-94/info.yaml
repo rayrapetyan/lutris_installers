@@ -1,0 +1,17 @@
+name: The King of Fighters '94
+slug: the-king-of-fighters-94
+year: 1994
+platforms:
+- name: Arcade
+- name: Neo Geo
+- name: Neo Geo CD
+genres:
+- name: Fighting
+aliases: []
+banner_url: /games/banner/the-king-of-fighters-94.jpg
+icon_url: null
+is_public: true
+updated: '2019-03-05T05:42:54.973837Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

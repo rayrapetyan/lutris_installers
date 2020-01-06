@@ -1,0 +1,47 @@
+id: 11419
+game_id: 705
+game_slug: the-settlers-7-paths-to-a-kingdom-gold-edition
+name: 'The Settlers 7: Paths to a Kingdom - Gold Edition'
+year: null
+user: Kesefon
+runner: wine
+slug: the-settlers-7-paths-to-a-kin-uplay
+version: Uplay
+description: null
+notes: ''
+created_at: '2019-01-02T19:47:47.359000Z'
+updated_at: '2019-01-19T10:59:52.702665Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 48210
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    args: uplay://launch/8/0
+    exe: drive_c/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/Uplay.exe
+    arch: win64
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: uplay
+      prefix: $GAMEDIR
+      args: /S
+      description: Installing Uplay
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: allfonts
+      name: winetricks
+  wine:
+    version: tkg-3.21-x86_64
+  files:
+  - uplay: https://ubistatic3-a.akamaihd.net/orbit/launcher_installer/UplayInstaller.exe

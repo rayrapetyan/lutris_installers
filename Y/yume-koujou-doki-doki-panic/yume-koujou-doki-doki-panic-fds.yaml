@@ -1,0 +1,35 @@
+id: 5622
+game_id: 13853
+game_slug: yume-koujou-doki-doki-panic
+name: 'Yume Koujou: Doki Doki Panic'
+year: 1987
+user: maxlefou
+runner: libretro
+slug: yume-koujou-doki-doki-panic-fds
+version: FDS
+description: ''
+notes: ''
+created_at: '2017-09-08T07:33:16.899000Z'
+updated_at: '2017-09-17T19:28:09.463603Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: rom
+      dst: $GAMEDIR
+  - merge:
+      src: bios
+      dst: $GAMEDIR
+  files:
+  - rom: N/A:Select the game's ROM file
+  - bios: N/A:Select the Famicom Disk System BIOS file (usually disksys.rom)
+  game:
+    core: fceumm
+    main_file: rom

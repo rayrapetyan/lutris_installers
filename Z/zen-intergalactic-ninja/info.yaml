@@ -1,0 +1,16 @@
+name: 'Zen: Intergalactic Ninja'
+slug: zen-intergalactic-ninja
+year: 1993
+platforms:
+- name: NES
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/zen-intergalactic-ninja.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:14.361015Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

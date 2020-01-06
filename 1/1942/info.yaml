@@ -1,0 +1,23 @@
+name: '1942'
+slug: '1942'
+year: 1984
+platforms:
+- name: Amstrad CPC 464
+- name: Arcade
+- name: Commodore 64
+- name: Game Boy
+- name: MSX
+- name: NES
+- name: Nintendo Wii
+- name: ZX Spectrum
+genres:
+- name: Arcade
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/1942.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:08.099460Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

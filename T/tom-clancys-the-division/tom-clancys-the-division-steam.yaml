@@ -1,0 +1,28 @@
+id: 9076
+game_id: 6693
+game_slug: tom-clancys-the-division
+name: Tom Clancy's The Division
+year: 2016
+user: TuiorGames
+runner: winesteam
+slug: tom-clancys-the-division-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-07T12:49:16.205000Z'
+updated_at: '2019-01-19T09:33:17.040968Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 365590
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-3.21-x86_64
+    dxvk: true
+  game:
+    appid: 365590
+    arch: win64

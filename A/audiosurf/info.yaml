@@ -1,0 +1,16 @@
+name: Audiosurf
+slug: audiosurf
+year: 2008
+platforms:
+- name: Windows
+genres:
+- name: Puzzle
+- name: Rhythm
+aliases: []
+banner_url: /games/banner/audiosurf.jpg
+icon_url: /games/icon/audiosurf.png
+is_public: true
+updated: '2019-01-23T08:28:28.854632Z'
+steamid: 12900
+gogslug: ''
+humblestoreid: audiosurf

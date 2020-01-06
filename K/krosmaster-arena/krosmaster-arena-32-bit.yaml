@@ -1,0 +1,31 @@
+id: 1521
+game_id: 4277
+game_slug: krosmaster-arena
+name: Krosmaster Arena
+year: 2015
+user: ERIIX
+runner: linux
+slug: krosmaster-arena-32-bit
+version: 32-bit
+description: Ankama account required to play.  Signup link available in launcher.
+notes: ''
+created_at: '2015-05-03T23:18:12.085000Z'
+updated_at: '2015-05-12T08:20:12.933000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 329790
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: KrosmasterArena
+  installer:
+  - extract:
+      type: tgz
+      file: main
+  files:
+  - main:
+      filename: krosmaster-arena-x86.tar.gz
+      url: http://download.krosmaster.com/full/linux/

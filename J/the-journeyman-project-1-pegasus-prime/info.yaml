@@ -1,0 +1,19 @@
+name: 'The Journeyman Project 1: Pegasus Prime'
+slug: the-journeyman-project-1-pegasus-prime
+year: 1997
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: FPP
+- name: Puzzle
+aliases:
+- slug: journeyman-project-1-pegasus-prime-the
+  name: 'Journeyman Project 1: Pegasus Prime, The'
+banner_url: /games/banner/the-journeyman-project-1-pegasus-prime.jpg
+icon_url: /games/icon/the-journeyman-project-1-pegasus-prime.png
+is_public: true
+updated: '2019-03-30T02:34:44.557411Z'
+steamid: 359420
+gogslug: journeyman_project_1_pegasus_prime_the
+humblestoreid: ''

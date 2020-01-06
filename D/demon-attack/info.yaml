@@ -1,0 +1,20 @@
+name: Demon Attack
+slug: demon-attack
+year: 1982
+platforms:
+- name: Atari 2600
+- name: Commodore 64
+- name: Intellivision
+- name: "Magnavox Odyssey\xB2"
+- name: Videopac+ G7400
+genres:
+- name: Action
+- name: Arcade
+aliases: []
+banner_url: /games/banner/demon-attack.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:09.491660Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,15 @@
+name: Xonotic
+slug: xonotic
+year: 2011
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/xonotic.jpg
+icon_url: /games/icon/xonotic.png
+is_public: true
+updated: '2019-01-23T08:32:12.585892Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

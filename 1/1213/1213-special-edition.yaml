@@ -1,0 +1,34 @@
+id: 3244
+game_id: 3889
+game_slug: '1213'
+name: '1213'
+year: 2005
+user: FakeShemp
+runner: ags
+slug: 1213-special-edition
+version: Special Edition
+description: null
+notes: ''
+created_at: '2017-02-08T20:35:36.887000Z'
+updated_at: '2019-11-16T09:18:33.144631Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: 1213 SE.exe
+  installer:
+  - extract:
+      dst: $CACHE
+      file: file1
+  - extract:
+      dst: $GAMEDIR
+      file: $CACHE/FullyRamblomatic-SpecialEditions/1213_se.zip
+  files:
+  - file1:
+      filename: FullyRamblomatic_SpecialEditions_www.g4g.it.zip
+      url: http://www.g4g.it/download/redirect.php?dlid=3158

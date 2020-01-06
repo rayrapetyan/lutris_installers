@@ -1,0 +1,16 @@
+name: Warmachine Tactics
+slug: warmachine-tactics
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Turn-based strategy
+- name: Turn-based tactics
+aliases: []
+banner_url: /games/banner/warmachine-tactics.jpg
+icon_url: /games/icon/warmachine-tactics.png
+is_public: true
+updated: '2019-01-23T08:32:06.239636Z'
+steamid: 253510
+gogslug: ''
+humblestoreid: ''

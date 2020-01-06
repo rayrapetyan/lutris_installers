@@ -1,0 +1,38 @@
+id: 2574
+game_id: 2116
+game_slug: luftrausers
+name: Luftrausers
+year: 2014
+user: ssf
+runner: linux
+slug: luftrausers-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2016-08-23T16:25:07.429293Z'
+updated_at: '2016-09-28T18:12:23.603648Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 233150
+gogid: 1207661993
+gogslug: luftrausers
+humblestoreid: luftrausers
+script:
+  exe: game/start.sh
+  gogid: luftrausers
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Please select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

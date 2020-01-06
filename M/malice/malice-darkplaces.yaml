@@ -1,0 +1,33 @@
+id: 11994
+game_id: 25759
+game_slug: malice
+name: Malice
+year: 1997
+user: strider
+runner: linux
+slug: malice-darkplaces
+version: Darkplaces
+description: Requires the Quake full version with Darkplace (We currently only have
+  an installer for the Steam data)
+notes: ''
+created_at: '2019-02-13T04:03:20.271000Z'
+updated_at: '2019-02-13T05:09:03.546495Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: quake-darkplaces-steam
+  installer:
+  - extract:
+      dst: $GAMEDIR/malice
+      file: archive
+  files:
+  - archive: https://lutris.nyc3.digitaloceanspaces.com/games/quake/malice.tar.xz
+  game:
+    args: -malice -game malice
+    exe: darkplaces-sdl

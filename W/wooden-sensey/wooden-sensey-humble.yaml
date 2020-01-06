@@ -1,0 +1,31 @@
+id: 3709
+game_id: 1660
+game_slug: wooden-sensey
+name: Wooden Sen'SeY
+year: 2014
+user: FakeShemp
+runner: linux
+slug: wooden-sensey-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-16T20:48:37.657069Z'
+updated_at: '2017-05-17T18:22:48.045343Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 259830
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: WoodenSenSeY.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/WoodenSenSeY.x86
+  - chmodx: $GAMEDIR/WoodenSenSeY.x86_64
+  exe64: WoodenSenSeY.x86_64
+  files:
+  - file1: N/A:Please select the Humble archive

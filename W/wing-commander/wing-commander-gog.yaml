@@ -1,0 +1,36 @@
+id: 5012
+game_id: 5283
+game_slug: wing-commander
+name: Wing Commander
+year: 1990
+user: Wompus
+runner: dosbox
+slug: wing-commander-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2017-07-13T13:22:40.327000Z'
+updated_at: '2019-09-09T00:30:15.554256Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: app/WC.EXE
+  installer:
+  - extract:
+      dst: $CACHE/tmp/innoextract
+      file: innoextract
+  - execute:
+      args: --extract $wcinstaller --output-dir $CACHE/tmp/wc --gog
+      file: $CACHE/tmp/innoextract/innoextract
+  - move:
+      src: $CACHE/tmp/wc/app
+      dst: $GAMEDIR
+  files:
+  - wcinstaller: N/A:Select location of GOG executable (should be setup_wing_commander_2.1.x.x.exe)
+  - innoextract: http://constexpr.org/innoextract/files/snapshots/innoextract-1.8-dev-2019-01-13/innoextract-1.8-dev-2019-01-13-linux.tar.xz

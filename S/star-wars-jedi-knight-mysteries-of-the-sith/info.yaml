@@ -1,0 +1,16 @@
+name: 'Star Wars - Jedi Knight: Mysteries of the Sith'
+slug: star-wars-jedi-knight-mysteries-of-the-sith
+year: 1998
+platforms:
+- name: Windows
+genres:
+- name: Action-adventure
+- name: FPS
+aliases: []
+banner_url: /games/banner/star-wars-jedi-knight-mysteries-of-the-sith.jpg
+icon_url: /games/icon/star-wars-jedi-knight-mysteries-of-the-sith.png
+is_public: true
+updated: '2019-12-22T18:01:08.273309Z'
+steamid: 32390
+gogslug: ''
+humblestoreid: ''

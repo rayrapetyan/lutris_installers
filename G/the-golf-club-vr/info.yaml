@@ -1,0 +1,16 @@
+name: The Golf Club VR
+slug: the-golf-club-vr
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Simulation
+- name: Sports
+aliases: []
+banner_url: /games/banner/the-golf-club-vr.jpg
+icon_url: /games/icon/the-golf-club-vr.png
+is_public: true
+updated: '2019-01-23T08:31:41.816114Z'
+steamid: 489600
+gogslug: ''
+humblestoreid: ''

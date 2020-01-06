@@ -1,0 +1,24 @@
+id: 375
+game_id: 176
+game_slug: back-to-the-future-ep-3-citizen-brown
+name: 'Back to the Future: Ep 3 - Citizen Brown'
+year: 2011
+user: strider
+runner: winesteam
+slug: back-to-the-future-ep-3-citize-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-01-15T00:29:49.214000Z'
+updated_at: '2014-01-15T00:29:53.816000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 94510
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 94510

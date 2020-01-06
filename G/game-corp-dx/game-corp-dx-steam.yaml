@@ -1,0 +1,24 @@
+id: 5881
+game_id: 5278
+game_slug: game-corp-dx
+name: Game Corp DX
+year: null
+user: Hammering
+runner: steam
+slug: game-corp-dx-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-10-01T23:52:04.438000Z'
+updated_at: '2017-10-08T21:55:17.939711Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 399670
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 399670

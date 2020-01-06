@@ -1,0 +1,16 @@
+name: FINAL FANTASY IX
+slug: final-fantasy-ix
+year: 2000
+platforms:
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: jRPG
+aliases: []
+banner_url: /games/banner/final-fantasy-ix.jpg
+icon_url: /games/icon/final-fantasy-ix.png
+is_public: true
+updated: '2019-01-23T08:29:30.767270Z'
+steamid: 377840
+gogslug: ''
+humblestoreid: ''

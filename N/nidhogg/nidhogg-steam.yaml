@@ -1,0 +1,24 @@
+id: 8408
+game_id: 2346
+game_slug: nidhogg
+name: Nidhogg
+year: null
+user: ph9214
+runner: winesteam
+slug: nidhogg-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-24T22:27:58.295000Z'
+updated_at: '2018-05-25T03:56:55.401255Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 94400
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 94400

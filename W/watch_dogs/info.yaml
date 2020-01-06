@@ -1,0 +1,20 @@
+name: Watch Dogs
+slug: watch_dogs
+year: 2014
+platforms:
+- name: Sony Playstation 3
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: FPS
+- name: RPG
+- name: Shooter
+aliases: []
+banner_url: /games/banner/watch_dogs.jpg
+icon_url: /games/icon/watch_dogs.png
+is_public: true
+updated: '2019-05-21T18:46:15.316951Z'
+steamid: 243470
+gogslug: ''
+humblestoreid: ''

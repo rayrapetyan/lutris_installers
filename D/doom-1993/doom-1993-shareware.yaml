@@ -1,0 +1,30 @@
+id: 5258
+game_id: 14945
+game_slug: doom-1993
+name: DOOM (1993)
+year: 1993
+user: bacera
+runner: zdoom
+slug: doom-1993-shareware
+version: Shareware
+description: Downloads the free shareware (demo) version of Doom. No Steam required.
+notes: ''
+created_at: '2017-08-03T01:35:43.248000Z'
+updated_at: '2017-11-27T15:38:54.157130Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: $iwad
+      dst: $GAMEDIR
+  files:
+  - iwad: http://distro.ibiblio.org/pub/linux/distributions/slitaz/sources/packages/d/doom1.wad
+  game:
+    main_file: doom1.wad

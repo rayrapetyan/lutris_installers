@@ -1,0 +1,54 @@
+id: 12441
+game_id: 822
+game_slug: bioshock-infinite
+name: BioShock Infinite
+year: 2013
+user: VortexAcherontic
+runner: winesteam
+slug: bioshock-infinite-steam-dxvk
+version: Steam / DXVK
+description: null
+notes: ''
+created_at: '2019-03-20T18:54:14.552000Z'
+updated_at: '2019-03-21T01:20:39.901655Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 8870
+gogid: null
+gogslug: ''
+humblestoreid: bioshock-infinite
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Creating Wine Prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Switching to Windows 7
+      app: win7
+      arch: win64
+      name: winetricks
+  winesteam:
+    version: tkg-4.4-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      PBA_ENABLE: '0'
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_STATE_CACHE: '1'
+      __PBA_CB_HEAP: '128'
+      mesa_glthread: 'true'
+      __GL_SHADER_DISK_CACHE: '1'
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+      __GL_THREADED_OPTIMIZATIONS: '1'
+      __PBA_GEO_HEAP: '512'
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 8870
+    arch: win64

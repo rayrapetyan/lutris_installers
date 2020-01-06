@@ -1,0 +1,19 @@
+name: MediEvil
+slug: medievil
+year: 1998
+platforms:
+- name: Sony PlayStation
+- name: Sony Playstation 3
+- name: Sony PSP
+genres:
+- name: Action
+- name: Adventure
+- name: Beat'em up
+aliases: []
+banner_url: /games/banner/medievil.jpg
+icon_url: null
+is_public: true
+updated: '2019-11-01T23:25:06.551659Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

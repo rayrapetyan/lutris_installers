@@ -1,0 +1,32 @@
+id: 2852
+game_id: 4082
+game_slug: achtung-die-kurve
+name: Achtung, die Kurve!
+year: 1995
+user: djazz
+runner: web
+slug: achtung-die-kurve-alling-offline
+version: Alling offline
+description: https://github.com/SimonAlling/kurve
+notes: ''
+created_at: '2016-10-07T09:19:17.056852Z'
+updated_at: '2016-10-09T22:34:19.900863Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: game
+  main_file: index.html
+  web:
+    open_links: true
+    disable_scrolling: true
+    window_size: 800x600
+  files:
+  - game: https://github.com/SimonAlling/kurve/archive/0.3.3.zip

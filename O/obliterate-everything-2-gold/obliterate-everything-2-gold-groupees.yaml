@@ -1,0 +1,32 @@
+id: 6003
+game_id: 14013
+game_slug: obliterate-everything-2-gold
+name: Obliterate Everything 2 Gold
+year: 2013
+user: FakeShemp
+runner: wine
+slug: obliterate-everything-2-gold-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-10-19T18:09:19.372000Z'
+updated_at: '2018-05-19T03:41:59.221475Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR/drive_c/Program Files/Obliterate Everything 2 Gold
+  files:
+  - file1: N/A:Please select the Groupees executable
+  game:
+    prefix: $GAMEDIR
+    exe: $file1
+    arch: win32

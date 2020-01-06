@@ -1,0 +1,36 @@
+id: 4462
+game_id: 268
+game_slug: ticket-to-ride
+name: Ticket to Ride
+year: 2012
+user: FakeShemp
+runner: linux
+slug: ticket-to-ride-humble-64bit-deb
+version: Humble (64bit deb)
+description: ''
+notes: ''
+created_at: '2017-06-18T10:31:00.526821Z'
+updated_at: '2017-06-18T23:26:00.184864Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 108200
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: ticket-to-ride
+  installer:
+  - extract:
+      format: ar
+      dst: $CACHE
+      file: $file1
+  - extract:
+      dst: $CACHE
+      file: $CACHE/data.tar.gz
+  - merge:
+      src: $CACHE/opt/ticket-to-ride
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble installer

@@ -1,0 +1,18 @@
+name: 'Lotus III: The Ultimate Challenge'
+slug: lotus-iii-the-ultimate-challenge
+year: 1992
+platforms:
+- name: Amiga
+- name: Atari ST
+- name: MS-DOS
+- name: Sega Genesis / Mega Drive
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/lotus-iii-the-ultimate-challenge.jpg
+icon_url: null
+is_public: true
+updated: '2019-10-22T22:04:37.983350Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 3228
+game_id: 6673
+game_slug: day-of-the-tentacle-remastered
+name: Day of the Tentacle Remastered
+year: 2016
+user: FakeShemp
+runner: steam
+slug: day-of-the-tentacle-remastere-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-02-04T21:14:19.342783Z'
+updated_at: '2017-03-16T01:53:56.329973Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 388210
+gogid: 1456922969
+gogslug: day_of_the_tentacle_remastered
+humblestoreid: day-of-the-tentacle-remastered
+script:
+  game:
+    appid: 388210

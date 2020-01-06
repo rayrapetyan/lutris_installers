@@ -1,0 +1,54 @@
+id: 8820
+game_id: 14156
+game_slug: marvels-guardians-of-the-galaxy-the-telltale-serie
+name: 'Marvel''s Guardians of the Galaxy: The Telltale Series'
+year: 2017
+user: willbeonekenobi
+runner: wine
+slug: marvels-guardians-of-the-gala-gog-w-dxvk
+version: GOG w/ DXVK
+description: null
+notes: ''
+created_at: '2018-06-20T18:53:44.564000Z'
+updated_at: '2019-02-16T03:30:30.667435Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 579950
+gogid: 1253505782
+gogslug: guardians_of_the_galaxy
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2013 win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: goginstaller
+      prefix: $GAMEDIR
+      description: Installing Game
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Guardians of The Galaxy/Guardians.exe
+    arch: win64
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+    pulse_latency: true
+  wine:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  files:
+  - goginstaller: N/A:Select the game's setup file

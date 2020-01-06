@@ -1,0 +1,24 @@
+id: 4426
+game_id: 2686
+game_slug: international-snooker
+name: International Snooker
+year: null
+user: schaap137
+runner: winesteam
+slug: international-snooker-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: ''
+created_at: '2017-06-17T16:32:12.229717Z'
+updated_at: '2017-06-17T19:25:23.985718Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 299500
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 299500

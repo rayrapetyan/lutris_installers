@@ -1,0 +1,70 @@
+id: 10627
+game_id: 1402
+game_slug: aion
+name: Aion
+year: 2009
+user: Echoa
+runner: wine
+slug: aion-aion-us
+version: Aion U.S
+description: null
+notes: ''
+created_at: '2018-10-24T19:02:55.247000Z'
+updated_at: '2019-09-09T00:56:04.818527Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 29640
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE/dxsetup
+      file: dx2010
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR
+      args: /silent
+      arch: win32
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: winekill
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2008 vcrun2013 physx corefonts
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .NET 4.7.2
+      app: dotnet472 win7
+      arch: win32
+      name: winetricks
+  - task:
+      executable: aion
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  game:
+    args: /LauncherID:"NCWest" /CompanyID:"12" /GameID:"AION" /LUpdateAddr:"updater.nclauncher.ncsoft.com"
+    exe: drive_c/Program Files/NCWest/NCLauncher/NCLauncher.exe
+    arch: win32
+  system:
+    env:
+      PBA_ENABLE: 1
+  wine:
+    version: esync-staging-pba-3.16-x86_64
+    esync: true
+    UseGLSL: disabled
+  files:
+  - aion: http://aion.patcher.ncsoft.com/AION/aioninstaller/AionInstaller.exe
+  - dx2010: https://lutris.net/files/tools/directx-2010.tar.gz

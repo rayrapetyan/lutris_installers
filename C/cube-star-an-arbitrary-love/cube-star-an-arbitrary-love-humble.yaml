@@ -1,0 +1,31 @@
+id: 3891
+game_id: 2108
+game_slug: cube-star-an-arbitrary-love
+name: 'Cube & Star: An Arbitrary Love'
+year: 2014
+user: FakeShemp
+runner: linux
+slug: cube-star-an-arbitrary-love-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-25T20:07:14.106519Z'
+updated_at: '2017-05-26T21:05:11.059203Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 261960
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Cube and Star An Arbitrary Love
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Cube and Star An Arbitrary Love
+  - chmodx: $GAMEDIR/Cube and Star An Arbitrary Love.x86
+  - chmodx: $GAMEDIR/Cube and Star An Arbitrary Love.x86_64
+  files:
+  - file1: N/A:Please select the Humble archive

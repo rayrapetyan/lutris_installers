@@ -1,0 +1,17 @@
+name: Pummel Party
+slug: pummel-party
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Casual
+- name: Indie
+aliases: []
+banner_url: /games/banner/pummel-party.jpg
+icon_url: /games/icon/pummel-party.png
+is_public: true
+updated: '2019-11-04T03:55:32.415442Z'
+steamid: 880940
+gogslug: ''
+humblestoreid: ''

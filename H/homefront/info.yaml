@@ -1,0 +1,17 @@
+name: Homefront
+slug: homefront
+year: 2011
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: FPS
+aliases: []
+banner_url: /games/banner/homefront.jpg
+icon_url: /games/icon/homefront.png
+is_public: true
+updated: '2019-01-23T08:29:51.849745Z'
+steamid: 55100
+gogslug: ''
+humblestoreid: ''

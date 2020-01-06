@@ -1,0 +1,32 @@
+id: 4863
+game_id: 12093
+game_slug: death-block-puzzle
+name: Death Block Puzzle
+year: 2016
+user: FakeShemp
+runner: wine
+slug: death-block-puzzle-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-06T19:39:27.690564Z'
+updated_at: '2018-05-19T03:41:55.526202Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Death Block Puzzle
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Death Block Puzzle/MATCH3.exe
+    arch: win32

@@ -1,0 +1,32 @@
+id: 6696
+game_id: 15170
+game_slug: magic-meisters
+name: Magic Meisters
+year: 2014
+user: FakeShemp
+runner: wine
+slug: magic-meisters-groupees
+version: Groupees
+description: null
+notes: ''
+created_at: '2017-12-16T20:50:30.818315Z'
+updated_at: '2018-05-19T03:41:48.599701Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Magic Meisters
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Magic Meisters/magicmeisters.exe
+    arch: win32

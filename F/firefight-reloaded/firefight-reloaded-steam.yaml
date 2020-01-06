@@ -1,0 +1,24 @@
+id: 2995
+game_id: 6393
+game_slug: firefight-reloaded
+name: FIREFIGHT RELOADED
+year: 2015
+user: Retro_Beatz
+runner: winesteam
+slug: firefight-reloaded-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-11-10T01:25:00.973446Z'
+updated_at: '2016-12-10T02:05:53.556328Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 397680
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 397680

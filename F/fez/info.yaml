@@ -1,0 +1,16 @@
+name: Fez
+slug: fez
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: Platform
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/fez.jpg
+icon_url: /games/icon/fez.png
+is_public: true
+updated: '2019-01-23T08:29:30.158080Z'
+steamid: 224760
+gogslug: fez
+humblestoreid: fez

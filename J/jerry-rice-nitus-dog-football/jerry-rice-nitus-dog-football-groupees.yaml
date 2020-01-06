@@ -1,0 +1,41 @@
+id: 5042
+game_id: 7965
+game_slug: jerry-rice-nitus-dog-football
+name: Jerry Rice & Nitus' Dog Football
+year: null
+user: FakeShemp
+runner: wine
+slug: jerry-rice-nitus-dog-football-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-13T20:38:04.919000Z'
+updated_at: '2018-05-19T03:41:56.557621Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 438660
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/Setup_Jerry_Rice_And_Nitus_Dog_Football.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      executable: $CACHE/JRNDF_Update_20110909.exe
+      prefix: $GAMEDIR
+      args: /S
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Judobaby/Jerry Rice & Nitus' Dog Football/bin/Dog Football.exe
+    arch: win32

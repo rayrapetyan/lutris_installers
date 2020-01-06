@@ -1,0 +1,166 @@
+id: 8323
+game_id: 18255
+game_slug: montezumas-return
+name: Montezuma's Return
+year: 1997
+user: nastys
+runner: wine
+slug: montezumas-return-windows-demo
+version: Windows Demo
+description: null
+notes: '- A MIDI device or synthesizer (e.g. Qsynth) is required for in-game music
+  playback'
+created_at: '2018-05-18T15:55:24.572000Z'
+updated_at: '2019-10-28T20:46:02.778279Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/Utopia Technologies/Montezuma's Return Demo/wmenu.exe
+    arch: win32
+  installer:
+  - input_menu:
+      options:
+      - '0': Fit to screen (Default)
+      - '1': Preserve original
+      description: 'Aspect ratio (nGlide):'
+      id: ASPECT
+      preselect: '1'
+  - input_menu:
+      options:
+      - windows/system32/nglide_config.exe: Yes (Recommended)
+      - Program Files/Utopia Technologies/Montezuma's Return Demo/mwsetup-original.exe: 'No'
+      description: 'Replace Graphics Setup with nGlide Configurator:'
+      id: CONFMENU
+      preselect: windows/system32/nglide_config.exe
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix...
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: nglide
+      prefix: $GAMEDIR
+      description: Installing nGlide...
+      arch: win32
+      args: /S
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win32
+      type: REG_SZ
+      value: $INPUT_ASPECT
+      key: Aspect
+      path: HKEY_CURRENT_USER\Software\Zeus Software\nGlide2
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win32
+      type: REG_SZ
+      value: '1'
+      key: Backend
+      path: HKEY_CURRENT_USER\Software\Zeus Software\nGlide2
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win32
+      type: REG_SZ
+      value: '1'
+      key: Resolution
+      path: HKEY_CURRENT_USER\Software\Zeus Software\nGlide2
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win32
+      type: REG_SZ
+      value: '1'
+      key: Vsync
+      path: HKEY_CURRENT_USER\Software\Zeus Software\nGlide2
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win32
+      type: REG_SZ
+      value: '1'
+      key: Splash
+      path: HKEY_CURRENT_USER\Software\Zeus Software\nGlide2
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win32
+      type: REG_SZ
+      value: '5'
+      key: Gamma
+      path: HKEY_CURRENT_USER\Software\Zeus Software\nGlide2
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win32
+      type: REG_SZ
+      value: '0'
+      key: Refresh
+      path: HKEY_CURRENT_USER\Software\Zeus Software\nGlide2
+  - task:
+      executable: demo
+      prefix: $GAMEDIR
+      description: Installing Montezuma's Return Demo (do not change the default directory)...
+      arch: win32
+      args: /auto
+      name: wineexec
+  - move:
+      src: $GAMEDIR/drive_c/Program Files/Utopia Technologies/Montezuma's Return Demo/Smackw32.dll
+      description: Backing up Smackw32.dll...
+      dst: $GAMEDIR/drive_c/Program Files/Utopia Technologies/Montezuma's Return Demo/Smackw32.dll.bak
+  - move:
+      src: $GAMEDIR/drive_c/Program Files/Utopia Technologies/Montezuma's Return Demo/Mss32.dll
+      description: Backing up Mss32.dll...
+      dst: $GAMEDIR/drive_c/Program Files/Utopia Technologies/Montezuma's Return Demo/Mss32.dll.bak
+  - move:
+      src: $GAMEDIR/drive_c/Program Files/Utopia Technologies/Montezuma's Return Demo/mwsetup.exe
+      description: Backing up mwsetup.exe...
+      dst: $GAMEDIR/drive_c/Program Files/Utopia Technologies/Montezuma's Return Demo/mwsetup-original.exe
+  - extract:
+      description: Writing new smackw32.dll and mss32.dll...
+      dst: $GAMEDIR/drive_c/Program Files/Utopia Technologies/Montezuma's Return Demo/
+      file: smack
+  - move:
+      src: $GAMEDIR/drive_c/$INPUT_CONFMENU
+      description: Writing new mwsetup.exe...
+      dst: $GAMEDIR/drive_c/Program Files/Utopia Technologies/Montezuma's Return Demo/mwsetup.exe
+  - write_file:
+      content: 'R640x480x65536 1
+
+        V000x000x256 1
+
+        M9
+
+        S9
+
+        FMV=ON
+
+        PATH=
+
+        L0
+
+        '
+      file: $GAMEDIR/drive_c/Program Files/Utopia Technologies/Montezuma's Return
+        Demo/Monte.cfg
+  wine:
+    overrides:
+      smackw32.dll: n,b
+      mss32.dll: n,b
+    Desktop: false
+  files:
+  - demo: https://ia800705.us.archive.org/3/items/Montzuma/MRDEM126.EXE
+  - nglide:
+      filename: nGlide_setup.exe
+      url: http://www.zeus-software.com/downloads/nglide/d-1.html
+  - smack: http://www.zeus-software.com/files/nglide/montezuma_patch.zip

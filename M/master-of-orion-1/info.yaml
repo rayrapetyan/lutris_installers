@@ -1,0 +1,16 @@
+name: Master of Orion 1
+slug: master-of-orion-1
+year: 1993
+platforms:
+- name: Linux
+genres:
+- name: 4X
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/master-of-orion-1.jpg
+icon_url: /games/icon/master-of-orion-1.png
+is_public: true
+updated: '2019-03-12T05:19:10.318750Z'
+steamid: 410970
+gogslug: master_of_orion_1_2
+humblestoreid: ''

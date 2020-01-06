@@ -1,0 +1,37 @@
+id: 4758
+game_id: 12018
+game_slug: snow-drop
+name: Snow Drop
+year: 2000
+user: FakeShemp
+runner: wine
+slug: snow-drop-jast-usa
+version: JAST USA
+description: null
+notes: ''
+created_at: '2017-07-03T08:51:19.648000Z'
+updated_at: '2018-08-01T08:39:33.621032Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/Setup.exe
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  files:
+  - file1: N/A:Please select the JAST USA archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Will/Snow Drop/SnowDrop.exe
+    arch: win32

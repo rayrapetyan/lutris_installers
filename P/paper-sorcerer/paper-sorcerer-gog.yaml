@@ -1,0 +1,44 @@
+id: 9722
+game_id: 2448
+game_slug: paper-sorcerer
+name: Paper Sorcerer
+year: null
+user: LeXofLeviafan
+runner: wine
+slug: paper-sorcerer-gog
+version: GOG
+description: This is the Wine+GOG version. You need to provide the GOG windows installer
+notes: ''
+created_at: '2018-08-13T11:18:20.427759Z'
+updated_at: '2018-08-16T06:23:11.567871Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 263560
+gogid: 1207664363
+gogslug: paper_sorcerer
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /SUPPRESSMSGBOXES '/DIR=C:/game'
+      description: Installing...
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing MSVC 2010
+      app: vcrun2010
+      silent: true
+      name: winetricks
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/game/PaperSorcererPC.exe

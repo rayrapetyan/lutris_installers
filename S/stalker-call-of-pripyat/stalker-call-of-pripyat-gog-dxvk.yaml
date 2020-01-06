@@ -1,0 +1,66 @@
+id: 17402
+game_id: 812
+game_slug: stalker-call-of-pripyat
+name: 'S.T.A.L.K.E.R.: Call of Pripyat'
+year: null
+user: AlfaBase
+runner: wine
+slug: stalker-call-of-pripyat-gog-dxvk
+version: GOG DXVK
+description: "This is an installer for the GOG version of S.T.A.L.K.E.R. It enables\
+  \ DXVK by default. It is currently configured to run DX9 via DXVK.\r\n\r\nCompatible\
+  \ with Misery 2.2.1. If you want to install MISERY simply run the installer on top\
+  \ of this prefix.\r\n\r\nDISCLAIMER: Enhanced Full Dynamic Lighting causes crashes\
+  \ in MISERY. Full dynamic lightning does not seem to have those issues."
+notes: The GOG installer will not pop-up. This is intentional (be patient, it takes
+  a minute).
+created_at: '2019-12-17T20:17:08.578000Z'
+updated_at: '2019-12-24T10:58:43.768015Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 41700
+gogid: 1207660583
+gogslug: stalker_call_of_pripyat
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: installer_file
+      prefix: $GAMEDIR
+      args: /DIR="C:/GOG Games/S.T.A.L.K.E.R. Call of Pripyat/" /SP- /SILENT /VERYSILENT
+        /NORESTART /CLOSEAPPLICATIONS
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: d3dx9
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: d3dcompiler_43
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: d3dx11_43
+      name: winetricks
+  - execute:
+      command: sed -i '/vid_mode/c\vid_mode $RESOLUTION' "$GAMEDIR/drive_c/users/$USER/My
+        Documents/Stalker-COP/user.ltx"
+      description: Set our desktop resolution in game config file.
+  - execute:
+      command: sed -i '/renderer/c\renderer renderer_r2' "$GAMEDIR/drive_c/users/$USER/My
+        Documents/Stalker-COP/user.ltx"
+      description: Enable dynamic renderer (DX9) in game config file
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/S.T.A.L.K.E.R. Call of Pripyat/Stalker-COP.exe
+    working_dir: $GAMEDIR/drive_c/GOG Games/S.T.A.L.K.E.R. Call of Pripyat/
+  system:
+    env:
+      DXVK_HUD: fps
+  wine:
+    esync: true
+    dxvk: true
+  files:
+  - installer_file: N/A:Select installer file from GOG

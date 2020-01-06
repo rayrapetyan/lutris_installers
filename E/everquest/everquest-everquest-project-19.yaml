@@ -1,0 +1,24 @@
+id: 11426
+game_id: 1117
+game_slug: everquest
+name: EverQuest
+year: 2012
+user: Magbed
+runner: wine
+slug: everquest-everquest-project-19
+version: Everquest Project 1999
+description: Everquest Project 1999 from the TItanium disks
+notes: ''
+created_at: '2019-01-03T14:58:53.279357Z'
+updated_at: '2019-01-22T07:48:49.649201Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 205710
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 205710

@@ -1,0 +1,40 @@
+id: 4491
+game_id: 6851
+game_slug: at-the-mountains-of-madness
+name: At the Mountains of Madness
+year: null
+user: FakeShemp
+runner: wine
+slug: at-the-mountains-of-madness-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-06-18T21:32:28.926000Z'
+updated_at: '2018-05-19T03:41:51.104594Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 393820
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/At the Mountains of Madness
+      file: $file1
+  - task:
+      prefix: $GAMEDIR
+      app: d3d11_43
+      name: winetricks
+  files:
+  - file1: N/A:Please select the IndieGameStand archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/At the Mountains of Madness/mountainsofmadness2.exe
+    arch: win32

@@ -1,0 +1,15 @@
+name: Paradox Games Launcher
+slug: paradox-games-launcher
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Tool
+aliases: []
+banner_url: /games/banner/paradox-games-launcher.jpg
+icon_url: /games/icon/paradox-games-launcher.png
+is_public: true
+updated: '2019-01-23T08:30:42.067891Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

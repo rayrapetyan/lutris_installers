@@ -1,0 +1,28 @@
+id: 11797
+game_id: 14034
+game_slug: voxel-turf
+name: Voxel Turf
+year: 2017
+user: odziom91
+runner: steam
+slug: voxel-turf-steam
+version: Steam
+description: Voxel Turf is a block based city builder/action adventure game. Build
+  cities or destroy them. Start businesses or rob them. Nurture your citizens or subjugate
+  them. Build a real estate empire, or perhaps just drive around and blow stuff up.
+  Its your choice! Voxel Turf allows you to be the force of benevolence or the agent
+  of chaos in a city of your creation.
+notes: ''
+created_at: '2019-02-02T10:23:56.090000Z'
+updated_at: '2019-02-07T03:35:04.959699Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 404530
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 404530

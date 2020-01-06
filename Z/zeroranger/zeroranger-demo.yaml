@@ -1,0 +1,60 @@
+id: 10303
+game_id: 21869
+game_slug: zeroranger
+name: ZeroRanger
+year: 2018
+user: cxf
+runner: wine
+slug: zeroranger-demo
+version: Demo
+description: null
+notes: Download demo from itch.io before proceeding. <a href="https://system-erasure.itch.io/zerorangerdemo">https://system-erasure.itch.io/zerorangerdemo</a>
+created_at: '2018-09-23T07:12:25.697000Z'
+updated_at: '2019-10-28T21:19:22.824496Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: 809020
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - execute:
+      command: mkdir "$GAMEDIR/drive_c/Program Files (x86)/ZeroRanger"
+  - extract:
+      src: $demozip
+      dst: $CACHE
+  - task:
+      executable: $CACHE/ZeroRangerDEMO.exe
+      prefix: $GAMEDIR
+      args: /C /T:"C:\\Program Files (x86)\\ZeroRanger"
+      arch: win64
+      name: wineexec
+  - merge:
+      src: $CACHE/readme.txt
+      dst: $GAMEDIR/drive_c/Program Files (x86)/ZeroRanger
+  - extract:
+      dst: $CACHE/dxsetup
+      file: $dxsetup
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR
+      args: /silent
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  files:
+  - demozip: N/A:Select zip archive downloaded from itch.io
+  - dxsetup: https://lutris.net/files/tools/directx-2010.tar.gz
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/ZeroRanger/ZeroRangerDEMO.exe
+    arch: win64

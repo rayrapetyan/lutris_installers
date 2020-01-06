@@ -1,0 +1,18 @@
+name: Super Baseball 2020
+slug: super-baseball-2020
+year: 1991
+platforms:
+- name: Arcade
+- name: Neo Geo
+- name: Sega Genesis / Mega Drive
+- name: Super Nintendo
+genres:
+- name: Sports
+aliases: []
+banner_url: /games/banner/super-baseball-2020.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:29.566017Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

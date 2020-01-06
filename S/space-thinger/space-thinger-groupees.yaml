@@ -1,0 +1,29 @@
+id: 5172
+game_id: 7059
+game_slug: space-thinger
+name: Space Thinger
+year: null
+user: FakeShemp
+runner: linux
+slug: space-thinger-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-24T10:09:25.543009Z'
+updated_at: '2017-08-27T22:22:01.817304Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 402670
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: SpaceThinger.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/SpaceThinger.x86
+  files:
+  - file1: N/A:Please select the Groupees archive

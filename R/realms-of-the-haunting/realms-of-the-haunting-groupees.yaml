@@ -1,0 +1,50 @@
+id: 5486
+game_id: 2048
+game_slug: realms-of-the-haunting
+name: Realms of the Haunting
+year: 1996
+user: FakeShemp
+runner: dosbox
+slug: realms-of-the-haunting-groupees
+version: Groupees
+description: Uses the files from the Windows installer from Groupees.
+notes: ''
+created_at: '2017-08-22T16:28:59.584000Z'
+updated_at: '2018-05-19T03:41:57.224078Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 292390
+gogid: 1207658921
+gogslug: realms_of_the_haunting
+humblestoreid: ''
+script:
+  main_file: DOSBOX/dosboxROTH_single.conf
+  installer:
+  - task:
+      executable: $file1
+      prefix: $CACHE
+      args: /sp- /verysilent /norestart /suppressmsgboxes /nogui
+      arch: win32
+      name: wine.wineexec
+  - merge:
+      src: $CACHE/drive_c/Program Files/Blue Moon Red Owl/Realms of the Haunting
+      dst: $GAMEDIR
+  - merge:
+      src: $GAMEDIR/dosboxROTH_single.conf
+      dst: $GAMEDIR/DOSBOX
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/dosboxROTH.conf
+  - write_config:
+      section: sdl
+      key: fullscreen
+      value: false
+      file: $GAMEDIR/dosboxROTH.conf
+  files:
+  - file1: N/A:Please select the Groupees installer
+  game:
+    config_file: $GAMEDIR/dosboxROTH.conf

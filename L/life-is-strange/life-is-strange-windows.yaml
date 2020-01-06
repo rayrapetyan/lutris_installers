@@ -1,0 +1,24 @@
+id: 17190
+game_id: 3744
+game_slug: life-is-strange
+name: Life Is Strange
+year: 2015
+user: soredake
+runner: winesteam
+slug: life-is-strange-windows
+version: Windows
+description: null
+notes: ''
+created_at: '2019-12-05T14:05:32.808000Z'
+updated_at: '2019-12-17T19:53:17.091735Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 319630
+gogid: null
+gogslug: ''
+humblestoreid: life-is-strange-complete-season
+script:
+  game:
+    appid: 319630

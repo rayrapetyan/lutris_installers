@@ -1,0 +1,16 @@
+name: A Druid's Duel
+slug: a-druids-duel
+year: 2015
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/a-druids-duel.jpg
+icon_url: /games/icon/a-druids-duel.png
+is_public: true
+updated: '2019-01-23T08:28:12.059955Z'
+steamid: 333970
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,33 @@
+id: 8110
+game_id: 31
+game_slug: broken-sword-1-shadow-of-the-templars-directors-cu
+name: "Broken Sword: The Shadow of the Templars \u2013 The Director's Cut"
+year: 2009
+user: Wompus
+runner: scummvm
+slug: broken-sword-the-shadow-of-th-archive
+version: Archive
+description: null
+notes: ''
+created_at: '2018-05-08T12:33:59.780000Z'
+updated_at: '2018-05-09T05:51:06.591062Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 57640
+gogid: 1207658900
+gogslug: broken_sword_directors_cut
+humblestoreid: broken-sword-shadow-of-the-templars-the-directors-cut
+script:
+  scummvm:
+    windowed: true
+    aspect: true
+  installer:
+  - extract:
+      file: archive
+  files:
+  - archive: N/A:Select the  archive file.
+  game:
+    game_id: sword1
+    path: $GAMEDIR

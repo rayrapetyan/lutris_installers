@@ -1,0 +1,40 @@
+id: 10443
+game_id: 11394
+game_slug: sniper-elite-4
+name: Sniper Elite 4
+year: 2017
+user: KWCZE
+runner: winesteam
+slug: sniper-elite-4-steam-dxvk
+version: Steam (DXVK)
+description: null
+notes: ''
+created_at: '2018-10-07T15:18:41.798000Z'
+updated_at: '2019-02-16T04:39:25.532062Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 312660
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 312660
+    arch: win64

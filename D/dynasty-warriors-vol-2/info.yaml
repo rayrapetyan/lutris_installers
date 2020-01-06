@@ -1,0 +1,19 @@
+name: Dynasty Warriors Vol. 2
+slug: dynasty-warriors-vol-2
+year: 2006
+platforms:
+- name: Sony PSP
+genres:
+- name: Action
+- name: Adventure
+- name: Real-time strategy
+aliases:
+- slug: shin-sangoku-muso-2nd-evolution
+  name: "Shin Sangoku Mus\u014D: 2nd Evolution"
+banner_url: /games/banner/dynasty-warriors-vol-2.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-21T06:57:58.518476Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

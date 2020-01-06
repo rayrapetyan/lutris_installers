@@ -1,0 +1,28 @@
+id: 6514
+game_id: 11761
+game_slug: discouraged-workers-teen
+name: Discouraged Workers TEEN
+year: 2016
+user: FakeShemp
+runner: linux
+slug: discouraged-workers-teen-humble
+version: Humble
+description: null
+notes: ''
+created_at: '2017-12-01T17:44:07.979317Z'
+updated_at: '2017-12-01T17:46:34.904906Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 432180
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Discouraged-Workers-Teen.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

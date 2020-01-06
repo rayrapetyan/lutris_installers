@@ -1,0 +1,16 @@
+name: Eufloria
+slug: eufloria
+year: 2009
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Strategy
+aliases: []
+banner_url: /games/banner/eufloria.jpg
+icon_url: /games/icon/eufloria.png
+is_public: true
+updated: '2019-01-23T08:29:25.690440Z'
+steamid: 41210
+gogslug: ''
+humblestoreid: ''

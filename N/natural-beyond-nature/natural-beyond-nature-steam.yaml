@@ -1,0 +1,24 @@
+id: 9235
+game_id: 14275
+game_slug: natural-beyond-nature-
+name: Natural - Beyond Nature -
+year: 2016
+user: kimchitea
+runner: winesteam
+slug: natural-beyond-nature-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-16T01:33:26.569046Z'
+updated_at: '2018-07-16T05:29:06.038367Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 545400
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 545400

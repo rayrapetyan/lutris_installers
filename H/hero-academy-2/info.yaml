@@ -1,0 +1,16 @@
+name: Hero Academy 2
+slug: hero-academy-2
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Strategy
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/hero-academy-2.jpg
+icon_url: /games/icon/hero-academy-2.png
+is_public: true
+updated: '2019-01-23T08:29:49.183608Z'
+steamid: 820460
+gogslug: ''
+humblestoreid: ''

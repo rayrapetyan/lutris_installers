@@ -1,0 +1,27 @@
+id: 1571
+game_id: 1802
+game_slug: enslavedtm-odyssey-to-the-westtm-premium-edition
+name: 'ENSLAVED: Odyssey to the West Premium Edition'
+year: 2013
+user: strider
+runner: winesteam
+slug: enslaved-odyssey-to-the-west-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-08-04T19:07:07.882801Z'
+updated_at: '2015-11-19T00:21:10.628117Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 245280
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  system:
+    xboxdrv: --trigger-as-button --ui-axismap x2=ABS_Z,y2=ABS_RZ,LB+Y2=ABS_RX,RB+Y2=ABS_THROTTLE,A+Y2=ABS_RY,B+Y2=ABS_RUDDER,X+Y2=ABS_GAS
+      --ui-buttonmap A=BTN_B,B=BTN_X,X=BTN_A,TR=BTN_THUMBL,TL=BTN_MODE,GUIDE=BTN_THUMBR
+  game:
+    appid: 245280

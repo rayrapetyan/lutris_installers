@@ -1,0 +1,16 @@
+name: 'Art of War: Red Tides'
+slug: art-of-war-red-tides
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Real-time strategy
+- name: Strategy
+aliases: []
+banner_url: /games/banner/art-of-war-red-tides.jpg
+icon_url: /games/icon/art-of-war-red-tides.png
+is_public: true
+updated: '2019-01-23T08:28:26.605716Z'
+steamid: 558100
+gogslug: ''
+humblestoreid: ''

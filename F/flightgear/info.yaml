@@ -1,0 +1,16 @@
+name: FlightGear
+slug: flightgear
+year: 1997
+platforms:
+- name: Linux
+genres:
+- name: Flight
+- name: Simulation
+aliases: []
+banner_url: /games/banner/flightgear.jpg
+icon_url: /games/icon/flightgear.png
+is_public: true
+updated: '2019-01-23T08:29:32.225216Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

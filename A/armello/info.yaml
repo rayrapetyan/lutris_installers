@@ -1,0 +1,16 @@
+name: Armello
+slug: armello
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Board
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/armello.jpg
+icon_url: /games/icon/armello.png
+is_public: true
+updated: '2019-01-23T08:28:25.449025Z'
+steamid: 290340
+gogslug: ''
+humblestoreid: ''

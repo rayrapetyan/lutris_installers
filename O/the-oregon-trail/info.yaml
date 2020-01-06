@@ -1,0 +1,19 @@
+name: The Oregon Trail
+slug: the-oregon-trail
+year: 1971
+platforms:
+- name: Apple IIGS
+- name: Atari 800
+- name: MS-DOS
+- name: Windows
+genres:
+- name: Educational
+- name: Simulation
+aliases: []
+banner_url: /games/banner/the-oregon-trail.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:45.556972Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

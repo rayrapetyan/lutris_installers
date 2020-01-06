@@ -1,0 +1,54 @@
+id: 2504
+game_id: 7217
+game_slug: quake-ii-quad-damage
+name: 'Quake II: Quad Damage'
+year: 1999
+user: ssf
+runner: wine
+slug: quake-ii-quad-damage-gogcom
+version: GOG.com
+description: GOG Version that includes many extras
+notes: ''
+created_at: '2016-08-18T19:23:35.221546Z'
+updated_at: '2016-09-30T20:41:20.068258Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1443696817
+gogslug: quake_ii_quad_damage
+humblestoreid: ''
+script:
+  gogid: quake_ii_quad_damage
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      type: REG_SZ
+      value: ''
+      key: winemenubuilder.exe
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /VERYSILENT /SP- /NOCANCEL /SUPPRESSMSGBOXES
+      description: Installing...
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Disabling unused WINE features
+      app: sandbox
+      silent: true
+      name: winetricks
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/GOG Games/Quake II/Launch Quake II.lnk
+    working_dir: $GAMEDIR/drive_c/GOG Games/Quake2
+    arch: win32

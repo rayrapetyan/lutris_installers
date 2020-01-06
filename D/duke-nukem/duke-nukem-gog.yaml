@@ -1,0 +1,39 @@
+id: 2483
+game_id: 1644
+game_slug: duke-nukem
+name: Duke Nukem
+year: null
+user: ssf
+runner: dosbox
+slug: duke-nukem-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2016-08-17T19:29:19.306990Z'
+updated_at: '2016-09-08T12:36:12.195939Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 240160
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  description: DRM-free GOG.com version
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR"
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/Game
+  files:
+  - game: N/A:Please select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz
+  game:
+    config_file: $GAMEDIR/Game/dosbox_duke.conf
+    main_file: $GAMEDIR/Game/dosbox_duke_single.conf

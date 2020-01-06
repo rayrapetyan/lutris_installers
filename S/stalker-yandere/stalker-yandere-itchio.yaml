@@ -1,0 +1,30 @@
+id: 6835
+game_id: 15265
+game_slug: stalker-yandere
+name: Stalker & Yandere
+year: 2017
+user: FakeShemp
+runner: linux
+slug: stalker-yandere-itchio
+version: itch.io
+description: null
+notes: Please <a href="https://mammon.itch.io/stalkeryandere">download Stalker & Yandere
+  from itchio</a> before proceeding.
+created_at: '2017-12-24T01:01:31.737000Z'
+updated_at: '2018-05-19T22:14:56.196334Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Stalker_&_Yandere.sh
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

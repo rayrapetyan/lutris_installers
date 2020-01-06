@@ -1,0 +1,32 @@
+id: 16667
+game_id: 30177
+game_slug: my-burning-heart
+name: My Burning Heart
+year: 2019
+user: kimchitea
+runner: linux
+slug: my-burning-heart-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2019-11-06T14:36:54.280000Z'
+updated_at: '2019-11-06T22:06:08.638946Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 921900
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: file1
+  - chmodx: $GAMEDIR/MyBurningHeart.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/MyBurningHeart
+  - chmodx: $GAMEDIR/lib/linux-x86_64/MyBurningHeart
+  files:
+  - file1: N/A:Please select the game archive
+  game:
+    exe: MyBurningHeart.sh

@@ -1,0 +1,32 @@
+id: 4680
+game_id: 1253
+game_slug: stronghold-crusader-hd
+name: Stronghold Crusader HD
+year: 2002
+user: auts
+runner: winesteam
+slug: stronghold-crusader-hd-steam
+version: Steam
+description: ''
+notes: "Found an odd alt-tab bug where you can not get back into the game after doing\
+  \ so. I have not encountered this bug on older wine versions, i.e. 1.9.8-x86_64.\
+  \ \r\n\r\nMultiplayer:\r\nQuoted from the WineHQ Page for the steam version of this\
+  \ game found here: https://appdb.winehq.org/objectManager.php?sClass=version&iId=33630\r\
+  \n\r\n\"HOWTO\r\nMultiplayer\r\n\r\nTo get multiplayer working, place the DLLs in\
+  \ this archive in Wine's windows/system32 directory. Then, start winecfg and add\
+  \ dll overrides (native, builtin) for the following DLLs: dplayx, dpnet, dpnhpast\
+  \ and dpwsockx.\r\nNOTE: The host should leave the game last, otherwise it will\
+  \ hang for the other players when they try to leave.\""
+created_at: '2017-06-27T14:39:44.065000Z'
+updated_at: '2017-07-01T19:12:09.479046Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 40970
+gogid: 1207658713
+gogslug: stronghold_crusader
+humblestoreid: ''
+script:
+  game:
+    appid: 40970

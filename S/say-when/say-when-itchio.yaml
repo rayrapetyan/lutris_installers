@@ -1,0 +1,32 @@
+id: 5994
+game_id: 14340
+game_slug: say-when
+name: Say When
+year: 2015
+user: FakeShemp
+runner: web
+slug: say-when-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-10-19T16:27:32.832000Z'
+updated_at: '2017-10-19T16:29:02.591568Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  web:
+    window_size: 1280x720
+  files:
+  - file1: N/A:Please select the itch.io HTML
+  game:
+    main_file: $file1

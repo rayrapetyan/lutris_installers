@@ -1,0 +1,52 @@
+id: 15969
+game_id: 25254
+game_slug: e-sword
+name: e-Sword
+year: 1998
+user: Sellies
+runner: wine
+slug: e-sword-esword-121
+version: eSword 12.1
+description: eSword
+notes: ''
+created_at: '2019-10-04T09:12:18.176000Z'
+updated_at: '2019-11-01T22:58:05.478777Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 64bit Wine prefix.
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: corefonts
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing winetricks verbs
+      app: mfc42 vcrun6 msls31 msxml3 msxml6 vb6run wsh57
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - task:
+      executable: filename
+      prefix: $GAMEDIR
+      description: Installing eSword...
+      name: wineexec
+  files:
+  - filename: https://www.e-sword.net/files/e-sword_1201_setup.exe
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/e-Sword/e-Sword.exe
+    arch: win32

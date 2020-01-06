@@ -1,0 +1,25 @@
+id: 1144
+game_id: 2414
+game_slug: beyond-divinity
+name: Beyond Divinity
+year: 2004
+user: Xodetaetl
+runner: winesteam
+slug: beyond-divinity-steam
+version: steam
+description: ''
+notes: When you start the game, choose Configure and select Software rendering instead
+  of Direct 3D, to prevent cursor jittering.
+created_at: '2014-11-27T13:57:47.509000Z'
+updated_at: '2014-11-27T18:35:25.748000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 219760
+gogid: 1207658806
+gogslug: beyond_divinity
+humblestoreid: ''
+script:
+  game:
+    appid: 219760

@@ -1,0 +1,29 @@
+id: 4079
+game_id: 260
+game_slug: gratuitous-space-battles
+name: Gratuitous Space Battles
+year: 2009
+user: FakeShemp
+runner: linux
+slug: gratuitous-space-battles-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-03T09:13:01.428049Z'
+updated_at: '2017-06-04T21:48:21.164538Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 41800
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: GSB.bin.x86
+  installer:
+  - extract:
+      file: $file1
+  exe64: GSB.bin.x86_64
+  files:
+  - file1: N/A:Please select the Humble archive

@@ -1,0 +1,50 @@
+id: 15552
+game_id: 16438
+game_slug: lighthouse-the-dark-being
+name: 'Lighthouse: The Dark Being'
+year: 1996
+user: legluondunet
+runner: scummvm
+slug: lighthouse-the-dark-being-cd-scummvm
+version: CD + ScummVM
+description: "This script will install \"Lighthouse: The Dark Being\" CD edition for\
+  \ ScummVM.\r\nBig thanks to people who gave their time to permit us playing this\
+  \ game in the best conditions."
+notes: "- You will need the 2 CD only during install\r\n- Please report issue concerning\
+  \ this script on my github page:\r\nhttps://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2019-09-14T23:05:24.075000Z'
+updated_at: '2019-09-21T19:30:25.765360Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: null
+gogid: 1322165223
+gogslug: lighthouse_the_dark_being
+humblestoreid: ''
+script:
+  custom-name: Lighthouse - The Dark Being - CD - ScummVM
+  scummvm:
+    fullscreen: true
+  installer:
+  - insert-disc:
+      requires: 9.CSC
+      description: Please insert disc 1
+  - merge:
+      src: $DISC
+      dst: $GAMEDIR/LIGHTCD1
+  - insert-disc:
+      requires: movies/5.vmd
+      description: Please insert disc 2
+  - merge:
+      src: $DISC
+      dst: $GAMEDIR/LIGHTCD2
+  - chmodx: script
+  - execute:
+      file: script
+  files:
+  - script: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Lighthouse%20-%20The%20Dark%20Being/clean.sh
+  game:
+    game_id: lighthouse
+    path: $GAMEDIR/LIGHTCD
+    subtitles: true

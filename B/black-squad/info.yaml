@@ -1,0 +1,17 @@
+name: Black Squad
+slug: black-squad
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+- name: Shooter
+aliases: []
+banner_url: /games/banner/black-squad.jpg
+icon_url: /games/icon/black-squad.png
+is_public: true
+updated: '2019-01-23T08:28:37.522373Z'
+steamid: 550650
+gogslug: ''
+humblestoreid: ''

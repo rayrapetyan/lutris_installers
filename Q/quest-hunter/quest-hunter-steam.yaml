@@ -1,0 +1,24 @@
+id: 6138
+game_id: 14421
+game_slug: quest-hunter
+name: Quest Hunter
+year: 2017
+user: predator8bit
+runner: steam
+slug: quest-hunter-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-10-27T06:29:14.204683Z'
+updated_at: '2017-10-27T23:48:25.144470Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 487000
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 487000

@@ -1,0 +1,28 @@
+id: 4444
+game_id: 1649
+game_slug: draw-a-stickman-epic
+name: 'Draw a Stickman: EPIC'
+year: null
+user: FakeShemp
+runner: linux
+slug: draw-a-stickman-epic-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-17T21:01:47.863266Z'
+updated_at: '2017-06-18T23:24:39.295373Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 248650
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: DrawAStickman.Linux.exe
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

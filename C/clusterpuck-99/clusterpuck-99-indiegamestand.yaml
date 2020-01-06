@@ -1,0 +1,29 @@
+id: 4298
+game_id: 3801
+game_slug: clusterpuck-99
+name: ClusterPuck 99
+year: null
+user: FakeShemp
+runner: linux
+slug: clusterpuck-99-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-06-11T17:57:31.545452Z'
+updated_at: '2017-06-12T19:50:49.783069Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 337960
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: ClusterPuck99.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/ClusterPuck99.x86
+  files:
+  - file1: N/A:Please select the IndieGameStand archive

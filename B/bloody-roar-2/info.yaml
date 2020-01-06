@@ -1,0 +1,16 @@
+name: Bloody Roar 2
+slug: bloody-roar-2
+year: 1999
+platforms:
+- name: Arcade
+- name: Sony PlayStation
+genres:
+- name: Fighting
+aliases: []
+banner_url: /games/banner/bloody-roar-2.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:39.314375Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

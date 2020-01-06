@@ -1,0 +1,17 @@
+name: 'Thronebreaker: The Witcher Tales'
+slug: thronebreaker-the-witcher-tales
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Cards
+- name: RPG
+- name: Strategy
+aliases: []
+banner_url: /games/banner/thronebreaker-the-witcher-tales.jpg
+icon_url: /games/icon/thronebreaker-the-witcher-tales.png
+is_public: true
+updated: '2019-01-23T08:31:49.886629Z'
+steamid: 973760
+gogslug: thronebreaker_the_witcher_tales
+humblestoreid: ''

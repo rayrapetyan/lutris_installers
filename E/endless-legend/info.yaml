@@ -1,0 +1,16 @@
+name: Endless Legend
+slug: endless-legend
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: RPG
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/endless-legend.jpg
+icon_url: /games/icon/endless-legend.png
+is_public: true
+updated: '2019-01-23T08:29:23.232572Z'
+steamid: 289130
+gogslug: ''
+humblestoreid: ''

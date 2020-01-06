@@ -1,0 +1,38 @@
+id: 1846
+game_id: 261
+game_slug: cave-story
+name: Cave Story+
+year: null
+user: strider
+runner: linux
+slug: cave-story-native
+version: Native
+description: Original game from 2004
+notes: ''
+created_at: '2016-01-08T09:34:16.010000Z'
+updated_at: '2017-12-10T05:21:44.316080Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 200900
+gogid: null
+gogslug: ''
+humblestoreid: cave-story
+script:
+  exe: doukutsu_32bits
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: main_game
+  - extract:
+      dst: $CACHE
+      file: patch
+  - merge:
+      src: $CACHE/linuxDoukutsu-1.2
+      dst: $GAMEDIR
+  - chmodx: $GAMEDIR/doukutsu_32bits
+  - chmodx: $GAMEDIR/doukutsu_64bits
+  files:
+  - main_game: http://www.cavestory.org/downloads/linuxdoukutsu-1.01.tar.bz2
+  - patch: http://www.cavestory.org/downloads/linuxDoukutsu-1.2.zip

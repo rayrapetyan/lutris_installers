@@ -1,0 +1,17 @@
+name: 'S.T.A.L.K.E.R.: Clear Sky'
+slug: stalker-clear-sky
+year: 2008
+platforms:
+- name: Windows
+genres:
+- name: FPS
+- name: Horror
+- name: Survival
+aliases: []
+banner_url: /games/banner/stalker-clear-sky.jpg
+icon_url: /games/icon/stalker-clear-sky.png
+is_public: true
+updated: '2019-05-14T04:34:40.856633Z'
+steamid: 20510
+gogslug: stalker_clear_sky
+humblestoreid: ''

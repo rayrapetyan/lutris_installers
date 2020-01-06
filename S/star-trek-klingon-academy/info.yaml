@@ -1,0 +1,15 @@
+name: 'Star Trek: Klingon Academy'
+slug: star-trek-klingon-academy
+year: 1999
+platforms:
+- name: Windows
+genres:
+- name: Space flight
+aliases: []
+banner_url: /games/banner/star-trek-klingon-academy.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:25.054809Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

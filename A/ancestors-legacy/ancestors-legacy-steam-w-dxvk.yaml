@@ -1,0 +1,58 @@
+id: 8604
+game_id: 19214
+game_slug: ancestors-legacy
+name: Ancestors Legacy
+year: 2018
+user: cxf
+runner: winesteam
+slug: ancestors-legacy-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2018-06-08T23:50:03.456000Z'
+updated_at: '2019-02-14T01:02:50.460204Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 620590
+gogid: 1848455842
+gogslug: ancestors
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - extract:
+      dst: $CACHE/dxsetup
+      file: dx2010
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR/prefix
+      args: /silent
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2017
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Please be patient while we install .NET 4.7.2
+      app: dotnet472 win7
+      arch: win64
+      name: winetricks
+  files:
+  - dx2010: https://lutris.net/files/tools/directx-2010.tar.gz
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 620590
+    arch: win64

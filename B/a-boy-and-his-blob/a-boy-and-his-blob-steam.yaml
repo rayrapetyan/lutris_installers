@@ -1,0 +1,24 @@
+id: 2094
+game_id: 6131
+game_slug: a-boy-and-his-blob
+name: A Boy and His Blob
+year: 2009
+user: strider
+runner: steam
+slug: a-boy-and-his-blob-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-06-15T01:10:27.929690Z'
+updated_at: '2016-11-21T05:04:08.685522Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: 281200
+gogid: 1446645514
+gogslug: a_boy_and_his_blob
+humblestoreid: ''
+script:
+  game:
+    appid: 281200

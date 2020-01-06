@@ -1,0 +1,29 @@
+id: 2
+game_id: 7
+game_slug: strider
+name: Strider
+year: 1989
+user: strider
+runner: fsuae
+slug: strider-amiga
+version: amiga
+description: Amiga version of Strider
+notes: ''
+created_at: '2013-07-03T20:03:52Z'
+updated_at: '2014-11-17T19:08:33.576000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: disk1
+  installer:
+  - merge:
+      src: disk1
+      dst: $GAMEDIR
+  files:
+  - disk1: N/A:Select the game ROM

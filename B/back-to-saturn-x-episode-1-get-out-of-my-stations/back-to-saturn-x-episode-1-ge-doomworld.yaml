@@ -1,0 +1,48 @@
+id: 10071
+game_id: 21527
+game_slug: back-to-saturn-x-episode-1-get-out-of-my-stations
+name: 'Back to Saturn X Episode 1: Get Out Of My Stations'
+year: 2012
+user: miky_kr5
+runner: zdoom
+slug: back-to-saturn-x-episode-1-ge-doomworld
+version: Doomworld
+description: Pwad file from Doomworld. Requires either the DOOM 2 or the Freedoom
+  phase 2 iwad to play.
+notes: ''
+created_at: '2018-09-06T17:17:57.366053Z'
+updated_at: '2018-09-06T18:12:17.867476Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      src: $btsx
+      dst: $CACHE
+  - merge:
+      src: $doom2
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/btsx_e1a.wad
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/btsx_e1b.wad
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/btsx_e1.deh
+      dst: $GAMEDIR
+  files:
+  - doom2: N/A:Please select either the DOOM 2 or Freedoom phase 2 iwad file.
+  - btsx: http://youfailit.net/pub/idgames/levels/doom2/megawads/btsx_e1.zip
+  game:
+    args: -deh btsx_e1.deh
+    files:
+    - btsx_e1a.wad
+    - btsx_e1b.wad
+    main_file: doom2

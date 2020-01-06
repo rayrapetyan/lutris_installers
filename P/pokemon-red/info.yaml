@@ -1,0 +1,16 @@
+name: "Pok\xE9mon Red Version"
+slug: pokemon-red
+year: 1996
+platforms:
+- name: Game Boy
+genres:
+- name: jRPG
+- name: RPG
+aliases: []
+banner_url: /games/banner/pokemon-red.jpg
+icon_url: /games/icon/pokemon-red.png
+is_public: true
+updated: '2019-01-23T08:30:47.170985Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

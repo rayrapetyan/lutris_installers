@@ -1,0 +1,24 @@
+id: 11199
+game_id: 23804
+game_slug: nubs-adventure
+name: Nubs' Adventure
+year: null
+user: strider
+runner: steam
+slug: nubs-adventure-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-12-12T07:16:34.817188Z'
+updated_at: '2018-12-12T07:16:34.817218Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 401280
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: '401280'

@@ -1,0 +1,17 @@
+name: Sega Rally 2 Championship
+slug: sega-rally-2-championship
+year: 1999
+platforms:
+- name: Arcade
+- name: Sega Dreamcast
+- name: Windows
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/sega-rally-2-championship.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:09.236774Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

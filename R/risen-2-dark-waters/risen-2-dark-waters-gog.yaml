@@ -1,0 +1,47 @@
+id: 11339
+game_id: 431
+game_slug: risen-2-dark-waters
+name: Risen 2 - Dark Waters
+year: null
+user: dimitrijejankov
+runner: wine
+slug: risen-2-dark-waters-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2018-12-25T20:10:32.888000Z'
+updated_at: '2019-01-22T07:30:17.440502Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 40390
+gogid: 1207663193
+gogslug: risen_2_dark_waters
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      app: physx
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: d3dx9
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /sp- /silent /norestart
+      name: wineexec
+  - task:
+      executable: update
+      prefix: $GAMEDIR
+      args: /sp- /silent /norestart
+      name: wineexec
+  files:
+  - setup: N/A:Please select the GOG installer
+  - update: N/A:Please select the GOG updater
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Risen 2 - Dark Waters/system/Risen.exe

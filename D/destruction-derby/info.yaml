@@ -1,0 +1,17 @@
+name: Destruction Derby
+slug: destruction-derby
+year: 1995
+platforms:
+- name: MS-DOS
+- name: Sega Saturn
+- name: Sony PlayStation
+genres:
+- name: Car combat
+aliases: []
+banner_url: /games/banner/destruction-derby.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:10.500725Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

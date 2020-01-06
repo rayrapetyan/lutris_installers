@@ -1,0 +1,56 @@
+id: 10825
+game_id: 4371
+game_slug: lords-of-the-fallen
+name: Lords Of The Fallen
+year: null
+user: miig
+runner: wine
+slug: lords-of-the-fallen-gog-goty-dxvk
+version: GOG GOTY DXVK
+description: null
+notes: ''
+created_at: '2018-11-10T15:53:22.622000Z'
+updated_at: '2019-02-16T03:24:46.843963Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 265300
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Installing Lords of the Fallen
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: win7
+      arch: win64
+      name: winetricks
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Lords of the Fallen - Game of the Year Edition/bin/LordsOfTheFallen.exe
+    arch: win64
+  system:
+    env:
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+      __GL_THREADED_OPTIMIZATIONS: 1
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_STATE_CACHE: 1
+    pulse_latency: true
+  wine:
+    version: tkg-4.0-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - setup: N/A:Select the game's setup file

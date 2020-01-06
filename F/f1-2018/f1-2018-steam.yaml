@@ -1,0 +1,50 @@
+id: 9141
+game_id: 19875
+game_slug: f1-2018
+name: F1 2018
+year: 2018
+user: TuiorGames
+runner: winesteam
+slug: f1-2018-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-10T23:27:15.361000Z'
+updated_at: '2019-02-14T06:00:35.916091Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 737800
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - extract:
+      dst: $CACHE/dxsetup
+      file: dx2010
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR/prefix
+      args: /silent
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2015 win7
+      arch: win64
+      name: winetricks
+  files:
+  - dx2010: https://lutris.net/files/tools/directx-2010.tar.gz
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 737800
+    arch: win64

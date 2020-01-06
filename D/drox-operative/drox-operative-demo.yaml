@@ -1,0 +1,24 @@
+id: 6721
+game_id: 4201
+game_slug: drox-operative
+name: Drox Operative
+year: 2012
+user: cxf
+runner: steam
+slug: drox-operative-demo
+version: Demo
+description: null
+notes: ''
+created_at: '2017-12-18T03:35:53.549432Z'
+updated_at: '2017-12-18T03:36:01.476815Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 274480
+gogid: 1207665903
+gogslug: drox_operative
+humblestoreid: ''
+script:
+  game:
+    appid: 282270

@@ -1,0 +1,24 @@
+id: 702
+game_id: 1712
+game_slug: conquest-of-elysium-3
+name: Conquest of Elysium 3
+year: 2012
+user: Xodetaetl
+runner: steam
+slug: conquest-of-elysium-3-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T13:10:11.361000Z'
+updated_at: '2014-09-15T13:26:54.196000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 211900
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 211900

@@ -1,0 +1,18 @@
+name: 'Fire Emblem: The Binding Blade'
+slug: fire-emblem-the-binding-blade
+year: 2002
+platforms:
+- name: Nintendo Game Boy Advance
+genres:
+- name: Fantasy
+- name: jRPG
+- name: Tactical
+- name: Turn-based tactics
+aliases: []
+banner_url: /games/banner/fire-emblem-the-binding-blade.jpg
+icon_url: null
+is_public: true
+updated: '2020-01-01T06:51:53.641446Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

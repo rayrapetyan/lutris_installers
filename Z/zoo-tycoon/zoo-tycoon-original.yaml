@@ -1,0 +1,41 @@
+id: 15200
+game_id: 26218
+game_slug: zoo-tycoon
+name: Zoo Tycoon
+year: 2001
+user: citrusalex
+runner: wine
+slug: zoo-tycoon-original
+version: Original
+description: null
+notes: Due to the copy protection, this game will not run until the exe file has been
+  patched to remove aforementioned protection.
+created_at: '2019-08-30T01:19:35.545000Z'
+updated_at: '2019-09-08T23:34:03.081927Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 613880
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: setup.exe
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  wine:
+    version: lutris-4.13-x86_64
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/Microsoft Games/Zoo Tycoon/zoo.exe
+    working_dir: $GAMEDIR/drive_c/Program Files/Microsoft Games/Zoo Tycoon
+    arch: win32

@@ -1,0 +1,30 @@
+id: 15023
+game_id: 28869
+game_slug: colobot-gold-edition
+name: 'Colobot: Gold Edition'
+year: 2014
+user: CyanLime
+runner: linux
+slug: colobot-gold-edition-0112-alpha
+version: 0.1.12-alpha
+description: null
+notes: ''
+created_at: '2019-08-16T10:31:11.063771Z'
+updated_at: '2019-08-16T10:31:11.063806Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Colobot-0.1.12-alpha-x86_64.AppImage
+  installer:
+  - merge:
+      src: game
+      dst: $GAMEDIR/
+  - chmodx: $GAMEDIR/Colobot-0.1.12-alpha-x86_64.AppImage
+  files:
+  - game: https://colobot.info/files/releases/0.1.12-alpha/Colobot-0.1.12-alpha-x86_64.AppImage

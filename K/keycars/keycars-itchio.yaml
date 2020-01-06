@@ -1,0 +1,32 @@
+id: 7628
+game_id: 17550
+game_slug: keycars
+name: KeyCars
+year: 2018
+user: littlechalan
+runner: linux
+slug: keycars-itchio
+version: itch.io
+description: Download at https://kenney.itch.io/keycars
+notes: ''
+created_at: '2018-03-23T16:13:32.888000Z'
+updated_at: '2018-03-23T22:46:32.543607Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $archive
+  - chmodx: $GAMEDIR/KeyCars.x86
+  files:
+  - archive: "N/A:Select KeyCars_LINUX_[\u2026].zip"
+  game:
+    prefix: $GAMEDIR
+    exe: KeyCars.x86

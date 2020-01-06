@@ -1,0 +1,15 @@
+name: 'Amnesia: A Machine for Pigs'
+slug: amnesia-a-machine-for-pigs
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Horror
+aliases: []
+banner_url: /games/banner/amnesia-a-machine-for-pigs.jpg
+icon_url: /games/icon/amnesia-a-machine-for-pigs.png
+is_public: true
+updated: '2019-01-23T08:28:20.987470Z'
+steamid: 239200
+gogslug: amnesia_a_machine_for_pigs
+humblestoreid: ''

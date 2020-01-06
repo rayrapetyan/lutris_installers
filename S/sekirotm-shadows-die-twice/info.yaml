@@ -1,0 +1,16 @@
+name: "Sekiro\u2122: Shadows Die Twice"
+slug: sekirotm-shadows-die-twice
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/sekirotm-shadows-die-twice.jpg
+icon_url: /games/icon/sekirotm-shadows-die-twice.png
+is_public: true
+updated: '2019-03-23T09:31:37.150422Z'
+steamid: 814380
+gogslug: ''
+humblestoreid: ''

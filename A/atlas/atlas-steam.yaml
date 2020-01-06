@@ -1,0 +1,24 @@
+id: 11608
+game_id: 25079
+game_slug: atlas
+name: ATLAS
+year: null
+user: WarfaceZ
+runner: winesteam
+slug: atlas-steam
+version: Steam
+description: null
+notes: Doesn't work with battleye
+created_at: '2019-01-16T17:43:09.225000Z'
+updated_at: '2019-01-17T05:34:19.770126Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 834910
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 834910

@@ -1,0 +1,32 @@
+id: 8811
+game_id: 15936
+game_slug: millia-the-ending-
+name: Millia -The ending-
+year: 2016
+user: TuiorGames
+runner: linux
+slug: millia-the-ending-steam
+version: Steam
+description: Native Linux version using Steam game data.
+notes: ''
+created_at: '2018-06-19T22:56:42.161000Z'
+updated_at: '2018-06-26T12:27:44.943172Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 428060
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Millia - The ending -.sh
+  installer:
+  - merge:
+      src: steam-data
+      dst: $GAMEDIR
+  - chmodx: $GAMEDIR/Millia - The ending -.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Millia - The ending -
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Millia - The ending -
+  files:
+  - steam-data: $WINESTEAM:428060:/

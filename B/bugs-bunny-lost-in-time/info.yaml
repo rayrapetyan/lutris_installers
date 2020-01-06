@@ -1,0 +1,17 @@
+name: 'Bugs Bunny: Lost in Time'
+slug: bugs-bunny-lost-in-time
+year: 1999
+platforms:
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/bugs-bunny-lost-in-time.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:42.933028Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

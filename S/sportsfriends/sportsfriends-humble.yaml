@@ -1,0 +1,30 @@
+id: 4254
+game_id: 4547
+game_slug: sportsfriends
+name: Sportsfriends
+year: null
+user: FakeShemp
+runner: linux
+slug: sportsfriends-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-09T21:29:11.397899Z'
+updated_at: '2017-06-11T00:47:56.913292Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 277850
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Sportsfriends32
+  installer:
+  - extract:
+      format: tgz
+      file: $file1
+  exe64: Sportsfriends64
+  files:
+  - file1: N/A:Please select the Humble archive

@@ -1,0 +1,32 @@
+id: 5136
+game_id: 7721
+game_slug: rose-time
+name: Rose & Time
+year: 2012
+user: FakeShemp
+runner: linux
+slug: rose-time-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-21T16:41:20.269104Z'
+updated_at: '2017-08-27T22:21:07.011253Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Rose and Time.x86
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/RoseAndTimeRemastered_Linux
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Groupees archive

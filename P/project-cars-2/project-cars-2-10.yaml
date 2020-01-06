@@ -1,0 +1,30 @@
+id: 14657
+game_id: 14550
+game_slug: project-cars-2
+name: Project CARS 2
+year: 2017
+user: bc9d908862cb592654f0f1afdb8de0a8
+runner: winesteam
+slug: project-cars-2-10
+version: '10'
+description: null
+notes: ''
+created_at: '2019-07-21T18:47:04.020000Z'
+updated_at: '2019-09-09T00:42:02.289839Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 378860
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    appid: 737770

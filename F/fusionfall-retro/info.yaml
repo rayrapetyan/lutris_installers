@@ -1,0 +1,23 @@
+name: FusionFall Retro
+slug: fusionfall-retro
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Beat'em up
+- name: Exploration
+- name: MMO
+- name: MMORPG
+- name: RPG
+- name: Shoot'em up
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/fusionfall-retro.jpg
+icon_url: null
+is_public: true
+updated: '2019-03-04T18:49:11.641947Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

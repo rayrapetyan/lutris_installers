@@ -1,0 +1,67 @@
+id: 8064
+game_id: 85
+game_slug: world-of-tanks
+name: World of Tanks
+year: 2010
+user: yzwqqins
+runner: wine
+slug: world-of-tanks-ru-dxvk
+version: RU DXVK
+description: null
+notes: ''
+created_at: '2018-05-05T16:34:33.926000Z'
+updated_at: '2019-11-06T22:54:14.310707Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      description: Installing World of Tanks
+      args: /VERYSILENT /CLOSEAPPLICATIONS
+      exclude_processes: explorer.exe rpcss.exe winedevice.exe plugplay.exe WargamingGameUpdater.exe
+        WoTLauncher.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Wine to Windows 10
+      app: corefonts win10
+      arch: win64
+      name: winetricks
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Games/World_of_Tanks/WoTLauncher.exe
+    arch: win64
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+    disable_runtime: false
+  wine:
+    version: lutris-4.16-x86_64
+    WineDesktop: 1920x1080
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+    Desktop: true
+  files:
+  - game:
+      filename: WoT_internet_install_ru.exe
+      url: https://wot.gcdn.co/ru/files/WoT_internet_install_ru.exe

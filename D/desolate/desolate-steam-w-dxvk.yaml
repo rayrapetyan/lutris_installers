@@ -1,0 +1,43 @@
+id: 10147
+game_id: 17831
+game_slug: desolate
+name: DESOLATE
+year: 2018
+user: retsnom513
+runner: winesteam
+slug: desolate-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2018-09-10T02:18:23.497000Z'
+updated_at: '2019-02-14T05:46:17.013491Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 671510
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: corefonts d3dx11_43 vcrun2017 win7
+      arch: win64
+      name: winetricks
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 671510

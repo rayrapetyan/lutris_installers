@@ -1,0 +1,30 @@
+id: 15368
+game_id: 29295
+game_slug: tunneler
+name: Tunneler
+year: 1991
+user: Heehaaw
+runner: dosbox
+slug: tunneler-playdosgamescom-arch
+version: PLayDOSGames.com Archive
+description: null
+notes: ''
+created_at: '2019-09-07T16:26:15.655745Z'
+updated_at: '2019-09-07T16:26:15.655768Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: archive
+  files:
+  - archive: https://www.playdosgames.com/assets/zips/tunneler.zip
+  game:
+    main_file: TUNNELER.EXE

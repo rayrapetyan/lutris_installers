@@ -1,0 +1,29 @@
+id: 3232
+game_id: 9784
+game_slug: kindness-coins
+name: Kindness Coins
+year: 2013
+user: FakeShemp
+runner: linux
+slug: kindness-coins-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-02-05T16:45:07.225000Z'
+updated_at: '2017-02-16T02:53:22.774451Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Kindness Coins.sh
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: game
+  files:
+  - game: N/A:Please select the itch.io zip file

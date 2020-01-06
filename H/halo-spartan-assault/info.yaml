@@ -1,0 +1,15 @@
+name: 'Halo: Spartan Assault'
+slug: halo-spartan-assault
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/halo-spartan-assault.jpg
+icon_url: /games/icon/halo-spartan-assault.png
+is_public: true
+updated: '2019-01-23T08:29:46.575322Z'
+steamid: 277430
+gogslug: ''
+humblestoreid: ''

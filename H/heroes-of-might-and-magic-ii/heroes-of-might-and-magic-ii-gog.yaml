@@ -1,0 +1,32 @@
+id: 8042
+game_id: 18021
+game_slug: heroes-of-might-and-magic-ii
+name: Heroes of Might and Magic II
+year: 1996
+user: RobLoach
+runner: wine
+slug: heroes-of-might-and-magic-ii-gog
+version: GOG
+description: Uses the GOG windows version for installing and playing.
+notes: ''
+created_at: '2018-05-02T21:46:23.419000Z'
+updated_at: '2018-08-27T06:36:54.301320Z'
+draft: false
+published: true
+published_by: null
+rating: '1'
+steamid: null
+gogid: 1207658785
+gogslug: heroes_of_might_and_magic_2_gold_edition
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the GOG installer
+  game:
+    prefix: $GAMEDIR
+    exe: HEROES2.EXE

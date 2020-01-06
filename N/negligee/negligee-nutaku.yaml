@@ -1,0 +1,31 @@
+id: 6918
+game_id: 10632
+game_slug: negligee
+name: Negligee
+year: 2016
+user: FakeShemp
+runner: linux
+slug: negligee-nutaku
+version: Nutaku
+description: null
+notes: ''
+created_at: '2017-12-31T00:46:52.373000Z'
+updated_at: '2017-12-31T00:52:36.033490Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 432100
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Negligee.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Negligee.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Negligee
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Negligee
+  files:
+  - file1: N/A:Please select the Nutaku archive

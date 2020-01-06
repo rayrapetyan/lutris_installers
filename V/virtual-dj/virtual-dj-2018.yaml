@@ -1,0 +1,37 @@
+id: 15030
+game_id: 14873
+game_slug: virtual-dj
+name: Virtual DJ
+year: null
+user: property
+runner: wine
+slug: virtual-dj-2018
+version: '2018'
+description: null
+notes: ''
+created_at: '2019-08-16T19:57:50.119185Z'
+updated_at: '2019-08-16T19:57:50.119215Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: 224380
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Game/game.exe
+  installer:
+  - chmodx: install_virtualdj_2018_b5186_pc.msi
+  wine:
+    version: lutris-4.13-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      nvapi64: disabled
+      nvapi: disabled
+      d3d12: disabled
+  files:
+  - installer: https://de.virtualdj.com/download/pc

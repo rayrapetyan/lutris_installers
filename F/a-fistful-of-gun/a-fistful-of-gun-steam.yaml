@@ -1,0 +1,24 @@
+id: 2103
+game_id: 5524
+game_slug: a-fistful-of-gun
+name: A Fistful of Gun
+year: 2015
+user: strider
+runner: winesteam
+slug: a-fistful-of-gun-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-06-15T04:15:10.008525Z'
+updated_at: '2016-06-15T04:15:15.197800Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 229810
+gogid: 1442910587
+gogslug: a_fistful_of_gun
+humblestoreid: ''
+script:
+  game:
+    appid: 229810

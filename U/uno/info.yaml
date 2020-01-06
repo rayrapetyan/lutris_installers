@@ -1,0 +1,17 @@
+name: UNO
+slug: uno
+year: 2012
+platforms:
+- name: Windows
+genres:
+- name: Cards
+- name: Casual
+- name: Strategy
+aliases: []
+banner_url: /games/banner/uno.jpg
+icon_url: /games/icon/uno.png
+is_public: true
+updated: '2019-01-23T08:32:00.110631Z'
+steamid: 470220
+gogslug: ''
+humblestoreid: ''

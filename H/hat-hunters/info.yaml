@@ -1,0 +1,17 @@
+name: Hat Hunters
+slug: hat-hunters
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Casual
+- name: Strategy
+aliases: []
+banner_url: /games/banner/hat-hunters.jpg
+icon_url: /games/icon/hat-hunters.png
+is_public: true
+updated: '2019-01-23T08:29:47.507629Z'
+steamid: 874880
+gogslug: ''
+humblestoreid: ''

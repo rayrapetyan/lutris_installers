@@ -1,0 +1,31 @@
+id: 8111
+game_id: 18140
+game_slug: floppy-bird
+name: Floppy Bird
+year: 2017
+user: RobLoach
+runner: libretro
+slug: floppy-bird-100
+version: 1.0.0
+description: null
+notes: ''
+created_at: '2018-05-08T12:35:14.879889Z'
+updated_at: '2019-01-28T02:53:30.814014Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: https://github.com/RobLoach/ChaiLove-FloppyBird/releases/download/1.0.0/FloppyBird.chailove
+  game:
+    core: chailove
+    main_file: $GAMEDIR/FloppyBird.chailove

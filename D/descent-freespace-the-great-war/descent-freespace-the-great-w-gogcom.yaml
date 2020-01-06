@@ -1,0 +1,54 @@
+id: 2674
+game_id: 3649
+game_slug: descent-freespace-the-great-war
+name: 'Descent: Freespace - The Great War'
+year: 1998
+user: ssf
+runner: wine
+slug: descent-freespace-the-great-w-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2016-09-03T21:26:19.089127Z'
+updated_at: '2016-09-13T17:16:39.864886Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 273600
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  gogid: freespace_expansion
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      type: REG_SZ
+      value: ''
+      key: winemenubuilder.exe
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /VERYSILENT /SP- /NOCANCEL /SUPPRESSMSGBOXES '/DIR=C:/game'
+      description: Installing...
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Disabling unused WINE features
+      app: sandbox
+      silent: true
+      name: winetricks
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/game/FS.exe
+    working_dir: $GAMEDIR/drive_c/game
+    arch: win32

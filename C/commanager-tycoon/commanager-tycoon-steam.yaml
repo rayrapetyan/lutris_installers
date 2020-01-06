@@ -1,0 +1,24 @@
+id: 7975
+game_id: 17973
+game_slug: commanager-tycoon
+name: Commanager Tycoon
+year: 2018
+user: TuiorGames
+runner: steam
+slug: commanager-tycoon-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-04-23T12:28:37.892392Z'
+updated_at: '2018-04-30T06:32:58.056989Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 847630
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 847630

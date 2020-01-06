@@ -1,0 +1,29 @@
+id: 5634
+game_id: 13872
+game_slug: north-south
+name: North & South
+year: 1989
+user: maxlefou
+runner: dosbox
+slug: north-south-dos
+version: DOS
+description: ''
+notes: ''
+created_at: '2017-09-09T11:02:23.198000Z'
+updated_at: '2017-09-17T19:26:22.497822Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: tatou.com
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: archive
+  files:
+  - archive: N/A:Select the archive containing the game

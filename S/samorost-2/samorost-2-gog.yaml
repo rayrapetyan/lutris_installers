@@ -1,0 +1,34 @@
+id: 16247
+game_id: 167
+game_slug: samorost-2
+name: Samorost 2
+year: 2009
+user: Talvi
+runner: linux
+slug: samorost-2-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-10-17T02:07:16.672507Z'
+updated_at: '2019-10-18T04:34:37.243579Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 40720
+gogid: 1435321049
+gogslug: samorost2
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

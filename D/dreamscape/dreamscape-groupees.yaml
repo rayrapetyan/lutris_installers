@@ -1,0 +1,32 @@
+id: 5139
+game_id: 5403
+game_slug: dreamscape
+name: Dreamscape
+year: null
+user: FakeShemp
+runner: wine
+slug: dreamscape-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-21T17:10:52.607150Z'
+updated_at: '2018-05-19T03:41:57.010556Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 271990
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Dreamscape
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Dreamscape/Dreamscape.exe
+    arch: win32

@@ -1,0 +1,33 @@
+id: 9405
+game_id: 15270
+game_slug: corona-blossom-vol1-gift-from-the-galaxy
+name: Corona Blossom Vol.1 Gift From the Galaxy
+year: 2016
+user: kimchitea
+runner: wine
+slug: corona-blossom-vol1-gift-from-dlc-64-bit
+version: DLC (64-bit)
+description: null
+notes: ''
+created_at: '2018-07-26T15:25:14.176000Z'
+updated_at: '2018-08-01T08:38:35.351015Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 496260
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: corona-blossom-vol1-gift-from-steam
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $patch
+  - task:
+      executable: $CACHE/CoroBlo_vol_1_Steam_R18DLC.exe
+      prefix: $HOME/.local/share/lutris/runners/winesteam/prefix64
+      name: wineexec
+  files:
+  - patch: N/A:Please select the DLC archive

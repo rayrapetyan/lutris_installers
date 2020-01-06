@@ -1,0 +1,16 @@
+name: War Brokers
+slug: war-brokers
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Simulation
+aliases: []
+banner_url: /games/banner/war-brokers.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:05.296053Z'
+steamid: 750470
+gogslug: ''
+humblestoreid: ''

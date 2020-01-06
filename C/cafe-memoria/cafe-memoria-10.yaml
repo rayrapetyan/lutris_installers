@@ -1,0 +1,28 @@
+id: 9383
+game_id: 20245
+game_slug: cafe-memoria
+name: "Caf\xE9 Memoria"
+year: 2015
+user: kimchitea
+runner: linux
+slug: cafe-memoria-10
+version: '1.0'
+description: null
+notes: ''
+created_at: '2018-07-25T18:27:22.066000Z'
+updated_at: '2018-07-26T06:20:24.178656Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Cafe Memoria.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: https://pixaelsoft.com/projects/cafememoria/download/Cafe_Memoria-1.0-all.zip

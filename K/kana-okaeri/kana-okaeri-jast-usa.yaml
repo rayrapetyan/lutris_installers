@@ -1,0 +1,41 @@
+id: 4717
+game_id: 11963
+game_slug: kana-okaeri
+name: Kana... Okaeri!
+year: 2004
+user: FakeShemp
+runner: wine
+slug: kana-okaeri-jast-usa
+version: JAST USA
+description: ''
+notes: ''
+created_at: '2017-06-28T20:20:20.504000Z'
+updated_at: '2018-05-19T03:41:54.444152Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: devenum
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: quartz
+      name: winetricks
+  files:
+  - file1: N/A:Please select the JAST USA installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Kana Okaeri/KANAOKA.EXE
+    arch: win32

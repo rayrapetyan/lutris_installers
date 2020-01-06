@@ -1,0 +1,24 @@
+id: 7895
+game_id: 2210
+game_slug: aura-kingdom
+name: Aura Kingdom
+year: null
+user: warlokk666
+runner: winesteam
+slug: aura-kingdom-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-04-14T09:00:57.886000Z'
+updated_at: '2018-05-02T00:59:13.656519Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 268420
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 268420

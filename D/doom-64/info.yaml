@@ -1,0 +1,16 @@
+name: Doom 64
+slug: doom-64
+year: 1997
+platforms:
+- name: Linux
+- name: Nintendo 64
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/doom-64.jpg
+icon_url: /games/icon/doom-64.png
+is_public: true
+updated: '2019-01-23T08:29:15.386955Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

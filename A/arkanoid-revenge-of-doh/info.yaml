@@ -1,0 +1,22 @@
+name: 'Arkanoid: Revenge of DOH'
+slug: arkanoid-revenge-of-doh
+year: 1987
+platforms:
+- name: Amiga
+- name: Apple IIGS
+- name: Arcade
+- name: MS-DOS
+- name: MSX
+- name: NES
+- name: X68000
+- name: ZX Spectrum
+genres:
+- name: Brick buster
+aliases: []
+banner_url: /games/banner/arkanoid-revenge-of-doh.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:24.728811Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 3338
+game_id: 7159
+game_slug: turmoil
+name: Turmoil
+year: null
+user: strider
+runner: steam
+slug: turmoil-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-03-14T21:05:51.379373Z'
+updated_at: '2017-03-14T21:05:57.710186Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 361280
+gogid: 1812631235
+gogslug: turmoil
+humblestoreid: ''
+script:
+  game:
+    appid: 361280

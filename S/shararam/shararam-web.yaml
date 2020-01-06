@@ -1,0 +1,29 @@
+id: 12028
+game_id: 25876
+game_slug: shararam
+name: "\u0428\u0430\u0440\u0430\u0440\u0430\u043C"
+year: 2008
+user: citrusalex
+runner: web
+slug: shararam-web
+version: Web
+description: null
+notes: ''
+created_at: '2019-02-15T20:26:13.703000Z'
+updated_at: '2019-08-01T05:46:35.864738Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  web:
+    maximize_window: true
+    open_links: true
+    enable_flash: true
+    window_size: 1280x720
+  game:
+    main_file: https://www.shararam.ru

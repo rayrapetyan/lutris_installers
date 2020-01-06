@@ -1,0 +1,24 @@
+id: 8234
+game_id: 5147
+game_slug: mainland
+name: Mainland
+year: null
+user: soredake
+runner: winesteam
+slug: mainland-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T07:33:34.114044Z'
+updated_at: '2018-05-13T09:18:51.888284Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 366800
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 366800

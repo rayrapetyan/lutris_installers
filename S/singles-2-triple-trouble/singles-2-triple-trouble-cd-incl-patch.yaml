@@ -1,0 +1,48 @@
+id: 7390
+game_id: 16400
+game_slug: singles-2-triple-trouble
+name: 'Singles 2: Triple Trouble'
+year: 2005
+user: t-rex91
+runner: wine
+slug: singles-2-triple-trouble-cd-incl-patch
+version: CD incl. Patch
+description: After the Disc installation there will be a 1.4 Patch Installation
+notes: ''
+created_at: '2018-02-24T22:33:38.958000Z'
+updated_at: '2018-05-19T03:42:00.494069Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing DirectX9
+      app: directx9
+      silent: true
+      name: winetricks
+  - task:
+      executable: Installer
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      executable: Patch
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - Installer: N/A:Please select the Singles 2 setup file
+  - Patch: ftp://ftp.kochmedia.com/pub/hotline/deepsilver/singles2/Singles2_Patch1.4_Int_HP.exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Singles2/Singles2.exe
+    arch: win32

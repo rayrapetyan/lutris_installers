@@ -1,0 +1,16 @@
+name: Winamax
+slug: winamax
+year: 2010
+platforms:
+- name: Windows
+genres:
+- name: Cards
+- name: Gambling
+aliases: []
+banner_url: /games/banner/winamax.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:08.808075Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

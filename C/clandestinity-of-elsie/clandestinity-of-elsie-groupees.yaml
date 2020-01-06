@@ -1,0 +1,32 @@
+id: 5110
+game_id: 7443
+game_slug: clandestinity-of-elsie
+name: Clandestinity of Elsie
+year: null
+user: FakeShemp
+runner: wine
+slug: clandestinity-of-elsie-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-20T12:02:49.559734Z'
+updated_at: '2018-05-19T03:41:56.952190Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 379320
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Clandestinity of Elsie
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Clandestinity of Elsie/Game.exe
+    arch: win32

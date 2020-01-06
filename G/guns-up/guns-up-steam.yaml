@@ -1,0 +1,43 @@
+id: 13154
+game_id: 14181
+game_slug: guns-up
+name: GUNS UP!
+year: 2015
+user: GrbavaCigla
+runner: winesteam
+slug: guns-up-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-04-27T15:41:46.619000Z'
+updated_at: '2019-05-18T07:06:38.214002Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 446150
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.1-x86_64
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Setting up wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: drive_c/Program Files (x86)/Steam/steamapps/common/GUNS UP/GUNS
+        UP.exe
+      prefix: $GAMEDIR/prefix
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: winekill
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 446150
+    arch: win64

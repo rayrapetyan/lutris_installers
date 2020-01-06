@@ -1,0 +1,17 @@
+name: Lunar Rescue
+slug: lunar-rescue
+year: 1979
+platforms:
+- name: Arcade
+- name: Commodore VIC-20
+- name: ZX Spectrum
+genres:
+- name: Shooter
+aliases: []
+banner_url: /games/banner/lunar-rescue.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-13T07:59:06.165961Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,15 @@
+name: Sudoku
+slug: sudoku
+year: 2005
+platforms:
+- name: Linux
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/sudoku.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:28.957533Z'
+steamid: 681170
+gogslug: ''
+humblestoreid: ''

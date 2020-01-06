@@ -1,0 +1,32 @@
+id: 7290
+game_id: 16326
+game_slug: dig-dogs-streetbusters
+name: 'Dig Dogs: Streetbusters'
+year: 1994
+user: t-rex91
+runner: dosbox
+slug: dig-dogs-streetbusters-dos
+version: Dos
+description: null
+notes: ''
+created_at: '2018-02-12T18:17:04.386782Z'
+updated_at: '2018-02-13T06:58:29.679602Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: DIGDOGS.EXE
+  dosbox:
+    exit: true
+  installer:
+  - extract:
+      file: game
+  files:
+  - game:
+      filename: digdogs.zip
+      url: https://www.playdosgames.com/wp-content/uploads/digdogs.zip

@@ -1,0 +1,25 @@
+id: 1614
+game_id: 4128
+game_slug: the-legend-of-korratm
+name: The Legend of Korra
+year: 2014
+user: KimplE
+runner: winesteam
+slug: the-legend-of-korra-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2015-09-29T20:48:33.963000Z'
+updated_at: '2018-07-07T16:18:21.840555Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 281690
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 281690
+    arch: win64

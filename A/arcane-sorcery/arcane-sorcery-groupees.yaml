@@ -1,0 +1,38 @@
+id: 5108
+game_id: 7483
+game_slug: arcane-sorcery
+name: Arcane Sorcery
+year: null
+user: FakeShemp
+runner: wine
+slug: arcane-sorcery-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-20T11:02:02.735000Z'
+updated_at: '2018-05-19T03:41:56.937109Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 397870
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      app: adobeair
+      name: winetricks
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      args: -silent -eulaAccepted
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Arcane Sorcery GreenLight/Arcane Sorcery GreenLight.exe
+    arch: win32

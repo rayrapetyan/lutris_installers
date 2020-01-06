@@ -1,0 +1,15 @@
+name: PlayOnLinux
+slug: playonlinux
+year: 2007
+platforms:
+- name: Linux
+genres:
+- name: Tool
+aliases: []
+banner_url: /games/banner/playonlinux.jpg
+icon_url: /games/icon/playonlinux.png
+is_public: true
+updated: '2019-02-15T00:41:35.087488Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

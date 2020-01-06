@@ -1,0 +1,16 @@
+name: Warframe
+slug: warframe
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/warframe.jpg
+icon_url: /games/icon/warframe.png
+is_public: true
+updated: '2019-01-23T08:32:05.533325Z'
+steamid: 230410
+gogslug: ''
+humblestoreid: ''

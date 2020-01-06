@@ -1,0 +1,26 @@
+id: 1375
+game_id: 1699
+game_slug: evoland
+name: Evoland
+year: 2013
+user: Xodetaetl
+runner: steam
+slug: evoland-steam
+version: Steam
+description: ''
+notes: "for x64 systems\r\nfor x64 systems, can run using Google Chrome, in browser\
+  \ runner: \r\nrun /PATH/TO/YOUR/STEAM/INSTALL/Steam/steamapps/common/Evoland/index.html\
+  \ .\r\nFirefox and Chromium both ask for Flash PPAPI."
+created_at: '2015-03-09T10:30:19.034000Z'
+updated_at: '2017-03-29T21:05:25.963173Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 233470
+gogid: 1207659200
+gogslug: evoland
+humblestoreid: evoland
+script:
+  game:
+    appid: 233470

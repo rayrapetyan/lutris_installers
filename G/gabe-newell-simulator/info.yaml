@@ -1,0 +1,15 @@
+name: Gabe Newell Simulator
+slug: gabe-newell-simulator
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/gabe-newell-simulator.jpg
+icon_url: /games/icon/gabe-newell-simulator.png
+is_public: true
+updated: '2019-01-23T08:29:36.610662Z'
+steamid: 407420
+gogslug: ''
+humblestoreid: ''

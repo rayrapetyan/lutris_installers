@@ -1,0 +1,48 @@
+id: 2727
+game_id: 125
+game_slug: the-ultimate-doom
+name: The Ultimate Doom
+year: 1995
+user: RobLoach
+runner: zdoom
+slug: the-ultimate-doom-john-romeros-brutal-
+version: John Romero's Brutal E1M8B
+description: Alternative ending level for Doom Episode 1, released 21 years after
+  the game's release, with Brutal Doom.
+notes: Requires Steam data.
+created_at: '2016-09-12T04:30:47.525577Z'
+updated_at: '2016-09-12T06:05:24.820689Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 2280
+gogid: 1440164514
+gogslug: the_ultimate_doom
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: $music
+      dst: $GAMEDIR
+  - extract:
+      dst: $GAMEDIR
+      file: brutal
+  - extract:
+      dst: $GAMEDIR
+      file: e1m8b
+  - merge:
+      src: wads
+      dst: $GAMEDIR
+  files:
+  - wads: $STEAM:2280:base
+  - brutal: https://lutris.net/files/games/zdoom/brutalv20b.zip
+  - music: http://www.doom2.net/doomdepot/wads/musicwads/D1-pcmus.wad
+  - e1m8b: http://youfailit.net/pub/idgames/levels/doom/Ports/d-f/e1m8b.zip
+  game:
+    warp: 1 8
+    main_file: DOOM.WAD
+    files:
+    - brutalv20b.pk3
+    - D1-pcmus.wad
+    - e1m8b.wad

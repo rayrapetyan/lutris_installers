@@ -1,0 +1,32 @@
+id: 8839
+game_id: 19432
+game_slug: elephant-in-the-room
+name: Elephant in the Room
+year: null
+user: basxto
+runner: linux
+slug: elephant-in-the-room-humble
+version: Humble
+description: null
+notes: ''
+created_at: '2018-06-21T04:47:36.728831Z'
+updated_at: '2018-06-21T10:25:59.781099Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $GAMEDIR
+      file: $game
+  - chmodx: $GAMEDIR/ElephantInTheRoom_Linux.x86
+  files:
+  - game: 'N/A: Please select the .zip install file downloaded from humblebundle.com'
+  game:
+    exe: $GAMEDIR/ElephantInTheRoom_Linux.x86

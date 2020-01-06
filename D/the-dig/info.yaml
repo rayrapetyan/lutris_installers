@@ -1,0 +1,16 @@
+name: The Dig
+slug: the-dig
+year: 1995
+platforms:
+- name: MS-DOS
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/the-dig.jpg
+icon_url: /games/icon/the-dig.png
+is_public: true
+updated: '2019-01-23T08:31:40.349709Z'
+steamid: 6040
+gogslug: the_dig
+humblestoreid: ''

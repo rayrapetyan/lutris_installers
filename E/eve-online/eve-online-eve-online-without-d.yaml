@@ -1,0 +1,57 @@
+id: 17467
+game_id: 1397
+game_slug: eve-online
+name: EVE Online
+year: 2003
+user: jusdepatate
+runner: wine
+slug: eve-online-eve-online-without-d
+version: EVE Online without DXVK
+description: Installs EVE Launcher (1602194, last public build at 21/12/2019)
+notes: "You will have to hit esc and change your graphical settings if needed,\r\n\
+  You need at least 2GB of storage,\r\nWhen the official EVE installer finishes unselect\
+  \ \"Launch EVE Online\"."
+created_at: '2019-12-21T12:06:02.902000Z'
+updated_at: '2019-12-22T11:19:08.911411Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 8500
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/EVE/eve.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 64bit Wine prefix.
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows 10 mode for Wine
+      arch: win64
+      key: Version
+      value: win10
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      app: arial
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Running EVE Online Installer. Please do not run the game until
+        this script finishes installing.
+      name: wineexec
+  wine:
+    version: tkg-4.0-x86_64
+  files:
+  - setup:
+      filename: EveLauncher-1602194.exe
+      url: https://binaries.eveonline.com/EveLauncher-1602194.exe

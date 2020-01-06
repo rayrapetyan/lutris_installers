@@ -1,0 +1,16 @@
+name: West of Loathing
+slug: west-of-loathing
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/west-of-loathing.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:07.731705Z'
+steamid: 597220
+gogslug: west_of_loathing
+humblestoreid: ''

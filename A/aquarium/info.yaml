@@ -1,0 +1,15 @@
+name: Aquarium
+slug: aquarium
+year: 1996
+platforms:
+- name: Arcade
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/aquarium.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-03T19:26:19.838189Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 1535
+game_id: 4349
+game_slug: armello
+name: Armello
+year: 2015
+user: Xodetaetl
+runner: steam
+slug: armello-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-05-19T15:58:58.721000Z'
+updated_at: '2015-06-01T17:41:29.613000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 290340
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 290340

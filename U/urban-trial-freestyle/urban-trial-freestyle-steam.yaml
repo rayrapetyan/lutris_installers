@@ -1,0 +1,26 @@
+id: 4589
+game_id: 2471
+game_slug: urban-trial-freestyle
+name: Urban Trial Freestyle
+year: 2013
+user: codythedragondude
+runner: winesteam
+slug: urban-trial-freestyle-steam
+version: Steam
+description: ''
+notes: Works perfectly but it had a weird controller issue for me were it kept switching
+  between xbox 360 buttons and keyboard buttons also the dirt bike kept moving forward
+  on it's own which i don't think is supposed to happen
+created_at: '2017-06-25T04:01:58.204000Z'
+updated_at: '2017-06-26T14:10:37.514686Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 243450
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 243450

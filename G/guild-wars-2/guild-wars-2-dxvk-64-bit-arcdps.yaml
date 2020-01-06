@@ -1,0 +1,70 @@
+id: 14951
+game_id: 3364
+game_slug: guild-wars-2
+name: Guild Wars 2
+year: 2012
+user: fudomiwa
+runner: wine
+slug: guild-wars-2-dxvk-64-bit-arcdps
+version: DXVK 64-Bit + arcdps
+description: This game requires an SSD hard drive as 3D models are lazy loaded constantly.
+notes: "With AMD graphics (with or without DXVK), it's highly recommended to use a\
+  \ virtual desktop as GW2's launcher will slow most desktop environments to a crawl\
+  \ only recoverable by hard reboot. Running GW2's exe with -image lets it download\
+  \ all game data and updates. For convenience, It's recommended to create a context\
+  \ menu entry for updating the game.\r\n\r\nTo improve perfomance, <a href=\"https://i.imgur.com/fhEr0rW.jpg\"\
+  >these settings</a>. are suggested. Also, using a fast SSD hard drive can massively\
+  \ reduce, or eliminate stuttering on this game."
+created_at: '2019-08-10T07:41:37.418000Z'
+updated_at: '2019-12-25T16:54:48.741292Z'
+draft: false
+published: true
+published_by: 20548
+rating: '4'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $GAMEDIR
+      file: gw2shadercache
+  - task:
+      prefix: $GAMEDIR
+      description: Creating win64 prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: faudio
+      name: winetricks
+  - execute:
+      command: mkdir -p "$GAMEDIR/drive_c/Program Files/Guild Wars 2/bin64"
+  - move:
+      src: client
+      dst: $GAMEDIR/drive_c/Program Files/Guild Wars 2/GW2-64.exe
+  - move:
+      src: arcdps
+      dst: $GAMEDIR/drive_c/Program Files/Guild Wars 2/bin64
+  game:
+    prefix: $GAMEDIR
+    args: -autologin
+    exe: drive_c/Program Files/Guild Wars 2/GW2-64.exe
+    arch: win64
+  system:
+    disable_compositor: 'true'
+    env:
+      DXVK_LOG_LEVEL: none
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      STAGING_SHARED_MEMORY: 1
+      DXVK_HUD: 0
+      __NV_PRIME_RENDER_OFFLOAD: 1
+  wine:
+    esync: true
+    dxvk: true
+  files:
+  - client: https://s3.amazonaws.com/gw2cdn/client/branches/Gw2Setup-64.exe
+  - arcdps: https://www.deltaconnected.com/arcdps/x64/d3d9.dll
+  - gw2shadercache: https://github.com/Zeioth/zeioth-lutris/raw/master/game-installers/guild-wars-2/gw2-d9vk-shader-cache-0.0.2.zip

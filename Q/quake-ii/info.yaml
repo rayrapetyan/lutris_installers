@@ -1,0 +1,15 @@
+name: Quake II
+slug: quake-ii
+year: 1997
+platforms:
+- name: Windows
+genres:
+- name: Shooter
+aliases: []
+banner_url: /games/banner/quake-ii.jpg
+icon_url: null
+is_public: true
+updated: '2020-01-01T06:51:53.401281Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

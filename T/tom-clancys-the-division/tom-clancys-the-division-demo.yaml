@@ -1,0 +1,35 @@
+id: 8485
+game_id: 6693
+game_slug: tom-clancys-the-division
+name: Tom Clancy's The Division
+year: 2016
+user: cxf
+runner: winesteam
+slug: tom-clancys-the-division-demo
+version: Demo
+description: null
+notes: Doesn't launch when Uplay is installed.
+created_at: '2018-05-31T21:35:36.403000Z'
+updated_at: '2019-01-19T09:33:15.773181Z'
+draft: false
+published: true
+published_by: 19464
+rating: '1'
+steamid: 365590
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-3.21-x86_64
+    overrides:
+      nvapi,nvapi64: disabled
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+    pulse_latency: true
+  game:
+    appid: 588220
+    arch: win64

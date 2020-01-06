@@ -1,0 +1,15 @@
+name: 'Shadow Tactics: Blades of the Shogun'
+slug: shadow-tactics-blades-of-the-shogun
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Stealth
+aliases: []
+banner_url: /games/banner/shadow-tactics-blades-of-the-shogun.jpg
+icon_url: /games/icon/shadow-tactics-blades-of-the-shogun.png
+is_public: true
+updated: '2019-01-23T08:31:10.965401Z'
+steamid: 418240
+gogslug: shadow_tactics_blades_of_the_shogun
+humblestoreid: shadow-tactics-blades-of-the-shogun

@@ -1,0 +1,28 @@
+id: 3901
+game_id: 3076
+game_slug: influent
+name: Influent
+year: 2014
+user: FakeShemp
+runner: linux
+slug: influent-humble-1
+version: Humble
+description: Russian Language Pack
+notes: ''
+created_at: '2017-05-26T13:08:39.271404Z'
+updated_at: '2017-05-27T21:13:11.764237Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 274980
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: influent-humble
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the language pack archive

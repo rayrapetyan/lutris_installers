@@ -1,0 +1,24 @@
+id: 4339
+game_id: 5838
+game_slug: shellshock-live
+name: ShellShock Live
+year: 2015
+user: joonatoona
+runner: steam
+slug: shellshock-live-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-06-14T04:22:18.566372Z'
+updated_at: '2017-06-14T16:09:45.193326Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 326460
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 326460

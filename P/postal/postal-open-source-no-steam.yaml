@@ -1,0 +1,33 @@
+id: 3147
+game_id: 493
+game_slug: postal
+name: POSTAL
+year: 1997
+user: strider
+runner: linux
+slug: postal-open-source-no-steam
+version: Open Source (No SteamWorks)
+description: Uses the Open Source engine with Steam data
+notes: Binary without SteamWork enabled, doesn't require Steam to be running.
+created_at: '2016-12-30T03:34:34.741000Z'
+updated_at: '2016-12-30T07:04:44.534595Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 232770
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: assets
+      dst: $GAMEDIR
+  - extract:
+      file: engine
+  files:
+  - engine: https://lutris.net/files/games/postal/postal-nosteamworks-1.0-i686.tar.gz
+  - assets: $STEAM:232770:/
+  game:
+    exe: postal1-bin

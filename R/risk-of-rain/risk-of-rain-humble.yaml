@@ -1,0 +1,28 @@
+id: 4432
+game_id: 1384
+game_slug: risk-of-rain
+name: Risk of Rain
+year: null
+user: FakeShemp
+runner: linux
+slug: risk-of-rain-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-17T19:51:00.383467Z'
+updated_at: '2017-06-18T23:27:29.166880Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 248820
+gogid: 1207660563
+gogslug: risk_of_rain
+humblestoreid: ''
+script:
+  exe: Risk_of_Rain
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

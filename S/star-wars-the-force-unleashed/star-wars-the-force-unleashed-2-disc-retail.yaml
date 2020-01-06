@@ -1,0 +1,70 @@
+id: 14437
+game_id: 1114
+game_slug: star-wars-the-force-unleashed
+name: 'Star Wars: The Force Unleashed Ultimate Sith Edition'
+year: 2009
+user: VortexAcherontic
+runner: wine
+slug: star-wars-the-force-unleashed-2-disc-retail
+version: 2 Disc Retail
+description: "This installer is for the retail version of the game with 2 DVDs.\r\n\
+  This installer will copy the content of the first DVD to your Disk and run the setup\
+  \ from there. This is made to make the installer working as expected when changing\
+  \ disks."
+notes: ''
+created_at: '2019-07-06T09:26:37.207000Z'
+updated_at: '2019-09-09T00:19:37.771922Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 32430
+gogid: 1189268228
+gogslug: star_wars_the_force_unleashed_ultimate_sith_edition
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      install_mono: false
+      description: Creating Wine Bottle, please wait...
+      arch: win32
+      name: create_prefix
+  - insert-disc:
+      requires: setup.exe
+      description: Insert disc 1
+  - merge:
+      src: $DISC
+      description: Extracting installation data from disc, please wait ...
+      dst: $GAMEDIR/drive_c/swsetup
+  - execute:
+      args: 744 -R $GAMEDIR/drive_c/swsetup
+      descritpion: Set proper file permissions for extracted data, please wait...
+      file: chmod
+  - task:
+      executable: $GAMEDIR/drive_c/swsetup/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Dot.Net 3.6 Service Pack 1
+      app: dotnet35sp1
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2005 win7
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: xact
+      arch: win32
+      name: winetricks
+  wine:
+    version: tkg-4.5-x86_64
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/Activision/Star Wars The Force Unleashed/SWTFU
+      Launcher.exe
+    arch: win32

@@ -1,0 +1,19 @@
+name: Red Faction Guerrilla Re-Mars-tered
+slug: red-faction-guerrilla-re-mars-tered
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Sandbox
+- name: Sci-fi
+- name: Shooter
+aliases: []
+banner_url: /games/banner/red-faction-guerrilla-re-mars-tered.jpg
+icon_url: /games/icon/red-faction-guerrilla-re-mars-tered.png
+is_public: true
+updated: '2019-04-08T07:11:17.849350Z'
+steamid: 667720
+gogslug: red_faction_guerrilla_remarstered
+humblestoreid: ''

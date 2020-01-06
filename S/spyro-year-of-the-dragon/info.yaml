@@ -1,0 +1,17 @@
+name: 'Spyro: Year of the Dragon'
+slug: spyro-year-of-the-dragon
+year: 2000
+platforms:
+- name: Sony PlayStation
+- name: Sony Playstation 3
+- name: Sony PSP
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/spyro-year-of-the-dragon.jpg
+icon_url: /games/icon/spyro-year-of-the-dragon.png
+is_public: true
+updated: '2019-11-04T03:05:02.099258Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

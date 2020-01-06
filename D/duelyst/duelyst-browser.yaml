@@ -1,0 +1,23 @@
+id: 6872
+game_id: 7744
+game_slug: duelyst
+name: Duelyst
+year: 2016
+user: soredake
+runner: browser
+slug: duelyst-browser
+version: Browser
+description: Installs Duelyst as a web application.
+notes: ''
+created_at: '2017-12-26T22:08:10.573000Z'
+updated_at: '2020-01-01T22:42:51.804544Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 291410
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://play.duelyst.com/

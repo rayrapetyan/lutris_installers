@@ -1,0 +1,17 @@
+name: Descent 3 + Mercenary
+slug: descent-3-mercenary
+year: 2000
+platforms:
+- name: Windows
+genres:
+- name: Sci-fi
+- name: Shooter
+- name: Simulation
+aliases: []
+banner_url: /games/banner/descent-3-mercenary.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:10.050036Z'
+steamid: null
+gogslug: descent_3_expansion
+humblestoreid: ''

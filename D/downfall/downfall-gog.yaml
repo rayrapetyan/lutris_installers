@@ -1,0 +1,36 @@
+id: 5739
+game_id: 11893
+game_slug: downfall
+name: Downfall
+year: null
+user: FakeShemp
+runner: ags
+slug: downfall-gog
+version: GOG
+description: Uses the files from the Windows installer from GOG.
+notes: ''
+created_at: '2017-09-13T21:26:51.468000Z'
+updated_at: '2017-09-13T21:29:02.947328Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 364390
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: Downfall.exe
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file2
+  - execute:
+      args: -d "$CACHE" "$file1"
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/app
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the GOG installer
+  - file2: https://lutris.net/files/tools/innoextract.tar.gz

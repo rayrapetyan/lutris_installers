@@ -1,0 +1,24 @@
+id: 1609
+game_id: 4887
+game_slug: sudeki
+name: Sudeki
+year: 2005
+user: KimplE
+runner: winesteam
+slug: sudeki-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-09-29T20:17:38.136275Z'
+updated_at: '2015-11-02T14:40:15.349261Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 233350
+gogid: 1207664353
+gogslug: sudeki
+humblestoreid: ''
+script:
+  game:
+    appid: 233350

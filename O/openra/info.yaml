@@ -1,0 +1,15 @@
+name: OpenRA
+slug: openra
+year: null
+platforms:
+- name: Linux
+genres:
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/openra.jpg
+icon_url: /games/icon/openra.png
+is_public: true
+updated: '2019-01-23T08:30:37.439953Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,32 @@
+id: 9256
+game_id: 1958
+game_slug: dark-fall-2-lights-out
+name: 'Dark Fall 2: Lights Out'
+year: 2004
+user: robotkinz
+runner: wine
+slug: dark-fall-2-lights-out-gogcom
+version: GOG.com
+description: Installer for the original version, listed in EXTRAS
+notes: Install Quicktime (Comes w/ game installer)
+created_at: '2018-07-17T17:39:15.874700Z'
+updated_at: '2018-07-17T22:35:06.543027Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 260710
+gogid: 1207658830
+gogslug: dark_fall_lights_out
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the GOG.com installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/GOG.com/Dark Fall - Lights Out/lightsout.exe

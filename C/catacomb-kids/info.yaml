@@ -1,0 +1,16 @@
+name: Catacomb Kids
+slug: catacomb-kids
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Platform
+- name: Roguelike
+aliases: []
+banner_url: /games/banner/catacomb-kids.jpg
+icon_url: /games/icon/catacomb-kids.png
+is_public: false
+updated: '2019-01-23T08:28:48.083815Z'
+steamid: 315840
+gogslug: ''
+humblestoreid: ''

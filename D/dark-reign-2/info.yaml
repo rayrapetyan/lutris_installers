@@ -1,0 +1,17 @@
+name: Dark Reign 2
+slug: dark-reign-2
+year: 2000
+platforms:
+- name: Windows
+genres:
+- name: Real-time
+- name: Sci-fi
+- name: Strategy
+aliases: []
+banner_url: /games/banner/dark-reign-2.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:04.593610Z'
+steamid: null
+gogslug: dark_reign_2
+humblestoreid: ''

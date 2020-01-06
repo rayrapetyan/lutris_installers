@@ -1,0 +1,15 @@
+name: 'Bloody Roar: Primal Fury'
+slug: bloody-roar-primal-fury
+year: 2002
+platforms:
+- name: GameCube
+genres:
+- name: Fighting
+aliases: []
+banner_url: /games/banner/bloody-roar-primal-fury.jpg
+icon_url: null
+is_public: true
+updated: '2019-12-15T18:37:13.359949Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

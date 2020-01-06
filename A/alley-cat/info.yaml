@@ -1,0 +1,17 @@
+name: Alley Cat
+slug: alley-cat
+year: 1983
+platforms:
+- name: Atari 800
+- name: MS-DOS
+genres:
+- name: Action
+- name: Arcade
+aliases: []
+banner_url: /games/banner/alley-cat.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:19.366328Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

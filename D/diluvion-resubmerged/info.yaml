@@ -1,0 +1,19 @@
+name: 'Diluvion: Resubmerged'
+slug: diluvion-resubmerged
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: RPG
+aliases:
+- slug: diluvion
+  name: Diluvion
+banner_url: /games/banner/diluvion-resubmerged.jpg
+icon_url: /games/icon/diluvion-resubmerged.png
+is_public: true
+updated: '2019-10-11T01:19:53.645310Z'
+steamid: 446790
+gogslug: diluvion
+humblestoreid: ''

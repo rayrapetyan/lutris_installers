@@ -1,0 +1,24 @@
+id: 8173
+game_id: 2171
+game_slug: protogalaxy
+name: ProtoGalaxy
+year: null
+user: soredake
+runner: winesteam
+slug: protogalaxy-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T06:52:54.798705Z'
+updated_at: '2018-05-12T10:20:18.113831Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 60600
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 60600

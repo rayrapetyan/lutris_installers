@@ -1,0 +1,46 @@
+id: 10762
+game_id: 23198
+game_slug: mordred
+name: Mordred
+year: 2018
+user: kimchitea
+runner: linux
+slug: mordred-android
+version: Android
+description: null
+notes: Uses the Ren'Py SDK to run the Android version natively in Linux. Before running
+  the game, rename all files and folders in the $GAMEDIR/mordred/game directory to
+  remove the x- at the start of the file names.
+created_at: '2018-11-04T06:01:44.949000Z'
+updated_at: '2018-11-04T06:57:50.014622Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: $file2
+      dst: $CACHE/mordred.zip
+  - extract:
+      dst: $GAMEDIR
+      file: $file1
+  - extract:
+      dst: $CACHE
+      file: $CACHE/mordred.zip
+  - merge:
+      src: $CACHE/assets/x-game
+      dst: $GAMEDIR/mordred/game
+  - merge:
+      src: $GAMEDIR/mordred/game/x-cache
+      dst: $CACHE
+  files:
+  - file1: https://www.renpy.org/dl/6.99.14.1/renpy-6.99.14.1-sdk.tar.bz2
+  - file2: N/A:Please select the Android app
+  game:
+    args: mordred
+    exe: $GAMEDIR/renpy.sh

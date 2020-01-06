@@ -1,0 +1,29 @@
+id: 7657
+game_id: 16560
+game_slug: tuxemon
+name: Tuxemon
+year: null
+user: t-rex91
+runner: linux
+slug: tuxemon-unstable
+version: unstable
+description: "This is a python2 Game. Make sure to have python2, python2-pygame &\
+  \ python2-pip installed.\r\nFor more information visit the Homepage."
+notes: ''
+created_at: '2018-03-25T15:56:40.251000Z'
+updated_at: '2018-05-06T07:14:54.025677Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: tuxemon.py
+  installer:
+  - extract:
+      file: $archive
+  files:
+  - archive: https://github.com/Tuxemon/Tuxemon/archive/development.zip

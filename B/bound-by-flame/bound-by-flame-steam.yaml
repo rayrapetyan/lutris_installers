@@ -1,0 +1,24 @@
+id: 2116
+game_id: 4403
+game_slug: bound-by-flame
+name: Bound By Flame
+year: 2014
+user: strider
+runner: steam
+slug: bound-by-flame-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-06-15T05:39:28.603397Z'
+updated_at: '2016-06-15T05:39:33.936241Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 243930
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 243930

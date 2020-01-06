@@ -1,0 +1,52 @@
+id: 8753
+game_id: 969
+game_slug: path-of-exile
+name: Path of Exile
+year: 2013
+user: Failon2010
+runner: winesteam
+slug: path-of-exile-steam-w-dxvk
+version: Steam w/ DXVK
+description: The game launches in DX11 mode.
+notes: ''
+created_at: '2018-06-16T17:14:43.576000Z'
+updated_at: '2019-09-03T23:30:09.035278Z'
+draft: false
+published: true
+published_by: 19464
+rating: '5'
+steamid: 238960
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Setting Wine to Windows 10
+      app: win10
+      arch: win64
+      name: winetricks
+  winesteam:
+    version: tkg-4.0-x86_64
+    WineDesktop: 1920x1080
+    overrides:
+      d3dcompiler_47: native
+      xaudio2_7: native,builtin
+    dxvk: true
+    Desktop: false
+  system:
+    env:
+      DXVK_HUD: 0
+    reset_pulse: true
+    pulse_latency: true
+  game:
+    prefix: $GAMEDIR/prefix
+    args: --waitforpreload --nologo --nodx9ex --gc2
+    appid: 238960
+    arch: win64

@@ -1,0 +1,16 @@
+name: Urban Terror
+slug: urban-terror
+year: 2007
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/urban-terror.jpg
+icon_url: /games/icon/urban-terror.png
+is_public: true
+updated: '2019-08-17T07:09:21.956506Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

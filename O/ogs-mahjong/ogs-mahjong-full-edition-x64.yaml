@@ -1,0 +1,43 @@
+id: 17013
+game_id: 30552
+game_slug: ogs-mahjong
+name: OGS Mahjong
+year: 2013
+user: legluondunet
+runner: linux
+slug: ogs-mahjong-full-edition-x64
+version: full edition + x64
+description: "This script will install \"OGS Mahjong\" full edition with support for\
+  \ modern computer configuration. \r\nDuring install please let all options by default.\r\
+  \nMore about this game: https://sourceforge.net/projects/osrpgcreation/"
+notes: "- Version 1.1.0 full edition.\r\n- Known issue: do not use network game features,\
+  \ they do not work because the server no longer exists and it may crash the game.\r\
+  \n- Please report issue concerning this script on my Github page:\r\nhttps://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2019-11-26T06:44:57.883000Z'
+updated_at: '2019-11-28T09:58:58.033063Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  custom-name: OGS Mahjong full edition
+  installer:
+  - extract:
+      src: install
+      dst: $CACHE
+  - extract:
+      src: $CACHE/ogs-mahjong-full-1.1.0-linux64.tar
+      format: tar
+      dst: $GAMEDIR
+  - extract:
+      src: installaddons
+      dst: $GAMEDIR/
+  files:
+  - install: https://master.dl.sourceforge.net/project/osrpgcreation/Mahjong/1.1.0/ogs-mahjong-full-1.1.0-linux64.tar.lzma
+  - installaddons: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/OGS%20Mahjong/OGS%20Mahjong_addons.zip
+  game:
+    exe: mj

@@ -1,0 +1,28 @@
+id: 7158
+game_id: 4371
+game_slug: lords-of-the-fallen
+name: Lords Of The Fallen
+year: null
+user: strider
+runner: winesteam
+slug: lords-of-the-fallen-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-01-25T07:37:26.103000Z'
+updated_at: '2019-02-16T03:24:49.118677Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 265300
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  game:
+    appid: 265300
+    arch: win64

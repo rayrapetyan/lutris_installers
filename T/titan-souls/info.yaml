@@ -1,0 +1,16 @@
+name: Titan Souls
+slug: titan-souls
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/titan-souls.jpg
+icon_url: /games/icon/titan-souls.png
+is_public: true
+updated: '2019-01-23T08:31:51.924848Z'
+steamid: 297130
+gogslug: titan_souls
+humblestoreid: ''

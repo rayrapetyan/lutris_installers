@@ -1,0 +1,53 @@
+id: 8693
+game_id: 18018
+game_slug: frostpunk
+name: Frostpunk
+year: 2018
+user: doryx
+runner: wine
+slug: frostpunk-gog-w-dxvk
+version: GOG w/ DXVK
+description: null
+notes: ''
+created_at: '2018-06-12T03:08:17.509000Z'
+updated_at: '2019-05-18T06:17:41.153995Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 323190
+gogid: 1648559910
+gogslug: frostpunk
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2013 vcrun2017 win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Installing Frostpunk
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Frostpunk/Frostpunk.exe
+    arch: win64
+  system:
+    env:
+      DXVK_HUD: 0
+  wine:
+    version: tkg-4.6-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      nvapi,nvapi64: disabled
+      xaudio2_7: native,builtin
+  files:
+  - setup: N/A:Select the game's setup file

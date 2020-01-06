@@ -1,0 +1,37 @@
+id: 5801
+game_id: 702
+game_slug: sherlock-holmes-versus-jack-the-ripper
+name: Sherlock Holmes versus Jack the Ripper
+year: null
+user: FakeShemp
+runner: wine
+slug: sherlock-holmes-versus-jack-t-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-18T20:09:59.455000Z'
+updated_at: '2018-05-19T03:41:57.291809Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 11190
+gogid: 1460731635
+gogslug: sherlock_holmes_versus_jack_the_ripper
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/setup.exe
+      prefix: $GAMEDIR
+      args: /sp- /verysilent /norestart /suppressmsgboxes /nogui
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Frogwares/Sherlock Holmes versus Jack the Ripper/game.exe
+    arch: win32

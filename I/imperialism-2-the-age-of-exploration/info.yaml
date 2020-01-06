@@ -1,0 +1,17 @@
+name: 'Imperialism 2: The Age of Exploration'
+slug: imperialism-2-the-age-of-exploration
+year: 1999
+platforms:
+- name: Windows
+genres:
+- name: Historical
+- name: Strategy
+- name: Turn-based
+aliases: []
+banner_url: /games/banner/imperialism-2-the-age-of-exploration.jpg
+icon_url: /games/icon/imperialism-2-the-age-of-exploration.png
+is_public: true
+updated: '2019-10-13T23:30:08.104997Z'
+steamid: null
+gogslug: imperialism_2_the_age_of_exploration
+humblestoreid: ''

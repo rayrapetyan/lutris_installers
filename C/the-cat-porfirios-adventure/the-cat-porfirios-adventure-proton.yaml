@@ -1,0 +1,24 @@
+id: 17546
+game_id: 10846
+game_slug: the-cat-porfirios-adventure
+name: The Cat! Porfirio's Adventure
+year: null
+user: soredake
+runner: steam
+slug: the-cat-porfirios-adventure-proton
+version: Proton
+description: null
+notes: ''
+created_at: '2019-12-24T19:02:39.966526Z'
+updated_at: '2019-12-24T19:02:44.567206Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 492270
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 492270

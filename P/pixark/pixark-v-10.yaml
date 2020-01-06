@@ -1,0 +1,33 @@
+id: 7667
+game_id: 17616
+game_slug: pixark
+name: PixArk
+year: 2018
+user: Finest1989
+runner: winesteam
+slug: pixark-v-10
+version: V 1.0
+description: null
+notes: ''
+created_at: '2018-03-26T11:24:47.608469Z'
+updated_at: '2018-03-26T20:25:04.741961Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 593600
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-2.21-x86_64
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 593600
+    arch: win64

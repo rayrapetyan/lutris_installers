@@ -1,0 +1,17 @@
+name: TerraTech
+slug: terratech
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Construction
+- name: Sandbox
+aliases: []
+banner_url: /games/banner/terratech.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:37.430247Z'
+steamid: 285920
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 10608
+game_id: 22960
+game_slug: fallstreak
+name: Fallstreak
+year: 2018
+user: oscararg
+runner: steam
+slug: fallstreak-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-10-23T01:54:03.759027Z'
+updated_at: '2018-10-24T06:48:27.402063Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 935920

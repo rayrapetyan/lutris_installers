@@ -1,0 +1,17 @@
+name: EVE Online
+slug: eve-online
+year: 2003
+platforms:
+- name: Windows
+genres:
+- name: MMORPG
+- name: Sandbox
+- name: Space simulation
+aliases: []
+banner_url: /games/banner/eve-online.jpg
+icon_url: /games/icon/eve-online.png
+is_public: true
+updated: '2019-01-23T08:29:26.001487Z'
+steamid: 8500
+gogslug: ''
+humblestoreid: ''

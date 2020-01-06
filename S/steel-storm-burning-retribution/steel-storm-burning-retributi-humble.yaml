@@ -1,0 +1,49 @@
+id: 8882
+game_id: 227
+game_slug: steel-storm-burning-retribution
+name: 'Steel Storm: Burning Retribution'
+year: null
+user: basxto
+runner: linux
+slug: steel-storm-burning-retributi-humble
+version: Humble
+description: null
+notes: ''
+created_at: '2018-06-24T05:00:28.871126Z'
+updated_at: '2018-06-24T12:20:58.296574Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 96200
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      src: $game
+      format: tgz
+      dst: $GAMEDIR/
+  - write_file:
+      content: '#!/bin/sh
+
+        if (uname -m | grep "64"); then
+
+        arch="64";
+
+        else
+
+        arch="";
+
+        fi;
+
+        ./steelstorm$arch
+
+        '
+      file: $GAMEDIR/start.sh
+  - chmodx: $GAMEDIR/start.sh
+  files:
+  - game: N/A:Please select the *.tar.gz installer downloaded from https://www.humblebundle.com
+  game:
+    exe: $GAMEDIR/start.sh

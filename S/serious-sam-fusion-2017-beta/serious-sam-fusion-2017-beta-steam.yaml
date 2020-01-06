@@ -1,0 +1,24 @@
+id: 3485
+game_id: 10367
+game_slug: serious-sam-fusion-2017-beta
+name: Serious Sam Fusion 2017 (beta)
+year: 2017
+user: liberodark
+runner: steam
+slug: serious-sam-fusion-2017-beta-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-04-01T17:15:42.504428Z'
+updated_at: '2017-04-06T19:47:09.193368Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 564310
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 564310

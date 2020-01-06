@@ -1,0 +1,16 @@
+name: Kaikan
+slug: kaikan
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/kaikan.jpg
+icon_url: /games/icon/kaikan.png
+is_public: true
+updated: '2019-01-23T08:30:02.049758Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

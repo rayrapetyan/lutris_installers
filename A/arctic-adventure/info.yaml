@@ -1,0 +1,16 @@
+name: Arctic Adventure
+slug: arctic-adventure
+year: 1991
+platforms:
+- name: MS-DOS
+- name: Windows
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/arctic-adventure.jpg
+icon_url: /games/icon/arctic-adventure.png
+is_public: true
+updated: '2019-01-23T08:28:24.438808Z'
+steamid: 358170
+gogslug: ''
+humblestoreid: ''

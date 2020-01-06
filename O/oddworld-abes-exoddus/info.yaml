@@ -1,0 +1,16 @@
+name: 'Oddworld: Abe''s Exoddus'
+slug: oddworld-abes-exoddus
+year: 1998
+platforms:
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/oddworld-abes-exoddus.jpg
+icon_url: /games/icon/oddworld-abes-exoddus.png
+is_public: true
+updated: '2019-10-20T00:21:21.658049Z'
+steamid: 15710
+gogslug: oddworld_abes_exoddus
+humblestoreid: ''

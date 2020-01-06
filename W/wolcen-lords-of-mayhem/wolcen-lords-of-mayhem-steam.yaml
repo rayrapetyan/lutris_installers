@@ -1,0 +1,28 @@
+id: 7930
+game_id: 8990
+game_slug: wolcen-lords-of-mayhem
+name: 'Wolcen: Lords of Mayhem'
+year: 2016
+user: TuiorGames
+runner: winesteam
+slug: wolcen-lords-of-mayhem-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-04-18T13:52:38.680590Z'
+updated_at: '2018-05-06T07:28:06.600806Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 424370
+gogid: 1458655673
+gogslug: wolcen_lords_of_mayhem
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-3.5-x86_64
+    Desktop: true
+  game:
+    appid: 424370
+    arch: win64

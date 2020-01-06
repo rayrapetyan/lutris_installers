@@ -1,0 +1,15 @@
+name: Uplay
+slug: uplay
+year: 2012
+platforms:
+- name: Windows
+genres:
+- name: Tool
+aliases: []
+banner_url: /games/banner/uplay.jpg
+icon_url: /games/icon/uplay.png
+is_public: true
+updated: '2019-01-23T08:32:00.670645Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

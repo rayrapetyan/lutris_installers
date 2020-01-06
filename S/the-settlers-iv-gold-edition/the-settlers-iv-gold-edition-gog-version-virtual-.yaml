@@ -1,0 +1,38 @@
+id: 17473
+game_id: 7611
+game_slug: the-settlers-iv-gold-edition
+name: 'The Settlers IV: Gold Edition'
+year: 2002
+user: Armageddon91
+runner: wine
+slug: the-settlers-iv-gold-edition-gog-version-virtual-
+version: GOG Version + Virtual Desktop
+description: null
+notes: "-No flickering when changing the resolution\r\n-no full screen if game resolution\
+  \ is not equal to desktop resolution\r\n-Use Widescreen Fix to have full screen\
+  \ in the game"
+created_at: '2019-12-21T20:12:01.193000Z'
+updated_at: '2019-12-22T11:18:58.252146Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: 1207659254
+gogslug: the_settlers_4_gold_edition
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Settlers 4 Gold/S4.exe
+  installer:
+  - task:
+      executable: settlers
+      prefix: $GAMEDIR
+      args: /silent /nogui
+      name: wineexec
+  wine:
+    WineDesktop: $RESOLUTION
+    Desktop: true
+  files:
+  - settlers: N/A:Select the Windows installer downloaded from GOG

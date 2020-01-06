@@ -1,0 +1,41 @@
+id: 13617
+game_id: 27356
+game_slug: paltalk
+name: Paltalk
+year: 1998
+user: GamesLover
+runner: wine
+slug: paltalk-wine
+version: wine
+description: null
+notes: ''
+created_at: '2019-05-19T00:44:33.860473Z'
+updated_at: '2019-05-19T00:44:33.860510Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Paltalk/Paltalk.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: wsh57 vcrun6 vb6run win7
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      name: wineexec
+  wine:
+    version: tkg-4.6-x86_64
+  files:
+  - setup: null

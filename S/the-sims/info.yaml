@@ -1,0 +1,17 @@
+name: The Sims
+slug: the-sims
+year: 2000
+platforms:
+- name: GameCube
+- name: Sony PlayStation 2
+- name: Windows
+genres:
+- name: Social simulation
+aliases: []
+banner_url: /games/banner/the-sims.jpg
+icon_url: /games/icon/the-sims.png
+is_public: true
+updated: '2019-03-22T18:02:38.017799Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

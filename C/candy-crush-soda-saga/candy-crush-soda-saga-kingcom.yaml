@@ -1,0 +1,23 @@
+id: 7355
+game_id: 16557
+game_slug: candy-crush-soda-saga
+name: Candy Crush Soda Saga
+year: 2011
+user: TuiorGames
+runner: browser
+slug: candy-crush-soda-saga-kingcom
+version: king.com
+description: null
+notes: ''
+created_at: '2018-02-19T10:54:56.087000Z'
+updated_at: '2018-02-21T02:32:28.880067Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://king.com/play/candycrushsoda

@@ -1,0 +1,24 @@
+id: 7310
+game_id: 16429
+game_slug: rapid-tap
+name: Rapid Tap
+year: 2018
+user: t-rex91
+runner: steam
+slug: rapid-tap-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-02-14T17:19:23.915963Z'
+updated_at: '2018-02-15T02:37:09.377012Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 746920
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 746920

@@ -1,0 +1,24 @@
+id: 9267
+game_id: 15939
+game_slug: planet-stronghold-colonial-defense
+name: 'Planet Stronghold: Colonial Defense'
+year: 2016
+user: kimchitea
+runner: steam
+slug: planet-stronghold-colonial-de-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-18T07:55:20.601179Z'
+updated_at: '2018-07-18T22:34:19.735713Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 435260
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 435260

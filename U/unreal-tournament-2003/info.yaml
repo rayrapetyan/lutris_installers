@@ -1,0 +1,19 @@
+name: Unreal Tournament 2003
+slug: unreal-tournament-2003
+year: 2002
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases:
+- slug: ut2003
+  name: UT2003
+- slug: ut-2003
+  name: UT 2003
+banner_url: /games/banner/unreal-tournament-2003.jpg
+icon_url: /games/icon/unreal-tournament-2003.png
+is_public: true
+updated: '2020-01-03T02:56:31.704055Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,29 @@
+id: 2460
+game_id: 126
+game_slug: final-doom
+name: Final Doom
+year: 1996
+user: RobLoach
+runner: zdoom
+slug: final-doom-plutonia
+version: Plutonia
+description: ''
+notes: ''
+created_at: '2016-08-16T00:14:29.316382Z'
+updated_at: '2016-08-16T00:15:01.946681Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 2290
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: PLUTONIA.WAD
+  installer:
+  - merge:
+      src: wad-data
+      dst: $GAMEDIR
+  files:
+  - wad-data: $STEAM:2290:base

@@ -1,0 +1,28 @@
+id: 8817
+game_id: 19419
+game_slug: destiny-fails-us-a-new-life
+name: 'Destiny Fails Us: A New Life'
+year: 2017
+user: kimchitea
+runner: linux
+slug: destiny-fails-us-a-new-life-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2018-06-20T15:37:44.118000Z'
+updated_at: '2018-06-21T10:31:33.472790Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Destiny Fails Us.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

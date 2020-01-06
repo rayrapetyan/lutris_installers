@@ -1,0 +1,15 @@
+name: Van-Van Car
+slug: van-van-car
+year: 1983
+platforms:
+- name: Arcade
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/van-van-car.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-23T05:48:11.347967Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

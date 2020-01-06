@@ -1,0 +1,15 @@
+name: CavePacker
+slug: cavepacker
+year: 2014
+platforms:
+- name: Browser
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/cavepacker.jpg
+icon_url: /games/icon/cavepacker.png
+is_public: true
+updated: '2019-01-23T08:28:49.011676Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

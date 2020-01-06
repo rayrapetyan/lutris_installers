@@ -1,0 +1,16 @@
+name: 'Kingdom Rush: Origins'
+slug: kingdom-rush-origins
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Strategy
+- name: Tower defense
+aliases: []
+banner_url: /games/banner/kingdom-rush-origins.jpg
+icon_url: /games/icon/kingdom-rush-origins.png
+is_public: true
+updated: '2019-01-23T08:30:04.025873Z'
+steamid: 816340
+gogslug: kingdom_rush_origins
+humblestoreid: ''

@@ -1,0 +1,44 @@
+id: 4762
+game_id: 12020
+game_slug: starless-nymphomaniacs-paradise
+name: 'Starless: Nymphomaniac''s Paradise'
+year: 2011
+user: FakeShemp
+runner: wine
+slug: starless-nymphomaniacs-paradi-jast-usa
+version: JAST USA
+description: ''
+notes: ''
+created_at: '2017-07-03T10:43:12.086000Z'
+updated_at: '2018-05-19T03:41:55.162841Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  - extract:
+      dst: $CACHE
+      file: $file2
+  - task:
+      executable: $CACHE/starless-patch-1.2.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the JAST USA archive
+  - file2: http://jas.tv/g/patch/starless-patch-1.2.exe.zip
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Starless Nymphomaniacs' Paradise/starless.exe
+    arch: win32

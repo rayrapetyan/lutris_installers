@@ -1,0 +1,28 @@
+id: 4095
+game_id: 223
+game_slug: crayon-physics-deluxe
+name: Crayon Physics Deluxe
+year: 2009
+user: FakeShemp
+runner: linux
+slug: crayon-physics-deluxe-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-04T16:20:44.708108Z'
+updated_at: '2017-06-04T22:15:37.463862Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 26900
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: launcher
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

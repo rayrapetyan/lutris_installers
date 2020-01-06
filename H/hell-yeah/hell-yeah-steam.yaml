@@ -1,0 +1,40 @@
+id: 3633
+game_id: 978
+game_slug: hell-yeah
+name: Hell Yeah!
+year: null
+user: codythedragondude
+runner: winesteam
+slug: hell-yeah-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-05-05T01:03:38.995000Z'
+updated_at: '2019-11-16T08:58:34.109627Z'
+draft: false
+published: true
+published_by: 19464
+rating: '1'
+steamid: 205230
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    overrides:
+      devenum: native
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing XNA 4.0
+      app: xna40
+      silent: true
+      name: winetricks
+  - merge:
+      src: devenum
+      dst: $GAMEDIR/prefix
+  files:
+  - devenum: https://lutris.net/files/tools/dll/devenum.dll
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 205230

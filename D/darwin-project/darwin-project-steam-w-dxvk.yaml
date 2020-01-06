@@ -1,0 +1,52 @@
+id: 9725
+game_id: 16525
+game_slug: darwin-project
+name: Darwin Project
+year: 2018
+user: sabarabalesch
+runner: winesteam
+slug: darwin-project-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2018-08-13T20:34:31.137000Z'
+updated_at: '2019-02-14T05:40:32.817602Z'
+draft: false
+published: true
+published_by: 19464
+rating: '1'
+steamid: 544920
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing vcrun2010
+      app: vcrun2010
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing corefonts
+      app: corefonts win7
+      arch: win64
+      name: winetricks
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7,d3dcompiler_42,d3dcompiler_43: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+    pulse_latency: true
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 544920
+    arch: win64

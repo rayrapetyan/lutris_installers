@@ -1,0 +1,17 @@
+name: BioShock 2
+slug: bioshock-2
+year: 2010
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+- name: Horror
+aliases: []
+banner_url: /games/banner/bioshock-2.jpg
+icon_url: /games/icon/bioshock-2.png
+is_public: true
+updated: '2019-01-23T08:28:36.194009Z'
+steamid: 8850
+gogslug: ''
+humblestoreid: ''

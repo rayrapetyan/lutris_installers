@@ -1,0 +1,15 @@
+name: 'Age of Wonders: Planetfall'
+slug: age-of-wonders-planetfall
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Strategy
+aliases: []
+banner_url: /games/banner/age-of-wonders-planetfall.jpg
+icon_url: /games/icon/age-of-wonders-planetfall.png
+is_public: true
+updated: '2019-06-13T16:11:44.028250Z'
+steamid: 718850
+gogslug: age_of_wonders_planetfall
+humblestoreid: ''

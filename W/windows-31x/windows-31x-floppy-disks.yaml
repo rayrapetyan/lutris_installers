@@ -1,0 +1,60 @@
+id: 12835
+game_id: 26784
+game_slug: windows-31x
+name: Windows 3.1x
+year: 1992
+user: TheLimeyDragon
+runner: dosbox
+slug: windows-31x-floppy-disks
+version: Floppy Disks
+description: A vanilla installation.
+notes: Currently require to manually extract the contents of the install floppy disks
+  into a single folder.
+created_at: '2019-04-16T11:35:43.024000Z'
+updated_at: '2019-04-17T01:28:34.052891Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: DISK1
+  - task:
+      commands:
+      - 'A:'
+      - SETUP.EXE
+      - EXIT
+      path: $GAMEDIR/win31x-install.conf
+      drives:
+        a: $DISC
+        c: $GAMEDIR/C
+      name: makeconfig
+  - execute:
+      args: $GAMEDIR/C
+      file: mkdir
+  - task:
+      config_file: $GAMEDIR/win31x-install.conf
+      working_dir: $GAMEDIR
+      name: dosexec
+  - write_file:
+      content: '[dosbox]
+
+        memsize = 64
+
+        [autoexec]
+
+        mount c $GAMEDIR/C
+
+        c:
+
+        cd windows
+
+        win'
+      file: $GAMEDIR/win31x.conf
+  game:
+    main_file: $GAMEDIR/win31x.conf

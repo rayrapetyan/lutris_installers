@@ -1,0 +1,15 @@
+name: Shadow Warrior Classic
+slug: shadow-warrior-classic
+year: 1997
+platforms:
+- name: MS-DOS
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/shadow-warrior-classic.jpg
+icon_url: /games/icon/shadow-warrior-classic.png
+is_public: true
+updated: '2019-01-23T08:31:11.099225Z'
+steamid: 238070
+gogslug: shadow_warrior_complete
+humblestoreid: ''

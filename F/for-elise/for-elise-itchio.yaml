@@ -1,0 +1,28 @@
+id: 11100
+game_id: 17675
+game_slug: for-elise
+name: For Elise
+year: 2017
+user: t-rex91
+runner: linux
+slug: for-elise-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2018-12-06T13:10:22.111471Z'
+updated_at: '2018-12-14T13:11:28.440780Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: ForElise.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

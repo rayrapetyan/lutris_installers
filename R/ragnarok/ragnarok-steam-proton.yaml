@@ -1,0 +1,24 @@
+id: 14060
+game_id: 3209
+game_slug: ragnarok
+name: Ragnarok
+year: null
+user: DeadKper
+runner: steam
+slug: ragnarok-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-06-12T23:36:55.769000Z'
+updated_at: '2019-06-13T06:52:05.210933Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 215100
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 215100

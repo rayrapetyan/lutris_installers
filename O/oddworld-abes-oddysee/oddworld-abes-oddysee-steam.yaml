@@ -1,0 +1,40 @@
+id: 561
+game_id: 141
+game_slug: oddworld-abes-oddysee
+name: 'Oddworld: Abe''s Oddysee'
+year: 1997
+user: strider
+runner: winesteam
+slug: oddworld-abes-oddysee-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2014-09-07T09:34:44.923000Z'
+updated_at: '2019-11-01T01:03:31.136535Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 15700
+gogid: 1207658705
+gogslug: oddworld_abes_oddysee
+humblestoreid: oddworld-abes-oddysee
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: create_prefix
+  winesteam:
+    version: ge-protonified-4.9-x86_64
+    WineDesktop: 640x480
+    esync: true
+    UseXVidMode: true
+    Desktop: true
+  system:
+    reset_desktop: true
+  game:
+    prefix: $GAMEDIR/prefix
+    args: -fullscreen -nojoy
+    appid: 15700
+    arch: win32

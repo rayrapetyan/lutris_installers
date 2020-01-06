@@ -1,0 +1,37 @@
+id: 15970
+game_id: 5917
+game_slug: oceanhorn-monster-of-uncharted-seas
+name: 'Oceanhorn: Monster of Uncharted Seas'
+year: null
+user: nkay08
+runner: wine
+slug: oceanhorn-monster-of-uncharte-gog
+version: GOG
+description: null
+notes: Shows a black screen briefly.
+created_at: '2019-10-04T10:23:58.462000Z'
+updated_at: '2019-10-27T07:41:26.107196Z'
+draft: false
+published: true
+published_by: 19464
+rating: '1'
+steamid: 339200
+gogid: 1426499435
+gogslug: oceanhorn_monster_of_uncharted_seas
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /NOCANCEL /SP- /SUPPRESSMSGBOXES
+      name: wineexec
+  files:
+  - setup: N/A:Please select the GOG Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Oceanhorn - Monster of Uncharted Seas/Oceanhorn.exe

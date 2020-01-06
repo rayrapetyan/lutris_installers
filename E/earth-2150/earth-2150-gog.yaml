@@ -1,0 +1,97 @@
+id: 16322
+game_id: 13892
+game_slug: earth-2150
+name: Earth 2150
+year: 2000
+user: Eisi
+runner: wine
+slug: earth-2150-gog
+version: GOG
+description: The installer will raise the default FPS limit of 20 to 60 FPS and increase
+  the maximum allowed zoom level and camera angles for convenience. The increased
+  framerate will speed up some animations but shouldn't affect gameplay.
+notes: "- The game crashes with aspect ratios wider than 16:10 when opening the research\
+  \ menu (F2 key). Select a 16:10 or more narrow resolution to work around this issue.\r\
+  \n- Playing back the intro movie doesn't work, please disable it in the setup tool.\r\
+  \n- To change the FPS limit of 60 FPS edit the value of \"graphrate\" in the file\
+  \ $GAMEDIR/drive_c/GOG Games/Earth 2150/autoexec.con\r\n- To play the game without\
+  \ the modifications to framerate and camera delete $GAMEDIR/drive_c/GOG Games/Earth\
+  \ 2150/autoexec.con"
+created_at: '2019-10-20T14:57:29.179000Z'
+updated_at: '2019-11-02T22:23:03.543520Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/GOG Games/Earth 2150/Earth2150.exe
+    arch: win32
+  installer:
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      args: /LANG=en /SP- /NOCANCEL /SUPPRESSMSGBOXES /NOGUI /DIR="C:/GOG Games/Earth
+        2150"
+      arch: win32
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Installing directmusic
+      app: directmusic
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing cinepak
+      app: cinepak
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing amstream
+      app: amstream
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing icodecs
+      app: icodecs
+      arch: win32
+      name: winetricks
+  - task:
+      executable: $GAMEDIR/drive_c/windows/system32/regsvr32.exe
+      prefix: $GAMEDIR
+      args: amstream.dll
+      name: wineexec
+  - task:
+      executable: $GAMEDIR/drive_c/windows/system32/regsvr32.exe
+      prefix: $GAMEDIR
+      args: quartz.dll
+      name: wineexec
+  - task:
+      executable: $GAMEDIR/drive_c/GOG Games/Earth 2150/Setup.exe
+      prefix: $GAMEDIR
+      description: 'Please select the desired resolution. Note: Resolutions wider
+        than 16:10 make the game crash in the research menu (F2 key) and the OpenGL
+        renderer does not work. Also uncheck "Play intro" otherwise the game won''t
+        launch.'
+      arch: win32
+      name: wineexec
+  - write_file:
+      content: 'graphrate 60
+
+        graph.zoom.max 300
+
+        graph.limited.view 0'
+      file: $GAMEDIR/drive_c/GOG Games/Earth 2150/autoexec.con
+  wine:
+    overrides:
+      dsound.dll: builtin
+  files:
+  - installer: N/A:Please select the GOG.com Windows installer

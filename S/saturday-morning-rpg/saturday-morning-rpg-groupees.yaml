@@ -1,0 +1,29 @@
+id: 6638
+game_id: 2109
+game_slug: saturday-morning-rpg
+name: Saturday Morning RPG
+year: null
+user: FakeShemp
+runner: linux
+slug: saturday-morning-rpg-groupees
+version: Groupees
+description: null
+notes: ''
+created_at: '2017-12-10T23:48:18.480862Z'
+updated_at: '2017-12-10T23:50:51.578410Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 263320
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: SMRPG_Linux.x86
+  installer:
+  - extract:
+      file: $file1
+  exe64: SMRPG_Linux.x86_64
+  files:
+  - file1: N/A:Please select the Groupees archive

@@ -1,0 +1,32 @@
+id: 9780
+game_id: 14217
+game_slug: clone-hero
+name: Clone Hero
+year: 2017
+user: TemporaryShadow
+runner: linux
+slug: clone-hero-02322
+version: 0.23.2.2
+description: Downloads and installs Clone Hero v.23.2.2.
+notes: ''
+created_at: '2018-08-18T02:31:45.714000Z'
+updated_at: '2019-12-23T10:46:08.797601Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/
+      file: installer
+  - chmodx: $GAMEDIR/clonehero
+  files:
+  - installer: http://dl.clonehero.net/clonehero-v.23.2.2/clonehero-linux.tar.gz
+  game:
+    prefix: $GAMEDIR
+    exe: clonehero

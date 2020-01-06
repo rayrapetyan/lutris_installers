@@ -1,0 +1,15 @@
+name: Donkey Kong Classics
+slug: donkey-kong-classics
+year: 1988
+platforms:
+- name: NES
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/donkey-kong-classics.jpg
+icon_url: null
+is_public: true
+updated: '2019-07-20T02:58:27.233867Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,25 @@
+id: 7871
+game_id: 7095
+game_slug: lawbreakers
+name: LawBreakers
+year: 2017
+user: TuiorGames
+runner: winesteam
+slug: lawbreakers-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-04-10T00:41:28.199523Z'
+updated_at: '2018-05-04T19:28:25.430949Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 350280
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 350280
+    arch: win64

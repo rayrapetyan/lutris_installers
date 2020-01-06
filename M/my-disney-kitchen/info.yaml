@@ -1,0 +1,16 @@
+name: My Disney Kitchen
+slug: my-disney-kitchen
+year: 2002
+platforms:
+- name: Sony PlayStation 2
+- name: Windows
+genres:
+- name: Simulation
+aliases: []
+banner_url: /games/banner/my-disney-kitchen.jpg
+icon_url: null
+is_public: true
+updated: '2019-03-09T05:03:17.734151Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

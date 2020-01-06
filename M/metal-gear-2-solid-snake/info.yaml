@@ -1,0 +1,16 @@
+name: 'Metal Gear 2: Solid Snake'
+slug: metal-gear-2-solid-snake
+year: 1990
+platforms:
+- name: MSX2
+genres:
+- name: Action
+- name: Stealth
+aliases: []
+banner_url: /games/banner/metal-gear-2-solid-snake.jpg
+icon_url: null
+is_public: false
+updated: '2019-01-23T08:30:22.001986Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

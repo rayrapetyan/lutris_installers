@@ -1,0 +1,25 @@
+name: Battle Chess
+slug: battle-chess
+year: 1988
+platforms:
+- name: 3DO
+- name: Amiga
+- name: Apple //e
+- name: Apple IIGS
+- name: Atari ST
+- name: Commodore 64
+- name: MS-DOS
+- name: NES
+- name: PC-98
+- name: Windows
+- name: X68000
+genres:
+- name: Chess
+aliases: []
+banner_url: /games/banner/battle-chess.jpg
+icon_url: null
+is_public: true
+updated: '2019-03-04T18:43:51.999166Z'
+steamid: 622830
+gogslug: battle_chess
+humblestoreid: ''

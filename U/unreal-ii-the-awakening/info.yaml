@@ -1,0 +1,16 @@
+name: 'Unreal II: The Awakening'
+slug: unreal-ii-the-awakening
+year: 2003
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+aliases: []
+banner_url: /games/banner/unreal-ii-the-awakening.jpg
+icon_url: /games/icon/unreal-ii-the-awakening.png
+is_public: true
+updated: '2019-10-11T02:20:37.506484Z'
+steamid: 13200
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 2128
+game_id: 4673
+game_slug: hot-tin-roof-the-cat-that-wore-a-fedora
+name: 'Hot Tin Roof: The Cat That Wore A Fedora'
+year: null
+user: strider
+runner: steam
+slug: hot-tin-roof-the-cat-that-wor-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-06-15T05:46:50.171303Z'
+updated_at: '2016-06-15T05:46:54.848225Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 253390
+gogid: 1424442317
+gogslug: hot_tin_roof_the_cat_that_wore_a_fedora
+humblestoreid: ''
+script:
+  game:
+    appid: 253390

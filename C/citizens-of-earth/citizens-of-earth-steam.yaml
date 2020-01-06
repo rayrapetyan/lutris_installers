@@ -1,0 +1,24 @@
+id: 8209
+game_id: 4080
+game_slug: citizens-of-earth
+name: Citizens of Earth
+year: null
+user: soredake
+runner: winesteam
+slug: citizens-of-earth-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T07:11:35.932405Z'
+updated_at: '2018-05-13T09:04:16.025960Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 258910
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 258910

@@ -1,0 +1,17 @@
+name: Banner Saga 2
+slug: banner-saga-2
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Fantasy
+- name: Role-playing
+- name: Strategy
+aliases: []
+banner_url: /games/banner/banner-saga-2.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:31.449273Z'
+steamid: null
+gogslug: banner_saga_2_the
+humblestoreid: ''

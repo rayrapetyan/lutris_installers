@@ -1,0 +1,19 @@
+name: 'Star Trek: 25th Anniversary'
+slug: star-trek-25th-anniversary
+year: 1992
+platforms:
+- name: Amiga
+- name: Linux
+- name: MS-DOS
+genres:
+- name: Action
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/star-trek-25th-anniversary.jpg
+icon_url: /games/icon/star-trek-25th-anniversary.png
+is_public: true
+updated: '2019-11-17T15:22:21.570790Z'
+steamid: 359650
+gogslug: star_trek_25th_anniversary
+humblestoreid: ''

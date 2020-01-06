@@ -1,0 +1,31 @@
+id: 12718
+game_id: 24257
+game_slug: a-kiss-for-the-petals-maidens-of-michael
+name: A Kiss For The Petals - Maidens of Michael
+year: 2018
+user: kimchitea
+runner: linux
+slug: a-kiss-for-the-petals-maidens-demo
+version: Demo
+description: 'Demo download: <a href="https://www.mangagamer.com/freedownload.php?product_name=A+Kiss+For+The+Petals+-+Maidens+of+Michael+%28download%29">https://www.mangagamer.com/freedownload.php?product_name=A+Kiss+For+The+Petals+-+Maidens+of+Michael+%28download%29</a>'
+notes: ''
+created_at: '2019-04-10T13:52:19.403000Z'
+updated_at: '2019-04-11T03:45:51.799599Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: 2111616299
+gogslug: a_kiss_for_the_petals_maidens_of_michael
+humblestoreid: ''
+script:
+  exe: MaidensOfMichaelDEMO.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/MaidensOfMichaelDEMO.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/MaidensOfMichaelDEMO
+  - chmodx: $GAMEDIR/lib/linux-x86_64/MaidensOfMichaelDEMO
+  files:
+  - file1: N/A:Please select the demo archive

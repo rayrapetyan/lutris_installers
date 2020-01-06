@@ -1,0 +1,16 @@
+name: "LEGO\xAE DC Super-Villains"
+slug: lego-dc-super-villains
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/lego-dc-super-villains.jpg
+icon_url: /games/icon/lego-dc-super-villains.png
+is_public: true
+updated: '2019-06-13T06:41:45.839867Z'
+steamid: 829110
+gogslug: ''
+humblestoreid: ''

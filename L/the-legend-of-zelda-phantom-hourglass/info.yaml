@@ -1,0 +1,16 @@
+name: 'The Legend of Zelda: Phantom Hourglass'
+slug: the-legend-of-zelda-phantom-hourglass
+year: 2007
+platforms:
+- name: Nintendo DS
+genres:
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/the-legend-of-zelda-phantom-hourglass.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:43.850210Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

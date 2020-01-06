@@ -1,0 +1,32 @@
+id: 6001
+game_id: 6828
+game_slug: aeros-quest
+name: Aero's Quest
+year: null
+user: FakeShemp
+runner: wine
+slug: aeros-quest-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-10-19T16:58:29.093837Z'
+updated_at: '2018-05-19T03:41:59.121035Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 367780
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR/drive_c/Program Files/Aero's Quest
+  files:
+  - file1: N/A:Please select the Groupees executable
+  game:
+    prefix: $GAMEDIR
+    exe: $file1
+    arch: win32

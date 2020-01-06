@@ -1,0 +1,24 @@
+id: 6700
+game_id: 15171
+game_slug: finding-paradise
+name: Finding Paradise
+year: 2017
+user: WtGuy
+runner: steam
+slug: finding-paradise-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-16T21:11:29.591803Z'
+updated_at: '2017-12-17T08:37:04.915294Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 337340
+gogid: 1321564059
+gogslug: finding_paradise
+humblestoreid: ''
+script:
+  game:
+    appid: 337340

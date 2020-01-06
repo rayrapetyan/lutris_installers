@@ -1,0 +1,17 @@
+name: CAYNE
+slug: cayne
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Horror
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/cayne.jpg
+icon_url: /games/icon/cayne.png
+is_public: true
+updated: '2019-02-06T22:02:45.740995Z'
+steamid: 532840
+gogslug: cayne
+humblestoreid: ''

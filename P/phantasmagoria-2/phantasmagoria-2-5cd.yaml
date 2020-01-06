@@ -1,0 +1,111 @@
+id: 15567
+game_id: 7316
+game_slug: phantasmagoria-2
+name: Phantasmagoria 2
+year: 1996
+user: appoloin
+runner: scummvm
+slug: phantasmagoria-2-5cd
+version: 5CD
+description: null
+notes: ''
+created_at: '2019-09-15T14:59:50.555072Z'
+updated_at: '2019-09-15T14:59:50.555097Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 501970
+gogid: 1207658841
+gogslug: phantasmagoria_2
+humblestoreid: ''
+script:
+  installer:
+  - write_file:
+      content: '#!/bin/bash
+
+        src=$1
+
+        dst=$2
+
+        cp -avr "$src/."  "$dst"'
+      file: $CACHE/bulkcopy.sh
+  - chmodx: $CACHE/bulkcopy.sh
+  - insert-disc:
+      requires: duk
+      description: Please insert disc 1
+  - execute:
+      args: $DISC $GAMEDIR
+      file: $CACHE/bulkcopy.sh
+  - execute:
+      args: -R 775  "$GAMEDIR"
+      file: /bin/chmod
+  - execute:
+      args: $GAMEDIR/RESOURCE.AUD  $GAMEDIR/RESAUD.001
+      file: /bin/mv
+  - execute:
+      args: $GAMEDIR/RESOURCE.SFX  $GAMEDIR/RESSFX.001
+      file: /bin/mv
+  - insert-disc:
+      requires: duk
+      description: Please insert disc 2
+  - execute:
+      args: $DISC $GAMEDIR
+      file: $CACHE/bulkcopy.sh
+  - execute:
+      args: -R 775  "$GAMEDIR"
+      file: /bin/chmod
+  - execute:
+      args: $GAMEDIR/resource.aud  $GAMEDIR/RESAUD.002
+      file: /bin/mv
+  - execute:
+      args: $GAMEDIR/resource.sfx  $GAMEDIR/RESSFX.002
+      file: /bin/mv
+  - insert-disc:
+      requires: duk
+      description: Please insert disc 3
+  - execute:
+      args: $DISC $GAMEDIR
+      file: $CACHE/bulkcopy.sh
+  - execute:
+      args: -R 775  "$GAMEDIR"
+      file: /bin/chmod
+  - execute:
+      args: $GAMEDIR/resource.aud  $GAMEDIR/RESAUD.003
+      file: /bin/mv
+  - execute:
+      args: $GAMEDIR/resource.sfx  $GAMEDIR/RESSFX.003
+      file: /bin/mv
+  - insert-disc:
+      requires: duk
+      description: Please insert disc 4
+  - execute:
+      args: $DISC $GAMEDIR
+      file: $CACHE/bulkcopy.sh
+  - execute:
+      args: -R 775  "$GAMEDIR"
+      file: /bin/chmod
+  - execute:
+      args: $GAMEDIR/resource.aud  $GAMEDIR/RESAUD.004
+      file: /bin/mv
+  - execute:
+      args: $GAMEDIR/resource.sfx  $GAMEDIR/RESSFX.004
+      file: /bin/mv
+  - insert-disc:
+      requires: duk
+      description: Please insert disc 5
+  - execute:
+      args: $DISC $GAMEDIR
+      file: $CACHE/bulkcopy.sh
+  - execute:
+      args: -R 775  "$GAMEDIR"
+      file: /bin/chmod
+  - execute:
+      args: $GAMEDIR/resource.aud  $GAMEDIR/RESAUD.005
+      file: /bin/mv
+  - execute:
+      args: $GAMEDIR/resource.sfx  $GAMEDIR/RESSFX.005
+      file: /bin/mv
+  game:
+    game_id: sci
+    path: $GAMEDIR

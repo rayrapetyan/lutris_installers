@@ -1,0 +1,24 @@
+id: 2479
+game_id: 5050
+game_slug: crazy-steam-bros-2
+name: Crazy Steam Bros 2
+year: null
+user: gschaffran
+runner: steam
+slug: crazy-steam-bros-2-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-08-17T18:35:06.513913Z'
+updated_at: '2016-09-30T20:52:38.349371Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 355080
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 355080

@@ -1,0 +1,15 @@
+name: Euro Truck Simulator 2
+slug: euro-truck-simulator-2
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: Simulation
+aliases: []
+banner_url: /games/banner/euro-truck-simulator-2.jpg
+icon_url: /games/icon/euro-truck-simulator-2.png
+is_public: true
+updated: '2019-01-23T08:29:25.879786Z'
+steamid: 227300
+gogslug: ''
+humblestoreid: ''

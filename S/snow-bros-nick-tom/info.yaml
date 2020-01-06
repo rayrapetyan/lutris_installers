@@ -1,0 +1,17 @@
+name: 'Snow Bros.: Nick & Tom'
+slug: snow-bros-nick-tom
+year: 1990
+platforms:
+- name: Arcade
+- name: Game Boy
+- name: Sega Genesis / Mega Drive
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/snow-bros-nick-tom.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:16.891541Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

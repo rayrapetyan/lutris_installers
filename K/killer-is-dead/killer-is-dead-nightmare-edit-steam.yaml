@@ -1,0 +1,44 @@
+id: 6435
+game_id: 2406
+game_slug: killer-is-dead
+name: Killer is Dead  - Nightmare Edition
+year: 2013
+user: andrerbarata
+runner: winesteam
+slug: killer-is-dead-nightmare-edit-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-11-26T09:02:26.961000Z'
+updated_at: '2019-12-28T21:38:49.627310Z'
+draft: false
+published: true
+published_by: 20548
+rating: '5'
+steamid: 261110
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: dotnet45
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: win7
+      name: winetricks
+  winesteam:
+    esync: true
+  system:
+    env:
+      __GL_THREADED_OPTIMIZATIONS: '1'
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: '0'
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 261110

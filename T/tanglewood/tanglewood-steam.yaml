@@ -1,0 +1,24 @@
+id: 8901
+game_id: 19514
+game_slug: tanglewood
+name: TANGLEWOOD
+year: 2018
+user: TuiorGames
+runner: steam
+slug: tanglewood-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-25T13:06:41.776000Z'
+updated_at: '2018-08-07T03:58:18.904510Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 837190
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 837190

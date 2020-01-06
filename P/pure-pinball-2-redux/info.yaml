@@ -1,0 +1,17 @@
+name: Pure Pinball 2 REDUX
+slug: pure-pinball-2-redux
+year: 2005
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Pinball
+- name: Simulation
+aliases: []
+banner_url: /games/banner/pure-pinball-2-redux.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:51.658371Z'
+steamid: null
+gogslug: pure_pinball_2
+humblestoreid: ''

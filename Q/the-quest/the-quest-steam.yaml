@@ -1,0 +1,24 @@
+id: 10768
+game_id: 7763
+game_slug: the-quest
+name: The Quest
+year: null
+user: sjuk
+runner: winesteam
+slug: the-quest-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-11-04T16:44:07.453765Z'
+updated_at: '2018-11-05T07:05:31.510584Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 428880
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 428880

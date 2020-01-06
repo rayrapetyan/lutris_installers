@@ -1,0 +1,30 @@
+id: 3646
+game_id: 11201
+game_slug: ztype
+name: ZType
+year: 2011
+user: djazz
+runner: web
+slug: ztype-web
+version: Web
+description: ''
+notes: ''
+created_at: '2017-05-06T19:48:21.906951Z'
+updated_at: '2017-05-06T19:48:27.514093Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  web:
+    disable_resizing: true
+    open_links: true
+    remove_margin: true
+    window_size: 480x720
+    disable_scrolling: true
+  game:
+    main_file: http://zty.pe/

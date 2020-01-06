@@ -1,0 +1,28 @@
+id: 3924
+game_id: 2099
+game_slug: kingdom-rush
+name: Kingdom Rush
+year: 2014
+user: FakeShemp
+runner: linux
+slug: kingdom-rush-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-27T19:24:41.137372Z'
+updated_at: '2017-05-28T00:02:57.352404Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 246420
+gogid: 1207665283
+gogslug: kingdom_rush
+humblestoreid: kingdom-rush
+script:
+  exe: Kingdom Rush.x86
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

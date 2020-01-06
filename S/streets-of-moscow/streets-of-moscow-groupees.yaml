@@ -1,0 +1,36 @@
+id: 5565
+game_id: 3047
+game_slug: streets-of-moscow
+name: Streets of Moscow
+year: null
+user: FakeShemp
+runner: wine
+slug: streets-of-moscow-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-01T14:38:40.215000Z'
+updated_at: '2018-05-19T03:41:58.583427Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 46230
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/1C Company/Streets of Moscow/som.exe
+    arch: win32

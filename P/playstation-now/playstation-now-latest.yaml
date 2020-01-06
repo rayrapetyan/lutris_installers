@@ -1,0 +1,71 @@
+id: 8789
+game_id: 19386
+game_slug: playstation-now
+name: PlayStation Now
+year: 2018
+user: cxf
+runner: wine
+slug: playstation-now-latest
+version: Latest
+description: null
+notes: ''
+created_at: '2018-06-18T21:19:20.940000Z'
+updated_at: '2020-01-02T05:53:21.718052Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: arial
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2013
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: windowmanagerdecorated=n
+      arch: win64
+      name: winetricks
+  - task:
+      executable: psnow
+      prefix: $GAMEDIR
+      args: /extract
+      arch: win64
+      name: wineexec
+  - move:
+      src: $CACHE/psnow/294C619
+      dst: $GAMEDIR/drive_c/Program Files (x86)/PlayStation Now
+  - write_config:
+      section: config
+      key: URL
+      value: https://1update-psnow.playstation.com/downloads/psnow/pc/meta
+      file: $GAMEDIR/drive_c/Program Files (x86)/PlayStation Now/unidater.ini
+  - move:
+      src: $GAMEDIR/drive_c/Program Files (x86)/PlayStation Now/unidater.exe
+      dst: $GAMEDIR/drive_c/Program Files (x86)/PlayStation Now/unidater.exe.bak
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/PlayStation Now/psnowlauncher.exe
+    arch: win64
+  system:
+    env:
+      DXVK_HUD: 0
+  wine:
+    version: lutris-fshack-5.0-rc2-x86_64
+    dxvk: true
+  files:
+  - psnow: https://download-psnow.playstation.com/downloads/psnow/pc/PlayStationNow-11.0.2.exe

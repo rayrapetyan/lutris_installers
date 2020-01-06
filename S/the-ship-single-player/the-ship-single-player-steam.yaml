@@ -1,0 +1,24 @@
+id: 8185
+game_id: 559
+game_slug: the-ship-single-player
+name: The Ship Single Player
+year: null
+user: soredake
+runner: winesteam
+slug: the-ship-single-player-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T06:57:03.523760Z'
+updated_at: '2018-05-12T10:21:05.476148Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 2420
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 2420

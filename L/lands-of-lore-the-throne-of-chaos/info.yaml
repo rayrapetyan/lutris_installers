@@ -1,0 +1,22 @@
+name: 'Lands of Lore: The Throne of Chaos'
+slug: lands-of-lore-the-throne-of-chaos
+year: 1993
+platforms:
+- name: MS-DOS
+- name: Windows
+genres:
+- name: Adventure
+- name: Exploration
+- name: RPG
+aliases:
+- slug: lands-of-lore-i
+  name: Lands of Lore I
+- slug: lands-of-lore-1
+  name: Lands of Lore 1
+banner_url: /games/banner/lands-of-lore-the-throne-of-chaos.jpg
+icon_url: null
+is_public: true
+updated: '2019-05-19T05:43:04.793614Z'
+steamid: null
+gogslug: lands_of_lore_the_throne_of_chaos
+humblestoreid: ''

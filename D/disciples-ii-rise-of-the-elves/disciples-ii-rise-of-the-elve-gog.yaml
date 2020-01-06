@@ -1,0 +1,37 @@
+id: 12545
+game_id: 988
+game_slug: disciples-ii-rise-of-the-elves
+name: 'Disciples II: Rise of the Elves'
+year: 2003
+user: dreamer_
+runner: wine
+slug: disciples-ii-rise-of-the-elve-gog
+version: GOG
+description: null
+notes: Run ConfigEditor.exe using game's wine prefix to change the resolution.
+created_at: '2019-03-28T05:59:00.465000Z'
+updated_at: '2019-10-28T21:10:18.629497Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: 1630
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating WINE prefix
+      name: create_prefix
+  - task:
+      executable: installer
+      args: /SILENT /SUPPRESSMSGBOXES /NOGUI
+      description: "Running Setup, please wait\u2026"
+      name: wineexec
+  files:
+  - installer: N/A:Select the game's setup file
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Disciples 2 - Rise of the Elves/Discipl2.exe

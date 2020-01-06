@@ -1,0 +1,29 @@
+id: 2598
+game_id: 4116
+game_slug: factorio
+name: Factorio
+year: 2016
+user: Lulu
+runner: linux
+slug: factorio-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2016-08-24T22:06:31.404000Z'
+updated_at: '2019-09-09T00:54:24.854752Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 427520
+gogid: 1238653230
+gogslug: factorio
+humblestoreid: ''
+script:
+  exe: data/noarch/start.sh
+  installer:
+  - extract:
+      format: zip
+      file: $game
+  files:
+  - game: 'N/A: Plese select the GOG.com Linux installer'

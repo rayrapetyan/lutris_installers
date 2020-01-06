@@ -1,0 +1,36 @@
+id: 3977
+game_id: 2396
+game_slug: tower-of-guns
+name: Tower of Guns
+year: null
+user: FakeShemp
+runner: linux
+slug: tower-of-guns-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-30T19:45:33.610626Z'
+updated_at: '2017-05-31T16:25:00.177091Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 266110
+gogid: 1207660863
+gogslug: tower_of_guns
+humblestoreid: ''
+script:
+  exe: TowerOfGuns.sh
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data/noarch
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble installer

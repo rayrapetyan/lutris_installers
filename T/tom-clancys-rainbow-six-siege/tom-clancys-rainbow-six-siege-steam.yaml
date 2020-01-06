@@ -1,0 +1,24 @@
+id: 5931
+game_id: 5362
+game_slug: tom-clancys-rainbow-six-siege
+name: Tom Clancy's Rainbow Six Siege
+year: 2015
+user: maxjoehnk
+runner: winesteam
+slug: tom-clancys-rainbow-six-siege-steam
+version: Steam
+description: null
+notes: BattleEye seems to hinder Siege from running
+created_at: '2017-10-09T18:12:45.349000Z'
+updated_at: '2018-05-17T01:10:49.382134Z'
+draft: false
+published: true
+published_by: null
+rating: '1'
+steamid: 359550
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 359550

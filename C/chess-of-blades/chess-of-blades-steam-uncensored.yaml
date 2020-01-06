@@ -1,0 +1,30 @@
+id: 8910
+game_id: 16121
+game_slug: chess-of-blades
+name: Chess of Blades
+year: 2017
+user: kimchitea
+runner: steam
+slug: chess-of-blades-steam-uncensored
+version: Steam (uncensored)
+description: null
+notes: Uncensor patch available from game page on itch.io.
+created_at: '2018-06-25T19:02:05.743000Z'
+updated_at: '2018-06-26T03:41:01.439934Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 618550
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/game
+      file: $patch
+  files:
+  - patch: N/A:Please select the uncensor patch archive
+  game:
+    appid: 618550

@@ -1,0 +1,29 @@
+id: 5763
+game_id: 13928
+game_slug: super-tower-rush
+name: Super Tower Rush
+year: 2013
+user: FakeShemp
+runner: linux
+slug: super-tower-rush-gamejolt
+version: GameJolt
+description: ''
+notes: ''
+created_at: '2017-09-16T21:34:31.454412Z'
+updated_at: '2017-09-16T21:47:32.989260Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: SuperTowerRush.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/SuperTowerRush.x86
+  files:
+  - file1: N/A:Please select the GameJolt archive

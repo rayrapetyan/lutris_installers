@@ -1,0 +1,37 @@
+id: 16415
+game_id: 29885
+game_slug: ni-no-kuni-wrath-of-the-white-witch-remastered
+name: Ni no Kuni Wrath of the White Witch Remastered
+year: 2019
+user: joeylith
+runner: winesteam
+slug: ni-no-kuni-wrath-of-the-white-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: Controller setup not working.
+created_at: '2019-10-26T07:18:32.066000Z'
+updated_at: '2019-10-29T00:56:29.503051Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 798460
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2015 win7
+      arch: win64
+      name: winetricks
+  winesteam:
+    version: lutris-lol-4.17-x86_64
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 798460

@@ -1,0 +1,32 @@
+id: 4220
+game_id: 4589
+game_slug: deep-under-the-sky
+name: Deep Under the Sky
+year: null
+user: FakeShemp
+runner: wine
+slug: deep-under-the-sky-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-08T16:42:56.575340Z'
+updated_at: '2018-05-19T03:41:51.384963Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 315650
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Deep Under the Sky
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Deep Under the Sky/DeepUnderTheSky.exe
+    arch: win32

@@ -1,0 +1,15 @@
+name: Bagman
+slug: bagman
+year: 1982
+platforms:
+- name: Arcade
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/bagman.jpg
+icon_url: null
+is_public: true
+updated: '2019-09-15T04:50:24.091381Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

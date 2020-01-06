@@ -1,0 +1,31 @@
+id: 4932
+game_id: 12156
+game_slug: monster-girl-island
+name: Monster Girl Island
+year: 2015
+user: FakeShemp
+runner: linux
+slug: monster-girl-island-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-07-08T20:07:09.835696Z'
+updated_at: '2017-07-09T20:10:44.195889Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: MGI.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/MGI.x86
+  - chmodx: $GAMEDIR/MGI.x86_64
+  exe64: MGI.x86_64
+  files:
+  - file1: N/A:Please select the itch.io archive

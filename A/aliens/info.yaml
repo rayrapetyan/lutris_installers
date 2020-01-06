@@ -1,0 +1,20 @@
+name: Aliens
+slug: aliens
+year: 1987
+platforms:
+- name: Arcade
+- name: Commodore 64
+- name: MS-DOS
+- name: MSX
+- name: ZX Spectrum
+genres:
+- name: Action
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/aliens.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:18.740839Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,16 @@
+name: 'Call of Duty: Infinite Warfare'
+slug: call-of-duty-infinite-warfare
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+aliases: []
+banner_url: /games/banner/call-of-duty-infinite-warfare.jpg
+icon_url: /games/icon/call-of-duty-infinite-warfare.png
+is_public: true
+updated: '2019-06-10T12:12:51.747222Z'
+steamid: 292730
+gogslug: ''
+humblestoreid: ''

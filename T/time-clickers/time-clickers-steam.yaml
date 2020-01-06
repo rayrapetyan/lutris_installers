@@ -1,0 +1,24 @@
+id: 1631
+game_id: 4744
+game_slug: time-clickers
+name: Time Clickers
+year: 2015
+user: dennisjj4
+runner: steam
+slug: time-clickers-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-10-16T23:15:14.637682Z'
+updated_at: '2015-11-03T18:05:39.071214Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 385770
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 385770

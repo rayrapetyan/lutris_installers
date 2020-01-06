@@ -1,0 +1,32 @@
+id: 2171
+game_id: 5497
+game_slug: read-only-memories
+name: '2064: Read Only Memories'
+year: 2015
+user: Lulu
+runner: linux
+slug: read-only-memories-humble-bundle
+version: Humble Bundle
+description: 'Tested with version: 1.2b'
+notes: ''
+created_at: '2016-06-20T20:04:12.710843Z'
+updated_at: '2016-08-17T10:48:09.134702Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 330820
+gogid: 1444027604
+gogslug: read_only_memories
+humblestoreid: 2064-read-only-memories
+script:
+  exe: ROM.x86
+  installer:
+  - extract:
+      file: readOnlyMemories-game
+  - chmodx: $GAMEDIR/ROM.x86
+  - chmodx: $GAMEDIR/ROM.x86_64
+  exe64: ROM.x86_64
+  files:
+  - readOnlyMemories-game: 'N/A: Please select the .zip install file downloaded from
+      humblebundle.com'

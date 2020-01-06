@@ -1,0 +1,61 @@
+id: 2980
+game_id: 8200
+game_slug: command-conquer-generals
+name: 'Command & Conquer: Generals'
+year: 2003
+user: Cronyk
+runner: wine
+slug: command-conquer-generals-german
+version: German
+description: ''
+notes: Game is configured to run at 1920x1080, to run in different resolutions, edit
+  file drive_c/users/$USER/My Documents/Command and Conquer Generals Data/options.ini
+created_at: '2016-11-05T10:17:17.620064Z'
+updated_at: '2018-05-19T03:41:49.803369Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: drive_c/Program Files/EA Games/Command and Conquer Generals/generals.exe
+  installer:
+  - insert-disc:
+      requires: setup.exe
+      message: Insert disc 1
+  - merge:
+      src: $DISC
+      description: Copying disc 1 to cache
+      dst: $CACHE/cdrom
+  - insert-disc:
+      requires: Data2.cab
+      message: Insert disc 2
+  - merge:
+      src: $DISC/Data2.cab
+      description: Copying disc 2 to cache
+      dst: $CACHE/cdrom
+  - task:
+      executable: $CACHE/cdrom/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      executable: patch1
+      prefix: $GAMEDIR
+      name: wineexec
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/EA Games/Command and Conquer Generals/
+      file: patch2
+  - merge:
+      src: optionsini
+      dst: $GAMEDIR/drive_c/users/$USER/My Documents/Command and Conquer Generals
+        Data/
+  files:
+  - patch1: https://lutris.net/files/games/command-conquer-generals/Generals-108-german.exe
+  - patch2: https://lutris.net/files/games/command-conquer-generals/cc-generals-patch-1.08.tar.gz
+  - optionsini: https://lutris.net/files/games/command-conquer-generals/options.ini
+  game:
+    prefix: $GAMEDIR
+    arch: win32

@@ -1,0 +1,24 @@
+id: 6386
+game_id: 2137
+game_slug: wildlife-park-3
+name: Wildlife Park 3
+year: null
+user: Stoney_Fish
+runner: winesteam
+slug: wildlife-park-3-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-11-22T06:56:06.986774Z'
+updated_at: '2017-11-26T01:58:03.530149Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 287200
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 287200

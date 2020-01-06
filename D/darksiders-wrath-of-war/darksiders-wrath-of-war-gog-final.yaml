@@ -1,0 +1,91 @@
+id: 14578
+game_id: 28320
+game_slug: darksiders-wrath-of-war
+name: 'DARKSIDERS: Wrath of War'
+year: 2010
+user: edjaa84
+runner: wine
+slug: darksiders-wrath-of-war-gog-final
+version: GOG FINAL
+description: "GOG versi\xF3n para Intel HD o superior \r\nWine 32bit\r\nNivel: Gold\
+  \ (Deshabilita los subtitulos para que corra el juego mas fluido y a veces se cierra\
+  \ despu\xE9s de varias horas de juego)\r\n\r\nDebido a que La versi\xF3n 2010 de\
+  \ este juego ya no existe en Steam o GOG e optado por prestar la versi\xF3n antigua\
+  \ (2.0.0.6) de GOG gracias al DRM FREE y a un amigo."
+notes: "Una vez instalado Wine (4 o superior) y sus componentes instale el  juego\
+  \ manualmente desde el men\xFA conceptual > Run EXE inside wine prefix."
+created_at: '2019-07-15T05:10:12.963691Z'
+updated_at: '2019-07-15T05:10:12.963717Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/GOG Games/Darksiders/DarksidersPC.exe
+    working_dir: $GAMEDIR/drive_c/GOG Games/Darksiders/
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR/
+      description: Installing DirectX 9
+      app: d3dx9
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/
+      description: Installing Quartz
+      app: quartz
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/
+      description: Installing devenum
+      app: devenum
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/
+      description: Installing Windows Media Player 9
+      app: wmp9
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/
+      description: Installing amstream
+      app: amstream
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/
+      description: Installing d3dcompiler42
+      app: d3dcompiler_42
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/
+      description: Prevenir control visuales de Windows
+      app: windowmanagermanaged=n
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/
+      description: Prevenir efectos visuales de Windows
+      app: windowmanagerdecorated=n
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/
+      description: Cambiando a Windows 7
+      app: win7
+      silent: true
+      name: winetricks
+  wine:
+    MouseWarpOverride: disable
+  files:
+  - dark: "N/A:Se\xF1ala el instalador, solo para iniciar"

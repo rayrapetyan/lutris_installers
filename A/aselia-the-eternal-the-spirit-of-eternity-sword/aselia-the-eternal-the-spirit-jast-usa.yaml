@@ -1,0 +1,41 @@
+id: 5057
+game_id: 12244
+game_slug: aselia-the-eternal-the-spirit-of-eternity-sword-
+name: Aselia the Eternal -The Spirit of Eternity Sword-
+year: 2004
+user: FakeShemp
+runner: wine
+slug: aselia-the-eternal-the-spirit-jast-usa
+version: JAST USA
+description: ''
+notes: ''
+created_at: '2017-07-14T16:35:07.069000Z'
+updated_at: '2018-05-19T03:41:56.654626Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 445420
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/Aselia Setup.exe
+      prefix: $GAMEDIR
+      args: /sp- /silent /norestart
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: mfc42
+      name: winetricks
+  files:
+  - file1: N/A:Please select the JAST USA archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Aselia The Eternal/Aseliacs_english.exe
+    arch: win32

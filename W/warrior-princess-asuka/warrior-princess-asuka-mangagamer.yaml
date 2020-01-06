@@ -1,0 +1,35 @@
+id: 4563
+game_id: 11852
+game_slug: warrior-princess-asuka
+name: Warrior Princess Asuka
+year: 2007
+user: FakeShemp
+runner: wine
+slug: warrior-princess-asuka-mangagamer
+version: MangaGamer
+description: ''
+notes: ''
+created_at: '2017-06-24T13:24:33.034000Z'
+updated_at: '2018-05-19T03:41:51.636912Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Warrior Princess Asuka
+      file: $file1
+  system:
+    env:
+      LANG: ja_JP.UTF-8
+  files:
+  - file1: N/A:Please select the MangaGamer archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Warrior Princess Asuka/launch.exe
+    arch: win32

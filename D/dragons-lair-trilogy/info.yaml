@@ -1,0 +1,17 @@
+name: Dragon's Lair Trilogy
+slug: dragons-lair-trilogy
+year: 1983
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Fantasy
+aliases: []
+banner_url: /games/banner/dragons-lair-trilogy.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:16.787210Z'
+steamid: null
+gogslug: dragons_lair_trilogy
+humblestoreid: ''

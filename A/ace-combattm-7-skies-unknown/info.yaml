@@ -1,0 +1,16 @@
+name: "ACE COMBAT\u2122 7: SKIES UNKNOWN"
+slug: ace-combattm-7-skies-unknown
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Arcade
+- name: Flight
+aliases: []
+banner_url: /games/banner/ace-combattm-7-skies-unknown.jpg
+icon_url: /games/icon/ace-combattm-7-skies-unknown.png
+is_public: true
+updated: '2019-06-01T06:27:49.126850Z'
+steamid: 502500
+gogslug: ''
+humblestoreid: ''

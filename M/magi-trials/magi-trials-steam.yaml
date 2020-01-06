@@ -1,0 +1,24 @@
+id: 7194
+game_id: 12122
+game_slug: magi-trials
+name: Magi Trials
+year: 2016
+user: t-rex91
+runner: steam
+slug: magi-trials-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-01-30T18:09:54.534277Z'
+updated_at: '2018-01-30T22:45:30.035020Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 446600
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 446600

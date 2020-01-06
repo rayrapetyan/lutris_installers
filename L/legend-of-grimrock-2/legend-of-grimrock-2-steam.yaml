@@ -1,0 +1,24 @@
+id: 6888
+game_id: 4752
+game_slug: legend-of-grimrock-2
+name: Legend of Grimrock 2
+year: null
+user: elbarto512
+runner: winesteam
+slug: legend-of-grimrock-2-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-28T20:20:25.018579Z'
+updated_at: '2017-12-29T16:36:06.153146Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 251730
+gogid: 1207666193
+gogslug: legend_of_grimrock_2
+humblestoreid: ''
+script:
+  game:
+    appid: 251730

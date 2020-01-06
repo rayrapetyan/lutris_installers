@@ -1,0 +1,37 @@
+id: 5684
+game_id: 793
+game_slug: commandos-behind-enemy-lines
+name: 'Commandos: Behind Enemy Lines'
+year: 1998
+user: FakeShemp
+runner: wine
+slug: commandos-behind-enemy-lines-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-11T11:32:15.047000Z'
+updated_at: '2018-05-19T03:41:53.595627Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 6800
+gogid: null
+gogslug: commandos_ammo_pack
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/setup.exe
+      prefix: $GAMEDIR
+      args: /sp- /verysilent /norestart /suppressmsgboxes /nogui
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Pyro Studios/Commandos/comandos.exe
+    arch: win32

@@ -1,0 +1,24 @@
+id: 17203
+game_id: 23388
+game_slug: warhammer-40000-mechanicus
+name: 'Warhammer 40,000: Mechanicus'
+year: null
+user: zgz
+runner: linux
+slug: warhammer-40000-mechanicus-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-12-06T21:19:07.274205Z'
+updated_at: '2019-12-06T21:19:07.274240Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 673880
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 673880

@@ -1,0 +1,29 @@
+id: 6308
+game_id: 14768
+game_slug: christmas-eve-crisis
+name: Christmas Eve Crisis
+year: 2009
+user: fanotriel
+runner: linux
+slug: christmas-eve-crisis-linux
+version: Linux
+description: null
+notes: ''
+created_at: '2017-11-12T14:19:43.548000Z'
+updated_at: '2017-11-14T20:32:16.505616Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Game_Launcher
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: game
+  files:
+  - game: http://www.interactionstudios.com/files/ChristmasEveCrisisInstaller.tar.gz

@@ -1,0 +1,24 @@
+id: 2472
+game_id: 6782
+game_slug: caverns-of-the-snow-witch
+name: Caverns of the Snow Witch
+year: 2015
+user: gschaffran
+runner: steam
+slug: caverns-of-the-snow-witch-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-08-17T18:27:42.539574Z'
+updated_at: '2016-09-30T20:52:30.524492Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 324730
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 324730

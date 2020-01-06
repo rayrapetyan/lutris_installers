@@ -1,0 +1,24 @@
+id: 3732
+game_id: 311
+game_slug: company-of-heroes
+name: Company of Heroes
+year: 2006
+user: fabi2607
+runner: winesteam
+slug: company-of-heroes-new-steam-v-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-05-19T20:22:09.398032Z'
+updated_at: '2017-05-22T17:03:56.372114Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 228200
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 228200

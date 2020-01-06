@@ -1,0 +1,19 @@
+name: Far Cry Primal
+slug: far-cry-primal
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: FPS
+- name: RPG
+- name: Shooter
+aliases: []
+banner_url: /games/banner/far-cry-primal.jpg
+icon_url: /games/icon/far-cry-primal.png
+is_public: true
+updated: '2019-01-23T08:29:28.665478Z'
+steamid: 371660
+gogslug: ''
+humblestoreid: ''

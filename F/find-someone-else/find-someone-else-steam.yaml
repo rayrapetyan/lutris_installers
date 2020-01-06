@@ -1,0 +1,32 @@
+id: 9770
+game_id: 19139
+game_slug: find-someone-else
+name: Find someone else
+year: 2017
+user: kimchitea
+runner: linux
+slug: find-someone-else-steam
+version: Steam
+description: Native Linux version using Steam game data.
+notes: ''
+created_at: '2018-08-17T04:48:14.843000Z'
+updated_at: '2018-08-17T05:55:34.425644Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 826100
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Find_someone_else.sh
+  installer:
+  - merge:
+      src: steam-data
+      dst: $GAMEDIR
+  - chmodx: $GAMEDIR/Find_someone_else.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Find_someone_else
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Find_someone_else
+  files:
+  - steam-data: $WINESTEAM:826100:/

@@ -1,0 +1,24 @@
+id: 6466
+game_id: 3014
+game_slug: big-money-deluxe
+name: Big Money! Deluxe
+year: null
+user: Stoney_Fish
+runner: winesteam
+slug: big-money-deluxe-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-11-28T22:24:01.186135Z'
+updated_at: '2017-12-17T14:26:26.728093Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 3360
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 3360

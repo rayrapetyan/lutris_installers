@@ -1,0 +1,30 @@
+id: 7568
+game_id: 11231
+game_slug: bayonetta
+name: Bayonetta
+year: 2017
+user: TuiorGames
+runner: winesteam
+slug: bayonetta-steam
+version: Steam
+description: null
+notes: The game has rendering issues at other resolutions than 720p. Some font  rendering
+  issues may still occur.
+created_at: '2018-03-16T01:48:03.833000Z'
+updated_at: '2018-10-21T07:01:09.100754Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 460790
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: bayonetta-3.4-i386
+  system:
+    pulse_latency: true
+  game:
+    appid: 460790
+    arch: win32

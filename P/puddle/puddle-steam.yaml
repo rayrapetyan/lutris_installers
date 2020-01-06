@@ -1,0 +1,24 @@
+id: 252
+game_id: 481
+game_slug: puddle
+name: Puddle
+year: null
+user: strider
+runner: steam
+slug: puddle-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-19T23:56:19.904000Z'
+updated_at: '2013-12-19T23:56:19.904000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 222140
+gogid: 1207659122
+gogslug: puddle
+humblestoreid: ''
+script:
+  game:
+    appid: 222140

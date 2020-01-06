@@ -1,0 +1,49 @@
+id: 13496
+game_id: 549
+game_slug: borderlands-2
+name: Borderlands 2
+year: 2012
+user: anisan8371
+runner: winesteam
+slug: borderlands-2-steam-w-d9vk
+version: Steam w/ D9VK
+description: null
+notes: "Rename Boderlands2.exe to Launcher.exe\r\n\r\nDon't set physx to high or you\
+  \ may experience crashing"
+created_at: '2019-05-13T18:50:57.852000Z'
+updated_at: '2019-11-06T22:22:39.791659Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 49520
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Creating Wine prefix.
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing dependencies
+      app: d3dcompiler_43 d3dx9
+      arch: win64
+      name: winetricks
+  winesteam:
+    dx9k: true
+  system:
+    env:
+      DXVK_LOG_LEVEL: none
+      DXVK_HUD: compiler
+      __GL_SHADER_DISK_CACHE: 1
+      DXVK_STATE_CACHE_PATH: $GAMEDIR/prefix
+      __GL_THREADED_OPTIMIZATIONS: 1
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR/prefix
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 49520
+    arch: win64

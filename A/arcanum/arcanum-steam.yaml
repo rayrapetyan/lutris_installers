@@ -1,0 +1,24 @@
+id: 9024
+game_id: 7315
+game_slug: arcanum
+name: Arcanum
+year: 2001
+user: TuiorGames
+runner: winesteam
+slug: arcanum-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-05T13:13:26.610240Z'
+updated_at: '2018-07-05T17:20:33.410607Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 500810
+gogid: 1207658829
+gogslug: arcanum_of_steamworks_and_magick_obscura
+humblestoreid: ''
+script:
+  game:
+    appid: 500810

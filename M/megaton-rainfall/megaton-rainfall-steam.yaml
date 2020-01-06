@@ -1,0 +1,28 @@
+id: 9642
+game_id: 16345
+game_slug: megaton-rainfall
+name: Megaton Rainfall
+year: null
+user: jehdin
+runner: winesteam
+slug: megaton-rainfall-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-08T08:29:45.677000Z'
+updated_at: '2019-02-16T03:39:59.808750Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 430210
+gogid: 1822672814
+gogslug: megaton_rainfall
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  game:
+    appid: 430210
+    arch: win64

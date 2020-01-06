@@ -1,0 +1,17 @@
+name: Cyber Gladiators
+slug: cyber-gladiators
+year: 1996
+platforms:
+- name: Windows
+genres:
+- name: Fighting
+aliases:
+- slug: cyber-gladiator
+  name: Cyber Gladiator
+banner_url: /games/banner/cyber-gladiators.jpg
+icon_url: /games/icon/cyber-gladiators.png
+is_public: true
+updated: '2019-09-24T21:51:42.660251Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

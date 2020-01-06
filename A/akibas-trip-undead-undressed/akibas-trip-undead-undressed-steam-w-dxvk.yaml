@@ -1,0 +1,42 @@
+id: 9014
+game_id: 6068
+game_slug: akibas-trip-undead-undressed
+name: 'AKIBA''S TRIP: Undead & Undressed'
+year: 2015
+user: arzardk
+runner: winesteam
+slug: akibas-trip-undead-undressed-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2018-07-04T15:48:37.369000Z'
+updated_at: '2019-02-14T01:03:21.489261Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 333980
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2010
+      arch: win64
+      name: winetricks
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 333980
+    arch: win64

@@ -1,0 +1,28 @@
+id: 6144
+game_id: 410
+game_slug: uru-complete-chronicles
+name: 'Uru: Complete Chronicles'
+year: 2004
+user: Jozua
+runner: winesteam
+slug: uru-complete-chronicles-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-10-27T12:18:48.864000Z'
+updated_at: '2018-10-25T12:09:31.381201Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 63650
+gogid: 1207658827
+gogslug: uru_complete_chronicles
+humblestoreid: ''
+script:
+  system:
+    disable_monitoring: true
+    disable_runtime: true
+    pulse_latency: true
+  game:
+    appid: 63650

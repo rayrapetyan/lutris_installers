@@ -1,0 +1,24 @@
+id: 4902
+game_id: 5373
+game_slug: the-land-of-lamia
+name: The Land Of Lamia
+year: null
+user: FakeShemp
+runner: steam
+slug: the-land-of-lamia-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-07-07T20:55:18.534075Z'
+updated_at: '2017-07-09T20:12:59.863418Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 385310
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 385310

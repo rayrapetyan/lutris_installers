@@ -1,0 +1,24 @@
+id: 12209
+game_id: 20772
+game_slug: rollercoaster-tycoon-classic
+name: RollerCoaster Tycoon Classic
+year: null
+user: ivanaugustobd
+runner: winesteam
+slug: rollercoaster-tycoon-classic-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-02-28T16:13:59.563000Z'
+updated_at: '2019-03-01T13:33:00.134458Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: 683900
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 683900

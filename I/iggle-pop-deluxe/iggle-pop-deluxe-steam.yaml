@@ -1,0 +1,24 @@
+id: 6470
+game_id: 3017
+game_slug: iggle-pop-deluxe
+name: Iggle Pop! Deluxe
+year: null
+user: Stoney_Fish
+runner: winesteam
+slug: iggle-pop-deluxe-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-11-28T22:30:09.551861Z'
+updated_at: '2017-12-17T14:23:30.032639Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 3420
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 3420

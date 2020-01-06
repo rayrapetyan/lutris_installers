@@ -1,0 +1,24 @@
+id: 1166
+game_id: 347
+game_slug: hector-ep-2
+name: "Hector: Badge of Carnage \u2013 Episode 2: Senseless Acts of Justice"
+year: 2011
+user: Xodetaetl
+runner: winesteam
+slug: hector-ep-2-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-11-28T09:04:36.350000Z'
+updated_at: '2014-11-28T09:04:52.427000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 94610
+gogid: null
+gogslug: hector_badge_of_carnage
+humblestoreid: ''
+script:
+  game:
+    appid: 94610

@@ -1,0 +1,48 @@
+id: 10981
+game_id: 23453
+game_slug: mogeko-castle
+name: Mogeko Castle
+year: null
+user: cxf
+runner: wine
+slug: mogeko-castle-112
+version: '1.12'
+description: null
+notes: ''
+created_at: '2018-11-25T09:36:23.537000Z'
+updated_at: '2018-11-25T09:52:05.268696Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Mogeko Castle/Game.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - extract:
+      src: mogeko
+      dst: $GAMEDIR/drive_c/Program Files/Mogeko Castle
+  - extract:
+      src: rpgxace
+      dst: $CACHE
+  - task:
+      executable: $CACHE/Setup.exe
+      prefix: $GAMEDIR
+      args: /Silent
+      arch: win32
+      name: wineexec
+  wine:
+    version: tkg-3.21-x86_64
+  files:
+  - rpgxace: https://cached-downloads.degica.com/degica-downloads/RPGVXAce_RTP.zip
+  - mogeko: http://vgperson.com/games/MogekoCastle112.zip

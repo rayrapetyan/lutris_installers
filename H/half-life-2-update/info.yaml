@@ -1,0 +1,15 @@
+name: 'Half-Life 2: Update'
+slug: half-life-2-update
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/half-life-2-update.jpg
+icon_url: /games/icon/half-life-2-update.png
+is_public: true
+updated: '2019-01-23T08:29:46.178302Z'
+steamid: 290930
+gogslug: ''
+humblestoreid: ''

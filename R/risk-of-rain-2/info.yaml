@@ -1,0 +1,17 @@
+name: Risk of Rain 2
+slug: risk-of-rain-2
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Indie
+- name: Roguelike
+aliases: []
+banner_url: /games/banner/risk-of-rain-2.jpg
+icon_url: /games/icon/risk-of-rain-2.png
+is_public: true
+updated: '2019-04-15T06:00:30.171598Z'
+steamid: 632360
+gogslug: ''
+humblestoreid: ''

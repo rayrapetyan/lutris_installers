@@ -1,0 +1,15 @@
+name: 'Half-Life 2: Deathmatch'
+slug: half-life-2-deathmatch
+year: 2004
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/half-life-2-deathmatch.jpg
+icon_url: /games/icon/half-life-2-deathmatch.png
+is_public: true
+updated: '2019-01-23T08:29:46.029112Z'
+steamid: 320
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,33 @@
+id: 9614
+game_id: 400
+game_slug: prince-of-persia-warrior-within
+name: 'Prince of Persia: Warrior Within'
+year: null
+user: kamuintro
+runner: wine
+slug: prince-of-persia-warrior-with-cd
+version: CD
+description: null
+notes: ''
+created_at: '2018-08-06T15:38:57.931908Z'
+updated_at: '2018-08-09T06:51:05.101871Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 13500
+gogid: 1207659082
+gogslug: prince_of_persia_warrior_within
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: data1.cab
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c:\Program Files\UBISOFT\Prince of Persia Warrior Within\POP.EXE
+    arch: win32

@@ -1,0 +1,16 @@
+name: "LEGO\xAE The Incredibles"
+slug: lego-the-incredibles
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/lego-the-incredibles.jpg
+icon_url: /games/icon/lego-the-incredibles.png
+is_public: true
+updated: '2019-06-13T06:44:49.496692Z'
+steamid: 818320
+gogslug: ''
+humblestoreid: ''

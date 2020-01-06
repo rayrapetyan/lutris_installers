@@ -1,0 +1,42 @@
+id: 12762
+game_id: 26702
+game_slug: johnny-castaway
+name: Johnny Castaway
+year: 1992
+user: TheLimeyDragon
+runner: wine
+slug: johnny-castaway-windows
+version: Windows
+description: null
+notes: ''
+created_at: '2019-04-13T00:29:54.379000Z'
+updated_at: '2019-04-13T05:39:40.449000Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    args: /s
+    exe: $GAMEDIR/drive_c/windows/Screen Antics.scr
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      app: win31
+      arch: win32
+      name: winetricks
+  - task:
+      executable: johnnyinstall
+      name: wineexec
+  wine:
+    version: tkg-4.5-x86_64
+    WineDesktop: 640x480
+    Desktop: true
+  files:
+  - johnnyinstall: https://www.screensaversplanet.com/files/screensavers/johnnycastaway.exe

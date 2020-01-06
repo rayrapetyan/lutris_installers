@@ -1,0 +1,23 @@
+id: 9236
+game_id: 19956
+game_slug: kingdom-of-loathing
+name: Kingdom of Loathing
+year: 2003
+user: kimchitea
+runner: browser
+slug: kingdom-of-loathing-browser
+version: Browser
+description: null
+notes: ''
+created_at: '2018-07-16T01:41:37.376590Z'
+updated_at: '2018-07-16T05:28:53.151018Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://www.kingdomofloathing.com/

@@ -1,0 +1,16 @@
+name: Superflight
+slug: superflight
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Casual
+- name: Sports
+aliases: []
+banner_url: /games/banner/superflight.jpg
+icon_url: /games/icon/superflight.png
+is_public: true
+updated: '2019-01-23T08:31:29.999559Z'
+steamid: 732430
+gogslug: ''
+humblestoreid: ''

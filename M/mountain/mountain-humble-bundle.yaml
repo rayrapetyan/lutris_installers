@@ -1,0 +1,29 @@
+id: 2169
+game_id: 2838
+game_slug: mountain
+name: Mountain
+year: 2014
+user: Lulu
+runner: linux
+slug: mountain-humble-bundle
+version: Humble Bundle
+description: ''
+notes: ''
+created_at: '2016-06-20T19:36:36.987259Z'
+updated_at: '2016-09-18T15:40:02.763813Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 313340
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Mountain.x86
+  installer:
+  - extract:
+      file: mountain-game
+  - chmodx: $GAMEDIR/Mountain.x86
+  files:
+  - mountain-game: 'N/A: Please select the .zip install file downloaded from humblebundle.com'

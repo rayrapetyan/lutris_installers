@@ -1,0 +1,24 @@
+id: 15825
+game_id: 7213
+game_slug: order-of-battle-world-war-ii
+name: 'Order of Battle: World War II'
+year: null
+user: b3da
+runner: steam
+slug: order-of-battle-world-war-ii-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-09-27T13:35:19.446000Z'
+updated_at: '2019-10-06T22:27:14.916363Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 312450
+gogid: 1744082009
+gogslug: order_of_battle_world_war_ii
+humblestoreid: ''
+script:
+  game:
+    appid: 312450

@@ -1,0 +1,15 @@
+name: Dungeon Defenders II
+slug: dungeon-defenders-ii
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Tower defense
+aliases: []
+banner_url: /games/banner/dungeon-defenders-ii.jpg
+icon_url: /games/icon/dungeon-defenders-ii.png
+is_public: true
+updated: '2019-01-23T08:29:19.052014Z'
+steamid: 236110
+gogslug: ''
+humblestoreid: ''

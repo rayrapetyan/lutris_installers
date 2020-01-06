@@ -1,0 +1,26 @@
+id: 13183
+game_id: 4553
+game_slug: star-wars-x-wing-alliance
+name: 'STAR WARS: X-Wing Alliance'
+year: 1999
+user: skyace65
+runner: steam
+slug: star-wars-x-wing-alliance-steam-proton
+version: Steam Proton
+description: null
+notes: Since this game is not officially whitelisted, you have to enable Steam Play
+  for all titles in Steam's settings prior to installation. Requires a controller
+  or joystick.
+created_at: '2019-04-28T13:52:41.369000Z'
+updated_at: '2019-05-19T07:13:31.623536Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 361670
+gogid: 1421404763
+gogslug: star_wars_xwing_alliance
+humblestoreid: ''
+script:
+  game:
+    appid: 361670

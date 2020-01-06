@@ -1,0 +1,24 @@
+id: 7083
+game_id: 14834
+game_slug: cs2d
+name: CS2D
+year: 2004
+user: dhmoclex
+runner: steam
+slug: cs2d-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-01-13T14:05:35.865372Z'
+updated_at: '2018-01-13T20:47:01.683802Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 666220
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 666220

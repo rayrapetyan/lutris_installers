@@ -1,0 +1,25 @@
+id: 13186
+game_id: 6681
+game_slug: lego-star-warstm-the-force-awakens
+name: "LEGO\xAE STAR WARS\u2122: The Force Awakens"
+year: 2016
+user: skyace65
+runner: steam
+slug: lego-star-warstm-the-force-aw-steam-proton
+version: Steam Proton
+description: null
+notes: Since this game is not officially whitelisted, you have to enable Steam Play
+  for all titles in Steam's settings prior to installation.
+created_at: '2019-04-28T13:54:58.656000Z'
+updated_at: '2019-05-19T07:12:29.411095Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 438640
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 438640

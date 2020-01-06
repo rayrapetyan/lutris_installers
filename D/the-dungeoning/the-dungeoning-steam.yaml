@@ -1,0 +1,24 @@
+id: 1529
+game_id: 4372
+game_slug: the-dungeoning
+name: The Dungeoning
+year: null
+user: Xodetaetl
+runner: steam
+slug: the-dungeoning-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-05-19T15:53:57.135000Z'
+updated_at: '2015-06-01T17:41:29.819000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 295870
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 295870

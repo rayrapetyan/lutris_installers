@@ -1,0 +1,24 @@
+id: 2143
+game_id: 5351
+game_slug: her-story
+name: Her Story
+year: null
+user: Lulu
+runner: winesteam
+slug: her-story-steam
+version: Steam
+description: ''
+notes: https://appdb.winehq.org/objectManager.php?sClass=application&iId=16990
+created_at: '2016-06-15T06:16:08.974644Z'
+updated_at: '2016-08-18T10:16:51.117034Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 368370
+gogid: 1435240365
+gogslug: her_story
+humblestoreid: ''
+script:
+  game:
+    appid: 368370

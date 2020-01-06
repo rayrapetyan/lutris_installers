@@ -1,0 +1,19 @@
+name: Z
+slug: z
+year: 1996
+platforms:
+- name: Linux
+- name: MS-DOS
+- name: Sega Saturn
+- name: Sony PlayStation
+genres:
+- name: Real-time strategy
+- name: Sci-fi
+aliases: []
+banner_url: /games/banner/z.jpg
+icon_url: /games/icon/z.png
+is_public: true
+updated: '2019-03-09T04:42:36.240490Z'
+steamid: 275530
+gogslug: z
+humblestoreid: ''

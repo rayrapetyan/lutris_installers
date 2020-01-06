@@ -1,0 +1,44 @@
+id: 3170
+game_id: 9184
+game_slug: battlefield-1942
+name: Battlefield 1942
+year: 2002
+user: Lucki
+runner: wine
+slug: battlefield-1942-abandonware
+version: Abandonware
+description: null
+notes: My Abandonware no longer provides Battlefield 1942. Please download a zipped
+  archive before using this installer.
+created_at: '2017-01-10T02:11:55.267000Z'
+updated_at: '2018-10-31T01:37:40.522713Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - extract:
+      description: Extracting archive
+      dst: $CACHE/BF1942/
+      file: $archive
+  - task:
+      executable: $CACHE/BF1942/Battlefield 1942/bf1942-setup.exe
+      prefix: $GAMEDIR
+      args: /silent
+      description: Installing Battlefield 1942
+      name: wineexec
+  files:
+  - archive: N/A:Please select unzipped game archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/EA Games/Battlefield 1942/BF1942.exe
+    arch: win32

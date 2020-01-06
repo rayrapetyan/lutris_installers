@@ -1,0 +1,18 @@
+name: Disney's Aladdin
+slug: disneys-aladdin
+year: 1993
+platforms:
+- name: Amiga
+- name: MS-DOS
+- name: Sega Genesis / Mega Drive
+- name: Super Nintendo
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/disneys-aladdin.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:12.960691Z'
+steamid: 561100
+gogslug: disney_aladdin
+humblestoreid: ''

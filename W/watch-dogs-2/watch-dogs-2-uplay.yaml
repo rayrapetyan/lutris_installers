@@ -1,0 +1,86 @@
+id: 14360
+game_id: 9825
+game_slug: watch-dogs-2
+name: Watch Dogs 2
+year: 2016
+user: dermeister
+runner: wine
+slug: watch-dogs-2-uplay
+version: Uplay
+description: Installs and sets up the game via Uplay.
+notes: "-You will need to paste the the following launch commands for Watch Dogs 2,\
+  \ which can be found at Game > Properties > Game launch arguments > Add command\
+  \ line arguments: <b>-eac_launcher -nosplash</b>\r\n-<b>The installer provides a\
+  \ pre-generated DXVK state cache to provide a mostly stutter-free experience. As\
+  \ a result, it will cause a temporary performance hit while the shaders are being\
+  \ compiled. The FPS will rise back up after it has finished.</b>\r\n-The Uplay overlay\
+  \ is automatically disabled, and will cause problems if enabled. Do not enable it.\r\
+  \n-Easy Anti Cheat does not work and as a result any multiplayer functionality will\
+  \ not work, it is also disabled using the launch commands from above.\r\n-If alt-tabbing,\
+  \ the game will sometimes rapidly try to regain focus and then lose focus. As if\
+  \ its spazzing out."
+created_at: '2019-06-30T20:34:17.926000Z'
+updated_at: '2019-10-11T15:12:39.804858Z'
+draft: false
+published: true
+published_by: 64834
+rating: ''
+steamid: 447040
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 64bit Wine prefix...
+      arch: win64
+      name: create_prefix
+  - write_file:
+      content: "overlay: \n  enabled: false\n"
+      file: $GAMEDIR/drive_c/users/$USER/Local Settings/Application Data/Ubisoft Game
+        Launcher/settings.yml
+  - extract:
+      dst: $CACHE/dxsetup
+      file: dx2010
+  - extract:
+      dst: $GAMEDIR
+      file: cache
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR
+      description: Installing prerequisites...
+      arch: win64
+      args: /silent
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Installing prerequisites...
+      app: arial vcrun2010 vcrun2012 win7 d3dcompiler_43
+      name: winetricks
+  - task:
+      executable: uplay
+      prefix: $GAMEDIR
+      args: /S
+      description: Installing Uplay...
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    args: uplay://launch/2688/0
+    exe: drive_c/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/Uplay.exe
+    arch: win64
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_CONFIG_FILE: $GAMEDIR/dxvk.conf
+      DXVK_HUD: compiler
+      __GL_SHADER_DISK_CACHE: 1
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+  wine:
+    version: lutris-4.15-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - dx2010: https://lutris.net/files/tools/directx-2010.tar.gz
+  - uplay: https://ubistatic3-a.akamaihd.net/orbit/launcher_installer/UplayInstaller.exe
+  - cache: https://github.com/Cervoxx/DXVKCACHE/raw/master/WD2-cache.tar.xz

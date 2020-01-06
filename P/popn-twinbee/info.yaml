@@ -1,0 +1,15 @@
+name: Pop'n TwinBee
+slug: popn-twinbee
+year: 199
+platforms:
+- name: NES
+genres:
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/popn-twinbee.jpg
+icon_url: null
+is_public: true
+updated: '2019-10-22T22:01:55.434585Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

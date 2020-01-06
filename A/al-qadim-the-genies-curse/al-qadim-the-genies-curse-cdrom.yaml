@@ -1,0 +1,90 @@
+id: 15681
+game_id: 21731
+game_slug: al-qadim-the-genies-curse
+name: 'Al-Qadim: The Genie''s Curse'
+year: 1993
+user: appoloin
+runner: dosbox
+slug: al-qadim-the-genies-curse-cdrom
+version: CDrom
+description: null
+notes: ''
+created_at: '2019-09-18T23:50:26.928203Z'
+updated_at: '2019-09-18T23:50:26.928227Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: 1441096843
+gogslug: alqadim_the_genies_curse
+humblestoreid: ''
+script:
+  installer:
+  - write_file:
+      content: '#!/bin/bash
+
+        src=$1
+
+        dst=$2
+
+        cp -avr "$src/."  "$dst"'
+      file: $CACHE/bulkcopy-alt.sh
+  - chmodx: $CACHE/bulkcopy-alt.sh
+  - execute:
+      args: $GAMEDIR/HDD $GAMEDIR/CDD $GAMEDIR/CDD/DISC1
+      file: mkdir
+  - insert-disc:
+      requires: install.exe
+      description: Please insert disc
+  - execute:
+      args: $DISC "$GAMEDIR/CDD/DISC1"
+      file: $CACHE/bulkcopy-alt.sh
+  - execute:
+      args: -R 775  "$GAMEDIR/CDD/DISC1"
+      file: /bin/chmod
+  - write_file:
+      content: '[sdl]
+
+        sensitivity=30
+
+        [autoexec]
+
+        mount C "$GAMEDIR/HDD" -t dir
+
+        mount D "$GAMEDIR/CDD/DISC1" -t cdrom
+
+        D:
+
+        install.exe
+
+        exit'
+      file: $GAMEDIR/Al-Qadim_setup.conf
+  - task:
+      config_file: $GAMEDIR/Al-Qadim_setup.conf
+      working_dir: $GAMEDIR/HDD/
+      name: dosexec
+  - write_file:
+      content: '[sdl]
+
+        sensitivity=30
+
+        [autoexec]
+
+        mount C "$GAMEDIR/HDD" -t dir
+
+        mount D "$GAMEDIR/CDD/DISC1" -t cdrom
+
+        C:
+
+        cd genie
+
+        genie
+
+        exit'
+      file: $GAMEDIR/Al-Qadim.conf
+  - execute:
+      args: -R 775  "$GAMEDIR"
+      file: /bin/chmod
+  game:
+    main_file: $GAMEDIR/Al-Qadim.conf

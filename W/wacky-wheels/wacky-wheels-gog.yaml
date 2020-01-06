@@ -1,0 +1,45 @@
+id: 5673
+game_id: 3661
+game_slug: wacky-wheels
+name: Wacky Wheels
+year: 1994
+user: FakeShemp
+runner: dosbox
+slug: wacky-wheels-gog
+version: GOG
+description: Uses the files from the Linux installer from GOG.
+notes: ''
+created_at: '2017-09-10T18:11:15.061000Z'
+updated_at: '2017-09-10T18:13:42.307565Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 358380
+gogid: 1207665483
+gogslug: wacky_wheels
+humblestoreid: ''
+script:
+  main_file: dosbox_wwheels_single.conf
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data/noarch
+      dst: $GAMEDIR
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/dosbox_wwheels.conf
+  - write_config:
+      section: sdl
+      key: fullscreen
+      value: false
+      file: $GAMEDIR/dosbox_wwheels.conf
+  files:
+  - file1: N/A:Please select the GOG installer
+  game:
+    config_file: $GAMEDIR/dosbox_wwheels.conf

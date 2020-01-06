@@ -1,0 +1,15 @@
+name: Halo 2
+slug: halo-2
+year: 2004
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/halo-2.jpg
+icon_url: /games/icon/halo-2.png
+is_public: true
+updated: '2019-01-23T08:29:46.549783Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

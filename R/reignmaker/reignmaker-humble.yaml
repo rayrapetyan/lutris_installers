@@ -1,0 +1,31 @@
+id: 3788
+game_id: 2382
+game_slug: reignmaker
+name: ReignMaker
+year: null
+user: FakeShemp
+runner: linux
+slug: reignmaker-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-22T12:15:34.824232Z'
+updated_at: '2017-05-27T21:18:50.530257Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 286200
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: ReignMaker.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/ReignMaker.x86
+  - chmodx: $GAMEDIR/ReignMaker.x86_64
+  exe64: ReignMaker.x86_64
+  files:
+  - file1: N/A:Please select the Humble archive

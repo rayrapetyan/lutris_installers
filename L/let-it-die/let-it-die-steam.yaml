@@ -1,0 +1,24 @@
+id: 15968
+game_id: 22038
+game_slug: let-it-die
+name: LET IT DIE
+year: 2016
+user: bonaccolto90
+runner: winesteam
+slug: let-it-die-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-10-04T08:43:07.042000Z'
+updated_at: '2019-10-07T20:00:09.072659Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 794600
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 794600

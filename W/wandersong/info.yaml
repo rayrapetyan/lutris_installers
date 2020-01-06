@@ -1,0 +1,17 @@
+name: Wandersong
+slug: wandersong
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Platformer
+- name: Real-time
+aliases: []
+banner_url: /games/banner/wandersong.jpg
+icon_url: null
+is_public: true
+updated: '2019-04-20T15:32:06.487576Z'
+steamid: 530320
+gogslug: wandersong
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 3471
+game_id: 7022
+game_slug: frontier
+name: Frontier
+year: null
+user: liberodark
+runner: steam
+slug: frontier-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-04-01T10:19:25.328259Z'
+updated_at: '2017-04-06T19:48:24.542268Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 439950
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 439950

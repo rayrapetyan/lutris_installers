@@ -1,0 +1,31 @@
+id: 9194
+game_id: 19914
+game_slug: colette-and-becca
+name: Colette and Becca
+year: 2017
+user: kimchitea
+runner: linux
+slug: colette-and-becca-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2018-07-13T01:24:10.854000Z'
+updated_at: '2018-07-14T06:05:33.675383Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Colette_and_Becca_2.0.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Colette_and_Becca_2.0.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Colette_and_Becca_2.0
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Colette_and_Becca_2.0
+  files:
+  - file1: N/A:Please select the itch.io archive

@@ -1,0 +1,16 @@
+name: Anthem
+slug: anthem
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: RPG
+aliases: []
+banner_url: /games/banner/anthem.jpg
+icon_url: /games/icon/anthem.png
+is_public: true
+updated: '2019-02-19T02:55:06.286504Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

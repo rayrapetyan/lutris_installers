@@ -1,0 +1,24 @@
+id: 14137
+game_id: 15935
+game_slug: the-next-world
+name: The Next World
+year: 2016
+user: kimchitea
+runner: steam
+slug: the-next-world-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-06-17T03:53:30.179235Z'
+updated_at: '2019-10-10T23:59:15.779261Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 427860
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 427860

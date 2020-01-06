@@ -1,0 +1,20 @@
+name: Objects in Space
+slug: objects-in-space
+year: 2018
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: RPG
+- name: Space simulation
+- name: Strategy
+aliases: []
+banner_url: /games/banner/objects-in-space.jpg
+icon_url: /games/icon/objects-in-space.png
+is_public: true
+updated: '2019-03-08T01:33:46.951846Z'
+steamid: 824070
+gogslug: objects_in_space
+humblestoreid: ''

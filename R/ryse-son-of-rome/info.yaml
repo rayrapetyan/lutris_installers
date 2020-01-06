@@ -1,0 +1,16 @@
+name: 'Ryse: Son of Rome'
+slug: ryse-son-of-rome
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Historical
+aliases: []
+banner_url: /games/banner/ryse-son-of-rome.jpg
+icon_url: /games/icon/ryse-son-of-rome.png
+is_public: true
+updated: '2019-06-01T06:28:37.146735Z'
+steamid: 302510
+gogslug: ''
+humblestoreid: ''

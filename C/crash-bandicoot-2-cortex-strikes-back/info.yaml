@@ -1,0 +1,17 @@
+name: 'Crash Bandicoot 2: Cortex Strikes Back'
+slug: crash-bandicoot-2-cortex-strikes-back
+year: 1997
+platforms:
+- name: Sony PlayStation
+- name: Sony Playstation 3
+- name: Sony PSP
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/crash-bandicoot-2-cortex-strikes-back.jpg
+icon_url: null
+is_public: true
+updated: '2019-11-04T03:09:17.290694Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

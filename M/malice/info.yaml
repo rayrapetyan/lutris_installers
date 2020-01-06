@@ -1,0 +1,17 @@
+name: Malice
+slug: malice
+year: 1997
+platforms:
+- name: Linux
+- name: MS-DOS
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/malice.jpg
+icon_url: null
+is_public: true
+updated: '2019-02-13T04:01:07.215569Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,15 @@
+name: BIT.TRIP BEAT
+slug: bittrip-beat
+year: 2010
+platforms:
+- name: Linux
+genres:
+- name: Arcade
+aliases: []
+banner_url: /games/banner/bittrip-beat.jpg
+icon_url: /games/icon/bittrip-beat.png
+is_public: true
+updated: '2019-01-23T08:28:36.754131Z'
+steamid: 63700
+gogslug: bittrip_beat
+humblestoreid: ''

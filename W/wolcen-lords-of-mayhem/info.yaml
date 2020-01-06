@@ -1,0 +1,17 @@
+name: 'Wolcen: Lords of Mayhem'
+slug: wolcen-lords-of-mayhem
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/wolcen-lords-of-mayhem.jpg
+icon_url: /games/icon/wolcen-lords-of-mayhem.png
+is_public: true
+updated: '2019-01-23T08:32:09.741268Z'
+steamid: 424370
+gogslug: wolcen_lords_of_mayhem
+humblestoreid: ''

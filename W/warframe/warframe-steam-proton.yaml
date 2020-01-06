@@ -1,0 +1,30 @@
+id: 13226
+game_id: 681
+game_slug: warframe
+name: Warframe
+year: 2013
+user: AlphaAngel
+runner: steam
+slug: warframe-steam-proton
+version: Steam Proton
+description: Default Steam Installation with Proton
+notes: "The proton version requires xboxdrv to be running as a service as a \"fake\"\
+  \ controller, otherwise the game will close after 5 minutes.\r\n\r\nIf you get DirectX\
+  \ errors, it means you're missing vulkan libraries. You need both 32 bit and 64\
+  \ bit vulkan libraries installed on your system for your distro. The reason is because\
+  \ the game is 64 bit but the launcher is 32 bit so the launcher checks for 32 bit.\r\
+  \n\r\nIn order to fix voices and other game issues, you'll want to use GE's proton.\
+  \ Instructions can be found here:\r\n\r\nhttps://github.com/GloriousEggroll/proton-ge-custom/releases"
+created_at: '2019-04-30T09:37:30.027000Z'
+updated_at: '2019-12-14T03:31:35.049296Z'
+draft: false
+published: false
+published_by: 19464
+rating: ''
+steamid: 230410
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 230410

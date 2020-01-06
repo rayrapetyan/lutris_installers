@@ -1,0 +1,15 @@
+name: DiRT Rally
+slug: dirt-rally
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/dirt-rally.jpg
+icon_url: /games/icon/dirt-rally.png
+is_public: true
+updated: '2019-01-23T08:29:12.329082Z'
+steamid: 310560
+gogslug: ''
+humblestoreid: ''

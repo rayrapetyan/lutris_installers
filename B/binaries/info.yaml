@@ -1,0 +1,15 @@
+name: Binaries
+slug: binaries
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/binaries.jpg
+icon_url: /games/icon/binaries.png
+is_public: true
+updated: '2019-01-23T08:28:35.944988Z'
+steamid: 435800
+gogslug: ''
+humblestoreid: ''

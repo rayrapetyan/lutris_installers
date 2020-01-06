@@ -1,0 +1,24 @@
+id: 6393
+game_id: 1613
+game_slug: still-life
+name: Still Life
+year: null
+user: Stoney_Fish
+runner: winesteam
+slug: still-life-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-11-22T21:27:43.946859Z'
+updated_at: '2017-11-30T20:20:44.237792Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 46480
+gogid: 1207658882
+gogslug: still_life
+humblestoreid: ''
+script:
+  game:
+    appid: 46480

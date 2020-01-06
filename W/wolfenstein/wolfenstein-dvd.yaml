@@ -1,0 +1,45 @@
+id: 16770
+game_id: 946
+game_slug: wolfenstein
+name: Wolfenstein
+year: 2009
+user: edjaa84
+runner: wine
+slug: wolfenstein-dvd
+version: DVD
+description: "Versi\xF3n DVD para Wine64 Vanilla/Staging\r\n\r\nRaPiMoDEBianPaKaGer"
+notes: "Si tienes problemas con la versi\xF3n de Steam Instala:\r\n\r\nvcrun2005 (Lo\
+  \ trae el instalador DVD)"
+created_at: '2019-11-11T22:40:55.108462Z'
+updated_at: '2019-11-11T22:40:55.108488Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 10170
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files (x86)/Wolfenstein/SP/Wolf2.exe
+    working_dir: $GAMEDIR/drive_c/Program Files (x86)/Wolfenstein/SP
+    arch: win64
+  installer:
+  - task:
+      prefix: $GAMEDIR/
+      description: Installing DirectX 9
+      app: d3dx9
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/
+      description: Installing d3dcompiler43
+      app: d3dcompiler_43
+      silent: true
+      name: winetricks
+  wine:
+    MouseWarpOverride: disable
+  files:
+  - wolf: "N/A:Se\xF1ala el instalador, solo para iniciar"

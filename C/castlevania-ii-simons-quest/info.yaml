@@ -1,0 +1,16 @@
+name: 'Castlevania II: Simon''s Quest'
+slug: castlevania-ii-simons-quest
+year: 1987
+platforms:
+- name: NES
+genres:
+- name: Adventure
+- name: Platform
+aliases: []
+banner_url: /games/banner/castlevania-ii-simons-quest.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:47.701487Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,37 @@
+id: 4908
+game_id: 12115
+game_slug: oktoberfest-manager
+name: Oktoberfest Manager
+year: null
+user: FakeShemp
+runner: wine
+slug: oktoberfest-manager-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-08T09:33:10.947000Z'
+updated_at: '2018-05-19T03:41:55.688458Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/setup.exe
+      prefix: $GAMEDIR
+      args: /sp- /silent /norestart
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/USM/Oktoberfest Manager/Oktoberfest.exe
+    arch: win32

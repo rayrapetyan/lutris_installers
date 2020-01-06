@@ -1,0 +1,37 @@
+id: 10769
+game_id: 11301
+game_slug: diablo-ii-lord-of-destruction
+name: 'Diablo II: Lord of Destruction'
+year: 2001
+user: robertorama
+runner: wine
+slug: diablo-ii-lord-of-destruction-13c
+version: 13c
+description: Downloads and installs Diablo 2 expansion Lord of Destruction.
+notes: Installs 13c version, some servers are still running this one.
+created_at: '2018-11-04T19:22:40.886000Z'
+updated_at: '2018-11-05T07:04:24.573382Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      executable: patch114
+      name: wineexec
+  files:
+  - installer: https://www.battle.net/download/getLegacy?product=D2XP&locale=en-US&os=WIN
+  - patch114: http://ftp.blizzard.com/pub/diablo2exp/patches/PC/LODPatch_113c.exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Diablo II/Diablo II.exe
+    arch: win32

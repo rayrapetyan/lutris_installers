@@ -1,0 +1,30 @@
+id: 4369
+game_id: 2585
+game_slug: spy-chameleon-rgb-agent
+name: Spy Chameleon - RGB Agent
+year: null
+user: FakeShemp
+runner: linux
+slug: spy-chameleon-rgb-agent-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-06-15T18:44:30.284662Z'
+updated_at: '2017-06-17T19:29:51.432365Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 297490
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Spy Chameleon - RGB Agent.x86
+  installer:
+  - extract:
+      format: tgz
+      file: $file1
+  exe64: Spy Chameleon - RGB Agent.x86_64
+  files:
+  - file1: N/A:Please select the IndieGameStand archive

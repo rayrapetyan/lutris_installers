@@ -1,0 +1,16 @@
+name: Jet Grind Radio
+slug: jet-grind-radio
+year: 2000
+platforms:
+- name: Nintendo Game Boy Advance
+- name: Sega Dreamcast
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/jet-grind-radio.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:00.465681Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

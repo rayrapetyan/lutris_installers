@@ -1,0 +1,25 @@
+id: 9160
+game_id: 4259
+game_slug: cho-dengeki-stryker
+name: Cho Dengeki Stryker
+year: 2014
+user: kimchitea
+runner: winesteam
+slug: cho-dengeki-stryker-steam
+version: Steam
+description: null
+notes: Videos may not work. If you get a black screen with no sound, just wait a few
+  minutes and the game should continue.
+created_at: '2018-07-11T09:39:48.005562Z'
+updated_at: '2018-07-12T04:34:00.577651Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 321190
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 321190

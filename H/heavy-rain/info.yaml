@@ -1,0 +1,16 @@
+name: Heavy Rain
+slug: heavy-rain
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Action-adventure
+- name: Interactive drama
+aliases: []
+banner_url: /games/banner/heavy-rain.jpg
+icon_url: null
+is_public: true
+updated: '2019-12-11T11:08:32.619922Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

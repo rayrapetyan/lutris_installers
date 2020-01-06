@@ -1,0 +1,24 @@
+id: 7263
+game_id: 4867
+game_slug: sc2vn-the-esports-visual-novel
+name: SC2VN - The eSports Visual Novel
+year: 2015
+user: t-rex91
+runner: steam
+slug: sc2vn-the-esports-visual-nove-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-02-07T17:11:37.675937Z'
+updated_at: '2018-02-07T23:00:24.880578Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 404480
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 404480

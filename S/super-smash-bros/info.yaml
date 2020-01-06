@@ -1,0 +1,15 @@
+name: Super Smash Bros.
+slug: super-smash-bros
+year: 1999
+platforms:
+- name: Nintendo 64
+genres:
+- name: Fighting
+aliases: []
+banner_url: /games/banner/super-smash-bros.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:31.311251Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

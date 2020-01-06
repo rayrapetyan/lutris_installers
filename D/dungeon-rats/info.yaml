@@ -1,0 +1,16 @@
+name: Dungeon Rats
+slug: dungeon-rats
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: RPG
+- name: Tactical
+aliases: []
+banner_url: /games/banner/dungeon-rats.jpg
+icon_url: /games/icon/dungeon-rats.png
+is_public: false
+updated: '2019-03-19T19:33:43.598819Z'
+steamid: 531930
+gogslug: dungeon_rats
+humblestoreid: ''

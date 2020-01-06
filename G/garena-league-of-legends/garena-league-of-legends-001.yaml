@@ -1,0 +1,76 @@
+id: 16789
+game_id: 30306
+game_slug: garena-league-of-legends
+name: Garena - League of Legends
+year: 2017
+user: dev0buzz
+runner: wine
+slug: garena-league-of-legends-001
+version: 0.0.1
+description: null
+notes: ''
+created_at: '2019-11-12T23:14:49.037520Z'
+updated_at: '2019-12-27T01:35:22.386613Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: d3dcompiler_43 d3dx9
+      arch: win32
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Installing Garena
+      arch: win32
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: winekill
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      key: GrabFullScreen
+      value: Y
+      path: HKEY_CURRENT_USER\Software\Wine\X11 Driver
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      key: UseXVidMode
+      value: N
+      path: HKEY_CURRENT_USER\Software\Wine\X11 Driver
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: winekill
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/Garena/Garena/Garena.exe
+  system:
+    disable_compositor: true
+    env:
+      DXVK_LOG_LEVEL: none
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      __GL_SHADER_DISK_CACHE: 1
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+  wine:
+    MouseWarpOverride: enable
+    dxvk: true
+  files:
+  - setup: http://cdn.garenanow.com/gxx/pc/gameinst/Garena-v2.0-LOLPH.exe

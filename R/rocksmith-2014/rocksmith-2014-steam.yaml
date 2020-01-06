@@ -1,0 +1,73 @@
+id: 3319
+game_id: 3642
+game_slug: rocksmith-2014
+name: Rocksmith 2014
+year: null
+user: NuSuey
+runner: winesteam
+slug: rocksmith-2014-steam
+version: Steam
+description: Steam version of Rocksmith 2014
+notes: "Important: You need to open Pulse audio volume control (pavucontrol) and in\
+  \ the configuration tab disable Rocksmith guitar adapter so the guitar cable gets\
+  \ connected.\r\n\r\nFor the best latency do the following:\r\n\r\n- Change <tt>load-module\
+  \ module-udev-detect</tt> to <tt>load-module module-udev-detect tsched=0</tt> in\
+  \ <tt>/etc/pulse/default.pa</tt>\r\n\r\n<a href=\"https://wiki.archlinux.org/index.php/PulseAudio/Troubleshooting#Glitches.2C_skips_or_crackling\"\
+  >https://wiki.archlinux.org/index.php/PulseAudio/Troubleshooting#Glitches.2C_skips_or_crackling</a>\r\
+  \n\r\n- Open Wine configuration, Audio tab, and instead of system default set your\
+  \ current audio output as your output device"
+created_at: '2017-03-11T10:50:25.125000Z'
+updated_at: '2019-04-13T06:05:21.793076Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 221680
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    Audio: alsa
+    version: tkg-3.21-x86_64
+    overrides:
+      d3d11: disabled
+      gameoverlayrenderer: builtin
+  installer:
+  - write_config:
+      section: Audio
+      key: EnableMicrophone
+      value: 1
+      file: $GAMEDIR/Rocksmith.ini
+  - write_config:
+      section: Audio
+      key: Win32UltraLowLatencyMode
+      value: 0
+      file: $GAMEDIR/Rocksmith.ini
+  - write_config:
+      section: Audio
+      key: LatencyBuffer
+      value: 1
+      file: $GAMEDIR/Rocksmith.ini
+  - write_config:
+      section: Audio
+      key: ForceWDM
+      value: 0
+      file: $GAMEDIR/Rocksmith.ini
+  - write_config:
+      section: Audio
+      key: ForceDirectXSink
+      value: 0
+      file: $GAMEDIR/Rocksmith.ini
+  - write_config:
+      section: Audio
+      key: DumpAudioLog
+      value: 0
+      file: $GAMEDIR/Rocksmith.ini
+  - write_config:
+      section: Renderer.Win32
+      key: Fullscreen
+      value: 0
+      file: $GAMEDIR/Rocksmith.ini
+  game:
+    appid: 221680

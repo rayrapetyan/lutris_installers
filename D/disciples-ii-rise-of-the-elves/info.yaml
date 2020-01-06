@@ -1,0 +1,15 @@
+name: 'Disciples II: Rise of the Elves'
+slug: disciples-ii-rise-of-the-elves
+year: 2003
+platforms:
+- name: Windows
+genres:
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/disciples-ii-rise-of-the-elves.jpg
+icon_url: /games/icon/disciples-ii-rise-of-the-elves.png
+is_public: true
+updated: '2019-04-09T06:45:45.871285Z'
+steamid: 1630
+gogslug: ''
+humblestoreid: ''

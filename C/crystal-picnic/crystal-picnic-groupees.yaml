@@ -1,0 +1,31 @@
+id: 5529
+game_id: 5071
+game_slug: crystal-picnic
+name: Crystal Picnic
+year: null
+user: FakeShemp
+runner: linux
+slug: crystal-picnic-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-26T12:50:34.397825Z'
+updated_at: '2017-08-27T21:55:14.041922Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 415890
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: CrystalPicnic
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - extract:
+      file: $CACHE/CrystalPicnic-1.8-Linux64.tar.gz
+  files:
+  - file1: N/A:Please select the Groupees archive

@@ -1,0 +1,24 @@
+id: 1528
+game_id: 4373
+game_slug: mega-coin-squad
+name: Mega Coin Squad
+year: null
+user: Xodetaetl
+runner: steam
+slug: mega-coin-squad-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-05-19T15:53:47.113000Z'
+updated_at: '2015-06-01T17:41:29.884000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 312510
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 312510

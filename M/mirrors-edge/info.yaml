@@ -1,0 +1,17 @@
+name: Mirror's Edge
+slug: mirrors-edge
+year: 2009
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Platform
+aliases: []
+banner_url: /games/banner/mirrors-edge.jpg
+icon_url: /games/icon/mirrors-edge.png
+is_public: true
+updated: '2019-03-23T14:34:33.903708Z'
+steamid: 17410
+gogslug: mirrors_edge
+humblestoreid: ''

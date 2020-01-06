@@ -1,0 +1,37 @@
+id: 5724
+game_id: 1330
+game_slug: earth-2150-the-moon-project
+name: 'Earth 2150: The Moon Project'
+year: null
+user: FakeShemp
+runner: wine
+slug: earth-2150-the-moon-project-groupees
+version: Groupees
+description: From "Earth 2150 Trilogy"
+notes: ''
+created_at: '2017-09-12T18:50:12.413637Z'
+updated_at: '2018-05-19T03:41:53.181151Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 259280
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/E2150-TheMoonProject_ESD_Setup.exe
+      prefix: $GAMEDIR
+      args: /S
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Reality Pump/Earth 2150 The Moon Project/TheMoonProject.exe
+    arch: win32

@@ -1,0 +1,62 @@
+id: 12369
+game_id: 14062
+game_slug: tom-clancys-rainbow-six
+name: Tom Clancy's Rainbow Six
+year: 1998
+user: boristsr
+runner: wine
+slug: tom-clancys-rainbow-six-uk-cd-retail
+version: UK CD Retail
+description: "Uses dgvoodoo Graphics Api Wrapper by Dege.\r\nOfficial website <a href=\"\
+  http://dege.fw.hu\">http://dege.fw.hu</a>"
+notes: ''
+created_at: '2019-03-13T07:07:33.082000Z'
+updated_at: '2019-03-26T04:23:14.867589Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: 1207658752
+gogslug: tom_clancys_rainbow_six
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/Red Storm Entertainment/Tom Clancy's Rainbow
+      Six/RainbowSix.exe
+    arch: win32
+  installer:
+  - insert-disc:
+      requires: setup.exe
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: win98
+      arch: win32
+      name: winetricks
+  - task:
+      executable: $DISC/SETUP.EXE
+      prefix: $GAMEDIR
+      name: wineexec
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Red Storm Entertainment/Tom Clancy's Rainbow
+        Six
+      file: dgvoodoo
+  - write_config:
+      section: DirectX
+      key: dgVoodooWatermark
+      value: false
+      file: $GAMEDIR/drive_c/Program Files/Red Storm Entertainment/Tom Clancy's Rainbow
+        Six/dgVoodoo.conf
+  wine:
+    WineDesktop: 1024x768
+    overrides:
+      ddraw: native
+    dxvk: true
+    Desktop: true
+  files:
+  - dgvoodoo: https://lutris.net/files/tools/dgvoodoo_2.55.4_dx1-7.tar.xz

@@ -1,0 +1,17 @@
+name: R-Type
+slug: r-type
+year: 1987
+platforms:
+- name: Arcade
+- name: NES
+genres:
+- name: Action
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/r-type.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:04.418445Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

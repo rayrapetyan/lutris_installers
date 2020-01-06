@@ -1,0 +1,17 @@
+name: Parasite Eve
+slug: parasite-eve
+year: 1998
+platforms:
+- name: Sony PlayStation
+genres:
+- name: Action
+- name: Horror
+- name: RPG
+aliases: []
+banner_url: /games/banner/parasite-eve.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:42.218845Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

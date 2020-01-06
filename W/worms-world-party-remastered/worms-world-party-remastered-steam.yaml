@@ -1,0 +1,76 @@
+id: 10449
+game_id: 5393
+game_slug: worms-world-party-remastered
+name: Worms World Party Remastered
+year: 2015
+user: ZoeyGlobe
+runner: winesteam
+slug: worms-world-party-remastered-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-10-07T21:45:26.924000Z'
+updated_at: '2018-10-25T12:11:03.624878Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 270910
+gogid: 1433238834
+gogslug: worms_world_party_remastered
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Creating Wine prefix
+      arch: win32
+      install_mono: false
+      install_gecko: false
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing DirectX 9
+      arch: win32
+      app: directx9
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing DirectX 9_43
+      arch: win32
+      app: d3dx9_43
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing xact
+      app: xact
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing wmp10
+      app: wmp10
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing vcrun2005
+      app: vcrun2005
+      arch: win32
+      name: winetricks
+  winesteam:
+    version: staging-3.16-i386
+    overrides:
+      xaudio2_6: native
+      xaudio2_7: native
+  system:
+    disable_monitoring: true
+    pulse_latency: true
+    reset_pulse: true
+    disable_runtime: false
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 270910
+    arch: win32

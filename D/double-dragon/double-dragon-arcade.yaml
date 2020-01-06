@@ -1,0 +1,29 @@
+id: 17369
+game_id: 6615
+game_slug: double-dragon
+name: Double Dragon
+year: 1987
+user: leandrovitals
+runner: mame
+slug: double-dragon-arcade
+version: arcade
+description: null
+notes: ''
+created_at: '2019-12-16T16:54:51.602200Z'
+updated_at: '2019-12-16T16:54:51.602233Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: rom
+  installer:
+  - merge:
+      src: rom
+      dst: $GAMEDIR
+  files:
+  - rom: N/A:Select the game''s ROM file

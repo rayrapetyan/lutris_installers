@@ -1,0 +1,15 @@
+name: Happy Wheels
+slug: happy-wheels
+year: 2010
+platforms:
+- name: Browser
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/happy-wheels.jpg
+icon_url: /games/icon/happy-wheels.png
+is_public: true
+updated: '2019-01-23T08:29:47.006777Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

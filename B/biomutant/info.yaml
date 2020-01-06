@@ -1,0 +1,17 @@
+name: Biomutant
+slug: biomutant
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Open World
+aliases: []
+banner_url: /games/banner/biomutant.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:36.036203Z'
+steamid: null
+gogslug: biomutant
+humblestoreid: ''

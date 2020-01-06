@@ -1,0 +1,28 @@
+name: Bubble Bobble
+slug: bubble-bobble
+year: 1986
+platforms:
+- name: Amiga
+- name: Amstrad CPC 464
+- name: Apple IIGS
+- name: Arcade
+- name: Atari ST
+- name: Commodore 64
+- name: Game Boy
+- name: MS-DOS
+- name: MSX
+- name: NES
+- name: Sega Game Gear
+- name: Sega Master System
+- name: ZX Spectrum
+genres:
+- name: Arcade
+- name: Platform
+aliases: []
+banner_url: /games/banner/bubble-bobble.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:42.748830Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,28 @@
+id: 8033
+game_id: 11631
+game_slug: marvel-ultimate-alliance-2
+name: 'Marvel: Ultimate Alliance 2'
+year: 2016
+user: TuiorGames
+runner: winesteam
+slug: marvel-ultimate-alliance-2-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-01T22:40:29.287242Z'
+updated_at: '2018-05-06T07:23:13.696777Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 433320
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-3.7-x86_64
+    Desktop: true
+  game:
+    appid: 433320
+    arch: win64

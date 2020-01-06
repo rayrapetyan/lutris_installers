@@ -1,0 +1,28 @@
+id: 5649
+game_id: 1103
+game_slug: dysfunctional-systems-learning-to-manage-chaos
+name: 'Dysfunctional Systems: Learning to Manage Chaos'
+year: 2013
+user: FakeShemp
+runner: linux
+slug: dysfunctional-systems-learnin-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-10T09:52:46.516093Z'
+updated_at: '2017-09-10T09:54:30.574139Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 248800
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Dysfunctional Systems - Episode 1.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive

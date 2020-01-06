@@ -1,0 +1,18 @@
+name: 'Conquests of the Longbow: The Legend of Robin Hood'
+slug: conquests-of-the-longbow-the-legend-of-robin-hood
+year: 1990
+platforms:
+- name: MS-DOS
+- name: Windows
+genres:
+- name: Adventure
+- name: Fantasy
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/conquests-of-the-longbow-the-legend-of-robin-hood.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:57.606734Z'
+steamid: null
+gogslug: conquests_of_the_longbow
+humblestoreid: ''

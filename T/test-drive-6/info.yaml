@@ -1,0 +1,17 @@
+name: Test Drive 6
+slug: test-drive-6
+year: 1999
+platforms:
+- name: Sega Dreamcast
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/test-drive-6.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-29T11:22:02.027478Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

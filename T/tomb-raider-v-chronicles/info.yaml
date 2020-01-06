@@ -1,0 +1,15 @@
+name: 'Tomb Raider V: Chronicles'
+slug: tomb-raider-v-chronicles
+year: 2000
+platforms:
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/tomb-raider-v-chronicles.jpg
+icon_url: /games/icon/tomb-raider-v-chronicles.png
+is_public: true
+updated: '2019-09-24T23:51:31.986875Z'
+steamid: null
+gogslug: /tomb_raider_the_last_revelation_chronicles
+humblestoreid: ''

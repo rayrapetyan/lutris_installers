@@ -1,0 +1,19 @@
+name: 'Pitfall: The Mayan Adventure'
+slug: pitfall-the-mayan-adventure
+year: 1994
+platforms:
+- name: Atari Jaguar
+- name: Nintendo Game Boy Advance
+- name: Sega 32X
+- name: Sega Genesis / Mega Drive
+- name: Super Nintendo
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/pitfall-the-mayan-adventure.jpg
+icon_url: null
+is_public: true
+updated: '2019-03-01T19:14:46.862024Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,19 @@
+name: 'First Strike: Final Hour'
+slug: first-strike-final-hour
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Indie
+- name: Simulation
+- name: Strategy
+- name: Wargame
+aliases: []
+banner_url: /games/banner/first-strike-final-hour.jpg
+icon_url: /games/icon/first-strike-final-hour.png
+is_public: false
+updated: '2019-08-17T06:49:56.183068Z'
+steamid: 587000
+gogslug: ''
+humblestoreid: ''

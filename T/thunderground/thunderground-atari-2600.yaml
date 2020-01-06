@@ -1,0 +1,31 @@
+id: 15302
+game_id: 29216
+game_slug: thunderground
+name: Thunderground
+year: 1983
+user: te_lanus
+runner: libretro
+slug: thunderground-atari-2600
+version: Atari 2600
+description: null
+notes: ''
+created_at: '2019-09-05T04:23:06.680940Z'
+updated_at: '2019-09-05T04:23:59.798816Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Atari 2600 game file
+  game:
+    core: stelka
+    main_file: file1

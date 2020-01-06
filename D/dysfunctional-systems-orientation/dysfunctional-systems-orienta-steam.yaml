@@ -1,0 +1,24 @@
+id: 14198
+game_id: 15901
+game_slug: dysfunctional-systems-orientation
+name: 'Dysfunctional Systems: Orientation'
+year: 2017
+user: kimchitea
+runner: steam
+slug: dysfunctional-systems-orienta-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-06-19T04:43:33.786437Z'
+updated_at: '2019-10-11T00:01:35.825844Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 337890
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 337890

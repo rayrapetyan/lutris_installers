@@ -1,0 +1,16 @@
+name: 'Civilization IV: Colonization'
+slug: sid-meiers-civilization-iv-colonization
+year: 2008
+platforms:
+- name: Windows
+genres:
+- name: 4X
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/sid-meiers-civilization-iv-colonization.jpg
+icon_url: /games/icon/sid-meiers-civilization-iv-colonization.png
+is_public: true
+updated: '2019-01-23T08:28:53.619161Z'
+steamid: 34470
+gogslug: ''
+humblestoreid: ''

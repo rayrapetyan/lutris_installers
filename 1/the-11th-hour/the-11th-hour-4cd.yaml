@@ -1,0 +1,129 @@
+id: 15528
+game_id: 2251
+game_slug: the-11th-hour
+name: The 11th Hour
+year: null
+user: appoloin
+runner: dosbox
+slug: the-11th-hour-4cd
+version: 4CD
+description: null
+notes: ''
+created_at: '2019-09-14T10:32:14.677593Z'
+updated_at: '2019-10-07T05:09:18.653489Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 255940
+gogid: 1207659000
+gogslug: the_11th_hour
+humblestoreid: ''
+script:
+  installer:
+  - write_file:
+      content: '#!/bin/bash
+
+        src=$1
+
+        dst=$2
+
+        cp -avr "$src/."  "$dst"'
+      file: $CACHE/bulkcopy-alt.sh
+  - chmodx: $CACHE/bulkcopy-alt.sh
+  - execute:
+      args: $GAMEDIR/HDD $GAMEDIR/CDD $GAMEDIR/CDD/DISC1 $GAMEDIR/CDD/DISC2 $GAMEDIR/CDD/DISC3
+        $GAMEDIR/CDD/DISC4
+      file: mkdir
+  - insert-disc:
+      requires: groovie
+      description: Please insert disc 1
+  - execute:
+      args: $DISC "$GAMEDIR/CDD/DISC1"
+      file: $CACHE/bulkcopy-alt.sh
+  - execute:
+      args: -R 775  "$GAMEDIR/CDD/DISC1"
+      file: /bin/chmod
+  - insert-disc:
+      requires: groovie
+      description: Please insert disc 2
+  - execute:
+      args: $DISC "$GAMEDIR/CDD/DISC2"
+      file: $CACHE/bulkcopy-alt.sh
+  - execute:
+      args: -R 775  "$GAMEDIR/CDD/DISC2"
+      file: /bin/chmod
+  - insert-disc:
+      requires: groovie
+      description: Please insert disc 3
+  - execute:
+      args: $DISC "$GAMEDIR/CDD/DISC3"
+      file: $CACHE/bulkcopy-alt.sh
+  - execute:
+      args: -R 775  "$GAMEDIR/CDD/DISC3"
+      file: /bin/chmod
+  - insert-disc:
+      requires: groovie
+      description: Please insert disc 4
+  - execute:
+      args: $DISC "$GAMEDIR/CDD/DISC4"
+      file: $CACHE/bulkcopy-alt.sh
+  - execute:
+      args: -R 775  "$GAMEDIR/CDD/DISC4"
+      file: /bin/chmod
+  - write_file:
+      content: '[sdl]
+
+        sensitivity=30
+
+        [autoexec]
+
+        mount C "$GAMEDIR/HDD" -t dir
+
+        mount D "$GAMEDIR/CDD/DISC1" -t dir
+
+        mount E "$GAMEDIR/CDD/DISC2" -t dir
+
+        mount F "$GAMEDIR/CDD/DISC3" -t dir
+
+        mount G "$GAMEDIR/CDD/DISC4" -t dir
+
+        D:
+
+        go.bat
+
+        exit'
+      file: $GAMEDIR/11th-Hour_setup.conf
+  - task:
+      config_file: $GAMEDIR/11th-Hour_setup.conf
+      working_dir: $GAMEDIR/HDD/
+      name: dosexec
+  - write_file:
+      content: '[sdl]
+
+        sensitivity=30
+
+        [autoexec]
+
+        mount C "$GAMEDIR/HDD" -t dir
+
+        mount D "$GAMEDIR/CDD/DISC1" -t dir
+
+        mount E "$GAMEDIR/CDD/DISC2" -t dir
+
+        mount F "$GAMEDIR/CDD/DISC3" -t dir
+
+        mount G "$GAMEDIR/CDD/DISC4" -t dir
+
+        C:
+
+        cd GAMES
+
+        cd 11H
+
+        go.bat
+
+        exit'
+      file: $GAMEDIR/11th_Hour.conf
+  game:
+    main_file: $GAMEDIR/11th_Hour.conf

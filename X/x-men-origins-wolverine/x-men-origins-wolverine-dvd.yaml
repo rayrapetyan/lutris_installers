@@ -1,0 +1,73 @@
+id: 12952
+game_id: 21420
+game_slug: x-men-origins-wolverine
+name: 'X-Men Origins: Wolverine'
+year: 2009
+user: NanoDrive
+runner: wine
+slug: x-men-origins-wolverine-dvd
+version: DVD
+description: "This script will install \"X-Men Origins: Wolverine\" DVD edition.\r\
+  \nDuring install please let all options by default.\r\nBig thanks to people who\
+  \ gave their time to permit us playing this game in the best conditions."
+notes: "- Supports natively x360 controller\r\n- Known issue: the setup program is\
+  \ a little unstable, there will be no picture during install and it will crash at\
+  \ the end. Happily, the game will be fully installed before the crash. (cf. Wine\
+  \ bug https://bugs.winehq.org/show_bug.cgi?id=35319)\r\n- You will need the game\
+  \ DVD only one time during install\r\n- Please report issue concerning this script\
+  \ on my github page:\r\nhttps://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2019-04-19T18:05:42.233000Z'
+updated_at: '2019-10-12T11:02:40.203385Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  custom-name: X-Men Origins - Wolverine - DVD
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Activision/X-Men Origins - Wolverine(TM)/Binaries/Wolverine.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - insert-disc:
+      requires: Setup/Data/Binaries/Wolverine.exe
+  - task:
+      executable: $GAMEDIR/drive_c/windows/explorer.exe
+      args: /desktop=Wolverine,1024x780 $DISC/setup.exe
+      description: Running setup of the game. Just proceed and keep all settings at
+        their defaults
+      name: wineexec
+  - extract:
+      src: patch
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Activision/X-Men Origins - Wolverine(TM)/Binaries/
+  - task:
+      prefix: $GAMEDIR
+      app: xact
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_DWORD
+      value: '00000000'
+      key: csmt
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D\
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: 0 0 0
+      key: background
+      path: HKEY_CURRENT_USER\Control Panel\Colors\
+  wine:
+    Desktop: true
+  files:
+  - patch: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/X-Men%20Origins%20-%20Wolverine/wolv.zip

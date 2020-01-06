@@ -1,0 +1,24 @@
+id: 8069
+game_id: 11087
+game_slug: skyforge
+name: Skyforge
+year: 2015
+user: crusty
+runner: winesteam
+slug: skyforge-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-06T11:05:04.507933Z'
+updated_at: '2018-05-06T20:42:05.084576Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 414530
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 414530

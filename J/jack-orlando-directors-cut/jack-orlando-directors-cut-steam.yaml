@@ -1,0 +1,24 @@
+id: 5499
+game_id: 1656
+game_slug: jack-orlando-directors-cut
+name: Jack Orlando Director's Cut
+year: null
+user: FakeShemp
+runner: steam
+slug: jack-orlando-directors-cut-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-08-23T09:46:35.267627Z'
+updated_at: '2017-08-27T00:51:55.278936Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 253960
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 253960

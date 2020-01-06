@@ -1,0 +1,38 @@
+id: 4018
+game_id: 667
+game_slug: flatout
+name: FlatOut
+year: 2004
+user: Udi
+runner: wine
+slug: flatout-gog-wine
+version: GOG Wine
+description: null
+notes: ''
+created_at: '2017-05-31T18:17:43.298000Z'
+updated_at: '2019-10-20T00:06:58.438251Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 6220
+gogid: 1207658693
+gogslug: flatout
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES /NOCANCEL
+      name: wineexec
+  files:
+  - setup: N/A:Select the installer downloaded from GOG
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/FlatOut/flatout.exe
+    arch: win32

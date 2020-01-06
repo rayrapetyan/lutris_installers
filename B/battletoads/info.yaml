@@ -1,0 +1,15 @@
+name: Battletoads
+slug: battletoads
+year: 1991
+platforms:
+- name: NES
+genres:
+- name: Beat'em up
+aliases: []
+banner_url: /games/banner/battletoads.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:33.611161Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 653
+game_id: 2819
+game_slug: gang-beasts
+name: Gang Beasts
+year: null
+user: Xodetaetl
+runner: steam
+slug: gang-beasts-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T11:42:01.481000Z'
+updated_at: '2014-09-15T11:52:55.295000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 285900
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 285900

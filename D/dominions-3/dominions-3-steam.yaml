@@ -1,0 +1,24 @@
+id: 1354
+game_id: 3734
+game_slug: dominions-3
+name: Dominions 3
+year: null
+user: Xodetaetl
+runner: steam
+slug: dominions-3-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-02-25T20:25:02.696000Z'
+updated_at: '2015-02-25T20:44:02.303000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 248510
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 248510

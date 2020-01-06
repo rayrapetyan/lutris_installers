@@ -1,0 +1,24 @@
+id: 6336
+game_id: 8428
+game_slug: wuppo
+name: Wuppo
+year: 2016
+user: Bogdacutu
+runner: winesteam
+slug: wuppo-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-11-15T18:03:14.472077Z'
+updated_at: '2017-11-17T00:23:37.868594Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 400630
+gogid: 1173909540
+gogslug: wuppo
+humblestoreid: ''
+script:
+  game:
+    appid: 400630

@@ -1,0 +1,21 @@
+name: 'Rayman 2: The Great Escape'
+slug: rayman-2-the-great-escape
+year: 1999
+platforms:
+- name: Nintendo 3DS
+- name: Nintendo 64
+- name: Nintendo DS
+- name: Nintendo Game Boy Color
+- name: Sega Dreamcast
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/rayman-2-the-great-escape.jpg
+icon_url: null
+is_public: true
+updated: '2019-10-24T23:55:15.619794Z'
+steamid: null
+gogslug: rayman_2_the_great_escape
+humblestoreid: ''

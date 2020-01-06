@@ -1,0 +1,15 @@
+name: 'Castlevania: Lords of Shadow 2'
+slug: castlevania-lords-of-shadow-2
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/castlevania-lords-of-shadow-2.jpg
+icon_url: /games/icon/castlevania-lords-of-shadow-2.png
+is_public: true
+updated: '2019-01-23T08:28:47.861104Z'
+steamid: 239250
+gogslug: ''
+humblestoreid: ''

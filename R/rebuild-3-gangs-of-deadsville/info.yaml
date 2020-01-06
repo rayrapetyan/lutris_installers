@@ -1,0 +1,17 @@
+name: 'Rebuild 3: Gangs of Deadsville'
+slug: rebuild-3-gangs-of-deadsville
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Building
+- name: Strategy
+- name: Survival
+aliases: []
+banner_url: /games/banner/rebuild-3-gangs-of-deadsville.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:56.019289Z'
+steamid: null
+gogslug: rebuild_3_gangs_of_deadsville
+humblestoreid: ''

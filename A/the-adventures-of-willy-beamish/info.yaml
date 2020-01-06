@@ -1,0 +1,17 @@
+name: The Adventures of Willy Beamish
+slug: the-adventures-of-willy-beamish
+year: 1991
+platforms:
+- name: Amiga
+- name: Windows
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/the-adventures-of-willy-beamish.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:38.198009Z'
+steamid: null
+gogslug: the_adventures_of_willy_beamish
+humblestoreid: ''

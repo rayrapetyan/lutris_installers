@@ -1,0 +1,24 @@
+id: 1435
+game_id: 4112
+game_slug: pillars-of-eternity
+name: Pillars of Eternity
+year: 2015
+user: Xodetaetl
+runner: steam
+slug: pillars-of-eternity-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-03-26T17:31:06.756000Z'
+updated_at: '2015-03-26T17:31:10.724000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 291650
+gogid: 1427292148
+gogslug: pillars_of_eternity_hero_edition
+humblestoreid: ''
+script:
+  game:
+    appid: 291650

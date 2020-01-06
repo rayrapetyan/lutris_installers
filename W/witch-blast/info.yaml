@@ -1,0 +1,16 @@
+name: Witch Blast
+slug: witch-blast
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Roguelike
+aliases: []
+banner_url: /games/banner/witch-blast.jpg
+icon_url: null
+is_public: true
+updated: '2019-03-01T22:57:31.360313Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

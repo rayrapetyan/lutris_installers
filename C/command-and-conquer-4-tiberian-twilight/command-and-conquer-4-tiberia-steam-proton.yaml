@@ -1,0 +1,24 @@
+id: 13211
+game_id: 1406
+game_slug: command-and-conquer-4-tiberian-twilight
+name: 'Command & Conquer 4: Tiberian Twilight'
+year: 2010
+user: AlphaAngel
+runner: steam
+slug: command-and-conquer-4-tiberia-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-04-29T13:39:12.960000Z'
+updated_at: '2019-05-18T07:01:07.598395Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 47700
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 47700

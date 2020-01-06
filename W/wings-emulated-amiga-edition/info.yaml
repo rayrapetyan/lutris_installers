@@ -1,0 +1,17 @@
+name: Wings (Emulated Amiga Edition)
+slug: wings-emulated-amiga-edition
+year: 1989
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Fighting
+- name: Simulation
+aliases: []
+banner_url: /games/banner/wings-emulated-amiga-edition.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:09.073466Z'
+steamid: null
+gogslug: wings_classic
+humblestoreid: ''

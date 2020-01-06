@@ -1,0 +1,24 @@
+id: 9610
+game_id: 9169
+game_slug: another-brick-in-the-mall
+name: Another Brick in the Mall
+year: null
+user: jehdin
+runner: winesteam
+slug: another-brick-in-the-mall-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-06T08:44:19.145117Z'
+updated_at: '2018-08-07T02:32:51.757913Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 521150
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 521150

@@ -1,0 +1,24 @@
+id: 626
+game_id: 1676
+game_slug: drunken-robot-pornography
+name: Drunken Robot Pornography
+year: 2014
+user: Xodetaetl
+runner: steam
+slug: drunken-robot-pornography-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-14T21:39:39.541000Z'
+updated_at: '2014-09-14T21:47:57.154000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 209060
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 209060

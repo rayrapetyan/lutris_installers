@@ -1,0 +1,17 @@
+name: Blue Max
+slug: blue-max
+year: null
+platforms:
+- name: Atari 800
+- name: Commodore 64
+- name: ZX Spectrum
+genres:
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/blue-max.jpg
+icon_url: null
+is_public: true
+updated: '2019-03-30T07:24:37.690605Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

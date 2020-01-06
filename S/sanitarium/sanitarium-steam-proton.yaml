@@ -1,0 +1,24 @@
+id: 13258
+game_id: 7661
+game_slug: sanitarium
+name: Sanitarium
+year: 1998
+user: kimchitea
+runner: steam
+slug: sanitarium-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-05-01T10:01:15.530000Z'
+updated_at: '2019-05-19T07:09:45.514192Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 284050
+gogid: 1207658811
+gogslug: sanitarium
+humblestoreid: ''
+script:
+  game:
+    appid: 284050

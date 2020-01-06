@@ -1,0 +1,39 @@
+id: 4741
+game_id: 1030
+game_slug: nethergate-resurrection
+name: 'Nethergate: Resurrection'
+year: null
+user: FakeShemp
+runner: wine
+slug: nethergate-resurrection-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-30T20:09:06.189000Z'
+updated_at: '2018-05-19T03:41:54.460136Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 218020
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Spiderweb Software/Nethergate/Nethergate Res/Nethergate.exe
+    arch: win32
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/NethergateFullv101b.exe
+      prefix: $GAMEDIR
+      args: /s /v"/qn"
+      name: wineexec
+  wine:
+    Desktop: true
+  files:
+  - file1: N/A:Please select the Humble archive

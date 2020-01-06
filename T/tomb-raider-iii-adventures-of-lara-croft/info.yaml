@@ -1,0 +1,19 @@
+name: 'Tomb Raider III: Adventures of Lara Croft'
+slug: tomb-raider-iii-adventures-of-lara-croft
+year: 1998
+platforms:
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases:
+- slug: tomb-raider-iii
+  name: 'Tomb Raider III: Adventures of Lara Croft'
+banner_url: /games/banner/tomb-raider-iii-adventures-of-lara-croft.jpg
+icon_url: /games/icon/tomb-raider-iii-adventures-of-lara-croft.png
+is_public: true
+updated: '2019-09-24T23:48:00.976323Z'
+steamid: 225320
+gogslug: tomb_raider_123
+humblestoreid: ''

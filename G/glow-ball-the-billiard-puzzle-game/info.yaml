@@ -1,0 +1,15 @@
+name: '"Glow Ball" - The billiard puzzle game'
+slug: glow-ball-the-billiard-puzzle-game
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/glow-ball-the-billiard-puzzle-game.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:40.346529Z'
+steamid: 388390
+gogslug: ''
+humblestoreid: ''

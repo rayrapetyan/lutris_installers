@@ -1,0 +1,16 @@
+name: "TUNG \u2014 The Ultimate Nerd Game"
+slug: tung-the-ultimate-nerd-game
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Programming
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/tung-the-ultimate-nerd-game.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:56.999623Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

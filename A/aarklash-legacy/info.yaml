@@ -1,0 +1,16 @@
+name: 'Aarklash: Legacy'
+slug: aarklash-legacy
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: Real-time strategy
+- name: RPG
+aliases: []
+banner_url: /games/banner/aarklash-legacy.jpg
+icon_url: /games/icon/aarklash-legacy.png
+is_public: true
+updated: '2019-01-23T08:28:10.117340Z'
+steamid: 222640
+gogslug: aarklash_legacy
+humblestoreid: ''

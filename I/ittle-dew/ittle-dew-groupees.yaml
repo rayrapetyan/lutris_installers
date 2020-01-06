@@ -1,0 +1,28 @@
+id: 6214
+game_id: 510
+game_slug: ittle-dew
+name: Ittle Dew
+year: 2013
+user: FakeShemp
+runner: linux
+slug: ittle-dew-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-11-01T18:09:21.140008Z'
+updated_at: '2017-11-01T18:11:33.331756Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 241320
+gogid: 1207659258
+gogslug: ittle_dew
+humblestoreid: ''
+script:
+  exe: IttleDew.x86
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive

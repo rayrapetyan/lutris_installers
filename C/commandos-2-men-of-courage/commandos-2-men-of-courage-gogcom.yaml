@@ -1,0 +1,53 @@
+id: 2520
+game_id: 795
+game_slug: commandos-2-men-of-courage
+name: 'Commandos 2: Men of Courage'
+year: 2001
+user: ssf
+runner: wine
+slug: commandos-2-men-of-courage-gogcom
+version: GOG.com
+description: GOG standalone version
+notes: ''
+created_at: '2016-08-21T14:05:39.797691Z'
+updated_at: '2016-09-30T20:53:28.449185Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 6830
+gogid: 1207658803
+gogslug: commandos_2_3
+humblestoreid: ''
+script:
+  gogid: commandos_2_3
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      type: REG_SZ
+      value: ''
+      key: winemenubuilder.exe
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /VERYSILENT /SP- /NOCANCEL /SUPPRESSMSGBOXES '/DIR=C:/game'
+      description: Installing...
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Disabling unused WINE features
+      app: sandbox
+      silent: true
+      name: winetricks
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/game/comm2.exe
+    arch: win32

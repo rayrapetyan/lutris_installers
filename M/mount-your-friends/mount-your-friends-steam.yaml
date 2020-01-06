@@ -1,0 +1,24 @@
+id: 4187
+game_id: 3239
+game_slug: mount-your-friends
+name: Mount Your Friends
+year: null
+user: ibrokemypie
+runner: winesteam
+slug: mount-your-friends-steam
+version: Steam
+description: ''
+notes: Requires xna, wmp2010 and visual basic runtime
+created_at: '2017-06-07T10:28:14.117054Z'
+updated_at: '2017-06-08T16:18:29.478277Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 296470
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 296470

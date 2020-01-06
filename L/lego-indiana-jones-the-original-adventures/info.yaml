@@ -1,0 +1,23 @@
+name: 'LEGO Indiana Jones: The Original Adventures'
+slug: lego-indiana-jones-the-original-adventures
+year: 2008
+platforms:
+- name: Nintendo DS
+- name: Nintendo Wii
+- name: Sony PlayStation 2
+- name: Sony PSP
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Comedy
+aliases:
+- slug: legor-indiana-jonestm-the-original-adventures
+  name: "LEGO\u24C7 Indiana Jones\u2122: The Original Adventures"
+banner_url: /games/banner/lego-indiana-jones-the-original-adventures.jpg
+icon_url: /games/icon/lego-indiana-jones-the-original-adventures.png
+is_public: true
+updated: '2019-10-28T00:14:53.849860Z'
+steamid: 32330
+gogslug: lego_indiana_jones_the_original_adventures
+humblestoreid: ''

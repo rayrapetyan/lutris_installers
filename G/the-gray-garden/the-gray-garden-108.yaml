@@ -1,0 +1,36 @@
+id: 10903
+game_id: 23361
+game_slug: the-gray-garden
+name: The Gray Garden
+year: 2012
+user: cxf
+runner: wine
+slug: the-gray-garden-108
+version: '1.08'
+description: null
+notes: ''
+created_at: '2018-11-18T09:12:50.575000Z'
+updated_at: '2018-11-18T09:15:58.827417Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/TheGrayGarden
+      file: zip
+  files:
+  - zip: http://vgperson.com/games/TheGrayGarden108.zip
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/TheGrayGarden/StartWindowed.exe
+    arch: win32

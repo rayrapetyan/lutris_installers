@@ -1,0 +1,16 @@
+name: Psycho Pinball
+slug: psycho-pinball
+year: 1995
+platforms:
+- name: MS-DOS
+- name: Sega Genesis / Mega Drive
+genres:
+- name: Pinball
+aliases: []
+banner_url: /games/banner/psycho-pinball.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-16T09:33:27.206108Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

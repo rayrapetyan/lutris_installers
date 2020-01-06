@@ -1,0 +1,24 @@
+id: 5158
+game_id: 6125
+game_slug: master-of-orion-3
+name: Master of Orion 3
+year: 2003
+user: NuSuey
+runner: winesteam
+slug: master-of-orion-3-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-07-22T19:03:14.256190Z'
+updated_at: '2017-08-27T21:49:50.760790Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 410990
+gogid: 1207658858
+gogslug: master_of_orion_3
+humblestoreid: ''
+script:
+  game:
+    appid: 410990

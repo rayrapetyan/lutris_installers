@@ -1,0 +1,41 @@
+id: 13329
+game_id: 27149
+game_slug: starship-troopers
+name: Starship Troopers
+year: 2005
+user: nickerdeemes
+runner: wine
+slug: starship-troopers-dvd
+version: DVD
+description: null
+notes: Pre-recorded cut-scenes only display a white screen but can be skipped with
+  ESC while in engines scenes seem to play fine.  Otherwise the game seems to run
+  well.
+created_at: '2019-05-04T14:26:02.916000Z'
+updated_at: '2019-05-18T06:53:30.293390Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Installing Starship Troopers...
+      name: wineexec
+  files:
+  - setup: N/A:Select the installer for Starship Troopers (setup.exe)
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Empire Interactive/Strangelite/Starship Troopers/STGame.exe
+    arch: win32

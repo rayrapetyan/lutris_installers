@@ -1,0 +1,24 @@
+id: 7062
+game_id: 15033
+game_slug: metro-conflict-the-origin
+name: 'Metro Conflict: The Origin'
+year: 2017
+user: Rodolfowski
+runner: winesteam
+slug: metro-conflict-the-origin-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-01-10T18:14:36.518369Z'
+updated_at: '2018-01-11T20:43:30.051331Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 662320
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 662320

@@ -1,0 +1,24 @@
+id: 2420
+game_id: 7060
+game_slug: kingdom-new-lands
+name: 'Kingdom: New Lands'
+year: null
+user: RobLoach
+runner: steam
+slug: kingdom-new-lands-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-08-10T15:11:37.661525Z'
+updated_at: '2016-09-09T22:18:48.229310Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: 496300
+gogid: 1473737130
+gogslug: kingdom_new_lands
+humblestoreid: ''
+script:
+  game:
+    appid: 496300

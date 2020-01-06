@@ -1,0 +1,15 @@
+name: Hammerwatch
+slug: hammerwatch
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Hack and slash
+aliases: []
+banner_url: /games/banner/hammerwatch.jpg
+icon_url: /games/icon/hammerwatch.png
+is_public: true
+updated: '2019-01-23T08:29:46.739644Z'
+steamid: 239070
+gogslug: hammerwatch
+humblestoreid: hammerwatch

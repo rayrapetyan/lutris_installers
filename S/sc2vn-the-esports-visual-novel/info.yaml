@@ -1,0 +1,15 @@
+name: SC2VN - The eSports Visual Novel
+slug: sc2vn-the-esports-visual-novel
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/sc2vn-the-esports-visual-novel.jpg
+icon_url: /games/icon/sc2vn-the-esports-visual-novel.png
+is_public: true
+updated: '2019-01-23T08:31:07.903249Z'
+steamid: 404480
+gogslug: ''
+humblestoreid: ''

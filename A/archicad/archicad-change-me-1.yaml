@@ -1,0 +1,94 @@
+id: 15998
+game_id: 23214
+game_slug: archicad
+name: ArchiCAD
+year: 2018
+user: tibicen
+runner: wine
+slug: archicad-change-me-1
+version: Change Me
+description: null
+notes: ''
+created_at: '2019-10-05T14:11:55.371573Z'
+updated_at: '2019-10-05T14:11:55.371604Z'
+draft: false
+published: false
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/GRAPHISOFT/ARCHICAD 22/ARCHICAD.exe
+    arch: win64
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine Prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .NET 4.7.2
+      app: dotnet472
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing vcrun2005
+      app: vcrun2005
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing vcrun2008
+      app: vcrun2008
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing vcrun2012
+      app: vcrun2012
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing vcrun2015
+      app: vcrun2015
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing vcrun2017
+      app: vcrun2017
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing MS Line Services
+      app: msls31
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Quartz
+      app: quartz
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Set Windows version to Windows 7
+      app: win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: file
+      prefix: $GAMEDIR
+      description: Running installer
+      name: wineexec
+  wine:
+    version: tkg-3.21-x86_64
+  files:
+  - file: https://dl.graphisoft.com/AC/22/INT/AC/ARCHICAD-22-INT-3006-1.4.exe

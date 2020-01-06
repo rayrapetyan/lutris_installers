@@ -1,0 +1,24 @@
+id: 6430
+game_id: 8253
+game_slug: westerado-double-barreled
+name: 'Westerado: Double Barreled'
+year: null
+user: Stoney_Fish
+runner: winesteam
+slug: westerado-double-barreled-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-11-25T19:49:44.602670Z'
+updated_at: '2017-11-28T18:16:31.072993Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 275200
+gogid: 1892469133
+gogslug: westerado_double_barreled
+humblestoreid: ''
+script:
+  game:
+    appid: 275200

@@ -1,0 +1,24 @@
+id: 590
+game_id: 2152
+game_slug: al-emmo-and-the-lost-dutchmans-mine
+name: Al Emmo and the Lost Dutchman's Mine
+year: 2006
+user: Xodetaetl
+runner: steam
+slug: al-emmo-and-the-lost-dutchmans-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2014-09-14T21:00:30.776000Z'
+updated_at: '2014-09-14T21:00:39.765000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 296850
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 296850

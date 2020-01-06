@@ -1,0 +1,31 @@
+id: 10897
+game_id: 23397
+game_slug: monster-hunting-for-love
+name: Monster Hunting... For Love!
+year: 2018
+user: kimchitea
+runner: linux
+slug: monster-hunting-for-love-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2018-11-18T03:18:21.664000Z'
+updated_at: '2018-11-18T09:01:22.635706Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: MonsterHuntingForLove.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/MonsterHuntingForLove.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/MonsterHuntingForLove
+  - chmodx: $GAMEDIR/lib/linux-x86_64/MonsterHuntingForLove
+  files:
+  - file1: N/A:Please select the game archive

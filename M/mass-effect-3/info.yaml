@@ -1,0 +1,16 @@
+name: Mass Effect 3
+slug: mass-effect-3
+year: 2012
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: RPG
+aliases: []
+banner_url: /games/banner/mass-effect-3.jpg
+icon_url: /games/icon/mass-effect-3.png
+is_public: true
+updated: '2019-02-16T06:04:15.388636Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

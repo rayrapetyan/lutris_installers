@@ -1,0 +1,38 @@
+id: 16972
+game_id: 5339
+game_slug: fallout-4
+name: Fallout 4
+year: 2015
+user: Heehaaw
+runner: steam
+slug: fallout-4-steam-proton
+version: Steam Proton
+description: The Steam Proton version of the game mostly works. See the Technical
+  notes for common troubleshooting.
+notes: "If your audio does not work, go to you Steam library -> Fallout 4 -> Preferences\
+  \ -> Set Launch Command and put 'WINEDLLOVERRIDES=\"xaudio2_7=n,b\" %command%' there.\r\
+  \n\r\nIf you want to fix the annoying issues with Xserver multi-monitor mouse, set\
+  \ your other monitor (the one you do NOT want to play on) as primary and configure\
+  \ the game window to run at an offset (on the monitor you want to play on). Let's\
+  \ say we have two monitors - the one on the left @1920x1080 set as Primary and the\
+  \ other (on the right, the one you actually want your game to display on) @2560x1080.\
+  \ Put something like this into your Fallout4.ini:\r\n\r\niLocation X=1920\r\niLocation\
+  \ Y=0\r\niPresentInterval=0\r\nbBorderless=1\r\nbFull Screen=0\r\nbMaximizeWindow=1\r\
+  \niSize H=1080\r\niSize W=2560\r\n\r\n This piece of config will offset the game\
+  \ window by 1920 pixels to the right, set it to 2560x1080 borderless, disable fullscreen\
+  \ and disable in-game v-sync. Going into the Options from the game launcher will\
+  \ screw these up so make sure you set your graphics options before you do these\
+  \ tweaks."
+created_at: '2019-11-23T17:19:41.877000Z'
+updated_at: '2019-12-23T19:59:57.825368Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 377160
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 377160

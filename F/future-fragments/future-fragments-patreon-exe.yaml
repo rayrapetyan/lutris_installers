@@ -1,0 +1,40 @@
+id: 11355
+game_id: 24437
+game_slug: future-fragments
+name: Future Fragments
+year: null
+user: cab404
+runner: wine
+slug: future-fragments-patreon-exe
+version: Patreon exe
+description: null
+notes: "Please make sure you got \"Prefer system libraries\" disabled in \"Preferences\"\
+  \r\nAlso, consider enabling DXVK:  https://github.com/lutris/lutris/wiki/How-to:-DXVK"
+created_at: '2018-12-26T14:44:00.237000Z'
+updated_at: '2019-12-23T20:08:14.650322Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Increasing video memory size
+      app: videomemorysize=2048
+      name: winetricks
+  files:
+  - ffexe: N/A:Select Future Fragments EXE
+  game:
+    prefix: $GAMEDIR
+    exe: $ffexe
+    arch: win64

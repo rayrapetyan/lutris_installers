@@ -1,0 +1,15 @@
+name: Zork III
+slug: zork-iii
+year: 1982
+platforms:
+- name: MS-DOS
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/zork-iii.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-21T06:58:58.621620Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

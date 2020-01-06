@@ -1,0 +1,17 @@
+name: Superfighters Deluxe
+slug: superfighters-deluxe
+year: 2012
+platforms:
+- name: Windows
+genres:
+- name: Fighting
+- name: Platform
+- name: Shooter
+aliases: []
+banner_url: /games/banner/superfighters-deluxe.jpg
+icon_url: null
+is_public: true
+updated: '2019-02-15T16:37:28.056787Z'
+steamid: 855860
+gogslug: ''
+humblestoreid: ''

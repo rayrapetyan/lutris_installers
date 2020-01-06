@@ -1,0 +1,24 @@
+id: 1757
+game_id: 120
+game_slug: heretic-shadow-of-the-serpent-riders
+name: 'Heretic: Shadow of the Serpent Riders'
+year: 1996
+user: RobLoach
+runner: winesteam
+slug: heretic-shadow-of-the-serpent-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: ''
+created_at: '2015-12-27T18:33:23.865684Z'
+updated_at: '2015-12-30T00:37:01.605321Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 2390
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 2390

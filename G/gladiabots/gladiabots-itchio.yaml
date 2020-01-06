@@ -1,0 +1,31 @@
+id: 13727
+game_id: 13665
+game_slug: gladiabots
+name: Gladiabots
+year: null
+user: moars42
+runner: linux
+slug: gladiabots-itchio
+version: itch.io
+description: Install the game from the archive provided by itch.io
+notes: ''
+created_at: '2019-05-25T18:31:19.144000Z'
+updated_at: '2019-06-01T06:23:27.049237Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 871930
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/
+      file: setup
+  - chmodx: $GAMEDIR/Gladiabots
+  files:
+  - setup: 'N/A: Select the gladiabots archive from itch.io'
+  game:
+    exe: $GAMEDIR/Gladiabots

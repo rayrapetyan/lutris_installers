@@ -1,0 +1,17 @@
+name: 'Planescape: Torment: Enhanced Edition'
+slug: planescape-torment-enhanced-edition
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: RPG
+- name: Strategy
+aliases: []
+banner_url: /games/banner/planescape-torment-enhanced-edition.jpg
+icon_url: /games/icon/planescape-torment-enhanced-edition.png
+is_public: true
+updated: '2019-01-23T08:30:45.829316Z'
+steamid: 466300
+gogslug: planescape_torment_enhanced_edition
+humblestoreid: ''

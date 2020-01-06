@@ -1,0 +1,17 @@
+name: 'Deadlock 2: Shrine Wars'
+slug: deadlock-2-shrine-wars
+year: 1998
+platforms:
+- name: Windows
+genres:
+- name: Sci-fi
+- name: Strategy
+- name: Turn-based
+aliases: []
+banner_url: /games/banner/deadlock-2-shrine-wars.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:06.465685Z'
+steamid: null
+gogslug: deadlock_2_shrine_wars
+humblestoreid: ''

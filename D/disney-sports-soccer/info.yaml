@@ -1,0 +1,15 @@
+name: 'Disney Sports: Soccer'
+slug: disney-sports-soccer
+year: 2002
+platforms:
+- name: GameCube
+genres:
+- name: Sports
+aliases: []
+banner_url: /games/banner/disney-sports-soccer.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:13.035943Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

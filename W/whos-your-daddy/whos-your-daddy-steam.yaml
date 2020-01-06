@@ -1,0 +1,24 @@
+id: 4342
+game_id: 5768
+game_slug: whos-your-daddy
+name: Who's Your Daddy
+year: null
+user: joonatoona
+runner: steam
+slug: whos-your-daddy-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-06-14T04:26:08.787395Z'
+updated_at: '2017-06-14T16:09:28.484349Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 427730
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 427730

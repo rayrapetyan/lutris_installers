@@ -1,0 +1,18 @@
+name: 'Zork Nemesis: The Forbidden Lands'
+slug: zork-nemesis-the-forbidden-lands
+year: 1996
+platforms:
+- name: MS-DOS
+- name: Windows
+genres:
+- name: Adventure
+aliases:
+- slug: zork-nemesis
+  name: zork nemesis
+banner_url: /games/banner/zork-nemesis-the-forbidden-lands.jpg
+icon_url: /games/icon/zork-nemesis-the-forbidden-lands.png
+is_public: true
+updated: '2019-11-17T06:20:49.212538Z'
+steamid: 571060
+gogslug: zork_nemesis_the_forbidden_lands
+humblestoreid: ''

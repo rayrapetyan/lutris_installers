@@ -1,0 +1,15 @@
+name: Monolith
+slug: monolith
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/monolith.jpg
+icon_url: /games/icon/monolith.png
+is_public: true
+updated: '2019-04-28T05:54:19.119678Z'
+steamid: 603960
+gogslug: ''
+humblestoreid: ''

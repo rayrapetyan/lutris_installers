@@ -1,0 +1,25 @@
+name: Congo Bongo
+slug: congo-bongo
+year: 1983
+platforms:
+- name: Apple //e
+- name: Arcade
+- name: Atari 2600
+- name: Atari 5200
+- name: Atari 800
+- name: Colecovision
+- name: Commodore 64
+- name: Commodore VIC-20
+- name: MS-DOS
+- name: Sega Master System
+- name: Texas Instruments TI-99/4A
+genres:
+- name: Platformer
+aliases: []
+banner_url: /games/banner/congo-bongo.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-04T18:47:42.498529Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

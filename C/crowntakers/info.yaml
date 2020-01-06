@@ -1,0 +1,16 @@
+name: Crowntakers
+slug: crowntakers
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Roguelike
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/crowntakers.jpg
+icon_url: /games/icon/crowntakers.png
+is_public: true
+updated: '2019-01-23T08:29:01.093539Z'
+steamid: 294370
+gogslug: ''
+humblestoreid: ''

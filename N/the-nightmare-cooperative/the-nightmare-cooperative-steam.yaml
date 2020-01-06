@@ -1,0 +1,24 @@
+id: 1346
+game_id: 3762
+game_slug: the-nightmare-cooperative
+name: The Nightmare Cooperative
+year: null
+user: Xodetaetl
+runner: steam
+slug: the-nightmare-cooperative-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-02-25T19:46:10.090000Z'
+updated_at: '2015-02-25T20:44:02.833000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 310070
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 310070

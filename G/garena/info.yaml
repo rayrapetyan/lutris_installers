@@ -1,0 +1,17 @@
+name: Garena
+slug: garena
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Platform
+aliases:
+- slug: garena-installer-id
+  name: Garena Installer ID
+banner_url: /games/banner/garena.jpg
+icon_url: null
+is_public: true
+updated: '2019-11-16T05:23:51.058951Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

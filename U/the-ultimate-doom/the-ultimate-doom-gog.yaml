@@ -1,0 +1,88 @@
+id: 9913
+game_id: 125
+game_slug: the-ultimate-doom
+name: The Ultimate Doom
+year: 1995
+user: ugly
+runner: dosbox
+slug: the-ultimate-doom-gog
+version: GOG
+description: Uses the files from the Windows installer from GOG.
+notes: "No audio with pre-configured settings from Windows installer (Linux Mint 19).\r\
+  \n\r\nTo set up audio:\r\nMethod 1 (easier, worse MIDI quality):\r\n   I - Configure\
+  \ --> Game Options --> Main File --> Select 'dosbox_doom_settings.conf'\r\n   II\
+  \ - Run the game and you'll start the Setup\r\n   III - Choose Music Card --> Sound\
+  \ Blaster --> 220\r\n   IV - Choose Sound FX Card --> Sound Blaster --> 220 -->\
+  \ 7 --> 1 --> 3\r\n   V - Save Parameters and Launch Doom\r\n   VI - Exit game,\
+  \ Configure --> Game Options --> Main File --> Select 'dosbox_doom_single.conf'\r\
+  \n\r\nMethod 2 (more setup, better MIDI quality):\r\n   I - Configure --> Game Options\
+  \ --> Main File --> Select 'dosbox_doom_settings.conf'\r\n   II - Run the game and\
+  \ you'll start the Setup\r\n   III - Choose Music Card --> General MIDI --> 330\r\
+  \n   IV - Choose Sound FX Card --> Sound Blaster --> 220 --> 7 --> 1 --> 3\r\n \
+  \  V - Save Parameters and Launch Doom\r\n   VI - Exit game, Configure --> Game\
+  \ Options --> Main File --> Select 'dosbox_doom_single.conf'\r\n   VII - Need to\
+  \ install fluid-soundfont-gm and fluidsynth.  For Mint 19:\r\nsudo apt install -y\
+  \ fluid-soundfont-gm fluidsynth\r\n  VIII - Open terminal and run the command (needs\
+  \ to be run each time you want to play):\r\nfluidsynth -l -s -i -aalsa -o audio.alsa.device=default\
+  \ /usr/share/sounds/sf2/FluidR3_GM.sf2\r\n  IX - Start the game."
+created_at: '2018-08-27T23:24:28.438000Z'
+updated_at: '2018-08-28T07:21:25.612773Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 2280
+gogid: 1440164514
+gogslug: the_ultimate_doom
+humblestoreid: ''
+script:
+  main_file: $GAMEDIR/DOSBOX/dosbox_doom_single.conf
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file2
+  - execute:
+      args: -d "$CACHE" "$file1"
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/app
+      dst: $GAMEDIR
+  - merge:
+      src: $GAMEDIR/dosbox_doom_single.conf
+      dst: $GAMEDIR/DOSBOX
+  - merge:
+      src: $GAMEDIR/dosbox_doom_settings.conf
+      dst: $GAMEDIR/DOSBOX
+  - merge:
+      src: $GAMEDIR/dosbox_doom.conf
+      dst: $GAMEDIR/DOSBOX
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/DOSBOX/dosbox_doom.conf
+  - write_config:
+      section: sdl
+      key: output
+      value: overlay
+      file: $GAMEDIR/DOSBOX/dosbox_doom.conf
+  - write_config:
+      section: sdl
+      key: fullscreen
+      value: false
+      file: $GAMEDIR/DOSBOX/dosbox_doom.conf
+  - write_config:
+      section: sdl
+      key: fullresolution
+      value: 1920x1080
+      file: $GAMEDIR/DOSBOX/dosbox_doom.conf
+  - write_config:
+      section: midi
+      key: midiconfig
+      value: '128:0'
+      file: $GAMEDIR/DOSBOX/dosbox_doom.conf
+  files:
+  - file1: N/A:Please select the GOG installer
+  - file2: https://lutris.net/files/tools/innoextract.tar.gz
+  game:
+    config_file: $GAMEDIR/DOSBOX/dosbox_doom.conf

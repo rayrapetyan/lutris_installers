@@ -1,0 +1,53 @@
+id: 11261
+game_id: 24343
+game_slug: vegas-pro-15-edit
+name: VEGAS Pro 15 Edit
+year: 2018
+user: secon
+runner: wine
+slug: vegas-pro-15-edit-standalone
+version: Standalone
+description: null
+notes: Throws an error about connection just press ignore.
+created_at: '2018-12-19T00:58:00.252000Z'
+updated_at: '2019-12-24T10:58:29.141727Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 689790
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/VEGAS/VEGAS Pro 15.0/vegas150.exe
+    arch: win64
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine Prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Visual C++ 2008-2017
+      app: vcrun2008 vcrun2010 vcrun2012 vcrun2013 vcrun2017
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .NET 4.7.2
+      app: dotnet472 win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: vegas
+      prefix: $GAMEDIR
+      description: Running Vegas Pro 15 Edit setup
+      name: wineexec
+  wine:
+    version: tkg-4.0-x86_64
+  files:
+  - vegas: N/A:Select Vegas Pro 15 Edit Installer

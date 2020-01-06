@@ -1,0 +1,30 @@
+id: 8697
+game_id: 7691
+game_slug: the-powder-toy
+name: Powder Toy
+year: null
+user: BrightOne
+runner: linux
+slug: the-powder-toy-933
+version: '93.3'
+description: null
+notes: ''
+created_at: '2018-06-12T12:03:52.892765Z'
+updated_at: '2018-06-13T06:24:45.121892Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      file: archive
+  files:
+  - archive: http://powdertoy.co.uk/Download/powder-lin32.zip
+  game:
+    exe: powder

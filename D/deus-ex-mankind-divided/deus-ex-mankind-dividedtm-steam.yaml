@@ -1,0 +1,24 @@
+id: 3333
+game_id: 7843
+game_slug: deus-ex-mankind-divided
+name: 'Deus Ex: Mankind Divided'
+year: 2016
+user: uso
+runner: steam
+slug: deus-ex-mankind-dividedtm-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-03-14T12:35:51.421141Z'
+updated_at: '2017-03-16T22:44:37.256971Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 337000
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 337000

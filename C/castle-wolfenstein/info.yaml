@@ -1,0 +1,21 @@
+name: Castle Wolfenstein
+slug: castle-wolfenstein
+year: 1981
+platforms:
+- name: Apple //e
+- name: Atari 400
+- name: Atari 800
+- name: Commodore 64
+- name: MS-DOS
+genres:
+- name: Adventure
+- name: Shooter
+- name: Stealth
+aliases: []
+banner_url: /games/banner/castle-wolfenstein.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:47.951373Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

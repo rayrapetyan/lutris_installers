@@ -1,0 +1,29 @@
+id: 4250
+game_id: 1542
+game_slug: teslagrad
+name: Teslagrad
+year: 2013
+user: FakeShemp
+runner: linux
+slug: teslagrad-humble-64bit
+version: Humble (64bit)
+description: ''
+notes: ''
+created_at: '2017-06-09T20:20:59.209000Z'
+updated_at: '2017-06-11T00:14:48.499629Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 249590
+gogid: 1207660433
+gogslug: teslagrad
+humblestoreid: ''
+script:
+  exe: Teslagrad
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Teslagrad
+  files:
+  - file1: N/A:Please select the Humble archive

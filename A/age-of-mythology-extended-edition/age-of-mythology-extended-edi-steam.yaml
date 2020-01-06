@@ -1,0 +1,30 @@
+id: 3166
+game_id: 3645
+game_slug: age-of-mythology-extended-edition
+name: 'Age of Mythology: Extended Edition'
+year: 2014
+user: milgar
+runner: winesteam
+slug: age-of-mythology-extended-edi-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-01-06T17:42:40.871000Z'
+updated_at: '2018-01-01T15:42:40.411470Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 266840
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      app: mfc42
+      silent: true
+      name: winetricks
+  game:
+    appid: 266840

@@ -1,0 +1,16 @@
+name: 'Batman: The Brave and The Bold - The Videogame'
+slug: batman-the-brave-and-the-bold-the-videogame
+year: 2010
+platforms:
+- name: Nintendo DS
+- name: Nintendo Wii
+genres:
+- name: Platformer
+aliases: []
+banner_url: /games/banner/batman-the-brave-and-the-bold-the-videogame.jpg
+icon_url: null
+is_public: true
+updated: '2019-03-29T16:44:21.733184Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

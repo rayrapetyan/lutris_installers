@@ -1,0 +1,16 @@
+name: Mystic Mine
+slug: mystic-mine
+year: 2009
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Arcade
+aliases: []
+banner_url: /games/banner/mystic-mine.jpg
+icon_url: /games/icon/mystic-mine.png
+is_public: false
+updated: '2019-01-23T08:30:29.074004Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

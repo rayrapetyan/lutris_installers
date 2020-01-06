@@ -1,0 +1,15 @@
+name: 'The Pirate: Caribbean Hunt'
+slug: the-pirate-caribbean-hunt
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/the-pirate-caribbean-hunt.jpg
+icon_url: /games/icon/the-pirate-caribbean-hunt.png
+is_public: true
+updated: '2019-01-23T08:31:45.811726Z'
+steamid: 512470
+gogslug: ''
+humblestoreid: ''

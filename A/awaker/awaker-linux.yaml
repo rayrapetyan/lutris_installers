@@ -1,0 +1,29 @@
+id: 6494
+game_id: 14988
+game_slug: awaker
+name: Awaker
+year: 2008
+user: fanotriel
+runner: linux
+slug: awaker-linux
+version: Linux
+description: null
+notes: ''
+created_at: '2017-11-30T01:51:15.027840Z'
+updated_at: '2017-11-30T01:54:50.729835Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Awaker/Awaker_linux
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: game
+  files:
+  - game: http://www.jeuxlinux.fr/ftp/files/awaker_pc.zip

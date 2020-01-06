@@ -1,0 +1,16 @@
+name: Mario Golf
+slug: mario-golf
+year: 1999
+platforms:
+- name: Nintendo 64
+genres:
+- name: Arcade
+- name: Sports
+aliases: []
+banner_url: /games/banner/mario-golf.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:17.623752Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

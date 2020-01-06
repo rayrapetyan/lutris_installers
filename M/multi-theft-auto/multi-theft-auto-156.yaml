@@ -1,0 +1,45 @@
+id: 4705
+game_id: 11954
+game_slug: multi-theft-auto
+name: Multi Theft Auto
+year: 2005
+user: Lucki
+runner: wine
+slug: multi-theft-auto-156
+version: 1.5.6
+description: Includes downgrade of GTA:SA to v1.0.
+notes: Currently does not work according to https://wiki.multitheftauto.com/wiki/Client_on_Linux_Manual
+created_at: '2017-06-28T13:22:16.441000Z'
+updated_at: '2019-10-26T00:19:33.589535Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: grand-theft-auto-san-andreas
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $downgrade
+  - task:
+      executable: $CACHE/gtasapatch.exe
+      prefix: $GAMEDIR
+      description: Downgrading GTA:SA...
+      name: wineexec
+  - task:
+      executable: $mta
+      prefix: $GAMEDIR
+      args: /silent
+      description: Installing MTA...
+      name: wineexec
+  files:
+  - mta: http://mirror.s4.mtasa.ohbah.com/mtasa/main/mtasa-1.5.6.exe
+  - downgrade: http://files.sa-mp.com/gtasapatch.zip
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/MTA San Andreas 1.5/Multi Theft Auto.exe
+    arch: win32

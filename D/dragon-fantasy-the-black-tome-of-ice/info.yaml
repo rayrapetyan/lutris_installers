@@ -1,0 +1,18 @@
+name: 'Dragon Fantasy: The Black Tome of Ice'
+slug: dragon-fantasy-the-black-tome-of-ice
+year: 2015
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Adventure
+- name: Fantasy
+- name: RPG
+aliases: []
+banner_url: /games/banner/dragon-fantasy-the-black-tome-of-ice.jpg
+icon_url: /games/icon/dragon-fantasy-the-black-tome-of-ice.png
+is_public: true
+updated: '2019-01-23T08:29:16.470357Z'
+steamid: 328000
+gogslug: ''
+humblestoreid: ''

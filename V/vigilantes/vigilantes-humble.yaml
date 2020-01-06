@@ -1,0 +1,35 @@
+id: 9976
+game_id: 21395
+game_slug: vigilantes
+name: Vigilantes
+year: 2017
+user: dimenovelwriter
+runner: linux
+slug: vigilantes-humble
+version: Humble
+description: null
+notes: ''
+created_at: '2018-08-31T00:30:24.938000Z'
+updated_at: '2018-09-06T10:27:49.201433Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 545600
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $file1
+  - write_file:
+      content: '#!/bin/sh if (uname -m | grep "64"); then ARCH="x86_64"; else ARCH="x86";
+        fi; ./VigilantesV*Linux.$ARCH '
+      file: $GAMEDIR/start.sh
+  - chmodx: $GAMEDIR/start.sh
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    exe: $GAMEDIR/start.sh

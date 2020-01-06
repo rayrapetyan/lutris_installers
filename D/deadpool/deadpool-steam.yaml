@@ -1,0 +1,24 @@
+id: 4246
+game_id: 1567
+game_slug: deadpool
+name: Deadpool
+year: 2013
+user: coco
+runner: winesteam
+slug: deadpool-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-06-09T15:40:04.384000Z'
+updated_at: '2017-06-09T16:36:15.361004Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 224060
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 224060

@@ -1,0 +1,16 @@
+name: Pony Island
+slug: pony-island
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Platform
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/pony-island.jpg
+icon_url: /games/icon/pony-island.png
+is_public: true
+updated: '2019-01-23T08:30:47.785037Z'
+steamid: 405640
+gogslug: ''
+humblestoreid: pony-island

@@ -1,0 +1,15 @@
+name: Alien Run
+slug: alien-run
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Casual
+aliases: []
+banner_url: /games/banner/alien-run.jpg
+icon_url: /games/icon/alien-run.png
+is_public: false
+updated: '2019-01-23T08:28:18.731347Z'
+steamid: 485410
+gogslug: ''
+humblestoreid: ''

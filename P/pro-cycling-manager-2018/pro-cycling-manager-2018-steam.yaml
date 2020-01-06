@@ -1,0 +1,27 @@
+id: 9138
+game_id: 19872
+game_slug: pro-cycling-manager-2018
+name: Pro Cycling Manager 2018
+year: 2018
+user: TuiorGames
+runner: winesteam
+slug: pro-cycling-manager-2018-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-10T22:24:00.446941Z'
+updated_at: '2018-07-11T03:12:24.446035Z'
+draft: true
+published: true
+published_by: null
+rating: ''
+steamid: 704230
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    Desktop: true
+  game:
+    appid: 704230
+    arch: win64

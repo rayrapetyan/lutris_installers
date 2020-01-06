@@ -1,0 +1,23 @@
+name: RUNE
+slug: rune
+year: 2000
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Action
+- name: Fantasy
+aliases:
+- slug: rune
+  name: rune
+- slug: rune_classic
+  name: rune classic
+- slug: rune_gold
+  name: rune gold
+banner_url: /games/banner/rune.jpg
+icon_url: /games/icon/rune.png
+is_public: true
+updated: '2019-11-17T07:59:03.076496Z'
+steamid: null
+gogslug: rune_classic
+humblestoreid: ''

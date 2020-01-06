@@ -1,0 +1,24 @@
+id: 1928
+game_id: 2893
+game_slug: you-dont-know-jack-headrush
+name: YOU DON'T KNOW JACK Headrush
+year: null
+user: WildCoder
+runner: winesteam
+slug: you-dont-know-jack-headrush-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-01-20T20:42:40.084882Z'
+updated_at: '2016-09-30T20:40:29.538206Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 260060
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 260060

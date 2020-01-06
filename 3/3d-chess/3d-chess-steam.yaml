@@ -1,0 +1,24 @@
+id: 16606
+game_id: 9927
+game_slug: 3d-chess
+name: 3D Chess
+year: null
+user: alandlatif
+runner: winesteam
+slug: 3d-chess-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-11-04T11:27:22.273095Z'
+updated_at: '2019-11-04T11:27:22.273132Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 535700
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 535700

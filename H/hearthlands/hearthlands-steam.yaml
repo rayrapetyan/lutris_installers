@@ -1,0 +1,24 @@
+id: 1331
+game_id: 3796
+game_slug: hearthlands
+name: Hearthlands
+year: null
+user: Xodetaetl
+runner: steam
+slug: hearthlands-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-02-25T19:38:17.309000Z'
+updated_at: '2015-02-25T20:44:03.764000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 336300
+gogid: 1287972541
+gogslug: hearthlands
+humblestoreid: ''
+script:
+  game:
+    appid: 336300

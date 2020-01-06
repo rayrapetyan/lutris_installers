@@ -1,0 +1,15 @@
+name: Army Men RTS
+slug: army-men-rts
+year: 2002
+platforms:
+- name: Windows
+genres:
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/army-men-rts.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:26.195693Z'
+steamid: 694500
+gogslug: army_men_rts
+humblestoreid: ''

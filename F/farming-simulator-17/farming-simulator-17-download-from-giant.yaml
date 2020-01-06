@@ -1,0 +1,44 @@
+id: 13744
+game_id: 11447
+game_slug: farming-simulator-17
+name: Farming Simulator 17
+year: 2016
+user: LuigiTheHunter
+runner: wine
+slug: farming-simulator-17-download-from-giant
+version: Download from Giant
+description: null
+notes: "Installation instructions:\r\n\r\n- Download the installer from here: https://eshop.giants-software.com/downloads.php\r\
+  \n- Do not create shortcuts from the installer, Lutris will make a shortcut at the\
+  \ end of the installation."
+created_at: '2019-05-26T12:59:43.659000Z'
+updated_at: '2019-06-01T06:27:33.517426Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 447020
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Installing Farming Simulator 17...
+      name: wineexec
+  - execute:
+      command: sed -i 's/D3D_11/OGL_4/g' '$GAMEDIR/drive_c/Program Files (x86)/Farming
+        Simulator 2017/game.xml'
+  files:
+  - setup: N/A:Select the installer for Farming Simulator 17 (setup.exe)
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Farming Simulator 2017/FarmingSimulator2017.exe
+    arch: win64

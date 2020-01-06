@@ -1,0 +1,26 @@
+id: 5873
+game_id: 5229
+game_slug: sonic-lost-world
+name: Sonic Lost World
+year: 2013
+user: strider
+runner: winesteam
+slug: sonic-lost-world-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-10-01T00:59:58.957000Z'
+updated_at: '2017-10-02T01:46:41.060716Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 329440
+gogid: null
+gogslug: ''
+humblestoreid: sonic-lost-world
+script:
+  system:
+    xboxdrv: --trigger-as-button=true --ui-buttonmap A=BTN_2,B=BTN_1,X=BTN_0,Y=BTN_3,START=BTN_8,BACK=BTN_9,GUIDE=BTN_9,LT=BTN_4,RT=BTN_5,LB=BTN_6,RB=BTN_7,TL=BTN_5,TR=KEY_I
+  game:
+    appid: 329440

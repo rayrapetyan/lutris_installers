@@ -1,0 +1,24 @@
+id: 2473
+game_id: 5051
+game_slug: centauri-sector
+name: Centauri Sector
+year: null
+user: gschaffran
+runner: steam
+slug: centauri-sector-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-08-17T18:28:19.473872Z'
+updated_at: '2016-09-16T20:13:12.632100Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 355810
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 355810

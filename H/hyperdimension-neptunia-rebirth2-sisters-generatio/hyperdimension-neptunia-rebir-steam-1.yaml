@@ -1,0 +1,30 @@
+id: 9473
+game_id: 5949
+game_slug: hyperdimension-neptunia-rebirth2-sisters-generatio
+name: Hyperdimension Neptunia Re;Birth2 Sisters Generation
+year: 2015
+user: Firenewt
+runner: winesteam
+slug: hyperdimension-neptunia-rebir-steam-1
+version: steam
+description: null
+notes: ''
+created_at: '2018-07-30T03:41:26.147000Z'
+updated_at: '2018-07-31T18:50:40.833879Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 351710
+gogid: 1863533702
+gogslug: hyperdimension_neptunia_rebirth2_sisters_generation
+humblestoreid: ''
+script:
+  task:
+    prefix: $GAMEDIR/prefix
+    description: Running winetricks...
+    app: xact_jun2010 vcrun2013 devenum quartz wmp9 windowscodecs vcrun2012
+    name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 351710

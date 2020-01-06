@@ -1,0 +1,23 @@
+id: 30
+game_id: 43
+game_slug: spelunky
+name: Spelunky
+year: 2009
+user: strider
+runner: browser
+slug: spelunky-web
+version: Web
+description: HTML5 version
+notes: ''
+created_at: '2013-06-29T19:21:09Z'
+updated_at: '2014-11-17T16:20:37.762000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 239350
+gogid: 1207659257
+gogslug: spelunky
+humblestoreid: ''
+script:
+  main_file: http://tinysubversions.com/game/spelunky/

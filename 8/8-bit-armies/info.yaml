@@ -1,0 +1,17 @@
+name: 8-Bit Armies
+slug: 8-bit-armies
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Real-time
+- name: Strategy
+- name: Tactical
+aliases: []
+banner_url: /games/banner/8-bit-armies.jpg
+icon_url: /games/icon/8-bit-armies.png
+is_public: false
+updated: '2019-01-23T08:28:09.773655Z'
+steamid: 427250
+gogslug: 8bit_armies
+humblestoreid: ''

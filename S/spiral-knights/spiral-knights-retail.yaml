@@ -1,0 +1,31 @@
+id: 2710
+game_id: 536
+game_slug: spiral-knights
+name: Spiral Knights
+year: 2011
+user: ssf
+runner: linux
+slug: spiral-knights-retail
+version: Retail
+description: ''
+notes: 'req: a Java runtime environment'
+created_at: '2016-09-08T13:35:06.907000Z'
+updated_at: '2017-05-16T04:49:09.603752Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 99900
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: spiral
+  installer:
+  - execute:
+      args: --target $GAMEDIR --noexec
+      file: install
+      description: Extracting...
+      terminal: true
+  files:
+  - install: http://gamemedia.spiralknights.com/spiral/client/spiral-install.bin

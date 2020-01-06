@@ -1,0 +1,17 @@
+name: ToeJam & Earl
+slug: toejam-earl
+year: 1991
+platforms:
+- name: Sega Genesis / Mega Drive
+genres:
+- name: Action
+- name: Dungeon crawl
+- name: Roguelike
+aliases: []
+banner_url: /games/banner/toejam-earl.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:52.172471Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

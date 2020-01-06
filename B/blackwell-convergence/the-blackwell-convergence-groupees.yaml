@@ -1,0 +1,39 @@
+id: 5690
+game_id: 1146
+game_slug: blackwell-convergence
+name: The Blackwell Convergence
+year: 2012
+user: FakeShemp
+runner: ags
+slug: the-blackwell-convergence-groupees
+version: Groupees
+description: Uses the files from the Windows Blackwell Bundle from Groupees.
+notes: ''
+created_at: '2017-09-11T16:54:55.912088Z'
+updated_at: '2017-09-11T16:56:32.520868Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 80350
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: Convergence.exe
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - extract:
+      dst: $CACHE
+      file: $file2
+  - execute:
+      args: -d "$CACHE" $CACHE/Convergence_Setup_v11.exe
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/app
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Groupees archive
+  - file2: https://lutris.net/files/tools/innoextract.tar.gz

@@ -1,0 +1,32 @@
+id: 17586
+game_id: 27954
+game_slug: unnamed-sdvx-clone
+name: Unnamed-SDVX-Clone
+year: 2016
+user: drewol
+runner: wine
+slug: unnamed-sdvx-clone-040
+version: 0.4.0
+description: Windows version of the game. The game runs natively on linux if you download
+  and build it yourself.
+notes: ''
+created_at: '2019-12-26T21:15:36.004203Z'
+updated_at: '2019-12-26T21:15:36.004229Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      src: archive
+      dst: $GAMEDIR
+  files:
+  - archive: https://github.com/Drewol/unnamed-sdvx-clone/releases/download/v0.4/usc-game-v0.4.zip
+  game:
+    prefix: $GAMEDIR
+    exe: usc-game.exe

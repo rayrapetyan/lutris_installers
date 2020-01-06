@@ -1,0 +1,37 @@
+id: 6206
+game_id: 1924
+game_slug: knights-of-honor
+name: Knights of Honor
+year: null
+user: jonius
+runner: winesteam
+slug: knights-of-honor-hd-patch
+version: HD Patch
+description: Enables HD resolution, enables German and French and allows to disable
+  introduction videos
+notes: ''
+created_at: '2017-10-30T15:26:32.786000Z'
+updated_at: '2017-11-04T23:05:04.121303Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 25830
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: patch
+      dst: $CACHE
+  - task:
+      executable: patch
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - patch:
+      filename: KoH-PatchHD-v3.1.0-b180.exe
+      url: http://www.moddb.com/downloads/mirror/126017/115/b33164a194ff7d22ba321693c06d49e5/
+  game:
+    appid: 25830

@@ -1,0 +1,25 @@
+id: 16701
+game_id: 26521
+game_slug: truberbrook
+name: Truberbrook
+year: null
+user: Nerdistan
+runner: steam
+slug: truberbrook-steam
+version: Steam
+description: "Tr\xFCberbrook runs fine out of the box."
+notes: "At startup, Tr\xFCberbrook can show a dialog that the game hangs but it isn't.\
+  \ It is perfectly playable without any issues. I played for about an hour."
+created_at: '2019-11-08T14:29:02.086962Z'
+updated_at: '2019-11-08T14:29:02.086988Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 757300
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 757300

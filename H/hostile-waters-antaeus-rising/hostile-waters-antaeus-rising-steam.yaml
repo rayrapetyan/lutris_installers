@@ -1,0 +1,24 @@
+id: 2357
+game_id: 2277
+game_slug: hostile-waters-antaeus-rising
+name: 'Hostile Waters: Antaeus Rising'
+year: null
+user: RobLoach
+runner: winesteam
+slug: hostile-waters-antaeus-rising-steam
+version: Steam
+description: ''
+notes: https://appdb.winehq.org/objectManager.php?sClass=application&iId=6822
+created_at: '2016-07-27T05:06:53.885184Z'
+updated_at: '2016-07-27T05:07:02.039206Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 267980
+gogid: 1207658670
+gogslug: hostile_waters_antaeus_rising
+humblestoreid: ''
+script:
+  game:
+    appid: 267980

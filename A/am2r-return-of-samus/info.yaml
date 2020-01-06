@@ -1,0 +1,16 @@
+name: 'AM2R: Return of Samus'
+slug: am2r-return-of-samus
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Platform
+- name: Shooter
+aliases: []
+banner_url: /games/banner/am2r-return-of-samus.jpg
+icon_url: /games/icon/am2r-return-of-samus.png
+is_public: true
+updated: '2019-01-23T08:28:20.226977Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

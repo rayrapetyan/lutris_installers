@@ -1,0 +1,15 @@
+name: 'Hitman: Blood Money'
+slug: hitman-blood-money
+year: 2006
+platforms:
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/hitman-blood-money.jpg
+icon_url: /games/icon/hitman-blood-money.png
+is_public: true
+updated: '2019-04-08T01:31:40.855555Z'
+steamid: 6860
+gogslug: ''
+humblestoreid: ''

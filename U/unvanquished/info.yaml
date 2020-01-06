@@ -1,0 +1,15 @@
+name: Unvanquished
+slug: unvanquished
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/unvanquished.jpg
+icon_url: /games/icon/unvanquished.png
+is_public: true
+updated: '2019-01-23T08:32:00.634924Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

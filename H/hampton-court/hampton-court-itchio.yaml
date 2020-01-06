@@ -1,0 +1,31 @@
+id: 12947
+game_id: 26865
+game_slug: hampton-court
+name: Hampton Court
+year: 2019
+user: kimchitea
+runner: linux
+slug: hampton-court-itchio
+version: itch.io
+description: null
+notes: Download the Windows release.
+created_at: '2019-04-19T14:17:21.317000Z'
+updated_at: '2019-04-20T07:08:58.960243Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: HamptonCourt.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/HamptonCourt.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/HamptonCourt
+  - chmodx: $GAMEDIR/lib/linux-x86_64/HamptonCourt
+  files:
+  - file1: N/A:Please select the game archive

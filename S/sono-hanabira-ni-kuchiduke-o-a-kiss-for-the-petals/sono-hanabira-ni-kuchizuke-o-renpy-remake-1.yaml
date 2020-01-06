@@ -1,0 +1,32 @@
+id: 13718
+game_id: 27493
+game_slug: sono-hanabira-ni-kuchiduke-o-a-kiss-for-the-petals
+name: Sono Hanabira ni Kuchizuke o - A Kiss for the Petals
+year: 2006
+user: kimchitea
+runner: linux
+slug: sono-hanabira-ni-kuchizuke-o-renpy-remake-1
+version: Ren'Py Remake
+description: Unofficial port by Polish translation group Nyan.
+notes: You may need to rename the game archive to remove brackets from the default
+  file name for the installer to work.
+created_at: '2019-05-25T01:42:33.563000Z'
+updated_at: '2019-06-01T05:52:34.339383Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: SH01.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/SH01.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/SH01
+  - chmodx: $GAMEDIR/lib/linux-x86_64/SH01
+  files:
+  - file1: N/A:Please select the game archive

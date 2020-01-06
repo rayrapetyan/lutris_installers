@@ -1,0 +1,18 @@
+name: Neverwinter Nights
+slug: neverwinter-nights
+year: 2002
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: RPG
+aliases:
+- slug: niverwinter-nights-diamond
+  name: 'Neverwinter Nights: Diamond'
+banner_url: /games/banner/neverwinter-nights.jpg
+icon_url: /games/icon/neverwinter-nights.png
+is_public: true
+updated: '2019-04-17T06:12:21.466145Z'
+steamid: null
+gogslug: neverwinter_nights_diamond_edition
+humblestoreid: ''

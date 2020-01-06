@@ -1,0 +1,24 @@
+id: 2469
+game_id: 6839
+game_slug: c-kane
+name: C. Kane
+year: null
+user: gschaffran
+runner: steam
+slug: c-kane-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-08-17T18:24:53.082738Z'
+updated_at: '2016-09-30T20:52:26.180300Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 385030
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 385030

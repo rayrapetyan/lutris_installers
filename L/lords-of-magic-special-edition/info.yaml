@@ -1,0 +1,17 @@
+name: 'Lords of Magic: Special Edition'
+slug: lords-of-magic-special-edition
+year: 1998
+platforms:
+- name: Windows
+genres:
+- name: Fantasy
+- name: Strategy
+- name: Turn-based
+aliases: []
+banner_url: /games/banner/lords-of-magic-special-edition.jpg
+icon_url: /games/icon/lords-of-magic-special-edition.png
+is_public: false
+updated: '2019-01-23T08:30:12.800640Z'
+steamid: 404040
+gogslug: lords_of_magic_special_eddition
+humblestoreid: ''

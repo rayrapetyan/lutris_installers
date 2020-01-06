@@ -1,0 +1,29 @@
+id: 3125
+game_id: 9054
+game_slug: triplea
+name: TripleA
+year: null
+user: mellery
+runner: linux
+slug: triplea-190
+version: 1.9.0
+description: ''
+notes: this is almost right, would like to figure out how to set the install directory
+  to ~/Games
+created_at: '2016-12-25T11:26:25.520000Z'
+updated_at: '2016-12-30T01:33:39.233037Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: triplea
+  installer:
+  - execute:
+      file: installer
+  files:
+  - installer: https://github.com/triplea-game/triplea/releases/download/1.9.0.0.3453/TripleA_1.9.0.0.3453_unix.sh

@@ -1,0 +1,22 @@
+name: The Blues Brothers
+slug: the-blues-brothers
+year: 1991
+platforms:
+- name: Amiga
+- name: Amstrad CPC 6128
+- name: Atari ST
+- name: Commodore 64
+- name: Game Boy
+- name: MS-DOS
+- name: NES
+- name: Super Nintendo
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/the-blues-brothers.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:39.056555Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

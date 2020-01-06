@@ -1,0 +1,24 @@
+id: 3045
+game_id: 557
+game_slug: rag-doll-kung-fu
+name: Rag Doll Kung Fu
+year: 2005
+user: RobLoach
+runner: winesteam
+slug: rag-doll-kung-fu-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: ''
+created_at: '2016-11-23T15:07:30.617899Z'
+updated_at: '2016-11-23T15:09:00.352832Z'
+draft: false
+published: true
+published_by: null
+rating: '3'
+steamid: 1002
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 1002

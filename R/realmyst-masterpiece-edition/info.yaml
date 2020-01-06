@@ -1,0 +1,17 @@
+name: 'realMyst: Masterpiece Edition'
+slug: realmyst-masterpiece-edition
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Fantasy
+- name: FPP
+aliases: []
+banner_url: /games/banner/realmyst-masterpiece-edition.jpg
+icon_url: /games/icon/realmyst-masterpiece-edition.png
+is_public: true
+updated: '2019-01-23T08:30:55.644450Z'
+steamid: 244430
+gogslug: real_myst_masterpiece_edition
+humblestoreid: ''

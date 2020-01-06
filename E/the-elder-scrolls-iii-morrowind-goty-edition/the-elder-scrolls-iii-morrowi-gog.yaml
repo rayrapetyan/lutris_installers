@@ -1,0 +1,40 @@
+id: 4475
+game_id: 3476
+game_slug: the-elder-scrolls-iii-morrowind-goty-edition
+name: 'The Elder Scrolls III: Morrowind GOTY Edition'
+year: 2003
+user: wackba
+runner: wine
+slug: the-elder-scrolls-iii-morrowi-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2017-06-18T14:45:29.145911Z'
+updated_at: '2017-06-18T23:21:11.047941Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 22320
+gogid: 1440163901
+gogslug: the_elder_scrolls_iii_morrowind_goty_edition
+humblestoreid: ''
+script:
+  gogid: the_elder_scrolls_iii_morrowind_goty_edition
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /VERYSILENT /SP- /NOCANCEL /SUPPRESSMSGBOXES '/DIR=C:/game'
+      description: Installing...
+      name: wineexec
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/game/Morrowind Launcher.exe
+    arch: win32

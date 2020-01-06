@@ -1,0 +1,24 @@
+id: 9156
+game_id: 5549
+game_slug: black-closet
+name: Black Closet
+year: 2015
+user: kimchitea
+runner: steam
+slug: black-closet-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-11T04:45:43.202210Z'
+updated_at: '2018-07-12T04:37:46.039617Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 400580
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 400580

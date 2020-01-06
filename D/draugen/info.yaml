@@ -1,0 +1,17 @@
+name: Draugen
+slug: draugen
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Detective-mystery
+aliases: []
+banner_url: /games/banner/draugen.jpg
+icon_url: null
+is_public: true
+updated: '2019-06-02T12:14:36.473803Z'
+steamid: 770390
+gogslug: draugen
+humblestoreid: ''

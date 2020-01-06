@@ -1,0 +1,24 @@
+id: 12102
+game_id: 16271
+game_slug: while-true-learn
+name: 'while True: learn()'
+year: null
+user: 2DK
+runner: steam
+slug: while-true-learn-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-02-20T13:25:54.118869Z'
+updated_at: '2019-04-05T06:32:19.577375Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 619150
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 619150

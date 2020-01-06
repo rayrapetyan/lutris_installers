@@ -1,0 +1,21 @@
+name: Tom Clancy's The Division 2
+slug: tom-clancys-the-division-2
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: FPS
+- name: Open World
+- name: Party
+- name: RPG
+- name: Third-person shooter
+aliases:
+- slug: the-division-2
+  name: The Division
+banner_url: /games/banner/tom-clancys-the-division-2.jpg
+icon_url: /games/icon/tom-clancys-the-division-2.png
+is_public: true
+updated: '2019-03-19T19:33:40.024963Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

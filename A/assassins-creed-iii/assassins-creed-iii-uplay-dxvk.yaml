@@ -1,0 +1,71 @@
+id: 12156
+game_id: 857
+game_slug: assassins-creed-iii
+name: Assassin's Creed III
+year: 2012
+user: VortexAcherontic
+runner: wine
+slug: assassins-creed-iii-uplay-dxvk
+version: Uplay DXVK
+description: null
+notes: ''
+created_at: '2019-02-24T20:47:06.785000Z'
+updated_at: '2019-03-18T02:11:12.273715Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 208480
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/Uplay.exe
+    arch: win64
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows version to 7
+      app: win7
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing corefonts
+      app: corefonts
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing DirectX dlls
+      app: d3dx11_43 d3dcompiler_43
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Visual C++ librairies (2008 & 2010)
+      app: vcrun2008 vcrun2010
+      arch: win64
+      name: winetricks
+  - task:
+      executable: uplay
+      prefix: $GAMEDIR
+      args: /S
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  wine:
+    version: tkg-4.2-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - uplay: https://ubistatic3-a.akamaihd.net/orbit/launcher_installer/UplayInstaller.exe

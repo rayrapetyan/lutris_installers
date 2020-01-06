@@ -1,0 +1,31 @@
+id: 10283
+game_id: 21836
+game_slug: trigger
+name: Trigger
+year: 2015
+user: kimchitea
+runner: linux
+slug: trigger-demo
+version: Demo
+description: null
+notes: ''
+created_at: '2018-09-22T08:07:41.640000Z'
+updated_at: '2018-09-23T04:01:54.659363Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Trigger Demo.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Trigger Demo.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Trigger Demo
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Trigger Demo
+  files:
+  - file1: N/A:Please select the game archive

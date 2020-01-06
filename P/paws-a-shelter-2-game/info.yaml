@@ -1,0 +1,17 @@
+name: 'Paws: A Shelter 2 Game'
+slug: paws-a-shelter-2-game
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Platformer
+- name: Simulation
+aliases: []
+banner_url: /games/banner/paws-a-shelter-2-game.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:42.766823Z'
+steamid: null
+gogslug: paws_a_shelter_2_game
+humblestoreid: ''

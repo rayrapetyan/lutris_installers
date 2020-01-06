@@ -1,0 +1,16 @@
+name: Duck Hunt
+slug: duck-hunt
+year: 1984
+platforms:
+- name: NES
+genres:
+- name: Action
+- name: Sports
+aliases: []
+banner_url: /games/banner/duck-hunt.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-17T06:38:25.659034Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 4826
+game_id: 9708
+game_slug: trick-and-treat-visual-novel
+name: Trick and Treat - Visual Novel
+year: 2016
+user: FakeShemp
+runner: steam
+slug: trick-and-treat-visual-novel-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-07-05T19:37:45.092994Z'
+updated_at: '2017-07-09T20:11:24.320551Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 555210
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 555210

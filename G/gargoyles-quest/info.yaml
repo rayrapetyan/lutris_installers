@@ -1,0 +1,16 @@
+name: Gargoyle's Quest
+slug: gargoyles-quest
+year: 1990
+platforms:
+- name: Game Boy
+genres:
+- name: Metroidvania
+- name: Platform
+aliases: []
+banner_url: /games/banner/gargoyles-quest.jpg
+icon_url: null
+is_public: true
+updated: '2019-02-20T15:22:59.043481Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

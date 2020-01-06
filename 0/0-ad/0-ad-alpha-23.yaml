@@ -1,0 +1,29 @@
+id: 1266
+game_id: 3362
+game_slug: 0-ad
+name: 0 A.D.
+year: 2014
+user: Xodetaetl
+runner: linux
+slug: 0-ad-alpha-23
+version: Alpha 23
+description: null
+notes: ''
+created_at: '2015-01-29T12:43:30.049000Z'
+updated_at: '2018-12-14T01:39:16.814334Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: system/pyrogenesis
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: game
+  files:
+  - game: https://lutris.nyc3.digitaloceanspaces.com/games/0ad/0ad-0.23-alpha-x86_64.tar.gz

@@ -1,0 +1,25 @@
+id: 4586
+game_id: 9063
+game_slug: krosmaga
+name: Krosmaga
+year: 2016
+user: Leeo97one
+runner: winesteam
+slug: krosmaga-steam
+version: Steam
+description: Krosmaga is an online trading card game in which you play a god and face
+  other players in short, fun-filled games that'll surprise you at every turn!
+notes: ''
+created_at: '2017-06-24T23:41:05.921000Z'
+updated_at: '2017-06-26T14:10:12.138931Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 609940
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 609940

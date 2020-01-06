@@ -1,0 +1,40 @@
+id: 3844
+game_id: 6338
+game_slug: shock-troopers
+name: SHOCK TROOPERS
+year: null
+user: FakeShemp
+runner: linux
+slug: shock-troopers-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-24T17:34:33.658021Z'
+updated_at: '2017-05-26T00:12:10.527634Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 366270
+gogid: 1633815479
+gogslug: shock_troopers
+humblestoreid: ''
+script:
+  exe: NeogeoEmu.bin.x86
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data/noarch
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86_64
+      dst: $GAMEDIR
+  exe64: NeogeoEmu.bin.x86_64
+  files:
+  - file1: N/A:Please select the Humble installer

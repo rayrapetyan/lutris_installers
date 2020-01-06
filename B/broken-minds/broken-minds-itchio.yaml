@@ -1,0 +1,31 @@
+id: 8885
+game_id: 19115
+game_slug: broken-minds
+name: Broken Minds
+year: 2017
+user: kimchitea
+runner: linux
+slug: broken-minds-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2018-06-24T18:30:15.658305Z'
+updated_at: '2018-06-25T04:03:09.776049Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 746420
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: BROKEN_MINDS.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/BROKEN_MINDS.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/BROKEN_MINDS
+  - chmodx: $GAMEDIR/lib/linux-x86_64/BROKEN_MINDS
+  files:
+  - file1: N/A:Please select the itch.io archive

@@ -1,0 +1,24 @@
+id: 10547
+game_id: 22199
+game_slug: kingdom-rush-origins
+name: 'Kingdom Rush: Origins'
+year: 2018
+user: basxto
+runner: steam
+slug: kingdom-rush-origins-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-10-18T04:04:29.191000Z'
+updated_at: '2018-10-19T07:41:47.003389Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 816340
+gogid: 1519221611
+gogslug: kingdom_rush_origins
+humblestoreid: ''
+script:
+  game:
+    appid: 816340

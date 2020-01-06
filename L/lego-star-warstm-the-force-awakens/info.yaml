@@ -1,0 +1,16 @@
+name: "LEGO\xAE STAR WARS\u2122: The Force Awakens"
+slug: lego-star-warstm-the-force-awakens
+year: 2016
+platforms:
+- name: Nintendo 3DS
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/lego-star-warstm-the-force-awakens.jpg
+icon_url: /games/icon/lego-star-warstm-the-force-awakens.png
+is_public: true
+updated: '2019-05-19T07:12:26.267273Z'
+steamid: 438640
+gogslug: ''
+humblestoreid: ''

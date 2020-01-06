@@ -1,0 +1,41 @@
+id: 9135
+game_id: 19856
+game_slug: battle-realms
+name: Battle Realms
+year: 2012
+user: stoilkov
+runner: wine
+slug: battle-realms-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2018-07-10T17:34:48.324913Z'
+updated_at: '2018-07-11T03:15:19.246314Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: install
+      prefix: $GAMEDIR
+      args: /LANG=en /SP- /NOCANCEL /SUPPRESSMSGBOXES /NOGUI /DIR="C:/game/battle-realms"
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix...
+      arch: win32
+      name: create_prefix
+  system:
+    restore_gamma: true
+    reset_desktop: true
+  files:
+  - install: N/A:Select the Windows setup file downloaded from GOG
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/game/battle-realms/Battle_Realms_F.exe

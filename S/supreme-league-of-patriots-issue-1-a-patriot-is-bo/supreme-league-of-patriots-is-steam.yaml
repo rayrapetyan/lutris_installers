@@ -1,0 +1,24 @@
+id: 1472
+game_id: 4173
+game_slug: supreme-league-of-patriots-issue-1-a-patriot-is-bo
+name: 'Supreme League of Patriots Issue 1: A Patriot Is Born'
+year: null
+user: Xodetaetl
+runner: steam
+slug: supreme-league-of-patriots-is-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-04-24T07:25:58.116000Z'
+updated_at: '2015-04-25T17:39:21.174000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 331760
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 331760

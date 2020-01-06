@@ -1,0 +1,24 @@
+id: 1682
+game_id: 3082
+game_slug: terrian-saga-kr-17
+name: 'Terrian Saga: KR-17'
+year: null
+user: RobLoach
+runner: steam
+slug: terrian-saga-kr-17-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-11-02T12:26:12.640870Z'
+updated_at: '2016-01-05T17:46:31.875352Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 278640
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 278640

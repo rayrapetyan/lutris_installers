@@ -1,0 +1,24 @@
+id: 7212
+game_id: 12848
+game_slug: masky
+name: Masky
+year: 2016
+user: t-rex91
+runner: steam
+slug: masky-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-01-30T22:23:55.688689Z'
+updated_at: '2018-01-30T22:49:28.094030Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 554800
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 554800

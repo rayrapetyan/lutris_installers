@@ -1,0 +1,17 @@
+name: 'Smugglers V: Invasion'
+slug: smugglers-v-invasion
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Role-playing
+- name: Sci-fi
+- name: Turn-based
+aliases: []
+banner_url: /games/banner/smugglers-v-invasion.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:16.366864Z'
+steamid: null
+gogslug: smugglers_v_invasion
+humblestoreid: ''

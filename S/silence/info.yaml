@@ -1,0 +1,16 @@
+name: Silence
+slug: silence
+year: 2016
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/silence.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:13.381930Z'
+steamid: 314790
+gogslug: silence
+humblestoreid: ''

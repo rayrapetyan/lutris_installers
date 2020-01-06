@@ -1,0 +1,34 @@
+id: 12349
+game_id: 6123
+game_slug: master-of-orion-1
+name: Master of Orion 1
+year: 1993
+user: cxf
+runner: linux
+slug: master-of-orion-1-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-03-12T05:24:34.965909Z'
+updated_at: '2019-03-12T05:24:53.575583Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 410970
+gogid: 1207661623
+gogslug: master_of_orion_1_2
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

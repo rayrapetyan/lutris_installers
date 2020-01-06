@@ -1,0 +1,18 @@
+name: Circus Charlie
+slug: circus-charlie
+year: 1984
+platforms:
+- name: Arcade
+- name: Commodore 64
+- name: MSX
+- name: NES
+genres:
+- name: Arcade
+aliases: []
+banner_url: /games/banner/circus-charlie.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:53.063533Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

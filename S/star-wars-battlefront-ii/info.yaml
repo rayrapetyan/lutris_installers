@@ -1,0 +1,20 @@
+name: 'Star Wars: Battlefront II (2005)'
+slug: star-wars-battlefront-ii
+year: 2005
+platforms:
+- name: Sony PlayStation 2
+- name: Sony PSP
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+aliases:
+- slug: star-wars-battlefront-2
+  name: 'Star Wars: Battlefront 2'
+banner_url: /games/banner/star-wars-battlefront-ii.jpg
+icon_url: /games/icon/star-wars-battlefront-ii.png
+is_public: true
+updated: '2019-04-25T04:40:20.215770Z'
+steamid: 6060
+gogslug: star_wars_battlefront_ii
+humblestoreid: ''

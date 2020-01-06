@@ -1,0 +1,17 @@
+name: 'Megamagic: Wizards of the Neon Age'
+slug: megamagic-wizards-of-the-neon-age
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/megamagic-wizards-of-the-neon-age.jpg
+icon_url: /games/icon/megamagic-wizards-of-the-neon-age.png
+is_public: true
+updated: '2019-01-23T08:30:20.967862Z'
+steamid: 422650
+gogslug: megamagic_wizards_of_the_neon_age
+humblestoreid: ''

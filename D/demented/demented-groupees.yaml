@@ -1,0 +1,32 @@
+id: 4905
+game_id: 6471
+game_slug: demented
+name: Demented
+year: null
+user: FakeShemp
+runner: wine
+slug: demented-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-08T08:13:18.243145Z'
+updated_at: '2018-05-19T03:41:55.703243Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 418000
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Demented
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Demented/Demented_Win.exe
+    arch: win32

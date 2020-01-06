@@ -1,0 +1,16 @@
+name: Mafia III
+slug: mafia-iii
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/mafia-iii.jpg
+icon_url: /games/icon/mafia-iii.png
+is_public: true
+updated: '2019-01-23T08:30:15.373148Z'
+steamid: 360430
+gogslug: mafia_iii
+humblestoreid: ''

@@ -1,0 +1,15 @@
+name: OpenClonk
+slug: openclonk
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/openclonk.jpg
+icon_url: /games/icon/openclonk.png
+is_public: true
+updated: '2019-01-23T08:30:37.397984Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

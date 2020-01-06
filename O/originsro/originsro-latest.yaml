@@ -1,0 +1,36 @@
+id: 11689
+game_id: 25307
+game_slug: originsro
+name: OriginsRO
+year: 2013
+user: acampbell
+runner: wine
+slug: originsro-latest
+version: Latest
+description: 'Downloads the latest version of OriginsRO. Please note an account is
+  required to play: create one at http://originsro.org/join'
+notes: ''
+created_at: '2019-01-23T14:58:26.996000Z'
+updated_at: '2019-01-25T02:55:19.575550Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - extract:
+      dst: $GAMEDIR
+      file: client
+  files:
+  - client: https://dl.originsro.org/client/OriginsRO-full-2017-03-21.zip
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/OriginsroLauncher.exe
+    working_dir: $GAMEDIR

@@ -1,0 +1,36 @@
+id: 12338
+game_id: 619
+game_slug: assassins-creed
+name: Assassin's Creed
+year: 2008
+user: OsamaBinlada
+runner: wine
+slug: assassins-creed-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-03-11T01:40:01.182000Z'
+updated_at: '2019-11-04T04:58:03.455930Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 15100
+gogid: 1207659023
+gogslug: assassins_creed_directors_cut
+humblestoreid: assassins-creed-directors-cut
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      executable: install
+      prefix: $GAMEDIR
+      args: /NOCANCEL /SP- /SUPPRESSMSGBOXES
+      name: wineexec
+  files:
+  - install: N/A:Select the Windows setup file downloaded from GOG
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Assassins Creed/AssassinsCreed_Game.exe

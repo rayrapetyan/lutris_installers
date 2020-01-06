@@ -1,0 +1,24 @@
+id: 2612
+game_id: 735
+game_slug: confrontation
+name: Confrontation
+year: null
+user: linuxgnuru
+runner: winesteam
+slug: confrontation-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-08-27T18:35:03.585301Z'
+updated_at: '2016-09-30T21:10:08.994386Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 204560
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 204560

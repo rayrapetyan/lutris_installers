@@ -1,0 +1,41 @@
+id: 3685
+game_id: 1643
+game_slug: final-fantasy-vii
+name: Final Fantasy VII
+year: 1997
+user: gugutz
+runner: wine
+slug: final-fantasy-vii-aali-custom-opengl
+version: Aali Custom OpenGL
+description: Original PC game from 1995 (requires the 4 original cds)
+notes: 'Download Custom OpenGL Driver: <a href="https://mega.nz/#!SwQCTZwR!6TMWPrJ-6O8qDBzsVZ4jFFObssgzEM7wRES9Efgoe10">https://mega.nz/#!SwQCTZwR!6TMWPrJ-6O8qDBzsVZ4jFFObssgzEM7wRES9Efgoe10</a>'
+created_at: '2017-05-15T01:37:26.595000Z'
+updated_at: '2019-10-11T01:11:43.144447Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 39140
+gogid: null
+gogslug: ''
+humblestoreid: final-fantasy-vii
+script:
+  exe: drive_c/FFMODS/FF7/ff7.exe
+  installer:
+  - insert-disc:
+      requires: ff7inst.exe
+  - task:
+      executable: $DISC/ff7inst.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  - extract:
+      dst: $GAMEDIR/drive_c/FFMODS/FF7
+      file: opengldriver
+  - merge:
+      src: $DISC
+      dst: $GAMEDIR
+  files:
+  - opengldriver: N/A:Please select ff7_opengl-0.8.1b.zip
+  game:
+    prefix: $GAMEDIR
+    arch: win32

@@ -1,0 +1,16 @@
+name: Sid Meier's Civilization V
+slug: sid-meiers-civilization-v
+year: 2010
+platforms:
+- name: Linux
+genres:
+- name: 4X
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/sid-meiers-civilization-v.jpg
+icon_url: /games/icon/sid-meiers-civilization-v.png
+is_public: true
+updated: '2019-03-23T14:17:34.198609Z'
+steamid: 8930
+gogslug: ''
+humblestoreid: ''

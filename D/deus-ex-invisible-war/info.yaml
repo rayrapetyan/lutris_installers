@@ -1,0 +1,21 @@
+name: 'Deus Ex: Invisible War'
+slug: deus-ex-invisible-war
+year: 2003
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: RPG
+- name: Stealth
+aliases:
+- slug: deus-ex-2-invisible-war
+  name: 'Deus Ex 2: Invisible War'
+- slug: deus-ex-2
+  name: Deus Ex 2
+banner_url: /games/banner/deus-ex-invisible-war.jpg
+icon_url: /games/icon/deus-ex-invisible-war.png
+is_public: true
+updated: '2019-02-20T03:32:35.083843Z'
+steamid: 6920
+gogslug: deus_ex_invisible_war
+humblestoreid: ''

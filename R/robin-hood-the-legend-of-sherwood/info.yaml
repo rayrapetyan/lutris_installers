@@ -1,0 +1,17 @@
+name: 'Robin Hood: The Legend of Sherwood'
+slug: robin-hood-the-legend-of-sherwood
+year: 2002
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Real-time tactics
+- name: Stealth
+aliases: []
+banner_url: /games/banner/robin-hood-the-legend-of-sherwood.jpg
+icon_url: /games/icon/robin-hood-the-legend-of-sherwood.png
+is_public: true
+updated: '2019-01-23T08:31:02.181552Z'
+steamid: 46560
+gogslug: robin_hood
+humblestoreid: ''

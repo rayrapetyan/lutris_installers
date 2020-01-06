@@ -1,0 +1,38 @@
+id: 2549
+game_id: 513
+game_slug: megabyte-punch
+name: Megabyte Punch
+year: null
+user: ssf
+runner: linux
+slug: megabyte-punch-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2016-08-22T16:15:23.240019Z'
+updated_at: '2016-09-30T21:10:41.937792Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 248550
+gogid: 1207659583
+gogslug: megabyte_punch
+humblestoreid: ''
+script:
+  exe: game/start.sh
+  gogid: megabyte_punch
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Plese select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

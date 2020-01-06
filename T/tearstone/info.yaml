@@ -1,0 +1,15 @@
+name: Tearstone
+slug: tearstone
+year: 2011
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/tearstone.jpg
+icon_url: /games/icon/tearstone.png
+is_public: true
+updated: '2019-01-23T08:31:36.087454Z'
+steamid: 645440
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,32 @@
+id: 5109
+game_id: 5842
+game_slug: stranded-in-time
+name: Stranded In Time
+year: null
+user: FakeShemp
+runner: wine
+slug: stranded-in-time-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-20T11:11:28.598516Z'
+updated_at: '2018-05-19T03:41:56.885491Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 385150
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Stranded In Time
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Stranded In Time/Stranded In Time.exe
+    arch: win32

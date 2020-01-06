@@ -1,0 +1,35 @@
+id: 8617
+game_id: 807
+game_slug: children-of-the-nile
+name: Children of the Nile
+year: null
+user: lysergia
+runner: wine
+slug: children-of-the-nile-enhanced-edition-dvd
+version: Enhanced Edition DVD
+description: Allow selection of the DVD folder & install in a 32-bit wine prefix.
+  Shortcut uses the default path for the "Enhanced Edition" which includes the expansion.
+notes: No known issues
+created_at: '2018-06-09T02:26:26.158008Z'
+updated_at: '2018-06-09T05:04:53.133172Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 17100
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: Setup.exe
+  - task:
+      executable: $DISC/Setup.exe
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Children of the Nile - Enhanced Edition/CotN.exe
+    arch: win32

@@ -1,0 +1,15 @@
+name: EDGE
+slug: edge
+year: 2011
+platforms:
+- name: Linux
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/edge.jpg
+icon_url: /games/icon/edge.png
+is_public: true
+updated: '2019-01-23T08:29:21.432691Z'
+steamid: 38740
+gogslug: ''
+humblestoreid: ''

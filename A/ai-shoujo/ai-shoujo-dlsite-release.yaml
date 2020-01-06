@@ -1,0 +1,34 @@
+id: 17660
+game_id: 30924
+game_slug: ai-shoujo
+name: AI Shoujo
+year: 2019
+user: Nodoka_Hanamura
+runner: wine
+slug: ai-shoujo-dlsite-release
+version: DLSite Release
+description: Installs AI Shoujo on Linux using WINE, as well as winhttp as a override.
+notes: At this time there is a bug relating to controlling the camera after alt-tabbing
+  out. To fix this, move your mouse cursor, while AI Shoujo is the active program
+  - back and forth along any edge of the window until the camera works properly again.
+  Beyond this, there are no known bugs.
+created_at: '2019-12-30T20:13:14.067690Z'
+updated_at: '2019-12-30T20:13:14.067715Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: file_id
+      dst: $GAMEDIR
+  - game:
+      arch: win64
+  files:
+  - file_id: N/A:Please select the installer for AI Shoujo.
+  - unredistribuable_file: N/A

@@ -1,0 +1,83 @@
+id: 5192
+game_id: 1116
+game_slug: rift
+name: Rift
+year: 2011
+user: jdwininger
+runner: wine
+slug: rift-current-live
+version: Current Live
+description: RIFT is a fantasy massively multiplayer online role-playing game (MMORPG).
+  RIFT is very similar to World of Warcraft but requires no subscription.
+notes: "Make sure you have cabextract, wine-staging and winetricks installed before\
+  \ installing RIFT. For installation information consult your distribution's documentation.\r\
+  \n\r\nFor RIFT in game graphical glitches change the executable to 32bit in the\
+  \ Glyph launcher's settings and enable CMST in WINE-Staging's winecfg (under the\
+  \ staging tab)."
+created_at: '2017-07-25T10:36:45.858000Z'
+updated_at: '2017-12-21T15:47:33.004770Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 39120
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: glyph_installer
+      dst: $GAMEDIR/drive_c
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows 7 mode for Wine
+      app: win7
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Microsoft TrueType Fonts
+      app: corefonts
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Direct3D Compiler 43
+      app: d3dcompiler_43
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Direct3D DLL 43
+      app: d3dx9_43
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: DirectX Audio DLL
+      app: xact_jun2010
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows version to 7
+      app: win7
+      silent: true
+      name: winetricks
+  - task:
+      executable: $GAMEDIR/drive_c/GlyphInstall-9999-1001.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  system:
+    disable_runtime: true
+  files:
+  - glyph_installer: http://download.dyn.triongames.com/GlyphInstall-9999-1001.exe
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files (x86)/Glyph/GlyphClient.exe
+    arch: win64

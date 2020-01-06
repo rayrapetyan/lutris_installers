@@ -1,0 +1,37 @@
+id: 16128
+game_id: 3309
+game_slug: the-black-mirror
+name: The Black Mirror
+year: 2003
+user: cxf
+runner: wine
+slug: the-black-mirror-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-10-12T01:26:54.687689Z'
+updated_at: '2019-10-12T01:26:59.856874Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 292930
+gogid: 1207664913
+gogslug: the_black_mirror
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES /NOCANCEL
+      name: wineexec
+  files:
+  - setup: N/A:Select GOG setup exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/The Black Mirror/BMirror.exe

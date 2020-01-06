@@ -1,0 +1,24 @@
+id: 8217
+game_id: 4617
+game_slug: dev-guy
+name: Dev Guy
+year: null
+user: soredake
+runner: winesteam
+slug: dev-guy-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T07:14:51.361548Z'
+updated_at: '2018-05-11T22:46:52.298790Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 351800
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 351800

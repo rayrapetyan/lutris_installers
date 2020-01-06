@@ -1,0 +1,24 @@
+id: 12490
+game_id: 18234
+game_slug: senran-kagura-peach-beach-splash
+name: SENRAN KAGURA Peach Beach Splash
+year: 2018
+user: iHad169
+runner: steam
+slug: senran-kagura-peach-beach-spl-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-03-24T01:02:30.079000Z'
+updated_at: '2019-03-25T06:01:46.985435Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 696170
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 696170

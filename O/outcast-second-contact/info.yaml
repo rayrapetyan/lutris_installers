@@ -1,0 +1,17 @@
+name: Outcast - Second Contact
+slug: outcast-second-contact
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Shooter
+aliases: []
+banner_url: /games/banner/outcast-second-contact.jpg
+icon_url: /games/icon/outcast-second-contact.png
+is_public: true
+updated: '2019-01-23T08:30:38.799464Z'
+steamid: 618970
+gogslug: outcast_second_contact
+humblestoreid: outcast-second-contact

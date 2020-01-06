@@ -1,0 +1,104 @@
+id: 14576
+game_id: 28462
+game_slug: ni-shui-han
+name: "\u9006\u6C34\u5BD2"
+year: 2018
+user: "\u5364\u94C1\u8089"
+runner: wine
+slug: ni-shui-han-205526
+version: 2.0.5526
+description: "\u4ECE\u5B98\u65B9\u4E0B\u8F7D\u5B89\u88C5\u5305\u8FDB\u884C\u5B89\u88C5\
+  \u3002\r\n\u8BF7\u5148\u5B89\u88C5\uFF1Awine\uFF08https://github.com/lutris/lutris/wiki/Wine-Dependencies\uFF09\
+  \ \u548C \u9A71\u52A8\uFF08https://github.com/lutris/lutris/wiki/Installing-drivers\uFF09"
+notes: "\u5DF2\u77E5\u95EE\u9898\uFF1A\r\n\u3000\u30001. \u6027\u80FD\u6D88\u8017\u8FC7\
+  \u9AD8\u3002\u63A8\u8350\u54B8\u9C7C\u7248\u6216\u8005\u8D85\u9AD8\u6027\u80FD\u670D\
+  \u52A1\u5668\u4F7F\u7528\u3002\r\n\u3000\u30002. \u5361\u987F\u3002\u4EFB\u4F55\u573A\
+  \u666F\u4E0B\u90FD\u4F1A\u51FA\u73B0\u5361\u987F\u7684\u60C5\u51B5\uFF0C\u8F6C\u5411\
+  \u65F6\u66F4\u4E25\u91CD\u3002\r\n\u3000\u30003. \u65E0\u6CD5\u622A\u56FE\u3002\u6E38\
+  \u620F\u5185\u622A\u56FE\u548C\u62CD\u7167\u65E0\u6548\u3002\r\n\u3000\u30004. shift\
+  \ \u6309\u952E\u51B2\u7A81\u3002\u6E38\u620F\u5185\u4F7F\u7528 shift \u952E\u4F7F\
+  \u51FA\u95EA\u907F\u52A8\u4F5C\u4F1A\u8C03\u51FA\u684C\u9762\u72B6\u6001\u680F\uFF08\
+  \u6DF1\u5EA6\u684C\u9762\u73AF\u5883\uFF09\u3002\r\n\u3000\u30005. \u67D0\u4E9B\u9A71\
+  \u52A8\u4F1A\u5BFC\u81F4\u4E22\u5931\u6750\u8D28\uFF08\u5982\uFF1A\u6C34\uFF09\u3002\
+  \r\n\u3000\u30006. \u9000\u51FA\u6E38\u620F\u540E\u53EF\u80FD\u8981\u624B\u52A8\u505C\
+  \u6B62\u8FDB\u7A0B\u3002"
+created_at: '2019-07-15T02:59:47.049000Z'
+updated_at: '2019-12-23T20:09:58.394361Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: "\u521B\u5EFA 64bit Wine prefix."
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Arial font...
+      arch: win64
+      app: arial
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows 10 mode for Wine
+      arch: win64
+      key: Version
+      value: win10
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - task:
+      prefix: $GAMEDIR
+      description: 'Wine Staging: Enabling DXVA2'
+      arch: win64
+      key: backend
+      value: va
+      path: HKEY_CURRENT_USER\Software\Wine\DXVA2
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - task:
+      executable: setup
+      description: "\u5F00\u59CB\u5B89\u88C5\u9006\u6C34\u5BD2 NGP \u5E73\u53F0\n\
+        ------------------------------"
+      exclude_processes: LootHoarder.exe "LootHoarder.exe"
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  game:
+    prefix: $GAMEDIR
+    exe: "drive_c/Netease/\u9006\u6C34\u5BD2\uFF08NGP\u6E38\u620F\u5E73\u53F0\uFF09\
+      /out/Release/LootHoarder.exe"
+    arch: win64
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      STAGING_SHARED_MEMORY: 1
+      DXVK_HUD: compiler
+      __GL_SHADER_DISK_CACHE: 1
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+  wine:
+    version: lutris-4.20-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      ucrtbase: n,b
+      nvapi64: disabled
+      nvapi: disabled
+      d3d12: disabled
+      api-ms-win-crt-private-l1-1-0: n,b
+  files:
+  - setup: https://nsh.gdl.netease.com/NGP/NGP_NSH_2.0.5526.exe

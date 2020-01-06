@@ -1,0 +1,31 @@
+id: 14367
+game_id: 28308
+game_slug: nino-kunii-2-revenant-kingdom
+name: 'Nino Kunii 2 : Revenant Kingdom'
+year: 2018
+user: jason087
+runner: wine
+slug: nino-kunii-2-revenant-kingdom-nino-kuni-2
+version: Nino Kuni 2
+description: null
+notes: ''
+created_at: '2019-07-01T12:01:48.084181Z'
+updated_at: '2019-07-01T12:01:48.084213Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: file_id
+      dst: $GAMEDIR
+  files:
+  - file1: https://igg-games.com/ni-no-kuni-ii-revenant-kingdom-all-dlc-free-download.html
+  - file2: N/A select Setup file & install in windows
+  - file_id: Run Nino2.exe in wine
+  - unredistribuable_file: N/A

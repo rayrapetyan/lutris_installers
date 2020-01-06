@@ -1,0 +1,20 @@
+name: Dragon's Lair
+slug: dragons-lair
+year: null
+platforms:
+- name: 3DO
+- name: Atari Jaguar
+- name: Linux
+- name: Nintendo DS
+- name: Sony Playstation 3
+- name: Sony PSP
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/dragons-lair.jpg
+icon_url: /games/icon/dragons-lair.png
+is_public: true
+updated: '2019-03-04T18:42:40.410858Z'
+steamid: 227380
+gogslug: ''
+humblestoreid: ''

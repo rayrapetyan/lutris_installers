@@ -1,0 +1,33 @@
+id: 16657
+game_id: 24889
+game_slug: unity-game-engine
+name: Unity (game engine)
+year: 2005
+user: Valerioooh
+runner: linux
+slug: unity-game-engine-unity-hub-appimage
+version: Unity Hub appimage
+description: appimage for UnityHub
+notes: ''
+created_at: '2019-11-05T23:05:55.308650Z'
+updated_at: '2019-11-05T23:05:55.308679Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - execute:
+      command: sudo chmod +x UnityHub.Appimage
+  - exe: UnityHub.Appimage
+  - move:
+      src: file_id
+      dst: $GAMEDIR/UnityHub
+  files:
+  - file1: https://public-cdn.cloud.unity3d.com/hub/prod/UnityHub.AppImage
+  - file_id: UnityHub.Appimage
+  - unredistribuable_file: N/A

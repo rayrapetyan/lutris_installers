@@ -1,0 +1,24 @@
+id: 5232
+game_id: 4268
+game_slug: stronghold-crusader-2
+name: Stronghold Crusader 2
+year: 2014
+user: fabi2607
+runner: winesteam
+slug: stronghold-crusader-2-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-07-29T17:26:16.390643Z'
+updated_at: '2017-08-27T21:49:22.218897Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 232890
+gogid: 1433852499
+gogslug: stronghold_crusader_2
+humblestoreid: ''
+script:
+  game:
+    appid: 232890

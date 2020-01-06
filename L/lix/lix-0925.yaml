@@ -1,0 +1,29 @@
+id: 1809
+game_id: 5400
+game_slug: lix
+name: Lix
+year: null
+user: RobLoach
+runner: linux
+slug: lix-0925
+version: 0.9.25
+description: null
+notes: ''
+created_at: '2015-12-30T11:33:38.272000Z'
+updated_at: '2019-04-23T04:01:08.540317Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: $download
+  files:
+  - download: https://github.com/SimonN/LixD/releases/download/v0.9.25/lix-0.9.25-linux64.zip
+  game:
+    exe: bin/lix

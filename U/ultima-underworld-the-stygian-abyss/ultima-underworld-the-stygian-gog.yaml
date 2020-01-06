@@ -1,0 +1,88 @@
+id: 1403
+game_id: 4025
+game_slug: ultima-underworld-the-stygian-abyss
+name: 'Ultima Underworld: The Stygian Abyss'
+year: 1992
+user: Xodetaetl
+runner: dosbox
+slug: ultima-underworld-the-stygian-gog
+version: GOG
+description: null
+notes: "- Recent GOG installer required (v2 or above)\r\n- Fixed music not playing\r\
+  \n- Keyboard layout image included in the game's folder."
+created_at: '2015-03-12T11:34:36.933000Z'
+updated_at: '2019-09-09T02:04:21.638638Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: 1207658937
+gogslug: ultima_underworld_1_2
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      description: Extracting innoextract application
+      dst: $CACHE
+      file: $fileextract
+  - execute:
+      args: -d "$CACHE/game" "$installer"
+      description: Extracting game data
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/game
+      dst: $GAMEDIR
+  - move:
+      src: $GAMEDIR/__support/app/dosboxULTIMA1.conf
+      dst: $GAMEDIR
+  - move:
+      src: $GAMEDIR/__support/app/dosboxULTIMA1_single.conf
+      dst: $GAMEDIR
+  - write_config:
+      section: sdl
+      key: output
+      value: opengl
+      file: $GAMEDIR/dosboxULTIMA1.conf
+  - write_config:
+      section: sdl
+      key: fulldouble
+      value: true
+      file: $GAMEDIR/dosboxULTIMA1.conf
+  - write_config:
+      section: sdl
+      key: fullresolution
+      value: desktop
+      file: $GAMEDIR/dosboxULTIMA1.conf
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/dosboxULTIMA1.conf
+  - write_config:
+      section: render
+      key: scaler
+      value: normal2x
+      file: $GAMEDIR/dosboxULTIMA1.conf
+  - write_file:
+      content: "[ipx] ipx=false\n[autoexec]\nmount c \".\"\nimgmount d game.gog -t\
+        \ iso -fs iso\nd: \nuw.bat\nexit\n"
+      file: $GAMEDIR/dosboxULTIMA1_single.conf
+  - write_file:
+      content: '4 7 220 1 sound
+
+
+        2 7 220 1 speech
+
+
+        0 cuts
+
+        '
+      file: $GAMEDIR/UNDEROM1/DATA/UW.CFG
+  files:
+  - installer: "N/A:Select the GOG.com game setup file. Download it here: \nhttps://www.gog.com/downloads/ultima_underworld_1/en1installer0\n"
+  - fileextract: https://lutris.nyc3.digitaloceanspaces.com/tools/innoextract/innoextract-1.8-dev-2019-01-13-linux.tar.xz
+  game:
+    config_file: $GAMEDIR/dosboxULTIMA1.conf
+    main_file: $GAMEDIR/dosboxULTIMA1_single.conf
+    game_id: ultima-underworld-the-stygian-abyss

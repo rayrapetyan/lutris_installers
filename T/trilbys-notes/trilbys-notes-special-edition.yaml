@@ -1,0 +1,32 @@
+id: 3248
+game_id: 3713
+game_slug: trilbys-notes
+name: Trilby's Notes
+year: 2006
+user: FakeShemp
+runner: ags
+slug: trilbys-notes-special-edition
+version: Special Edition
+description: ''
+notes: ''
+created_at: '2017-02-08T20:43:52.465000Z'
+updated_at: '2017-03-19T17:19:48.741932Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: notes se.exe
+  installer:
+  - extract:
+      dst: $CACHE
+      file: game
+  - extract:
+      dst: $GAMEDIR
+      file: $CACHE/FullyRamblomatic-SpecialEditions/notes_se.zip
+  files:
+  - game: http://www.g4g.it/download/redirect.php?dlid=3158

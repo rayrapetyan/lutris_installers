@@ -1,0 +1,28 @@
+id: 4845
+game_id: 12082
+game_slug: scattered-notes
+name: Scattered Notes
+year: 2015
+user: FakeShemp
+runner: linux
+slug: scattered-notes-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-07-06T08:54:35.821058Z'
+updated_at: '2017-07-09T20:02:48.775393Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Scattered Notes Demo 0.2.1.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

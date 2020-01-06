@@ -1,0 +1,17 @@
+name: 'Niko: Through the Dream'
+slug: niko-through-the-dream
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Platformer
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/niko-through-the-dream.jpg
+icon_url: null
+is_public: true
+updated: '2019-02-03T09:51:28.638954Z'
+steamid: 296550
+gogslug: niko_through_the_dream
+humblestoreid: ''

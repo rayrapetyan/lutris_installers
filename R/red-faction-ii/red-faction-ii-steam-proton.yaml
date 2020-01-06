@@ -1,0 +1,24 @@
+id: 16175
+game_id: 694
+game_slug: red-faction-ii
+name: Red Faction II
+year: 2002
+user: cxf
+runner: steam
+slug: red-faction-ii-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-10-14T02:00:25.983788Z'
+updated_at: '2019-10-14T02:00:31.023218Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 20550
+gogid: 1207660613
+gogslug: red_faction_2
+humblestoreid: ''
+script:
+  game:
+    appid: 20550

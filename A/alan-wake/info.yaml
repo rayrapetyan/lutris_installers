@@ -1,0 +1,16 @@
+name: Alan Wake
+slug: alan-wake
+year: 2010
+platforms:
+- name: Windows
+genres:
+- name: Horror
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/alan-wake.jpg
+icon_url: /games/icon/alan-wake.png
+is_public: true
+updated: '2019-01-23T08:28:17.760522Z'
+steamid: 108710
+gogslug: alan_wake
+humblestoreid: ''

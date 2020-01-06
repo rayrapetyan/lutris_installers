@@ -1,0 +1,16 @@
+name: Mortal Kombat II
+slug: mortal-kombat-ii
+year: 1993
+platforms:
+- name: Arcade
+- name: Super Nintendo
+genres:
+- name: Fighting
+aliases: []
+banner_url: /games/banner/mortal-kombat-ii.jpg
+icon_url: null
+is_public: true
+updated: '2019-12-22T19:00:03.290249Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

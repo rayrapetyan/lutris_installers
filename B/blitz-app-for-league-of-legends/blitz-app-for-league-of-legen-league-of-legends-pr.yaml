@@ -1,0 +1,48 @@
+id: 16742
+game_id: 30077
+game_slug: blitz-app-for-league-of-legends
+name: Blitz App for League of Legends
+year: 2015
+user: nkay08
+runner: wine
+slug: blitz-app-for-league-of-legen-league-of-legends-pr
+version: league-of-legends prefix
+description: Installs Blitz inside the league-of-legends prefix, thus requiring league-of-legends
+  installed first
+notes: "Manually install winetricks dependencies beforehand:\r\n\r\n`export WINEPREFIX=/path/to/league-of-legends`\r\
+  \n`winetricks dotnet452 win7 corefonts`"
+created_at: '2019-11-10T12:58:46.098000Z'
+updated_at: '2019-12-23T20:10:34.758361Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: league-of-legends
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Installing prerequisites
+      app: dotnet452 win7 corefonts
+      name: winetricks
+  - task:
+      executable: BlitzInstaller
+      prefix: $GAMEDIR
+      description: Running Blitz app installer
+      arch: win32
+      exclude_processes: Blitz.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  files:
+  - BlitzInstaller:
+      filename: blitz-installer.exe
+      url: https://dl.blitz.gg/download/windows
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/users/$USER/Local Settings/Application Data/Blitz/Blitz.exe

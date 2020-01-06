@@ -1,0 +1,17 @@
+name: Papo & Yo
+slug: papo-yo
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Platform
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/papo-yo.jpg
+icon_url: /games/icon/papo-yo.png
+is_public: true
+updated: '2019-01-23T08:30:42.030093Z'
+steamid: 227080
+gogslug: ''
+humblestoreid: papo-yo

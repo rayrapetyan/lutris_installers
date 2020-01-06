@@ -1,0 +1,24 @@
+id: 6781
+game_id: 1280
+game_slug: sonic-the-hedgehog-4-episode-i
+name: Sonic the Hedgehog 4 Episode I
+year: null
+user: soredake
+runner: winesteam
+slug: sonic-the-hedgehog-4-episode-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-23T20:59:06.385306Z'
+updated_at: '2017-12-23T20:59:17.205910Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 202530
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 202530

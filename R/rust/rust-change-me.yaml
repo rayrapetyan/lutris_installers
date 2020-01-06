@@ -1,0 +1,24 @@
+id: 17074
+game_id: 523
+game_slug: rust
+name: Rust
+year: null
+user: MoonlightSeraph
+runner: steam
+slug: rust-change-me
+version: Change Me
+description: null
+notes: ''
+created_at: '2019-11-28T18:56:52.835099Z'
+updated_at: '2019-11-28T18:56:52.835138Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 252490
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 252490

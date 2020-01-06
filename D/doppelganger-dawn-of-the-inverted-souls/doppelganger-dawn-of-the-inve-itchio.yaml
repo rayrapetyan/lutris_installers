@@ -1,0 +1,35 @@
+id: 9746
+game_id: 20947
+game_slug: doppelganger-dawn-of-the-inverted-souls
+name: 'Doppelganger: Dawn of the Inverted Souls'
+year: 2013
+user: kimchitea
+runner: linux
+slug: doppelganger-dawn-of-the-inve-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2018-08-15T16:53:40.242000Z'
+updated_at: '2018-08-16T06:20:14.681255Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Doppelganger_Dawn of The Inverted Souls.sh
+  installer:
+  - merge:
+      src: $file1
+      dst: $CACHE/doppelganger.zip
+  - extract:
+      dst: $GAMEDIR
+      file: $CACHE/doppelganger.zip
+  - chmodx: $GAMEDIR/Doppelganger_Dawn of The Inverted Souls.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/python
+  - chmodx: $GAMEDIR/lib/linux-x86_64/python
+  files:
+  - file1: N/A:Please select the Windows installer

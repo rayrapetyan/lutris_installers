@@ -1,0 +1,30 @@
+id: 7995
+game_id: 12085
+game_slug: rakuen
+name: Rakuen
+year: 2017
+user: talklittle
+runner: linux
+slug: rakuen-humble-bundle
+version: Humble Bundle
+description: .tgz file downloaded from Humble Bundle
+notes: ''
+created_at: '2018-04-27T10:17:05.899771Z'
+updated_at: '2018-04-30T23:50:06.330790Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 559210
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Select the game's tgz file
+  game:
+    exe: Rakuen/Rakuen.amd64
+    working_dir: $GAMEDIR

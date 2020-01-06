@@ -1,0 +1,30 @@
+id: 2255
+game_id: 6216
+game_slug: huniecam-studio
+name: HunieCam Studio
+year: 2016
+user: Lulu
+runner: linux
+slug: huniecam-studio-humble-bundle-64bit
+version: Humble Bundle (64bit)
+description: ''
+notes: ''
+created_at: '2016-07-05T08:36:50.474590Z'
+updated_at: '2016-08-12T03:27:00.235466Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 426000
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: HunieCamStudio.x86_64
+  installer:
+  - extract:
+      file: hunie-cam-studio-game
+  - chmodx: $GAMEDIR/HunieCamStudio.x86_64
+  files:
+  - hunie-cam-studio-game: 'N/A: Please select the .zip install file downloaded from
+      humblebundle.com'

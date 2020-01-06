@@ -1,0 +1,16 @@
+name: The Next World
+slug: the-next-world
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Simulation
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/the-next-world.jpg
+icon_url: /games/icon/the-next-world.png
+is_public: true
+updated: '2019-10-10T23:59:17.086922Z'
+steamid: 427860
+gogslug: ''
+humblestoreid: ''

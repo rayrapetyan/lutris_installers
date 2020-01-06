@@ -1,0 +1,35 @@
+id: 10497
+game_id: 22113
+game_slug: esc
+name: ESC
+year: 2018
+user: Maxr1998
+runner: wine
+slug: esc-v100
+version: v1.0.0
+description: Unzips the downloaded game into its folder and sets system options for
+  better compatibility (fixes sound issues).
+notes: ''
+created_at: '2018-10-13T13:23:20.047000Z'
+updated_at: '2018-10-14T05:58:13.969759Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      description: "Extracting game data\u2026"
+      file: $esc_zip
+  system:
+    reset_pulse: true
+    pulse_latency: true
+  files:
+  - esc_zip: N/A:Select the esc-windows.zip downloaded from itch.io
+  game:
+    exe: $GAMEDIR/ESC.exe
+    working_dir: $GAMEDIR

@@ -1,0 +1,28 @@
+id: 15604
+game_id: 579
+game_slug: duke-nukem-forever
+name: Duke Nukem Forever
+year: 2011
+user: VortexAcherontic
+runner: winesteam
+slug: duke-nukem-forever-steam-w-dxvk
+version: Steam /w DXVK
+description: null
+notes: "Minor flickering during gameplay.\r\nEnabling VSync will cause the game to\
+  \ display a grey screen."
+created_at: '2019-09-16T09:34:15.745000Z'
+updated_at: '2019-12-23T19:25:04.790240Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 57900
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    StrictDrawOrdering: enabled
+    dxvk: true
+  game:
+    appid: 57900

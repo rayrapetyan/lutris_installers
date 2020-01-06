@@ -1,0 +1,32 @@
+id: 6971
+game_id: 3319
+game_slug: millennium-4-beyond-sunset
+name: Millennium 4 - Beyond Sunset
+year: null
+user: FakeShemp
+runner: wine
+slug: millennium-4-beyond-sunset-desura
+version: Desura
+description: null
+notes: ''
+created_at: '2018-01-03T00:51:45.648344Z'
+updated_at: '2018-05-19T03:41:53.196213Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 298840
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Millennium 4
+      file: $file1
+  files:
+  - file1: N/A:Please select the Desura archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Millennium 4/MM4.exe
+    arch: win32

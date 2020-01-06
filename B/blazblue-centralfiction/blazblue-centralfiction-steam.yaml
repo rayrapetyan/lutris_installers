@@ -1,0 +1,49 @@
+id: 5064
+game_id: 12255
+game_slug: blazblue-centralfiction
+name: BlazBlue Centralfiction
+year: null
+user: goolord
+runner: winesteam
+slug: blazblue-centralfiction-steam
+version: Steam
+description: null
+notes: '*This game might require to manually install <a href="https://github.com/z0z0z/mf-install">this
+  fix</a>.'
+created_at: '2017-07-15T00:31:56.037000Z'
+updated_at: '2019-09-21T18:51:17.589317Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 586140
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    xinput: true
+    overrides:
+      dinput8: native,builtin
+      xinput1_3: native,builtin
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing Quartz
+      app: quartz
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing devenum
+      app: devenum
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing Windows Media Player 9
+      app: wmp9
+      silent: true
+      name: winetricks
+  game:
+    appid: 586140

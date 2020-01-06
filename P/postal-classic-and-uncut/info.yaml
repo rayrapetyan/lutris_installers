@@ -1,0 +1,17 @@
+name: 'POSTAL: Classic and Uncut'
+slug: postal-classic-and-uncut
+year: 2003
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Horror
+- name: Shooter
+aliases: []
+banner_url: /games/banner/postal-classic-and-uncut.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:48.348134Z'
+steamid: null
+gogslug: postal_classic_and_uncut
+humblestoreid: ''

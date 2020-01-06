@@ -1,0 +1,50 @@
+id: 14967
+game_id: 11357
+game_slug: anarchy-online
+name: Anarchy Online
+year: null
+user: magzu
+runner: wine
+slug: anarchy-online-standalone-dxvk
+version: Standalone | DXVK
+description: New-engine with DXVK
+notes: ''
+created_at: '2019-08-11T12:38:57.294000Z'
+updated_at: '2019-12-23T19:51:59.115828Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: 396280
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Funcom/Anarchy Online/AnarchyOnline.exe
+    arch: win64
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine Prefix...
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing dependencies
+      app: d3dcompiler_43 d3dx9 arial
+      name: winetricks
+  - task:
+      executable: AO_installer
+      prefix: $GAMEDIR
+      description: Running Anarchy Online Installer. Please do not run the game until
+        this script finishes installing.
+      arch: win64
+      name: wineexec
+  wine:
+    version: ge-protonified-4.10-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - AO_installer: http://update.anarchy-online.com/download/AO/AnarchyOnline_EP2.exe

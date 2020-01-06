@@ -1,0 +1,34 @@
+id: 10144
+game_id: 21692
+game_slug: 3d-movie-maker
+name: 3D Movie Maker
+year: 1995
+user: Nokes
+runner: wine
+slug: 3d-movie-maker-retailoem
+version: Retail/OEM
+description: Timidity++ required
+notes: Editing /etc/timidity/timidity.cfg might be required
+created_at: '2018-09-09T20:13:30.145201Z'
+updated_at: '2019-12-24T18:37:41.785982Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    exe: ~/.wine/drive_c/Program Files (x86)/Microsoft Kids/3D Movie Maker/3dmovie.exe
+    args: timidity -Os -iA
+    working_dir: ~/.wine/drive_c/Program Files (x86)/Microsoft Kids/3D Movie Maker
+  installer:
+  - insert-disc:
+      requires: setup.exe
+  wine:
+    Desktop: false
+  files:
+  - file1: http://www.3dmmfiles.com/uploads/homyguyz/utilities/3dmmnocd.zip
+  - file2: 'N/A: Please select setup.exe from 3DMovie100 CD'

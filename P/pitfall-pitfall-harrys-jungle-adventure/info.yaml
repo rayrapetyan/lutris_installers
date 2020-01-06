@@ -1,0 +1,21 @@
+name: Pitfall!
+slug: pitfall-pitfall-harrys-jungle-adventure
+year: 1982
+platforms:
+- name: Atari 2600
+- name: Atari 5200
+- name: Colecovision
+- name: Commodore 64
+- name: Intellivision
+- name: MSX
+genres:
+- name: Platform
+- name: Platformer
+aliases: []
+banner_url: /games/banner/pitfall-pitfall-harrys-jungle-adventure.jpg
+icon_url: null
+is_public: true
+updated: '2019-12-17T02:31:24.164643Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

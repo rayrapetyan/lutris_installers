@@ -1,0 +1,28 @@
+id: 6938
+game_id: 2595
+game_slug: heileen-1-sail-away
+name: 'Heileen: Sail Away'
+year: 2008
+user: FakeShemp
+runner: linux
+slug: heileen-sail-away-demo
+version: Demo
+description: null
+notes: ''
+created_at: '2018-01-01T20:35:21.448069Z'
+updated_at: '2018-01-01T20:37:38.878447Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 302950
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Heileen.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: http://www.winterwolves.com/download.php?game=Heileen-1.1.3.tar.bz2

@@ -1,0 +1,17 @@
+name: 'Riven: The Sequel to Myst'
+slug: riven-the-sequel-to-myst
+year: 1997
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: FPP
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/riven-the-sequel-to-myst.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:01.872112Z'
+steamid: null
+gogslug: riven_the_sequel_to_myst
+humblestoreid: ''

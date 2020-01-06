@@ -1,0 +1,58 @@
+id: 8776
+game_id: 13867
+game_slug: the-journeyman-project-1-pegasus-prime
+name: 'The Journeyman Project 1: Pegasus Prime'
+year: 1997
+user: AuxTaco
+runner: linux
+slug: the-journeyman-project-1-pega-gog-windows
+version: GOG Windows
+description: null
+notes: 'The GOG archive includes the source to a custom version of ScummVM that must
+  be compiled to run Pegasus Prime. If compilation fails, make sure you have the needed
+  libraries installed: http://wiki.scummvm.org/index.php/Compiling_ScummVM/GCC#Installing_the_needed_libraries_via_a_package_manager'
+created_at: '2018-06-17T20:34:34.564410Z'
+updated_at: '2018-06-18T05:23:45.707116Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 359420
+gogid: 1207664213
+gogslug: journeyman_project_1_pegasus_prime_the
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - extract:
+      dst: $CACHE
+      file: $innoextract
+  - execute:
+      args: --gog -I "/app" -d "$GAMEDIR" -ms "$installer"
+      description: Extracting game data (empty output means it's working, please be
+        patient)...
+      file: $CACHE/innoextract
+      disable_runtime: true
+  - execute:
+      args: '"$GAMEDIR/app/docs/ScummVM Documentation/Source.zip" -d "$CACHE"'
+      description: Extracting ScummVM source...
+      file: $CACHE/unzip
+      disable_runtime: true
+  - execute:
+      command: cd "$CACHE/Source" && ./configure --datadir=. --disable-all-engines
+        --enable-engine=pegasus && make && strip --strip-unneeded PegasusPrime
+      description: Compiling custom ScummVM...
+      disable_runtime: true
+  - move:
+      src: $CACHE/Source/PegasusPrime
+      dst: $GAMEDIR/app
+  files:
+  - installer: N/A:Please select the GOG.com Windows installer.
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz
+  - innoextract: http://lutris.net/files/tools/innoextract.tar.gz
+  game:
+    exe: $GAMEDIR/app/PegasusPrime
+    appid: 359420
+    working_dir: $GAMEDIR/app

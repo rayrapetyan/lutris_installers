@@ -1,0 +1,32 @@
+id: 17552
+game_id: 2993
+game_slug: space-rangers-hd-a-war-apart
+name: 'Space Rangers HD: A War Apart'
+year: null
+user: soredake
+runner: steam
+slug: space-rangers-hd-a-war-apart-proton
+version: Proton
+description: null
+notes: ''
+created_at: '2019-12-24T20:27:55.401000Z'
+updated_at: '2019-12-24T21:09:46.041607Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 214730
+gogid: 1207667113
+gogslug: space_rangers_hd_a_war_apart
+humblestoreid: ''
+script:
+  installer:
+  - write_file:
+      mode: a
+      content: AllowHardwareRenderUnderWine=Yes
+      file: $GAMEDIR/CFG.TXT
+  system:
+    env:
+      PROTON_NO_ESYNC: 1
+  game:
+    appid: 214730

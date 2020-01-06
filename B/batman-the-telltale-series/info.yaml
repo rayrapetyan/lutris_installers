@@ -1,0 +1,15 @@
+name: Batman - The Telltale Series
+slug: batman-the-telltale-series
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/batman-the-telltale-series.jpg
+icon_url: /games/icon/batman-the-telltale-series.png
+is_public: true
+updated: '2019-01-23T08:28:32.210045Z'
+steamid: 498240
+gogslug: batman_a_telltale_game_series
+humblestoreid: ''

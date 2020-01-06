@@ -1,0 +1,33 @@
+id: 2208
+game_id: 2405
+game_slug: rocketsrocketsrockets
+name: ROCKETSROCKETSROCKETS
+year: null
+user: Lulu
+runner: linux
+slug: rocketsrocketsrockets-humble-bundle
+version: Humble Bundle
+description: ''
+notes: ''
+created_at: '2016-06-26T21:33:10.155484Z'
+updated_at: '2016-08-12T01:44:55.916711Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 289760
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Linux/Rockets.x86
+  installer:
+  - extract:
+      file: rocketsrocketsrockets-game
+  - chmodx: $GAMEDIR/Linux/Rockets.x86
+  - chmodx: $GAMEDIR/Linux/Rockets.x86_64
+  exe64: Linux/Rockets.x86_64
+  steamid: '289760'
+  files:
+  - rocketsrocketsrockets-game: 'N/A: Please select the .zip install file downloaded
+      from humblebundle.com'

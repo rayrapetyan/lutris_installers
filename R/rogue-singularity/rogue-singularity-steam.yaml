@@ -1,0 +1,24 @@
+id: 3447
+game_id: 10423
+game_slug: rogue-singularity
+name: Rogue Singularity
+year: null
+user: liberodark
+runner: steam
+slug: rogue-singularity-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-04-01T03:09:51.004851Z'
+updated_at: '2017-04-02T23:50:34.342873Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 419710
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 419710

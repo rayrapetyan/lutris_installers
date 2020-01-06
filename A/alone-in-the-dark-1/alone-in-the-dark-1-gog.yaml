@@ -1,0 +1,55 @@
+id: 13196
+game_id: 25308
+game_slug: alone-in-the-dark-1
+name: Alone in the Dark 1
+year: 1992
+user: legluondunet
+runner: dosbox
+slug: alone-in-the-dark-1-gog
+version: GOG
+description: "This script will install \"Alone in the Dark\" GOG edition for DOSBox.\r\
+  \nDuring install please let all options by default.\r\nBig thanks to people who\
+  \ gave their time to permit us playing this game in the best conditions."
+notes: "- multilanguage: you can choose text language during install between english\
+  \ (default), french, german, spanish and italian.\r\n- Please report issue concerning\
+  \ this script on my Github page:\r\nhttps://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2019-04-28T19:01:12.294000Z'
+updated_at: '2019-11-16T09:50:27.458375Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: null
+gogid: 1207660923
+gogslug: alone_in_the_dark
+humblestoreid: ''
+script:
+  custom-name: Alone in the Dark - GOG
+  installer:
+  - extract:
+      dst: $CACHE
+      file: inno
+  - execute:
+      args: -d "$GAMEDIR" "$setup"
+      file: $CACHE/innoextract
+  - input_menu:
+      options:
+      - '0': "Fran\xE7ais"
+      - '1': English
+      - '2': "Espa\xF1ol"
+      - '3': Deutsch
+      - '4': Italiano
+      description: Please choose your preferred game's text language
+      id: LANG
+      preselect: 1
+  - chmodx: script
+  - execute:
+      args: $INPUT_LANG
+      file: script
+  files:
+  - setup: N/A:Please select the GOG installer
+  - inno: http://constexpr.org/innoextract/files/snapshots/innoextract-1.8-dev-2019-01-13/innoextract-1.8-dev-2019-01-13-linux.tar.xz
+  - script: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Alone%20in%20the%20Dark/clean.sh
+  game:
+    config_file: $GAMEDIR/dosbox_conf/dosboxAlone1.conf
+    main_file: $GAMEDIR/dosbox_conf/dosboxAlone1_single.conf

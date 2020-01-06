@@ -1,0 +1,16 @@
+name: The Blackwell Legacy
+slug: the-blackwell-legacy
+year: 2006
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/the-blackwell-legacy.jpg
+icon_url: /games/icon/the-blackwell-legacy.png
+is_public: true
+updated: '2019-11-01T00:19:29.027902Z'
+steamid: 80330
+gogslug: episode_1_the_blackwell_legacy
+humblestoreid: ''

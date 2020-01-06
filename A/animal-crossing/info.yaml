@@ -1,0 +1,16 @@
+name: Animal Crossing
+slug: animal-crossing
+year: 2002
+platforms:
+- name: GameCube
+genres:
+- name: Life simulation
+- name: Social simulation
+aliases: []
+banner_url: /games/banner/animal-crossing.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:22.026334Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

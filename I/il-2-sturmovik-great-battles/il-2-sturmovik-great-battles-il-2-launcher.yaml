@@ -1,0 +1,52 @@
+id: 11912
+game_id: 25591
+game_slug: il-2-sturmovik-great-battles
+name: 'IL-2 Sturmovik: Great Battles'
+year: 2014
+user: Nick_R
+runner: wine
+slug: il-2-sturmovik-great-battles-il-2-launcher
+version: IL-2 Launcher
+description: This installs the IL-2 Launcher and applies the required workarounds.
+notes: ''
+created_at: '2019-02-08T05:29:51.569222Z'
+updated_at: '2019-03-30T21:16:38.899080Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      app: dxvk corefonts vcrun2015 remove_mono win10
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      type: REG_SZ
+      value: Y
+      key: ShowDotFiles
+      path: HKEY_CURRENT_USER\Software\Wine
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      args: /VERYSILENT /SUPPRESSMSGBOXES
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: dotnet40
+      name: winetricks
+  files:
+  - installer: http://cdn.il2sturmovik.net/x64/IL2_setup_Great_Battles.exe
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files (x86)/1C Game Studios/IL-2 Sturmovik Great
+      Battles/bin/game/Launcher.exe
+    working_dir: $GAMEDIR/drive_c/Program Files (x86)/1C Game Studios/IL-2 Sturmovik
+      Great Battles/bin/game

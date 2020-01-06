@@ -1,0 +1,24 @@
+id: 4068
+game_id: 3130
+game_slug: back-to-bed
+name: Back to Bed
+year: 2014
+user: FakeShemp
+runner: steam
+slug: back-to-bed-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-06-02T19:55:49.966705Z'
+updated_at: '2017-06-04T22:11:19.896106Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 308040
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 308040

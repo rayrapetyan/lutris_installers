@@ -1,0 +1,64 @@
+id: 13030
+game_id: 2990
+game_slug: metro-last-light-redux
+name: 'Metro: Last Light Redux'
+year: 2014
+user: beefsugar
+runner: wine
+slug: metro-last-light-redux-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-04-22T01:39:25.053000Z'
+updated_at: '2019-04-27T05:43:26.353816Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 287390
+gogid: 1430740172
+gogslug: metro_last_light_redux
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE/dxsetup
+      file: dx2010
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR
+      args: /silent
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2012 win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: goginstaller
+      prefix: $GAMEDIR
+      args: /LANG=English /SP- /SUPPRESSMSGBOXES
+      arch: win64
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Metro Last Light Redux/metro.exe
+    arch: win64
+  system:
+    env:
+      DXVK_HUD: 0
+  wine:
+    version: tkg-4.6-x86_64
+    dxvk: true
+  files:
+  - goginstaller: N/A:Please select the GOG.com Windows installer
+  - dx2010: https://lutris.net/files/tools/directx-2010.tar.gz

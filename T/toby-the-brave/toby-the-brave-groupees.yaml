@@ -1,0 +1,39 @@
+id: 5153
+game_id: 12347
+game_slug: toby-the-brave
+name: Toby the Brave
+year: 2015
+user: FakeShemp
+runner: wine
+slug: toby-the-brave-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-22T08:43:32.900000Z'
+updated_at: '2018-05-19T03:41:57.154046Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Toby the Brave
+      file: $CACHE/Toby_the_Brave_Demo.zip
+  - task:
+      prefix: $GAMEDIR
+      app: d3dx11_42
+      name: winetricks
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Toby the Brave/Toby_the_Brave.exe
+    arch: win32

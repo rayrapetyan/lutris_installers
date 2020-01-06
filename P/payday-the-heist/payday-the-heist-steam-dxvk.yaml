@@ -1,0 +1,39 @@
+id: 13469
+game_id: 874
+game_slug: payday-the-heist
+name: 'PAYDAY: The Heist'
+year: 2011
+user: money123451
+runner: winesteam
+slug: payday-the-heist-steam-dxvk
+version: Steam | DXVK
+description: null
+notes: ''
+created_at: '2019-05-12T07:55:13.589000Z'
+updated_at: '2019-12-23T19:39:06.829151Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: 24240
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE/dxvk-release/
+      file: d9vk
+  - move:
+      src: $CACHE/dxvk-release/
+      dst: $HOME/.local/share/lutris/runtime/dxvk/d9vk-0.12/
+  winesteam:
+    dxvk_version: d9vk-0.12
+    esync: true
+    dxvk: true
+  system:
+    disable_compositor: 'true'
+  files:
+  - d9vk: https://github.com/Joshua-Ashton/d9vk/releases/download/0.12/d9vk-0.12.tar.gz
+  game:
+    appid: 24240

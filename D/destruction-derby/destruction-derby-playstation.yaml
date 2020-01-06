@@ -1,0 +1,31 @@
+id: 11452
+game_id: 24516
+game_slug: destruction-derby
+name: Destruction Derby
+year: 1995
+user: te_lanus
+runner: libretro
+slug: destruction-derby-playstation
+version: Playstation
+description: null
+notes: ''
+created_at: '2019-01-05T17:16:35.902089Z'
+updated_at: '2019-01-05T17:16:59.065904Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Playstation game disc
+  game:
+    core: mednafen_psx
+    main_file: file1

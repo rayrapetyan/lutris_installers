@@ -1,0 +1,17 @@
+name: Super Galaxy Squadron EX Turbo
+slug: super-galaxy-squadron-ex-turbo
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Arcade
+- name: Shooter
+aliases: []
+banner_url: /games/banner/super-galaxy-squadron-ex-turbo.jpg
+icon_url: /games/icon/super-galaxy-squadron-ex-turbo.png
+is_public: true
+updated: '2019-01-23T08:31:30.057770Z'
+steamid: 345860
+gogslug: ''
+humblestoreid: ''

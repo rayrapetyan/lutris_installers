@@ -1,0 +1,48 @@
+id: 7140
+game_id: 15858
+game_slug: club-penguin-island
+name: Club Penguin Island
+year: 2017
+user: QuillzToxic
+runner: wine
+slug: club-penguin-island-19
+version: '1.9'
+description: Only Lightly Tested
+notes: "It will appear the Club Penguin Island installer is doing nothing at some\
+  \ point, if you drag the installer away underneath you will find another installer.\r\
+  \n\r\nSeems to show up dim when full screen on an AMD GPU, 1440p Screen on Ubuntu\
+  \ 16.04"
+created_at: '2018-01-19T20:41:28.650000Z'
+updated_at: '2019-10-28T20:37:22.317506Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine Prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Wine to Windows 7
+      app: win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: file1
+      prefix: $GAMEDIR
+      description: Installing Club Penguin Island. Do tick "Launch Game" after installation!
+      name: wineexec
+  files:
+  - file1: https://1263cf72.content.disney.io/1518121153/installers/windows32/Club_Penguin_Island_Launcher-1.0.1.exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Club Penguin Island/ClubPenguinIslandLauncher.exe
+    arch: win64

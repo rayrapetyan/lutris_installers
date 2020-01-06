@@ -1,0 +1,99 @@
+id: 11844
+game_id: 25594
+game_slug: apex-legends
+name: Apex Legends
+year: 2019
+user: Farcrada
+runner: wine
+slug: apex-legends-origin
+version: Origin
+description: The game does not work due to Easy Anti Cheat. Please let know Electronic
+  Arts that you are interested in playing on Linux. Electronic Arts has the resources
+  to support Linux easily, the more people ask for support, the more it is likely
+  to have a native version.
+notes: "Please read before installing: <a href=\"https://github.com/lutris/lutris/wiki/Game:-Origin\"\
+  >https://github.com/lutris/lutris/wiki/Game:-Origin</a>\r\n\r\nSeeing as these are\
+  \ the same devs and it's using the same engine as <a href=\"https://lutris.net/games/titanfall-2/\"\
+  >Titanfall 2</a> there might be some issues with sound. Crackling sound can be fixed\
+  \ by adding <a href=\"https://kodi.wiki/view/PulseAudio#Known_issues\">tsched=0</a>\
+  \ to the file: <tt>/etc/pulse/default.pa</tt>"
+created_at: '2019-02-04T22:01:18.400000Z'
+updated_at: '2019-04-23T03:56:15.828695Z'
+draft: false
+published: true
+published_by: 19464
+rating: '1'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - execute:
+      command: mkdir "$GAMEDIR/nv-shaders"
+  - input_menu:
+      options:
+      - ? '#Not needed for AMD. Ignore this.
+
+          #d3d11.zeroInitWorkgroupMemory = False'
+        : AMD
+      - ? 'Fixes fps issues on menus.
+
+          d3d11.zeroInitWorkgroupMemory = True'
+        : Nvidia
+      description: 'Setting DXVK workarounds please choose your GPU:'
+      id: GPU
+      preselect: '#Not needed for AMD. Ignore this.
+
+        #d3d11.zeroInitWorkgroupMemory = False'
+  - write_file:
+      content: $INPUT_GPU
+      file: $GAMEDIR/dxvk.conf
+  - task:
+      prefix: $GAMEDIR
+      app: nocrashdialog vcrun2017 win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: client
+      prefix: $GAMEDIR
+      description: Installing Origin... Login window will pop-up and close.
+      arch: win64
+      args: /silent
+      exclude_processes: Origin.exe OriginClientService.exe OriginWebHelperService.exe
+        QtWebEngineProcess.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  - chmodx: updater
+  - merge:
+      src: updater
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Origin
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Origin/Origin.exe
+    arch: win64
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR/nv-shaders
+      STAGING_SHARED_MEMORY: '0'
+      DXVK_CONFIG_FILE: $GAMEDIR/dxvk.conf
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+    exclude_processes: QtWebEngineProcess.exe ActivationUI.exe OriginWebHelperService.exe
+  wine:
+    version: tkg-protonified-4.1-x86_64
+    overrides:
+      nvapi,nvapi64: disabled
+      xaudio2_7: native,builtin
+    dxvk: true
+  files:
+  - client: https://origin-a.akamaihd.net/Origin-Client-Download/origin/live/OriginThinSetup.exe
+  - updater: https://raw.githubusercontent.com/DrDoctor13/wine-origin-updater/master/updateorigin.sh

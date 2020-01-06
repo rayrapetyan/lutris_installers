@@ -1,0 +1,35 @@
+id: 9772
+game_id: 709
+game_slug: alice-madness-returns
+name: 'Alice: Madness Returns'
+year: 2011
+user: bash64
+runner: wine
+slug: alice-madness-returns-boxed-copy
+version: BOXED-Copy
+description: 'Fix the names of the executables to install the DVD version of Alice:
+  Madness Returns'
+notes: boxed retail copy does not have a Setup-1a.bin file and the exe is called EASetup.exe
+  not Setup.exe. I have the boxed copy in front of me.
+created_at: '2018-08-17T06:16:47.005000Z'
+updated_at: '2018-08-18T10:28:36.197850Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 19680
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: Autorun.exe
+  - task:
+      executable: $DISC/EASetup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/EA Games/Alice Madness Returns/AliceMadnessReturns.exe
+    arch: win32

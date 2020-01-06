@@ -1,0 +1,29 @@
+id: 7892
+game_id: 8423
+game_slug: muv-luv
+name: Muv-Luv
+year: 2016
+user: talklittle
+runner: winesteam
+slug: muv-luv-steam
+version: Steam
+description: This is for the Muv-Luv 2018 re-release with new Steam App ID.
+notes: ''
+created_at: '2018-04-13T05:05:00.997000Z'
+updated_at: '2018-04-15T07:46:14.472249Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 802880
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2015
+      name: winetricks
+  game:
+    appid: 802880

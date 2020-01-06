@@ -1,0 +1,34 @@
+id: 10288
+game_id: 8133
+game_slug: pandum-online
+name: Pandum online
+year: 2016
+user: stoony
+runner: linux
+slug: pandum-online-standalone
+version: Standalone
+description: Install game client (x64 - including java virtual machine)
+notes: ''
+created_at: '2018-09-22T13:29:35.434000Z'
+updated_at: '2018-09-23T05:00:23.534105Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 469930
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - execute:
+      command: rm -rf $GAMEDIR/* &>/dev/null
+  - extract:
+      dst: $GAMEDIR/
+      file: $CACHE/pandum.tar.gz
+  files:
+  - installer: https://pandum.net/home/release/pandum.tar.gz
+  game:
+    exe: jre/bin/java
+    args: -cp pandum.jar net.pandum.Desktop
+    working_dir: $GAMEDIR

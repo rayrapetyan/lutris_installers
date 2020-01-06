@@ -1,0 +1,29 @@
+id: 10700
+game_id: 23047
+game_slug: solus-stunts
+name: Solus Stunts
+year: 2018
+user: HugeGameArtGD
+runner: linux
+slug: solus-stunts-stable-10
+version: Stable 10
+description: null
+notes: ''
+created_at: '2018-10-31T09:30:59.842000Z'
+updated_at: '2019-04-28T21:11:37.428415Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: game
+  files:
+  - game: https://github.com/HugeGameArtGD/Solus-Stunts/releases/download/v10.0/Linux.zip
+  game:
+    exe: Car-Racing-Game.x86_64

@@ -1,0 +1,19 @@
+name: 'Railroad Tycoon 2: Platinum'
+slug: railroad-tycoon-2-platinum
+year: 1998
+platforms:
+- name: Windows
+genres:
+- name: Managerial
+- name: Simulation
+- name: Strategy
+aliases:
+- slug: railroad-tycoon-ii
+  name: Railroad Tycoon II
+banner_url: /games/banner/railroad-tycoon-2-platinum.jpg
+icon_url: /games/icon/railroad-tycoon-2-platinum.png
+is_public: true
+updated: '2019-08-17T04:40:41.995114Z'
+steamid: 7620
+gogslug: railroad_tycoon_2
+humblestoreid: ''

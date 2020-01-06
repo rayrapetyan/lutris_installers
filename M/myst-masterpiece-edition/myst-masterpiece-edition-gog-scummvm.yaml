@@ -1,0 +1,41 @@
+id: 9530
+game_id: 411
+game_slug: myst-masterpiece-edition
+name: 'Myst: Masterpiece Edition'
+year: 2000
+user: Qalthos
+runner: scummvm
+slug: myst-masterpiece-edition-gog-scummvm
+version: GOG + ScummVM
+description: "This script will install \"Myst: Masterpiece Edition\" GOG edition for\
+  \ ScummVM.\r\nDuring install please let all options by default.\r\nThanks to the\
+  \ people who helped us play this game in the best conditions."
+notes: "- Please report issue concerning this script on my Github page:\r\nhttps://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2018-08-02T14:24:13.186000Z'
+updated_at: '2019-10-20T21:31:36.370988Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: 63660
+gogid: 1207658818
+gogslug: myst_masterpiece_edition
+humblestoreid: ''
+script:
+  custom-name: Myst - Masterpiece Edition - GOG - ScummVM
+  scummvm:
+    aspect: true
+    fullscreen: true
+  installer:
+  - extract:
+      dst: $CACHE/innoextract
+      file: inno
+  - execute:
+      args: --extract $setup --output-dir "$GAMEDIR/"
+      file: $CACHE/innoextract/innoextract
+  files:
+  - inno: http://constexpr.org/innoextract/files/snapshots/innoextract-1.8-dev-2019-01-13/innoextract-1.8-dev-2019-01-13-linux.tar.xz
+  - setup: N/A:Select the GOG setup file
+  game:
+    game_id: mohawk
+    path: $GAMEDIR

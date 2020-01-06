@@ -1,0 +1,15 @@
+name: AirMech
+slug: airmech
+year: 2012
+platforms:
+- name: Windows
+genres:
+- name: Moba
+aliases: []
+banner_url: /games/banner/airmech.jpg
+icon_url: /games/icon/airmech.png
+is_public: true
+updated: '2019-01-23T08:28:16.844423Z'
+steamid: 206500
+gogslug: ''
+humblestoreid: ''

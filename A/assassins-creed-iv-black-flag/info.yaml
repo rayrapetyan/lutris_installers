@@ -1,0 +1,18 @@
+name: Assassin's Creed IV Black Flag
+slug: assassins-creed-iv-black-flag
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases:
+- slug: assassins-creed-iv
+  name: Assassin's Creed IV
+banner_url: /games/banner/assassins-creed-iv-black-flag.jpg
+icon_url: /games/icon/assassins-creed-iv-black-flag.png
+is_public: true
+updated: '2019-03-08T01:27:26.715404Z'
+steamid: 242050
+gogslug: ''
+humblestoreid: ''

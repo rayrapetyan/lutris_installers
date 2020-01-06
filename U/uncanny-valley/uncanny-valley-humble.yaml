@@ -1,0 +1,32 @@
+id: 6342
+game_id: 7713
+game_slug: uncanny-valley
+name: Uncanny Valley
+year: null
+user: FakeShemp
+runner: wine
+slug: uncanny-valley-humble
+version: Humble
+description: null
+notes: ''
+created_at: '2017-11-16T10:43:24.273678Z'
+updated_at: '2018-05-19T03:41:59.137890Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 359580
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Uncanny Valley
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Uncanny Valley/PPA2IP.exe
+    arch: win32

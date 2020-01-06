@@ -1,0 +1,17 @@
+name: 'X-COM: Apocalypse'
+slug: x-com-apocalypse
+year: 1997
+platforms:
+- name: Windows
+genres:
+- name: Sci-fi
+- name: Strategy
+- name: Turn-based
+aliases: []
+banner_url: /games/banner/x-com-apocalypse.jpg
+icon_url: /games/icon/x-com-apocalypse.png
+is_public: true
+updated: '2019-01-23T08:32:12.046795Z'
+steamid: 7660
+gogslug: xcom_apocalypse
+humblestoreid: ''

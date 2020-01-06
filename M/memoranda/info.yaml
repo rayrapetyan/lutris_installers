@@ -1,0 +1,16 @@
+name: Memoranda
+slug: memoranda
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/memoranda.jpg
+icon_url: /games/icon/memoranda.png
+is_public: true
+updated: '2019-03-25T04:19:50.746358Z'
+steamid: 430410
+gogslug: memoranda
+humblestoreid: ''

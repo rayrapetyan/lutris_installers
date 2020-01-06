@@ -1,0 +1,16 @@
+name: The Suffering
+slug: the-suffering
+year: 2004
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Horror
+aliases: []
+banner_url: /games/banner/the-suffering.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:47.743391Z'
+steamid: null
+gogslug: the_suffering
+humblestoreid: ''

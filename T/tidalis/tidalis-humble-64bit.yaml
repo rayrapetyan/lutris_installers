@@ -1,0 +1,28 @@
+id: 4059
+game_id: 779
+game_slug: tidalis
+name: Tidalis
+year: 2010
+user: FakeShemp
+runner: linux
+slug: tidalis-humble-64bit
+version: Humble (64bit)
+description: ''
+notes: ''
+created_at: '2017-06-02T17:25:51.747087Z'
+updated_at: '2017-06-04T22:09:15.913437Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 40420
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: TidalisLinux.x86_64
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

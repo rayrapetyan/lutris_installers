@@ -1,0 +1,29 @@
+id: 2213
+game_id: 6350
+game_slug: intimate-infinite
+name: Intimate, Infinite.
+year: 2015
+user: Lulu
+runner: linux
+slug: intimate-infinite-itchio
+version: itch.io
+description: Tested with v1.3, RC3
+notes: ''
+created_at: '2016-06-27T19:38:49.139024Z'
+updated_at: '2016-07-18T16:36:08.956895Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: intimate_infinite_rc3.x86
+  installer:
+  - extract:
+      file: game
+  - chmodx: $GAMEDIR/intimate_infinite_rc3.x86
+  files:
+  - game: 'N/A: Please select the .zip install file downloaded from itch.io'

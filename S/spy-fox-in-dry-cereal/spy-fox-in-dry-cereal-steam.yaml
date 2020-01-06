@@ -1,0 +1,24 @@
+id: 713
+game_id: 2786
+game_slug: spy-fox-in-dry-cereal
+name: 'SPY Fox in: Dry Cereal'
+year: 1997
+user: Xodetaetl
+runner: steam
+slug: spy-fox-in-dry-cereal-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T13:16:41.275000Z'
+updated_at: '2014-09-15T13:26:53.722000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 283980
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 283980

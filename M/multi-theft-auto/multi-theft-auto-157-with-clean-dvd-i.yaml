@@ -1,0 +1,47 @@
+id: 17251
+game_id: 11954
+game_slug: multi-theft-auto
+name: Multi Theft Auto
+year: 2005
+user: weedeadpixels
+runner: wine
+slug: multi-theft-auto-157-with-clean-dvd-i
+version: 1.5.7 with clean DVD install
+description: Installs DVD version of GTA:SA and MTA to clean directory (useful when
+  you want to have seperate installation just for MTA)
+notes: ''
+created_at: '2019-12-10T04:20:43.675000Z'
+updated_at: '2019-12-22T11:26:01.430952Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: grand-theft-auto-san-andreas
+  installer:
+  - task:
+      executable: gta
+      prefix: $GAMEDIR
+      description: Installing GTA:SA...
+      name: wineexec
+  - extract:
+      dst: $GAMEDIR/drive_c/windows/Fonts
+      file: $fonts
+  - task:
+      executable: $mta
+      prefix: $GAMEDIR
+      args: /silent
+      description: Installing MTA...
+      name: wineexec
+  files:
+  - gta: N/A:Select the installer for GTA San Andreas (setup.exe)
+  - fonts: http://167.71.173.90/fonts.zip
+  - mta: http://91.134.123.236/mtasa/main/mtasa-1.5.7.exe
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/MTA San Andreas 1.5/Multi Theft Auto.exe
+    arch: win32

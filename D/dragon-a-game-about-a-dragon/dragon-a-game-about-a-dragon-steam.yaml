@@ -1,0 +1,39 @@
+id: 7589
+game_id: 7396
+game_slug: dragon-a-game-about-a-dragon
+name: 'DRAGON: A Game About a Dragon'
+year: null
+user: Nibiron
+runner: winesteam
+slug: dragon-a-game-about-a-dragon-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-17T23:19:23.441000Z'
+updated_at: '2018-04-26T00:29:13.796389Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 351150
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing .NET 4.0
+      app: dotnet40
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing XNA Framework 4.0
+      app: xna40
+      arch: win32
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 351150
+    arch: win32

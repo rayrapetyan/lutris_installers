@@ -1,0 +1,24 @@
+id: 1045
+game_id: 3313
+game_slug: pajama-sam-games-to-play-on-any-day
+name: 'Pajama Sam: Games to Play on Any Day'
+year: null
+user: Xodetaetl
+runner: steam
+slug: pajama-sam-games-to-play-on-a-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2014-11-10T10:23:40.554000Z'
+updated_at: '2019-05-19T06:57:11.301979Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 317020
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 317020

@@ -1,0 +1,24 @@
+id: 3184
+game_id: 2987
+game_slug: blackguards
+name: Blackguards
+year: null
+user: bradgy
+runner: winesteam
+slug: blackguards-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-01-26T17:38:13.633000Z'
+updated_at: '2017-03-16T02:20:15.537631Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 249650
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 249650

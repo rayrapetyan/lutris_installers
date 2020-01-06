@@ -1,0 +1,41 @@
+id: 16851
+game_id: 142
+game_slug: oddworld-abes-exoddus
+name: 'Oddworld: Abe''s Exoddus'
+year: 1998
+user: vanstaveren
+runner: winesteam
+slug: oddworld-abes-exoddus-stretched
+version: stretched
+description: xboxdrv package needs to be installed.
+notes: ''
+created_at: '2019-11-16T11:39:34.690000Z'
+updated_at: '2019-12-24T10:55:45.056289Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 15710
+gogid: 1207658709
+gogslug: oddworld_abes_exoddus
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: create_prefix
+  winesteam:
+    version: ge-protonified-nofshack-4.9-x86_64
+    WineDesktop: 640x480
+    esync: true
+    UseXVidMode: true
+    Desktop: true
+  system:
+    reset_desktop: true
+    xboxdrv: xboxdrv
+  game:
+    prefix: $GAMEDIR/prefix
+    args: -fullscreen -nojoy
+    appid: 15710
+    arch: win32

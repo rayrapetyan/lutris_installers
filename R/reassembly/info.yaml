@@ -1,0 +1,18 @@
+name: Reassembly
+slug: reassembly
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Indie
+- name: Sci-fi
+- name: Shooter
+- name: Strategy
+aliases: []
+banner_url: /games/banner/reassembly.jpg
+icon_url: /games/icon/reassembly.png
+is_public: true
+updated: '2019-01-24T00:52:37.191986Z'
+steamid: 329130
+gogslug: ''
+humblestoreid: ''

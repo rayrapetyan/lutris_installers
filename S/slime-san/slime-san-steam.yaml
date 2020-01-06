@@ -1,0 +1,24 @@
+id: 7548
+game_id: 10574
+game_slug: slime-san
+name: Slime-san
+year: 2017
+user: t-rex91
+runner: steam
+slug: slime-san-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-15T16:27:38.918000Z'
+updated_at: '2018-03-20T04:26:40.704889Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 473530
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 473530

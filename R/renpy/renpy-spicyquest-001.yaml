@@ -1,0 +1,35 @@
+id: 16824
+game_id: 17706
+game_slug: renpy
+name: Ren'Py
+year: null
+user: Salvatos
+runner: linux
+slug: renpy-spicyquest-001
+version: SpicyQuest 0.0.1
+description: "This installer extracts the downloaded game file into the directory\
+  \ of your choice and sets the executable bit for you on the required files. No other\
+  \ operation should be necessary since this is a Ren\u2019Py game, and hopefully\
+  \ this will work for future versions as well."
+notes: ''
+created_at: '2019-11-14T22:47:01.433193Z'
+updated_at: '2019-11-14T22:47:01.433226Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: compressed
+  - chmodx: $GAMEDIR/SpicyQuest.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/SpicyQuest
+  - chmodx: $GAMEDIR/lib/linux-x86_64/SpicyQuest
+  files:
+  - compressed: N/A:Select the compressed game file
+  game:
+    exe: $GAMEDIR/SpicyQuest.sh

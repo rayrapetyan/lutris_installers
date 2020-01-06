@@ -1,0 +1,41 @@
+id: 6484
+game_id: 1453
+game_slug: another-world
+name: Another World
+year: 1991
+user: Lucki
+runner: dosbox
+slug: another-world-dos
+version: DOS
+description: null
+notes: ''
+created_at: '2017-11-29T12:57:33.021000Z'
+updated_at: '2017-12-21T15:41:54.277783Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 233550
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - execute:
+      args: https://www.myabandonware.com/download/18e-out-of-this-world --referer=www.myabandonware.com
+        --directory-prefix=$CACHE
+      description: "Downloading game data\u2026"
+      file: /usr/bin/wget
+      dst: $CACHE
+  - move:
+      src: $CACHE/18e-out-of-this-world
+      dst: $CACHE/game.zip
+  - extract:
+      format: zip
+      description: "Extracting game\u2026"
+      file: $CACHE/game.zip
+      dst: $GAMEDIR/
+  files:
+  - picture: https://www.myabandonware.com/media/screenshots/l/lemmings-16x/lemmings_1.gif
+  game:
+    main_file: another.exe

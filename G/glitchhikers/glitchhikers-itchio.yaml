@@ -1,0 +1,32 @@
+id: 4350
+game_id: 11729
+game_slug: glitchhikers
+name: Glitchhikers
+year: 2014
+user: FakeShemp
+runner: wine
+slug: glitchhikers-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-06-14T17:14:08.014767Z'
+updated_at: '2018-05-19T03:41:51.954760Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Glitchhikers
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Glitchhikers/Glitchhikers.exe
+    arch: win32

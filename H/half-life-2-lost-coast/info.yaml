@@ -1,0 +1,15 @@
+name: 'Half-Life 2: Lost Coast'
+slug: half-life-2-lost-coast
+year: 2005
+platforms:
+- name: Linux
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/half-life-2-lost-coast.jpg
+icon_url: /games/icon/half-life-2-lost-coast.png
+is_public: true
+updated: '2019-01-23T08:29:46.164671Z'
+steamid: 340
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 7815
+game_id: 9150
+game_slug: the-stalin-subway-red-veil
+name: 'The Stalin Subway: Red Veil'
+year: null
+user: catman1900
+runner: winesteam
+slug: the-stalin-subway-red-veil-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-04-06T20:31:17.991283Z'
+updated_at: '2018-04-26T00:50:57.870684Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 311120
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 311120

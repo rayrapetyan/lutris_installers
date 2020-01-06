@@ -1,0 +1,24 @@
+id: 2133
+game_id: 4679
+game_slug: madout
+name: MadOut
+year: null
+user: strider
+runner: steam
+slug: madout-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-06-15T05:49:08.526408Z'
+updated_at: '2016-06-15T05:49:13.055311Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 352170
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 352170

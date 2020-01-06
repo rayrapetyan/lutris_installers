@@ -1,0 +1,30 @@
+id: 7718
+game_id: 15184
+game_slug: dreams-of-desire
+name: Dreams of Desire
+year: 2017
+user: t-rex91
+runner: linux
+slug: dreams-of-desire-patreon
+version: Patreon
+description: Installer for Chapter 1-11
+notes: ''
+created_at: '2018-04-01T20:56:37.367973Z'
+updated_at: '2018-04-02T00:48:31.324352Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: DreamsOfDesireEP11.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/DreamsOfDesireEP11.sh
+  - chmodx: $GAMEDIR/lib/linux-x86_64/DreamsOfDesireEP11
+  files:
+  - file1: N/A:Please select the Patreon archive

@@ -1,0 +1,29 @@
+id: 3991
+game_id: 1301
+game_slug: race-the-sun
+name: Race The Sun
+year: 2013
+user: FakeShemp
+runner: linux
+slug: race-the-sun-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-31T13:14:48.022413Z'
+updated_at: '2017-05-31T16:28:08.009652Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 253030
+gogid: 1207660134
+gogslug: race_the_sun
+humblestoreid: race-the-sun
+script:
+  exe: RaceTheSun.x86
+  installer:
+  - extract:
+      file: $file1
+  exe64: RaceTheSun.x86_64
+  files:
+  - file1: N/A:Please select the Humble archive

@@ -1,0 +1,31 @@
+id: 6619
+game_id: 10141
+game_slug: driver
+name: Driver
+year: 1999
+user: FakeShemp
+runner: libretro
+slug: driver-playstation
+version: PlayStation
+description: null
+notes: ''
+created_at: '2017-12-10T16:58:56.301619Z'
+updated_at: '2017-12-10T17:07:03.407108Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the PlayStation image file
+  game:
+    core: mednafen_psx_hw
+    main_file: file1

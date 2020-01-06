@@ -1,0 +1,16 @@
+name: 'Commandos: Beyond the Call of Duty'
+slug: commandos-beyond-the-call-of-duty
+year: 1999
+platforms:
+- name: Windows
+genres:
+- name: Real-time tactics
+- name: Stealth
+aliases: []
+banner_url: /games/banner/commandos-beyond-the-call-of-duty.jpg
+icon_url: /games/icon/commandos-beyond-the-call-of-duty.png
+is_public: true
+updated: '2019-01-23T08:28:56.699823Z'
+steamid: 6810
+gogslug: ''
+humblestoreid: ''

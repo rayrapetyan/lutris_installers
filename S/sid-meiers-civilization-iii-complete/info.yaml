@@ -1,0 +1,19 @@
+name: "Sid Meier's Civilization\xAE III Complete"
+slug: sid-meiers-civilization-iii-complete
+year: 2001
+platforms:
+- name: Windows
+genres:
+- name: 4X
+aliases:
+- slug: civ-iii
+  name: Civ III
+- slug: civilization-iii
+  name: Civilization III
+banner_url: /games/banner/sid-meiers-civilization-iii-complete.jpg
+icon_url: /games/icon/sid-meiers-civilization-iii-complete.png
+is_public: true
+updated: '2019-02-27T04:09:25.071374Z'
+steamid: 3910
+gogslug: sid_meiers_civilization_iii_complete
+humblestoreid: ''

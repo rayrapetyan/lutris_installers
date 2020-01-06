@@ -1,0 +1,24 @@
+id: 12576
+game_id: 26424
+game_slug: unsung-warriors-prologue
+name: Unsung Warriors - Prologue
+year: 2019
+user: dj_who
+runner: steam
+slug: unsung-warriors-prologue-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-03-30T21:46:02.743000Z'
+updated_at: '2019-04-01T02:59:52.112988Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 959080
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 959080

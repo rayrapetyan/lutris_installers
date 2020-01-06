@@ -1,0 +1,29 @@
+id: 5005
+game_id: 12120
+game_slug: bunny-bounce
+name: Bunny Bounce
+year: 2017
+user: FakeShemp
+runner: linux
+slug: bunny-bounce-universal
+version: Universal
+description: 'Uncensor patch from: http://dharkerstudio.com/uncensored.html'
+notes: ''
+created_at: '2017-07-12T19:58:27.219105Z'
+updated_at: '2017-07-26T07:39:11.498303Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 446610
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: bunny-bounce
+  installer:
+  - extract:
+      dst: $GAMEDIR/game
+      file: $file1
+  files:
+  - file1: N/A:Please select the patch archive

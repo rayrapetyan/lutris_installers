@@ -1,0 +1,29 @@
+id: 2049
+game_id: 3932
+game_slug: hyperdimension-neptunia-rebirth1
+name: Hyperdimension Neptunia Re;Birth1
+year: 2015
+user: MrTimscampi
+runner: winesteam
+slug: hyperdimension-neptunia-rebir-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-04-21T16:54:09.557705Z'
+updated_at: '2016-09-30T20:42:13.295715Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 282900
+gogid: 1445338941
+gogslug: hyperdimension_neptunia_rebirth1
+humblestoreid: ''
+script:
+  task:
+    prefix: $GAMEDIR/prefix
+    app: xact_jun2010 vcrun2013 devenum quartz wmp9 windowscodecs vcrun2012
+    name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 282900

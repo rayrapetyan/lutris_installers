@@ -1,0 +1,16 @@
+name: Blackwell Unbound
+slug: blackwell-unbound
+year: 2007
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/blackwell-unbound.jpg
+icon_url: /games/icon/blackwell-unbound.png
+is_public: true
+updated: '2019-01-23T08:28:37.588279Z'
+steamid: 80340
+gogslug: blackwell_bundle
+humblestoreid: ''

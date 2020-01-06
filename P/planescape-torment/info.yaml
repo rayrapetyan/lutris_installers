@@ -1,0 +1,15 @@
+name: 'Planescape: Torment'
+slug: planescape-torment
+year: 1999
+platforms:
+- name: Windows
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/planescape-torment.jpg
+icon_url: /games/icon/planescape-torment.png
+is_public: true
+updated: '2019-01-23T08:30:45.820629Z'
+steamid: null
+gogslug: planescape_torment
+humblestoreid: ''

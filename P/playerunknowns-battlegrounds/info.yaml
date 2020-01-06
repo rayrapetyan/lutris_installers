@@ -1,0 +1,32 @@
+name: PLAYERUNKNOWN'S BATTLEGROUNDS
+slug: playerunknowns-battlegrounds
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+- name: Shooter
+- name: Simulation
+aliases:
+- slug: pubg
+  name: PUBG
+- slug: pubg-mobile
+  name: PUBG Mobile
+- slug: pubg-lite
+  name: PUBG Lite
+- slug: playerunknowns-battlegrounds-lite
+  name: PlayerUnknown's Battlegrounds Lite
+- slug: pubg-pc-lite
+  name: PUBG PC Lite
+- slug: tencent-gaming-buddy-mobile-pubg-emulator
+  name: Tencent Gaming Buddy (mobile pubg emulator)
+- slug: pubg-lite-pc
+  name: pubg lite pc
+banner_url: /games/banner/playerunknowns-battlegrounds.jpg
+icon_url: /games/icon/playerunknowns-battlegrounds.png
+is_public: true
+updated: '2019-10-23T07:13:12.318925Z'
+steamid: 578080
+gogslug: ''
+humblestoreid: ''

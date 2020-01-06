@@ -1,0 +1,27 @@
+id: 3661
+game_id: 11178
+game_slug: playerunknowns-battlegrounds
+name: PLAYERUNKNOWN'S BATTLEGROUNDS
+year: 2017
+user: strider
+runner: winesteam
+slug: playerunknowns-battlegrounds-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-05-10T17:39:26.201000Z'
+updated_at: '2019-10-28T21:05:00.510818Z'
+draft: false
+published: true
+published_by: 51687
+rating: '1'
+steamid: 578080
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    dxvk: true
+  game:
+    appid: 578080
+    arch: win64

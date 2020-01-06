@@ -1,0 +1,28 @@
+id: 7045
+game_id: 15716
+game_slug: halloween-otome
+name: Halloween Otome
+year: 2016
+user: FakeShemp
+runner: linux
+slug: halloween-otome-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2018-01-06T00:25:13.272084Z'
+updated_at: '2018-01-06T00:26:34.201944Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Halloween Otome.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

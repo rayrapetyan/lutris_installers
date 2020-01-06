@@ -1,0 +1,19 @@
+name: SSX Snowboarder (Play TV)
+slug: ssx-snowboarder-play-tv
+year: 2004
+platforms:
+- name: Arcade
+genres:
+- name: Sports
+aliases:
+- slug: play-tv-ssx-snowboarder
+  name: Play TV SSX Snowboarder
+- slug: connectv-ssx-snowboarder
+  name: ConnecTV SSX Snowboarder
+banner_url: /games/banner/ssx-snowboarder-play-tv.jpg
+icon_url: null
+is_public: true
+updated: '2019-02-20T15:21:58.221878Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

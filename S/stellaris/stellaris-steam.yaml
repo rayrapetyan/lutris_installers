@@ -1,0 +1,24 @@
+id: 2260
+game_id: 6307
+game_slug: stellaris
+name: Stellaris
+year: 2016
+user: s1ns3nt
+runner: steam
+slug: stellaris-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-07-05T23:44:46.266223Z'
+updated_at: '2016-07-06T05:33:46.535392Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 281990
+gogid: 1508702879
+gogslug: stellaris
+humblestoreid: ''
+script:
+  game:
+    appid: 281990

@@ -1,0 +1,52 @@
+id: 13235
+game_id: 5003
+game_slug: endless-sky
+name: Endless Sky
+year: 2015
+user: TheMaxus
+runner: linux
+slug: endless-sky-098
+version: 0.9.8
+description: Compiling the game from source
+notes: ''
+created_at: '2019-04-30T20:08:12.918000Z'
+updated_at: '2019-05-01T23:52:00.473451Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 404410
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: endless-sky
+  installer:
+  - extract:
+      dst: $GAMEDIR/src
+      file: source
+  - execute:
+      command: cd $GAMEDIR/src && scons -j$(nproc)
+  - move:
+      src: $GAMEDIR/src/endless-sky
+      dst: $GAMEDIR
+  - move:
+      src: $GAMEDIR/src/data
+      dst: $GAMEDIR
+  - move:
+      src: $GAMEDIR/src/images
+      dst: $GAMEDIR
+  - move:
+      src: $GAMEDIR/src/sounds
+      dst: $GAMEDIR
+  - move:
+      src: $GAMEDIR/src/keys.txt
+      dst: $GAMEDIR
+  - move:
+      src: $GAMEDIR/src/credits.txt
+      dst: $GAMEDIR
+  - execute:
+      command: rm -rf $GAMEDIR/src
+  files:
+  - source: https://github.com/endless-sky/endless-sky/archive/v0.9.8.tar.gz
+  require-binaries: scons,g++

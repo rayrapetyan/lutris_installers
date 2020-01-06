@@ -1,0 +1,24 @@
+id: 11879
+game_id: 14907
+game_slug: prey-2017
+name: Prey 2017
+year: 2017
+user: moars42
+runner: steam
+slug: prey-2017-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-02-06T14:54:47.505053Z'
+updated_at: '2019-02-07T04:35:29.300031Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 480490
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 480490

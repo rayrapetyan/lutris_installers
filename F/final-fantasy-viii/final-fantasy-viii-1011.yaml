@@ -1,0 +1,24 @@
+id: 9369
+game_id: 1670
+game_slug: final-fantasy-viii
+name: FINAL FANTASY VIII
+year: 1999
+user: tripleopticus
+runner: winesteam
+slug: final-fantasy-viii-1011
+version: 1.0.11
+description: null
+notes: Could not hear music. Controls seemed to lag even with smooth game-play/
+created_at: '2018-07-25T08:02:38.636000Z'
+updated_at: '2018-07-26T06:20:34.254170Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 39150
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 39150

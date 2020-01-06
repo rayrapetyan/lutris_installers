@@ -1,0 +1,17 @@
+name: Where the Water Tastes Like Wine
+slug: where-the-water-tastes-like-wine
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: RPG
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/where-the-water-tastes-like-wine.jpg
+icon_url: /games/icon/where-the-water-tastes-like-wine.png
+is_public: true
+updated: '2019-06-16T18:54:05.119795Z'
+steamid: 447120
+gogslug: where_the_water_tastes_like_wine
+humblestoreid: ''

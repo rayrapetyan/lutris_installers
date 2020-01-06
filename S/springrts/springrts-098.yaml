@@ -1,0 +1,29 @@
+id: 929
+game_id: 3235
+game_slug: springrts
+name: SpringRTS
+year: 2014
+user: strider
+runner: linux
+slug: springrts-098
+version: '0.98'
+description: Version 0.98 of Spring Engine (includes SpringLobby)
+notes: ''
+created_at: '2014-10-17T21:41:27.047000Z'
+updated_at: '2016-09-22T18:03:21.300727Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: springlobby
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: spring-engine
+  files:
+  - spring-engine: https://lutris.net/files/games/springrts/spring-0.98.tar.gz

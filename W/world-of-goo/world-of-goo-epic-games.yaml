@@ -1,0 +1,79 @@
+id: 13874
+game_id: 164
+game_slug: world-of-goo
+name: World of Goo
+year: 2008
+user: ObsidianFury
+runner: wine
+slug: world-of-goo-epic-games
+version: Epic Games
+description: May work may not
+notes: ''
+created_at: '2019-06-02T12:24:27.505000Z'
+updated_at: '2019-06-26T22:09:17.913544Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: 22000
+gogid: 1421855536
+gogslug: world_of_goo
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE/dxsetup
+      file: audio
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR
+      args: /silent
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  - task:
+      prefix: $GAMEDIR
+      description: Installing dependencies
+      app: arial dotnet48
+      arch: win64
+      name: winetricks
+  - copy:
+      src: epic
+      dst: $CACHE/epic/
+  - task:
+      executable: msiexec
+      prefix: $GAMEDIR
+      arch: win64
+      args: /i "$CACHE/epic/EpicGamesLauncherInstaller.msi" /q
+      exclude_processes: EpicGamesLauncher.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  game:
+    prefix: $GAMEDIR
+    args: -opengl
+    exe: drive_c/Program Files (x86)/Epic Games/Launcher/Portal/Binaries/Win32/EpicGamesLauncher.exe
+    arch: win64
+  system:
+    env:
+      MESA_GL_VERSION_OVERRIDE: 4.4COMPAT
+      PULSE_LATENCY_MSEC: 60
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: compiler
+      __GL_SHADER_DISK_CACHE: 1
+  wine:
+    version: ge-protonified-4.10-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - epic: https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi
+  - audio: https://lutris.net/files/tools/directx-2010.tar.gz

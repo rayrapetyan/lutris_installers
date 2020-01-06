@@ -1,0 +1,30 @@
+id: 1019
+game_id: 195
+game_slug: super-meat-boy
+name: Super Meat Boy
+year: 2010
+user: strider
+runner: linux
+slug: super-meat-boy-humble-bundle
+version: Humble Bundle
+description: ''
+notes: The installer won't work if the install path contains spaces.
+created_at: '2014-11-05T22:56:19.828000Z'
+updated_at: '2016-09-25T19:51:12.919744Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 40800
+gogid: null
+gogslug: ''
+humblestoreid: super-meat-boy
+script:
+  exe: SuperMeatBoy
+  installer:
+  - chmodx: meatboy-archive
+  - execute:
+      args: --destination $GAMEDIR
+      file: meatboy-archive
+  files:
+  - meatboy-archive: N/A:Select the installer downloaded from Humble Bundle.

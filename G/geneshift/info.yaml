@@ -1,0 +1,17 @@
+name: Geneshift
+slug: geneshift
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: MMO
+- name: Shooter
+aliases: []
+banner_url: /games/banner/geneshift.jpg
+icon_url: /games/icon/geneshift.png
+is_public: true
+updated: '2019-01-23T08:29:38.945996Z'
+steamid: 308600
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 741
+game_id: 2489
+game_slug: ascendant
+name: Ascendant
+year: 2014
+user: Xodetaetl
+runner: steam
+slug: ascendant-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T13:44:43.612000Z'
+updated_at: '2014-09-15T16:13:31.233000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 296930
+gogid: 1207664543
+gogslug: ascendant
+humblestoreid: ''
+script:
+  game:
+    appid: 296930

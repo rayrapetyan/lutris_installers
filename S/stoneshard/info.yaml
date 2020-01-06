@@ -1,0 +1,17 @@
+name: Stoneshard
+slug: stoneshard
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: RPG
+- name: Strategy
+aliases: []
+banner_url: /games/banner/stoneshard.jpg
+icon_url: /games/icon/stoneshard.png
+is_public: true
+updated: '2019-01-23T08:31:27.240554Z'
+steamid: 625960
+gogslug: ''
+humblestoreid: ''

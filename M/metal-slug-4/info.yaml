@@ -1,0 +1,16 @@
+name: Metal Slug 4
+slug: metal-slug-4
+year: 2002
+platforms:
+- name: Arcade
+- name: Neo Geo
+genres:
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/metal-slug-4.jpg
+icon_url: null
+is_public: true
+updated: '2019-06-05T05:21:39.854494Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

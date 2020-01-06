@@ -1,0 +1,30 @@
+id: 2194
+game_id: 4498
+game_slug: return-of-dr-destructo
+name: Return of Dr. Destructo
+year: 2015
+user: ssf
+runner: linux
+slug: return-of-dr-destructo-10-x86_64
+version: 1.0 (x86_64)
+description: ''
+notes: ''
+created_at: '2016-06-23T03:18:51.857613Z'
+updated_at: '2016-10-02T14:46:41.910162Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: DrDestructo2
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: game
+  - chmodx: $GAMEDIR/DrDestructo2
+  files:
+  - game: http://zxstudio.org/projects/drdestructo/files/1.0/DrDestructo2_1.0_linux_amd64.zip

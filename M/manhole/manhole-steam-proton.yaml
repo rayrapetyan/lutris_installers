@@ -1,0 +1,26 @@
+id: 9944
+game_id: 408
+game_slug: manhole
+name: Manhole
+year: null
+user: Jozua
+runner: steam
+slug: manhole-steam-proton
+version: Steam Proton
+description: Installs and runs through the native Steam Client
+notes: "Enable Steam Play (if not already done):\r\nSteam > Steam > Settings > Account\
+  \ > Beta Participation > Change > Steam Beta Update > Restart\r\nSteam > Steam >\
+  \ Settings > Steam Play > Check all boxes > Restart\r\nThen run this installer"
+created_at: '2018-08-29T05:36:02.415000Z'
+updated_at: '2019-11-04T05:00:47.708840Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 63630
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 63630

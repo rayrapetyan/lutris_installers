@@ -1,0 +1,18 @@
+name: 4game launcher
+slug: 4game-launcher
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Arcade
+- name: MMO
+aliases: []
+banner_url: /games/banner/4game-launcher.jpg
+icon_url: null
+is_public: true
+updated: '2019-05-19T13:14:46.449218Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

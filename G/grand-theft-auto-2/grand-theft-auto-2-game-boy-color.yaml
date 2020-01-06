@@ -1,0 +1,31 @@
+id: 11268
+game_id: 137
+game_slug: grand-theft-auto-2
+name: Grand Theft Auto 2
+year: 1999
+user: soredake
+runner: libretro
+slug: grand-theft-auto-2-game-boy-color
+version: Game Boy Color
+description: null
+notes: ''
+created_at: '2018-12-19T17:41:10.684305Z'
+updated_at: '2018-12-19T17:43:40.587535Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 12180
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: rom
+      dst: $GAMEDIR
+  files:
+  - rom: N/A:Select the game's ROM file
+  game:
+    core: gambatte
+    main_file: rom

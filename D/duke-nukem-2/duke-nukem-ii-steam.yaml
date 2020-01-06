@@ -1,0 +1,24 @@
+id: 11787
+game_id: 1645
+game_slug: duke-nukem-2
+name: Duke Nukem II
+year: 1993
+user: soredake
+runner: winesteam
+slug: duke-nukem-ii-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-01-31T10:49:29.809823Z'
+updated_at: '2019-02-01T01:59:26.429562Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 240180
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 240180

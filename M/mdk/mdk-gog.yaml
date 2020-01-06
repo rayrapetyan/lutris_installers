@@ -1,0 +1,33 @@
+id: 2307
+game_id: 1435
+game_slug: mdk
+name: MDK
+year: 1997
+user: strider
+runner: wine
+slug: mdk-gog
+version: GOG
+description: null
+notes: Game resolution can be changed with nglide_config.exe
+created_at: '2016-07-17T23:11:30.865000Z'
+updated_at: '2019-10-28T21:25:04.467663Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: 38450
+gogid: 6
+gogslug: mdk
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $setup
+      prefix: $GAMEDIR
+      args: /silent /nogui /suppressmsgboxes
+      name: wineexec
+  files:
+  - setup: N/A:Select the game's installer provided by GOG
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/MDK/MDK3DFX.EXE

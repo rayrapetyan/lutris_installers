@@ -1,0 +1,32 @@
+id: 3860
+game_id: 5506
+game_slug: state-of-decay-year-one-survival-edition
+name: 'State of Decay: Year One Survival Edition'
+year: 2015
+user: rensch77
+runner: winesteam
+slug: state-of-decay-year-one-survi-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-05-24T23:10:16.946000Z'
+updated_at: '2019-03-01T20:31:43.353644Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 329430
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.2-x86_64
+    esync: true
+    dxvk: true
+  system:
+    pulse_latency: true
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 329430
+    arch: win64

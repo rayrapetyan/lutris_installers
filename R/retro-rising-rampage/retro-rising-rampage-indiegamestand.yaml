@@ -1,0 +1,32 @@
+id: 4362
+game_id: 11734
+game_slug: retro-rising-rampage
+name: Retro Rising Rampage
+year: 2014
+user: FakeShemp
+runner: wine
+slug: retro-rising-rampage-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-06-15T09:15:57.358753Z'
+updated_at: '2018-05-19T03:41:51.670375Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Retro Rising Rampage
+      file: $file1
+  files:
+  - file1: N/A:Please select the IndieGameStand archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Retro Rising Rampage/RRR Alpha 34.exe
+    arch: win32

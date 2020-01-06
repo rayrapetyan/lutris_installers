@@ -1,0 +1,62 @@
+id: 1914
+game_id: 853
+game_slug: age-of-empires-iii-complete-collection
+name: 'Age of Empires III: Complete Collection'
+year: 2009
+user: strider
+runner: winesteam
+slug: age-of-empires-iii-complete-c-steam-w-pbaesync
+version: Steam w/ PBA+Esync
+description: null
+notes: '* This game runs in a 32 bit prefix'
+created_at: '2016-01-19T16:42:44.220000Z'
+updated_at: '2019-11-16T08:59:33.965100Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 105450
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - input_menu:
+      options:
+      - '256': 256MB
+      - '512': 512MB
+      - '1024': 1024MB
+      - '2048': 2048MB
+      - '4096': 4096MB
+      description: 'Select how much VRAM (GPU memory) Age of Empires III will allocate:'
+      id: MEM
+      preselect: '1024'
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Working around missing libs.
+      app: corefonts l3codecx mfc42
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Setting Windows version to XP
+      app: winxp
+      name: winetricks
+  winesteam:
+    version: esync-staging-pba-3.16-x86_64
+    esync: true
+    overrides:
+      xaudio2_7: native,builtin
+  system:
+    env:
+      __PBA_GEO_HEAP: $INPUT_MEM
+      PBA_ENABLE: '1'
+  game:
+    prefix: $GAMEDIR/prefix
+    args: +noIntroCinematics
+    appid: 105450
+    arch: win32

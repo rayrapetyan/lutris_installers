@@ -1,0 +1,40 @@
+id: 11425
+game_id: 24793
+game_slug: zdaemon
+name: ZDaemon
+year: null
+user: AsciiWolf
+runner: wine
+slug: zdaemon-official-installer
+version: Official installer
+description: Official ZDaemon installer.
+notes: ''
+created_at: '2019-01-03T13:13:46.189000Z'
+updated_at: '2019-10-28T20:59:27.136269Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix.
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: setup
+      description: Running ZDaemon setup.
+      name: wineexec
+  files:
+  - setup:
+      filename: zdaemon-setup.exe
+      url: http://downloads.zdaemon.org/zdaemon-setup.exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/ZDaemon/zlauncher.exe
+    arch: win32

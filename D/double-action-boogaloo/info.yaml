@@ -1,0 +1,15 @@
+name: 'Double Action: Boogaloo'
+slug: double-action-boogaloo
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/double-action-boogaloo.jpg
+icon_url: /games/icon/double-action-boogaloo.png
+is_public: true
+updated: '2019-01-23T08:29:15.783760Z'
+steamid: 317360
+gogslug: ''
+humblestoreid: ''

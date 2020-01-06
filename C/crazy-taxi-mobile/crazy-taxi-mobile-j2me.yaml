@@ -1,0 +1,31 @@
+id: 11400
+game_id: 24577
+game_slug: crazy-taxi-mobile
+name: Crazy Taxi Mobile
+year: 2009
+user: te_lanus
+runner: libretro
+slug: crazy-taxi-mobile-j2me
+version: J2ME
+description: null
+notes: ''
+created_at: '2019-01-01T11:49:34.779047Z'
+updated_at: '2019-01-01T11:49:47.284748Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Java game file
+  game:
+    core: freej2me
+    main_file: file1

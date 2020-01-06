@@ -1,0 +1,28 @@
+id: 7611
+game_id: 13904
+game_slug: kare-wa-kanojo
+name: Kare wa Kanojo
+year: 2011
+user: oscararg
+runner: linux
+slug: kare-wa-kanojo-itchio
+version: Itchio
+description: null
+notes: ''
+created_at: '2018-03-20T05:19:44.987275Z'
+updated_at: '2018-03-26T20:28:11.962749Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 1024790
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: kwk.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

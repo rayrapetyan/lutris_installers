@@ -1,0 +1,20 @@
+name: "Desperados 2: Cooper\u2019s Revenge"
+slug: desperados-2-coopers-revenge
+year: 2006
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Real-time
+- name: Real-time strategy
+- name: Real-time tactics
+- name: Strategy
+- name: Tactical
+aliases: []
+banner_url: /games/banner/desperados-2-coopers-revenge.jpg
+icon_url: /games/icon/desperados-2-coopers-revenge.png
+is_public: true
+updated: '2019-01-23T08:29:10.325928Z'
+steamid: 9710
+gogslug: desperados_2
+humblestoreid: ''

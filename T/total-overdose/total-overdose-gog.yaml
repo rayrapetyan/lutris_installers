@@ -1,0 +1,33 @@
+id: 5354
+game_id: 3385
+game_slug: total-overdose
+name: Total Overdose
+year: 2005
+user: FakeShemp
+runner: wine
+slug: total-overdose-gog
+version: GOG
+description: ''
+notes: Set audio system to DirectSound in the options to solve audio bugs.
+created_at: '2017-08-12T16:09:28.940000Z'
+updated_at: '2017-08-27T21:21:36.040604Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      args: /sp- /silent /norestart
+      name: wineexec
+  files:
+  - file1: N/A:Please select the GOG installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Total Overdose/TotalOverdose.exe

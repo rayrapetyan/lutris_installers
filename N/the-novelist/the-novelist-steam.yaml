@@ -1,0 +1,24 @@
+id: 631
+game_id: 1730
+game_slug: the-novelist
+name: The Novelist
+year: null
+user: Xodetaetl
+runner: steam
+slug: the-novelist-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-14T21:44:54.663000Z'
+updated_at: '2014-09-14T21:47:56.947000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 245150
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 245150

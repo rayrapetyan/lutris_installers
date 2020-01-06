@@ -1,0 +1,50 @@
+id: 1203
+game_id: 3546
+game_slug: myst-online-uru-live
+name: 'Myst Online: Uru Live'
+year: 2007
+user: Xodetaetl
+runner: wine
+slug: myst-online-uru-live-official
+version: Official
+description: ''
+notes: ''
+created_at: '2014-12-12T22:57:32.743000Z'
+updated_at: '2018-05-19T03:41:58.952361Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      key: openal32
+      value: native,builtin
+      path: HKEY_CURRENT_USER/Software/Wine/DllOverrides
+      name: set_regedit
+  - task:
+      executable: $install
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: physx
+      name: winetricks
+  - task:
+      executable: $GAMEDIR/drive_c/Program Files/Uru Live/PhysX-9.12.1031-Legacy.msi
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - install: N/A
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/Uru Live/UruLauncher.exe
+    arch: win32

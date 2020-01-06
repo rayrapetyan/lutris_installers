@@ -1,0 +1,17 @@
+name: 'Kingdoms of Amalur: Reckoning'
+slug: kingdoms-of-amalur-reckoning
+year: 2012
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Hack and slash
+- name: RPG
+aliases: []
+banner_url: /games/banner/kingdoms-of-amalur-reckoning.jpg
+icon_url: /games/icon/kingdoms-of-amalur-reckoning.png
+is_public: true
+updated: '2019-01-23T08:30:04.061416Z'
+steamid: 102500
+gogslug: ''
+humblestoreid: ''

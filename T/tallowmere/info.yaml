@@ -1,0 +1,16 @@
+name: Tallowmere
+slug: tallowmere
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Indie
+aliases: []
+banner_url: /games/banner/tallowmere.jpg
+icon_url: /games/icon/tallowmere.png
+is_public: true
+updated: '2019-06-11T18:48:59.127628Z'
+steamid: 340520
+gogslug: ''
+humblestoreid: ''

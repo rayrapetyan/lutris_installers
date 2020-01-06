@@ -1,0 +1,16 @@
+name: Bastion
+slug: bastion
+year: 2011
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: RPG
+aliases: []
+banner_url: /games/banner/bastion.jpg
+icon_url: /games/icon/bastion.png
+is_public: true
+updated: '2019-01-23T08:28:31.994673Z'
+steamid: 107100
+gogslug: bastion
+humblestoreid: bastion

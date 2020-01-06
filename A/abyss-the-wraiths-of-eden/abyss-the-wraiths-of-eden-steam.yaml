@@ -1,0 +1,24 @@
+id: 699
+game_id: 2289
+game_slug: abyss-the-wraiths-of-eden
+name: 'Abyss: The Wraiths of Eden'
+year: 2012
+user: Xodetaetl
+runner: steam
+slug: abyss-the-wraiths-of-eden-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T13:08:20.024000Z'
+updated_at: '2014-09-15T13:26:54.326000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 284710
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 284710

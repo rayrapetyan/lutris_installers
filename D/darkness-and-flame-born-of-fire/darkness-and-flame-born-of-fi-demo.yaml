@@ -1,0 +1,24 @@
+id: 9518
+game_id: 16005
+game_slug: darkness-and-flame-born-of-fire
+name: 'Darkness and Flame: Born of Fire'
+year: 2016
+user: kimchitea
+runner: winesteam
+slug: darkness-and-flame-born-of-fi-demo
+version: Demo
+description: null
+notes: ''
+created_at: '2018-08-01T05:53:24.319977Z'
+updated_at: '2018-08-01T08:36:09.529148Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 528120
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 560980

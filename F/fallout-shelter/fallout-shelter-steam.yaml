@@ -1,0 +1,26 @@
+id: 3403
+game_id: 6622
+game_slug: fallout-shelter
+name: Fallout Shelter
+year: 2015
+user: Freso
+runner: winesteam
+slug: fallout-shelter-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-03-29T14:23:44.082000Z'
+updated_at: '2018-07-22T05:03:36.640375Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: 588430
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    args: -force-d3d9
+    appid: 588430
+    arch: win64

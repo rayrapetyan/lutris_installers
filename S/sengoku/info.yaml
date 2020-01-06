@@ -1,0 +1,17 @@
+name: Sengoku
+slug: sengoku
+year: 2011
+platforms:
+- name: Windows
+genres:
+- name: RPG
+- name: Simulation
+- name: Strategy
+aliases: []
+banner_url: /games/banner/sengoku.jpg
+icon_url: /games/icon/sengoku.png
+is_public: true
+updated: '2019-01-23T08:31:09.404974Z'
+steamid: 73210
+gogslug: sengoku
+humblestoreid: ''

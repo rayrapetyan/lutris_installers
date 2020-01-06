@@ -1,0 +1,17 @@
+name: Hearts of Iron IV
+slug: hearts-of-iron-iv
+year: 2016
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Simulation
+- name: Strategy
+aliases: []
+banner_url: /games/banner/hearts-of-iron-iv.jpg
+icon_url: /games/icon/hearts-of-iron-iv.png
+is_public: true
+updated: '2019-08-17T07:01:53.376055Z'
+steamid: 394360
+gogslug: ''
+humblestoreid: ''

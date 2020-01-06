@@ -1,0 +1,29 @@
+id: 13166
+game_id: 5053
+game_slug: the-royal-trap-the-confines-of-the-crown
+name: 'The Royal Trap: The Confines Of The Crown'
+year: 2013
+user: cxf
+runner: linux
+slug: the-royal-trap-the-confines-o-humble-bundle
+version: Humble Bundle
+description: null
+notes: ''
+created_at: '2019-04-27T21:12:18.672000Z'
+updated_at: '2019-04-27T21:13:20.839981Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 356530
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: The Royal Trap HD.sh
+  installer:
+  - extract:
+      format: bz2
+      file: file1
+  files:
+  - file1: N/A:Please select the Humble archive

@@ -1,0 +1,15 @@
+name: a very pink game
+slug: a-very-pink-game
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/a-very-pink-game.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:29.482403Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

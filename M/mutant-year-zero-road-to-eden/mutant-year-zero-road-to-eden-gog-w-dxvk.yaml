@@ -1,0 +1,45 @@
+id: 16241
+game_id: 23592
+game_slug: mutant-year-zero-road-to-eden
+name: 'Mutant Year Zero: Road to Eden'
+year: 2018
+user: cxf
+runner: wine
+slug: mutant-year-zero-road-to-eden-gog-w-dxvk
+version: GOG w/ DXVK
+description: null
+notes: ''
+created_at: '2019-10-17T01:23:19.911174Z'
+updated_at: '2019-10-17T01:23:25.515310Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 760060
+gogid: 1226193907
+gogslug: mutant_year_zero_road_to_eden
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2015 win7
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES /NOCANCEL
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Mutant Year Zero - Road to Eden/ZoneUE4.exe
+  system:
+    env:
+      DXVK_HUD: compiler
+  wine:
+    dxvk: true
+  files:
+  - setup: N/A:Select GOG setup exe

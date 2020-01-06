@@ -1,0 +1,16 @@
+name: 'Oddworld: Munch''s Oddysee'
+slug: oddworld-munchs-oddysee
+year: 2010
+platforms:
+- name: Nintendo Game Boy Advance
+- name: Windows
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/oddworld-munchs-oddysee.jpg
+icon_url: /games/icon/oddworld-munchs-oddysee.png
+is_public: true
+updated: '2019-10-21T01:58:42.247812Z'
+steamid: 15740
+gogslug: oddworld_munchs_oddysee
+humblestoreid: ''

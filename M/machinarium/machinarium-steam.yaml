@@ -1,0 +1,31 @@
+id: 1142
+game_id: 170
+game_slug: machinarium
+name: Machinarium
+year: 2009
+user: Xodetaetl
+runner: winesteam
+slug: machinarium-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-11-27T13:38:19.127000Z'
+updated_at: '2016-09-30T20:19:17.210868Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 40700
+gogid: 1207659017
+gogslug: machinarium_collectors_edition
+humblestoreid: machinarium
+script:
+  installer:
+  - merge:
+      src: flash-fullscreen-fix
+      dst: $GAMEDIR/drive_c/users/$USER/Application Data/Macromedia/Flash Player/macromedia.com/support/flashplayer/sys/
+  files:
+  - flash-fullscreen-fix: http://lutris.net/files/games/machinarium/settings.sol
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 40700

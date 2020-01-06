@@ -1,0 +1,31 @@
+id: 11267
+game_id: 136
+game_slug: grand-theft-auto
+name: Grand Theft Auto
+year: 1997
+user: soredake
+runner: libretro
+slug: grand-theft-auto-game-boy-color
+version: Game Boy Color
+description: null
+notes: ''
+created_at: '2018-12-19T17:40:52.200016Z'
+updated_at: '2018-12-19T17:40:57.858578Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 12170
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: rom
+      dst: $GAMEDIR
+  files:
+  - rom: N/A:Select the game's ROM file
+  game:
+    core: gambatte
+    main_file: rom

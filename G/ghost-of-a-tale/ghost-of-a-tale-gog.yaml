@@ -1,0 +1,77 @@
+id: 7987
+game_id: 10067
+game_slug: ghost-of-a-tale
+name: Ghost of a Tale
+year: null
+user: aloade
+runner: wine
+slug: ghost-of-a-tale-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2018-04-25T19:53:49.809000Z'
+updated_at: '2018-12-20T23:28:16.320257Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: 417290
+gogid: 1875167847
+gogslug: ghost_of_a_tale
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Ghost of a Tale/GoaT.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 32bit Wine prefix.
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Setting OS as Windows 7.
+      key: Version
+      value: win7
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      description: Allow DirectX apps to stop the mouse leaving their window.
+      key: GrabFullScreen
+      value: Y
+      path: HKEY_CURRENT_USER\Software\Wine\X11 Driver
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      description: Deny the window manager to decorate the windows.
+      key: Decorated
+      value: N
+      path: HKEY_CURRENT_USER\Software\Wine\X11 Driver
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      description: Allow the window manager to control the windows.
+      key: Managed
+      value: Y
+      path: HKEY_CURRENT_USER\Software\Wine\X11 Driver
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      description: Enabling VAAPI as backend for DXVA2 GPU decoding.
+      key: backend
+      value: va
+      path: HKEY_CURRENT_USER\Software\Wine\DXVA2
+      name: set_regedit
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      description: The installating folder MUST BE 'C:\GOG Games\Ghost of a Tale'.
+        At the end don't launch the game, but click on 'Quit'.
+      name: wineexec
+  wine:
+    version: tkg-3.21-x86_64
+  files:
+  - installer: 'N/A:Select the GOG installer:'

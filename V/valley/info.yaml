@@ -1,0 +1,16 @@
+name: Valley
+slug: valley
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/valley.jpg
+icon_url: /games/icon/valley.png
+is_public: true
+updated: '2019-01-23T08:32:01.269491Z'
+steamid: 378610
+gogslug: ''
+humblestoreid: ''

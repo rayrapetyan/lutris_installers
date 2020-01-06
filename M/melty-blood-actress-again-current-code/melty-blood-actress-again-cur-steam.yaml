@@ -1,0 +1,25 @@
+id: 8316
+game_id: 8266
+game_slug: melty-blood-actress-again-current-code
+name: MELTY BLOOD Actress Again Current Code
+year: 2010
+user: Mar2ck
+runner: winesteam
+slug: melty-blood-actress-again-cur-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-17T21:58:07.354910Z'
+updated_at: '2018-05-18T04:35:19.060682Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 411370
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 411370
+    arch: win32

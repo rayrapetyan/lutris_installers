@@ -1,0 +1,24 @@
+id: 10655
+game_id: 12423
+game_slug: hello-neighbor
+name: Hello Neighbor
+year: 2017
+user: Wompus
+runner: steam
+slug: hello-neighbor-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2018-10-27T20:38:20.056000Z'
+updated_at: '2019-05-19T06:45:17.003996Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 521890
+gogid: 1086743022
+gogslug: hello_neighbor
+humblestoreid: ''
+script:
+  game:
+    appid: 521890

@@ -1,0 +1,39 @@
+id: 5689
+game_id: 1144
+game_slug: the-blackwell-legacy
+name: The Blackwell Legacy
+year: 2006
+user: FakeShemp
+runner: ags
+slug: the-blackwell-legacy-groupees
+version: Groupees
+description: Uses the files from the Windows Blackwell Bundle from Groupees.
+notes: ''
+created_at: '2017-09-11T16:49:19.610169Z'
+updated_at: '2017-09-11T16:50:41.492377Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 80330
+gogid: 1207662883
+gogslug: episode_1_the_blackwell_legacy
+humblestoreid: ''
+script:
+  main_file: blackwell1.exe
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - extract:
+      dst: $CACHE
+      file: $file2
+  - execute:
+      args: -d "$CACHE" $CACHE/Legacy_Setup_v17.exe
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/app
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Groupees archive
+  - file2: https://lutris.net/files/tools/innoextract.tar.gz

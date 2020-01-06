@@ -1,0 +1,15 @@
+name: Godot Engine
+slug: godot-engine
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Tool
+aliases: []
+banner_url: /games/banner/godot-engine.jpg
+icon_url: /games/icon/godot-engine.png
+is_public: true
+updated: '2019-01-23T08:29:40.890813Z'
+steamid: 404790
+gogslug: ''
+humblestoreid: ''

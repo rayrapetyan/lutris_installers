@@ -1,0 +1,24 @@
+id: 9392
+game_id: 13606
+game_slug: final-fantasy-xii
+name: Final Fantasy XII
+year: 2006
+user: duhow
+runner: winesteam
+slug: final-fantasy-xii-steam
+version: Steam
+description: null
+notes: Not tested yet.
+created_at: '2018-07-26T08:22:54.718495Z'
+updated_at: '2018-07-26T13:42:12.183717Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 595520

@@ -1,0 +1,51 @@
+id: 16419
+game_id: 3213
+game_slug: ragnarok-online-free-to-play-european-version
+name: Ragnarok Online - Free to Play - European Version
+year: 2002
+user: Yukiyaiba
+runner: winesteam
+slug: ragnarok-online-free-to-play-change-me
+version: Change Me
+description: The first time you start the game, you are going to have to open the
+  game several times until all the updates are complete. This is the normal behaviour
+  of the game.
+notes: To create a new account to play Ragnarok Online click <a href="https://www.ragnarokeurope.com/">here</a>.
+created_at: '2019-10-26T17:05:34.796979Z'
+updated_at: '2019-10-26T17:05:34.797010Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 250740
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Creating prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2008
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: ie8
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win32
+      type: REG_SZ
+      value: opengl
+      key: DirectDrawRenderer
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D
+  game:
+    appid: 250740
+    arch: win32

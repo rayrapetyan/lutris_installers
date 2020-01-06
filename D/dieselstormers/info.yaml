@@ -1,0 +1,19 @@
+name: Rogue Stormers
+slug: dieselstormers
+year: 2016
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Action
+- name: Platform
+- name: Roguelike
+- name: Shooter
+aliases: []
+banner_url: /games/banner/dieselstormers.jpg
+icon_url: /games/icon/dieselstormers.png
+is_public: true
+updated: '2019-01-23T08:31:03.434784Z'
+steamid: 299480
+gogslug: ''
+humblestoreid: ''

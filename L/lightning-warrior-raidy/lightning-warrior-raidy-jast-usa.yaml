@@ -1,0 +1,37 @@
+id: 5969
+game_id: 14293
+game_slug: lightning-warrior-raidy
+name: Lightning Warrior Raidy
+year: 1994
+user: FakeShemp
+runner: wine
+slug: lightning-warrior-raidy-jast-usa
+version: JAST USA
+description: null
+notes: ''
+created_at: '2017-10-15T18:04:32.087000Z'
+updated_at: '2018-07-26T06:20:48.447683Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/Setup.exe
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  files:
+  - file1: N/A:Please select the JAST USA archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/G-Collections/RAIDY/RaidyUS.exe
+    arch: win32

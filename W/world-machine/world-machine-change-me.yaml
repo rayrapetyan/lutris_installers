@@ -1,0 +1,41 @@
+id: 17779
+game_id: 27044
+game_slug: world-machine
+name: World Machine
+year: null
+user: Atakku
+runner: wine
+slug: world-machine-change-me
+version: Change Me
+description: Installs binary downloaded from https://www.world-machine.com/download.php
+notes: Unable to download from https://www.world-machine.com/download.php as that
+  requires POST method
+created_at: '2020-01-06T17:15:46.397730Z'
+updated_at: '2020-01-06T17:15:46.397754Z'
+draft: false
+published: false
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: installer
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: wineexec
+  system:
+    disable_compositor: true
+    restore_gamma: true
+    disable_runtime: true
+    reset_desktop: true
+  files:
+  - installer: N/A:Select the World Machine's setup file
+  game:
+    prefix: $GAMEDIR/prefix
+    exe: $GAMEDIR/prefix/drive_c/Program Files/World Machine Basic/World Machine32.exe
+    working_dir: $GAMEDIR/prefix/drive_c/Program Files/World Machine Basic
+    arch: win32

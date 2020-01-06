@@ -1,0 +1,24 @@
+id: 7255
+game_id: 9746
+game_slug: delicious-pretty-girls-mahjong-solitaire
+name: Delicious! Pretty Girls Mahjong Solitaire
+year: 2016
+user: t-rex91
+runner: winesteam
+slug: delicious-pretty-girls-mahjon-steam
+version: Steam
+description: null
+notes: Fully Screen does not Work
+created_at: '2018-02-06T19:31:20.273000Z'
+updated_at: '2018-05-06T07:32:35.317018Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 540610
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 540610

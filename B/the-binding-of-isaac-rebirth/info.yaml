@@ -1,0 +1,16 @@
+name: 'The Binding of Isaac: Rebirth'
+slug: the-binding-of-isaac-rebirth
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Roguelike
+aliases: []
+banner_url: /games/banner/the-binding-of-isaac-rebirth.jpg
+icon_url: /games/icon/the-binding-of-isaac-rebirth.png
+is_public: true
+updated: '2019-01-23T08:31:38.885007Z'
+steamid: 250900
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,16 @@
+name: Aliens versus Predator Classic 2000
+slug: aliens-versus-predator-classic-2000
+year: 2010
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/aliens-versus-predator-classic-2000.jpg
+icon_url: /games/icon/aliens-versus-predator-classic-2000.png
+is_public: true
+updated: '2019-01-23T08:28:18.912890Z'
+steamid: 3730
+gogslug: aliens_versus_predator_classic_2000
+humblestoreid: ''

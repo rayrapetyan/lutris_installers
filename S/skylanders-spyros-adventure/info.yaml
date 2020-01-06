@@ -1,0 +1,18 @@
+name: 'Skylanders: Spyro''s Adventure'
+slug: skylanders-spyros-adventure
+year: 2011
+platforms:
+- name: Nintendo 3DS
+- name: Nintendo Wii
+- name: Sony Playstation 3
+- name: Windows
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/skylanders-spyros-adventure.jpg
+icon_url: /games/icon/skylanders-spyros-adventure.png
+is_public: true
+updated: '2019-10-07T04:11:06.042403Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

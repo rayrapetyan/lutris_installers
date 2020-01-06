@@ -1,0 +1,32 @@
+id: 5269
+game_id: 13287
+game_slug: lode-runner-on-line-the-mad-monks-revenge
+name: 'Lode Runner On-line: The Mad Monk''s Revenge Definitive Edition'
+year: 2017
+user: miky_kr5
+runner: linux
+slug: lode-runner-on-line-the-mad-m-1786-no-music
+version: 17.8.6 (NO MUSIC)
+description: Native version of the game without soundtrack
+notes: ''
+created_at: '2017-08-04T04:04:50.084000Z'
+updated_at: '2017-08-26T23:42:18.541430Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: LODERUNN.bin.x86
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: game
+  - chmodx: $GAMEDIR/LODERUNN.bin.x86
+  - chmodx: $GAMEDIR/LODERUNN.bin.x86_64
+  exe64: LODERUNN.bin.x86_64
+  files:
+  - game: http://mmr.quarkrobot.com/downloads/LODERUNN-LINUX-1786.zip

@@ -1,0 +1,30 @@
+id: 8296
+game_id: 2673
+game_slug: eterium
+name: Eterium
+year: null
+user: rican-linux
+runner: winesteam
+slug: eterium-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-15T05:26:45.648181Z'
+updated_at: '2018-05-16T03:27:33.985689Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 280200
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  task:
+    key: csmt
+    value: '0x1'
+    path: HKEY_CURRENT_USER\Software\Wine\Direct3D
+    type: REG_DWORD
+    name: set_regedit
+  game:
+    appid: 280200

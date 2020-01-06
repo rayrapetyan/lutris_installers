@@ -1,0 +1,42 @@
+id: 11517
+game_id: 25038
+game_slug: unreal-pt
+name: Unreal PT
+year: null
+user: cxf
+runner: wine
+slug: unreal-pt-itchio
+version: itch.io
+description: 'Download here: <a href="http://www.mediafire.com/file/oqzv5uddidqr9d5/Unreal+PT+1.0.7.zip">http://www.mediafire.com/file/oqzv5uddidqr9d5/Unreal+PT+1.0.7.zip</a>'
+notes: ''
+created_at: '2019-01-09T06:54:28.013000Z'
+updated_at: '2019-02-16T05:01:22.123680Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - extract:
+      src: zip
+      dst: $GAMEDIR/drive_c/Program Files/Unreal PT 1.0.7
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Unreal PT 1.0.7/PT_2.exe
+    arch: win64
+  system:
+    env:
+      DXVK_HUD: 0
+  wine:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  files:
+  - zip: N/A:Select Unreal PT 1.0.7.zip

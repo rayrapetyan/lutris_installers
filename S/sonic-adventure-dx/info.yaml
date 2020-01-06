@@ -1,0 +1,16 @@
+name: Sonic Adventure DX
+slug: sonic-adventure-dx
+year: 2003
+platforms:
+- name: GameCube
+- name: Windows
+genres:
+- name: Platformer
+aliases: []
+banner_url: /games/banner/sonic-adventure-dx.jpg
+icon_url: /games/icon/sonic-adventure-dx.png
+is_public: true
+updated: '2019-01-23T08:31:18.113927Z'
+steamid: 71250
+gogslug: ''
+humblestoreid: ''

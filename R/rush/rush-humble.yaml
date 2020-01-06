@@ -1,0 +1,54 @@
+id: 4468
+game_id: 194
+game_slug: rush
+name: RUSH
+year: null
+user: FakeShemp
+runner: linux
+slug: rush-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-18T12:37:57.293231Z'
+updated_at: '2017-06-18T23:28:16.570363Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 38720
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: RUSH.bin.x86
+  installer:
+  - execute:
+      args: --tar -xf -C $CACHE
+      file: $file1
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/instarchive_all_x86
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/instarchive_all_x86_64
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/instarchive_all
+  - extract:
+      format: tar
+      dst: $GAMEDIR
+      file: $CACHE/instarchive_all_x86~
+  - extract:
+      format: tar
+      dst: $GAMEDIR
+      file: $CACHE/instarchive_all_x86_64~
+  - extract:
+      format: tar
+      dst: $GAMEDIR
+      file: $CACHE/instarchive_all~
+  exe64: RUSH.bin.x86_64
+  files:
+  - file1: N/A:Please select the Humble installer

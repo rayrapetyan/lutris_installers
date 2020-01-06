@@ -1,0 +1,39 @@
+id: 1093
+game_id: 1077
+game_slug: aliens-versus-predator-classic-2000
+name: Aliens versus Predator Classic 2000
+year: 2010
+user: strider
+runner: wine
+slug: aliens-versus-predator-classi-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2014-11-16T18:31:25.178000Z'
+updated_at: '2016-05-10T16:18:05.557979Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 3730
+gogid: 1207665883
+gogslug: aliens_versus_predator_classic_2000
+humblestoreid: ''
+script:
+  exe: drive_c/GOG Games/AvP Classic/AvP_Classic.exe
+  installer:
+  - task:
+      executable: avpinstaller
+      prefix: $GAMEDIR
+      args: /silent /nogui /suppressmsgboxes
+      name: wine.wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Installing DirectX library
+      app: d3dx9_43
+      silent: true
+      name: winetricks
+  files:
+  - avpinstaller: N/A:Select the game's Windows installer downloaded from GOG.
+  game:
+    prefix: $GAMEDIR

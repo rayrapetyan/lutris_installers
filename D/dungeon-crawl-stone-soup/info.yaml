@@ -1,0 +1,16 @@
+name: Dungeon Crawl Stone Soup
+slug: dungeon-crawl-stone-soup
+year: 1995
+platforms:
+- name: Browser
+- name: Linux
+genres:
+- name: Roguelike
+aliases: []
+banner_url: /games/banner/dungeon-crawl-stone-soup.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:18.964256Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

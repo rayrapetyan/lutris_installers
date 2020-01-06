@@ -1,0 +1,17 @@
+name: Scorched Planet
+slug: scorched-planet
+year: 1996
+platforms:
+- name: MS-DOS
+- name: Windows
+genres:
+- name: Action
+- name: Strategy
+aliases: []
+banner_url: /games/banner/scorched-planet.jpg
+icon_url: /games/icon/scorched-planet.png
+is_public: true
+updated: '2019-11-17T07:10:16.211734Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,17 @@
+name: Hack 'n' Slash
+slug: hack-n-slash
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Programming
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/hack-n-slash.jpg
+icon_url: /games/icon/hack-n-slash.png
+is_public: true
+updated: '2019-01-23T08:29:45.585478Z'
+steamid: 246070
+gogslug: ''
+humblestoreid: hack-n-slash-soundtrack

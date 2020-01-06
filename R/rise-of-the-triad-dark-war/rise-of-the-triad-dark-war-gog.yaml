@@ -1,0 +1,38 @@
+id: 2188
+game_id: 3963
+game_slug: rise-of-the-triad-dark-war
+name: 'Rise of the Triad: Dark War'
+year: 1994
+user: Lulu
+runner: linux
+slug: rise-of-the-triad-dark-war-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2016-06-21T22:24:07.639954Z'
+updated_at: '2016-09-26T17:20:20.130073Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 358410
+gogid: 1207658732
+gogslug: rise_of_the_triad__dark_war
+humblestoreid: ''
+script:
+  exe: Game/start.sh
+  gogid: rise_of_the_triad__dark_war
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/Game
+  files:
+  - game: 'N/A: Plese select the GOG.com Linux installer'
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

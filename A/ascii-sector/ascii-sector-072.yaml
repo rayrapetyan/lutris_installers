@@ -1,0 +1,29 @@
+id: 14083
+game_id: 27951
+game_slug: ascii-sector
+name: Ascii Sector
+year: 2007
+user: Pro_Tentious
+runner: linux
+slug: ascii-sector-072
+version: 0.7.2
+description: null
+notes: This game requires SDL2, SDL2_mixer and SDL2_image.
+created_at: '2019-06-14T06:20:16.931000Z'
+updated_at: '2019-09-09T01:42:36.892583Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: https://s3.amazonaws.com/asciisector/asciisec0.7.2-linux64.tar.gz
+  game:
+    exe: $GAMEDIR/asciisec

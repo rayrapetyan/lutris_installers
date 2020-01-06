@@ -1,0 +1,31 @@
+id: 9711
+game_id: 20887
+game_slug: barbie-explorer
+name: Barbie Explorer
+year: 2001
+user: te_lanus
+runner: libretro
+slug: barbie-explorer-playstation
+version: Playstation
+description: null
+notes: ''
+created_at: '2018-08-12T19:30:51.355726Z'
+updated_at: '2018-08-12T19:31:19.062860Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Playstation Disc
+  game:
+    core: mednafen_psx_hw
+    main_file: file1

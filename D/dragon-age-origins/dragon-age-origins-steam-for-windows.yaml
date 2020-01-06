@@ -1,0 +1,24 @@
+id: 2349
+game_id: 1315
+game_slug: dragon-age-origins
+name: 'Dragon Age: Origins'
+year: 2009
+user: RobLoach
+runner: winesteam
+slug: dragon-age-origins-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: ''
+created_at: '2016-07-27T04:52:49.893469Z'
+updated_at: '2016-10-29T06:04:22.876981Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: 17450
+gogid: 1949616134
+gogslug: dragon_age_origins
+humblestoreid: ''
+script:
+  game:
+    appid: 17450

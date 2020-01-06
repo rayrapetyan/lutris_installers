@@ -1,0 +1,31 @@
+id: 16481
+game_id: 29992
+game_slug: super-tux-party
+name: Super Tux Party
+year: 2018
+user: Buob
+runner: linux
+slug: super-tux-party-alpha-06-release
+version: Alpha 0.6 Release
+description: null
+notes: ''
+created_at: '2019-10-30T01:37:59.467000Z'
+updated_at: '2019-10-31T00:52:18.186409Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      file: file1
+  - chmodx: $GAMEDIR/supertuxparty
+  files:
+  - file1: N/A:Please select the itch.io archive
+  game:
+    exe: supertuxparty

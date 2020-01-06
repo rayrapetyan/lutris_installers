@@ -1,0 +1,25 @@
+name: Ashes of Creation
+slug: ashes-of-creation
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Economic
+- name: MMO
+- name: MMORPG
+- name: Modern
+- name: Open World
+- name: Real-time
+- name: Role-playing
+- name: RPG
+- name: Sandbox
+aliases: []
+banner_url: /games/banner/ashes-of-creation.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:26.913804Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

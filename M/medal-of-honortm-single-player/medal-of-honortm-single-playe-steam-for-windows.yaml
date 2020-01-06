@@ -1,0 +1,24 @@
+id: 2369
+game_id: 357
+game_slug: medal-of-honortm-single-player
+name: Medal of Honor(TM) Single Player
+year: null
+user: RobLoach
+runner: winesteam
+slug: medal-of-honortm-single-playe-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: ''
+created_at: '2016-07-27T12:39:47.741000Z'
+updated_at: '2017-06-05T05:09:08.075722Z'
+draft: false
+published: true
+published_by: null
+rating: '4'
+steamid: 47790
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 47790

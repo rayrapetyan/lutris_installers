@@ -1,0 +1,15 @@
+name: Oolite
+slug: oolite
+year: 2006
+platforms:
+- name: Linux
+genres:
+- name: Space simulation
+aliases: []
+banner_url: /games/banner/oolite.jpg
+icon_url: /games/icon/oolite.png
+is_public: true
+updated: '2019-01-23T08:30:37.322786Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

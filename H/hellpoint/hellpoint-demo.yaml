@@ -1,0 +1,31 @@
+id: 3491
+game_id: 10446
+game_slug: hellpoint
+name: Hellpoint
+year: 2017
+user: strider
+runner: linux
+slug: hellpoint-demo
+version: demo
+description: ''
+notes: ''
+created_at: '2017-04-02T22:05:49.228000Z'
+updated_at: '2017-04-02T22:27:15.626692Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 628670
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: $GAMEDIR/Hellpoint_Demo.x86
+  installer:
+  - extract:
+      file: demo
+  - chmodx: $GAMEDIR/Hellpoint_Demo.x86
+  - chmodx: $GAMEDIR/Hellpoint_Demo.x86_64
+  exe64: Hellpoint_Demo.x86_64
+  files:
+  - demo: http://www.cradlegames.com/Demo/Hellpoint_Demo_Linux_v016b.zip

@@ -1,0 +1,31 @@
+id: 9213
+game_id: 19928
+game_slug: resident-evil-code-veronica
+name: 'Resident Evil Code: Veronica'
+year: 2000
+user: te_lanus
+runner: libretro
+slug: resident-evil-code-veronica-dreamcast
+version: Dreamcast
+description: null
+notes: ''
+created_at: '2018-07-15T06:38:38.065750Z'
+updated_at: '2018-07-15T06:38:52.468621Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Dreamcast game file
+  game:
+    core: reicast
+    main_file: file1

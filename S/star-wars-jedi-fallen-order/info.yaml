@@ -1,0 +1,16 @@
+name: 'Star Wars Jedi: Fallen Order'
+slug: star-wars-jedi-fallen-order
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/star-wars-jedi-fallen-order.jpg
+icon_url: /games/icon/star-wars-jedi-fallen-order.png
+is_public: true
+updated: '2019-11-15T11:55:23.839065Z'
+steamid: 1172380
+gogslug: ''
+humblestoreid: ''

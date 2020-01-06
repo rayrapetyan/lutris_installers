@@ -1,0 +1,51 @@
+id: 8469
+game_id: 19014
+game_slug: dark-souls-remastered
+name: "DARK SOULS\u2122: REMASTERED"
+year: 2018
+user: cxf
+runner: winesteam
+slug: dark-soulstm-remastered-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: Only works for AMD users.
+created_at: '2018-05-30T02:38:21.789000Z'
+updated_at: '2019-02-14T05:39:47.139534Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 570940
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2017 win7
+      arch: win64
+      name: winetricks
+  - write_config:
+      section: maxfeaturelevel
+      key: d3d11.maxFeatureLevel
+      value: '11_1'
+      file: $GAMEDIR/dxvk.conf
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_CONFIG_FILE: $GAMEDIR/dxvk.conf
+      DXVK_HUD: 0
+    pulse_latency: true
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 570940
+    arch: win64

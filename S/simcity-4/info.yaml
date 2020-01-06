@@ -1,0 +1,15 @@
+name: SimCity 4
+slug: simcity-4
+year: 2003
+platforms:
+- name: Windows
+genres:
+- name: City building
+aliases: []
+banner_url: /games/banner/simcity-4.jpg
+icon_url: /games/icon/simcity-4.png
+is_public: true
+updated: '2019-01-23T08:31:13.748476Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

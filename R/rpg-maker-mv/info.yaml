@@ -1,0 +1,15 @@
+name: RPG Maker MV
+slug: rpg-maker-mv
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Tool
+aliases: []
+banner_url: /games/banner/rpg-maker-mv.jpg
+icon_url: /games/icon/rpg-maker-mv.png
+is_public: true
+updated: '2019-01-23T08:31:04.326561Z'
+steamid: 363890
+gogslug: ''
+humblestoreid: ''

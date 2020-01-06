@@ -1,0 +1,24 @@
+id: 8514
+game_id: 4106
+game_slug: boring-man-online-tactical-stickman-combat
+name: Boring Man - Online Tactical Stickman Combat
+year: null
+user: ZoeyGlobe
+runner: winesteam
+slug: boring-man-online-tactical-st-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-02T20:30:40.464475Z'
+updated_at: '2018-06-02T22:34:46.084695Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 346120
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 346120

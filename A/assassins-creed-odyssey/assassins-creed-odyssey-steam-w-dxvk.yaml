@@ -1,0 +1,33 @@
+id: 10520
+game_id: 22090
+game_slug: assassins-creed-odyssey
+name: Assassin's Creed Odyssey
+year: 2018
+user: romulasry
+runner: winesteam
+slug: assassins-creed-odyssey-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2018-10-16T07:24:52.162000Z'
+updated_at: '2019-03-07T04:16:03.115392Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 812140
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.2-x86_64
+    dxvk: true
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+  game:
+    appid: 812140

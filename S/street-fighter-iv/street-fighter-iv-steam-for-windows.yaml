@@ -1,0 +1,24 @@
+id: 2493
+game_id: 1230
+game_slug: street-fighter-iv
+name: Street Fighter IV
+year: null
+user: RobLoach
+runner: winesteam
+slug: street-fighter-iv-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: https://appdb.winehq.org/objectManager.php?sClass=application&iId=16370
+created_at: '2016-08-18T06:24:53.397112Z'
+updated_at: '2016-09-09T22:18:27.001425Z'
+draft: false
+published: true
+published_by: null
+rating: '1'
+steamid: 21660
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 21660

@@ -1,0 +1,25 @@
+name: Toy Story 3
+slug: toy-story-3
+year: 2010
+platforms:
+- name: Nintendo DS
+- name: Nintendo Wii
+- name: Sony PlayStation 2
+- name: Sony Playstation 3
+- name: Sony PSP
+genres:
+- name: Action
+- name: Adventure
+- name: Platform
+aliases:
+- slug: disneypixar-toy-story-3-the-video-game
+  name: "Disney\u2022Pixar Toy Story 3: The Video Game"
+- slug: toy-story-3-the-video-game
+  name: 'Toy Story 3: The Video Game'
+banner_url: /games/banner/toy-story-3.jpg
+icon_url: /games/icon/toy-story-3.png
+is_public: true
+updated: '2019-11-04T02:49:31.882380Z'
+steamid: 300820
+gogslug: ''
+humblestoreid: ''

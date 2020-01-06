@@ -1,0 +1,24 @@
+id: 8126
+game_id: 8956
+game_slug: god-eater-resurrection
+name: GOD EATER RESURRECTION
+year: null
+user: soredake
+runner: winesteam
+slug: god-eater-resurrection-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T06:10:10.867124Z'
+updated_at: '2018-05-13T09:10:29.602510Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 460870
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 460870

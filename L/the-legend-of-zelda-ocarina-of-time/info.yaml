@@ -1,0 +1,15 @@
+name: 'The Legend of Zelda: Ocarina of Time'
+slug: the-legend-of-zelda-ocarina-of-time
+year: 1998
+platforms:
+- name: Nintendo 64
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/the-legend-of-zelda-ocarina-of-time.jpg
+icon_url: /games/icon/the-legend-of-zelda-ocarina-of-time.png
+is_public: true
+updated: '2019-01-23T08:31:43.801008Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

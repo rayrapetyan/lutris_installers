@@ -1,0 +1,24 @@
+id: 5554
+game_id: 13670
+game_slug: west-of-loathing
+name: West of Loathing
+year: 2017
+user: predator8bit
+runner: steam
+slug: west-of-loathing-linux
+version: Linux
+description: ''
+notes: ''
+created_at: '2017-08-31T18:52:07.668618Z'
+updated_at: '2017-09-04T01:32:36.756147Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 597220
+gogid: 1154606028
+gogslug: west_of_loathing
+humblestoreid: ''
+script:
+  game:
+    appid: 597220

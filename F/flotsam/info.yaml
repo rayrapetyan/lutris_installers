@@ -1,0 +1,17 @@
+name: Flotsam
+slug: flotsam
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Indie
+- name: Simulation
+- name: Strategy
+aliases: []
+banner_url: /games/banner/flotsam.jpg
+icon_url: null
+is_public: true
+updated: '2019-11-20T20:24:45.621953Z'
+steamid: 821250
+gogslug: ''
+humblestoreid: ''

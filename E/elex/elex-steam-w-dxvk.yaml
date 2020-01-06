@@ -1,0 +1,32 @@
+id: 5980
+game_id: 13868
+game_slug: elex
+name: ELEX
+year: 2017
+user: Hammering
+runner: winesteam
+slug: elex-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2017-10-17T16:12:23.064000Z'
+updated_at: '2019-02-14T05:56:41.077220Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 411300
+gogid: 1885888793
+gogslug: elex
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    appid: 411300

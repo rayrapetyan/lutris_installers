@@ -1,0 +1,39 @@
+id: 8099
+game_id: 18071
+game_slug: midair
+name: Midair
+year: 2018
+user: cxf
+runner: winesteam
+slug: midair-dxvk
+version: DXVK
+description: null
+notes: ''
+created_at: '2018-05-07T20:07:22.441000Z'
+updated_at: '2019-02-16T03:43:40.522510Z'
+draft: false
+published: true
+published_by: 19464
+rating: '1'
+steamid: 439370
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 439370
+    arch: win64

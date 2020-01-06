@@ -1,0 +1,17 @@
+name: 'Tahira: Echoes of the Astral Empire'
+slug: tahira-echoes-of-the-astral-empire
+year: 2016
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: RPG
+- name: Turn-based tactics
+aliases: []
+banner_url: /games/banner/tahira-echoes-of-the-astral-empire.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:34.512015Z'
+steamid: 396660
+gogslug: tahira_echoes_of_the_astral_empire
+humblestoreid: ''

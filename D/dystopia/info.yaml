@@ -1,0 +1,15 @@
+name: Dystopia
+slug: dystopia
+year: 2005
+platforms:
+- name: Linux
+genres:
+- name: Shooter
+aliases: []
+banner_url: /games/banner/dystopia.jpg
+icon_url: /games/icon/dystopia.png
+is_public: true
+updated: '2019-01-23T08:29:20.572525Z'
+steamid: 17580
+gogslug: ''
+humblestoreid: ''

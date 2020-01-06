@@ -1,0 +1,54 @@
+id: 15594
+game_id: 6171
+game_slug: toonstruck
+name: Toonstruck
+year: 1996
+user: legluondunet
+runner: scummvm
+slug: toonstruck-cd-scummvm
+version: CD + ScummVM
+description: "This script will install \"Toonstruck\" CD edition for ScummVM.\r\n\
+  Big thanks to people who gave their time to permit us playing this game in the best\
+  \ conditions."
+notes: "- You will need the 2 CD only during install.\r\n- Please report issue concerning\
+  \ this script on my Github page:\r\nhttps://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2019-09-15T21:09:42.431000Z'
+updated_at: '2019-11-16T09:28:26.807245Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: 369830
+gogid: 1207666633
+gogslug: toonstruck
+humblestoreid: ''
+script:
+  custom-name: Toonstruck - CD - ScummVM
+  scummvm:
+    fullscreen: true
+  installer:
+  - insert-disc:
+      requires: act1/arcaddbl/422m.smk
+      description: Please insert "Toonstruck" CD1 and press autodetect
+  - merge:
+      src: $DISC/
+      dst: $GAMEDIR/TOONSTRUCKCD1/
+  - insert-disc:
+      requires: act2/armory/armory.pak
+      description: Please insert "Toonstruck" CD2 and press autodetect
+  - merge:
+      src: $DISC/
+      dst: $GAMEDIR/TOONSTRUCKCD2/
+  - chmodx: script
+  - execute:
+      file: script
+  - copy:
+      src: dat
+      dst: $GAMEDIR/TOONSTRUCKCD/
+  files:
+  - dat: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Toonstruck/toon.dat
+  - script: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Toonstruck/clean.sh
+  game:
+    game_id: toon
+    path: $GAMEDIR/TOONSTRUCKCD/
+    subtitles: true

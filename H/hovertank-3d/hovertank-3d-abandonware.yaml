@@ -1,0 +1,46 @@
+id: 11236
+game_id: 24298
+game_slug: hovertank-3d
+name: Hovertank 3D
+year: 1991
+user: miky_kr5
+runner: dosbox
+slug: hovertank-3d-abandonware
+version: Abandonware
+description: Install DOS game from a zip file.
+notes: ''
+created_at: '2018-12-16T06:26:10.433630Z'
+updated_at: '2018-12-24T08:05:32.503768Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      src: $archive
+      dst: $GAMEDIR
+  - write_file:
+      content: '[autoexec]
+
+        # Lines in this section will be run at startup.
+
+        mount C "."
+
+        c:
+
+        cls
+
+        START.BAT
+
+        exit'
+      file: $GAMEDIR/hovertank.conf
+  files:
+  - archive: N/A:Select the game's setup file
+  game:
+    config_file: hovertank.conf
+    main_file: $GAMEDIR/START.BAT

@@ -1,0 +1,18 @@
+name: Kona
+slug: kona
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: Detective-mystery
+- name: Survival
+aliases: []
+banner_url: /games/banner/kona.jpg
+icon_url: /games/icon/kona.png
+is_public: true
+updated: '2019-01-23T08:30:06.516126Z'
+steamid: 365160
+gogslug: kona_day_one
+humblestoreid: ''

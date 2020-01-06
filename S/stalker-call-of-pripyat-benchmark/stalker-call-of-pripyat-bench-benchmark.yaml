@@ -1,0 +1,92 @@
+id: 16474
+game_id: 29897
+game_slug: stalker-call-of-pripyat-benchmark
+name: 'S.T.A.L.K.E.R.: Call of Pripyat Benchmark'
+year: 2009
+user: vanstaveren
+runner: wine
+slug: stalker-call-of-pripyat-bench-benchmark
+version: benchmark
+description: null
+notes: ''
+created_at: '2019-10-29T15:13:25.097000Z'
+updated_at: '2019-12-23T19:50:41.201701Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 64-bit prefix ...
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Visual C++ 2017 libraries ...
+      app: vcrun2017
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Windows version 8.1 ...
+      app: win81
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: DirectX 9 ...
+      app: d3dx9_31
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: DirectX 9 ...
+      app: d3dx9_42
+      arch: win64
+      name: winetricks
+  - move:
+      src: setup
+      dst: $GAMEDIR
+  - chmodx: $GAMEDIR/stkcop-bench-setup.exe
+  - task:
+      executable: $GAMEDIR/stkcop-bench-setup.exe
+      prefix: $GAMEDIR
+      description: S.T.A.L.K.E.R. Call Of Pripyat ...
+      name: wineexec
+  - execute:
+      command: echo "snd_volume_eff 0." >> $GAMEDIR/drive_c/Program\ Files\ \(x86\)/Call\
+        Of\ Pripyat\ Benchmark/BenchCfg/base.cfg
+      description: Adding sound device option ...
+  - execute:
+      command: echo "snd_volume_music 0." >> $GAMEDIR/drive_c/Program\ Files\ \(x86\)/Call\
+        Of\ Pripyat\ Benchmark/BenchCfg/base.cfg
+      description: Adding sound device option ...
+  - execute:
+      command: echo "rs_v_sync on" >> $$GAMEDIR/drive_c/Program\ Files\ \(x86\)/Call\
+        Of\ Pripyat\ Benchmark/BenchCfg/base.cfg
+      description: Adding video sync. option ...
+  - execute:
+      command: echo "rs_constant_fps on" >> $GAMEDIR/drive_c/Program\ Files\ \(x86\)/Call\
+        Of\ Pripyat\ Benchmark/BenchCfg/base.cfg
+      description: Adding constant fps option ...
+  - execute:
+      command: echo "rs_refresh_60hz off" >> $GAMEDIR/drive_c/Program\ Files\ \(x86\)/Call\
+        Of\ Pripyat\ Benchmark/BenchCfg/base.cfg
+      description: Adding refresh 60hz option ...
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files (x86)/Call Of Pripyat Benchmark/Benchmark.exe
+    arch: win64
+  system:
+    disable_compositor: true
+  wine:
+    esync: false
+    dxvk: true
+  files:
+  - setup: https://files.gsc-game.com/st/bench/stkcop-bench-setup.exe

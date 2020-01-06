@@ -1,0 +1,38 @@
+id: 2560
+game_id: 49
+game_slug: warsow
+name: Warsow
+year: 2012
+user: ssf
+runner: linux
+slug: warsow-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2016-08-22T16:37:18.610299Z'
+updated_at: '2016-09-30T20:52:12.427292Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: game/start.sh
+  gogid: warsow
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Plese select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

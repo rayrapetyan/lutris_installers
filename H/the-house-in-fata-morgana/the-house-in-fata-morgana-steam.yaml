@@ -1,0 +1,24 @@
+id: 9528
+game_id: 10544
+game_slug: the-house-in-fata-morgana
+name: The House in Fata Morgana
+year: 2016
+user: talklittle
+runner: winesteam
+slug: the-house-in-fata-morgana-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-02T07:43:52.310000Z'
+updated_at: '2018-08-02T14:42:09.661349Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 303310
+gogid: 1469088725
+gogslug: the_house_in_fata_morgana
+humblestoreid: ''
+script:
+  game:
+    appid: 303310

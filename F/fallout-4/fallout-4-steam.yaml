@@ -1,0 +1,79 @@
+id: 3913
+game_id: 5339
+game_slug: fallout-4
+name: Fallout 4
+year: 2015
+user: strider
+runner: winesteam
+slug: fallout-4-steam
+version: Steam
+description: null
+notes: "- The installer automatically disables god rays do not re-enable them. Doing\
+  \ so will crash the game.\r\n\r\n- Alt+tabbing out of game might cause the Tab button\
+  \ from functioning in-game."
+created_at: '2017-05-27T00:05:02.359000Z'
+updated_at: '2019-12-28T22:05:40.069557Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 377160
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      key: GrabFullscreen
+      value: Y
+      path: HKEY_CURRENT_USER\Software\Wine\X11 Driver
+      name: set_regedit
+  - write_config:
+      section: Display
+      key: sStartingConsoleCommand
+      value: gr off
+      file: $GAMEDIR/prefix/drive_c/users/$USER/My Documents/My Games/Fallout4/Fallout4.ini
+  - write_config:
+      section: Display
+      key: bNvGodraysEnable
+      value: '0'
+      file: $GAMEDIR/prefix/drive_c/users/$USER/My Documents/My Games/Fallout4/Fallout4.ini
+  - write_config:
+      section: Display
+      key: bNvGodraysEnable
+      value: '0'
+      file: $GAMEDIR/Fallout4_Default.ini
+  - write_config:
+      section: Display
+      key: bVolumetricLightingEnable
+      value: '0'
+      file: $GAMEDIR/prefix/drive_c/users/$USER/My Documents/My Games/Fallout4/Fallout4Prefs.ini
+  - write_config:
+      section: Controls
+      key: bBackgroundMouse
+      value: '1'
+      file: $GAMEDIR/Fallout4_Default.ini
+  - write_config:
+      section: Controls
+      key: bBackgroundMouse
+      value: '1'
+      file: $GAMEDIR/prefix/drive_c/users/$USER/My Documents/My Games/Fallout4/Fallout4.ini
+  winesteam:
+    version: tkg-4.6-x86_64
+    x360ce-path: $GAMEDIR
+    overrides:
+      winegstreamer: disabled
+    Desktop: true
+    dumbxinputemu: true
+  system:
+    pulse_latency: true
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 377160
+    arch: win64

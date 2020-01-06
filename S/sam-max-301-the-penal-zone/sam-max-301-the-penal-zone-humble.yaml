@@ -1,0 +1,37 @@
+id: 4597
+game_id: 212
+game_slug: sam-max-301-the-penal-zone
+name: 'Sam & Max 301: The Penal Zone'
+year: null
+user: FakeShemp
+runner: wine
+slug: sam-max-301-the-penal-zone-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-25T11:28:46.256000Z'
+updated_at: '2018-05-19T03:41:53.935131Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 31220
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/SamMax301_201004141946_full.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Telltale Games/Sam and Max - The Devil's Playhouse/The
+      Penal Zone/SamMax301.exe
+    arch: win32

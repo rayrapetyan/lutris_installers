@@ -1,0 +1,45 @@
+id: 11587
+game_id: 550
+game_slug: xcom-enemy-unknown
+name: 'XCOM: Enemy Unknown'
+year: 2012
+user: cxf
+runner: wine
+slug: xcom-enemy-unknown-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-01-15T04:22:56.733000Z'
+updated_at: '2019-01-17T03:02:39.674706Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 200510
+gogid: null
+gogslug: xcom_enemy_unknown_complete_pack
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/XCOM Enemy Unknown/XEW/Binaries/Win32/XComLauncher.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: directx9 vcrun2010 vcrun2017 win7
+      arch: win32
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  wine:
+    version: tkg-3.21-x86_64
+  files:
+  - setup: N/A:Select setup exe downloaded from GOG

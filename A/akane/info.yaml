@@ -1,0 +1,17 @@
+name: Akane
+slug: akane
+year: 2018
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Action
+- name: Casual
+aliases: []
+banner_url: /games/banner/akane.jpg
+icon_url: null
+is_public: true
+updated: '2019-02-01T22:27:39.292688Z'
+steamid: 884260
+gogslug: ''
+humblestoreid: ''

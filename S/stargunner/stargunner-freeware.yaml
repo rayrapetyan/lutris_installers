@@ -1,0 +1,30 @@
+id: 1129
+game_id: 3474
+game_slug: stargunner
+name: Stargunner
+year: 1996
+user: Xodetaetl
+runner: dosbox
+slug: stargunner-freeware
+version: Freeware
+description: ''
+notes: ''
+created_at: '2014-11-21T15:23:47.584000Z'
+updated_at: '2014-11-21T15:26:20.842000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 358390
+gogid: 1207659693
+gogslug: stargunner
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: game
+  files:
+  - game: http://lutris.net/files/games/stargunner/stargunner.tar.gz
+  game:
+    config_file: $GAMEDIR/dosbox_stargun.conf
+    main_file: $GAMEDIR/dosbox_stargun_launch.conf

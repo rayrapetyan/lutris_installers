@@ -1,0 +1,19 @@
+name: Ridge Racer
+slug: ridge-racer
+year: 1993
+platforms:
+- name: Arcade
+- name: Sony PlayStation
+- name: Sony Playstation 3
+- name: Sony PSP
+genres:
+- name: Arcade
+- name: Racing
+aliases: []
+banner_url: /games/banner/ridge-racer.jpg
+icon_url: null
+is_public: true
+updated: '2019-11-11T02:14:24.816799Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,18 @@
+name: 'Call of Duty: Modern Warfare'
+slug: call-of-duty-modern-warfare
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+aliases:
+- slug: call-of-duty-modern-warfare-2019
+  name: Call of duty Modern Warfare (2019)
+banner_url: /games/banner/call-of-duty-modern-warfare.jpg
+icon_url: /games/icon/call-of-duty-modern-warfare.png
+is_public: true
+updated: '2019-10-26T21:31:59.649522Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,28 @@
+id: 3735
+game_id: 76
+game_slug: minetest
+name: Minetest
+year: 2013
+user: 982956cb18969289f02e9560179efe7e
+runner: linux
+slug: minetest-050-dev
+version: 0.5.0-dev
+description: null
+notes: ''
+created_at: '2017-05-19T23:52:20.466000Z'
+updated_at: '2019-02-13T17:16:48.352154Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: bin/minetest
+  installer:
+  - extract:
+      file: archive
+  files:
+  - archive: https://lutris.nyc3.digitaloceanspaces.com/games/minetest/minetest--0.5.0-dev.tar.xz

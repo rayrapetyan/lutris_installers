@@ -1,0 +1,98 @@
+id: 13782
+game_id: 2925
+game_slug: warcraft-iii-the-frozen-throne
+name: 'Warcraft III: The Frozen Throne'
+year: 2003
+user: agre
+runner: wine
+slug: warcraft-iii-the-frozen-thron-digital
+version: Digital
+description: null
+notes: "This should install WC3TFT for you with the installer from battle.net.\r\n\
+  It will install the battlenet client first. When it's done with installing, log\
+  \ in before installing WC3. When you see the empty window where you should input\
+  \ your CD key, move it around until you see the field where you can type your CD\
+  \ key."
+created_at: '2019-05-29T08:48:54.243000Z'
+updated_at: '2019-12-24T07:01:18.329767Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 64bit Wine prefix.
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Arial font...
+      arch: win64
+      app: arial
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows 7 mode for Wine
+      arch: win64
+      key: Version
+      value: win7
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  - write_json:
+      description: Writing a Battle.Net config file
+      data:
+        Client:
+          HardwareAcceleration: 'false'
+          GameLaunchWindowBehavior: '2'
+          GameSearch:
+            BackgroundSearch: 'true'
+          Sound:
+            Enabled: 'false'
+          Streaming:
+            StreamingEnabled: 'false'
+      file: $GAMEDIR/drive_c/users/$USER/Application Data/Battle.net/Battle.net.config
+  - task:
+      executable: setup
+      description: 'Installing Blizzard App. An installer will open.
+
+        ------------------------------
+
+        Log into your Blizzard account and keep the Blizzard app opened while installing
+        Warcraft 3 TFT!'
+      exclude_processes: Battle.net.exe Agent.exe "Battle.net Helper.exe"
+      arch: win64
+      name: wineexec
+  - task:
+      executable: setup2
+      prefix: $GAMEDIR
+      description: 'Installing Warcraft III: The Frozen Throne'
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Warcraft III/x86/Warcraft III.exe
+    arch: win64
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      STAGING_SHARED_MEMORY: 1
+      DXVK_HUD: compiler
+      __GL_SHADER_DISK_CACHE: 1
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+  wine:
+    version: lutris-4.16-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      nvapi64: disabled
+      nvapi: disabled
+      d3d12: disabled
+  files:
+  - setup: http://dist.blizzard.com/downloads/bna-installers/322d5bb9ae0318de3d4cde7641c96425/retail.1/Battle.net-Setup-enUS.exe
+  - setup2: 'N/A:Select the installer for Warcraft III: Reign of Chaos'

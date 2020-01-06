@@ -1,0 +1,32 @@
+id: 6118
+game_id: 13644
+game_slug: dark-train
+name: Dark Train
+year: null
+user: FakeShemp
+runner: wine
+slug: dark-train-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-10-26T08:09:50.333732Z'
+updated_at: '2018-05-19T03:41:54.862034Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 532290
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Dark Train
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Dark Train/DarkTrain.exe
+    arch: win32

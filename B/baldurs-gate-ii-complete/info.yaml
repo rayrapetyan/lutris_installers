@@ -1,0 +1,15 @@
+name: 'Baldur''s Gate II: Complete'
+slug: baldurs-gate-ii-complete
+year: 2000
+platforms:
+- name: Linux
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/baldurs-gate-ii-complete.jpg
+icon_url: /games/icon/baldurs-gate-ii-complete.png
+is_public: true
+updated: '2019-01-23T08:28:30.975174Z'
+steamid: null
+gogslug: baldurs_gate_2_enhanced_edition
+humblestoreid: ''

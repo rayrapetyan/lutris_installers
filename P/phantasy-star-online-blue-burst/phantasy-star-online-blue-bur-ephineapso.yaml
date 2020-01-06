@@ -1,0 +1,44 @@
+id: 13576
+game_id: 10357
+game_slug: phantasy-star-online-blue-burst
+name: 'Phantasy Star Online: Blue Burst'
+year: 2004
+user: TankErdin
+runner: wine
+slug: phantasy-star-online-blue-bur-ephineapso
+version: EphineaPSO
+description: "This installer is for the Ephinea private server for Phantasy Star Online:\
+  \ Blue Burst.  An account with Ephinea is required in order to access their servers.\r\
+  \n\r\nhttps://ephinea.pioneer2.net/"
+notes: Requires winetricks
+created_at: '2019-05-17T01:32:06.674000Z'
+updated_at: '2019-10-28T20:52:50.130389Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Changing to Windows 7
+      app: win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: ephineapsobb
+      prefix: $GAMEDIR
+      description: Running Ephinea PSOBB Installer.
+      arch: win64
+      args: /S /D=C:\\EphineaPSO
+      name: wineexec
+  files:
+  - ephineapsobb: http://files.pioneer2.net/Ephinea_PSOBB_Installer.exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/EphineaPSO/online.exe
+    arch: win64

@@ -1,0 +1,16 @@
+name: 'Edna & Harvey: The Breakout'
+slug: edna-harvey-the-breakout
+year: 2008
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/edna-harvey-the-breakout.jpg
+icon_url: /games/icon/edna-harvey-the-breakout.png
+is_public: true
+updated: '2019-01-23T08:29:21.538614Z'
+steamid: 255320
+gogslug: edna_harvey_the_breakout
+humblestoreid: edna-harvey-the-breakout

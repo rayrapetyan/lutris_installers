@@ -1,0 +1,16 @@
+name: 'Ankh 2: Heart of Osiris'
+slug: ankh-2-heart-of-osiris
+year: 2006
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/ankh-2-heart-of-osiris.jpg
+icon_url: /games/icon/ankh-2-heart-of-osiris.png
+is_public: false
+updated: '2019-01-23T08:28:22.175754Z'
+steamid: 12440
+gogslug: ''
+humblestoreid: ''

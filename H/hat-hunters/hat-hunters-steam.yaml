@@ -1,0 +1,24 @@
+id: 8799
+game_id: 19395
+game_slug: hat-hunters
+name: Hat Hunters
+year: 2018
+user: TuiorGames
+runner: steam
+slug: hat-hunters-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-19T12:51:37.993000Z'
+updated_at: '2018-08-02T08:01:07.027472Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 874880
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 874880

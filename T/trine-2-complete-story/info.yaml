@@ -1,0 +1,17 @@
+name: 'Trine 2: Complete Story'
+slug: trine-2-complete-story
+year: 2011
+platforms:
+- name: Linux
+genres:
+- name: Platform
+aliases:
+- slug: trine-2
+  name: Trine 2
+banner_url: /games/banner/trine-2-complete-story.jpg
+icon_url: /games/icon/trine-2-complete-story.png
+is_public: true
+updated: '2019-03-10T22:33:40.718925Z'
+steamid: 35720
+gogslug: trine_2_complete_story
+humblestoreid: ''

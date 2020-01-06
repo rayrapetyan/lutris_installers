@@ -1,0 +1,17 @@
+name: Defender's Quest
+slug: defenders-quest
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: Role-playing
+- name: Strategy
+- name: Tactical
+aliases: []
+banner_url: /games/banner/defenders-quest.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:08.008782Z'
+steamid: null
+gogslug: defenders_quest
+humblestoreid: ''

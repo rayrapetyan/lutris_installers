@@ -1,0 +1,15 @@
+name: GFXBench
+slug: gfxbench
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Tool
+aliases: []
+banner_url: /games/banner/gfxbench.jpg
+icon_url: /games/icon/gfxbench.png
+is_public: true
+updated: '2019-01-23T08:29:39.304040Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

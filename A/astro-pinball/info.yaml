@@ -1,0 +1,15 @@
+name: Astro Pinball
+slug: astro-pinball
+year: 1982
+platforms:
+- name: CreatiVision
+genres:
+- name: Pinball
+aliases: []
+banner_url: /games/banner/astro-pinball.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:27.981370Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

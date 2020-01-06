@@ -1,0 +1,33 @@
+id: 4083
+game_id: 11539
+game_slug: funky-smugglers
+name: Funky Smugglers
+year: 2012
+user: FakeShemp
+runner: linux
+slug: funky-smugglers-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-03T14:52:26.556341Z'
+updated_at: '2017-06-04T21:55:17.912086Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: FunkySmugglers
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble installer

@@ -1,0 +1,28 @@
+id: 3925
+game_id: 2056
+game_slug: blocks-that-matter
+name: Blocks That Matter
+year: 2011
+user: FakeShemp
+runner: linux
+slug: blocks-that-matter-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-27T19:32:11.797519Z'
+updated_at: '2017-05-28T00:02:42.090393Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 111800
+gogid: 1207665193
+gogslug: blocks_that_matter
+humblestoreid: ''
+script:
+  exe: BTM_launcher_linux.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

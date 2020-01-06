@@ -1,0 +1,25 @@
+id: 3190
+game_id: 4118
+game_slug: homeworld-remastered-collection
+name: Homeworld Remastered Collection
+year: 2015
+user: bradgy
+runner: winesteam
+slug: homeworld-remastered-collecti-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: ''
+created_at: '2017-01-26T18:49:59.370000Z'
+updated_at: '2017-07-17T18:34:22.099563Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 244160
+gogid: 2114871440
+gogslug: homeworld_remastered_collection
+humblestoreid: ''
+script:
+  game:
+    appid: 244160
+    arch: win64

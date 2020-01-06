@@ -1,0 +1,30 @@
+id: 6550
+game_id: 15032
+game_slug: dope-trashcanners
+name: Dope TrashCanners
+year: null
+user: predator8bit
+runner: linux
+slug: dope-trashcanners-v102-x86_64
+version: v102-x86_64
+description: null
+notes: ''
+created_at: '2017-12-06T20:16:10.558000Z'
+updated_at: '2017-12-21T15:41:02.725607Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: DopeTrashCanners.x86_64
+  installer:
+  - extract:
+      format: tar.gz
+      dst: $GAMEDIR
+      file: dtc
+  files:
+  - dtc: "N/A:Select the game's archive file, you can download it from here: \nhttps://punxelteam.itch.io/dope-trashcanners"

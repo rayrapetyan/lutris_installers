@@ -1,0 +1,16 @@
+name: Darkstone
+slug: darkstone
+year: 1999
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: RPG
+aliases: []
+banner_url: /games/banner/darkstone.jpg
+icon_url: /games/icon/darkstone.png
+is_public: true
+updated: '2019-07-01T07:31:06.264781Z'
+steamid: 320320
+gogslug: darkstone
+humblestoreid: ''

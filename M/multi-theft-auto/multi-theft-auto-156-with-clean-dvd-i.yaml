@@ -1,0 +1,56 @@
+id: 10812
+game_id: 11954
+game_slug: multi-theft-auto
+name: Multi Theft Auto
+year: 2005
+user: Lumpiasty
+runner: wine
+slug: multi-theft-auto-156-with-clean-dvd-i
+version: 1.5.6 with clean DVD install
+description: Installs DVD version of GTA:SA and MTA to clean directory (useful when
+  you want to have seperate installation just for MTA)
+notes: "Leave all installation paths default\r\nDon't install DirectX when asked to\
+  \ select components\r\nUncheck Launch MTA:SA in installer"
+created_at: '2018-11-08T23:27:26.933000Z'
+updated_at: '2018-11-09T06:20:09.276223Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: winxp
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: corefonts
+      name: winetricks
+  - task:
+      executable: gta
+      prefix: $GAMEDIR
+      description: Installing GTA:SA...
+      name: wineexec
+  - task:
+      executable: mta
+      prefix: $GAMEDIR
+      args: /silent
+      description: Installing MTA...
+      name: wineexec
+  files:
+  - gta: N/A:Select the installer for GTA San Andreas (setup.exe)
+  - mta: http://mirror.s4.mtasa.ohbah.com/mtasa/main/mtasa_xp-1.5.6.exe
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/MTA San Andreas 1.5/Multi Theft Auto.exe
+    arch: win32

@@ -1,0 +1,28 @@
+id: 7874
+game_id: 17858
+game_slug: farm-manager-2018
+name: Farm Manager 2018
+year: 2018
+user: TuiorGames
+runner: winesteam
+slug: farm-manager-2018-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-04-10T13:30:10.257000Z'
+updated_at: '2019-02-14T06:08:10.908435Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 495560
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  game:
+    appid: 495560
+    arch: win64

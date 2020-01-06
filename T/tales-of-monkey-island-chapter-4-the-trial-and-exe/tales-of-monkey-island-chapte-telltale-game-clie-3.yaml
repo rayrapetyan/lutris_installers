@@ -1,0 +1,48 @@
+id: 3315
+game_id: 1721
+game_slug: tales-of-monkey-island-chapter-4-the-trial-and-exe
+name: 'Tales of Monkey Island: Chapter 4 - The Trial and Execution of Guybrush Threepwood '
+year: null
+user: NuSuey
+runner: wine
+slug: tales-of-monkey-island-chapte-telltale-game-clie-3
+version: Telltale game client
+description: Game client from Telltale's website (telltale.com)
+notes: ''
+created_at: '2017-03-10T13:43:10.892769Z'
+updated_at: '2018-05-19T03:41:50.952547Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 31200
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      description: Installing d3dx9
+      app: d3dx9
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Disabling unused WINE features
+      app: sandbox
+      silent: true
+      name: winetricks
+  files:
+  - game: N/A:Please select the Telletale (Download Center) Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Telltale Games/Tales of Monkey Island/The Trial and
+      Execution of Guybrush Threepwood/MonkeyIsland104.exe
+    arch: win32

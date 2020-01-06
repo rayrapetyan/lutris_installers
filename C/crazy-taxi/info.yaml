@@ -1,0 +1,19 @@
+name: Crazy Taxi
+slug: crazy-taxi
+year: 1999
+platforms:
+- name: GameCube
+- name: Sega Dreamcast
+- name: Sony PlayStation 2
+- name: Windows
+genres:
+- name: Arcade
+- name: Racing
+aliases: []
+banner_url: /games/banner/crazy-taxi.jpg
+icon_url: /games/icon/crazy-taxi.png
+is_public: true
+updated: '2019-01-23T08:29:00.236560Z'
+steamid: 71230
+gogslug: ''
+humblestoreid: ''

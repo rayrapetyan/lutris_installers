@@ -1,0 +1,31 @@
+id: 6916
+game_id: 2214
+game_slug: sunrider-first-arrival
+name: 'Sunrider: Mask of Arcadius'
+year: 2014
+user: FakeShemp
+runner: linux
+slug: sunrider-mask-of-arcadius-love-in-space
+version: Love in Space
+description: null
+notes: ''
+created_at: '2017-12-30T23:44:04.852000Z'
+updated_at: '2017-12-31T16:23:07.718058Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 313730
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: SunriderMaskofArcadius-Steam.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/SunriderMaskofArcadius-Steam.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/SunriderMaskofArcadius-Steam
+  - chmodx: $GAMEDIR/lib/linux-x86_64/SunriderMaskofArcadius-Steam
+  files:
+  - file1: http://sunrider-vn.com/SunriderMoA-DL.zip

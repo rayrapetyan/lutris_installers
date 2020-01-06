@@ -1,0 +1,28 @@
+id: 6051
+game_id: 491
+game_slug: ultratron
+name: Ultratron
+year: null
+user: FakeShemp
+runner: linux
+slug: ultratron-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-10-22T07:09:35.651510Z'
+updated_at: '2017-10-22T07:13:27.045709Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 219190
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: ultratron.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive

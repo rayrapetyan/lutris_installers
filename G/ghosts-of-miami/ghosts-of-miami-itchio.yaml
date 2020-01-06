@@ -1,0 +1,28 @@
+id: 7433
+game_id: 16101
+game_slug: ghosts-of-miami
+name: Ghosts of Miami
+year: 2017
+user: t-rex91
+runner: linux
+slug: ghosts-of-miami-itchio
+version: itch.io
+description: 64 bit only
+notes: ''
+created_at: '2018-03-03T21:29:16.101739Z'
+updated_at: '2018-03-03T23:30:33.581810Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 677300
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: GhostsOfMiami.x86_64
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

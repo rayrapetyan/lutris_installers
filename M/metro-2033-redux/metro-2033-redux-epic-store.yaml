@@ -1,0 +1,101 @@
+id: 16763
+game_id: 2989
+game_slug: metro-2033-redux
+name: Metro 2033 Redux
+year: 2014
+user: 751203f8735e628528b32f1f3c8e3da1
+runner: wine
+slug: metro-2033-redux-epic-store
+version: Epic Store
+description: This installer only install the Epic Store, you must install the game
+  manually.
+notes: If the EPIC's client show you a error message (DXSETUP), you click "NO" or
+  "Accept"
+created_at: '2019-11-11T12:28:41.191000Z'
+updated_at: '2019-12-23T19:43:28.432065Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 286690
+gogid: 1436434037
+gogslug: metro_2033_redux
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE/directx-2010
+      file: dx10
+  - task:
+      prefix: $GAMEDIR
+      description: Creating the Wine prefix (64bits)
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Adding text font
+      app: arial
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing libraries.
+      app: vcrun2008
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .NET Framework 4.8
+      app: dotnet48
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Changing Windows version to (Win7)
+      app: win7
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  - task:
+      executable: $CACHE/directx-2010/DXSETUP.exe
+      prefix: $GAMEDIR
+      description: (Microsoft`s software) Installing directx-2010
+      arch: win64
+      args: /silent
+      name: wineexec
+  - task:
+      executable: epicstore
+      prefix: $GAMEDIR
+      description: Running the Epic Games`s Installer.
+      arch: win64
+      exclude_processes: EpicGamesLauncher.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  game:
+    prefix: $GAMEDIR
+    args: -opengl
+    exe: drive_c/Program Files (x86)/Epic Games/Launcher/Portal/Binaries/Win32/EpicGamesLauncher.exe
+    arch: win64
+  system:
+    disable_compositor: true
+    env:
+      mesa_glthread: 'true'
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+      DXVK_STATE_CACHE_PATH: $GAMEDIR/StateCache/
+      __GL_THREADED_OPTIMIZATIONS: 1
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR/GLcacheShaders/
+      DXVK_STATE_CACHE: 1
+  wine:
+    version: lutris-4.16-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - epicstore: https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi
+  - dx10: https://lutris.net/files/tools/directx-2010.tar.gz

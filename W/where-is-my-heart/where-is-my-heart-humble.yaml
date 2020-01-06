@@ -1,0 +1,37 @@
+id: 4802
+game_id: 2883
+game_slug: where-is-my-heart
+name: Where is my Heart?
+year: null
+user: FakeShemp
+runner: wine
+slug: where-is-my-heart-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-07-04T18:33:50.983000Z'
+updated_at: '2018-05-19T03:41:55.311008Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 244950
+gogid: 1207664633
+gogslug: where_is_my_heart
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/Where is my Heart Installer.exe
+      prefix: $GAMEDIR
+      args: /sp- /silent /norestart
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Where is my Heart/Where is my Heart.exe
+    arch: win32

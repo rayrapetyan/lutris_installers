@@ -1,0 +1,30 @@
+id: 9700
+game_id: 14761
+game_slug: blasphemer
+name: Blasphemer
+year: null
+user: maxlefou
+runner: zdoom
+slug: blasphemer-015
+version: 0.1.5
+description: null
+notes: ''
+created_at: '2018-08-11T21:46:23.609207Z'
+updated_at: '2018-08-12T14:57:13.438892Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: archive
+  files:
+  - archive: https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/blasphemer/blasphemer-0.1.5.zip
+  game:
+    main_file: BLASPHEM.WAD

@@ -1,0 +1,24 @@
+id: 3874
+game_id: 8257
+game_slug: the-dwarves
+name: The Dwarves
+year: null
+user: rensch77
+runner: steam
+slug: the-dwarves-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-05-25T08:59:10.804460Z'
+updated_at: '2017-05-26T13:28:31.008248Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 403970
+gogid: 1454499830
+gogslug: dwarves_the
+humblestoreid: ''
+script:
+  game:
+    appid: 403970

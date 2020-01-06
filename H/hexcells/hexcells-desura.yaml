@@ -1,0 +1,29 @@
+id: 6987
+game_id: 1962
+game_slug: hexcells
+name: Hexcells
+year: 2014
+user: FakeShemp
+runner: linux
+slug: hexcells-desura
+version: Desura
+description: null
+notes: ''
+created_at: '2018-01-03T23:09:56.732401Z'
+updated_at: '2018-01-03T23:10:59.008065Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 265890
+gogid: null
+gogslug: ''
+humblestoreid: hexcells-complete-pack
+script:
+  exe: Hexcells
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Hexcells
+  files:
+  - file1: N/A:Please select the Desura archive

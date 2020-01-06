@@ -1,0 +1,41 @@
+id: 12671
+game_id: 4292
+game_slug: tron-20
+name: Tron 2.0
+year: 2003
+user: cxf
+runner: winesteam
+slug: tron-20-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-04-08T02:41:04.683000Z'
+updated_at: '2019-04-08T02:44:02.246652Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 327740
+gogid: 1655444396
+gogslug: tron_20
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: dotnet35sp1
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: directx9 vcrun6 dsound
+      arch: win32
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 327740
+    arch: win32

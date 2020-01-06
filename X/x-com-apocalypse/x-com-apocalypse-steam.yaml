@@ -1,0 +1,24 @@
+id: 8422
+game_id: 1602
+game_slug: x-com-apocalypse
+name: 'X-COM: Apocalypse'
+year: 1997
+user: BlasterPR
+runner: winesteam
+slug: x-com-apocalypse-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-26T01:41:00.228313Z'
+updated_at: '2018-05-26T10:57:06.800166Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 7660
+gogid: 1445249430
+gogslug: xcom_apocalypse
+humblestoreid: ''
+script:
+  game:
+    appid: 7660

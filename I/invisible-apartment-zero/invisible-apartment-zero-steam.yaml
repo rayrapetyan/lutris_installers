@@ -1,0 +1,24 @@
+id: 6946
+game_id: 5436
+game_slug: invisible-apartment-zero
+name: Invisible Apartment Zero
+year: 2015
+user: FakeShemp
+runner: steam
+slug: invisible-apartment-zero-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-01-01T23:20:24.340252Z'
+updated_at: '2018-01-01T23:20:31.039735Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 369120
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 369120

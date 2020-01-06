@@ -1,0 +1,15 @@
+name: 'Hitman GO: Definitive Edition'
+slug: hitman-go-definitive-edition
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/hitman-go-definitive-edition.jpg
+icon_url: /games/icon/hitman-go-definitive-edition.png
+is_public: true
+updated: '2019-01-23T08:29:51.227982Z'
+steamid: 427820
+gogslug: ''
+humblestoreid: ''

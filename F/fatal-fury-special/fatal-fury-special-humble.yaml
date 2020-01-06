@@ -1,0 +1,40 @@
+id: 3905
+game_id: 11452
+game_slug: fatal-fury-special
+name: Fatal Fury Special
+year: 1993
+user: FakeShemp
+runner: linux
+slug: fatal-fury-special-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-26T15:52:01.754897Z'
+updated_at: '2017-05-27T23:58:14.551529Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1226880572
+gogslug: fatal_fury_special
+humblestoreid: ''
+script:
+  exe: NeogeoEmu.bin.x86
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data/noarch
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86_64
+      dst: $GAMEDIR
+  exe64: NeogeoEmu.bin.x86_64
+  files:
+  - file1: N/A:Please select the Humble installer

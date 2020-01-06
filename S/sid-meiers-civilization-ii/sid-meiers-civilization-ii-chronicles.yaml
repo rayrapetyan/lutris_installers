@@ -1,0 +1,50 @@
+id: 17644
+game_id: 13836
+game_slug: sid-meiers-civilization-ii
+name: Sid Meier's Civilization II
+year: 1996
+user: isyweisy
+runner: wine
+slug: sid-meiers-civilization-ii-chronicles
+version: Chronicles
+description: This installer is designed to run the version of Civilization II that
+  ships with the Civilization Chronicles box set.
+notes: The indeo driver install that comes with the disc will fail. This is ok as
+  the script will automatically install custom versions straight after.
+created_at: '2019-12-29T15:29:02.572000Z'
+updated_at: '2019-12-29T17:07:57.888723Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: Civ2/civ2.exe
+  - task:
+      prefix: $GAMEDIR
+      app: winxp
+      arch: win32
+      name: winetricks
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      working_dir: $DISK
+      arch: win32
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: icodecs
+      arch: win32
+      name: winetricks
+  wine:
+    arch: win32
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Sid Meier's Civilization Chronicles/Sid Meier's Civilization
+      II Multiplayer Gold/civ2.exe
+    arch: win32

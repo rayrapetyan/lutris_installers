@@ -1,0 +1,52 @@
+id: 11618
+game_id: 25241
+game_slug: otomeidocafe
+name: Otomeido@cafe
+year: 2013
+user: kimchitea
+runner: wine
+slug: otomeidocafe-english-patched-dlsi
+version: English Patched DLsite
+description: "Game: <a href=\"https://www.dlsite.com/pro/work/=/product_id/VJ008068.html\"\
+  >DLsite</a>\r\nFan Patch: <a href=\"http://www.mediafire.com/file/d0vcd2846ziyz7b/%5BLv1Translations%5D+Otomeido%40cafe+patch.zip\"\
+  >Mediafire</a>"
+notes: Works in windowed mode only; switching to fullscreen mode will crash the game
+  and can only be fixed by deleting the save data.
+created_at: '2019-01-17T14:16:12.329000Z'
+updated_at: '2019-06-01T05:56:13.799860Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/Files
+      dst: $GAMEDIR
+  - extract:
+      dst: $GAMEDIR
+      file: $file2
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing Windows Media Player 9
+      arch: win32
+      app: wmp9
+      silent: true
+      name: winetricks
+  system:
+    env:
+      LC_ALL: ja_JP.UTF-8
+  files:
+  - file1: N/A:Please select the DLsite archive
+  - file2: N/A:Please select the patch archive
+  game:
+    prefix: $GAMEDIR/prefix
+    exe: $GAMEDIR/otomaid.exe
+    arch: win32

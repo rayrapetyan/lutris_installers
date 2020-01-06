@@ -1,0 +1,104 @@
+id: 8741
+game_id: 7217
+game_slug: quake-ii-quad-damage
+name: 'Quake II: Quad Damage'
+year: 1999
+user: edjaa84
+runner: linux
+slug: quake-ii-quad-damage-gog-yamagi
+version: GOG + Yamagi
+description: null
+notes: "Para partidas Multijugador Instala Action Quake para GNU/Linux Debian/Ubuntu:\r\
+  \n\r\nhttp://q2online.net/action\r\n\r\nServers:\r\n\r\nhttp://q2servers.com\r\n\
+  http://q2esvida.cl/servidores/"
+created_at: '2018-06-15T15:52:49.893902Z'
+updated_at: '2018-06-15T16:18:28.697913Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1443696817
+gogslug: quake_ii_quad_damage
+humblestoreid: ''
+script:
+  exe: quake2
+  installer:
+  - extract:
+      dst: $CACHE/innoextract
+      file: innoextract
+  - execute:
+      args: --extract $q2data --output-dir $CACHE/q2/
+      file: $CACHE/innoextract/innoextract
+  - merge:
+      src: $CACHE/q2/app
+      dst: $GAMEDIR
+  - extract:
+      file: yamagi-quake2-x64
+  - move:
+      src: $GAMEDIR/music
+      dst: $GAMEDIR/baseq2/music
+  - move:
+      src: $GAMEDIR/baseq2/music/Track02.ogg
+      dst: $GAMEDIR/baseq2/music/02.ogg
+  - move:
+      src: $GAMEDIR/baseq2/music/Track03.ogg
+      dst: $GAMEDIR/baseq2/music/03.ogg
+  - move:
+      src: $GAMEDIR/baseq2/music/Track04.ogg
+      dst: $GAMEDIR/baseq2/music/04.ogg
+  - move:
+      src: $GAMEDIR/baseq2/music/Track05.ogg
+      dst: $GAMEDIR/baseq2/music/05.ogg
+  - move:
+      src: $GAMEDIR/baseq2/music/Track06.ogg
+      dst: $GAMEDIR/baseq2/music/06.ogg
+  - move:
+      src: $GAMEDIR/baseq2/music/Track07.ogg
+      dst: $GAMEDIR/baseq2/music/07.ogg
+  - move:
+      src: $GAMEDIR/baseq2/music/Track08.ogg
+      dst: $GAMEDIR/baseq2/music/08.ogg
+  - move:
+      src: $GAMEDIR/baseq2/music/Track09.ogg
+      dst: $GAMEDIR/baseq2/music/09.ogg
+  - move:
+      src: $GAMEDIR/baseq2/music/Track10.ogg
+      dst: $GAMEDIR/baseq2/music/10.ogg
+  - move:
+      src: $GAMEDIR/baseq2/music/Track11.ogg
+      dst: $GAMEDIR/baseq2/music/11.ogg
+  - move:
+      src: $GAMEDIR/baseq2/music/Track12.ogg
+      dst: $GAMEDIR/baseq2/music/12.ogg
+  - move:
+      src: $GAMEDIR/baseq2/music/Track13.ogg
+      dst: $GAMEDIR/baseq2/music/13.ogg
+  - move:
+      src: $GAMEDIR/baseq2/music/Track14.ogg
+      dst: $GAMEDIR/baseq2/music/14.ogg
+  - move:
+      src: $GAMEDIR/baseq2/music/Track15.ogg
+      dst: $GAMEDIR/baseq2/music/15.ogg
+  - move:
+      src: $GAMEDIR/baseq2/music/Track16.ogg
+      dst: $GAMEDIR/baseq2/music/16.ogg
+  - move:
+      src: $GAMEDIR/baseq2/music/Track17.ogg
+      dst: $GAMEDIR/baseq2/music/17.ogg
+  - move:
+      src: $GAMEDIR/baseq2/music/Track18.ogg
+      dst: $GAMEDIR/baseq2/music/18.ogg
+  - move:
+      src: $GAMEDIR/baseq2/music/Track19.ogg
+      dst: $GAMEDIR/baseq2/music/19.ogg
+  - move:
+      src: $GAMEDIR/baseq2/music/Track20.ogg
+      dst: $GAMEDIR/baseq2/music/20.ogg
+  - move:
+      src: $GAMEDIR/baseq2/music/Track21.ogg
+      dst: $GAMEDIR/baseq2/music/21.ogg
+  files:
+  - yamagi-quake2-x64: https://lutris.net/files/games/quake-2/yamagi-yquake2-5.34-x86_64.tar.gz
+  - innoextract: https://lutris.net/files/tools/innoextract.tar.gz
+  - q2data: N/A:Please select the GOG.com installer ver.2.0.0.3

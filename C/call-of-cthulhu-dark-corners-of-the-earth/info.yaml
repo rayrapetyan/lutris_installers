@@ -1,0 +1,16 @@
+name: 'Call of Cthulhu: Dark Corners of the Earth'
+slug: call-of-cthulhu-dark-corners-of-the-earth
+year: 2006
+platforms:
+- name: Windows
+genres:
+- name: Horror
+- name: Survival
+aliases: []
+banner_url: /games/banner/call-of-cthulhu-dark-corners-of-the-earth.jpg
+icon_url: /games/icon/call-of-cthulhu-dark-corners-of-the-earth.png
+is_public: true
+updated: '2019-04-07T08:35:29.404515Z'
+steamid: 22340
+gogslug: call_of_cthulhu_dark_corners_of_the_earth
+humblestoreid: ''

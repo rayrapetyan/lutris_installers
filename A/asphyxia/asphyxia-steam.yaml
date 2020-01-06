@@ -1,0 +1,24 @@
+id: 3136
+game_id: 5067
+game_slug: asphyxia
+name: Asphyxia
+year: 2015
+user: FakeShemp
+runner: steam
+slug: asphyxia-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-12-27T23:12:52.602000Z'
+updated_at: '2016-12-30T01:48:17.493438Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 386990
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 386990

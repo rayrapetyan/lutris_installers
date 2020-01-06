@@ -1,0 +1,37 @@
+id: 2578
+game_id: 524
+game_slug: pixeljunktm-shooter
+name: PixelJunk Shooter
+year: 2013
+user: Lulu
+runner: linux
+slug: pixeljunktm-shooter-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2016-08-23T20:10:59.725900Z'
+updated_at: '2016-08-29T04:56:38.942098Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 255870
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Game/start.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/Game
+  files:
+  - game: 'N/A: Plese select the GOG.com Linux installer'
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

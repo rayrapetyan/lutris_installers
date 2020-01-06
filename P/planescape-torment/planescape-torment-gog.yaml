@@ -1,0 +1,53 @@
+id: 928
+game_id: 78
+game_slug: planescape-torment
+name: 'Planescape: Torment'
+year: 1999
+user: Xodetaetl
+runner: wine
+slug: planescape-torment-gog
+version: GOG
+description: ''
+notes: "Requires the latest version of GOG's Linux installer.\r\nUses the Linux setup\
+  \ from GOG with Wine from Lutris."
+created_at: '2014-10-17T20:39:46.584000Z'
+updated_at: '2016-04-15T15:28:41.402799Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: planescape_torment
+humblestoreid: ''
+script:
+  exe: Game/prefix/drive_c/GOG Games/Planescape Torment/Torment.exe
+  installer:
+  - input_menu:
+      options:
+      - Torment: English
+      - Torment (German): Deutsch
+      - Torment (French): "Fran\xE7ais"
+      - Torment (Polish): Polski
+      description: 'Select the game''s language (determined by the setup file you
+        downloaded):'
+      id: LANG
+  - extract:
+      description: Extracting game data...
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR"
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/Game
+  - execute:
+      args: -s "$GAMEDIR/Game/prefix/drive_c/GOG Games/Planescape $INPUT_LANG" "$GAMEDIR/Game/prefix/drive_c/GOG
+        Games/Planescape Torment"
+      file: /bin/ln
+  files:
+  - game: N/A:Select the Linux installer downloaded from GOG
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz
+  game:
+    prefix: $GAMEDIR/Game/prefix

@@ -1,0 +1,29 @@
+id: 2839
+game_id: 7827
+game_slug: einhander
+name: "Einh\xE4nder"
+year: 1997
+user: ssf
+runner: pcsxr
+slug: einhander-retail
+version: Retail
+description: ''
+notes: ''
+created_at: '2016-10-03T22:06:17.755787Z'
+updated_at: '2016-12-10T02:13:43.363145Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: iso_file
+      dst: $GAMEDIR
+  files:
+  - iso_file: N/A:Please select the PlayStation ISO file.
+  iso: iso_file

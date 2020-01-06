@@ -1,0 +1,39 @@
+id: 10004
+game_id: 2277
+game_slug: hostile-waters-antaeus-rising
+name: 'Hostile Waters: Antaeus Rising'
+year: null
+user: stooj
+runner: wine
+slug: hostile-waters-antaeus-rising-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2018-09-02T17:48:21.427480Z'
+updated_at: '2018-09-06T13:51:13.106608Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 267980
+gogid: 1207658670
+gogslug: hostile_waters_antaeus_rising
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /VERYSILENT /SP- /NOCANCEL /SUPPRESSMSGBOXES '/DIR=C:/game'
+      description: Installing...
+      name: wineexec
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/game/HostileWaters.exe
+    arch: win32

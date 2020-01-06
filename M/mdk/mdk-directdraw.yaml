@@ -1,0 +1,32 @@
+id: 2306
+game_id: 1435
+game_slug: mdk
+name: MDK
+year: 1997
+user: strider
+runner: wine
+slug: mdk-directdraw
+version: DirectDraw
+description: ''
+notes: "Requires the original CD.\r\nGraphics are not drawn, see:\r\nhttps://bugs.winehq.org/show_bug.cgi?id=39761"
+created_at: '2016-07-17T22:27:47.261710Z'
+updated_at: '2016-07-17T23:43:48.337056Z'
+draft: false
+published: true
+published_by: null
+rating: '1'
+steamid: 38450
+gogid: 6
+gogslug: mdk
+humblestoreid: ''
+script:
+  exe: drive_c/SHINY/MDK/mdk95.exe
+  installer:
+  - insert-disc:
+      requires: mdk.ico
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  game:
+    prefix: $GAMEDIR

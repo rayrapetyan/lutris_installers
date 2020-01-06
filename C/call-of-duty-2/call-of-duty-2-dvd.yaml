@@ -1,0 +1,54 @@
+id: 15027
+game_id: 1238
+game_slug: call-of-duty-2
+name: Call of Duty 2
+year: 2005
+user: Ludecan
+runner: wine
+slug: call-of-duty-2-dvd
+version: DVD
+description: Installs the DVD version, and updates the game to version 1.3
+notes: "Moves all the requierd install files to a folder then runs the setup.\r\n\
+  After the installer crashes, you'll have to end the process \"cod2.exe\" using a\
+  \ task manager, or else the process will not proceed.\r\nYou might need a no-cd\
+  \ crack as well due to the use of SafeDisc DRM."
+created_at: '2019-08-16T16:57:46.457000Z'
+updated_at: '2019-09-09T00:18:21.305744Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 2630
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - insert-disc:
+      requires: setup.exe
+      description: Insert DVD
+  - extract:
+      description: Extracting the patch
+      file: patch13
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      description: Running the installer. Choose Typical. The installer will crash,
+        you'll have to end the process "cod2.exe" using a task manager, or else the
+        process will not procead.
+      exclude_processes: cod2.exe
+      name: wineexec
+  - task:
+      executable: $GAMEDIR/cod2-v1.3.exe
+      prefix: $GAMEDIR
+      description: Running the 1.3 Patch.
+      name: wineexec
+  files:
+  - patch13: http://www.callofdutyview.net/files/patches/cod2-v1.3.zip
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Activision/Call of Duty 2/CoD2SP_s.exe
+    arch: win32

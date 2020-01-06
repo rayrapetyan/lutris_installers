@@ -1,0 +1,24 @@
+id: 1576
+game_id: 215
+game_slug: terraria
+name: Terraria
+year: 2011
+user: TacoBot
+runner: steam
+slug: terraria-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2015-08-15T03:56:21.363605Z'
+updated_at: '2018-11-11T02:32:19.314864Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: 105600
+gogid: 1207665503
+gogslug: terraria
+humblestoreid: ''
+script:
+  game:
+    appid: 105600

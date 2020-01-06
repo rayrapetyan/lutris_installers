@@ -1,0 +1,28 @@
+id: 5062
+game_id: 12249
+game_slug: john-cenas-sexy-holiday-surprise
+name: John Cena's Sexy Holiday Surprise!
+year: 2015
+user: FakeShemp
+runner: linux
+slug: john-cenas-sexy-holiday-surpr-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-07-14T20:50:35.456811Z'
+updated_at: '2017-08-08T18:06:22.950768Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: JohnCenaSchoolXmas.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

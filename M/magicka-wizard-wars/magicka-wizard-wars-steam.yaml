@@ -1,0 +1,24 @@
+id: 1126
+game_id: 1420
+game_slug: magicka-wizard-wars
+name: 'Magicka: Wizard Wars'
+year: null
+user: theAeon
+runner: winesteam
+slug: magicka-wizard-wars-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-11-20T18:46:42.100000Z'
+updated_at: '2017-12-21T15:48:13.158449Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 202090
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 202090

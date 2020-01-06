@@ -1,0 +1,17 @@
+name: Unreal (1990)
+slug: unreal
+year: 1990
+platforms:
+- name: Amiga
+- name: Atari ST
+- name: MS-DOS
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/unreal.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:00.134957Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

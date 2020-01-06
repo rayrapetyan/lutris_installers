@@ -1,0 +1,28 @@
+id: 6518
+game_id: 15008
+game_slug: blood-idol-wakabayashi
+name: Blood Idol Wakabayashi
+year: 2016
+user: FakeShemp
+runner: linux
+slug: blood-idol-wakabayashi-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2017-12-01T21:15:26.793848Z'
+updated_at: '2017-12-01T21:18:47.307976Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: blood idol wakabayashi.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

@@ -1,0 +1,74 @@
+id: 4547
+game_id: 2919
+game_slug: starcraft
+name: StarCraft
+year: 1998
+user: RobLoach
+runner: wine
+slug: starcraft-battlenet
+version: Battle.net
+description: Close Battle.net after launch for better performance.
+notes: ''
+created_at: '2017-06-23T16:23:19.531000Z'
+updated_at: '2019-05-02T00:00:12.006553Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/Battle.net/Battle.net.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 32bit Wine prefix.
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Arial font
+      arch: win32
+      app: arial
+      silent: true
+      name: winetricks
+  - write_json:
+      description: Writing a Battle.Net config file
+      data:
+        Client:
+          HardwareAcceleration: 'false'
+          GameLaunchWindowBehavior: '2'
+          GameSearch:
+            BackgroundSearch: 'true'
+          Sound:
+            Enabled: 'false'
+          Streaming:
+            StreamingEnabled: 'false'
+      file: $GAMEDIR/drive_c/users/$USER/Application Data/Battle.net/Battle.net.config
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - task:
+      executable: setup
+      description: 'Installing Blizzard App (an installer will open)
+
+        ------------------------------
+
+        Let Lutris installer finish first. Log in afterwards.'
+      exclude_processes: Battle.net.exe Agent.exe "Battle.net Helper.exe"
+      arch: win32
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  wine:
+    version: tkg-4.0-x86_64
+  files:
+  - setup:
+      filename: Battle.net-Setup.exe
+      url: https://battle.net/download/getInstallerForGame?os=WIN&version=LIVE&gameProgram=STARCRAFT

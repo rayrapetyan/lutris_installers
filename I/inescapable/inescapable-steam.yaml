@@ -1,0 +1,24 @@
+id: 851
+game_id: 2577
+game_slug: inescapable
+name: Inescapable
+year: null
+user: Xodetaetl
+runner: steam
+slug: inescapable-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T17:02:50.986000Z'
+updated_at: '2014-09-15T17:10:37.004000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 295610
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 295610

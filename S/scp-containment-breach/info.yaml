@@ -1,0 +1,16 @@
+name: 'SCP: Containment Breach'
+slug: scp-containment-breach
+year: 2012
+platforms:
+- name: Windows
+genres:
+- name: Horror
+- name: Survival
+aliases: []
+banner_url: /games/banner/scp-containment-breach.jpg
+icon_url: /games/icon/scp-containment-breach.png
+is_public: true
+updated: '2019-04-07T03:23:51.171461Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

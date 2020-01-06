@@ -1,0 +1,19 @@
+name: Poly Bridge
+slug: poly-bridge
+year: 2016
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Building
+- name: Puzzle
+- name: Sandbox
+- name: Simulation
+aliases: []
+banner_url: /games/banner/poly-bridge.jpg
+icon_url: /games/icon/poly-bridge.png
+is_public: true
+updated: '2019-08-17T07:03:41.031697Z'
+steamid: 367450
+gogslug: ''
+humblestoreid: ''

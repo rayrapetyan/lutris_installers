@@ -1,0 +1,29 @@
+id: 9428
+game_id: 20447
+game_slug: revenant-rising
+name: Revenant Rising
+year: 2012
+user: kimchitea
+runner: linux
+slug: revenant-rising-humble-32-bit
+version: Humble (32-bit)
+description: null
+notes: ''
+created_at: '2018-07-28T00:46:39.755000Z'
+updated_at: '2018-07-28T04:21:14.312760Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Gamebook Adventures 4 - Revenant Rising.x86
+  installer:
+  - extract:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble archive

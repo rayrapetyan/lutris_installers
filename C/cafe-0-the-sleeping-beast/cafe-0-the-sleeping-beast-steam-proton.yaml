@@ -1,0 +1,24 @@
+id: 10381
+game_id: 15955
+game_slug: cafe-0-the-sleeping-beast
+name: CAFE 0 ~The Sleeping Beast~
+year: 2016
+user: kimchitea
+runner: steam
+slug: cafe-0-the-sleeping-beast-steam-proton
+version: Steam (Proton)
+description: null
+notes: ''
+created_at: '2018-09-30T15:08:18.549396Z'
+updated_at: '2018-09-30T17:07:53.756002Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 461810
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 461810

@@ -1,0 +1,24 @@
+id: 8857
+game_id: 1508
+game_slug: anno-2070
+name: Anno 2070
+year: 2011
+user: DragonLich
+runner: winesteam
+slug: anno-2070-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-22T20:10:00.540000Z'
+updated_at: '2018-08-02T07:46:04.267188Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 48240
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 48240

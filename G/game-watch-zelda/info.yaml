@@ -1,0 +1,15 @@
+name: 'Game & Watch: Zelda'
+slug: game-watch-zelda
+year: 1989
+platforms:
+- name: Arcade
+genres:
+- name: Platformer
+aliases: []
+banner_url: /games/banner/game-watch-zelda.jpg
+icon_url: null
+is_public: true
+updated: '2019-09-11T13:34:35.059360Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

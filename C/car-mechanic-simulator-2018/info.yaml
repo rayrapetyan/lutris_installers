@@ -1,0 +1,16 @@
+name: Car Mechanic Simulator 2018
+slug: car-mechanic-simulator-2018
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Building
+- name: Simulation
+aliases: []
+banner_url: /games/banner/car-mechanic-simulator-2018.jpg
+icon_url: /games/icon/car-mechanic-simulator-2018.png
+is_public: true
+updated: '2019-04-18T03:28:41.529949Z'
+steamid: 645630
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,31 @@
+id: 4946
+game_id: 12173
+game_slug: blue-collar-astronaut
+name: Blue-Collar Astronaut
+year: null
+user: FakeShemp
+runner: linux
+slug: blue-collar-astronaut-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-10T17:46:51.584724Z'
+updated_at: '2017-08-27T21:49:46.641490Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 414760
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Blue-CollarAstronaut.linux.0.5.2.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Blue-CollarAstronaut.linux.0.5.2.x86
+  - chmodx: $GAMEDIR/Blue-CollarAstronaut.linux.0.5.2.x86_64
+  exe64: Blue-CollarAstronaut.linux.0.5.2.x86_64
+  files:
+  - file1: N/A:Please select the Groupees archive

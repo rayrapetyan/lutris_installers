@@ -1,0 +1,63 @@
+id: 16239
+game_id: 29367
+game_slug: efootball-pes-2020
+name: eFootball PES 2020
+year: 2019
+user: cxf
+runner: winesteam
+slug: efootball-pes-2020-steam-demo
+version: Steam Demo
+description: null
+notes: ''
+created_at: '2019-10-17T01:02:11.108000Z'
+updated_at: '2019-10-17T01:03:19.264130Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 996470
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: msxml3
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: dotnet472
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2017
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: takao
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: win7
+      arch: win64
+      name: winetricks
+  winesteam:
+    version: tkg-4.0-x86_64
+    esync: true
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 996480
+    arch: win64

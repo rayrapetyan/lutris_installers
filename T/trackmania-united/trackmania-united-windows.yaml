@@ -1,0 +1,39 @@
+id: 3079
+game_id: 1527
+game_slug: trackmania-united
+name: TrackMania United
+year: null
+user: kamyl
+runner: wine
+slug: trackmania-united-windows
+version: Windows
+description: ''
+notes: ''
+created_at: '2016-12-10T19:25:39.672000Z'
+updated_at: '2016-12-30T02:12:26.841533Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 7200
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /silent
+      description: Installing...
+      name: wineexec
+  files:
+  - game: http://files.trackmaniaforever.com/tmnationsforever_setup.exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/TmNationsForever/TmForeverLauncher.exe
+    arch: win32

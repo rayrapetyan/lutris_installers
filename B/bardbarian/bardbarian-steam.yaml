@@ -1,0 +1,24 @@
+id: 8239
+game_id: 2452
+game_slug: bardbarian
+name: Bardbarian
+year: null
+user: soredake
+runner: winesteam
+slug: bardbarian-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T07:35:36.796820Z'
+updated_at: '2018-05-13T09:18:22.489764Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 269490
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 269490

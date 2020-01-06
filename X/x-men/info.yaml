@@ -1,0 +1,15 @@
+name: X-Men
+slug: x-men
+year: 1992
+platforms:
+- name: Arcade
+genres:
+- name: Beat'em up
+aliases: []
+banner_url: /games/banner/x-men.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:12.484729Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

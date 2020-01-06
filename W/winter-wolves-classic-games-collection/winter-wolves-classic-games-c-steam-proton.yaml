@@ -1,0 +1,24 @@
+id: 13711
+game_id: 27459
+game_slug: winter-wolves-classic-games-collection
+name: Winter Wolves Classic Games Collection
+year: 2017
+user: kimchitea
+runner: steam
+slug: winter-wolves-classic-games-c-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-05-25T00:18:49.286000Z'
+updated_at: '2019-06-13T06:17:39.950160Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 646150
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 646150

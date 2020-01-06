@@ -1,0 +1,15 @@
+name: Drawkanoid
+slug: drawkanoid
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Brick buster
+aliases: []
+banner_url: /games/banner/drawkanoid.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:17.072643Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

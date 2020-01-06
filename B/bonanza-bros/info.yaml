@@ -1,0 +1,16 @@
+name: Bonanza Bros.
+slug: bonanza-bros
+year: 1991
+platforms:
+- name: Sega Genesis / Mega Drive
+- name: Sega Master System
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/bonanza-bros.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:40.114131Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

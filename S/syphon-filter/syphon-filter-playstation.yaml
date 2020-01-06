@@ -1,0 +1,31 @@
+id: 6871
+game_id: 15300
+game_slug: syphon-filter
+name: Syphon Filter
+year: 1999
+user: FakeShemp
+runner: libretro
+slug: syphon-filter-playstation
+version: PlayStation
+description: null
+notes: ''
+created_at: '2017-12-26T20:32:33.031528Z'
+updated_at: '2017-12-26T20:36:20.649322Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the PlayStation image file
+  game:
+    core: mednafen_psx_hw
+    main_file: file1

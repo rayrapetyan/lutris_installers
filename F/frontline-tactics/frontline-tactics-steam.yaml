@@ -1,0 +1,24 @@
+id: 8125
+game_id: 1747
+game_slug: frontline-tactics
+name: Frontline Tactics
+year: null
+user: soredake
+runner: winesteam
+slug: frontline-tactics-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T06:09:37.080674Z'
+updated_at: '2018-05-13T09:10:45.260388Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 218310
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 218310

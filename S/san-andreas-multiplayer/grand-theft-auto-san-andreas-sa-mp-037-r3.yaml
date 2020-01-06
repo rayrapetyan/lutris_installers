@@ -1,0 +1,68 @@
+id: 8720
+game_id: 11948
+game_slug: san-andreas-multiplayer
+name: 'Grand Theft Auto: San Andreas Multiplayer'
+year: 2005
+user: socterean
+runner: wine
+slug: grand-theft-auto-san-andreas-sa-mp-037-r3
+version: sa-mp-0.3.7-R3
+description: "This mod was tested and it runs with the DVD version of GTA San Andreas\
+  \ 1.0. Using it with the steam version may work if you downgrade your game version\
+  \ to GTA San Andreas 1.0 and you install it in the apropriate game directory. (info\
+  \ online)\r\n\r\nThis installer includes the SA-MP Addon 2.3 wich enables 1080p\
+  \ resolution and many other features and improvements\r\nThis mod works best with\
+  \ Wine Staging, because Non Staging versions of Wine will not render other players\
+  \ health and names"
+notes: "NOTE: When you are prompted to choose the instalation directory, choose the\
+  \ folder where you have already installed GTA San Andreas \r\nAlso if you try to\
+  \ play San Andreas and this mod from the same installation it will break the mod,\
+  \ a separate GTA San Adreas installation is advised just for playing the mod\r\n\
+  BEFORE installation go into your GTA San Andreas directory and make sure that the\
+  \ gta_sa.exe permissions are set to \"Read and Write\" for the Owner\r\n\r\nInstallation\
+  \ instructions:\r\n- the first SA-MP installer needs to be pointed at the folder\
+  \ where you have GTA San Andreas already installed and it will detect  the apropriate\
+  \ game directory and will install as intended\r\n- when the second installer for\
+  \ the SA-MP Addon pops up, browse to the directory where you have installed GTA\
+  \ San Andreas and the patch will be installed with no problems (it does not detect\
+  \ properly the game directory)\r\n- after you have installed SA-MP and SA-MP Addon\
+  \ it is recommended to right click the San Andreas Multiplayer entry in Lutris,\
+  \ then Wine configuration -> Staging and \"Enable VAAPI as backend for DXVA2 GPU\
+  \ decoding\" for better performance\r\n\r\nKnown bugs:\r\n- if you already played\
+  \ GTA SA before installing this mod SA-MP will crash if you try to change the resolution\
+  \ of the game. You can workaround this by installing SA-MP in a fresh installed\
+  \ GTA San Andreas.\r\n- SA-MP Addon does not detect properly the game installation\
+  \ and you will have to poit it manually to the apropriate directory when the addon\
+  \ is installed\r\n- Using SA-MP with Non Staging versions of Wine will not show\
+  \ you the health bars and names of the other players\r\n\r\nMore informations about\
+  \ SA-MP Addon 2.3 and on how to downgrade GTA San Andreas to version 1.0.0 can be\
+  \ found on the web.\r\n\r\nEnjoy!"
+created_at: '2018-06-13T20:53:04.857000Z'
+updated_at: '2019-05-08T09:11:53.284114Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $SAMP
+      prefix: $GAMEDIR
+      description: Installing SA:MP...
+      name: wineexec
+  - task:
+      executable: $SAMP_update
+      prefix: $GAMEDIR
+      description: Patching SA:MP...
+      name: wineexec
+  files:
+  - SAMP: http://files.sa-mp.com/sa-mp-0.3.7-R3-1-install.exe
+  - SAMP_update: http://www.gta-samp.com/SAMP_Addon_2.3_Setup.exe
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/Rockstar Games/GTA San Andreas/samp.exe
+    arch: win32

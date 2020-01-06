@@ -1,0 +1,42 @@
+id: 17317
+game_id: 30714
+game_slug: winter-worm-summer-grass
+name: Winter Worm, Summer Grass
+year: 2018
+user: kimchitea
+runner: wine
+slug: winter-worm-summer-grass-steam
+version: Steam
+description: null
+notes: "Uses Steam game data as installed with SteamPlay, since the game doesn't run\
+  \ with SteamPlay.\r\n\r\nSave/load functions don't work and settings menu cannot\
+  \ be exited except by quitting the game."
+created_at: '2019-12-13T10:48:34.897000Z'
+updated_at: '2019-12-22T11:25:25.159360Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Winter Worm Summer Grass.exe
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/Winter Worm Summer Grass.exe
+    arch: win64
+  installer:
+  - merge:
+      src: steam-data
+      dst: $GAMEDIR
+  - task:
+      prefix: $GAMEDIR
+      app: ddr=gdi
+      silent: true
+      name: winetricks
+  wine:
+    version: 3.0-x86_64
+  files:
+  - steam-data: $STEAM:1194870:/

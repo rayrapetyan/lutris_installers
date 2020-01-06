@@ -1,0 +1,32 @@
+id: 4936
+game_id: 7488
+game_slug: lift-it
+name: Lift It
+year: null
+user: FakeShemp
+runner: wine
+slug: lift-it-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-08T21:09:45.641782Z'
+updated_at: '2018-05-19T03:41:55.769913Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 402220
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Lift It
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Lift It/Lift It Alpha Demo 0.12.exe
+    arch: win32

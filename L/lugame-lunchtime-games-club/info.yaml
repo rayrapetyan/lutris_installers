@@ -1,0 +1,15 @@
+name: 'LuGame: Lunchtime Games Club!'
+slug: lugame-lunchtime-games-club
+year: 2019
+platforms:
+- name: Linux
+genres:
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/lugame-lunchtime-games-club.jpg
+icon_url: /games/icon/lugame-lunchtime-games-club.png
+is_public: false
+updated: '2019-11-06T03:14:59.335878Z'
+steamid: 812840
+gogslug: ''
+humblestoreid: ''

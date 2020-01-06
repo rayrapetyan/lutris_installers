@@ -1,0 +1,24 @@
+id: 330
+game_id: 368
+game_slug: alien-swarm
+name: Alien Swarm
+year: 2010
+user: frenchkiss
+runner: winesteam
+slug: alien-swarm-steam-for-windows
+version: steam-for-windows
+description: ''
+notes: ''
+created_at: '2013-12-25T19:25:55.441000Z'
+updated_at: '2017-03-16T02:19:42.296531Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: 630
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 630

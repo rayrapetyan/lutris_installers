@@ -1,0 +1,15 @@
+name: Aliens vs. Predator
+slug: aliens-vs-predator
+year: 2010
+platforms:
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/aliens-vs-predator.jpg
+icon_url: /games/icon/aliens-vs-predator.png
+is_public: true
+updated: '2019-01-23T08:28:18.964659Z'
+steamid: 10680
+gogslug: ''
+humblestoreid: ''

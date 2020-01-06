@@ -1,0 +1,17 @@
+name: Fallout 4
+slug: fallout-4
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Exploration
+- name: RPG
+aliases: []
+banner_url: /games/banner/fallout-4.jpg
+icon_url: /games/icon/fallout-4.png
+is_public: true
+updated: '2019-01-23T08:29:28.097148Z'
+steamid: 377160
+gogslug: ''
+humblestoreid: ''

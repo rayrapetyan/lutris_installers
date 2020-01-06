@@ -1,0 +1,17 @@
+name: A Hat in Time
+slug: a-hat-in-time
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Platform
+aliases: []
+banner_url: /games/banner/a-hat-in-time.jpg
+icon_url: /games/icon/a-hat-in-time.png
+is_public: true
+updated: '2019-05-12T03:14:17.205916Z'
+steamid: 253230
+gogslug: a_hat_in_time
+humblestoreid: ''

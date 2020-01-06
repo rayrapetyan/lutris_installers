@@ -1,0 +1,21 @@
+name: 'Toy Story 2: Buzz Lightyear to the Rescue!'
+slug: toy-story-2-buzz-lightyear-to-the-rescue
+year: 1999
+platforms:
+- name: Nintendo 64
+- name: Nintendo Game Boy Color
+- name: Sega Dreamcast
+- name: Sony PlayStation
+- name: Sony PSP
+- name: Windows
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/toy-story-2-buzz-lightyear-to-the-rescue.jpg
+icon_url: null
+is_public: true
+updated: '2019-11-04T02:34:39.309787Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

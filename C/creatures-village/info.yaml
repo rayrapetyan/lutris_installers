@@ -1,0 +1,17 @@
+name: Creatures Village
+slug: creatures-village
+year: 2001
+platforms:
+- name: Windows
+genres:
+- name: Educational
+- name: Simulation
+- name: Virtual life
+aliases: []
+banner_url: /games/banner/creatures-village.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:00.425087Z'
+steamid: null
+gogslug: creatures_village
+humblestoreid: ''

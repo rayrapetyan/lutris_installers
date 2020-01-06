@@ -1,0 +1,32 @@
+id: 5107
+game_id: 7964
+game_slug: fractal-space
+name: Fractal Space
+year: null
+user: FakeShemp
+runner: wine
+slug: fractal-space-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-20T10:57:52.101530Z'
+updated_at: '2018-05-19T03:41:56.893799Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 435410
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Fractal Space
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Fractal Space/Fractal Space.exe
+    arch: win32

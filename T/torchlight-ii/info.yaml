@@ -1,0 +1,17 @@
+name: Torchlight II
+slug: torchlight-ii
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/torchlight-ii.jpg
+icon_url: /games/icon/torchlight-ii.png
+is_public: true
+updated: '2019-01-23T08:31:53.430843Z'
+steamid: 200710
+gogslug: torchlight_ii
+humblestoreid: ''

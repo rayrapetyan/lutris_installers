@@ -1,0 +1,16 @@
+name: Europe Racing
+slug: europe-racing
+year: 2001
+platforms:
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/europe-racing.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:25.847267Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

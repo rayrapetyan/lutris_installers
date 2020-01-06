@@ -1,0 +1,32 @@
+id: 4224
+game_id: 1965
+game_slug: the-yawhg
+name: The Yawhg
+year: null
+user: FakeShemp
+runner: wine
+slug: the-yawhg-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-08T17:56:27.243003Z'
+updated_at: '2018-05-19T03:41:50.117705Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 269030
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/The Yawhg
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/The Yawhg/The Yawhg.exe
+    arch: win32

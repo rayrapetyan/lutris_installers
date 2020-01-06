@@ -1,0 +1,17 @@
+name: Pilgrims
+slug: pilgrims
+year: 2019
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Comedy
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/pilgrims.jpg
+icon_url: /games/icon/pilgrims.png
+is_public: true
+updated: '2019-10-16T04:27:13.885727Z'
+steamid: 1049280
+gogslug: pilgrims
+humblestoreid: ''

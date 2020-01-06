@@ -1,0 +1,17 @@
+name: "STAR WARS\u2122: X-Wing Special Edition"
+slug: star-warstm-x-wing-special-edition
+year: 1994
+platforms:
+- name: Linux
+genres:
+- name: Action
+aliases:
+- slug: star-wars-x-wing-special-edition
+  name: "STAR WARS\xAE: X-Wing Special Edition"
+banner_url: /games/banner/star-warstm-x-wing-special-edition.jpg
+icon_url: /games/icon/star-warstm-x-wing-special-edition.png
+is_public: true
+updated: '2019-03-30T01:52:37.695496Z'
+steamid: 354430
+gogslug: star_wars_xwing_special_edition
+humblestoreid: ''

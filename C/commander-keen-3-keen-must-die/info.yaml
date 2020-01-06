@@ -1,0 +1,16 @@
+name: 'Commander Keen 3: Keen Must Die!'
+slug: commander-keen-3-keen-must-die
+year: 1990
+platforms:
+- name: MS-DOS
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/commander-keen-3-keen-must-die.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-27T06:04:32.113399Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

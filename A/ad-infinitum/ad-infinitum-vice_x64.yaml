@@ -1,0 +1,31 @@
+id: 8584
+game_id: 19156
+game_slug: ad-infinitum
+name: Ad Infinitum
+year: 1984
+user: MrCoolSpan
+runner: libretro
+slug: ad-infinitum-vice_x64
+version: vice_x64
+description: null
+notes: ''
+created_at: '2018-06-08T08:32:01.966000Z'
+updated_at: '2018-06-08T15:59:22.645974Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the game disk
+  game:
+    core: vice_x64
+    main_file: file1

@@ -1,0 +1,16 @@
+name: Sanitarium
+slug: sanitarium
+year: 1998
+platforms:
+- name: Windows
+genres:
+- name: Horror
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/sanitarium.jpg
+icon_url: /games/icon/sanitarium.png
+is_public: true
+updated: '2019-05-19T07:09:30.232558Z'
+steamid: 284050
+gogslug: sanitarium
+humblestoreid: ''

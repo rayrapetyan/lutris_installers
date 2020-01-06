@@ -1,0 +1,24 @@
+id: 7235
+game_id: 16352
+game_slug: avernum-3-ruined-world
+name: 'Avernum 3: Ruined World'
+year: 2018
+user: kimchitea
+runner: winesteam
+slug: avernum-3-ruined-world-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-02-04T23:19:14.528015Z'
+updated_at: '2018-02-06T06:25:14.036296Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 691830
+gogid: 1733684424
+gogslug: avernum_3_ruined_world
+humblestoreid: ''
+script:
+  game:
+    appid: 691830

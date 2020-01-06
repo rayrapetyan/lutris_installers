@@ -1,0 +1,46 @@
+id: 15434
+game_id: 24391
+game_slug: rollcage
+name: Rollcage
+year: 1999
+user: Heehaaw
+runner: wine
+slug: rollcage-win32
+version: win32
+description: "- Get the installation files at https://www.myabandonware.com/game/rollcage-9zl\
+  \ (or wherever else)\r\n- Mount the it with cdemu\r\n- Run this installer\r\n- Select\
+  \ the 'Full' installation option when prompted by the installer."
+notes: ''
+created_at: '2019-09-09T20:23:14.279000Z'
+updated_at: '2019-10-29T01:08:23.750170Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: SETUP.EXE
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - execute:
+      command: rm -f "$GAMEDIR/dosdevices/d:"
+  - copy:
+      src: $DISC/
+      dst: $GAMEDIR/dosdevices/d:/
+  - task:
+      executable: $GAMEDIR/dosdevices/d:/SETUP.EXE
+      prefix: $GAMEDIR
+      name: wineexec
+  wine:
+    Desktop: true
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Psygnosis/Rollcage/RollCage.exe
+    arch: win32

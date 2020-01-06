@@ -1,0 +1,32 @@
+id: 16295
+game_id: 29096
+game_slug: scarface-the-world-is-yours
+name: 'Scarface: The World Is Yours'
+year: 2006
+user: macowlad
+runner: wine
+slug: scarface-the-world-is-yours-40
+version: '4.0'
+description: null
+notes: ''
+created_at: '2019-10-19T20:45:33.938000Z'
+updated_at: '2019-10-21T03:58:54.182387Z'
+draft: true
+published: false
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: data1.cab
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  wine:
+    WineDesktop: 1280x800
+    Desktop: true

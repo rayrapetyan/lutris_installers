@@ -1,0 +1,16 @@
+name: Terasology
+slug: terasology
+year: null
+platforms:
+- name: Linux
+genres:
+- name: Sandbox
+- name: Survival
+aliases: []
+banner_url: /games/banner/terasology.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:37.213388Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

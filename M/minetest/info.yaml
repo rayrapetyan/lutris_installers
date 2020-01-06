@@ -1,0 +1,15 @@
+name: Minetest
+slug: minetest
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Sandbox
+aliases: []
+banner_url: /games/banner/minetest.jpg
+icon_url: /games/icon/minetest.png
+is_public: true
+updated: '2019-05-27T04:31:10.718772Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

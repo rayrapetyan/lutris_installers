@@ -1,0 +1,139 @@
+id: 16613
+game_id: 2424
+game_slug: league-of-legends
+name: League of Legends
+year: 2009
+user: potatoria
+runner: wine
+slug: league-of-legends-league-of-legends-vs
+version: league-of-legends-vsyscall32-kr
+description: LoL with vsyscall32 override and d9vk for Korean
+notes: ''
+created_at: '2019-11-04T15:36:27.831000Z'
+updated_at: '2019-12-23T20:01:42.818035Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 20590
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - input_menu:
+      options:
+      - ko_KR: Korean
+      description: 'Choose the game''s language:'
+      id: LOCALE
+      preselect: ko_KR
+  - input_menu:
+      options:
+      - KR: South Korea
+      description: 'Choose the game''s server region:'
+      id: REGION
+      preselect: KR
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: d3dcompiler_43 d3dx9
+      arch: win32
+      name: winetricks
+  - task:
+      executable: lol_installer
+      prefix: $GAMEDIR
+      description: Installing League of Legends
+      arch: win32
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: winekill
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      key: GrabFullScreen
+      value: Y
+      path: HKEY_CURRENT_USER\Software\Wine\X11 Driver
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      key: UseXVidMode
+      value: N
+      path: HKEY_CURRENT_USER\Software\Wine\X11 Driver
+      name: set_regedit
+  - write_file:
+      content:
+        install:
+          globals:
+            locale: $INPUT_LOCALE
+            region: $INPUT_REGION
+      file: $GAMEDIR/drive_c/Riot Games/League of Legends/Config/LeagueClientSettings.yaml
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: winekill
+  - write_file:
+      content: "#!/usr/bin/env sh\n\n# If abi.vsyscall32=0 is already set, no need\
+        \ to do anything\nif [ \"$(cat /proc/sys/abi/vsyscall32)\" -eq 0 ]; then\n\
+        \    exit 0\nfi\n\ndialog() {\n    zenity \"$@\" --icon-name='lutris' --width=\"\
+        400\" --title=\"League of Legends anticheat compatibility check\"\n}\n\nfinal_check()\
+        \ {\n    if [ \"$(cat /proc/sys/abi/vsyscall32)\" -ne 0 ]; then\n        dialog\
+        \ --warning --text=\"As far as this script can detect, your system is not\
+        \ configured to work with League's anticheat. Please verify that you can get\
+        \ into the practice too before playing a multiplayer game.\"\n    fi\n}\n\n\
+        trap final_check EXIT\n\nif grep -E -x -q \"abi.vsyscall32( )?=( )?0\" /etc/sysctl.conf;\
+        \ then\n    if dialog --question --text=\"It looks like you already configured\
+        \ your system to work with League anticheat, and saved the setting to persist\
+        \ across reboots. However, for some reason the persistence part did not work.\\\
+        n\\nFor now, would you like to enable the setting again until the next reboot?\"\
+        \n    then\n        pkexec sh -c 'sysctl -w abi.vsyscall32=0'\n    fi\n  \
+        \  exit 0\nfi\n\nonce=\"Change setting until next reboot\"\npersist=\"Change\
+        \ setting and persist after reboot\"\nmanual=\"Show me the commands; I'll\
+        \ handle it myself\"\n\nif dialog --question --text=\"League of Legends' anticheat\
+        \ requires using a modified version of wine and changing a system setting.\
+        \ Otherwise, the game will crash after champion select. Wine-lol comes with\
+        \ the Lutris installer, but as far as this script can detect, the setting\
+        \ has not been changed yet.\\nNote: The setting (abi.vsyscall32=0) may reduce\
+        \ the performance of some 32 bit applications.\\n\\nWould you like to change\
+        \ the setting now?\"\nthen\n    # I tried to embed the command in the dialog\
+        \ and run the output, but\n    # parsing variables with embedded quotes is\
+        \ an excercise in frustration.\n    RESULT=$(dialog --list --radiolist --height=\"\
+        200\" \\\n        --column=\"\" --column=\"Command\" \\\n        \"TRUE\"\
+        \ \"$once\" \\\n        \"FALSE\" \"$persist\" \\\n        \"FALSE\" \"$manual\"\
+        )\n\n    case \"$RESULT\" in\n        \"$once\")\n            pkexec sh -c\
+        \ 'sysctl -w abi.vsyscall32=0'\n            ;;\n        \"$persist\")\n  \
+        \          pkexec sh -c 'echo \"abi.vsyscall32 = 0\" >> /etc/sysctl.conf &&\
+        \ sysctl -p'\n            ;;\n        \"$manual\")\n            dialog --info\
+        \ --no-wrap --text=\"To change the setting (a kernel parameter) until next\
+        \ boot, run:\\n\\nsudo sh -c 'sysctl -w abi.vsyscall32=0'\\n\\nTo persist\
+        \ the setting between reboots, run:\\n\\nsudo sh -c 'echo \\\"abi.vsyscall32\
+        \ = 0\\\" >> /etc/sysctl.conf &amp;&amp; sysctl -p'\"\n            # Anyone\
+        \ who wants to do it manually doesn't need another warning\n            trap\
+        \ - EXIT\n            ;;\n        *)\n            echo \"Dialog canceled or\
+        \ unknown option selected: $RESULT\"\n            ;;\n    esac\nfi\n"
+      file: $GAMEDIR/syscall_check.sh
+  - chmodx: $GAMEDIR/syscall_check.sh
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Riot Games/League of Legends/LeagueClient.exe
+  system:
+    disable_compositor: true
+    env:
+      DXVK_LOG_LEVEL: none
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+      __GL_SHADER_DISK_CACHE: 1
+      WINE_LARGE_ADDRESS_AWARE: 1
+    prelaunch_command: $GAMEDIR/syscall_check.sh
+  wine:
+    version: lutris-lol-4.20-x86_64
+    MouseWarpOverride: enable
+    d9vk: true
+  files:
+  - lol_installer: https://riotgamespatcher-a.akamaihd.net/KR_CBT/installer/deploy/League%20of%20Legends%20installer%20KR.exe

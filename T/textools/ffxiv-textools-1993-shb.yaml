@@ -1,0 +1,46 @@
+id: 12135
+game_id: 25975
+game_slug: textools
+name: FFXIV TexTools
+year: 2017
+user: shinnova
+runner: wine
+slug: ffxiv-textools-1993-shb
+version: 1.9.9.3 - ShB
+description: Installer for FFXIV TexTools2
+notes: ''
+created_at: '2019-02-23T00:40:11.830000Z'
+updated_at: '2019-09-09T00:08:03.583746Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files (x86)/FFXIV TexTools2/FFXIV TexTools 2.exe
+    arch: win64
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .NET 4.5.2
+      app: dotnet452
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: win7
+      arch: win64
+      name: winetricks
+  - extract:
+      description: Installing TexTools
+      dst: $GAMEDIR/drive_c/Program Files (x86)/FFXIV TexTools2/
+      file: tool_archive
+  wine:
+    version: tkg-4.5-x86_64
+  files:
+  - tool_archive: https://github.com/Lunaretic/FFXIV_TexTools2/releases/download/1.9.9.3-Shb-v5/TexTools.2.-.1.9.9.3.-.ShB.Patch.v5.zip

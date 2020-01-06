@@ -1,0 +1,43 @@
+id: 11482
+game_id: 11
+game_slug: star-wars-jedi-knight-ii-jedi-outcast
+name: 'Star Wars Jedi Knight II: Jedi Outcast'
+year: 2002
+user: Boern
+runner: linux
+slug: star-wars-jedi-knight-ii-jedi-cd
+version: CD
+description: Installer is using the xLava JKII engine port and requires the original
+  retail CDs.
+notes: If you have multiple monitors you should restrict the game to one of them.
+created_at: '2019-01-06T20:09:27.308000Z'
+updated_at: '2019-01-22T07:57:02.796358Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 6030
+gogid: 1428935917
+gogslug: star_wars_jedi_knight_ii_jedi_outcast
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: GameData/GameData/jk2sp.exe
+  - merge:
+      src: $DISC/GameData/GameData
+      dst: $GAMEDIR
+  - move:
+      src: patch-1.04-file1
+      dst: $GAMEDIR/base
+  - move:
+      src: patch-1.04-file2
+      dst: $GAMEDIR/base
+  - extract:
+      file: jedi-outcast-bin
+  files:
+  - jedi-outcast-bin: https://lutris.net/files/games/jedi-outcast/jedi-outcast-i386.tar.gz
+  - patch-1.04-file1: https://github.com/emileb/OpenGames/raw/master/jk2/src/main/assets/assets2.pk3
+  - patch-1.04-file2: https://github.com/emileb/OpenGames/raw/master/jk2/src/main/assets/assets5.pk3
+  game:
+    exe: jk2sp

@@ -1,0 +1,16 @@
+name: 'Lost Lands: Mahjong'
+slug: lost-lands-mahjong
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Casual
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/lost-lands-mahjong.jpg
+icon_url: /games/icon/lost-lands-mahjong.png
+is_public: true
+updated: '2019-04-30T03:50:21.999283Z'
+steamid: 435030
+gogslug: ''
+humblestoreid: ''

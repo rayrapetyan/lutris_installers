@@ -1,0 +1,23 @@
+id: 13431
+game_id: 15
+game_slug: minecraft
+name: Minecraft
+year: 2011
+user: TuiorGames
+runner: browser
+slug: minecraft-minecraft-classic
+version: Minecraft Classic
+description: null
+notes: ''
+created_at: '2019-05-09T22:23:36.813483Z'
+updated_at: '2019-05-18T08:32:01.565611Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://classic.minecraft.net

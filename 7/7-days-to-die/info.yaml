@@ -1,0 +1,17 @@
+name: 7 Days to Die
+slug: 7-days-to-die
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: FPS
+- name: RPG
+- name: Survival
+aliases: []
+banner_url: /games/banner/7-days-to-die.jpg
+icon_url: /games/icon/7-days-to-die.png
+is_public: true
+updated: '2019-05-23T21:13:22.641890Z'
+steamid: 251570
+gogslug: ''
+humblestoreid: ''

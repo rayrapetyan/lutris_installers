@@ -1,0 +1,31 @@
+id: 3729
+game_id: 7673
+game_slug: oxenfree
+name: Oxenfree
+year: 2016
+user: FakeShemp
+runner: linux
+slug: oxenfree-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-18T09:23:35.070479Z'
+updated_at: '2017-05-18T18:30:11.873717Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 388880
+gogid: 1457519353
+gogslug: oxenfree
+humblestoreid: ''
+script:
+  exe: Oxenfree.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Oxenfree.x86
+  - chmodx: $GAMEDIR/Oxenfree.x86_64
+  exe64: Oxenfree.x86_64
+  files:
+  - file1: N/A:Please select the Humble archive

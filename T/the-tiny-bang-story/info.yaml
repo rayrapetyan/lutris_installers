@@ -1,0 +1,17 @@
+name: The Tiny Bang Story
+slug: the-tiny-bang-story
+year: 2011
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Casual
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/the-tiny-bang-story.jpg
+icon_url: /games/icon/the-tiny-bang-story.png
+is_public: true
+updated: '2019-01-23T08:31:48.053934Z'
+steamid: 96000
+gogslug: the_tiny_bang_story
+humblestoreid: ''

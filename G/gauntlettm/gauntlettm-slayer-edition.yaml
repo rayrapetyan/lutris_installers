@@ -1,0 +1,33 @@
+id: 9089
+game_id: 3122
+game_slug: gauntlettm
+name: "Gauntlet\u2122 "
+year: null
+user: Maxattax
+runner: winesteam
+slug: gauntlettm-slayer-edition
+version: Slayer Edition
+description: null
+notes: ''
+created_at: '2018-07-08T21:42:40.443000Z'
+updated_at: '2018-07-09T04:00:44.736805Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 258970
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: allfonts
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 258970

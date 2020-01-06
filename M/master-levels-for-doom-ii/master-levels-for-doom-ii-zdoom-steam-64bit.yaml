@@ -1,0 +1,37 @@
+id: 390
+game_id: 123
+game_slug: master-levels-for-doom-ii
+name: Master Levels for DOOM II
+year: 1995
+user: strider
+runner: linux
+slug: master-levels-for-doom-ii-zdoom-steam-64bit
+version: zdoom + steam (64bit)
+description: ''
+notes: ''
+created_at: '2014-01-19T17:34:05.259000Z'
+updated_at: '2015-12-28T23:03:57.413819Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 9160
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: zdoom
+  installer:
+  - merge:
+      src: doom2-wad
+      dst: $GAMEDIR
+  - merge:
+      src: master-wads
+      dst: $GAMEDIR
+  - extract:
+      dst: $GAMEDIR
+      file: zdoom64
+  files:
+  - doom2-wad: $STEAM:9160:doom2/DOOM2.WAD
+  - master-wads: $STEAM:9160:master/wads
+  - zdoom64: https://lutris.net/files/games/zdoom/zdoom-2.8pre-1887-g1070bd9-x86_64.tar.gz

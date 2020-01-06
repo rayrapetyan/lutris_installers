@@ -1,0 +1,28 @@
+id: 6522
+game_id: 15010
+game_slug: liar-liar
+name: Liar Liar
+year: 2016
+user: FakeShemp
+runner: linux
+slug: liar-liar-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2017-12-01T22:04:57.793181Z'
+updated_at: '2017-12-01T22:05:30.816838Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: liar liar.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

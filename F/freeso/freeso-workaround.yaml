@@ -1,0 +1,72 @@
+id: 5165
+game_id: 12352
+game_slug: freeso
+name: FreeSO
+year: 2017
+user: bacera
+runner: wine
+slug: freeso-workaround
+version: Workaround
+description: A (buggy) manual installation, avoiding the need to use the non-runnable
+  FreeSO launcher. Expect to relog often, with the occasional crash.
+notes: "http://forum.freeso.org/threads/freeso-on-linux-using-wine.3007/#post-26639\r\
+  \n\r\nCurrently uses a pomf.cat mirror of http://servo.freeso.org/repository/download/FreeSO_TsoClient/673:id/client-515.zip,\
+  \ as that link requires a browser to be downloaded. This is not a permanent solution\
+  \ and should be fixed later. The version downloaded should not matter as it is updated\
+  \ when run anyway."
+created_at: '2017-07-23T00:05:43.431000Z'
+updated_at: '2017-07-26T07:16:15.143735Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .NET 4.5, this could take a while...
+      app: dotnet45
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing WinINet
+      app: wininet
+      name: winetricks
+  - task:
+      executable: $tsosetup
+      prefix: $GAMEDIR
+      description: 'Running The Sims Online installer.
+
+        Accept the license, leave the default installation directory. You can uncheck
+        the desktop shortcut option.
+
+        When the installation bar is full and says Installation Complete, press cancel,
+        then yes, then no. Close the now frozen installation window.'
+      name: wineexec
+  - extract:
+      dst: $GAMEDIR/drive_c/FreeSO
+      file: $freesoclient
+  - task:
+      executable: $GAMEDIR/drive_c/FreeSO/FreeSO.exe
+      prefix: $GAMEDIR
+      description: Running FreeSO. Log in to your account. It will ask you to download
+        an update. Let it update, and close the window when you get an error that
+        says Waiting for Content/...
+      name: wineexec
+  - extract:
+      dst: $GAMEDIR/drive_c/FreeSO/
+      file: $GAMEDIR/drive_c/FreeSO/PatchFiles/patch.zip
+  files:
+  - tsosetup: http://largedownloads.ea.com/pub/misc/tso/Setup%20The%20Sims%20Online.exe
+  - freesoclient: http://a.pomf.cat/xyidmg.zip
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/FreeSO/FreeSO.exe

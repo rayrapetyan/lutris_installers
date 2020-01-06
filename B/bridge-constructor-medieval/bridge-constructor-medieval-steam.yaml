@@ -1,0 +1,24 @@
+id: 1028
+game_id: 3003
+game_slug: bridge-constructor-medieval
+name: Bridge Constructor Medieval
+year: null
+user: Xodetaetl
+runner: steam
+slug: bridge-constructor-medieval-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-11-10T10:10:03.485000Z'
+updated_at: '2014-11-10T10:10:07.890000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 319850
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 319850

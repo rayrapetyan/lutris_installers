@@ -1,0 +1,17 @@
+name: 'Wing Commander IV: The Price Of Freedom'
+slug: wing-commander-iv-the-price-of-freedom
+year: 1996
+platforms:
+- name: MS-DOS
+genres:
+- name: Action
+- name: Space flight
+- name: Space simulation
+aliases: []
+banner_url: /games/banner/wing-commander-iv-the-price-of-freedom.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:08.990232Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

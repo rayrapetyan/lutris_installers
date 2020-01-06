@@ -1,0 +1,29 @@
+id: 5294
+game_id: 1521
+game_slug: singularity
+name: Singularity
+year: 2010
+user: codythedragondude
+runner: winesteam
+slug: singularity-steam
+version: Steam
+description: null
+notes: "Might crash after install just close steam and relaunch the game.\r\n\r\n\
+  You need to do the following to change the resolution right-click the game in your\
+  \ Lutris library, click on wine registry, and navigate to:\r\n\r\nHKEY_CURRENT_USER\\\
+  Software\\Activision\\Singularity\r\n\r\nSet resx to your horizontal resolution\
+  \ (must be in decimal mode!)\r\nSet resy to your vertical resolution (again must\
+  \ be in decimal mode)"
+created_at: '2017-08-07T06:07:07.204000Z'
+updated_at: '2019-11-18T03:58:29.927255Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 42670
+gogid: 1207659239
+gogslug: singularity
+humblestoreid: ''
+script:
+  game:
+    appid: 42670

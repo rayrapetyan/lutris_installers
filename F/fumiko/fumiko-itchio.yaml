@@ -1,0 +1,29 @@
+id: 6768
+game_id: 10201
+game_slug: fumiko
+name: Fumiko!
+year: 2017
+user: FakeShemp
+runner: linux
+slug: fumiko-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2017-12-23T00:10:24.507000Z'
+updated_at: '2019-10-30T21:58:18.533433Z'
+draft: false
+published: true
+published_by: 1465
+rating: '5'
+steamid: 563810
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: fumikothegame.x86
+  installer:
+  - extract:
+      file: $file1
+  exe64: fumikothegame.x86_64
+  files:
+  - file1: N/A:Please select the itch.io archive

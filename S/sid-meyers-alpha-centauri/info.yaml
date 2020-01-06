@@ -1,0 +1,17 @@
+name: Sid Meier's Alpha Centauri
+slug: sid-meyers-alpha-centauri
+year: 1999
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: 4X
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/sid-meyers-alpha-centauri.jpg
+icon_url: /games/icon/sid-meyers-alpha-centauri.png
+is_public: true
+updated: '2019-01-23T08:31:13.063998Z'
+steamid: null
+gogslug: sid_meiers_alpha_centauri
+humblestoreid: ''

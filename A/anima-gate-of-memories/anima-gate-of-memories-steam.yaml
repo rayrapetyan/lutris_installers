@@ -1,0 +1,24 @@
+id: 3414
+game_id: 9137
+game_slug: anima-gate-of-memories
+name: Anima Gate of Memories
+year: 2016
+user: liberodark
+runner: steam
+slug: anima-gate-of-memories-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-04-01T02:48:13.934445Z'
+updated_at: '2017-04-06T19:49:34.344748Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 380750
+gogid: 1183022406
+gogslug: anima_gate_of_memories
+humblestoreid: ''
+script:
+  game:
+    appid: 380750

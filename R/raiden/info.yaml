@@ -1,0 +1,21 @@
+name: Raiden
+slug: raiden
+year: 1990
+platforms:
+- name: Arcade
+- name: Atari Jaguar
+- name: MS-DOS
+- name: Sega Genesis / Mega Drive
+- name: Super Nintendo
+- name: TurboGrafx-16
+- name: TurboGrafx CD
+genres:
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/raiden.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-17T04:36:01.958940Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

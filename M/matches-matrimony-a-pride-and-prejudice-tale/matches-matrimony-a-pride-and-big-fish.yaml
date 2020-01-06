@@ -1,0 +1,38 @@
+id: 9257
+game_id: 19992
+game_slug: matches-matrimony-a-pride-and-prejudice-tale
+name: 'Matches & Matrimony: A Pride and Prejudice Tale'
+year: 2011
+user: kimchitea
+runner: linux
+slug: matches-matrimony-a-pride-and-big-fish
+version: Big Fish
+description: null
+notes: "Uses the Ren'Py SDK to run the Big Fish version of the game https://www.bigfishgames.com/games/6170/matches-matrimony-a-pride-and-prejudice-tale/\
+  \ natively in Linux.\r\nInstall the game using the Big Fish Games App https://lutris.net/games/big-fish-games-app/\
+  \ before running this installer."
+created_at: '2018-07-17T17:59:25.463000Z'
+updated_at: '2018-07-18T04:14:02.460401Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: big-fish-games-app
+  installer:
+  - extract:
+      dst: $GAMEDIR/renpy-6.11.2
+      file: $file1
+  - merge:
+      src: $GAMEDIR/drive_c/Program Files/Matches and Matrimony - A Pride and Prejudice
+        Tale
+      dst: $GAMEDIR/renpy-6.11.2/matches
+  files:
+  - file1: https://www.renpy.org/dl/6.11.2/renpy-6.11.2-sdk.tar.bz2
+  game:
+    args: matches
+    exe: $GAMEDIR/renpy-6.11.2/renpy.sh

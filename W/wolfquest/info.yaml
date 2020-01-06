@@ -1,0 +1,17 @@
+name: WolfQuest
+slug: wolfquest
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Life simulation
+- name: Open World
+- name: Survival
+aliases: []
+banner_url: /games/banner/wolfquest.jpg
+icon_url: /games/icon/wolfquest.png
+is_public: true
+updated: '2019-07-23T03:46:11.576689Z'
+steamid: 431180
+gogslug: ''
+humblestoreid: ''

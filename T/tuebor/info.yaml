@@ -1,0 +1,17 @@
+name: Tuebor
+slug: tuebor
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Moba
+- name: RPG
+aliases: []
+banner_url: /games/banner/tuebor.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:56.941735Z'
+steamid: 521330
+gogslug: ''
+humblestoreid: ''

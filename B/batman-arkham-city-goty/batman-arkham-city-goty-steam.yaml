@@ -1,0 +1,38 @@
+id: 1866
+game_id: 270
+game_slug: batman-arkham-city-goty
+name: 'Batman: Arkham City GOTY'
+year: 2012
+user: WildCoder
+runner: winesteam
+slug: batman-arkham-city-goty-steam
+version: Steam
+description: null
+notes: Thanks to this pr https://github.com/simons-public/protonfixes/pull/68
+created_at: '2016-01-13T23:16:04.059000Z'
+updated_at: '2019-01-12T03:46:39.484860Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 200260
+gogid: null
+gogslug: ''
+humblestoreid: batman-arkham-city-goty-edition
+script:
+  winesteam:
+    x360ce-path: $GAMEDIR/Binaries/Win32
+    dumbxinputemu: true
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing various winetricks. This might take a while....
+      app: dotnet20 dotnet35 physx mdx d3dcompiler_43 d3dx9_43 win10
+      arch: win32
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 200260

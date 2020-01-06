@@ -1,0 +1,16 @@
+name: Supaplex
+slug: supaplex
+year: 1991
+platforms:
+- name: Amiga
+- name: MS-DOS
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/supaplex.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:29.457865Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

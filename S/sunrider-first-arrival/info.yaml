@@ -1,0 +1,15 @@
+name: 'Sunrider: Mask of Arcadius'
+slug: sunrider-first-arrival
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/sunrider-first-arrival.jpg
+icon_url: /games/icon/sunrider-first-arrival.png
+is_public: true
+updated: '2019-01-23T08:31:29.393036Z'
+steamid: 313730
+gogslug: ''
+humblestoreid: ''

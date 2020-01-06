@@ -1,0 +1,24 @@
+id: 109
+game_id: 130
+game_slug: half-life-2-episode-two
+name: 'Half-Life 2: Episode Two'
+year: 2007
+user: dennisjj4
+runner: steam
+slug: half-life-2-episode-two-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2013-12-17T18:14:31.831000Z'
+updated_at: '2013-12-17T23:39:51.221000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 420
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 420

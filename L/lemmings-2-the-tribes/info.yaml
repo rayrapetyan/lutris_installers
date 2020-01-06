@@ -1,0 +1,19 @@
+name: 'Lemmings 2: The Tribes'
+slug: lemmings-2-the-tribes
+year: 1993
+platforms:
+- name: Amiga
+- name: Game Boy
+- name: MS-DOS
+- name: Sega Genesis / Mega Drive
+- name: Super Nintendo
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/lemmings-2-the-tribes.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:09.892744Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

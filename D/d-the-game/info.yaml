@@ -1,0 +1,19 @@
+name: 'D: The Game'
+slug: d-the-game
+year: 1995
+platforms:
+- name: 3DO
+- name: MS-DOS
+- name: Windows
+genres:
+- name: Adventure
+- name: Horror
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/d-the-game.jpg
+icon_url: /games/icon/d-the-game.png
+is_public: true
+updated: '2019-09-25T11:20:18.356470Z'
+steamid: 510590
+gogslug: d_the_game
+humblestoreid: ''

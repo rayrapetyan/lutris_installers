@@ -1,0 +1,32 @@
+id: 7969
+game_id: 10255
+game_slug: astroneer
+name: ASTRONEER
+year: 2016
+user: lur
+runner: winesteam
+slug: astroneer-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2018-04-22T23:45:27.883000Z'
+updated_at: '2019-02-14T04:28:43.377595Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 361420
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    appid: 361420

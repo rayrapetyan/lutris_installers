@@ -1,0 +1,15 @@
+name: 'Counter-Strike: Condition Zero'
+slug: counter-strike-condition-zero
+year: 2004
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/counter-strike-condition-zero.jpg
+icon_url: /games/icon/counter-strike-condition-zero.png
+is_public: true
+updated: '2019-01-23T08:28:58.903227Z'
+steamid: 80
+gogslug: ''
+humblestoreid: ''

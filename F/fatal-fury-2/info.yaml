@@ -1,0 +1,18 @@
+name: Fatal Fury 2
+slug: fatal-fury-2
+year: 1993
+platforms:
+- name: Game Boy
+- name: Neo Geo
+- name: Sega Genesis / Mega Drive
+- name: Super Nintendo
+genres:
+- name: Beat'em up
+aliases: []
+banner_url: /games/banner/fatal-fury-2.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:29.224431Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

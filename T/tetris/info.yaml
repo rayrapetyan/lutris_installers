@@ -1,0 +1,15 @@
+name: Tetris
+slug: tetris
+year: 1989
+platforms:
+- name: Game Boy
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/tetris.jpg
+icon_url: null
+is_public: true
+updated: '2019-09-02T11:22:05.934904Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

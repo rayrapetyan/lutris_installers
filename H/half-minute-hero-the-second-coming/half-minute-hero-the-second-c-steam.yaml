@@ -1,0 +1,31 @@
+id: 9570
+game_id: 3938
+game_slug: half-minute-hero-the-second-coming
+name: 'Half Minute Hero: The Second Coming'
+year: null
+user: sunderkeenin
+runner: winesteam
+slug: half-minute-hero-the-second-c-steam
+version: Steam
+description: null
+notes: "The game was crashing without the virtual desktop, but didn't require any\
+  \ resolution changes that result in any inconveniences related to having a mismatched\
+  \ resolution in the virtual desktop.\r\n**game is extremely loud and has no volume\
+  \ sliders**"
+created_at: '2018-08-04T02:44:09.025254Z'
+updated_at: '2018-08-04T08:27:02.540211Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 240970
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-3.12-x86_64
+    WineDesktop: Keep current
+    Desktop: true
+  game:
+    appid: 240970

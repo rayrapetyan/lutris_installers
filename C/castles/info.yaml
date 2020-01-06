@@ -1,0 +1,17 @@
+name: Castles
+slug: castles
+year: 1991
+platforms:
+- name: Linux
+genres:
+- name: Building
+- name: Historical
+- name: Strategy
+aliases: []
+banner_url: /games/banner/castles.jpg
+icon_url: null
+is_public: true
+updated: '2019-02-19T04:46:26.431763Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

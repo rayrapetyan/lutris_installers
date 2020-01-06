@@ -1,0 +1,17 @@
+name: Thunder Blade
+slug: thunder-blade
+year: 1987
+platforms:
+- name: Arcade
+- name: Sega Genesis / Mega Drive
+- name: Sega Master System
+genres:
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/thunder-blade.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:49.977886Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,19 @@
+name: 'Dragon Lore: The Legend Begins'
+slug: dragon-lore-the-legend-begins
+year: 1994
+platforms:
+- name: 3DO
+- name: MS-DOS
+- name: Windows
+genres:
+- name: Adventure
+- name: Fantasy
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/dragon-lore-the-legend-begins.jpg
+icon_url: null
+is_public: true
+updated: '2019-03-01T19:15:15.107296Z'
+steamid: null
+gogslug: dragon_lore_the_legend_begins
+humblestoreid: ''

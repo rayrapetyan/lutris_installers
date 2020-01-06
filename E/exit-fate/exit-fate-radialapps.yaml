@@ -1,0 +1,28 @@
+id: 6962
+game_id: 15620
+game_slug: exit-fate
+name: Exit Fate
+year: 2009
+user: FakeShemp
+runner: linux
+slug: exit-fate-radialapps
+version: RadialApps
+description: 'Free download from: https://radialapps.com/linux/exitfate.html'
+notes: ''
+created_at: '2018-01-02T15:56:25.622520Z'
+updated_at: '2018-01-02T15:57:24.363603Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: exitfate
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the RadialApps archive

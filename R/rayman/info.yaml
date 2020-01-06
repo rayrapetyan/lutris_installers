@@ -1,0 +1,19 @@
+name: Rayman
+slug: rayman
+year: 1995
+platforms:
+- name: Atari Jaguar
+- name: MS-DOS
+- name: Nintendo Game Boy Advance
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/rayman.jpg
+icon_url: /games/icon/rayman.png
+is_public: true
+updated: '2019-10-25T00:09:23.667834Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

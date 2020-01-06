@@ -1,0 +1,65 @@
+id: 9248
+game_id: 4970
+game_slug: grey-goo
+name: Grey Goo
+year: 2015
+user: VortexAcherontic
+runner: winesteam
+slug: grey-goo-steam-w-dxvk
+version: Steam w/ DXVK
+description: Grey Goo Steam installer with DXVK support.
+notes: Further on there are only some performance issues, try to figure out how to
+  improve GPU performance.
+created_at: '2018-07-17T10:44:10.364000Z'
+updated_at: '2019-04-05T05:50:58.318169Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 290790
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Creating wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing Visual C++ 2010
+      app: vcrun2010
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing xact for solving sound issues
+      app: xact_x64
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Set Windows version to Windows 7
+      app: win7
+      arch: win64
+      name: winetricks
+  winesteam:
+    version: tkg-4.3-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      xaudio2_7: native,builtin
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR/prefix
+      DXVK_STATE_CACHE: 1
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+    pulse_latency: true
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 290790
+    arch: win64

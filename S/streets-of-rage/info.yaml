@@ -1,0 +1,18 @@
+name: Streets of Rage
+slug: streets-of-rage
+year: 1993
+platforms:
+- name: Sega Game Gear
+- name: Sega Genesis / Mega Drive
+- name: Sega Master System
+- name: Windows
+genres:
+- name: Beat'em up
+aliases: []
+banner_url: /games/banner/streets-of-rage.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:28.123409Z'
+steamid: 71164
+gogslug: ''
+humblestoreid: ''

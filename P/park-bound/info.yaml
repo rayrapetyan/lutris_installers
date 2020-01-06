@@ -1,0 +1,19 @@
+name: Park Bound
+slug: park-bound
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Casual
+- name: City building
+- name: Platform
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/park-bound.jpg
+icon_url: null
+is_public: true
+updated: '2019-12-29T18:47:19.754769Z'
+steamid: 611830
+gogslug: ''
+humblestoreid: ''

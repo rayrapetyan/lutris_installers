@@ -1,0 +1,29 @@
+id: 6238
+game_id: 10162
+game_slug: reflex-arena
+name: Reflex Arena
+year: null
+user: freddiaN
+runner: winesteam
+slug: reflex-arena-steam-winetricks
+version: steam + winetricks
+description: ''
+notes: ''
+created_at: '2017-11-05T14:50:46.922000Z'
+updated_at: '2017-11-14T20:29:45.266434Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 328070
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  task:
+    app: mscorefonts
+    name: winetricks
+  wine:
+    version: 2.10-i386
+  game:
+    appid: 328070

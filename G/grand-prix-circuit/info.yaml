@@ -1,0 +1,19 @@
+name: Grand Prix Circuit
+slug: grand-prix-circuit
+year: 1988
+platforms:
+- name: Amiga
+- name: Amstrad CPC 464
+- name: Commodore 64
+- name: MS-DOS
+- name: ZX Spectrum
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/grand-prix-circuit.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:42.247365Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

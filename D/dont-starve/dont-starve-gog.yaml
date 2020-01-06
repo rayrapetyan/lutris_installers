@@ -1,0 +1,34 @@
+id: 6572
+game_id: 480
+game_slug: dont-starve
+name: Don't Starve
+year: 2013
+user: Talvi
+runner: linux
+slug: dont-starve-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2017-12-09T23:23:37.919000Z'
+updated_at: '2019-10-21T04:16:50.781437Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 219740
+gogid: 1207659210
+gogslug: dont_starve
+humblestoreid: dont-starve
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

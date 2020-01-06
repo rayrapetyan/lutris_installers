@@ -1,0 +1,39 @@
+id: 5718
+game_id: 13889
+game_slug: ultrastar-creator
+name: UltraStar Creator
+year: null
+user: maxlefou
+runner: linux
+slug: ultrastar-creator-pre-compiled-git
+version: Pre-compiled git
+description: ''
+notes: ''
+created_at: '2017-09-12T11:25:14.215000Z'
+updated_at: '2017-09-14T05:17:09.455844Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: archive
+  - extract:
+      dst: $GAMEDIR/lib
+      file: lib1
+  - extract:
+      dst: $GAMEDIR/lib
+      file: lib2
+  files:
+  - archive: http://maxlefou33.free.fr/linux/usc.zip
+  - lib1: https://lutris.net/files/lib32/libcrypto.so.1.0.0.gz
+  - lib2: https://lutris.net/files/lib32/libssl.so.1.0.0.gz
+  game:
+    prefix: $GAMEDIR
+    exe: UltraStar-Creator

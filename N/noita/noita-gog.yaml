@@ -1,0 +1,40 @@
+id: 15942
+game_id: 29567
+game_slug: noita
+name: Noita
+year: 2019
+user: kaczus
+runner: wine
+slug: noita-gog
+version: GOG
+description: null
+notes: The game launch but crashes after the changelog. Show a few errors at the end
+  of the installation.
+created_at: '2019-10-03T18:18:17.435000Z'
+updated_at: '2019-10-27T06:54:25.311849Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 881100
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      description: Installing Noita
+      name: wineexec
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Noita/noita.exe
+    arch: win64

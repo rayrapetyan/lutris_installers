@@ -1,0 +1,65 @@
+id: 16189
+game_id: 9478
+game_slug: allods-online-mycom
+name: Allods Online
+year: 2010
+user: Gremgoll
+runner: wine
+slug: allods-online-dxvk-mycom-german
+version: DXVK (My.com German)
+description: This is the german installer of Allods [My.com Game Center].This Setup
+  makes use of DirectX 9 Vulkan Layer [D9VK] and runs with high fps.
+notes: "- Switched to legacy setup from 2019/08 (Otherwise Setup fails with OS not\
+  \ supported)\r\n- You can switch Language after Setup in Gamecenter\r\n- Everything\
+  \ works so far (even display of numbers / text in chat window)"
+created_at: '2019-10-14T09:54:43.030000Z'
+updated_at: '2019-12-23T19:22:36.289124Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: 459160
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 32bit Wine prefix.
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Install MS Core-Fonts with winetricks
+      app: corefonts
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Wine to Windows 7 32-Bit
+      app: win7
+      arch: win32
+      name: winetricks
+  - task:
+      executable: setup
+      description: 'Installing Allods My.Com
+
+        ------------------------------
+
+        Let Lutris installer finish first. Log in afterwards.'
+      exclude_processes: GameCenter.exe Launcher.exe
+      arch: win32
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/users/$USER/Local Settings/Application Data/GameCenter/GameCenter.exe
+    arch: win32
+  system:
+    env:
+      DXVK_HUD: gpuload
+    exclude_processes: GameCenter.exe Launcher.exe
+  wine:
+    dxvk: true
+  files:
+  - setup: https://gremgoll.de/files/AllodsdeLoader_de.exe

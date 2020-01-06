@@ -1,0 +1,29 @@
+id: 5459
+game_id: 3835
+game_slug: astro-emporia
+name: Astro Emporia
+year: null
+user: FakeShemp
+runner: linux
+slug: astro-emporia-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-21T20:00:48.883535Z'
+updated_at: '2017-08-27T21:54:43.138762Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 346080
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Astro Emporia.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Astro Emporia.x86
+  files:
+  - file1: N/A:Please select the Groupees archive

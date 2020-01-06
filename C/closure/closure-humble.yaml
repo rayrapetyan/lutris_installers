@@ -1,0 +1,130 @@
+id: 4428
+game_id: 291
+game_slug: closure
+name: Closure
+year: null
+user: FakeShemp
+runner: linux
+slug: closure-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-17T18:21:06.785000Z'
+updated_at: '2017-06-17T19:08:10.360724Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 72000
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Closure.bin.x86
+  installer:
+  - chmodx: $file1
+  - execute:
+      args: --tar -xf -C $CACHE
+      file: $file1
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/instarchive_linux_x86
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/instarchive_linux_x86_64
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/instarchive_all
+  - extract:
+      format: tar
+      dst: $GAMEDIR
+      file: $CACHE/instarchive_linux_x86~
+  - extract:
+      format: tar
+      dst: $GAMEDIR
+      file: $CACHE/instarchive_linux_x86_64~
+  - extract:
+      format: tar
+      dst: $GAMEDIR
+      file: $CACHE/instarchive_all~
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/subarch
+  - extract:
+      format: tar
+      dst: $CACHE/sa
+      file: $CACHE/subarch~
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/sa/deps/alut/alut_files_linux_x86_64
+  - extract:
+      format: tar
+      dst: $GAMEDIR
+      file: $CACHE/alut_files_linux_x86_64~
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/sa/deps/Cg/Cg_files_linux_x86_64
+  - extract:
+      format: tar
+      dst: $GAMEDIR/lib64
+      file: $CACHE/Cg_files_linux_x86_64~
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/sa/deps/openal/openal_files_linux_x86_64
+  - extract:
+      format: tar
+      dst: $GAMEDIR/lib64
+      file: $CACHE/openal_files_linux_x86_64~
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/sa/deps/SDL-1.2/SDL-1.2_files_linux_x86_64
+  - extract:
+      format: tar
+      dst: $GAMEDIR/lib64
+      file: $CACHE/SDL-1
+  - move:
+      src: $CACHE/SDL-1
+      dst: $CACHE/SDL-1_x64
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/sa/deps/alut/alut_files_linux_x86
+  - extract:
+      format: tar
+      dst: $GAMEDIR/lib
+      file: $CACHE/alut_files_linux_x86~
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/sa/deps/Cg/Cg_files_linux_x86
+  - extract:
+      format: tar
+      dst: $GAMEDIR/lib
+      file: $CACHE/Cg_files_linux_x86~
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/sa/deps/openal/openal_files_linux_x86
+  - extract:
+      format: tar
+      dst: $GAMEDIR/lib
+      file: $CACHE/openal_files_linux_x86~
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/sa/deps/SDL-1.2/SDL-1.2_files_linux_x86
+  - extract:
+      format: tar
+      dst: $GAMEDIR/lib
+      file: $CACHE/SDL-1
+  exe64: Closure.bin.x86_64
+  files:
+  - file1: N/A:Please select the Humble installer

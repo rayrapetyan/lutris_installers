@@ -1,0 +1,33 @@
+id: 82
+game_id: 381
+game_slug: fallout
+name: Fallout
+year: 1997
+user: Freso
+runner: wine
+slug: fallout-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2013-12-13T18:09:11.078000Z'
+updated_at: '2017-12-01T21:59:47.162083Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: 38400
+gogid: 1440166342
+gogslug: fallout
+humblestoreid: ''
+script:
+  exe: drive_c/GOG Games/Fallout/falloutw.exe
+  installer:
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      args: /SILENT /NOGUI /SUPPRESSMSGBOXES
+      name: wineexec
+  files:
+  - installer: N/A:Select the Windows installer provided by GOG
+  game:
+    prefix: $GAMEDIR

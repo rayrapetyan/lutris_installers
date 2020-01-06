@@ -1,0 +1,35 @@
+id: 10246
+game_id: 21784
+game_slug: sgzh-school-girlzombie-hunter
+name: 'SG/ZH: School Girl/Zombie Hunter'
+year: 2018
+user: Erde
+runner: winesteam
+slug: sgzh-school-girlzombie-hunter-dxvk
+version: DXVK
+description: null
+notes: ''
+created_at: '2018-09-19T03:26:49.731000Z'
+updated_at: '2019-02-16T04:34:56.715278Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 682570
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  system:
+    pulse_latency: true
+  game:
+    appid: 682570
+    arch: win64

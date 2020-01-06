@@ -1,0 +1,15 @@
+name: Kingdom Rush Frontiers
+slug: kingdom-rush-frontiers
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Tower defense
+aliases: []
+banner_url: /games/banner/kingdom-rush-frontiers.jpg
+icon_url: /games/icon/kingdom-rush-frontiers.png
+is_public: true
+updated: '2019-01-23T08:30:04.017568Z'
+steamid: 458710
+gogslug: kingdom_rush_frontiers
+humblestoreid: ''

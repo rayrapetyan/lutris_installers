@@ -1,0 +1,24 @@
+id: 3415
+game_id: 4684
+game_slug: badland-game-of-the-year-edition
+name: 'BADLAND: Game of the Year Edition'
+year: null
+user: liberodark
+runner: steam
+slug: badland-game-of-the-year-edit-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-04-01T02:48:48.882993Z'
+updated_at: '2017-04-02T23:47:53.871050Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 269670
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 269670

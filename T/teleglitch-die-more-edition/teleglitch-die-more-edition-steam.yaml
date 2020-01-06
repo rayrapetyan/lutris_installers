@@ -1,0 +1,24 @@
+id: 248
+game_id: 511
+game_slug: teleglitch-die-more-edition
+name: 'Teleglitch: Die More Edition'
+year: 2013
+user: strider
+runner: steam
+slug: teleglitch-die-more-edition-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-19T23:56:19.768000Z'
+updated_at: '2013-12-19T23:56:19.768000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 234390
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 234390

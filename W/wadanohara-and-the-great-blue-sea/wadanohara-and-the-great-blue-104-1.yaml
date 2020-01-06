@@ -1,0 +1,41 @@
+id: 10966
+game_id: 23452
+game_slug: wadanohara-and-the-great-blue-sea
+name: Wadanohara and the Great Blue Sea
+year: 2013
+user: superuserocde
+runner: wine
+slug: wadanohara-and-the-great-blue-104-1
+version: '1.04'
+description: null
+notes: ''
+created_at: '2018-11-24T02:34:33.098907Z'
+updated_at: '2018-11-24T04:19:06.082734Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: cjkfonts
+      arch: win32
+      name: winetricks
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Wadanohara104
+      file: zip
+  files:
+  - zip: http://vgperson.com/games/Wadanohara104.zip
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Wadanohara104/StartWindowed.exe
+    arch: win32

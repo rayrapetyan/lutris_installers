@@ -1,0 +1,22 @@
+name: Shadow Tower
+slug: shadow-tower
+year: 1999
+platforms:
+- name: Sony PlayStation
+genres:
+- name: Action
+- name: Adventure
+- name: Exploration
+- name: FPS
+- name: Horror
+- name: jRPG
+- name: RPG
+- name: Survival
+aliases: []
+banner_url: /games/banner/shadow-tower.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:10.997978Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

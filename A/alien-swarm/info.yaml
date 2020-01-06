@@ -1,0 +1,15 @@
+name: Alien Swarm
+slug: alien-swarm
+year: 2010
+platforms:
+- name: Windows
+genres:
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/alien-swarm.jpg
+icon_url: /games/icon/alien-swarm.png
+is_public: true
+updated: '2019-01-23T08:28:19.159160Z'
+steamid: 630
+gogslug: ''
+humblestoreid: ''

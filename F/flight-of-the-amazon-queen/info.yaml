@@ -1,0 +1,18 @@
+name: Flight of the Amazon Queen
+slug: flight-of-the-amazon-queen
+year: 1995
+platforms:
+- name: Amiga
+- name: Linux
+- name: MS-DOS
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/flight-of-the-amazon-queen.jpg
+icon_url: /games/icon/flight-of-the-amazon-queen.png
+is_public: true
+updated: '2019-01-23T08:29:32.275457Z'
+steamid: null
+gogslug: flight_of_the_amazon_queen
+humblestoreid: ''

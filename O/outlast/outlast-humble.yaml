@@ -1,0 +1,47 @@
+id: 3697
+game_id: 1572
+game_slug: outlast
+name: Outlast
+year: 2013
+user: FakeShemp
+runner: linux
+slug: outlast-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-15T22:18:51.601327Z'
+updated_at: '2017-05-17T18:21:30.823741Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 238320
+gogid: 1207660064
+gogslug: outlast
+humblestoreid: ''
+script:
+  exe: game/Binaries/Linux/OLGame.i686
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $file1 -d "$CACHE" "data/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - merge:
+      src: $CACHE/data/i686
+      dst: $CACHE/data/noarch
+  - merge:
+      src: $CACHE/data/x86_64
+      dst: $CACHE/data/noarch
+  - rename:
+      src: $CACHE/data/noarch
+      dst: $CACHE/data/game
+  - move:
+      src: $CACHE/data/game
+      dst: $GAMEDIR
+  exe64: game/Binaries/Linux/OLGame.x86_64
+  files:
+  - file1: N/A:Please select the Humble install file
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

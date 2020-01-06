@@ -1,0 +1,16 @@
+name: Dolphin Blue
+slug: dolphin-blue
+year: 2003
+platforms:
+- name: Arcade
+genres:
+- name: Platform
+- name: Shooter
+aliases: []
+banner_url: /games/banner/dolphin-blue.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:14.502950Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,18 @@
+name: Sonic and SEGA All Stars Racing
+slug: sonic-and-sega-all-stars-racing
+year: 2010
+platforms:
+- name: Nintendo DS
+- name: Nintendo Wii
+- name: Sony Playstation 3
+- name: Windows
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/sonic-and-sega-all-stars-racing.jpg
+icon_url: /games/icon/sonic-and-sega-all-stars-racing.png
+is_public: true
+updated: '2019-06-27T05:10:57.071958Z'
+steamid: 34190
+gogslug: ''
+humblestoreid: ''

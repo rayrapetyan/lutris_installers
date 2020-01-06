@@ -1,0 +1,17 @@
+name: Star Ocean
+slug: star-ocean
+year: 1996
+platforms:
+- name: Super Nintendo
+genres:
+- name: Action
+- name: jRPG
+- name: RPG
+aliases: []
+banner_url: /games/banner/star-ocean.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:24.496327Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

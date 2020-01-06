@@ -1,0 +1,26 @@
+id: 12710
+game_id: 26459
+game_slug: borderlands-goty-enhanced
+name: Borderlands GOTY Enhanced
+year: 2019
+user: TacoDeBoss
+runner: steam
+slug: borderlands-goty-enhanced-steam-proton
+version: Steam Proton
+description: null
+notes: "Launcher.exe is a dotnet application and crashes by default. \r\nMove Launcher.exe\
+  \ out of the directory or rename and symlink BorderlandsGOTY.exe to Launcher.exe\
+  \ to bypass the launcher entirely."
+created_at: '2019-04-09T21:38:07.308000Z'
+updated_at: '2019-04-11T03:30:57.462741Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 729040
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 729040

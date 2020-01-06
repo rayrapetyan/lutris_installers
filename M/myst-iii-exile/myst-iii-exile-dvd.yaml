@@ -1,0 +1,33 @@
+id: 487
+game_id: 2042
+game_slug: myst-iii-exile
+name: 'Myst III: Exile'
+year: 2001
+user: Xodetaetl
+runner: wine
+slug: myst-iii-exile-dvd
+version: DVD
+description: ''
+notes: ''
+created_at: '2014-07-16T21:07:09.945000Z'
+updated_at: '2018-05-19T03:41:47.755011Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 925930
+gogid: 1766899243
+gogslug: myst_3_exile
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Select Myst III's Setup.exe
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/Ubi Soft/Myst III Exile/bin/M3.exe
+    arch: win32

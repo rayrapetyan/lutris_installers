@@ -1,0 +1,24 @@
+id: 8192
+game_id: 5125
+game_slug: voices-from-the-sea
+name: Voices from the Sea
+year: null
+user: soredake
+runner: winesteam
+slug: voices-from-the-sea-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T06:59:34.400584Z'
+updated_at: '2018-05-12T10:21:55.308644Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 348620
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 348620

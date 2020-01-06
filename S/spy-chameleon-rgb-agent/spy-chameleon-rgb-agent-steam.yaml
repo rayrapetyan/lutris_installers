@@ -1,0 +1,24 @@
+id: 768
+game_id: 2585
+game_slug: spy-chameleon-rgb-agent
+name: Spy Chameleon - RGB Agent
+year: null
+user: Xodetaetl
+runner: steam
+slug: spy-chameleon-rgb-agent-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T14:00:49.869000Z'
+updated_at: '2014-09-15T16:13:29.043000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 297490
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 297490

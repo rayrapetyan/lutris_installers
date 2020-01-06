@@ -1,0 +1,38 @@
+id: 4161
+game_id: 1253
+game_slug: stronghold-crusader-hd
+name: Stronghold Crusader HD
+year: 2002
+user: FakeShemp
+runner: wine
+slug: stronghold-crusader-hd-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-06T16:54:31.897000Z'
+updated_at: '2018-05-19T03:41:52.355048Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 40970
+gogid: 1207658713
+gogslug: stronghold_crusader
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Firefly Studios/Stronghold Crusader/Stronghold Crusader.exe
+    arch: win32
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/Stronghold_Crusader_Extreme_HD_Setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  wine:
+    Desktop: true
+  files:
+  - file1: N/A:Please select the Humble archive

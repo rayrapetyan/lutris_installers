@@ -1,0 +1,24 @@
+id: 8415
+game_id: 7040
+game_slug: a-gents
+name: A-Gents
+year: null
+user: Nibiron
+runner: steam
+slug: a-gents-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-25T13:46:35.056939Z'
+updated_at: '2018-05-26T07:49:04.915211Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 460910
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 460910

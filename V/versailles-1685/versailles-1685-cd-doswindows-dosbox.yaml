@@ -1,0 +1,54 @@
+id: 14820
+game_id: 28634
+game_slug: versailles-1685
+name: Versailles 1685
+year: 1996
+user: legluondunet
+runner: dosbox
+slug: versailles-1685-cd-doswindows-dosbox
+version: CD DOS/Windows + DOSBOX
+description: "This script will install \"Versailles 1685\" DOS/Windows CD edition\
+  \ for DOSBox.\r\nDuring install please let all options by default.\r\nBig thanks\
+  \ to people who gave their time to permit us playing this game in the best conditions."
+notes: "- You will need the 2 CD only one time during install\r\n- During gaming,\
+  \ type \"CTRL+F4\" to change CD1 to CD2\r\n- Script compatible CD DOS or CD Hybrid\
+  \ DOS/Windows\r\n- Please report issue concerning this script on my Github page:\r\
+  \nhttps://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2019-08-01T20:41:10.701000Z'
+updated_at: '2019-11-16T07:22:40.245004Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  custom-name: Versailles 1685 - CD DOS/Windows - DOSBox
+  installer:
+  - insert-disc:
+      requires: DATAS_V/CDVER1.BIN
+      description: Please insert disc 1
+  - extract:
+      src: cdrtools
+      dst: $GAMEDIR
+  - chmodx: script
+  - execute:
+      args: VERSAILL_1 0
+      file: script
+  - insert-disc:
+      requires: DATAS_V/CDVER2.BIN
+      description: Please insert disc 2
+  - execute:
+      args: VERSAILL_2
+      file: script
+  - copy:
+      src: conf
+      dst: $GAMEDIR
+  files:
+  - cdrtools: https://github.com/legluondunet/mlls-tools/raw/master/cdrtools/cdrtools.zip
+  - script: https://github.com/legluondunet/mlls-tools/raw/master/scripts/copycd.sh
+  - conf: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Versailles%201685/versailles-1685_dosbox.conf
+  game:
+    main_file: $GAMEDIR/versailles-1685_dosbox.conf

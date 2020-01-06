@@ -1,0 +1,24 @@
+id: 17211
+game_id: 5376
+game_slug: expand
+name: Expand
+year: null
+user: foul-fortune-feline
+runner: steam
+slug: expand-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-12-07T04:55:26.557020Z'
+updated_at: '2019-12-07T04:55:26.557057Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 399780
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 399780

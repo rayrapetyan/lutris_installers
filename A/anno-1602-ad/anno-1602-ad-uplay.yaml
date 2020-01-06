@@ -1,0 +1,50 @@
+id: 10962
+game_id: 11799
+game_slug: anno-1602-ad
+name: Anno 1602 A.D.
+year: 1998
+user: macskay
+runner: wine
+slug: anno-1602-ad-uplay
+version: Uplay
+description: null
+notes: Only installs uplay, the game will be installed on first launch
+created_at: '2018-11-24T01:00:25.013000Z'
+updated_at: '2018-12-18T06:49:28.057425Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: 1438168222
+gogslug: anno_1602_ad
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    args: uplay://launch/2990
+    exe: drive_c/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/Uplay.exe
+    arch: win64
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: corefonts win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: uplay
+      prefix: $GAMEDIR
+      args: /S
+      arch: win64
+      name: wineexec
+  wine:
+    version: tkg-3.21-x86_64
+    overrides:
+      nvapi,nvapi64: disabled
+      xaudio2_7: native,builtin
+  files:
+  - uplay: https://ubistatic3-a.akamaihd.net/orbit/launcher_installer/UplayInstaller.exe

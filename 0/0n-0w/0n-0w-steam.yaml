@@ -1,0 +1,24 @@
+id: 10556
+game_id: 21374
+game_slug: 0n-0w
+name: "0\xB0N 0\xB0W"
+year: 2018
+user: Jozua
+runner: steam
+slug: 0n-0w-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-10-19T01:02:40.918891Z'
+updated_at: '2018-10-19T07:47:30.778903Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 670750
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 670750

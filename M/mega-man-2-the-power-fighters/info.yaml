@@ -1,0 +1,15 @@
+name: 'Mega Man 2: The Power Fighters'
+slug: mega-man-2-the-power-fighters
+year: 1996
+platforms:
+- name: Arcade
+genres:
+- name: Fighting
+aliases: []
+banner_url: /games/banner/mega-man-2-the-power-fighters.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-13T14:15:04.847622Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

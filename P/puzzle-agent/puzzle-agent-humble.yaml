@@ -1,0 +1,33 @@
+id: 4689
+game_id: 343
+game_slug: puzzle-agent
+name: Puzzle Agent
+year: null
+user: FakeShemp
+runner: wine
+slug: puzzle-agent-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-27T17:43:26.721000Z'
+updated_at: '2018-05-19T03:41:53.424651Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 31270
+gogid: 1441715179
+gogslug: puzzle_agent
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Telltale Games/Puzzle Agent/Puzzle Agent/Grickle101.exe
+    arch: win32

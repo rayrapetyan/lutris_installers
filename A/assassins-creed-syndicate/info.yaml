@@ -1,0 +1,17 @@
+name: Assassin's Creed Syndicate
+slug: assassins-creed-syndicate
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Action-adventure
+- name: Historical
+- name: Sci-fi
+aliases: []
+banner_url: /games/banner/assassins-creed-syndicate.jpg
+icon_url: /games/icon/assassins-creed-syndicate.png
+is_public: true
+updated: '2020-01-03T01:58:19.137876Z'
+steamid: 368500
+gogslug: ''
+humblestoreid: ''

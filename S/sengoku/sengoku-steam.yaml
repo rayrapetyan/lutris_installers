@@ -1,0 +1,39 @@
+id: 8546
+game_id: 1141
+game_slug: sengoku
+name: Sengoku
+year: 2011
+user: cxf
+runner: winesteam
+slug: sengoku-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-06T03:48:47.604000Z'
+updated_at: '2018-06-06T05:31:13.095042Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 73210
+gogid: 1445506889
+gogslug: sengoku
+humblestoreid: ''
+script:
+  winesteam:
+    run_without_steam: true
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: d3dx9 vcrun2010 quartz ffdshow
+      arch: win32
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    steamless_binary: $GAMEDIR/SengokuGame.exe
+    appid: 73210
+    arch: win32

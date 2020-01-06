@@ -1,0 +1,46 @@
+id: 14984
+game_id: 28778
+game_slug: cyberhunter
+name: Cyberhunter
+year: 2019
+user: xkazerike
+runner: wine
+slug: cyberhunter-linux
+version: Linux
+description: null
+notes: ''
+created_at: '2019-08-13T00:56:33.111000Z'
+updated_at: '2019-10-28T21:11:26.209684Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    args: -arg
+    exe: drive_c/CyberHunter/launcher.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2010 wininet win7
+      name: winetricks
+  - task:
+      executable: $CACHE/cyber_hunter_20190729.exe
+      prefix: $GAMEDIR
+      description: Please wait while we install Cyber Hunter
+      args: /SP- /SUPPRESSMSGBOXES /VERYSILENT /NOICONS
+      exclude_processes: client.exe
+      name: wineexec
+  wine:
+    overrides:
+      wininet: builtin,native
+  files:
+  - file1: https://g94na.gdl.netease.com/cyber_hunter_20190729.exe

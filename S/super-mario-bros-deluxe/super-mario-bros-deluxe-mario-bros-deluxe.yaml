@@ -1,0 +1,30 @@
+id: 9591
+game_id: 20645
+game_slug: super-mario-bros-deluxe
+name: Super Mario Bros. Deluxe
+year: 1999
+user: lolicop123
+runner: libretro
+slug: super-mario-bros-deluxe-mario-bros-deluxe
+version: mario-bros-deluxe
+description: Libretro Installer
+notes: ''
+created_at: '2018-08-05T08:44:21.534710Z'
+updated_at: '2018-08-06T06:04:32.958468Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: file_id
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please Select the location of the ROM
+  - file_id: http://location
+  - unredistribuable_file: N/A

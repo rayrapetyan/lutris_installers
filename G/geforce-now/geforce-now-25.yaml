@@ -1,0 +1,29 @@
+id: 17152
+game_id: 23560
+game_slug: geforce-now
+name: GeForce NOW
+year: 2015
+user: Synoven
+runner: wine
+slug: geforce-now-25
+version: '2.5'
+description: null
+notes: Sign into your Nvidia Geforce NOw account.
+created_at: '2019-12-01T21:12:00.150000Z'
+updated_at: '2019-12-25T16:36:09.545413Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  files:
+  - file1: https://download.nvidia.com/gfnpc/GeForceNOW-release.exe
+  - file2: https://download.nvidia.com/gfnpc/GeForceNOW-release.exe
+  - file3:
+      referer: https://download.nvidia.com/gfnpc/GeForceNOW-release.exe
+      filename: GeForceNOW-release.exe
+      url: https://download.nvidia.com/gfnpc/GeForceNOW-release.exe

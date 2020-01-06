@@ -1,0 +1,23 @@
+id: 22
+game_id: 35
+game_slug: game-and-watch-donkey-kong
+name: 'Game and Watch: Donkey Kong'
+year: 1982
+user: strider
+runner: browser
+slug: game-and-watch-donkey-kong-flash
+version: Flash
+description: ''
+notes: ''
+created_at: '2013-06-24T22:36:19Z'
+updated_at: '2014-08-17T22:24:20.171000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: http://pica-pic.com/#/donkey_kong/

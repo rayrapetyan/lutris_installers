@@ -1,0 +1,35 @@
+id: 5868
+game_id: 2412
+game_slug: age-of-wonders-shadow-magic
+name: 'Age of Wonders: Shadow Magic'
+year: null
+user: Noxes
+runner: wine
+slug: age-of-wonders-shadow-magic-gog
+version: GOG
+description: null
+notes: Installs and runs flawlessly.
+created_at: '2017-09-29T20:02:07.456000Z'
+updated_at: '2019-02-10T10:25:34.618609Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 61520
+gogid: 1207658885
+gogslug: age_of_wonders_shadow_magic
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      executable: aowsm
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - aowsm: N/A:Select the Windows installer downloaded from GOG
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Age of Wonders - Shadow Magic/AoWSM.exe

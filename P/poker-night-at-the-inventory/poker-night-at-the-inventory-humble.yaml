@@ -1,0 +1,33 @@
+id: 4228
+game_id: 344
+game_slug: poker-night-at-the-inventory
+name: Poker Night at the Inventory
+year: null
+user: FakeShemp
+runner: wine
+slug: poker-night-at-the-inventory-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-08T18:43:32.894000Z'
+updated_at: '2018-05-19T03:41:50.375492Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 31280
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Telltale Games/Poker Night/Poker Night at the Inventory/CelebrityPoker.exe
+    arch: win32

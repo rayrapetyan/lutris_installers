@@ -1,0 +1,29 @@
+id: 4058
+game_id: 635
+game_slug: botanicula
+name: Botanicula
+year: 2012
+user: FakeShemp
+runner: linux
+slug: botanicula-humble-64bit
+version: Humble (64bit)
+description: ''
+notes: ''
+created_at: '2017-06-02T17:22:26.417668Z'
+updated_at: '2017-06-04T22:09:00.338218Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 207690
+gogid: 1207659024
+gogslug: botanicula
+humblestoreid: botanicula
+script:
+  exe: botanicula.in
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/botanicula.in
+  files:
+  - file1: N/A:Please select the Humble archive

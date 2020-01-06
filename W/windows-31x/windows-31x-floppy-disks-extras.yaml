@@ -1,0 +1,94 @@
+id: 12906
+game_id: 26784
+game_slug: windows-31x
+name: Windows 3.1x
+year: 1992
+user: TheLimeyDragon
+runner: dosbox
+slug: windows-31x-floppy-disks-extras
+version: Floppy Disks + Extras
+description: A installation with S3 and Sound Blaster drivers.
+notes: "Currently require to manually extract the contents of the install floppy disks\
+  \ into a single folder.\r\n\r\nDuring Windows Setup select a custom install by pressing\
+  \ C\r\n\r\nSelect Display\r\nScroll down to Other\r\nType: B:\\S3\r\nSelect S3 Trio64V\
+  \ 1.70.04 1024x768 64K C SF (Clicking Desktop Settings crashes with this option)\r\
+  \nor\r\nSelect S3 Trio64V 1.70.04 1024x768 256 C SF (Clicking Desktop Settings hangs\
+  \ but does open with this option)\r\n\r\nOnce Windows has installed DO NOT CLICK\
+  \ REBOOT.\r\n\r\nWhen the Audio drives are installing at the part it asks to \"\
+  proceed using the settings shown\"\r\nScroll down to Windows 3.1 path, press enter\
+  \ and accept the default option."
+created_at: '2019-04-17T18:07:27.712000Z'
+updated_at: '2019-04-20T07:06:40.500374Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: DISK1
+  - task:
+      commands:
+      - 'A:'
+      - SETUP.EXE
+      - 'B:'
+      - CD SB16
+      - INSTALL.EXE
+      - EXIT
+      path: $GAMEDIR/win31x-install.conf
+      drives:
+        b: $GAMEDIR/B
+        a: $DISC
+        c: $GAMEDIR/C
+      name: makeconfig
+  - execute:
+      args: $GAMEDIR/A $GAMEDIR/B $GAMEDIR/C $GAMEDIR/D $GAMEDIR/E
+      file: mkdir
+  - extract:
+      format: zip
+      dst: $GAMEDIR/B/sb16
+      file: sb16
+  - extract:
+      format: zip
+      dst: $GAMEDIR/B/s3
+      file: s3
+  - task:
+      config_file: $GAMEDIR/win31x-install.conf
+      working_dir: $GAMEDIR
+      name: dosexec
+  - write_file:
+      content: '[dosbox]
+
+        memsize = 64
+
+        [sblaster]
+
+        irq=5
+
+        [autoexec]
+
+        mount a $GAMEDIR/A
+
+        mount b $GAMEDIR/B
+
+        mount c $GAMEDIR/C
+
+        mount d $GAMEDIR/D
+
+        mount d $GAMEDIR/E
+
+        c:
+
+        cd windows
+
+        win'
+      file: $GAMEDIR/win31x.conf
+  files:
+  - s3: https://www.dropbox.com/s/w3o4v5e7alm1zg5/s3drivers.zip?dl=1
+  - sb16: https://www.dropbox.com/s/0ve3ohhtks0wrnf/SB16W3x.zip?dl=1
+  game:
+    main_file: $GAMEDIR/win31x.conf

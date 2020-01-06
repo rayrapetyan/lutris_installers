@@ -1,0 +1,23 @@
+id: 10947
+game_id: 23455
+game_slug: brutalio
+name: Brutal.io
+year: null
+user: zaren812
+runner: browser
+slug: brutalio-browser
+version: Browser
+description: null
+notes: ''
+created_at: '2018-11-22T13:10:26.197036Z'
+updated_at: '2018-11-22T23:00:15.992030Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://brutal.io/

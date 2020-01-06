@@ -1,0 +1,24 @@
+id: 15885
+game_id: 29536
+game_slug: an-adventurers-tale
+name: An Adventurer's Tale
+year: 2019
+user: kimchitea
+runner: steam
+slug: an-adventurers-tale-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-09-30T12:54:12.503347Z'
+updated_at: '2019-10-07T03:28:25.128332Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 942580
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 942580

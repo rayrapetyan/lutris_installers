@@ -1,0 +1,24 @@
+id: 2411
+game_id: 4094
+game_slug: armed-seven
+name: ARMED SEVEN
+year: 2008
+user: gschaffran
+runner: steam
+slug: armed-seven-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-08-09T18:03:04.429526Z'
+updated_at: '2016-09-30T20:48:12.003150Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 349690
+gogid: null
+gogslug: ''
+humblestoreid: armed-seven
+script:
+  game:
+    appid: 349690

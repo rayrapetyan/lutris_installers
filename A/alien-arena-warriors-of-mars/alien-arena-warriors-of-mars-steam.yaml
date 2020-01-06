@@ -1,0 +1,24 @@
+id: 8341
+game_id: 16946
+game_slug: alien-arena-warriors-of-mars
+name: 'Alien Arena: Warriors Of Mars'
+year: 2017
+user: strider
+runner: steam
+slug: alien-arena-warriors-of-mars-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-19T23:38:18.727051Z'
+updated_at: '2018-05-20T07:58:25.541603Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 629540
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 629540

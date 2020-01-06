@@ -1,0 +1,41 @@
+id: 9042
+game_id: 4357
+game_slug: blitzkrieg-anthology
+name: Blitzkrieg Anthology
+year: null
+user: Asgaroth
+runner: winesteam
+slug: blitzkrieg-anthology-steam
+version: Steam
+description: null
+notes: This appears to be a DirectX 8c game, frame rate is quite low while testing
+  in the tutorial.
+created_at: '2018-07-06T11:35:04.221476Z'
+updated_at: '2018-07-06T19:33:06.875530Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 313480
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-3.11-x86_64
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Creating wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Setting wine to Windows XP
+      app: winxp
+      arch: win64
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 313480
+    arch: win64

@@ -1,0 +1,15 @@
+name: Wii Party
+slug: wii-party
+year: 2010
+platforms:
+- name: Nintendo Wii
+genres:
+- name: Party
+aliases: []
+banner_url: /games/banner/wii-party.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-09T20:37:24.033448Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

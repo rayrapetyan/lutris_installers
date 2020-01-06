@@ -1,0 +1,37 @@
+id: 6787
+game_id: 1625
+game_slug: cryostasis
+name: Cryostasis
+year: null
+user: soredake
+runner: winesteam
+slug: cryostasis-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-23T21:02:53.165000Z'
+updated_at: '2019-04-27T22:42:50.335805Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 7850
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: physx
+      arch: win32
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 7850
+    arch: win32

@@ -1,0 +1,52 @@
+id: 7269
+game_id: 1422
+game_slug: nuclear-throne
+name: Nuclear Throne
+year: null
+user: natevc
+runner: winesteam
+slug: nuclear-throne-ntt
+version: NTT
+description: "Installs Nuclear Throne Together by YellowAfterlife for network Co-Op.\
+  \ \r\nRequires latest NuclearThroneTogether.zip from https://yellowafterlife.itch.io/nuclear-throne-together"
+notes: "Requires latest NuclearThroneTogether.zip from https://yellowafterlife.itch.io/nuclear-throne-together\r\
+  \nUsing wineexec seems to cause Mono issues during the installation phase.\r\n\"\
+  requires: nuclear-throne?revision=8362\" should point to the Windows Steam Lutris\
+  \ entry (currently nuclear-throne-change-me)"
+created_at: '2018-02-08T14:02:55.737000Z'
+updated_at: '2018-02-09T00:17:03.082323Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 242680
+gogid: 1448617555
+gogslug: nuclear_throne
+humblestoreid: ''
+script:
+  files:
+  - file1:
+      filename: NuclearThroneTogether.zip
+      url: N/A:Select the latest NuclearThroneTogetherxxxx.zip
+  installer:
+  - extract:
+      format: zip
+      dst: $GAMEDIR/
+      file: $file1
+  - chmodx: $GAMEDIR/NTT-Assemble.exe
+  - task:
+      prefix: $GAMEDIR/wine
+      name: create_prefix
+  - execute:
+      command: cd "$GAMEDIR"; WINEPREFIX="$GAMEDIR/wine" wine "$GAMEDIR/NTT-Assemble.exe"
+        "-assemble"
+      disable_runtime: true
+  - move:
+      src: $GAMEDIR/nuclearthrone.exe
+      dst: $GAMEDIR/nuclearthrone.old.exe
+  - move:
+      src: $GAMEDIR/NuclearThroneTogether.exe
+      dst: $GAMEDIR/nuclearthrone.exe
+  '---requires': nuclear-throne?revision=8362
+  game:
+    appid: 242680

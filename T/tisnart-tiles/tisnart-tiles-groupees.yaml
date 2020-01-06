@@ -1,0 +1,32 @@
+id: 6030
+game_id: 7943
+game_slug: tisnart-tiles
+name: Tisnart Tiles
+year: null
+user: FakeShemp
+runner: wine
+slug: tisnart-tiles-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-10-20T16:45:58.368039Z'
+updated_at: '2018-05-19T03:41:58.115217Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 398920
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR/drive_c/Program Files/Tisnart Tiles
+  files:
+  - file1: N/A:Please select the Groupees executable
+  game:
+    prefix: $GAMEDIR
+    exe: $file1
+    arch: win32

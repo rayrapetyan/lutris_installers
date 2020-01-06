@@ -1,0 +1,24 @@
+id: 1340
+game_id: 3775
+game_slug: sid-meiers-covert-action-classic
+name: Sid Meier's Covert Action (Classic)
+year: null
+user: Xodetaetl
+runner: steam
+slug: sid-meiers-covert-action-clas-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-02-25T19:42:53.308000Z'
+updated_at: '2015-02-25T20:44:03.206000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 327390
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 327390

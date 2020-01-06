@@ -1,0 +1,41 @@
+id: 4815
+game_id: 3745
+game_slug: rob-blanc-ii-planet-of-the-pasteurised-pestilence
+name: 'Rob Blanc II: Planet of the Pasteurised Pestilence'
+year: 2000
+user: FakeShemp
+runner: dosbox
+slug: rob-blanc-ii-planet-of-the-pa-10
+version: '1.0'
+description: Downloaded from http://www.adventuregamestudio.co.uk/site/games/game/9/
+notes: ''
+created_at: '2017-07-04T20:54:55.206708Z'
+updated_at: '2017-07-09T20:13:53.533450Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: defendii.exe
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $file1
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/dosbox_lutris.conf
+  - write_config:
+      section: sdl
+      key: fullscreen
+      value: false
+      file: $GAMEDIR/dosbox_lutris.conf
+  files:
+  - file1: N/A:Please select the game archive
+  game:
+    config_file: $GAMEDIR/dosbox_lutris.conf

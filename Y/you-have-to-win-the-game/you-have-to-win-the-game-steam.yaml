@@ -1,0 +1,24 @@
+id: 762
+game_id: 2303
+game_slug: you-have-to-win-the-game
+name: You Have to Win the Game
+year: 2012
+user: Xodetaetl
+runner: steam
+slug: you-have-to-win-the-game-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T13:58:32.053000Z'
+updated_at: '2014-09-15T16:13:30.281000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 286100
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 286100

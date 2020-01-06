@@ -1,0 +1,15 @@
+name: The Little Acre
+slug: the-little-acre
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/the-little-acre.jpg
+icon_url: /games/icon/the-little-acre.png
+is_public: true
+updated: '2019-01-23T08:31:43.991796Z'
+steamid: 423590
+gogslug: the_little_acre
+humblestoreid: ''

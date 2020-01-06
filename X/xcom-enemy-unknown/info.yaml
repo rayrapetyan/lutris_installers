@@ -1,0 +1,16 @@
+name: 'XCOM: Enemy Unknown'
+slug: xcom-enemy-unknown
+year: 2012
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Turn-based tactics
+aliases: []
+banner_url: /games/banner/xcom-enemy-unknown.jpg
+icon_url: /games/icon/xcom-enemy-unknown.png
+is_public: true
+updated: '2019-01-23T08:32:12.106445Z'
+steamid: 200510
+gogslug: xcom_enemy_unknown_complete_pack
+humblestoreid: ''

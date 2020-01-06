@@ -1,0 +1,24 @@
+id: 8169
+game_id: 4281
+game_slug: polarity
+name: Polarity
+year: null
+user: soredake
+runner: winesteam
+slug: polarity-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T06:51:09.697398Z'
+updated_at: '2018-05-12T10:19:58.667354Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 315430
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 315430

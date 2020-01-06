@@ -1,0 +1,17 @@
+name: Populous
+slug: populous
+year: 1989
+platforms:
+- name: Windows
+genres:
+- name: Managerial
+- name: Real-time
+- name: Strategy
+aliases: []
+banner_url: /games/banner/populous.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:47.930977Z'
+steamid: null
+gogslug: populous
+humblestoreid: ''

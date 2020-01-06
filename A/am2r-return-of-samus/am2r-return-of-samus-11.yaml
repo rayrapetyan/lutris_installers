@@ -1,0 +1,30 @@
+id: 2717
+game_id: 6762
+game_slug: am2r-return-of-samus
+name: 'AM2R: Return of Samus'
+year: 2016
+user: strider
+runner: linux
+slug: am2r-return-of-samus-11
+version: '1.1'
+description: null
+notes: ''
+created_at: '2016-09-09T21:19:17.314000Z'
+updated_at: '2018-09-13T02:35:46.497384Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: gamearchive
+  files:
+  - gamearchive: https://lutris.nyc3.digitaloceanspaces.com/games/am2r/am2r-1.1-linux.tar.gz
+  game:
+    exe: am2r

@@ -1,0 +1,24 @@
+id: 8840
+game_id: 3447
+game_slug: always-sometimes-monsters
+name: Always Sometimes Monsters
+year: 2014
+user: kimchitea
+runner: steam
+slug: always-sometimes-monsters-steam-1
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-21T06:25:27.722749Z'
+updated_at: '2018-06-21T15:58:59.170354Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 274310
+gogid: 1207664583
+gogslug: always_sometimes_monsters
+humblestoreid: always-sometimes-monsters
+script:
+  game:
+    appid: 274310

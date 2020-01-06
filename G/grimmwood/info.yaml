@@ -1,0 +1,19 @@
+name: Grimmwood
+slug: grimmwood
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Roguelike
+- name: RPG
+- name: Simulation
+- name: Strategy
+- name: Survival
+aliases: []
+banner_url: /games/banner/grimmwood.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:43.664941Z'
+steamid: 809280
+gogslug: ''
+humblestoreid: ''

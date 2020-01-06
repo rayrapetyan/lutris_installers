@@ -1,0 +1,36 @@
+id: 4207
+game_id: 1407
+game_slug: critical-mass
+name: Critical Mass
+year: null
+user: FakeShemp
+runner: wine
+slug: critical-mass-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-08T08:20:18.953000Z'
+updated_at: '2018-05-19T03:41:52.733018Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 105300
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/CriticalMass_setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/CriticalMass/CriticalMass.exe
+    arch: win32

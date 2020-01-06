@@ -1,0 +1,16 @@
+name: Pandum online
+slug: pandum-online
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: MMO
+- name: MMORPG
+aliases: []
+banner_url: /games/banner/pandum-online.jpg
+icon_url: /games/icon/pandum-online.png
+is_public: true
+updated: '2019-06-01T06:13:46.635916Z'
+steamid: 469930
+gogslug: ''
+humblestoreid: ''

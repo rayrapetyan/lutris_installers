@@ -1,0 +1,28 @@
+id: 4949
+game_id: 11780
+game_slug: super-scrapped-robot
+name: Super Scrapped Robot
+year: 2014
+user: FakeShemp
+runner: linux
+slug: super-scrapped-robot-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-10T18:45:43.584187Z'
+updated_at: '2017-07-27T00:56:32.707872Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Super Scrapped Robot
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive

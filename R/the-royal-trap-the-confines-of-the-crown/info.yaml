@@ -1,0 +1,19 @@
+name: 'The Royal Trap: The Confines Of The Crown'
+slug: the-royal-trap-the-confines-of-the-crown
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Visual novel
+aliases:
+- slug: the-royal-trap
+  name: The Royal Trap
+- slug: the-confines-of-the-crown
+  name: The Confines Of The Crown
+banner_url: /games/banner/the-royal-trap-the-confines-of-the-crown.jpg
+icon_url: /games/icon/the-royal-trap-the-confines-of-the-crown.png
+is_public: true
+updated: '2019-04-27T21:17:07.922819Z'
+steamid: 356530
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,17 @@
+name: Magic Knight Rayearth
+slug: magic-knight-rayearth
+year: 1995
+platforms:
+- name: Sega Game Gear
+- name: Sega Saturn
+- name: Super Nintendo
+genres:
+- name: Fantasy
+aliases: []
+banner_url: /games/banner/magic-knight-rayearth.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:15.872459Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

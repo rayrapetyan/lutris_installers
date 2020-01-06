@@ -1,0 +1,15 @@
+name: Toki
+slug: toki
+year: 1989
+platforms:
+- name: Arcade
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/toki.jpg
+icon_url: /games/icon/toki.png
+is_public: true
+updated: '2019-11-18T03:50:02.574608Z'
+steamid: 1058320
+gogslug: ''
+humblestoreid: ''

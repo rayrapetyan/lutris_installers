@@ -1,0 +1,16 @@
+name: 'Legend of Zelda: Windwaker'
+slug: legend-of-zelda-windwaker
+year: 2002
+platforms:
+- name: GameCube
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/legend-of-zelda-windwaker.jpg
+icon_url: null
+is_public: true
+updated: '2019-07-31T05:35:12.076530Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

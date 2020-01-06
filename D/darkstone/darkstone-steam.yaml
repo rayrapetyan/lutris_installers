@@ -1,0 +1,24 @@
+id: 3588
+game_id: 3420
+game_slug: darkstone
+name: Darkstone
+year: 1999
+user: strider
+runner: winesteam
+slug: darkstone-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-04-29T07:54:44.451002Z'
+updated_at: '2017-04-29T07:54:50.060219Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 320320
+gogid: 1207659025
+gogslug: darkstone
+humblestoreid: ''
+script:
+  game:
+    appid: 320320

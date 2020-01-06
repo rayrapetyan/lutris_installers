@@ -1,0 +1,16 @@
+name: Sundered
+slug: sundered
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/sundered.jpg
+icon_url: /games/icon/sundered.png
+is_public: true
+updated: '2019-01-23T08:31:29.283701Z'
+steamid: 535480
+gogslug: sundered
+humblestoreid: ''

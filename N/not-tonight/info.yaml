@@ -1,0 +1,17 @@
+name: Not Tonight
+slug: not-tonight
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Puzzle
+- name: Simulation
+aliases: []
+banner_url: /games/banner/not-tonight.jpg
+icon_url: null
+is_public: true
+updated: '2019-04-20T03:25:23.427930Z'
+steamid: 733790
+gogslug: not_tonight
+humblestoreid: ''

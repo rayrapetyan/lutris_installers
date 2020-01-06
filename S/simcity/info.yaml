@@ -1,0 +1,23 @@
+name: SimCity
+slug: simcity
+year: 1989
+platforms:
+- name: Amiga
+- name: Amstrad CPC 464
+- name: Atari ST
+- name: Commodore 64
+- name: MS-DOS
+- name: NES
+- name: PC-98
+- name: Super Nintendo
+- name: X68000
+genres:
+- name: City building
+aliases: []
+banner_url: /games/banner/simcity.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:13.699222Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

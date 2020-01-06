@@ -1,0 +1,15 @@
+name: 'Serious Sam: The Second Encounter'
+slug: serious-sam-the-second-encounter
+year: 2002
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/serious-sam-the-second-encounter.jpg
+icon_url: /games/icon/serious-sam-the-second-encounter.png
+is_public: true
+updated: '2019-01-23T08:31:09.948057Z'
+steamid: 41060
+gogslug: serious_sam_the_second_encounter
+humblestoreid: serious-sam-hd-the-second-encounter

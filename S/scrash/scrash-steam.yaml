@@ -1,0 +1,24 @@
+id: 9079
+game_id: 19822
+game_slug: scrash
+name: Scrash
+year: 2018
+user: TuiorGames
+runner: winesteam
+slug: scrash-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-08T01:12:56.789000Z'
+updated_at: '2018-07-08T23:43:43.120387Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 807050
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 807050

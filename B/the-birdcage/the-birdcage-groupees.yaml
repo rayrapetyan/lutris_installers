@@ -1,0 +1,35 @@
+id: 5050
+game_id: 12238
+game_slug: the-birdcage
+name: The Birdcage
+year: 2015
+user: FakeShemp
+runner: wine
+slug: the-birdcage-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-14T12:10:13.136000Z'
+updated_at: '2018-05-19T03:41:56.539411Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/WindowsNoEditor
+      dst: $GAMEDIR/drive_c/Program Files/The Birdcage
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/The Birdcage/Birdcage.exe
+    arch: win32

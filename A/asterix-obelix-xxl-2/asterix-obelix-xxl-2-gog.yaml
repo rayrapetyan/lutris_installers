@@ -1,0 +1,40 @@
+id: 16112
+game_id: 24211
+game_slug: asterix-obelix-xxl-2
+name: Asterix & Obelix XXL 2
+year: 2018
+user: cxf
+runner: wine
+slug: asterix-obelix-xxl-2-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-10-11T02:58:25.733310Z'
+updated_at: '2019-10-11T02:58:31.442846Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 887060
+gogid: 1858508334
+gogslug: asterix_obelix_xxl_2
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2015 win7
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES /NOCANCEL
+      name: wineexec
+  files:
+  - setup: N/A:Select GOG setup exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Asterix & Obelix XXL 2/oXXL2Game.exe

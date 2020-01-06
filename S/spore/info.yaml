@@ -1,0 +1,18 @@
+name: Spore
+slug: spore
+year: 2008
+platforms:
+- name: Nintendo DS
+- name: Nintendo Wii
+- name: Windows
+genres:
+- name: Sandbox
+- name: Simulation
+aliases: []
+banner_url: /games/banner/spore.jpg
+icon_url: /games/icon/spore.png
+is_public: true
+updated: '2019-05-11T07:15:41.048039Z'
+steamid: 17390
+gogslug: spore_collection
+humblestoreid: ''

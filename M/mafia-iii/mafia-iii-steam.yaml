@@ -1,0 +1,48 @@
+id: 6736
+game_id: 8094
+game_slug: mafia-iii
+name: Mafia III
+year: 2016
+user: cxf
+runner: winesteam
+slug: mafia-iii-steam
+version: Steam
+description: null
+notes: "- Launcher doesn't work.\r\n- Full screen doesn't work."
+created_at: '2017-12-20T06:30:36.038000Z'
+updated_at: '2019-12-28T21:11:03.428115Z'
+draft: false
+published: true
+published_by: 19464
+rating: '3'
+steamid: 360430
+gogid: 1354640203
+gogslug: mafia_iii
+humblestoreid: ''
+script:
+  winesteam:
+    version: lutris-4.20-x86_64
+    overrides:
+      nvapi,nvapi64,winegstreamer: disabled
+      xaudio2_7: native,builtin
+    dxvk: true
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Please wait while .NET 4.7.2 installs.
+      app: dotnet472
+      name: winetricks
+  - move:
+      src: $GAMEDIR/launcher.exe
+      dst: $GAMEDIR/launcher.orig
+  - move:
+      src: $GAMEDIR/mafia3.exe
+      dst: $GAMEDIR/launcher.exe
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 360430
+    arch: win64

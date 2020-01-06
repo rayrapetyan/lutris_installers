@@ -1,0 +1,24 @@
+id: 12733
+game_id: 11369
+game_slug: deep-rock-galactic
+name: Deep Rock Galactic
+year: 2018
+user: julkip
+runner: steam
+slug: deep-rock-galactic-steam-proton
+version: Steam Proton
+description: Tested with Proton 3.16 and 4.2, both work flawlessly
+notes: ''
+created_at: '2019-04-11T18:41:16.128000Z'
+updated_at: '2019-05-19T06:26:10.019995Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 548430
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 548430

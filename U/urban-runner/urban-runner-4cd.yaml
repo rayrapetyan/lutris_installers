@@ -1,0 +1,75 @@
+id: 15484
+game_id: 29361
+game_slug: urban-runner
+name: Urban Runner
+year: 1996
+user: appoloin
+runner: scummvm
+slug: urban-runner-4cd
+version: 4CD
+description: null
+notes: ''
+created_at: '2019-09-12T16:25:19.321426Z'
+updated_at: '2019-12-08T23:25:56.724836Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - write_file:
+      content: '#!/bin/bash
+
+        src=$1
+
+        dst=$2
+
+        src_path=$(echo "$1" | sed -r "s/(.+)\/.+/\1/")
+
+        find "$src_path" -type f \( -name "*.stk" -o -name "*.itk" \) -exec cp {}
+        "$dst" \;'
+      file: $CACHE/selectcopy.sh
+  - chmodx: $CACHE/selectcopy.sh
+  - insert-disc:
+      requires: cd1.itk
+      description: Please insert disc 1
+  - execute:
+      args: $DISC $GAMEDIR
+      file: $CACHE/selectcopy.sh
+  - execute:
+      args: -R 775  "$GAMEDIR"
+      file: /bin/chmod
+  - insert-disc:
+      requires: cd2.itk
+      description: Please insert disc 2
+  - execute:
+      args: $DISC $GAMEDIR
+      file: $CACHE/selectcopy.sh
+  - execute:
+      args: -R 775  "$GAMEDIR"
+      file: /bin/chmod
+  - insert-disc:
+      requires: cd3.itk
+      description: Please insert disc 3
+  - execute:
+      args: $DISC $GAMEDIR
+      file: $CACHE/selectcopy.sh
+  - execute:
+      args: -R 775  "$GAMEDIR"
+      file: /bin/chmod
+  - insert-disc:
+      requires: cd4.itk
+      description: Please insert disc 4
+  - execute:
+      args: $DISC $GAMEDIR
+      file: $CACHE/selectcopy.sh
+  - execute:
+      args: -R 775  "$GAMEDIR"
+      file: /bin/chmod
+  game:
+    game_id: gob
+    path: $GAMEDIR

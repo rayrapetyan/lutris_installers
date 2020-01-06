@@ -1,0 +1,15 @@
+name: Cibele
+slug: cibele
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Interactive fiction
+aliases: []
+banner_url: /games/banner/cibele.jpg
+icon_url: /games/icon/cibele.png
+is_public: true
+updated: '2019-01-23T08:28:52.738417Z'
+steamid: 408120
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 7183
+game_id: 6990
+game_slug: highschool-romance
+name: Highschool Romance
+year: 2015
+user: t-rex91
+runner: steam
+slug: highschool-romance-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-01-28T15:37:03.504003Z'
+updated_at: '2018-01-29T00:13:04.829071Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 398100
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 398100

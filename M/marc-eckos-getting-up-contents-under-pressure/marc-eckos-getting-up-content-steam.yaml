@@ -1,0 +1,28 @@
+id: 9685
+game_id: 2327
+game_slug: marc-eckos-getting-up-contents-under-pressure
+name: "Marc Eck\u014D's Getting Up: Contents Under Pressure"
+year: null
+user: hockdudu
+runner: winesteam
+slug: marc-eckos-getting-up-content-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-11T10:00:13.760000Z'
+updated_at: '2018-08-12T05:06:31.482824Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 260190
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    overrides:
+      d3d8: native,builtin
+      msvcp71: native
+  game:
+    appid: 260190

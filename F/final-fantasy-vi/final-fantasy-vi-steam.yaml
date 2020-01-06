@@ -1,0 +1,27 @@
+id: 10002
+game_id: 5959
+game_slug: final-fantasy-vi
+name: FINAL FANTASY VI
+year: null
+user: 502902549aedfdaa2a32d0c1eb182176
+runner: winesteam
+slug: final-fantasy-vi-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-09-02T12:44:36.777893Z'
+updated_at: '2018-09-02T17:03:23.835176Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 382900
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-3.12-x86_64
+  game:
+    appid: 382900
+    arch: win64

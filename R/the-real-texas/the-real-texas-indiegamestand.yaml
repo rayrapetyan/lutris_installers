@@ -1,0 +1,28 @@
+id: 4483
+game_id: 3905
+game_slug: the-real-texas
+name: The Real Texas
+year: 2012
+user: FakeShemp
+runner: linux
+slug: the-real-texas-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-06-18T16:22:36.568900Z'
+updated_at: '2017-06-18T23:22:25.706529Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 261900
+gogid: 1207659140
+gogslug: the_real_texas
+humblestoreid: ''
+script:
+  exe: therealtexas
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the IndieGameStand archive

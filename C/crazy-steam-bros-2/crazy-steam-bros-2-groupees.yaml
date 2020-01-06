@@ -1,0 +1,29 @@
+id: 4972
+game_id: 5050
+game_slug: crazy-steam-bros-2
+name: Crazy Steam Bros 2
+year: null
+user: FakeShemp
+runner: linux
+slug: crazy-steam-bros-2-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-11T19:35:08.860000Z'
+updated_at: '2017-07-26T07:29:15.637749Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 355080
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: runner
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/runner
+  files:
+  - file1: N/A:Please select the Groupees archive

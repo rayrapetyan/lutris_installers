@@ -1,0 +1,35 @@
+id: 5300
+game_id: 4207
+game_slug: nightmares-from-the-deep-3-davy-jones
+name: 'Nightmares from the Deep 3: Davy Jones'
+year: null
+user: FakeShemp
+runner: wine
+slug: nightmares-from-the-deep-3-da-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-07T18:06:25.438000Z'
+updated_at: '2018-05-19T03:41:58.166187Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 284810
+gogid: 1074372977
+gogslug: nightmares_from_the_deep_3_davy_jones
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      args: /sp- /silent /norestart
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Artifex Mundi/Nightmares from the Deep - Davy Jones
+      - Collectors Edition (EN)/NightmaresFromTheDeep_DavyJones_CE.exe
+    arch: win32

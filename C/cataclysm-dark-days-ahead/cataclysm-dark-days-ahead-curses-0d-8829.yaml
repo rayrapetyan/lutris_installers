@@ -1,0 +1,32 @@
+id: 9917
+game_id: 7845
+game_slug: cataclysm-dark-days-ahead
+name: 'Cataclysm: Dark Days Ahead'
+year: null
+user: basxto
+runner: linux
+slug: cataclysm-dark-days-ahead-curses-0d-8829
+version: Curses 0.D-8829
+description: null
+notes: ''
+created_at: '2018-08-28T04:17:21.297000Z'
+updated_at: '2019-04-23T04:10:41.057166Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  system:
+    terminal: true
+  installer:
+  - extract:
+      src: game
+      format: tgz
+      dst: $GAMEDIR/
+  exe: cataclysm-launcher
+  files:
+  - game: http://dev.narc.ro/cataclysm/jenkins-latest/Linux_x64/Curses/cataclysmdda-0.D-8829.tar.gz

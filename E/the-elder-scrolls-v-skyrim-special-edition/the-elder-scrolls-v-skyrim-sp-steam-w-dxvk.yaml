@@ -1,0 +1,31 @@
+id: 8298
+game_id: 8224
+game_slug: the-elder-scrolls-v-skyrim-special-edition
+name: 'The Elder Scrolls V: Skyrim Special Edition'
+year: 2015
+user: Laegnur
+runner: winesteam
+slug: the-elder-scrolls-v-skyrim-sp-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2018-05-15T07:14:05.952000Z'
+updated_at: '2019-12-18T14:45:34.450346Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 489830
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    esync: true
+    dxvk: true
+  system:
+    pulse_latency: true
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 489830
+    arch: win64

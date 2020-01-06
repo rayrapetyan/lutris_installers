@@ -1,0 +1,31 @@
+id: 358
+game_id: 1678
+game_slug: speris-legacy
+name: The Speris Legacy
+year: 1996
+user: strider
+runner: fsuae
+slug: speris-legacy-cd32
+version: cd32
+description: ''
+notes: ''
+created_at: '2014-01-12T02:57:13.152000Z'
+updated_at: '2014-01-12T02:57:16.822000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: Speris Legacy, The (1995)(Team 17)(M4)[!].cue
+  fsuae:
+    model: CD32
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: cdrom-archive
+  files:
+  - cdrom-archive: N/A

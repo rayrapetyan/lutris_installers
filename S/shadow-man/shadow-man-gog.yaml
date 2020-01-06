@@ -1,0 +1,38 @@
+id: 12697
+game_id: 2243
+game_slug: shadow-man
+name: Shadow Man
+year: 1999
+user: cxf
+runner: wine
+slug: shadow-man-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-04-09T06:21:16.311000Z'
+updated_at: '2020-01-05T00:53:59.187682Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 251770
+gogid: 1207659713
+gogslug: shadow_man
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES
+      name: wineexec
+  files:
+  - setup: N/A:Select gog setup exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Shadow Man/Shadowman.exe
+    arch: win32

@@ -1,0 +1,33 @@
+id: 8479
+game_id: 15304
+game_slug: closers
+name: Closers
+year: null
+user: sigmacool
+runner: winesteam
+slug: closers-steam
+version: Steam
+description: null
+notes: "Game starts only with windows xp set. \r\nGame than crash immediately because\
+  \ of anti cheat XIGNCODE."
+created_at: '2018-05-30T23:57:14.587000Z'
+updated_at: '2018-05-31T20:50:36.805119Z'
+draft: false
+published: true
+published_by: null
+rating: '1'
+steamid: 215830
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows version to XP
+      arch: win64
+      app: winxp
+      silent: true
+      name: winetricks
+  game:
+    appid: 215830

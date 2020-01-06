@@ -1,0 +1,17 @@
+name: Allods Online
+slug: allods-online-mycom
+year: 2010
+platforms:
+- name: Windows
+genres:
+- name: MMO
+- name: MMORPG
+- name: RPG
+aliases: []
+banner_url: /games/banner/allods-online-mycom.jpg
+icon_url: /games/icon/allods-online-mycom.png
+is_public: true
+updated: '2019-01-23T08:28:19.467146Z'
+steamid: 459160
+gogslug: ''
+humblestoreid: ''

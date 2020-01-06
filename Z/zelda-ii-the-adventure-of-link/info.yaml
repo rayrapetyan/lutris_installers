@@ -1,0 +1,17 @@
+name: 'Zelda II: The Adventure of Link'
+slug: zelda-ii-the-adventure-of-link
+year: 1988
+platforms:
+- name: NES
+genres:
+- name: Adventure
+- name: Platform
+- name: RPG
+aliases: []
+banner_url: /games/banner/zelda-ii-the-adventure-of-link.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:14.127891Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

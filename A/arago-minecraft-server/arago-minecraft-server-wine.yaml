@@ -1,0 +1,41 @@
+id: 16209
+game_id: 29771
+game_slug: arago-minecraft-server
+name: ARAGO (minecraft server)
+year: 2019
+user: TNT_nolik
+runner: wine
+slug: arago-minecraft-server-wine
+version: wine
+description: null
+notes: ''
+created_at: '2019-10-16T09:02:58.613800Z'
+updated_at: '2019-10-16T09:02:58.613832Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: client
+      dst: $GAMEDIR
+  - extract:
+      nomerge: true
+      file: java
+  - execute:
+      command: mkdir "$GAMEDIR/ARAGO"
+  - execute:
+      command: ln -s "$GAMEDIR/ARAGO" "$HOME/ARAGO"
+  system:
+    require-binaries: gcc
+  files:
+  - client: https://arago.games/uploads/files/ARAGO.jar
+  - java: https://lutris.net/files/runners/jre-8u191-linux-i586.tar.gz
+  game:
+    args: -Xms1024m -Xmx2048m -jar '$GAMEDIR/ARAGO.jar'
+    exe: jre1.8.0_191/bin/java

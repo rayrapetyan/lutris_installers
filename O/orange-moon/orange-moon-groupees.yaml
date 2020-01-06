@@ -1,0 +1,31 @@
+id: 4893
+game_id: 6893
+game_slug: orange-moon
+name: Orange Moon
+year: null
+user: FakeShemp
+runner: linux
+slug: orange-moon-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-07T18:03:33.401000Z'
+updated_at: '2017-07-09T20:06:46.170283Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 432950
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: linux32/orangemoon
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/linux32/orangemoon
+  - chmodx: $GAMEDIR/linux64/orangemoon
+  exe64: linux64/orangemoon
+  files:
+  - file1: N/A:Please select the Groupees archive

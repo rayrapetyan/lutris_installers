@@ -1,0 +1,17 @@
+name: 'Monkey King: Master of the Clouds'
+slug: monkey-king-master-of-the-clouds
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Arcade
+- name: Fantasy
+- name: Shooter
+aliases: []
+banner_url: /games/banner/monkey-king-master-of-the-clouds.jpg
+icon_url: null
+is_public: true
+updated: '2019-11-06T18:39:46.525917Z'
+steamid: 816630
+gogslug: monkey_king_master_of_the_clouds
+humblestoreid: ''

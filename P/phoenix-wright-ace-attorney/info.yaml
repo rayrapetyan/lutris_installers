@@ -1,0 +1,16 @@
+name: 'Phoenix Wright: Ace Attorney'
+slug: phoenix-wright-ace-attorney
+year: 2005
+platforms:
+- name: Nintendo DS
+genres:
+- name: Adventure
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/phoenix-wright-ace-attorney.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:43.860722Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

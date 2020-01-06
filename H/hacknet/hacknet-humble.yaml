@@ -1,0 +1,32 @@
+id: 6155
+game_id: 5277
+game_slug: hacknet
+name: Hacknet
+year: 2015
+user: FakeShemp
+runner: linux
+slug: hacknet-humble
+version: Humble
+description: Labyrinths DLC
+notes: ''
+created_at: '2017-10-28T10:20:19.483583Z'
+updated_at: '2017-10-28T10:21:37.905178Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 365450
+gogid: 1439474400
+gogslug: hacknet
+humblestoreid: ''
+script:
+  requires: hacknet
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/Hacknet_Labyrinths_v5.034
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble archive

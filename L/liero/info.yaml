@@ -1,0 +1,16 @@
+name: Liero
+slug: liero
+year: 1999
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/liero.jpg
+icon_url: null
+is_public: true
+updated: '2019-05-18T02:49:42.155057Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

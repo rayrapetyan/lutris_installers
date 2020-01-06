@@ -1,0 +1,16 @@
+name: Brutal Doom
+slug: brutal-doom
+year: 2010
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/brutal-doom.jpg
+icon_url: null
+is_public: true
+updated: '2019-06-12T03:50:50.054923Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

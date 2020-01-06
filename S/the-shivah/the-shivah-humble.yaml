@@ -1,0 +1,40 @@
+id: 3967
+game_id: 1547
+game_slug: the-shivah
+name: The Shivah
+year: 2006
+user: FakeShemp
+runner: linux
+slug: the-shivah-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-30T07:52:58.491179Z'
+updated_at: '2017-05-30T10:03:14.763237Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 252370
+gogid: 1207660263
+gogslug: the_shivah
+humblestoreid: ''
+script:
+  exe: Shivah.bin.x86
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data/noarch
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86_64
+      dst: $GAMEDIR
+  exe64: Shivah.bin.x86_64
+  files:
+  - file1: N/A:Please select the Humble installer

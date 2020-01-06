@@ -1,0 +1,24 @@
+id: 6462
+game_id: 3015
+game_slug: dynomite-deluxe
+name: Dynomite! Deluxe
+year: null
+user: Stoney_Fish
+runner: winesteam
+slug: dynomite-deluxe-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-11-28T21:56:50.188952Z'
+updated_at: '2017-12-17T05:43:10.705158Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 3380
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 3380

@@ -1,0 +1,24 @@
+id: 1042
+game_id: 3352
+game_slug: bik-a-space-adventure
+name: Bik - A Space Adventure
+year: null
+user: Xodetaetl
+runner: steam
+slug: bik-a-space-adventure-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-11-10T10:21:02.981000Z'
+updated_at: '2014-11-10T10:28:28.249000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 325160
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 325160

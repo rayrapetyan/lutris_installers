@@ -1,0 +1,37 @@
+id: 7649
+game_id: 382
+game_slug: vampire-the-masquerade-bloodlines
+name: 'Vampire: The Masquerade - Bloodlines'
+year: 2004
+user: andrerbarata
+runner: wine
+slug: vampire-the-masquerade-bloodl-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2018-03-25T08:43:39.688000Z'
+updated_at: '2019-06-13T21:26:13.830169Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: 2600
+gogid: 1207659240
+gogslug: vampire_the_masquerade_bloodlines
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating WINE prefix
+      name: create_prefix
+  - task:
+      executable: installer
+      args: /VERYSILENT /SUPPRESSMSGBOXES
+      description: Running Setup, please wait...
+      name: wineexec
+  files:
+  - installer: N/A:Select the EXE downloaded from GOG
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/VtMB/vampire.exe

@@ -1,0 +1,32 @@
+id: 4189
+game_id: 2994
+game_slug: year-walk
+name: Year Walk
+year: null
+user: FakeShemp
+runner: wine
+slug: year-walk-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-07T17:33:13.686647Z'
+updated_at: '2018-05-19T03:41:51.351392Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 269050
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Year Walk
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Year Walk/yearwalk.exe
+    arch: win32

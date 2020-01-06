@@ -1,0 +1,16 @@
+name: Crazy Balloon
+slug: crazy-balloon
+year: 1980
+platforms:
+- name: ZX Spectrum
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/crazy-balloon.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:59.782745Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,17 @@
+name: Wasteland
+slug: wasteland
+year: 1988
+platforms:
+- name: Apple //e
+- name: Commodore 64
+- name: Linux
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/wasteland.jpg
+icon_url: /games/icon/wasteland.png
+is_public: true
+updated: '2019-01-23T08:32:06.750726Z'
+steamid: 259130
+gogslug: ''
+humblestoreid: ''

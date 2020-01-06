@@ -1,0 +1,16 @@
+name: 'Paper Mario: The Thousand-Year Door'
+slug: paper-mario-the-thousand-year-door
+year: 2004
+platforms:
+- name: GameCube
+genres:
+- name: Fighting
+- name: RPG
+aliases: []
+banner_url: /games/banner/paper-mario-the-thousand-year-door.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:41.942898Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

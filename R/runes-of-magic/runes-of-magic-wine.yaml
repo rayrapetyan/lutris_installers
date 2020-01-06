@@ -1,0 +1,39 @@
+id: 8571
+game_id: 6229
+game_slug: runes-of-magic
+name: Runes of Magic
+year: 2009
+user: sigmacool
+runner: wine
+slug: runes-of-magic-wine
+version: wine
+description: null
+notes: "Game is playable, mouse is flickering but its not game breaking.\r\nIf mouse\
+  \ is invisible try window mode. \r\nIn Game store doesn't work."
+created_at: '2018-06-07T21:31:15.059000Z'
+updated_at: '2018-06-08T05:56:04.923015Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 808290
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: rom_installer
+      prefix: $GAMEDIR/prefix
+      description: Please don't change default game install path .
+      name: wineexec
+  files:
+  - rom_installer: http://dl.rom.gameforge.com/rom/client/RunesOfMagic_Setup.exe
+  game:
+    prefix: $GAMEDIR/prefix/
+    exe: $GAMEDIR/prefix/drive_c/Program Files (x86)/Runes Of Magic/Client.exe
+    arch: win64

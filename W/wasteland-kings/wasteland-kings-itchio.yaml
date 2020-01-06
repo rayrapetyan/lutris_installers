@@ -1,0 +1,32 @@
+id: 6117
+game_id: 14410
+game_slug: wasteland-kings
+name: Wasteland Kings
+year: 2013
+user: FakeShemp
+runner: wine
+slug: wasteland-kings-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-10-26T07:29:04.673351Z'
+updated_at: '2018-05-19T03:41:53.966854Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR/drive_c/Program Files/Wasteland Kings
+  files:
+  - file1: N/A:Please select the itch.io executable
+  game:
+    prefix: $GAMEDIR
+    exe: file1
+    arch: win32

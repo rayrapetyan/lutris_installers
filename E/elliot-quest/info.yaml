@@ -1,0 +1,16 @@
+name: Elliot Quest
+slug: elliot-quest
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/elliot-quest.jpg
+icon_url: /games/icon/elliot-quest.png
+is_public: true
+updated: '2019-01-23T08:29:22.344865Z'
+steamid: 293440
+gogslug: ''
+humblestoreid: elliot-quest

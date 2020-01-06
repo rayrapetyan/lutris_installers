@@ -1,0 +1,22 @@
+name: Super Cobra
+slug: super-cobra
+year: 1981
+platforms:
+- name: Arcade
+- name: Atari 2600
+- name: Atari 5200
+- name: Colecovision
+- name: Intellivision
+- name: "Magnavox Odyssey\xB2"
+- name: MSX
+genres:
+- name: Flight
+- name: Shooter
+aliases: []
+banner_url: /games/banner/super-cobra.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:29.791433Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

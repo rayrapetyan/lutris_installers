@@ -1,0 +1,16 @@
+name: 'Deus Ex: Human Revolution'
+slug: deus-ex-human-revolution
+year: 2011
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: RPG
+aliases: []
+banner_url: /games/banner/deus-ex-human-revolution.jpg
+icon_url: /games/icon/deus-ex-human-revolution.png
+is_public: true
+updated: '2019-03-30T01:15:20.676225Z'
+steamid: 28050
+gogslug: ''
+humblestoreid: ''

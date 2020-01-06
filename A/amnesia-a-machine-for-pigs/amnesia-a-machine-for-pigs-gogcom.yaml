@@ -1,0 +1,38 @@
+id: 2697
+game_id: 517
+game_slug: amnesia-a-machine-for-pigs
+name: 'Amnesia: A Machine for Pigs'
+year: 2013
+user: ssf
+runner: linux
+slug: amnesia-a-machine-for-pigs-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2016-09-07T17:48:56.939444Z'
+updated_at: '2016-09-16T20:09:25.171092Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 239200
+gogid: 1207659443
+gogslug: amnesia_a_machine_for_pigs
+humblestoreid: ''
+script:
+  exe: game/start.sh
+  gogid: amnesia_a_machine_for_pigs
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Please select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

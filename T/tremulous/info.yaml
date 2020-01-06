@@ -1,0 +1,17 @@
+name: Tremulous
+slug: tremulous
+year: 2006
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: FPS
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/tremulous.jpg
+icon_url: /games/icon/tremulous.png
+is_public: true
+updated: '2019-01-23T08:31:55.424578Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

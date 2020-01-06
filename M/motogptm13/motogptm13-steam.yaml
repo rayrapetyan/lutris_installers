@@ -1,0 +1,24 @@
+id: 12566
+game_id: 9870
+game_slug: motogptm13
+name: "MotoGP\u212213"
+year: 2013
+user: cxf
+runner: winesteam
+slug: motogptm13-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-03-30T01:11:25.915804Z'
+updated_at: '2019-03-30T01:11:33.515586Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 240600
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 240600

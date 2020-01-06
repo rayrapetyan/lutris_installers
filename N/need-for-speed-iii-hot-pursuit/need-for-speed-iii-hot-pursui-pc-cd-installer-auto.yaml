@@ -1,0 +1,54 @@
+id: 14602
+game_id: 15140
+game_slug: need-for-speed-iii-hot-pursuit
+name: 'Need for Speed III: Hot Pursuit'
+year: 1998
+user: dsmanneke
+runner: wine
+slug: need-for-speed-iii-hot-pursui-pc-cd-installer-auto
+version: PC CD Installer automenu.exe
+description: for cd's that have automenu.exe instead of a autorun.exe
+notes: "After setup, first game launch is a black screen. Close the game and wine\
+  \ and rerun the game. \r\n\r\nthis is a forced version from the original PC CD Installer:\r\
+  \n\r\nI couldn't make the game itself run (only the launcher), but I thought maybe\
+  \ this works for others as it has good ratings on winehq\r\n\r\non the winehq page\
+  \ there is an additional dll patch for higher resolutions https://appdb.winehq.org/objectManager.php?sClass=version&iId=1903&iTestingId=75112\r\
+  \n\r\nYou will have to mount the CD as loop device on some folder or keep the CD\
+  \ in while playing the game due to DRM"
+created_at: '2019-07-17T11:32:40.453000Z'
+updated_at: '2019-09-09T00:45:36.319399Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: automenu.EXE
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: win95
+      arch: win32
+      name: winetricks
+  - task:
+      executable: $DISC/automenu.EXE
+      prefix: $GAMEDIR
+      name: wineexec
+  system:
+    prefix_command: taskset --cpu-list 0-1
+  wine:
+    WineDesktop: 1024x768
+    Desktop: true
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/Electronic Arts/Need For Speed III/nfs3.exe
+    working_dir: $GAMEDIR/drive_c/Program Files/Electronic Arts/Need For Speed III
+    arch: win32

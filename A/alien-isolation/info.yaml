@@ -1,0 +1,18 @@
+name: 'Alien: Isolation'
+slug: alien-isolation
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: Stealth
+- name: Survival
+aliases: []
+banner_url: /games/banner/alien-isolation.jpg
+icon_url: /games/icon/alien-isolation.png
+is_public: true
+updated: '2019-01-23T08:28:18.673625Z'
+steamid: 214490
+gogslug: ''
+humblestoreid: alien-isolation

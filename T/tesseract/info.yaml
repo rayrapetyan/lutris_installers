@@ -1,0 +1,15 @@
+name: Tesseract
+slug: tesseract
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/tesseract.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:37.555365Z'
+steamid: 304810
+gogslug: ''
+humblestoreid: ''

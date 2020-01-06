@@ -1,0 +1,17 @@
+name: FINAL FANTASY VIII
+slug: final-fantasy-viii
+year: 1999
+platforms:
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: jRPG
+- name: RPG
+aliases: []
+banner_url: /games/banner/final-fantasy-viii.jpg
+icon_url: /games/icon/final-fantasy-viii.png
+is_public: true
+updated: '2019-01-23T08:29:30.877177Z'
+steamid: 39150
+gogslug: ''
+humblestoreid: ''

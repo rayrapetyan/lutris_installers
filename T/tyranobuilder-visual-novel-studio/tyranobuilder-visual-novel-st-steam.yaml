@@ -1,0 +1,24 @@
+id: 8659
+game_id: 6943
+game_slug: tyranobuilder-visual-novel-studio
+name: TyranoBuilder Visual Novel Studio
+year: null
+user: soredake
+runner: winesteam
+slug: tyranobuilder-visual-novel-st-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-11T07:41:07.181353Z'
+updated_at: '2018-06-11T07:52:48.745137Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 345370
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 345370

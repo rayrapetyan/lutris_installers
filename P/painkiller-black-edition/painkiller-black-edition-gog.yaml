@@ -1,0 +1,52 @@
+id: 2515
+game_id: 1016
+game_slug: painkiller-black-edition
+name: 'Painkiller: Black Edition'
+year: 2005
+user: strider
+runner: wine
+slug: painkiller-black-edition-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2016-08-20T00:18:49.036991Z'
+updated_at: '2016-09-19T22:17:35.347039Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 39530
+gogid: 1207658715
+gogslug: painkiller
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      type: REG_SZ
+      value: ''
+      key: winemenubuilder.exe
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /NOCANCEL '/DIR=C:/Painkiller'
+      description: Installing...
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Disabling unused WINE features
+      app: sandbox
+      silent: true
+      name: winetricks
+  files:
+  - game: N/A:Please select the GOG.com Windows installer(EXE file).
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Painkiller/Bin/Painkiller.exe
+    arch: win32

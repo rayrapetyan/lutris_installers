@@ -1,0 +1,16 @@
+name: Final Fantasy VII
+slug: final-fantasy-vii
+year: 1997
+platforms:
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: jRPG
+aliases: []
+banner_url: /games/banner/final-fantasy-vii.jpg
+icon_url: /games/icon/final-fantasy-vii.png
+is_public: true
+updated: '2019-01-23T08:29:30.862295Z'
+steamid: 39140
+gogslug: ''
+humblestoreid: final-fantasy-vii

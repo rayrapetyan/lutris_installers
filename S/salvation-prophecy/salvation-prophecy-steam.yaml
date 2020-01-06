@@ -1,0 +1,24 @@
+id: 830
+game_id: 1648
+game_slug: salvation-prophecy
+name: Salvation Prophecy
+year: null
+user: Xodetaetl
+runner: steam
+slug: salvation-prophecy-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T16:46:57.412000Z'
+updated_at: '2014-09-15T17:10:37.971000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 248450
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 248450

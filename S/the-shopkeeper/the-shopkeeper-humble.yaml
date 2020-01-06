@@ -1,0 +1,29 @@
+id: 3825
+game_id: 3667
+game_slug: the-shopkeeper
+name: The Shopkeeper
+year: null
+user: FakeShemp
+runner: linux
+slug: the-shopkeeper-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-23T20:16:05.212456Z'
+updated_at: '2017-05-26T00:05:38.194653Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 324610
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: TheShopkeeper.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/TheShopkeeper.x86
+  files:
+  - file1: N/A:Please select the Humble archive

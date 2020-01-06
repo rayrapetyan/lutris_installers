@@ -1,0 +1,24 @@
+id: 1979
+game_id: 2087
+game_slug: dead-island-epidemic
+name: 'Dead Island: Epidemic'
+year: null
+user: vinrainonejr
+runner: wine
+slug: dead-island-epidemic-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-02-16T00:28:57.821771Z'
+updated_at: '2016-02-26T15:42:03.334504Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 222900
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 222900

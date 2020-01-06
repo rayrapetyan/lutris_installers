@@ -1,0 +1,71 @@
+id: 16052
+game_id: 979
+game_slug: far-cry-3
+name: Far Cry 3
+year: 2012
+user: Franchiver
+runner: wine
+slug: far-cry-3-uplay-w-dxvk
+version: Uplay w/ DXVK
+description: null
+notes: ''
+created_at: '2019-10-08T01:25:07.022000Z'
+updated_at: '2019-10-12T01:03:44.950422Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 220240
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows version to 7
+      app: win7
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing corefonts
+      app: corefonts
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing DirectX dlls
+      app: d3dx11_43 d3dcompiler_43
+      arch: win32
+      name: winetricks
+  - task:
+      executable: uplay
+      prefix: $GAMEDIR
+      args: /S
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: winekill
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Ubisoft/Ubisoft Game Launcher/Uplay.exe
+    arch: win32
+  system:
+    env:
+      DXVK_HUD: 0
+    pulse_latency: true
+  wine:
+    version: tkg-4.0-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      xaudio2_7: native,builtin
+  files:
+  - uplay: https://ubistatic3-a.akamaihd.net/orbit/launcher_installer/UplayInstaller.exe

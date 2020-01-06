@@ -1,0 +1,34 @@
+id: 17746
+game_id: 3661
+game_slug: wacky-wheels
+name: Wacky Wheels
+year: 1994
+user: schmarky
+runner: linux
+slug: wacky-wheels-gog-1
+version: GoG
+description: null
+notes: ''
+created_at: '2020-01-04T20:43:18.992116Z'
+updated_at: '2020-01-04T20:43:18.992143Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: 358380
+gogid: 1207665483
+gogslug: wacky_wheels
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

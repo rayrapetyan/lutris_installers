@@ -1,0 +1,24 @@
+id: 10126
+game_id: 6667
+game_slug: angry-video-game-nerd-ii-assimilation
+name: 'Angry Video Game Nerd II: ASSimilation'
+year: 2016
+user: liushuyu
+runner: steam
+slug: angry-video-game-nerd-ii-assi-steam-1
+version: Steam
+description: null
+notes: ''
+created_at: '2018-09-09T03:07:27.831000Z'
+updated_at: '2018-09-09T07:17:22.932490Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 409660
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 409660

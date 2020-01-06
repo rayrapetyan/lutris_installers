@@ -1,0 +1,35 @@
+id: 12351
+game_id: 6125
+game_slug: master-of-orion-3
+name: Master of Orion 3
+year: 2003
+user: cxf
+runner: wine
+slug: master-of-orion-3-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-03-12T05:31:37.963670Z'
+updated_at: '2019-03-12T05:31:44.023994Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 410990
+gogid: 1207658858
+gogslug: master_of_orion_3
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      executable: goginstaller
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - goginstaller: N/A:Select gog setup exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Master of Orion 3/moo3.exe

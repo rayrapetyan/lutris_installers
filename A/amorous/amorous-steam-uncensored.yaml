@@ -1,0 +1,28 @@
+id: 8841
+game_id: 18933
+game_slug: amorous
+name: Amorous
+year: 2018
+user: kimchitea
+runner: steam
+slug: amorous-steam-uncensored
+version: Steam (uncensored)
+description: null
+notes: ''
+created_at: '2018-06-21T06:42:42.550000Z'
+updated_at: '2018-06-21T10:28:40.370064Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 778700
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - write_file:
+      content: null
+      file: $GAMEDIR/ShowMeSomeBooty
+  game:
+    appid: 778700

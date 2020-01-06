@@ -1,0 +1,17 @@
+name: Yume Nikki
+slug: yume-nikki
+year: 2004
+platforms:
+- name: Windows
+genres:
+- name: Exploration
+- name: Horror
+- name: jRPG
+aliases: []
+banner_url: /games/banner/yume-nikki.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:13.802751Z'
+steamid: 650700
+gogslug: ''
+humblestoreid: ''

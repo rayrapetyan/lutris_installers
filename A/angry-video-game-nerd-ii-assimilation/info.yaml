@@ -1,0 +1,16 @@
+name: 'Angry Video Game Nerd II: ASSimilation'
+slug: angry-video-game-nerd-ii-assimilation
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Platform
+aliases: []
+banner_url: /games/banner/angry-video-game-nerd-ii-assimilation.jpg
+icon_url: /games/icon/angry-video-game-nerd-ii-assimilation.png
+is_public: true
+updated: '2019-01-23T08:28:21.977057Z'
+steamid: 409660
+gogslug: ''
+humblestoreid: ''

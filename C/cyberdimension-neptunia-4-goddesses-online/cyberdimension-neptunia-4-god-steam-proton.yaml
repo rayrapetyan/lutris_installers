@@ -1,0 +1,27 @@
+id: 16228
+game_id: 17499
+game_slug: cyberdimension-neptunia-4-goddesses-online
+name: 'Cyberdimension Neptunia: 4 Goddesses Online'
+year: 2018
+user: packof14eggies
+runner: steam
+slug: cyberdimension-neptunia-4-god-steam-proton
+version: Steam Proton
+description: null
+notes: "On some setups, the game may appear to blackscreen at startup for a couple\
+  \ of minutes while loading, since it plays videos while loading, and these are not\
+  \ supported by default.\r\nThis can be fixed by installing the Media Foundation\
+  \ codecs, using the below tool:\r\nhttps://github.com/z0z0z/mf-install"
+created_at: '2019-10-16T19:01:23.688000Z'
+updated_at: '2019-12-22T11:31:34.214949Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 632350
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 632350

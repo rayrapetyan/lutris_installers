@@ -1,0 +1,24 @@
+id: 14229
+game_id: 28069
+game_slug: dota-underlords
+name: Dota Underlords
+year: 2019
+user: TuiorGames
+runner: steam
+slug: dota-underlords-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-06-20T20:24:55.029000Z'
+updated_at: '2019-06-21T04:41:45.863416Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 1046930
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 1046930

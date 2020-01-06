@@ -1,0 +1,24 @@
+id: 1485
+game_id: 4206
+game_slug: enigmatis-the-ghosts-of-maple-creek
+name: 'Enigmatis: The Ghosts of Maple Creek'
+year: null
+user: Xodetaetl
+runner: steam
+slug: enigmatis-the-ghosts-of-maple-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-04-25T17:46:30.386000Z'
+updated_at: '2015-04-25T17:55:47.085000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 284750
+gogid: 1936959826
+gogslug: enigmatis_the_ghosts_of_maple_creek
+humblestoreid: ''
+script:
+  game:
+    appid: 284750

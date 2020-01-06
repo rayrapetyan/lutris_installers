@@ -1,0 +1,42 @@
+id: 3974
+game_id: 624
+game_slug: torchlight-ii
+name: Torchlight II
+year: 2012
+user: FakeShemp
+runner: linux
+slug: torchlight-ii-humble
+version: Humble
+description: null
+notes: ''
+created_at: '2017-05-30T18:08:00.971000Z'
+updated_at: '2018-03-23T14:41:20.875336Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 200710
+gogid: 1958228073
+gogslug: torchlight_ii
+humblestoreid: ''
+script:
+  system:
+    disable_runtime: true
+  files:
+  - file1: N/A:Please select the Humble installer
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data/noarch
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86_64
+      dst: $GAMEDIR
+  exe: Torchlight2.bin.x86
+  exe64: Torchlight2.bin.x86_64

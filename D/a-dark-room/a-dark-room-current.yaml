@@ -1,0 +1,26 @@
+id: 16563
+game_id: 21363
+game_slug: a-dark-room
+name: A dark room
+year: 2013
+user: archangel0x2a
+runner: web
+slug: a-dark-room-current
+version: current
+description: null
+notes: ''
+created_at: '2019-11-02T15:53:00.935424Z'
+updated_at: '2019-11-02T15:53:00.935457Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  web:
+    maximize_window: true
+  game:
+    main_file: http://orteil.dashnet.org/cookieclicker/

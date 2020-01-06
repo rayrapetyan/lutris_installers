@@ -1,0 +1,33 @@
+id: 11872
+game_id: 25588
+game_slug: marble-marcher
+name: Marble Marcher
+year: 2019
+user: yellowcrash10
+runner: linux
+slug: marble-marcher-update-5
+version: Update 5
+description: null
+notes: ''
+created_at: '2019-02-06T09:56:11.122832Z'
+updated_at: '2019-04-26T04:50:25.924027Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  require-binaries: bash
+  installer:
+  - extract:
+      file: game
+  - chmodx: MarbleMarcher
+  - chmodx: start.sh
+  files:
+  - game: https://github.com/yellowcrash10/MarbleMarcher-Linux/archive/master.zip
+  game:
+    exe: $GAMEDIR/start.sh
+    working_dir: $GAMEDIR

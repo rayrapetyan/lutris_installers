@@ -1,0 +1,24 @@
+name: Elite
+slug: elite
+year: 1984
+platforms:
+- name: Amiga
+- name: Amstrad CPC 464
+- name: Apple //e
+- name: Atari ST
+- name: Commodore 64
+- name: MS-DOS
+- name: MSX
+- name: NES
+- name: ZX Spectrum
+genres:
+- name: Space flight
+- name: Space simulation
+aliases: []
+banner_url: /games/banner/elite.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-17T06:22:04.938678Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,59 @@
+id: 16883
+game_id: 30404
+game_slug: garena-launcher-id
+name: Garena Launcher ID
+year: null
+user: dev0buzz
+runner: wine
+slug: garena-launcher-id-001
+version: 0.0.1
+description: null
+notes: ''
+created_at: '2019-11-18T08:44:39.051827Z'
+updated_at: '2019-11-18T08:44:39.051856Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: d3dcompiler_43 d3dx9
+      arch: win32
+      name: winetricks
+  - task:
+      executable: garena_installer
+      prefix: $GAMEDIR
+      description: Installing Garena Launcher
+      arch: win32
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: winekill
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/Garena/Garena/Garena.exe
+  system:
+    disable_compositor: true
+    env:
+      DXVK_LOG_LEVEL: none
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      __GL_SHADER_DISK_CACHE: 1
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+  wine:
+    version: tkg-4.3-x86_64
+    MouseWarpOverride: enable
+    d9vk: true
+  files:
+  - garena_installer: http://cdn.gxx.garenanow.com/gxx/pc/installer/Garena-v2.0.exe

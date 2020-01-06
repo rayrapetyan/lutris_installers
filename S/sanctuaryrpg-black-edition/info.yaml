@@ -1,0 +1,15 @@
+name: 'SanctuaryRPG: Black Edition'
+slug: sanctuaryrpg-black-edition
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/sanctuaryrpg-black-edition.jpg
+icon_url: /games/icon/sanctuaryrpg-black-edition.png
+is_public: true
+updated: '2019-01-23T08:31:07.127198Z'
+steamid: 328760
+gogslug: sanctuaryrpg_black_edition
+humblestoreid: ''

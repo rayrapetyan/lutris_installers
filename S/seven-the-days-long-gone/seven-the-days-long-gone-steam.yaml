@@ -1,0 +1,92 @@
+id: 13770
+game_id: 20308
+game_slug: seven-the-days-long-gone
+name: 'Seven: The Days Long Gone'
+year: null
+user: falmear
+runner: winesteam
+slug: seven-the-days-long-gone-steam
+version: Steam
+description: Installer is for the Enhanced edition on Steam. Fixes a number of issues
+  (cut scenes not working, hangs on black screen after intro & crackling audio). Installer
+  is based off of the Devil May Cry 5 installer with a few tweaks.
+notes: ''
+created_at: '2019-05-28T01:24:30.519000Z'
+updated_at: '2019-06-01T05:54:04.422618Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 471010
+gogid: 1276856962
+gogslug: seven_the_days_long_gone
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: xact_x64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2015
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: win7
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: cjkfonts
+      name: winetricks
+  - merge:
+      src: mfplat_dll_64
+      dst: $GAMEDIR/prefix/drive_c/windows/system32
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: mf
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      component: mediafoundation
+      cabfile: $HOME/.cache/winetricks/win7sp1/windows6.1-KB976932-X64.exe
+      name: install_cab_component
+  - task:
+      prefix: $GAMEDIR/prefix
+      component: mf_
+      cabfile: $HOME/.cache/winetricks/win7sp1/windows6.1-KB976932-X64.exe
+      name: install_cab_component
+  - task:
+      prefix: $GAMEDIR/prefix
+      component: mfreadwrite
+      cabfile: $HOME/.cache/winetricks/win7sp1/windows6.1-KB976932-X64.exe
+      name: install_cab_component
+  - task:
+      prefix: $GAMEDIR/prefix
+      component: wmadmod
+      cabfile: $HOME/.cache/winetricks/win7sp1/windows6.1-KB976932-X64.exe
+      name: install_cab_component
+  - task:
+      prefix: $GAMEDIR/prefix
+      component: wmvdecod
+      cabfile: $HOME/.cache/winetricks/win7sp1/windows6.1-KB976932-X64.exe
+      name: install_cab_component
+  winesteam:
+    version: tkg-protonified-4.6-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      mfplat: native,builtin
+  system:
+    env:
+      DXVK_HUD: 0
+  files:
+  - mfplat_dll_64: https://lutris.net/files/tools/dll/mfplat/x64/mfplat.dll
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 471010
+    arch: win64

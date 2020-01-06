@@ -1,0 +1,37 @@
+id: 9048
+game_id: 4616
+game_slug: ark-survival-evolved
+name: 'ARK: Survival Evolved'
+year: 2015
+user: VortexAcherontic
+runner: winesteam
+slug: ark-survival-evolved-steam-w-dxvk
+version: Steam w/ DXVK
+description: ARK does have a native Linux version but that one looks ugly. This installer
+  allows you to play ARK in a more beautiful version.
+notes: "- After a few hours or maybe minutes, depending on your system and the map\
+  \ you're playing, the game could fall into an stop n' go mode. Just restart ARK\
+  \ and you'll be good.\r\n\r\n- Sometimes changing graphic settings to low and back\
+  \ to your configuration solves the problem sometimes as well."
+created_at: '2018-07-06T16:52:38.376000Z'
+updated_at: '2019-09-08T23:19:47.237763Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 346110
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    appid: 346110
+    arch: win64

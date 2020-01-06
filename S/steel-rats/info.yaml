@@ -1,0 +1,17 @@
+name: Steel Rats
+slug: steel-rats
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Platformer
+- name: Racing
+aliases: []
+banner_url: /games/banner/steel-rats.jpg
+icon_url: null
+is_public: true
+updated: '2019-03-27T19:15:07.750104Z'
+steamid: 619700
+gogslug: steel_rats
+humblestoreid: ''

@@ -1,0 +1,16 @@
+name: 'The Legend of Heroes: Trails of Cold Steel'
+slug: the-legend-of-heroes-trails-of-cold-steel
+year: 2015
+platforms:
+- name: Sony Playstation 3
+- name: Windows
+genres:
+- name: jRPG
+aliases: []
+banner_url: /games/banner/the-legend-of-heroes-trails-of-cold-steel.jpg
+icon_url: /games/icon/the-legend-of-heroes-trails-of-cold-steel.png
+is_public: true
+updated: '2019-01-23T08:31:43.608052Z'
+steamid: 538680
+gogslug: legend_of_heroes_trails_of_cold_steel_the
+humblestoreid: ''

@@ -1,0 +1,49 @@
+id: 2224
+game_id: 3656
+game_slug: game-of-thrones-a-telltale-games-series
+name: Game of Thrones - A Telltale Games Series
+year: 2014
+user: ssf
+runner: wine
+slug: game-of-thrones-a-telltale-ga-season-1-gog
+version: Season 1 - GOG
+description: ''
+notes: ''
+created_at: '2016-06-28T17:38:58.413364Z'
+updated_at: '2016-08-18T21:34:48.006481Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 330840
+gogid: 1432208050
+gogslug: game_of_thrones_season_1
+humblestoreid: ''
+script:
+  exe: drive_c/GOG Games/Game of Thrones - Season 1/Thrones.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      type: REG_SZ
+      value: ''
+      key: winemenubuilder.exe
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /verysilent /RESTARTEXITCODE=0 /SP- /NORESTART /NOICONS /CLOSEAPPLICATIONS
+        /SUPPRESSMSGBOXES
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Disabling unused WINE features
+      app: sandbox
+      silent: true
+      name: winetricks
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.

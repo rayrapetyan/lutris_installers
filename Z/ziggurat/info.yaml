@@ -1,0 +1,16 @@
+name: Ziggurat
+slug: ziggurat
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: FPS
+aliases: []
+banner_url: /games/banner/ziggurat.jpg
+icon_url: /games/icon/ziggurat.png
+is_public: true
+updated: '2019-01-23T08:32:14.707320Z'
+steamid: 308420
+gogslug: ziggurat
+humblestoreid: ''

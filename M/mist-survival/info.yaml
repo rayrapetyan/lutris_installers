@@ -1,0 +1,17 @@
+name: Mist Survival
+slug: mist-survival
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Horror
+aliases: []
+banner_url: /games/banner/mist-survival.jpg
+icon_url: /games/icon/mist-survival.png
+is_public: true
+updated: '2019-01-23T08:30:25.131327Z'
+steamid: 914620
+gogslug: ''
+humblestoreid: ''

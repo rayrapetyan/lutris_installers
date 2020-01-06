@@ -1,0 +1,24 @@
+id: 1231
+game_id: 3573
+game_slug: about-love-hate-and-the-other-ones
+name: About Love, Hate and the other ones
+year: 2014
+user: Xodetaetl
+runner: steam
+slug: about-love-hate-and-the-other-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-01-05T19:23:07.094000Z'
+updated_at: '2015-01-05T19:23:11.437000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 277680
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 277680

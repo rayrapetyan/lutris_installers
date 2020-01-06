@@ -1,0 +1,16 @@
+name: Guns of Icarus Online
+slug: guns-of-icarus-online
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: Flight
+- name: MMOFPS
+aliases: []
+banner_url: /games/banner/guns-of-icarus-online.jpg
+icon_url: /games/icon/guns-of-icarus-online.png
+is_public: true
+updated: '2019-01-23T08:29:45.155626Z'
+steamid: 209080
+gogslug: ''
+humblestoreid: ''

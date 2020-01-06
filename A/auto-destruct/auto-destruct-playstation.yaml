@@ -1,0 +1,31 @@
+id: 6372
+game_id: 14848
+game_slug: auto-destruct
+name: Auto Destruct
+year: 1998
+user: FakeShemp
+runner: libretro
+slug: auto-destruct-playstation
+version: PlayStation
+description: null
+notes: ''
+created_at: '2017-11-18T20:19:17.618660Z'
+updated_at: '2017-11-18T20:23:46.261827Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the PlayStation image file
+  game:
+    core: mednafen_psx_hw
+    main_file: file1

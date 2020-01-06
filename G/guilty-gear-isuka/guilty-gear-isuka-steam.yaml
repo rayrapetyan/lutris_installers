@@ -1,0 +1,24 @@
+id: 7977
+game_id: 2488
+game_slug: guilty-gear-isuka
+name: Guilty Gear Isuka
+year: 2003
+user: JayCoda
+runner: winesteam
+slug: guilty-gear-isuka-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-04-23T17:00:17.726553Z'
+updated_at: '2018-04-30T07:02:18.142062Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 267900
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 267900

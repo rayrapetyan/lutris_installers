@@ -1,0 +1,42 @@
+id: 11318
+game_id: 11955
+game_slug: pokemon-revolution-online
+name: Pokemon Revolution Online
+year: 2014
+user: cxf
+runner: wine
+slug: pokemon-revolution-online-latest
+version: Latest
+description: null
+notes: ''
+created_at: '2018-12-23T21:15:18.102000Z'
+updated_at: '2019-09-09T00:49:47.331401Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/PRO/PROClient.exe
+    arch: win64
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: dotnet45
+      name: winetricks
+  - extract:
+      src: zip
+      dst: $GAMEDIR/drive_c/Program Files/PRO
+  wine:
+    version: tkg-3.21-x86_64
+  files:
+  - zip: N/A:Select zip file downloaded from Mega

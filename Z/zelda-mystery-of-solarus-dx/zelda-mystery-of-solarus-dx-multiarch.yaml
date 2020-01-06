@@ -1,0 +1,28 @@
+id: 100
+game_id: 553
+game_slug: zelda-mystery-of-solarus-dx
+name: 'Zelda: Mystery of Solarus DX'
+year: 2013
+user: strider
+runner: linux
+slug: zelda-mystery-of-solarus-dx-multiarch
+version: multiarch
+description: ''
+notes: ''
+created_at: '2013-12-16T21:52:37.227000Z'
+updated_at: '2014-11-19T16:17:00.796000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: zsdx
+  installer:
+  - extract:
+      file: zsdx-game
+  files:
+  - zsdx-game: http://lutris.net/files/games/solarus/solarus.tar.gz

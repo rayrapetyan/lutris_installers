@@ -1,0 +1,33 @@
+id: 9965
+game_id: 21370
+game_slug: rise-of-the-dragon
+name: Rise of the Dragon
+year: 1990
+user: savagedragon76
+runner: dosbox
+slug: rise-of-the-dragon-074
+version: '0.74'
+description: You can buy a GOG version (Windws only) https://www.gog.com/game/rise_of_the_dragon
+notes: Use fullscreen mode to auto capture mouse
+created_at: '2018-08-29T21:20:11.462238Z'
+updated_at: '2018-09-01T04:59:58.705240Z'
+draft: true
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1443550104
+gogslug: rise_of_the_dragon
+humblestoreid: ''
+script:
+  main_file: DRAGON.EXE
+  dosbox:
+    exit: true
+  installer:
+  - extract:
+      file: game
+  files:
+  - game:
+      filename: Rise-of-The-Dragon_DOS_EN_Pre-Installed.zip
+      url: https://www.myabandonware.com/game/rise-of-the-dragon-zz#download
+      files: Rise-of-The-Dragon_DOS_EN_Pre-Installed.zip

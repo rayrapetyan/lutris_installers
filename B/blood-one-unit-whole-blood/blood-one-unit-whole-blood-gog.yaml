@@ -1,0 +1,38 @@
+id: 12068
+game_id: 3629
+game_slug: blood-one-unit-whole-blood
+name: 'Blood: One Unit Whole Blood'
+year: 1997
+user: strider
+runner: linux
+slug: blood-one-unit-whole-blood-gog
+version: GOG
+description: Uses the open source engine nblood
+notes: ''
+created_at: '2019-02-17T07:57:13.853000Z'
+updated_at: '2019-02-17T08:00:34.244857Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 299030
+gogid: 1207658856
+gogslug: one_unit_whole_blood
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  - extract:
+      dst: $GAMEDIR/data
+      file: nblood_engine
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  - nblood_engine: https://lutris.nyc3.digitaloceanspaces.com/games/blood/nblood-20190216-x86_64.tar.gz
+  game:
+    exe: data/nblood

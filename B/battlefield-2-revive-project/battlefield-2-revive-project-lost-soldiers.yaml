@@ -1,0 +1,53 @@
+id: 17219
+game_id: 7860
+game_slug: battlefield-2-revive-project
+name: 'Battlefield 2: Revive Project'
+year: 2016
+user: GrbavaCigla
+runner: wine
+slug: battlefield-2-revive-project-lost-soldiers
+version: Lost-Soldiers
+description: "Installer downloads Lost-Soldier's game and BF2 Hub and installs them.\r\
+  \nPlease leave installation paths to default for both bf2hub and lost-soldier battlefield\
+  \ 2.\r\nhttps://www.lost-soldiers.org/"
+notes: ''
+created_at: '2019-12-07T16:20:58.074000Z'
+updated_at: '2019-12-22T11:33:33.024472Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  script:
+    installer:
+    - task:
+        prefix: $GAMEDIR
+        description: Creating Wine prefix
+        arch: win64
+        name: create_prefix
+    - extract:
+        dst: $GAMEDIR/bf2
+        file: game
+    - task:
+        executable: $GAMEDIR/bf2/Setup.exe
+        prefix: $GAMEDIR
+        description: Running the setup
+        arch: win64
+        name: wineexec
+    - task:
+        executable: bfhub
+        prefix: $GAMEDIR
+        description: Running BF2Hub
+        arch: win64
+        name: wineexec
+    files:
+    - game: https://download1640.mediafire.com/ocmt6iapjqvg/evnn10qka61e8ev/Battlefield+2+Complete+Collection.zip
+    - bfhub: https://www.bf2hub.com/downloads/bf2hub-client-setup.exe
+    game:
+      prefix: $GAMEDIR
+      exe: $GAMEDIR/drive_c/Program Files (x86)/BF2Hub Client/bf2hub.exe
+      arch: win64

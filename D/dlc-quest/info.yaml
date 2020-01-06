@@ -1,0 +1,16 @@
+name: DLC Quest
+slug: dlc-quest
+year: 2011
+platforms:
+- name: Windows
+genres:
+- name: Parody
+- name: Platform
+aliases: []
+banner_url: /games/banner/dlc-quest.jpg
+icon_url: /games/icon/dlc-quest.png
+is_public: true
+updated: '2019-01-23T08:29:14.196909Z'
+steamid: 230050
+gogslug: ''
+humblestoreid: dlc-quest

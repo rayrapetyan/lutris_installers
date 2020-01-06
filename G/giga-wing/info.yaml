@@ -1,0 +1,15 @@
+name: Giga Wing
+slug: giga-wing
+year: 1999
+platforms:
+- name: Arcade
+genres:
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/giga-wing.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-08T19:08:39.503480Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

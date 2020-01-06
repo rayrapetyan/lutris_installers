@@ -1,0 +1,33 @@
+id: 10160
+game_id: 15145
+game_slug: okami-hd
+name: "OKAMI HD / \u5927\u795E \u7D76\u666F\u7248"
+year: null
+user: bumba
+runner: winesteam
+slug: okami-hd-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2018-09-12T14:14:06.537000Z'
+updated_at: '2019-02-16T04:01:55.137535Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 587620
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: 0
+  game:
+    appid: 587620

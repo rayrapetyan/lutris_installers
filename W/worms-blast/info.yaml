@@ -1,0 +1,17 @@
+name: Worms Blast
+slug: worms-blast
+year: 2002
+platforms:
+- name: GameCube
+- name: Sony PlayStation 2
+- name: Windows
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/worms-blast.jpg
+icon_url: /games/icon/worms-blast.png
+is_public: true
+updated: '2019-03-06T04:52:54.925116Z'
+steamid: 70650
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,15 @@
+name: Orcs Must Die! Unchained
+slug: orcs-must-die-unchained
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/orcs-must-die-unchained.jpg
+icon_url: /games/icon/orcs-must-die-unchained.png
+is_public: true
+updated: '2019-01-23T08:30:38.059667Z'
+steamid: 427270
+gogslug: ''
+humblestoreid: ''

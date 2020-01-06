@@ -1,0 +1,28 @@
+id: 11870
+game_id: 25591
+game_slug: il-2-sturmovik-great-battles
+name: 'IL-2 Sturmovik: Great Battles'
+year: 2014
+user: Nick_R
+runner: wine
+slug: il-2-sturmovik-great-battles-il-2-dserver
+version: IL-2 DServer
+description: This package basically creates a shortcut to the DServer.exe
+notes: ''
+created_at: '2019-02-06T04:12:18.073071Z'
+updated_at: '2019-03-30T21:16:57.223564Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: il-2-sturmovik-great-battles-il-2-launcher
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/1C Game Studios/IL-2 Sturmovik Great Battles/bin/game/DServer.exe
+    working_dir: drive_c/Program Files (x86)/1C Game Studios/IL-2 Sturmovik Great
+      Battles/bin/game

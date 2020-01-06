@@ -1,0 +1,43 @@
+id: 16510
+game_id: 2179
+game_slug: praetorians
+name: Praetorians
+year: null
+user: Ambulanss
+runner: wine
+slug: praetorians-gog
+version: GOG
+description: null
+notes: It runs fine in windowed mode. Videos don't work, so you need to click through
+  them (left mouse button in game window does the trick). Campaign and skirmish run
+  fine, multiplayer untested.
+created_at: '2019-10-31T20:11:43.793000Z'
+updated_at: '2019-10-31T22:07:27.531759Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 277460
+gogid: 1207658795
+gogslug: praetorians
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Praetorians/Praetorians.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES /NOCANCEL
+      arch: win32
+      name: wineexec
+  wine:
+    Desktop: true
+  files:
+  - setup: N/A:Select the installer provided by GOG

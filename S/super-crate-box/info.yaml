@@ -1,0 +1,17 @@
+name: Super Crate Box
+slug: super-crate-box
+year: 2010
+platforms:
+- name: Commodore 64
+- name: Linux
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/super-crate-box.jpg
+icon_url: /games/icon/super-crate-box.png
+is_public: true
+updated: '2019-01-23T08:31:29.834403Z'
+steamid: 212800
+gogslug: ''
+humblestoreid: ''

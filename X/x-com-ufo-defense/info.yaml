@@ -1,0 +1,22 @@
+name: 'X-COM: UFO Defense'
+slug: x-com-ufo-defense
+year: 1993
+platforms:
+- name: Amiga
+- name: MS-DOS
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Sci-fi
+- name: Strategy
+- name: Turn-based
+aliases:
+- slug: ufo-enemy-unknown
+  name: 'UFO: Enemy Unknown'
+banner_url: /games/banner/x-com-ufo-defense.jpg
+icon_url: /games/icon/x-com-ufo-defense.png
+is_public: true
+updated: '2019-03-30T01:25:07.718025Z'
+steamid: 7760
+gogslug: xcom_ufo_defense
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 8191
+game_id: 4921
+game_slug: viridi
+name: Viridi
+year: null
+user: soredake
+runner: steam
+slug: viridi-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T06:59:12.770841Z'
+updated_at: '2018-05-12T10:18:06.523822Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 375950
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 375950

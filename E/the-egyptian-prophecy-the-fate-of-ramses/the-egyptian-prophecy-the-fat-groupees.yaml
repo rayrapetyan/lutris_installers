@@ -1,0 +1,32 @@
+id: 6732
+game_id: 3423
+game_slug: the-egyptian-prophecy-the-fate-of-ramses
+name: 'The Egyptian Prophecy: The Fate of Ramses'
+year: null
+user: FakeShemp
+runner: wine
+slug: the-egyptian-prophecy-the-fat-groupees
+version: Groupees
+description: null
+notes: ''
+created_at: '2017-12-19T23:27:45.186978Z'
+updated_at: '2018-05-19T03:42:00.219480Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 302160
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Egypt 3 The Egyptian Prophecy
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Egypt 3 The Egyptian Prophecy/Egypt3.exe
+    arch: win32

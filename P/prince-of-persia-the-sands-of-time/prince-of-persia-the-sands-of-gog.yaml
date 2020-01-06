@@ -1,0 +1,43 @@
+id: 5302
+game_id: 2
+game_slug: prince-of-persia-the-sands-of-time
+name: 'Prince of Persia: The Sands of Time'
+year: 2003
+user: FakeShemp
+runner: wine
+slug: prince-of-persia-the-sands-of-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2017-08-07T18:35:16.951000Z'
+updated_at: '2019-04-20T20:02:05.618365Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 13600
+gogid: 1207658747
+gogslug: prince_of_persia_the_sands_of_time
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2003 win7
+      arch: win32
+      name: winetricks
+  - task:
+      executable: goginstaller
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES /NOCANCEL
+      arch: win32
+      name: wineexec
+  files:
+  - goginstaller: N/A:Please select the GOG installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Prince of Persia - The Sands of Time/PrinceOfPersia.EXE

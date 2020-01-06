@@ -1,0 +1,56 @@
+id: 12613
+game_id: 25307
+game_slug: originsro
+name: OriginsRO
+year: 2013
+user: vinisba
+runner: wine
+slug: originsro-originsro
+version: OriginsRO
+description: 'Downloads the latest version of OriginsRO. Please note an account is
+  required to play: create one at http://originsro.org/join'
+notes: ''
+created_at: '2019-04-03T13:17:33.490000Z'
+updated_at: '2019-04-26T06:33:24.536233Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - extract:
+      dst: $GAMEDIR
+      file: client
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2008
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: ie8
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win32
+      type: REG_SZ
+      value: opengl
+      key: DirectDrawRenderer
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D
+  files:
+  - client: https://dl.originsro.org/client/OriginsRO-full-2017-03-21.zip
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/OriginsroLauncher.exe
+    working_dir: $GAMEDIR
+    arch: win32

@@ -1,0 +1,17 @@
+name: 'Giants: Citizen Kabuto'
+slug: giants-citizen-kabuto
+year: 2000
+platforms:
+- name: Sony PlayStation 2
+- name: Windows
+genres:
+- name: Action
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/giants-citizen-kabuto.jpg
+icon_url: /games/icon/giants-citizen-kabuto.png
+is_public: true
+updated: '2019-02-07T17:32:11.660394Z'
+steamid: 557750
+gogslug: giants_citizen_kabuto
+humblestoreid: ''

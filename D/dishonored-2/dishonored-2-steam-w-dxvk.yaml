@@ -1,0 +1,43 @@
+id: 6425
+game_id: 8877
+game_slug: dishonored-2
+name: Dishonored 2
+year: 2016
+user: strider
+runner: winesteam
+slug: dishonored-2-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2017-11-25T02:28:52.445000Z'
+updated_at: '2019-02-14T05:51:21.864566Z'
+draft: false
+published: true
+published_by: 19464
+rating: '5'
+steamid: 403640
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: xact
+      arch: win64
+      name: winetricks
+  winesteam:
+    version: tkg-4.0-x86_64
+    esync: true
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 403640
+    arch: win64

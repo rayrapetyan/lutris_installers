@@ -1,0 +1,16 @@
+name: "Pok\xE9mon: Alpha Sapphire"
+slug: pokemon-alpha-sapphire
+year: 2014
+platforms:
+- name: Nintendo 3DS
+genres:
+- name: RPG
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/pokemon-alpha-sapphire.jpg
+icon_url: null
+is_public: true
+updated: '2019-11-18T03:50:13.971551Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

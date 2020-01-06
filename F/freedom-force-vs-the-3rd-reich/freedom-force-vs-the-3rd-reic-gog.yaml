@@ -1,0 +1,33 @@
+id: 13987
+game_id: 574
+game_slug: freedom-force-vs-the-3rd-reich
+name: Freedom Force vs. the 3rd Reich
+year: null
+user: PokemonTotalWar
+runner: wine
+slug: freedom-force-vs-the-3rd-reic-gog
+version: GOG
+description: Installs the GOG version of the game
+notes: ''
+created_at: '2019-06-08T04:11:41.462000Z'
+updated_at: '2019-06-12T04:30:04.266015Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 8890
+gogid: 1207658870
+gogslug: freedom_force_vs_the_3rd_reich
+humblestoreid: ''
+script:
+  exe: drive_c/GOG Games/Freedom Force vs the 3rd Reich/ffvt3r.exe
+  installer:
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      args: /SILENT /NOGUI /SUPPRESSMSGBOXES
+      name: wineexec
+  files:
+  - installer: N/A:Select the Windows installer provided by GOG
+  game:
+    prefix: $GAMEDIR

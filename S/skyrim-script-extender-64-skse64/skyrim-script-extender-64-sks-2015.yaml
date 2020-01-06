@@ -1,0 +1,87 @@
+id: 13855
+game_id: 27384
+game_slug: skyrim-script-extender-64-skse64
+name: Skyrim Script Extender 64 (SKSE64)
+year: 2017
+user: rockerbacon
+runner: linux
+slug: skyrim-script-extender-64-sks-2015
+version: 2.0.15
+description: "For a copy of Skyrim Special Edition installed for Steam Play only.\
+  \ Lauching SKSE64 from within Lutris will run the default game launcher. In order\
+  \ to play the game using SKSE64 the game must be run from Steam (or Lutris, which\
+  \ launches Steam).\r\n\r\nA few manual steps are required, the installer will guide\
+  \ you trough them.\r\n\r\nRemember to check the know bugs and limitations in lutris.net\
+  \ before using this installer"
+notes: "KNOW BUGS/LIMITATIONS:\r\n-Launching SKSE64 from within Lutris allows the\
+  \ user to launch Skyrim's default launcher but starting the game from within this\
+  \ launcher will not load SKSE. This is the default SKSE behavior;\r\n-Manual steps\
+  \ are required in order for SKSE to run using Skyrim's custom proton prefix, which\
+  \ can only be done from within Steam. The installer will inform the needed steps;\r\
+  \n-After installation is complete Steam may run first time setup again, which will\
+  \ cause fAudio to be overridden and game settings to be erased;"
+created_at: '2019-06-01T17:22:31.765424Z'
+updated_at: '2019-06-01T17:22:31.765449Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/proton_patch
+      file: proton_patch
+  - chmodx: $GAMEDIR/proton_patch/install_proton.sh
+  - execute:
+      file: $GAMEDIR/proton_patch/install_proton.sh
+  - extract:
+      dst: $GAMEDIR/skse_binaries
+      file: skse_dll
+  - merge:
+      src: $GAMEDIR/skse_binaries/Data
+      dst: $HOME/.steam/steam/steamapps/common/Skyrim Special Edition/Data
+  - copy:
+      src: $GAMEDIR/skse_binaries/skse64_1_5_73.dll
+      dst: $HOME/.steam/steam/steamapps/common/Skyrim Special Edition
+  - copy:
+      src: $GAMEDIR/skse_binaries/skse64_loader.exe
+      dst: $HOME/.steam/steam/steamapps/common/Skyrim Special Edition
+  - copy:
+      src: $GAMEDIR/skse_binaries/skse64_steam_loader.dll
+      dst: $HOME/.steam/steam/steamapps/common/Skyrim Special Edition
+  - copy:
+      src: skse_launcher
+      dst: $GAMEDIR/proton_runner
+  - chmodx: $GAMEDIR/proton_runner/skse_launcher.sh
+  - copy:
+      src: selauncher_launcher
+      dst: $GAMEDIR/proton_runner
+  - chmodx: $GAMEDIR/proton_runner/selauncher_launcher.sh
+  - input_menu:
+      options:
+      - waiting: Click here after you've finished all steps
+      - proceed: I've followed the steps, procced with the installation
+      description: "MANUAL STEPS REQUIRED:\n 1. Open Steam and find Skyrim Special\
+        \ Edition;\n 2. Right click on it and select the option \"Properties\";\n\
+        \ 3. Click on \"Set Launch Options...\";\n 4. Copy and paste this \"bash $HOME/Games/skyrim-script-extender-64/proton_runner/skse_launcher.sh\
+        \ && echo %command% > /dev/null\" on the textbox (without the quotes);\n 5.\
+        \ Click on \"OK\";\n 6. Still on the properties menu check the option \"Force\
+        \ the use of a specific Steam Play compatibility tool\";\n 7. Select \"Proton\
+        \ 3.16-4 for Skyrim SE\" from the dropdown menu;\n 8. Click on \"Close\""
+      preselect: waiting
+  system:
+    env:
+      STEAM_COMPAT_DATA_PATH: $HOME/.steam/steam/steamapps/compatdata/489830
+  files:
+  - proton_patch: https://github.com/spooknik/SkyrimSE-Linux-Modding/releases/download/1.0.2/skyrim-proton-1.0.2.zip
+  - skse_dll: https://skse.silverlock.org/beta/skse64_2_00_15.7z
+  - skse_launcher: https://github.com/rockerbacon/lutris-skyrimse-installers/releases/download/1.6.1/skse_launcher.sh
+  - selauncher_launcher: https://github.com/rockerbacon/lutris-skyrimse-installers/releases/download/1.6.1/selauncher_launcher.sh
+  game:
+    exe: $GAMEDIR/proton_runner/selauncher_launcher.sh
+    args: skse64_loader.exe
+    working_dir: $HOME/.steam/steam/steamapps/common/Skyrim Special Edition

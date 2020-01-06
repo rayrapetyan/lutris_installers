@@ -1,0 +1,28 @@
+id: 5164
+game_id: 11055
+game_slug: red-string-of-fate
+name: Red String of Fate
+year: 2017
+user: FakeShemp
+runner: linux
+slug: red-string-of-fate-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-07-22T22:16:34.546526Z'
+updated_at: '2017-08-27T21:50:02.616458Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 588010
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Red_String_of_Fate.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

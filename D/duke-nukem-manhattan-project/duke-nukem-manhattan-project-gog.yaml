@@ -1,0 +1,40 @@
+id: 2481
+game_id: 1348
+game_slug: duke-nukem-manhattan-project
+name: 'Duke Nukem: Manhattan Project'
+year: 2002
+user: ssf
+runner: wine
+slug: duke-nukem-manhattan-project-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2016-08-17T19:15:48.668000Z'
+updated_at: '2019-10-27T06:58:45.579634Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 240200
+gogid: 1207658731
+gogslug: duke_nukem_manhattan_project
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Duke Nukem - Manhattan Project/DukeNukemMP.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /SP- /NOCANCEL /SUPPRESSMSGBOXES
+      name: wineexec
+  wine:
+    MouseWarpOverride: disable
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.

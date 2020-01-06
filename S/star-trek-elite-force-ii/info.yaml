@@ -1,0 +1,15 @@
+name: 'Star Trek: Elite Force II'
+slug: star-trek-elite-force-ii
+year: 2003
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/star-trek-elite-force-ii.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:25.029847Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

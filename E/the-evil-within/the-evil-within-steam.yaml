@@ -1,0 +1,25 @@
+id: 6457
+game_id: 3630
+game_slug: the-evil-within
+name: The Evil Within
+year: null
+user: strider
+runner: winesteam
+slug: the-evil-within-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-11-28T07:45:57.438298Z'
+updated_at: '2017-11-28T07:46:03.275113Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 268050
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 268050
+    arch: win64

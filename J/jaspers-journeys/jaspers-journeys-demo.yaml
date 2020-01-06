@@ -1,0 +1,29 @@
+id: 6492
+game_id: 14986
+game_slug: jaspers-journeys
+name: Jasper's Journeys
+year: 1997
+user: fanotriel
+runner: linux
+slug: jaspers-journeys-demo
+version: Demo
+description: null
+notes: ''
+created_at: '2017-11-30T01:20:04.054770Z'
+updated_at: '2017-11-30T01:21:27.645176Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: jasper
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: game
+  files:
+  - game: http://www.lexaloffle.com/dl/demos/jaspers-journeys-demo_2.15_i386.tar.gz

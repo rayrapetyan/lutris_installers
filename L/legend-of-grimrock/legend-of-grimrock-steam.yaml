@@ -1,0 +1,24 @@
+id: 262
+game_id: 264
+game_slug: legend-of-grimrock
+name: Legend of Grimrock
+year: 2012
+user: strider
+runner: steam
+slug: legend-of-grimrock-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-19T23:56:20.213000Z'
+updated_at: '2013-12-19T23:56:20.213000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 207170
+gogid: 1207659016
+gogslug: legend_of_grimrock
+humblestoreid: legend-of-grimrock
+script:
+  game:
+    appid: 207170

@@ -1,0 +1,30 @@
+id: 16272
+game_id: 6219
+game_slug: nostale
+name: NosTale
+year: 2007
+user: citrusalex
+runner: winesteam
+slug: nostale-dxvk
+version: DXVK
+description: null
+notes: ''
+created_at: '2019-10-19T00:06:31.965000Z'
+updated_at: '2019-12-23T19:38:56.671050Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: 550470
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  wine:
+    version: lutris-vkchildwindow-4.12.1-x86_64
+    esync: true
+    dxvk: true
+  game:
+    prefix: $GAMEDIR/NosTale
+    appid: 550470
+    arch: win64

@@ -1,0 +1,16 @@
+name: Killing Floor 2
+slug: killing-floor-2
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+aliases: []
+banner_url: /games/banner/killing-floor-2.jpg
+icon_url: /games/icon/killing-floor-2.png
+is_public: true
+updated: '2019-01-23T08:30:03.369261Z'
+steamid: 232090
+gogslug: ''
+humblestoreid: ''

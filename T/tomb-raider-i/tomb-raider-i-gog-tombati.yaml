@@ -1,0 +1,179 @@
+id: 13335
+game_id: 1512
+game_slug: tomb-raider-i
+name: Tomb Raider I
+year: 1996
+user: legluondunet
+runner: wine
+slug: tomb-raider-i-gog-tombati
+version: GOG + TombATI
+description: "This script will install \"Tomb Raider I\" GOG edition with strong graphics\
+  \ improvements and support for modern computer configuration.\r\nDuring install\
+  \ please let all options by default.\r\nThis script uses different projects:\r\n\
+  GLRage: https://github.com/ata4/glrage\r\nTombATI: http://www.glidos.net/tombati.html\r\
+  \nHD textures packs: http://www.tombraiderxtra.com/\r\nother sources: https://www.tombraiderforums.com\r\
+  \nBig thanks to people who gave their time to permit us playing this game in the\
+  \ best conditions."
+notes: "*Read me*\r\n- When the \"Tomb Raider Importer\" dialog box will appear, just\
+  \ click \"install\". \r\n- Bonus: Gold extension and HD textures packs.\r\n*Known\
+  \ issue*\r\n- TR1 has insufficient controller support, I invite you to use a keymapper.\
+  \ You will find profiles for x360 (Antimicro) and Steam Controller (sc-controller)\
+  \ in the \"gamepad profiles\" folder.\r\n- Please report issue concerning this script\
+  \ directly on my github page:\r\nhttps://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2019-05-04T23:09:42.858000Z'
+updated_at: '2019-09-28T15:11:59.867369Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: 224960
+gogid: 1207663463
+gogslug: tomb_raider_1
+humblestoreid: ''
+script:
+  custom-name: Tomb Raider I Gold - GOG
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/TOMBATI/TOMBATIM1.BAT
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating WINE prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Creating WINE prefix
+      arch: win64
+      name: create_prefix
+  - extract:
+      dst: $CACHE
+      file: inno
+  - execute:
+      args: -d "$GAMEDIR/drive_c/GOG Games" "$setup"
+      file: $CACHE/innoextract
+  - extract:
+      dst: $GAMEDIR/drive_c/TOMBATI/
+      file: tombati
+  - extract:
+      dst: $GAMEDIR/drive_c/TOMBATI/TR1HD/
+      file: hdtextures
+  - move:
+      src: menu1
+      dst: $GAMEDIR/drive_c/TOMBATI/
+  - move:
+      src: menu2
+      dst: $GAMEDIR/drive_c/TOMBATI/
+  - merge:
+      src: gppx360
+      dst: $GAMEDIR/drive_c/TOMBATI/gamepad profiles/
+  - merge:
+      src: gppsteam
+      dst: $GAMEDIR/drive_c/TOMBATI/gamepad profiles/
+  - merge:
+      src: gppreadme
+      dst: $GAMEDIR/drive_c/TOMBATI/gamepad profiles/
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2015
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: native,builtin
+      key: ddraw
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides\
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: native,builtin
+      key: winmm
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides\
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: C:\\GOG Games\\Tomb Raider 1\\
+      key: AppPath
+      path: HKEY_CURRENT_USER\Software\Core Design\Tomb Raider II\
+  - move:
+      src: $GAMEDIR/drive_c/GOG Games/app
+      dst: $GAMEDIR/drive_c/GOG Games/Tomb Raider 1
+  - task:
+      executable: $GAMEDIR/drive_c/TOMBATI/TombRaiderImporter.exe
+      prefix: $GAMEDIR
+      description: When the "Tomb Raider Importer" will appear, just click "install".
+      name: wineexec
+  - extract:
+      src: trpcx
+      dst: $GAMEDIR/drive_c/TOMBATI/DATA/
+  - move:
+      src: wpp
+      dst: $GAMEDIR/drive_c/
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: c:\\tr1.bmp
+      key: wallpaper
+      path: HKEY_CURRENT_USER\Control Panel\Desktop\
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: 0 0 0
+      key: background
+      path: HKEY_CURRENT_USER\Control Panel\Colors\
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: 0 0 0
+      key: ActiveTitle
+      path: HKEY_CURRENT_USER\Control Panel\Colors\
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: 255 179 102
+      key: GradientActiveTitle
+      path: HKEY_CURRENT_USER\Control Panel\Colors\
+  - move:
+      src: $GAMEDIR/drive_c/TOMBATI/INSTALL.BAT
+      dst: $CACHE/
+  - move:
+      src: $GAMEDIR/drive_c/TOMBATI/shortcutJS.bat
+      dst: $CACHE/
+  - move:
+      src: $GAMEDIR/drive_c/TOMBATI/vc_redist.x86.exe
+      dst: $CACHE/
+  - move:
+      src: $GAMEDIR/drive_c/GOG Games/
+      dst: $CACHE
+  wine:
+    Desktop: true
+  files:
+  - tombati:
+      filename: TombATI_v1.7.rar
+      url: http://download.glidos.net/TombATI/TombATI_v1.7.exe
+  - hdtextures:
+      filename: TombATI_HD_Textures_v1.0.rar
+      url: http://download.glidos.net/TombATI/TombATI_HD_Textures_v1.0.exe
+  - trpcx: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Tomb%20Raider%20I/TITLEH.zip
+  - menu1: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Tomb%20Raider%20I/TOMBATIM1.BAT
+  - menu2: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Tomb%20Raider%20I/TOMBATIM2.BAT
+  - gppx360: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Tomb%20Raider%20I/gamepad%20profiles/tr1-2_x360.gamecontroller.amgp
+  - gppsteam: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Tomb%20Raider%20I/gamepad%20profiles/tr1-2_steam.sccprofile
+  - gppreadme: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Tomb%20Raider%20I/gamepad%20profiles/tr1-2_gamepad_readme.html
+  - wpp: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Tomb%20Raider%20I/tr1.bmp
+  - inno: http://constexpr.org/innoextract/files/snapshots/innoextract-1.8-dev-2019-01-13/innoextract-1.8-dev-2019-01-13-linux.tar.xz
+  - setup: N/A:Select the installer downloaded from GOG

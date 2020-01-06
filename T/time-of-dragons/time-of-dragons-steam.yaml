@@ -1,0 +1,24 @@
+id: 8189
+game_id: 5565
+game_slug: time-of-dragons
+name: Time of Dragons
+year: null
+user: soredake
+runner: winesteam
+slug: time-of-dragons-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T06:58:29.577620Z'
+updated_at: '2018-05-12T10:21:12.479146Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 353130
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 353130

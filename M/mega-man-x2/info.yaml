@@ -1,0 +1,16 @@
+name: Mega Man X2
+slug: mega-man-x2
+year: 1995
+platforms:
+- name: Super Nintendo
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/mega-man-x2.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:21.152757Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

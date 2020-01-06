@@ -1,0 +1,19 @@
+name: Spyro the Dragon
+slug: spyro-the-dragon
+year: 1998
+platforms:
+- name: Sony PlayStation
+- name: Sony Playstation 3
+- name: Sony PSP
+genres:
+- name: Action
+- name: Adventure
+- name: Platform
+aliases: []
+banner_url: /games/banner/spyro-the-dragon.jpg
+icon_url: /games/icon/spyro-the-dragon.png
+is_public: true
+updated: '2019-11-04T03:03:54.488727Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

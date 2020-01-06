@@ -1,0 +1,38 @@
+id: 2537
+game_id: 3741
+game_slug: a-golden-wake
+name: A Golden Wake
+year: 2014
+user: ssf
+runner: linux
+slug: a-golden-wake-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2016-08-22T15:37:39.354431Z'
+updated_at: '2016-09-30T21:11:07.282136Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 307570
+gogid: 1207666213
+gogslug: a_golden_wake
+humblestoreid: ''
+script:
+  exe: game/start.sh
+  gogid: a_golden_wake
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Plese select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

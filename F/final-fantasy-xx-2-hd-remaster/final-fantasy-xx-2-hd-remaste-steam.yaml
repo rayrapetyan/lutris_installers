@@ -1,0 +1,24 @@
+id: 9191
+game_id: 6147
+game_slug: final-fantasy-xx-2-hd-remaster
+name: FINAL FANTASY X/X-2 HD Remaster
+year: 2016
+user: property
+runner: winesteam
+slug: final-fantasy-xx-2-hd-remaste-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-12T20:51:15.538000Z'
+updated_at: '2018-07-14T06:07:56.142932Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 359870
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 359870

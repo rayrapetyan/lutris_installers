@@ -1,0 +1,24 @@
+id: 1781
+game_id: 748
+game_slug: tony-hawks-pro-skater-hd
+name: Tony Hawk's Pro Skater HD
+year: 2012
+user: Cobradabest
+runner: winesteam
+slug: tony-hawks-pro-skater-hd-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: https://appdb.winehq.org/objectManager.php?sClass=application&iId=14652
+created_at: '2015-12-28T22:06:56.367770Z'
+updated_at: '2016-01-05T18:17:14.770990Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 207210
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 207210

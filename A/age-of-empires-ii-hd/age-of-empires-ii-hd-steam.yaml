@@ -1,0 +1,40 @@
+id: 1381
+game_id: 672
+game_slug: age-of-empires-ii-hd
+name: Age of Empires II HD
+year: 2013
+user: Qazerowl
+runner: winesteam
+slug: age-of-empires-ii-hd-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2015-03-10T02:54:04.190000Z'
+updated_at: '2019-06-21T04:38:38.549957Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 221380
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: $GAMEDIR/Launcher.exe
+      dst: $GAMEDIR/Launcher.exe.bak
+  - move:
+      src: $GAMEDIR/AoK HD.exe
+      dst: $GAMEDIR/Launcher.exe
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2015
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: d3dx9_43
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 221380

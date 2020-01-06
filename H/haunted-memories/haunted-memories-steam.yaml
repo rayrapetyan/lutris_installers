@@ -1,0 +1,24 @@
+id: 8133
+game_id: 1590
+game_slug: haunted-memories
+name: Haunted Memories
+year: null
+user: soredake
+runner: winesteam
+slug: haunted-memories-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T06:12:57.434624Z'
+updated_at: '2018-05-13T09:10:52.446824Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 241640
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 241640

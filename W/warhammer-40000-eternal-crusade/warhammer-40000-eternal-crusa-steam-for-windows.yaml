@@ -1,0 +1,31 @@
+id: 3627
+game_id: 10094
+game_slug: warhammer-40000-eternal-crusade
+name: 'Warhammer 40,000: Eternal Crusade'
+year: null
+user: Cronyk
+runner: winesteam
+slug: warhammer-40000-eternal-crusa-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: ''
+created_at: '2017-05-04T16:17:10.523000Z'
+updated_at: '2017-06-17T04:33:16.707323Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 375230
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 375230
+    arch: win64

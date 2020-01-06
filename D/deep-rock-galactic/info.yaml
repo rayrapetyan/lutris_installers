@@ -1,0 +1,16 @@
+name: Deep Rock Galactic
+slug: deep-rock-galactic
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+aliases: []
+banner_url: /games/banner/deep-rock-galactic.jpg
+icon_url: /games/icon/deep-rock-galactic.png
+is_public: true
+updated: '2019-01-23T08:29:07.716570Z'
+steamid: 548430
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 7616
+game_id: 11070
+game_slug: chronicon
+name: Chronicon
+year: null
+user: cryzed
+runner: winesteam
+slug: chronicon-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-21T00:34:19.542393Z'
+updated_at: '2018-04-26T00:30:36.230136Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 375480
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 375480

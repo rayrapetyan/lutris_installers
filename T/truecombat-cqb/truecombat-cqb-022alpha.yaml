@@ -1,0 +1,39 @@
+id: 4938
+game_id: 11093
+game_slug: truecombat-cqb
+name: TrueCombat CQB
+year: 2011
+user: dj_who
+runner: linux
+slug: truecombat-cqb-022alpha
+version: 0.22(alpha)
+description: ''
+notes: Installer based on True combat elite package
+created_at: '2017-07-09T14:43:14.206000Z'
+updated_at: '2017-07-10T16:13:01.970795Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: tce-inst
+  - extract:
+      format: zip
+      dst: $GAMEDIR/cqbtest
+      file: tccqb-inst
+  - execute:
+      file: install
+  files:
+  - tce-inst: https://github.com/fabiang/true-combat/releases/download/1.1.0/true-combat-linux-complete-0.49b-1.1.0.tar.gz
+  - tccqb-inst: http://wolffiles.de/filebase/ET/Mods/cqb_alpha022_win_linux.zip?
+  game:
+    args: +set fs_game cqbtest +set com_soundMegs 64 +set com_hunkMegs 256 +set com_zoneMegs
+      64 +set s_khz 44 +set r_maxpolyverts 16384 +set r_maxpolys 4096
+    exe: et.x86

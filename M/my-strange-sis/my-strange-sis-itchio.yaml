@@ -1,0 +1,28 @@
+id: 5971
+game_id: 14301
+game_slug: my-strange-sis
+name: My Strange Sis
+year: 2017
+user: FakeShemp
+runner: linux
+slug: my-strange-sis-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-10-15T19:57:37.247733Z'
+updated_at: '2017-10-15T19:59:03.037222Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: My_Strange_Sis.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

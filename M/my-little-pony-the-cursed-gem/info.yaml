@@ -1,0 +1,16 @@
+name: 'My Little Pony: The Cursed Gem'
+slug: my-little-pony-the-cursed-gem
+year: 2014
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/my-little-pony-the-cursed-gem.jpg
+icon_url: null
+is_public: true
+updated: '2019-04-10T03:41:36.939046Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

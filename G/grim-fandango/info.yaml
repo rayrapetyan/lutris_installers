@@ -1,0 +1,16 @@
+name: Grim Fandango
+slug: grim-fandango
+year: 1998
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/grim-fandango.jpg
+icon_url: /games/icon/grim-fandango.png
+is_public: true
+updated: '2019-01-23T08:29:43.490146Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

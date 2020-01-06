@@ -1,0 +1,29 @@
+id: 3978
+game_id: 3447
+game_slug: always-sometimes-monsters
+name: Always Sometimes Monsters
+year: 2014
+user: FakeShemp
+runner: linux
+slug: always-sometimes-monsters-humble
+version: Humble
+description: Native Version
+notes: ''
+created_at: '2017-05-30T19:55:30.856481Z'
+updated_at: '2017-05-31T16:26:43.417035Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 274310
+gogid: 1207664583
+gogslug: always_sometimes_monsters
+humblestoreid: always-sometimes-monsters
+script:
+  exe: asm
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/asm
+  files:
+  - file1: N/A:Please select the Humble archive

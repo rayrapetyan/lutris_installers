@@ -1,0 +1,24 @@
+id: 12265
+game_id: 4267
+game_slug: rollercoaster-tycoon-deluxe
+name: 'RollerCoaster Tycoon: Deluxe'
+year: 1999
+user: krm513
+runner: steam
+slug: rollercoaster-tycoon-deluxe-steam-proton
+version: Steam Proton
+description: Runs RCT using Steam for windows or Proton for linux if enabled.
+notes: ''
+created_at: '2019-03-05T02:05:29.501000Z'
+updated_at: '2019-04-05T06:43:20.596673Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 285310
+gogid: 1207658945
+gogslug: rollercoaster_tycoon_deluxe
+humblestoreid: ''
+script:
+  game:
+    appid: 285310

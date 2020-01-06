@@ -1,0 +1,16 @@
+name: Carmageddon 64
+slug: carmageddon-64
+year: 1999
+platforms:
+- name: Nintendo 64
+genres:
+- name: Car combat
+- name: Racing
+aliases: []
+banner_url: /games/banner/carmageddon-64.jpg
+icon_url: null
+is_public: true
+updated: '2019-07-20T02:57:21.469753Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

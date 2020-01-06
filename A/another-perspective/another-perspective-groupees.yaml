@@ -1,0 +1,37 @@
+id: 5671
+game_id: 3128
+game_slug: another-perspective
+name: Another Perspective
+year: null
+user: FakeShemp
+runner: wine
+slug: another-perspective-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-10T17:31:07.771000Z'
+updated_at: '2018-05-19T03:41:50.729213Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 305920
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/Another Perspective Installer.exe
+      prefix: $GAMEDIR
+      args: '"/S" "/D="C:\\Program Files\\Another Perspective""'
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Another Perspective/Another Perspective.exe
+    arch: win32

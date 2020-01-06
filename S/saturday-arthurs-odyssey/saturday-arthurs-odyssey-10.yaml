@@ -1,0 +1,38 @@
+id: 4843
+game_id: 12080
+game_slug: saturday-arthurs-odyssey
+name: 'Saturday: Arthur''s Odyssey'
+year: null
+user: FakeShemp
+runner: wine
+slug: saturday-arthurs-odyssey-10
+version: '1.0'
+description: ''
+notes: ''
+created_at: '2017-07-06T08:23:17.150176Z'
+updated_at: '2018-05-19T03:41:55.444336Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Saturday Arthur's Odyssey/Satrday1.exe
+    arch: win32
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Saturday Arthur's Odyssey
+      file: $file1
+  - task:
+      prefix: $GAMEDIR
+      app: vb3run
+      name: winetricks
+  wine:
+    Desktop: true
+  files:
+  - file1: http://www.fullyramblomatic.com/games/Saturday.zip

@@ -1,0 +1,31 @@
+id: 3724
+game_id: 4937
+game_slug: jotun
+name: Jotun
+year: 2015
+user: FakeShemp
+runner: linux
+slug: jotun-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-17T21:04:18.226856Z'
+updated_at: '2017-05-18T18:31:32.616063Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 323580
+gogid: 1458127099
+gogslug: jotun
+humblestoreid: ''
+script:
+  exe: Jotun.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Jotun.x86
+  - chmodx: $GAMEDIR/Jotun.x86_64
+  exe64: Jotun.x86_64
+  files:
+  - file1: N/A:Please select the Humble archive

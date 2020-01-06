@@ -1,0 +1,15 @@
+name: Nintendo World Cup
+slug: nintendo-world-cup
+year: 1990
+platforms:
+- name: NES
+genres:
+- name: Sports
+aliases: []
+banner_url: /games/banner/nintendo-world-cup.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:33.403563Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

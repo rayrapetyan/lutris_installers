@@ -1,0 +1,15 @@
+name: iTunes
+slug: itunes
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Programming
+aliases: []
+banner_url: /games/banner/itunes.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-09T09:01:11.333643Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

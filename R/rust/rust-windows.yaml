@@ -1,0 +1,33 @@
+id: 16687
+game_id: 523
+game_slug: rust
+name: Rust
+year: null
+user: gurkebln
+runner: winesteam
+slug: rust-windows
+version: Windows
+description: "Steam Win,\r\nFirst try"
+notes: ''
+created_at: '2019-11-07T19:27:43.223247Z'
+updated_at: '2019-11-07T19:27:43.223276Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: 252490
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    appid: 252490
+    arch: win64

@@ -1,0 +1,24 @@
+id: 1867
+game_id: 4915
+game_slug: big-thinkers-1st-grade
+name: Big Thinkers 1st Grade
+year: null
+user: WildCoder
+runner: steam
+slug: big-thinkers-1st-grade-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-01-13T23:16:53.718491Z'
+updated_at: '2016-02-02T14:20:41.078727Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 376770
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 376770

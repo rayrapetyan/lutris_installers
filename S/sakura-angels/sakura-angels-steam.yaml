@@ -1,0 +1,24 @@
+id: 7199
+game_id: 3956
+game_slug: sakura-angels
+name: Sakura Angels
+year: 2015
+user: t-rex91
+runner: steam
+slug: sakura-angels-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-01-30T20:04:28.600305Z'
+updated_at: '2018-01-30T22:36:30.163821Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 342380
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 342380

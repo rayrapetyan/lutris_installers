@@ -1,0 +1,31 @@
+id: 17684
+game_id: 7815
+game_slug: valkyria-chronicles-3
+name: Valkyria Chronicles III
+year: 2011
+user: soredake
+runner: libretro
+slug: valkyria-chronicles-3-sony-psp
+version: Sony PSP
+description: null
+notes: ''
+created_at: '2020-01-01T09:56:54.274947Z'
+updated_at: '2020-01-01T09:57:05.762031Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: rom
+      dst: $GAMEDIR
+  files:
+  - rom1: N/A:Select the game's ROM file
+  game:
+    core: ppsspp
+    main_file: rom

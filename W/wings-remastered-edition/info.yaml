@@ -1,0 +1,17 @@
+name: Wings! Remastered Edition
+slug: wings-remastered-edition
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Fighting
+- name: Simulation
+aliases: []
+banner_url: /games/banner/wings-remastered-edition.jpg
+icon_url: /games/icon/wings-remastered-edition.png
+is_public: false
+updated: '2019-01-23T08:32:09.123251Z'
+steamid: 320840
+gogslug: wings_remastered
+humblestoreid: ''

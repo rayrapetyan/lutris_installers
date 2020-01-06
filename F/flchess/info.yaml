@@ -1,0 +1,15 @@
+name: flChess
+slug: flchess
+year: null
+platforms:
+- name: Linux
+genres:
+- name: Chess
+aliases: []
+banner_url: /games/banner/flchess.jpg
+icon_url: /games/icon/flchess.png
+is_public: true
+updated: '2019-03-01T19:15:27.064970Z'
+steamid: 643890
+gogslug: ''
+humblestoreid: ''

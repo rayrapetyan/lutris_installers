@@ -1,0 +1,15 @@
+name: 'Half-Life 2: Episode Two'
+slug: half-life-2-episode-two
+year: 2007
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/half-life-2-episode-two.jpg
+icon_url: /games/icon/half-life-2-episode-two.png
+is_public: true
+updated: '2019-01-23T08:29:46.123245Z'
+steamid: 420
+gogslug: ''
+humblestoreid: ''

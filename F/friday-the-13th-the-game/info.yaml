@@ -1,0 +1,17 @@
+name: 'Friday the 13th: The Game'
+slug: friday-the-13th-the-game
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Horror
+aliases: []
+banner_url: /games/banner/friday-the-13th-the-game.jpg
+icon_url: /games/icon/friday-the-13th-the-game.png
+is_public: true
+updated: '2019-01-23T08:29:35.435710Z'
+steamid: 438740
+gogslug: ''
+humblestoreid: ''

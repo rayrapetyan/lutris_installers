@@ -1,0 +1,17 @@
+name: Ultima 8 Gold Edition
+slug: ultima-8-gold-edition
+year: 1994
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Fantasy
+- name: Role-playing
+aliases: []
+banner_url: /games/banner/ultima-8-gold-edition.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:58.159233Z'
+steamid: null
+gogslug: ultima_8_gold_edition
+humblestoreid: ''

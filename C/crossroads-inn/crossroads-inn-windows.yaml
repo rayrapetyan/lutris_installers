@@ -1,0 +1,52 @@
+id: 16766
+game_id: 30187
+game_slug: crossroads-inn
+name: Crossroads Inn
+year: null
+user: loikki
+runner: wine
+slug: crossroads-inn-windows
+version: Windows
+description: null
+notes: ''
+created_at: '2019-11-11T16:42:54.626761Z'
+updated_at: '2019-11-11T16:42:54.626791Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: 867290
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Installing Crossroads Inn
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: win10
+      arch: win64
+      name: winetricks
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Games/The Lord of the Rings The Battle for Middle-Earth Collection/TLotR
+      The Battle for Middle-Earth/lotrbfme.exe
+    arch: win64
+  system:
+    terminal: true
+  wine:
+    version: tkg-protonified-4.6
+    esync: true
+    dxvk: true
+    Desktop: true
+  files:
+  - setup: N/A:Select the game's setup file

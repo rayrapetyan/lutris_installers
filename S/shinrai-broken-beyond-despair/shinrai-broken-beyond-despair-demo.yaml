@@ -1,0 +1,31 @@
+id: 9556
+game_id: 15984
+game_slug: shinrai-broken-beyond-despair
+name: SHINRAI - Broken Beyond Despair
+year: 2016
+user: kimchitea
+runner: linux
+slug: shinrai-broken-beyond-despair-demo
+version: Demo
+description: null
+notes: ''
+created_at: '2018-08-03T15:05:46.748000Z'
+updated_at: '2018-08-04T08:32:03.987567Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 499910
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: SHINRAI - Broken Beyond Despair Demo.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/SHINRAI - Broken Beyond Despair Demo.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/SHINRAI - Broken Beyond Despair Demo
+  - chmodx: $GAMEDIR/lib/linux-x86_64/SHINRAI - Broken Beyond Despair Demo
+  files:
+  - file1: http://download1349.mediafire.com/102k3m2a8uxg/5ctyatbbms3gmni/SHINRAI_demo.zip

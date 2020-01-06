@@ -1,0 +1,24 @@
+id: 3431
+game_id: 5018
+game_slug: infectonator-survivors
+name: 'Infectonator : Survivors'
+year: null
+user: liberodark
+runner: steam
+slug: infectonator-survivors-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-04-01T03:00:45.910479Z'
+updated_at: '2017-04-04T20:05:35.397839Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 269310
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 269310

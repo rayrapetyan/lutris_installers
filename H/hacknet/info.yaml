@@ -1,0 +1,15 @@
+name: Hacknet
+slug: hacknet
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Simulation
+aliases: []
+banner_url: /games/banner/hacknet.jpg
+icon_url: /games/icon/hacknet.png
+is_public: true
+updated: '2019-01-23T08:29:45.574255Z'
+steamid: 365450
+gogslug: hacknet
+humblestoreid: ''

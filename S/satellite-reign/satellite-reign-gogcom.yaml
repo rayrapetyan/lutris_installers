@@ -1,0 +1,38 @@
+id: 2531
+game_id: 4325
+game_slug: satellite-reign
+name: Satellite Reign
+year: 2015
+user: ssf
+runner: linux
+slug: satellite-reign-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2016-08-21T21:23:56.421443Z'
+updated_at: '2016-09-30T21:08:41.411002Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 268870
+gogid: 1428054996
+gogslug: satellite_reign
+humblestoreid: ''
+script:
+  exe: game/start.sh
+  gogid: satellite_reign
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Plese select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

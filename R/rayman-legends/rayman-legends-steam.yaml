@@ -1,0 +1,28 @@
+id: 6103
+game_id: 1524
+game_slug: rayman-legends
+name: Rayman Legends
+year: 2013
+user: Jozua
+runner: winesteam
+slug: rayman-legends-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-10-24T11:17:34.549000Z'
+updated_at: '2019-02-16T04:26:49.516894Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 242550
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+  system:
+    pulse_latency: true
+  game:
+    appid: 242550

@@ -1,0 +1,17 @@
+name: GRIS
+slug: gris
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Platformer
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/gris.jpg
+icon_url: /games/icon/gris.png
+is_public: true
+updated: '2019-04-28T05:49:27.258633Z'
+steamid: 683320
+gogslug: gris
+humblestoreid: ''

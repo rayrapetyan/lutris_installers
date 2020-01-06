@@ -1,0 +1,76 @@
+id: 3596
+game_id: 681
+game_slug: warframe
+name: Warframe
+year: 2013
+user: GloriousEggroll
+runner: wine
+slug: warframe-standalone
+version: Standalone
+description: This installer is Esync and DXVK ready.
+notes: "1) After installation, do not hit 'Play' immediately. Close the installer,\
+  \ then launch the game from lutris.\r\n\r\n2) If you get DirectX errors, it means\
+  \ you're missing 32 bit vulkan libraries and/or 32 bit graphic drivers. You need\
+  \ both 32 bit and 64 bit vulkan libraries installed on your system. The reason is\
+  \ because the game is 64 bit but the launcher is 32 bit so the launcher checks for\
+  \ 32 bit. See:\r\n\r\nhttps://github.com/lutris/lutris/wiki/Installing-drivers\r\
+  \n\r\n3) To save on disk space, you may wish to remove the 'Installer' folder after\
+  \ installation is finished. By default this should be located at /home/username/Games/warframe/Installer\r\
+  \n\r\nFor issues, feel free to join my (GloriousEggroll)'s discord. We h ave many\
+  \ users using a variety of methods to play the game including my launcher and a\
+  \ custom proton version for steam:\r\n\r\nhttps://discord.gg/6y3BdzC\r\n\r\n**************************\r\
+  \n\r\nThere is no discord integration in warframe because in order to do so would\
+  \ be against the Warframe TOS:\r\n\r\nhttps://forums.warframe.com/topic/1003139-simple-question-regarding-discord-rpcdll-for-devs/"
+created_at: '2017-04-30T06:20:44.943000Z'
+updated_at: '2019-12-29T00:00:38.946595Z'
+draft: false
+published: true
+published_by: 20548
+rating: '4'
+steamid: 230410
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - merge:
+      src: offlinedownloader
+      dst: $GAMEDIR/
+  - chmodx: $GAMEDIR/offlinedownloader.sh
+  - execute:
+      description: Downloading Warframe Offline Installer.
+      file: $GAMEDIR/offlinedownloader.sh
+  - task:
+      executable: $GAMEDIR/Installer/WFInstaller.bat
+      description: 'Running Warframe installer. An installer will open.
+
+        ------------------------------
+
+        To progress, manually continue installation in that window.'
+      arch: win64
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/users/$USER/Local Settings/Application Data/Warframe/Downloaded/Public/Tools/Launcher.exe
+    arch: win64
+  system:
+    env:
+      __GL_THREADED_OPTIMIZATIONS: 1
+      mesa_glthread: 'true'
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      PBA_DISABLE: 0
+      __GL_SHADER_DISK_CACHE: 1
+    pulse_latency: true
+  wine:
+    dxvk_version: 1.3.3
+    version: lutris-nofshack-4.18-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - offlinedownloader:
+      filename: offlinedownloader.sh
+      url: https://gitlab.com/snippets/1922761/raw

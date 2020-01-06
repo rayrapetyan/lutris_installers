@@ -1,0 +1,15 @@
+name: 'Star Trek: Away Team'
+slug: star-trek-away-team
+year: 2001
+platforms:
+- name: Windows
+genres:
+- name: Real-time tactics
+aliases: []
+banner_url: /games/banner/star-trek-away-team.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:24.980244Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,21 @@
+name: MoonMist
+slug: moonmist
+year: 1986
+platforms:
+- name: Amiga
+- name: Amstrad CPC 464
+- name: Apple //e
+- name: Atari 800
+- name: Commodore 64
+- name: MS-DOS
+- name: PC-98
+genres:
+- name: Interactive fiction
+aliases: []
+banner_url: /games/banner/moonmist.jpg
+icon_url: null
+is_public: true
+updated: '2019-07-13T18:46:41.723059Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

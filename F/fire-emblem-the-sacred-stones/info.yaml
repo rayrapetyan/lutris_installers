@@ -1,0 +1,16 @@
+name: 'Fire Emblem: The Sacred Stones'
+slug: fire-emblem-the-sacred-stones
+year: 2005
+platforms:
+- name: Nintendo Game Boy Advance
+genres:
+- name: Turn-based strategy
+- name: Turn-based tactics
+aliases: []
+banner_url: /games/banner/fire-emblem-the-sacred-stones.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:31.400349Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

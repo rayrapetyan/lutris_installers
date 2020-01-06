@@ -1,0 +1,24 @@
+id: 10236
+game_id: 9479
+game_slug: zula
+name: Zula
+year: null
+user: onliniak
+runner: winesteam
+slug: zula-steam
+version: Steam
+description: Zula EU
+notes: ''
+created_at: '2018-09-18T12:23:09.521361Z'
+updated_at: '2018-09-20T07:23:15.096406Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 459510
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 513650

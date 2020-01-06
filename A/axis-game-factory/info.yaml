@@ -1,0 +1,15 @@
+name: Axis Game Factory
+slug: axis-game-factory
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Tool
+aliases: []
+banner_url: /games/banner/axis-game-factory.jpg
+icon_url: /games/icon/axis-game-factory.png
+is_public: true
+updated: '2019-01-23T08:28:30.008898Z'
+steamid: 253370
+gogslug: ''
+humblestoreid: ''

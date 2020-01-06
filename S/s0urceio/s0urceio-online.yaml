@@ -1,0 +1,23 @@
+id: 4703
+game_id: 11950
+game_slug: s0urceio
+name: S0urce.io
+year: 2017
+user: scottviger
+runner: browser
+slug: s0urceio-online
+version: Online
+description: ''
+notes: ''
+created_at: '2017-06-28T04:10:09.729261Z'
+updated_at: '2017-07-01T19:26:29.810789Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: http://s0urce.io/

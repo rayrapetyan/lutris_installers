@@ -1,0 +1,31 @@
+id: 10151
+game_id: 21706
+game_slug: feverdream-saga
+name: "Fever\u2606Dream Saga"
+year: 2016
+user: kimchitea
+runner: linux
+slug: feverdream-saga-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2018-09-11T05:36:15.477000Z'
+updated_at: '2018-09-11T08:00:26.371269Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Fever_Dream_Saga.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Fever_Dream_Saga.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Fever_Dream_Saga
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Fever_Dream_Saga
+  files:
+  - file1: N/A:Please select the itch.io archive

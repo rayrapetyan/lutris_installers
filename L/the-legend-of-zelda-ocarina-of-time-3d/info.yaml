@@ -1,0 +1,17 @@
+name: 'The Legend of Zelda: Ocarina of Time 3D'
+slug: the-legend-of-zelda-ocarina-of-time-3d
+year: 2011
+platforms:
+- name: Nintendo 3DS
+genres:
+- name: Action
+- name: jRPG
+- name: RPG
+aliases: []
+banner_url: /games/banner/the-legend-of-zelda-ocarina-of-time-3d.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:43.808770Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

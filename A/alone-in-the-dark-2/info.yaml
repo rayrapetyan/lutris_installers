@@ -1,0 +1,19 @@
+name: Alone in the Dark 2
+slug: alone-in-the-dark-2
+year: 1993
+platforms:
+- name: 3DO
+- name: MS-DOS
+- name: Sega Saturn
+- name: Sony PlayStation
+genres:
+- name: Action
+- name: Horror
+aliases: []
+banner_url: /games/banner/alone-in-the-dark-2.jpg
+icon_url: /games/icon/alone-in-the-dark-2.png
+is_public: true
+updated: '2019-12-22T18:59:28.493593Z'
+steamid: null
+gogslug: alone_in_the_dark
+humblestoreid: ''

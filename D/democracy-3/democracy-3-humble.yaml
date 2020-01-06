@@ -1,0 +1,40 @@
+id: 3895
+game_id: 2097
+game_slug: democracy-3
+name: Democracy 3
+year: null
+user: FakeShemp
+runner: linux
+slug: democracy-3-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-25T20:45:32.253844Z'
+updated_at: '2017-05-27T23:55:43.698280Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 245470
+gogid: 1207659953
+gogslug: democracy_3
+humblestoreid: ''
+script:
+  exe: Democracy3.bin.x86
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data/noarch
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86_64
+      dst: $GAMEDIR
+  exe64: Democracy3.bin.x86_64
+  files:
+  - file1: N/A:Please select the Humble installer

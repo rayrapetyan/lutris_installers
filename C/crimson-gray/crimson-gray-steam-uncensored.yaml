@@ -1,0 +1,30 @@
+id: 13901
+game_id: 16090
+game_slug: crimson-gray
+name: Crimson Gray
+year: 2017
+user: kimchitea
+runner: steam
+slug: crimson-gray-steam-uncensored
+version: Steam Uncensored
+description: null
+notes: 'Patch: <a href="https://mega.nz/#!DxUhjQoA!STJ9IJCs234gDCHMOpew4Id37fnV8wwbxff5T16YUnc">https://mega.nz/#!DxUhjQoA!STJ9IJCs234gDCHMOpew4Id37fnV8wwbxff5T16YUnc</a>'
+created_at: '2019-06-03T04:26:31.044000Z'
+updated_at: '2019-06-13T06:24:39.311533Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 655770
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/game
+      file: patch
+  files:
+  - patch: N/A:Please select the patch archive
+  game:
+    appid: 655770

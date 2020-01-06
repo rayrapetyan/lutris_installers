@@ -1,0 +1,46 @@
+id: 13231
+game_id: 5826
+game_slug: diablo
+name: Diablo
+year: 1996
+user: qsf
+runner: wine
+slug: diablo-gog-tchernobog-v013d
+version: GOG + Tchernobog  v0.1.3d
+description: Runs Project Tchernobog  v0.1.3d Mod with DIABDAT.MPQ from GOG version
+notes: (Script created/copyed from GOG + Belzebub Mod)
+created_at: '2019-04-30T19:58:21.999699Z'
+updated_at: '2019-04-30T19:58:21.999730Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: 1412601690
+gogslug: diablo
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating WINE prefix
+      name: create_prefix
+  - task:
+      executable: installer
+      prefix: $CACHE
+      args: /VERYSILENT /SUPPRESSMSGBOXES
+      description: Running Setup, please wait...
+      name: wineexec
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Diablo
+      file: belzebub
+  - move:
+      src: $CACHE/drive_c/GOG Games/Diablo/DIABDAT.MPQ
+      dst: $GAMEDIR/drive_c/Program Files/Diablo
+  files:
+  - installer: N/A:Select the installer downloaded from GOG
+  - belzebub: https://lutris.net/files/games/diablo/belzebub-r1045.tar.gz
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Diablo/Belzebub.exe
+    arch: win32

@@ -1,0 +1,17 @@
+name: Space Rogue Classic
+slug: space-rogue-classic
+year: 1989
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: RPG
+- name: Simulation
+aliases: []
+banner_url: /games/banner/space-rogue-classic.jpg
+icon_url: /games/icon/space-rogue-classic.png
+is_public: true
+updated: '2019-10-14T03:24:38.740611Z'
+steamid: 569200
+gogslug: space_rogue_classic
+humblestoreid: ''

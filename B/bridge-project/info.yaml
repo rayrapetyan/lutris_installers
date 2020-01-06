@@ -1,0 +1,16 @@
+name: Bridge Project
+slug: bridge-project
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: Construction
+- name: Simulation
+aliases: []
+banner_url: /games/banner/bridge-project.jpg
+icon_url: /games/icon/bridge-project.png
+is_public: false
+updated: '2019-01-23T08:28:42.106552Z'
+steamid: 232950
+gogslug: ''
+humblestoreid: ''

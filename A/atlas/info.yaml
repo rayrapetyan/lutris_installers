@@ -1,0 +1,18 @@
+name: ATLAS
+slug: atlas
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Exploration
+- name: Sandbox
+- name: Survival
+aliases: []
+banner_url: /games/banner/atlas.jpg
+icon_url: /games/icon/atlas.png
+is_public: true
+updated: '2019-01-23T08:28:28.314727Z'
+steamid: 834910
+gogslug: ''
+humblestoreid: ''

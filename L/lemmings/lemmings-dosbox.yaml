@@ -1,0 +1,38 @@
+id: 6459
+game_id: 7872
+game_slug: lemmings
+name: Lemmings
+year: 1991
+user: Lucki
+runner: dosbox
+slug: lemmings-dosbox
+version: DOSBox
+description: null
+notes: ''
+created_at: '2017-11-28T20:18:32.759000Z'
+updated_at: '2019-09-07T19:09:54.687746Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      description: "Extracting game\u2026"
+      dst: $GAMEDIR/
+      file: $game
+  - move:
+      src: $manual
+      dst: $GAMEDIR/Manual.pdf
+  files:
+  - game: https://www.playdosgames.com/assets/zips/lemmings.zip
+  - manual:
+      referer: www.myabandonware.com
+      filename: Manual.pdf
+      url: https://www.myabandonware.com/download/4d3-lemmings
+  game:
+    main_file: VGALEMMI.EXE

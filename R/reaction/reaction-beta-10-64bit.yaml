@@ -1,0 +1,29 @@
+id: 2229
+game_id: 6379
+game_slug: reaction
+name: Reaction
+year: 2015
+user: RobLoach
+runner: linux
+slug: reaction-beta-10-64bit
+version: Beta 1.0 64Bit
+description: ''
+notes: ''
+created_at: '2016-07-01T00:13:51.409785Z'
+updated_at: '2016-08-04T06:08:56.710282Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Reaction.x86_64
+  installer:
+  - extract:
+      file: reaction-game
+  - chmodx: $GAMEDIR/Reaction.x86_64
+  files:
+  - reaction-game: http://download.rq3.com/Reaction-1.0-Linux-x86_64.tar.gz

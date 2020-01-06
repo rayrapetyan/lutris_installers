@@ -1,0 +1,28 @@
+id: 4053
+game_id: 246
+game_slug: uplink
+name: Uplink
+year: 2001
+user: FakeShemp
+runner: linux
+slug: uplink-humble-64bit
+version: Humble (64bit)
+description: ''
+notes: ''
+created_at: '2017-06-02T16:47:32.745626Z'
+updated_at: '2017-06-04T21:54:16.377030Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 1510
+gogid: 1207659033
+gogslug: uplink_hacker_elite
+humblestoreid: ''
+script:
+  exe: uplink.bin.x86_64
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

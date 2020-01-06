@@ -1,0 +1,24 @@
+id: 1987
+game_id: 5499
+game_slug: plug-play
+name: Plug & Play
+year: null
+user: WildCoder
+runner: steam
+slug: plug-play-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-02-24T15:56:30.158445Z'
+updated_at: '2016-02-28T20:12:55.204622Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 353560
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 353560

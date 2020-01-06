@@ -1,0 +1,24 @@
+id: 5416
+game_id: 645
+game_slug: the-showdown-effect
+name: The Showdown Effect
+year: null
+user: NuSuey
+runner: winesteam
+slug: the-showdown-effect-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-08-18T21:21:41.486818Z'
+updated_at: '2017-08-27T22:30:22.981472Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 204080
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 204080

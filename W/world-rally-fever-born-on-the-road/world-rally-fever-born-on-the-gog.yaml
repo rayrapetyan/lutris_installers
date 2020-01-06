@@ -1,0 +1,54 @@
+id: 9703
+game_id: 20875
+game_slug: world-rally-fever-born-on-the-road
+name: 'World Rally Fever: Born on the Road'
+year: 1996
+user: miky_kr5
+runner: dosbox
+slug: world-rally-fever-born-on-the-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2018-08-12T00:31:02.836632Z'
+updated_at: '2018-08-12T14:57:31.148213Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1207658990
+gogslug: world_rally_fever_born_on_the_road
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $setup_wr
+      prefix: $GAMEDIR
+      name: wine.wineexec
+  - write_file:
+      mode: a
+      content: '[ipx] # ipx: Enable ipx over UDP/IP emulation.
+
+        ipx=false
+
+
+        [autoexec] # Lines in this section will be run at startup. # You can put your
+
+
+        MOUNT lines here. @echo off
+
+
+        mount c "./" imgmount d "c:\wrf.dat" -t iso
+
+        c:
+
+        rally
+
+        exit
+
+        '
+      file: $GAMEDIR/dosboxWRF.conf
+  files:
+  - setup_wr: N/A:Please select the GOG installer
+  game:
+    main_file: RALLY.EXE

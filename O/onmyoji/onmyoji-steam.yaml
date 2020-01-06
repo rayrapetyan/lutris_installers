@@ -1,0 +1,31 @@
+id: 9382
+game_id: 19148
+game_slug: onmyoji
+name: Onmyoji
+year: null
+user: ashton
+runner: winesteam
+slug: onmyoji-steam
+version: Steam
+description: Onmyoji is a turn-based fantasy strategy game with PVP or PVE battles,
+  where you can strengthen your beloved shikigami to build your dream tactical team
+  and defeat various demons to become the ultimate onmyoji. Cross-platform play available
+  for both Steam and English mobile versions.
+notes: "Seems to work right of the bat. Didn't find any game breaking issues.\r\n\r\
+  \nI noticed slight freezes when zooming on pets, libpng seems to throw color profile\
+  \ error on them, might be the reason. Can't say if its same on windows."
+created_at: '2018-07-25T18:25:09.413908Z'
+updated_at: '2018-07-26T06:21:20.045479Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 551170
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-3.11-x86_64
+  game:
+    appid: 551170

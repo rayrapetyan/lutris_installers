@@ -1,0 +1,15 @@
+name: Twitch App
+slug: twitch-app
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Tool
+aliases: []
+banner_url: /games/banner/twitch-app.jpg
+icon_url: /games/icon/twitch-app.png
+is_public: true
+updated: '2019-01-23T08:31:57.534844Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,18 @@
+name: "Warhammer 40,000: Dawn of War II \u2013 Retribution"
+slug: warhammer-40000-dawn-of-war-ii-retribution
+year: 2011
+platforms:
+- name: Linux
+genres:
+- name: Real-time strategy
+- name: Real-time tactics
+- name: Survival
+- name: Wargame
+aliases: []
+banner_url: /games/banner/warhammer-40000-dawn-of-war-ii-retribution.jpg
+icon_url: /games/icon/warhammer-40000-dawn-of-war-ii-retribution.png
+is_public: true
+updated: '2019-01-23T08:32:05.722246Z'
+steamid: 56437
+gogslug: ''
+humblestoreid: ''

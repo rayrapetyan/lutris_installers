@@ -1,0 +1,29 @@
+id: 4356
+game_id: 2644
+game_slug: bravada
+name: Bravada
+year: null
+user: FakeShemp
+runner: linux
+slug: bravada-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-06-14T19:21:51.231804Z'
+updated_at: '2017-06-16T17:21:14.689654Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 315930
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Bravada.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Bravada.x86
+  files:
+  - file1: N/A:Please select the IndieGameStand archive

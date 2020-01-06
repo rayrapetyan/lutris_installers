@@ -1,0 +1,38 @@
+id: 2564
+game_id: 2353
+game_slug: gods-will-be-watching
+name: Gods Will Be Watching
+year: null
+user: ssf
+runner: linux
+slug: gods-will-be-watching-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2016-08-23T16:11:23.160048Z'
+updated_at: '2016-09-30T20:51:34.700454Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 274290
+gogid: 1207664883
+gogslug: gods_will_be_watching
+humblestoreid: ''
+script:
+  exe: game/start.sh
+  gogid: gods_will_be_watching
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Please select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

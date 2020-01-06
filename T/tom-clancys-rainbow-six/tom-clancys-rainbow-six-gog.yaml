@@ -1,0 +1,37 @@
+id: 12521
+game_id: 14062
+game_slug: tom-clancys-rainbow-six
+name: Tom Clancy's Rainbow Six
+year: 1998
+user: cxf
+runner: wine
+slug: tom-clancys-rainbow-six-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-03-26T04:18:03.565526Z'
+updated_at: '2019-03-26T04:18:10.147034Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1207658752
+gogslug: tom_clancys_rainbow_six
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: goginstaller
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - goginstaller: N/A:Select gog setup
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Tom Clancys Rainbow Six/RainbowSix.exe
+    arch: win32

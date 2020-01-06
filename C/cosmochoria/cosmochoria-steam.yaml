@@ -1,0 +1,24 @@
+id: 1035
+game_id: 3099
+game_slug: cosmochoria
+name: Cosmochoria
+year: null
+user: Xodetaetl
+runner: steam
+slug: cosmochoria-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-11-10T10:15:56.768000Z'
+updated_at: '2014-11-10T10:28:29.192000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 293240
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 293240

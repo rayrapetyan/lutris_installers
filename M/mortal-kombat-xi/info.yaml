@@ -1,0 +1,16 @@
+name: Mortal Kombat XI
+slug: mortal-kombat-xi
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Fighting
+aliases: []
+banner_url: /games/banner/mortal-kombat-xi.jpg
+icon_url: null
+is_public: true
+updated: '2019-04-30T03:41:02.375882Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

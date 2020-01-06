@@ -1,0 +1,17 @@
+name: Starflight
+slug: starflight
+year: 1996
+platforms:
+- name: MS-DOS
+genres:
+- name: Adventure
+- name: RPG
+- name: Space simulation
+aliases: []
+banner_url: /games/banner/starflight.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:24.229091Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

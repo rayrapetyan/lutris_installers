@@ -1,0 +1,24 @@
+id: 9558
+game_id: 16475
+game_slug: osozaki-late-blooming-first
+name: "Osozaki \u9045\u54B2\u304D Late Blooming - First"
+year: 2016
+user: kimchitea
+runner: steam
+slug: osozaki-late-blooming-first-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-03T19:21:59.038326Z'
+updated_at: '2018-08-04T08:27:34.172512Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 471260
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 471260

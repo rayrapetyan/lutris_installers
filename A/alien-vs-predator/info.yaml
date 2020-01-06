@@ -1,0 +1,15 @@
+name: Alien vs. Predator
+slug: alien-vs-predator
+year: 1994
+platforms:
+- name: Arcade
+genres:
+- name: Fighting
+aliases: []
+banner_url: /games/banner/alien-vs-predator.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:19.258554Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

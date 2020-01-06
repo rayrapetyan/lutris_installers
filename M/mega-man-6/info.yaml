@@ -1,0 +1,16 @@
+name: Mega Man 6
+slug: mega-man-6
+year: 1993
+platforms:
+- name: NES
+- name: Sony PlayStation
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/mega-man-6.jpg
+icon_url: null
+is_public: true
+updated: '2020-01-06T03:04:15.337402Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

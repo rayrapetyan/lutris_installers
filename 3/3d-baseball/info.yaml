@@ -1,0 +1,16 @@
+name: 3D Baseball
+slug: 3d-baseball
+year: 1996
+platforms:
+- name: Sega Saturn
+- name: Sony PlayStation
+genres:
+- name: Sports
+aliases: []
+banner_url: /games/banner/3d-baseball.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:08.807146Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

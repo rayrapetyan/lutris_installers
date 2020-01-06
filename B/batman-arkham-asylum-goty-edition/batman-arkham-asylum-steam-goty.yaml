@@ -1,0 +1,41 @@
+id: 342
+game_id: 281
+game_slug: batman-arkham-asylum-goty-edition
+name: 'Batman: Arkham Asylum'
+year: 2009
+user: Cybolic
+runner: winesteam
+slug: batman-arkham-asylum-steam-goty
+version: Steam GOTY
+description: null
+notes: ''
+created_at: '2014-01-05T23:05:13.347000Z'
+updated_at: '2019-11-16T08:58:03.225282Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 35140
+gogid: null
+gogslug: ''
+humblestoreid: batman-arkham-asylum-goty-edition
+script:
+  winesteam:
+    version: tkg-4.1-x86_64
+    esync: 'true'
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing various fixes. This might take a while...
+      arch: win32
+      app: dotnet20 dotnet35 physx mdx d3dx9 d3dcompiler_43
+      silent: false
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 35140
+    arch: win32

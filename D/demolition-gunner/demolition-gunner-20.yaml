@@ -1,0 +1,35 @@
+id: 2250
+game_id: 6503
+game_slug: demolition-gunner
+name: Demolition Gunner
+year: 2002
+user: ssf
+runner: wine
+slug: demolition-gunner-20
+version: '2.0'
+description: ''
+notes: ''
+created_at: '2016-07-04T20:17:45.338573Z'
+updated_at: '2016-09-30T20:48:49.256169Z'
+draft: false
+published: true
+published_by: null
+rating: '1'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - extract:
+      dst: $GAMEDIR
+      file: game
+  files:
+  - game: http://www.sk8tokyo.com/shmup/software/DG_ISAD_v2.zip
+  game:
+    prefix: $GAMEDIR
+    exe: demolition.exe

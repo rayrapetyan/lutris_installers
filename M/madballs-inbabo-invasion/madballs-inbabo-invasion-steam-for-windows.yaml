@@ -1,0 +1,24 @@
+id: 3044
+game_id: 917
+game_slug: madballs-inbabo-invasion
+name: 'Madballs in...Babo: Invasion'
+year: 2009
+user: RobLoach
+runner: winesteam
+slug: madballs-inbabo-invasion-steam-for-windows
+version: Steam for Windows
+description: Flickering when rendering.
+notes: ''
+created_at: '2016-11-23T14:57:03.509811Z'
+updated_at: '2016-11-23T15:04:15.966724Z'
+draft: false
+published: true
+published_by: null
+rating: '1'
+steamid: 25700
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 25700

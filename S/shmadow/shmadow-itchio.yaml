@@ -1,0 +1,29 @@
+id: 4928
+game_id: 5823
+game_slug: shmadow
+name: Shmadow
+year: null
+user: FakeShemp
+runner: linux
+slug: shmadow-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-07-08T19:35:36.744559Z'
+updated_at: '2017-07-09T20:10:40.491498Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 397570
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: shmadow.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/shmadow.x86
+  files:
+  - file1: N/A:Please select the itch.io archive

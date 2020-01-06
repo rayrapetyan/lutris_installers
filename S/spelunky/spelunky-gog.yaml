@@ -1,0 +1,35 @@
+id: 10665
+game_id: 43
+game_slug: spelunky
+name: Spelunky
+year: 2009
+user: Kapiainen
+runner: wine
+slug: spelunky-gog
+version: GOG
+description: Offline Windows installer for the GOG version of Spelunky.
+notes: ''
+created_at: '2018-10-28T07:47:17.250000Z'
+updated_at: '2018-10-28T15:00:00.733349Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 239350
+gogid: 1207659257
+gogslug: spelunky
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      args: /silent /nogui /suppressmsgboxes
+      arch: win64
+      name: wineexec
+  files:
+  - installer: N/A:Select the Windows installer provided by GOG
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Spelunky/Spelunky.exe
+    arch: win64

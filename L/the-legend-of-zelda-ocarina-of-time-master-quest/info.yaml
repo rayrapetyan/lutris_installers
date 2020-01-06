@@ -1,0 +1,16 @@
+name: 'The Legend of Zelda: Ocarina of Time / Master Quest'
+slug: the-legend-of-zelda-ocarina-of-time-master-quest
+year: 2003
+platforms:
+- name: GameCube
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/the-legend-of-zelda-ocarina-of-time-master-quest.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:43.816856Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

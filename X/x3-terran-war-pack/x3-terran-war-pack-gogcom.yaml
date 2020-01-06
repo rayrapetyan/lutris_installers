@@ -1,0 +1,38 @@
+id: 2552
+game_id: 7253
+game_slug: x3-terran-war-pack
+name: 'X3: Terran War Pack'
+year: 2008
+user: ssf
+runner: linux
+slug: x3-terran-war-pack-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2016-08-22T16:24:37.984362Z'
+updated_at: '2016-08-23T16:17:39.608710Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: game/start.sh
+  gogid: x3_terran_war_pack
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Please select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

@@ -1,0 +1,18 @@
+name: 'Star Wars Battlefront: Renegade Squadron'
+slug: star-wars-battlefront-renegade-squadron
+year: 2007
+platforms:
+- name: Sony PSP
+genres:
+- name: Action
+- name: Shooter
+- name: Space flight
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/star-wars-battlefront-renegade-squadron.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:25.397727Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

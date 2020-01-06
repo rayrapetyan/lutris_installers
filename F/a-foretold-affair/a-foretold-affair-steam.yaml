@@ -1,0 +1,24 @@
+id: 7241
+game_id: 14322
+game_slug: a-foretold-affair
+name: A Foretold Affair
+year: 2017
+user: kimchitea
+runner: winesteam
+slug: a-foretold-affair-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-02-05T17:18:54.462853Z'
+updated_at: '2018-02-06T06:24:32.249109Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 586670
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 586670

@@ -1,0 +1,37 @@
+id: 2319
+game_id: 5037
+game_slug: chaos-reborn
+name: Chaos Reborn
+year: null
+user: Lulu
+runner: linux
+slug: chaos-reborn-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2016-07-21T17:59:29.330528Z'
+updated_at: '2016-08-12T03:34:00.600175Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 319050
+gogid: 1450347751
+gogslug: chaos_reborn
+humblestoreid: ''
+script:
+  exe: Game/start.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/Game
+  files:
+  - game: 'N/A: Plese select the GOG.com Linux installer'
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

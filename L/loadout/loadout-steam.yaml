@@ -1,0 +1,27 @@
+id: 411
+game_id: 1320
+game_slug: loadout
+name: Loadout
+year: 2014
+user: Xodetaetl
+runner: winesteam
+slug: loadout-steam
+version: Steam
+description: Fullscreen mode has issues, keep it windowed. The game will continue
+  to run in the background after exiting, you have to kill it manually with the command
+  "pkill Loadout.exe". Also, the performances are bad for me.
+notes: ''
+created_at: '2014-02-04T11:31:22.556000Z'
+updated_at: '2014-09-27T12:07:05.748000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 208090
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    args: -DX11:0 -windowed
+    appid: 208090

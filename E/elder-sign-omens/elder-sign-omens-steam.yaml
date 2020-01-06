@@ -1,0 +1,24 @@
+id: 794
+game_id: 1550
+game_slug: elder-sign-omens
+name: 'Elder Sign: Omens'
+year: null
+user: Xodetaetl
+runner: steam
+slug: elder-sign-omens-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T16:21:33.679000Z'
+updated_at: '2014-09-15T17:10:39.557000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 257670
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 257670

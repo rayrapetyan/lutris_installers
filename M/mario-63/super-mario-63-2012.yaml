@@ -1,0 +1,25 @@
+id: 7990
+game_id: 17981
+game_slug: mario-63
+name: SUPER MARIO 63
+year: 2008
+user: yossi
+runner: web
+slug: super-mario-63-2012
+version: '2012'
+description: null
+notes: ''
+created_at: '2018-04-26T09:43:37.973000Z'
+updated_at: '2018-04-30T23:49:36.678665Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: http://www.1980sgames.net/game/s/super%20mario%2063/super-mario-63.html?fullscreen=1
+  web:
+    enable_flash: true

@@ -1,0 +1,37 @@
+id: 4664
+game_id: 339
+game_slug: wallace-gromit-ep-1-fright-of-the-bumblebees
+name: 'Wallace & Gromit Ep 1: Fright of the Bumblebees'
+year: null
+user: FakeShemp
+runner: wine
+slug: wallace-gromit-ep-1-fright-of-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-27T08:23:18.550000Z'
+updated_at: '2018-05-19T03:41:54.151970Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 31100
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/WG NoDRM/WallaceGromit101_20090319_2200_full_nodrm.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Telltale Games/Wallace and Gromits Grand Adventures/Fright
+      of the Bumblebees/WallaceGromit101.exe
+    arch: win32

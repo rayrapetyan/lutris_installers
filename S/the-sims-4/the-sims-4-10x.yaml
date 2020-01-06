@@ -1,0 +1,63 @@
+id: 5095
+game_id: 6382
+game_slug: the-sims-4
+name: The Sims 4
+year: 2014
+user: orange
+runner: wine
+slug: the-sims-4-10x
+version: 1.0.x
+description: Install Sims 4 DVD-Version, requires real DVD
+notes: 'Please check that your installation path is: "c:\Program Files\Electronic
+  Arts\The Sims 4\" If you have the multi-language version the last folder change
+  for you localization, for example "Los Sims 4" for Spanish countries, "Leis Sims
+  4" for French countries and launcher not work.'
+created_at: '2017-07-19T11:40:21.440000Z'
+updated_at: '2019-03-03T07:59:44.115761Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Electronic Arts/The Sims 4/Game/Bin/TS4.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .Net
+      app: dotnet20sp2
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2010
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2012
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2013
+      silent: true
+      name: winetricks
+  - task:
+      executable: file1
+      prefix: $GAMEDIR
+      name: wineexec
+  wine:
+    version: tkg-3.21-x86_64
+  files:
+  - file1: N/A:Please select the Sims 4 setup file

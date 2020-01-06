@@ -1,0 +1,32 @@
+id: 4780
+game_id: 2496
+game_slug: tiny-barbarian-dx
+name: Tiny Barbarian DX
+year: 2013
+user: FakeShemp
+runner: wine
+slug: tiny-barbarian-dx-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-07-03T17:46:01.831277Z'
+updated_at: '2018-05-19T03:41:55.043089Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 253350
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Tiny Barbarian DX
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Tiny Barbarian DX/TinyBarbarianDX.exe
+    arch: win32

@@ -1,0 +1,17 @@
+name: 'Galaxy Fight: Universal Warriors'
+slug: galaxy-fight-universal-warriors
+year: 1996
+platforms:
+- name: Arcade
+- name: Neo Geo
+- name: Sega Saturn
+genres:
+- name: Fighting
+aliases: []
+banner_url: /games/banner/galaxy-fight-universal-warriors.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:37.086906Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

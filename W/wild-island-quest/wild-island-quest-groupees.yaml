@@ -1,0 +1,32 @@
+id: 5307
+game_id: 6464
+game_slug: wild-island-quest
+name: Wild Island Quest
+year: null
+user: FakeShemp
+runner: wine
+slug: wild-island-quest-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-08T09:03:00.618442Z'
+updated_at: '2018-05-19T03:41:58.181716Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 392820
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Wild Island Quest
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Wild Island Quest/wic-instead.exe
+    arch: win32

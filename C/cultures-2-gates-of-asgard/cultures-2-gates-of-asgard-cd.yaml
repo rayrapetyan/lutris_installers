@@ -1,0 +1,38 @@
+id: 12044
+game_id: 11694
+game_slug: cultures-2-gates-of-asgard
+name: 'Cultures 2: Gates of Asgard'
+year: 2001
+user: ohemelaar
+runner: wine
+slug: cultures-2-gates-of-asgard-cd
+version: CD
+description: Install Cultures 2 using a CD or a mounted ISO.
+notes: ''
+created_at: '2019-02-16T16:46:00.467043Z'
+updated_at: '2019-04-26T04:56:51.672911Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: file1
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Cultures 2 setup file
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Cultures 2/Cultures2.exe
+    arch: win32

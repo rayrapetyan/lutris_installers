@@ -1,0 +1,30 @@
+id: 12919
+game_id: 26820
+game_slug: fightcade-online-retro-gaming
+name: Fightcade - Online Retro Gaming
+year: 2015
+user: DesfrutandoOS
+runner: linux
+slug: fightcade-online-retro-gaming-2012
+version: 2.0.12
+description: null
+notes: It is necessary to have any version of wine installed in lutris to run fb alpha
+  to play online
+created_at: '2019-04-18T12:59:14.279000Z'
+updated_at: '2019-05-18T07:47:46.569673Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: fightcade2
+  files:
+  - fightcade2: https://play.fightcade.com/download/fightcade2-linux64-v2.0.12.tar.gz
+  game:
+    exe: Fightcade2

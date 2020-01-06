@@ -1,0 +1,33 @@
+id: 4017
+game_id: 8888
+game_slug: owlboy
+name: Owlboy
+year: 2016
+user: FakeShemp
+runner: linux
+slug: owlboy-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-31T17:28:11.025766Z'
+updated_at: '2017-06-04T21:48:36.909816Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 115800
+gogid: 1159880091
+gogslug: owlboy
+humblestoreid: ''
+script:
+  exe: Owlboy
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble installer

@@ -1,0 +1,40 @@
+id: 3906
+game_id: 11453
+game_slug: garou-mark-of-the-wolves
+name: 'Garou: Mark of the Wolves'
+year: 2000
+user: FakeShemp
+runner: linux
+slug: garou-mark-of-the-wolves-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-26T15:57:40.605464Z'
+updated_at: '2017-05-27T23:58:22.561176Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 366240
+gogid: 1830215906
+gogslug: garou_mark_of_the_wolves
+humblestoreid: ''
+script:
+  exe: NeogeoEmu.bin.x86
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data/noarch
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86_64
+      dst: $GAMEDIR
+  exe64: NeogeoEmu.bin.x86_64
+  files:
+  - file1: N/A:Please select the Humble installer

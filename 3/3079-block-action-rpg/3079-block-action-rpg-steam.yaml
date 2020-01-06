@@ -1,0 +1,24 @@
+id: 279
+game_id: 1098
+game_slug: 3079-block-action-rpg
+name: 3079 -- Block Action RPG
+year: 2011
+user: strider
+runner: steam
+slug: 3079-block-action-rpg-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-20T00:21:42.122000Z'
+updated_at: '2013-12-20T00:21:42.122000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 259620
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 259620

@@ -1,0 +1,17 @@
+name: 'Castlevania: Dawn of Sorrow'
+slug: castlevania-dawn-of-sorrow
+year: 2005
+platforms:
+- name: Nintendo DS
+genres:
+- name: Action
+- name: Platform
+- name: RPG
+aliases: []
+banner_url: /games/banner/castlevania-dawn-of-sorrow.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:47.668285Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

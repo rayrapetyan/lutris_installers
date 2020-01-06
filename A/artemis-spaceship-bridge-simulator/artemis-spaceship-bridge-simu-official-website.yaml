@@ -1,0 +1,40 @@
+id: 13358
+game_id: 2965
+game_slug: artemis-spaceship-bridge-simulator
+name: Artemis Spaceship Bridge Simulator
+year: 2010
+user: Andior
+runner: wine
+slug: artemis-spaceship-bridge-simu-official-website
+version: Official website
+description: Uses the Artemis installer you get after buying the game from the  official
+  website and then downloads and installs the 2.7.1 patch
+notes: ''
+created_at: '2019-05-06T17:29:40.894000Z'
+updated_at: '2019-05-18T06:50:58.483409Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 247350
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: base
+      prefix: $GAMEDIR
+      args: /S
+      name: wineexec
+  - task:
+      executable: update
+      prefix: $GAMEDIR
+      args: /S
+      name: wineexec
+  files:
+  - base: N/A:Select game installer
+  - update: https://artemisspaceshipbridge.com/wp-content/uploads/2018/Artemis_Upgrade_v2_7_1.exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Artemis/Artemis.exe

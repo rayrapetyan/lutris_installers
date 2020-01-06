@@ -1,0 +1,33 @@
+id: 2041
+game_id: 2614
+game_slug: legacy-of-kain-soul-reaver
+name: 'Legacy of Kain: Soul Reaver'
+year: 1999
+user: Xodetaetl
+runner: wine
+slug: legacy-of-kain-soul-reaver-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2016-04-15T22:27:52.327607Z'
+updated_at: '2016-04-15T22:56:29.740534Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 224920
+gogid: 1207659030
+gogslug: legacy_of_kain_soul_reaver
+humblestoreid: ''
+script:
+  exe: drive_c/GOG Games/Legacy of Kain Soul Reaver/kain2.exe
+  installer:
+  - task:
+      executable: $setup
+      prefix: $GAMEDIR
+      args: /silent /nogui /suppressmsgboxes
+      name: wineexec
+  files:
+  - setup: N/A:Select the game's installer provided by GOG
+  game:
+    prefix: $GAMEDIR

@@ -1,0 +1,24 @@
+id: 16979
+game_id: 14904
+game_slug: tannenberg
+name: Tannenberg
+year: null
+user: rs
+runner: steam
+slug: tannenberg-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-11-23T20:50:52.381726Z'
+updated_at: '2019-11-23T20:50:52.381758Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 633460
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 633460

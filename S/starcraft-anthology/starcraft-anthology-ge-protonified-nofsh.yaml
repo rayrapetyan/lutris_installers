@@ -1,0 +1,50 @@
+id: 9169
+game_id: 4129
+game_slug: starcraft-anthology
+name: StarCraft Anthology
+year: 1999
+user: empi_pl
+runner: wine
+slug: starcraft-anthology-ge-protonified-nofsh
+version: ge-protonified-nofshack-4.9-x86_
+description: null
+notes: ''
+created_at: '2018-07-11T15:52:36.419000Z'
+updated_at: '2019-09-09T00:17:32.317987Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/StarCraft/StarCraft Launcher.exe
+    arch: win64
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows version to Windows 7
+      app: win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: $setup
+      prefix: $GAMEDIR
+      description: Installing StarCraft Anthology
+      arch: win64
+      name: wineexec
+  wine:
+    version: ge-protonified-nofshack-4.9-x86_64
+  files:
+  - setup:
+      filename: StarCraft-Setup.exe
+      url: https://www.battle.net/download/getInstallerForGame?os=win&locale=enEN&version=LIVE&gameProgram=STARCRAFT

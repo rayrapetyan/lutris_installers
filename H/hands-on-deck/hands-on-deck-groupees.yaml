@@ -1,0 +1,29 @@
+id: 5135
+game_id: 4785
+game_slug: hands-on-deck
+name: Hands on Deck
+year: null
+user: FakeShemp
+runner: linux
+slug: hands-on-deck-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-21T16:34:42.940031Z'
+updated_at: '2017-08-27T22:20:01.401013Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 386330
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: HandsOnDeck.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/HandsOnDeck.x86
+  files:
+  - file1: N/A:Please select the Groupees archive

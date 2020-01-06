@@ -1,0 +1,16 @@
+name: Metal Slug 5
+slug: metal-slug-5
+year: 2003
+platforms:
+- name: Arcade
+- name: Neo Geo
+genres:
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/metal-slug-5.jpg
+icon_url: null
+is_public: true
+updated: '2019-06-10T11:48:12.251790Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

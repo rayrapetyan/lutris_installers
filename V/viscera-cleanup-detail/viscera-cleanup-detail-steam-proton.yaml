@@ -1,0 +1,24 @@
+id: 16551
+game_id: 2992
+game_slug: viscera-cleanup-detail
+name: Viscera Cleanup Detail
+year: null
+user: monyarm
+runner: steam
+slug: viscera-cleanup-detail-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-11-02T09:21:47.532000Z'
+updated_at: '2019-11-04T04:42:13.960530Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 246900
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 246900

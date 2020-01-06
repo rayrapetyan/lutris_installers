@@ -1,0 +1,43 @@
+id: 9474
+game_id: 20517
+game_slug: pretty-soldier-wars-ad-2048
+name: Pretty Soldier Wars A.D. 2048
+year: 2007
+user: kimchitea
+runner: wine
+slug: pretty-soldier-wars-ad-2048-jast
+version: JAST
+description: null
+notes: ''
+created_at: '2018-07-30T03:56:49.578000Z'
+updated_at: '2018-08-01T08:40:06.740020Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows version to XP
+      app: winxp
+      arch: win32
+      name: winetricks
+  - task:
+      executable: $CACHE/soldier-install-1.2.exe
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  files:
+  - file1: N/A:Please select the JAST USA archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/DO/Pretty Soldier Wars AD 2048/YJWARUS.EXE
+    arch: win32

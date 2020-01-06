@@ -1,0 +1,43 @@
+id: 15597
+game_id: 1652
+game_slug: underrail
+name: Underrail
+year: 2015
+user: gamer1968
+runner: wine
+slug: underrail-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-09-15T23:58:13.647000Z'
+updated_at: '2019-10-16T22:17:56.952789Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 250520
+gogid: 1447688349
+gogslug: underrail
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .NET 4.0
+      app: dotnet4
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing XNA
+      app: xna40
+      name: winetricks
+  files:
+  - game: N/A:Please select the GOG installer
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/GOG Games/UnderRail/underrail.exe
+    arch: win64

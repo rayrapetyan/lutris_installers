@@ -1,0 +1,18 @@
+name: Far Cry 2
+slug: far-cry-2
+year: 2008
+platforms:
+- name: Windows
+genres:
+- name: FPS
+- name: Sandbox
+aliases:
+- slug: far-cry-2-fortunes-edition
+  name: "Far Cry\xAE 2: Fortune's Edition"
+banner_url: /games/banner/far-cry-2.jpg
+icon_url: /games/icon/far-cry-2.png
+is_public: true
+updated: '2019-04-08T02:48:43.916564Z'
+steamid: 19900
+gogslug: far_cry_2_fortunes_edition
+humblestoreid: far-cry-2-fortunes-edition

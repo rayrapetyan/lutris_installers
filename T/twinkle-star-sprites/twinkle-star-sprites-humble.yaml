@@ -1,0 +1,40 @@
+id: 3883
+game_id: 6339
+game_slug: twinkle-star-sprites
+name: TWINKLE STAR SPRITES
+year: null
+user: FakeShemp
+runner: linux
+slug: twinkle-star-sprites-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-25T18:58:03.814077Z'
+updated_at: '2017-05-27T23:54:05.262238Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 366280
+gogid: 1955376433
+gogslug: twinkle_star_sprites
+humblestoreid: ''
+script:
+  exe: NeogeoEmu.bin.x86
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data/noarch
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86_64
+      dst: $GAMEDIR
+  exe64: NeogeoEmu.bin.x86_64
+  files:
+  - file1: N/A:Please select the Humble installer

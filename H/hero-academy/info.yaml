@@ -1,0 +1,15 @@
+name: Hero Academy
+slug: hero-academy
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/hero-academy.jpg
+icon_url: /games/icon/hero-academy.png
+is_public: true
+updated: '2019-01-23T08:29:49.169204Z'
+steamid: 209270
+gogslug: ''
+humblestoreid: ''

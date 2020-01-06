@@ -1,0 +1,32 @@
+id: 6926
+game_id: 15585
+game_slug: eve-burst-error
+name: 'Eve: Burst Error'
+year: 1995
+user: FakeShemp
+runner: wine
+slug: eve-burst-error-desura
+version: Desura
+description: null
+notes: ''
+created_at: '2017-12-31T17:56:06.008000Z'
+updated_at: '2018-05-19T03:41:51.971342Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/EVE burst error
+      file: $file1
+  files:
+  - file1: N/A:Please select the Desura archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/EVE burst error/DISC1/EVE.EXE
+    arch: win32

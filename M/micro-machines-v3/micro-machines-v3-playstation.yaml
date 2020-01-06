@@ -1,0 +1,31 @@
+id: 7403
+game_id: 9776
+game_slug: micro-machines-v3
+name: Micro Machines V3
+year: 1997
+user: t-rex91
+runner: libretro
+slug: micro-machines-v3-playstation
+version: Playstation
+description: null
+notes: ''
+created_at: '2018-02-26T12:31:01.310550Z'
+updated_at: '2018-02-27T02:20:14.994171Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the PlayStation image file
+  game:
+    core: mednafen_psx_hw
+    main_file: file1

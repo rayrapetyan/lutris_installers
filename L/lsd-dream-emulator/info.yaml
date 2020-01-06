@@ -1,0 +1,15 @@
+name: 'LSD: Dream Emulator'
+slug: lsd-dream-emulator
+year: 1998
+platforms:
+- name: Sony PlayStation
+genres:
+- name: Exploration
+aliases: []
+banner_url: /games/banner/lsd-dream-emulator.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:13.802826Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 2044
+game_id: 982
+game_slug: the-wolf-among-us
+name: The Wolf Among Us
+year: 2013
+user: Freso
+runner: winesteam
+slug: the-wolf-among-us-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-04-17T21:50:12.309839Z'
+updated_at: '2016-04-19T08:03:47.010428Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 250320
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 250320

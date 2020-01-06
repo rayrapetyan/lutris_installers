@@ -1,0 +1,43 @@
+id: 9471
+game_id: 20515
+game_slug: doushin-same-heart
+name: Doushin - Same Heart
+year: 2006
+user: kimchitea
+runner: wine
+slug: doushin-same-heart-jast
+version: JAST
+description: null
+notes: ''
+created_at: '2018-07-30T00:50:15.490000Z'
+updated_at: '2018-08-01T08:40:00.739426Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows version to XP
+      app: winxp
+      arch: win32
+      name: winetricks
+  - task:
+      executable: $CACHE/doushin-install-0.3.exe
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  files:
+  - file1: N/A:Please select the JAST USA archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Crowd/Doushin - Same Heart/dou.exe
+    arch: win32

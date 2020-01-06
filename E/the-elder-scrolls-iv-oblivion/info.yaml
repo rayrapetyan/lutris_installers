@@ -1,0 +1,17 @@
+name: 'The Elder Scrolls IV: Oblivion GOTY Edition'
+slug: the-elder-scrolls-iv-oblivion
+year: 2007
+platforms:
+- name: Sony Playstation 3
+- name: Windows
+genres:
+- name: Action
+- name: RPG
+aliases: []
+banner_url: /games/banner/the-elder-scrolls-iv-oblivion.jpg
+icon_url: /games/icon/the-elder-scrolls-iv-oblivion.png
+is_public: true
+updated: '2019-06-08T05:16:07.034601Z'
+steamid: 22330
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 1605
+game_id: 4685
+game_slug: hotline-miami-2-wrong-number
+name: 'Hotline Miami 2: Wrong Number'
+year: 2015
+user: KimplE
+runner: steam
+slug: hotline-miami-2-wrong-number-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-09-29T19:52:40.978238Z'
+updated_at: '2015-11-02T14:49:00.478945Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 274170
+gogid: 1424773427
+gogslug: hotline_miami_2_wrong_number
+humblestoreid: ''
+script:
+  game:
+    appid: 274170

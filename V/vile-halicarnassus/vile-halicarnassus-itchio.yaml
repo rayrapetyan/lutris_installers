@@ -1,0 +1,33 @@
+id: 10279
+game_id: 21831
+game_slug: vile-halicarnassus
+name: Vile Halicarnassus
+year: 2014
+user: kimchitea
+runner: linux
+slug: vile-halicarnassus-itchio
+version: itch.io
+description: Free download
+notes: ''
+created_at: '2018-09-21T18:39:57.554000Z'
+updated_at: '2018-09-22T01:24:09.583959Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: vile halicarnassus.sh
+  installer:
+  - extract:
+      format: bz2
+      dst: $GAMEDIR
+      file: $file1
+  - chmodx: $GAMEDIR/vile halicarnassus.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/vile halicarnassus
+  - chmodx: $GAMEDIR/lib/linux-x86_64/vile halicarnassus
+  files:
+  - file1: N/A:Please select the itch.io archive

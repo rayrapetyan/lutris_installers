@@ -1,0 +1,24 @@
+id: 15329
+game_id: 578
+game_slug: operation-flashpoint-dragon-rising
+name: 'Operation Flashpoint: Dragon Rising'
+year: 2009
+user: Wompus
+runner: steam
+slug: operation-flashpoint-dragon-r-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-09-06T17:08:17.278000Z'
+updated_at: '2019-10-11T01:25:18.187078Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 12830
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 12830

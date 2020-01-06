@@ -1,0 +1,24 @@
+id: 8904
+game_id: 14191
+game_slug: total-war-warhammer-ii
+name: 'Total War: WARHAMMER II'
+year: 2017
+user: TuiorGames
+runner: winesteam
+slug: total-war-warhammer-ii-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-25T13:33:01.304000Z'
+updated_at: '2018-08-16T06:20:06.497946Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 594570
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 594570

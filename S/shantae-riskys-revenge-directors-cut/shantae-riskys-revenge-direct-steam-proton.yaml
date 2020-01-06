@@ -1,0 +1,24 @@
+id: 16550
+game_id: 3751
+game_slug: shantae-riskys-revenge-directors-cut
+name: 'Shantae: Risky''s Revenge - Director''s Cut'
+year: null
+user: monyarm
+runner: steam
+slug: shantae-riskys-revenge-direct-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-11-02T09:19:43.887000Z'
+updated_at: '2019-11-04T04:42:44.887589Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 277890
+gogid: 1442832029
+gogslug: shantae_riskys_revenge_directors_cut
+humblestoreid: ''
+script:
+  game:
+    appid: 277890

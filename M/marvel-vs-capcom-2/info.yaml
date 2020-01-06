@@ -1,0 +1,17 @@
+name: Marvel vs. Capcom 2
+slug: marvel-vs-capcom-2
+year: 2000
+platforms:
+- name: Arcade
+- name: Sega Dreamcast
+- name: Sony PlayStation 2
+genres:
+- name: Fighting
+aliases: []
+banner_url: /games/banner/marvel-vs-capcom-2.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:18.266079Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

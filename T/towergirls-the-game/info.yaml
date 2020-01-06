@@ -1,0 +1,15 @@
+name: 'Towergirls: the Game'
+slug: towergirls-the-game
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/towergirls-the-game.jpg
+icon_url: null
+is_public: true
+updated: '2019-03-30T11:39:30.107435Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

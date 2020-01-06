@@ -1,0 +1,38 @@
+id: 493
+game_id: 1522
+game_slug: arma-cold-war-assault
+name: 'Arma: Cold War Assault'
+year: 2001
+user: Xodetaetl
+runner: wine
+slug: arma-cold-war-assault-199-for-ofp-owners
+version: 1.99 for OFP owners
+description: 'Standalone v1.99 for owners of Operation Flashpoint (original, Gold
+  or GOTY). This downloads and installs the last version, Arma: CWA v1.99 published
+  by Bohemia. You just need to enter your CD key during the setup.'
+notes: ''
+created_at: '2014-07-19T18:07:32.935000Z'
+updated_at: '2018-05-19T03:41:47.706470Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 65790
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: drive_c/Program Files/Bohemia Interactive/Arma Cold War Assault/ColdWarAssaultPreferences.exe
+  installer:
+  - extract:
+      dst: $CACHE/installer/arma-cold-war-assault
+      file: file1
+  - task:
+      executable: $CACHE/installer/arma-cold-war-assault/CWA.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: http://lutris.net/files/games/arma-cold-war-assault/arma-cwa-1.99.zip
+  game:
+    prefix: $GAMEDIR
+    arch: win32

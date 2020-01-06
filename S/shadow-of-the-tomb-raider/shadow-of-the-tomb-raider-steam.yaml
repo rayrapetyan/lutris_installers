@@ -1,0 +1,27 @@
+id: 10705
+game_id: 21745
+game_slug: shadow-of-the-tomb-raider
+name: Shadow of the Tomb Raider
+year: 2018
+user: anniez
+runner: winesteam
+slug: shadow-of-the-tomb-raider-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-10-31T22:53:54.610000Z'
+updated_at: '2019-02-16T04:35:13.791480Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 750920
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  game:
+    appid: 750920

@@ -1,0 +1,24 @@
+id: 9840
+game_id: 4817
+game_slug: planetary-annihilation-titans
+name: 'Planetary Annihilation: TITANS'
+year: null
+user: mburkasov
+runner: winesteam
+slug: planetary-annihilation-titans-steam-1
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-21T17:50:03.438356Z'
+updated_at: '2018-08-22T16:52:48.778460Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 386070
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 386070

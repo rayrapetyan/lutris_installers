@@ -1,0 +1,15 @@
+name: Tennis in the Face
+slug: tennis-in-the-face
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Arcade
+aliases: []
+banner_url: /games/banner/tennis-in-the-face.jpg
+icon_url: /games/icon/tennis-in-the-face.png
+is_public: true
+updated: '2019-06-13T06:45:15.541050Z'
+steamid: 394290
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,18 @@
+name: Beneath a Steel Sky
+slug: beneath-a-steel-sky
+year: 1994
+platforms:
+- name: Amiga
+- name: Linux
+- name: MS-DOS
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/beneath-a-steel-sky.jpg
+icon_url: /games/icon/beneath-a-steel-sky.png
+is_public: true
+updated: '2019-01-23T08:28:34.753490Z'
+steamid: null
+gogslug: beneath_a_steel_sky
+humblestoreid: ''

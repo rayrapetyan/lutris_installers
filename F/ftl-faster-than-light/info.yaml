@@ -1,0 +1,16 @@
+name: 'FTL: Faster Than Light'
+slug: ftl-faster-than-light
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: Real-time strategy
+- name: Simulation
+aliases: []
+banner_url: /games/banner/ftl-faster-than-light.jpg
+icon_url: /games/icon/ftl-faster-than-light.png
+is_public: true
+updated: '2019-01-23T08:29:36.122460Z'
+steamid: 212680
+gogslug: faster_than_light
+humblestoreid: ftl-faster-than-light

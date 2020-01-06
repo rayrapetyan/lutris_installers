@@ -1,0 +1,24 @@
+id: 317
+game_id: 299
+game_slug: intrusion-2
+name: Intrusion 2
+year: 2012
+user: strider
+runner: steam
+slug: intrusion-2-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-20T00:21:44.366000Z'
+updated_at: '2013-12-20T00:21:44.366000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 214970
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 214970

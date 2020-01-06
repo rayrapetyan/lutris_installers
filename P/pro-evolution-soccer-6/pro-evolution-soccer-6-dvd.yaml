@@ -1,0 +1,54 @@
+id: 10275
+game_id: 21842
+game_slug: pro-evolution-soccer-6
+name: PRO EVOLUTION SOCCER 6
+year: 2006
+user: lazanet
+runner: wine
+slug: pro-evolution-soccer-6-dvd
+version: DVD
+description: null
+notes: Post installation, installer's background hangs with wine-staging 3.3. That's
+  harmless. Simply kill the window manually.
+created_at: '2018-09-21T17:24:16.083000Z'
+updated_at: '2019-10-28T20:42:31.206967Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: setup.exe
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 32bit Wine prefix.
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Enabling CSMT for better graphic performance.
+      key: wined3d
+      value: wined3d-csmt.dll
+      path: HKEY_CURRENT_USER\Software\Wine\DllRedirects
+      name: set_regedit
+  - task:
+      executable: $DISC/Setup.exe
+      prefix: $GAMEDIR
+      description: 'Installing PES6.
+
+        The installating folder MUST BE ''C:\Program Files\KONAMI\Pro Evolution Soccer
+        6'''
+      name: wineexec
+  wine:
+    overrides:
+      dxgi: disable
+      nvcuda: disable
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/KONAMI/Pro Evolution Soccer 6/PES6.exe
+    arch: win32

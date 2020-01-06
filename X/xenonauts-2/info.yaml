@@ -1,0 +1,17 @@
+name: Xenonauts 2
+slug: xenonauts-2
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Sci-fi
+- name: Strategy
+- name: Turn-based
+aliases: []
+banner_url: /games/banner/xenonauts-2.jpg
+icon_url: null
+is_public: true
+updated: '2019-04-13T06:44:27.125219Z'
+steamid: 538030
+gogslug: xenonauts_2
+humblestoreid: ''

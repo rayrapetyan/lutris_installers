@@ -1,0 +1,24 @@
+id: 3669
+game_id: 8087
+game_slug: scrap-garden-the-day-before
+name: Scrap Garden - The Day Before
+year: 2016
+user: dj_who
+runner: steam
+slug: scrap-garden-the-day-before-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-05-12T15:37:02.369647Z'
+updated_at: '2017-05-13T15:23:32.207755Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 508390
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 508390

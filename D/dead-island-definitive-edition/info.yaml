@@ -1,0 +1,19 @@
+name: Dead Island Definitive Edition
+slug: dead-island-definitive-edition
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: FPS
+- name: RPG
+- name: Survival
+aliases: []
+banner_url: /games/banner/dead-island-definitive-edition.jpg
+icon_url: /games/icon/dead-island-definitive-edition.png
+is_public: true
+updated: '2019-01-23T08:29:06.333621Z'
+steamid: 383150
+gogslug: ''
+humblestoreid: ''

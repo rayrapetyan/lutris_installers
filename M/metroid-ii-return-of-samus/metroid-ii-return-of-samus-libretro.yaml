@@ -1,0 +1,31 @@
+id: 11081
+game_id: 8478
+game_slug: metroid-ii-return-of-samus
+name: 'Metroid II: Return of Samus'
+year: 1991
+user: maxlefou
+runner: libretro
+slug: metroid-ii-return-of-samus-libretro
+version: libretro
+description: null
+notes: ''
+created_at: '2018-12-04T20:58:30.424801Z'
+updated_at: '2018-12-14T13:11:12.117922Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: rom
+      dst: $GAMEDIR
+  files:
+  - rom: N/A:Select the game's ROM file
+  game:
+    core: gambatte
+    main_file: rom

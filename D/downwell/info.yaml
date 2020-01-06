@@ -1,0 +1,17 @@
+name: Downwell
+slug: downwell
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Platformer
+- name: Roguelike
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/downwell.jpg
+icon_url: /games/icon/downwell.png
+is_public: true
+updated: '2019-02-19T02:56:28.496767Z'
+steamid: 360740
+gogslug: downwell
+humblestoreid: ''

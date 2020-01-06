@@ -1,0 +1,71 @@
+id: 17351
+game_id: 26365
+game_slug: outward
+name: Outward
+year: null
+user: diabetes
+runner: wine
+slug: outward-gog-offline-installe
+version: GoG Offline Installer
+description: Select the GoG offline installer setup_outward_1.0.0_(64bit)_(33087).exe
+  when asked for setup file. The GoG installer will throw some errors when finished,
+  but the game will work.
+notes: ''
+created_at: '2019-12-15T17:14:08.546000Z'
+updated_at: '2019-12-22T11:24:09.177787Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 794260
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      src: mf_install
+      dst: $CACHE/mfinstall
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - execute:
+      env:
+        WINEPREFIX: $GAMEDIR
+      file: $CACHE/mfinstall/mf-install.sh
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  - task:
+      prefix: $GAMEDIR
+      app: faudio
+      arch: win64
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES /NOCANCEL
+      description: Installing Outward
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Outward/Outward.exe
+    arch: win64
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+    pulse_latency: false
+  wine:
+    version: lutris-4.21-x86_64
+    esync: true
+    dxvk: true
+    Desktop: false
+  files:
+  - setup: N/A:Select the game's setup file
+  - mf_install:
+      filename: master.zip
+      url: https://github.com/z0z0z/mf-install/archive/master.zip

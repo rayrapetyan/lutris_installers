@@ -1,0 +1,15 @@
+name: 'Game & Watch: Ball'
+slug: game-watch-ball
+year: 1980
+platforms:
+- name: Arcade
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/game-watch-ball.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-08T17:36:07.925436Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

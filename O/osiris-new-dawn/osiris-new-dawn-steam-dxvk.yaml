@@ -1,0 +1,52 @@
+id: 11481
+game_id: 8608
+game_slug: osiris-new-dawn
+name: 'Osiris: New Dawn'
+year: 2016
+user: VortexAcherontic
+runner: winesteam
+slug: osiris-new-dawn-steam-dxvk
+version: Steam DXVK
+description: null
+notes: ''
+created_at: '2019-01-06T20:04:02.264000Z'
+updated_at: '2019-02-16T04:02:24.239402Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 402710
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Creating Wine Prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing Direct Input 8
+      app: dinput8
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Set Windows version to Windows 7
+      app: win7
+      arch: win64
+      name: winetricks
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 402710
+    arch: win64

@@ -1,0 +1,15 @@
+name: Call of Juarez
+slug: call-of-juarez
+year: 2006
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/call-of-juarez.jpg
+icon_url: /games/icon/call-of-juarez.png
+is_public: true
+updated: '2019-01-23T08:28:44.968337Z'
+steamid: 3020
+gogslug: call_of_juarez
+humblestoreid: ''

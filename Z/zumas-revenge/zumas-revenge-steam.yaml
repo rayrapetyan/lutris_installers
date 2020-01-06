@@ -1,0 +1,24 @@
+id: 6359
+game_id: 1880
+game_slug: zumas-revenge
+name: Zuma's Revenge
+year: null
+user: Stoney_Fish
+runner: winesteam
+slug: zumas-revenge-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-11-17T09:50:21.023936Z'
+updated_at: '2017-11-18T11:07:25.269029Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 3620
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 3620

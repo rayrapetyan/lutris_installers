@@ -1,0 +1,24 @@
+id: 4523
+game_id: 6757
+game_slug: highway-blossoms
+name: Highway Blossoms
+year: 2016
+user: FakeShemp
+runner: steam
+slug: highway-blossoms-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-06-20T20:37:55.977899Z'
+updated_at: '2017-06-24T16:19:49.435539Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 451760
+gogid: 1299369265
+gogslug: highway_blossoms
+humblestoreid: highway-blossoms
+script:
+  game:
+    appid: 451760

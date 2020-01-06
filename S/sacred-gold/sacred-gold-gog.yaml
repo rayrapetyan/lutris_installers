@@ -1,0 +1,57 @@
+id: 10676
+game_id: 1338
+game_slug: sacred-gold
+name: Sacred Gold
+year: 2004
+user: arzardk
+runner: wine
+slug: sacred-gold-gog
+version: GOG
+description: null
+notes: 'You should edit config file, which located here: ''/drive_c/GOG Games/Sacred
+  Gold/Settings.cfg'' and change line SHOWMOVIE : 1 to SHOWMOVIE : 0 otherwise you
+  will experiencing black screen after starting game.'
+created_at: '2018-10-28T20:01:40.813000Z'
+updated_at: '2019-09-08T23:36:06.465287Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 12320
+gogid: 1207658688
+gogslug: sacred_gold
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Sacred Gold/Sacred.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Running GOG Installer
+      arch: win32
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: winxp
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      key: GrabFullscreen
+      value: Y
+      path: HKEY_CURRENT_USER\Software\Wine\X11 Driver
+      name: set_regedit
+  wine:
+    version: lutris-4.13-x86_64
+    WineDesktop: 1024x768
+    esync: true
+    Desktop: true
+  files:
+  - setup: N/A:Select the GOG setup exe

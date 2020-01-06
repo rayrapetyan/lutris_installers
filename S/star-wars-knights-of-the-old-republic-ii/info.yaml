@@ -1,0 +1,15 @@
+name: 'Star Wars: Knights of the Old Republic II'
+slug: star-wars-knights-of-the-old-republic-ii
+year: 2004
+platforms:
+- name: Linux
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/star-wars-knights-of-the-old-republic-ii.jpg
+icon_url: /games/icon/star-wars-knights-of-the-old-republic-ii.png
+is_public: true
+updated: '2019-01-23T08:31:25.653253Z'
+steamid: 208580
+gogslug: ''
+humblestoreid: ''

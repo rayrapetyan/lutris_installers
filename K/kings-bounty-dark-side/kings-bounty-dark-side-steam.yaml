@@ -1,0 +1,24 @@
+id: 2324
+game_id: 4428
+game_slug: kings-bounty-dark-side
+name: 'King''s Bounty: Dark Side'
+year: null
+user: s1ns3nt
+runner: winesteam
+slug: kings-bounty-dark-side-steam
+version: Steam
+description: ''
+notes: https://appdb.winehq.org/objectManager.php?sClass=application&iId=16584
+created_at: '2016-07-22T01:12:37.873364Z'
+updated_at: '2016-07-27T12:50:15.545200Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 289520
+gogid: 1420812121
+gogslug: kings_bounty_dark_side
+humblestoreid: ''
+script:
+  game:
+    appid: 289520

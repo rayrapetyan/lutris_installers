@@ -1,0 +1,28 @@
+id: 1648
+game_id: 4518
+game_slug: clicker-heroes
+name: Clicker Heroes
+year: 2015
+user: RobLoach
+runner: winesteam
+slug: clicker-heroes-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2015-11-02T11:50:57.448000Z'
+updated_at: '2019-06-13T07:17:42.020261Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 363970
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    WineDesktop: 1920x1080
+    Desktop: true
+  game:
+    appid: 363970
+    arch: win64

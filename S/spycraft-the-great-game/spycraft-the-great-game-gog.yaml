@@ -1,0 +1,51 @@
+id: 5374
+game_id: 11634
+game_slug: spycraft-the-great-game
+name: 'Spycraft: The Great Game'
+year: null
+user: FakeShemp
+runner: dosbox
+slug: spycraft-the-great-game-gog
+version: GOG
+description: Uses the files from the Windows installer from GOG.
+notes: ''
+created_at: '2017-08-13T11:55:55.820374Z'
+updated_at: '2017-08-27T22:29:44.295146Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 569220
+gogid: 1207659115
+gogslug: spycraft_the_great_game
+humblestoreid: ''
+script:
+  main_file: DOSBOX/dosboxSC_single.conf
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file2
+  - execute:
+      args: -d "$CACHE" "$file1"
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/app
+      dst: $GAMEDIR
+  - merge:
+      src: $GAMEDIR/dosboxSC_single.conf
+      dst: $GAMEDIR/DOSBOX
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/dosboxSC.conf
+  - write_config:
+      section: sdl
+      key: fullscreen
+      value: false
+      file: $GAMEDIR/dosboxSC.conf
+  files:
+  - file1: N/A:Please select the GOG installer
+  - file2: https://lutris.net/files/tools/innoextract.tar.gz
+  game:
+    config_file: $GAMEDIR/dosboxSC.conf

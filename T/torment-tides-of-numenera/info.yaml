@@ -1,0 +1,16 @@
+name: 'Torment: Tides of Numenera'
+slug: torment-tides-of-numenera
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/torment-tides-of-numenera.jpg
+icon_url: /games/icon/torment-tides-of-numenera.png
+is_public: true
+updated: '2019-01-23T08:31:53.498179Z'
+steamid: 272270
+gogslug: torment_tides_of_numenera
+humblestoreid: ''

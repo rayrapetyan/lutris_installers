@@ -1,0 +1,84 @@
+id: 10811
+game_id: 617
+game_slug: battlefield-bad-company-2
+name: 'Battlefield: Bad Company 2'
+year: 2010
+user: sbor
+runner: wine
+slug: battlefield-bad-company-2-dvd
+version: DVD
+description: BFBC2 installer using the DVD iso.
+notes: ''
+created_at: '2018-11-08T21:06:32.117000Z'
+updated_at: '2018-11-09T06:18:15.006015Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 24960
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: Setup.exe
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Changing to Windows 7
+      app: win7
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing d3dx9
+      app: d3dx9
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing VisualC++ Runtime vcrun2005
+      app: vcrun2005
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing VisualC++ Runtime vcrun2008
+      app: vcrun2008
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing VisualC++ Runtime vcrun2010
+      app: vcrun2010
+      arch: win32
+      name: winetricks
+  - task:
+      executable: $DISC/Autorun.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      key: wined3d
+      value: wined3d-csmt.dll
+      path: HKEY_CURRENT_USER\Software\Wine\DllRedirects
+      name: set_regedit
+  - write_config:
+      section: Controls
+      key: bBackgroundMouse
+      value: '1'
+      file: $GAMEDIR/drive_c/users/$USER/My Documents/BFBC2/settings.ini
+  - write_config:
+      section: Graphics
+      key: DxVersion
+      value: 9
+      file: $GAMEDIR/drive_c/users/$USER/My Documents/BFBC2/settings.ini
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/Electronic Arts/Battlefield Bad Company 2/BFBC2Updater.exe
+    arch: win32

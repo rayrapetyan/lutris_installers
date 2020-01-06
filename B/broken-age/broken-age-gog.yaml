@@ -1,0 +1,37 @@
+id: 6585
+game_id: 1748
+game_slug: broken-age
+name: Broken Age
+year: 2014
+user: Talvi
+runner: linux
+slug: broken-age-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2017-12-10T00:32:12.769345Z'
+updated_at: '2017-12-10T00:35:49.488648Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 232790
+gogid: 1207662943
+gogslug: broken_age
+humblestoreid: broken-age
+script:
+  exe: game/start.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Please select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

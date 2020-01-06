@@ -1,0 +1,16 @@
+name: Peggle Extreme
+slug: peggle-extreme
+year: 2007
+platforms:
+- name: Windows
+genres:
+- name: Casual
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/peggle-extreme.jpg
+icon_url: /games/icon/peggle-extreme.png
+is_public: true
+updated: '2019-04-09T15:34:05.204254Z'
+steamid: 3483
+gogslug: ''
+humblestoreid: ''

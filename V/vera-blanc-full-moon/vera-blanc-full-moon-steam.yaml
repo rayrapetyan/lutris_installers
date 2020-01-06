@@ -1,0 +1,39 @@
+id: 13714
+game_id: 3903
+game_slug: vera-blanc-full-moon
+name: 'Vera Blanc: Full Moon'
+year: 2010
+user: kimchitea
+runner: linux
+slug: vera-blanc-full-moon-steam
+version: Steam
+description: Uses the binaries from the demo version to run the Steam version from
+  https://lutris.net/games/winter-wolves-classic-games-collection/ natively in Linux.
+notes: ''
+created_at: '2019-05-25T00:29:04.374000Z'
+updated_at: '2019-06-13T07:54:12.099206Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Vera Blanc - Full Moon.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Vera Blanc - Full Moon.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Vera Blanc - Full Moon
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Vera Blanc - Full Moon
+  - merge:
+      src: steam-data
+      dst: $CACHE
+  - merge:
+      src: $CACHE/vb01/game
+      dst: $GAMEDIR/game
+  files:
+  - file1: N/A:Please select the demo archive
+  - steam-data: $STEAM:646150:/

@@ -1,0 +1,33 @@
+id: 17243
+game_id: 1005
+game_slug: reus
+name: Reus
+year: 2013
+user: Caps
+runner: linux
+slug: reus-humble-1
+version: humble
+description: null
+notes: ''
+created_at: '2019-12-09T07:13:45.937000Z'
+updated_at: '2019-12-15T18:56:15.759649Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 222730
+gogid: 1207659223
+gogslug: reus
+humblestoreid: ''
+script:
+  exe: Reus
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble installer

@@ -1,0 +1,15 @@
+name: Grim Dawn
+slug: grim-dawn
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Hack and slash
+aliases: []
+banner_url: /games/banner/grim-dawn.jpg
+icon_url: /games/icon/grim-dawn.png
+is_public: true
+updated: '2019-01-23T08:29:43.469054Z'
+steamid: 219990
+gogslug: grim_dawn
+humblestoreid: ''

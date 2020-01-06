@@ -1,0 +1,44 @@
+id: 7523
+game_id: 17263
+game_slug: dreadnought
+name: Dreadnought
+year: 2016
+user: cxf
+runner: wine
+slug: dreadnought-standalone-w-dxvk
+version: Standalone w/ DXVK
+description: null
+notes: ''
+created_at: '2018-03-13T23:10:10.392000Z'
+updated_at: '2019-02-14T05:54:19.243523Z'
+draft: false
+published: true
+published_by: 19464
+rating: '1'
+steamid: 835860
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      description: Installing Dreadnought
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Grey Box/Dreadnought/DreadnoughtLauncher.exe
+    arch: win64
+  system:
+    env:
+      DXVK_HUD: 0
+  wine:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  files:
+  - game: http://uscloud.6ft.com/DreadnoughtInstaller.exe

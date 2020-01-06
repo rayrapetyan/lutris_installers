@@ -1,0 +1,33 @@
+id: 8343
+game_id: 11406
+game_slug: world-of-warships
+name: World of Warships
+year: 2015
+user: cxf
+runner: winesteam
+slug: world-of-warships-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2018-05-20T07:44:37.862000Z'
+updated_at: '2019-02-14T00:18:48.983637Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 552990
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.1-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    appid: 552990
+    arch: win64

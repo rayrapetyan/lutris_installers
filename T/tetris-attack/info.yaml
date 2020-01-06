@@ -1,0 +1,16 @@
+name: Tetris Attack
+slug: tetris-attack
+year: 1995
+platforms:
+- name: Game Boy
+- name: Super Nintendo
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/tetris-attack.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:37.663223Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

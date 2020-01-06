@@ -1,0 +1,16 @@
+name: Thief simuator
+slug: thief-simuator
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Simulation
+aliases: []
+banner_url: /games/banner/thief-simuator.jpg
+icon_url: null
+is_public: true
+updated: '2019-12-19T18:03:27.753532Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,16 @@
+name: Spelunky
+slug: spelunky
+year: 2009
+platforms:
+- name: Browser
+- name: Windows
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/spelunky.jpg
+icon_url: /games/icon/spelunky.png
+is_public: true
+updated: '2019-01-23T08:31:22.299791Z'
+steamid: 239350
+gogslug: spelunky
+humblestoreid: ''

@@ -1,0 +1,17 @@
+name: 'Divinity: Original Sin - Enhanced Edition'
+slug: divinity-original-sin-enhanced-edition
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: RPG
+- name: Strategy
+aliases: []
+banner_url: /games/banner/divinity-original-sin-enhanced-edition.jpg
+icon_url: /games/icon/divinity-original-sin-enhanced-edition.png
+is_public: true
+updated: '2019-01-23T08:29:14.124173Z'
+steamid: 373420
+gogslug: divinity_original_sin_enhanced_edition
+humblestoreid: ''

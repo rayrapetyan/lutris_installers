@@ -1,0 +1,41 @@
+id: 8916
+game_id: 19525
+game_slug: star-trek-elite-force-ii
+name: 'Star Trek: Elite Force II'
+year: 2003
+user: CounterAttack
+runner: wine
+slug: star-trek-elite-force-ii-11
+version: '1.1'
+description: null
+notes: ''
+created_at: '2018-06-26T00:43:38.073000Z'
+updated_at: '2018-06-26T03:40:44.154360Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: drive_c/Program Files/Activision/EF2/EF2.exe
+  installer:
+  - insert-disc:
+      requires: Setup/Data/EF2.exe
+  - task:
+      executable: $DISC/Setup.exe
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  - task:
+      executable: patch
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  files:
+  - patch: http://download.fileplanet.com/ftp1/102003/ef2_patch1.1.exe
+  game:
+    prefix: $GAMEDIR
+    arch: win32

@@ -1,0 +1,29 @@
+id: 2765
+game_id: 7721
+game_slug: rose-time
+name: Rose & Time
+year: 2012
+user: miky_kr5
+runner: linux
+slug: rose-time-remastered
+version: Remastered
+description: ''
+notes: ''
+created_at: '2016-09-22T00:49:31.534668Z'
+updated_at: '2016-09-25T21:12:06.592230Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: RoseAndTimeRemastered_Linux/Rose and Time.x86
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: file1
+  files:
+  - file1: N/A:Select the RoseAndTimeRemastered_Linux.zip file

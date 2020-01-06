@@ -1,0 +1,24 @@
+id: 14141
+game_id: 11574
+game_slug: the-last-weekend
+name: The Last Weekend
+year: 2017
+user: kimchitea
+runner: steam
+slug: the-last-weekend-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-06-17T04:04:41.045586Z'
+updated_at: '2019-10-11T00:00:38.777677Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 509800
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 509800

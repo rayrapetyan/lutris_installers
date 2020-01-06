@@ -1,0 +1,24 @@
+id: 3219
+game_id: 6047
+game_slug: hitman-go-definitive-edition
+name: 'Hitman GO: Definitive Edition'
+year: 2016
+user: FakeShemp
+runner: steam
+slug: hitman-go-definitive-edition-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-01-31T20:51:14.846390Z'
+updated_at: '2018-03-04T01:17:57.994192Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: 427820
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 427820

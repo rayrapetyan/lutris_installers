@@ -1,0 +1,16 @@
+name: Fortnite
+slug: fortnite
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/fortnite.jpg
+icon_url: /games/icon/fortnite.png
+is_public: true
+updated: '2019-05-04T20:17:17.926320Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

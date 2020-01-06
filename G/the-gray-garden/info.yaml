@@ -1,0 +1,20 @@
+name: The Gray Garden
+slug: the-gray-garden
+year: 2012
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Fighting
+- name: Horror
+- name: Interactive fiction
+- name: RPG
+aliases: []
+banner_url: /games/banner/the-gray-garden.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:41.882756Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

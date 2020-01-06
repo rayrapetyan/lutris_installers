@@ -1,0 +1,17 @@
+name: Adventures of Shuggy
+slug: adventures-of-shuggy
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: Indie
+- name: Platform
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/adventures-of-shuggy.jpg
+icon_url: /games/icon/adventures-of-shuggy.png
+is_public: true
+updated: '2019-06-11T18:48:52.118875Z'
+steamid: 211440
+gogslug: ''
+humblestoreid: ''

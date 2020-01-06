@@ -1,0 +1,24 @@
+id: 11281
+game_id: 8550
+game_slug: political-animals
+name: Political Animals
+year: null
+user: citrusalex
+runner: steam
+slug: political-animals-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-12-20T18:46:47.514695Z'
+updated_at: '2018-12-20T18:46:51.898881Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: 458630
+gogid: 1688206338
+gogslug: political_animals
+humblestoreid: ''
+script:
+  game:
+    appid: 458630

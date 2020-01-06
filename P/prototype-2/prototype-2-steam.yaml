@@ -1,0 +1,24 @@
+id: 6388
+game_id: 975
+game_slug: prototype-2
+name: PROTOTYPE 2
+year: null
+user: TheMasterDoom97
+runner: winesteam
+slug: prototype-2-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-11-22T11:15:53.935297Z'
+updated_at: '2017-11-26T01:58:25.989013Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 115320
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 115320

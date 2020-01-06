@@ -1,0 +1,19 @@
+name: Stronghold Crusader HD
+slug: stronghold-crusader-hd
+year: 2002
+platforms:
+- name: Windows
+genres:
+- name: Building
+- name: Historical
+- name: Strategy
+aliases:
+- slug: stronghold-crusader-extreme-hd
+  name: Stronghold Crusader Extreme HD
+banner_url: /games/banner/stronghold-crusader-hd.jpg
+icon_url: /games/icon/stronghold-crusader-hd.png
+is_public: true
+updated: '2019-04-17T01:59:02.155987Z'
+steamid: 40970
+gogslug: stronghold_crusader
+humblestoreid: ''

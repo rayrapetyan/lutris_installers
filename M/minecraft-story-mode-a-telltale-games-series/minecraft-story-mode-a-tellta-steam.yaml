@@ -1,0 +1,24 @@
+id: 2090
+game_id: 5336
+game_slug: minecraft-story-mode-a-telltale-games-series
+name: 'Minecraft: Story Mode - A Telltale Games Series'
+year: null
+user: Xodetaetl
+runner: winesteam
+slug: minecraft-story-mode-a-tellta-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-06-13T18:03:32.785288Z'
+updated_at: '2016-06-13T18:03:38.318211Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 376870
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 376870

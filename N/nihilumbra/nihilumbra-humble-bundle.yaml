@@ -1,0 +1,31 @@
+id: 2502
+game_id: 2257
+game_slug: nihilumbra
+name: Nihilumbra
+year: 2013
+user: Lulu
+runner: linux
+slug: nihilumbra-humble-bundle
+version: Humble Bundle
+description: "Savegame and config files are in:\r\n~/.config/unity3d/Beautifun Games/Nihilumbra/"
+notes: ''
+created_at: '2016-08-18T18:43:41.066936Z'
+updated_at: '2016-09-22T18:05:24.404302Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 252670
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Nihilumbra.x86
+  installer:
+  - extract:
+      file: nihilumbra-game
+  - chmodx: $GAMEDIR/Nihilumbra.x86
+  - chmodx: $GAMEDIR/Nihilumbra.x86_64
+  exe64: Nihilumbra.x86_64
+  files:
+  - nihilumbra-game: N/A:Please select the .tar.gz install file downloaded from humblebundle.com

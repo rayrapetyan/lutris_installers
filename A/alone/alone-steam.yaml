@@ -1,0 +1,24 @@
+id: 7470
+game_id: 8907
+game_slug: alone
+name: ALONE?
+year: 2016
+user: t-rex91
+runner: steam
+slug: alone-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-06T17:15:36.894300Z'
+updated_at: '2018-03-07T19:37:37.805202Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 514240
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 514240

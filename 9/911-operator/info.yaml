@@ -1,0 +1,17 @@
+name: 911 Operator
+slug: 911-operator
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Management
+- name: Simulation
+- name: Strategy
+aliases: []
+banner_url: /games/banner/911-operator.jpg
+icon_url: /games/icon/911-operator.png
+is_public: false
+updated: '2019-08-17T07:01:23.527285Z'
+steamid: 503560
+gogslug: ''
+humblestoreid: ''

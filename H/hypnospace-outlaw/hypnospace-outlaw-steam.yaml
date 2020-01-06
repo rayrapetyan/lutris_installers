@@ -1,0 +1,24 @@
+id: 16236
+game_id: 26362
+game_slug: hypnospace-outlaw
+name: Hypnospace Outlaw
+year: 2019
+user: cxf
+runner: steam
+slug: hypnospace-outlaw-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-10-16T22:18:52.031330Z'
+updated_at: '2019-10-16T22:18:56.045932Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 844590
+gogid: 1939715083
+gogslug: hypnospace_outlaw
+humblestoreid: ''
+script:
+  game:
+    appid: 844590

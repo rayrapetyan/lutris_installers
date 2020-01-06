@@ -1,0 +1,23 @@
+id: 1803
+game_id: 3906
+game_slug: joans-adventure-of-magic
+name: Joan's Adventure of Magic
+year: 2013
+user: dennisjj4
+runner: browser
+slug: joans-adventure-of-magic-flash
+version: Flash
+description: ''
+notes: ''
+created_at: '2015-12-29T19:59:04.750331Z'
+updated_at: '2016-02-02T16:48:11.015555Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: http://schitzoadventure.herokuapp.com/

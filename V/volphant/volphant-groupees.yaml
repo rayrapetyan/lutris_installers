@@ -1,0 +1,35 @@
+id: 5214
+game_id: 12391
+game_slug: volphant
+name: Volphant
+year: 2015
+user: FakeShemp
+runner: wine
+slug: volphant-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-26T08:36:52.873000Z'
+updated_at: '2018-05-19T03:41:57.596164Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      args: /sp- /silent /norestart
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees installer
+  game:
+    prefix: $GAMEDIR
+    args: -force-d3d9
+    exe: drive_c/Program Files/Volphant/Volphant.exe
+    arch: win32

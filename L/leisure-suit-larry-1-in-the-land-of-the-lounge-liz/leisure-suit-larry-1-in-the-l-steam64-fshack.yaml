@@ -1,0 +1,74 @@
+id: 17758
+game_id: 16392
+game_slug: leisure-suit-larry-1-in-the-land-of-the-lounge-liz
+name: Leisure Suit Larry 1 - In the Land of the Lounge Lizards
+year: 1987
+user: vanstaveren
+runner: wine
+slug: leisure-suit-larry-1-in-the-l-steam64-fshack
+version: Steam64-fshack
+description: testing
+notes: ''
+created_at: '2020-01-05T11:45:28.347185Z'
+updated_at: '2020-01-05T11:45:28.347210Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: 763970
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Creating 64-bit prefix ...
+      arch: win64
+      name: create_prefix
+  - move:
+      src: SteamSetup.exe
+      dst: $GAMEDIR/drive_c/
+  - chmodx: $GAMEDIR/drive_c/SteamSetup.exe
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Vulkan ...
+      app: d9vk
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: arial
+      arch: win64
+      name: winetricks
+  - task:
+      executable: $GAMEDIR/drive_c/SteamSetup.exe
+      prefix: $GAMEDIR/prefix
+      args: /S
+      description: Steam ...
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Windows version 10 ...
+      app: win10
+      arch: win64
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    exe: $GAMEDIR/drive_c/Program Files (x86)/Steam/Steam.exe
+    arch: win64
+    args: -nojoy -applaunch 763970
+    appid: '763970'
+    custom-name: Leisure Suit Larry 1 - In the Land of the Lounge Lizards
+  system:
+    disable_compositor: true
+    pulse_latency: true
+    xboxdrv: xboxdrv
+  wine:
+    Audio: pulse
+    version: ge-protonified-nofshack-4.9-x86_64
+    overrides:
+      winedbg.exe: d
+    dxvk: true
+  files:
+  - SteamSetup.exe: https://steamcdn-a.akamaihd.net/client/installer/SteamSetup.exe

@@ -1,0 +1,16 @@
+name: Blackhole
+slug: blackhole
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Platform
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/blackhole.jpg
+icon_url: /games/icon/blackhole.png
+is_public: true
+updated: '2019-01-23T08:28:37.237264Z'
+steamid: 322680
+gogslug: blackhole
+humblestoreid: ''

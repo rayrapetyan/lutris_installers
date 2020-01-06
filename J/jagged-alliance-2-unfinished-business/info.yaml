@@ -1,0 +1,17 @@
+name: 'Jagged Alliance 2: Unfinished Business'
+slug: jagged-alliance-2-unfinished-business
+year: 2000
+platforms:
+- name: Windows
+genres:
+- name: Modern
+- name: Strategy
+- name: Turn-based
+aliases: []
+banner_url: /games/banner/jagged-alliance-2-unfinished-business.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:59.632244Z'
+steamid: null
+gogslug: jagged_alliance_2_unfinished_business
+humblestoreid: ''

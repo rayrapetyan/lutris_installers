@@ -1,0 +1,21 @@
+name: MultiMC
+slug: multimc
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: Building
+- name: Construction
+- name: Open World
+- name: Sandbox
+- name: Survival
+aliases: []
+banner_url: /games/banner/multimc.jpg
+icon_url: null
+is_public: true
+updated: '2019-04-15T06:00:54.769882Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

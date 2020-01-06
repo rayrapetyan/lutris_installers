@@ -1,0 +1,32 @@
+id: 6021
+game_id: 4826
+game_slug: manos-the-hands-of-fate-directors-cut
+name: 'MANOS: The Hands of Fate - Director''s Cut'
+year: null
+user: FakeShemp
+runner: wine
+slug: manos-the-hands-of-fate-direc-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-10-20T16:14:21.430440Z'
+updated_at: '2018-05-19T03:41:57.302961Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 350780
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR/drive_c/Program Files/MANOS - The Hands of Fate
+  files:
+  - file1: N/A:Please select the Humble executable
+  game:
+    prefix: $GAMEDIR
+    exe: $file1
+    arch: win32

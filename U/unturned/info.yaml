@@ -1,0 +1,16 @@
+name: Unturned
+slug: unturned
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Sandbox
+- name: Survival
+aliases: []
+banner_url: /games/banner/unturned.jpg
+icon_url: /games/icon/unturned.png
+is_public: true
+updated: '2019-01-23T08:32:00.626179Z'
+steamid: 304930
+gogslug: ''
+humblestoreid: ''

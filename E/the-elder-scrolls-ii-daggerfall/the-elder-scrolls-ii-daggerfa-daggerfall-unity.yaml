@@ -1,0 +1,45 @@
+id: 12487
+game_id: 1593
+game_slug: the-elder-scrolls-ii-daggerfall
+name: 'The Elder Scrolls II: Daggerfall'
+year: 1996
+user: sparr
+runner: linux
+slug: the-elder-scrolls-ii-daggerfa-daggerfall-unity
+version: Daggerfall Unity
+description: Engine from the Daggerfall Unity project. Game data and content free
+  download thanks to Bethesda Softworks.
+notes: ''
+created_at: '2019-03-23T20:39:27.415000Z'
+updated_at: '2019-03-23T22:39:07.195482Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: dfu-client
+  - extract:
+      file: df-game
+  - merge:
+      src: $GAMEDIR/DFCD/DAGGER/ARENA2/
+      dst: $GAMEDIR/DAGGER/ARENA2/
+  - execute:
+      command: rm -rf $GAMEDIR/DFCD
+  - chmodx: $GAMEDIR/DaggerfallUnity.x86
+  - chmodx: $GAMEDIR/DaggerfallUnity.x86_64
+  - write_config:
+      section: Daggerfall
+      key: MyDaggerfallPath
+      value: $GAMEDIR/DAGGER
+      file: $HOME/.config/unity3d/Daggerfall Workshop/Daggerfall Unity/settings.ini
+  files:
+  - dfu-client: N/A:Locate the zip file downloaded from dfworkshop.net
+  - df-game: http://lutris.net/files/games/the-elder-scrolls-ii-daggerfall/daggerfall_preinstalled.tar.gz
+  game:
+    exe: $GAMEDIR/DaggerfallUnity.x86_64

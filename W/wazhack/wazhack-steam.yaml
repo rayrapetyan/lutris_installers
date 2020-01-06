@@ -1,0 +1,24 @@
+id: 694
+game_id: 2761
+game_slug: wazhack
+name: WazHack
+year: null
+user: Xodetaetl
+runner: steam
+slug: wazhack-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T13:04:11.216000Z'
+updated_at: '2014-09-15T13:26:54.541000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 264160
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 264160

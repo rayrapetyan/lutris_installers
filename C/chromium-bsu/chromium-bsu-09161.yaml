@@ -1,0 +1,28 @@
+id: 2972
+game_id: 8323
+game_slug: chromium-bsu
+name: Chromium B.S.U.
+year: 2000
+user: scottviger
+runner: linux
+slug: chromium-bsu-09161
+version: 0.9.16.1
+description: ''
+notes: ''
+created_at: '2016-11-04T01:34:04.824175Z'
+updated_at: '2016-11-06T18:12:31.373902Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: chromium-bsu.sh
+  installer:
+  - extract:
+      file: chromium
+  files:
+  - chromium: https://lutris.net/files/games/chromium-bsu/chromium-bsu-0.9.16.1-x86_64.tar.gz

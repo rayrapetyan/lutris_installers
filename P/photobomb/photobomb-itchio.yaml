@@ -1,0 +1,29 @@
+id: 2214
+game_id: 6351
+game_slug: photobomb
+name: Photobomb
+year: 2015
+user: Lulu
+runner: linux
+slug: photobomb-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2016-06-27T19:44:30.101501Z'
+updated_at: '2016-07-18T16:43:29.800074Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Photobomb.x86
+  installer:
+  - extract:
+      file: photobomb-game
+  - chmodx: $GAMEDIR/Photobomb.x86
+  files:
+  - photobomb-game: 'N/A: Please select the .zip install file downloaded from itch.io'

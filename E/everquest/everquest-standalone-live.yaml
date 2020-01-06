@@ -1,0 +1,89 @@
+id: 13664
+game_id: 1117
+game_slug: everquest
+name: EverQuest
+year: 2012
+user: binarypie
+runner: wine
+slug: everquest-standalone-live
+version: Standalone - Live
+description: Fixes the installer so it actually installs EverQuest (Live) standalone.
+notes: "During Install:\r\n* Do not run the DirectX optional components.\r\n* xAfter\
+  \ logging in close the patcher to complete installation and re-launch game.\r\n\r\
+  \nPost Install:\r\n\r\n* Edit the eqclient.ini file\r\nCPUAffinity0=-1\r\nWindowedMode=TRUE\r\
+  \nTextureCache=FALSE\r\n\r\n\r\nKnown Issues:\r\n\r\n* Once you start the game,\
+  \ if you have a cursor that is off from where it clicks, just maximize the window\
+  \ and it will fix itself."
+created_at: '2019-05-21T15:30:43.028000Z'
+updated_at: '2019-10-28T20:36:15.353951Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: 205710
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: win7
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Corefonts
+      arch: win32
+      app: corefonts
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing DirectX 9
+      arch: win32
+      app: d3dx9_43
+      silent: false
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Windows Management Interface
+      arch: win32
+      app: wmi
+      silent: false
+      name: winetricks
+  - task:
+      executable: wineboot
+      prefix: $GAMEDIR
+      description: Simulating Windows reboot.
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: win7
+      arch: win32
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Installing EverQuest
+      arch: win32
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/users/Public/Daybreak Game Company/Installed Games/EverQuest/LaunchPad.exe
+  system:
+    env:
+      DXVK_HUD: 0
+    single_cpu: true
+  wine:
+    esync: false
+    dxvk: false
+  files:
+  - setup:
+      filename: EQ_setup.exe
+      url: https://launch.daybreakgames.com/installer/EQ_setup.exe

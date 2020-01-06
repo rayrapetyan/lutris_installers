@@ -1,0 +1,24 @@
+id: 1273
+game_id: 2478
+game_slug: lords-of-xulima
+name: Lords of Xulima
+year: 2014
+user: Xodetaetl
+runner: steam
+slug: lords-of-xulima-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-02-03T15:38:53.691000Z'
+updated_at: '2015-02-03T15:39:03.729000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 296570
+gogid: 1420648167
+gogslug: lords_of_xulima
+humblestoreid: ''
+script:
+  game:
+    appid: 296570

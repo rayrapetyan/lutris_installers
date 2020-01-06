@@ -1,0 +1,24 @@
+id: 205
+game_id: 294
+game_slug: space-pirates-and-zombies
+name: Space Pirates and Zombies
+year: 2011
+user: strider
+runner: steam
+slug: space-pirates-and-zombies-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-19T23:56:17.966000Z'
+updated_at: '2013-12-19T23:56:17.966000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 107200
+gogid: 1207664843
+gogslug: space_pirates_and_zombies
+humblestoreid: ''
+script:
+  game:
+    appid: 107200

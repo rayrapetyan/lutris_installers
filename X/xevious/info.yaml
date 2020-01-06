@@ -1,0 +1,23 @@
+name: Xevious
+slug: xevious
+year: 1982
+platforms:
+- name: Apple //e
+- name: Arcade
+- name: Atari ST
+- name: Commodore 64
+- name: NES
+- name: Nintendo Game Boy Advance
+- name: PC-98
+- name: Sega Master System
+- name: ZX Spectrum
+genres:
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/xevious.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:12.367457Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

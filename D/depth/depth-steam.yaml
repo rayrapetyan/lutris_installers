@@ -1,0 +1,24 @@
+id: 9196
+game_id: 3632
+game_slug: depth
+name: Depth
+year: 2014
+user: xilcoy
+runner: winesteam
+slug: depth-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-13T09:03:39.969000Z'
+updated_at: '2018-08-02T07:39:35.525016Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 274940
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 274940

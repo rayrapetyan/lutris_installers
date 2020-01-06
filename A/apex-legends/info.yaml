@@ -1,0 +1,16 @@
+name: Apex Legends
+slug: apex-legends
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+aliases: []
+banner_url: /games/banner/apex-legends.jpg
+icon_url: /games/icon/apex-legends.png
+is_public: true
+updated: '2019-02-07T03:03:19.804393Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

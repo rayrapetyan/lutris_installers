@@ -1,0 +1,18 @@
+name: 'SimEarth: The Living Planet'
+slug: simearth-the-living-planet
+year: 1990
+platforms:
+- name: MS-DOS
+- name: Super Nintendo
+genres:
+- name: Educational
+- name: Life simulation
+- name: Simulation
+aliases: []
+banner_url: /games/banner/simearth-the-living-planet.jpg
+icon_url: null
+is_public: true
+updated: '2019-10-22T22:04:42.566096Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

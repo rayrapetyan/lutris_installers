@@ -1,0 +1,16 @@
+name: 'Warhammer: Chaosbane'
+slug: warhammer-chaosbane
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Hack and slash
+- name: RPG
+aliases: []
+banner_url: /games/banner/warhammer-chaosbane.jpg
+icon_url: null
+is_public: true
+updated: '2019-06-09T08:32:32.227886Z'
+steamid: 774241
+gogslug: ''
+humblestoreid: ''

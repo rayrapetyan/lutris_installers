@@ -1,0 +1,24 @@
+id: 8657
+game_id: 17525
+game_slug: garden-of-oblivion
+name: Garden of Oblivion
+year: null
+user: soredake
+runner: winesteam
+slug: garden-of-oblivion-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-11T07:40:40.976290Z'
+updated_at: '2018-06-11T07:49:48.363436Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 761070
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 761070

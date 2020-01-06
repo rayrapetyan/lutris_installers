@@ -1,0 +1,30 @@
+id: 3603
+game_id: 7685
+game_slug: wing-commander-flat-universe
+name: Wing Commander Flat Universe
+year: 2015
+user: dj_who
+runner: linux
+slug: wing-commander-flat-universe-latest-64bit
+version: latest (64bit)
+description: ''
+notes: ''
+created_at: '2017-04-30T19:17:42.173000Z'
+updated_at: '2017-05-02T23:01:56.101604Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: wing-flat
+  files:
+  - wing-flat: http://flatuniverse.solsector.net/download/flat-lin.zip
+  game:
+    exe: flat.x86_64

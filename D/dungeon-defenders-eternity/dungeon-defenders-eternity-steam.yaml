@@ -1,0 +1,24 @@
+id: 672
+game_id: 2443
+game_slug: dungeon-defenders-eternity
+name: Dungeon Defenders Eternity
+year: null
+user: Xodetaetl
+runner: steam
+slug: dungeon-defenders-eternity-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T12:00:34.696000Z'
+updated_at: '2014-09-15T13:26:55.494000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 302270
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 302270

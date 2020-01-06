@@ -1,0 +1,24 @@
+id: 9631
+game_id: 3197
+game_slug: dungeon-fighter-online
+name: Dungeon Fighter Online
+year: null
+user: Kxze
+runner: winesteam
+slug: dungeon-fighter-online-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-07T20:24:34.980000Z'
+updated_at: '2018-08-09T05:34:01.715062Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 495910
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 495910

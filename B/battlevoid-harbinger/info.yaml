@@ -1,0 +1,17 @@
+name: 'Battlevoid: Harbinger'
+slug: battlevoid-harbinger
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Real-time strategy
+- name: Strategy
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/battlevoid-harbinger.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:33.643938Z'
+steamid: null
+gogslug: battlevoid_harbinger
+humblestoreid: ''

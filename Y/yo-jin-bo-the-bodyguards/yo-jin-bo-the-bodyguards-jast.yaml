@@ -1,0 +1,37 @@
+id: 9493
+game_id: 20535
+game_slug: yo-jin-bo-the-bodyguards
+name: Yo-Jin-Bo ~ The Bodyguards
+year: 2006
+user: kimchitea
+runner: wine
+slug: yo-jin-bo-the-bodyguards-jast
+version: JAST
+description: null
+notes: ''
+created_at: '2018-07-31T02:17:12.898000Z'
+updated_at: '2018-07-31T18:52:53.992329Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/setup.exe
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  files:
+  - file1: N/A:Please select the JAST USA archive
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/TWOFIVE_HIRAMEKI/Yo-Jin-Bo/yojinbo_E16.exe
+    arch: win32

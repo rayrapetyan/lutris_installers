@@ -1,0 +1,31 @@
+id: 17683
+game_id: 7814
+game_slug: valkyria-chronicles-ii
+name: Valkyria Chronicles II
+year: 2010
+user: soredake
+runner: libretro
+slug: valkyria-chronicles-ii-sony-psp
+version: Sony PSP
+description: null
+notes: ''
+created_at: '2020-01-01T09:55:45.289707Z'
+updated_at: '2020-01-01T09:55:53.072954Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: rom
+      dst: $GAMEDIR
+  files:
+  - rom1: N/A:Select the game's ROM file
+  game:
+    core: ppsspp
+    main_file: rom

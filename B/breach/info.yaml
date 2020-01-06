@@ -1,0 +1,18 @@
+name: Breach
+slug: breach
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Fantasy
+- name: RPG
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/breach.jpg
+icon_url: /games/icon/breach.png
+is_public: false
+updated: '2019-01-28T02:37:04.487466Z'
+steamid: 421650
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,29 @@
+id: 34
+game_id: 3
+game_slug: braid
+name: Braid
+year: 2008
+user: strider
+runner: linux
+slug: braid-humble-bundle
+version: Humble Bundle
+description: ''
+notes: ''
+created_at: '2013-07-03T21:13:15Z'
+updated_at: '2016-08-12T01:59:44.996315Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 26800
+gogid: 1461061433
+gogslug: braid
+humblestoreid: braid
+script:
+  exe: braid
+  installer:
+  - execute:
+      args: --destination=$GAMEDIR
+      file: braid-game
+  files:
+  - braid-game: 'N/A: Select the ".run.bin" install file downloaded from http://humblebundle.com'

@@ -1,0 +1,32 @@
+id: 5326
+game_id: 690
+game_slug: tom-clancys-splinter-cell
+name: Tom Clancy's Splinter Cell
+year: 2003
+user: FakeShemp
+runner: wine
+slug: tom-clancys-splinter-cell-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2017-08-10T16:29:12.795000Z'
+updated_at: '2017-08-11T16:46:49.026882Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 13560
+gogid: 1207659034
+gogslug: splinter_cell
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the GOG installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Splinter Cell/system/SplinterCell.exe

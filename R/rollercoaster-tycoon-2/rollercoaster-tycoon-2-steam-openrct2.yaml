@@ -1,0 +1,41 @@
+id: 2963
+game_id: 4713
+game_slug: rollercoaster-tycoon-2
+name: RollerCoaster Tycoon 2
+year: 2002
+user: strider
+runner: linux
+slug: rollercoaster-tycoon-2-steam-openrct2
+version: Steam + OpenRCT2
+description: Uses Steam data and OpenRTC2 0.2.4
+notes: Update to OpenRCT2 0.2.4
+created_at: '2016-11-01T00:26:55.227000Z'
+updated_at: '2019-12-08T11:39:07.453433Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: 285330
+gogid: 1207658957
+gogslug: rollercoaster_tycoon_2
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: gameassets
+      dst: $GAMEDIR
+  - extract:
+      format: tgz
+      file: engine
+  - chmodx: $GAMEDIR/openrct2
+  - mkdir: $HOME/.config/OpenRCT2/
+  - write_config:
+      section: general
+      key: game_path
+      value: $GAMEDIR
+      file: $HOME/.config/OpenRCT2/config.ini
+  files:
+  - engine: https://github.com/OpenRCT2/OpenRCT2/releases/download/v0.2.4/OpenRCT2-0.2.4-linux-x86_64.tar.gz
+  - gameassets: $STEAM:285330:/
+  game:
+    exe: $GAMEDIR/openrct2

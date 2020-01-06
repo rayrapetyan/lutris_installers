@@ -1,0 +1,49 @@
+id: 7412
+game_id: 751
+game_slug: champions-online-free-for-all
+name: 'Champions Online: Free For All'
+year: null
+user: Kimyrielle
+runner: wine
+slug: champions-online-free-for-all-retail
+version: Retail
+description: Stand-alone version, does not require Arc or Steam.
+notes: ''
+created_at: '2018-02-28T05:50:28.409247Z'
+updated_at: '2018-03-01T07:16:01.708296Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 9880
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      type: REG_SZ
+      value: ''
+      key: winemenubuilder.exe
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+  - move:
+      src: $game
+      dst: $GAMEDIR/drive_c/Champions Online.exe
+  - task:
+      prefix: $GAMEDIR
+      description: Disabling unused WINE features
+      app: sandbox
+      silent: true
+      name: winetricks
+  files:
+  - game: http://files.champions-online.com/launcher/Champions%20Online.exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Champions Online.exe
+    arch: win32

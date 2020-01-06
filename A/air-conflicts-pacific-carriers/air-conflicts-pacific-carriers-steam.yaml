@@ -1,0 +1,24 @@
+id: 217
+game_id: 473
+game_slug: air-conflicts-pacific-carriers
+name: 'Air Conflicts: Pacific Carriers'
+year: null
+user: strider
+runner: steam
+slug: air-conflicts-pacific-carriers-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-19T23:56:18.340000Z'
+updated_at: '2013-12-19T23:56:18.340000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 214910
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 214910

@@ -1,0 +1,35 @@
+id: 8472
+game_id: 18230
+game_slug: shoujo-city
+name: Shoujo City
+year: null
+user: Gunnest663
+runner: winesteam
+slug: shoujo-city-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-30T09:39:58.366000Z'
+updated_at: '2018-07-01T06:39:54.393263Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 764230
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-3.9-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 764230
+    arch: win64

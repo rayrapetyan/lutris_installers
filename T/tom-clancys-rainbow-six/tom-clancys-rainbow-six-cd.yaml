@@ -1,0 +1,44 @@
+id: 11793
+game_id: 14062
+game_slug: tom-clancys-rainbow-six
+name: Tom Clancy's Rainbow Six
+year: 1998
+user: r6RNjMKgw
+runner: wine
+slug: tom-clancys-rainbow-six-cd
+version: CD
+description: null
+notes: ''
+created_at: '2019-02-01T18:13:17.620593Z'
+updated_at: '2019-03-26T04:12:27.006468Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1207658752
+gogslug: tom_clancys_rainbow_six
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      install_mono: false
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: win98
+      name: winetricks
+  - insert-disc:
+      requires: RAINBOWSIX.exe
+      description: Insert disc 1
+  - task:
+      executable: $DISC/SETUP.EXE
+      prefix: $GAMEDIR
+      description: Installing Rainbow Six
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Red Storm Entertainment/Tom Clancy's Rainbow Six/RainbowSix.exe
+    arch: win32

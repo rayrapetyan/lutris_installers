@@ -1,0 +1,17 @@
+name: Divinity Original Sin
+slug: divinity-original-sin
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: RPG
+- name: Strategy
+aliases: []
+banner_url: /games/banner/divinity-original-sin.jpg
+icon_url: /games/icon/divinity-original-sin.png
+is_public: true
+updated: '2019-01-23T08:29:14.090980Z'
+steamid: 230230
+gogslug: ''
+humblestoreid: ''

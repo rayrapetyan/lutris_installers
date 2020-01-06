@@ -1,0 +1,34 @@
+id: 4439
+game_id: 580
+game_slug: i-have-no-mouth-and-i-must-scream
+name: I Have No Mouth, and I Must Scream
+year: 1995
+user: robotkinz
+runner: linux
+slug: i-have-no-mouth-and-i-must-sc-gogcom
+version: GOG.com
+description: null
+notes: ''
+created_at: '2017-06-17T20:29:45.698000Z'
+updated_at: '2019-09-09T02:04:34.080319Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 245390
+gogid: 1207659593
+gogslug: i_have_no_mouth_and_i_must_scream
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

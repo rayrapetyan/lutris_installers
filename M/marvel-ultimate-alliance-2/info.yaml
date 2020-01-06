@@ -1,0 +1,17 @@
+name: 'Marvel: Ultimate Alliance 2'
+slug: marvel-ultimate-alliance-2
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/marvel-ultimate-alliance-2.jpg
+icon_url: /games/icon/marvel-ultimate-alliance-2.png
+is_public: true
+updated: '2019-01-23T08:30:18.257799Z'
+steamid: 433320
+gogslug: ''
+humblestoreid: ''

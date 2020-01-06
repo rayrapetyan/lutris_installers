@@ -1,0 +1,17 @@
+name: Air Forte
+slug: air-forte
+year: 2010
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Action
+- name: Educational
+aliases: []
+banner_url: /games/banner/air-forte.jpg
+icon_url: /games/icon/air-forte.png
+is_public: true
+updated: '2019-01-23T08:28:16.721987Z'
+steamid: 55020
+gogslug: ''
+humblestoreid: ''

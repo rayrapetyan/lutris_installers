@@ -1,0 +1,24 @@
+id: 8892
+game_id: 19474
+game_slug: howlville-the-dark-past
+name: 'Howlville: The Dark Past'
+year: 2012
+user: kimchitea
+runner: steam
+slug: howlville-the-dark-past-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-25T00:23:27.363720Z'
+updated_at: '2018-06-25T04:00:15.471386Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 828950
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 828950

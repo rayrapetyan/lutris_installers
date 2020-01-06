@@ -1,0 +1,24 @@
+id: 10324
+game_id: 6301
+game_slug: randals-monday
+name: Randal's Monday
+year: 2014
+user: redgloboli
+runner: winesteam
+slug: randals-monday-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-09-24T09:22:39.260948Z'
+updated_at: '2018-09-25T17:34:24.447465Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 314810
+gogid: 1207666663
+gogslug: randals_monday
+humblestoreid: ''
+script:
+  game:
+    appid: 314810

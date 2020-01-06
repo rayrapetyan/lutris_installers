@@ -1,0 +1,54 @@
+id: 5531
+game_id: 3424
+game_slug: little-big-adventure
+name: Little Big Adventure
+year: 1994
+user: FakeShemp
+runner: dosbox
+slug: little-big-adventure-groupees
+version: Groupees
+description: Uses the files from the Windows installer from Groupees.
+notes: ''
+created_at: '2017-08-26T13:01:33.422000Z'
+updated_at: '2017-08-27T00:49:24.914531Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 397330
+gogid: 1207658971
+gogslug: little_big_adventure
+humblestoreid: ''
+script:
+  main_file: LBA_single.conf
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - extract:
+      dst: $CACHE
+      file: $file2
+  - execute:
+      args: -d "$CACHE" "$CACHE/LBA.exe"
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/app
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/app/LBA.conf
+      dst: $GAMEDIR/LBA_single.conf
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/LBA.conf
+  - write_config:
+      section: sdl
+      key: fullscreen
+      value: false
+      file: $GAMEDIR/LBA.conf
+  files:
+  - file1: N/A:Please select the Groupees archive
+  - file2: https://lutris.net/files/tools/innoextract.tar.gz
+  game:
+    config_file: $GAMEDIR/LBA.conf

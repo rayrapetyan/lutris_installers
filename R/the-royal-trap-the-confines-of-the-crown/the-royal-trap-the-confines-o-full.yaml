@@ -1,0 +1,28 @@
+id: 13168
+game_id: 5053
+game_slug: the-royal-trap-the-confines-of-the-crown
+name: 'The Royal Trap: The Confines Of The Crown'
+year: 2013
+user: cxf
+runner: linux
+slug: the-royal-trap-the-confines-o-full
+version: Full
+description: null
+notes: ''
+created_at: '2019-04-27T21:15:42.015000Z'
+updated_at: '2019-04-27T21:15:58.915446Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 356530
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: The Royal Trap.sh
+  installer:
+  - extract:
+      file: game
+  files:
+  - game: N/A:Select the game's Linux archive

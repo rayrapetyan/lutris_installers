@@ -1,0 +1,93 @@
+id: 10617
+game_id: 22177
+game_slug: streamlabs-chatbot
+name: Streamlabs Chatbot
+year: null
+user: WarfaceZ
+runner: wine
+slug: streamlabs-chatbot-testing-manual
+version: Testing-Manual
+description: null
+notes: ''
+created_at: '2018-10-24T09:11:49.502000Z'
+updated_at: '2018-10-26T05:54:52.101337Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 64bit Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Arial font
+      app: arial
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting fontsmooth=rgb
+      app: fontsmooth-rgb
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows 10 mode for Wine
+      arch: win64
+      key: Version
+      value: win10
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Visual C++ 2013
+      app: vcrun2013
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .NET 4.6.0 will take a while...
+      app: dotnet46
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows 10 mode for Wine
+      arch: win64
+      key: Version
+      value: win10
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - task:
+      executable: setup
+      description: Installing Streamlabs Chatbot
+      arch: win64
+      name: wineexec
+  files:
+  - setup:
+      filename: streamlabs_chatbot.exe
+      url: N/A:Select the game's setup file
+  game:
+    prefix: $GAMEDIR
+    arch: win64
+    exec: $HOME/Application Data/Streamlabs/Streamlabs Chatbot/Streamlabs Chatbot.exe

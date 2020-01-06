@@ -1,0 +1,24 @@
+id: 7251
+game_id: 15248
+game_slug: amplitude-a-visual-novel
+name: 'AMPLITUDE: A Visual Novel'
+year: 2017
+user: kimchitea
+runner: steam
+slug: amplitude-a-visual-novel-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-02-06T15:09:58.093439Z'
+updated_at: '2018-02-06T23:32:36.924278Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 704680
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 704680

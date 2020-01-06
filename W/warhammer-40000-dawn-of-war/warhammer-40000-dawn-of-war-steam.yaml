@@ -1,0 +1,35 @@
+id: 3066
+game_id: 313
+game_slug: warhammer-40000-dawn-of-war
+name: 'Warhammer 40,000: Dawn of War'
+year: 2004
+user: strider
+runner: winesteam
+slug: warhammer-40000-dawn-of-war-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2016-11-29T20:12:20.942000Z'
+updated_at: '2018-05-06T07:30:54.752162Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 4570
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Creating wine prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing dotnet20
+      app: dotnet20
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 4570

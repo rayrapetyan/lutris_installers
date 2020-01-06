@@ -1,0 +1,24 @@
+id: 14000
+game_id: 971
+game_slug: blur
+name: Blur
+year: null
+user: Antso.rfl
+runner: winesteam
+slug: blur-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-06-08T16:13:44.104000Z'
+updated_at: '2019-06-13T07:47:54.741799Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 42640
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 42640

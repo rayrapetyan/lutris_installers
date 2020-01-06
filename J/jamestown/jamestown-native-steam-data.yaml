@@ -1,0 +1,35 @@
+id: 1871
+game_id: 258
+game_slug: jamestown
+name: Jamestown
+year: 2011
+user: strider
+runner: linux
+slug: jamestown-native-steam-data
+version: Native + Steam data
+description: ''
+notes: 'Displays an error message: "Your base game executable has a an older version
+  than your archives. " The Humble Bundle binaries are not compatible with the Steam
+  data :('
+created_at: '2016-01-14T11:20:25.392669Z'
+updated_at: '2016-08-12T03:28:28.470375Z'
+draft: false
+published: true
+published_by: null
+rating: '1'
+steamid: 94200
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Jamestown-x86
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: binaries
+  - merge:
+      src: game_data
+      dst: $GAMEDIR/Archives
+  files:
+  - binaries: https://lutris.net/files/games/jamestown/jamestown-linux.tar.gz
+  - game_data: $WINESTEAM:94200:Archives

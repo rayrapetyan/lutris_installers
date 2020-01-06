@@ -1,0 +1,17 @@
+name: Ashen
+slug: ashen
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/ashen.jpg
+icon_url: null
+is_public: true
+updated: '2019-06-14T20:49:22.566903Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

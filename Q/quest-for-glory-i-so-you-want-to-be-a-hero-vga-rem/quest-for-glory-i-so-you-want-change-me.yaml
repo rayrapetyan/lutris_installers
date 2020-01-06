@@ -1,0 +1,90 @@
+id: 17712
+game_id: 11165
+game_slug: quest-for-glory-i-so-you-want-to-be-a-hero-vga-rem
+name: 'Quest for Glory I: So You Want To Be A Hero (VGA Remake)'
+year: 1992
+user: pajje
+runner: dosbox
+slug: quest-for-glory-i-so-you-want-change-me
+version: Change Me
+description: Uses the files from the Windows installer from GOG.
+notes: "To get better quality MIDI audio (might need to install additional packages):\r\
+  \nI - Need to install fluid-soundfont-gm and fluidsynth.\r\nFor Mint 19:\r\nsudo\
+  \ apt install -y fluid-soundfont-gm fluidsynth\r\nII - Open terminal and run the\
+  \ command (needs to be run each time you want to play):\r\nfluidsynth -l -s -i -aalsa\
+  \ -o audio.alsa.device=default /usr/share/sounds/sf2/FluidR3_GM.sf2\r\nIII - Start\
+  \ the game.\r\n\r\nFor lower quality MIDI audio (no additional packages):\r\nI -\
+  \ Run the game and you'll get a menu\r\nII - Select '2' for VGA version settings\
+  \ (or 4 if you want EGA version)\r\nIII - Select 'Music' --> Soundblaster / AdLib\
+  \ Card (or compabibles)\r\nIV - Accept these choies and save configuration\r\nThe\
+  \ setup only needs to be done once.  You can now run the game and select '1' for\
+  \ VGA version (or 3 if you want EGA version)"
+created_at: '2020-01-02T21:46:02.400251Z'
+updated_at: '2020-01-02T21:46:02.400274Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: DOSBOX/dosboxQG1VGA_single.conf
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file2
+  - execute:
+      args: -d "$CACHE" "$file1"
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/app
+      dst: $GAMEDIR
+  - merge:
+      src: $GAMEDIR/dosboxQG1VGA.conf
+      dst: $GAMEDIR/DOSBOX
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/DOSBOX/dosboxQG1VGA.conf
+  - write_config:
+      section: sdl
+      key: output
+      value: overlay
+      file: $GAMEDIR/DOSBOX/dosboxQG1VGA.conf
+  - write_config:
+      section: sdl
+      key: fullscreen
+      value: false
+      file: $GAMEDIR/DOSBOX/dosboxQG1VGA.conf
+  - write_config:
+      section: sdl
+      key: fullresolution
+      value: 1920x1080
+      file: $GAMEDIR/DOSBOX/dosboxQG1VGA.conf
+  - write_config:
+      section: midi
+      key: midiconfig
+      value: '128:0'
+      file: $GAMEDIR/DOSBOX/dosboxQG1VGA.conf
+  - write_file:
+      content: "[ipx]\n# ipx: Enable ipx over UDP/IP emulation.\nipx=false\n\n[autoexec]\
+        \ \n@echo off\nmount C \"..\"\nc:\ncls\nECHO  ---------------------------------------------\
+        \ \nECHO  Quest for Glory - So You Want To Be A Hero\nECHO  ---------------------------------------------\
+        \ \nECHO   1) VGA version (default)\nECHO   2) VGA version Settings\nECHO\
+        \   3) EGA version (Hero's Quest)\nECHO   4) EGA version Settings\nECHO  ---------------------------------------------\
+        \ \nECHO   5) exit program\nECHO  ---------------------------------------------\n\
+        \n choice /c12345 /s Which game do you want to run? 1-5: /n\n if errorlevel\
+        \ 5 goto exit\n if errorlevel 4 goto setega\n if errorlevel 3 goto pqega\n\
+        \ if errorlevel 2 goto setvga\n if errorlevel 1 goto pqvga\n\n :pqvga\n cls\n\
+        \ scidhuv.exe\n exit\n  \n :setvga\n cls\n INSTALL.EXE\n exit\n\n :pqega\n\
+        \ cls\n cd ega\n SCIV.EXE\n exit\n\n :setega\n cls\n cd ega\n INSTALL.EXE\n\
+        \ exit\n\n :exit\n exit"
+      file: $GAMEDIR/DOSBOX/dosboxQG1VGA_single.conf
+  files:
+  - file1: N/A:Please select the GOG installer
+  - file2: https://lutris.net/files/tools/innoextract.tar.gz
+  game:
+    config_file: $GAMEDIR/DOSBOX/dosboxQG1VGA.conf

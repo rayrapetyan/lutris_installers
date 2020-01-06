@@ -1,0 +1,55 @@
+id: 10743
+game_id: 1037
+game_slug: hearts-of-iron-iii
+name: Hearts of Iron III
+year: null
+user: batman
+runner: wine
+slug: hearts-of-iron-iii-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2018-11-03T06:49:06.592000Z'
+updated_at: '2018-11-03T11:42:41.827492Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 25890
+gogid: 1437401338
+gogslug: hearts_of_iron_iii
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      type: REG_SZ
+      value: ''
+      key: winemenubuilder.exe
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /VERYSILENT /SP- /NOCANCEL /SUPPRESSMSGBOXES '/DIR=C:/game'
+      description: Installing...
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Disabling unused WINE features
+      app: sandbox
+      silent: true
+      name: winetricks
+  system:
+    disable_runtime: true
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/game/Run/hoigame.exe
+    working_dir: $GAMEDIR/drive_c/game
+    arch: win32

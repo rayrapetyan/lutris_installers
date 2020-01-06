@@ -1,0 +1,29 @@
+id: 16223
+game_id: 10627
+game_slug: hyperdimension-neptunia-u-action-unleashed
+name: 'Hyperdimension Neptunia U: Action Unleashed'
+year: 2016
+user: packof14eggies
+runner: steam
+slug: hyperdimension-neptunia-u-act-steam-proton
+version: Steam Proton
+description: Game works correctly, but runs slower than on Windows.
+notes: "When launched, the game sometimes stays on a black screen for a while. Clicking\
+  \ repeatedly (or pressing the A or X button on a controller) for a couple of seconds\
+  \ seems to get the game going and shows the splash screens as expected.\r\n\r\n\
+  Aside from this, the game runs perfectly, albeit with occasional slight performance\
+  \ drops when many enemies are on-screen. When tested under Windows, these performance\
+  \ drops did not occur, so it is assumed they are a symptom of running through Proton."
+created_at: '2019-10-16T17:32:31.077000Z'
+updated_at: '2019-10-16T19:32:24.402325Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 387340
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 387340

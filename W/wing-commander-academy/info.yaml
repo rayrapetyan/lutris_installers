@@ -1,0 +1,17 @@
+name: 'Wing Commander: Academy'
+slug: wing-commander-academy
+year: 1993
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Sci-fi
+- name: Shooter
+aliases: []
+banner_url: /games/banner/wing-commander-academy.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:08.948379Z'
+steamid: null
+gogslug: wing_commander_academy
+humblestoreid: ''

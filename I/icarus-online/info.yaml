@@ -1,0 +1,16 @@
+name: Icarus Online
+slug: icarus-online
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Fantasy
+- name: MMORPG
+aliases: []
+banner_url: /games/banner/icarus-online.jpg
+icon_url: null
+is_public: true
+updated: '2019-07-01T07:32:53.223834Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

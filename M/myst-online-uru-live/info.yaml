@@ -1,0 +1,17 @@
+name: 'Myst Online: Uru Live'
+slug: myst-online-uru-live
+year: 2007
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: MMO
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/myst-online-uru-live.jpg
+icon_url: /games/icon/myst-online-uru-live.png
+is_public: true
+updated: '2019-01-23T08:30:29.149989Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

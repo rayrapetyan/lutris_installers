@@ -1,0 +1,18 @@
+name: Sanic Ball
+slug: sanic-ball
+year: null
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Comedy
+- name: Indie
+- name: Racing
+aliases: []
+banner_url: /games/banner/sanic-ball.jpg
+icon_url: null
+is_public: true
+updated: '2019-05-11T07:14:34.904646Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

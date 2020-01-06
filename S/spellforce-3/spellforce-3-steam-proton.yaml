@@ -1,0 +1,24 @@
+id: 16270
+game_id: 11582
+game_slug: spellforce-3
+name: SpellForce 3
+year: 2017
+user: cxf
+runner: steam
+slug: spellforce-3-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-10-18T22:35:19.032434Z'
+updated_at: '2019-10-18T22:35:35.018624Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 311290
+gogid: 1419313792
+gogslug: spellforce_iii
+humblestoreid: ''
+script:
+  game:
+    appid: 311290

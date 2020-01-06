@@ -1,0 +1,32 @@
+id: 9596
+game_id: 20647
+game_slug: paint-tool-sai
+name: Paint Tool Sai
+year: 2008
+user: HerculesKing
+runner: wine
+slug: paint-tool-sai-120
+version: 1.2.0
+description: null
+notes: ''
+created_at: '2018-08-05T12:49:28.060038Z'
+updated_at: '2018-08-06T06:04:39.361411Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/sai
+      file: sai
+  files:
+  - sai:
+      filename: sai.zip
+      url: https://www.dropbox.com/s/fqu6qy9vn257huv/sai.zip?dl=0
+  game:
+    exe: $GAMEDIR/sai/sai.exe

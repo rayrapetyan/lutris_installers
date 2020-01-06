@@ -1,0 +1,24 @@
+id: 14136
+game_id: 6735
+game_slug: the-reject-demon-toko-chapter-0-prelude
+name: "The Reject Demon: Toko Chapter 0 \u2014 Prelude"
+year: 2015
+user: kimchitea
+runner: steam
+slug: the-reject-demon-toko-chapter-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-06-17T03:53:15.505843Z'
+updated_at: '2019-10-10T23:57:33.671477Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 358770
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 358770

@@ -1,0 +1,16 @@
+name: ClassiCube
+slug: classicube
+year: 2019
+platforms:
+- name: Linux
+genres:
+- name: Building
+- name: Sandbox
+aliases: []
+banner_url: /games/banner/classicube.jpg
+icon_url: /games/icon/classicube.png
+is_public: true
+updated: '2019-10-06T21:34:20.503044Z'
+steamid: 1065710
+gogslug: ''
+humblestoreid: ''

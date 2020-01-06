@@ -1,0 +1,16 @@
+name: A Normal Lost Phone
+slug: a-normal-lost-phone
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Mystery
+- name: Narrative
+aliases: []
+banner_url: /games/banner/a-normal-lost-phone.jpg
+icon_url: /games/icon/a-normal-lost-phone.png
+is_public: true
+updated: '2019-06-10T12:12:58.774566Z'
+steamid: 523210
+gogslug: ''
+humblestoreid: ''

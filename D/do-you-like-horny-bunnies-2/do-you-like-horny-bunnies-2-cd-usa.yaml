@@ -1,0 +1,33 @@
+id: 2806
+game_id: 7681
+game_slug: do-you-like-horny-bunnies-2
+name: Do You Like Horny Bunnies? 2
+year: 2003
+user: Lulu
+runner: wine
+slug: do-you-like-horny-bunnies-2-cd-usa
+version: CD (USA)
+description: ''
+notes: Original CD must be inserted while playing the game.
+created_at: '2016-09-29T22:17:18.935111Z'
+updated_at: '2018-05-19T03:41:48.952478Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: drive_c/Program Files/ZyX/BNY2US/BNY2US.EXE
+  installer:
+  - insert-disc:
+      requires: BNY2UST.EXE
+  - task:
+      executable: $DISC/BNY2UST.EXE
+      prefix: $GAMEDIR
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    arch: win32

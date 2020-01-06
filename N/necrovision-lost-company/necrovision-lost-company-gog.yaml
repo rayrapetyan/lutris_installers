@@ -1,0 +1,32 @@
+id: 16118
+game_id: 928
+game_slug: necrovision-lost-company
+name: 'NecrovisioN: Lost Company'
+year: null
+user: noctury
+runner: wine
+slug: necrovision-lost-company-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-10-11T14:19:24.032640Z'
+updated_at: '2019-10-11T14:19:24.032666Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: 46250
+gogid: 1489253805
+gogslug: necrovision_lost_company
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the GOG installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/HoMM 3 Complete/Heroes3.exe

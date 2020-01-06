@@ -1,0 +1,16 @@
+name: Flockers
+slug: flockers
+year: null
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Strategy
+aliases: []
+banner_url: /games/banner/flockers.jpg
+icon_url: /games/icon/flockers.png
+is_public: true
+updated: '2019-03-02T21:42:46.789085Z'
+steamid: 260330
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,20 @@
+name: Resident Evil 4 / Biohazard 4
+slug: resident-evil-4-biohazard-4
+year: 2005
+platforms:
+- name: GameCube
+- name: Sony PlayStation 2
+- name: Windows
+genres:
+- name: Horror
+- name: Survival
+aliases:
+- slug: resident-evil-4
+  name: Resident Evil 4
+banner_url: /games/banner/resident-evil-4-biohazard-4.jpg
+icon_url: /games/icon/resident-evil-4-biohazard-4.png
+is_public: true
+updated: '2019-03-23T07:08:40.163961Z'
+steamid: 254700
+gogslug: ''
+humblestoreid: ''

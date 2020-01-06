@@ -1,0 +1,23 @@
+id: 6496
+game_id: 2685
+game_slug: depression-quest
+name: Depression Quest
+year: 2013
+user: fanotriel
+runner: browser
+slug: depression-quest-browser
+version: Browser
+description: null
+notes: ''
+created_at: '2017-11-30T17:00:00.972790Z'
+updated_at: '2017-11-30T17:00:24.006153Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 270170
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: http://www.depressionquest.com/dqfinal.html

@@ -1,0 +1,24 @@
+id: 6346
+game_id: 1111
+game_slug: doom-3-bfg-edition
+name: 'Doom 3: BFG Edition'
+year: 2012
+user: Pelaaja_79
+runner: winesteam
+slug: doom-3-bfg-edition-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-11-16T15:34:51.026000Z'
+updated_at: '2017-12-21T15:29:50.923070Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 208200
+gogid: 1733124578
+gogslug: doom_3_bfg_edition
+humblestoreid: ''
+script:
+  game:
+    appid: 208200

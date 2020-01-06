@@ -1,0 +1,17 @@
+name: 'Fable: The Lost Chapters'
+slug: fable-the-lost-chapters
+year: 2005
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/fable-the-lost-chapters.jpg
+icon_url: /games/icon/fable-the-lost-chapters.png
+is_public: true
+updated: '2019-01-23T08:29:27.358373Z'
+steamid: 204030
+gogslug: ''
+humblestoreid: ''

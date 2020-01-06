@@ -1,0 +1,24 @@
+id: 827
+game_id: 2913
+game_slug: heileen-2-the-hands-of-fate
+name: 'Heileen 2: The Hands Of Fate'
+year: 2009
+user: Xodetaetl
+runner: steam
+slug: heileen-2-the-hands-of-fate-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T16:42:10.951000Z'
+updated_at: '2014-09-15T17:10:38.106000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 305480
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 305480

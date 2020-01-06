@@ -1,0 +1,24 @@
+id: 12292
+game_id: 26147
+game_slug: pikuniku
+name: Pikuniku
+year: 2019
+user: cxf
+runner: steam
+slug: pikuniku-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-03-08T01:17:07.880625Z'
+updated_at: '2019-03-08T01:18:55.922418Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 572890
+gogid: 1246381210
+gogslug: pikuniku
+humblestoreid: pikuniku
+script:
+  game:
+    appid: 572890

@@ -1,0 +1,15 @@
+name: Tangledeep
+slug: tangledeep
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Roguelike
+aliases: []
+banner_url: /games/banner/tangledeep.jpg
+icon_url: /games/icon/tangledeep.png
+is_public: true
+updated: '2019-05-11T07:14:59.786345Z'
+steamid: 628770
+gogslug: tangledeep
+humblestoreid: ''

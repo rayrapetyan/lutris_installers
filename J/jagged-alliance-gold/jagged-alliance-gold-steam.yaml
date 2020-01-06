@@ -1,0 +1,24 @@
+id: 785
+game_id: 2683
+game_slug: jagged-alliance-gold
+name: Jagged Alliance Gold
+year: 1994
+user: Xodetaetl
+runner: steam
+slug: jagged-alliance-gold-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T16:15:42.759000Z'
+updated_at: '2014-09-15T17:10:39.945000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 283270
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 283270

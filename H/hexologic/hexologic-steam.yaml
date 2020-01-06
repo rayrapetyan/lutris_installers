@@ -1,0 +1,24 @@
+id: 14563
+game_id: 21345
+game_slug: hexologic
+name: Hexologic
+year: null
+user: isoraqathedh
+runner: steam
+slug: hexologic-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-07-14T15:12:32.113100Z'
+updated_at: '2019-10-11T00:26:21.413844Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 785890
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 785890

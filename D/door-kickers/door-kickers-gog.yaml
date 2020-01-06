@@ -1,0 +1,37 @@
+id: 5822
+game_id: 1045
+game_slug: door-kickers
+name: Door Kickers
+year: 2014
+user: CharlyDelta
+runner: linux
+slug: door-kickers-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2017-09-20T09:18:35.751000Z'
+updated_at: '2017-09-22T18:51:55.914305Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 248610
+gogid: 1207666463
+gogslug: door_kickers
+humblestoreid: door-kickers
+script:
+  exe: Game/start.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/Game
+  files:
+  - game: 'N/A: Plese select the GOG.com Linux installer'
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

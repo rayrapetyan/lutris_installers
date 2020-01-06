@@ -1,0 +1,31 @@
+id: 4086
+game_id: 11541
+game_slug: alea
+name: ALEA
+year: 2015
+user: FakeShemp
+runner: linux
+slug: alea-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-03T19:46:41.725402Z'
+updated_at: '2017-06-04T21:55:37.446668Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: ALEA.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/ALEA.x86
+  - chmodx: $GAMEDIR/ALEA.x86_64
+  exe64: ALEA.x86_64
+  files:
+  - file1: N/A:Please select the Humble archive

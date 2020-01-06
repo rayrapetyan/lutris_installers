@@ -1,0 +1,24 @@
+id: 8326
+game_id: 11
+game_slug: star-wars-jedi-knight-ii-jedi-outcast
+name: 'Star Wars Jedi Knight II: Jedi Outcast'
+year: 2002
+user: RobLoach
+runner: winesteam
+slug: star-wars-jedi-knight-ii-jedi-steam-for-windows
+version: Steam for Windows
+description: null
+notes: ''
+created_at: '2018-05-19T06:06:43.464677Z'
+updated_at: '2018-05-19T06:06:51.737994Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 6030
+gogid: 1428935917
+gogslug: star_wars_jedi_knight_ii_jedi_outcast
+humblestoreid: ''
+script:
+  game:
+    appid: 6030

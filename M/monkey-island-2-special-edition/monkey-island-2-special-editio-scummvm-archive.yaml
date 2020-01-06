@@ -1,0 +1,31 @@
+id: 1083
+game_id: 393
+game_slug: monkey-island-2-special-edition
+name: "Monkey Island 2 Special Edition: LeChuck\u2019s Revenge"
+year: 2010
+user: RobLoach
+runner: scummvm
+slug: monkey-island-2-special-editio-scummvm-archive
+version: ScummVM archive
+description: The original for ScummVM
+notes: ''
+created_at: '2014-11-13T21:53:32.169000Z'
+updated_at: '2014-11-13T22:05:08.989000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 32460
+gogid: 1425039730
+gogslug: monkey_island_2_special_edition_lechucks_revenge
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: file1
+  files:
+  - file1: N/A:Select the archive file
+  game:
+    game_id: monkey2
+    path: $GAMEDIR

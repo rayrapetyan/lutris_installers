@@ -1,0 +1,24 @@
+id: 4262
+game_id: 4526
+game_slug: dungeon-crawlers-hd
+name: Dungeon Crawlers HD
+year: null
+user: FakeShemp
+runner: steam
+slug: dungeon-crawlers-hd-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-06-10T14:13:29.858061Z'
+updated_at: '2017-06-11T00:34:12.836000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 355100
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 355100

@@ -1,0 +1,16 @@
+name: Costume Quest 2
+slug: costume-quest-2
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/costume-quest-2.jpg
+icon_url: /games/icon/costume-quest-2.png
+is_public: true
+updated: '2019-01-23T08:28:58.733269Z'
+steamid: 275180
+gogslug: ''
+humblestoreid: costume-quest-2

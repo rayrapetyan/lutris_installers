@@ -1,0 +1,17 @@
+name: 'Another World: 20th Anniversary Edition'
+slug: another-world-20th-anniversary-edition
+year: 2006
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: Platformer
+aliases: []
+banner_url: /games/banner/another-world-20th-anniversary-edition.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:22.768655Z'
+steamid: null
+gogslug: another_world_20th_anniversary_edition
+humblestoreid: ''

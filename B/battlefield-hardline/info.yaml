@@ -1,0 +1,16 @@
+name: 'Battlefield: Hardline'
+slug: battlefield-hardline
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Tactical shooter
+aliases: []
+banner_url: /games/banner/battlefield-hardline.jpg
+icon_url: /games/icon/battlefield-hardline.png
+is_public: true
+updated: '2019-10-06T20:44:59.876099Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

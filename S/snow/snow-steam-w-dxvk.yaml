@@ -1,0 +1,39 @@
+id: 8618
+game_id: 4199
+game_slug: snow
+name: Snow
+year: 2013
+user: cxf
+runner: winesteam
+slug: snow-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2018-06-09T05:52:54.431000Z'
+updated_at: '2019-02-16T04:39:51.274623Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 244930
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 244930
+    arch: win64

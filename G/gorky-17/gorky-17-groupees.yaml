@@ -1,0 +1,33 @@
+id: 5470
+game_id: 848
+game_slug: gorky-17
+name: Gorky 17
+year: 1999
+user: FakeShemp
+runner: wine
+slug: gorky-17-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-22T11:53:04.596000Z'
+updated_at: '2017-08-27T01:09:31.132121Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 253920
+gogid: 1207658744
+gogslug: gorky_17
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      args: /S
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Games/Gorky17/gorky17.exe

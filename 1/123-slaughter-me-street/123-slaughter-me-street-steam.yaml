@@ -1,0 +1,25 @@
+id: 2098
+game_id: 5025
+game_slug: 123-slaughter-me-street
+name: 123 Slaughter Me Street
+year: 2015
+user: strider
+runner: winesteam
+slug: 123-slaughter-me-street-steam
+version: Steam
+description: ''
+notes: The game uses DirectX11 but can maybe be tweaked to rely on DirectX9 only (see
+  Steam system requirements)
+created_at: '2016-06-15T01:25:13.056961Z'
+updated_at: '2016-06-15T02:39:22.898851Z'
+draft: false
+published: true
+published_by: null
+rating: '1'
+steamid: 405180
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 405180

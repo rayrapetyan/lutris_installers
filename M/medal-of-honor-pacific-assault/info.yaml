@@ -1,0 +1,15 @@
+name: 'Medal of Honor: Pacific Assault'
+slug: medal-of-honor-pacific-assault
+year: 2004
+platforms:
+- name: Windows
+genres:
+- name: Shooter
+aliases: []
+banner_url: /games/banner/medal-of-honor-pacific-assault.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:20.675493Z'
+steamid: null
+gogslug: medal_of_honor_pacific_assault
+humblestoreid: ''

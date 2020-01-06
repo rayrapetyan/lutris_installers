@@ -1,0 +1,17 @@
+name: Tower of Time
+slug: tower-of-time
+year: 2018
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: RPG
+- name: Strategy
+aliases: []
+banner_url: /games/banner/tower-of-time.jpg
+icon_url: /games/icon/tower-of-time.png
+is_public: true
+updated: '2019-01-23T08:31:54.090658Z'
+steamid: 617480
+gogslug: tower_of_time
+humblestoreid: ''

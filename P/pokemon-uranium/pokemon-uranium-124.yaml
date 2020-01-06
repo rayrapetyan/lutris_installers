@@ -1,0 +1,49 @@
+id: 9398
+game_id: 7152
+game_slug: pokemon-uranium
+name: Pokemon Uranium
+year: 2016
+user: paperbenni
+runner: wine
+slug: pokemon-uranium-124
+version: 1.2.4
+description: null
+notes: ''
+created_at: '2018-07-26T09:51:41.787000Z'
+updated_at: '2018-12-05T01:05:05.261691Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE/dxsetup
+      file: $audio
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR
+      args: /silent
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files (x86)/PokemonUranium/
+      file: zip
+  files:
+  - zip: N/A:Select Pokemon Uranium Zip
+  - audio: https://lutris.net/files/tools/directx-2010.tar.gz
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/PokemonUranium/Uranium.exe
+    arch: win64

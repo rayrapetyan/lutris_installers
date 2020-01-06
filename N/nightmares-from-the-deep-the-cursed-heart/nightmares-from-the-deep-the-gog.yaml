@@ -1,0 +1,34 @@
+id: 12454
+game_id: 1953
+game_slug: nightmares-from-the-deep-the-cursed-heart
+name: 'Nightmares from the Deep: The Cursed Heart'
+year: null
+user: Nobu
+runner: linux
+slug: nightmares-from-the-deep-the-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-03-21T18:41:22.794320Z'
+updated_at: '2019-03-23T23:59:23.241203Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 259740
+gogid: 1148539461
+gogslug: nightmares_from_the_deep_the_cursed_heart
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

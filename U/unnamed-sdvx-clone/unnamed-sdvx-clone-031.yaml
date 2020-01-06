@@ -1,0 +1,37 @@
+id: 14459
+game_id: 27954
+game_slug: unnamed-sdvx-clone
+name: Unnamed-SDVX-Clone
+year: 2016
+user: SugoiSheep
+runner: linux
+slug: unnamed-sdvx-clone-031
+version: 0.3.1
+description: WORK IN PROGRESS
+notes: ''
+created_at: '2019-07-07T15:25:57.000827Z'
+updated_at: '2019-07-07T15:25:57.000858Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  require-binaries: cmake
+  installer:
+  - extract:
+      file: archive
+  - execute:
+      command: cd $GAMEDIR
+  - execute:
+      command: cmake .
+  - execute:
+      command: make
+  - chmodx: $GAMEDIR/bin/usc-game
+  files:
+  - archive: https://github.com/Drewol/unnamed-sdvx-clone/archive/v0.3.1.zip
+  game:
+    exe: usc-game

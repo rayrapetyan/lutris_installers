@@ -1,0 +1,16 @@
+name: 'Army Men: Advance'
+slug: army-men-advance
+year: 2001
+platforms:
+- name: Nintendo Game Boy Advance
+genres:
+- name: Action
+- name: Shooter
+aliases: []
+banner_url: /games/banner/army-men-advance.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:26.162551Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

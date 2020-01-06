@@ -1,0 +1,16 @@
+name: Barbarian+
+slug: barbarian
+year: 2018
+platforms:
+- name: Amiga
+genres:
+- name: Beat'em up
+- name: Fighting
+aliases: []
+banner_url: /games/banner/barbarian.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:31.540995Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

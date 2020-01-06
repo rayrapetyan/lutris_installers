@@ -1,0 +1,28 @@
+id: 5356
+game_id: 3775
+game_slug: sid-meiers-covert-action-classic
+name: Sid Meier's Covert Action (Classic)
+year: null
+user: FakeShemp
+runner: linux
+slug: sid-meiers-covert-action-clas-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-12T16:42:50.507060Z'
+updated_at: '2017-08-27T22:29:01.783053Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 327390
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: start.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive

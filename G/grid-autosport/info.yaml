@@ -1,0 +1,15 @@
+name: GRID Autosport
+slug: grid-autosport
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/grid-autosport.jpg
+icon_url: /games/icon/grid-autosport.png
+is_public: true
+updated: '2019-01-23T08:29:43.383804Z'
+steamid: 255220
+gogslug: ''
+humblestoreid: ''

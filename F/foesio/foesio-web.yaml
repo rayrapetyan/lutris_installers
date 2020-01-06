@@ -1,0 +1,23 @@
+id: 14323
+game_id: 28272
+game_slug: foesio
+name: Foes.io
+year: 2017
+user: Rode1000
+runner: web
+slug: foesio-web
+version: Web
+description: null
+notes: ''
+created_at: '2019-06-27T21:55:50.603000Z'
+updated_at: '2019-11-01T03:18:59.369231Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://foes.io/

@@ -1,0 +1,19 @@
+name: The Settlers II 10th Anniversary
+slug: the-settlers-ii-10th-anniversary
+year: 2006
+platforms:
+- name: Windows
+genres:
+- name: Real-time strategy
+aliases:
+- slug: settlers-2-10th-anniversary-the
+  name: 'Settlers 2: 10th Anniversary, The'
+- slug: the-settlers-2-10th-anniversary
+  name: 'The Settlers 2: 10th Anniversary'
+banner_url: /games/banner/the-settlers-ii-10th-anniversary.jpg
+icon_url: null
+is_public: true
+updated: '2019-03-23T22:25:21.260966Z'
+steamid: null
+gogslug: the_settlers_2_10th_anniversary
+humblestoreid: ''

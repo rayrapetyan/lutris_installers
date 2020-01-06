@@ -1,0 +1,17 @@
+name: Dead by Daylight
+slug: dead-by-daylight
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Casual
+- name: Horror
+- name: Survival
+aliases: []
+banner_url: /games/banner/dead-by-daylight.jpg
+icon_url: /games/icon/dead-by-daylight.png
+is_public: true
+updated: '2019-01-23T08:29:06.068025Z'
+steamid: 381210
+gogslug: ''
+humblestoreid: ''

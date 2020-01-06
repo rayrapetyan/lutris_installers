@@ -1,0 +1,29 @@
+id: 3850
+game_id: 991
+game_slug: cubemen
+name: Cubemen
+year: null
+user: FakeShemp
+runner: linux
+slug: cubemen-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-24T20:33:06.766330Z'
+updated_at: '2017-05-26T21:16:18.322357Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 207250
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Cubemen.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Cubemen.x86
+  files:
+  - file1: N/A:Please select the Humble archive

@@ -1,0 +1,24 @@
+id: 9283
+game_id: 19421
+game_slug: higurashi-when-they-cry-hou-ch6-tsumihoroboshi
+name: Higurashi When They Cry Hou - Ch.6 Tsumihoroboshi
+year: 2018
+user: kimchitea
+runner: steam
+slug: higurashi-when-they-cry-hou-c-steam-2
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-19T07:34:46.309921Z'
+updated_at: '2018-07-19T13:23:42.884137Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 668350
+gogid: 1574973992
+gogslug: higurashi_when_they_cry_hou_ch6_tsumihoroboshi
+humblestoreid: ''
+script:
+  game:
+    appid: 668350

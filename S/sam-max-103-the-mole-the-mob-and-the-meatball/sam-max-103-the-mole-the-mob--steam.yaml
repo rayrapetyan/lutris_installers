@@ -1,0 +1,24 @@
+id: 1195
+game_id: 203
+game_slug: sam-max-103-the-mole-the-mob-and-the-meatball
+name: 'Sam & Max 103: The Mole, the Mob and the Meatball'
+year: null
+user: strider
+runner: winesteam
+slug: sam-max-103-the-mole-the-mob--steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-12-04T20:42:26.484000Z'
+updated_at: '2014-12-04T20:42:31.909000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 8220
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 8220

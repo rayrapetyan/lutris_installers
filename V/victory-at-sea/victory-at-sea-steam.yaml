@@ -1,0 +1,24 @@
+id: 1490
+game_id: 4211
+game_slug: victory-at-sea
+name: Victory At Sea
+year: null
+user: Xodetaetl
+runner: steam
+slug: victory-at-sea-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-04-25T17:47:53.683000Z'
+updated_at: '2015-04-25T17:55:46.775000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 298480
+gogid: 1814467460
+gogslug: victory_at_sea
+humblestoreid: ''
+script:
+  game:
+    appid: 298480

@@ -1,0 +1,17 @@
+name: SpringRTS
+slug: springrts
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Real-time strategy
+aliases:
+- slug: spring-weblobby
+  name: Spring WebLobby
+banner_url: /games/banner/springrts.jpg
+icon_url: /games/icon/springrts.png
+is_public: true
+updated: '2019-04-17T06:10:20.368567Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

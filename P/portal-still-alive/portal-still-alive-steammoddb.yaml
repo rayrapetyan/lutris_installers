@@ -1,0 +1,43 @@
+id: 14195
+game_id: 28120
+game_slug: portal-still-alive
+name: 'Portal: Still Alive'
+year: 2017
+user: penguinsandpeople
+runner: steam
+slug: portal-still-alive-steammoddb
+version: Steam/ModDB
+description: "The file that is required for installation is named \"Portal-StillAlive_Release.7z\"\
+  \ and can be downloaded here;\r\nhttps://www.moddb.com/mods/portal-still-alive-pc/downloads"
+notes: 'I found (possibly as a result of this bug: https://github.com/lutris/lutris/issues/1999)
+  that on the first run the installer will request to install Portal, even though
+  it is already installed.  Agreeing to install Portal results in a second entry for
+  Portal in the library and the installer quitting without finishing the installation
+  of the mod (which may be another bug).  A second run of the installer will succeed,
+  as Lutris now believes that Portal is installed and continues without that step.'
+created_at: '2019-06-18T21:50:35.878000Z'
+updated_at: '2019-09-09T01:29:32.502513Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - execute:
+      command: 7zr x -o$STEAM_DATA_DIR/steamapps/sourcemods/ -i!Portal-StillAlive
+        $archive
+  - move:
+      src: $STEAM_DATA_DIR/steamapps/sourcemods/Portal-StillAlive
+      dst: $STEAM_DATA_DIR/steamapps/sourcemods/portal-stillalive
+  requires: portal-steam
+  requires-binaries: 7zr
+  steam: {}
+  files:
+  - archive: N/A:Please locate and select the Portal-StillAlive_Release.7z file
+  game:
+    args: -game $STEAM_DATA_DIR/steamapps/sourcemods/portal-stillalive
+    appid: 400

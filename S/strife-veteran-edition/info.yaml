@@ -1,0 +1,16 @@
+name: 'Strife: Veteran Edition'
+slug: strife-veteran-edition
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: FPS
+- name: RPG
+aliases: []
+banner_url: /games/banner/strife-veteran-edition.jpg
+icon_url: /games/icon/strife-veteran-edition.png
+is_public: true
+updated: '2019-01-23T08:31:28.256894Z'
+steamid: 317040
+gogslug: strife_veteran_edition
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 8456
+game_id: 19006
+game_slug: the-god
+name: The God
+year: 2018
+user: TuiorGames
+runner: steam
+slug: the-god-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-29T11:47:47.457025Z'
+updated_at: '2018-05-30T06:20:03.293757Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 836330
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 836330

@@ -1,0 +1,16 @@
+name: 'The Elder Scrolls III: Morrowind'
+slug: the-elder-scrolls-iii-morrowind
+year: 2002
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: RPG
+aliases: []
+banner_url: /games/banner/the-elder-scrolls-iii-morrowind.jpg
+icon_url: /games/icon/the-elder-scrolls-iii-morrowind.png
+is_public: true
+updated: '2019-01-23T08:31:40.707538Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

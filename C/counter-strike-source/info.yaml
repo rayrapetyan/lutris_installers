@@ -1,0 +1,15 @@
+name: 'Counter-Strike: Source'
+slug: counter-strike-source
+year: 2004
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/counter-strike-source.jpg
+icon_url: /games/icon/counter-strike-source.png
+is_public: true
+updated: '2019-01-23T08:28:59.075782Z'
+steamid: 240
+gogslug: ''
+humblestoreid: ''

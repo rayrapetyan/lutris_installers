@@ -1,0 +1,24 @@
+id: 6253
+game_id: 11131
+game_slug: robo-do-it
+name: Robo Do It
+year: 2017
+user: fanotriel
+runner: steam
+slug: robo-do-it-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-11-06T13:55:14.577837Z'
+updated_at: '2017-11-12T17:54:27.053278Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 595640
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 595640

@@ -1,0 +1,17 @@
+name: SimCity (2013)
+slug: simcity-2013
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: City building
+- name: Management
+- name: Simulation
+aliases: []
+banner_url: /games/banner/simcity-2013.jpg
+icon_url: /games/icon/simcity-2013.png
+is_public: true
+updated: '2019-11-06T22:15:00.742308Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

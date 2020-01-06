@@ -1,0 +1,24 @@
+id: 9760
+game_id: 9001
+game_slug: project-argo-prototype
+name: Project Argo (Prototype)
+year: null
+user: soredake
+runner: winesteam
+slug: project-argo-prototype-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-16T06:30:05.189025Z'
+updated_at: '2018-08-17T05:55:22.676264Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 530700
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 530700

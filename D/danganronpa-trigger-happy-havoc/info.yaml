@@ -1,0 +1,16 @@
+name: 'Danganronpa: Trigger Happy Havoc'
+slug: danganronpa-trigger-happy-havoc
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Horror
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/danganronpa-trigger-happy-havoc.jpg
+icon_url: /games/icon/danganronpa-trigger-happy-havoc.png
+is_public: true
+updated: '2019-01-23T08:29:03.752830Z'
+steamid: 413410
+gogslug: ''
+humblestoreid: ''

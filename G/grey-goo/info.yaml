@@ -1,0 +1,16 @@
+name: Grey Goo
+slug: grey-goo
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Real-time strategy
+- name: Strategy
+aliases: []
+banner_url: /games/banner/grey-goo.jpg
+icon_url: /games/icon/grey-goo.png
+is_public: true
+updated: '2019-01-23T08:29:43.291937Z'
+steamid: 290790
+gogslug: ''
+humblestoreid: ''

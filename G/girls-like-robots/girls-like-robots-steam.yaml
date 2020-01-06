@@ -1,0 +1,24 @@
+id: 731
+game_id: 2895
+game_slug: girls-like-robots
+name: Girls Like Robots
+year: null
+user: Xodetaetl
+runner: steam
+slug: girls-like-robots-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T13:35:10.323000Z'
+updated_at: '2014-09-15T16:13:31.660000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 263460
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 263460

@@ -1,0 +1,15 @@
+name: 'Magic: The Gathering - Duels of the Planeswalkers'
+slug: magic-the-gathering-duels-of-the-planeswalkers
+year: 2012
+platforms:
+- name: Windows
+genres:
+- name: Cards
+aliases: []
+banner_url: /games/banner/magic-the-gathering-duels-of-the-planeswalkers.jpg
+icon_url: /games/icon/magic-the-gathering-duels-of-the-planeswalkers.png
+is_public: true
+updated: '2020-01-01T18:44:59.256732Z'
+steamid: 49400
+gogslug: ''
+humblestoreid: ''

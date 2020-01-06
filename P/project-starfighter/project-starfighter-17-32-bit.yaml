@@ -1,0 +1,31 @@
+id: 3387
+game_id: 10379
+game_slug: project-starfighter
+name: 'Project: Starfighter'
+year: 2003
+user: onpon4
+runner: linux
+slug: project-starfighter-17-32-bit
+version: 1.7 (32-bit)
+description: ''
+notes: ''
+created_at: '2017-03-23T04:35:09.482000Z'
+updated_at: '2017-04-09T22:33:27.179496Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $archive
+  files:
+  - archive: http://download.savannah.gnu.org/releases/starfighter/1.7/starfighter-1.7-gnulinux-i486.tar.gz
+  game:
+    exe: starfighter
+    working_dir: $GAMEDIR

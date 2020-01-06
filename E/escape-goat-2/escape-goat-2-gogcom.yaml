@@ -1,0 +1,38 @@
+id: 2649
+game_id: 2104
+game_slug: escape-goat-2
+name: Escape Goat 2
+year: null
+user: ssf
+runner: linux
+slug: escape-goat-2-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2016-08-31T18:31:07.940009Z'
+updated_at: '2016-09-25T19:53:03.484517Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 255340
+gogid: 1207662523
+gogslug: escape_goat_2
+humblestoreid: ''
+script:
+  exe: game/start.sh
+  gogid: escape_goat_2
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Please select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

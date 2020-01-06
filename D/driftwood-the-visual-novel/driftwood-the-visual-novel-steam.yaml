@@ -1,0 +1,24 @@
+id: 9004
+game_id: 9553
+game_slug: driftwood-the-visual-novel
+name: Driftwood The Visual Novel
+year: 2016
+user: kimchitea
+runner: steam
+slug: driftwood-the-visual-novel-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-03T22:16:41.121305Z'
+updated_at: '2018-07-04T03:39:36.785837Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 510750
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 510750

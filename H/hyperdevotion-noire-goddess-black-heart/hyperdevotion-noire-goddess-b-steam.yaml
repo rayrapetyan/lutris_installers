@@ -1,0 +1,24 @@
+id: 9064
+game_id: 11739
+game_slug: hyperdevotion-noire-goddess-black-heart
+name: 'Hyperdevotion Noire: Goddess Black Heart'
+year: 2016
+user: TuiorGames
+runner: winesteam
+slug: hyperdevotion-noire-goddess-b-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-07T02:05:54.941286Z'
+updated_at: '2018-07-07T07:39:41.871260Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 415480
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 415480

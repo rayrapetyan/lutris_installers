@@ -1,0 +1,24 @@
+id: 1794
+game_id: 4824
+game_slug: simply-chess
+name: Simply Chess
+year: null
+user: RobLoach
+runner: steam
+slug: simply-chess-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-12-29T08:36:08.384099Z'
+updated_at: '2016-01-06T13:36:42.787096Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 312280
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 312280

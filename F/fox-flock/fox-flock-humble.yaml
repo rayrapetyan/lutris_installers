@@ -1,0 +1,32 @@
+id: 5963
+game_id: 10317
+game_slug: fox-flock
+name: Fox & Flock
+year: null
+user: FakeShemp
+runner: linux
+slug: fox-flock-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-10-15T16:13:02.797000Z'
+updated_at: '2017-10-15T16:14:27.605756Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 377760
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: foxandflock
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/Fox and Flock
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble archive

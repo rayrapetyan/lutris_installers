@@ -1,0 +1,36 @@
+id: 11715
+game_id: 25205
+game_slug: resident-evil-2-biohazard-re2-1-shot-demo
+name: RESIDENT EVIL 2 / BIOHAZARD RE:2 "1-Shot Demo"
+year: 2019
+user: cxf
+runner: winesteam
+slug: resident-evil-2-biohazard-re2-steam-1
+version: Steam
+description: null
+notes: ''
+created_at: '2019-01-25T21:09:21.010000Z'
+updated_at: '2019-01-25T22:53:53.593125Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 961440
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  winesteam:
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 961440
+    arch: win64

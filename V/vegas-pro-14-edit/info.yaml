@@ -1,0 +1,17 @@
+name: VEGAS Pro 14 Edit
+slug: vegas-pro-14-edit
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Tool
+aliases:
+- slug: vegas-pro-14-edit-steam-edition
+  name: VEGAS Pro 14 Edit Steam Edition
+banner_url: /games/banner/vegas-pro-14-edit.jpg
+icon_url: /games/icon/vegas-pro-14-edit.png
+is_public: true
+updated: '2019-02-11T07:53:59.709887Z'
+steamid: 528200
+gogslug: ''
+humblestoreid: ''

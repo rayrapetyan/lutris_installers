@@ -1,0 +1,31 @@
+id: 3326
+game_id: 10209
+game_slug: pokemon-insurgence
+name: Pokemon Insurgence
+year: null
+user: Lonsfor
+runner: wine
+slug: pokemon-insurgence-wine
+version: wine
+description: null
+notes: ''
+created_at: '2017-03-13T19:48:08.331000Z'
+updated_at: '2018-07-26T13:41:07.401675Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: launcher
+  files:
+  - launcher: https://p-insurgence.com/releases/1.2.3/Pokemon%20Insurgence%201.2.3%20Core.zip
+  game:
+    prefix: $GAMEDIR
+    exe: Game.exe

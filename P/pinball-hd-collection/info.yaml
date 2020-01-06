@@ -1,0 +1,18 @@
+name: Pinball HD Collection
+slug: pinball-hd-collection
+year: null
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Casual
+- name: Indie
+- name: Simulation
+aliases: []
+banner_url: /games/banner/pinball-hd-collection.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:44.376790Z'
+steamid: 448670
+gogslug: ''
+humblestoreid: ''

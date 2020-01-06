@@ -1,0 +1,60 @@
+id: 10419
+game_id: 8606
+game_slug: shadow-warrior-2
+name: Shadow Warrior 2
+year: 2016
+user: DrCrocktagon013563
+runner: wine
+slug: shadow-warrior-2-gog-w-dxvk
+version: GOG w/ DXVK
+description: null
+notes: ''
+created_at: '2018-10-04T19:38:08.651000Z'
+updated_at: '2019-02-24T02:43:48.356394Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 324800
+gogid: 1434021265
+gogslug: shadow_warrior_2
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 64bit Wine prefix.
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows 10 mode for Wine
+      arch: win64
+      key: Version
+      value: win10
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  - task:
+      executable: goginstaller
+      prefix: $GAMEDIR
+      description: Installing game
+      arch: win64
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Shadow Warrior 2/ShadowWarrior2.exe
+    arch: win64
+  system:
+    env:
+      DXVK_LOG_LEVEL: none
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_STATE_CACHE: 1
+      mesa_glthread: 'true'
+  wine:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  files:
+  - goginstaller: N/A:Select the game's setup file

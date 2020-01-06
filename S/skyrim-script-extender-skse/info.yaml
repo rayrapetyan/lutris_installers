@@ -1,0 +1,15 @@
+name: Skyrim Script Extender (SKSE)
+slug: skyrim-script-extender-skse
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/skyrim-script-extender-skse.jpg
+icon_url: /games/icon/skyrim-script-extender-skse.png
+is_public: true
+updated: '2019-01-23T08:31:15.022979Z'
+steamid: 365720
+gogslug: ''
+humblestoreid: ''

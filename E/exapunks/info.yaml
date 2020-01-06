@@ -1,0 +1,17 @@
+name: EXAPUNKS
+slug: exapunks
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Programming
+- name: Puzzle
+- name: Simulation
+aliases: []
+banner_url: /games/banner/exapunks.jpg
+icon_url: /games/icon/exapunks.png
+is_public: true
+updated: '2019-01-23T08:29:26.539034Z'
+steamid: 716490
+gogslug: exapunks
+humblestoreid: ''

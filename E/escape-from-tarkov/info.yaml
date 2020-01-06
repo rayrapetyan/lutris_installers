@@ -1,0 +1,16 @@
+name: Escape from Tarkov
+slug: escape-from-tarkov
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: FPS
+- name: MMOFPS
+aliases: []
+banner_url: /games/banner/escape-from-tarkov.jpg
+icon_url: /games/icon/escape-from-tarkov.png
+is_public: true
+updated: '2019-03-15T07:21:26.184822Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

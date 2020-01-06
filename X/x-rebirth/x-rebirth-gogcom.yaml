@@ -1,0 +1,38 @@
+id: 2539
+game_id: 1851
+game_slug: x-rebirth
+name: X Rebirth
+year: 2013
+user: ssf
+runner: linux
+slug: x-rebirth-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2016-08-22T15:44:19.263578Z'
+updated_at: '2016-09-27T17:41:32.023467Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 2870
+gogid: 1455645883
+gogslug: x_rebirth
+humblestoreid: ''
+script:
+  exe: game/start.sh
+  gogid: x_rebirth
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Plese select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

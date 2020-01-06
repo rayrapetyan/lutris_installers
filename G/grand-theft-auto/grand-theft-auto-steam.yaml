@@ -1,0 +1,30 @@
+id: 2524
+game_id: 136
+game_slug: grand-theft-auto
+name: Grand Theft Auto
+year: 1997
+user: Freso
+runner: winesteam
+slug: grand-theft-auto-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2016-08-21T15:13:53.629000Z'
+updated_at: '2018-12-20T08:05:05.786296Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 12170
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: mfc42
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 12170

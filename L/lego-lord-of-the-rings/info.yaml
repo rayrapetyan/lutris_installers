@@ -1,0 +1,19 @@
+name: LEGO Lord of the Rings
+slug: lego-lord-of-the-rings
+year: 2012
+platforms:
+- name: Nintendo 3DS
+- name: Nintendo DS
+- name: Nintendo Wii
+- name: Sony Playstation 3
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/lego-lord-of-the-rings.jpg
+icon_url: /games/icon/lego-lord-of-the-rings.png
+is_public: true
+updated: '2019-05-27T04:27:45.878606Z'
+steamid: 214510
+gogslug: ''
+humblestoreid: ''

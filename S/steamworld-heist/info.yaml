@@ -1,0 +1,17 @@
+name: SteamWorld Heist
+slug: steamworld-heist
+year: 2015
+platforms:
+- name: Linux
+- name: Nintendo DS
+genres:
+- name: Adventure
+- name: Turn-based tactics
+aliases: []
+banner_url: /games/banner/steamworld-heist.jpg
+icon_url: /games/icon/steamworld-heist.png
+is_public: true
+updated: '2019-01-23T08:31:26.575958Z'
+steamid: 322190
+gogslug: steamworld_heist
+humblestoreid: steamworld-heist

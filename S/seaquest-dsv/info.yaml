@@ -1,0 +1,17 @@
+name: SeaQuest DSV
+slug: seaquest-dsv
+year: 1994
+platforms:
+- name: Nintendo Game Boy Color
+- name: Sega Genesis / Mega Drive
+- name: Super Nintendo
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/seaquest-dsv.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-24T06:20:49.602083Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,31 @@
+id: 1084
+game_id: 3467
+game_slug: grim-fandango
+name: Grim Fandango
+year: 1998
+user: RobLoach
+runner: residualvm
+slug: grim-fandango-demo
+version: Demo
+description: null
+notes: ''
+created_at: '2014-11-13T22:58:20.039000Z'
+updated_at: '2018-07-18T22:45:28.590314Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: file1
+  files:
+  - file1: http://demos.residualvm.org/grim-win-demo1-en.zip
+  game:
+    game_id: grim
+    path: $GAMEDIR

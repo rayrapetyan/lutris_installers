@@ -1,0 +1,36 @@
+id: 5715
+game_id: 909
+game_slug: geneforge-3
+name: Geneforge III
+year: null
+user: FakeShemp
+runner: wine
+slug: geneforge-iii-groupees
+version: Groupees
+description: From "The Geneforge Saga"
+notes: ''
+created_at: '2017-09-12T09:42:08.810909Z'
+updated_at: '2018-05-19T03:41:58.873217Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 200990
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/Geneforge3Fullv10.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Geneforge 3/Geneforge 3.exe
+    arch: win32

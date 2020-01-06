@@ -1,0 +1,24 @@
+id: 3456
+game_id: 6624
+game_slug: the-mean-greens-plastic-warfare
+name: The Mean Greens - Plastic Warfare
+year: null
+user: liberodark
+runner: steam
+slug: the-mean-greens-plastic-warfa-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2017-04-01T03:14:27.811000Z'
+updated_at: '2019-01-25T03:11:57.541812Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 360940
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 360940

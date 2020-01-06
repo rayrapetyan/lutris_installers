@@ -1,0 +1,32 @@
+id: 2280
+game_id: 4961
+game_slug: rimworld
+name: RimWorld
+year: 2014
+user: huyderman
+runner: linux
+slug: rimworld-alpha
+version: Alpha
+description: RimWorld Alpha Installer
+notes: ''
+created_at: '2016-07-07T15:24:18.325846Z'
+updated_at: '2016-09-16T20:09:01.747422Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 294100
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $zipfile
+  - chmodx: $GAMEDIR/start_RimWorld.sh
+  files:
+  - zipfile: N/A:Select RimWorld Alpha ZIP-file
+  game:
+    exe: $GAMEDIR/start_RimWorld.sh
+    working_dir: $GAMEDIR

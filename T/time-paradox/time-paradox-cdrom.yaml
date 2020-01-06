@@ -1,0 +1,85 @@
+id: 15492
+game_id: 29366
+game_slug: time-paradox
+name: Time Paradox
+year: 1996
+user: appoloin
+runner: dosbox
+slug: time-paradox-cdrom
+version: CDrom
+description: null
+notes: ''
+created_at: '2019-09-12T18:52:28.652953Z'
+updated_at: '2019-09-12T18:52:28.652980Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - write_file:
+      content: '#!/bin/bash
+
+        src=$1
+
+        dst=$2
+
+        cp -avr "$src/."  "$dst"'
+      file: $CACHE/bulkcopy-alt.sh
+  - chmodx: $CACHE/bulkcopy-alt.sh
+  - execute:
+      args: $GAMEDIR/HDD $GAMEDIR/CDD $GAMEDIR/CDD/DISC1
+      file: mkdir
+  - insert-disc:
+      requires: setup.exe
+      description: Please insert disc 1
+  - execute:
+      args: $DISC "$GAMEDIR/CDD/DISC1"
+      file: $CACHE/bulkcopy-alt.sh
+  - execute:
+      args: -R 775  "$GAMEDIR/CDD/DISC1"
+      file: /bin/chmod
+  - write_file:
+      content: '[sdl]
+
+        sensitivity=20
+
+        [autoexec]
+
+        mount C "$GAMEDIR/HDD" -t dir
+
+        mount D "$GAMEDIR/CDD/DISC1" -t dir
+
+        D:
+
+        install.bat
+
+        exit'
+      file: $GAMEDIR/time-paradox_setup.conf
+  - task:
+      config_file: $GAMEDIR/time-paradox_setup.conf
+      working_dir: $GAMEDIR/HDD/
+      name: dosexec
+  - write_file:
+      content: '[sdl]
+
+        sensitivity=20
+
+        [autoexec]
+
+        mount C "$GAMEDIR/HDD" -t dir
+
+        mount D "$GAMEDIR/CDD/DISC1" -t dir
+
+        D:
+
+        paradox.bat
+
+        exit'
+      file: $GAMEDIR/time-paradox.conf
+  game:
+    main_file: $GAMEDIR/time-paradox.conf

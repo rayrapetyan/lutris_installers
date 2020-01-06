@@ -1,0 +1,15 @@
+name: 'Baldur''s Gate: The Original Saga'
+slug: baldurs-gate-the-original-saga
+year: 1998
+platforms:
+- name: Linux
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/baldurs-gate-the-original-saga.jpg
+icon_url: /games/icon/baldurs-gate-the-original-saga.png
+is_public: true
+updated: '2019-01-23T08:28:31.008256Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

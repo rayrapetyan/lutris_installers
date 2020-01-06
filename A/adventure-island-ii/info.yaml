@@ -1,0 +1,16 @@
+name: Adventure Island II
+slug: adventure-island-ii
+year: 1991
+platforms:
+- name: Game Boy
+- name: NES
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/adventure-island-ii.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:12.445027Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

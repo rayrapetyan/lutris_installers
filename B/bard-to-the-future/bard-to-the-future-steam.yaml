@@ -1,0 +1,24 @@
+id: 1545
+game_id: 4306
+game_slug: bard-to-the-future
+name: Bard to the Future
+year: null
+user: Xodetaetl
+runner: steam
+slug: bard-to-the-future-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-05-19T16:06:50.908000Z'
+updated_at: '2015-06-01T17:41:29.158000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 337110
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 337110

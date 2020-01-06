@@ -1,0 +1,17 @@
+name: Pizza Tycoon
+slug: pizza-tycoon
+year: 1994
+platforms:
+- name: Linux
+- name: MS-DOS
+- name: Super Nintendo
+genres:
+- name: Simulation
+aliases: []
+banner_url: /games/banner/pizza-tycoon.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:45.720599Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

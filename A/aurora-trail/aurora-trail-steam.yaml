@@ -1,0 +1,24 @@
+id: 8425
+game_id: 15882
+game_slug: aurora-trail
+name: Aurora Trail
+year: null
+user: Nibiron
+runner: winesteam
+slug: aurora-trail-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-26T04:43:41.759285Z'
+updated_at: '2018-05-26T10:55:57.442249Z'
+draft: true
+published: true
+published_by: null
+rating: ''
+steamid: 755150
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 755150

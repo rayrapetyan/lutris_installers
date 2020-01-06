@@ -1,0 +1,64 @@
+id: 9033
+game_id: 10144
+game_slug: the-turing-test
+name: The Turing Test
+year: 2016
+user: VortexAcherontic
+runner: winesteam
+slug: the-turing-test-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: '- DX12 mode might not work'
+created_at: '2018-07-06T06:57:36.331000Z'
+updated_at: '2019-05-19T06:50:07.994578Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 499520
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Creating Wine Prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing Visual C++ 2013
+      app: vcrun2013
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing Visual C++ 2015
+      app: vcrun2015
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing Dot.NET 4.7.2
+      app: dotnet472
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Switching to Windows 7
+      app: win7
+      arch: win64
+      name: winetricks
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 499520
+    arch: win64

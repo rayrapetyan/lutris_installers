@@ -1,0 +1,17 @@
+name: Lara Croft GO
+slug: lara-croft-go
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Puzzle
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/lara-croft-go.jpg
+icon_url: /games/icon/lara-croft-go.png
+is_public: true
+updated: '2019-07-08T07:56:56.960281Z'
+steamid: 540840
+gogslug: ''
+humblestoreid: lara-croft-go

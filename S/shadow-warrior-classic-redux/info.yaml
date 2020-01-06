@@ -1,0 +1,15 @@
+name: Shadow Warrior Classic Redux
+slug: shadow-warrior-classic-redux
+year: 1997
+platforms:
+- name: MS-DOS
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/shadow-warrior-classic-redux.jpg
+icon_url: /games/icon/shadow-warrior-classic-redux.png
+is_public: true
+updated: '2019-01-23T08:31:11.116618Z'
+steamid: 225160
+gogslug: shadow_warrior_classic_redux
+humblestoreid: ''

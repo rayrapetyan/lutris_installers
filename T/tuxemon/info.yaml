@@ -1,0 +1,15 @@
+name: Tuxemon
+slug: tuxemon
+year: null
+platforms:
+- name: Linux
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/tuxemon.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:57.283682Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,15 @@
+name: 'Call of Duty 4: Modern Warfare'
+slug: call-of-duty-4-modern-warfare
+year: 2007
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/call-of-duty-4-modern-warfare.jpg
+icon_url: /games/icon/call-of-duty-4-modern-warfare.png
+is_public: true
+updated: '2019-01-23T08:28:44.502226Z'
+steamid: 7940
+gogslug: ''
+humblestoreid: ''

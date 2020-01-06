@@ -1,0 +1,24 @@
+id: 7198
+game_id: 6343
+game_slug: radiator-2
+name: Radiator 2
+year: 2016
+user: t-rex91
+runner: steam
+slug: radiator-2-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-01-30T19:52:46.273841Z'
+updated_at: '2018-01-30T22:37:23.230403Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 385370
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 385370

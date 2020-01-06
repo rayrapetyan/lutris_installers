@@ -1,0 +1,24 @@
+id: 2975
+game_id: 5608
+game_slug: american-truck-simulator
+name: American Truck Simulator
+year: 2016
+user: stevemp
+runner: steam
+slug: american-truck-simulator-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-11-04T10:43:49.321000Z'
+updated_at: '2017-06-16T18:52:49.065652Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 270880
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 270880

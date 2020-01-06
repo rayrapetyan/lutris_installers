@@ -1,0 +1,24 @@
+id: 7460
+game_id: 11110
+game_slug: longshot-universe
+name: Longshot Universe
+year: 2018
+user: t-rex91
+runner: steam
+slug: longshot-universe-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-05T21:37:17.556367Z'
+updated_at: '2018-03-06T08:25:11.802103Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 459770
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 459770

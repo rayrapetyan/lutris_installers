@@ -1,0 +1,15 @@
+name: Dropsy
+slug: dropsy
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/dropsy.jpg
+icon_url: /games/icon/dropsy.png
+is_public: true
+updated: '2019-05-11T07:15:55.561605Z'
+steamid: 274350
+gogslug: dropsy
+humblestoreid: ''

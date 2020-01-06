@@ -1,0 +1,16 @@
+name: A test
+slug: test
+year: null
+platforms:
+- name: Linux
+- name: Super Nintendo
+genres:
+- name: Simulation
+aliases: []
+banner_url: null
+icon_url: null
+is_public: true
+updated: '2019-04-08T19:38:11.774266Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

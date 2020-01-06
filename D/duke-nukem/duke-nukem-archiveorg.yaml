@@ -1,0 +1,29 @@
+id: 2432
+game_id: 1644
+game_slug: duke-nukem
+name: Duke Nukem
+year: null
+user: RobLoach
+runner: dosbox
+slug: duke-nukem-archiveorg
+version: Archive.org
+description: ''
+notes: ''
+created_at: '2016-08-11T17:31:09.986487Z'
+updated_at: '2016-08-11T17:32:54.430531Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 240160
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: DN1.EXE
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $duke
+  files:
+  - duke: https://archive.org/download/DukeNukem/DukeNukem-EpisodeOne-SharpnelCity1991apogeeSoftwareLtd.action.zip

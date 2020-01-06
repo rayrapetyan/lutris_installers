@@ -1,0 +1,45 @@
+id: 11313
+game_id: 1481
+game_slug: gothic
+name: Gothic
+year: 2001
+user: epitaph
+runner: wine
+slug: gothic-polish-extra-klasyka
+version: Polish eXtra Klasyka 1.08k
+description: Installer for Polish eXtra Klasyka 1.08k 2CD version
+notes: On the first launch there is a window bar visible in menu. However after setting
+  the resolution and restarting, it's no longer visible.
+created_at: '2018-12-23T17:08:42.211000Z'
+updated_at: '2019-10-28T20:38:19.680173Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: 65540
+gogid: 1207658682
+gogslug: gothic
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: directmusic win7
+      arch: win32
+      name: winetricks
+  - task:
+      executable: install
+      prefix: $GAMEDIR
+      description: Installing Gothic (do not change the installation path!)
+      arch: win32
+      name: wineexec
+  files:
+  - install: N/A:Select the game's setup file from CD 1
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Piranha Bytes/Gothic/System/GOTHIC.EXE
+    arch: win32

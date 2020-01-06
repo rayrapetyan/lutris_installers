@@ -1,0 +1,16 @@
+name: Galaxy 5000
+slug: galaxy-5000
+year: 1990
+platforms:
+- name: NES
+genres:
+- name: Arcade
+- name: Racing
+aliases: []
+banner_url: /games/banner/galaxy-5000.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:37.028501Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

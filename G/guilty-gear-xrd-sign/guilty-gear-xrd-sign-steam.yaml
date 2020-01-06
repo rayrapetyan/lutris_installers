@@ -1,0 +1,24 @@
+id: 9559
+game_id: 6745
+game_slug: guilty-gear-xrd-sign-
+name: GUILTY GEAR Xrd -SIGN-
+year: null
+user: LinuxLounge
+runner: winesteam
+slug: guilty-gear-xrd-sign-steam
+version: Steam
+description: Essentially the same game as Revelator as far as wine is concerned
+notes: You may experience some issues with controller support
+created_at: '2018-08-03T19:59:20.703109Z'
+updated_at: '2018-08-04T08:26:53.164105Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 376300
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 376300

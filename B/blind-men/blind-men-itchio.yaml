@@ -1,0 +1,31 @@
+id: 8957
+game_id: 19604
+game_slug: blind-men
+name: Blind Men
+year: 2017
+user: kimchitea
+runner: linux
+slug: blind-men-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2018-06-30T17:01:49.269000Z'
+updated_at: '2018-07-01T03:36:07.426441Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 657290
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Blind_Men.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Blind_Men.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Blind_Men
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Blind_Men
+  files:
+  - file1: N/A:Please select the itch.io archive

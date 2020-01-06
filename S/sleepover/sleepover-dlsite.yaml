@@ -1,0 +1,39 @@
+id: 9466
+game_id: 20511
+game_slug: sleepover
+name: Sleepover
+year: 2014
+user: kimchitea
+runner: linux
+slug: sleepover-dlsite
+version: DLsite
+description: null
+notes: Uses the Ren'Py SDK to run the game natively in Linux.
+created_at: '2018-07-29T18:33:44.322000Z'
+updated_at: '2019-06-12T04:28:01.231062Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $file2
+  - chmodx: $GAMEDIR/renpy.sh
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/game
+      dst: $GAMEDIR/sleepover/game
+  files:
+  - file1: N/A:Please select the game archive
+  - file2: https://www.renpy.org/dl/6.16.5/renpy-6.16.5-sdk.tar.bz2
+  game:
+    args: sleepover
+    exe: renpy.sh

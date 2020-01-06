@@ -1,0 +1,17 @@
+name: Saints Row IV
+slug: saints-row-iv
+year: 2013
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/saints-row-iv.jpg
+icon_url: /games/icon/saints-row-iv.png
+is_public: true
+updated: '2019-02-16T04:30:15.593415Z'
+steamid: 206420
+gogslug: saints_row_iv_game_of_the_century_edition
+humblestoreid: saints-row-iv-game-of-the-century-edition

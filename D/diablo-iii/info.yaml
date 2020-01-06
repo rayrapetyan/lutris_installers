@@ -1,0 +1,15 @@
+name: Diablo III
+slug: diablo-iii
+year: 2012
+platforms:
+- name: Windows
+genres:
+- name: Hack and slash
+aliases: []
+banner_url: /games/banner/diablo-iii.jpg
+icon_url: /games/icon/diablo-iii.png
+is_public: true
+updated: '2019-01-23T08:29:11.196072Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

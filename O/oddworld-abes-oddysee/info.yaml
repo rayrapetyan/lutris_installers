@@ -1,0 +1,16 @@
+name: 'Oddworld: Abe''s Oddysee'
+slug: oddworld-abes-oddysee
+year: 1997
+platforms:
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/oddworld-abes-oddysee.jpg
+icon_url: /games/icon/oddworld-abes-oddysee.png
+is_public: true
+updated: '2019-01-23T08:30:35.497757Z'
+steamid: 15700
+gogslug: oddworld_abes_oddysee
+humblestoreid: oddworld-abes-oddysee

@@ -1,0 +1,17 @@
+name: Depth of Extinction
+slug: depth-of-extinction
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Roguelike
+- name: RPG
+- name: Turn-based tactics
+aliases: []
+banner_url: /games/banner/depth-of-extinction.jpg
+icon_url: /games/icon/depth-of-extinction.png
+is_public: true
+updated: '2019-03-30T01:04:45.007707Z'
+steamid: 636320
+gogslug: depth_of_extinction
+humblestoreid: ''

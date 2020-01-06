@@ -1,0 +1,24 @@
+id: 478
+game_id: 397
+game_slug: the-witcher-2-assassins-of-kings-enhanced-edition
+name: 'The Witcher 2: Assassins of Kings Enhanced Edition'
+year: 2011
+user: Freso
+runner: steam
+slug: the-witcher-2-assassins-of-ki-steam-for-linux
+version: Steam for Linux
+description: null
+notes: ''
+created_at: '2014-07-07T16:08:05.842000Z'
+updated_at: '2018-11-08T08:13:46.238012Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: 20920
+gogid: 1207658930
+gogslug: the_witcher_2
+humblestoreid: the-witcher-2-assassins-of-kings-enhanced-edition
+script:
+  game:
+    appid: 20920

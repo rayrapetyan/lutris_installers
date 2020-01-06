@@ -1,0 +1,24 @@
+id: 85
+game_id: 336
+game_slug: anodyne
+name: Anodyne
+year: 2013
+user: strider
+runner: steam
+slug: anodyne-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2013-12-15T13:47:22.006000Z'
+updated_at: '2013-12-15T13:47:33.629000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 234900
+gogid: 1207659192
+gogslug: anodyne
+humblestoreid: ''
+script:
+  game:
+    appid: 234900

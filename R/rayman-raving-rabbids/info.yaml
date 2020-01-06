@@ -1,0 +1,17 @@
+name: 'Rayman: Raving Rabbids'
+slug: rayman-raving-rabbids
+year: 2006
+platforms:
+- name: Nintendo Wii
+- name: Sony PlayStation 2
+- name: Windows
+genres:
+- name: Casual
+aliases: []
+banner_url: /games/banner/rayman-raving-rabbids.jpg
+icon_url: /games/icon/rayman-raving-rabbids.png
+is_public: true
+updated: '2019-01-23T08:30:55.060230Z'
+steamid: 15080
+gogslug: rayman_raving_rabbids
+humblestoreid: ''

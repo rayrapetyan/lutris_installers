@@ -1,0 +1,24 @@
+id: 6262
+game_id: 5550
+game_slug: megaglest
+name: MegaGlest
+year: 2010
+user: fanotriel
+runner: steam
+slug: megaglest-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-11-06T21:22:17.284299Z'
+updated_at: '2017-11-14T22:09:17.074170Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 578870
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 578870

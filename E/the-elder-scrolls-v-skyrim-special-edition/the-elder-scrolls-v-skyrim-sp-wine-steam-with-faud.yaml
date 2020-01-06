@@ -1,0 +1,71 @@
+id: 12437
+game_id: 8224
+game_slug: the-elder-scrolls-v-skyrim-special-edition
+name: 'The Elder Scrolls V: Skyrim Special Edition'
+year: 2015
+user: daretmavi
+runner: winesteam
+slug: the-elder-scrolls-v-skyrim-sp-wine-steam-with-faud
+version: Wine Steam with Faudio
+description: Windows Steam Version with DXVK and FAudio installed. Occasional stutter,
+  but perfectly playable.
+notes: "FAudio (https://github.com/Kron4ek/FAudio-Builds) installed - to address audio\
+  \ / script sync. problems.\r\n - Skyrim first-time setup will overwrite faudio files\r\
+  \n\r\nALSA - to get better sound (May differ for another system - try pulseaudio\
+  \ instead)\r\n\r\nBy sound issues try to change phonon VLC backend to Gstreamer\
+  \ backend."
+created_at: '2019-03-19T19:21:25.727000Z'
+updated_at: '2019-12-18T17:05:11.807195Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 489830
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - extract:
+      dst: $GAMEDIR/prefix/FAudio-Builds-master/
+      file: faudio
+  - chmodx: $GAMEDIR/prefix/FAudio-Builds-master/wine_setup_faudio.sh
+  - input_menu:
+      options:
+      - ok: ok, I unterstand
+      description: Don't launch skyrim yet, if steam.exe process will not exit, then
+        kill him! Skyrim firsttime setup would overwrite faudio files.
+  - task:
+      executable: $HOME/.local/share/lutris/runners/winesteam/prefix64/drive_c/Program
+        Files (x86)/Steam/Steam.exe
+      prefix: $GAMEDIR/prefix
+      args: steam://rungameid/489830
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: winekill
+  - execute:
+      env:
+        WINEPREFIX: $GAMEDIR/prefix
+      file: $GAMEDIR/prefix/FAudio-Builds-master/wine_setup_faudio.sh
+      terminal: true
+  winesteam:
+    Audio: alsa
+    OffscreenRenderingMode: backbuffer
+    version: tkg-4.21-x86_64
+    esync: true
+    dxvk: true
+    quit_steam_on_exit: true
+  system:
+    pulse_latency: true
+  files:
+  - faudio: https://github.com/Kron4ek/FAudio-Builds/archive/master.zip
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 489830
+    arch: win64

@@ -1,0 +1,17 @@
+name: Seven Kingdoms 2 HD
+slug: seven-kingdoms-2-hd
+year: 1999
+platforms:
+- name: Windows
+genres:
+- name: Fantasy
+- name: Real-time
+- name: Strategy
+aliases: []
+banner_url: /games/banner/seven-kingdoms-2-hd.jpg
+icon_url: /games/icon/seven-kingdoms-2-hd.png
+is_public: false
+updated: '2019-01-23T08:31:10.086107Z'
+steamid: 338800
+gogslug: seven_kingdoms_2
+humblestoreid: ''

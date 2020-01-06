@@ -1,0 +1,26 @@
+id: 10248
+game_id: 11832
+game_slug: tanki-x
+name: Tanki X
+year: null
+user: cypper
+runner: winesteam
+slug: tanki-x-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-09-19T09:30:06.368000Z'
+updated_at: '2018-09-20T00:06:56.800206Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 607200
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-3.14-x86_64
+  game:
+    appid: 607200

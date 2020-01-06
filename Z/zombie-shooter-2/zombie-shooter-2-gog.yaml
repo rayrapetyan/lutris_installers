@@ -1,0 +1,40 @@
+id: 12024
+game_id: 914
+game_slug: zombie-shooter-2
+name: Zombie Shooter 2
+year: null
+user: Anoobis
+runner: wine
+slug: zombie-shooter-2-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-02-15T12:28:46.017000Z'
+updated_at: '2019-02-19T04:30:02.599217Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 33180
+gogid: 1207660503
+gogslug: zombie_shooter_2
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_/GOG Games/Zombie Shooter 2/ZombieShooter2.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: goginstaller
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  wine:
+    version: tkg-4.0-x86_64
+  files:
+  - goginstaller: N/A:Select the game's setup file

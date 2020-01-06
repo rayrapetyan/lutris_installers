@@ -1,0 +1,46 @@
+id: 14237
+game_id: 16754
+game_slug: worms-4-mayhem
+name: 'Worms 4: Mayhem'
+year: 2005
+user: Coles
+runner: wine
+slug: worms-4-mayhem-dvd
+version: DVD
+description: Install Worms 4 Mayhem for PC
+notes: ''
+created_at: '2019-06-21T11:35:52.762000Z'
+updated_at: '2020-01-06T03:08:38.943744Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Codemasters/Worms 4 Mayhem/WORMS 4 MAYHEM.EXE
+  installer:
+  - insert-disc:
+      requires: launcher.exe
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      args: /s
+      name: wineexec
+  - task:
+      executable: patch_1_01
+      prefix: $GAMEDIR
+      name: wineexec
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Codemasters/Worms 4 Mayhem/
+      file: patch_starforce
+  wine:
+    Desktop: true
+  files:
+  - patch_1_01: 'N/A:Please download: ftp://ftp.team17.com/pub/t17/patches/pc/WormsMayhemPATCHv1.01.exe'
+  - patch_starforce: 'N/A:Please download: https://www.gamecopyworld.com/games/pc_worms_mayhem.shtml#Worms
+      4 v1.01 [ENGLISH] No-DVD/Fixed EXE'

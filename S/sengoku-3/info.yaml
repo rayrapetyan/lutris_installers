@@ -1,0 +1,16 @@
+name: Sengoku 3
+slug: sengoku-3
+year: 2001
+platforms:
+- name: Arcade
+- name: Neo Geo
+genres:
+- name: Beat'em up
+aliases: []
+banner_url: /games/banner/sengoku-3.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:09.412661Z'
+steamid: null
+gogslug: sengoku_3
+humblestoreid: ''

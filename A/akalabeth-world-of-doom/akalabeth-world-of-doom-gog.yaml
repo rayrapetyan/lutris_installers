@@ -1,0 +1,37 @@
+id: 2185
+game_id: 3562
+game_slug: akalabeth-world-of-doom
+name: 'Akalabeth: World of Doom'
+year: 1979
+user: Lulu
+runner: linux
+slug: akalabeth-world-of-doom-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2016-06-21T22:06:14.269000Z'
+updated_at: '2017-12-21T15:48:07.833541Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1207666073
+gogslug: akalabeth_world_of_doom
+humblestoreid: ''
+script:
+  exe: Game/start.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/Game
+  files:
+  - game: 'N/A: Please select the GOG.com Linux installer'
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

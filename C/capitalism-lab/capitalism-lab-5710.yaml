@@ -1,0 +1,32 @@
+id: 13809
+game_id: 27560
+game_slug: capitalism-lab
+name: Capitalism Lab
+year: 2012
+user: AwesomeSauce
+runner: wine
+slug: capitalism-lab-5710
+version: 5.7.10
+description: Installs the game from the installer downloaded from https://www.capitalismlab.com/download/
+notes: No issues or anything else should be required.
+created_at: '2019-05-30T18:39:07.142111Z'
+updated_at: '2019-05-30T18:39:07.142145Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: drive_c/Capitalim Lab/Capitalism_Lab_Installer.EXE
+  installer:
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - game: N/A:Select the Windows setup file downloaded
+  game:
+    prefix: $GAMEDIR

@@ -1,0 +1,15 @@
+name: 'Elite: Dangerous'
+slug: elite-dangerous
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Space simulation
+aliases: []
+banner_url: /games/banner/elite-dangerous.jpg
+icon_url: /games/icon/elite-dangerous.png
+is_public: true
+updated: '2019-04-25T03:54:25.591222Z'
+steamid: 359320
+gogslug: ''
+humblestoreid: ''

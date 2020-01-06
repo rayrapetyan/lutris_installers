@@ -1,0 +1,15 @@
+name: 'Half-Life 2: DownFall'
+slug: half-life-2-downfall
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/half-life-2-downfall.jpg
+icon_url: /games/icon/half-life-2-downfall.png
+is_public: true
+updated: '2019-02-27T04:45:55.415759Z'
+steamid: 587650
+gogslug: ''
+humblestoreid: ''

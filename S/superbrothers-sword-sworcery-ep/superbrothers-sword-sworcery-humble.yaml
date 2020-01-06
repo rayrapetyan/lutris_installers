@@ -1,0 +1,28 @@
+id: 4120
+game_id: 275
+game_slug: superbrothers-sword-sworcery-ep
+name: 'Superbrothers: Sword & Sworcery EP'
+year: 2011
+user: FakeShemp
+runner: linux
+slug: superbrothers-sword-sworcery-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-04T20:41:44.305693Z'
+updated_at: '2017-06-04T22:09:25.340510Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 204060
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: run.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

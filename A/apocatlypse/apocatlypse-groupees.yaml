@@ -1,0 +1,32 @@
+id: 5052
+game_id: 12239
+game_slug: apocatlypse
+name: ApoCatlypse
+year: 2015
+user: FakeShemp
+runner: wine
+slug: apocatlypse-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-14T12:37:27.375289Z'
+updated_at: '2018-05-19T03:41:56.635804Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/ApoCatlypse
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/ApoCatlypse/apocatlypse.exe
+    arch: win32

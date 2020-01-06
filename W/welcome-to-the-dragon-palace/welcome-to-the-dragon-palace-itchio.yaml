@@ -1,0 +1,26 @@
+id: 6162
+game_id: 14432
+game_slug: welcome-to-the-dragon-palace
+name: Welcome to the Dragon Palace
+year: 2017
+user: FakeShemp
+runner: web
+slug: welcome-to-the-dragon-palace-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-10-28T15:50:58.836000Z'
+updated_at: '2017-10-28T15:52:37.747313Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  web:
+    window_size: 1280x720
+  game:
+    main_file: https://yllogique.itch.io/welcome-to-the-dragon-palace

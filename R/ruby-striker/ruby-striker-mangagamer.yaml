@@ -1,0 +1,35 @@
+id: 4973
+game_id: 12204
+game_slug: ruby-striker
+name: Ruby Striker
+year: 2007
+user: FakeShemp
+runner: wine
+slug: ruby-striker-mangagamer
+version: MangaGamer
+description: ''
+notes: ''
+created_at: '2017-07-11T19:44:45.842000Z'
+updated_at: '2018-05-19T03:41:56.132010Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Ruby Striker
+      file: $file1
+  system:
+    env:
+      LANG: ja_JP.UTF-8
+  files:
+  - file1: N/A:Please select the MangaGamer archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Ruby Striker/launch.exe
+    arch: win32

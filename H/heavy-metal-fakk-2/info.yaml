@@ -1,0 +1,17 @@
+name: 'Heavy Metal: F.A.K.K. 2'
+slug: heavy-metal-fakk-2
+year: 2000
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/heavy-metal-fakk-2.jpg
+icon_url: null
+is_public: true
+updated: '2019-06-08T22:22:42.887458Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

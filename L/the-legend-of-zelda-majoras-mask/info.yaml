@@ -1,0 +1,16 @@
+name: 'The Legend of Zelda: Majora''s Mask'
+slug: the-legend-of-zelda-majoras-mask
+year: 2000
+platforms:
+- name: Nintendo 64
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/the-legend-of-zelda-majoras-mask.jpg
+icon_url: null
+is_public: true
+updated: '2019-02-23T02:06:15.208477Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

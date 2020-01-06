@@ -1,0 +1,42 @@
+id: 13112
+game_id: 4812
+game_slug: freeorion
+name: FreeOrion
+year: null
+user: cxf
+runner: wine
+slug: freeorion-048
+version: 0.4.8
+description: null
+notes: ''
+created_at: '2019-04-26T05:17:35.496000Z'
+updated_at: '2019-04-26T05:25:58.792559Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2015 win7
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /S
+      name: wineexec
+  files:
+  - setup: https://versaweb.dl.sourceforge.net/project/freeorion/FreeOrion/FreeOrion%20Version%200.4.8/FreeOrion_v0.4.8_2018-08-23.26f16b0_Win32_Setup.exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/FreeOrion/FreeOrion.exe
+    arch: win32

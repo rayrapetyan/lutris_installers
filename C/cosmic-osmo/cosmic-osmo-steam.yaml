@@ -1,0 +1,28 @@
+id: 6150
+game_id: 407
+game_slug: cosmic-osmo
+name: Cosmic Osmo
+year: null
+user: Jozua
+runner: winesteam
+slug: cosmic-osmo-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-10-27T23:18:40.975000Z'
+updated_at: '2018-10-25T12:05:40.157264Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 63620
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  system:
+    disable_monitoring: true
+    disable_runtime: true
+    pulse_latency: true
+  game:
+    appid: 63620

@@ -1,0 +1,36 @@
+id: 5694
+game_id: 1690
+game_slug: puzzle-bots
+name: Puzzle Bots
+year: 2010
+user: FakeShemp
+runner: ags
+slug: puzzle-bots-groupees
+version: Groupees
+description: Uses the files from the Windows installer from Groupees.
+notes: ''
+created_at: '2017-09-11T17:51:49.221211Z'
+updated_at: '2017-09-11T17:53:19.020453Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 80300
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: Puzzlebots.exe
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file2
+  - execute:
+      args: -d "$CACHE" "$file1"
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/app
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Groupees installer
+  - file2: https://lutris.net/files/tools/innoextract.tar.gz

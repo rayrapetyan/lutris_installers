@@ -1,0 +1,16 @@
+name: Psychonauts
+slug: psychonauts
+year: 2005
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/psychonauts.jpg
+icon_url: /games/icon/psychonauts.png
+is_public: true
+updated: '2019-03-23T14:50:09.398117Z'
+steamid: 3830
+gogslug: psychonauts
+humblestoreid: psychonauts

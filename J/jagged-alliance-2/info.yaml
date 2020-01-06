@@ -1,0 +1,15 @@
+name: Jagged Alliance 2
+slug: jagged-alliance-2
+year: 1999
+platforms:
+- name: Windows
+genres:
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/jagged-alliance-2.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:59.607377Z'
+steamid: null
+gogslug: jagged_alliance_2
+humblestoreid: ''

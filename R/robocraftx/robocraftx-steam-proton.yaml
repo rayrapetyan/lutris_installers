@@ -1,0 +1,29 @@
+id: 13858
+game_id: 27606
+game_slug: robocraftx
+name: RobocraftX
+year: null
+user: NorbiPeti
+runner: steam
+slug: robocraftx-steam-proton
+version: Steam Proton
+description: null
+notes: "Make sure to enable Steam Play for all titles in Steam settings.\r\nThe game\
+  \ may not exit properly if exiting from the menu, so run the game in windowed mode\
+  \ and close the window to quit.\r\n\r\nIf the game is on an NTFS partition, make\
+  \ sure it's owned by you, otherwise Steam won't be able to launch it.\r\n\r\nIf\
+  \ not, add <tt>uid=1000,gid=1000</tt> in mount options for the partition (with your\
+  \ IDs, check with id -u <name> and id -g <name>)."
+created_at: '2019-06-01T22:19:53.963000Z'
+updated_at: '2019-06-12T05:04:06.757700Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 1078000
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 1078000

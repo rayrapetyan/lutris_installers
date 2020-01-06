@@ -1,0 +1,20 @@
+name: 'LEGO Harry Potter: Years 5-7'
+slug: lego-harry-potter-years-5-7
+year: 2012
+platforms:
+- name: Nintendo 3DS
+- name: Nintendo DS
+- name: Nintendo Wii
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Platformer
+aliases: []
+banner_url: /games/banner/lego-harry-potter-years-5-7.jpg
+icon_url: /games/icon/lego-harry-potter-years-5-7.png
+is_public: true
+updated: '2019-04-20T08:11:15.634574Z'
+steamid: 204120
+gogslug: lego_harry_potter_years_57
+humblestoreid: ''

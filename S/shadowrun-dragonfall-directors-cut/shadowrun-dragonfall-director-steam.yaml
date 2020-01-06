@@ -1,0 +1,24 @@
+id: 913
+game_id: 3475
+game_slug: shadowrun-dragonfall-directors-cut
+name: 'Shadowrun: Dragonfall - Director''s Cut'
+year: 2014
+user: Xodetaetl
+runner: steam
+slug: shadowrun-dragonfall-director-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-10-01T16:15:26.352000Z'
+updated_at: '2014-11-17T14:58:53.968000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 300550
+gogid: 1207660913
+gogslug: shadowrun_dragonfall_directors_cut
+humblestoreid: shadowrun-dragonfall-directors-cut
+script:
+  game:
+    appid: 300550

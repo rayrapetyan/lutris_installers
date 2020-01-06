@@ -1,0 +1,24 @@
+id: 4340
+game_id: 5569
+game_slug: steredenn
+name: Steredenn
+year: null
+user: joonatoona
+runner: steam
+slug: steredenn-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-06-14T04:23:47.048771Z'
+updated_at: '2017-06-14T16:10:02.972995Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 347160
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 347160

@@ -1,0 +1,16 @@
+name: Switch Galaxy Ultra
+slug: switch-galaxy-ultra
+year: 2015
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/switch-galaxy-ultra.jpg
+icon_url: /games/icon/switch-galaxy-ultra.png
+is_public: true
+updated: '2019-01-23T08:31:33.378695Z'
+steamid: 359060
+gogslug: ''
+humblestoreid: ''

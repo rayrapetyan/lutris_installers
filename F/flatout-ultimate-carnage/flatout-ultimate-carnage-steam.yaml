@@ -1,0 +1,29 @@
+id: 9681
+game_id: 588
+game_slug: flatout-ultimate-carnage
+name: 'FlatOut: Ultimate Carnage'
+year: null
+user: Floumen
+runner: winesteam
+slug: flatout-ultimate-carnage-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-11T04:38:43.322000Z'
+updated_at: '2018-08-12T05:01:03.670950Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 12360
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      app: gfw
+      name: winetricks
+  game:
+    appid: 12360

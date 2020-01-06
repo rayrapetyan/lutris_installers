@@ -1,0 +1,19 @@
+name: 'Croc: Legend of the Gobbos'
+slug: croc-legend-of-the-gobbos
+year: 1997
+platforms:
+- name: Nintendo Game Boy Color
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Platform
+aliases: []
+banner_url: /games/banner/croc-legend-of-the-gobbos.jpg
+icon_url: null
+is_public: true
+updated: '2019-11-01T23:19:58.838882Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

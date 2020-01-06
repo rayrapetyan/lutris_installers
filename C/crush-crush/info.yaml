@@ -1,0 +1,17 @@
+name: Crush Crush
+slug: crush-crush
+year: 2016
+platforms:
+- name: Browser
+- name: Linux
+- name: Windows
+genres:
+- name: Dating
+aliases: []
+banner_url: /games/banner/crush-crush.jpg
+icon_url: /games/icon/crush-crush.png
+is_public: true
+updated: '2019-01-23T08:29:01.276402Z'
+steamid: 459820
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,38 @@
+id: 13430
+game_id: 23962
+game_slug: imperialism-2-the-age-of-exploration
+name: 'Imperialism 2: The Age of Exploration'
+year: 1999
+user: Brohric
+runner: wine
+slug: imperialism-2-the-age-of-expl-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-05-09T19:56:21.230000Z'
+updated_at: '2019-10-13T23:26:32.614910Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: 1207659153
+gogslug: imperialism_2_the_age_of_exploration
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES /NOCANCEL
+      name: wineexec
+  files:
+  - setup: N/A:Select the gog setup exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Imperialism II/Imperialism II.exe
+    arch: win32

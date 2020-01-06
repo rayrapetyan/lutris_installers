@@ -1,0 +1,15 @@
+name: 'Geneforge 4: Rebellion'
+slug: geneforge-4
+year: null
+platforms:
+- name: Windows
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/geneforge-4.jpg
+icon_url: /games/icon/geneforge-4.png
+is_public: true
+updated: '2019-01-23T08:29:38.912893Z'
+steamid: 201000
+gogslug: ''
+humblestoreid: ''

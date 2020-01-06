@@ -1,0 +1,18 @@
+name: Horizon Chase Turbo
+slug: horizon-chase-turbo
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Casual
+- name: Racing
+- name: Sports
+aliases: []
+banner_url: /games/banner/horizon-chase-turbo.jpg
+icon_url: /games/icon/horizon-chase-turbo.png
+is_public: true
+updated: '2019-01-23T08:29:52.176901Z'
+steamid: 389140
+gogslug: ''
+humblestoreid: ''

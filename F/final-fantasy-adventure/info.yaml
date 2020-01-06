@@ -1,0 +1,16 @@
+name: Final Fantasy Adventure
+slug: final-fantasy-adventure
+year: 1991
+platforms:
+- name: Game Boy
+genres:
+- name: Role-playing
+- name: RPG
+aliases: []
+banner_url: /games/banner/final-fantasy-adventure.jpg
+icon_url: null
+is_public: false
+updated: '2020-01-06T15:35:40.618192Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

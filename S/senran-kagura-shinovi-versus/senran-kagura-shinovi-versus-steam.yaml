@@ -1,0 +1,51 @@
+id: 7903
+game_id: 8199
+game_slug: senran-kagura-shinovi-versus
+name: SENRAN KAGURA SHINOVI VERSUS
+year: null
+user: mal_dun
+runner: winesteam
+slug: senran-kagura-shinovi-versus-steam
+version: Steam
+description: "Simple installer\r\nenables csmt with registry key\r\ndisables runtime"
+notes: "- Uses wine-staging 3.7 (prior 2.21; 3.0 - 3.5 had problems with sound or\
+  \ even starting)\r\n- CSMT has to be enabled. If flickering occurs enable it under\
+  \ wine configuration -> wine-staging\r\n- runtime is disabled because the game has\
+  \ some problems with resolution and some graphics like mouse pointer\r\n- tested\
+  \ with Logitech F310 Gamepad. It was necessary to use the antimicro keymapper to\
+  \ let it properly work."
+created_at: '2018-04-15T00:52:57.408000Z'
+updated_at: '2018-05-09T05:55:45.871419Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 411830
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix.
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: 'Wine Staging: Enabling CSMT'
+      arch: win64
+      type: REG_DWORD
+      value: 1
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D
+      key: csmt
+      name: set_regedit
+  steam:
+    quit_steam_on_exit: true
+  system:
+    disable_runtime: true
+  wine:
+    version: staging-3.7
+  game:
+    args: -no-cef-sandbox
+    appid: 411830

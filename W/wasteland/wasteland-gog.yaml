@@ -1,0 +1,37 @@
+id: 6586
+game_id: 434
+game_slug: wasteland
+name: Wasteland
+year: 1988
+user: Talvi
+runner: linux
+slug: wasteland-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2017-12-10T00:35:29.234123Z'
+updated_at: '2017-12-18T03:06:04.979903Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 259130
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: game/start.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Please select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

@@ -1,0 +1,27 @@
+name: Marble Madness
+slug: marble-madness
+year: 1984
+platforms:
+- name: Amiga
+- name: Apple //e
+- name: Apple IIGS
+- name: Arcade
+- name: Atari ST
+- name: Commodore 64
+- name: Game Boy
+- name: MS-DOS
+- name: NES
+- name: Nintendo Game Boy Color
+- name: Sega Game Gear
+- name: Sega Genesis / Mega Drive
+- name: X68000
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/marble-madness.jpg
+icon_url: null
+is_public: true
+updated: '2019-02-06T04:16:46.861818Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

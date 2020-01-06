@@ -1,0 +1,129 @@
+id: 15452
+game_id: 13837
+game_slug: rise-of-nations
+name: Rise of Nations
+year: 2003
+user: LemiSt24
+runner: wine
+slug: rise-of-nations-cd
+version: CD
+description: Uses dgvoodoo2 and DXVK because wined3d produces graphics bugs.
+notes: "If you are using two screens, the wrong resolution may be set in the game's\
+  \ config.\r\nCheck / change in $GAMEDIR/drive_c/users/$USER/Application Data/Microsoft\
+  \ Games/Rise of Nations/rise2.ini"
+created_at: '2019-09-11T01:18:38.517676Z'
+updated_at: '2019-10-06T21:28:03.106855Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 64bit Wine prefix.
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: mfc42 msxml4 directplay directmusic
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      arch: win64
+      name: wineexec
+  - extract:
+      dst: /tmp/dgvoodoo2/
+      file: dgvoodoo
+  - move:
+      src: $GAMEDIR/drive_c/windows/syswow64/d3d9.dll
+      dst: $GAMEDIR/drive_c/windows/syswow64/d3d9.dll.old
+  - move:
+      src: $GAMEDIR/drive_c/windows/syswow64/d3d8.dll
+      dst: $GAMEDIR/drive_c/windows/syswow64/d3d8.dll.old
+  - move:
+      src: $GAMEDIR/drive_c/windows/syswow64/ddraw.dll
+      dst: $GAMEDIR/drive_c/windows/syswow64/ddraw.dll.old
+  - merge:
+      src: /tmp/dgvoodoo2/MS/x86
+      dst: $GAMEDIR/drive_c/windows/syswow64
+  - write_config:
+      data:
+        RISE OF NATIONS:
+          EnableGraphicsToggles: 0
+          SkipIntroMovies: 1
+          Console Coord Mode: 0
+          StartConsole: 0
+          MEM_grade_override(A-F or AUTO): AUTO
+          TEXTURE_grade_override(FULL, HALF, QUARTER, AUTO): AUTO
+          GPU_grade_override(A-F or AUTO): AUTO
+          ClickDragHighSensitive: 64
+          ForceAGPVBs: 1
+          RenderMinimap: 1
+          TestDelayRenderBMax: 0
+          UseAltColors: 0
+          TPModsDirectory: .\Mods
+          ForceStaticCursor: 0
+          Don't Allow Texture Compression: 0
+          RebuildBalance: 0
+          TestDelayRenderAMin: 0
+          BackVidAsSlideShow: 1
+          IgnoreMinimizeOnTabOut: 0
+          TestDelayRenderBMin: 0
+          ScenarioDirectory: \Scenarios
+          AllowAllResolutions: 1
+          CTWScrollInc: 7
+          Windowed Width: $RESOLUTION_WIDTH
+          DefaultScenarioDirectory: .\scenario\Custom\
+          StandaloneScriptsDirectory: Stand-alone Scripts
+          ForceLowCPUBackgroundVid: 1
+          Force Profile Menu: 0
+          GameFrameTestDelayMin: 0
+          Windowed Height: $RESOLUTION_HEIGHT
+          ESCKeyGoesToMenu: 1
+          ForceGDICursor: 0
+          StartPaused: 0
+          CPU_grade_override(A-F or AUTO): AUTO
+          ClickDragTiming: 5
+          VSync: 0
+          StartReveal: 0
+          SYS_grade_override(A-F or AUTO): AUTO
+          ForceBWCursor: 0
+          UseNetworkSimulator: 0
+          DefaultScriptDirectory: .\scenario\Scripts\
+          UseVTUNEDLL: 0
+          GameFrameTestDelayMax: 0
+          CTWMapScroll: 35
+          ClickDragLowSensitive: 20
+          FullScreen: 1
+          ForceHardwareCursor: 1
+          Sound Enabled: 1
+          ConfigDatabase: BHGVidCardConfig.txt
+          TestDelayRenderAMax: 0
+          ClickDragRightSensitive: 6
+          Console Name Mode: 2
+      file: $GAMEDIR/drive_c/users/$USER/Application Data/Microsoft Games/Rise of
+        Nations/rise2.ini
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files (x86)/Microsoft Games/Rise of Nations/nations.exe
+  system:
+    env:
+      PULSE_LATENCY_MSEC: '30'
+  wine:
+    version: lutris-4.13-x86_64
+    esync: false
+    dxvk: true
+    overrides:
+      d3d8.dll: n
+      d3dimm.dll: n
+      d3d9.dll: n
+      ddraw.dll: n
+  files:
+  - dgvoodoo: http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2_61.zip
+  - setup: N/A:Select the game's setup file (RONSETUP.EXE)

@@ -1,0 +1,15 @@
+name: Battlefield 1942
+slug: battlefield-1942
+year: 2002
+platforms:
+- name: Windows
+genres:
+- name: Shooter
+aliases: []
+banner_url: /games/banner/battlefield-1942.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:32.868721Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,15 @@
+name: 'Game & Watch: Tropical Fish'
+slug: game-watch-tropical-fish
+year: 1985
+platforms:
+- name: Arcade
+genres:
+- name: Arcade
+aliases: []
+banner_url: /games/banner/game-watch-tropical-fish.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:37.885735Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

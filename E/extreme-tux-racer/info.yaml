@@ -1,0 +1,15 @@
+name: Extreme Tux Racer
+slug: extreme-tux-racer
+year: 2007
+platforms:
+- name: Linux
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/extreme-tux-racer.jpg
+icon_url: /games/icon/extreme-tux-racer.png
+is_public: true
+updated: '2019-01-23T08:29:27.005860Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

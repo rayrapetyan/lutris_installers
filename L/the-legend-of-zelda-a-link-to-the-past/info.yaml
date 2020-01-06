@@ -1,0 +1,16 @@
+name: 'The Legend of Zelda: A Link to the Past'
+slug: the-legend-of-zelda-a-link-to-the-past
+year: 1991
+platforms:
+- name: Super Nintendo
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/the-legend-of-zelda-a-link-to-the-past.jpg
+icon_url: /games/icon/the-legend-of-zelda-a-link-to-the-past.png
+is_public: true
+updated: '2019-01-23T08:31:43.751330Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

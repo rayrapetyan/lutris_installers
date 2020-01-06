@@ -1,0 +1,24 @@
+id: 8924
+game_id: 3522
+game_slug: eldevin
+name: Eldevin
+year: 2014
+user: TuiorGames
+runner: winesteam
+slug: eldevin-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-26T23:01:26.052000Z'
+updated_at: '2018-06-27T04:22:38.888652Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 298160
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 298160

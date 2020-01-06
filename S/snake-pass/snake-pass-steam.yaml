@@ -1,0 +1,32 @@
+id: 7868
+game_id: 11331
+game_slug: snake-pass
+name: Snake Pass
+year: null
+user: Szaturnusz
+runner: winesteam
+slug: snake-pass-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-04-09T13:16:14.457000Z'
+updated_at: '2018-04-26T00:57:53.507416Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 544330
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-3.5-x86_64
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      app: d3dx11_43
+      arch: win64
+      name: winetricks
+  game:
+    appid: 544330

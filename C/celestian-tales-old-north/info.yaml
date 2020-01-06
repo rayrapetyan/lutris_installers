@@ -1,0 +1,16 @@
+name: 'Celestian Tales: Old North'
+slug: celestian-tales-old-north
+year: null
+platforms:
+- name: Linux
+genres:
+- name: jRPG
+- name: RPG
+aliases: []
+banner_url: /games/banner/celestian-tales-old-north.jpg
+icon_url: /games/icon/celestian-tales-old-north.png
+is_public: true
+updated: '2019-01-23T08:28:49.428918Z'
+steamid: 315860
+gogslug: celestian_tales_old_north
+humblestoreid: ''

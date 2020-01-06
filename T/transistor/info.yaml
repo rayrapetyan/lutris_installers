@@ -1,0 +1,16 @@
+name: Transistor
+slug: transistor
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Hack and slash
+aliases: []
+banner_url: /games/banner/transistor.jpg
+icon_url: /games/icon/transistor.png
+is_public: true
+updated: '2019-03-23T14:21:56.753127Z'
+steamid: 237930
+gogslug: transistor
+humblestoreid: ''

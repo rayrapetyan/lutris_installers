@@ -1,0 +1,15 @@
+name: 'Myth II: Soulblighter'
+slug: myth-ii-soulblighter
+year: 1998
+platforms:
+- name: Windows
+genres:
+- name: Real-time tactics
+aliases: []
+banner_url: /games/banner/myth-ii-soulblighter.jpg
+icon_url: /games/icon/myth-ii-soulblighter.png
+is_public: true
+updated: '2019-01-23T08:30:29.276036Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

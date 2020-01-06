@@ -1,0 +1,16 @@
+name: Parkitect
+slug: parkitect
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Management
+- name: Simulation
+aliases: []
+banner_url: /games/banner/parkitect.jpg
+icon_url: /games/icon/parkitect.png
+is_public: true
+updated: '2019-01-23T08:30:42.285401Z'
+steamid: 453090
+gogslug: parkitect
+humblestoreid: ''

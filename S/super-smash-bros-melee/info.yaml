@@ -1,0 +1,17 @@
+name: Super Smash Bros. Melee
+slug: super-smash-bros-melee
+year: 2001
+platforms:
+- name: GameCube
+genres:
+- name: Fighting
+- name: Party
+- name: Platform
+aliases: []
+banner_url: /games/banner/super-smash-bros-melee.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:31.334700Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,28 @@
+id: 3940
+game_id: 1598
+game_slug: joe-danger-2-the-movie
+name: 'Joe Danger 2: The Movie'
+year: 2013
+user: FakeShemp
+runner: linux
+slug: joe-danger-2-the-movie-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-28T21:29:00.625597Z'
+updated_at: '2017-05-30T00:23:39.228305Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 242110
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: BIN/JD2Launcher
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

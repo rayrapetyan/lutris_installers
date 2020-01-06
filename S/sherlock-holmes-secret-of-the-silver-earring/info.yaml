@@ -1,0 +1,17 @@
+name: 'Sherlock Holmes: Secret of the Silver Earring'
+slug: sherlock-holmes-secret-of-the-silver-earring
+year: 2004
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Detective-mystery
+- name: FPP
+aliases: []
+banner_url: /games/banner/sherlock-holmes-secret-of-the-silver-earring.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:11.896947Z'
+steamid: null
+gogslug: sherlock_holmes_secret_of_the_silver_earring
+humblestoreid: ''

@@ -1,0 +1,15 @@
+name: 'Commander Keen: Keen Dreams'
+slug: commander-keen-keen-dreams
+year: 1991
+platforms:
+- name: MS-DOS
+genres:
+- name: Platformer
+aliases: []
+banner_url: /games/banner/commander-keen-keen-dreams.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-27T07:45:18.792335Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

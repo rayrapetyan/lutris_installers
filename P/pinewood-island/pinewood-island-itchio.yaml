@@ -1,0 +1,31 @@
+id: 8958
+game_id: 19605
+game_slug: pinewood-island
+name: Pinewood Island
+year: 2017
+user: kimchitea
+runner: linux
+slug: pinewood-island-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2018-06-30T17:06:23.646000Z'
+updated_at: '2018-07-01T03:32:58.726913Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 710950
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Pinewood-Island.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Pinewood-Island.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Pinewood-Island
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Pinewood-Island
+  files:
+  - file1: N/A:Please select the itch.io archive

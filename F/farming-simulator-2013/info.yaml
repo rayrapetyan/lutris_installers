@@ -1,0 +1,18 @@
+name: Farming Simulator 2013
+slug: farming-simulator-2013
+year: 2012
+platforms:
+- name: Sony Playstation 3
+- name: Windows
+genres:
+- name: Simulation
+aliases:
+- slug: farming-simulator-2013-titanium-edition
+  name: Farming Simulator 2013 Titanium Edition
+banner_url: /games/banner/farming-simulator-2013.jpg
+icon_url: /games/icon/farming-simulator-2013.png
+is_public: true
+updated: '2019-04-27T06:01:55.711867Z'
+steamid: 220260
+gogslug: ''
+humblestoreid: ''

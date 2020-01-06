@@ -1,0 +1,17 @@
+name: The King of Fighters 2001
+slug: the-king-of-fighters-2001
+year: 2001
+platforms:
+- name: Arcade
+- name: Neo Geo
+- name: Sega Dreamcast
+genres:
+- name: Fighting
+aliases: []
+banner_url: /games/banner/the-king-of-fighters-2001.jpg
+icon_url: null
+is_public: true
+updated: '2019-03-05T05:43:06.855161Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

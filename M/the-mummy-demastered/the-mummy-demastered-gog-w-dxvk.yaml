@@ -1,0 +1,43 @@
+id: 14548
+game_id: 19494
+game_slug: the-mummy-demastered
+name: The Mummy Demastered
+year: 2017
+user: Platinum
+runner: wine
+slug: the-mummy-demastered-gog-w-dxvk
+version: GOG w/ DXVK
+description: null
+notes: ''
+created_at: '2019-07-13T02:05:21.422000Z'
+updated_at: '2019-10-14T03:30:55.060121Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 630310
+gogid: 1839071992
+gogslug: the_mummy_demastered
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES /NOCANCEL
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/The Mummy Demastered/Mummy.exe
+    arch: win64
+  system:
+    env:
+      DXVK_HUD: compiler
+  wine:
+    dxvk: true
+  files:
+  - setup: N/A:Please select the setup.exe downloaded from GOG.com

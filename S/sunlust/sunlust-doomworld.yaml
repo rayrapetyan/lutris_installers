@@ -1,0 +1,40 @@
+id: 10025
+game_id: 21473
+game_slug: sunlust
+name: Sunlust
+year: 2015
+user: miky_kr5
+runner: zdoom
+slug: sunlust-doomworld
+version: Doomworld
+description: Pwad file from Doomworld. Requires either the DOOM 2 or the Freedoom
+  phase 2 iwad to play.
+notes: ''
+created_at: '2018-09-03T19:09:13.032182Z'
+updated_at: '2018-09-04T14:47:07.528308Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      src: sunlust
+      dst: $CACHE
+  - merge:
+      src: doom2
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/sunlust.wad
+      dst: $GAMEDIR
+  files:
+  - doom2: N/A:Please select either the DOOM 2 or Freedoom phase 2 iwad file.
+  - sunlust: http://youfailit.net/pub/idgames/levels/doom2/Ports/megawads/sunlust.zip
+  game:
+    main_file: doom2
+    files:
+    - sunlust.wad

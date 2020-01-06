@@ -1,0 +1,17 @@
+name: Dicey Dungeons
+slug: dicey-dungeons
+year: 2019
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Indie
+- name: Strategy
+aliases: []
+banner_url: /games/banner/dicey-dungeons.jpg
+icon_url: /games/icon/dicey-dungeons.png
+is_public: false
+updated: '2019-09-11T17:32:22.347363Z'
+steamid: 861540
+gogslug: ''
+humblestoreid: ''

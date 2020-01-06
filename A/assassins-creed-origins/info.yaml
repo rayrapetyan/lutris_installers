@@ -1,0 +1,17 @@
+name: Assassin's Creed Origins
+slug: assassins-creed-origins
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/assassins-creed-origins.jpg
+icon_url: /games/icon/assassins-creed-origins.png
+is_public: true
+updated: '2019-08-27T06:05:35.812031Z'
+steamid: 582160
+gogslug: ''
+humblestoreid: ''

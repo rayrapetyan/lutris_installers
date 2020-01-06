@@ -1,0 +1,36 @@
+id: 5320
+game_id: 7912
+game_slug: spoko-and-poko
+name: Spoko and Poko
+year: null
+user: FakeShemp
+runner: wine
+slug: spoko-and-poko-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-10T08:42:56.354000Z'
+updated_at: '2018-05-19T03:41:58.407002Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 365400
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Spoko and Poko
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Spoko and Poko/spoko&poko.exe
+    arch: win32

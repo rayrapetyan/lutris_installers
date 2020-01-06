@@ -1,0 +1,36 @@
+id: 5331
+game_id: 4019
+game_slug: timeshift
+name: TimeShift
+year: null
+user: FakeShemp
+runner: wine
+slug: timeshift-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2017-08-11T19:48:38.474000Z'
+updated_at: '2017-08-27T21:22:40.293301Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 10130
+gogid: 1460032883
+gogslug: timeshift
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: d3dx9
+      name: winetricks
+  files:
+  - file1: N/A:Please select the GOG installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/TimeShift/bin/TimeShift.exe

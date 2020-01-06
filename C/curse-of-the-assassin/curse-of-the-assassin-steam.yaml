@@ -1,0 +1,24 @@
+id: 9449
+game_id: 6786
+game_slug: curse-of-the-assassin
+name: Curse of the Assassin
+year: 2013
+user: kimchitea
+runner: steam
+slug: curse-of-the-assassin-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-29T14:26:30.683239Z'
+updated_at: '2018-07-29T21:59:16.197721Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 335450
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 335450

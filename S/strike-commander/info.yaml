@@ -1,0 +1,17 @@
+name: Strike Commander
+slug: strike-commander
+year: 1993
+platforms:
+- name: Windows
+genres:
+- name: Combat
+- name: Modern
+- name: Simulation
+aliases: []
+banner_url: /games/banner/strike-commander.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:28.265155Z'
+steamid: null
+gogslug: strike_commander
+humblestoreid: ''

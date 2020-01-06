@@ -1,0 +1,35 @@
+id: 9412
+game_id: 20299
+game_slug: akaya-akashiya-ayakashino
+name: Akaya Akashiya Ayakashino
+year: 2011
+user: kimchitea
+runner: wine
+slug: akaya-akashiya-ayakashino-english-patch
+version: English patch
+description: null
+notes: "Patch for an existing install of the PC version of the game.\r\n\r\nRename\
+  \ the .eXe and .cf files to akaya-akashiya-ayakashino to avoid problems with Japanese\
+  \ file names.\r\n\r\nLine break issues; may be fixed in future patch releases."
+created_at: '2018-07-27T11:04:08.777124Z'
+updated_at: '2018-07-28T04:24:00.955386Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: patch
+      dst: $GAMEDIR
+  system:
+    env: LC_ALL=ja_JP.UTF-8
+  files:
+  - patch: N/A:Download the latest patch from https://rikoren.dreamwidth.org/17443.html#cutid2
+  game:
+    prefix: $GAMEDIR
+    exe: akaya-akashiya-ayakashino.eXe

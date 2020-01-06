@@ -1,0 +1,29 @@
+id: 1939
+game_id: 4809
+game_slug: abuse
+name: Abuse
+year: 1995
+user: Xodetaetl
+runner: linux
+slug: abuse-sdl-080-32-bit
+version: SDL 0.80 (32-bit)
+description: ''
+notes: ''
+created_at: '2016-01-28T19:28:44.552115Z'
+updated_at: '2016-01-28T19:31:58.400092Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: launch.sh
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $archive
+  files:
+  - archive: https://lutris.net/files/games/abuse/abuse-0.80-i386.tar.bz2

@@ -1,0 +1,16 @@
+name: Convoy
+slug: convoy
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Roguelike
+- name: RPG
+aliases: []
+banner_url: /games/banner/convoy.jpg
+icon_url: /games/icon/convoy.png
+is_public: true
+updated: '2019-01-23T08:28:57.966853Z'
+steamid: 318230
+gogslug: convoy
+humblestoreid: ''

@@ -1,0 +1,15 @@
+name: 'Eschalon: Book 1'
+slug: eschalon-book-1
+year: 2007
+platforms:
+- name: Linux
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/eschalon-book-1.jpg
+icon_url: /games/icon/eschalon-book-1.png
+is_public: true
+updated: '2019-01-23T08:29:24.855998Z'
+steamid: 25600
+gogslug: eschalon_book_i
+humblestoreid: ''

@@ -1,0 +1,48 @@
+id: 3313
+game_id: 1719
+game_slug: tales-of-monkey-island-chapter-2-the-siege-of-spin
+name: 'Tales of Monkey Island: Chapter 2 - The Siege of Spinner Cay '
+year: null
+user: NuSuey
+runner: wine
+slug: tales-of-monkey-island-chapte-telltale-game-clie-1
+version: Telltale game client
+description: Game client from Telltale's website (telltale.com)
+notes: ''
+created_at: '2017-03-10T13:33:27.651293Z'
+updated_at: '2018-05-19T03:41:50.991615Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 31180
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      description: Installing d3dx9
+      app: d3dx9
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Disabling unused WINE features
+      app: sandbox
+      silent: true
+      name: winetricks
+  files:
+  - game: N/A:Please select the Telletale (Download Center) Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Telltale Games/Tales of Monkey Island/The Siege of
+      Spinner Cay/MonkeyIsland102.exe
+    arch: win32

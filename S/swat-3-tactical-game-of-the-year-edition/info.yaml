@@ -1,0 +1,17 @@
+name: 'SWAT 3: Tactical Game of the Year Edition'
+slug: swat-3-tactical-game-of-the-year-edition
+year: 1999
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+- name: Tactical shooter
+aliases: []
+banner_url: /games/banner/swat-3-tactical-game-of-the-year-edition.jpg
+icon_url: /games/icon/swat-3-tactical-game-of-the-year-edition.png
+is_public: true
+updated: '2019-12-15T18:22:48.361000Z'
+steamid: 560370
+gogslug: swat_3_tactical_game_of_the_year_edition
+humblestoreid: ''

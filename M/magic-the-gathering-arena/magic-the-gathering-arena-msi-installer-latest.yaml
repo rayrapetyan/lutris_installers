@@ -1,0 +1,88 @@
+id: 17312
+game_id: 17988
+game_slug: magic-the-gathering-arena
+name: 'Magic: The Gathering Arena'
+year: 2017
+user: sessel
+runner: wine
+slug: magic-the-gathering-arena-msi-installer-latest
+version: MSI Installer (Latest)
+description: Installs the latest version of MTGA that is listed on https://mtgarena.downloads.wizards.com/Live/Windows32/versionAlso
+  can be used to update a existing installation
+notes: ''
+created_at: '2019-12-13T06:22:11.001000Z'
+updated_at: '2019-12-26T05:04:10.710673Z'
+draft: false
+published: false
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .NET 4.7.2. This will take a while...
+      app: dotnet472
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      key: GrabFullscreen
+      value: Y
+      path: HKEY_CURRENT_USER\Software\Wine\X11 Driver
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      key: UseTakeFocus
+      value: N
+      path: HKEY_CURRENT_USER\Software\Wine\X11 Driver
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      app: powershell arial d3dcompiler_47 win7
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - write_file:
+      content: "#!/bin/bash \n OUTPUT=$1 \n VERSIONSITE=\"https://mtgarena.downloads.wizards.com/Live/Windows32/version\"\
+        \ \n VERSIONKEY=\"CurrentInstallerURL\" \n MSIURL=$(curl $VERSIONSITE | grep\
+        \ $VERSIONKEY | sed -r 's/(\\s*\"[^\\\"]+\":\\s*\")([^\\\"]+)(\",?\\s*)/\\\
+        2/g') \n wget $MSIURL -O $OUTPUT \n"
+      file: $CACHE/download.sh
+  - chmodx: $CACHE/download.sh
+  - execute:
+      args: $CACHE/MTGAInstaller.msi
+      description: Downloading Installer ...
+      file: $CACHE/download.sh
+  - task:
+      executable: msiexec
+      prefix: $GAMEDIR
+      description: Installing/Updating Magic the Gathering Arena ...
+      args: /i "$CACHE/MTGAInstaller.msi"
+      exclude_processes: mscorsvw.exe rundll32.exe rpcss.exe powershell.exe UnityCrashHandler32.exe
+        svchost.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Wizards of the Coast/MTGA/MTGA.exe
+    arch: win64
+  system:
+    pulse_latency: true
+  wine:
+    version: tkg-unity-4.5-x86_64
+    esync: true
+    dxvk: true
+    Desktop: true
+  files:
+  - setup: https://mtgarena.downloads.wizards.com/Live/Windows32/version

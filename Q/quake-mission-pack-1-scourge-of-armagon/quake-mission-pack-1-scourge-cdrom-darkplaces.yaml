@@ -1,0 +1,46 @@
+id: 15338
+game_id: 119
+game_slug: quake-mission-pack-1-scourge-of-armagon
+name: 'Quake Mission Pack 1: Scourge of Armagon'
+year: 1997
+user: appoloin
+runner: linux
+slug: quake-mission-pack-1-scourge-cdrom-darkplaces
+version: CDROM + Darkplaces
+description: Require's CDROM + Darkplaces vesion of  Quake installed
+notes: ''
+created_at: '2019-09-07T00:12:23.049380Z'
+updated_at: '2019-09-07T00:12:23.049412Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 9040
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: quake-cdrom-darkplaces
+  installer:
+  - write_file:
+      content: '#!/bin/bash
+
+        src=$1
+
+        dst=$2
+
+        src_path=$(echo "$1" | sed -r "s/(.+)\/.+/\1/")
+
+        find "$src_path" -type f \( -iname "*.PAK"  \) -exec cp {} "$dst" \;'
+      file: $CACHE/selectcopy.sh
+  - chmodx: $CACHE/selectcopy.sh
+  - execute:
+      args: $GAMEDIR/hipnotic
+      file: mkdir
+  - execute:
+      args: $game/ $GAMEDIR/hipnotic
+      file: $CACHE/selectcopy.sh
+  files:
+  - game: N/A:Select a file with *.PAK extension
+  game:
+    args: -game hipnotic -hipnotic

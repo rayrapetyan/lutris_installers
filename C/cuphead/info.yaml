@@ -1,0 +1,15 @@
+name: Cuphead
+slug: cuphead
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/cuphead.jpg
+icon_url: /games/icon/cuphead.png
+is_public: true
+updated: '2019-01-23T08:29:02.728433Z'
+steamid: 268910
+gogslug: cuphead
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 11641
+game_id: 7724
+game_slug: paladins
+name: 'Paladins: Champions of the Realm'
+year: 2016
+user: strider
+runner: steam
+slug: paladins-champions-of-the-rea-steam-proton
+version: Steam Proton
+description: null
+notes: Cancel the .NET install and the game will run fine.
+created_at: '2019-01-19T00:48:24.886000Z'
+updated_at: '2019-05-19T06:32:02.428207Z'
+draft: false
+published: true
+published_by: 19464
+rating: '1'
+steamid: 444090
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 444090

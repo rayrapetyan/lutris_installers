@@ -1,0 +1,27 @@
+id: 14502
+game_id: 1391
+game_slug: elsword
+name: Elsword
+year: null
+user: Kaze
+runner: wine
+slug: elsword-void-elsword
+version: Void Elsword
+description: Installer for the private server Void Elsword (https://voidels.to)
+notes: ''
+created_at: '2019-07-10T02:26:09.440158Z'
+updated_at: '2019-07-10T02:26:09.440191Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: 237310
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  files:
+  - installer: http://cdn.voidels.to/VoidDownloader.msi
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/VoidElsword/VoidElsword/voidels.exe

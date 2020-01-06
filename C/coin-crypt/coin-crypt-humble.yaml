@@ -1,0 +1,32 @@
+id: 4604
+game_id: 3534
+game_slug: coin-crypt
+name: Coin Crypt
+year: 2013
+user: FakeShemp
+runner: wine
+slug: coin-crypt-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-25T18:58:59.801443Z'
+updated_at: '2018-05-19T03:41:49.536600Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 264690
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Coin Crypt
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Coin Crypt/CoinCrypt.exe
+    arch: win32

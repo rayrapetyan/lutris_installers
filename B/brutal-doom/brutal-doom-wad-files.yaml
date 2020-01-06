@@ -1,0 +1,41 @@
+id: 14050
+game_id: 8209
+game_slug: brutal-doom
+name: Brutal Doom
+year: 2010
+user: beer
+runner: zdoom
+slug: brutal-doom-wad-files
+version: WAD Files
+description: Add all WAD files to an archive (zip, tar, etc).  Select archive during
+  installation.  GZDoom provides a launcher on startup.
+notes: The WAD files are simply placed in the game directory alongside Brutal Doom.  If
+  you wish to put them elsewhere, see ~/.config/gzdoom/gzdoom.ini for other locations
+  searched by gzdoom.
+created_at: '2019-06-12T03:52:10.603614Z'
+updated_at: '2019-06-12T03:52:10.603637Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: brutal_doom
+  - extract:
+      file: wad_archive
+  files:
+  - brutal_doom:
+      referer: https://www.moddb.com/mods/brutal-doom/downloads/brutal-doom-v21-beta
+      filename: brutalv21.rar
+      url: https://www.moddb.com/downloads/mirror/95667/101/9ec5db95088d14bcb47dabdb052ba600
+  - wad_archive: N/A:Select an archive (zip, tgz, gzip or bz2) containing your game
+      WADs.
+  game:
+    savedir: $GAMEDIR
+    files:
+    - $GAMEDIR/brutalv21.pk3

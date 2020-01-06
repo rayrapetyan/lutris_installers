@@ -1,0 +1,19 @@
+name: The Escapists
+slug: the-escapists
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: Indie
+- name: Pixel Graphics
+- name: Strategy
+aliases: []
+banner_url: /games/banner/the-escapists.jpg
+icon_url: /games/icon/the-escapists.png
+is_public: true
+updated: '2019-11-18T03:53:51.041398Z'
+steamid: 298630
+gogslug: the_escapists
+humblestoreid: ''

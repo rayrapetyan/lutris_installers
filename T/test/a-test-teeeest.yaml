@@ -1,0 +1,32 @@
+id: 15265
+game_id: 3192
+game_slug: test
+name: A test
+year: null
+user: citrusalex
+runner: wine
+slug: a-test-teeeest
+version: teeeest
+description: null
+notes: ''
+created_at: '2019-09-03T04:58:16.108000Z'
+updated_at: '2019-09-03T05:00:49.363260Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: setup
+      dst: $GAMEDIR
+  files:
+  - setup: http://dist.blizzard.com/downloads/bna-installers/322d5bb9ae0318de3d4cde7641c96425/retail.1/Battle.net-Setup-enUS.exe
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/Battle.net-Setup-enUS.exe
+    arch: win32

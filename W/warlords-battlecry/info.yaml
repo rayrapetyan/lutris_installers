@@ -1,0 +1,17 @@
+name: Warlords Battlecry
+slug: warlords-battlecry
+year: 2000
+platforms:
+- name: Windows
+genres:
+- name: Fantasy
+- name: Role-playing
+- name: Strategy
+aliases: []
+banner_url: /games/banner/warlords-battlecry.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:06.205488Z'
+steamid: null
+gogslug: warlords_battlecry
+humblestoreid: ''

@@ -1,0 +1,39 @@
+id: 3281
+game_id: 4910
+game_slug: undertale
+name: Undertale
+year: 2015
+user: FakeShemp
+runner: linux
+slug: undertale-humble
+version: Humble
+description: null
+notes: ''
+created_at: '2017-02-19T10:21:54.097000Z'
+updated_at: '2019-10-12T01:43:45.004757Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 391540
+gogid: 1456487183
+gogslug: undertale
+humblestoreid: ''
+script:
+  exe: UNDERTALE
+  installer:
+  - extract:
+      dst: $CACHE
+      file: gamearchive
+  - move:
+      src: $CACHE/game
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/libraries
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/UNDERTALE
+      dst: $GAMEDIR
+  - chmodx: $GAMEDIR/UNDERTALE
+  files:
+  - gamearchive: N/A:Please select the Humble archive

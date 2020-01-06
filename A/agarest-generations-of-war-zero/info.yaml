@@ -1,0 +1,17 @@
+name: 'Agarest: Generations of War Zero'
+slug: agarest-generations-of-war-zero
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Fantasy
+- name: Role-playing
+- name: Strategy
+aliases: []
+banner_url: /games/banner/agarest-generations-of-war-zero.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:13.695136Z'
+steamid: null
+gogslug: agarest_generations_of_war_zero
+humblestoreid: ''

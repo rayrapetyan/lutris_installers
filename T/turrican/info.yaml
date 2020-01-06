@@ -1,0 +1,15 @@
+name: Turrican
+slug: turrican
+year: 1991
+platforms:
+- name: Sega Genesis / Mega Drive
+genres:
+- name: Shooter
+aliases: []
+banner_url: /games/banner/turrican.jpg
+icon_url: null
+is_public: true
+updated: '2019-07-09T04:28:59.451115Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

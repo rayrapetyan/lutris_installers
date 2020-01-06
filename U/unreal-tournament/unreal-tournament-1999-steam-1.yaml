@@ -1,0 +1,24 @@
+id: 10642
+game_id: 17
+game_slug: unreal-tournament
+name: Unreal Tournament (1999)
+year: 1999
+user: alien2003
+runner: winesteam
+slug: unreal-tournament-1999-steam-1
+version: Steam
+description: Steam Windows version through Wine
+notes: ''
+created_at: '2018-10-26T07:57:11.987198Z'
+updated_at: '2018-10-26T09:56:44.962773Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 13240
+gogid: 1207658692
+gogslug: unreal_tournament_goty
+humblestoreid: ''
+script:
+  game:
+    appid: 13240

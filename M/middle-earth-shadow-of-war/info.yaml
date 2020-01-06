@@ -1,0 +1,18 @@
+name: 'Middle-earth: Shadow of War'
+slug: middle-earth-shadow-of-war
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: RPG
+- name: Strategy
+aliases: []
+banner_url: /games/banner/middle-earth-shadow-of-war.jpg
+icon_url: /games/icon/middle-earth-shadow-of-war.png
+is_public: true
+updated: '2019-01-23T08:30:23.021531Z'
+steamid: 356190
+gogslug: ''
+humblestoreid: ''

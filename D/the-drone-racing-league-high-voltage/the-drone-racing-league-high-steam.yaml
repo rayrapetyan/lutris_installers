@@ -1,0 +1,24 @@
+id: 6543
+game_id: 13392
+game_slug: the-drone-racing-league-high-voltage
+name: 'The Drone Racing League: High Voltage'
+year: null
+user: Berz
+runner: winesteam
+slug: the-drone-racing-league-high-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-04T00:00:19.529900Z'
+updated_at: '2017-12-17T14:19:05.705984Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 641780
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 641780

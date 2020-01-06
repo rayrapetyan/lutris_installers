@@ -1,0 +1,15 @@
+name: 'Sid Meier''s Civilization: Beyond Earth'
+slug: sid-meiers-civilization-beyond-earth
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/sid-meiers-civilization-beyond-earth.jpg
+icon_url: /games/icon/sid-meiers-civilization-beyond-earth.png
+is_public: true
+updated: '2019-01-23T08:31:13.083455Z'
+steamid: 65980
+gogslug: ''
+humblestoreid: ''

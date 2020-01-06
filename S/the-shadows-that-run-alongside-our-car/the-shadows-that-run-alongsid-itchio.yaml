@@ -1,0 +1,28 @@
+id: 4935
+game_id: 12157
+game_slug: the-shadows-that-run-alongside-our-car
+name: The Shadows That Run Alongside Our Car
+year: 2016
+user: FakeShemp
+runner: linux
+slug: the-shadows-that-run-alongsid-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-07-08T20:36:53.451402Z'
+updated_at: '2017-07-09T20:11:28.495866Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Shadows.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

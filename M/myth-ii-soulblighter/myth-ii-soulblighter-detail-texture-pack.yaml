@@ -1,0 +1,37 @@
+id: 532
+game_id: 2058
+game_slug: myth-ii-soulblighter
+name: 'Myth II: Soulblighter'
+year: 1998
+user: Xodetaetl
+runner: wine
+slug: myth-ii-soulblighter-detail-texture-pack
+version: Detail Texture Pack
+description: Jon God's Detail Texture Megapack adds gorgeous high resolution landscape
+  textures to a stunning number of different maps - over 450 in total! The list includes
+  all of the Bungie maps, all of the big 3rd party total conversions like Chimera,
+  TSG, Jinn, Green Berets, as well as hundreds of individual maps. An absolute must-have
+  for anyone who likes detail textures.
+notes: ''
+created_at: '2014-08-10T15:38:02.332000Z'
+updated_at: '2018-05-19T03:41:49.056470Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: myth-ii-soulblighter-cd
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Myth II/plugins
+      file: file1
+  files:
+  - file1: http://ovocean.com/partage/lutris/myth2/Magma_-_Detail_Texture_Megapack.zip
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Myth II/Myth II.exe
+    arch: win32

@@ -1,0 +1,56 @@
+id: 5851
+game_id: 606
+game_slug: dragon-age-origins-ultimate-edition
+name: 'Dragon Age: Origins - Ultimate Edition'
+year: null
+user: libgradev
+runner: wine
+slug: dragon-age-origins-ultimate-e-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2017-09-26T09:17:58.429000Z'
+updated_at: '2017-10-19T05:06:23.544320Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 47810
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /VERYSILENT /SP- /NOCANCEL /SUPPRESSMSGBOXES '/DIR=C:/game'
+      description: Installing Game...
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: windowmanagermanaged=n
+      silent: true
+      name: winetricks
+  - task:
+      executable: $GAMEDIR/drive_c/game/redist/PhysX_9.09.0408_SystemSoftware.exe
+      prefix: $GAMEDIR
+      description: Installing PhysX...
+      blocking: true
+      args: /quiet /qn
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/game/DAOriginsLauncher.exe
+    arch: win32
+  system:
+    disable_monitoring: true
+    pulse_latency: true
+  wine:
+    StrictDrawOrdering: enabled
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.

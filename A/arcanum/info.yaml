@@ -1,0 +1,16 @@
+name: Arcanum
+slug: arcanum
+year: 2001
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/arcanum.jpg
+icon_url: /games/icon/arcanum.png
+is_public: true
+updated: '2019-03-30T01:09:42.575151Z'
+steamid: 500810
+gogslug: arcanum_of_steamworks_and_magick_obscura
+humblestoreid: ''

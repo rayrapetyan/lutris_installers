@@ -1,0 +1,24 @@
+id: 4915
+game_id: 3677
+game_slug: lucky-rabbit-reflex
+name: Lucky Rabbit Reflex!
+year: 2011
+user: FakeShemp
+runner: steam
+slug: lucky-rabbit-reflex-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-07-08T14:03:26.153863Z'
+updated_at: '2017-07-09T20:13:21.808152Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 404030
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 404030

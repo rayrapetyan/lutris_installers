@@ -1,0 +1,31 @@
+id: 2793
+game_id: 6899
+game_slug: random-access-murder
+name: Random Access Murder
+year: null
+user: Lulu
+runner: linux
+slug: random-access-murder-humble-bundle
+version: Humble Bundle
+description: ''
+notes: ''
+created_at: '2016-09-28T19:17:52.359067Z'
+updated_at: '2016-09-30T20:40:43.169660Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 438790
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: RAM.x86
+  installer:
+  - extract:
+      file: ram-game
+  - chmodx: $GAMEDIR/RAM.x86
+  - chmodx: $GAMEDIR/RAM.x86_64
+  exe64: RAM.x86_64
+  files:
+  - ram-game: N/A:Please select the .zip install file downloaded from humblebundle.com

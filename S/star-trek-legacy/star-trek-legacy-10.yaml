@@ -1,0 +1,39 @@
+id: 8087
+game_id: 18075
+game_slug: star-trek-legacy
+name: 'Star Trek: Legacy'
+year: 2006
+user: J2Three
+runner: wine
+slug: star-trek-legacy-10
+version: '1.0'
+description: "This installer should create a 32bit prefix and prompt for the install\
+  \ disc.\r\n\r\nThe game should run without any modification on almost any wine version\
+  \ 1.4 and upwards.\r\n\r\nTO DO:\r\nTweak wine settings, consider using 64bit prefix\r\
+  \nInclude an installer for Ultimate Universe Mod."
+notes: ''
+created_at: '2018-05-07T08:09:22.830132Z'
+updated_at: '2018-05-09T06:00:22.834245Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: Setup.exe
+  - task:
+      executable: $DISC/Setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - installer: N/A:Select the game's setup file
+  game:
+    prefix: $GAMEDIR/prefix
+    exe: drive_c/Program Files/Bethesda Softworks/Star Trek Legacy/Legacy.exe
+    working_dir: $GAMEDIR/prefix
+    arch: win32

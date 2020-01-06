@@ -1,0 +1,40 @@
+id: 17695
+game_id: 1018
+game_slug: sword-of-the-stars-complete-collection
+name: Sword of the Stars Complete Collection
+year: null
+user: rmolina
+runner: wine
+slug: sword-of-the-stars-complete-c-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2020-01-01T18:58:09.741550Z'
+updated_at: '2020-01-01T18:58:09.741577Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: 42890
+gogid: 1450279740
+gogslug: sword_of_the_stars_complete_collection
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Deus Ex - Invisible War/System/dx2.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: goginstaller
+      prefix: $GAMEDIR
+      args: /silent /nogui
+      name: wineexec
+  wine:
+    version: tkg-4.0-x86_64
+  files:
+  - goginstaller: N/A:Select GOG's setup file

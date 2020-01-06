@@ -1,0 +1,43 @@
+id: 15671
+game_id: 3083
+game_slug: adams-venture-episode-3-revelations
+name: 'Adam''s Venture Episode 3: Revelations'
+year: null
+user: appoloin
+runner: wine
+slug: adams-venture-episode-3-revel-dvd
+version: DVD
+description: null
+notes: ''
+created_at: '2019-09-18T23:24:53.122678Z'
+updated_at: '2019-09-18T23:24:53.122708Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 214310
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      install_mono: false
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: dotnet35
+      arch: win32
+      name: winetricks
+  - task:
+      executable: $setup
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - setup: N/A:Select the Setup.exe
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/Adam's Venture 3/Binaries/Win32/VentureGame.exe
+    arch: win32

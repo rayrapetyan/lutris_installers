@@ -1,0 +1,39 @@
+id: 17271
+game_id: 30693
+game_slug: skylords-reborn
+name: Skylords Reborn
+year: null
+user: mirazi_heket
+runner: wine
+slug: skylords-reborn-standalone
+version: Standalone
+description: null
+notes: ''
+created_at: '2019-12-11T15:19:23.411543Z'
+updated_at: '2019-12-11T15:19:23.411572Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - extract:
+      dst: $GAMEDIR/temp
+      file: installer
+  - execute:
+      file: $GAMEDIR/temp/SkylordsRebornUpdater.exe
+  files:
+  - installer: https://download1400.mediafire.com/59y47bd36g3g/xw52oho41k3s4op/SkylordsRebornUpdater.zip
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/
+    arch: win64

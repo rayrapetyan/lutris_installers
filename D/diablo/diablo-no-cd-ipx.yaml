@@ -1,0 +1,41 @@
+id: 3679
+game_id: 5826
+game_slug: diablo
+name: Diablo
+year: 1996
+user: gugutz
+runner: wine
+slug: diablo-no-cd-ipx
+version: No CD / IPX
+description: "Includes Diablo No-Cd Loader\r\nIncludes IPX Wrapper, to allow playing\
+  \ over LAN."
+notes: "- Uses No-Cd Loader, but you still have to provide diabdat.mpq from the original\
+  \ CD.\r\n- Use default options during the Windows setup. \r\n- Close the game with\
+  \ Alt+F4 if it launches automatically at the end."
+created_at: '2017-05-14T13:39:45.383000Z'
+updated_at: '2019-09-25T09:04:41.065622Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: null
+gogid: 1412601690
+gogslug: diablo
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: setup.exe
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Diablo/diablo.exe
+    arch: win32

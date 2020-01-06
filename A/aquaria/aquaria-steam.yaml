@@ -1,0 +1,24 @@
+id: 556
+game_id: 48
+game_slug: aquaria
+name: Aquaria
+year: 2007
+user: Xodetaetl
+runner: steam
+slug: aquaria-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-08-20T11:53:10.709000Z'
+updated_at: '2014-08-20T11:53:16.262000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 24420
+gogid: 1430398832
+gogslug: aquaria
+humblestoreid: ''
+script:
+  game:
+    appid: 24420

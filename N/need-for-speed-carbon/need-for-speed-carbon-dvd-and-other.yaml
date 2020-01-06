@@ -1,0 +1,49 @@
+id: 17461
+game_id: 13671
+game_slug: need-for-speed-carbon
+name: 'Need for Speed: Carbon'
+year: 2006
+user: hanro50
+runner: wine
+slug: need-for-speed-carbon-dvd-and-other
+version: DVD and other
+description: Based of the NFS most wanted installer.
+notes: Highly recommend a no cd crack or something
+created_at: '2019-12-20T17:17:23.492000Z'
+updated_at: '2019-12-20T18:03:26.770404Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: drive_c/Program Files/Electronic Arts/Need for Speed Carbon/NFSC.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine Prefix...
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing dependencies...
+      app: mfc42 d3dcompiler_43 d3dx9
+      silent: 'true'
+      name: winetricks
+  - task:
+      executable: file
+      prefix: $GAMEDIR
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    arch: win32
+  system:
+    xboxdrv: --deadzone=6000 --trigger-as-button=true
+  wine:
+    overrides:
+      dinput8: n,b
+  files:
+  - file: N/A:Select the game's setup file

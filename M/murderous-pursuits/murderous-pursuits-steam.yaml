@@ -1,0 +1,24 @@
+id: 8356
+game_id: 18417
+game_slug: murderous-pursuits
+name: Murderous Pursuits
+year: 2018
+user: TuiorGames
+runner: steam
+slug: murderous-pursuits-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-21T12:38:36.060388Z'
+updated_at: '2018-05-21T14:25:11.301813Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 638070
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 638070

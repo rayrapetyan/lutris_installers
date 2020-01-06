@@ -1,0 +1,24 @@
+id: 732
+game_id: 1732
+game_slug: hate-plus
+name: Hate Plus
+year: null
+user: Xodetaetl
+runner: steam
+slug: hate-plus-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T13:35:21.099000Z'
+updated_at: '2014-09-15T16:13:31.618000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 239700
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 239700

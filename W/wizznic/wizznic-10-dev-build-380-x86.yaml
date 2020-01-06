@@ -1,0 +1,30 @@
+id: 3378
+game_id: 5639
+game_slug: wizznic
+name: Wizznic!
+year: 2010
+user: scottviger
+runner: linux
+slug: wizznic-10-dev-build-380-x86
+version: 1.0-dev (Build 380) x86
+description: ''
+notes: ''
+created_at: '2017-03-19T14:22:49.651000Z'
+updated_at: '2017-03-22T15:17:54.127301Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      nomerge: true
+      file: $archive
+  files:
+  - archive: http://contigrator.wizznic.org/jobs/Wizznic/builds/0380/output/Wizznic_lin_build_380.tar.bz2
+  game:
+    exe: $GAMEDIR/Wizznic_lin_build_380/wizznic_linux_x86_precompiled

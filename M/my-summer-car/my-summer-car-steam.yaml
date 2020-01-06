@@ -1,0 +1,24 @@
+id: 13645
+game_id: 8319
+game_slug: my-summer-car
+name: My Summer Car
+year: 2016
+user: dowvd1000
+runner: winesteam
+slug: my-summer-car-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-05-20T18:05:26.584799Z'
+updated_at: '2019-06-13T07:41:43.827770Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 516750
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 516750

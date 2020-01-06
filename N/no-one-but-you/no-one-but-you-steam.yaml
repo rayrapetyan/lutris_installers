@@ -1,0 +1,24 @@
+id: 6512
+game_id: 15001
+game_slug: no-one-but-you
+name: No One But You
+year: null
+user: FakeShemp
+runner: steam
+slug: no-one-but-you-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-01T17:41:10.354459Z'
+updated_at: '2017-12-01T17:41:16.949559Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 367020
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 367020

@@ -1,0 +1,16 @@
+name: 'Fallout: New Vegas RU'
+slug: fallout-new-vegas-ru
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: RPG
+aliases: []
+banner_url: /games/banner/fallout-new-vegas-ru.jpg
+icon_url: /games/icon/fallout-new-vegas-ru.png
+is_public: false
+updated: '2019-01-23T08:29:28.205904Z'
+steamid: 22490
+gogslug: ''
+humblestoreid: ''

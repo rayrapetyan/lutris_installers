@@ -1,0 +1,52 @@
+id: 9335
+game_id: 3167
+game_slug: beamngdrive
+name: BeamNG.drive
+year: 2015
+user: npXXX
+runner: winesteam
+slug: beamngdrive-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2018-07-23T14:17:05.271000Z'
+updated_at: '2019-02-14T05:05:41.935790Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 284160
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - extract:
+      dst: $CACHE/dxsetup
+      file: dx2010
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR/prefix
+      args: /silent
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: corefonts vcrun2015 win7
+      arch: win64
+      name: winetricks
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  files:
+  - dx2010: https://lutris.net/files/tools/directx-2010.tar.gz
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 284160

@@ -1,0 +1,19 @@
+name: 'The Witcher 3: Wild Hunt'
+slug: the-witcher-3-wild-hunt
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: RPG
+aliases:
+- slug: the-witcher-3
+  name: The Witcher 3
+- slug: witcher-3
+  name: Witcher 3
+banner_url: /games/banner/the-witcher-3-wild-hunt.jpg
+icon_url: /games/icon/the-witcher-3-wild-hunt.png
+is_public: true
+updated: '2019-04-27T20:09:09.968635Z'
+steamid: 292030
+gogslug: the_witcher_3_wild_hunt
+humblestoreid: the-witcher-3-wild-hunt-game-of-the-year-edition

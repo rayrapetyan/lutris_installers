@@ -1,0 +1,24 @@
+id: 1487
+game_id: 4208
+game_slug: heldric-the-legend-of-the-shoemaker
+name: Heldric - The legend of the shoemaker
+year: null
+user: Xodetaetl
+runner: steam
+slug: heldric-the-legend-of-the-sho-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-04-25T17:47:14.188000Z'
+updated_at: '2015-04-25T17:55:46.961000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 293420
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 293420

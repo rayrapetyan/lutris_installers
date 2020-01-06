@@ -1,0 +1,69 @@
+id: 6805
+game_id: 8959
+game_slug: darksiders-warmastered-edition
+name: Darksiders Warmastered Edition
+year: null
+user: soredake
+runner: winesteam
+slug: darksiders-warmastered-editio-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: '* In case you experience any issue related to Windows Media Foundation, install
+  <a href="https://github.com/z0z0z/mf-installcab">this fix</a>.'
+created_at: '2017-12-23T22:05:47.538000Z'
+updated_at: '2019-12-29T08:33:25.869331Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 462780
+gogid: 1430901154
+gogslug: darksiders_warmastered_edition
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.20-x86_64
+    esync: true
+    dxvk: true
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: mf
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      component: mediafoundation
+      cabfile: $HOME/.cache/winetricks/win7sp1/windows6.1-KB976932-X86.exe
+      name: install_cab_component
+  - task:
+      prefix: $GAMEDIR/prefix
+      component: mf_
+      cabfile: $HOME/.cache/winetricks/win7sp1/windows6.1-KB976932-X86.exe
+      name: install_cab_component
+  - task:
+      prefix: $GAMEDIR/prefix
+      component: mfreadwrite
+      cabfile: $HOME/.cache/winetricks/win7sp1/windows6.1-KB976932-X86.exe
+      name: install_cab_component
+  - task:
+      prefix: $GAMEDIR/prefix
+      component: wmadmod
+      cabfile: $HOME/.cache/winetricks/win7sp1/windows6.1-KB976932-X86.exe
+      name: install_cab_component
+  - task:
+      prefix: $GAMEDIR/prefix
+      component: wmvdecod
+      cabfile: $HOME/.cache/winetricks/win7sp1/windows6.1-KB976932-X86.exe
+      name: install_cab_component
+  - move:
+      src: mfplat_dll
+      dst: $GAMEDIR
+  files:
+  - mfplat_dll: https://lutris.net/files/tools/dll/mfplat/x32/mfplat.dll
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 462780
+    arch: win64

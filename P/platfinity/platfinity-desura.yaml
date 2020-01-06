@@ -1,0 +1,33 @@
+id: 7014
+game_id: 6818
+game_slug: platfinity
+name: Platfinity
+year: null
+user: FakeShemp
+runner: wine
+slug: platfinity-desura
+version: Desura
+description: null
+notes: ''
+created_at: '2018-01-04T22:44:46.559964Z'
+updated_at: '2018-05-19T03:41:53.346353Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 365440
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Desura installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Platfinity/Platfinity.exe
+    arch: win32

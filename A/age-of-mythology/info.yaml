@@ -1,0 +1,15 @@
+name: Age of Mythology
+slug: age-of-mythology
+year: 2002
+platforms:
+- name: Windows
+genres:
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/age-of-mythology.jpg
+icon_url: /games/icon/age-of-mythology.png
+is_public: true
+updated: '2019-01-23T08:28:15.630096Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

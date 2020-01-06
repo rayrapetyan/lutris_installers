@@ -1,0 +1,43 @@
+id: 11361
+game_id: 4181
+game_slug: world-of-padman
+name: World of Padman
+year: 2007
+user: hikaricore
+runner: linux
+slug: world-of-padman-16-64-bit
+version: 1.6 (64 bit)
+description: World of Padman installer for 64 bit Linux. This downloads both the 1.5
+  unified release (2010-12-28) and the 1.6 update patch (2011-12-17).
+notes: ''
+created_at: '2018-12-26T20:12:59.640000Z'
+updated_at: '2018-12-29T23:19:28.224840Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: file1
+  - extract:
+      dst: $GAMEDIR
+      file: file2
+  - chmodx: $GAMEDIR/wop.x86_64
+  files:
+  - file1:
+      referer: https://sourceforge.net/projects/worldofpadman/files/wop-1.5-unified.zip/download
+      filename: wop-1.5-unified.zip
+      url: https://managedway.dl.sourceforge.net/project/worldofpadman/wop-1.5-unified.zip
+  - file2:
+      referer: https://sourceforge.net/projects/worldofpadman/files/wop-1.5.x-to-1.6-patch-unified.zip/download
+      filename: wop-1.5.x-to-1.6-patch-unified.zip
+      url: https://cfhcable.dl.sourceforge.net/project/worldofpadman/wop-1.5.x-to-1.6-patch-unified.zip
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/wop.x86_64

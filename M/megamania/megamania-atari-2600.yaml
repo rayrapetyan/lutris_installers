@@ -1,0 +1,29 @@
+id: 17442
+game_id: 30817
+game_slug: megamania
+name: Megamania
+year: 1983
+user: leandrovitals
+runner: stella
+slug: megamania-atari-2600
+version: Atari 2600
+description: null
+notes: ''
+created_at: '2019-12-20T02:14:02.314000Z'
+updated_at: '2019-12-22T11:21:08.287435Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: rom
+  installer:
+  - merge:
+      src: rom
+      dst: $GAMEDIR
+  files:
+  - rom: N/A:Select the game''s ROM file

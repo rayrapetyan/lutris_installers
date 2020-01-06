@@ -1,0 +1,17 @@
+name: 'Blood Omen 2: Legacy of Kain'
+slug: blood-omen-2-legacy-of-kain
+year: 2002
+platforms:
+- name: Sony PlayStation 2
+- name: Windows
+genres:
+- name: Action
+- name: Horror
+aliases: []
+banner_url: /games/banner/blood-omen-2-legacy-of-kain.jpg
+icon_url: /games/icon/blood-omen-2-legacy-of-kain.png
+is_public: true
+updated: '2019-01-23T08:28:39.134028Z'
+steamid: 242960
+gogslug: ''
+humblestoreid: ''

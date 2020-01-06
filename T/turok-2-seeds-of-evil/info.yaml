@@ -1,0 +1,18 @@
+name: 'Turok 2: Seeds of Evil'
+slug: turok-2-seeds-of-evil
+year: 1998
+platforms:
+- name: Linux
+- name: Nintendo 64
+genres:
+- name: Action
+- name: Adventure
+- name: FPS
+aliases: []
+banner_url: /games/banner/turok-2-seeds-of-evil.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:57.200586Z'
+steamid: 405830
+gogslug: turok_2_seeds_of_evil
+humblestoreid: ''

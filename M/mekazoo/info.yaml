@@ -1,0 +1,17 @@
+name: Mekazoo
+slug: mekazoo
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: Platform
+aliases: []
+banner_url: /games/banner/mekazoo.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:21.344606Z'
+steamid: 390330
+gogslug: ''
+humblestoreid: ''

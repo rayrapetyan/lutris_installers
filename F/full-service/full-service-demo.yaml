@@ -1,0 +1,31 @@
+id: 9468
+game_id: 20513
+game_slug: full-service
+name: Full Service
+year: 2018
+user: kimchitea
+runner: linux
+slug: full-service-demo
+version: Demo
+description: null
+notes: ''
+created_at: '2018-07-29T18:46:16.409000Z'
+updated_at: '2018-08-16T06:20:04.763908Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: FullService.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/FullService.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/FullService
+  - chmodx: $GAMEDIR/lib/linux-x86_64/FullService
+  files:
+  - file1: N/A:Please select the demo archive

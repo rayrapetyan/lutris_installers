@@ -1,0 +1,39 @@
+id: 8103
+game_id: 6677
+game_slug: street-fighter-v
+name: 'Street Fighter V: Arcade Edition'
+year: 2016
+user: cxf
+runner: winesteam
+slug: street-fighter-v-arcade-editi-dxvk
+version: DXVK
+description: null
+notes: ''
+created_at: '2018-05-08T05:45:56.854000Z'
+updated_at: '2019-02-16T04:45:20.180598Z'
+draft: false
+published: true
+published_by: 19464
+rating: '1'
+steamid: 310950
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 310950
+    arch: win64

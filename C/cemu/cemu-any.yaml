@@ -1,0 +1,76 @@
+id: 17222
+game_id: 16449
+game_slug: cemu
+name: Cemu
+year: 2015
+user: IceAmaura
+runner: wine
+slug: cemu-any
+version: Any
+description: Allows user to install their own version of Cemu and Cemuhook (for Patreon,
+  etc.)
+notes: ''
+created_at: '2019-12-07T19:48:13.609000Z'
+updated_at: '2019-12-31T19:14:21.076986Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2017 win7
+      name: winetricks
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files (x86)/cemu
+      file: cemu
+  - extract:
+      dst: $CACHE/hook
+      file: hook
+  - merge:
+      src: $CACHE/hook
+      dst: $GAMEDIR/drive_c/Program Files (x86)/cemu
+  - write_file:
+      content: bleh
+      file: $GAMEDIR/drive_c/Program Files (x86)/cemu/controllerProfiles/Xbox_Controller.txt
+  - merge:
+      src: controller
+      dst: $GAMEDIR/drive_c/Program Files (x86)/cemu/controllerProfiles
+  - write_file:
+      content: bleh
+      file: $GAMEDIR/drive_c/Program Files (x86)/cemu/cemuhook.ini
+  - merge:
+      src: config
+      dst: $GAMEDIR/drive_c/Program Files (x86)/cemu/cemuhook.ini
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/cemu/Cemu.exe
+    arch: win64
+  system:
+    disable_compositor: true
+    env:
+      __GL_THREADED_OPTIMIZATIONS: 1
+      mesa_glthread: 'true'
+      R600_DEBUG: nohyperz
+      vblank_mode: 0
+  wine:
+    version: lutris-4.21
+    esync: true
+    overrides:
+      dbghelp: native,builtin
+      mscoree: disabled
+      mshtml: disabled
+  files:
+  - cemu: 'N/A:Select downloaded Cemu zip file:'
+  - hook: 'N/A:Select downloaded Cemuhook zip file:'
+  - config: https://raw.githubusercontent.com/dnmodder/cemu_lutris_files/master/cemuhook.ini
+  - controller: https://raw.githubusercontent.com/AccountOneOff/lutris_files/master/Xbox_Controller.txt

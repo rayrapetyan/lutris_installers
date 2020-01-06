@@ -1,0 +1,17 @@
+name: 'Dissidia: Final Fantasy Steam Version'
+slug: dissidia-final-fantasy-steam-version
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Fantasy
+- name: Fighting
+aliases: []
+banner_url: /games/banner/dissidia-final-fantasy-steam-version.jpg
+icon_url: null
+is_public: true
+updated: '2019-07-23T03:39:38.046771Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

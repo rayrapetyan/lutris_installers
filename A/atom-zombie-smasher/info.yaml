@@ -1,0 +1,15 @@
+name: Atom Zombie Smasher
+slug: atom-zombie-smasher
+year: 2011
+platforms:
+- name: Linux
+genres:
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/atom-zombie-smasher.jpg
+icon_url: /games/icon/atom-zombie-smasher.png
+is_public: true
+updated: '2019-01-23T08:28:28.476724Z'
+steamid: 55040
+gogslug: ''
+humblestoreid: ''

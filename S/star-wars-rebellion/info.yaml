@@ -1,0 +1,17 @@
+name: 'Star Wars: Rebellion'
+slug: star-wars-rebellion
+year: 1998
+platforms:
+- name: Windows
+genres:
+- name: 4X
+- name: Real-time strategy
+- name: Space simulation
+aliases: []
+banner_url: /games/banner/star-wars-rebellion.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:25.679979Z'
+steamid: null
+gogslug: star_wars_rebellion
+humblestoreid: ''

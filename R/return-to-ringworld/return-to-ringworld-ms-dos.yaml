@@ -1,0 +1,43 @@
+id: 15571
+game_id: 29308
+game_slug: return-to-ringworld
+name: Return to Ringworld
+year: 1994
+user: appoloin
+runner: scummvm
+slug: return-to-ringworld-ms-dos
+version: MS-DOS
+description: null
+notes: ''
+created_at: '2019-09-15T15:32:10.357000Z'
+updated_at: '2019-12-10T02:18:19.803376Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - write_file:
+      content: '#!/bin/bash
+
+        src=$1
+
+        dst=$2
+
+        src_path=$(echo "$1" | sed -r "s/(.+)\/.+/\1/")
+
+        cp -avr "$src_path/."  "$dst"'
+      file: $CACHE/bulkcopy.sh
+  - chmodx: $CACHE/bulkcopy.sh
+  - execute:
+      args: $game $GAMEDIR
+      file: $CACHE/bulkcopy.sh
+  files:
+  - game: N/A:Select the file R2RW.EXE
+  game:
+    game_id: tsage
+    path: $GAMEDIR

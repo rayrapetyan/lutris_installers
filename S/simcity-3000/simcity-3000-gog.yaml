@@ -1,0 +1,40 @@
+id: 12111
+game_id: 20249
+game_slug: simcity-3000
+name: SimCity 3000
+year: 2000
+user: skyace65
+runner: wine
+slug: simcity-3000-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-02-21T16:35:43.946000Z'
+updated_at: '2019-02-28T21:07:31.749003Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: 2086050016
+gogslug: simcity_3000
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/SimCity 3000 Unlimited/Apps/SC3U.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating WINE prefix
+      name: create_prefix
+  - task:
+      executable: installer
+      args: /VERYSILENT /SUPPRESSMSGBOXES
+      description: Running Setup, please wait...
+      name: wineexec
+  wine:
+    version: tkg-protonified-4.1-x86_64
+  files:
+  - installer: N/A:Select the EXE downloaded from GOG

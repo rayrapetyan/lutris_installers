@@ -1,0 +1,16 @@
+name: 'Batman: Arkham Origins'
+slug: batmantm-arkham-origins
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/batmantm-arkham-origins.jpg
+icon_url: /games/icon/batmantm-arkham-origins.png
+is_public: true
+updated: '2019-01-23T08:28:32.137104Z'
+steamid: 209000
+gogslug: ''
+humblestoreid: ''

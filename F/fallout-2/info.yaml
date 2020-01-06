@@ -1,0 +1,15 @@
+name: Fallout 2
+slug: fallout-2
+year: 1998
+platforms:
+- name: Windows
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/fallout-2.jpg
+icon_url: /games/icon/fallout-2.png
+is_public: true
+updated: '2019-01-23T08:29:28.034676Z'
+steamid: 38410
+gogslug: fallout_2
+humblestoreid: ''

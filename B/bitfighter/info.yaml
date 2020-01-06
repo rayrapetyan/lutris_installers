@@ -1,0 +1,16 @@
+name: Bitfighter
+slug: bitfighter
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/bitfighter.jpg
+icon_url: /games/icon/bitfighter.png
+is_public: true
+updated: '2019-01-23T08:28:36.637984Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

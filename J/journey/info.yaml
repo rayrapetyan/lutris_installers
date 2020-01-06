@@ -1,0 +1,20 @@
+name: Journey
+slug: journey
+year: 2012
+platforms:
+- name: Sony Playstation 3
+- name: Windows
+genres:
+- name: Adventure
+- name: Casual
+- name: Exploration
+- name: Fantasy
+- name: Indie
+aliases: []
+banner_url: /games/banner/journey.jpg
+icon_url: /games/icon/journey.png
+is_public: true
+updated: '2019-06-25T05:56:04.131634Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

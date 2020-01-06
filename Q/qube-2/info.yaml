@@ -1,0 +1,18 @@
+name: Q.U.B.E. 2
+slug: qube-2
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Indie
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/qube-2.jpg
+icon_url: /games/icon/qube-2.png
+is_public: true
+updated: '2019-10-31T22:26:26.487768Z'
+steamid: 359100
+gogslug: qube_2
+humblestoreid: ''

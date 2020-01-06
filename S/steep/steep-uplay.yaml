@@ -1,0 +1,63 @@
+id: 11407
+game_id: 12091
+game_slug: steep
+name: Steep
+year: 2016
+user: djazz
+runner: wine
+slug: steep-uplay
+version: Uplay
+description: null
+notes: "Please note: The game runs in offline mode only! Meaning you can't do any\
+  \ challenges or progression.\r\nBlack screen unless run windowed.\r\nThis installer\
+  \ enables DXVK (with hud) and esync, wine version tkg-3.21."
+created_at: '2019-01-01T21:23:38.804000Z'
+updated_at: '2019-03-23T14:52:53.154871Z'
+draft: false
+published: true
+published_by: 51687
+rating: '1'
+steamid: 460920
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: uplay
+      prefix: $GAMEDIR
+      args: /S
+      description: Installing Uplay
+      name: wineexec
+  - write_config:
+      section: Display Settings
+      key: WindowMode
+      value: 0
+      file: $GAMEDIR/drive_c/users/$USER/My Documents/My Games/STEEP/Default/STEEP.ini
+  - write_config:
+      section: Display Settings
+      key: WindowMaximised
+      value: 1
+      file: $GAMEDIR/drive_c/users/$USER/My Documents/My Games/STEEP/Default/STEEP.ini
+  game:
+    prefix: $GAMEDIR
+    args: uplay://launch/3279
+    exe: drive_c/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/Uplay.exe
+    arch: win64
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_SKIP_CLEANUP: '0'
+      DXVK_HUD: devinfo,fps,frametimes
+      __GL_SHADER_DISK_CACHE: '1'
+  wine:
+    version: tkg-3.21-x86_64
+    ShowCrashDialog: true
+    esync: true
+    dxvk: true
+  files:
+  - uplay: https://ubistatic3-a.akamaihd.net/orbit/launcher_installer/UplayInstaller.exe

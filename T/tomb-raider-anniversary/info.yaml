@@ -1,0 +1,17 @@
+name: 'Tomb Raider: Anniversary'
+slug: tomb-raider-anniversary
+year: 2007
+platforms:
+- name: Sony PSP
+- name: Windows
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/tomb-raider-anniversary.jpg
+icon_url: /games/icon/tomb-raider-anniversary.png
+is_public: true
+updated: '2019-01-23T08:31:52.569697Z'
+steamid: 8000
+gogslug: ''
+humblestoreid: ''

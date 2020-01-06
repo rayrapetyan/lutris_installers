@@ -1,0 +1,33 @@
+id: 9502
+game_id: 20553
+game_slug: rose-guns-days
+name: Rose Guns Days
+year: 2012
+user: kimchitea
+runner: linux
+slug: rose-guns-days-english-patch-32-bit
+version: English patch (32-bit)
+description: null
+notes: Patch for an existing install of Rose Guns Days - Last Season.
+created_at: '2018-07-31T16:16:47.381000Z'
+updated_at: '2018-07-31T18:56:21.560469Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: '[WH] RGD English/onscripter-en'
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $patch
+  - extract:
+      dst: $GAMEDIR/[WH] RGD English
+      file: $ons
+  files:
+  - patch: http://www.witch-hunt.com/downloads/wh_rgd41_english.zip
+  - ons: http://unclemion.com/onscripter/pub/onscr/onscripter-en-linux-i386-20110628.tar.bz2

@@ -1,0 +1,16 @@
+name: Yoshi's Story
+slug: yoshis-story
+year: 1998
+platforms:
+- name: Nintendo 64
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/yoshis-story.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:13.251163Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

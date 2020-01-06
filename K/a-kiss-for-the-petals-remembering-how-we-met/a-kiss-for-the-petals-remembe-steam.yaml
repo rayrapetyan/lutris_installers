@@ -1,0 +1,24 @@
+id: 6854
+game_id: 6748
+game_slug: a-kiss-for-the-petals-remembering-how-we-met
+name: A Kiss for the Petals - Remembering How We Met
+year: 2015
+user: FakeShemp
+runner: steam
+slug: a-kiss-for-the-petals-remembe-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-24T23:05:41.100417Z'
+updated_at: '2017-12-24T23:05:48.693730Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 397270
+gogid: 1330723846
+gogslug: a_kiss_for_the_petals_remembering_how_we_met
+humblestoreid: ''
+script:
+  game:
+    appid: 397270

@@ -1,0 +1,26 @@
+id: 2620
+game_id: 2769
+game_slug: detective-grimoire
+name: Detective Grimoire
+year: 2014
+user: gschaffran
+runner: steam
+slug: detective-grimoire-steam
+version: Steam
+description: null
+notes: "If sound doesn't work, open run.sh in a text editor and change \"export PULSE_LATENCY_MSEC=30\"\
+  \ to \"export PULSE_LATENCY_MSEC=60\".\r\nIf it still doesn't work, comment that\
+  \ line out (put a # in front of it)."
+created_at: '2016-08-29T18:44:10.898000Z'
+updated_at: '2018-07-29T04:37:53.809858Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 272600
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 272600

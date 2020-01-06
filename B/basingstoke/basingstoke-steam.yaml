@@ -1,0 +1,24 @@
+id: 8092
+game_id: 18135
+game_slug: basingstoke
+name: Basingstoke
+year: 2018
+user: TuiorGames
+runner: steam
+slug: basingstoke-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-07T11:53:28.383581Z'
+updated_at: '2018-05-09T05:59:34.333226Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 336940
+gogid: 1146716716
+gogslug: basingstoke
+humblestoreid: ''
+script:
+  game:
+    appid: 336940

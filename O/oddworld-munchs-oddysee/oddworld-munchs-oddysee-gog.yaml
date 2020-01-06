@@ -1,0 +1,40 @@
+id: 16305
+game_id: 1259
+game_slug: oddworld-munchs-oddysee
+name: 'Oddworld: Munch''s Oddysee'
+year: 2010
+user: cxf
+runner: wine
+slug: oddworld-munchs-oddysee-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-10-20T00:25:11.532786Z'
+updated_at: '2019-10-20T00:25:17.823436Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 15740
+gogid: 1254027184
+gogslug: oddworld_munchs_oddysee
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2013 win7
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES /NOCANCEL
+      name: wineexec
+  files:
+  - setup: N/A:Select GOG setup exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Oddworld - Munch's Oddysee/bin/Launcher.exe

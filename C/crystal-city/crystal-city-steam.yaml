@@ -1,0 +1,24 @@
+id: 7182
+game_id: 14317
+game_slug: crystal-city
+name: Crystal City
+year: 2017
+user: t-rex91
+runner: steam
+slug: crystal-city-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-01-28T15:28:53.596370Z'
+updated_at: '2018-01-29T00:12:21.619200Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 473740
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 473740

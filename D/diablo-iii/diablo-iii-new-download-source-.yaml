@@ -1,0 +1,107 @@
+id: 14901
+game_id: 1816
+game_slug: diablo-iii
+name: Diablo III
+year: 2012
+user: Bloodlvst
+runner: wine
+slug: diablo-iii-new-download-source-
+version: New Download Source Test
+description: null
+notes: ''
+created_at: '2019-08-07T00:36:03.097231Z'
+updated_at: '2019-08-07T00:36:03.097256Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 64bit Wine prefix.
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Arial font
+      app: arial
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting fontsmooth=rbg
+      app: fontsmooth-rgb
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows 10 mode for Wine
+      arch: win64
+      key: Version
+      value: win10
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  - write_json:
+      description: Disabling Sound/Hardware Acceleration/Streaming in Blizzard App
+      data:
+        Client:
+          HardwareAcceleration: 'false'
+          GameLaunchWindowBehavior: '2'
+          Sound:
+            Enabled: 'false'
+          Streaming:
+            StreamingEnabled: 'false'
+      file: $GAMEDIR/drive_c/users/$USER/Application Data/Battle.net/Battle.net.config
+  - task:
+      executable: setup
+      description: 'Installing Blizzard App
+
+        ------------------------------
+
+        Do not try to log into Battle.net. Lutris will automatically close the login
+        window. After Lutris installer is finished, you can start Blizzard App with
+        "Launch the game", and install / locate your Blizzard game.'
+      exclude_processes: Battle.net.exe Agent.exe "Battle.net Helper.exe"
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - task:
+      prefix: $GAMEDIR
+      description: 'Wine Staging: Enabling DXVA2'
+      arch: win64
+      key: backend
+      value: va
+      path: HKEY_CURRENT_USER\Software\Wine\DXVA2
+      name: set_regedit
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Battle.net/Battle.net Launcher.exe
+    arch: win64
+  system:
+    env:
+      PBA_ENABLE: '0'
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_STATE_CACHE: '1'
+      __PBA_CB_HEAP: '128'
+      mesa_glthread: 'true'
+      DXVK_HUD: '0'
+      __GL_SHADER_DISK_CACHE: '1'
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+      __GL_THREADED_OPTIMIZATIONS: '1'
+      __PBA_GEO_HEAP: '512'
+    exclude_processes: Agent.exe "Battle.net Helper.exe"
+  wine:
+    version: esync-staging-pba-3.16-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - setup:
+      filename: Battle.net-Setup.exe
+      url: http://dist.blizzard.com/downloads/bna-installers/322d5bb9ae0318de3d4cde7641c96425/retail.1/Battle.net-Setup-enUS.exe

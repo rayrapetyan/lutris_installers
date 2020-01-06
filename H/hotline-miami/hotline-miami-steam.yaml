@@ -1,0 +1,24 @@
+id: 182
+game_id: 37
+game_slug: hotline-miami
+name: Hotline Miami
+year: 2012
+user: strider
+runner: steam
+slug: hotline-miami-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2013-12-19T23:56:17.277000Z'
+updated_at: '2017-09-20T14:04:10.749502Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: 219150
+gogid: 1207659118
+gogslug: hotline_miami
+humblestoreid: hotline-miami
+script:
+  game:
+    appid: 219150

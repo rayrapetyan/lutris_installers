@@ -1,0 +1,36 @@
+id: 7595
+game_id: 17470
+game_slug: tsukihime
+name: Tsukihime
+year: 2000
+user: Mar2ck
+runner: linux
+slug: tsukihime-english-mirrormoon
+version: English (MirrorMoon)
+description: null
+notes: The installation location must already have the game extracted in it otherwise
+  the executable has no game to run.
+created_at: '2018-03-18T15:19:16.297000Z'
+updated_at: '2019-03-01T20:28:43.513337Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE/
+      file: onscripter-en-x64
+  - move:
+      src: $CACHE/onscripter-en
+      dst: $GAMEDIR/
+  - chmodx: $GAMEDIR/onscripter-en
+  files:
+  - onscripter-en-x64: https://web.archive.org/web/20180703015134/http://unclemion.com/onscripter/pub/onscr/onscripter-en-linux-x86_64-20110628.tar.bz2
+  game:
+    args: -s ./
+    exe: onscripter-en

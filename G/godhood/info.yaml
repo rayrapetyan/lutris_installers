@@ -1,0 +1,17 @@
+name: Godhood
+slug: godhood
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Fantasy
+- name: Simulation
+- name: Strategy
+aliases: []
+banner_url: /games/banner/godhood.jpg
+icon_url: null
+is_public: true
+updated: '2019-12-04T06:49:46.632409Z'
+steamid: 917150
+gogslug: ''
+humblestoreid: ''

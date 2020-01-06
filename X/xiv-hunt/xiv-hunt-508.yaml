@@ -1,0 +1,65 @@
+id: 14393
+game_id: 28323
+game_slug: xiv-hunt
+name: "XIV-Hunt \u03B2"
+year: 2017
+user: MoonlightSeraph
+runner: wine
+slug: xiv-hunt-508
+version: 5.0.8
+description: XIV-Hunt client (add-on) for Final Fantasy XIV for tracking hunts and
+  FATEs. Also has the ability to macro performance.
+notes: "You MUST install this program into the same prefix as \"FINAL FANTASY XIV\
+  \ - A Realm Reborn\"\r\nThis Program does not function when installed to its own\
+  \ prefix, and must share the same prefix as the game (default \"/home/$USER/Games/final-fantasy-xiv-a-realm-reborn/\"\
+  )"
+created_at: '2019-07-02T23:43:42.889000Z'
+updated_at: '2019-09-09T00:15:25.509290Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/users/$USER/AppData/Local/XIVHunt/XIV-Hunt.exe
+    arch: win64
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Libraries...
+      app: mscoree
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Libraries...
+      app: d3dcompiler_47
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .NET 4.6.2
+      app: dotnet462
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Changing to Windows 7
+      app: win7
+      arch: win64
+      name: winetricks
+  - move:
+      src: /home/$USER/.cache/lutris/installer/xiv-hunt/Setup/XIVHunt.zip?dl=1
+      dst: /home/$USER/.cache/lutris/installer/xiv-hunt/Setup/XIVHunt.zip
+  - extract:
+      description: "Installing XIV-Hunt \u03B2"
+      dst: $GAMEDIR/drive_c/users/$USER/AppData/Local/XIVHunt/
+      file: /home/$USER/.cache/lutris/installer/xiv-hunt/Setup/XIVHunt.zip
+  wine:
+    version: ge-protonified-4.10-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - Setup: https://www.dropbox.com/s/19nbb1ev7tna9p4/XIVHunt.zip?dl=1

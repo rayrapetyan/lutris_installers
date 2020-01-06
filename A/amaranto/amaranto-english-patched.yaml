@@ -1,0 +1,40 @@
+id: 9159
+game_id: 19890
+game_slug: amaranto
+name: Amaranto
+year: 2008
+user: kimchitea
+runner: linux
+slug: amaranto-english-patched
+version: English patched
+description: null
+notes: "Onscripter: https://web.archive.org/web/20180804033515/http://unclemion.com/onscripter/releases\r\
+  \nPatch: http://www.mediafire.com/file/x0i9d86cw3i9d73/AMARANTO+English+Patch.zip\r\
+  \nTested with the DMM release: https://www.dmm.co.jp/dc/doujin/-/detail/=/cid=d_037197/"
+created_at: '2018-07-11T07:01:36.796000Z'
+updated_at: '2019-09-09T02:01:47.984065Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: AMARANTO/onscripter-en
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $archive
+  - extract:
+      dst: $GAMEDIR/AMARANTO
+      file: $patch
+  - extract:
+      dst: $GAMEDIR/AMARANTO
+      file: $ons
+  - chmodx: $GAMEDIR/AMARANTO/onscripter-en
+  files:
+  - archive: N/A:Please select the game archive
+  - patch: N/A:Please select the patch archive
+  - ons: N/A:Please select the Onscripter archive

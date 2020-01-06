@@ -1,0 +1,17 @@
+name: Banjo-Kazooie
+slug: banjo-kazooie
+year: 1998
+platforms:
+- name: Nintendo 64
+genres:
+- name: Action
+- name: Adventure
+- name: Platform
+aliases: []
+banner_url: /games/banner/banjo-kazooie.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:31.424661Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

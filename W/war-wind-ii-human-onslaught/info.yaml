@@ -1,0 +1,17 @@
+name: 'War Wind II: Human Onslaught'
+slug: war-wind-ii-human-onslaught
+year: 1997
+platforms:
+- name: Windows
+genres:
+- name: Fantasy
+- name: Real-time
+- name: Strategy
+aliases: []
+banner_url: /games/banner/war-wind-ii-human-onslaught.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:06.687743Z'
+steamid: null
+gogslug: war_wind_ii_human_onslaught
+humblestoreid: ''

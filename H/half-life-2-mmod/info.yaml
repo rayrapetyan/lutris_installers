@@ -1,0 +1,17 @@
+name: 'Half-Life 2 : MMod'
+slug: half-life-2-mmod
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+- name: Sci-fi
+aliases: []
+banner_url: /games/banner/half-life-2-mmod.jpg
+icon_url: null
+is_public: true
+updated: '2019-10-22T22:01:59.349256Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

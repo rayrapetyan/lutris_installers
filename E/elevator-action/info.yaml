@@ -1,0 +1,17 @@
+name: Elevator Action
+slug: elevator-action
+year: 1983
+platforms:
+- name: Arcade
+- name: NES
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/elevator-action.jpg
+icon_url: /games/icon/elevator-action.png
+is_public: true
+updated: '2019-01-23T08:29:22.186501Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

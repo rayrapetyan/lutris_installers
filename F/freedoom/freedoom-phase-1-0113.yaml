@@ -1,0 +1,29 @@
+id: 2433
+game_id: 7153
+game_slug: freedoom
+name: Freedoom
+year: 2003
+user: RobLoach
+runner: zdoom
+slug: freedoom-phase-1-0113
+version: Phase 1 (0.11.3)
+description: ''
+notes: ''
+created_at: '2016-08-11T22:10:48.777000Z'
+updated_at: '2017-12-21T15:31:28.286809Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: freedoom1.wad
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $freedoom
+  files:
+  - freedoom: https://github.com/freedoom/freedoom/releases/download/v0.11.3/freedoom-0.11.3.zip

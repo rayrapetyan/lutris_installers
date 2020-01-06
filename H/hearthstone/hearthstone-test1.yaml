@@ -1,0 +1,108 @@
+id: 17315
+game_id: 2421
+game_slug: hearthstone
+name: Hearthstone
+year: 2014
+user: Shorel.Aran
+runner: wine
+slug: hearthstone-test1
+version: test1
+description: null
+notes: ''
+created_at: '2019-12-13T10:34:17.101714Z'
+updated_at: '2019-12-13T10:34:17.101738Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 32bit Wine prefix.
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Arial font
+      app: arial
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows 10 mode for Wine
+      arch: win32
+      key: Version
+      value: win10
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  - write_json:
+      description: Disabling Sound/Hardware Acceleration/Streaming in Blizzard App
+      data:
+        Games:
+          hs_beta:
+            AdditionalLaunchArguments: -force-d3d9
+            ServerUid: hs_beta
+        Client:
+          HardwareAcceleration: 'false'
+          GameLaunchWindowBehavior: '2'
+          Sound:
+            Enabled: 'false'
+          Streaming:
+            StreamingEnabled: 'false'
+      file: $GAMEDIR/drive_c/users/$USER/Application Data/Battle.net/Battle.net.config
+  - task:
+      executable: setup
+      description: 'Installing Blizzard App
+
+        ------------------------------
+
+        Do not try to log into Battle.net. Lutris will automatically close the login
+        window. After Lutris installer is finished, you can start Blizzard App with
+        "Launch the game", and install / locate your Blizzard game.'
+      exclude_processes: Battle.net.exe Agent.exe "Battle.net Helper.exe"
+      arch: win32
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - task:
+      prefix: $GAMEDIR
+      description: 'Wine Staging: Enabling DXVA2'
+      arch: win32
+      key: backend
+      value: va
+      path: HKEY_CURRENT_USER\Software\Wine\DXVA2
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      description: Setting "UseTakeFocus" to "no" to prevent the lost focus issue
+        when you leave the game window
+      arch: win64
+      key: UseTakeFocus
+      value: false
+      path: HKEY_CURRENT_USER\Software\Wine\X11 Driver
+      name: set_regedit
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Battle.net/Battle.net Launcher.exe
+    arch: win32
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      __GL_SHADER_DISK_CACHE: '1'
+    exclude_processes: Battle.net.exe Agent.exe "Battle.net Helper.exe"
+  wine:
+    version: lutris-4.16-x86_64
+    overrides:
+      ucrtbase: n,b
+      vcruntime140: n
+      api-ms-win-crt-private-l1-1-0: n,b
+  files:
+  - setup:
+      filename: Battle.net-Setup.exe
+      url: http://dist.blizzard.com/downloads/bna-installers/322d5bb9ae0318de3d4cde7641c96425/retail.1/Battle.net-Setup-enUS.exe

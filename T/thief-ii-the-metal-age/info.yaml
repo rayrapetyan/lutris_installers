@@ -1,0 +1,18 @@
+name: 'Thief II: The Metal Age'
+slug: thief-ii-the-metal-age
+year: 2000
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: FPS
+- name: Stealth
+aliases: []
+banner_url: /games/banner/thief-ii-the-metal-age.jpg
+icon_url: /games/icon/thief-ii-the-metal-age.png
+is_public: true
+updated: '2019-01-23T08:31:49.320986Z'
+steamid: 211740
+gogslug: thief_2_the_metal_age
+humblestoreid: ''

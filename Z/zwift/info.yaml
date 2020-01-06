@@ -1,0 +1,15 @@
+name: Zwift
+slug: zwift
+year: 2020
+platforms:
+- name: Windows
+genres:
+- name: Simulation
+aliases: []
+banner_url: /games/banner/zwift.jpg
+icon_url: null
+is_public: false
+updated: '2020-01-02T13:13:38.239957Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,15 @@
+name: Titanfall 2
+slug: titanfall-2
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/titanfall-2.jpg
+icon_url: /games/icon/titanfall-2.png
+is_public: true
+updated: '2019-01-23T08:31:51.763771Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

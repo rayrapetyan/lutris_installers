@@ -1,0 +1,28 @@
+id: 6712
+game_id: 6586
+game_slug: virus-jigglin-fever
+name: Virus Jigglin' Fever
+year: null
+user: FakeShemp
+runner: linux
+slug: virus-jigglin-fever-groupees
+version: Groupees
+description: null
+notes: ''
+created_at: '2017-12-17T12:47:33.744000Z'
+updated_at: '2017-12-17T12:48:58.010952Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 363200
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: runner
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive

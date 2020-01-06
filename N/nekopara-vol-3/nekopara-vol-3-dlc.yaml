@@ -1,0 +1,37 @@
+id: 9702
+game_id: 13578
+game_slug: nekopara-vol-3
+name: NEKOPARA Vol. 3
+year: 2017
+user: kimchitea
+runner: wine
+slug: nekopara-vol-3-dlc
+version: DLC
+description: null
+notes: "DLC installer requires a 64-bit environment, although the game itself should\
+  \ be run in 32-bit.\r\nSteam must be running (launched with the default 64-bit Wine\
+  \ Steam prefix) before you run the installer.\r\nTested with the <a href=\"http://www.dlsite.com/ecchi-eng/work/=/product_id/RE200911.html\"\
+  >DLsite version</a>"
+created_at: '2018-08-12T00:00:55.330642Z'
+updated_at: '2018-08-12T05:03:13.341394Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 602520
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: nekopara-vol-3-steam
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $patch
+  - task:
+      executable: $CACHE/nekopara_vol3_Steam_R18DLC.exe
+      prefix: $HOME/.local/share/lutris/runners/winesteam/prefix64
+      arch: win64
+      name: wineexec
+  files:
+  - patch: N/A:Please select the DLC archive

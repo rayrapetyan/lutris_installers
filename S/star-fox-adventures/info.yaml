@@ -1,0 +1,16 @@
+name: Star Fox Adventures
+slug: star-fox-adventures
+year: 2002
+platforms:
+- name: GameCube
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/star-fox-adventures.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:24.279947Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

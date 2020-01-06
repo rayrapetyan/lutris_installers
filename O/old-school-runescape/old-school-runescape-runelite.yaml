@@ -1,0 +1,31 @@
+id: 12133
+game_id: 25935
+game_slug: old-school-runescape
+name: Old School Runescape
+year: 2007
+user: downthecrop
+runner: linux
+slug: old-school-runescape-runelite
+version: RuneLite
+description: null
+notes: ''
+created_at: '2019-02-22T21:54:21.737000Z'
+updated_at: '2019-03-23T23:21:19.313800Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - chmodx: runelite
+  - move:
+      src: runelite
+      dst: $GAMEDIR
+  files:
+  - runelite: https://github.com/runelite/launcher/releases/download/1.6.2/RuneLite.AppImage
+  game:
+    exe: $GAMEDIR/RuneLite.AppImage

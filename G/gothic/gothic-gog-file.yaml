@@ -1,0 +1,89 @@
+id: 5526
+game_id: 1481
+game_slug: gothic
+name: Gothic
+year: 2001
+user: joomars
+runner: wine
+slug: gothic-gog-file
+version: GOG file
+description: ''
+notes: "DOWNLOAD   Gothic  from GOG\r\n\r\n\r\n$GAMEDIR/drive_c/GOG Games/Gothic/system/GOTHIC.INI\r\
+  \n  zVidResFullscreenX=1920\r\n  zVidResFullscreenY=1080\r\n  zVidResFullscreenBPP=32"
+created_at: '2017-08-26T11:57:33.843000Z'
+updated_at: '2017-08-26T23:35:37.639990Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 65540
+gogid: 1207658682
+gogslug: gothic
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: directmusic
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Wine to Windows 7 32-Bit
+      app: win7
+      arch: win32
+      name: winetricks
+  - task:
+      executable: install
+      prefix: $GAMEDIR
+      description: Installing Gothic .........%
+      name: wineexec
+  - write_config:
+      section: VIDEO
+      key: zVidResFullscreenX
+      value: 1920
+      file: $GAMEDIR/drive_c/GOG Games/Gothic/system/GOTHIC.INI
+  - write_config:
+      section: VIDEO
+      key: zVidResFullscreenY
+      value: 1080
+      file: $GAMEDIR/drive_c/GOG Games/Gothic/system/GOTHIC.INI
+  - write_config:
+      section: VIDEO
+      key: zVidResFullscreenBPP
+      value: 32
+      file: $GAMEDIR/drive_c/GOG Games/Gothic/system/GOTHIC.INI
+  - write_config:
+      section: GAME
+      key: subTitles
+      value: 1
+      file: $GAMEDIR/drive_c/GOG Games/Gothic/system/GOTHIC.INI
+  - write_config:
+      section: GAME
+      key: scaleVideos
+      value: 1
+      file: $GAMEDIR/drive_c/GOG Games/Gothic/system/GOTHIC.INI
+  - write_config:
+      section: GAME
+      key: bloodDetail
+      value: 3
+      file: $GAMEDIR/drive_c/GOG Games/Gothic/system/GOTHIC.INI
+  - write_config:
+      section: PERFORMANCE
+      key: modelDetail
+      value: 1
+      file: $GAMEDIR/drive_c/GOG Games/Gothic/system/GOTHIC.INI
+  - write_config:
+      section: PERFORMANCE
+      key: sightValue
+      value: 14
+      file: $GAMEDIR/drive_c/GOG Games/Gothic/system/GOTHIC.INI
+  files:
+  - install: N/A:Select the game's setup file
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Gothic/system/GOTHIC.EXE
+    arch: win32

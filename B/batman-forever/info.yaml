@@ -1,0 +1,15 @@
+name: Batman Forever
+slug: batman-forever
+year: 1996
+platforms:
+- name: Sony PlayStation
+genres:
+- name: Beat'em up
+aliases: []
+banner_url: /games/banner/batman-forever.jpg
+icon_url: null
+is_public: true
+updated: '2020-01-01T07:10:03.839488Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

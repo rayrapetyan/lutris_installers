@@ -1,0 +1,16 @@
+name: Super Contra
+slug: super-contra
+year: 1990
+platforms:
+- name: NES
+genres:
+- name: Arcade
+- name: Shooter
+aliases: []
+banner_url: /games/banner/super-contra.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:29.824232Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

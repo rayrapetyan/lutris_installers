@@ -1,0 +1,59 @@
+id: 15677
+game_id: 11637
+game_slug: zork-nemesis-the-forbidden-lands
+name: 'Zork Nemesis: The Forbidden Lands'
+year: 1996
+user: appoloin
+runner: scummvm
+slug: zork-nemesis-the-forbidden-la-2cd
+version: 2CD
+description: null
+notes: ''
+created_at: '2019-09-18T23:38:03.055000Z'
+updated_at: '2019-10-27T09:33:42.908465Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 571060
+gogid: 1207658913
+gogslug: zork_nemesis_the_forbidden_lands
+humblestoreid: ''
+script:
+  installer:
+  - execute:
+      args: $GAMEDIR/znemmx $GAMEDIR/znemscr $GAMEDIR/zassets
+      file: mkdir
+  - insert-disc:
+      requires: zassets
+      description: Please insert disc 1
+  - execute:
+      args: -r $DISC/nemesis/znemmx $GAMEDIR
+      file: /bin/cp
+  - execute:
+      args: -r $DISC/nemesis/znemscr $GAMEDIR
+      file: /bin/cp
+  - execute:
+      args: -r $DISC/zassets $GAMEDIR
+      file: /bin/cp
+  - copy:
+      src: $DISC/nemesis/nemesis.str
+      dst: $GAMEDIR
+  - insert-disc:
+      requires: zassets
+      description: Please insert disc 2
+  - execute:
+      args: -r $DISC/zassets $GAMEDIR
+      file: /bin/cp
+  - insert-disc:
+      requires: zassets
+      description: Please insert disc 3
+  - execute:
+      args: -r $DISC/zassets $GAMEDIR
+      file: /bin/cp
+  - execute:
+      args: -R 775  "$GAMEDIR"
+      file: /bin/chmod
+  game:
+    game_id: zvision
+    path: $GAMEDIR

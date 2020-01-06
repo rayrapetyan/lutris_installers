@@ -1,0 +1,16 @@
+name: 'Zelda: Return of the Hylian'
+slug: zelda-return-of-the-hylian
+year: 2009
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/zelda-return-of-the-hylian.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:14.169154Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

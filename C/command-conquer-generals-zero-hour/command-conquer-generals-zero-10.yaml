@@ -1,0 +1,63 @@
+id: 7270
+game_id: 7877
+game_slug: command-conquer-generals-zero-hour
+name: "Command & Conquer: Generals \u2013 Zero Hour"
+year: 2003
+user: matefh
+runner: wine
+slug: command-conquer-generals-zero-10
+version: '1.0'
+description: null
+notes: Game is configured to run at 1920x1080, to run in different resolutions, edit
+  file drive_c/users/$USER/My Documents/Command and Conquer Generals Data/options.ini
+created_at: '2018-02-08T14:55:26.623000Z'
+updated_at: '2018-05-19T03:42:00.777704Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: drive_c/Program Files/EA Games/Command & Conquer Generals Zero Hour/generals.exe
+  installer:
+  - insert-disc:
+      requires: setup.exe
+      message: Insert disc 1
+  - merge:
+      src: $DISC
+      description: Copying disc 1 to cache
+      dst: $CACHE/cdrom
+  - insert-disc:
+      requires: Language.cab
+      message: Insert disc 2
+  - merge:
+      src: $DISC/Language.cab
+      description: Copying disc 2 to cache
+      dst: $CACHE/cdrom
+  - task:
+      executable: $CACHE/cdrom/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      executable: patch1
+      prefix: $GAMEDIR
+      name: wineexec
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/EA Games/Command & Conquer Generals Zero
+        Hour/
+      file: patch2
+  - merge:
+      src: optionsini
+      dst: $GAMEDIR/drive_c/users/$USER/My Documents/Command and Conquer Generals
+        Zero Hour Data/
+  files:
+  - patch1: driver_c/GeneralsZH-104-english.exe
+  - patch2: driver_c/generals-zh-v104_crack.zip
+  - optionsini: https://lutris.net/files/games/command-conquer-generals/options.ini
+  - crack
+  game:
+    prefix: $GAMEDIR
+    arch: win32

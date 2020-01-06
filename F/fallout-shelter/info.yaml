@@ -1,0 +1,15 @@
+name: Fallout Shelter
+slug: fallout-shelter
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Simulation
+aliases: []
+banner_url: /games/banner/fallout-shelter.jpg
+icon_url: /games/icon/fallout-shelter.png
+is_public: true
+updated: '2019-01-23T08:29:28.218533Z'
+steamid: 588430
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,72 @@
+id: 15313
+game_id: 14782
+game_slug: hopkins-fbi
+name: Hopkins FBI
+year: 1998
+user: appoloin
+runner: scummvm
+slug: hopkins-fbi-cdrom
+version: CDROM
+description: null
+notes: ''
+created_at: '2019-09-05T18:56:31.168967Z'
+updated_at: '2019-09-05T18:56:31.168994Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    game_id: hopkins
+    path: $GAMEDIR
+  installer:
+  - insert-disc:
+      requires: ANIM
+      description: Please insert disc
+  - copy:
+      src: $DISC/ANIM
+      dst: $GAMEDIR/ANIM
+  - copy:
+      src: $DISC/ANM
+      dst: $GAMEDIR/ANM
+  - copy:
+      src: $DISC/BASE
+      dst: $GAMEDIR/BASE
+  - copy:
+      src: $DISC/BUFFER
+      dst: $GAMEDIR/BUFFER
+  - copy:
+      src: $DISC/MUSIC
+      dst: $GAMEDIR/MUSIC
+  - copy:
+      src: $DISC/SAVE
+      dst: $GAMEDIR/SAVE
+  - copy:
+      src: $DISC/SEQ
+      dst: $GAMEDIR/SEQ
+  - copy:
+      src: $DISC/SOUND
+      dst: $GAMEDIR/SOUND
+  - copy:
+      src: $DISC/SVGA
+      dst: $GAMEDIR/SVGA
+  - copy:
+      src: $DISC/SYSTEM
+      dst: $GAMEDIR/SYSTEM
+  - copy:
+      src: $DISC/TSVGA
+      dst: $GAMEDIR/TSVGA
+  - copy:
+      src: $DISC/VOICE
+      dst: $GAMEDIR/VOICE
+  - copy:
+      src: $DISC/LINK
+      dst: $GAMEDIR/LINK
+  - execute:
+      args: -R 775  $GAMEDIR
+      file: /bin/chmod
+  script: null

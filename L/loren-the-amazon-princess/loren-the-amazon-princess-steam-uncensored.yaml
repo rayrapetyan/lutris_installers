@@ -1,0 +1,28 @@
+id: 9008
+game_id: 2628
+game_slug: loren-the-amazon-princess
+name: Loren The Amazon Princess
+year: 2012
+user: kimchitea
+runner: steam
+slug: loren-the-amazon-princess-steam-uncensored
+version: Steam (uncensored)
+description: null
+notes: ''
+created_at: '2018-07-03T23:22:11.569672Z'
+updated_at: '2018-07-04T06:06:04.694401Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 257970
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: $GAMEDIR/game/censored.txt
+      dst: $CACHE
+  game:
+    appid: 257970

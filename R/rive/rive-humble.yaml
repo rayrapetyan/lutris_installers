@@ -1,0 +1,36 @@
+id: 5993
+game_id: 9723
+game_slug: rive
+name: RIVE
+year: null
+user: FakeShemp
+runner: linux
+slug: rive-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-10-19T16:09:20.103663Z'
+updated_at: '2017-10-19T16:12:00.532411Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 278100
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: RIVE.bin.x86_64
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data/noarch
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86_64
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble installer

@@ -1,0 +1,78 @@
+id: 8691
+game_id: 954
+game_slug: the-sims-3
+name: The Sims 3
+year: 2009
+user: ramram
+runner: wine
+slug: the-sims-3-origin
+version: Origin
+description: null
+notes: "- Please install wine-staging from WineHQ to get all necessary dependencies.\r\
+  \n- Use this command in terminal \"xgamma -gamma 1.5\" to adjust color gamma.\r\n\
+  - It is highly suggested to install ErrorTrap, Traveler and Overwatch mods by nRaas\
+  \ to improve game's stability."
+created_at: '2018-06-11T13:40:45.304000Z'
+updated_at: '2019-10-28T20:11:37.390253Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: 47890
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine Prefix...
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .Net 2.0
+      arch: win32
+      app: dotnet20
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Hiding annoying dialogs...
+      app: nocrashdialog
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting version to xp...
+      arch: win32
+      key: Version
+      value: winxp
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - task:
+      executable: origin
+      prefix: $GAMEDIR
+      description: Installing Origin...
+      exclude_processes: Origin.exe OriginClientService.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Origin/Origin.exe
+    arch: win32
+  system:
+    restore_gamma: true
+  wine:
+    esync: true
+    UseXvidMode: true
+  files:
+  - origin: https://origin-a.akamaihd.net/Origin-Client-Download/origin/legacy/OriginThinSetup.exe

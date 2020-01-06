@@ -1,0 +1,17 @@
+name: River City Girls
+slug: river-city-girls
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Fighting
+aliases: []
+banner_url: /games/banner/river-city-girls.jpg
+icon_url: null
+is_public: true
+updated: '2019-12-15T18:49:24.573409Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

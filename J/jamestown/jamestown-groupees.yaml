@@ -1,0 +1,40 @@
+id: 5600
+game_id: 258
+game_slug: jamestown
+name: Jamestown
+year: 2011
+user: FakeShemp
+runner: linux
+slug: jamestown-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-05T12:05:05.036000Z'
+updated_at: '2017-09-05T12:12:12.651106Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 94200
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Jamestown-x86
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $CACHE/JamestownInstaller_1_0_2-bin
+  - merge:
+      src: $CACHE/data
+      dst: $GAMEDIR
+  - move:
+      src: file2
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Groupees archive
+  - file2: https://github.com/ValveSoftware/source-sdk-2013/raw/master/sp/src/lib/public/linux32/libsteam_api.so

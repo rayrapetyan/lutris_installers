@@ -1,0 +1,16 @@
+name: 'UFO: Alien Invasion'
+slug: ufo-alien-invasion
+year: 2003
+platforms:
+- name: Linux
+genres:
+- name: Turn-based strategy
+- name: Turn-based tactics
+aliases: []
+banner_url: /games/banner/ufo-alien-invasion.jpg
+icon_url: null
+is_public: false
+updated: '2019-01-23T08:31:58.015625Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

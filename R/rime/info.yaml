@@ -1,0 +1,15 @@
+name: RiME
+slug: rime
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/rime.jpg
+icon_url: /games/icon/rime.png
+is_public: true
+updated: '2019-06-26T22:04:08.952455Z'
+steamid: 493200
+gogslug: rime
+humblestoreid: ''

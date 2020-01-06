@@ -1,0 +1,35 @@
+id: 4166
+game_id: 1626
+game_slug: cherry-tree-high-comedy-club
+name: Cherry Tree High Comedy Club
+year: 2012
+user: FakeShemp
+runner: wine
+slug: cherry-tree-high-comedy-club-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-06T17:31:36.285297Z'
+updated_at: '2018-05-19T03:41:49.626307Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 214610
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Cherry Tree High Comedy Club
+      file: $CACHE/CherryTreeHigh_ComedyClub.zip
+  files:
+  - file1: N/A:Please select the Humble Cherry Tree High Complete archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Cherry Tree High Comedy Club/Game.exe
+    arch: win32

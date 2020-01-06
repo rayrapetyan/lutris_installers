@@ -1,0 +1,17 @@
+name: Alien Storm
+slug: alien-storm
+year: 1991
+platforms:
+- name: Sega Game Gear
+- name: Sega Genesis / Mega Drive
+- name: Sega Master System
+genres:
+- name: Beat'em up
+aliases: []
+banner_url: /games/banner/alien-storm.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:18.874423Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

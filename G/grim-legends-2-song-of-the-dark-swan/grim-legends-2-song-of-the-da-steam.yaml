@@ -1,0 +1,24 @@
+id: 1481
+game_id: 4202
+game_slug: grim-legends-2-song-of-the-dark-swan
+name: 'Grim Legends 2: Song of the Dark Swan'
+year: null
+user: Xodetaetl
+runner: steam
+slug: grim-legends-2-song-of-the-da-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-04-25T17:45:46.353000Z'
+updated_at: '2015-04-25T17:55:47.333000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 279800
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 279800

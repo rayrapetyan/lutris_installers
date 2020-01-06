@@ -1,0 +1,15 @@
+name: Heroes of Might and Magic III
+slug: heroes-of-might-and-magic-iii
+year: 1999
+platforms:
+- name: Windows
+genres:
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/heroes-of-might-and-magic-iii.jpg
+icon_url: /games/icon/heroes-of-might-and-magic-iii.png
+is_public: true
+updated: '2019-01-23T08:29:49.459750Z'
+steamid: null
+gogslug: heroes_of_might_and_magic_3_complete_edition
+humblestoreid: ''

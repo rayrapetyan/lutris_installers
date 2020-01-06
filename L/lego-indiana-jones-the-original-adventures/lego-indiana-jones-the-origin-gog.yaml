@@ -1,0 +1,40 @@
+id: 16441
+game_id: 6128
+game_slug: lego-indiana-jones-the-original-adventures
+name: 'LEGO Indiana Jones: The Original Adventures'
+year: 2008
+user: Bleistift33
+runner: wine
+slug: lego-indiana-jones-the-origin-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-10-27T16:09:22.182000Z'
+updated_at: '2019-10-28T00:14:39.428788Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 32330
+gogid: 1194227151
+gogslug: lego_indiana_jones_the_original_adventures
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES /NOCANCEL
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: d3dx9
+      name: winetricks
+  files:
+  - installer: N/A:Select the Windows setup file downloaded from GOG
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/LEGO Indiana Jones - The Original Adventures/LEGOIndy.exe

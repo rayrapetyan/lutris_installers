@@ -1,0 +1,53 @@
+id: 2517
+game_id: 3091
+game_slug: crimzon-clover-world-ignition
+name: Crimzon Clover  WORLD IGNITION
+year: 2014
+user: ssf
+runner: wine
+slug: crimzon-clover-world-ignition-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2016-08-21T13:34:36.874352Z'
+updated_at: '2016-09-30T21:11:12.147898Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 285440
+gogid: 1207666643
+gogslug: crimzon_clover_world_ignition
+humblestoreid: ''
+script:
+  gogid: crimzon_clover_world_ignition
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      type: REG_SZ
+      value: ''
+      key: winemenubuilder.exe
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /VERYSILENT /SP- /NOCANCEL /SUPPRESSMSGBOXES '/DIR=C:/game'
+      description: Installing...
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Disabling unused WINE features
+      app: sandbox
+      silent: true
+      name: winetricks
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/game/CrimzonClover_WI_GOG.exe
+    arch: win32

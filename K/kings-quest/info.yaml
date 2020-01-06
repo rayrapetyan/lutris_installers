@@ -1,0 +1,15 @@
+name: King's Quest
+slug: kings-quest
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/kings-quest.jpg
+icon_url: /games/icon/kings-quest.png
+is_public: true
+updated: '2019-01-23T08:30:04.546925Z'
+steamid: 345390
+gogslug: ''
+humblestoreid: ''

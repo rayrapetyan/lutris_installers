@@ -1,0 +1,32 @@
+id: 6511
+game_id: 15001
+game_slug: no-one-but-you
+name: No One But You
+year: null
+user: FakeShemp
+runner: linux
+slug: no-one-but-you-humble
+version: Humble
+description: null
+notes: ''
+created_at: '2017-12-01T17:39:27.327454Z'
+updated_at: '2017-12-01T17:40:55.773248Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 367020
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: NOBY.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/noonebutyou_Linux
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble archive

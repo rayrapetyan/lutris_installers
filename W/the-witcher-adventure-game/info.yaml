@@ -1,0 +1,18 @@
+name: The Witcher Adventure Game
+slug: the-witcher-adventure-game
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Fantasy
+- name: Real-time strategy
+- name: Turn-based
+aliases: []
+banner_url: /games/banner/the-witcher-adventure-game.jpg
+icon_url: /games/icon/the-witcher-adventure-game.png
+is_public: true
+updated: '2019-01-23T08:31:48.852586Z'
+steamid: 303800
+gogslug: witcher_adventure_game
+humblestoreid: ''

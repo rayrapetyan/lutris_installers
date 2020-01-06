@@ -1,0 +1,24 @@
+id: 1593
+game_id: 635
+game_slug: botanicula
+name: Botanicula
+year: 2012
+user: Celestorm
+runner: winesteam
+slug: botanicula-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-09-13T19:53:29.104927Z'
+updated_at: '2015-09-15T17:26:46.102220Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 207690
+gogid: 1207659024
+gogslug: botanicula
+humblestoreid: botanicula
+script:
+  game:
+    appid: 207690

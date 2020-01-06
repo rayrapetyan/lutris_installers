@@ -1,0 +1,24 @@
+id: 605
+game_id: 2447
+game_slug: life-goes-on
+name: Life Goes On
+year: null
+user: Xodetaetl
+runner: steam
+slug: life-goes-on-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2014-09-14T21:25:38.598000Z'
+updated_at: '2014-09-14T21:28:53.489000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 250050
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 250050

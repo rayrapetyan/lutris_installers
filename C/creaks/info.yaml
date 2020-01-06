@@ -1,0 +1,17 @@
+name: Creaks
+slug: creaks
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Mystery
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/creaks.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:00.316990Z'
+steamid: null
+gogslug: creaks
+humblestoreid: ''

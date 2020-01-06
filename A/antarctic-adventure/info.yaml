@@ -1,0 +1,17 @@
+name: Antarctic Adventure
+slug: antarctic-adventure
+year: 1985
+platforms:
+- name: Colecovision
+- name: MSX
+- name: NES
+genres:
+- name: Arcade
+aliases: []
+banner_url: /games/banner/antarctic-adventure.jpg
+icon_url: null
+is_public: true
+updated: '2019-02-26T14:39:06.901380Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,30 @@
+id: 2216
+game_id: 5359
+game_slug: emily-is-away
+name: Emily is Away
+year: 2015
+user: Lulu
+runner: linux
+slug: emily-is-away-itchio
+version: itch.io
+description: Tested with v1.1
+notes: ''
+created_at: '2016-06-27T21:57:39.126368Z'
+updated_at: '2016-08-12T01:42:38.760183Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 417860
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: emily is away.x86
+  installer:
+  - extract:
+      file: emily-is-away-game
+  - chmodx: $GAMEDIR/emily is away.x86
+  files:
+  - emily-is-away-game: 'N/A: Please select the .zip install file downloaded from
+      itch.io'

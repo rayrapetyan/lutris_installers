@@ -1,0 +1,16 @@
+name: 'Need for Speed III: Hot Pursuit'
+slug: need-for-speed-iii-hot-pursuit
+year: 1998
+platforms:
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/need-for-speed-iii-hot-pursuit.jpg
+icon_url: /games/icon/need-for-speed-iii-hot-pursuit.png
+is_public: true
+updated: '2019-01-23T08:30:30.868129Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

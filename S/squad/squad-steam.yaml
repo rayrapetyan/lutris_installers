@@ -1,0 +1,26 @@
+id: 3605
+game_id: 9154
+game_slug: squad
+name: Squad
+year: 2015
+user: JT
+runner: winesteam
+slug: squad-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-04-30T21:24:46.996000Z'
+updated_at: '2018-05-17T01:24:23.582759Z'
+draft: false
+published: true
+published_by: null
+rating: '1'
+steamid: 393380
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 393380
+    arch: win64

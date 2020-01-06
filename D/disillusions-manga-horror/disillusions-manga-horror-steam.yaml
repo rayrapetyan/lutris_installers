@@ -1,0 +1,24 @@
+id: 6827
+game_id: 4615
+game_slug: disillusions-manga-horror
+name: Disillusions Manga Horror
+year: null
+user: soredake
+runner: winesteam
+slug: disillusions-manga-horror-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-23T22:24:45.427161Z'
+updated_at: '2017-12-23T22:24:52.942541Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 343270
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 343270

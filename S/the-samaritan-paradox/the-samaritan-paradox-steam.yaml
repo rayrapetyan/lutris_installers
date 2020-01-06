@@ -1,0 +1,24 @@
+id: 603
+game_id: 2548
+game_slug: the-samaritan-paradox
+name: The Samaritan Paradox
+year: 2014
+user: Xodetaetl
+runner: winesteam
+slug: the-samaritan-paradox-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2014-09-14T21:21:08.574000Z'
+updated_at: '2018-07-03T09:20:02.666114Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 283180
+gogid: 1207664263
+gogslug: the_samaritan_paradox
+humblestoreid: ''
+script:
+  game:
+    appid: 283180

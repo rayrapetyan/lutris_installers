@@ -1,0 +1,15 @@
+name: Dustforce
+slug: dustforce
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/dustforce.jpg
+icon_url: /games/icon/dustforce.png
+is_public: true
+updated: '2019-01-23T08:29:20.052822Z'
+steamid: 65300
+gogslug: ''
+humblestoreid: dustforce

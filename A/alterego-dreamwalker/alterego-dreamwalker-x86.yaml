@@ -1,0 +1,32 @@
+id: 2164
+game_id: 6316
+game_slug: alterego-dreamwalker
+name: 'AlterEgo: DreamWalker'
+year: 2013
+user: djazz
+runner: linux
+slug: alterego-dreamwalker-x86
+version: x86
+description: ''
+notes: Requires the Mono runtime.
+created_at: '2016-06-19T20:04:51.444000Z'
+updated_at: '2017-06-16T19:01:37.612219Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: AlterEgo_DreamWalker/launch.sh
+  installer:
+  - extract:
+      file: game
+  - execute:
+      args: -c "echo -e \"#!/bin/sh\nexec mono ./AlterEgo2.exe \\\"\$@\\\"\" > \"$GAMEDIR/AlterEgo_DreamWalker/launch.sh\""
+      file: /bin/bash
+  - chmodx: AlterEgo_DreamWalker/launch.sh
+  files:
+  - game: http://www.retrosouls.net/desura/ae2fulllinux.zip

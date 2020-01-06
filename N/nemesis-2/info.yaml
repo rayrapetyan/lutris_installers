@@ -1,0 +1,21 @@
+name: Nemesis 2
+slug: nemesis-2
+year: 1987
+platforms:
+- name: MSX
+- name: NES
+- name: Nintendo Wii
+- name: TurboGrafx-16
+- name: X68000
+genres:
+- name: Shoot'em up
+aliases:
+- slug: gradius-2
+  name: Gradius 2
+banner_url: /games/banner/nemesis-2.jpg
+icon_url: null
+is_public: true
+updated: '2019-04-22T17:49:39.802245Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

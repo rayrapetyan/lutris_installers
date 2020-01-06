@@ -1,0 +1,16 @@
+name: Animal Lover
+slug: animal-lover
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Dating
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/animal-lover.jpg
+icon_url: /games/icon/animal-lover.png
+is_public: true
+updated: '2019-01-23T08:28:22.067894Z'
+steamid: 542200
+gogslug: ''
+humblestoreid: ''

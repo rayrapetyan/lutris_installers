@@ -1,0 +1,31 @@
+id: 1429
+game_id: 4083
+game_slug: jazz-jackrabbit
+name: Jazz Jackrabbit
+year: 1994
+user: djazz
+runner: dosbox
+slug: jazz-jackrabbit-shareware
+version: Shareware
+description: ''
+notes: ''
+created_at: '2015-03-20T00:19:44.013000Z'
+updated_at: '2015-03-27T13:34:18.131000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1808582759
+gogslug: jazz_jackrabbit_collection
+humblestoreid: ''
+script:
+  main_file: JAZZ.EXE
+  dosbox:
+    exit: true
+    scaler: normal3x
+  installer:
+  - extract:
+      file: $game
+  files:
+  - game: https://lutris.net/files/games/jazz-jackrabbit/jj-shareware.zip

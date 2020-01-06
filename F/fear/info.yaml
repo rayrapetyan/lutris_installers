@@ -1,0 +1,16 @@
+name: F.E.A.R.
+slug: fear
+year: 2005
+platforms:
+- name: Windows
+genres:
+- name: FPS
+- name: Horror
+aliases: []
+banner_url: /games/banner/fear.jpg
+icon_url: /games/icon/fear.png
+is_public: true
+updated: '2019-11-16T05:20:03.790804Z'
+steamid: 21090
+gogslug: fear_platinum
+humblestoreid: fear

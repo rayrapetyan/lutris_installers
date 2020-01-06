@@ -1,0 +1,40 @@
+id: 56
+game_id: 15
+game_slug: minecraft
+name: Minecraft
+year: 2011
+user: strider
+runner: linux
+slug: minecraft-32-bit
+version: 32-bit
+description: null
+notes: Includes Java runtime 8
+created_at: '2013-07-22T21:20:54Z'
+updated_at: '2018-10-24T06:47:33.602997Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: minecraft
+  installer:
+  - move:
+      src: minecraft-jar
+      dst: $GAMEDIR
+  - extract:
+      nomerge: true
+      file: java-jre
+  - extract:
+      nomerge: true
+      file: minecraft-launcher
+  - execute:
+      args: -s "$HOME/.minecraft" "$GAMEDIR/Data folder"
+      file: /bin/ln
+  files:
+  - minecraft-jar: https://s3.amazonaws.com/Minecraft.Download/launcher/Minecraft.jar
+  - java-jre: http://lutris.net/files/runners/jre-8u73-linux-i586.tar.gz
+  - minecraft-launcher: http://lutris.net/files/games/minecraft/wrapper_java8.tar.gz

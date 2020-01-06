@@ -1,0 +1,15 @@
+name: Alien Arena
+slug: alien-arena
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/alien-arena.jpg
+icon_url: /games/icon/alien-arena.png
+is_public: true
+updated: '2019-01-23T08:28:18.370532Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

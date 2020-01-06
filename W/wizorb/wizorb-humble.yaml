@@ -1,0 +1,33 @@
+id: 8883
+game_id: 298
+game_slug: wizorb
+name: Wizorb
+year: null
+user: basxto
+runner: linux
+slug: wizorb-humble
+version: Humble
+description: null
+notes: ''
+created_at: '2018-06-24T05:33:24.916865Z'
+updated_at: '2018-06-24T12:21:01.999068Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 207420
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Wizorb
+  installer:
+  - extract:
+      src: $game
+      format: zip
+      dst: $CACHE
+  - merge:
+      src: $CACHE/data
+      dst: $GAMEDIR/
+  files:
+  - game: 'N/A: Please select the *-bin installer from https://www.humblebundle.com'

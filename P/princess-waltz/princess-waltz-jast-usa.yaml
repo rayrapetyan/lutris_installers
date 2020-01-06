@@ -1,0 +1,41 @@
+id: 5991
+game_id: 14339
+game_slug: princess-waltz
+name: Princess Waltz
+year: 2006
+user: FakeShemp
+runner: wine
+slug: princess-waltz-jast-usa
+version: JAST USA
+description: null
+notes: ''
+created_at: '2017-10-19T15:10:07.774000Z'
+updated_at: '2018-07-28T04:21:27.780345Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/Princess Waltz Setup/Setup.exe
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Will/PRINCESS WALTZ
+      file: $file2
+  files:
+  - file1: N/A:Please select the JAST USA archive
+  - file2: N/A:Please select the patch archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Will/PRINCESS WALTZ/prwaltz.exe
+    arch: win32

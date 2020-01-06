@@ -1,0 +1,24 @@
+id: 10427
+game_id: 795
+game_slug: commandos-2-men-of-courage
+name: 'Commandos 2: Men of Courage'
+year: 2001
+user: manzanukem
+runner: winesteam
+slug: commandos-2-men-of-courage-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-10-05T22:44:40.924026Z'
+updated_at: '2018-10-06T03:30:42.967674Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 6830
+gogid: 1207658803
+gogslug: commandos_2_3
+humblestoreid: ''
+script:
+  game:
+    appid: 6830

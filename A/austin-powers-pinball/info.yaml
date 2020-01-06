@@ -1,0 +1,16 @@
+name: Austin Powers Pinball
+slug: austin-powers-pinball
+year: 2002
+platforms:
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Pinball
+aliases: []
+banner_url: /games/banner/austin-powers-pinball.jpg
+icon_url: null
+is_public: true
+updated: '2019-09-16T06:34:40.001109Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,31 @@
+id: 10203
+game_id: 19033
+game_slug: dofus-touch
+name: DOFUS Touch (Lindo)
+year: 2016
+user: Leeo97one
+runner: linux
+slug: dofus-touch-lindo-lindo-223-32-bits
+version: Lindo 2.2.3 (32 bits)
+description: "Lindo allows you to play DOFUS Touch without an Android emulator, it's\
+  \ entirely coded in JavaScript via Electron & Angular. Lindo is totally corss-platform.\r\
+  \n\r\nhttps://github.com/prixe/lindo"
+notes: Lindo version 2.3 is not support on 32 bits OS
+created_at: '2018-09-15T22:39:38.582000Z'
+updated_at: '2019-10-27T08:50:04.198599Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      src: targz
+  files:
+  - targz: https://github.com/prixe/lindo/releases/download/v2.2.3/lindo-2.2.3-ia32.tar.gz
+  game:
+    exe: Lindo

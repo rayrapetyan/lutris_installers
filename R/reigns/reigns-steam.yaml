@@ -1,0 +1,24 @@
+id: 6618
+game_id: 7170
+game_slug: reigns
+name: Reigns
+year: 2016
+user: Talvi
+runner: steam
+slug: reigns-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-10T16:18:15.105927Z'
+updated_at: '2017-12-17T09:02:59.359808Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 474750
+gogid: 1677885333
+gogslug: reigns
+humblestoreid: ''
+script:
+  game:
+    appid: 474750

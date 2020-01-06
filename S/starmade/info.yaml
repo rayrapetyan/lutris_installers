@@ -1,0 +1,17 @@
+name: StarMade
+slug: starmade
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Sandbox
+- name: Shooter
+- name: Space flight
+aliases: []
+banner_url: /games/banner/starmade.jpg
+icon_url: /games/icon/starmade.png
+is_public: true
+updated: '2019-01-23T08:31:24.448283Z'
+steamid: 244770
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 1678
+game_id: 1424
+game_slug: sid-meiers-pirates
+name: Sid Meier's Pirates!
+year: 2005
+user: RobLoach
+runner: winesteam
+slug: sid-meiers-pirates-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: ''
+created_at: '2015-11-02T12:23:57.411073Z'
+updated_at: '2016-01-05T18:29:40.776031Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 3920
+gogid: 1445250653
+gogslug: sid_meiers_pirates
+humblestoreid: sid-meiers-pirates
+script:
+  game:
+    appid: 3920

@@ -1,0 +1,36 @@
+id: 1787
+game_id: 115
+game_slug: return-to-castle-wolfenstein
+name: Return to Castle Wolfenstein
+year: 2001
+user: strider
+runner: linux
+slug: return-to-castle-wolfenstein-native-steam-64bit
+version: Native + Steam (64bit)
+description: ''
+notes: ''
+created_at: '2015-12-29T02:20:12.445038Z'
+updated_at: '2015-12-29T02:28:14.779244Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 9010
+gogid: 1441704976
+gogslug: return_to_castle_wolfenstein
+humblestoreid: ''
+script:
+  exe: wolfsp.exe
+  installer:
+  - merge:
+      src: game-data
+      dst: $GAMEDIR
+  - rename:
+      src: $GAMEDIR/Main
+      dst: $GAMEDIR/main
+  - extract:
+      dst: $GAMEDIR
+      file: wolfsp
+  files:
+  - wolfsp: https://lutris.net/files/games/rtcw/rtcw-sp-1.41-x86_64.tar.gz
+  - game-data: $STEAM:9010:/

@@ -1,0 +1,17 @@
+name: "Pok\xE9mon Stadium"
+slug: pokemon-stadium
+year: 2000
+platforms:
+- name: Nintendo 64
+genres:
+- name: Action
+- name: RPG
+- name: Strategy
+aliases: []
+banner_url: /games/banner/pokemon-stadium.jpg
+icon_url: null
+is_public: true
+updated: '2019-06-01T06:15:14.785165Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

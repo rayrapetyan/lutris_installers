@@ -1,0 +1,16 @@
+name: "Pok\xE9mon Yellow Version: Special Pikachu Edition"
+slug: pokemon-yellow
+year: 1999
+platforms:
+- name: Nintendo Game Boy Color
+genres:
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/pokemon-yellow.jpg
+icon_url: null
+is_public: false
+updated: '2019-06-07T03:15:36.827453Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

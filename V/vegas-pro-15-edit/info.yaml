@@ -1,0 +1,17 @@
+name: VEGAS Pro 15 Edit
+slug: vegas-pro-15-edit
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Tool
+aliases:
+- slug: vegas-pro-15-edit-steam-edition
+  name: VEGAS Pro 15 Edit Steam Edition
+banner_url: /games/banner/vegas-pro-15-edit.jpg
+icon_url: /games/icon/vegas-pro-15-edit.png
+is_public: true
+updated: '2019-02-11T07:52:14.226817Z'
+steamid: 689790
+gogslug: ''
+humblestoreid: ''

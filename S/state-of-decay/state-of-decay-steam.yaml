@@ -1,0 +1,24 @@
+id: 3196
+game_id: 1581
+game_slug: state-of-decay
+name: State of Decay
+year: null
+user: bradgy
+runner: winesteam
+slug: state-of-decay-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-01-26T19:03:10.922000Z'
+updated_at: '2017-03-21T15:19:55.849828Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 241540
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 241540

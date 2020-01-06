@@ -1,0 +1,39 @@
+id: 3814
+game_id: 21
+game_slug: diablo-ii
+name: Diablo II
+year: 2000
+user: gugutz
+runner: wine
+slug: diablo-ii-battlenet
+version: Battle.net
+description: Battle.net version
+notes: "- Install into C:\\Program File (x86)\\Diablo II\r\n- P2P network used by\
+  \ downloader seems to not work (files are downloaded directly from Blizzard servers)\r\
+  \n- starts in window"
+created_at: '2017-05-22T23:41:51.663000Z'
+updated_at: '2019-12-22T11:26:21.962519Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    args: -w
+    exe: drive_c/Program Files (x86)/Diablo II/Diablo II.exe
+  installer:
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      name: wineexec
+  wine:
+    version: lutris-4.20-x86_64
+  files:
+  - installer:
+      filename: Downloader_Diablo2_enUS.exe
+      url: https://www.battle.net/download/getLegacy?product=D2DV&locale=enUS&os=WIN

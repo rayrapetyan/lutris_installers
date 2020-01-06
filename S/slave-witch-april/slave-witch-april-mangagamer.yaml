@@ -1,0 +1,32 @@
+id: 4319
+game_id: 11708
+game_slug: slave-witch-april
+name: Slave Witch April
+year: 2011
+user: FakeShemp
+runner: wine
+slug: slave-witch-april-mangagamer
+version: MangaGamer
+description: ''
+notes: ''
+created_at: '2017-06-12T20:17:24.878636Z'
+updated_at: '2018-05-19T03:41:51.511478Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Slave Witch April
+      file: $file1
+  files:
+  - file1: N/A:Please select the MangaGamer archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Slave Witch April/lcsebody.exe
+    arch: win32

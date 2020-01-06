@@ -1,0 +1,24 @@
+id: 825
+game_id: 2460
+game_slug: merchants-of-kaidan
+name: Merchants of Kaidan
+year: 2014
+user: Xodetaetl
+runner: steam
+slug: merchants-of-kaidan-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T16:40:01.680000Z'
+updated_at: '2014-09-15T17:10:38.197000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 294020
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 294020

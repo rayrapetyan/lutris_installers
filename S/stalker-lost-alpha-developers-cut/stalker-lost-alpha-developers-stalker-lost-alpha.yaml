@@ -1,0 +1,54 @@
+id: 16297
+game_id: 29777
+game_slug: stalker-lost-alpha-developers-cut
+name: S.T.A.L.K.E.R. Lost Alpha Developers Cut
+year: 2018
+user: 7hr08ik
+runner: wine
+slug: stalker-lost-alpha-developers-stalker-lost-alpha
+version: S.T.A.L.K.E.R. - Lost Alpha
+description: "-During install -- SKIP \"Visual C++ 2013\" -- SKIP \"DirectX\" -- SKIP\
+  \ \"Xvid\" --\r\n (included in script).\r\n-DO INSTALL OpenAL.\r\n\r\n-DX9 lighting\
+  \ works as of lutris-nofshack-4.18"
+notes: "=-- DX9 only. Medium preset then alter. Setting to High crashes game --=\r\
+  \n\r\n-Tested with v1.4007\r\n-Tested with extensive mod list"
+created_at: '2019-10-19T21:53:17.659000Z'
+updated_at: '2019-12-23T20:06:08.806769Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: setup.exe
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2013 xvid d3dx9
+      arch: win32
+      name: winetricks
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      description: Running Installer
+      arch: win32
+      name: wineexec
+  - copy:
+      src: $GAMEDIR/drive_c/windows/system32/msvcp120.dll
+      dst: $GAMEDIR/drive_c/Program Files/S.T.A.L.K.E.R. - Lost Alpha DC/bins/
+  - copy:
+      src: $GAMEDIR/drive_c/windows/system32/msvcr120.dll
+      dst: $GAMEDIR/drive_c/Program Files/S.T.A.L.K.E.R. - Lost Alpha DC/bins/
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/S.T.A.L.K.E.R. - Lost Alpha DC/bins/XR_3DA.exe
+    working_dir: $GAMEDIR/drive_c/Program Files/S.T.A.L.K.E.R. - Lost Alpha DC
+    arch: win32

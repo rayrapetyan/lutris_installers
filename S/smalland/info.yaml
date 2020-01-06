@@ -1,0 +1,18 @@
+name: SMALLAND
+slug: smalland
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: FPS
+- name: RPG
+aliases: []
+banner_url: /games/banner/smalland.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:16.007786Z'
+steamid: 68200
+gogslug: ''
+humblestoreid: ''

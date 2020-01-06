@@ -1,0 +1,57 @@
+id: 5702
+game_id: 7299
+game_slug: romcenter
+name: RomCenter
+year: 1997
+user: Lulu
+runner: wine
+slug: romcenter-400rc3
+version: 4.0.0.rc3
+description: Not working.
+notes: Not working.
+created_at: '2017-09-11T20:47:16.389000Z'
+updated_at: '2018-08-30T04:07:44.963218Z'
+draft: false
+published: true
+published_by: null
+rating: '1'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Visual C++ Runtime 2010
+      app: vcrun2010
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .NET 3.5
+      app: dotnet35
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .NET 4.0
+      app: dotnet40
+      arch: win32
+      name: winetricks
+  - extract:
+      description: Extracting RomCenter
+      dst: $GAMEDIR/drive_c/Program Files/RomCenter
+      file: $download
+  files:
+  - download: http://www.romcenter.com/download/rc_4_0_0_rc3.7z
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/RomCenter/RomCenter.exe
+    working_dir: $GAMEDIR/drive_c/Program Files/RomCenter
+    arch: win32

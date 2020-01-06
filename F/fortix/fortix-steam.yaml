@@ -1,0 +1,24 @@
+id: 6418
+game_id: 892
+game_slug: fortix
+name: Fortix
+year: null
+user: Stoney_Fish
+runner: winesteam
+slug: fortix-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-11-24T19:38:24.597873Z'
+updated_at: '2017-11-26T01:58:38.851376Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 45400
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 45400

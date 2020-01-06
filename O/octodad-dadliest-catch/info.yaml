@@ -1,0 +1,16 @@
+name: 'Octodad: Dadliest Catch'
+slug: octodad-dadliest-catch
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/octodad-dadliest-catch.jpg
+icon_url: /games/icon/octodad-dadliest-catch.png
+is_public: true
+updated: '2019-01-23T08:30:35.371867Z'
+steamid: 224480
+gogslug: octodad_dadliest_catch
+humblestoreid: octodad-dadliest-catch

@@ -1,0 +1,15 @@
+name: Risen
+slug: risen
+year: 2009
+platforms:
+- name: Windows
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/risen.jpg
+icon_url: /games/icon/risen.png
+is_public: true
+updated: '2019-02-15T00:42:27.902992Z'
+steamid: 40300
+gogslug: risen
+humblestoreid: ''

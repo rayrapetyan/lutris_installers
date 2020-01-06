@@ -1,0 +1,24 @@
+id: 4108
+game_id: 2882
+game_slug: monster-loves-you
+name: Monster Loves You!
+year: null
+user: FakeShemp
+runner: steam
+slug: monster-loves-you-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-06-04T18:51:56.767493Z'
+updated_at: '2017-06-04T22:02:49.500214Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 226740
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 226740

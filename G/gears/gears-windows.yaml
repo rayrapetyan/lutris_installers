@@ -1,0 +1,39 @@
+id: 16527
+game_id: 30067
+game_slug: gears
+name: Gears
+year: 2005
+user: vanstaveren
+runner: wine
+slug: gears-windows
+version: Windows
+description: null
+notes: ''
+created_at: '2019-11-01T20:14:43.504000Z'
+updated_at: '2019-11-01T23:06:10.525004Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: winxp
+      name: winetricks
+  - move:
+      src: wglgears
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Gears
+  files:
+  - wglgears: http://www2.cs.uidaho.edu/~jeffery/win32/wglgears.exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Gears/wglgears.exe

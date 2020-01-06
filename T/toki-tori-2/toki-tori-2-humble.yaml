@@ -1,0 +1,40 @@
+id: 3747
+game_id: 1194
+game_slug: toki-tori-2
+name: Toki Tori 2+
+year: null
+user: FakeShemp
+runner: linux
+slug: toki-tori-2-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-20T20:52:24.368202Z'
+updated_at: '2017-05-22T17:01:05.192759Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 201420
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: TokiTori2.bin.x86
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data/noarch
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86_64
+      dst: $GAMEDIR
+  exe64: TokiTori2.bin.x86_64
+  files:
+  - file1: N/A:Please select the Humble installer

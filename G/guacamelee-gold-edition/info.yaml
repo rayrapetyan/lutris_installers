@@ -1,0 +1,16 @@
+name: Guacamelee! Gold Edition
+slug: guacamelee-gold-edition
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/guacamelee-gold-edition.jpg
+icon_url: /games/icon/guacamelee-gold-edition.png
+is_public: true
+updated: '2019-01-23T08:29:44.184804Z'
+steamid: 214770
+gogslug: guacamelee_gold_edition
+humblestoreid: ''

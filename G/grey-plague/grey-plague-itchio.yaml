@@ -1,0 +1,32 @@
+id: 5964
+game_id: 14269
+game_slug: grey-plague
+name: Grey Plague
+year: 2017
+user: FakeShemp
+runner: linux
+slug: grey-plague-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-10-15T16:20:53.061576Z'
+updated_at: '2017-10-15T16:21:49.496866Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Grey Plague.x86
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/Grey Plague_L
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the itch.io archive

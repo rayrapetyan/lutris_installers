@@ -1,0 +1,15 @@
+name: BIT.TRIP Runner
+slug: bittrip-runner
+year: 2010
+platforms:
+- name: Linux
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/bittrip-runner.jpg
+icon_url: /games/icon/bittrip-runner.png
+is_public: true
+updated: '2019-01-23T08:28:36.822834Z'
+steamid: 63710
+gogslug: bittrip_runner
+humblestoreid: bittrip-runner

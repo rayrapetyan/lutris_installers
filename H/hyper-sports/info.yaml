@@ -1,0 +1,18 @@
+name: Hyper Sports
+slug: hyper-sports
+year: 1984
+platforms:
+- name: Arcade
+- name: Commodore 64
+- name: MSX
+- name: ZX Spectrum
+genres:
+- name: Sports
+aliases: []
+banner_url: /games/banner/hyper-sports.jpg
+icon_url: null
+is_public: true
+updated: '2019-02-18T04:45:46.112496Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,28 @@
+id: 4723
+game_id: 4791
+game_slug: ratz-instagib-20
+name: Ratz Instagib 2.0
+year: null
+user: catman1900
+runner: winesteam
+slug: ratz-instagib-20-steam
+version: Steam
+description: Shoot first, eat cheese later! Jump into a fast, frenetic and exciting
+  one-hit, one-kill FPS arena shooter with a totally level playing field, tonnes of
+  maps, customization and a robust map editor!
+notes: ''
+created_at: '2017-06-29T19:14:52.196000Z'
+updated_at: '2017-09-04T01:28:33.818751Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 338170
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  wine:
+    version: staging-2.15-x86_64
+  game:
+    appid: 338170

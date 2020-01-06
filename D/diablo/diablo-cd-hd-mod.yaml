@@ -1,0 +1,44 @@
+id: 2021
+game_id: 5826
+game_slug: diablo
+name: Diablo
+year: 1996
+user: strider
+runner: wine
+slug: diablo-cd-hd-mod
+version: CD + HD mod
+description: Adds a high resolution mod (Belzebub).
+notes: "- Original CD required.\r\n- Use default options during the Windows setup.\
+  \ \r\n- Close the game with Alt+F4 if it launches automatically at the end.\r\n\
+  - After installation, you can move  the \"diabdat.mpq\" file to the game's directory\
+  \ and play without the CD."
+created_at: '2016-03-15T04:49:41.720000Z'
+updated_at: '2019-03-01T20:14:37.622157Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: 1412601690
+gogslug: diablo
+humblestoreid: ''
+script:
+  exe: drive_c/Program Files/Diablo/Belzebub.exe
+  installer:
+  - insert-disc:
+      requires: diabdat.mpq
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Diablo
+      file: belzebub
+  - merge:
+      src: $DISC/diabdat.mpq
+      dst: $GAMEDIR
+  files:
+  - belzebub: https://lutris.net/files/games/diablo/belzebub-r1045.tar.gz
+  game:
+    prefix: $GAMEDIR
+    arch: win32

@@ -1,0 +1,33 @@
+id: 13045
+game_id: 26459
+game_slug: borderlands-goty-enhanced
+name: Borderlands GOTY Enhanced
+year: 2019
+user: soredake
+runner: winesteam
+slug: borderlands-goty-enhanced-steam
+version: Steam
+description: null
+notes: working steam version with working launcher (dotnet40)
+created_at: '2019-04-23T12:23:40.017983Z'
+updated_at: '2019-04-27T05:49:49.422155Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 729040
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: dotnet40
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 729040

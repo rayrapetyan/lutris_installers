@@ -1,0 +1,26 @@
+id: 9569
+game_id: 1532
+game_slug: half-minute-hero-super-mega-neo-climax-ultimate-bo
+name: 'Half Minute Hero: Super Mega Neo Climax Ultimate Boy'
+year: null
+user: sunderkeenin
+runner: winesteam
+slug: half-minute-hero-super-mega-n-steam
+version: Steam
+description: '**game is extremely loud by default**'
+notes: ge-3.6 was the newest version I could find that had functioning sound
+created_at: '2018-08-04T02:26:22.201566Z'
+updated_at: '2018-08-04T08:29:04.520223Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 214830
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: ge-3.6-x86_64
+  game:
+    appid: 214830

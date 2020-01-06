@@ -1,0 +1,68 @@
+id: 2485
+game_id: 7200
+game_slug: gangsters-organized-crime
+name: 'Gangsters: Organized Crime'
+year: 1998
+user: ssf
+runner: wine
+slug: gangsters-organized-crime-gogcom
+version: GOG.com
+description: ''
+notes: The game menu has some display issues however its fully working
+created_at: '2016-08-17T19:48:39.440761Z'
+updated_at: '2016-08-22T23:04:33.266140Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1207659108
+gogslug: gangsters_organized_crime
+humblestoreid: ''
+script:
+  gogid: gangsters_organized_crime
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      type: REG_SZ
+      value: ''
+      key: winemenubuilder.exe
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+  - task:
+      prefix: $GAMEDIR
+      app: ddr=gdi
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: glsl=disabled
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: multisampling=disabled
+      silent: true
+      name: winetricks
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /VERYSILENT /SP- /NOCANCEL /SUPPRESSMSGBOXES
+      description: Installing...
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Disabling unused WINE features
+      app: sandbox
+      silent: true
+      name: winetricks
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Gangsters/gangsters.exe
+    arch: win32

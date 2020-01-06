@@ -1,0 +1,24 @@
+id: 7803
+game_id: 15067
+game_slug: opus-magnum
+name: Opus Magnum
+year: 2017
+user: Talvi
+runner: steam
+slug: opus-magnum-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-04-06T12:01:13.943000Z'
+updated_at: '2018-04-12T06:02:00.187388Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 558990
+gogid: 1123993222
+gogslug: opus_magnum
+humblestoreid: ''
+script:
+  game:
+    appid: 558990

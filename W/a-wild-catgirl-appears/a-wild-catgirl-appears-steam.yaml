@@ -1,0 +1,24 @@
+id: 3179
+game_id: 6093
+game_slug: a-wild-catgirl-appears
+name: A Wild Catgirl Appears!
+year: 2016
+user: FakeShemp
+runner: steam
+slug: a-wild-catgirl-appears-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-01-23T22:27:15.277049Z'
+updated_at: '2017-03-16T01:46:11.422956Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 429580
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 429580

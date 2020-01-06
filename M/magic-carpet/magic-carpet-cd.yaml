@@ -1,0 +1,55 @@
+id: 7732
+game_id: 17722
+game_slug: magic-carpet
+name: Magic Carpet
+year: 1994
+user: founderio
+runner: dosbox
+slug: magic-carpet-cd
+version: CD
+description: null
+notes: "After startup, the game will ask for a language and the sound setup.\r\nChoose\
+  \ \"Soundblaster Compatible\", then the highest values in the following options.\
+  \ This seems to work just fine with the default config of DOSBox.\r\n\r\nOnce in\
+  \ the game, hit 'R' to switch to high-res mode or cycle down to ~25000-30000 cycles\
+  \ (Ctrl-F11 + Ctrl-F12) to get a playable speed."
+created_at: '2018-04-02T18:10:32.405000Z'
+updated_at: '2018-04-07T01:46:54.777776Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1207658935
+gogslug: magic_carpet
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: carpet.exe
+  - merge:
+      src: $DISC
+      dst: $GAMEDIR
+  - write_config:
+      section: dosbox
+      key: memsize
+      value: 64
+      file: $GAMEDIR/dosbox_carpet.conf
+  - write_config:
+      section: cpu
+      key: cycles
+      value: fixed 45000
+      file: $GAMEDIR/dosbox_carpet.conf
+  - write_config:
+      section: cpu
+      key: cycleup
+      value: 5000
+      file: $GAMEDIR/dosbox_carpet.conf
+  - write_config:
+      section: cpu
+      key: cycledown
+      value: 5000
+      file: $GAMEDIR/dosbox_carpet.conf
+  game:
+    config_file: $GAMEDIR/dosbox_carpet.conf
+    main_file: $GAMEDIR/carpet.exe

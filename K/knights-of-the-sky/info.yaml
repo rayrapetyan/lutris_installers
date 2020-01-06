@@ -1,0 +1,17 @@
+name: Knights of the Sky
+slug: knights-of-the-sky
+year: 1990
+platforms:
+- name: Amiga
+- name: Atari ST
+- name: MS-DOS
+genres:
+- name: Flight
+aliases: []
+banner_url: /games/banner/knights-of-the-sky.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:06.164115Z'
+steamid: 347270
+gogslug: knights_of_the_sky
+humblestoreid: ''

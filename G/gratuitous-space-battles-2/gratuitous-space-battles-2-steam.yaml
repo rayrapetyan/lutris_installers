@@ -1,0 +1,24 @@
+id: 1505
+game_id: 4229
+game_slug: gratuitous-space-battles-2
+name: Gratuitous Space Battles 2
+year: null
+user: Xodetaetl
+runner: steam
+slug: gratuitous-space-battles-2-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-04-25T17:52:49.551000Z'
+updated_at: '2015-04-25T17:55:45.854000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 344840
+gogid: 1429007120
+gogslug: gratuitous_space_battles_2
+humblestoreid: ''
+script:
+  game:
+    appid: 344840

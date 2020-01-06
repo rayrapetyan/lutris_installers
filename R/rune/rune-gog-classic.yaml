@@ -1,0 +1,138 @@
+id: 14174
+game_id: 28070
+game_slug: rune
+name: RUNE
+year: 2000
+user: legluondunet
+runner: wine
+slug: rune-gog-classic
+version: GOG Classic
+description: "This script will install \"Rune Classic\" GOG edition with support for\
+  \ modern screen resolution.\r\nDuring install please let all options by default.\r\
+  \nThanks to the people who contributed to play this game in the best conditions."
+notes: "- Rune Classic has bad controller support. Instead I invite you to use a keymapper\
+  \ like Antimicro or sc-controller. You will find profiles for x360 and Steam Controller\
+  \ in the \"gamepad profiles\" folder.\r\n- Please report issue concerning this script\
+  \ on my github page:\r\nhttps://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2019-06-17T20:06:31.149000Z'
+updated_at: '2019-09-09T00:23:01.236042Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: rune_classic
+humblestoreid: ''
+script:
+  system:
+    use_us_layout: true
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Rune Classic/System/Rune.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /SILENT /SUPPRESSMSGBOXES
+      description: Installing...
+      name: wineexec
+  - input_menu:
+      options:
+      - int: English
+      - frt: French
+      - itt: Italian
+      - det: german
+      - est: spanish
+      - rut: russian
+      description: Select your preferred language
+      id: lang
+      preselect: int
+  - write_config:
+      data:
+        Engine.GameEngine:
+          ServerActors: IpServer.UdpServerUplink MasterServerAddress=master.333networks.com
+            MasterServerPort=27900
+        IpServer.UdpServerUplink:
+          MasterServerAddress: master.333networks.com
+        UBrowserAll:
+          ListFactories[0]: UBrowser.UBrowserGSpyFact,MasterServerAddress=master.333networks.com,MasterServerTCPPort=28900,ServerRegion=0,GameName=rune
+        WinDrv.WindowsClient:
+          UseDirectDraw: true
+          FullscreenViewportY: $RESOLUTION_HEIGHT
+          FullscreenColorBits: 32
+          FullscreenViewportX: $RESOLUTION_WIDTH
+          UseJoystick: false
+        Engine.Engine:
+          Language: $INPUT_lang
+      file: $GAMEDIR/drive_c/GOG Games/Rune Classic/System/Default.ini
+      merge: true
+  - input_menu:
+      options:
+      - '91': 16/9
+      - '85': 16/10
+      - autre: other or do not know
+      description: 'What is your screen ratio:'
+      id: fov
+      preselect: 91
+  - write_config:
+      data:
+        Engine.Input:
+          MouseWheelUp: null
+          H: TurnLeft
+          J: TurnRight
+          B: Look
+          Shift: null
+          V: ZTargetToggle
+        Engine.PlayerPawn:
+          DefaultFOV: $INPUT_fov.000000
+          DesiredFOV: $INPUT_fov.000000
+      file: $GAMEDIR/drive_c/GOG Games/Rune Classic/System/DefUser.ini
+      merge: true
+  - merge:
+      src: gppx360
+      dst: $GAMEDIR/drive_c/GOG Games/Rune Classic/gamepad profiles/
+  - copy:
+      src: gppsteam
+      dst: $GAMEDIR/drive_c/GOG Games/Rune Classic/gamepad profiles/
+  - copy:
+      src: gppreadme
+      dst: $GAMEDIR/drive_c/GOG Games/Rune Classic/gamepad profiles/
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_DWORD
+      value: '00000000'
+      key: csmt
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D\
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: Y
+      key: EAXEnabled
+      path: HKEY_CURRENT_USER\Software\Wine\DirectSound
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: 0 0 0
+      key: background
+      path: HKEY_CURRENT_USER\Control Panel\Colors\
+  - execute:
+      command: cd "$GAMEDIR/drive_c/GOG Games/Rune Gold"; rm -f -r System/User.ini
+        System/Rune.ini System/OpenAL32.dll gog* Launch* Support* unins* webcache.zip
+        redist ;
+  files:
+  - setup: N/A:Select the EXE downloaded from GOG
+  - gppreadme: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Rune/gamepad%20profiles/rune_gamepad_readme.html
+  - gppx360: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Rune/gamepad%20profiles/rune_x360.gamecontroller.amgp
+  - gppsteam: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Rune/gamepad%20profiles/rune_steam.sccprofile
+  custom-name: RUNE Classic - GOG

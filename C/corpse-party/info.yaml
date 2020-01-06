@@ -1,0 +1,18 @@
+name: Corpse Party
+slug: corpse-party
+year: 2016
+platforms:
+- name: Linux
+- name: Nintendo 3DS
+- name: Sony PSP
+genres:
+- name: RPG
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/corpse-party.jpg
+icon_url: /games/icon/corpse-party.png
+is_public: true
+updated: '2019-01-23T08:28:58.365417Z'
+steamid: 251270
+gogslug: corpse_party
+humblestoreid: ''

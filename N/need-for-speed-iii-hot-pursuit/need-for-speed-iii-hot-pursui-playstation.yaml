@@ -1,0 +1,31 @@
+id: 6670
+game_id: 15140
+game_slug: need-for-speed-iii-hot-pursuit
+name: 'Need for Speed III: Hot Pursuit'
+year: 1998
+user: FakeShemp
+runner: libretro
+slug: need-for-speed-iii-hot-pursui-playstation
+version: PlayStation
+description: null
+notes: ''
+created_at: '2017-12-15T00:27:35.888337Z'
+updated_at: '2017-12-15T00:33:45.540579Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the PlayStation image file
+  game:
+    core: mednafen_psx_hw
+    main_file: file1

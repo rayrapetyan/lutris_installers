@@ -1,0 +1,27 @@
+id: 8845
+game_id: 12688
+game_slug: 18-wheels-of-steel-across-america
+name: '18 Wheels of Steel: Across America'
+year: 2003
+user: socterean
+runner: winesteam
+slug: 18-wheels-of-steel-across-ame-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-21T12:38:46.619121Z'
+updated_at: '2018-06-21T15:58:29.563361Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 514160
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    Desktop: true
+  game:
+    appid: 514160
+    arch: win32

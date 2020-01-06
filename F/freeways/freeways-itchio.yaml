@@ -1,0 +1,32 @@
+id: 7737
+game_id: 17725
+game_slug: freeways
+name: Freeways
+year: 2017
+user: founderio
+runner: wine
+slug: freeways-itchio
+version: itch.io
+description: Downloadable version from itch.io
+notes: Savegames are stored in $GAMEDIR/drive_c/users/[user]/Application Data/CaptainGames/Freeways
+created_at: '2018-04-02T22:19:13.065704Z'
+updated_at: '2018-05-19T03:42:00.434552Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 780210
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Freeways
+      file: $file1
+  files:
+  - file1: N/A:Select freeways-windows.zip downloaded from itch.io
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/Freeways/Freeways.exe
+    arch: win32

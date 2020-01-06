@@ -1,0 +1,121 @@
+id: 11147
+game_id: 23390
+game_slug: fallout-76
+name: Fallout 76
+year: 2018
+user: Vodkannelle
+runner: wine
+slug: fallout-76-bethesdanet-1437
+version: Bethesda.Net 1.43.7
+description: DXVK and esync ready.
+notes: "Currently, installing games on the launcher, quitting it, running Fallout\
+  \ 76 on Nvidia and mouse acceleration are 4 well known issue.\r\n\r\nFor everyone:\r\
+  \nThere will be a little script placed in the launcher folder so it'll be easier\
+  \ to install and update the game. It's currently located in Bethesda launcher folder\
+  \ (by default, game_directory/drive_c/Program Files (x86)/Bethesda.Net Launcher/helper.sh).\
+  \ Run it in its current folder (and the working directory must be Bethesda.Net launcher's\
+  \ directory) when first installing or when updating the game.\r\n\r\nIf you want\
+  \ to copy paste an already existing FO76 installation, just start the installation,\
+  \ close the launcher, paste your game files where you choose to install FO76 with\
+  \ the launcher, then launch the launcher again. You may need to still run the helper.sh\
+  \ script.\r\n\r\nYou'll also need to disable the mouse acceleration. There will\
+  \ be a Fallout76Custom.ini in the root of the game directory (there will be another\
+  \ one for Nvidia users, I'll talk about that one later), copy-paste it in ~/Documents/Fallout\
+  \ 76 when you have launched FO76 a first time.\r\n\r\nFinally, the launcher won't\
+  \ close softly by itself, just close it via the corresponding button in Lutris and\
+  \ you should be fine.\r\n\r\nFor Nvidia users:\r\nThere will be a custom pref file\
+  \ directly at the root of the game directory (where you installed the whole thing),\
+  \ it's called Fallout76CustomNvidia.ini. If you've read about, you should already\
+  \ have pasted an ini for the mouse issue. Just rename that one Fallout76Custom.ini\
+  \ and replace the other one.\r\n\r\nAltough, the whole experience may or may not\
+  \ work perfectly. You may need to create your character on a Windows installation\
+  \ because of a known crash, and you may randomly crash depending on your available\
+  \ RAM of sort (not 100% sure why it happens, and not even sure if it has anything\
+  \ to do with RAM, but yeah, sometimes, I had VkAlloc errors and Wine access violation\
+  \ after either a couple of minute or a dozen of hours, it really depends).\r\n\r\
+  \nPlay at your own risks, it's still an online game being played on Wine, although\
+  \ currently no report of ban has been seen. And in general, it's pretty... Alpha-ish,\
+  \ when it comes to crashes and Nvidia driver, hope you'll have luck !"
+created_at: '2018-12-12T00:07:00.494000Z'
+updated_at: '2019-12-29T08:34:24.562246Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing needed libraries
+      app: corefonts vcrun2012 win7
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: Y
+      key: GrabFullscreen
+      path: HKEY_CURRENT_USER\Software\Wine\X11 Driver
+  - task:
+      executable: bethesdaSetup
+      prefix: $GAMEDIR
+      description: Installing Bethesda.Net launcher, please do not sign in, the launcher
+        will shortly close after being launched. If not, you can safely close it,
+        and wait for the end of the installation.
+      arch: win64
+      args: /silent
+      exclude_processes: BethesdaNetLauncher.exe
+      name: wineexec
+  - move:
+      src: nvCustomSettings
+      dst: $GAMEDIR
+  - move:
+      src: customSettings
+      dst: $GAMEDIR
+  - write_config:
+      section: Controls
+      key: bBackgroundMouse
+      value: 1
+      file: $GAMEDIR/Fallout76Custom.ini
+  - write_config:
+      section: Controls
+      key: bBackgroundMouse
+      value: 1
+      file: $GAMEDIR/prefix/drive_c/users/$USER/My Documents/My Games/Fallout 76/Fallout76Custom.ini
+  - move:
+      src: helper
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Bethesda.net Launcher
+  - chmodx: $GAMEDIR/drive_c/Program Files (x86)/Bethesda.net Launcher/helper.sh
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files (x86)/Bethesda.net Launcher/BethesdaNetLauncher.exe
+    working_dir: $GAMEDIR/drive_c/Program Files (x86)/Bethesda.net Launcher
+    arch: win64
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      __GL_SHADER_DISK_CACHE: 0
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+  wine:
+    version: tkg-4.20-x86_64
+    dxvk: true
+  files:
+  - bethesdaSetup: http://download.cdp.bethesda.net/BethesdaNetLauncher_Setup.exe
+  - helper: https://raw.githubusercontent.com/Makaronelle/bethesda-linux-helper/master/helper.sh
+  - customSettings: https://gist.githubusercontent.com/Makaronelle/3839039cb938d07a817ace2c89ee0a08/raw/1936ad59668ae2cc6c7596d222fe62b02df5e21e/Fallout76Custom.ini
+  - nvCustomSettings: https://gist.githubusercontent.com/Makaronelle/4e911a869f679c8c71bef3cf644e12f0/raw/37d58a291958497540416099cfeaad78a3ad992c/Fallout76CustomNvidia.ini

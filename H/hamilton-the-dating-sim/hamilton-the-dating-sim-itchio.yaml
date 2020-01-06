@@ -1,0 +1,30 @@
+id: 11446
+game_id: 24899
+game_slug: hamilton-the-dating-sim
+name: 'Hamilton: The Dating Sim'
+year: 2018
+user: Zekromaster
+runner: linux
+slug: hamilton-the-dating-sim-itchio
+version: Itch.io
+description: null
+notes: ''
+created_at: '2019-01-05T11:17:21.132980Z'
+updated_at: '2019-01-22T07:54:28.571186Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: tarbz
+  - chmodx: $GAMEDIR/HamiltonTheDatingSim.sh
+  files:
+  - tarbz: 'N/A: Select the archive you got from itch.io'
+  game:
+    exe: HamiltonTheDatingSim.sh

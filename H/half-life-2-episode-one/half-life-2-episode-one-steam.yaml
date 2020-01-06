@@ -1,0 +1,24 @@
+id: 110
+game_id: 128
+game_slug: half-life-2-episode-one
+name: 'Half-Life 2: Episode One'
+year: 2006
+user: dennisjj4
+runner: steam
+slug: half-life-2-episode-one-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2013-12-17T18:15:14.093000Z'
+updated_at: '2013-12-17T23:39:22.015000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 380
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 380

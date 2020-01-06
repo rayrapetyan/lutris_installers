@@ -1,0 +1,24 @@
+id: 1733
+game_id: 1705
+game_slug: leviathan-the-last-day-of-the-decade
+name: 'Leviathan: The Last Day of the Decade'
+year: 2013
+user: Xodetaetl
+runner: steam
+slug: leviathan-the-last-day-of-the-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-12-15T13:51:42.156176Z'
+updated_at: '2015-12-15T13:51:52.144709Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 328270
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 328270

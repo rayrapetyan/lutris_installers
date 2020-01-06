@@ -1,0 +1,33 @@
+id: 9125
+game_id: 10383
+game_slug: hellion
+name: HELLION
+year: null
+user: staticextasy
+runner: winesteam
+slug: hellion-steam
+version: Steam
+description: Multiplayer works with no Issues. Wine-Staging 3.11
+notes: Single Player does not work. DXVK does not work
+created_at: '2018-07-09T20:27:47.209042Z'
+updated_at: '2018-07-10T03:36:07.275001Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 588210
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-3.11-x86_64
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 588210
+    arch: win64

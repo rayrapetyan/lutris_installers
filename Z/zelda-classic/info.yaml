@@ -1,0 +1,17 @@
+name: Zelda Classic
+slug: zelda-classic
+year: 1998
+platforms:
+- name: Linux
+- name: MS-DOS
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/zelda-classic.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:14.120022Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

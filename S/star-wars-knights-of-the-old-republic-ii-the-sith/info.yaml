@@ -1,0 +1,17 @@
+name: 'STAR WARS Knights of the Old Republic II: The Sith Lords'
+slug: star-wars-knights-of-the-old-republic-ii-the-sith-
+year: 2004
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Role-playing
+- name: Sci-fi
+aliases: []
+banner_url: /games/banner/star-wars-knights-of-the-old-republic-ii-the-sith-.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:25.663301Z'
+steamid: null
+gogslug: star_wars_knights_of_the_old_republic_ii_the_sith_lords
+humblestoreid: ''

@@ -1,0 +1,17 @@
+name: Corsairs Gold
+slug: corsairs-gold
+year: 1999
+platforms:
+- name: Windows
+genres:
+- name: Historical
+- name: Real-time
+- name: Strategy
+aliases: []
+banner_url: /games/banner/corsairs-gold.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:58.415178Z'
+steamid: null
+gogslug: corsairs_gold
+humblestoreid: ''

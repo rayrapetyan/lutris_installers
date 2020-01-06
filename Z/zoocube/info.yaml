@@ -1,0 +1,17 @@
+name: ZooCube
+slug: zoocube
+year: 2002
+platforms:
+- name: GameCube
+- name: Nintendo Game Boy Advance
+- name: Sony PlayStation 2
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/zoocube.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:15.644911Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

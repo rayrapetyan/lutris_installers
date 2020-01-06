@@ -1,0 +1,24 @@
+id: 11073
+game_id: 19866
+game_slug: ultimate-custom-night
+name: Ultimate Custom Night
+year: null
+user: nowhereprisioner
+runner: winesteam
+slug: ultimate-custom-night-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-12-03T22:26:12.750000Z'
+updated_at: '2018-12-12T05:23:46.033050Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 871720
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 871720

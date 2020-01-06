@@ -1,0 +1,15 @@
+name: Gran Turismo
+slug: gran-turismo
+year: 1997
+platforms:
+- name: Sony PlayStation
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/gran-turismo.jpg
+icon_url: /games/icon/gran-turismo.png
+is_public: true
+updated: '2019-01-23T08:29:42.562945Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

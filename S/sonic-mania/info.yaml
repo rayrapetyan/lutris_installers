@@ -1,0 +1,15 @@
+name: Sonic Mania
+slug: sonic-mania
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Platformer
+aliases: []
+banner_url: /games/banner/sonic-mania.jpg
+icon_url: /games/icon/sonic-mania.png
+is_public: true
+updated: '2019-05-11T07:15:48.852617Z'
+steamid: 584400
+gogslug: ''
+humblestoreid: ''

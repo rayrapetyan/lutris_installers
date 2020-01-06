@@ -1,0 +1,47 @@
+id: 17217
+game_id: 7225
+game_slug: quake-iii-gold
+name: 'Quake III: Gold'
+year: 2001
+user: Retroth
+runner: linux
+slug: quake-iii-gold-ioquake3-gog-data
+version: ioquake3 + GOG data
+description: null
+notes: ''
+created_at: '2019-12-07T15:33:03.332000Z'
+updated_at: '2019-12-22T19:22:02.737990Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: 1443696086
+gogslug: quake_iii_gold
+humblestoreid: ''
+script:
+  installer:
+  - chmodx: ioquake3installer
+  - execute:
+      args: --tar -xf ./ioquake3.x86_64.tar
+      file: ioquake3installer
+  - extract:
+      dst: $GAMEDIR
+      file: $GAMEDIR/ioquake3.x86_64.tar
+  - execute:
+      command: rm ioquake3.x86_64.tar
+  - extract:
+      dst: $CACHE/innoextract
+      file: innoextract
+  - execute:
+      args: --extract $q3data --output-dir $CACHE/q3data/
+      file: $CACHE/innoextract/innoextract
+  - merge:
+      src: $CACHE/q3data/app/baseq3
+      dst: $GAMEDIR/baseq3
+  files:
+  - ioquake3installer: http://ioquake3.org/files/1.36/installer/ioquake3-1.36-7.1.x86_64.run
+  - innoextract: https://lutris.net/files/tools/innoextract.tar.gz
+  - q3data: N/A:Please select the GOG.com Windows installer
+  game:
+    exe: ioquake3.x86_64

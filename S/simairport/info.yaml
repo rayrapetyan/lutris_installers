@@ -1,0 +1,15 @@
+name: SimAirport
+slug: simairport
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Simulation
+aliases: []
+banner_url: /games/banner/simairport.jpg
+icon_url: /games/icon/simairport.png
+is_public: true
+updated: '2019-01-23T08:31:13.682279Z'
+steamid: 598330
+gogslug: ''
+humblestoreid: ''

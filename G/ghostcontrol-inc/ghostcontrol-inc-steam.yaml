@@ -1,0 +1,24 @@
+id: 769
+game_id: 2451
+game_slug: ghostcontrol-inc
+name: GhostControl Inc.
+year: null
+user: Xodetaetl
+runner: steam
+slug: ghostcontrol-inc-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T14:00:56.153000Z'
+updated_at: '2014-09-15T16:13:29.002000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 280540
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 280540

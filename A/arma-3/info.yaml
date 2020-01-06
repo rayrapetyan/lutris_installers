@@ -1,0 +1,16 @@
+name: Arma 3
+slug: arma-3
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Simulation
+aliases: []
+banner_url: /games/banner/arma-3.jpg
+icon_url: /games/icon/arma-3.png
+is_public: true
+updated: '2019-01-23T08:28:25.214873Z'
+steamid: 107410
+gogslug: ''
+humblestoreid: ''

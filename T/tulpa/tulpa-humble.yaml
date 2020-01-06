@@ -1,0 +1,31 @@
+id: 4122
+game_id: 4899
+game_slug: tulpa
+name: Tulpa
+year: null
+user: FakeShemp
+runner: linux
+slug: tulpa-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-04T20:57:42.919475Z'
+updated_at: '2017-06-04T22:09:37.072324Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 331340
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Tulpa.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Tulpa.x86
+  - chmodx: $GAMEDIR/Tulpa.x86_64
+  exe64: Tulpa.x86_64
+  files:
+  - file1: N/A:Please select the Humble archive

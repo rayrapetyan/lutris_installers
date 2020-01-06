@@ -1,0 +1,38 @@
+id: 12283
+game_id: 1853
+game_slug: banished
+name: Banished
+year: 2014
+user: vandaall
+runner: wine
+slug: banished-gog-64-bit
+version: GOG 64-bit
+description: null
+notes: ''
+created_at: '2019-03-07T12:41:00.039000Z'
+updated_at: '2019-03-12T07:21:40.437595Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 242920
+gogid: 1207660783
+gogslug: banished
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - game: N/A:Please select the GOG installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Banished/Application-x64.exe
+    arch: win64

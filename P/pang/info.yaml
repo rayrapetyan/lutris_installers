@@ -1,0 +1,22 @@
+name: Pang
+slug: pang
+year: 1989
+platforms:
+- name: Amiga
+- name: Amstrad CPC 6128
+- name: Arcade
+- name: Atari ST
+- name: Commodore 64
+- name: Game Boy
+- name: ZX Spectrum
+genres:
+- name: Action
+- name: Arcade
+aliases: []
+banner_url: /games/banner/pang.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:41.668064Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

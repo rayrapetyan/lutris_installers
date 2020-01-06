@@ -1,0 +1,24 @@
+id: 8220
+game_id: 1391
+game_slug: elsword
+name: Elsword
+year: null
+user: soredake
+runner: winesteam
+slug: elsword-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T07:25:58.979348Z'
+updated_at: '2018-05-13T09:05:24.850012Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 237310
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 237310

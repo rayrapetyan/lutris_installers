@@ -1,0 +1,32 @@
+id: 2597
+game_id: 2123
+game_slug: hexcells-plus
+name: Hexcells Plus
+year: 2014
+user: Lulu
+runner: linux
+slug: hexcells-plus-humble-bundle
+version: Humble Bundle
+description: ''
+notes: ''
+created_at: '2016-08-24T21:47:04.300833Z'
+updated_at: '2016-08-30T14:42:24.878332Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 271900
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Hexcells Plus.x86
+  installer:
+  - extract:
+      file: hexcells-plus-game
+  - chmodx: $GAMEDIR/Hexcells Plus.x86
+  - chmodx: $GAMEDIR/Hexcells Plus.x86_64
+  exe64: Hexcells Plus.x86_64
+  files:
+  - hexcells-plus-game: 'N/A: Please select the .zip install file downloaded from
+      humblebundle.com'

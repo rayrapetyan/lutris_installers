@@ -1,0 +1,24 @@
+id: 9717
+game_id: 6548
+game_slug: mega-man-legacy-collection
+name: Mega Man Legacy Collection
+year: null
+user: iStepable
+runner: winesteam
+slug: mega-man-legacy-collection-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-13T00:32:27.392000Z'
+updated_at: '2018-08-13T06:10:44.905356Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 363440
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 363440

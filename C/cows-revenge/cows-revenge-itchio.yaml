@@ -1,0 +1,29 @@
+id: 7878
+game_id: 17863
+game_slug: cows-revenge
+name: Cow's Revenge
+year: 2017
+user: TuiorGames
+runner: linux
+slug: cows-revenge-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2018-04-10T22:07:45.440531Z'
+updated_at: '2018-05-06T07:14:35.503183Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: file_id
+      dst: $GAMEDIR
+  files:
+  - file_id: https://w3g3a5v6.ssl.hwcdn.net/build/74167/277058-unpacked-default?GoogleAccessId=uploader@moonscript2.iam.gserviceaccount.com&Expires=1523397304&Signature=ZzAyiBZrv9XMe5It5HgP9PjERzcG%2FV388RJNHpelbZlO7j9Qh0ZR9uptPr3Drs9Y6%2Fz7QgjDukm1n3J5U1twbxPxeJjB4WubrBcWgxeOjCO82mE89VwAFsVYkgYSMm4gzJ6NHUYc4c%2FEJ7au1Efs0uV9HvyXV0p0SInxfE5dXZ2v1du%2FoO2KF7nbbjlkgDPg8SQy8RdWC4Zq%2FzbuAWaFZDx0iu%2FSdtWBhAspsfatUsNpp14pq8lkI2IbTI6EeyW9EYfYNH5jkf6nU1gb2YHhufEUPuoPGl%2Fmro9TglJdzmsvI6yVaeG2bwcY%2FHDuNBjQZKEwL4WlAW8ypkhIsqMmfA==&hwexp=1523397564&hwsig=1a4fc2b0912633a714e46b861ca4cded
+  - unredistribuable_file: N/A

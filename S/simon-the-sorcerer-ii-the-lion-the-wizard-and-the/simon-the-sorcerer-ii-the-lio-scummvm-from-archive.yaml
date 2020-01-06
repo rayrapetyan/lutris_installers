@@ -1,0 +1,30 @@
+id: 11878
+game_id: 11830
+game_slug: simon-the-sorcerer-ii-the-lion-the-wizard-and-the-
+name: 'Simon the Sorcerer II: The Lion, the Wizard and the Wardrobe'
+year: 1995
+user: hchilde
+runner: scummvm
+slug: simon-the-sorcerer-ii-the-lio-scummvm-from-archive
+version: ScummVM - From archive
+description: null
+notes: ''
+created_at: '2019-02-06T14:52:21.898047Z'
+updated_at: '2019-04-26T04:52:00.159933Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: archive
+  files:
+  - archive: N/A:Select the game's archive file for ScummVM.
+  game:
+    game_id: simon2
+    path: $GAMEDIR

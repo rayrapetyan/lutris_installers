@@ -1,0 +1,17 @@
+name: The Backrooms Game
+slug: the-backrooms-game
+year: 2019
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Horror
+- name: Indie
+aliases: []
+banner_url: /games/banner/the-backrooms-game.jpg
+icon_url: /games/icon/the-backrooms-game.png
+is_public: true
+updated: '2019-10-06T20:08:54.021022Z'
+steamid: 1111210
+gogslug: ''
+humblestoreid: ''

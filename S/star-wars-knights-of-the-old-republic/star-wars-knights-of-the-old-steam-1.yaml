@@ -1,0 +1,24 @@
+id: 1293
+game_id: 386
+game_slug: star-wars-knights-of-the-old-republic
+name: 'Star Wars: Knights of the Old Republic'
+year: 2003
+user: strider
+runner: winesteam
+slug: star-wars-knights-of-the-old-steam-1
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-02-10T22:00:34.576000Z'
+updated_at: '2015-02-10T22:00:40.976000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 32370
+gogid: 1207666283
+gogslug: star_wars_knights_of_the_old_republic
+humblestoreid: ''
+script:
+  game:
+    appid: 32370

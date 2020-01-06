@@ -1,0 +1,32 @@
+id: 14379
+game_id: 15157
+game_slug: wizard101
+name: Wizard101
+year: 2008
+user: laurensarah2022
+runner: wine
+slug: wizard101-42
+version: '4.2'
+description: null
+notes: ''
+created_at: '2019-07-02T01:21:42.372000Z'
+updated_at: '2019-12-25T16:48:21.615431Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    exe: $GAMEDIR/InstallWizard101.exe
+  installer:
+  - move:
+      src: installer
+      dst: $GAMEDIR
+  wine:
+    dxvk: true
+  files:
+  - installer: http://versionec.us.wizard101.com/InstallWizard101.exe

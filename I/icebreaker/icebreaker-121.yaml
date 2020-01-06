@@ -1,0 +1,28 @@
+id: 9219
+game_id: 19938
+game_slug: icebreaker
+name: IceBreaker
+year: 2000
+user: penguinsandpeople
+runner: linux
+slug: icebreaker-121
+version: 1.2.1
+description: null
+notes: ''
+created_at: '2018-07-15T11:27:18.713139Z'
+updated_at: '2018-07-17T06:21:48.674355Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: icebreaker
+  installer:
+  - extract:
+      file: gamearchive
+  files:
+  - gamearchive: https://lutris.net/files/games/icebreaker/icebreaker-1.2.1.gz

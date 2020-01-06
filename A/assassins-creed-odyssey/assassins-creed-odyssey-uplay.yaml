@@ -1,0 +1,50 @@
+id: 12555
+game_id: 22090
+game_slug: assassins-creed-odyssey
+name: Assassin's Creed Odyssey
+year: 2018
+user: Alexithymia
+runner: wine
+slug: assassins-creed-odyssey-uplay
+version: Uplay
+description: This should install UPlay to allow you to download Assassin's Creed Odyssey
+  and play.
+notes: 1440p has black bars at the top and bottom after having to specify this in
+  the game's setting if you're not in virtual window mode. The game starts at 640x480
+  so be sure to change this.
+created_at: '2019-03-28T23:20:14.115000Z'
+updated_at: '2019-04-18T04:15:10.962962Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 812140
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/Uplay.exe
+    arch: win64
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: corefonts vcrun2017 win7
+      name: winetricks
+  - task:
+      executable: uplay
+      prefix: $GAMEDIR
+      args: /S
+      name: wineexec
+  wine:
+    version: tkg-protonified-4.6-x86_64
+    WineDesktop: 1920x1080
+    dxvk: true
+    Desktop: true
+  files:
+  - uplay: https://ubistatic3-a.akamaihd.net/orbit/launcher_installer/UplayInstaller.exe

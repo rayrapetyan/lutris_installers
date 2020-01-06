@@ -1,0 +1,64 @@
+id: 2591
+game_id: 7256
+game_slug: syndicate-plus
+name: Syndicate Plus
+year: 1993
+user: ssf
+runner: dosbox
+slug: syndicate-plus-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2016-08-24T19:01:58.437077Z'
+updated_at: '2016-08-30T14:47:18.902092Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1207658992
+gogslug: syndicate
+humblestoreid: ''
+script:
+  gogid: syndicate
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: wine.create_prefix
+  - task:
+      prefix: $GAMEDIR
+      name: wine.set_regedit
+      type: REG_SZ
+      value: ''
+      key: winemenubuilder.exe
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /VERYSILENT /SP- /NOCANCEL /SUPPRESSMSGBOXES '/DIR=C:/game'
+      description: Installing ...
+      name: wine.wineexec
+  - execute:
+      args: -c 'mv $GAMEDIR/drive_c/game/* $GAMEDIR'
+      file: /bin/sh
+      description: cleaning...
+      terminal: false
+  - execute:
+      args: -c 'rm -rf $GAMEDIR/drive_c $GAMEDIR/dosdevices $GAMEDIR/*.reg'
+      file: /bin/sh
+      description: cleaning...
+      terminal: false
+  - execute:
+      args: -i 's|mount C ".."|mount C "."|g' $GAMEDIR/dosboxSyndicate_single.conf
+      file: /bin/sed
+      terminal: false
+  - execute:
+      args: -c 'rm -rf $GAMEDIR/DOSBOX'
+      file: /bin/sh
+      terminal: false
+  files:
+  - game: N/A:Please select the GOG.com Windows installer
+  game:
+    config_file: $GAMEDIR/dosboxSyndicate.conf
+    main_file: $GAMEDIR/dosboxSyndicate_single.conf

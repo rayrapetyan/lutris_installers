@@ -1,0 +1,21 @@
+name: Rampage World Tour
+slug: rampage-world-tour
+year: 1997
+platforms:
+- name: Arcade
+- name: Game Boy
+- name: Nintendo 64
+- name: Sega Saturn
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Action
+- name: Arcade
+aliases: []
+banner_url: /games/banner/rampage-world-tour.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:54.594004Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

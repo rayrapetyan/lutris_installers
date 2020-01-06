@@ -1,0 +1,33 @@
+id: 3706
+game_id: 273
+game_slug: psychonauts
+name: Psychonauts
+year: 2005
+user: FakeShemp
+runner: linux
+slug: psychonauts-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-16T20:35:10.830387Z'
+updated_at: '2017-05-17T18:21:50.170287Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 3830
+gogid: 1207658807
+gogslug: psychonauts
+humblestoreid: psychonauts
+script:
+  exe: Psychonauts
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble installer

@@ -1,0 +1,25 @@
+id: 10781
+game_id: 10420
+game_slug: subsistence
+name: Subsistence
+year: null
+user: RellyJelly
+runner: winesteam
+slug: subsistence-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-11-05T23:34:33.421000Z'
+updated_at: '2019-02-09T23:52:24.809408Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 418030
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 418030
+    arch: win64

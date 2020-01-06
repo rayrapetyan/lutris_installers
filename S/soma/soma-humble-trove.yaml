@@ -1,0 +1,35 @@
+id: 9584
+game_id: 4888
+game_slug: soma
+name: SOMA
+year: 2015
+user: ramiroivan
+runner: linux
+slug: soma-humble-trove
+version: Humble Trove
+description: null
+notes: From my testing, GameMode interferes with the sound. Your mileage may vary,
+  depending on your configuration.
+created_at: '2018-08-04T17:38:11.811000Z'
+updated_at: '2019-10-27T07:37:25.212631Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 282140
+gogid: 1439487606
+gogslug: soma
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $GAMEDIR
+      file: $file1
+  - chmodx: $GAMEDIR/Soma.bin.x86_64
+  system:
+    gamemode: false
+  files:
+  - file1: N/A:Please select the Humble Trove .zip file
+  game:
+    exe: Soma.bin.x86_64

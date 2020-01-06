@@ -1,0 +1,15 @@
+name: Gears of War
+slug: gears-of-war
+year: 2006
+platforms:
+- name: Windows
+genres:
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/gears-of-war.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-29T23:49:02.331213Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

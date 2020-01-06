@@ -1,0 +1,36 @@
+id: 9643
+game_id: 20668
+game_slug: final-fantasy-origins
+name: Final Fantasy Origins
+year: 2002
+user: sunderkeenin
+runner: libretro
+slug: final-fantasy-origins-ps1-release
+version: PS1 release
+description: null
+notes: "Open the Lutris version of Retroarch by selecting one of your libretro games\
+  \ and make sure you have your controller configured. A .bin file for the game must\
+  \ be in the same folder as the .cue file chosen.\r\nMake sure your libretro runner\
+  \ points to the correct retroarch config file by default."
+created_at: '2018-08-08T13:01:22.907000Z'
+updated_at: '2018-08-09T05:24:03.504446Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: cue
+      dst: $GAMEDIR
+  files:
+  - cue: N/A:Select the game's .cue file. http://nielsbuus.dk/pg/psx_cue_maker/ helps
+      if you want something to make the .cue file for you. http://emulation.gametechwiki.com/index.php/Cue_sheet_(.cue)
+      if you want to make the file manually.
+  game:
+    core: mednafen_psx_hw
+    main_file: cue

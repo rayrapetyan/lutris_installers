@@ -1,0 +1,24 @@
+id: 5417
+game_id: 4035
+game_slug: the-red-solstice
+name: The Red Solstice
+year: null
+user: NuSuey
+runner: winesteam
+slug: the-red-solstice-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-08-18T21:24:43.480960Z'
+updated_at: '2017-08-27T22:31:21.630172Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 265590
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 265590

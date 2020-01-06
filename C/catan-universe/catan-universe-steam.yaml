@@ -1,0 +1,28 @@
+id: 7097
+game_id: 13315
+game_slug: catan-universe
+name: Catan Universe
+year: null
+user: Jozua
+runner: winesteam
+slug: catan-universe-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-01-15T07:03:53.969161Z'
+updated_at: '2018-10-25T12:05:27.299988Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 544730
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  system:
+    disable_monitoring: true
+    disable_runtime: true
+    pulse_latency: true
+  game:
+    appid: 544730

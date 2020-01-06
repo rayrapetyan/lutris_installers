@@ -1,0 +1,30 @@
+id: 6884
+game_id: 15329
+game_slug: triple-action
+name: Triple Action
+year: 1981
+user: maxlefou
+runner: jzintv
+slug: triple-action-intellivision
+version: Intellivision
+description: null
+notes: ''
+created_at: '2017-12-28T19:05:27.910031Z'
+updated_at: '2017-12-29T16:35:00.483613Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: romfile
+      dst: $GAMEDIR
+  files:
+  - romfile: N/A:Please select the ROM file
+  game:
+    main_file: romfile

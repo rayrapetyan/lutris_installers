@@ -1,0 +1,19 @@
+name: 'Grimoire: Heralds of the Winged Exemplar'
+slug: grimoire-heralds-of-the-winged-exemplar
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Dungeon crawl
+- name: Fantasy
+- name: Role-playing
+- name: RPG
+- name: Turn-based
+aliases: []
+banner_url: /games/banner/grimoire-heralds-of-the-winged-exemplar.jpg
+icon_url: /games/icon/grimoire-heralds-of-the-winged-exemplar.png
+is_public: true
+updated: '2019-12-22T18:57:05.691230Z'
+steamid: 650670
+gogslug: ''
+humblestoreid: ''

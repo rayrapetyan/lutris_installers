@@ -1,0 +1,15 @@
+name: 'Star Wars: Knights of the Old Republic'
+slug: star-wars-knights-of-the-old-republic
+year: 2003
+platforms:
+- name: Windows
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/star-wars-knights-of-the-old-republic.jpg
+icon_url: /games/icon/star-wars-knights-of-the-old-republic.png
+is_public: true
+updated: '2019-12-18T20:39:00.252452Z'
+steamid: 32370
+gogslug: star_wars_knights_of_the_old_republic
+humblestoreid: ''

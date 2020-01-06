@@ -1,0 +1,16 @@
+name: Heaven's Vault
+slug: heavens-vault
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Indie
+aliases: []
+banner_url: /games/banner/heavens-vault.jpg
+icon_url: /games/icon/heavens-vault.png
+is_public: true
+updated: '2019-10-20T07:06:44.631912Z'
+steamid: 774201
+gogslug: heavens_vault
+humblestoreid: ''

@@ -1,0 +1,17 @@
+name: Warzone 2100
+slug: warzone-2100
+year: 1999
+platforms:
+- name: Linux
+- name: Sony PlayStation
+genres:
+- name: Real-time strategy
+- name: Real-time tactics
+aliases: []
+banner_url: /games/banner/warzone-2100.jpg
+icon_url: null
+is_public: true
+updated: '2019-03-02T21:33:35.988676Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

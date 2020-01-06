@@ -1,0 +1,34 @@
+id: 12350
+game_id: 6124
+game_slug: master-of-orion-2
+name: Master of Orion 2
+year: 1996
+user: cxf
+runner: linux
+slug: master-of-orion-2-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-03-12T05:24:36.938819Z'
+updated_at: '2019-03-12T05:24:49.109589Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 410980
+gogid: 1207661633
+gogslug: master_of_orion_1_2
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

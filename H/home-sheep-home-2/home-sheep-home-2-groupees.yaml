@@ -1,0 +1,33 @@
+id: 6039
+game_id: 2522
+game_slug: home-sheep-home-2
+name: Home Sheep Home 2
+year: null
+user: FakeShemp
+runner: wine
+slug: home-sheep-home-2-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-10-21T16:36:59.700000Z'
+updated_at: '2018-05-19T03:41:59.305271Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 259810
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Home Sheep Home 2/HomeSheepHome2.exe
+    arch: win32

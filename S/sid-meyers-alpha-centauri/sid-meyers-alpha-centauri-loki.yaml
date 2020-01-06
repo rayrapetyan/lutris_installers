@@ -1,0 +1,42 @@
+id: 43
+game_id: 57
+game_slug: sid-meyers-alpha-centauri
+name: Sid Meier's Alpha Centauri
+year: 1999
+user: strider
+runner: linux
+slug: sid-meyers-alpha-centauri-loki
+version: loki
+description: Native linux version from Loki (requires Xephyr and alsa-oss)
+notes: ''
+created_at: '2013-07-13T08:49:05Z'
+updated_at: '2016-07-16T04:30:27.438080Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1207658936
+gogslug: sid_meiers_alpha_centauri
+humblestoreid: ''
+script:
+  exe: smac-launcher
+  installer:
+  - insert-disc:
+      requires: setup.sh
+      message: Mount the Alpha Centauri CD-Rom to continue
+  - merge:
+      src: $DISC/bin/x86
+      dst: $GAMEDIR
+  - extract:
+      dst: $GAMEDIR/data
+      file: $DISC/data.tar.gz
+  - merge:
+      src: $DISC/data
+      dst: $GAMEDIR/data
+  - move:
+      src: launcher
+      dst: $GAMEDIR
+  - chmodx: $GAMEDIR/smac-launcher
+  files:
+  - launcher: http://lutris.net/files/games/sid-meyers-alpha-centauri/smac-launcher

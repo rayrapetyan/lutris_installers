@@ -1,0 +1,28 @@
+id: 5996
+game_id: 14341
+game_slug: scallywags
+name: Scallywags
+year: 2015
+user: FakeShemp
+runner: linux
+slug: scallywags-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-10-19T16:33:26.449119Z'
+updated_at: '2017-10-19T16:34:23.292036Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Scallywags.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

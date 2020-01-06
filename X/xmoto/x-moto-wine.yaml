@@ -1,0 +1,35 @@
+id: 2222
+game_id: 3365
+game_slug: xmoto
+name: XMoto
+year: 2005
+user: RobLoach
+runner: wine
+slug: x-moto-wine
+version: Wine
+description: Version 0.5.11
+notes: ''
+created_at: '2016-06-28T06:26:01.074613Z'
+updated_at: '2016-06-28T06:39:00.132524Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - extract:
+      file: xmoto-game
+  - chmodx: $GAMEDIR/xmoto.exe
+  files:
+  - xmoto-game: http://download.tuxfamily.org/xmoto/xmoto/0.5.11/xmoto-0.5.11-win32.zip
+  game:
+    prefix: $GAMEDIR
+    exe: xmoto.exe

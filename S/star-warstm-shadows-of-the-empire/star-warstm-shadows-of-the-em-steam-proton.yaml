@@ -1,0 +1,25 @@
+id: 13191
+game_id: 10085
+game_slug: star-warstm-shadows-of-the-empire
+name: "STAR WARS\u2122: Shadows of the Empire"
+year: null
+user: skyace65
+runner: steam
+slug: star-warstm-shadows-of-the-em-steam-proton
+version: Steam Proton
+description: null
+notes: Since this game is not officially whitelisted, you have to enable Steam Play
+  for all titles in Steam's settings prior to installation.
+created_at: '2019-04-28T14:10:49.304000Z'
+updated_at: '2019-05-19T07:11:00.953727Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 560170
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 560170

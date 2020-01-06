@@ -1,0 +1,15 @@
+name: GOG Galaxy
+slug: gog-galaxy
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Tool
+aliases: []
+banner_url: /games/banner/gog-galaxy.jpg
+icon_url: /games/icon/gog-galaxy.png
+is_public: true
+updated: '2019-01-23T08:29:41.047948Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

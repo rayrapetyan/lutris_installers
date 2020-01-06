@@ -1,0 +1,40 @@
+id: 7339
+game_id: 4517
+game_slug: might-and-magic-vi-the-mandate-of-heaven
+name: 'Might and Magic VI: The Mandate of Heaven'
+year: 1998
+user: knathrak
+runner: wine
+slug: might-and-magic-vi-the-mandat-wine-gog
+version: Wine + GOG
+description: This installer requires the windows installer from GOG. It will use wine.
+notes: Follow GOG installer leaving the default options. At the end of the GOG installer
+  there are some errors. They do not affect the installation. Just click through them
+  and then exit the installer without launching the game.
+created_at: '2018-02-17T10:37:17.253000Z'
+updated_at: '2018-02-17T19:31:10.369638Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /SUPPRESSMSGBOXES '/DIR=C:/game'
+      description: Installing...
+      name: wineexec
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/game/MM6.exe

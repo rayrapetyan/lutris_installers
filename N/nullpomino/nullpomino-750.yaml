@@ -1,0 +1,29 @@
+id: 12171
+game_id: 25925
+game_slug: nullpomino
+name: NullpoMino
+year: 2011
+user: Duder963
+runner: linux
+slug: nullpomino-750
+version: 7.5.0
+description: Installs version 7.5.0 of NullpoMino for Linux from GitHub
+notes: ''
+created_at: '2019-02-26T00:12:17.040000Z'
+updated_at: '2019-02-28T06:33:35.843168Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: NullpoMino
+  installer:
+  - extract:
+      file: game
+  - chmodx: NullpoMino
+  files:
+  - game: https://github.com/nullpomino/nullpomino/releases/download/v7.5.0/NullpoMino7.5.0_linux.tar.gz

@@ -1,0 +1,16 @@
+name: A Story About My Uncle
+slug: a-story-about-my-uncle
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Platform
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/a-story-about-my-uncle.jpg
+icon_url: /games/icon/a-story-about-my-uncle.png
+is_public: true
+updated: '2019-01-23T08:28:27.743455Z'
+steamid: 278360
+gogslug: story_about_my_uncle_a
+humblestoreid: ''

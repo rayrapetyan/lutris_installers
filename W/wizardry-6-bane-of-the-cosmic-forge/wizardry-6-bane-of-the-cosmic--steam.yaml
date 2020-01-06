@@ -1,0 +1,24 @@
+id: 173
+game_id: 849
+game_slug: wizardry-6-bane-of-the-cosmic-forge
+name: 'Wizardry 6: Bane of the Cosmic Forge'
+year: null
+user: strider
+runner: steam
+slug: wizardry-6-bane-of-the-cosmic--steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-19T23:56:16.976000Z'
+updated_at: '2013-12-19T23:56:16.977000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 245410
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 245410

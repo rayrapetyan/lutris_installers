@@ -1,0 +1,17 @@
+name: 'Alice: Madness Returns'
+slug: alice-madness-returns
+year: 2011
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Platform
+aliases: []
+banner_url: /games/banner/alice-madness-returns.jpg
+icon_url: /games/icon/alice-madness-returns.png
+is_public: true
+updated: '2019-01-23T08:28:18.255796Z'
+steamid: 19680
+gogslug: ''
+humblestoreid: ''

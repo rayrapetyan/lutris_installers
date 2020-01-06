@@ -1,0 +1,24 @@
+id: 10388
+game_id: 22003
+game_slug: depth-of-extinction
+name: Depth of Extinction
+year: 2018
+user: Talvi
+runner: steam
+slug: depth-of-extinction-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-10-01T09:54:33.118000Z'
+updated_at: '2018-10-04T01:42:04.519936Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 636320
+gogid: 1397277197
+gogslug: depth_of_extinction
+humblestoreid: ''
+script:
+  game:
+    appid: 636320

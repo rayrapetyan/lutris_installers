@@ -1,0 +1,16 @@
+name: 'Asphalt 6: Adrenaline'
+slug: asphalt-6-adrenaline
+year: 2010
+platforms:
+- name: J2ME
+- name: Nintendo 3DS
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/asphalt-6-adrenaline.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:27.122024Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

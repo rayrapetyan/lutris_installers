@@ -1,0 +1,41 @@
+id: 12286
+game_id: 5932
+game_slug: homeworld-deserts-of-kharak
+name: 'Homeworld: Deserts of Kharak'
+year: 2016
+user: rom42
+runner: wine
+slug: homeworld-deserts-of-kharak-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-03-07T18:24:59.702000Z'
+updated_at: '2019-03-08T01:39:45.610097Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 281610
+gogid: 2115713947
+gogslug: homeworld_deserts_of_kharak
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Homeworld Deserts of Kharak/DesertsOfKharak.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2015
+      name: winetricks
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      name: wineexec
+  wine:
+    version: tkg-4.2-x86_64
+  files:
+  - installer: N/A:Select the installer downloaded from GOG

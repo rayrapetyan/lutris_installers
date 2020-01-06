@@ -1,0 +1,24 @@
+id: 16937
+game_id: 17829
+game_slug: hunt-showdown
+name: 'Hunt: Showdown'
+year: null
+user: lilservice
+runner: steam
+slug: hunt-showdown-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-11-22T07:06:45.911764Z'
+updated_at: '2019-11-22T07:06:45.911797Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: 594650
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 594650

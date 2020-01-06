@@ -1,0 +1,66 @@
+id: 15491
+game_id: 16721
+game_slug: starship-titanic
+name: Starship Titanic
+year: 1998
+user: appoloin
+runner: scummvm
+slug: starship-titanic-dvd
+version: DVD
+description: null
+notes: ''
+created_at: '2019-09-12T18:18:44.009732Z'
+updated_at: '2019-09-12T18:18:44.009757Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 467290
+gogid: 1441102382
+gogslug: starship_titanic
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: setup.exe
+      description: Please insert disc
+  - copy:
+      src: $DISC/assets
+      dst: $GAMEDIR/assets
+  - execute:
+      args: -R 775  "$GAMEDIR/assets"
+      file: /bin/chmod
+  - task:
+      prefix: $GAMEDIR
+      install_mono: false
+      arch: win32
+      name: wine.create_prefix
+  - task:
+      executable: $DISC/SETUP.EXE
+      prefix: $GAMEDIR
+      arch: win32
+      name: wine.wineexec
+  - copy:
+      src: $GAMEDIR/drive_c/Program Files/The Digital Village/Starship Titanic/newgame.st
+      dst: $GAMEDIR
+  - copy:
+      src: $GAMEDIR/drive_c/Program Files/The Digital Village/Starship Titanic/Assets
+      dst: $GAMEDIR/assets
+  - execute:
+      args: -r $GAMEDIR/drive_c
+      file: /bin/rm
+  - execute:
+      args: -r $GAMEDIR/dosdevices
+      file: /bin/rm
+  - execute:
+      args: -r $GAMEDIR/system.reg
+      file: /bin/rm
+  - execute:
+      args: -r $GAMEDIR/user.reg
+      file: /bin/rm
+  - execute:
+      args: -r $GAMEDIR/userdef.reg
+      file: /bin/rm
+  game:
+    game_id: Titanic
+    path: $GAMEDIR

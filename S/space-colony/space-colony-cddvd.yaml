@@ -1,0 +1,72 @@
+id: 9726
+game_id: 5365
+game_slug: space-colony
+name: Space Colony
+year: 2003
+user: VortexAcherontic
+runner: wine
+slug: space-colony-cddvd
+version: CD/DVD
+description: null
+notes: "If you want to play/install the game you need to manually mount your CD/DVD\
+  \ in your system.\r\nAfter the CD/DVD is mounted you can launch the game this may\
+  \ take a few minutes.\r\nBeforehand the game tries to validate your disc.\r\n\r\n\
+  You can download an HD Patch for the game here: http://www.spacecolonyhd.com/patch.html"
+created_at: '2018-08-13T22:55:07.173000Z'
+updated_at: '2018-08-16T06:20:49.629353Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 297920
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: prefix/drive_c/Program Files/Firefly Studios/Space Colony/Space Colony.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Setting Windows Version to XP
+      app: winxp
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Creating Wine Prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing Direct Music
+      app: directmusic
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing Direct Play
+      app: directplay
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing DirectX 9
+      app: d3dx9_36
+      arch: win32
+      name: winetricks
+  - insert-disc:
+      requires: autoplay.exe
+  - task:
+      executable: $DISC/autoplay.exe
+      prefix: $GAMEDIR/prefix
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Setting Windows Version to XP
+      app: winxp
+      arch: win32
+      name: winetricks
+  arch: win32
+  game:
+    prefix: $GAMEDIR/prefix
+    arch: win32

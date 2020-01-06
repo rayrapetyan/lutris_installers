@@ -1,0 +1,24 @@
+id: 7592
+game_id: 16818
+game_slug: soulworker
+name: SoulWorker
+year: 2018
+user: FireGamer220
+runner: winesteam
+slug: soulworker-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-18T14:13:41.067000Z'
+updated_at: '2018-03-26T20:30:58.345584Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 630100
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 630100

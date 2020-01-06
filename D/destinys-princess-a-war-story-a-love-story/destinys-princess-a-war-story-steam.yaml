@@ -1,0 +1,27 @@
+id: 8941
+game_id: 15948
+game_slug: destinys-princess-a-war-story-a-love-story
+name: 'Destiny''s Princess: A War Story, A Love Story'
+year: 2016
+user: kimchitea
+runner: winesteam
+slug: destinys-princess-a-war-story-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-28T16:49:40.106000Z'
+updated_at: '2018-06-28T17:08:51.449698Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 447170
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-2.21-i386
+  game:
+    appid: 447170
+    arch: win32

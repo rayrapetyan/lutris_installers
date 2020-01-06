@@ -1,0 +1,24 @@
+id: 3482
+game_id: 5954
+game_slug: the-escapists-the-walking-dead
+name: 'The Escapists: The Walking Dead'
+year: null
+user: liberodark
+runner: steam
+slug: the-escapists-the-walking-dea-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-04-01T10:30:00.059026Z'
+updated_at: '2017-04-03T19:03:19.071723Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 388060
+gogid: 1441717336
+gogslug: escapists_the_walking_dead_the
+humblestoreid: ''
+script:
+  game:
+    appid: 388060

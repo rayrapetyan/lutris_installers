@@ -1,0 +1,17 @@
+name: Toy Commander
+slug: toy-commander
+year: 1999
+platforms:
+- name: Sega Dreamcast
+genres:
+- name: Action
+- name: Car combat
+- name: Racing
+aliases: []
+banner_url: /games/banner/toy-commander.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:54.265615Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,28 @@
+id: 7640
+game_id: 4291
+game_slug: sage-fusion
+name: Sage Fusion
+year: 2015
+user: oscararg
+runner: linux
+slug: sage-fusion-itchio
+version: Itchio
+description: null
+notes: ''
+created_at: '2018-03-24T07:16:52.259782Z'
+updated_at: '2018-04-26T00:32:23.574382Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Sage Fusion
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

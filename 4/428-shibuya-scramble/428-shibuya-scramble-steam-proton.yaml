@@ -1,0 +1,24 @@
+id: 11089
+game_id: 23493
+game_slug: 428-shibuya-scramble
+name: 428 Shibuya Scramble
+year: 2018
+user: kimchitea
+runner: steam
+slug: 428-shibuya-scramble-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2018-12-05T13:31:46.882000Z'
+updated_at: '2019-05-22T00:10:37.813264Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 648580
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 648580

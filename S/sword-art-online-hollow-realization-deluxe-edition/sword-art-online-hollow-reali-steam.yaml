@@ -1,0 +1,28 @@
+id: 9376
+game_id: 14653
+game_slug: sword-art-online-hollow-realization-deluxe-edition
+name: 'Sword Art Online: Hollow Realization Deluxe Edition'
+year: null
+user: Jozua
+runner: winesteam
+slug: sword-art-online-hollow-reali-steam
+version: Steam
+description: Might work, might not work
+notes: ''
+created_at: '2018-07-25T12:05:44.094492Z'
+updated_at: '2018-10-25T12:11:37.453928Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 607890
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  system:
+    disable_monitoring: true
+    disable_runtime: true
+    pulse_latency: true
+  game:
+    appid: 607890

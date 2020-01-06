@@ -1,0 +1,37 @@
+id: 2736
+game_id: 7680
+game_slug: halcyon-6-starbase-commander
+name: 'Halcyon 6: Starbase Commander'
+year: 2016
+user: Lulu
+runner: linux
+slug: halcyon-6-starbase-commander-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2016-09-14T18:59:38.830596Z'
+updated_at: '2016-09-30T20:48:55.558244Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 371200
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Game/start.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/Game
+  files:
+  - game: N/A:Plese select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

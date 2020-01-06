@@ -1,0 +1,24 @@
+id: 8421
+game_id: 4777
+game_slug: discouraged-workers
+name: Discouraged Workers
+year: null
+user: ricke00
+runner: steam
+slug: discouraged-workers-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-26T01:05:50.437810Z'
+updated_at: '2018-05-26T08:01:02.184308Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 371120
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 371120

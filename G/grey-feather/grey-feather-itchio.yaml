@@ -1,0 +1,31 @@
+id: 17284
+game_id: 30700
+game_slug: grey-feather
+name: Grey Feather
+year: 2019
+user: kimchitea
+runner: linux
+slug: grey-feather-itchio
+version: itch.io
+description: Should also work for the demo.
+notes: ''
+created_at: '2019-12-12T14:01:12.430000Z'
+updated_at: '2019-12-22T11:25:50.578514Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: GreyFeather.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/GreyFeather.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/GreyFeather
+  - chmodx: $GAMEDIR/lib/linux-x86_64/GreyFeather
+  files:
+  - file1: N/A:Please select the itch.io archive

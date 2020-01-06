@@ -1,0 +1,36 @@
+id: 21
+game_id: 33
+game_slug: quake-3-team-arena
+name: Quake 3 Team Arena
+year: 2000
+user: strider
+runner: linux
+slug: quake-3-team-arena-native-steam-data
+version: Native + Steam data
+description: null
+notes: Install Quake 3 Arena "Native + Steam data (64bit)" version before this.
+created_at: '2013-06-24T21:53:09Z'
+updated_at: '2019-02-01T10:51:49.699135Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 2350
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: quake-3-arena-native-steam-data-64
+  exe: ioquake3
+  installer:
+  - merge:
+      src: steam-data
+      dst: $GAMEDIR/missionpack
+  - extract:
+      dst: $GAMEDIR
+      file: pointreleasepk3
+  files:
+  - steam-data: $STEAM:2350:missionpack
+  - pointreleasepk3: N/A "Please provide the Point Release pack downloaded at https://www.ioquake3.org/data/quake3-latest-pk3s.zip"
+  game:
+    args: +set fs_game missionpack $*

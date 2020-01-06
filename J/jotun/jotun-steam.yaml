@@ -1,0 +1,24 @@
+id: 3341
+game_id: 4937
+game_slug: jotun
+name: Jotun
+year: 2015
+user: strider
+runner: steam
+slug: jotun-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-03-14T21:09:18.429962Z'
+updated_at: '2017-03-14T21:09:22.865707Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 323580
+gogid: 1458127099
+gogslug: jotun
+humblestoreid: ''
+script:
+  game:
+    appid: 323580

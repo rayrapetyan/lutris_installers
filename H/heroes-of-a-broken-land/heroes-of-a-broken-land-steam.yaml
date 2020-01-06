@@ -1,0 +1,24 @@
+id: 775
+game_id: 2873
+game_slug: heroes-of-a-broken-land
+name: Heroes of a Broken Land
+year: null
+user: Xodetaetl
+runner: steam
+slug: heroes-of-a-broken-land-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T14:03:52.789000Z'
+updated_at: '2014-09-15T16:13:28.740000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 314470
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 314470

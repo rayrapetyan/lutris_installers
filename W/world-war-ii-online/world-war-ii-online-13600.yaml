@@ -1,0 +1,48 @@
+id: 11039
+game_id: 14190
+game_slug: world-war-ii-online
+name: World War II Online
+year: null
+user: Caydel
+runner: wine
+slug: world-war-ii-online-13600
+version: 1.36.0.0
+description: Installer will install 1.36.0.0 using Wine 4.3. In-game patch system
+  does not work correctly, so you need to use the installer to reinstall the game
+  fresh after each patch is released.
+notes: ''
+created_at: '2018-11-30T17:58:18.802000Z'
+updated_at: '2019-10-28T21:05:16.403519Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: 251950
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2015
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: xact
+      name: winetricks
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      arch: win64
+      name: wineexec
+  files:
+  - installer: http://downloads.wwiionline.com/wwiiol_1.36.0.0.exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/CRS/Battleground Europe/Playgate.exe
+    arch: win64

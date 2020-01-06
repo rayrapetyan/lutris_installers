@@ -1,0 +1,44 @@
+id: 5404
+game_id: 13536
+game_slug: american-civil-war-v2
+name: American Civil War v2
+year: null
+user: dj_who
+runner: linux
+slug: american-civil-war-v2-v2
+version: v2
+description: ''
+notes: ''
+created_at: '2017-08-15T18:44:25.679476Z'
+updated_at: '2017-08-27T22:31:27.627482Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: et260
+  - execute:
+      args: --target $GAMEDIR --noexec --keep
+      file: $GAMEDIR/et260b.x86_keygen_V03.run
+  - execute:
+      args: --prefix=$GAMEDIR --skip-license
+      file: etlegacy
+  - extract:
+      format: zip
+      dst: $GAMEDIR/tcetest
+      file: acw2-inst
+  files:
+  - etlegacy: http://www.etlegacy.com/download/platform/lnx
+  - et260: http://trackbase.eu/files//et/full/et260b.x86_full.zip
+  - acw2-inst: http://wolffiles.de/filebase/ET/Mods/ACW-2.zip?
+  game:
+    args: +set fs_game tcetest +set com_soundMegs 64 +set com_hunkMegs 256 +set com_zoneMegs
+      64 +set s_khz 44 +set r_maxpolyverts 16384 +set r_maxpolys 4096
+    exe: etl

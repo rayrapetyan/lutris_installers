@@ -1,0 +1,24 @@
+id: 13908
+game_id: 16047
+game_slug: demonheart
+name: Demonheart
+year: 2017
+user: kimchitea
+runner: steam
+slug: demonheart-steam-demo
+version: Steam Demo
+description: null
+notes: ''
+created_at: '2019-06-03T04:44:47.387438Z'
+updated_at: '2019-06-13T06:25:58.614959Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 578900
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 1078980

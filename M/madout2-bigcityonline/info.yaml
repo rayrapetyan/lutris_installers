@@ -1,0 +1,19 @@
+name: MadOut2 BigCityOnline
+slug: madout2-bigcityonline
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Car combat
+- name: Open World
+- name: Racing
+- name: Role-playing
+aliases: []
+banner_url: /games/banner/madout2-bigcityonline.jpg
+icon_url: /games/icon/madout2-bigcityonline.png
+is_public: true
+updated: '2019-10-06T20:31:47.418341Z'
+steamid: 586980
+gogslug: ''
+humblestoreid: ''

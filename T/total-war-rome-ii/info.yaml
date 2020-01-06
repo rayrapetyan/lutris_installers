@@ -1,0 +1,17 @@
+name: 'Total War: ROME II'
+slug: total-war-rome-ii
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: 4X
+- name: Real-time strategy
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/total-war-rome-ii.jpg
+icon_url: /games/icon/total-war-rome-ii.png
+is_public: true
+updated: '2019-01-23T08:31:53.700391Z'
+steamid: 214950
+gogslug: ''
+humblestoreid: ''

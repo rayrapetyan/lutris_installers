@@ -1,0 +1,24 @@
+id: 7042
+game_id: 14657
+game_slug: stick-fight-the-game
+name: 'Stick Fight: The Game'
+year: 2017
+user: Leeo97one
+runner: winesteam
+slug: stick-fight-the-game-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-01-05T23:37:55.904340Z'
+updated_at: '2018-01-07T07:35:13.813484Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 674940
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 674940

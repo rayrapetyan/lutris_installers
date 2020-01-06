@@ -1,0 +1,15 @@
+name: Ballistic Overkill Dedicated Server
+slug: ballistic-overkill-dedicated-server
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Tool
+aliases: []
+banner_url: /games/banner/ballistic-overkill-dedicated-server.jpg
+icon_url: /games/icon/ballistic-overkill-dedicated-server.png
+is_public: true
+updated: '2019-01-23T08:28:31.108558Z'
+steamid: 416880
+gogslug: ''
+humblestoreid: ''

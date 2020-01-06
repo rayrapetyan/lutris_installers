@@ -1,0 +1,24 @@
+id: 8391
+game_id: 1723
+game_slug: dragons-lair
+name: Dragon's Lair
+year: null
+user: hippyjake
+runner: steam
+slug: dragons-lair-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-23T07:17:45.798744Z'
+updated_at: '2018-05-23T20:33:47.264828Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 227380
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 227380

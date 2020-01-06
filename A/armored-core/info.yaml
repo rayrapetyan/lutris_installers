@@ -1,0 +1,20 @@
+name: Armored Core
+slug: armored-core
+year: 1997
+platforms:
+- name: Sony PlayStation
+genres:
+- name: Action
+- name: Artillery
+- name: Shoot'em up
+- name: Shooter
+- name: Simulation
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/armored-core.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:25.763461Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

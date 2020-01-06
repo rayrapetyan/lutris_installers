@@ -1,0 +1,24 @@
+id: 3691
+game_id: 4648
+game_slug: one-manga-day
+name: One Manga Day
+year: 2014
+user: FakeShemp
+runner: steam
+slug: one-manga-day-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-05-15T17:28:18.789515Z'
+updated_at: '2017-05-16T19:39:24.797019Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 365070
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 365070

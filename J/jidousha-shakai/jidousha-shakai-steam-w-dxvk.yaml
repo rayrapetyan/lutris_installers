@@ -1,0 +1,63 @@
+id: 12064
+game_id: 13624
+game_slug: jidousha-shakai
+name: Jidousha Shakai
+year: 2017
+user: Slavfox
+runner: winesteam
+slug: jidousha-shakai-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2019-02-16T20:54:29.195000Z'
+updated_at: '2019-02-19T03:45:36.566295Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 611800
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Creating prefix
+      arch: win64
+      name: create_prefix
+  - extract:
+      dst: $CACHE/dxsetup
+      file: dx2010
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR/prefix
+      args: /silent
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2015 corefonts
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing .NET 4.7.2
+      app: dotnet472 win7
+      arch: win64
+      name: winetricks
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+    pulse_latency: true
+  files:
+  - dx2010: https://lutris.net/files/tools/directx-2010.tar.gz
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 611800
+    arch: win64

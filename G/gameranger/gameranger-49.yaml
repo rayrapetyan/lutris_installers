@@ -1,0 +1,33 @@
+id: 17121
+game_id: 30611
+game_slug: gameranger
+name: GameRanger
+year: 1997
+user: magic_sk
+runner: wine
+slug: gameranger-49
+version: '4.9'
+description: null
+notes: ''
+created_at: '2019-11-30T22:59:06.102813Z'
+updated_at: '2019-11-30T22:59:06.102843Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    exe: drive_c/users/$user/Application Data/GameRanger/GameRanger/GameRanger.exe
+  installer:
+  - move:
+      src: file_id
+      dst: $GAMEDIR
+  wine:
+    version: lutrus-4.20-x86_64
+  files:
+  - file_id: http://www.gameranger.com/download/GameRangerSetup.exe
+  - unredistribuable_file: N/A

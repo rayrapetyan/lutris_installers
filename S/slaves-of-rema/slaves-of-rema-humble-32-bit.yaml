@@ -1,0 +1,29 @@
+id: 9451
+game_id: 20499
+game_slug: slaves-of-rema
+name: Slaves of Rema
+year: 2012
+user: kimchitea
+runner: linux
+slug: slaves-of-rema-humble-32-bit
+version: Humble (32-bit)
+description: null
+notes: ''
+created_at: '2018-07-29T14:38:38.936000Z'
+updated_at: '2018-07-29T21:48:07.688705Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Gamebook Adventures 3 - Slaves of Rema.x86
+  installer:
+  - extract:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble archive

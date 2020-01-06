@@ -1,0 +1,42 @@
+id: 9514
+game_id: 20564
+game_slug: guitar-hero-iii-legends-of-rock
+name: 'Guitar Hero III: Legends of Rock'
+year: 2007
+user: cd1a1c57f0413b68463890309b8a85c4
+runner: wine
+slug: guitar-hero-iii-legends-of-ro-dvd
+version: DVD
+description: "Installs to a new wine prefix using the Setup.exe file found inside\
+  \ the DVD release.\r\nNo-CD patch recommended, not tested without it, patch not\
+  \ provided."
+notes: "Mount the ISO file or insert the game disc before beginning, because you must\
+  \ point the installer to the Setup.exe file found inside.\r\nClick \"next\" in the\
+  \ installer until finished, when prompted, do not run the game and run it through\
+  \ Lutris instead.\r\nInstall no-CD patch manually."
+created_at: '2018-08-01T01:34:51.237000Z'
+updated_at: '2018-08-01T05:00:20.213833Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Select the Setup.exe file found inside the game disc.
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/Aspyr/Guitar Hero III/GH3.exe
+    arch: win32

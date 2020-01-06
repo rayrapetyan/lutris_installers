@@ -1,0 +1,41 @@
+id: 13778
+game_id: 5383
+game_slug: duck-game
+name: Duck Game
+year: null
+user: strider
+runner: linux
+slug: duck-game-native-steam
+version: Native / Steam
+description: 'Linux native version by 0x0ade: https://github.com/0x0ade/DuckGame-Linux'
+notes: "Install mono-complete, libcurl3:i386 and ffmpeg (not libav / avconv) via your\
+  \ package manager.\r\n\r\nWARNING: The game doesn't run through Lutris and has to\
+  \ be played in Steam. Add a non Steam game to your Steam Library and select DuckGame.sh\
+  \ from your Lutris installation."
+created_at: '2019-05-29T02:26:08.478000Z'
+updated_at: '2019-05-29T02:54:25.364350Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 312530
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  require-binaries: mono, ffmpeg
+  installer:
+  - merge:
+      src: gamefiles
+      dst: $GAMEDIR
+  - extract:
+      dst: $GAMEDIR
+      file: engine
+  - chmodx: $GAMEDIR/mod.sh
+  - execute:
+      file: $GAMEDIR/mod.sh
+  files:
+  - gamefiles: $STEAM:312530:/
+  - engine: https://github.com/0x0ade/DuckGame-Linux/releases/download/r4/DuckGame-Linux-Complete.zip
+  game:
+    exe: DuckGame.sh

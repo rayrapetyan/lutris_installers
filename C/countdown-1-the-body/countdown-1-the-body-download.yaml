@@ -1,0 +1,29 @@
+id: 3799
+game_id: 3891
+game_slug: countdown-1-the-body
+name: 'Countdown 1: The Body'
+year: 2007
+user: FakeShemp
+runner: frotz
+slug: countdown-1-the-body-download
+version: Download
+description: ''
+notes: ''
+created_at: '2017-05-22T16:51:19.782586Z'
+updated_at: '2017-05-26T00:29:28.218163Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: http://www.fullyramblomatic.com/6days/body.zip
+  game:
+    story: Countdown 1 - the Body.z5

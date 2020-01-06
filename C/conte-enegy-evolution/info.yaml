@@ -1,0 +1,17 @@
+name: Conte Enegy Evolution
+slug: conte-enegy-evolution
+year: 2018
+platforms:
+- name: NES
+genres:
+- name: Platformer
+aliases:
+- slug: conte-energy-evolution
+  name: Conte Energy Evolution
+banner_url: /games/banner/conte-enegy-evolution.jpg
+icon_url: null
+is_public: true
+updated: '2019-09-01T06:47:19.603166Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

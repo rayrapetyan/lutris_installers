@@ -1,0 +1,18 @@
+name: Far Cry
+slug: far-cry
+year: 2004
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: FPS
+- name: Shooter
+aliases: []
+banner_url: /games/banner/far-cry.jpg
+icon_url: /games/icon/far-cry.png
+is_public: true
+updated: '2019-01-23T08:29:28.577120Z'
+steamid: 13520
+gogslug: far_cry
+humblestoreid: far-cry

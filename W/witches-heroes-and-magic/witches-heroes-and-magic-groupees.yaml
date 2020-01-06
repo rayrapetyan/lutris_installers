@@ -1,0 +1,38 @@
+id: 5350
+game_id: 6838
+game_slug: witches-heroes-and-magic
+name: Witches, Heroes and Magic
+year: null
+user: FakeShemp
+runner: wine
+slug: witches-heroes-and-magic-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-12T13:17:37.381000Z'
+updated_at: '2018-05-19T03:41:57.963139Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 378510
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      args: /S
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: corefonts
+      name: winetricks
+  files:
+  - file1: N/A:Please select the Groupees installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Witches, Heroes and Magic/WHAM.exe
+    arch: win32

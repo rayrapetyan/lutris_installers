@@ -1,0 +1,17 @@
+name: Crimsonland
+slug: crimsonland
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: RPG
+- name: Shooter
+aliases: []
+banner_url: /games/banner/crimsonland.jpg
+icon_url: /games/icon/crimsonland.png
+is_public: true
+updated: '2019-01-23T08:29:00.676472Z'
+steamid: 262830
+gogslug: crimsonland
+humblestoreid: ''

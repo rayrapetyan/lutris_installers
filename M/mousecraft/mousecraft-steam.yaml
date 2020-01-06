@@ -1,0 +1,24 @@
+id: 164
+game_id: 1046
+game_slug: mousecraft
+name: MouseCraft
+year: null
+user: strider
+runner: steam
+slug: mousecraft-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-19T23:56:16.710000Z'
+updated_at: '2013-12-19T23:56:16.710000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 252750
+gogid: 1207664833
+gogslug: mousecraft
+humblestoreid: ''
+script:
+  game:
+    appid: 252750

@@ -1,0 +1,25 @@
+id: 3090
+game_id: 4562
+game_slug: town-of-salem
+name: Town of Salem
+year: null
+user: syntobu
+runner: browser
+slug: town-of-salem-web
+version: Web
+description: "This is the web version of Town of Salem.\r\n\r\nIf you own the Steam\
+  \ version of the game, you cannot log in to the web version. You must use Steam."
+notes: ''
+created_at: '2016-12-17T10:26:34.965000Z'
+updated_at: '2017-03-21T15:23:33.009418Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 334230
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://blankmediagames.com/TownOfSalem/
+  enable_flash: true

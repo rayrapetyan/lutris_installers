@@ -1,0 +1,40 @@
+id: 16032
+game_id: 24233
+game_slug: close-combat-cross-of-iron
+name: 'Close Combat: Cross of Iron'
+year: 2011
+user: cxf
+runner: wine
+slug: close-combat-cross-of-iron-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-10-06T20:20:13.360397Z'
+updated_at: '2019-10-06T20:20:21.660797Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1988084980
+gogslug: close_combat_cross_of_iron
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      name: wineexec
+  game:
+    exe: drive_c/GOG Games/Close Combat - Cross of Iron/Close Combat III/CC3.exe
+  system:
+    env:
+      DXVK_HUD: compiler
+  wine:
+    esync: true
+    dxvk: true
+  files:
+  - setup: N/A:Select the game's setup exe

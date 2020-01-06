@@ -1,0 +1,32 @@
+id: 17731
+game_id: 30982
+game_slug: burntime
+name: Burntime
+year: 1993
+user: schmarky
+runner: dosbox
+slug: burntime-archiveorg
+version: Archive.org
+description: null
+notes: ''
+created_at: '2020-01-03T23:51:21.603895Z'
+updated_at: '2020-01-03T23:51:21.603921Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: BURN.EXE
+  installer:
+  - write_file:
+      content: '[autoexec] imgmount d $GAMEDIR/installer/Burntime_1993_MAX_Design_DE/Burntime%20%281993%29%28MAX%20Design%29%28DE%29.iso
+        -t cdrom mount c $GAMEDIR c: call mtv'
+      file: $GAMEDIR/installer/dosbox_burntime.conf
+  files:
+  - gameiso: https://archive.org/download/Burntime_1993_MAX_Design_DE/Burntime%20%281993%29%28MAX%20Design%29%28DE%29.iso
+  game:
+    config_file: $GAMEDIR/installer/dosbox_burntime.conf

@@ -1,0 +1,17 @@
+name: Space Colony
+slug: space-colony
+year: 2003
+platforms:
+- name: Windows
+genres:
+- name: Construction
+- name: Space simulation
+- name: Strategy
+aliases: []
+banner_url: /games/banner/space-colony.jpg
+icon_url: /games/icon/space-colony.png
+is_public: true
+updated: '2019-01-23T08:31:19.852690Z'
+steamid: 297920
+gogslug: ''
+humblestoreid: ''

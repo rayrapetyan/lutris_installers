@@ -1,0 +1,24 @@
+id: 14717
+game_id: 6767
+game_slug: duskers
+name: Duskers
+year: 2016
+user: AmandaC
+runner: steam
+slug: duskers-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-07-26T01:04:23.976706Z'
+updated_at: '2019-10-11T00:40:46.717820Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 254320
+gogid: 1847879387
+gogslug: duskers
+humblestoreid: ''
+script:
+  game:
+    appid: 254320

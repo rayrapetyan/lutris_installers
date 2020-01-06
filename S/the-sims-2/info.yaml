@@ -1,0 +1,21 @@
+name: The Sims 2
+slug: the-sims-2
+year: 2004
+platforms:
+- name: GameCube
+- name: J2ME
+- name: Nintendo DS
+- name: Nintendo Game Boy Advance
+- name: Sony PlayStation 2
+- name: Sony PSP
+- name: Windows
+genres:
+- name: Life simulation
+aliases: []
+banner_url: /games/banner/the-sims-2.jpg
+icon_url: /games/icon/the-sims-2.png
+is_public: true
+updated: '2019-01-23T08:31:47.377207Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

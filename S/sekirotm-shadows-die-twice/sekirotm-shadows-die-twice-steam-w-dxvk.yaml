@@ -1,0 +1,44 @@
+id: 12471
+game_id: 25595
+game_slug: sekirotm-shadows-die-twice
+name: "Sekiro\u2122: Shadows Die Twice"
+year: 2019
+user: OsamaBinlada
+runner: winesteam
+slug: sekirotm-shadows-die-twice-steam-w-dxvk
+version: Steam w/ DXVK
+description: Disable Steam Overlay
+notes: "Steam > Steam > Settings > In-Game > Uncheck \"Enable the Steam Overlay while\
+  \ in-game\"\r\nThen run this installer"
+created_at: '2019-03-23T01:42:52.420000Z'
+updated_at: '2019-04-21T00:20:44.983657Z'
+draft: false
+published: true
+published_by: 19464
+rating: '5'
+steamid: 814380
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: cjkfonts
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: dinput8
+      name: winetricks
+  winesteam:
+    version: tkg-protonified-4.4-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+    pulse_latency: true
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 814380

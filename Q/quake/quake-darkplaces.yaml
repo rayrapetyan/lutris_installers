@@ -1,0 +1,44 @@
+id: 6
+game_id: 1
+game_slug: quake
+name: Quake
+year: 1996
+user: strider
+runner: linux
+slug: quake-darkplaces
+version: darkplaces
+description: Shareware version using Darkplaces engine (32 and 64bit)
+notes: ''
+created_at: '2013-06-29T16:39:04Z'
+updated_at: '2019-01-22T02:27:06.181912Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 2310
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: darkplaces-engine
+  - extract:
+      destination: $GAMEDIR
+      file: quake-sw
+  - move:
+      src: $GAMEDIR/ID1
+      dst: $GAMEDIR/id1
+  - mkdir: $HOME/.darkplaces/id1/
+  - move:
+      src: quake_config
+      dst: $HOME/.darkplaces/id1/
+  - chmodx: $GAMEDIR/darkplaces-linux-686-glx
+  - chmodx: $GAMEDIR/darkplaces-linux-x86_64-glx
+  files:
+  - darkplaces-engine: http://icculus.org/twilight/darkplaces/files/darkplacesengine20140513.zip
+  - quake-sw: https://lutris.net/files/games/quake/quake-shareware.tar.gz
+  - quake_config: https://lutris.net/files/games/quake/config.cfg
+  game:
+    exe: darkplaces-linux-x86_64-glx

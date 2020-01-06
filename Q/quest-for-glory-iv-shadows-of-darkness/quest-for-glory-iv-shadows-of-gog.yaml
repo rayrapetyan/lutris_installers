@@ -1,0 +1,84 @@
+id: 10219
+game_id: 11174
+game_slug: quest-for-glory-iv-shadows-of-darkness
+name: 'Quest For Glory IV: Shadows of Darkness'
+year: 1993
+user: ugly
+runner: dosbox
+slug: quest-for-glory-iv-shadows-of-gog
+version: GOG
+description: Uses the files from the Windows installer from GOG.
+notes: "MIDI does not work without additional setup.\r\n\r\nTo get better quality\
+  \ MIDI audio (might require additional packages):\r\n  I - Need to install fluid-soundfont-gm\
+  \ and fluidsynth.  For Mint 19:\r\nsudo apt install -y fluid-soundfont-gm fluidsynth\r\
+  \n  II - Open terminal and run the command (needs to be run each time you want to\
+  \ play):\r\nfluidsynth -l -s -i -aalsa -o audio.alsa.device=default /usr/share/sounds/sf2/FluidR3_GM.sf2\r\
+  \n  III - Start the game.\r\n\r\nTo get MIDI audio without additional packages:\r\
+  \n   I - Configure --> Game Options --> Main File --> Select 'dosboxQG4_settings.conf'\r\
+  \n   II - Run the game and you'll start the Setup\r\n   III - Choose Music --> Sound\
+  \ Blaster / AdLib (or compatibles)\r\n   IV - Accept these choices and save configuration\r\
+  \n   V - Configure --> Game Options --> Main File --> Select 'dosboxQG4_single.conf'\r\
+  \n  VI - Start the game."
+created_at: '2018-09-16T20:04:41.546000Z'
+updated_at: '2018-09-17T07:52:19.303199Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: $GAMEDIR/DOSBOX/dosboxQG4_single.conf
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file2
+  - execute:
+      args: -d "$CACHE" "$file1"
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/app
+      dst: $GAMEDIR
+  - merge:
+      src: $GAMEDIR/dosboxQG4_single.conf
+      dst: $GAMEDIR/DOSBOX
+  - merge:
+      src: $GAMEDIR/dosboxQG4.conf
+      dst: $GAMEDIR/DOSBOX
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/DOSBOX/dosboxQG4.conf
+  - write_config:
+      section: sdl
+      key: output
+      value: overlay
+      file: $GAMEDIR/DOSBOX/dosboxQG4.conf
+  - write_config:
+      section: sdl
+      key: fullscreen
+      value: false
+      file: $GAMEDIR/DOSBOX/dosboxQG4.conf
+  - write_config:
+      section: sdl
+      key: fullresolution
+      value: 1920x1080
+      file: $GAMEDIR/DOSBOX/dosboxQG4.conf
+  - write_config:
+      section: midi
+      key: midiconfig
+      value: '128:0'
+      file: $GAMEDIR/DOSBOX/dosboxQG4.conf
+  - write_file:
+      content: "[ipx]\n # ipx: Enable ipx over UDP/IP emulation.\n\n ipx=false\n\n\
+        \n[autoexec]\n @echo off\n mount C \"..\"\n c:\n cls\n INSTALL.EXE\n cls\n\
+        \ exit"
+      file: $GAMEDIR/DOSBOX/dosboxQG4_settings.conf
+  files:
+  - file1: N/A:Please select the GOG installer
+  - file2: https://lutris.net/files/tools/innoextract.tar.gz
+  game:
+    config_file: $GAMEDIR/DOSBOX/dosboxQG4.conf

@@ -1,0 +1,23 @@
+name: The Black Mirror
+slug: the-black-mirror
+year: 2003
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Horror
+- name: Point-and-click
+aliases:
+- slug: black-mirror-i
+  name: Black Mirror I
+- slug: black-mirror
+  name: Black Mirror
+- slug: black-mirror-2003
+  name: Black Mirror (2003)
+banner_url: /games/banner/the-black-mirror.jpg
+icon_url: /games/icon/the-black-mirror.png
+is_public: true
+updated: '2019-10-12T01:41:59.294604Z'
+steamid: 292930
+gogslug: the_black_mirror
+humblestoreid: ''

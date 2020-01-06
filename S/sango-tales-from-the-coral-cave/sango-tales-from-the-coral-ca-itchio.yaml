@@ -1,0 +1,28 @@
+id: 10976
+game_id: 23503
+game_slug: sango-tales-from-the-coral-cave
+name: 'Sango: Tales From The Coral Cave'
+year: 2017
+user: oscararg
+runner: linux
+slug: sango-tales-from-the-coral-ca-itchio
+version: Itchio
+description: null
+notes: ''
+created_at: '2018-11-24T19:41:22.096422Z'
+updated_at: '2018-11-29T02:10:48.124439Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Sango_TalesFromTheCoralCave_Linux.x86_64
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

@@ -1,0 +1,24 @@
+id: 377
+game_id: 179
+game_slug: back-to-the-future-ep-5-outatime
+name: 'Back to the Future: Ep 5 - OUTATIME'
+year: 2011
+user: strider
+runner: winesteam
+slug: back-to-the-future-ep-5-outati-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-01-15T00:30:15.214000Z'
+updated_at: '2014-01-15T00:30:18.748000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 94530
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 94530

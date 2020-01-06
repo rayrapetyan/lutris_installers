@@ -1,0 +1,15 @@
+name: Waveform
+slug: waveform
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/waveform.jpg
+icon_url: /games/icon/waveform.png
+is_public: true
+updated: '2019-01-23T08:32:06.999138Z'
+steamid: 204180
+gogslug: ''
+humblestoreid: ''

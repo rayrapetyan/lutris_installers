@@ -1,0 +1,18 @@
+name: 'Call of Duty: World at War'
+slug: call-of-duty-world-at-war
+year: 2008
+platforms:
+- name: Nintendo DS
+- name: Nintendo Wii
+- name: Sony Playstation 3
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/call-of-duty-world-at-war.jpg
+icon_url: /games/icon/call-of-duty-world-at-war.png
+is_public: true
+updated: '2019-06-03T06:23:51.964810Z'
+steamid: 10090
+gogslug: ''
+humblestoreid: ''

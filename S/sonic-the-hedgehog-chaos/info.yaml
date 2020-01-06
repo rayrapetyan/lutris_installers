@@ -1,0 +1,16 @@
+name: Sonic the Hedgehog Chaos
+slug: sonic-the-hedgehog-chaos
+year: 1993
+platforms:
+- name: Sega Game Gear
+- name: Sega Master System
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/sonic-the-hedgehog-chaos.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:18.368771Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

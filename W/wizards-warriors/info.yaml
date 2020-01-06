@@ -1,0 +1,17 @@
+name: Wizards & Warriors
+slug: wizards-warriors
+year: 2000
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Fantasy
+- name: Role-playing
+aliases: []
+banner_url: /games/banner/wizards-warriors.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:09.656099Z'
+steamid: null
+gogslug: wizards_warriors
+humblestoreid: ''

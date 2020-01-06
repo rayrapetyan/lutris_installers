@@ -1,0 +1,28 @@
+id: 12971
+game_id: 17730
+game_slug: pc-building-simulator
+name: PC Building Simulator
+year: 2018
+user: tokyo_raven_eu
+runner: steam
+slug: pc-building-simulator-steam-proton
+version: Steam Proton
+description: null
+notes: "To make script work you need to enable Proton support for all titles.\r\n\
+  You can do that with heading to Settings --> Steam Play --> Enable Steam Play for\
+  \ all other titles.\r\n\r\nThen restart Steam and you can proceed with installation\
+  \ since game isn't Valve tested.\r\n\r\n* This game might require to manually install\
+  \ <a href=\"https://github.com/z0z0z/mf-install\">this fix</a>."
+created_at: '2019-04-20T06:55:30.720000Z'
+updated_at: '2019-09-21T18:56:54.756758Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 621060
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 621060

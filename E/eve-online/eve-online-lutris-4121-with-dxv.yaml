@@ -1,0 +1,57 @@
+id: 8538
+game_id: 1397
+game_slug: eve-online
+name: EVE Online
+year: 2003
+user: e7a05979dd5994e4572ab90daa17c762
+runner: wine
+slug: eve-online-lutris-4121-with-dxv
+version: lutris-4.12.1 with DXVK + ESYNC
+description: "- Sets DXVK and ESYNC\r\n- Installs the EveLauncher-version 1548102"
+notes: ''
+created_at: '2018-06-04T18:18:44.218000Z'
+updated_at: '2019-09-09T00:18:00.770638Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 8500
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/EVE/eve.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 64bit Wine prefix.
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows 10 mode for Wine
+      arch: win64
+      key: Version
+      value: win10
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      app: arial
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Running EVE Online Installer. Please do not run the game until
+        this script finishes installing.
+      name: wineexec
+  wine:
+    version: lutris-4.12.1-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - setup:
+      filename: EveLauncher-1548102.exe
+      url: https://binaries.eveonline.com/EveLauncher-1548102.exe

@@ -1,0 +1,36 @@
+id: 14511
+game_id: 1422
+game_slug: nuclear-throne
+name: Nuclear Throne
+year: null
+user: freedg
+runner: wine
+slug: nuclear-throne-gog
+version: GOG
+description: null
+notes: Ignore the runtime and "out of global" errors at end of GOG installer.
+created_at: '2019-07-10T14:37:54.552000Z'
+updated_at: '2019-09-09T00:54:05.803051Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 242680
+gogid: 1448617555
+gogslug: nuclear_throne
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating WINE prefix
+      name: create_prefix
+  - task:
+      executable: installer
+      description: Running Setup, please wait...
+      name: wineexec
+  files:
+  - installer: N/A:Select the EXE downloaded from GOG
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Nuclear Throne/nuclearthrone.exe

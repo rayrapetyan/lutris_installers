@@ -1,0 +1,24 @@
+id: 570
+game_id: 2345
+game_slug: towerfall-ascension
+name: TowerFall Ascension
+year: 2013
+user: Xodetaetl
+runner: steam
+slug: towerfall-ascension-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2014-09-14T18:54:45.437000Z'
+updated_at: '2014-09-14T18:54:51.171000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 251470
+gogid: 1430924174
+gogslug: towerfall_ascension
+humblestoreid: ''
+script:
+  game:
+    appid: 251470

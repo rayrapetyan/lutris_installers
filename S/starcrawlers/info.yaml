@@ -1,0 +1,15 @@
+name: StarCrawlers
+slug: starcrawlers
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/starcrawlers.jpg
+icon_url: /games/icon/starcrawlers.png
+is_public: true
+updated: '2019-01-23T08:31:24.087605Z'
+steamid: 318970
+gogslug: starcrawlers
+humblestoreid: ''

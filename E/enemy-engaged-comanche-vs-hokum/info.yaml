@@ -1,0 +1,17 @@
+name: 'Enemy Engaged: Comanche vs Hokum'
+slug: enemy-engaged-comanche-vs-hokum
+year: 1999
+platforms:
+- name: Windows
+genres:
+- name: Combat
+- name: Simulation
+- name: Tactical
+aliases: []
+banner_url: /games/banner/enemy-engaged-comanche-vs-hokum.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:23.403340Z'
+steamid: null
+gogslug: comanche_vs_hokum
+humblestoreid: ''

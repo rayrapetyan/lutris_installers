@@ -1,0 +1,24 @@
+id: 6280
+game_id: 3168
+game_slug: cossacks-back-to-war
+name: 'Cossacks: Back to War'
+year: null
+user: codingHahn
+runner: winesteam
+slug: cossacks-back-to-war-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-11-08T18:01:09.731235Z'
+updated_at: '2017-11-14T20:24:44.180382Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 4850
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 4850

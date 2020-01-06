@@ -1,0 +1,24 @@
+id: 1150
+game_id: 2249
+game_slug: daikatana
+name: Daikatana
+year: 2000
+user: Xodetaetl
+runner: winesteam
+slug: daikatana-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-11-27T20:11:45.228000Z'
+updated_at: '2014-11-27T20:11:54.826000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 242980
+gogid: 1207659168
+gogslug: daikatana
+humblestoreid: ''
+script:
+  game:
+    appid: 242980

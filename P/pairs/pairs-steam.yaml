@@ -1,0 +1,24 @@
+id: 7303
+game_id: 15542
+game_slug: pairs
+name: Pairs
+year: 2017
+user: t-rex91
+runner: steam
+slug: pairs-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-02-14T15:32:08.232852Z'
+updated_at: '2018-02-15T01:02:26.315230Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 732950
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 732950

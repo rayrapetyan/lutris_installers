@@ -1,0 +1,36 @@
+id: 4489
+game_id: 418
+game_slug: alan-wake
+name: Alan Wake
+year: 2010
+user: FakeShemp
+runner: wine
+slug: alan-wake-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-18T19:52:38.907000Z'
+updated_at: '2018-05-19T03:41:50.459387Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 108710
+gogid: 1207659037
+gogslug: alan_wake
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/AlanWake.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Remedy/Alan Wake/alanwake.exe
+    arch: win32

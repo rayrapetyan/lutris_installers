@@ -1,0 +1,24 @@
+id: 1228
+game_id: 3563
+game_slug: green-mahjong
+name: Green Mahjong
+year: 2014
+user: Xodetaetl
+runner: browser
+slug: green-mahjong-browser
+version: Browser
+description: ''
+notes: ''
+created_at: '2015-01-05T18:25:20.737000Z'
+updated_at: '2015-01-05T18:25:41.280000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    main_file: http://daniel-beck.org/greenmahjong/#start

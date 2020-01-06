@@ -1,0 +1,33 @@
+id: 484
+game_id: 2041
+game_slug: myst-iv-revelation
+name: 'Myst IV: Revelation'
+year: 2004
+user: Xodetaetl
+runner: wine
+slug: myst-iv-revelation-dvd
+version: DVD
+description: null
+notes: ''
+created_at: '2014-07-16T16:19:34.323000Z'
+updated_at: '2018-12-14T03:40:11.073126Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 925940
+gogid: 1956555724
+gogslug: myst_4
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Select Myst IV's setup.exe
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/UBISOFT/Myst IV - Revelation/bin/Myst4.exe
+    arch: win32

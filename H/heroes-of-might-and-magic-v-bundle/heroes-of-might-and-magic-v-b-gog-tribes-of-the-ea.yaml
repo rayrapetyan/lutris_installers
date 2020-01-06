@@ -1,0 +1,31 @@
+id: 17103
+game_id: 30551
+game_slug: heroes-of-might-and-magic-v-bundle
+name: 'Heroes of Might and Magic V: Bundle'
+year: 2006
+user: edjaa84
+runner: wine
+slug: heroes-of-might-and-magic-v-b-gog-tribes-of-the-ea
+version: GOG Tribes of the East
+description: "Heroes of Might and Magic V:  Tribes of the East (acceso directo)\r\n\
+  \r\nRaPiMoDEBianPaKaGer"
+notes: ''
+created_at: '2019-11-30T02:57:10.266099Z'
+updated_at: '2019-11-30T02:57:10.266129Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  custom-name: Tribes of the East
+  game:
+    prefix: ~/Games/heroes-of-might-and-magic-v-bundle
+    exe: ~/Games/heroes-of-might-and-magic-v-bundle/drive_c/GOG Games/HoMM 5 - Tribes
+      of the East/bin/H5_Game.exe
+    working_dir: ~/Games/heroes-of-might-and-magic-v-bundle/drive_c/GOG Games/HoMM
+      5 - Tribes of the East/bin/
+    arch: win64

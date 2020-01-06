@@ -1,0 +1,29 @@
+id: 4251
+game_id: 3500
+game_slug: sakura-spirit
+name: Sakura Spirit
+year: 2014
+user: FakeShemp
+runner: linux
+slug: sakura-spirit-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-09T20:28:45.205778Z'
+updated_at: '2017-06-11T00:45:54.832342Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 313740
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Sakura Spirit.sh
+  installer:
+  - extract:
+      format: bz2
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

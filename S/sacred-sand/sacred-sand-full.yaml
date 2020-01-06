@@ -1,0 +1,30 @@
+id: 11583
+game_id: 25175
+game_slug: sacred-sand
+name: Sacred Sand
+year: 2012
+user: kimchitea
+runner: linux
+slug: sacred-sand-full
+version: Full
+description: null
+notes: ''
+created_at: '2019-01-14T09:51:27.980000Z'
+updated_at: '2019-01-17T06:58:02.222928Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: file1
+  - chmodx: $GAMEDIR/Sacred Sand.sh
+  files:
+  - file1: N/A:Please select the game archive from http://www.mediafire.com/file/az474y26jh34s84/Sacred+Sand-all.zip
+  game:
+    exe: Sacred Sand.sh

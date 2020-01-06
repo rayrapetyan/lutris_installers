@@ -1,0 +1,17 @@
+name: TANGLEWOOD
+slug: tanglewood
+year: 2018
+platforms:
+- name: Linux
+- name: Sega Genesis / Mega Drive
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/tanglewood.jpg
+icon_url: /games/icon/tanglewood.png
+is_public: true
+updated: '2019-02-23T02:05:40.813404Z'
+steamid: 837190
+gogslug: ''
+humblestoreid: ''

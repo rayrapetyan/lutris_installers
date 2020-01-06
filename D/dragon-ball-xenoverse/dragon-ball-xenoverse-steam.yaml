@@ -1,0 +1,24 @@
+id: 6745
+game_id: 4451
+game_slug: dragon-ball-xenoverse
+name: 'Dragon Ball: Xenoverse'
+year: 2015
+user: TheCNixon
+runner: winesteam
+slug: dragon-ball-xenoverse-steam
+version: Steam
+description: Runs perfectly and connects to the servers like normal!
+notes: ''
+created_at: '2017-12-21T07:43:46.052000Z'
+updated_at: '2017-12-21T15:39:24.864214Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 323470
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 323470

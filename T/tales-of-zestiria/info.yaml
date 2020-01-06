@@ -1,0 +1,17 @@
+name: Tales of Zestiria
+slug: tales-of-zestiria
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: jRPG
+- name: RPG
+aliases: []
+banner_url: /games/banner/tales-of-zestiria.jpg
+icon_url: /games/icon/tales-of-zestiria.png
+is_public: true
+updated: '2019-01-23T08:31:35.004635Z'
+steamid: 351970
+gogslug: ''
+humblestoreid: ''

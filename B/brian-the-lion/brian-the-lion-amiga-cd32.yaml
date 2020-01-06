@@ -1,0 +1,31 @@
+id: 360
+game_id: 1680
+game_slug: brian-the-lion
+name: Brian the Lion
+year: 1994
+user: strider
+runner: fsuae
+slug: brian-the-lion-amiga-cd32
+version: Amiga CD32
+description: ''
+notes: ''
+created_at: '2014-01-12T04:33:13.324000Z'
+updated_at: '2014-09-13T13:19:13.308000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: Brian the Lion (1994)(Psygnosis)(M4)[!].cue
+  fsuae:
+    model: CD32
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: cdrom-archive
+  files:
+  - cdrom-archive: N/A:Select the archive containing the .cue file.

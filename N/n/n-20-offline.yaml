@@ -1,0 +1,36 @@
+id: 2860
+game_id: 5255
+game_slug: n
+name: N
+year: 2004
+user: djazz
+runner: web
+slug: n-20-offline
+version: 2.0 offline
+description: You can not login or edit levels with this version.
+notes: ''
+created_at: '2016-10-08T10:59:33.960000Z'
+updated_at: '2017-04-27T08:47:50.470457Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 230270
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: game
+  main_file: index.html
+  web:
+    disable_menu_bar: true
+    disable_resizing: true
+    enable_flash: true
+    disable_scrolling: true
+    window_size: 792x600
+  files:
+  - game:
+      filename: n.tar.gz
+      url: http://djazz.se/nas/games/?dl=n

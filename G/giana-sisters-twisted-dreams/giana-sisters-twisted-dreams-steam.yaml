@@ -1,0 +1,44 @@
+id: 429
+game_id: 1217
+game_slug: giana-sisters-twisted-dreams
+name: 'Giana Sisters: Twisted Dreams'
+year: 2012
+user: strider
+runner: winesteam
+slug: giana-sisters-twisted-dreams-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2014-02-20T12:55:50.662000Z'
+updated_at: '2019-11-01T00:50:47.534004Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 223220
+gogid: 1207659123
+gogslug: giana_sisters_twisted_dreams
+humblestoreid: ''
+script:
+  winesteam:
+    version: ge-protonified-nofshack-4.9-x86_64
+    esync: true
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: win81
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: wmp10
+      arch: win32
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 223220
+    arch: win32

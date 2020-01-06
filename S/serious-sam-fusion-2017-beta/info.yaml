@@ -1,0 +1,17 @@
+name: Serious Sam Fusion 2017 (beta)
+slug: serious-sam-fusion-2017-beta
+year: 2017
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+aliases: []
+banner_url: /games/banner/serious-sam-fusion-2017-beta.jpg
+icon_url: /games/icon/serious-sam-fusion-2017-beta.png
+is_public: true
+updated: '2019-01-23T08:31:09.866637Z'
+steamid: 564310
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,33 @@
+id: 11744
+game_id: 261
+game_slug: cave-story
+name: Cave Story+
+year: null
+user: RobLoach
+runner: libretro
+slug: cave-story-libretro
+version: libretro
+description: libretro port of Cave Story/NXEngine.
+notes: ''
+created_at: '2019-01-28T02:56:22.718722Z'
+updated_at: '2019-01-28T03:35:07.432889Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 200900
+gogid: null
+gogslug: ''
+humblestoreid: cave-story
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: nxengine
+  files:
+  - nxengine:
+      filename: cavestory.zip
+      url: http://buildbot.libretro.com/assets/cores/NXEngine/Cave%20Story%20%28En%29.zip
+  game:
+    core: nxengine
+    main_file: $GAMEDIR/Doukutsu.exe

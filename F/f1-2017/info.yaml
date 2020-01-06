@@ -1,0 +1,17 @@
+name: F1 2017
+slug: f1-2017
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Racing
+- name: Simulation
+- name: Sports
+aliases: []
+banner_url: /games/banner/f1-2017.jpg
+icon_url: /games/icon/f1-2017.png
+is_public: true
+updated: '2019-01-23T08:29:27.198065Z'
+steamid: 515220
+gogslug: ''
+humblestoreid: ''

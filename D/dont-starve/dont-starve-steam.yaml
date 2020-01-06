@@ -1,0 +1,24 @@
+id: 148
+game_id: 480
+game_slug: dont-starve
+name: Don't Starve
+year: 2013
+user: strider
+runner: steam
+slug: dont-starve-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-19T23:56:16.285000Z'
+updated_at: '2013-12-19T23:56:16.285000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 219740
+gogid: 1207659210
+gogslug: dont_starve
+humblestoreid: dont-starve
+script:
+  game:
+    appid: 219740

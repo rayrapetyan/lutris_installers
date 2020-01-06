@@ -1,0 +1,56 @@
+id: 7953
+game_id: 3371
+game_slug: nba-2k15
+name: NBA 2K15
+year: null
+user: tgm4883
+runner: winesteam
+slug: nba-2k15-steam
+version: Steam
+description: null
+notes: "- If playing with a xbox 360 controller the dpad shows up as a player in the\
+  \ team selection screen (although the dpad works fine in the game). \r\n\r\n- One\
+  \ of the players wasd for controllers (and is the default selected) when choosing\
+  \ sides."
+created_at: '2018-04-21T18:13:02.216000Z'
+updated_at: '2019-02-16T03:46:36.268666Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 282350
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing VisualC++ Runtime vcrun2010
+      app: vcrun2010
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: dsound
+      arch: win64
+      name: winetricks
+  winesteam:
+    version: tkg-4.0-x86_64
+    x360ce-path: $GAMEDIR
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+    x360ce-xinput9: true
+  system:
+    env:
+      DXVK_HUD: 0
+    pulse_latency: true
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 282350
+    arch: win64

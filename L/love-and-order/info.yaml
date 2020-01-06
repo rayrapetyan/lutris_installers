@@ -1,0 +1,18 @@
+name: Love And Order
+slug: love-and-order
+year: 2011
+platforms:
+- name: Linux
+genres:
+- name: Dating
+- name: Visual novel
+aliases:
+- slug: love-order
+  name: Love & Order
+banner_url: /games/banner/love-and-order.jpg
+icon_url: /games/icon/love-and-order.png
+is_public: true
+updated: '2019-05-18T07:05:58.282782Z'
+steamid: 350490
+gogslug: ''
+humblestoreid: ''

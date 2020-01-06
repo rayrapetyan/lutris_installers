@@ -1,0 +1,16 @@
+name: DarkMaus
+slug: darkmaus
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Hack and slash
+aliases: []
+banner_url: /games/banner/darkmaus.jpg
+icon_url: /games/icon/darkmaus.png
+is_public: true
+updated: '2019-10-11T02:18:50.108433Z'
+steamid: 406130
+gogslug: ''
+humblestoreid: ''

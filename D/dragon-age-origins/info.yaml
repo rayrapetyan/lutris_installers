@@ -1,0 +1,15 @@
+name: 'Dragon Age: Origins'
+slug: dragon-age-origins
+year: 2009
+platforms:
+- name: Windows
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/dragon-age-origins.jpg
+icon_url: /games/icon/dragon-age-origins.png
+is_public: true
+updated: '2019-01-23T08:29:16.314830Z'
+steamid: 17450
+gogslug: dragon_age_origins
+humblestoreid: ''

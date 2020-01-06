@@ -1,0 +1,24 @@
+id: 5299
+game_id: 4718
+game_slug: frozen-synapse-prime
+name: Frozen Synapse Prime
+year: null
+user: coco
+runner: winesteam
+slug: frozen-synapse-prime-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-08-07T18:02:20.820000Z'
+updated_at: '2017-08-27T21:23:27.654882Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 328600
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 328600

@@ -1,0 +1,24 @@
+id: 11761
+game_id: 14191
+game_slug: total-war-warhammer-ii
+name: 'Total War: WARHAMMER II'
+year: 2017
+user: property
+runner: steam
+slug: total-war-warhammer-ii-steam-native
+version: Steam (native)
+description: null
+notes: ''
+created_at: '2019-01-28T18:24:17.279000Z'
+updated_at: '2019-01-29T05:49:15.860020Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 594570
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 594570

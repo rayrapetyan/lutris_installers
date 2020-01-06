@@ -1,0 +1,16 @@
+name: 'HeXen II: Portals of Praevus'
+slug: hexen-ii-portals-of-praevus
+year: 1998
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: FPS
+aliases: []
+banner_url: /games/banner/hexen-ii-portals-of-praevus.jpg
+icon_url: /games/icon/hexen-ii-portals-of-praevus.png
+is_public: true
+updated: '2019-05-20T01:55:52.502799Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,15 @@
+name: Sid Meier's Civilization VI
+slug: sid-meiers-civilization-vi
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/sid-meiers-civilization-vi.jpg
+icon_url: /games/icon/sid-meiers-civilization-vi.png
+is_public: true
+updated: '2019-01-23T08:31:13.175534Z'
+steamid: 289070
+gogslug: ''
+humblestoreid: sid-meiers-civilization-6

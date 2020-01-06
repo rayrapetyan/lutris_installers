@@ -1,0 +1,28 @@
+id: 5150
+game_id: 12344
+game_slug: vicarwissen
+name: Vicarwissen
+year: 2016
+user: FakeShemp
+runner: linux
+slug: vicarwissen-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-07-21T21:39:24.699628Z'
+updated_at: '2017-07-26T07:39:56.511497Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Vicarwissen.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

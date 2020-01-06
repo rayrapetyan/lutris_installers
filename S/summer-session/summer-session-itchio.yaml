@@ -1,0 +1,33 @@
+id: 10039
+game_id: 3659
+game_slug: summer-session
+name: Summer Session
+year: 2008
+user: kimchitea
+runner: wine
+slug: summer-session-itchio
+version: itch.io
+description: Originally available for Linux, but the current (freeware) version is
+  Windows only.
+notes: ''
+created_at: '2018-09-04T19:42:23.304000Z'
+updated_at: '2018-09-06T10:27:30.234310Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive
+  game:
+    prefix: $GAMEDIR/prefix
+    exe: SummerSession.exe
+    arch: win32

@@ -1,0 +1,17 @@
+name: Mount & Blade
+slug: mount-blade
+year: 2008
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: RPG
+- name: Sandbox
+aliases: []
+banner_url: /games/banner/mount-blade.jpg
+icon_url: /games/icon/mount-blade.png
+is_public: true
+updated: '2019-01-23T08:30:27.161523Z'
+steamid: 22100
+gogslug: mount_blade
+humblestoreid: ''

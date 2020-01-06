@@ -1,0 +1,16 @@
+name: 'Batman: Arkham City GOTY'
+slug: batman-arkham-city-goty
+year: 2012
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/batman-arkham-city-goty.jpg
+icon_url: /games/icon/batman-arkham-city-goty.png
+is_public: true
+updated: '2019-01-23T08:28:32.115756Z'
+steamid: 200260
+gogslug: ''
+humblestoreid: batman-arkham-city-goty-edition

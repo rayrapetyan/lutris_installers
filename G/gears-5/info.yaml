@@ -1,0 +1,18 @@
+name: Gears 5
+slug: gears-5
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Third-person shooter
+aliases:
+- slug: gears-of-war-5
+  name: Gears of War 5
+banner_url: /games/banner/gears-5.jpg
+icon_url: /games/icon/gears-5.png
+is_public: true
+updated: '2019-06-13T16:11:31.940076Z'
+steamid: 1097840
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,15 @@
+name: 'Zork: The Undiscovered Underground'
+slug: zork-the-undiscovered-underground
+year: 1997
+platforms:
+- name: MS-DOS
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/zork-the-undiscovered-underground.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-21T06:58:58.104545Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

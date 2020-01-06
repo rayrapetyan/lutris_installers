@@ -1,0 +1,31 @@
+id: 2311
+game_id: 1095
+game_slug: neo-scavenger
+name: NEO Scavenger
+year: 2014
+user: Lulu
+runner: linux
+slug: neo-scavenger-humble-bundle
+version: Humble Bundle
+description: ''
+notes: ''
+created_at: '2016-07-19T06:44:58.772096Z'
+updated_at: '2016-07-20T02:48:14.293672Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 248860
+gogid: 1207667263
+gogslug: neo_scavenger
+humblestoreid: ''
+script:
+  exe: NEOScavenger
+  installer:
+  - extract:
+      file: neo-scavenger-game
+  - chmodx: $GAMEDIR/NEOScavenger
+  files:
+  - neo-scavenger-game: 'N/A: Please select the .tar.gz install file downloaded from
+      humblebundle.com'
+  steamid: '248860'

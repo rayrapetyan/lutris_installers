@@ -1,0 +1,35 @@
+id: 12588
+game_id: 26364
+game_slug: plumbers-dont-wear-ties
+name: Plumbers Don't Wear Ties
+year: 1990
+user: IceCreamSandvich
+runner: scummvm
+slug: plumbers-dont-wear-ties-pc
+version: PC
+description: Downloads the "lost" PC Version from archive.org and gets it to work
+  with ScummVM.
+notes: ''
+created_at: '2019-03-31T17:40:20.163000Z'
+updated_at: '2019-04-08T06:18:27.079384Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  scummvm:
+    aspect: true
+  installer:
+  - extract:
+      description: Extracting the game
+      dst: $GAMEDIR
+      file: gamezip
+  files:
+  - gamezip: https://archive.org/download/PLUMBER_201703/Plumbers%20Don%27t%20Wear%20Ties%20PC%20VERSION%20LEAK%20by%20Psychotic%20Giraffe.zip
+  game:
+    game_id: plumbers
+    path: $GAMEDIR/C/PLUMBER/

@@ -1,0 +1,17 @@
+name: The Long Dark
+slug: the-long-dark
+year: 2017
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Exploration
+- name: Survival
+aliases: []
+banner_url: /games/banner/the-long-dark.jpg
+icon_url: /games/icon/the-long-dark.png
+is_public: true
+updated: '2019-05-27T19:16:06.662428Z'
+steamid: 305620
+gogslug: ''
+humblestoreid: ''

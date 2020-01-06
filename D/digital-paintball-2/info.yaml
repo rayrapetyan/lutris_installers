@@ -1,0 +1,16 @@
+name: Digital Paintball 2
+slug: digital-paintball-2
+year: 1998
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/digital-paintball-2.jpg
+icon_url: /games/icon/digital-paintball-2.png
+is_public: true
+updated: '2019-01-23T08:29:11.708996Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

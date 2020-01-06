@@ -1,0 +1,19 @@
+name: Beyond Castle Wolfenstein
+slug: beyond-castle-wolfenstein
+year: 1984
+platforms:
+- name: Apple //e
+- name: Commodore 64
+- name: MS-DOS
+genres:
+- name: Action
+- name: Shooter
+- name: Stealth
+aliases: []
+banner_url: /games/banner/beyond-castle-wolfenstein.jpg
+icon_url: null
+is_public: true
+updated: '2019-02-18T07:08:03.326449Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

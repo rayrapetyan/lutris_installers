@@ -1,0 +1,29 @@
+id: 3730
+game_id: 1533
+game_slug: gunpoint
+name: Gunpoint
+year: null
+user: FakeShemp
+runner: linux
+slug: gunpoint-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-18T10:44:32.441714Z'
+updated_at: '2017-05-19T16:26:58.769054Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 206190
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Gunpoint
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Gunpoint
+  files:
+  - file1: N/A:Please select the Humble archive

@@ -1,0 +1,24 @@
+id: 10511
+game_id: 18018
+game_slug: frostpunk
+name: Frostpunk
+year: 2018
+user: Wompus
+runner: steam
+slug: frostpunk-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2018-10-15T13:38:30.890000Z'
+updated_at: '2019-05-19T06:45:33.819733Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 323190
+gogid: 1648559910
+gogslug: frostpunk
+humblestoreid: ''
+script:
+  game:
+    appid: 323190

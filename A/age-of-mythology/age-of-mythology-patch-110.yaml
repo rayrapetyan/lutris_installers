@@ -1,0 +1,30 @@
+id: 944
+game_id: 3253
+game_slug: age-of-mythology
+name: Age of Mythology
+year: 2002
+user: Xodetaetl
+runner: wine
+slug: age-of-mythology-patch-110
+version: Patch 1.10
+description: ''
+notes: ''
+created_at: '2014-10-25T16:20:09.091000Z'
+updated_at: '2016-02-06T12:35:23.249180Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: age-of-mythology-cd
+  installer:
+  - task:
+      executable: patch
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - patch: http://download.microsoft.com/download/7/b/8/7b86d03d-2384-49b2-89ed-913d06b39da9/aom10to110.exe

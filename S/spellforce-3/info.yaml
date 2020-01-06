@@ -1,0 +1,19 @@
+name: SpellForce 3
+slug: spellforce-3
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Fantasy
+- name: Role-playing
+- name: Strategy
+aliases:
+- slug: spellforce-iii
+  name: Spellforce III
+banner_url: /games/banner/spellforce-3.jpg
+icon_url: /games/icon/spellforce-3.png
+is_public: true
+updated: '2019-10-18T22:36:20.412195Z'
+steamid: 311290
+gogslug: spellforce_iii
+humblestoreid: ''

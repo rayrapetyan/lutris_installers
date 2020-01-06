@@ -1,0 +1,17 @@
+name: 'Dragon''s Dogma: Dark Arisen'
+slug: dragons-dogma-dark-arisen
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Fantasy
+- name: RPG
+aliases: []
+banner_url: /games/banner/dragons-dogma-dark-arisen.jpg
+icon_url: /games/icon/dragons-dogma-dark-arisen.png
+is_public: true
+updated: '2019-07-23T03:46:14.176799Z'
+steamid: 367500
+gogslug: dragons_dogma_dark_arisen
+humblestoreid: ''

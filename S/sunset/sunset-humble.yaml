@@ -1,0 +1,29 @@
+id: 3847
+game_id: 4600
+game_slug: sunset
+name: Sunset
+year: null
+user: FakeShemp
+runner: linux
+slug: sunset-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-24T17:51:22.669630Z'
+updated_at: '2017-05-26T00:11:17.995283Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 287600
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Sunset.x86
+  installer:
+  - extract:
+      file: $file1
+  exe64: Sunset.x86_64
+  files:
+  - file1: N/A:Please select the Humble archive

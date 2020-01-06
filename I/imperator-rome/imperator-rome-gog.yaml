@@ -1,0 +1,34 @@
+id: 13169
+game_id: 26436
+game_slug: imperator-rome
+name: 'Imperator: Rome'
+year: null
+user: rivil
+runner: linux
+slug: imperator-rome-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-04-27T21:51:51.909000Z'
+updated_at: '2019-04-27T22:40:53.640404Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 859580
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

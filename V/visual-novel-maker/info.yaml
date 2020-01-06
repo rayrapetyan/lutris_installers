@@ -1,0 +1,16 @@
+name: Visual Novel Maker
+slug: visual-novel-maker
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Tool
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/visual-novel-maker.jpg
+icon_url: /games/icon/visual-novel-maker.png
+is_public: true
+updated: '2019-01-23T08:32:03.387878Z'
+steamid: 495480
+gogslug: ''
+humblestoreid: ''

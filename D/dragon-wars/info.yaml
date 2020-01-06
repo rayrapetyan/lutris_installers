@@ -1,0 +1,15 @@
+name: Dragon Wars
+slug: dragon-wars
+year: 1990
+platforms:
+- name: Linux
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/dragon-wars.jpg
+icon_url: /games/icon/dragon-wars.png
+is_public: true
+updated: '2019-01-23T08:29:16.903234Z'
+steamid: 624070
+gogslug: dragon_wars
+humblestoreid: ''

@@ -1,0 +1,16 @@
+name: Dominions 5
+slug: dominions-5
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: 4X
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/dominions-5.jpg
+icon_url: /games/icon/dominions-5.png
+is_public: true
+updated: '2019-01-23T08:29:14.636595Z'
+steamid: 722060
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,18 @@
+name: Kogama
+slug: kogama
+year: 2011
+platforms:
+- name: Browser
+- name: Windows
+genres:
+- name: Building
+aliases:
+- slug: kogama-brasil
+  name: Kogama Brasil
+banner_url: /games/banner/kogama.jpg
+icon_url: null
+is_public: true
+updated: '2019-04-17T06:35:28.208630Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

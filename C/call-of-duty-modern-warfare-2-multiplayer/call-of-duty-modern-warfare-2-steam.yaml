@@ -1,0 +1,24 @@
+id: 6292
+game_id: 1340
+game_slug: call-of-duty-modern-warfare-2-multiplayer
+name: 'Call of Duty: Modern Warfare 2 - Multiplayer'
+year: null
+user: Will
+runner: winesteam
+slug: call-of-duty-modern-warfare-2-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-11-10T19:37:26.477029Z'
+updated_at: '2017-11-15T21:41:56.412531Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 10190
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 10190

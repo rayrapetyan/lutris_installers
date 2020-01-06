@@ -1,0 +1,15 @@
+name: Mach Rider
+slug: mach-rider
+year: 1985
+platforms:
+- name: NES
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/mach-rider.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-13T08:04:11.465284Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

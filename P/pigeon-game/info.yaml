@@ -1,0 +1,15 @@
+name: Pigeon Game
+slug: pigeon-game
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Simulation
+aliases: []
+banner_url: /games/banner/pigeon-game.jpg
+icon_url: /games/icon/pigeon-game.png
+is_public: true
+updated: '2019-01-23T08:30:44.102743Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

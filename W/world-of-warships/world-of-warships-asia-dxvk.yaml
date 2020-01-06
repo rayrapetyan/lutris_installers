@@ -1,0 +1,63 @@
+id: 7951
+game_id: 11406
+game_slug: world-of-warships
+name: World of Warships
+year: 2015
+user: Echo_8
+runner: wine
+slug: world-of-warships-asia-dxvk
+version: ASIA DXVK
+description: null
+notes: ''
+created_at: '2018-04-21T08:40:42.579000Z'
+updated_at: '2019-02-16T05:08:44.102458Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 552990
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: corefonts win10
+      arch: win64
+      name: winetricks
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      description: Installing World of Warships
+      arch: win64
+      args: /VERYSILENT /CLOSEAPPLICATIONS
+      exclude_processes: explorer.exe rpcss.exe services.exe winedevice.exe plugplay.exe
+        WargamingGameUpdater.exe WoWSLauncher.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Games/World_of_Warships/WoWSLauncher.exe
+    arch: win64
+  system:
+    env:
+      DXVK_HUD: 0
+    pulse_latency: true
+  wine:
+    version: tkg-4.0-x86_64
+    WineDesktop: 1920x1080
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+    Desktop: true
+  files:
+  - game: http://dl-wows-gc.wargaming.net/asia/files/Kg9cc1LM/WoWS_internet_install_asia.exe

@@ -1,0 +1,24 @@
+id: 5766
+game_id: 1766
+game_slug: sonic-cd
+name: Sonic CD
+year: 1993
+user: RobLoach
+runner: winesteam
+slug: sonic-cd-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-09-16T23:15:08.582000Z'
+updated_at: '2019-03-01T13:31:04.026846Z'
+draft: false
+published: true
+published_by: 51687
+rating: gold
+steamid: 200940
+gogid: null
+gogslug: ''
+humblestoreid: sonic-cd
+script:
+  game:
+    appid: 200940

@@ -1,0 +1,15 @@
+name: Sonic Jam
+slug: sonic-jam
+year: 1997
+platforms:
+- name: Sega Saturn
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/sonic-jam.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:18.218108Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,19 @@
+name: Obduction
+slug: obduction
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Exploration
+- name: Indie
+- name: Mystery
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/obduction.jpg
+icon_url: /games/icon/obduction.png
+is_public: true
+updated: '2019-12-22T18:54:41.782398Z'
+steamid: 306760
+gogslug: obduction
+humblestoreid: ''

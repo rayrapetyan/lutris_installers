@@ -1,0 +1,31 @@
+id: 10361
+game_id: 21969
+game_slug: the-winds-disciple
+name: The Wind's Disciple
+year: 2018
+user: kimchitea
+runner: linux
+slug: the-winds-disciple-12
+version: '1.2'
+description: Download the Windows version.
+notes: ''
+created_at: '2018-09-27T13:49:18.875000Z'
+updated_at: '2018-09-28T06:36:33.067854Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: TWD.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/TWD.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/TWD
+  - chmodx: $GAMEDIR/lib/linux-x86_64/TWD
+  files:
+  - file1: N/A:Please select the game archive

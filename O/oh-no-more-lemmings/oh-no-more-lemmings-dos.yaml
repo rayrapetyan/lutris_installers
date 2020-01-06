@@ -1,0 +1,39 @@
+id: 6460
+game_id: 14974
+game_slug: oh-no-more-lemmings
+name: Oh No! More Lemmings
+year: 1991
+user: Lucki
+runner: dosbox
+slug: oh-no-more-lemmings-dos
+version: DOS
+description: null
+notes: ''
+created_at: '2017-11-28T20:53:14.572000Z'
+updated_at: '2017-12-21T15:43:19.240683Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - execute:
+      args: https://www.myabandonware.com/download/189-oh-no-more-lemmings --referer=www.myabandonware.com
+        --directory-prefix=$CACHE
+      description: "Downloading addon\u2026"
+      file: /usr/bin/wget
+      dst: $CACHE
+  - extract:
+      format: zip
+      description: "Extracting addon\u2026"
+      file: $CACHE/189-oh-no-more-lemmings
+      dst: $GAMEDIR/
+  files:
+  - file_id: https://www.myabandonware.com/media/screenshots/o/oh-no-more-lemmings-18b/oh-no-more-lemmings_1.gif
+  game:
+    requires: lemmings-psp
+    main_file: VGALEMM2.EXE

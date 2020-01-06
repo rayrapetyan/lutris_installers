@@ -1,0 +1,24 @@
+id: 12708
+game_id: 26428
+game_slug: risk-of-rain-2
+name: Risk of Rain 2
+year: 2019
+user: Barrowsx
+runner: steam
+slug: risk-of-rain-2-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-04-09T21:14:11.314000Z'
+updated_at: '2019-05-21T23:56:35.191500Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 632360
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 632360

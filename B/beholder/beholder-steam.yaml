@@ -1,0 +1,24 @@
+id: 4020
+game_id: 7793
+game_slug: beholder
+name: Beholder
+year: 2016
+user: FakeShemp
+runner: steam
+slug: beholder-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-05-31T18:31:21.661998Z'
+updated_at: '2017-06-04T22:16:06.408296Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 475550
+gogid: 2146639343
+gogslug: beholder
+humblestoreid: ''
+script:
+  game:
+    appid: 475550

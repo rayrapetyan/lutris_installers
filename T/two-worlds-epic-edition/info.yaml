@@ -1,0 +1,15 @@
+name: 'Two Worlds: Epic Edition'
+slug: two-worlds-epic-edition
+year: 2007
+platforms:
+- name: Linux
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/two-worlds-epic-edition.jpg
+icon_url: /games/icon/two-worlds-epic-edition.png
+is_public: true
+updated: '2019-10-21T04:09:58.106886Z'
+steamid: 1930
+gogslug: two_worlds
+humblestoreid: ''

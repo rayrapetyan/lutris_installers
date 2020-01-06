@@ -1,0 +1,17 @@
+name: Lightspeed Frontier
+slug: lightspeed-frontier
+year: null
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Space flight
+- name: Space simulation
+aliases: []
+banner_url: /games/banner/lightspeed-frontier.jpg
+icon_url: /games/icon/lightspeed-frontier.png
+is_public: true
+updated: '2019-01-23T08:30:10.993181Z'
+steamid: 548650
+gogslug: ''
+humblestoreid: ''

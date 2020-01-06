@@ -1,0 +1,16 @@
+name: Arma 2
+slug: arma-2
+year: 2009
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Simulation
+aliases: []
+banner_url: /games/banner/arma-2.jpg
+icon_url: /games/icon/arma-2.png
+is_public: true
+updated: '2019-01-23T08:28:24.934070Z'
+steamid: 33910
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,17 @@
+name: 'Wing Commander: Armada'
+slug: wing-commander-armada
+year: 1994
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Sci-fi
+- name: Shooter
+aliases: []
+banner_url: /games/banner/wing-commander-armada.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:08.956900Z'
+steamid: null
+gogslug: wing_commander_armada
+humblestoreid: ''

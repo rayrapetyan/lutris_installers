@@ -1,0 +1,19 @@
+name: Byond
+slug: byond
+year: 2003
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Construction
+- name: RPG
+- name: Simulation
+- name: Survival
+aliases: []
+banner_url: /games/banner/byond.jpg
+icon_url: /games/icon/byond.png
+is_public: true
+updated: '2019-03-12T01:22:04.482098Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,16 @@
+name: Mindustry
+slug: mindustry
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Sandbox
+- name: Tower defense
+aliases: []
+banner_url: /games/banner/mindustry.jpg
+icon_url: null
+is_public: true
+updated: '2019-10-12T12:03:14.151469Z'
+steamid: 1127400
+gogslug: ''
+humblestoreid: ''

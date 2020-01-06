@@ -1,0 +1,17 @@
+name: Mega Blast
+slug: mega-blast
+year: 1995
+platforms:
+- name: Amiga
+- name: MS-DOS
+genres:
+- name: Action
+- name: Arcade
+aliases: []
+banner_url: /games/banner/mega-blast.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:20.892659Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

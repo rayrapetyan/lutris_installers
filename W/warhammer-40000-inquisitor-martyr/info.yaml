@@ -1,0 +1,17 @@
+name: 'Warhammer 40,000: Inquisitor - Martyr'
+slug: warhammer-40000-inquisitor-martyr
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/warhammer-40000-inquisitor-martyr.jpg
+icon_url: /games/icon/warhammer-40000-inquisitor-martyr.png
+is_public: true
+updated: '2019-01-23T08:32:05.829864Z'
+steamid: 527430
+gogslug: ''
+humblestoreid: ''

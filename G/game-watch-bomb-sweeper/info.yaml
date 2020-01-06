@@ -1,0 +1,15 @@
+name: 'Game & Watch: Bomb Sweeper'
+slug: game-watch-bomb-sweeper
+year: 1987
+platforms:
+- name: Arcade
+genres:
+- name: Platformer
+aliases: []
+banner_url: /games/banner/game-watch-bomb-sweeper.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-08T17:36:13.097692Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

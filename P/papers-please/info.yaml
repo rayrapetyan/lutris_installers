@@ -1,0 +1,15 @@
+name: Papers, Please
+slug: papers-please
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Simulation
+aliases: []
+banner_url: /games/banner/papers-please.jpg
+icon_url: /games/icon/papers-please.png
+is_public: true
+updated: '2019-01-23T08:30:42.001600Z'
+steamid: 239030
+gogslug: papers_please
+humblestoreid: papers-please

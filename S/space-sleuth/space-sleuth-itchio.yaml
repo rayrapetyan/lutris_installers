@@ -1,0 +1,32 @@
+id: 6693
+game_id: 15169
+game_slug: space-sleuth
+name: Space Sleuth
+year: 2015
+user: FakeShemp
+runner: wine
+slug: space-sleuth-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2017-12-16T17:18:00.306969Z'
+updated_at: '2018-05-19T03:41:48.266687Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Space Sleuth
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Space Sleuth/Space Sleuth.exe
+    arch: win32

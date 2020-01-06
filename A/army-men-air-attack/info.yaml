@@ -1,0 +1,17 @@
+name: 'Army Men: Air Attack'
+slug: army-men-air-attack
+year: 1999
+platforms:
+- name: Nintendo 64
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Shooter
+aliases: []
+banner_url: /games/banner/army-men-air-attack.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:26.170678Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

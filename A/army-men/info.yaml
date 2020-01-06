@@ -1,0 +1,17 @@
+name: Army Men
+slug: army-men
+year: 1998
+platforms:
+- name: Windows
+genres:
+- name: Real-time strategy
+- name: Strategy
+- name: Tactical shooter
+aliases: []
+banner_url: /games/banner/army-men.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:26.154127Z'
+steamid: 549160
+gogslug: army_men
+humblestoreid: ''

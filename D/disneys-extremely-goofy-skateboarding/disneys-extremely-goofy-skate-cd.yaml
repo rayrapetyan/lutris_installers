@@ -1,0 +1,118 @@
+id: 9613
+game_id: 20663
+game_slug: disneys-extremely-goofy-skateboarding
+name: Disney's Extremely Goofy Skateboarding
+year: 2001
+user: Medath
+runner: wine
+slug: disneys-extremely-goofy-skate-cd
+version: CD
+description: null
+notes: Tested with the German version
+created_at: '2018-08-06T12:24:51.998000Z'
+updated_at: '2018-08-24T00:45:20.807598Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: Setup/Goofy
+  - task:
+      prefix: $GAMEDIR
+      description: Enabling sandbox to prevent the game from cluttering your home
+        folder
+      app: sandbox
+      name: winetricks
+  - write_file:
+      content: '[InstallShield Silent]
+
+        Version=v5.00.000
+
+        File=Response File
+
+        [DlgOrder]
+
+        Dlg0=SdBitmap-0
+
+        Count=7
+
+        Dlg1=SdAskOptionsList-0
+
+        Dlg2=SdLicense-0
+
+        Dlg3=InstallSize-0
+
+        Dlg4=AskPath-0
+
+        Dlg5=SdConfirmNewDir-0
+
+        Dlg6=SdFinish-0
+
+        [SdBitmap-0]
+
+        Result=1
+
+        [SdAskOptionsList-0]
+
+        Component-type=string
+
+        Component-count=1
+
+        Component-0=United States
+
+        Result=1
+
+        [SdLicense-0]
+
+        Result=1
+
+        [InstallSize-0]
+
+        Result=102
+
+        [AskPath-0]
+
+        szPath=C:\game\goofy_skate\
+
+        Result=1
+
+        [SdConfirmNewDir-0]
+
+        Result=1
+
+        [Application]
+
+        Name=Disney''s Extremely Goofy Skateboarding
+
+        Version=1.0
+
+        Company=Disney Sports
+
+        [SdFinish-0]
+
+        Result=1
+
+        bOpt1=0
+
+        bOpt2=0
+
+        '
+      description: Creating installer config file
+      file: $GAMEDIR/drive_c/setup.iss
+  - task:
+      executable: $DISC/Setup/SETUP.EXE
+      args: -s -f1"C:\setup.iss"
+      description: Installing Game. Some background music will inevitably play and
+        you'll have to accept one pop-up window
+      name: wineexec
+  system:
+    reset_desktop: true
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/game/goofy_skate/Skating.exe

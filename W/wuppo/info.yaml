@@ -1,0 +1,17 @@
+name: Wuppo
+slug: wuppo
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Fighting
+- name: Platform
+aliases: []
+banner_url: /games/banner/wuppo.jpg
+icon_url: /games/icon/wuppo.png
+is_public: true
+updated: '2019-01-23T08:32:11.635881Z'
+steamid: 400630
+gogslug: wuppo
+humblestoreid: ''

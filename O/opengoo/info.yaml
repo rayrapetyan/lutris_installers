@@ -1,0 +1,16 @@
+name: OpenGOO
+slug: opengoo
+year: null
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/opengoo.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:37.414287Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

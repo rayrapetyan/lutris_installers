@@ -1,0 +1,42 @@
+id: 17014
+game_id: 5807
+game_slug: descent-2
+name: Descent 2
+year: 1996
+user: edwinfoss
+runner: linux
+slug: descent-2-dxx-rebirth-with-gog
+version: DXX-Rebirth with GOG pack
+description: "- Best sound from:\r\nhttps://www.dxx-rebirth.com/download/dxx/res/d2xr-sc55-music.dxa"
+notes: ''
+created_at: '2019-11-26T09:20:55.710000Z'
+updated_at: '2019-12-23T19:57:33.971057Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 273580
+gogid: 1207663093
+gogslug: descent_2
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: data
+  - extract:
+      dst: $GAMEDIR
+      file: engine
+  - merge:
+      src: $CACHE/app
+      dst: $GAMEDIR
+  - merge:
+      src: sound
+      dst: $GAMEDIR
+  files:
+  - data: N/A:Select the game's setup file
+  - engine: https://lutris.net/files/games/dxxrebirth/d2x-rebirth-0.58.1-x86_64.tar.gz
+  - sound: https://www.dxx-rebirth.com/download/dxx/res/d2xr-sc55-music.dxa
+  game:
+    args: -hogdir .
+    exe: d2x-rebirth

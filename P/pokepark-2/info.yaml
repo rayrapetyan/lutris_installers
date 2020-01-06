@@ -1,0 +1,16 @@
+name: "Pok\xE9Park 2"
+slug: pokepark-2
+year: 2012
+platforms:
+- name: Nintendo Wii
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/pokepark-2.jpg
+icon_url: null
+is_public: true
+updated: '2019-07-20T02:57:27.214394Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

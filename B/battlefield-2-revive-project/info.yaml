@@ -1,0 +1,17 @@
+name: 'Battlefield 2: Revive Project'
+slug: battlefield-2-revive-project
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: FPS
+- name: MMOFPS
+- name: Real-time tactics
+aliases: []
+banner_url: /games/banner/battlefield-2-revive-project.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:32.893214Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

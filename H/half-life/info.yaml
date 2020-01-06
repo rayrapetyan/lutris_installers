@@ -1,0 +1,15 @@
+name: Half-Life
+slug: half-life
+year: 1998
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/half-life.jpg
+icon_url: /games/icon/half-life.png
+is_public: true
+updated: '2019-01-23T08:29:45.930848Z'
+steamid: 70
+gogslug: ''
+humblestoreid: ''

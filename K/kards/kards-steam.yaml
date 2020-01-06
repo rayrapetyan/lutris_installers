@@ -1,0 +1,24 @@
+id: 15474
+game_id: 28010
+game_slug: kards
+name: KARDS
+year: 2019
+user: bowst
+runner: winesteam
+slug: kards-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-09-12T12:48:06.623883Z'
+updated_at: '2019-10-06T22:03:07.747954Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 544810
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 544810

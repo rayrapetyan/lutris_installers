@@ -1,0 +1,17 @@
+name: Banjo-Tooie
+slug: banjo-tooie
+year: 2000
+platforms:
+- name: Nintendo 64
+genres:
+- name: Action
+- name: Adventure
+- name: Platform
+aliases: []
+banner_url: /games/banner/banjo-tooie.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:31.432806Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

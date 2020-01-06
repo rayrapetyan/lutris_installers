@@ -1,0 +1,16 @@
+name: A Boy and His Blob
+slug: a-boy-and-his-blob
+year: 2009
+platforms:
+- name: Linux
+genres:
+- name: Platform
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/a-boy-and-his-blob.jpg
+icon_url: /games/icon/a-boy-and-his-blob.png
+is_public: true
+updated: '2019-01-23T08:28:10.428364Z'
+steamid: 281200
+gogslug: a_boy_and_his_blob
+humblestoreid: ''

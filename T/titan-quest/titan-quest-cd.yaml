@@ -1,0 +1,47 @@
+id: 1121
+game_id: 63
+game_slug: titan-quest
+name: Titan Quest
+year: 2006
+user: Xodetaetl
+runner: wine
+slug: titan-quest-cd
+version: CD
+description: ''
+notes: "You should install patch v1.01 to 1.30 afterwards.\r\nThe intro movie can't\
+  \ be skipped; you can disable it by renaming or deleting the TQCinematic.bik file\
+  \ in the Videos folder."
+created_at: '2014-11-19T22:37:46.792000Z'
+updated_at: '2018-05-19T03:41:48.554351Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 4540
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: TQ Launcher.txt
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  - move:
+      src: $GAMEDIR/drive_c/Program Files/THQ/Titan Quest/Videos/TQCinematic.bik
+      dst: $GAMEDIR/drive_c/Program Files/THQ/Titan Quest/Videos/TQCinematic.bik_
+  - move:
+      src: $GAMEDIR/drive_c/Program Files/THQ/Titan Quest/Videos/TQLegal.bik
+      dst: $GAMEDIR/drive_c/Program Files/THQ/Titan Quest/Videos/TQLegal.bik_
+  - move:
+      src: $GAMEDIR/drive_c/Program Files/THQ/Titan Quest/Videos/TQLogos.bik
+      dst: $GAMEDIR/drive_c/Program Files/THQ/Titan Quest/Videos/TQLogos.bik_
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files
+    arch: win32

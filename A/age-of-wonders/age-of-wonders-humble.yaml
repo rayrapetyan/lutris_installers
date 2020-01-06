@@ -1,0 +1,33 @@
+id: 4504
+game_id: 2411
+game_slug: age-of-wonders
+name: Age of Wonders
+year: 1999
+user: FakeShemp
+runner: wine
+slug: age-of-wonders-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-19T19:22:01.510000Z'
+updated_at: '2018-05-19T03:41:50.877619Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 61500
+gogid: 1207658883
+gogslug: age_of_wonders
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Triumph Studios/Age of Wonders/AoW.exe
+    arch: win32

@@ -1,0 +1,33 @@
+id: 16294
+game_id: 26073
+game_slug: super-mario-war
+name: Super Mario War
+year: 2006
+user: cooliofoolio
+runner: wine
+slug: super-mario-war-18-beta2
+version: 1.8 Beta2
+description: Runs under windows, shouldn't need all of the dead linux dependencies
+notes: No manual tasks!
+created_at: '2019-10-19T19:47:46.308756Z'
+updated_at: '2019-10-19T19:47:46.308780Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  script:
+    files:
+    - file1:
+        referer: www.smwstuff.net
+        filename: smw.zip
+        url: http://smwstuff.net/getgame?f=smw-1.8-beta2-win32.zip
+    - extract:
+        file: smw-1.8-beta2-win32.zip
+    game:
+      exe: $GAMEDIR/SuperMarioWar
+      arch: win32

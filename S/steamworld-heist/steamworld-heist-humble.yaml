@@ -1,0 +1,28 @@
+id: 4022
+game_id: 6354
+game_slug: steamworld-heist
+name: SteamWorld Heist
+year: 2015
+user: FakeShemp
+runner: linux
+slug: steamworld-heist-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-31T18:37:16.600791Z'
+updated_at: '2017-06-04T22:16:40.108808Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 322190
+gogid: 1668986402
+gogslug: steamworld_heist
+humblestoreid: steamworld-heist
+script:
+  exe: Heist
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

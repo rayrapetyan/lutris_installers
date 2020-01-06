@@ -1,0 +1,17 @@
+name: 'RollerCoaster Tycoon: Deluxe'
+slug: rollercoaster-tycoon-deluxe
+year: 1999
+platforms:
+- name: Windows
+genres:
+- name: Construction
+- name: Management
+- name: Simulation
+aliases: []
+banner_url: /games/banner/rollercoaster-tycoon-deluxe.jpg
+icon_url: /games/icon/rollercoaster-tycoon-deluxe.png
+is_public: true
+updated: '2019-11-02T14:09:17.244389Z'
+steamid: 285310
+gogslug: rollercoaster_tycoon_deluxe
+humblestoreid: ''

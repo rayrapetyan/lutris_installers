@@ -1,0 +1,15 @@
+name: Magic The Gathering Online
+slug: magic-the-gathering-online
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Cards
+aliases: []
+banner_url: /games/banner/magic-the-gathering-online.jpg
+icon_url: /games/icon/magic-the-gathering-online.png
+is_public: true
+updated: '2019-01-23T08:30:16.014457Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

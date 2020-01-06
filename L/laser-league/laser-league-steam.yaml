@@ -1,0 +1,24 @@
+id: 8231
+game_id: 17840
+game_slug: laser-league
+name: Laser League
+year: null
+user: soredake
+runner: winesteam
+slug: laser-league-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T07:32:18.554634Z'
+updated_at: '2018-05-13T09:18:59.968970Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 570460
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 570460

@@ -1,0 +1,15 @@
+name: Super Mario Galaxy
+slug: super-mario-galaxy
+year: 2007
+platforms:
+- name: Nintendo Wii
+genres:
+- name: Arcade
+aliases: []
+banner_url: /games/banner/super-mario-galaxy.jpg
+icon_url: /games/icon/super-mario-galaxy.png
+is_public: true
+updated: '2019-01-23T08:31:30.609715Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

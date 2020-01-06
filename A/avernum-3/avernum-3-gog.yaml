@@ -1,0 +1,43 @@
+id: 13759
+game_id: 12024
+game_slug: avernum-3
+name: Avernum 3
+year: 2002
+user: Lethiks
+runner: wine
+slug: avernum-3-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-05-27T20:37:02.713000Z'
+updated_at: '2019-06-17T01:45:14.734690Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: setup
+      args: /SILENT /LANG=en /SP- /NOCANCEL /SUPPRESSMSGBOXES /NOGUI
+      description: Installing. This may take a while...
+      arch: win64
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Avernum 3/Avernum 3.exe
+    arch: win64
+  system:
+    env:
+      DXVK_HUD: 0
+  wine:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native
+    dxvk: true
+  files:
+  - setup: 'N/A: Please select the setup.exe downloaded from GOG.com'

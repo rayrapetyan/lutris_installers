@@ -1,0 +1,24 @@
+id: 5000
+game_id: 7604
+game_slug: goetia
+name: Goetia
+year: null
+user: pmatulka
+runner: steam
+slug: goetia-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-07-12T19:44:00.023029Z'
+updated_at: '2017-07-26T07:38:36.435866Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 421740
+gogid: 1661984551
+gogslug: goetia
+humblestoreid: ''
+script:
+  game:
+    appid: 421740

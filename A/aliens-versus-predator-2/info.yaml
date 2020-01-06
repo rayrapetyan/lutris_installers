@@ -1,0 +1,15 @@
+name: Aliens versus Predator 2
+slug: aliens-versus-predator-2
+year: 2001
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/aliens-versus-predator-2.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:18.882742Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

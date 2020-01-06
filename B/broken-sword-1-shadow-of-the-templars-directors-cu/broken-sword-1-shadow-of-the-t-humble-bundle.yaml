@@ -1,0 +1,28 @@
+id: 18
+game_id: 31
+game_slug: broken-sword-1-shadow-of-the-templars-directors-cu
+name: "Broken Sword: The Shadow of the Templars \u2013 The Director's Cut"
+year: 2009
+user: strider
+runner: linux
+slug: broken-sword-1-shadow-of-the-t-humble-bundle
+version: Humble Bundle
+description: bs1dc_linux_v1.0.799
+notes: ''
+created_at: '2013-06-27T21:55:21Z'
+updated_at: '2014-08-17T21:56:48.226000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 57640
+gogid: 1207658900
+gogslug: broken_sword_directors_cut
+humblestoreid: broken-sword-shadow-of-the-templars-the-directors-cut
+script:
+  exe: bs1dc_linux_v1.0.799/BS1DC
+  installer:
+  - extract:
+      file: humblebundle-archive
+  files:
+  - humblebundle-archive: N/A

@@ -1,0 +1,32 @@
+id: 10199
+game_id: 21755
+game_slug: etheral
+name: ETHEREAL
+year: 2018
+user: llamasking
+runner: wine
+slug: ethereal-humble-trove
+version: Humble Trove
+description: The DRM-Free version downloaded from Humble Bundle's Trove service.
+notes: ''
+created_at: '2018-09-15T14:50:18.915000Z'
+updated_at: '2018-09-16T06:13:23.533388Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: zip
+  files:
+  - zip: N/A:Please select the zip downloaded from Humble Trove
+  game:
+    prefix: $GAMEDIR/wineprefix
+    exe: $GAMEDIR/ETHEREAL.exe
+    arch: win64

@@ -1,0 +1,24 @@
+id: 578
+game_id: 1534
+game_slug: '140'
+name: '140'
+year: 2013
+user: Xodetaetl
+runner: steam
+slug: 140-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2014-09-14T19:17:22.189000Z'
+updated_at: '2014-09-14T19:17:26.225000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 242820
+gogid: 1096313866
+gogslug: 140_game
+humblestoreid: ''
+script:
+  game:
+    appid: 242820

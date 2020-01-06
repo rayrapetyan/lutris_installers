@@ -1,0 +1,24 @@
+id: 17137
+game_id: 4448
+game_slug: wings-of-vi
+name: Wings of Vi
+year: null
+user: hitagi
+runner: winesteam
+slug: wings-of-vi-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-12-01T05:36:17.315088Z'
+updated_at: '2019-12-01T05:36:17.315111Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 318530
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 318530

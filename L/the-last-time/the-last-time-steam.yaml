@@ -1,0 +1,24 @@
+id: 9441
+game_id: 12572
+game_slug: the-last-time
+name: The Last Time
+year: 2016
+user: kimchitea
+runner: steam
+slug: the-last-time-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-29T00:28:10.071720Z'
+updated_at: '2018-07-29T04:36:26.659323Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 468050
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 468050

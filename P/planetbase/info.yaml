@@ -1,0 +1,16 @@
+name: Planetbase
+slug: planetbase
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: City building
+- name: Simulation
+aliases: []
+banner_url: /games/banner/planetbase.jpg
+icon_url: /games/icon/planetbase.png
+is_public: true
+updated: '2019-01-23T08:30:45.946500Z'
+steamid: 403190
+gogslug: planetbase
+humblestoreid: ''

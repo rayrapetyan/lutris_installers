@@ -1,0 +1,24 @@
+id: 7176
+game_id: 11239
+game_slug: sweet-fantasy
+name: Sweet fantasy
+year: 2017
+user: t-rex91
+runner: steam
+slug: sweet-fantasy-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-01-27T21:46:05.669631Z'
+updated_at: '2018-01-28T07:56:54.695539Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 612110
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 612110

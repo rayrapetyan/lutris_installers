@@ -1,0 +1,24 @@
+id: 6220
+game_id: 4369
+game_slug: tera
+name: TERA
+year: 2015
+user: goolord
+runner: winesteam
+slug: tera-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-11-02T20:27:22.727000Z'
+updated_at: '2017-11-04T23:03:55.993145Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 323370
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 323370

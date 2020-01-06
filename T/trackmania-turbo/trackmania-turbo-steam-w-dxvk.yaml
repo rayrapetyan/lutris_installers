@@ -1,0 +1,30 @@
+id: 9689
+game_id: 8633
+game_slug: trackmania-turbo
+name: Trackmania Turbo
+year: 2016
+user: hockdudu
+runner: winesteam
+slug: trackmania-turbo-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2018-08-11T13:01:59.230000Z'
+updated_at: '2019-02-16T05:00:39.280414Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 375900
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    appid: 375900

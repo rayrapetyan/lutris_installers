@@ -1,0 +1,17 @@
+name: "Pok\xE9mon TCG Online"
+slug: pokemon-tcg-online
+year: 2011
+platforms:
+- name: Windows
+genres:
+- name: Turn-based strategy
+aliases:
+- slug: pokemon-tcg-online
+  name: Pokemon TCG Online
+banner_url: /games/banner/pokemon-tcg-online.jpg
+icon_url: /games/icon/pokemon-tcg-online.png
+is_public: true
+updated: '2019-06-01T06:15:04.672559Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

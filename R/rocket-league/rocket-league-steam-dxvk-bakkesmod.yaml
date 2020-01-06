@@ -1,0 +1,68 @@
+id: 10989
+game_id: 4974
+game_slug: rocket-league
+name: Rocket League
+year: 2015
+user: cxf
+runner: winesteam
+slug: rocket-league-steam-dxvk-bakkesmod
+version: Steam DXVK + BakkesMod
+description: Installs DXVK w/ BakkesMod
+notes: "You'll need to run BakkesMod.exe manually every time you launch Rocket League.\r\
+  \n\r\nBakkesMod GUI doesn't open but works otherwise.\r\n\r\n<b>Warning: Crashes\
+  \ when using DXVK. We don't reccommend you play competitive currently.</b>"
+created_at: '2018-11-25T21:46:00.630000Z'
+updated_at: '2019-12-23T19:53:39.545979Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: 252950
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: $GAMEDIR/BakkesMod.exe
+      prefix: $GAMEDIR/prefix
+      description: Please select RocketLeague.exe through the setup prompt to install
+        BakkesMod.
+      arch: win32
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: winekill
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      key: ShowDotFiles
+      value: Y
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: winekill
+  winesteam:
+    version: lutris-4.16-x86_64
+    dxvk: true
+    Desktop: true
+  system:
+    env:
+      __GL_THREADED_OPTIMIZATIONS: 1
+      DXVK_LOG_LEVEL: none
+      DXVK_HUD: compiler
+      mesa_glthread: 'true'
+  files:
+  - bakke: http://bakkesmod.com/static/BakkesModInjector.zip
+  game:
+    prefix: $GAMEDIR/prefix
+    nolaunch: true
+    appid: 252950
+    arch: win32

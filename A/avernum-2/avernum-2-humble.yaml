@@ -1,0 +1,36 @@
+id: 4766
+game_id: 12023
+game_slug: avernum-2
+name: Avernum 2
+year: 2000
+user: FakeShemp
+runner: wine
+slug: avernum-2-humble
+version: Humble
+description: From "The First Avernum Trilogy"
+notes: ''
+created_at: '2017-07-03T13:15:14.822000Z'
+updated_at: '2018-05-19T03:41:55.143988Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/Avernum2Fullv101.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Avernum 2/Avernum 2.exe
+    arch: win32

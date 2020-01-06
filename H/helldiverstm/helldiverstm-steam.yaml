@@ -1,0 +1,26 @@
+id: 5069
+game_id: 8207
+game_slug: helldiverstm
+name: "HELLDIVERS\u2122"
+year: null
+user: NuSuey
+runner: winesteam
+slug: helldiverstm-steam
+version: Steam
+description: ''
+notes: "Had some issues with setting the game to fullscreen (and back - which froze\
+  \ the game), so I would recommend to stick to Windowed or Borderless-window.\r\n\
+  Besides of that, game works & performs wonderfully."
+created_at: '2017-07-16T13:24:44.310493Z'
+updated_at: '2017-07-24T16:01:01.750694Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 394510
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 394510

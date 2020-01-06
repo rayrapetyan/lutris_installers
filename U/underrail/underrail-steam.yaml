@@ -1,0 +1,37 @@
+id: 3643
+game_id: 1652
+game_slug: underrail
+name: Underrail
+year: 2015
+user: strider
+runner: winesteam
+slug: underrail-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-05-06T01:00:45.110000Z'
+updated_at: '2017-05-06T01:54:01.132282Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 250520
+gogid: 1447688349
+gogslug: underrail
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing .NET 4.0
+      app: dotnet4
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing XNA
+      app: xna40
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 250520
+    arch: win32

@@ -1,0 +1,24 @@
+id: 6767
+game_id: 10201
+game_slug: fumiko
+name: Fumiko!
+year: 2017
+user: FakeShemp
+runner: steam
+slug: fumiko-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-23T00:09:22.379340Z'
+updated_at: '2017-12-23T00:11:26.967529Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 563810
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 563810

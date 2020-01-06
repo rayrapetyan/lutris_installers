@@ -1,0 +1,17 @@
+name: Wing Commander 3 Heart of the Tiger
+slug: wing-commander-3-heart-of-the-tiger
+year: 1994
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Sci-fi
+- name: Shooter
+aliases: []
+banner_url: /games/banner/wing-commander-3-heart-of-the-tiger.jpg
+icon_url: null
+is_public: false
+updated: '2019-04-24T01:44:21.110524Z'
+steamid: null
+gogslug: wing_commander_3_heart_of_the_tiger
+humblestoreid: ''

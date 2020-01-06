@@ -1,0 +1,24 @@
+id: 10422
+game_id: 64
+game_slug: the-walking-dead
+name: The Walking Dead
+year: 2012
+user: rregeer
+runner: steam
+slug: the-walking-dead-steam-proton
+version: Steam Proton
+description: null
+notes: 'Make sure you have selected: Enable Steam play for all titles'
+created_at: '2018-10-04T21:17:42.217000Z'
+updated_at: '2019-05-19T06:47:18.478808Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 207610
+gogid: 1432207977
+gogslug: walking_dead_season_1_the
+humblestoreid: ''
+script:
+  game:
+    appid: 207610

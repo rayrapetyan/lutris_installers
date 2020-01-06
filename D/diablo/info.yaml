@@ -1,0 +1,17 @@
+name: Diablo
+slug: diablo
+year: 1996
+platforms:
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Hack and slash
+- name: RPG
+aliases: []
+banner_url: /games/banner/diablo.jpg
+icon_url: /games/icon/diablo.png
+is_public: true
+updated: '2019-09-25T09:33:54.891296Z'
+steamid: null
+gogslug: diablo
+humblestoreid: ''

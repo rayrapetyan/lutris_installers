@@ -1,0 +1,24 @@
+id: 2239
+game_id: 6358
+game_slug: switch-galaxy-ultra
+name: Switch Galaxy Ultra
+year: 2015
+user: RobLoach
+runner: steam
+slug: switch-galaxy-ultra-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-07-02T22:44:57.629087Z'
+updated_at: '2016-07-02T22:45:53.754034Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 359060
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 359060

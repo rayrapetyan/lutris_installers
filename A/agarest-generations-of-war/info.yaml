@@ -1,0 +1,17 @@
+name: 'Agarest: Generations of War'
+slug: agarest-generations-of-war
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: RPG
+- name: Strategy
+aliases: []
+banner_url: /games/banner/agarest-generations-of-war.jpg
+icon_url: /games/icon/agarest-generations-of-war.png
+is_public: true
+updated: '2019-10-14T01:46:20.556030Z'
+steamid: 237890
+gogslug: agarest_generations_of_war
+humblestoreid: ''

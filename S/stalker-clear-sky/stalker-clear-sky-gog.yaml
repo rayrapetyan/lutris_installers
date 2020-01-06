@@ -1,0 +1,48 @@
+id: 6070
+game_id: 810
+game_slug: stalker-clear-sky
+name: 'S.T.A.L.K.E.R.: Clear Sky'
+year: 2008
+user: bacera
+runner: wine
+slug: stalker-clear-sky-gog
+version: GOG
+description: Runs in windowed 1920x1080 for convenience. This can be changed without
+  issue.
+notes: ''
+created_at: '2017-10-22T22:16:15.524000Z'
+updated_at: '2019-10-27T09:30:58.256072Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 20510
+gogid: 1207660603
+gogslug: stalker_clear_sky
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/S.T.A.L.K.E.R. Clear Sky/xrEngine.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /NOCANCEL /SP- /SUPPRESSMSGBOXES
+      description: Running GOG Installer
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Installing d3dx9, this could take a while...
+      app: d3dx9
+      name: winetricks
+  wine:
+    WineDesktop: 1920x1080
+    Desktop: true
+  files:
+  - setup: N/A:Select the GOG installer

@@ -1,0 +1,23 @@
+name: 'The Duel: Test Drive II'
+slug: the-duel-test-drive-ii
+year: 1989
+platforms:
+- name: Amiga
+- name: Amstrad CPC 464
+- name: Atari ST
+- name: Commodore 64
+- name: MS-DOS
+- name: MSX
+- name: Sega Genesis / Mega Drive
+- name: Super Nintendo
+- name: ZX Spectrum
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/the-duel-test-drive-ii.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:40.531762Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,18 @@
+name: The Saboteur
+slug: the-saboteur
+year: 2009
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Stealth
+- name: TPP
+aliases: []
+banner_url: /games/banner/the-saboteur.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:46.559764Z'
+steamid: null
+gogslug: saboteur
+humblestoreid: ''

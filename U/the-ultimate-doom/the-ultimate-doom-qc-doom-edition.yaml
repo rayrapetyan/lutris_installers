@@ -1,0 +1,35 @@
+id: 2440
+game_id: 125
+game_slug: the-ultimate-doom
+name: The Ultimate Doom
+year: 1995
+user: RobLoach
+runner: linux
+slug: the-ultimate-doom-qc-doom-edition
+version: 'QC: Doom Edition'
+description: 'Steam data + Quake Champions: Doom Edition: http://www.moddb.com/mods/quake-champions-doom-edition/'
+notes: ''
+created_at: '2016-08-12T06:02:24.604000Z'
+updated_at: '2018-05-06T07:07:48.153486Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 2280
+gogid: 1440164514
+gogslug: the_ultimate_doom
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      src: $zandronum
+      dst: $GAMEDIR
+  - merge:
+      src: wads
+      dst: $GAMEDIR
+  files:
+  - wads: $STEAM:2280:base
+  - zandronum: https://zandronum.com/downloads/zandronum3.0-linux-x86_64.tar.bz2
+  game:
+    args: -file QCDEv1.1.0.pk3
+    exe: zandronum

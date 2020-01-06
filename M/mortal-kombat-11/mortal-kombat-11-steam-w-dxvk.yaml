@@ -1,0 +1,54 @@
+id: 13157
+game_id: 26995
+game_slug: mortal-kombat-11
+name: Mortal Kombat 11
+year: 2019
+user: OsamaBinlada
+runner: winesteam
+slug: mortal-kombat-11-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2019-04-27T16:09:44.135000Z'
+updated_at: '2019-11-17T20:53:48.520670Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: 976310
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: create_prefix
+  - extract:
+      dst: $CACHE/mfinstaller
+      file: mfinstaller
+  - execute:
+      env:
+        WINEPREFIX: $GAMEDIR
+      command: $CACHE/mfinstaller/install-mf.sh
+      terminal: true
+  - task:
+      prefix: $GAMEDIR
+      description: Installing dependencies
+      app: arial
+      arch: win64
+      name: winetricks
+  winesteam:
+    version: lutris-4.20-x86_64
+    esync: true
+    dxvk: true
+  system:
+    env:
+      WINE_LOW_USER_SPACE_LIMIT: 1
+      DXVK_HUD: compiler
+  files:
+  - mfinstaller: https://lutris.nyc3.cdn.digitaloceanspaces.com/games/epic-games-store/mf-install-master.zip
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 976310
+    arch: win64

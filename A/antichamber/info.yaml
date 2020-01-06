@@ -1,0 +1,16 @@
+name: Antichamber
+slug: antichamber
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Platform
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/antichamber.jpg
+icon_url: /games/icon/antichamber.png
+is_public: true
+updated: '2019-01-23T08:28:22.908143Z'
+steamid: 219890
+gogslug: ''
+humblestoreid: antichamber

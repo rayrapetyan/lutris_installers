@@ -1,0 +1,24 @@
+name: Star Control I & II
+slug: star-control-i-ii
+year: 1992
+platforms:
+- name: 3DO
+- name: MS-DOS
+genres:
+- name: Action
+aliases:
+- slug: star-control-the-ur-quan-masters
+  name: 'Star Control: The Ur Quan Masters'
+- slug: star-control-i-and-ii
+  name: Star Control I and II
+- slug: star-control-1-and-2
+  name: Star Control 1 and 2
+- slug: star-control-ii-the-ur-quan-masters
+  name: 'Star Control II: The Ur-Quan Masters'
+banner_url: /games/banner/star-control-i-ii.jpg
+icon_url: /games/icon/star-control-i-ii.png
+is_public: true
+updated: '2019-10-07T05:08:23.657418Z'
+steamid: 358920
+gogslug: ''
+humblestoreid: ''

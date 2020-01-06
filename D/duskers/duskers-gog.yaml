@@ -1,0 +1,37 @@
+id: 2389
+game_id: 6767
+game_slug: duskers
+name: Duskers
+year: 2016
+user: Lulu
+runner: linux
+slug: duskers-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2016-08-07T18:14:36.564105Z'
+updated_at: '2016-08-17T02:01:30.413055Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 254320
+gogid: 1847879387
+gogslug: duskers
+humblestoreid: ''
+script:
+  exe: Game/start.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/Game
+  files:
+  - game: 'N/A: Plese select the GOG.com Linux installer'
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

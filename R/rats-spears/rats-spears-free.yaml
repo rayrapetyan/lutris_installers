@@ -1,0 +1,29 @@
+id: 6500
+game_id: 14999
+game_slug: rats-spears
+name: Rats & Spears
+year: 2004
+user: fanotriel
+runner: linux
+slug: rats-spears-free
+version: Free
+description: null
+notes: ''
+created_at: '2017-11-30T19:05:06.628564Z'
+updated_at: '2017-11-30T19:07:43.822793Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: RatsSpears-1.0/RatsSpears
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: game
+  files:
+  - game: http://fs.absolutist.com/linux/ratsspears_lin.tgz

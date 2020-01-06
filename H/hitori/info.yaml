@@ -1,0 +1,15 @@
+name: Hitori
+slug: hitori
+year: null
+platforms:
+- name: Linux
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/hitori.jpg
+icon_url: /games/icon/hitori.png
+is_public: false
+updated: '2019-03-09T05:15:14.505801Z'
+steamid: 763540
+gogslug: ''
+humblestoreid: ''

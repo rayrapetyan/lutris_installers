@@ -1,0 +1,24 @@
+id: 13107
+game_id: 26164
+game_slug: a-more-beautiful-world-a-visual-novel
+name: A More Beautiful World - A Visual Novel
+year: 2018
+user: kimchitea
+runner: steam
+slug: a-more-beautiful-world-a-visu-steam-demo
+version: Steam Demo
+description: null
+notes: ''
+created_at: '2019-04-25T22:55:28.165482Z'
+updated_at: '2019-04-26T07:07:18.686904Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 436680
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 501000

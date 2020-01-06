@@ -1,0 +1,24 @@
+id: 8641
+game_id: 6375
+game_slug: princess-remedy-in-a-world-of-hurt
+name: Princess Remedy in a World of Hurt
+year: 2014
+user: Nibiron
+runner: winesteam
+slug: princess-remedy-in-a-world-of-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-10T23:26:53.228593Z'
+updated_at: '2018-06-11T07:35:28.001042Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 407900
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 407900

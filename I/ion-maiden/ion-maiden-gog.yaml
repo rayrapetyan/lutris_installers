@@ -1,0 +1,34 @@
+id: 12092
+game_id: 17155
+game_slug: ion-maiden
+name: Ion Fury
+year: 2019
+user: cxf
+runner: linux
+slug: ion-maiden-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-02-19T04:15:09.594000Z'
+updated_at: '2019-02-19T04:15:20.817238Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 562860
+gogid: 2130382962
+gogslug: ion_maiden
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

@@ -1,0 +1,37 @@
+id: 5699
+game_id: 141
+game_slug: oddworld-abes-oddysee
+name: 'Oddworld: Abe''s Oddysee'
+year: 1997
+user: FakeShemp
+runner: wine
+slug: oddworld-abes-oddysee-groupees
+version: Groupees
+description: 'From the Oddworld: Abe''s Oddysee + Oddworld: Abe''s Exoddus pack.'
+notes: ''
+created_at: '2017-09-11T18:46:34.324000Z'
+updated_at: '2018-05-19T03:41:57.086803Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 15700
+gogid: 1207658705
+gogslug: oddworld_abes_oddysee
+humblestoreid: oddworld-abes-oddysee
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/OAO-Installer.exe
+      prefix: $GAMEDIR
+      args: /S
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Abe's Oddysee/AbeWin.exe
+    arch: win32

@@ -1,0 +1,37 @@
+id: 6538
+game_id: 2872
+game_slug: frayed-knights-the-skull-of-smakh-daon
+name: 'Frayed Knights: The Skull of S''makh-Daon'
+year: null
+user: FakeShemp
+runner: wine
+slug: frayed-knights-the-skull-of-s-groupees
+version: Groupees
+description: null
+notes: ''
+created_at: '2017-12-03T11:25:16.003000Z'
+updated_at: '2018-05-19T03:41:51.940444Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 314120
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/FK_TSoSD_Setup_v1.06.exe
+      prefix: $GAMEDIR
+      args: /sp- /verysilent /norestart /suppressmsgboxes /nogui
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Frayed Knights 1/FrayedKnights.exe
+    arch: win32

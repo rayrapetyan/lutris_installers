@@ -1,0 +1,43 @@
+id: 15580
+game_id: 11830
+game_slug: simon-the-sorcerer-ii-the-lion-the-wizard-and-the-
+name: 'Simon the Sorcerer II: The Lion, the Wizard and the Wardrobe'
+year: 1995
+user: appoloin
+runner: scummvm
+slug: simon-the-sorcerer-ii-the-lio-ms-dos
+version: MS-DOS
+description: null
+notes: ''
+created_at: '2019-09-15T16:25:22.259193Z'
+updated_at: '2019-09-15T16:25:22.259225Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - write_file:
+      content: '#!/bin/bash
+
+        src=$1
+
+        dst=$2
+
+        src_path=$(echo "$1" | sed -r "s/(.+)\/.+/\1/")
+
+        cp -avr "$src_path/."  "$dst"'
+      file: $CACHE/bulkcopy.sh
+  - chmodx: $CACHE/bulkcopy.sh
+  - execute:
+      args: $game $GAMEDIR
+      file: $CACHE/bulkcopy.sh
+  files:
+  - game: N/A:Select the file Install.Exe
+  game:
+    game_id: simon2
+    path: $GAMEDIR

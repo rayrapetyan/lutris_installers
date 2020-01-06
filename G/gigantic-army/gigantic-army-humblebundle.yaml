@@ -1,0 +1,28 @@
+id: 933
+game_id: 2294
+game_slug: gigantic-army
+name: Gigantic Army
+year: 2014
+user: strider
+runner: linux
+slug: gigantic-army-humblebundle
+version: humblebundle
+description: Version from Humble Bundle
+notes: ''
+created_at: '2014-10-20T01:58:48.894000Z'
+updated_at: '2014-10-20T02:22:44.796000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 278930
+gogid: null
+gogslug: ''
+humblestoreid: gigantic-army
+script:
+  exe: GiganticArmy
+  installer:
+  - extract:
+      file: giganticarmy-archive
+  files:
+  - giganticarmy-archive: N/A:Please select the .tar.gz file downloaded from http://humblebundle.com

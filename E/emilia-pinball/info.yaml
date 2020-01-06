@@ -1,0 +1,16 @@
+name: Emilia Pinball
+slug: emilia-pinball
+year: 2000
+platforms:
+- name: Linux
+genres:
+- name: Arcade
+- name: Pinball
+aliases: []
+banner_url: /games/banner/emilia-pinball.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:22.728681Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

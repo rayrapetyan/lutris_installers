@@ -1,0 +1,17 @@
+name: "STAR WARS\u2122: Rebel Assault I + II"
+slug: star-warstm-rebel-assault-i-ii
+year: 1993
+platforms:
+- name: Linux
+- name: MS-DOS
+genres:
+- name: Shooter
+- name: Space flight
+aliases: []
+banner_url: /games/banner/star-warstm-rebel-assault-i-ii.jpg
+icon_url: /games/icon/star-warstm-rebel-assault-i-ii.png
+is_public: false
+updated: '2019-01-23T08:31:25.670807Z'
+steamid: 456540
+gogslug: ''
+humblestoreid: ''

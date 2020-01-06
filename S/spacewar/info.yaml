@@ -1,0 +1,15 @@
+name: Spacewar
+slug: spacewar
+year: 1985
+platforms:
+- name: MS-DOS
+genres:
+- name: Space simulation
+aliases: []
+banner_url: /games/banner/spacewar.jpg
+icon_url: null
+is_public: true
+updated: '2019-04-05T06:50:42.532276Z'
+steamid: 480
+gogslug: ''
+humblestoreid: ''

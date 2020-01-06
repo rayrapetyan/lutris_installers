@@ -1,0 +1,24 @@
+id: 6958
+game_id: 4321
+game_slug: spookys-jump-scare-mansion
+name: Spooky's Jump Scare Mansion
+year: 2015
+user: simon76
+runner: winesteam
+slug: spookys-house-of-jump-scares-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-01-02T07:15:31.741532Z'
+updated_at: '2018-01-02T15:59:39.401269Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 356670
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 356670

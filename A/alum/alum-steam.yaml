@@ -1,0 +1,24 @@
+id: 2408
+game_id: 5039
+game_slug: alum
+name: Alum
+year: 2015
+user: gschaffran
+runner: steam
+slug: alum-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-08-09T17:47:00.186287Z'
+updated_at: '2016-08-17T01:53:45.310592Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 338420
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 338420

@@ -1,0 +1,24 @@
+id: 234
+game_id: 226
+game_slug: vvvvvv
+name: VVVVVV
+year: 2010
+user: strider
+runner: steam
+slug: vvvvvv-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-19T23:56:19.234000Z'
+updated_at: '2013-12-19T23:56:19.234000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 70300
+gogid: 1207659753
+gogslug: vvvvvv
+humblestoreid: vvvvvv
+script:
+  game:
+    appid: 70300

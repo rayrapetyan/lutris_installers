@@ -1,0 +1,53 @@
+id: 6482
+game_id: 14976
+game_slug: medal-of-honor-allied-assault-war-chest
+name: 'Medal of Honor: Allied Assault War Chest'
+year: 2002
+user: cxf
+runner: wine
+slug: medal-of-honor-allied-assault-gog
+version: GOG
+description: still not finished work in progress
+notes: ''
+created_at: '2017-11-29T09:04:45.691000Z'
+updated_at: '2019-09-09T01:49:34.906483Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: 1207659126
+gogslug: medal_of_honor_allied_assault_war_chest
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      filename: $CACHE/regeditfile/mohaa_disabled_extenstions-v2.reg
+      name: set_regedit_file
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      description: Installing Medal of Honor
+      arch: win32
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Medal of Honor - Allied Assault War Chest/MOHAA.exe
+    arch: win32
+  system:
+    env:
+      MESA_EXTENSION_MAX_YEAR: '2003'
+      __GL_ExtensionStringVersion: '17700'
+  wine:
+    version: tkg-protonified-3.21-x86_64
+  files:
+  - game: N/A:Select the game's setup file
+  - regeditfile:
+      filename: mohaa_disabled_extenstions-v2.reg
+      url: http://bugs.winehq.org/attachment.cgi?id=44390

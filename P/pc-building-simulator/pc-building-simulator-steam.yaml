@@ -1,0 +1,36 @@
+id: 7751
+game_id: 17730
+game_slug: pc-building-simulator
+name: PC Building Simulator
+year: 2018
+user: TuiorGames
+runner: winesteam
+slug: pc-building-simulator-steam
+version: Steam
+description: null
+notes: '* This game might require to manually install <a href="https://github.com/z0z0z/mf-install">this
+  fix</a>.'
+created_at: '2018-04-03T13:09:57.966000Z'
+updated_at: '2019-09-21T18:55:57.311616Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 621060
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-3.12-x86_64
+    Desktop: false
+  installer:
+  - task:
+      app: vcrun2010
+      name: winetricks
+  - task:
+      app: corefonts
+      name: winetricks
+  game:
+    args: -force-glcore
+    appid: 621060

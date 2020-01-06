@@ -1,0 +1,17 @@
+name: Surviving Mars
+slug: surviving-mars
+year: 2018
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: City building
+- name: Simulation
+aliases: []
+banner_url: /games/banner/surviving-mars.jpg
+icon_url: /games/icon/surviving-mars.png
+is_public: true
+updated: '2019-10-26T01:01:58.056209Z'
+steamid: 464920
+gogslug: surviving_mars
+humblestoreid: ''

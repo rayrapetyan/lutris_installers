@@ -1,0 +1,15 @@
+name: 'Howlville: The Dark Past'
+slug: howlville-the-dark-past
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/howlville-the-dark-past.jpg
+icon_url: /games/icon/howlville-the-dark-past.png
+is_public: true
+updated: '2019-01-23T08:29:52.844087Z'
+steamid: 828950
+gogslug: ''
+humblestoreid: ''

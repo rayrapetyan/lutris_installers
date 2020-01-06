@@ -1,0 +1,32 @@
+id: 5377
+game_id: 404
+game_slug: thief-gold
+name: Thief Gold
+year: null
+user: FakeShemp
+runner: wine
+slug: thief-gold-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2017-08-13T14:32:13.169000Z'
+updated_at: '2017-08-27T21:20:38.909394Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 211600
+gogid: 1207658997
+gogslug: thief_gold
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the GOG installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Thief Gold/THIEF.EXE

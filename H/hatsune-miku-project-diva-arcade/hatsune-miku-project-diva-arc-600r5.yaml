@@ -1,0 +1,75 @@
+id: 13357
+game_id: 27195
+game_slug: hatsune-miku-project-diva-arcade
+name: 'Hatsune Miku: Project DIVA Arcade'
+year: 2010
+user: nastys
+runner: wine
+slug: hatsune-miku-project-diva-arc-600r5
+version: 600r5
+description: "Uses ELAC by samyuu and lybxlpsv.\r\nThe \"songfix\" must be installed\
+  \ manually.\r\nDisable \"Reduce PulseAudio latency\" if you get no sound.\r\nThe\
+  \ installer will set the resolution to 1080p by default. To set it to 720p, remove\
+  \ \"-hd1080\" from the arguments. To use a custom resolution, edit graphics.ini\
+  \ (don't remove \"-hd1080\" from the arguments)."
+notes: "- An NVIDIA GPU is required. On Turing-based GPUs, you may experience some\
+  \ glitches. A custom shader may be used to mitigate the issue, but it must be installed\
+  \ manually;\r\n- WMV playback may not work (32-bit codecs required). Converting\
+  \ all WMVs to MP4 and then changing the entries in pv_db.txt might fix it."
+created_at: '2019-05-06T14:41:05.545000Z'
+updated_at: '2019-06-12T04:47:11.558117Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      install_mono: false
+      description: Creating Wine prefix...
+      install_gecko: false
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing quartz...
+      app: quartz
+      name: winetricks
+  - extract:
+      description: Extracting game data...
+      dst: $GAMEDIR/drive_c/PDA
+      file: gamedata
+  - extract:
+      description: Extracting ELAC...
+      dst: $GAMEDIR/drive_c/PDA
+      file: elac
+  - merge:
+      src: $GAMEDIR/drive_c/PDA/diva.exe
+      dst: $GAMEDIR/drive_c/PDA/bak/
+  - task:
+      executable: $GAMEDIR/drive_c/PDA/prepatch.exe
+      prefix: $GAMEDIR
+      args: diva.exe
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    args: '"diva.exe -hdtv1080"'
+    exe: $GAMEDIR/drive_c/PDA/elac.exe
+  system:
+    env:
+      __GL_THREADED_OPTIMIZATIONS: '1'
+      mesa_glthread: 'true'
+      __GL_SHADER_DISK_CACHE: '1'
+    pulse_latency: 'true'
+  wine:
+    version: tkg-4.6-x86_64
+    single_cpu: true
+  files:
+  - gamedata: N/A:Select the archive containing the game
+  - elac:
+      filename: elac.zip
+      url: https://ci.appveyor.com/api/projects/lybxlpsv/evenmorelegitarcadecontroller/artifacts/release.zip?branch=experimental

@@ -1,0 +1,34 @@
+id: 2672
+game_id: 7302
+game_slug: r-type
+name: R-Type
+year: 1987
+user: ssf
+runner: fsuae
+slug: r-type-freeware
+version: Freeware
+description: Katakis, R-Type and BC KID are not provided for the public domain. You
+  are entitled to download and use these games only for non-commercial purposes. All
+  copyrights are retained by their owners. Any distribution of this data through any
+  medium unless specifically permitted by the copyright owners is not allowed.
+notes: ''
+created_at: '2016-09-02T22:15:28.265485Z'
+updated_at: '2016-09-06T16:38:24.431428Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: R-Type.adf
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: game
+  files:
+  - disks:
+    - R-Type.adf
+    game: http://www.factor5.de/downloads/r-type.zip

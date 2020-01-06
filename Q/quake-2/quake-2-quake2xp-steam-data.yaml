@@ -1,0 +1,69 @@
+id: 3663
+game_id: 28
+game_slug: quake-2
+name: Quake 2
+year: 1997
+user: strider
+runner: linux
+slug: quake-2-quake2xp-steam-data
+version: Quake2XP + Steam data
+description: Requires to own the game on Steam. Uses the improved and open engine
+  Quake2XP
+notes: ''
+created_at: '2017-05-11T01:06:46.213000Z'
+updated_at: '2019-04-17T06:52:35.416062Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 2320
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: quake2xp
+  installer:
+  - extract:
+      file: q2xp-engine
+  - merge:
+      src: quake2-data
+      dst: $GAMEDIR/baseq2
+  - extract:
+      dst: $GAMEDIR/baseq2/music
+      file: quake2-music
+  - extract:
+      dst: $GAMEDIR/baseq2/maps
+      file: q2xp-maps
+  - extract:
+      dst: $GAMEDIR/baseq2/glsl
+      file: q2xp-shaders
+  - move:
+      src: q2xp-data
+      dst: $GAMEDIR/baseq2/
+  - move:
+      src: q2xp-maps2
+      dst: $GAMEDIR/baseq2/
+  - move:
+      src: q2xp-models
+      dst: $GAMEDIR/baseq2/
+  - move:
+      src: q2xp-music
+      dst: $GAMEDIR/baseq2/
+  - move:
+      src: q2xp-textures
+      dst: $GAMEDIR/baseq2/
+  - move:
+      src: q2xp-water
+      dst: $GAMEDIR/baseq2/
+  files:
+  - q2xp-engine: https://lutris.net/files/games/quake-2/quake2xp-815-x86_64.tar.gz
+  - quake2-data: $STEAM:2320:baseq2
+  - quake2-music: https://lutris.net/files/games/quake-2/quake2-music.tar.gz
+  - q2xp-maps: https://lutris.net/files/games/quake-2/q2xp-maps.tar.xz
+  - q2xp-shaders: https://lutris.net/files/games/quake-2/q2xp-glsl.tar.xz
+  - q2xp-data: https://lutris.net/files/games/quake-2/q2xp0.pkx
+  - q2xp-maps2: https://lutris.net/files/games/quake-2/q2xpMaps.pkx
+  - q2xp-models: https://lutris.net/files/games/quake-2/q2xpMdl.pkx
+  - q2xp-music: https://lutris.net/files/games/quake-2/q2xpMusic.pkx
+  - q2xp-textures: https://lutris.net/files/games/quake-2/q2xpTex0.pkx
+  - q2xp-water: https://lutris.net/files/games/quake-2/q2xpWater.pkx

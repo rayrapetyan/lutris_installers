@@ -1,0 +1,16 @@
+name: Duke Nukem Forever
+slug: duke-nukem-forever
+year: 2011
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+aliases: []
+banner_url: /games/banner/duke-nukem-forever.jpg
+icon_url: /games/icon/duke-nukem-forever.png
+is_public: true
+updated: '2019-01-23T08:29:18.784285Z'
+steamid: 57900
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,15 @@
+name: The Longest Journey
+slug: the-longest-journey
+year: 1999
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/the-longest-journey.jpg
+icon_url: /games/icon/the-longest-journey.png
+is_public: true
+updated: '2019-09-24T10:45:17.885861Z'
+steamid: 6310
+gogslug: the_longest_journey
+humblestoreid: ''

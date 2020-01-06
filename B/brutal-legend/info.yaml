@@ -1,0 +1,17 @@
+name: "Br\xFCtal Legend"
+slug: brutal-legend
+year: 2009
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Real-time strategy
+- name: Sandbox
+aliases: []
+banner_url: /games/banner/brutal-legend.jpg
+icon_url: /games/icon/brutal-legend.png
+is_public: true
+updated: '2019-02-27T02:39:17.119721Z'
+steamid: 225260
+gogslug: brutal_legend
+humblestoreid: brutal-legend

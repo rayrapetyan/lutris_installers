@@ -1,0 +1,24 @@
+id: 7449
+game_id: 5045
+game_slug: zotrix
+name: Zotrix
+year: 2015
+user: t-rex91
+runner: steam
+slug: zotrix-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-04T13:21:18.088392Z'
+updated_at: '2018-03-04T22:34:20.094343Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 343280
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 343280

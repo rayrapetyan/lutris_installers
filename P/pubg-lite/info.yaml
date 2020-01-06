@@ -1,0 +1,17 @@
+name: PUBG Lite
+slug: pubg-lite
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Combat
+- name: Exploration
+- name: FPS
+aliases: []
+banner_url: /games/banner/pubg-lite.jpg
+icon_url: null
+is_public: true
+updated: '2019-12-27T23:50:10.607643Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

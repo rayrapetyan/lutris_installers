@@ -1,0 +1,38 @@
+id: 4440
+game_id: 1201
+game_slug: the-raven-legacy-of-a-master-thief
+name: The Raven - Legacy of a Master Thief
+year: 2013
+user: robotkinz
+runner: linux
+slug: the-raven-legacy-of-a-master-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2017-06-17T20:34:44.909923Z'
+updated_at: '2017-06-18T23:25:07.494665Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 233370
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: game/start.sh
+  gogid: the_raven_legacy_of_a_master_thief
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Plese select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

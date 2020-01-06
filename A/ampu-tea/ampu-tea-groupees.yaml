@@ -1,0 +1,36 @@
+id: 5638
+game_id: 2311
+game_slug: ampu-tea
+name: Ampu-Tea
+year: 2014
+user: FakeShemp
+runner: wine
+slug: ampu-tea-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-09T17:03:46.396000Z'
+updated_at: '2018-05-19T03:41:57.187153Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 289090
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Ampu-Tea
+      file: $file1
+  - task:
+      prefix: $GAMEDIR
+      app: eufonts
+      name: winetricks
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Ampu-Tea/amputea.Exe
+    arch: win32

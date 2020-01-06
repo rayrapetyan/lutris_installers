@@ -1,0 +1,31 @@
+id: 2207
+game_id: 4508
+game_slug: reassembly
+name: Reassembly
+year: 2015
+user: Lulu
+runner: linux
+slug: reassembly-humble-bundle-64bit
+version: Humble Bundle (64bit)
+description: ''
+notes: ''
+created_at: '2016-06-26T21:20:29.386308Z'
+updated_at: '2016-09-30T20:46:56.673941Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 329130
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: linux/ReassemblyRelease64
+  installer:
+  - extract:
+      file: reassembly-game
+  - chmodx: $GAMEDIR/linux/ReassemblyRelease64
+  files:
+  - reassembly-game: 'N/A: Please select the .tar.gz install file downloaded from
+      humblebundle.com'
+  steamid: '329130'

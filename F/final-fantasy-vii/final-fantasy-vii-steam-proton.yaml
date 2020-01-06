@@ -1,0 +1,24 @@
+id: 15278
+game_id: 1643
+game_slug: final-fantasy-vii
+name: Final Fantasy VII
+year: 1997
+user: Wompus
+runner: steam
+slug: final-fantasy-vii-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-09-03T20:10:48.020000Z'
+updated_at: '2019-10-11T01:07:12.585889Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 39140
+gogid: null
+gogslug: ''
+humblestoreid: final-fantasy-vii
+script:
+  game:
+    appid: 39140

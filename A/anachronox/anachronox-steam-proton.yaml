@@ -1,0 +1,24 @@
+id: 14391
+game_id: 1827
+game_slug: anachronox
+name: Anachronox
+year: 2001
+user: marciocr
+runner: steam
+slug: anachronox-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-07-02T22:12:50.821000Z'
+updated_at: '2019-09-09T01:08:30.740324Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 242940
+gogid: 1207659012
+gogslug: anachronox
+humblestoreid: ''
+script:
+  game:
+    appid: 242940

@@ -1,0 +1,37 @@
+id: 5683
+game_id: 794
+game_slug: commandos-beyond-the-call-of-duty
+name: 'Commandos: Beyond the Call of Duty'
+year: 1999
+user: FakeShemp
+runner: wine
+slug: commandos-beyond-the-call-of-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-11T11:23:49.486000Z'
+updated_at: '2018-05-19T03:41:53.475619Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 6810
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/setup.exe
+      prefix: $GAMEDIR
+      args: /sp- /verysilent /norestart /suppressmsgboxes /nogui
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Pyro Studios/Commandos1MP/coman_mp.exe
+    arch: win32

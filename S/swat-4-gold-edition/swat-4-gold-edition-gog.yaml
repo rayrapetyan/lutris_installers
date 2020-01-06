@@ -1,0 +1,47 @@
+id: 6391
+game_id: 9742
+game_slug: swat-4-gold-edition
+name: 'SWAT 4: Gold Edition'
+year: 2005
+user: Soerensen
+runner: wine
+slug: swat-4-gold-edition-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2017-11-22T18:38:05.939000Z'
+updated_at: '2019-10-27T03:44:08.879292Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: 1409964317
+gogslug: swat_4_gold_edition
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/SWAT 4/Content/System/Swat4.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /NOCANCEL /SP- /SUPPRESSMSGBOXES
+      description: Installing the Game
+      name: wineexec
+  - task:
+      executable: sba
+      prefix: $GAMEDIR
+      name: wineexec
+  wine:
+    version: ge-protonified-4.9-x86_64
+  files:
+  - setup: N/A:Please select the GOG installer
+  - sba:
+      referer: https://www.moddb.com/games/swat-4/downloads/swat-4-server-browser-alternative
+      filename: SWAT4SBA_v180.exe
+      url: https://www.moddb.com/downloads/start/78621/all

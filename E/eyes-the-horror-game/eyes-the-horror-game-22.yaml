@@ -1,0 +1,29 @@
+id: 45
+game_id: 53
+game_slug: eyes-the-horror-game
+name: Eyes - the Horror Game
+year: 2013
+user: strider
+runner: linux
+slug: eyes-the-horror-game-22
+version: '2.2'
+description: ''
+notes: ''
+created_at: '2013-07-16T19:45:29Z'
+updated_at: '2016-01-25T23:14:13.147052Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: eyes-2.2-linux/eyes-2.2-linux
+  installer:
+  - extract:
+      file: eyes-archive
+  - chmodx: $GAMEDIR/eyes-2.2-linux/eyes-2.2-linux
+  files:
+  - eyes-archive: http://lutris.net/files/games/eyes-the-horror-game/eyes2.2.zip

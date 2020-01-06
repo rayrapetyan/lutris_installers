@@ -1,0 +1,83 @@
+id: 15545
+game_id: 21475
+game_slug: lands-of-lore-the-throne-of-chaos
+name: 'Lands of Lore: The Throne of Chaos'
+year: 1993
+user: appoloin
+runner: scummvm
+slug: lands-of-lore-the-throne-of-c-gog-12
+version: GOG 1+2
+description: null
+notes: ''
+created_at: '2019-09-14T17:57:43.636053Z'
+updated_at: '2019-09-14T17:57:43.636080Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: 1207662513
+gogslug: lands_of_lore_the_throne_of_chaos
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $inno
+  - copy:
+      src: $xcopy
+      dst: $GAMEDIR
+  - execute:
+      args: -I app -d "$CACHE" "$game"
+      file: $CACHE/innoextract
+  - write_file:
+      content: '[sdl]
+
+        sensitivity=30
+
+        [autoexec]
+
+        mount C "$GAMEDIR" -t dir
+
+        imgmount D "$CACHE/app/Lands of Lore 1/GAME.DAT" -t iso
+
+        ver set 6.22
+
+        D:
+
+        C:\xcopy.exe  D:\data\*.ADL C:\
+
+        C:\xcopy.exe  D:\data\*.PAK C:\
+
+        C:\xcopy.exe  D:\data\*.TLK C:\
+
+        C:\xcopy.exe  D:\data\FILEDATA.FDT C:\
+
+        md C:\ENG
+
+        C:\xcopy.exe D:\data\eng\*.*  C:\ENG
+
+        md C:\FRE
+
+        C:\xcopy.exe D:\data\fre\*.*  C:\FRE
+
+        md C:\GER
+
+        C:\xcopy.exe D:\data\ger\*.* C:\GER
+
+        exit'
+      file: $CACHE/lore.conf
+  - task:
+      config_file: $CACHE/lore.conf
+      working_dir: $GAMEDIR
+      name: dosbox.dosexec
+  - execute:
+      args: -r $GAMEDIR/XCOPY.EXE
+      file: /bin/rm
+  files:
+  - game: N/A:Select GOG installer.
+  - inno: https://lutris.nyc3.digitaloceanspaces.com/tools/innoextract/innoextract-1.8-dev-2019-01-13-linux.tar.xz
+  - xcopy: https://github.com/appoloin/WfW/raw/master/XCOPY.EXE
+  game:
+    game_id: lol
+    path: $GAMEDIR

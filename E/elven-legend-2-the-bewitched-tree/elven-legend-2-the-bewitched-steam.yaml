@@ -1,0 +1,24 @@
+id: 13995
+game_id: 11919
+game_slug: elven-legend-2-the-bewitched-tree
+name: 'Elven Legend 2: The Bewitched Tree'
+year: null
+user: kimchitea
+runner: steam
+slug: elven-legend-2-the-bewitched-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-06-08T10:34:03.127317Z'
+updated_at: '2019-06-13T06:46:09.338871Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 593540
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 593540

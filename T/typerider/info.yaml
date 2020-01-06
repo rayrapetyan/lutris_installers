@@ -1,0 +1,16 @@
+name: Type:Rider
+slug: typerider
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Casual
+- name: Platform
+aliases: []
+banner_url: /games/banner/typerider.jpg
+icon_url: /games/icon/typerider.png
+is_public: true
+updated: '2019-01-23T08:31:57.704171Z'
+steamid: 258890
+gogslug: ''
+humblestoreid: typerider

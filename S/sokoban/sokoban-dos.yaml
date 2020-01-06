@@ -1,0 +1,41 @@
+id: 7402
+game_id: 16764
+game_slug: sokoban
+name: Sokoban
+year: 1984
+user: HazieHurst
+runner: dosbox
+slug: sokoban-dos
+version: DOS
+description: null
+notes: ''
+created_at: '2018-02-26T08:59:20.351000Z'
+updated_at: '2018-05-06T07:15:36.245230Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: $GAMEDIR/Soko-Ban.1984/SKB.EXE
+  installer:
+  - extract:
+      format: zip
+      file: $archive
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/dosbox_lutris.conf
+  - write_config:
+      section: sdl
+      key: fullscreen
+      value: false
+      file: $GAMEDIR/dosbox_lutris.conf
+  files:
+  - archive: http://starehry.eu/download/strategy/SokoBan.zip
+  game:
+    config_file: $GAMEDIR/dosbox_lutris.conf

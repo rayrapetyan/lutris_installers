@@ -1,0 +1,32 @@
+id: 4761
+game_id: 12019
+game_slug: splotches
+name: Splotches
+year: 2013
+user: FakeShemp
+runner: wine
+slug: splotches-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-07-03T10:31:04.344168Z'
+updated_at: '2018-05-19T03:41:54.509283Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Splotches
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Splotches/Splotches.exe
+    arch: win32

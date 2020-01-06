@@ -1,0 +1,31 @@
+id: 1388
+game_id: 4014
+game_slug: celestian-tales-old-north
+name: 'Celestian Tales: Old North'
+year: null
+user: orbea
+runner: linux
+slug: celestian-tales-old-north-proto-64-bit
+version: proto 64-bit
+description: Demo prototype
+notes: ''
+created_at: '2015-03-10T22:50:42.153000Z'
+updated_at: '2015-03-13T10:14:41.592000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 315860
+gogid: 1438597128
+gogslug: celestian_tales_old_north
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: file1
+  - chmodx: $GAMEDIR/CTON-Proto-linux_v3b.x86_64
+  files:
+  - file1: http://ks392457.kimsufi.com/orbea/stuff/games/lutris/CTON-Proto-linux_v3b.tar.gz
+  game:
+    exe: CTON-Proto-linux_v3b.x86_64

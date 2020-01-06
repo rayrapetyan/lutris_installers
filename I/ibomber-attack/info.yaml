@@ -1,0 +1,16 @@
+name: iBomber Attack
+slug: ibomber-attack
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/ibomber-attack.jpg
+icon_url: /games/icon/ibomber-attack.png
+is_public: true
+updated: '2019-01-23T08:29:54.087615Z'
+steamid: 218660
+gogslug: ''
+humblestoreid: ''

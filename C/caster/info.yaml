@@ -1,0 +1,16 @@
+name: Caster
+slug: caster
+year: 2009
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/caster.jpg
+icon_url: /games/icon/caster.png
+is_public: true
+updated: '2019-01-23T08:28:47.236130Z'
+steamid: 29800
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,31 @@
+id: 7395
+game_id: 16752
+game_slug: asphalt-nitro
+name: 'Asphalt: Nitro'
+year: 2015
+user: te_lanus
+runner: libretro
+slug: asphalt-nitro-j2me
+version: J2ME
+description: null
+notes: ''
+created_at: '2018-02-25T13:13:48.438440Z'
+updated_at: '2018-02-25T13:13:56.501573Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Java game file
+  game:
+    core: freej2me
+    main_file: file1

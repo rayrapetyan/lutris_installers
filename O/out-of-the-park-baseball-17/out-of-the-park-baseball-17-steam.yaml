@@ -1,0 +1,24 @@
+id: 7912
+game_id: 8175
+game_slug: out-of-the-park-baseball-17
+name: Out of the Park Baseball 17
+year: 2016
+user: TuiorGames
+runner: steam
+slug: out-of-the-park-baseball-17-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-04-16T14:36:46.257974Z'
+updated_at: '2018-04-21T20:03:44.829869Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 402430
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 402430

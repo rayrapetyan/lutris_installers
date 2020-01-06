@@ -1,0 +1,33 @@
+id: 11965
+game_id: 3209
+game_slug: ragnarok
+name: Ragnarok
+year: null
+user: cxf
+runner: winesteam
+slug: ragnarok-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-02-11T08:21:48.005545Z'
+updated_at: '2019-02-19T03:28:19.988026Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 215100
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2008 vcrun2010 vcrun2012 win7
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 215100

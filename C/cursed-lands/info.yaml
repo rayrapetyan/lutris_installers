@@ -1,0 +1,16 @@
+name: Cursed Lands
+slug: cursed-lands
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: RPG
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/cursed-lands.jpg
+icon_url: /games/icon/cursed-lands.png
+is_public: true
+updated: '2019-01-23T08:29:02.793213Z'
+steamid: 758320
+gogslug: ''
+humblestoreid: ''

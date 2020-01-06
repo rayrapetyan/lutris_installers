@@ -1,0 +1,24 @@
+id: 697
+game_id: 2540
+game_slug: space-farmers
+name: Space Farmers
+year: null
+user: Xodetaetl
+runner: steam
+slug: space-farmers-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T13:08:03.990000Z'
+updated_at: '2014-09-15T13:26:54.412000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 271570
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 271570

@@ -1,0 +1,36 @@
+id: 8880
+game_id: 4454
+game_slug: the-elder-scrolls-online-tamriel-unlimited
+name: The Elder Scrolls Online
+year: 2014
+user: lysergia
+runner: winesteam
+slug: the-elder-scrolls-online-steam-dxvk
+version: Steam DXVK
+description: Install with Steam and run with DXVK.
+notes: ''
+created_at: '2018-06-24T04:33:14.138000Z'
+updated_at: '2019-02-24T02:46:29.449419Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 306130
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      __GL_THREADED_OPTIMIZATIONS: 1
+      mesa_glthread: 'true'
+      DXVK_HUD: 0
+      VBLANK_MODE: 0
+  game:
+    appid: 306130
+    arch: win64

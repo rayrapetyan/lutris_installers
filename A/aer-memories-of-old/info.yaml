@@ -1,0 +1,17 @@
+name: AER Memories of Old
+slug: aer-memories-of-old
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: Mystery
+aliases: []
+banner_url: /games/banner/aer-memories-of-old.jpg
+icon_url: /games/icon/aer-memories-of-old.png
+is_public: true
+updated: '2019-01-23T08:28:12.857894Z'
+steamid: 331870
+gogslug: aer
+humblestoreid: ''

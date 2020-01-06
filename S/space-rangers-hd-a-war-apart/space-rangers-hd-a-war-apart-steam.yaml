@@ -1,0 +1,24 @@
+id: 6777
+game_id: 2993
+game_slug: space-rangers-hd-a-war-apart
+name: 'Space Rangers HD: A War Apart'
+year: null
+user: soredake
+runner: winesteam
+slug: space-rangers-hd-a-war-apart-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-23T20:56:47.159106Z'
+updated_at: '2017-12-23T20:56:54.861879Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 214730
+gogid: 1207667113
+gogslug: space_rangers_hd_a_war_apart
+humblestoreid: ''
+script:
+  game:
+    appid: 214730

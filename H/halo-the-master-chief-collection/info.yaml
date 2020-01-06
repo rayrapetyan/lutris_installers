@@ -1,0 +1,15 @@
+name: 'Halo: The Master Chief Collection'
+slug: halo-the-master-chief-collection
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/halo-the-master-chief-collection.jpg
+icon_url: /games/icon/halo-the-master-chief-collection.png
+is_public: true
+updated: '2019-12-04T05:55:47.580271Z'
+steamid: 976730
+gogslug: ''
+humblestoreid: ''

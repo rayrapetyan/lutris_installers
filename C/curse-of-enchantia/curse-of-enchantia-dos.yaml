@@ -1,0 +1,30 @@
+id: 3362
+game_id: 10323
+game_slug: curse-of-enchantia
+name: Curse of Enchantia
+year: 1992
+user: strider
+runner: dosbox
+slug: curse-of-enchantia-dos
+version: DOS
+description: ''
+notes: ''
+created_at: '2017-03-17T04:06:27.618843Z'
+updated_at: '2017-03-17T04:06:31.955519Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: curse
+  files:
+  - curse: N/A:Select an archive containing the game
+  game:
+    main_file: CURSE.EXE

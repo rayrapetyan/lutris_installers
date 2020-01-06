@@ -1,0 +1,15 @@
+name: Assetto Corsa
+slug: assetto-corsa
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/assetto-corsa.jpg
+icon_url: /games/icon/assetto-corsa.png
+is_public: true
+updated: '2019-01-23T08:28:27.556848Z'
+steamid: 244210
+gogslug: ''
+humblestoreid: ''

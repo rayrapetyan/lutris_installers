@@ -1,0 +1,32 @@
+id: 3597
+game_id: 10143
+game_slug: force-leashed
+name: 'Force: Leashed'
+year: 2012
+user: dj_who
+runner: linux
+slug: force-leashed-10-64bit
+version: 1.0 (64bit)
+description: To change resolution modify lutris game arguments
+notes: ''
+created_at: '2017-04-30T13:22:08.918000Z'
+updated_at: '2017-05-02T00:30:21.714489Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: force-leashed
+  files:
+  - force-leashed: http://www.kepuli.com/download/force_leashed_linux_r14b.zip
+  game:
+    args: -customgamename "Force Leashed" -customgamedirname1 $GAMEDIR/data/fl -customgamescreenshotname
+      forced -customgameuserdirname forceleashed -width 1920 -height 1080 -fullscreen
+    exe: $GAMEDIR/data/darkplaces-linux-x86_64-sdl

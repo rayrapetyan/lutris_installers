@@ -1,0 +1,16 @@
+name: Fight'N Rage
+slug: fightn-rage
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Beat'em up
+aliases: []
+banner_url: /games/banner/fightn-rage.jpg
+icon_url: /games/icon/fightn-rage.png
+is_public: true
+updated: '2019-04-27T04:03:15.524697Z'
+steamid: 674520
+gogslug: fightn_rage
+humblestoreid: ''

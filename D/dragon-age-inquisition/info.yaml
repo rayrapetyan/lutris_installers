@@ -1,0 +1,17 @@
+name: Dragon Age Inquisition
+slug: dragon-age-inquisition
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/dragon-age-inquisition.jpg
+icon_url: /games/icon/dragon-age-inquisition.png
+is_public: true
+updated: '2019-01-23T08:29:16.303598Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

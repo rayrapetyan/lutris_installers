@@ -1,0 +1,19 @@
+name: 'LEGO Indiana Jones 2: The Adventure Continues'
+slug: lego-indiana-jones-2-the-adventure-continues
+year: 2010
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Comedy
+aliases:
+- slug: lego-indiana-jones-2
+  name: Lego Indiana Jones 2
+banner_url: /games/banner/lego-indiana-jones-2-the-adventure-continues.jpg
+icon_url: /games/icon/lego-indiana-jones-2-the-adventure-continues.png
+is_public: true
+updated: '2019-10-28T00:05:00.728534Z'
+steamid: 32450
+gogslug: lego_indiana_jones_2_the_adventure_continues
+humblestoreid: ''

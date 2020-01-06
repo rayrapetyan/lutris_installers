@@ -1,0 +1,15 @@
+name: GRID
+slug: grid
+year: 2008
+platforms:
+- name: Windows
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/grid.jpg
+icon_url: /games/icon/grid.png
+is_public: true
+updated: '2019-01-23T08:29:43.357240Z'
+steamid: 12750
+gogslug: ''
+humblestoreid: ''

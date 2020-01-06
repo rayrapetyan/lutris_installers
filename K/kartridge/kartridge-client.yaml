@@ -1,0 +1,51 @@
+id: 12544
+game_id: 26387
+game_slug: kartridge
+name: Kartridge
+year: 2018
+user: cxf
+runner: wine
+slug: kartridge-client
+version: Client
+description: null
+notes: ''
+created_at: '2019-03-28T01:44:18.957000Z'
+updated_at: '2019-06-10T07:16:33.200884Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      executable: flash
+      prefix: $GAMEDIR
+      description: Follow the prompts and install Flash. Ignore file not found error.
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: dotnet472 win10
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: 'Kartridge will complain about not installing and Updater might
+        crash.
+
+        Close both to finish installing.'
+      name: wineexec
+  files:
+  - setup:
+      filename: Kartridge.exe
+      url: https://www.kongregate.com/klient/klient_releases/win32_installer
+  - flash: https://fpdownload.adobe.com/get/flashplayer/pdc/32.0.0.156/install_flash_player_ppapi.exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/users/$USER/Local Settings/Application Data/Kartridge/app-0.3.55/Kartridge.exe

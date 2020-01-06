@@ -1,0 +1,24 @@
+id: 1313
+game_id: 3833
+game_slug: inmind-vr
+name: InMind VR
+year: null
+user: Xodetaetl
+runner: steam
+slug: inmind-vr-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-02-25T19:21:53.497000Z'
+updated_at: '2015-02-25T20:44:04.895000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 343740
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 343740

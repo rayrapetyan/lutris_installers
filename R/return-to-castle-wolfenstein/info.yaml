@@ -1,0 +1,15 @@
+name: Return to Castle Wolfenstein
+slug: return-to-castle-wolfenstein
+year: 2001
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/return-to-castle-wolfenstein.jpg
+icon_url: /games/icon/return-to-castle-wolfenstein.png
+is_public: true
+updated: '2020-01-04T10:46:39.851149Z'
+steamid: 9010
+gogslug: return_to_castle_wolfenstein
+humblestoreid: ''

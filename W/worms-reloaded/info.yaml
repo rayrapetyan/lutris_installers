@@ -1,0 +1,16 @@
+name: Worms Reloaded
+slug: worms-reloaded
+year: 2010
+platforms:
+- name: Linux
+genres:
+- name: Artillery
+- name: Turn-based tactics
+aliases: []
+banner_url: /games/banner/worms-reloaded.jpg
+icon_url: /games/icon/worms-reloaded.png
+is_public: true
+updated: '2019-01-23T08:32:11.231424Z'
+steamid: 22600
+gogslug: ''
+humblestoreid: ''

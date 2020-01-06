@@ -1,0 +1,17 @@
+name: Speed Brawl
+slug: speed-brawl
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Fighting
+- name: Real-time
+aliases: []
+banner_url: /games/banner/speed-brawl.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:21.995334Z'
+steamid: null
+gogslug: speed_brawl
+humblestoreid: ''

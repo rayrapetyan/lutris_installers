@@ -1,0 +1,21 @@
+name: STAR WARS Battlefront (Classic, 2004)
+slug: star-wars-battlefront-classic-2004
+year: 2004
+platforms:
+- name: Sony PlayStation 2
+- name: Windows
+genres:
+- name: FPS
+- name: Third-person shooter
+aliases:
+- slug: star-wars-battlefront
+  name: Star Wars Battlefront (2004)
+- slug: star-warstm-battlefront-classic-2004
+  name: "STAR WARS\u2122 Battlefront (Classic, 2004)"
+banner_url: /games/banner/star-wars-battlefront-classic-2004.jpg
+icon_url: /games/icon/star-wars-battlefront-classic-2004.png
+is_public: true
+updated: '2019-10-27T09:06:36.094274Z'
+steamid: 1058020
+gogslug: star_wars_battlefront
+humblestoreid: ''

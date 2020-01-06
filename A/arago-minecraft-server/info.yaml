@@ -1,0 +1,21 @@
+name: ARAGO (minecraft server)
+slug: arago-minecraft-server
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Building
+- name: Economic
+- name: RPG
+- name: Sandbox
+- name: Sci-fi
+- name: Simulation
+- name: Twitch
+aliases: []
+banner_url: /games/banner/arago-minecraft-server.jpg
+icon_url: null
+is_public: true
+updated: '2019-10-22T22:01:58.455235Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

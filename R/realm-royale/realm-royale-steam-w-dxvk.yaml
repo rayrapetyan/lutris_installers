@@ -1,0 +1,46 @@
+id: 8559
+game_id: 19178
+game_slug: realm-royale
+name: Realm Royale
+year: 2018
+user: cxf
+runner: winesteam
+slug: realm-royale-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: They implemented EAC. Game no longer runs.
+created_at: '2018-06-07T08:29:49.184000Z'
+updated_at: '2019-02-16T04:27:11.436140Z'
+draft: false
+published: true
+published_by: 19464
+rating: '1'
+steamid: 813820
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      key: HideWineExports
+      value: Y
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      nvapi,nvapi64: disabled
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 813820
+    arch: win64

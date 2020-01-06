@@ -1,0 +1,15 @@
+name: Binary Domain
+slug: binary-domain
+year: 2012
+platforms:
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/binary-domain.jpg
+icon_url: /games/icon/binary-domain.png
+is_public: true
+updated: '2019-01-23T08:28:35.958444Z'
+steamid: 203750
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 7686
+game_id: 12329
+game_slug: strafe
+name: "STRAFE\xAE"
+year: 2017
+user: t-rex91
+runner: steam
+slug: strafe-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-28T14:28:42.315579Z'
+updated_at: '2018-04-02T00:16:15.203741Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 442780
+gogid: 1493047913
+gogslug: strafe
+humblestoreid: ''
+script:
+  game:
+    appid: 442780

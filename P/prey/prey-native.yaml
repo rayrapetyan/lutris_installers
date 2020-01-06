@@ -1,0 +1,37 @@
+id: 1565
+game_id: 563
+game_slug: prey
+name: Prey
+year: 2006
+user: strider
+runner: linux
+slug: prey-native
+version: Native
+description: ''
+notes: ''
+created_at: '2015-07-23T08:50:50.978441Z'
+updated_at: '2016-08-17T10:26:53.738652Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 3970
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: data2.cab
+      message: Please insert the Prey CD
+  - chmodx: installer
+  - execute:
+      args: --destination=$GAMEDIR
+      file: installer
+  system:
+    terminal: true
+  files:
+  - installer: http://icculus.org/prey/downloads/prey-installer-02192009.bin
+  game:
+    exe: $GAMEDIR/prey
+    working_dir: $GAMEDIR

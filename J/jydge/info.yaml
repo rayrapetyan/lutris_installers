@@ -1,0 +1,15 @@
+name: JYDGE
+slug: jydge
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Shooter
+aliases: []
+banner_url: /games/banner/jydge.jpg
+icon_url: /games/icon/jydge.png
+is_public: true
+updated: '2019-02-02T18:58:26.089395Z'
+steamid: 654050
+gogslug: jydge
+humblestoreid: ''

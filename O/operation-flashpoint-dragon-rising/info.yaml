@@ -1,0 +1,15 @@
+name: 'Operation Flashpoint: Dragon Rising'
+slug: operation-flashpoint-dragon-rising
+year: 2009
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/operation-flashpoint-dragon-rising.jpg
+icon_url: /games/icon/operation-flashpoint-dragon-rising.png
+is_public: true
+updated: '2019-10-11T01:28:13.982631Z'
+steamid: 12830
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,17 @@
+name: Crime Cities
+slug: crime-cities
+year: 2000
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Sci-fi
+- name: Shooter
+aliases: []
+banner_url: /games/banner/crime-cities.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:00.583368Z'
+steamid: null
+gogslug: crime_cities
+humblestoreid: ''

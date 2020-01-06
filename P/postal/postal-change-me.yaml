@@ -1,0 +1,33 @@
+id: 17389
+game_id: 493
+game_slug: postal
+name: POSTAL
+year: 1997
+user: doctor-nick
+runner: linux
+slug: postal-change-me
+version: Change Me
+description: Uses the Open Source engine with Steam data
+notes: Binary without SteamWork enabled, doesn't require Steam to be running.
+created_at: '2019-12-17T05:06:10.542830Z'
+updated_at: '2019-12-17T05:06:10.542867Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 232770
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: assets
+      dst: $GAMEDIR
+  - extract:
+      file: engine
+  files:
+  - engine: https://lutris.net/files/games/postal/postal-nosteamworks-1.0-i686.tar.gz
+  - assets: $STEAM:232770:/
+  game:
+    exe: postal1-bin

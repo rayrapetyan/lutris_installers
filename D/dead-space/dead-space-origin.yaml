@@ -1,0 +1,79 @@
+id: 13158
+game_id: 219
+game_slug: dead-space
+name: Dead Space
+year: 2008
+user: homergdog
+runner: wine
+slug: dead-space-origin
+version: Origin
+description: This Installs Origin and set up the environment for Dead Space.
+notes: "You need to manually install Dead Space from the Origin Launcher.\r\n\r\n\
+  Download mouse fix from here https://www.pcgamingwiki.com/wiki/Dead_Space#Mouse_acceleration.2C_lag.2C_and_random_sensitivity,\
+  \ extract to game's folder and set dinput8 library to n,b"
+created_at: '2019-04-27T16:54:37.514000Z'
+updated_at: '2019-12-28T18:25:55.878679Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 17470
+gogid: 1312818781
+gogslug: dead_space
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - execute:
+      command: mkdir "$GAMEDIR/nv-shaders"
+  - write_file:
+      content: dxgi.nvapiHack = False
+      file: $GAMEDIR/dxvk.conf
+  - chmodx: updater
+  - merge:
+      src: updater
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Origin
+  - task:
+      prefix: $GAMEDIR
+      app: arial d3dcompiler_43 d3dcompiler_47 d3dx9 win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: client
+      prefix: $GAMEDIR
+      description: Installing Origin... Login window will pop-up and close.
+      arch: win64
+      args: /silent
+      exclude_processes: Origin.exe OriginClientService.exe OriginWebHelperService.exe
+        QtWebEngineProcess.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Origin/Origin.exe
+    arch: win64
+  system:
+    env:
+      STAGING_SHARED_MEMORY: 0
+      DXVK_CONFIG_FILE: $GAMEDIR/dxvk.conf
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR/nv-shaders
+      WINE_LARGE_ADDRESS_AWARE: 1
+    manual_command: $GAMEDIR/drive_c/Program Files (x86)/Origin/updateorigin.sh
+    exclude_processes: QtWebEngineProcess.exe ActivationUI.exe OriginWebHelperService.exe
+  wine:
+    version: lutris-jedi-4.20-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      nvapi,nvapi64: disabled
+  files:
+  - updater: https://lutris.nyc3.cdn.digitaloceanspaces.com/games/origin/updateorigin.sh
+  - client: https://download.dm.origin.com/origin/live/OriginThinSetup.exe

@@ -1,0 +1,31 @@
+id: 17377
+game_id: 30779
+game_slug: spring-leaves-no-flowers
+name: spring leaves no flowers
+year: 2019
+user: kimchitea
+runner: linux
+slug: spring-leaves-no-flowers-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2019-12-16T23:54:53.681280Z'
+updated_at: '2019-12-16T23:54:53.681312Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: manamigame.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/manamigame.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/manamigame
+  - chmodx: $GAMEDIR/lib/linux-x86_64/manamigame
+  files:
+  - file1: N/A:Please select the game archive

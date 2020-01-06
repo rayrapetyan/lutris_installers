@@ -1,0 +1,16 @@
+name: Dead Rising
+slug: dead-rising
+year: 2006
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Horror
+aliases: []
+banner_url: /games/banner/dead-rising.jpg
+icon_url: /games/icon/dead-rising.png
+is_public: true
+updated: '2019-01-23T08:29:06.790658Z'
+steamid: 427190
+gogslug: ''
+humblestoreid: dead-rising

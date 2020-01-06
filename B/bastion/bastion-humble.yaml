@@ -1,0 +1,33 @@
+id: 3240
+game_id: 276
+game_slug: bastion
+name: Bastion
+year: 2011
+user: FakeShemp
+runner: linux
+slug: bastion-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-02-08T10:36:41.463000Z'
+updated_at: '2017-06-18T23:08:16.023325Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 107100
+gogid: 1423058311
+gogslug: bastion
+humblestoreid: bastion
+script:
+  exe: Bastion
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble installer

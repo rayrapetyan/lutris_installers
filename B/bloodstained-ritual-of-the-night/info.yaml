@@ -1,0 +1,17 @@
+name: 'Bloodstained: Ritual of the Night'
+slug: bloodstained-ritual-of-the-night
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Metroidvania
+- name: Role-playing
+aliases: []
+banner_url: /games/banner/bloodstained-ritual-of-the-night.jpg
+icon_url: null
+is_public: true
+updated: '2019-09-08T22:45:42.326126Z'
+steamid: 692850
+gogslug: bloodstained_ritual_of_the_night
+humblestoreid: ''

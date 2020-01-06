@@ -1,0 +1,113 @@
+id: 15097
+game_id: 577
+game_slug: star-wars-dark-forces
+name: 'Star Wars: Dark Forces'
+year: 1995
+user: appoloin
+runner: dosbox
+slug: star-wars-dark-forces-windows-gog
+version: Windows GOG
+description: Setup window will open during install use this to configure sound card.  To
+  alter dosbox settings edit file named star_wars_dark_forces_play in game folder.
+notes: ''
+created_at: '2019-08-22T17:00:56.372000Z'
+updated_at: '2019-09-09T00:07:16.513308Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 32400
+gogid: 1421404433
+gogslug: star_wars_dark_forces
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $inno
+  - execute:
+      args: -I app -d "$CACHE" "$game"
+      file: $CACHE/innoextract
+  - execute:
+      args: $GAMEDIR/HDD
+      file: mkdir
+  - execute:
+      args: $GAMEDIR/HDD/dark
+      file: mkdir
+  - merge:
+      src: $CACHE/app
+      dst: $GAMEDIR/HDD/dark
+  - write_file:
+      content: '[sdl]
+
+        fullscreen=false
+
+        [autoexec]
+
+        mount C "$GAMEDIR/HDD" -t dir
+
+        C:
+
+        cd dark
+
+        setup.exe
+
+        exit'
+      file: $GAMEDIR/star_wars_dark_forces_setup.conf
+  - task:
+      config_file: $GAMEDIR/star_wars_dark_forces_setup.conf
+      working_dir: $GAMEDIR/HDD/dark
+      name: dosexec
+  - copy:
+      src: $GAMEDIR/HDD/dark/CD.ID
+      dst: $GAMEDIR/HDD
+  - write_file:
+      content: '[cpu]
+
+        core=auto
+
+        cycles=auto
+
+        [sdl]
+
+        fullscreen=true
+
+        fulldouble = true
+
+        output=opengl
+
+        sensitivity=20
+
+        [render]
+
+        aspect=true
+
+        scaler=hq3x
+
+        [dosbox]
+
+        memsize=32
+
+        [ipx]
+
+        ipx=false
+
+        [autoexec]
+
+        mount C "$GAMEDIR/HDD" -t dir
+
+        C:
+
+        cd dark
+
+        cls
+
+        dark.exe
+
+        exit'
+      file: $GAMEDIR/star_wars_dark_forces_play.conf
+  files:
+  - game: N/A:Select GOG installer.
+  - inno: https://lutris.nyc3.digitaloceanspaces.com/tools/innoextract/innoextract-1.8-dev-2019-01-13-linux.tar.xz
+  game:
+    main_file: $GAMEDIR/star_wars_dark_forces_play.conf

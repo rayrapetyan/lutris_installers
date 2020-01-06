@@ -1,0 +1,15 @@
+name: Lethal League
+slug: lethal-league
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Fighting
+aliases: []
+banner_url: /games/banner/lethal-league.jpg
+icon_url: /games/icon/lethal-league.png
+is_public: true
+updated: '2019-01-23T08:30:10.073511Z'
+steamid: 261180
+gogslug: ''
+humblestoreid: ''

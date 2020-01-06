@@ -1,0 +1,29 @@
+id: 4116
+game_id: 279
+game_slug: splice
+name: Splice
+year: null
+user: FakeShemp
+runner: linux
+slug: splice-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-04T20:24:06.902799Z'
+updated_at: '2017-06-04T22:06:20.990561Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 209790
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Splice.x86
+  installer:
+  - extract:
+      file: $file1
+  exe64: Splice.x86_64
+  files:
+  - file1: N/A:Please select the Humble archive

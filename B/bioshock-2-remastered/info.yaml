@@ -1,0 +1,19 @@
+name: BioShock 2 Remastered
+slug: bioshock-2-remastered
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: FPS
+- name: RPG
+- name: Shooter
+aliases: []
+banner_url: /games/banner/bioshock-2-remastered.jpg
+icon_url: /games/icon/bioshock-2-remastered.png
+is_public: true
+updated: '2019-08-03T17:57:43.168520Z'
+steamid: 409720
+gogslug: bioshock_2_remastered
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 3530
+game_id: 6742
+game_slug: slain-back-from-hell
+name: 'Slain: Back from Hell'
+year: null
+user: liberodark
+runner: steam
+slug: slain-back-from-hell-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-04-17T18:56:30.835945Z'
+updated_at: '2017-04-18T19:21:21.415972Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 369070
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 369070

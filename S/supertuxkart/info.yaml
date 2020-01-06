@@ -1,0 +1,15 @@
+name: SuperTuxKart
+slug: supertuxkart
+year: 2004
+platforms:
+- name: Linux
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/supertuxkart.jpg
+icon_url: /games/icon/supertuxkart.png
+is_public: true
+updated: '2019-01-23T08:31:31.596284Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

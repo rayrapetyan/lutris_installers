@@ -1,0 +1,40 @@
+id: 4953
+game_id: 6875
+game_slug: cyber-team-manager
+name: Cyber Team Manager
+year: null
+user: FakeShemp
+runner: wine
+slug: cyber-team-manager-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-10T19:01:19.989000Z'
+updated_at: '2018-05-19T03:41:55.898113Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 415080
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Cyber Team Manager
+      file: $file1
+  - task:
+      prefix: $GAMEDIR
+      app: corefonts
+      name: winetricks
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Cyber Team Manager/Windows_0_0_0_2.exe
+    arch: win32

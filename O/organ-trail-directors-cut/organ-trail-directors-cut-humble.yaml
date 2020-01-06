@@ -1,0 +1,29 @@
+id: 4029
+game_id: 335
+game_slug: organ-trail-directors-cut
+name: 'Organ Trail: Director''s Cut'
+year: null
+user: FakeShemp
+runner: linux
+slug: organ-trail-directors-cut-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-31T22:10:17.401309Z'
+updated_at: '2017-06-04T22:03:34.945134Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 233740
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: OrganTrailLinux.x86
+  installer:
+  - extract:
+      file: $file1
+  exe64: OrganTrailLinux.x86_64
+  files:
+  - file1: N/A:Please select the Humble archive

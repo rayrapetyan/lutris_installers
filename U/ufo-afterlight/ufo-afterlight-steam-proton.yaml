@@ -1,0 +1,24 @@
+id: 16176
+game_id: 1121
+game_slug: ufo-afterlight
+name: 'UFO: Afterlight'
+year: 2007
+user: cxf
+runner: steam
+slug: ufo-afterlight-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-10-14T03:08:58.611610Z'
+updated_at: '2019-10-14T03:09:03.237036Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 237950
+gogid: 1207658869
+gogslug: ufo_afterlight
+humblestoreid: ''
+script:
+  game:
+    appid: 237950

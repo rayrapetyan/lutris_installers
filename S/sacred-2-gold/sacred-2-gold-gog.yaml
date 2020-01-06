@@ -1,0 +1,44 @@
+id: 13837
+game_id: 432
+game_slug: sacred-2-gold
+name: Sacred 2 Gold
+year: 2012
+user: Bleistift33
+runner: wine
+slug: sacred-2-gold-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-05-31T16:06:19.459000Z'
+updated_at: '2019-10-14T00:20:19.579693Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 225640
+gogid: 1207665233
+gogslug: sacred_2_gold
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2005 physx win7
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES /NOCANCEL
+      name: wineexec
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      __GL_SHADER_DISK_CACHE: 1
+  files:
+  - setup: N/A:Select the Windows installer downloaded from GOG
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Sacred 2 Gold/system/sacred2.exe

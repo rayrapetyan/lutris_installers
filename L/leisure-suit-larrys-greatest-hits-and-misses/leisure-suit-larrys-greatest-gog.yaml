@@ -1,0 +1,36 @@
+id: 2184
+game_id: 6323
+game_slug: leisure-suit-larrys-greatest-hits-and-misses
+name: Leisure Suit Larry's Greatest Hits and Misses!
+year: 1987
+user: Lulu
+runner: linux
+slug: leisure-suit-larrys-greatest-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2016-06-21T21:57:41.432133Z'
+updated_at: '2016-07-08T16:33:34.771379Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1207659158
+gogslug: leisure_suit_larry
+humblestoreid: ''
+script:
+  exe: Game/start.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/Game
+  files:
+  - game: N/A:Select the linux installer downloaded from GOG
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

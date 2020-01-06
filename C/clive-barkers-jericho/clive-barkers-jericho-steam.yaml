@@ -1,0 +1,24 @@
+id: 6433
+game_id: 924
+game_slug: clive-barkers-jericho
+name: Clive Barker's Jericho
+year: null
+user: Stoney_Fish
+runner: winesteam
+slug: clive-barkers-jericho-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-11-25T21:05:19.132774Z'
+updated_at: '2017-12-17T14:25:46.018827Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 11420
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 11420

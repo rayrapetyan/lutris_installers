@@ -1,0 +1,16 @@
+name: MegaRace 2
+slug: megarace-2
+year: 1996
+platforms:
+- name: MS-DOS
+genres:
+- name: Car combat
+- name: Racing
+aliases: []
+banner_url: /games/banner/megarace-2.jpg
+icon_url: /games/icon/megarace-2.png
+is_public: true
+updated: '2019-11-17T18:11:44.116283Z'
+steamid: 733760
+gogslug: megarace_1_2
+humblestoreid: ''

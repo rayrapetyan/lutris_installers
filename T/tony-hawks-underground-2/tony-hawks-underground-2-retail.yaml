@@ -1,0 +1,70 @@
+id: 11723
+game_id: 16129
+game_slug: tony-hawks-underground-2
+name: Tony Hawk's Underground 2
+year: 2004
+user: r6RNjMKgw
+runner: wine
+slug: tony-hawks-underground-2-retail
+version: Retail
+description: null
+notes: ''
+created_at: '2019-01-26T16:56:25.479000Z'
+updated_at: '2019-01-27T01:15:41.684055Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      install_mono: false
+      arch: win32
+      name: create_prefix
+  - insert-disc:
+      requires: setup.exe
+      description: Insert disc 1
+  - merge:
+      src: $DISC
+      dst: $GAMEDIR/drive_c/setup
+  - execute:
+      args: 744 -R $GAMEDIR/drive_c/setup
+      file: chmod
+  - insert-disc:
+      requires: Launch.exe
+      description: Insert disc 2
+  - merge:
+      src: $DISC
+      dst: $GAMEDIR/drive_c/setup
+  - execute:
+      args: 744 -R $GAMEDIR/drive_c/setup
+      file: chmod
+  - insert-disc:
+      requires: autorun.inf
+      description: Insert disc 3
+  - merge:
+      src: $DISC
+      dst: $GAMEDIR/drive_c/setup
+  - execute:
+      args: 744 -R $GAMEDIR/drive_c/setup
+      file: chmod
+  - task:
+      executable: $GAMEDIR/drive_c/setup/setup.exe
+      prefix: $GAMEDIR
+      description: Installing THUG2
+      name: wineexec
+  - copy:
+      src: $GAMEDIR/drive_c/setup/Setup/Data/Launcher.exe
+      dst: $GAMEDIR/drive_c/Program Files/Activision/Tony Hawk's Underground 2/
+  - execute:
+      args: -rf $GAMEDIR/drive_c/setup
+      file: rm
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Activision/Tony Hawk's Underground 2/Launcher.exe
+    arch: win32

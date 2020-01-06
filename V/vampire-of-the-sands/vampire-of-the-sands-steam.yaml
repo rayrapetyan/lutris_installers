@@ -1,0 +1,24 @@
+id: 5125
+game_id: 5329
+game_slug: vampire-of-the-sands
+name: Vampire of the Sands
+year: null
+user: FakeShemp
+runner: steam
+slug: vampire-of-the-sands-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-07-20T20:59:59.274087Z'
+updated_at: '2017-07-26T07:23:45.308094Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 386160
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 386160

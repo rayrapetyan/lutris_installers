@@ -1,0 +1,47 @@
+id: 2885
+game_id: 7885
+game_slug: dungeon-keeper-2
+name: Dungeon Keeper 2
+year: 1999
+user: ssf
+runner: wine
+slug: dungeon-keeper-2-gogcom
+version: GOG.com
+description: -Disable upstream CSMT
+notes: ''
+created_at: '2016-10-11T21:51:20.121000Z'
+updated_at: '2019-12-22T11:21:17.838317Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: 1207658959
+gogslug: dungeon_keeper_2
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /VERYSILENT /SP- /NOCANCEL /SUPPRESSMSGBOXES '/DIR=C:/game'
+      description: Installing...
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win32
+      type: REG_DWORD
+      value: '00000000'
+      key: csmt
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/game/DKII-DX.exe
+    arch: win32

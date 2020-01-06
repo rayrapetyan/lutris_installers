@@ -1,0 +1,26 @@
+id: 3657
+game_id: 740
+game_slug: deus-ex-human-revolution-directors-cut
+name: 'Deus Ex: Human Revolution - Director''s Cut'
+year: 2013
+user: codythedragondude
+runner: winesteam
+slug: deus-ex-human-revolution-dire-steam
+version: Steam
+description: ''
+notes: works but might have framerate issues on higher settings most likely based
+  on pc specs also might freeze when you try to exit back to desktop seems most likely
+  to be based on the pc hardware as well as hard drive
+created_at: '2017-05-09T14:42:24.805000Z'
+updated_at: '2017-05-10T17:22:29.775752Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 238010
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 238010

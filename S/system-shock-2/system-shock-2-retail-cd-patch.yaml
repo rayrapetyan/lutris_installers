@@ -1,0 +1,46 @@
+id: 13308
+game_id: 2047
+game_slug: system-shock-2
+name: System Shock 2
+year: 1999
+user: Smeltie
+runner: wine
+slug: system-shock-2-retail-cd-patch
+version: Retail CD + Patch
+description: "Retail CD version, requires the original retail CD and game patch.\r\
+  \npatch: https://www.systemshock.org/index.php?topic=4141.0\r\nThe patch is required\
+  \ to run the game."
+notes: ''
+created_at: '2019-05-02T19:21:59.534000Z'
+updated_at: '2019-06-12T04:56:32.730270Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 238210
+gogid: 1207659172
+gogslug: system_shock_2
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: SETUP.exe
+      message: Insert disc
+  - merge:
+      src: $DISC
+      description: Copying disc to cache
+      dst: $CACHE/cdrom
+  - task:
+      executable: $CACHE/cdrom/SETUP.exe
+      prefix: $GAMEDIR
+      args: -lgntforce
+      name: wineexec
+  - task:
+      executable: patch1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - patch1: N/A:Provide path to Patch
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Sshock2/ss2.exe

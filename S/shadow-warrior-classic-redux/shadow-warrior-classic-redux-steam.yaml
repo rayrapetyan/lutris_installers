@@ -1,0 +1,24 @@
+id: 223
+game_id: 324
+game_slug: shadow-warrior-classic-redux
+name: Shadow Warrior Classic Redux
+year: 1997
+user: strider
+runner: steam
+slug: shadow-warrior-classic-redux-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-19T23:56:18.535000Z'
+updated_at: '2013-12-19T23:56:18.535000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 225160
+gogid: 1618073558
+gogslug: shadow_warrior_classic_redux
+humblestoreid: ''
+script:
+  game:
+    appid: 225160

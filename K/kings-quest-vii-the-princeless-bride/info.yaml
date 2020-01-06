@@ -1,0 +1,16 @@
+name: 'King''s Quest VII: The Princeless Bride'
+slug: kings-quest-vii-the-princeless-bride
+year: 1994
+platforms:
+- name: MS-DOS
+- name: Windows
+genres:
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/kings-quest-vii-the-princeless-bride.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:04.890521Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

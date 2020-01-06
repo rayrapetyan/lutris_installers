@@ -1,0 +1,25 @@
+id: 4956
+game_id: 9198
+game_slug: battlecrew-space-pirates
+name: BATTLECREW Space Pirates
+year: null
+user: NuSuey
+runner: winesteam
+slug: battlecrew-space-pirates-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-07-10T19:26:03.894559Z'
+updated_at: '2017-08-27T21:50:07.808920Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 411480
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 411480
+    arch: win64

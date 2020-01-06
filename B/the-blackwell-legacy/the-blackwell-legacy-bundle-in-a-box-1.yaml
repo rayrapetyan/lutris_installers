@@ -1,0 +1,39 @@
+id: 4711
+game_id: 1144
+game_slug: the-blackwell-legacy
+name: The Blackwell Legacy
+year: 2006
+user: FakeShemp
+runner: ags
+slug: the-blackwell-legacy-bundle-in-a-box-1
+version: Bundle in a Box
+description: Uses the files from the Windows installer from BIAB.
+notes: ''
+created_at: '2017-06-28T18:39:27.117000Z'
+updated_at: '2017-07-04T18:09:52.190512Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 80330
+gogid: 1207662883
+gogslug: episode_1_the_blackwell_legacy
+humblestoreid: ''
+script:
+  main_file: blackwell1.exe
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - extract:
+      dst: $CACHE
+      file: $file2
+  - execute:
+      args: -d "$CACHE" $CACHE/Legacy_Setup_v17.exe
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/app
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the BIAB archive
+  - file2: https://lutris.net/files/tools/innoextract.tar.gz

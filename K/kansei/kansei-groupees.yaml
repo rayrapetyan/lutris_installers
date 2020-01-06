@@ -1,0 +1,28 @@
+id: 5587
+game_id: 3920
+game_slug: kansei
+name: Kansei
+year: 2011
+user: FakeShemp
+runner: linux
+slug: kansei-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-04T19:29:14.139470Z'
+updated_at: '2017-09-04T19:30:18.624020Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 771340
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: kansei.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive

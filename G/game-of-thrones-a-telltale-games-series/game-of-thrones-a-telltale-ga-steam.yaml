@@ -1,0 +1,24 @@
+id: 2047
+game_id: 3656
+game_slug: game-of-thrones-a-telltale-games-series
+name: Game of Thrones - A Telltale Games Series
+year: 2014
+user: strider
+runner: winesteam
+slug: game-of-thrones-a-telltale-ga-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-04-20T00:41:15.673615Z'
+updated_at: '2016-04-20T00:41:20.420345Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 330840
+gogid: 1432208050
+gogslug: game_of_thrones_season_1
+humblestoreid: ''
+script:
+  game:
+    appid: 330840

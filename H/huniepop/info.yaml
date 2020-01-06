@@ -1,0 +1,18 @@
+name: HuniePop
+slug: huniepop
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Dating
+- name: Puzzle
+- name: Sexual Content
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/huniepop.jpg
+icon_url: /games/icon/huniepop.png
+is_public: true
+updated: '2019-06-13T21:23:44.410923Z'
+steamid: 339800
+gogslug: huniepop
+humblestoreid: ''

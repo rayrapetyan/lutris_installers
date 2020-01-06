@@ -1,0 +1,24 @@
+id: 1753
+game_id: 538
+game_slug: sid-meiers-civilization-iv
+name: Civilization IV
+year: 2005
+user: RobLoach
+runner: winesteam
+slug: civilization-iv-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: ''
+created_at: '2015-12-27T18:25:42.927233Z'
+updated_at: '2016-01-05T18:18:16.051663Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 3900
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 3900

@@ -1,0 +1,17 @@
+name: 'Wolfenstache: The New Linux Build'
+slug: wolfenstache-the-new-linux-build
+year: 2017
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+aliases: []
+banner_url: /games/banner/wolfenstache-the-new-linux-build.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:09.773988Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

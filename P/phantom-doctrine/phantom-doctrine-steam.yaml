@@ -1,0 +1,24 @@
+id: 10690
+game_id: 21515
+game_slug: phantom-doctrine
+name: Phantom Doctrine
+year: null
+user: EdithUpwards
+runner: winesteam
+slug: phantom-doctrine-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-10-29T17:38:23.574543Z'
+updated_at: '2018-10-30T06:48:43.027566Z'
+draft: true
+published: true
+published_by: null
+rating: ''
+steamid: 559100
+gogid: 1944341561
+gogslug: phantom_doctrine
+humblestoreid: ''
+script:
+  game:
+    appid: 559100

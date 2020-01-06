@@ -1,0 +1,66 @@
+id: 14023
+game_id: 13642
+game_slug: rime
+name: RiME
+year: 2017
+user: jacksapper
+runner: wine
+slug: rime-gog-w-dxvk
+version: GOG w/ DXVK
+description: GOG installer with DXVK.  Installs DX-2010 and Visual C++ 2015 as dependencies
+  (same as Steam) within the wine prefix.
+notes: The installer will complain 3 times with various indices out of range errors
+  at around 95% complete.  Click OK through each of these and it will install fine.
+created_at: '2019-06-10T04:59:44.524000Z'
+updated_at: '2019-06-12T04:17:20.644350Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 493200
+gogid: 1553712069
+gogslug: rime
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - extract:
+      dst: $CACHE/dxsetup
+      file: dx2010
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR
+      args: /silent
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2015 faudio win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /SP- /NOCANCEL /SUPPRESSMSGBOXES
+      description: Installing RiME
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Rime/bin/x64/Rime.exe
+    arch: win64
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+    pulse_latency: false
+  wine:
+    version: ge-protonified-4.9-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - dx2010: https://lutris.net/files/tools/directx-2010.tar.gz
+  - setup: N/A:Select the game's setup file

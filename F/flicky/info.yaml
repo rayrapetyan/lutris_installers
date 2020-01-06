@@ -1,0 +1,18 @@
+name: Flicky
+slug: flicky
+year: 1984
+platforms:
+- name: Arcade
+- name: MSX
+- name: Sega Genesis / Mega Drive
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/flicky.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:32.174799Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

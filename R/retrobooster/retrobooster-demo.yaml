@@ -1,0 +1,28 @@
+id: 38
+game_id: 51
+game_slug: retrobooster
+name: Retrobooster
+year: 2013
+user: strider
+runner: linux
+slug: retrobooster-demo
+version: demo
+description: ''
+notes: ''
+created_at: '2013-07-04T18:43:19Z'
+updated_at: '2015-04-24T18:30:12.757000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 310830
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: RUN
+  installer:
+  - extract:
+      file: game-archive
+  files:
+  - game-archive: http://www.reallyslick.com/retrobooster/downloads/retrobooster-demo-1.1-1.32bit.tar.gz

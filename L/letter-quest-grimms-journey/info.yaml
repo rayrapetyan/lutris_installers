@@ -1,0 +1,16 @@
+name: 'Letter Quest: Grimm''s Journey'
+slug: letter-quest-grimms-journey
+year: 2014
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/letter-quest-grimms-journey.jpg
+icon_url: /games/icon/letter-quest-grimms-journey.png
+is_public: true
+updated: '2019-01-23T08:30:10.269666Z'
+steamid: 328730
+gogslug: ''
+humblestoreid: ''

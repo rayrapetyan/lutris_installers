@@ -1,0 +1,17 @@
+name: Rune Classic
+slug: rune-classic
+year: 2012
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Combat
+- name: Fantasy
+aliases: []
+banner_url: /games/banner/rune-classic.jpg
+icon_url: /games/icon/rune-classic.png
+is_public: true
+updated: '2019-05-23T12:56:47.505936Z'
+steamid: 210950
+gogslug: rune_classic
+humblestoreid: ''

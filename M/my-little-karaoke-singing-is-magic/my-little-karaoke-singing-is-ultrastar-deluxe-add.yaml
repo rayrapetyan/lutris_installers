@@ -1,0 +1,58 @@
+id: 3269
+game_id: 9910
+game_slug: my-little-karaoke-singing-is-magic
+name: 'My Little Karaoke: Singing is Magic'
+year: 2012
+user: djazz
+runner: linux
+slug: my-little-karaoke-singing-is-ultrastar-deluxe-add
+version: UltraStar Deluxe Addon
+description: Requires UltraStar Deluxe to be installed first
+notes: Requires 16 GB free space.
+created_at: '2017-02-16T12:18:14.617000Z'
+updated_at: '2017-04-27T09:05:22.873624Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: ultrastar-deluxe
+  installer:
+  - write_config:
+      section: Themes
+      key: Theme
+      value: MyLittleKaraoke
+      file: $GAMEDIR/mlkconfig.ini
+  - write_config:
+      section: Themes
+      key: Skin
+      value: MyLittleKaraoke
+      file: $GAMEDIR/mlkconfig.ini
+  - write_config:
+      section: Themes
+      key: Color
+      value: Blue
+      file: $GAMEDIR/mlkconfig.ini
+  - extract:
+      dst: $GAMEDIR/data/avatars
+      file: avatars
+  - chmodx: downloader
+  - execute:
+      args: $GAMEDIR/data
+      file: downloader
+      description: Updating My Little Karaoke
+      terminal: true
+  files:
+  - downloader:
+      filename: downloader.sh
+      url: http://djazz.se/nas/games/?dl=my-little-karaoke-songs
+  - avatars:
+      filename: avatars.tar.xz
+      url: http://djazz.se/nas/games/?dl=my-little-karaoke-avatars
+  game:
+    args: -ConfigFile mlkconfig.ini
+    exe: launch.sh

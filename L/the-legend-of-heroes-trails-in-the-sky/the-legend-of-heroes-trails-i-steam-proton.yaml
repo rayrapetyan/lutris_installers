@@ -1,0 +1,28 @@
+id: 12388
+game_id: 3397
+game_slug: the-legend-of-heroes-trails-in-the-sky
+name: 'The Legend of Heroes: Trails in the Sky'
+year: 2014
+user: dalrymple
+runner: steam
+slug: the-legend-of-heroes-trails-i-steam-proton
+version: Steam Proton
+description: null
+notes: This game is running DX9 by default. If you are having trouble after running
+  the game, you need to go to steam launcher, select the game, klik play and select
+  one of the launch Configuration Tool. The top one is for DX9 and the bottom one
+  is for DX8. In Configuration Tool Disable logo and Cinematic by putting checklist
+  in there and run the game.
+created_at: '2019-03-15T04:37:26.818000Z'
+updated_at: '2019-03-25T06:38:05.347623Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 251150
+gogid: 1207665083
+gogslug: the_legend_of_heroes_trails_in_the_sky
+humblestoreid: ''
+script:
+  game:
+    appid: 251150

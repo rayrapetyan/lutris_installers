@@ -1,0 +1,56 @@
+id: 16511
+game_id: 28346
+game_slug: subtitle-edit
+name: Subtitle Edit
+year: 2019
+user: Lulu
+runner: wine
+slug: subtitle-edit-se3511
+version: SE3.5.11
+description: Subtitle Edit 3.5.11 installer
+notes: 'Note: After you install this, go to Options->Settings->Video Player->Download
+  mpv lib, download it and set the video to direct3d, then choose mpv as your Video
+  engine.'
+created_at: '2019-10-31T21:16:11.643000Z'
+updated_at: '2019-10-31T21:57:20.020458Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/subtitleedit/SubtitleEdit.exe
+    arch: win32
+  installer:
+  - extract:
+      src: subeditzip
+      description: Unzipping subtitle edit
+      dst: $GAMEDIR/drive_c/subtitleedit
+  - task:
+      executable: vlc
+      prefix: $GAMEDIR
+      args: /S
+      description: Installing VLC
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Direct3D 9
+      app: d3dx9
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .NET 4.6.1 runtime
+      app: dotnet461
+      name: winetricks
+  wine:
+    version: ge-protonified-4.10-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - subeditzip: https://github.com/SubtitleEdit/subtitleedit/releases/download/3.5.11/SE3511.zip
+  - vlc: https://get.videolan.org/vlc/3.0.8/win32/vlc-3.0.8-win32.exe

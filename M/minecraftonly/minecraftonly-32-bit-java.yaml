@@ -1,0 +1,41 @@
+id: 11566
+game_id: 25143
+game_slug: minecraftonly
+name: MinecraftOnly
+year: 2012
+user: citrusalex
+runner: linux
+slug: minecraftonly-32-bit-java
+version: 32-bit Java
+description: null
+notes: ''
+created_at: '2019-01-13T11:16:13.016000Z'
+updated_at: '2019-01-26T03:03:47.237694Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: client
+      dst: $GAMEDIR
+  - extract:
+      nomerge: true
+      file: java
+  - execute:
+      command: mkdir "$GAMEDIR/minecraftonly"
+  - execute:
+      command: ln -s "$GAMEDIR/minecraftonly" "$HOME/.minecraftonly"
+  system:
+    require-binaries: gcc
+  files:
+  - client: https://update.minecraftonly.ru/files/Minecraft%20Only%20Launcher.jar
+  - java: https://lutris.net/files/runners/jre-8u191-linux-i586.tar.gz
+  game:
+    args: -Xms1024m -Xmx2048m -jar '$GAMEDIR/Minecraft%20Only%20Launcher.jar'
+    exe: jre1.8.0_191/bin/java

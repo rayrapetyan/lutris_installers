@@ -1,0 +1,33 @@
+id: 5709
+game_id: 2155
+game_slug: millennium-2-take-me-higher
+name: Millennium 2 - Take Me Higher
+year: null
+user: FakeShemp
+runner: wine
+slug: millennium-2-take-me-higher-desura
+version: Desura
+description: ''
+notes: ''
+created_at: '2017-09-12T08:15:32.798139Z'
+updated_at: '2018-05-19T03:41:58.063980Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 298820
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Desura installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/MM2/MM2.exe
+    arch: win32

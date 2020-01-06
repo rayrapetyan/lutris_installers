@@ -1,0 +1,15 @@
+name: Gibbous - A Cthulhu Adventure
+slug: gibbous-a-cthulhu-adventure
+year: 2019
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/gibbous-a-cthulhu-adventure.jpg
+icon_url: /games/icon/gibbous-a-cthulhu-adventure.png
+is_public: true
+updated: '2019-10-20T05:28:01.329340Z'
+steamid: 914020
+gogslug: gibbous_a_cthulhu_adventure
+humblestoreid: ''

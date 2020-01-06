@@ -1,0 +1,34 @@
+id: 11610
+game_id: 8992
+game_slug: planet-nomads
+name: Planet Nomads
+year: null
+user: Nobu
+runner: linux
+slug: planet-nomads-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-01-16T20:30:40.452000Z'
+updated_at: '2019-01-19T10:18:49.468112Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 504050
+gogid: 1403945378
+gogslug: planet_nomads
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

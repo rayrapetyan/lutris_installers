@@ -1,0 +1,16 @@
+name: Final Fantasy III DS
+slug: final-fantasy-iii-ds
+year: 2006
+platforms:
+- name: Nintendo DS
+genres:
+- name: jRPG
+- name: RPG
+aliases: []
+banner_url: /games/banner/final-fantasy-iii-ds.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:30.733243Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

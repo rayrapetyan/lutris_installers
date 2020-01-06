@@ -1,0 +1,23 @@
+id: 7126
+game_id: 7039
+game_slug: crush-crush
+name: Crush Crush
+year: 2016
+user: t-rex91
+runner: browser
+slug: crush-crush-all-ages
+version: All Ages
+description: null
+notes: ''
+created_at: '2018-01-18T17:20:32.179567Z'
+updated_at: '2018-01-18T21:19:35.684972Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 459820
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://www.nutaku.com/games/crush-crush-online/

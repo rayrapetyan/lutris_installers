@@ -1,0 +1,34 @@
+id: 5138
+game_id: 5705
+game_slug: lilly-and-sasha-curse-of-the-immortals
+name: 'Lilly and Sasha: Curse of the Immortals'
+year: null
+user: FakeShemp
+runner: wine
+slug: lilly-and-sasha-curse-of-the-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-21T16:46:42.286000Z'
+updated_at: '2018-05-19T03:41:57.044428Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 364270
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      args: /sp- /silent /norestart
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Lilly and Sasha Curse of the Immortals/Lilly and Sasha.exe
+    arch: win32

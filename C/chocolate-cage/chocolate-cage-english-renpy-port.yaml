@@ -1,0 +1,31 @@
+id: 9545
+game_id: 20616
+game_slug: chocolate-cage
+name: Chocolate Cage
+year: 2015
+user: kimchitea
+runner: linux
+slug: chocolate-cage-english-renpy-port
+version: English Ren'Py port
+description: Free download
+notes: ''
+created_at: '2018-08-03T04:06:39.949000Z'
+updated_at: '2018-10-20T11:28:36.458487Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Chocolate Cage.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Chocolate Cage.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Chocolate Cage
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Chocolate Cage
+  files:
+  - file1: N/A:Please select the game archive

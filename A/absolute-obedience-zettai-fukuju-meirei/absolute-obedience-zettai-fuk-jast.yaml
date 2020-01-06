@@ -1,0 +1,46 @@
+id: 9276
+game_id: 20021
+game_slug: absolute-obedience-zettai-fukuju-meirei
+name: Absolute Obedience - Zettai Fukuju Meirei
+year: 2006
+user: kimchitea
+runner: wine
+slug: absolute-obedience-zettai-fuk-jast
+version: JAST
+description: null
+notes: ''
+created_at: '2018-07-19T04:21:41.257000Z'
+updated_at: '2018-07-19T13:28:15.153496Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows version to XP
+      app: winxp
+      arch: win32
+      name: winetricks
+  - task:
+      executable: $CACHE/Setup.exe
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  - move:
+      src: $CACHE/Readme.txt
+      dst: $GAMEDIR/drive_c/Program Files/langmaor/Absolute Obedience
+  files:
+  - file1: N/A:Please select the JAST archive
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/langmaor/Absolute Obedience/absobey.exe
+    arch: win32

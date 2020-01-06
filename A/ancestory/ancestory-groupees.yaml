@@ -1,0 +1,42 @@
+id: 5487
+game_id: 6796
+game_slug: ancestory
+name: Ancestory
+year: null
+user: FakeShemp
+runner: wine
+slug: ancestory-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-22T16:46:29.106000Z'
+updated_at: '2018-05-19T03:41:56.151192Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 349840
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      app: d3dx9
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: xact
+      name: winetricks
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      args: /sp- /verysilent /norestart /suppressmsgboxes /nogui
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Ancestory Pre-Alpha/Ancestory.exe
+    arch: win32

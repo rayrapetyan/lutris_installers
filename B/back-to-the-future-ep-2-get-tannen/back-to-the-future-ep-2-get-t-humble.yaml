@@ -1,0 +1,37 @@
+id: 4494
+game_id: 175
+game_slug: back-to-the-future-ep-2-get-tannen
+name: 'Back to the Future: Ep 2 - Get Tannen!'
+year: 2011
+user: FakeShemp
+runner: wine
+slug: back-to-the-future-ep-2-get-t-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-18T22:20:56.693201Z'
+updated_at: '2018-05-19T03:41:51.202966Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 94500
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/BackToTheFuture102_full_nodrm.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Telltale Games/Back to the Future The Game/Episode
+      2/BackToTheFuture102.exe
+    arch: win32

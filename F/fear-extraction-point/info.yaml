@@ -1,0 +1,15 @@
+name: 'F.E.A.R.: Extraction Point'
+slug: fear-extraction-point
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Horror
+aliases: []
+banner_url: /games/banner/fear-extraction-point.jpg
+icon_url: /games/icon/fear-extraction-point.png
+is_public: true
+updated: '2019-11-16T05:19:53.334315Z'
+steamid: 21110
+gogslug: ''
+humblestoreid: ''

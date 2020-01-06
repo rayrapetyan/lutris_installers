@@ -1,0 +1,24 @@
+id: 8270
+game_id: 18154
+game_slug: wolf-tails
+name: Wolf Tails
+year: null
+user: elo
+runner: steam
+slug: wolf-tails-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-11T21:28:05.084339Z'
+updated_at: '2018-05-12T10:15:41.466798Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 822930
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 822930

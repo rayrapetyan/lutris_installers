@@ -1,0 +1,29 @@
+id: 5134
+game_id: 6529
+game_slug: evolution
+name: Evolution
+year: null
+user: FakeShemp
+runner: linux
+slug: evolution-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-21T16:23:02.133836Z'
+updated_at: '2017-08-27T22:21:23.729283Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 391820
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Evolution.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Evolution.x86
+  files:
+  - file1: N/A:Please select the Groupees archive

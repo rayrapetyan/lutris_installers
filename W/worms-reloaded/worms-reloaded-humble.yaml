@@ -1,0 +1,36 @@
+id: 3781
+game_id: 214
+game_slug: worms-reloaded
+name: Worms Reloaded
+year: 2010
+user: FakeShemp
+runner: linux
+slug: worms-reloaded-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-21T21:38:53.515757Z'
+updated_at: '2017-05-26T00:10:14.924848Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 22600
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: WormsReloaded.bin.x86
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data/noarch
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble installer

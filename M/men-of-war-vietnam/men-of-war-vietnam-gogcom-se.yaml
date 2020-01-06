@@ -1,0 +1,46 @@
+id: 2657
+game_id: 1139
+game_slug: men-of-war-vietnam
+name: 'Men of War: Vietnam'
+year: 2011
+user: ssf
+runner: wine
+slug: men-of-war-vietnam-gogcom-se
+version: GOG.com - SE
+description: GOG.com Special Edition upgrade
+notes: ''
+created_at: '2016-08-31T21:05:44.836556Z'
+updated_at: '2016-09-04T17:47:35.641803Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 63940
+gogid: 1428587439
+gogslug: men_of_war_vietnam
+humblestoreid: ''
+script:
+  requires: men-of-war-vietnam-gogcom
+  gogid: men_of_war_vietnam_special_edition_upgrade
+  installer:
+  - execute:
+      args: -c 'ln -s $game $GAMEDIR/drive_c/se.exe'
+      file: /bin/sh
+      terminal: false
+  - task:
+      executable: $GAMEDIR/drive_c/se.exe
+      prefix: $GAMEDIR
+      args: /VERYSILENT /SP- /NOCANCEL /SUPPRESSMSGBOXES
+      description: Installing...
+      name: wineexec
+  - execute:
+      args: -c 'rm -f $GAMEDIR/drive_c/se.exe'
+      file: /bin/sh
+      terminal: false
+  files:
+  - game: N/A:Please select the GOG.com Windows Special Edition installer.
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/game/vietnam.exe
+    working_dir: $GAMEDIR/drive_c/game
+    arch: win32

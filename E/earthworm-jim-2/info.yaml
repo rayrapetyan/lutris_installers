@@ -1,0 +1,20 @@
+name: Earthworm Jim 2
+slug: earthworm-jim-2
+year: 1995
+platforms:
+- name: MS-DOS
+- name: Nintendo Game Boy Advance
+- name: Sega Genesis / Mega Drive
+- name: Sega Saturn
+- name: Sony PlayStation
+- name: Super Nintendo
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/earthworm-jim-2.jpg
+icon_url: /games/icon/earthworm-jim-2.png
+is_public: true
+updated: '2019-01-23T08:29:20.886272Z'
+steamid: 38490
+gogslug: ''
+humblestoreid: ''

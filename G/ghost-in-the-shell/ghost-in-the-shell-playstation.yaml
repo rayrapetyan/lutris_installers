@@ -1,0 +1,31 @@
+id: 6733
+game_id: 14036
+game_slug: ghost-in-the-shell
+name: Ghost in the Shell
+year: 1997
+user: FakeShemp
+runner: libretro
+slug: ghost-in-the-shell-playstation
+version: PlayStation
+description: null
+notes: ''
+created_at: '2017-12-19T23:42:33.436270Z'
+updated_at: '2017-12-20T00:07:36.548593Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 589880
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the PlayStation image file
+  game:
+    core: mednafen_psx_hw
+    main_file: file1

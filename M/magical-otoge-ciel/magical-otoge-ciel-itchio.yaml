@@ -1,0 +1,28 @@
+id: 6975
+game_id: 9577
+game_slug: magical-otoge-ciel
+name: Magical Otoge Ciel
+year: 2015
+user: FakeShemp
+runner: linux
+slug: magical-otoge-ciel-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2018-01-03T01:20:28.820648Z'
+updated_at: '2018-01-03T01:23:24.086157Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 521470
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Magical Otoge Ciel.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

@@ -1,0 +1,24 @@
+id: 1232
+game_id: 3580
+game_slug: elliot-quest
+name: Elliot Quest
+year: 2014
+user: Xodetaetl
+runner: steam
+slug: elliot-quest-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-01-05T19:24:19.235000Z'
+updated_at: '2015-01-05T19:24:24.590000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 293440
+gogid: null
+gogslug: ''
+humblestoreid: elliot-quest
+script:
+  game:
+    appid: 293440

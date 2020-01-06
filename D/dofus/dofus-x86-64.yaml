@@ -1,0 +1,39 @@
+id: 2199
+game_id: 4811
+game_slug: dofus
+name: Dofus
+year: 2004
+user: ssf
+runner: linux
+slug: dofus-x86-64
+version: x86-64
+description: null
+notes: ''
+created_at: '2016-06-25T01:14:57.343000Z'
+updated_at: '2018-09-17T07:51:32.974712Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 254300
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: start.sh
+  installer:
+  - extract:
+      format: tgz
+      dst: $GAMEDIR
+      file: game
+  - execute:
+      args: '-c ''printf "#!/bin/sh
+
+        cd $GAMEDIR
+
+        if [ ! -x transition/transition ];then chmod +x transition/transition; fi;exec
+        ./Dofus"$@""> $GAMEDIR/start.sh'''
+      file: /bin/sh
+  - chmodx: $GAMEDIR/start.sh
+  files:
+  - game: http://download.dofus.com/full/linux/x64

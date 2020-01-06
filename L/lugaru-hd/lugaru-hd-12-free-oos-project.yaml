@@ -1,0 +1,30 @@
+id: 3584
+game_id: 166
+game_slug: lugaru-hd
+name: Lugaru HD
+year: 2005
+user: dj_who
+runner: linux
+slug: lugaru-hd-12-free-oos-project
+version: 1.2 (free OOS Project)
+description: "Free version form OOS Lugaru Project:\r\nhttps://osslugaru.gitlab.io/"
+notes: ''
+created_at: '2017-04-28T12:58:50.907000Z'
+updated_at: '2017-05-02T00:27:15.246573Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 25010
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: lugaru-hd
+  files:
+  - lugaru-hd: https://bitbucket.org/osslugaru/lugaru/downloads/Lugaru-1.2-Linux-x86_64.tar.xz
+  game:
+    exe: lugaru.x86_64

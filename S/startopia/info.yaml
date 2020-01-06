@@ -1,0 +1,17 @@
+name: Startopia
+slug: startopia
+year: 2001
+platforms:
+- name: Windows
+genres:
+- name: Business
+- name: Real-time
+- name: Simulation
+aliases: []
+banner_url: /games/banner/startopia.jpg
+icon_url: /games/icon/startopia.png
+is_public: true
+updated: '2019-01-23T08:31:24.882131Z'
+steamid: 243040
+gogslug: startopia
+humblestoreid: ''

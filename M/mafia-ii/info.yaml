@@ -1,0 +1,15 @@
+name: Mafia II
+slug: mafia-ii
+year: 2011
+platforms:
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/mafia-ii.jpg
+icon_url: /games/icon/mafia-ii.png
+is_public: true
+updated: '2019-03-24T04:16:21.468638Z'
+steamid: 50130
+gogslug: ''
+humblestoreid: ''

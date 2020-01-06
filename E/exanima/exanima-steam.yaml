@@ -1,0 +1,27 @@
+id: 9636
+game_id: 4312
+game_slug: exanima
+name: Exanima
+year: null
+user: jehdin
+runner: winesteam
+slug: exanima-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-08T06:10:27.028000Z'
+updated_at: '2018-08-09T05:20:01.199415Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 362490
+gogid: 1470768488
+gogslug: exanima
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-3.12-x86_64
+  game:
+    appid: 362490
+    arch: win64

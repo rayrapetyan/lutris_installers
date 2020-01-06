@@ -1,0 +1,45 @@
+id: 2290
+game_id: 6542
+game_slug: xiii
+name: XIII
+year: 2003
+user: strider
+runner: wine
+slug: xiii-cd
+version: CD
+description: ''
+notes: '- You may need to hit Alt+Tab a couple times for the game to show up properly
+  after launch.'
+created_at: '2016-07-09T21:55:04.669601Z'
+updated_at: '2018-05-19T03:41:48.836327Z'
+draft: false
+published: true
+published_by: null
+rating: '3'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert_disc:
+      requires: rgn.bmp
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      description: Installing XIII
+      name: wineexec
+  - extract:
+      dst: $CACHE
+      file: patch15
+  - task:
+      executable: $CACHE/Unofficial XIII Patch 1.5.exe
+      prefix: $GAMEDIR
+      description: Installing patch 1.5
+      name: wineexec
+  files:
+  - patch15: https://lutris.net/files/games/xiii/patch1.5.zip
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Ubisoft/XIII/system/XIII.exe
+    arch: win32

@@ -1,0 +1,52 @@
+id: 7676
+game_id: 16836
+game_slug: rules-of-survival
+name: Rules of Survival
+year: 2017
+user: cxf
+runner: wine
+slug: rules-of-survival-windows
+version: Windows
+description: null
+notes: "Requires Facebook or mobile app for sign-in. Google sign-in does not work.\r\
+  \n\r\nDownloadable on the <a href=\"https://play.google.com/store/apps/details?id=com.netease.chiji\"\
+  >Google Play Store</a> or the <a href=\"https://itunes.apple.com/us/app/rules-of-survival/id1307961750?mt=8\"\
+  >iOS App Store</a>"
+created_at: '2018-03-27T19:48:34.717000Z'
+updated_at: '2019-12-22T19:22:45.966171Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 788260
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/ros/ros.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2010 wininet win7
+      name: winetricks
+  - extract:
+      dst: $CACHE
+      file: zip
+  - task:
+      executable: $CACHE/ros_publish_276_publish_1.295523.315158.exe
+      prefix: $GAMEDIR
+      description: Please wait while we install Rules of Survival
+      args: /SP- /SUPPRESSMSGBOXES /VERYSILENT /NOICONS
+      exclude_processes: ros.exe
+      name: wineexec
+  wine:
+    version: lutris-4.13-x86_64
+    overrides:
+      wininet: builtin,native
+  files:
+  - zip: https://g61.gdl.netease.com/ros_publish_276_publish_1.295523.315158.zip

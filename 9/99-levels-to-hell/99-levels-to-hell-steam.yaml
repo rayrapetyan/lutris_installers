@@ -1,0 +1,24 @@
+id: 627
+game_id: 2141
+game_slug: 99-levels-to-hell
+name: 99 Levels To Hell
+year: 2014
+user: Xodetaetl
+runner: steam
+slug: 99-levels-to-hell-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-14T21:40:39.346000Z'
+updated_at: '2014-09-14T21:47:57.113000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 264280
+gogid: 1207659178
+gogslug: 99_levels_to_hell
+humblestoreid: ''
+script:
+  game:
+    appid: 264280

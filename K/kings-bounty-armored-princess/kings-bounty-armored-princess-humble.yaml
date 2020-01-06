@@ -1,0 +1,36 @@
+id: 4725
+game_id: 423
+game_slug: kings-bounty-armored-princess
+name: 'King''s Bounty: Armored Princess'
+year: null
+user: FakeShemp
+runner: wine
+slug: kings-bounty-armored-princess-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-29T22:42:23.074000Z'
+updated_at: '2018-05-19T03:41:54.318334Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 3170
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/1C/King's Bounty. Armored Princess/kb.exe
+    arch: win32

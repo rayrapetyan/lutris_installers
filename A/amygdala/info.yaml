@@ -1,0 +1,16 @@
+name: Amygdala
+slug: amygdala
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/amygdala.jpg
+icon_url: /games/icon/amygdala.png
+is_public: true
+updated: '2019-02-07T17:51:36.419927Z'
+steamid: 369060
+gogslug: ''
+humblestoreid: ''

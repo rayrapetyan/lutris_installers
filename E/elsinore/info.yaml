@@ -1,0 +1,15 @@
+name: Elsinore
+slug: elsinore
+year: 2019
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/elsinore.jpg
+icon_url: /games/icon/elsinore.png
+is_public: true
+updated: '2019-10-11T00:56:38.248195Z'
+steamid: 512890
+gogslug: ''
+humblestoreid: ''

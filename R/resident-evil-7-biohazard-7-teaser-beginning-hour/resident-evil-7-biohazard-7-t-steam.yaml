@@ -1,0 +1,81 @@
+id: 8086
+game_id: 9720
+game_slug: resident-evil-7-biohazard-7-teaser-beginning-hour
+name: 'Resident Evil 7 / Biohazard 7 Teaser: Beginning Hour'
+year: 2016
+user: cxf
+runner: winesteam
+slug: resident-evil-7-biohazard-7-t-steam
+version: Steam
+description: For graphics cards and drivers (NVIDIA cards with 415.25 and newer driver
+  or AMD cards with AMDGPU driver and latest Mesa) that SUPPORT Vulkan (needed by
+  DXVK). Vulkan dependencies are REQUIRED, both 64-bit AND 32-bit.
+notes: "**CONFIGURE AND INSTALL THE DEPENDENCIES FIRST**\r\nInstructions for DXVK\
+  \ support: <a href=\"https://github.com/lutris/lutris/wiki/How-to:-DXVK\">https://github.com/lutris/lutris/wiki/How-to:-DXVK</a>"
+created_at: '2018-05-07T08:05:53.623000Z'
+updated_at: '2019-04-25T01:20:28.221844Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 530620
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: cjkfonts
+      name: winetricks
+  - merge:
+      src: mfplat_dll_64
+      dst: $GAMEDIR/prefix/drive_c/windows/system32
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: mf
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      component: mediafoundation
+      cabfile: $HOME/.cache/winetricks/win7sp1/windows6.1-KB976932-X64.exe
+      name: install_cab_component
+  - task:
+      prefix: $GAMEDIR/prefix
+      component: mf_
+      cabfile: $HOME/.cache/winetricks/win7sp1/windows6.1-KB976932-X64.exe
+      name: install_cab_component
+  - task:
+      prefix: $GAMEDIR/prefix
+      component: mfreadwrite
+      cabfile: $HOME/.cache/winetricks/win7sp1/windows6.1-KB976932-X64.exe
+      name: install_cab_component
+  - task:
+      prefix: $GAMEDIR/prefix
+      component: wmadmod
+      cabfile: $HOME/.cache/winetricks/win7sp1/windows6.1-KB976932-X64.exe
+      name: install_cab_component
+  - task:
+      prefix: $GAMEDIR/prefix
+      component: wmvdecod
+      cabfile: $HOME/.cache/winetricks/win7sp1/windows6.1-KB976932-X64.exe
+      name: install_cab_component
+  winesteam:
+    version: tkg-protonified-4.6-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      mfplat: native,builtin
+  system:
+    env:
+      DXVK_HUD: 0
+  files:
+  - mfplat_dll_64: https://lutris.net/files/tools/dll/mfplat/x64/mfplat.dll
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 530620
+    arch: win64

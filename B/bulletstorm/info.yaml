@@ -1,0 +1,15 @@
+name: Bulletstorm
+slug: bulletstorm
+year: null
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/bulletstorm.jpg
+icon_url: /games/icon/bulletstorm.png
+is_public: true
+updated: '2019-01-23T08:28:43.142933Z'
+steamid: 99810
+gogslug: ''
+humblestoreid: ''

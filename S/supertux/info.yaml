@@ -1,0 +1,15 @@
+name: SuperTux
+slug: supertux
+year: 2003
+platforms:
+- name: Linux
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/supertux.jpg
+icon_url: /games/icon/supertux.png
+is_public: true
+updated: '2019-01-23T08:31:31.587151Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

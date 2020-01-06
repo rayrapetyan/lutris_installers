@@ -1,0 +1,17 @@
+name: 'Grand Theft Auto: Chinatown Wars'
+slug: grand-theft-auto-chinatown-wars
+year: 2009
+platforms:
+- name: Nintendo DS
+- name: Sony PSP
+genres:
+- name: Action
+- name: Sandbox
+aliases: []
+banner_url: /games/banner/grand-theft-auto-chinatown-wars.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:42.305812Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

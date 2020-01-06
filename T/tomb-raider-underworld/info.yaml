@@ -1,0 +1,16 @@
+name: 'Tomb Raider: Underworld'
+slug: tomb-raider-underworld
+year: 2008
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/tomb-raider-underworld.jpg
+icon_url: /games/icon/tomb-raider-underworld.png
+is_public: true
+updated: '2019-01-23T08:31:52.684194Z'
+steamid: 8140
+gogslug: ''
+humblestoreid: ''

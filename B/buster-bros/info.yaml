@@ -1,0 +1,15 @@
+name: Buster Bros
+slug: buster-bros
+year: 1989
+platforms:
+- name: Arcade
+genres:
+- name: Shooter
+aliases: []
+banner_url: /games/banner/buster-bros.jpg
+icon_url: null
+is_public: true
+updated: '2020-01-01T06:54:05.644273Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,23 @@
+id: 2879
+game_id: 7879
+game_slug: swooop
+name: SWOOOP
+year: null
+user: ssf
+runner: browser
+slug: swooop-html5
+version: HTML5
+description: ''
+notes: ''
+created_at: '2016-10-11T14:36:13.767215Z'
+updated_at: '2016-10-13T17:50:20.496586Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://playcanv.as/p/JtL2iqIH

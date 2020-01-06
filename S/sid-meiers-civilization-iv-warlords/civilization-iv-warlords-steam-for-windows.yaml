@@ -1,0 +1,24 @@
+id: 3570
+game_id: 540
+game_slug: sid-meiers-civilization-iv-warlords
+name: 'Civilization IV: Warlords'
+year: null
+user: schaap137
+runner: winesteam
+slug: civilization-iv-warlords-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: ''
+created_at: '2017-04-27T21:15:31.965000Z'
+updated_at: '2017-05-02T00:31:14.220238Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 34450
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 3990

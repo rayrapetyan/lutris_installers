@@ -1,0 +1,28 @@
+id: 2249
+game_id: 6502
+game_slug: rrootage
+name: rRootage
+year: 2003
+user: ssf
+runner: linux
+slug: rrootage-023
+version: '0.23'
+description: ''
+notes: ''
+created_at: '2016-07-04T19:23:39.438000Z'
+updated_at: '2017-04-06T21:59:16.957555Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: rrootage
+  installer:
+  - extract:
+      file: game
+  files:
+  - game: https://lutris.net/files/games/rrootage/rrootage-0.23-x86_64.tar.gz

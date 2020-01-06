@@ -1,0 +1,28 @@
+id: 3720
+game_id: 6673
+game_slug: day-of-the-tentacle-remastered
+name: Day of the Tentacle Remastered
+year: 2016
+user: FakeShemp
+runner: linux
+slug: day-of-the-tentacle-remastere-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-17T20:36:53.678968Z'
+updated_at: '2017-05-19T16:27:09.624610Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 388210
+gogid: 1456922969
+gogslug: day_of_the_tentacle_remastered
+humblestoreid: day-of-the-tentacle-remastered
+script:
+  exe: Dott
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

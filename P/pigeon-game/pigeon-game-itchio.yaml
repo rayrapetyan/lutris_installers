@@ -1,0 +1,40 @@
+id: 10639
+game_id: 22994
+game_slug: pigeon-game
+name: Pigeon Game
+year: 2018
+user: cxf
+runner: linux
+slug: pigeon-game-itchio
+version: itch.io
+description: null
+notes: '- <a href="https://smitleu.itch.io/pigeon-game">Download zip before using
+  this installer.</a>'
+created_at: '2018-10-26T02:14:51.248000Z'
+updated_at: '2018-10-26T02:35:15.005886Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      src: $zip
+      dst: $GAMEDIR
+  - merge:
+      src: $GAMEDIR/PigeonGame_LIN
+      dst: $GAMEDIR
+  - move:
+      src: $GAMEDIR/__MACOSX
+      dst: $CACHE
+  - move:
+      src: $GAMEDIR/PigeonGame_LIN
+      dst: $CACHE
+  files:
+  - zip: N/A:Please select zip archive downloaded from itch.io
+  game:
+    exe: PigeonGame_LIN.x86_64

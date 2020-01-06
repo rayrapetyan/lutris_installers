@@ -1,0 +1,16 @@
+name: welcome to heaven
+slug: welcome-to-heaven
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Simulation
+aliases: []
+banner_url: /games/banner/welcome-to-heaven.jpg
+icon_url: /games/icon/welcome-to-heaven.png
+is_public: true
+updated: '2019-01-23T08:32:07.556097Z'
+steamid: 655160
+gogslug: ''
+humblestoreid: ''

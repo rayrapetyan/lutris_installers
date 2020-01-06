@@ -1,0 +1,59 @@
+id: 2242
+game_id: 6491
+game_slug: raiden-iv-overkill
+name: 'Raiden IV: Overkill'
+year: 2013
+user: ssf
+runner: wine
+slug: raiden-iv-overkill-gogcom
+version: GOG.com
+description: null
+notes: note if the game has a black screen, reinstall vcrun2012 and set the correct
+  dll overrides
+created_at: '2016-07-03T17:54:02.673917Z'
+updated_at: '2018-06-22T16:44:28.879539Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 323460
+gogid: 1445524380
+gogslug: raiden_iv_overkill
+humblestoreid: ''
+script:
+  gogid: raiden_iv_overkill
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Disabling unused WINE features
+      app: vcrun2012
+      silent: false
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Disabling unused WINE features
+      app: vcrun2013
+      silent: false
+      name: winetricks
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /DIR=C:/game
+      description: Installing Raiden IV
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Disabling unused WINE features
+      app: sandbox
+      silent: true
+      name: winetricks
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/game/game.exe
+    arch: win32

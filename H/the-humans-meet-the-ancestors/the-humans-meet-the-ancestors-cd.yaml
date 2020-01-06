@@ -1,0 +1,33 @@
+id: 2936
+game_id: 8204
+game_slug: the-humans-meet-the-ancestors
+name: 'The Humans: Meet the Ancestors!'
+year: 2009
+user: Lulu
+runner: wine
+slug: the-humans-meet-the-ancestors-cd
+version: CD
+description: ''
+notes: ''
+created_at: '2016-10-22T20:57:22.656024Z'
+updated_at: '2018-05-19T03:41:48.733308Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: drive_c/Program Files/Deep Silver/The Humans/Humans.exe
+  installer:
+  - insert-disc:
+      requires: setup.exe
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    arch: win32

@@ -1,0 +1,15 @@
+name: Celeste
+slug: celeste
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Platformer
+aliases: []
+banner_url: /games/banner/celeste.jpg
+icon_url: /games/icon/celeste.png
+is_public: true
+updated: '2019-02-04T23:18:41.667660Z'
+steamid: 504230
+gogslug: ''
+humblestoreid: ''

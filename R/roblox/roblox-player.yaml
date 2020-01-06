@@ -1,0 +1,39 @@
+id: 12497
+game_id: 15308
+game_slug: roblox
+name: ROBLOX
+year: 2006
+user: OsamaBinlada
+runner: wine
+slug: roblox-player
+version: Player
+description: Downloads and installs the standard player from Roblox
+notes: still doesn't work. has error with captcha
+created_at: '2019-03-24T14:16:21.811000Z'
+updated_at: '2019-12-20T18:34:39.938352Z'
+draft: false
+published: true
+published_by: 20548
+rating: '1'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Roblox/Versions/RobloxPlayerBeta.exe
+    arch: win64
+  installer:
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Installing the game
+      arch: win64
+      name: wineexec
+  wine:
+    overrides:
+      ucrtbase: native,builtin
+      api-ms-win-crt-private-l1-1-0: native,builtin
+  files:
+  - setup: https://setup.rbxcdn.com/RobloxPlayerLauncher.exe

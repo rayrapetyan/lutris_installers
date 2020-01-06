@@ -1,0 +1,15 @@
+name: ARMED SEVEN
+slug: armed-seven
+year: 2008
+platforms:
+- name: Linux
+genres:
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/armed-seven.jpg
+icon_url: /games/icon/armed-seven.png
+is_public: true
+updated: '2019-01-23T08:28:25.421081Z'
+steamid: 349690
+gogslug: ''
+humblestoreid: armed-seven

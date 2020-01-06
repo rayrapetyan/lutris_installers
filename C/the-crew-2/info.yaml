@@ -1,0 +1,19 @@
+name: The Crew 2
+slug: the-crew-2
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Flight
+- name: Racing
+- name: Sandbox
+- name: Sports
+aliases: []
+banner_url: /games/banner/the-crew-2.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:39.823544Z'
+steamid: 646910
+gogslug: ''
+humblestoreid: ''

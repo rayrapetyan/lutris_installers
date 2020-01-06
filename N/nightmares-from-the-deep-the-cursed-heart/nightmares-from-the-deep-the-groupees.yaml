@@ -1,0 +1,32 @@
+id: 6055
+game_id: 1953
+game_slug: nightmares-from-the-deep-the-cursed-heart
+name: 'Nightmares from the Deep: The Cursed Heart'
+year: null
+user: FakeShemp
+runner: wine
+slug: nightmares-from-the-deep-the-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-10-22T10:26:31.423927Z'
+updated_at: '2018-05-19T03:41:57.511395Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 259740
+gogid: 1148539461
+gogslug: nightmares_from_the_deep_the_cursed_heart
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Nightmares from the Deep The Cursed Heart
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Nightmares from the Deep The Cursed Heart/NightmaresFromTheDeep_TheCursedHeartCE.exe
+    arch: win32

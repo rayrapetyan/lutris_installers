@@ -1,0 +1,35 @@
+id: 5596
+game_id: 6072
+game_slug: dark-souls-iii
+name: DARK SOULS III
+year: 2016
+user: fabi2607
+runner: winesteam
+slug: dark-souls-iii-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2017-09-05T07:59:21.297000Z'
+updated_at: '2019-02-14T05:38:14.422035Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 374320
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+    pulse_latency: true
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 374320
+    arch: win64

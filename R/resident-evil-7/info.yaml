@@ -1,0 +1,17 @@
+name: RESIDENT EVIL 7
+slug: resident-evil-7
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Horror
+aliases:
+- slug: resident-evil-7-biohazard-biohazard-7-resident-evi
+  name: RESIDENT EVIL 7 biohazard / BIOHAZARD 7 resident evil
+banner_url: /games/banner/resident-evil-7.jpg
+icon_url: /games/icon/resident-evil-7.png
+is_public: true
+updated: '2019-03-23T07:13:50.366184Z'
+steamid: 418370
+gogslug: ''
+humblestoreid: ''

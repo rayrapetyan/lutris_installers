@@ -1,0 +1,16 @@
+name: CrossCode
+slug: crosscode
+year: 2015
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/crosscode.jpg
+icon_url: /games/icon/crosscode.png
+is_public: true
+updated: '2019-01-23T08:29:00.884513Z'
+steamid: 368340
+gogslug: crosscode
+humblestoreid: ''

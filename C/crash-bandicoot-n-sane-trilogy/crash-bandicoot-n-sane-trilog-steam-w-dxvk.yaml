@@ -1,0 +1,34 @@
+id: 9045
+game_id: 19600
+game_slug: crash-bandicoot-n-sane-trilogy
+name: Crash Bandicoot N. Sane Trilogy
+year: 2018
+user: TuiorGames
+runner: winesteam
+slug: crash-bandicoot-n-sane-trilog-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2018-07-06T13:08:04.786000Z'
+updated_at: '2019-03-25T01:22:23.976400Z'
+draft: false
+published: true
+published_by: 19464
+rating: '5'
+steamid: 731490
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    esync: true
+    dxvk: true
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR/cache
+      DXVK_HUD: 0
+      DXVK_STATE_CACHE_PATH: $GAMEDIR/cache/dxvk
+    fps_limit: 60
+  game:
+    appid: 731490
+    arch: win64

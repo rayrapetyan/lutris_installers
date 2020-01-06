@@ -1,0 +1,52 @@
+id: 11398
+game_id: 24574
+game_slug: k-shoot-mania
+name: K-Shoot MANIA
+year: null
+user: ttpcodes
+runner: wine
+slug: k-shoot-mania-windows
+version: Windows
+description: null
+notes: This game requires that a Japanese locale such as ja_JP.UTF-8 be used in order
+  for text to be rendered correctly. The environment variable is already configured
+  by this install script, but you will need to manually generate the locale on your
+  Linux install, the instructions for which will vary per distro.
+created_at: '2019-01-01T09:04:32.787000Z'
+updated_at: '2019-01-22T07:46:00.592989Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/kshootmania
+      file: game
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: corefonts
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: cjkfonts
+      arch: win32
+      name: winetricks
+  system:
+    env:
+      LANG: ja_JP.UTF-8
+  files:
+  - game: https://www.kshootmania.com/dl/kshootmania_v168.zip
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/kshootmania/kshootmania.exe
+    arch: win32

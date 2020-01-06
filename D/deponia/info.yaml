@@ -1,0 +1,16 @@
+name: Deponia
+slug: deponia
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/deponia.jpg
+icon_url: /games/icon/deponia.png
+is_public: true
+updated: '2019-01-23T08:29:09.719605Z'
+steamid: 214340
+gogslug: deponia
+humblestoreid: deponia

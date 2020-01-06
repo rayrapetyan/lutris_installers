@@ -1,0 +1,17 @@
+name: Moto Racer 3 Gold Edition
+slug: moto-racer-3-gold-edition
+year: 2002
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Racing
+- name: Rally
+aliases: []
+banner_url: /games/banner/moto-racer-3-gold-edition.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:26.983345Z'
+steamid: null
+gogslug: moto_racer_3
+humblestoreid: ''

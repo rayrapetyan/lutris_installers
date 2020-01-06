@@ -1,0 +1,16 @@
+name: Hovertank 3D
+slug: hovertank-3d
+year: 1991
+platforms:
+- name: Linux
+- name: MS-DOS
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/hovertank-3d.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:52.810650Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

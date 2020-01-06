@@ -1,0 +1,32 @@
+id: 4192
+game_id: 1603
+game_slug: x-com-interceptor
+name: 'X-COM: Interceptor'
+year: 1998
+user: FakeShemp
+runner: wine
+slug: x-com-interceptor-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-07T18:07:02.592377Z'
+updated_at: '2018-05-19T03:41:51.494369Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 7730
+gogid: 1445249671
+gogslug: xcom_interceptor
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/X-COM Interceptor
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/X-COM Interceptor/Interceptor.exe
+    arch: win32

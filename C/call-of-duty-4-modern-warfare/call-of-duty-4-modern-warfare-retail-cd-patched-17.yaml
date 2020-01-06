@@ -1,0 +1,57 @@
+id: 11374
+game_id: 1241
+game_slug: call-of-duty-4-modern-warfare
+name: 'Call of Duty 4: Modern Warfare'
+year: 2007
+user: m1cr0man
+runner: wine
+slug: call-of-duty-4-modern-warfare-retail-cd-patched-17
+version: Retail CD Patched 1.7
+description: "Runs the retail installer and patches. Do not install DX9 when prompted.\
+  \ You will need a CD key. Punkbuster appears to work.\r\nThe 1.6 patch installer\
+  \ hangs when loading for ~10 minutes. Please don't kill it.\r\nYou can get patches\
+  \ here: <a href=\"http://www.callofdutyview.net/downloads/\">http://www.callofdutyview.net/downloads/</a>"
+notes: "Esync is enabled and \"Prefer system libraries\" is disabled after extensive\
+  \ performance testing.\r\n\r\nDisable Anti-Aliasing in game if you are experiencing\
+  \ texture issues."
+created_at: '2018-12-28T18:50:18.764000Z'
+updated_at: '2019-09-21T13:38:52.242568Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: 7940
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: setup.exe
+      message: Insert disc 1
+  - merge:
+      src: $DISC
+      description: Copying disc 1 to cache
+      dst: $CACHE/cdrom
+  - task:
+      executable: $CACHE/cdrom/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      executable: patch1
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      executable: patch2
+      prefix: $GAMEDIR
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Activision/Call of Duty 4 - Modern Warfare/iw3mp.exe
+  system:
+    prefer_system_libs: false
+  wine:
+    esync: true
+  files:
+  - patch1: N/A:Provide path to 1.6 patch
+  - patch2: N/A:Provide path to 1.6-1.7 patch

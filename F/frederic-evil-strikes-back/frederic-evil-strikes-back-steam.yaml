@@ -1,0 +1,24 @@
+id: 1902
+game_id: 3322
+game_slug: frederic-evil-strikes-back
+name: 'Frederic: Evil Strikes Back'
+year: null
+user: WildCoder
+runner: steam
+slug: frederic-evil-strikes-back-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-01-17T17:47:15.411350Z'
+updated_at: '2016-01-17T17:49:16.938329Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 301200
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 301200

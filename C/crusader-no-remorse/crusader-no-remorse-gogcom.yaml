@@ -1,0 +1,85 @@
+id: 13589
+game_id: 23910
+game_slug: crusader-no-remorse
+name: 'Crusader: No Remorse'
+year: 1995
+user: rregeer
+runner: dosbox
+slug: crusader-no-remorse-gogcom
+version: GOG.com
+description: Will use the windows installer from GOG.com to install the game. The
+  DOSBox configuration is optimized to run with the best performance possible.
+notes: ''
+created_at: '2019-05-17T21:20:56.253000Z'
+updated_at: '2019-05-18T00:29:31.422696Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: 1207658933
+gogslug: crusader_no_remorse
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      description: Extracting innoextract application
+      dst: $CACHE
+      file: $fileextract
+  - execute:
+      args: -d "$CACHE/game" "$installer"
+      description: Extracting game data
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/game
+      dst: $GAMEDIR
+  - move:
+      src: $GAMEDIR/__support/app/dosboxCRUSADER.conf
+      dst: $GAMEDIR
+  - write_config:
+      section: sdl
+      key: output
+      value: opengl
+      file: $GAMEDIR/dosboxCRUSADER.conf
+  - write_config:
+      section: sdl
+      key: fulldouble
+      value: true
+      file: $GAMEDIR/dosboxCRUSADER.conf
+  - write_config:
+      section: sdl
+      key: fullresolution
+      value: desktop
+      file: $GAMEDIR/dosboxCRUSADER.conf
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/dosboxCRUSADER.conf
+  - write_config:
+      section: render
+      key: scaler
+      value: normal2x
+      file: $GAMEDIR/dosboxCRUSADER.conf
+  - write_file:
+      content: ' [ipx] ipx=false
+
+        [autoexec]
+
+        mount c .
+
+        c:
+
+        imgmount d game.gog -t iso -fs iso
+
+        crusader.exe
+
+        exit'
+      file: $GAMEDIR/dosboxCRUSADER_single.conf
+  files:
+  - installer: "N/A:Select the GOG.com game setup file. Download it here: \nhttps://www.gog.com/downloads/crusader_no_remorse/en1installer0\n"
+  - fileextract: https://lutris.nyc3.digitaloceanspaces.com/tools/innoextract/innoextract-1.8-dev-2019-01-13-linux.tar.xz
+  game:
+    config_file: $GAMEDIR/dosboxCRUSADER.conf
+    main_file: $GAMEDIR/dosboxCRUSADER_single.conf
+    game_id: crusader-no-remorse

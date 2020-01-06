@@ -1,0 +1,34 @@
+id: 12447
+game_id: 14865
+game_slug: tower-of-time
+name: Tower of Time
+year: 2018
+user: Nobu
+runner: linux
+slug: tower-of-time-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-03-21T18:25:23.130236Z'
+updated_at: '2019-03-23T23:58:06.489840Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 617480
+gogid: 1411626324
+gogslug: tower_of_time
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

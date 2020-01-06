@@ -1,0 +1,41 @@
+id: 3715
+game_id: 4573
+game_slug: dark-souls-ii-scholar-of-the-first-sin
+name: "DARK SOULS\u2122 II: Scholar of the First Sin"
+year: 2012
+user: Jompa
+runner: winesteam
+slug: dark-soulstm-ii-scholar-of-th-steam
+version: Steam
+description: null
+notes: The grass and other types of foliage seem to only appear when you are standing
+  in them but everything else renders right.
+created_at: '2017-05-17T19:03:44.121000Z'
+updated_at: '2018-05-17T00:34:51.633609Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 335300
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-3.8-x86_64
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: set_regedit
+      type: REG_SZ
+      value: enabled
+      key: StrictDrawOrdering
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 335300
+    arch: win64

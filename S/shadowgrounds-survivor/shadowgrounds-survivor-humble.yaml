@@ -1,0 +1,29 @@
+id: 3949
+game_id: 182
+game_slug: shadowgrounds-survivor
+name: 'Shadowgrounds: Survivor'
+year: null
+user: FakeShemp
+runner: linux
+slug: shadowgrounds-survivor-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-29T16:28:21.210000Z'
+updated_at: '2017-05-30T00:27:03.528654Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 11200
+gogid: 1207659453
+gogslug: shadowgrounds_survivor
+humblestoreid: ''
+script:
+  exe: survivor-bin
+  installer:
+  - extract:
+      format: zip
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble installer

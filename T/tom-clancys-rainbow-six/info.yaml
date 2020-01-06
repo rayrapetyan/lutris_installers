@@ -1,0 +1,19 @@
+name: Tom Clancy's Rainbow Six
+slug: tom-clancys-rainbow-six
+year: 1998
+platforms:
+- name: Nintendo 64
+- name: Nintendo Game Boy Color
+- name: Sega Dreamcast
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Tactical shooter
+aliases: []
+banner_url: /games/banner/tom-clancys-rainbow-six.jpg
+icon_url: /games/icon/tom-clancys-rainbow-six.png
+is_public: true
+updated: '2019-03-26T04:27:21.750583Z'
+steamid: null
+gogslug: tom_clancys_rainbow_six
+humblestoreid: ''

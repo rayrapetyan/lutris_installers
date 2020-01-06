@@ -1,0 +1,24 @@
+id: 12851
+game_id: 14158
+game_slug: worldwide-soccer-manager-2008
+name: Worldwide Soccer Manager 2008
+year: null
+user: Testman42
+runner: steam
+slug: worldwide-soccer-manager-2008-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-04-16T20:59:54.971000Z'
+updated_at: '2019-05-19T07:32:18.769402Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 10420
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 10420

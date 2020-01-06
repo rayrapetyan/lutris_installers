@@ -1,0 +1,15 @@
+name: 'Fast & Furious 6 : The Mobile Game'
+slug: fast-furious-6
+year: 2013
+platforms:
+- name: J2ME
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/fast-furious-6.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:29.141260Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

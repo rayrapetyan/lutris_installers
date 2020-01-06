@@ -1,0 +1,95 @@
+id: 7284
+game_id: 16449
+game_slug: cemu
+name: Cemu
+year: 2015
+user: cxf
+runner: wine
+slug: cemu-v1161
+version: v1.16.1
+description: Includes Cemuhook plugin, graphic packs, and controller support
+notes: "Some options under the Debug menu cause the program to crash.\r\n\r\nUpdating\
+  \ games via xml causes Cemu to crash. Use this method instead:\r\n\r\n- Open up:\
+  \ <b>drive_c/Program Files (x86)/cemu_1.16.1/mlc01/usr/title</b> and create a folder\
+  \ as well as an additional subfolder inside the newly created one. Name them after\
+  \ the game's Title ID.\r\n\r\nNow you're ready to extract your update folders:\r\
+  \n\r\n- For updates: <b>mlc01/usr/title/00050000/101C9500</b>\r\n- For DLC: <b>mlc01/usr/title/00050000/101C9500/aoc</b>\r\
+  \n\r\nTo obtain your game's Title ID launch your game and open your <b>drive_c/Program\
+  \ Files (x86)/cemu_1.16.1/log.txt</b> file. Search for the file path similar to\
+  \ the given example.\r\n\r\nChoose the Xbox_Controller profile in Cemu's input settings\
+  \ to enable controller support."
+created_at: '2018-02-10T04:43:52.465000Z'
+updated_at: '2020-01-03T23:21:31.483851Z'
+draft: false
+published: true
+published_by: 51687
+rating: '4'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2017 win7
+      name: winetricks
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files (x86)/cemu_1.16.1
+      file: cemu
+  - extract:
+      dst: $CACHE/sharedFonts
+      file: fonts
+  - move:
+      src: $CACHE/sharedFonts
+      dst: $GAMEDIR/drive_c/Program Files (x86)/cemu_1.16.1
+  - extract:
+      dst: $CACHE/hook
+      file: hook
+  - merge:
+      src: $CACHE/hook
+      dst: $GAMEDIR/drive_c/Program Files (x86)/cemu_1.16.1
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files (x86)/cemu_1.16.1/graphicPacks/downloadedGraphicPacks
+      file: packs
+  - write_file:
+      content: bleh
+      file: $GAMEDIR/drive_c/Program Files (x86)/cemu_1.16.1/controllerProfiles/Xbox_Controller.txt
+  - merge:
+      src: controller
+      dst: $GAMEDIR/drive_c/Program Files (x86)/cemu_1.16.1/controllerProfiles
+  - write_file:
+      content: bleh
+      file: $GAMEDIR/drive_c/Program Files (x86)/cemu_1.16.1/cemuhook.ini
+  - merge:
+      src: config
+      dst: $GAMEDIR/drive_c/Program Files (x86)/cemu_1.16.1/cemuhook.ini
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/cemu_1.16.1/Cemu.exe
+    arch: win64
+  system:
+    disable_compositor: true
+    env:
+      __GL_THREADED_OPTIMIZATIONS: 1
+      mesa_glthread: 'true'
+      R600_DEBUG: nohyperz
+      vblank_mode: 0
+  wine:
+    version: lutris-vkchildwindow-5.0-rc2-x86_64
+    esync: true
+    overrides:
+      dbghelp: native,builtin
+      mscoree: disabled
+      mshtml: disabled
+  files:
+  - cemu: http://cemu.info/releases/cemu_1.16.1.zip
+  - fonts: https://lutris.nyc3.cdn.digitaloceanspaces.com/games/cemu/sharedFonts.tar.xz
+  - hook: https://files.sshnuke.net/cemuhook_1159_0573.zip
+  - config: https://lutris.nyc3.cdn.digitaloceanspaces.com/games/cemu/cemuhook.ini
+  - packs: https://lutris.nyc3.cdn.digitaloceanspaces.com/games/cemu/graphicPacks544.tar.xz
+  - controller: https://lutris.nyc3.cdn.digitaloceanspaces.com/games/cemu/Xbox_Controller.txt

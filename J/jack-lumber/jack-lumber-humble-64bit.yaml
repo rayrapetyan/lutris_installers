@@ -1,0 +1,33 @@
+id: 4066
+game_id: 626
+game_slug: jack-lumber
+name: Jack Lumber
+year: 2013
+user: FakeShemp
+runner: linux
+slug: jack-lumber-humble-64bit
+version: Humble (64bit)
+description: ''
+notes: ''
+created_at: '2017-06-02T19:02:28.198807Z'
+updated_at: '2017-06-04T21:51:29.355368Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 220900
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: startgame.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/Linux64
+      dst: $GAMEDIR
+  - chmodx: $GAMEDIR/startgame.sh
+  files:
+  - file1: N/A:Please select the Humble archive

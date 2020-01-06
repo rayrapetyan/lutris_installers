@@ -1,0 +1,28 @@
+id: 3823
+game_id: 3653
+game_slug: never-alone-kisima-ingitchuna
+name: Never Alone (Kisima Ingitchuna)
+year: 2014
+user: FakeShemp
+runner: linux
+slug: never-alone-kisima-ingitchuna-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-23T18:57:23.594820Z'
+updated_at: '2017-05-27T21:12:37.772866Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 295790
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Never_Alone.x64
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

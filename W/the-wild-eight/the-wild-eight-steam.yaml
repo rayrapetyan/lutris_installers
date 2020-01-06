@@ -1,0 +1,47 @@
+id: 9189
+game_id: 5942
+game_slug: the-wild-eight
+name: The Wild Eight
+year: null
+user: kadin
+runner: winesteam
+slug: the-wild-eight-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-12T19:37:39.196000Z'
+updated_at: '2018-07-14T06:05:42.685065Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 526160
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-3.8-x86_64
+    overrides:
+      dnsapi: native,builtin
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: dxd9
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2012
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: win7
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 526160
+    arch: win64

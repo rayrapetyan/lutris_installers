@@ -1,0 +1,36 @@
+id: 7511
+game_id: 17336
+game_slug: 'off'
+name: 'OFF'
+year: 2008
+user: Exogenesis
+runner: wine
+slug: off-v20-english-translat
+version: v2.0 English Translation
+description: null
+notes: ''
+created_at: '2018-03-13T02:55:40.175000Z'
+updated_at: '2019-11-16T09:13:45.674793Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      prefix: $GAMEDIR
+      dst: drive_c/Games/OFF/
+      file: $file1
+  - merge:
+      src: $GAMEDIR/drive_c/Games/OFF/Profont.fon
+      description: Copy font file
+      dst: $GAMEDIR/drive_c/windows/Fonts/
+  files:
+  - file1: https://uploads.kocka.tech/off-update.zip
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Games/OFF/RPG_RT.exe

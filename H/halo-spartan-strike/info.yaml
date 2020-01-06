@@ -1,0 +1,15 @@
+name: 'Halo: Spartan Strike'
+slug: halo-spartan-strike
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/halo-spartan-strike.jpg
+icon_url: /games/icon/halo-spartan-strike.png
+is_public: true
+updated: '2019-01-23T08:29:46.582742Z'
+steamid: 324570
+gogslug: ''
+humblestoreid: ''

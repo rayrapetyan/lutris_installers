@@ -1,0 +1,29 @@
+id: 14171
+game_id: 27993
+game_slug: aura-kingdome
+name: Aura Kingdome
+year: null
+user: Crawler
+runner: wine
+slug: aura-kingdome-ge-protonified-nofsh
+version: ge-protonified-nofshack-4.9_x86
+description: In Work
+notes: ''
+created_at: '2019-06-17T19:07:06.947109Z'
+updated_at: '2019-06-17T19:07:06.947143Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: AuraKingdom_DE_downloader.exe
+      dst: $GAMEDIR
+  files:
+  - file_id: https://downloaders.aeriagames.com/AuraKingdom_DE_downloader.exe
+  - unredistribuable_file: N/A

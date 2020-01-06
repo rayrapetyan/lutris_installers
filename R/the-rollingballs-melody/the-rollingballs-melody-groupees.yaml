@@ -1,0 +1,41 @@
+id: 4947
+game_id: 7954
+game_slug: the-rollingballs-melody
+name: The Rollingball's Melody
+year: null
+user: FakeShemp
+runner: wine
+slug: the-rollingballs-melody-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-10T18:22:47.887000Z'
+updated_at: '2018-05-19T03:41:55.981355Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 409310
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/TRBMsetup1.15.exe
+      prefix: $GAMEDIR
+      args: /s /nr
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: corefonts
+      name: winetricks
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Torkal Games/The Rollingball's Melody/TRBM.exe
+    arch: win32

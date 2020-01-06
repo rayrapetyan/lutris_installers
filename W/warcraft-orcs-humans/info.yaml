@@ -1,0 +1,21 @@
+name: 'Warcraft: Orcs & Humans'
+slug: warcraft-orcs-humans
+year: 1994
+platforms:
+- name: MS-DOS
+genres:
+- name: Real-time strategy
+aliases:
+- slug: warcraft
+  name: warcraft
+- slug: warcraft-1
+  name: warcraft 1
+- slug: warcraft-orcs-and-humans
+  name: warcraft orcs and humans
+banner_url: /games/banner/warcraft-orcs-humans.jpg
+icon_url: /games/icon/warcraft-orcs-humans.png
+is_public: true
+updated: '2019-11-16T18:07:08.522235Z'
+steamid: null
+gogslug: warcraft_orcs_and_humans
+humblestoreid: ''

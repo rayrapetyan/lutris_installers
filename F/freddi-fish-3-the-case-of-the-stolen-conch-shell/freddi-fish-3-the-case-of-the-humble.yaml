@@ -1,0 +1,39 @@
+id: 4621
+game_id: 2799
+game_slug: freddi-fish-3-the-case-of-the-stolen-conch-shell
+name: 'Freddi Fish 3: The Case of the Stolen Conch Shell'
+year: 1998
+user: FakeShemp
+runner: scummvm
+slug: freddi-fish-3-the-case-of-the-humble
+version: Humble
+description: Uses the files from the Windows installer from Humble.
+notes: ''
+created_at: '2017-06-26T09:04:28.742000Z'
+updated_at: '2017-07-04T18:09:37.245775Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 294540
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  scummvm:
+    gfx-mode: 2x
+  installer:
+  - task:
+      executable: $file1
+      prefix: $CACHE
+      args: /S
+      name: wine.wineexec
+  - merge:
+      src: $CACHE/drive_c/Games/Humongous Entertainment/Freddi Fish 3
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble installer
+  game:
+    game_id: freddi3
+    path: $GAMEDIR
+    subtitles: true

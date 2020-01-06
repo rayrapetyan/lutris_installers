@@ -1,0 +1,17 @@
+name: 'Metropolis: Lux Obscura'
+slug: metropolis-lux-obscura
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Point-and-click
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/metropolis-lux-obscura.jpg
+icon_url: /games/icon/metropolis-lux-obscura.png
+is_public: true
+updated: '2019-01-23T08:30:22.628798Z'
+steamid: 671390
+gogslug: ''
+humblestoreid: ''

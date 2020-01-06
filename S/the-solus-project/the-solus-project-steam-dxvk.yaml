@@ -1,0 +1,44 @@
+id: 8330
+game_id: 7242
+game_slug: the-solus-project
+name: The Solus Project
+year: 2016
+user: bumba
+runner: winesteam
+slug: the-solus-project-steam-dxvk
+version: Steam + DXVK
+description: null
+notes: ''
+created_at: '2018-05-19T11:35:00.038000Z'
+updated_at: '2019-02-16T04:53:30.734936Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 313630
+gogid: 1455617752
+gogslug: the_solus_project
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: win7
+      arch: win64
+      name: winetricks
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 313630
+    arch: win64

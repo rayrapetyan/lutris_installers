@@ -1,0 +1,16 @@
+name: Pyre
+slug: pyre
+year: null
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/pyre.jpg
+icon_url: /games/icon/pyre.png
+is_public: true
+updated: '2019-12-26T19:20:59.679378Z'
+steamid: 462770
+gogslug: pyre
+humblestoreid: ''

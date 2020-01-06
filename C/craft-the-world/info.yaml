@@ -1,0 +1,17 @@
+name: Craft The World
+slug: craft-the-world
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: Sandbox
+- name: Strategy
+- name: Survival
+aliases: []
+banner_url: /games/banner/craft-the-world.jpg
+icon_url: /games/icon/craft-the-world.png
+is_public: true
+updated: '2019-01-23T08:28:59.301273Z'
+steamid: 248390
+gogslug: craft_the_world
+humblestoreid: ''

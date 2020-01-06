@@ -1,0 +1,24 @@
+id: 12188
+game_id: 22043
+game_slug: battlerite-royale
+name: Battlerite Royale
+year: 2018
+user: romulasry
+runner: steam
+slug: battlerite-royale-steam
+version: Steam
+description: Proton version
+notes: ''
+created_at: '2019-02-26T23:07:20.593000Z'
+updated_at: '2019-02-27T21:19:50.664349Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 879160
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 879160

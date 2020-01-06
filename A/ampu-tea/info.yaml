@@ -1,0 +1,15 @@
+name: Ampu-Tea
+slug: ampu-tea
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Simulation
+aliases: []
+banner_url: /games/banner/ampu-tea.jpg
+icon_url: /games/icon/ampu-tea.png
+is_public: true
+updated: '2019-01-23T08:28:21.277569Z'
+steamid: 289090
+gogslug: ''
+humblestoreid: ''

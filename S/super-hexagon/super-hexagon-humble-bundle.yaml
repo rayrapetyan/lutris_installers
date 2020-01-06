@@ -1,0 +1,33 @@
+id: 468
+game_id: 306
+game_slug: super-hexagon
+name: Super Hexagon
+year: 2012
+user: strider
+runner: linux
+slug: super-hexagon-humble-bundle
+version: Humble Bundle
+description: ''
+notes: ''
+created_at: '2014-05-12T11:44:06.666000Z'
+updated_at: '2016-09-30T20:42:46.630089Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 221640
+gogid: 1207660213
+gogslug: super_hexagon
+humblestoreid: super-hexagon
+script:
+  exe: SuperHexagon
+  installer:
+  - execute:
+      args: --destination=$GAMEDIR
+      file: game
+  - extract:
+      dst: $GAMEDIR
+      file: patch
+  files:
+  - game: N/A:Select the installer downloaded from Humble Bundle.
+  - patch: https://lutris.net/files/games/super-hexagon/SuperHexagon_linux-04192013.tar.gz

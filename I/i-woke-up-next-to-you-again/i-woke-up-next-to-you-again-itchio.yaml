@@ -1,0 +1,32 @@
+id: 5968
+game_id: 14292
+game_slug: i-woke-up-next-to-you-again
+name: I Woke up next to You Again
+year: 2017
+user: FakeShemp
+runner: linux
+slug: i-woke-up-next-to-you-again-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-10-15T17:19:30.992500Z'
+updated_at: '2017-10-15T17:20:21.504853Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: I woke up.x86
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/I woke up_Linux
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the itch.io archive

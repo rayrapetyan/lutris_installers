@@ -1,0 +1,24 @@
+id: 312
+game_id: 459
+game_slug: snuggle-truck
+name: Snuggle Truck
+year: null
+user: strider
+runner: steam
+slug: snuggle-truck-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-20T00:21:44.108000Z'
+updated_at: '2013-12-20T00:21:44.108000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 111100
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 111100

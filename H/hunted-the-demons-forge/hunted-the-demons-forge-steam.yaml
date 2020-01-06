@@ -1,0 +1,26 @@
+id: 7231
+game_id: 1809
+game_slug: hunted-the-demons-forge
+name: 'Hunted: The Demon''s Forge'
+year: null
+user: therealliberavia
+runner: winesteam
+slug: hunted-the-demons-forge-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-02-03T17:20:33.470000Z'
+updated_at: '2018-02-07T22:59:19.438931Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 22450
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  wine:
+    version: 3.1-x86_64
+  game:
+    appid: 22450

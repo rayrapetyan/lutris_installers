@@ -1,0 +1,43 @@
+id: 17747
+game_id: 28990
+game_slug: warfork
+name: Warfork
+year: 2019
+user: Sentry
+runner: linux
+slug: warfork-standalone-x86
+version: standalone x86
+description: null
+notes: ''
+created_at: '2020-01-04T21:02:24.248917Z'
+updated_at: '2020-01-04T21:02:24.248944Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE/warfork
+      file: game
+  - copy:
+      src: $CACHE/warfork/Warfork.app/Contents/Resources/basewf
+      description: Copying game assets
+      dst: $GAMEDIR/basewf/
+  - copy:
+      src: $CACHE/warfork/Warfork.app/Contents/Resources/libs
+      description: Copying game libraries
+      dst: $GAMEDIR/libs/
+  - copy:
+      src: $CACHE/warfork/Warfork.app/Contents/Resources/warfork.i386
+      description: Copying game executable
+      dst: $GAMEDIR
+  files:
+  - game: https://warfork.com/downloads/warfork_4269802_Oct_08_2019_unified.tar
+  game:
+    prefix: $GAMEDIR
+    exe: warfork.i386

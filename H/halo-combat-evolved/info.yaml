@@ -1,0 +1,15 @@
+name: 'Halo: Combat Evolved'
+slug: halo-combat-evolved
+year: 2001
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/halo-combat-evolved.jpg
+icon_url: /games/icon/halo-combat-evolved.png
+is_public: true
+updated: '2019-01-23T08:29:46.566379Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,38 @@
+id: 2653
+game_id: 521
+game_slug: anomaly-warzone-earth-mobile-campaign
+name: Anomaly Warzone Earth Mobile Campaign
+year: null
+user: ssf
+runner: linux
+slug: anomaly-warzone-earth-mobile-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2016-08-31T18:36:56.061083Z'
+updated_at: '2016-09-30T21:09:16.455013Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 252170
+gogid: 1207667143
+gogslug: anomaly_warzone_earth_mobile_campaign
+humblestoreid: ''
+script:
+  exe: game/start.sh
+  gogid: anomaly_warzone_earth_mobile_campaign
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Please select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

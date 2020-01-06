@@ -1,0 +1,24 @@
+id: 4879
+game_id: 5545
+game_slug: eventide-slavic-fable
+name: 'Eventide: Slavic Fable'
+year: null
+user: pmatulka
+runner: steam
+slug: eventide-slavic-fable-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-07-07T12:07:00.569080Z'
+updated_at: '2017-07-09T20:12:14.183696Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 406870
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 406870

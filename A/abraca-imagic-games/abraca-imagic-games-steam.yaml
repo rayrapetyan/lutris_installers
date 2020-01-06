@@ -1,0 +1,24 @@
+id: 5430
+game_id: 10338
+game_slug: abraca-imagic-games
+name: ABRACA - Imagic Games
+year: 2016
+user: NuSuey
+runner: winesteam
+slug: abraca-imagic-games-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-08-20T01:31:59.308461Z'
+updated_at: '2017-08-27T21:48:22.907338Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 345990
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 345990

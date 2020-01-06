@@ -1,0 +1,24 @@
+id: 771
+game_id: 2645
+game_slug: appointment-with-fear
+name: Appointment With FEAR
+year: 2014
+user: Xodetaetl
+runner: steam
+slug: appointment-with-fear-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T14:02:24.182000Z'
+updated_at: '2014-09-15T16:13:28.907000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 316140
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 316140

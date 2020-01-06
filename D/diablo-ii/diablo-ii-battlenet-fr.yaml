@@ -1,0 +1,39 @@
+id: 10702
+game_id: 21
+game_slug: diablo-ii
+name: Diablo II
+year: 2000
+user: aureolebigben
+runner: wine
+slug: diablo-ii-battlenet-fr
+version: Battle.net (FR)
+description: "Installe le jeu en fran\xE7ais"
+notes: "- Le jeu s'installe dans C:\\Program File (x86)\\Diablo II\r\n- Le r\xE9seau\
+  \ P2P (pour acc\xE9l\xE9rer le t\xE9l\xE9chargement) ne fonctionne pas\r\n- Mode\
+  \ fen\xEAtre"
+created_at: '2018-10-31T14:35:04.770000Z'
+updated_at: '2019-04-09T05:54:17.429514Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    args: -w
+    exe: drive_c/Program Files (x86)/Diablo II/Diablo II.exe
+  installer:
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      name: wineexec
+  wine:
+    version: tkg-4.0-x86_64
+  files:
+  - installer:
+      filename: Downloader_Diablo2_frFR.exe
+      url: https://www.battle.net/download/getLegacy?product=D2DV&locale=fr-FR&os=WIN

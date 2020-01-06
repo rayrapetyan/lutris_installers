@@ -1,0 +1,27 @@
+id: 7064
+game_id: 5913
+game_slug: battle-brothers
+name: Battle Brothers
+year: 2017
+user: Azmart
+runner: winesteam
+slug: battle-brothers-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-01-10T19:16:35.200000Z'
+updated_at: '2019-12-15T18:46:20.637396Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 365360
+gogid: 1590012242
+gogslug: battle_brothers
+humblestoreid: ''
+script:
+  system:
+    env:
+      MESA_GL_VERSION_OVERRIDE: 3.3COMPAT
+  game:
+    appid: 365360

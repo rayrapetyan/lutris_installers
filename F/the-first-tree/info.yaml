@@ -1,0 +1,16 @@
+name: The First Tree
+slug: the-first-tree
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Exploration
+aliases: []
+banner_url: /games/banner/the-first-tree.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:41.314701Z'
+steamid: 555150
+gogslug: the_first_tree
+humblestoreid: ''

@@ -1,0 +1,17 @@
+name: GZDoom
+slug: gzdoom
+year: 2005
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: FPS
+- name: Shooter
+aliases: []
+banner_url: /games/banner/gzdoom.jpg
+icon_url: null
+is_public: true
+updated: '2019-03-27T03:18:27.804396Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

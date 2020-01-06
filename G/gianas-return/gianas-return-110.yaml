@@ -1,0 +1,31 @@
+id: 2418
+game_id: 7076
+game_slug: gianas-return
+name: Giana's Return
+year: 2009
+user: strider
+runner: linux
+slug: gianas-return-110
+version: '1.10'
+description: null
+notes: ''
+created_at: '2016-08-10T08:55:40.772169Z'
+updated_at: '2017-11-27T01:14:50.536596Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: giana_linux64
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: game
+  files:
+  - game: http://www.retroguru.com/gianas-return/gianas-return-v.latest-linux.tar.gz
+  game:
+    args: -fs -ogl -hd

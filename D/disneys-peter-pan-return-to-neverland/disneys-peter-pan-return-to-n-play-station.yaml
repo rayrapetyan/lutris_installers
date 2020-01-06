@@ -1,0 +1,32 @@
+id: 9650
+game_id: 20767
+game_slug: disneys-peter-pan-return-to-neverland
+name: Disney's Peter Pan Return to Neverland
+year: 2002
+user: T-bond
+runner: libretro
+slug: disneys-peter-pan-return-to-n-play-station
+version: Play Station
+description: null
+notes: The libretro needs the Playstation firmware (3 of them) to run Playstation
+  games.
+created_at: '2018-08-09T07:57:55.242220Z'
+updated_at: '2018-08-09T09:58:10.780516Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the PlayStation image file
+  game:
+    core: mednafen_psx_hw
+    main_file: file1

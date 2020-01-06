@@ -1,0 +1,38 @@
+id: 15616
+game_id: 4324
+game_slug: star-control-2
+name: Star Control II
+year: 1992
+user: ibitedou
+runner: wine
+slug: star-control-ii-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-09-17T17:05:17.273000Z'
+updated_at: '2019-10-06T23:12:16.405685Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      name: null
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      args: /SP- /NOCANCEL /SUPPRESSMSGBOXES
+      name: wineexec
+  files:
+  - installer: N/A:Select the Windows installer downloaded from GOG
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Star Control 2/STARCON2.EXE

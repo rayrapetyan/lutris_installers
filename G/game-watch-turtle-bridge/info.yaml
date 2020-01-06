@@ -1,0 +1,15 @@
+name: 'Game & Watch: Turtle Bridge'
+slug: game-watch-turtle-bridge
+year: 1982
+platforms:
+- name: Arcade
+genres:
+- name: Platformer
+aliases: []
+banner_url: /games/banner/game-watch-turtle-bridge.jpg
+icon_url: null
+is_public: true
+updated: '2019-09-11T20:42:14.946450Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

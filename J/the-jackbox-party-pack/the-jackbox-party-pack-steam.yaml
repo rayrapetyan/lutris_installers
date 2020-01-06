@@ -1,0 +1,24 @@
+id: 1916
+game_id: 4982
+game_slug: the-jackbox-party-pack
+name: The Jackbox Party Pack
+year: 2014
+user: WildCoder
+runner: steam
+slug: the-jackbox-party-pack-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2016-01-20T20:38:55.620000Z'
+updated_at: '2018-12-15T07:10:36.482880Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 331670
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 331670

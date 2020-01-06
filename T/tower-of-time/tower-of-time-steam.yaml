@@ -1,0 +1,24 @@
+id: 10930
+game_id: 14865
+game_slug: tower-of-time
+name: Tower of Time
+year: 2018
+user: akin2silver
+runner: steam
+slug: tower-of-time-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-11-20T20:05:13.906000Z'
+updated_at: '2018-11-22T23:01:10.958121Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 617480
+gogid: 1411626324
+gogslug: tower_of_time
+humblestoreid: ''
+script:
+  game:
+    appid: 617480

@@ -1,0 +1,15 @@
+name: AstroMenace
+slug: astromenace
+year: 2007
+platforms:
+- name: Linux
+genres:
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/astromenace.jpg
+icon_url: /games/icon/astromenace.png
+is_public: true
+updated: '2019-01-23T08:28:27.939332Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

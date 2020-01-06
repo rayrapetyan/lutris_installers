@@ -1,0 +1,27 @@
+id: 6381
+game_id: 14819
+game_slug: pillars-of-eternity-ii-deadfire-public-beta
+name: 'Pillars of Eternity II: Deadfire - Public Beta'
+year: null
+user: ShadowApex
+runner: winesteam
+slug: pillars-of-eternity-ii-deadfi-public-beta
+version: Public Beta
+description: null
+notes: ''
+created_at: '2017-11-20T18:26:01.579000Z'
+updated_at: '2018-05-06T07:30:45.534868Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 743140
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  wine:
+    version: overwatch-2.15-x86_64
+  game:
+    appid: 743140
+    arch: win64

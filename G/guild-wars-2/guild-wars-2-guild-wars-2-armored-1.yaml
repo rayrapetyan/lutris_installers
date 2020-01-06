@@ -1,0 +1,67 @@
+id: 17323
+game_id: 3364
+game_slug: guild-wars-2
+name: Guild Wars 2
+year: 2012
+user: eagledelta1
+runner: wine
+slug: guild-wars-2-guild-wars-2-armored-1
+version: Guild Wars 2 Armored Mesa
+description: "This is a special build based on GW2 player ArmoredVehicle's custom\
+  \ WINE build that is uploaded to the Guild Wars 2 Forums:\r\n\r\nhttps://en-forum.guildwars2.com/discussion/31192/playing-guild-wars-2-on-linux-performance-optimizations-and-more/p1\r\
+  \n\r\nAn SSD is strongly recommended for improved performance."
+notes: This installer is customized for AMD/Intel users. For NVidia users, please
+  use the Armored NVidia installer
+created_at: '2019-12-13T21:27:13.574000Z'
+updated_at: '2019-12-22T11:22:00.509485Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating win64 prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: d3d9 dxgi
+      name: winetricks
+  - execute:
+      command: mkdir -p "$GAMEDIR/drive_c/Program Files/Guild Wars 2"
+  - move:
+      src: client
+      dst: $GAMEDIR/drive_c/Program Files/Guild Wars 2/GW2-64.exe
+  game:
+    prefix: $GAMEDIR
+    args: -maploadinfo
+    exe: drive_c/Program Files/Guild Wars 2/GW2-64.exe
+    arch: win64
+  system:
+    disable_compositor: 'true'
+    env:
+      DXVK_LOG_LEVEL: none
+      STAGING_SHARED_MEMORY: 1
+      MESA_GLSL_CACHE_DISABLE: 0
+      MESA_GLSL_CACHE_DIR: $GAMEDIR
+      vblank_mode: 0
+      mesa_glthread: true
+      DXVK_HUD: 0
+      WINEDEBUG: -all
+  wine:
+    dxvk_version: 1.5
+    version: lutris-4.21-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      nvapi64: disabled
+      d3d9: native
+      nvapi: disabled
+  files:
+  - client: https://s3.amazonaws.com/gw2cdn/client/branches/Gw2Setup-64.exe

@@ -1,0 +1,24 @@
+id: 3484
+game_id: 4119
+game_slug: total-war-attila
+name: 'Total War: ATTILA'
+year: null
+user: liberodark
+runner: steam
+slug: total-war-attila-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-04-01T10:32:02.265193Z'
+updated_at: '2017-04-03T19:03:00.026026Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 325610
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 325610

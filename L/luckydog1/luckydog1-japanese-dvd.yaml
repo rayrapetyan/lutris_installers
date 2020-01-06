@@ -1,0 +1,48 @@
+id: 9368
+game_id: 20210
+game_slug: luckydog1
+name: Luckydog1
+year: 2009
+user: kimchitea
+runner: wine
+slug: luckydog1-japanese-dvd
+version: Japanese DVD
+description: null
+notes: Keep clicking the center button to install or click the right button to cancel.
+  Change the install location to C:\Tennenouji\Luckydog1 to avoid problems with Japanese
+  characters in folder names.
+created_at: '2018-07-25T04:46:09.514000Z'
+updated_at: '2018-07-26T13:40:54.116797Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: LD1.arc
+      description: Insert the Luckydog1 CD
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows version to XP
+      app: winxp
+      arch: win32
+      name: winetricks
+  - task:
+      executable: $DISC/Setup.exe
+      env:
+        LC_ALL: ja_JP.UTF-8
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  system:
+    env:
+      LC_ALL: ja_JP.UTF-8
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/Tennenouji/Luckydog1/LD1.exe
+    arch: win32

@@ -1,0 +1,18 @@
+name: 'Resident Evil 3: Nemesis'
+slug: resident-evil-3-nemesis
+year: 1999
+platforms:
+- name: GameCube
+- name: Sega Dreamcast
+- name: Sony PlayStation
+genres:
+- name: Horror
+- name: Survival
+aliases: []
+banner_url: /games/banner/resident-evil-3-nemesis.jpg
+icon_url: null
+is_public: true
+updated: '2019-02-26T14:40:29.725311Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

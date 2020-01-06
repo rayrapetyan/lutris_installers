@@ -1,0 +1,17 @@
+name: Yoshi's Cookie
+slug: yoshis-cookie
+year: 1993
+platforms:
+- name: Game Boy
+- name: NES
+- name: Super Nintendo
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/yoshis-cookie.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:13.226159Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

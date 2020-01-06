@@ -1,0 +1,52 @@
+id: 3965
+game_id: 7744
+game_slug: duelyst
+name: Duelyst
+year: 2016
+user: bloodygrunt
+runner: linux
+slug: duelyst-standalone
+version: Standalone
+description: Installs Duelyst as a native linux application.
+notes: "Not officially supported. Uses script from: https://github.com/notfound4/Duelyst-Launcher\r\
+  \nWhen installation finishes, configure duelyst to not use the lutris runtime under\
+  \ systerm settings. \r\ncurl is required for this script."
+created_at: '2017-05-30T05:06:58.598000Z'
+updated_at: '2017-06-17T04:33:41.467416Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 291410
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: bscript
+      dst: $GAMEDIR/
+  - move:
+      src: diff_file
+      dst: $GAMEDIR/
+  - move:
+      src: node_patch
+      dst: $GAMEDIR/
+  - extract:
+      dst: $GAMEDIR/node
+      file: node_js
+  - execute:
+      args: -c "patch Duelyst-Updater node_patch.diff"
+      file: /bin/sh
+  - chmodx: $GAMEDIR/Duelyst-Updater
+  - execute:
+      file: $GAMEDIR/Duelyst-Updater
+      terminal: true
+  files:
+  - bscript: https://raw.githubusercontent.com/notfound4/Duelyst-Launcher/master/Duelyst-Updater
+  - diff_file: https://raw.githubusercontent.com/notfound4/Duelyst-Launcher/master/linux_patch.diff
+  - node_js: https://nodejs.org/dist/v6.10.3/node-v6.10.3-linux-x86.tar.xz
+  - node_patch: https://raw.githubusercontent.com/nitsu-daradara/duelyst-patch/master/node_patch.diff
+  game:
+    exe: Duelyst-Updater
+    terminal: true

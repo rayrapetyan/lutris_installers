@@ -1,0 +1,87 @@
+id: 10415
+game_id: 18951
+game_slug: dauntless
+name: Dauntless
+year: 2018
+user: GloriousEggroll
+runner: wine
+slug: dauntless-epic-games-store
+version: Epic Games Store
+description: "wrong installation name for install-mf.sh. will change it to mf-install.sh.\r\
+  \nmaybe have been changed"
+notes: "You must install Dauntless manually through the Epic Games Store.\r\n\r\n\
+  Rename <tt>Logo.mp4</tt>, found in <tt>$GAMEDIR/drive_c/Program Files/Epic Games/Archon/Content/Movies/Windows</tt>,\
+  \ after installing Dauntless from the Epic Games Store. Otherwise, you'll receive\
+  \ a black screen when launching Dauntless."
+created_at: '2018-10-04T03:54:55.354000Z'
+updated_at: '2019-12-23T10:51:11.811842Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      src: mf_install
+      dst: $CACHE/mfinstall
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - execute:
+      env:
+        WINEARCH: win64
+        WINE64: $HOME/.local/share/lutris/runners/wine/ge-protonified-4.10-x86_64/bin/wine64
+        WINE: $HOME/.local/share/lutris/runners/wine/ge-protonified-4.10-x86_64/bin/wine
+        WINEPREFIX: $GAMEDIR
+      file: $CACHE/mfinstall/mf-install.sh
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  - task:
+      prefix: $GAMEDIR
+      description: Installing dependencies
+      app: arial vcrun2015 dotnet48 win7
+      name: winetricks
+  - copy:
+      src: epic
+      dst: $CACHE/epic/
+  - task:
+      executable: msiexec
+      prefix: $GAMEDIR
+      arch: win64
+      args: /i "$CACHE/epic/EpicGamesLauncherInstaller.msi" /q
+      exclude_processes: EpicGamesLauncher.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  game:
+    prefix: $GAMEDIR
+    args: -opengl
+    exe: drive_c/Program Files (x86)/Epic Games/Launcher/Portal/Binaries/Win32/EpicGamesLauncher.exe
+    arch: win64
+  system:
+    env:
+      __GL_THREADED_OPTIMIZATIONS: 1
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+  wine:
+    version: ge-protonified-4.10-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      d3dcompiler_47: native,builtin
+      nvapi,nvapi64: disabled
+  files:
+  - epic: https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi
+  - mf_install:
+      filename: master.zip
+      url: https://github.com/z0z0z/mf-install/archive/master.zip

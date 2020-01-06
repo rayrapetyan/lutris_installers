@@ -1,0 +1,58 @@
+id: 17225
+game_id: 5390
+game_slug: gog-galaxy
+name: GOG Galaxy
+year: 2014
+user: belug
+runner: wine
+slug: gog-galaxy-gog-galaxy-20
+version: GOG Galaxy 2.0
+description: DXVK + esync + fsync
+notes: 'VA-11 Hall-A: Cyberpunk Bartender Action and Undertale crash with overlay
+  in-game enabled.'
+created_at: '2019-12-07T21:46:09.467000Z'
+updated_at: '2019-12-27T11:22:20.377654Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: galaxy
+      prefix: $GAMEDIR
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Installing needed libraries
+      app: corefonts d3dcompiler_43 d3dcompiler_47 d3dx9 d3dx10_43 win7
+      arch: win64
+      name: winetricks
+  game:
+    prefix: $GAMEDIR
+    args: /runWithoutUpdating /deelevated
+    exe: drive_c/Program Files (x86)/GOG Galaxy/GalaxyClient.exe
+    arch: win64
+  system:
+    env:
+      PROTON_FSHACK_INTEGER_SCALING: '1'
+      WINEFSYNC: '1'
+      STAGING_SHARED_MEMORY: '1'
+      DXVK_HUD: compiler
+      WINE_LARGE_ADDRESS_AWARE: '1'
+    restore_gamma: true
+  wine:
+    version: lutris-4.20-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - galaxy: 'N/A: Select GOG Galaxy 2.0 installer downloaded from https://www.gogalaxy.com/en/'

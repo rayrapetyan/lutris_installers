@@ -1,0 +1,40 @@
+id: 13455
+game_id: 7712
+game_slug: a-hat-in-time
+name: A Hat in Time
+year: 2017
+user: lolisamurai
+runner: winesteam
+slug: a-hat-in-time-steam-galliumnine
+version: Steam | GalliumNine
+description: Near native performance but only supported by AMD.
+notes: Only works on AMD with the amdgpu driver.
+created_at: '2019-05-11T15:28:17.992000Z'
+updated_at: '2019-05-29T23:19:44.428895Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: 253230
+gogid: 1686426343
+gogslug: a_hat_in_time
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: d3dcompiler_43 d3dx9 galliumnine
+      name: winetricks
+  - write_file:
+      content: '#!/bin/sh\n \n$WINE ninewinecfg -e\n"$@" '
+      file: $GAMEDIR/nine.sh
+  - chmodx: $GAMEDIR/nine.sh
+  winesteam:
+    version: ge-protonified-4.9-x86_64
+    esync: 'true'
+  system:
+    prefix_command: '"$GAMEDIR/nine.sh"'
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 253230
+    arch: win64

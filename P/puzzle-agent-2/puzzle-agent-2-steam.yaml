@@ -1,0 +1,24 @@
+id: 1164
+game_id: 345
+game_slug: puzzle-agent-2
+name: Puzzle Agent 2
+year: null
+user: Xodetaetl
+runner: winesteam
+slug: puzzle-agent-2-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-11-28T08:57:58.268000Z'
+updated_at: '2014-11-28T08:58:03.125000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 94590
+gogid: 1441715815
+gogslug: puzzle_agent_2
+humblestoreid: ''
+script:
+  game:
+    appid: 94590

@@ -1,0 +1,40 @@
+id: 3884
+game_id: 9007
+game_slug: the-last-blade
+name: THE LAST BLADE
+year: null
+user: FakeShemp
+runner: linux
+slug: the-last-blade-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-25T19:11:52.333511Z'
+updated_at: '2017-05-27T21:13:43.125445Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 465840
+gogid: 2146639333
+gogslug: the_last_blade
+humblestoreid: ''
+script:
+  exe: NeogeoEmu.bin.x86
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data/noarch
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86_64
+      dst: $GAMEDIR
+  exe64: NeogeoEmu.bin.x86_64
+  files:
+  - file1: N/A:Please select the Humble installer

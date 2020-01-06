@@ -1,0 +1,15 @@
+name: Road Fighter
+slug: road-fighter
+year: 1985
+platforms:
+- name: NES
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/road-fighter.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:01.971958Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

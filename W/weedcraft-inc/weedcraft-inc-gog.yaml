@@ -1,0 +1,40 @@
+id: 13989
+game_id: 27156
+game_slug: weedcraft-inc
+name: Weedcraft Inc
+year: 2019
+user: mirazi_heket
+runner: wine
+slug: weedcraft-inc-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-06-08T06:55:23.858000Z'
+updated_at: '2019-06-12T04:25:28.164583Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 622720
+gogid: 1960273452
+gogslug: weedcraft_inc
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Weedcraft Inc/Weedcraft Inc/Weedcraft Inc.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /-SP /SUPPRESSMSGBOXES /NOCANCEL
+      description: Installing Weedcraft Inc
+      name: wineexec
+  wine:
+    version: ge-protonified-4.9-x86_64
+    dxvk: true
+  files:
+  - setup: N/A:Select the game's setup file

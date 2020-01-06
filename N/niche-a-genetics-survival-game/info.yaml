@@ -1,0 +1,16 @@
+name: Niche - a genetics survival game
+slug: niche-a-genetics-survival-game
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Simulation
+- name: Survival
+aliases: []
+banner_url: /games/banner/niche-a-genetics-survival-game.jpg
+icon_url: /games/icon/niche-a-genetics-survival-game.png
+is_public: true
+updated: '2019-01-23T08:30:32.446423Z'
+steamid: 440650
+gogslug: niche
+humblestoreid: ''

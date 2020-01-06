@@ -1,0 +1,16 @@
+name: Riff Racer - Race Your Music!
+slug: riff-racer
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Casual
+- name: Racing
+aliases: []
+banner_url: /games/banner/riff-racer.jpg
+icon_url: /games/icon/riff-racer.png
+is_public: true
+updated: '2019-01-23T08:30:59.996729Z'
+steamid: 351990
+gogslug: ''
+humblestoreid: ''

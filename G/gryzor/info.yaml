@@ -1,0 +1,21 @@
+name: Gryzor
+slug: gryzor
+year: 1988
+platforms:
+- name: Amstrad CPC 464
+- name: Arcade
+- name: Commodore 64
+- name: MS-DOS
+- name: MSX
+- name: NES
+- name: ZX Spectrum
+genres:
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/gryzor.jpg
+icon_url: null
+is_public: true
+updated: '2019-05-18T00:16:55.790126Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,56 @@
+id: 13204
+game_id: 1599
+game_slug: spore
+name: Spore
+year: 2008
+user: citrusalex
+runner: wine
+slug: spore-gog-w-d9vk
+version: GOG w/ D9VK
+description: Runs much faster and fixes terrain issues.
+notes: "**CONFIGURE AND INSTALL THE DEPENDENCIES FIRST**\r\nInstructions for D9VK\
+  \ support: <a href=\"https://github.com/lutris/lutris/wiki/Installing-drivers\"\
+  >https://github.com/lutris/lutris/wiki/Installing-drivers</a>"
+created_at: '2019-04-29T01:31:08.494000Z'
+updated_at: '2019-11-16T08:55:17.896133Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 17390
+gogid: 1948823323
+gogslug: spore_collection
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: d3dcompiler_43 d3dx9
+      name: winetricks
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      args: /NOCANCEL /SP- /SUPPRESSMSGBOXES
+      description: Installing Spore...
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/SPORE/SporebinEP1/SporeApp.exe
+  system:
+    env:
+      DXVK_LOG_LEVEL: none
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      __GL_SHADER_DISK_CACHE: 1
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+  wine:
+    d9vk: true
+    esync: true
+  files:
+  - installer: 'N/A:Select the .exe installer:'

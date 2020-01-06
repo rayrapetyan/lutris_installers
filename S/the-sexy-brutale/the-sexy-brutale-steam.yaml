@@ -1,0 +1,24 @@
+id: 6560
+game_id: 13494
+game_slug: the-sexy-brutale
+name: The Sexy Brutale
+year: null
+user: strider
+runner: winesteam
+slug: the-sexy-brutale-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-08T09:18:21.894084Z'
+updated_at: '2017-12-08T09:19:13.235981Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 552590
+gogid: 1585259027
+gogslug: the_sexy_brutale
+humblestoreid: ''
+script:
+  game:
+    appid: 552590

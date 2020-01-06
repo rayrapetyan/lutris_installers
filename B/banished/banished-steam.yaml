@@ -1,0 +1,33 @@
+id: 1022
+game_id: 1853
+game_slug: banished
+name: Banished
+year: 2014
+user: Xodetaetl
+runner: winesteam
+slug: banished-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2014-11-06T21:57:32.609000Z'
+updated_at: '2018-07-09T04:00:37.824360Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 242920
+gogid: 1207660783
+gogslug: banished
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: $GAMEDIR/VideoDX11-steam-x32.dll
+      dst: $GAMEDIR/VideoDX11-x32.dll
+  - task:
+      prefix: $GAMEDIR
+      description: Installing XACT
+      app: xact
+      name: winetricks
+  game:
+    appid: 242920

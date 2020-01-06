@@ -1,0 +1,43 @@
+id: 13757
+game_id: 12021
+game_slug: avernum
+name: Avernum
+year: 2000
+user: Lethiks
+runner: wine
+slug: avernum-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-05-27T20:15:56.994000Z'
+updated_at: '2019-06-17T01:44:51.487160Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: setup
+      args: /SILENT /LANG=en /SP- /NOCANCEL /SUPPRESSMSGBOXES /NOGUI
+      description: Installing. This may take a while...
+      arch: win64
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Avernum/Avernum.exe
+    arch: win64
+  system:
+    env:
+      DXVK_HUD: 0
+  wine:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native
+    dxvk: true
+  files:
+  - setup: 'N/A: Please select the setup.exe downloaded from GOG.com'

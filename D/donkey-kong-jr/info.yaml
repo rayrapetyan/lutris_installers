@@ -1,0 +1,19 @@
+name: Donkey Kong Jr.
+slug: donkey-kong-jr
+year: 1987
+platforms:
+- name: Arcade
+- name: Atari 2600
+- name: Atari 800
+- name: NES
+genres:
+- name: Arcade
+- name: Platform
+aliases: []
+banner_url: /games/banner/donkey-kong-jr.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:14.810828Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

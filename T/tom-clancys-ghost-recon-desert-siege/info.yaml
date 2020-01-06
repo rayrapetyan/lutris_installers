@@ -1,0 +1,17 @@
+name: 'Tom Clancy''s Ghost Recon: Desert Siege'
+slug: tom-clancys-ghost-recon-desert-siege
+year: 2002
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+- name: Tactical shooter
+aliases: []
+banner_url: /games/banner/tom-clancys-ghost-recon-desert-siege.jpg
+icon_url: /games/icon/tom-clancys-ghost-recon-desert-siege.png
+is_public: false
+updated: '2019-10-25T00:00:47.289266Z'
+steamid: 13620
+gogslug: ''
+humblestoreid: ''

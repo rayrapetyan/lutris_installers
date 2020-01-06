@@ -1,0 +1,24 @@
+id: 1169
+game_id: 1812
+game_slug: rise-of-the-argonauts
+name: Rise of the Argonauts
+year: null
+user: Xodetaetl
+runner: winesteam
+slug: rise-of-the-argonauts-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-11-28T10:56:01.078000Z'
+updated_at: '2014-11-28T11:05:44.761000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 12770
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 12770

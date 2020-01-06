@@ -1,0 +1,41 @@
+id: 2113
+game_id: 4668
+game_slug: batman-arkham-knight
+name: 'Batman: Arkham Knight'
+year: 2015
+user: strider
+runner: winesteam
+slug: batman-arkham-knight-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2016-06-15T05:26:19.091000Z'
+updated_at: '2019-12-11T10:48:15.699683Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: 208650
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  winesteam:
+    version: ge-protonified-4.10-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 208650
+    arch: win64

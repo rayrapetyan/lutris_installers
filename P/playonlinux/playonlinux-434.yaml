@@ -1,0 +1,30 @@
+id: 1827
+game_id: 5455
+game_slug: playonlinux
+name: PlayOnLinux
+year: 2007
+user: RobLoach
+runner: linux
+slug: playonlinux-434
+version: 4.3.4
+description: null
+notes: ''
+created_at: '2016-01-05T20:23:35.755000Z'
+updated_at: '2019-02-15T00:41:55.287342Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $download
+  files:
+  - download: https://www.playonlinux.com/script_files/PlayOnLinux/4.3.4/PlayOnLinux_4.3.4.tar.gz
+  game:
+    exe: playonlinux

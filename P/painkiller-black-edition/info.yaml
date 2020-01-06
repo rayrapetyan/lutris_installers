@@ -1,0 +1,17 @@
+name: 'Painkiller: Black Edition'
+slug: painkiller-black-edition
+year: 2005
+platforms:
+- name: Windows
+genres:
+- name: FPP
+- name: Horror
+- name: Shooter
+aliases: []
+banner_url: /games/banner/painkiller-black-edition.jpg
+icon_url: /games/icon/painkiller-black-edition.png
+is_public: true
+updated: '2019-01-23T08:30:40.912169Z'
+steamid: 39530
+gogslug: painkiller
+humblestoreid: ''

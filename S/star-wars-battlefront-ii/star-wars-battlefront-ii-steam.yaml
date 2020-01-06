@@ -1,0 +1,24 @@
+id: 1274
+game_id: 692
+game_slug: star-wars-battlefront-ii
+name: 'Star Wars: Battlefront II (2005)'
+year: 2005
+user: strider
+runner: winesteam
+slug: star-wars-battlefront-ii-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-02-04T19:19:05.101000Z'
+updated_at: '2015-02-04T19:19:12.220000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 6060
+gogid: 1421404701
+gogslug: star_wars_battlefront_ii
+humblestoreid: ''
+script:
+  game:
+    appid: 6060

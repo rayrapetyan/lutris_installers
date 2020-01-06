@@ -1,0 +1,48 @@
+id: 16368
+game_id: 29900
+game_slug: unigine-heaven
+name: Unigine Heaven
+year: 2009
+user: vanstaveren
+runner: wine
+slug: unigine-heaven-benchmark
+version: Benchmark
+description: null
+notes: ''
+created_at: '2019-10-24T16:04:56.549000Z'
+updated_at: '2019-11-16T09:05:58.841435Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    args: -config ../data/launcher/launcher.xml
+    exe: drive_c/Program Files (x86)/Unigine/Heaven Benchmark 4.0/bin/browser_x86.exe
+    arch: win64
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2017
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: win81
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      name: wineexec
+  wine:
+    esync: true
+    dxvk: true
+  files:
+  - setup: https://assets.unigine.com/d/Unigine_Heaven-4.0.exe

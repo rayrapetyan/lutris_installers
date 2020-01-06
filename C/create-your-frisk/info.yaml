@@ -1,0 +1,16 @@
+name: Create Your Frisk
+slug: create-your-frisk
+year: 2018
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/create-your-frisk.jpg
+icon_url: null
+is_public: true
+updated: '2019-10-22T22:04:42.275905Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,19 @@
+name: Chrono Trigger
+slug: chrono-trigger
+year: 1995
+platforms:
+- name: Nintendo DS
+- name: Sony PlayStation
+- name: Super Nintendo
+- name: Windows
+genres:
+- name: jRPG
+- name: RPG
+aliases: []
+banner_url: /games/banner/chrono-trigger.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:52.645136Z'
+steamid: 613830
+gogslug: ''
+humblestoreid: ''

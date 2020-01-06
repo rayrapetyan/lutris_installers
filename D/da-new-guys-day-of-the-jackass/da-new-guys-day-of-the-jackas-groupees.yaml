@@ -1,0 +1,36 @@
+id: 5696
+game_id: 13886
+game_slug: da-new-guys-day-of-the-jackass
+name: 'Da New Guys: Day of the Jackass'
+year: 2012
+user: FakeShemp
+runner: ags
+slug: da-new-guys-day-of-the-jackas-groupees
+version: Groupees
+description: Uses the files from the Windows installer from Groupees.
+notes: ''
+created_at: '2017-09-11T18:07:21.394000Z'
+updated_at: '2017-09-11T18:09:00.099479Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: Jackass.exe
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file2
+  - execute:
+      args: -d "$CACHE" "$file1"
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/app
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Groupees installer
+  - file2: https://lutris.net/files/tools/innoextract.tar.gz

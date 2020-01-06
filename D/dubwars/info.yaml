@@ -1,0 +1,16 @@
+name: DubWars
+slug: dubwars
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Arcade
+- name: Space flight
+aliases: []
+banner_url: /games/banner/dubwars.jpg
+icon_url: /games/icon/dubwars.png
+is_public: true
+updated: '2019-01-23T08:29:18.447498Z'
+steamid: 290000
+gogslug: ''
+humblestoreid: ''

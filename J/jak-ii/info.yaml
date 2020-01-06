@@ -1,0 +1,16 @@
+name: Jak II
+slug: jak-ii
+year: 2003
+platforms:
+- name: Sony PlayStation 2
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/jak-ii.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:59.781707Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

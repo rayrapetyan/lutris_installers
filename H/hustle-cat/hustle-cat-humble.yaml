@@ -1,0 +1,32 @@
+id: 5967
+game_id: 10608
+game_slug: hustle-cat
+name: Hustle Cat
+year: 2016
+user: FakeShemp
+runner: wine
+slug: hustle-cat-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-10-15T17:10:42.555847Z'
+updated_at: '2018-05-19T03:41:53.883985Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 453340
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Hustle Cat
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Hustle Cat/Hustle Cat.exe
+    arch: win32

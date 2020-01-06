@@ -1,0 +1,17 @@
+name: Mega Man X
+slug: mega-man-x
+year: 1993
+platforms:
+- name: MS-DOS
+- name: Super Nintendo
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/mega-man-x.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:21.144941Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

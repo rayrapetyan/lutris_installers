@@ -1,0 +1,29 @@
+id: 9453
+game_id: 20500
+game_slug: the-wizard-from-tarnath-tor
+name: The Wizard from Tarnath Tor
+year: 2013
+user: kimchitea
+runner: linux
+slug: the-wizard-from-tarnath-tor-humble-64-bit
+version: Humble (64-bit)
+description: null
+notes: ''
+created_at: '2018-07-29T14:44:02.577000Z'
+updated_at: '2018-07-29T21:50:34.563286Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Gamebook Adventures 6 - The Wizard From Tarnath Tor.x86_64
+  installer:
+  - extract:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble archive

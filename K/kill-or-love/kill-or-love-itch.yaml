@@ -1,0 +1,28 @@
+id: 17033
+game_id: 30563
+game_slug: kill-or-love
+name: Kill or Love
+year: 2019
+user: oscararg
+runner: linux
+slug: kill-or-love-itch
+version: Itch
+description: null
+notes: ''
+created_at: '2019-11-26T22:45:56.233039Z'
+updated_at: '2019-11-26T22:45:56.233075Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: KillorLove.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

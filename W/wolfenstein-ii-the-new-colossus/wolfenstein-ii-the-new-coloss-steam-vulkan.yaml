@@ -1,0 +1,32 @@
+id: 6136
+game_id: 14420
+game_slug: wolfenstein-ii-the-new-colossus
+name: 'Wolfenstein II: The New Colossus'
+year: 2017
+user: GloriousEggroll
+runner: winesteam
+slug: wolfenstein-ii-the-new-coloss-steam-vulkan
+version: steam-vulkan
+description: 'Wolfenstein II: The New Colossus - using vulkan'
+notes: "Notes:\r\nDisable \"deferred rendering\" and \"asynchronous compute\" in the\
+  \ graphics options when using RADV\r\nWorks for NVidia and AMDGPU with RADV"
+created_at: '2017-10-26T23:31:35.123000Z'
+updated_at: '2018-05-19T07:19:26.064627Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 612880
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-3.8-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+  system:
+    pulse_latency: true
+  game:
+    appid: 612880
+    arch: win64

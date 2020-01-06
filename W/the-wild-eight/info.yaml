@@ -1,0 +1,16 @@
+name: The Wild Eight
+slug: the-wild-eight
+year: null
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Survival
+aliases: []
+banner_url: /games/banner/the-wild-eight.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:48.743805Z'
+steamid: 526160
+gogslug: ''
+humblestoreid: ''

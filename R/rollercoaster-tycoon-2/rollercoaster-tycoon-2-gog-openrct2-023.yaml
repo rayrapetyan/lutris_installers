@@ -1,0 +1,48 @@
+id: 15074
+game_id: 4713
+game_slug: rollercoaster-tycoon-2
+name: RollerCoaster Tycoon 2
+year: 2002
+user: lutris123
+runner: linux
+slug: rollercoaster-tycoon-2-gog-openrct2-023
+version: GOG + OpenRCT2 0.2.3
+description: Requires the GoG-Installer. Uses OpenRCT2 0.2.3
+notes: "Fixed need for upstream innoextract binary\r\n\r\nRequires:\r\n* libzip.so.4\
+  \ (libzip4)\r\n* libicuuc.so.60 (libicu60)\r\n* libm.so.6 with GLIBC_2.27\r\n* libstdc++.so.6\
+  \ with CXXABI_1.3.11\r\n* libcurl.so.4 with CURL_OPENSSL_4\""
+created_at: '2019-08-20T20:26:38.630000Z'
+updated_at: '2019-10-06T15:20:43.526426Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: 285330
+gogid: 1207658957
+gogslug: rollercoaster_tycoon_2
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: tgz
+      file: Game
+  - chmodx: $GAMEDIR/openrct2
+  - mkdir: $HOME/.config/OpenRCT2/
+  - mkdir: $GAMEDIR/game_files/
+  - write_config:
+      section: general
+      key: game_path
+      value: $GAMEDIR/game_files
+      file: $HOME/.config/OpenRCT2/config.ini
+  - extract:
+      format: gog
+      dst: $CACHE/GOG
+      file: files_gog
+  - merge:
+      src: $CACHE/GOG/app/
+      dst: $GAMEDIR/game_files
+  files:
+  - files_gog: N/A:Please select your GoG-installer
+  - Game: https://github.com/Limetric/OpenRCT2-binaries/releases/download/v0.2.3-90cc885/OpenRCT2-0.2.3-develop-90cc88564-linux-x86_64.tar.gz
+  game:
+    exe: $GAMEDIR/openrct2

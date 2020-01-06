@@ -1,0 +1,17 @@
+name: Baseball 2 (Play TV)
+slug: baseball-2-play-tv
+year: 2002
+platforms:
+- name: Arcade
+genres:
+- name: Sports
+aliases:
+- slug: play-tv-baseball-2
+  name: Play TV Baseball 2
+banner_url: /games/banner/baseball-2-play-tv.jpg
+icon_url: null
+is_public: true
+updated: '2019-03-01T22:56:06.426145Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

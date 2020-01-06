@@ -1,0 +1,17 @@
+name: Secret World Legends
+slug: secret-world-legends
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: MMORPG
+aliases: []
+banner_url: /games/banner/secret-world-legends.jpg
+icon_url: /games/icon/secret-world-legends.png
+is_public: true
+updated: '2019-01-23T08:31:09.021634Z'
+steamid: 215280
+gogslug: ''
+humblestoreid: ''

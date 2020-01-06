@@ -1,0 +1,31 @@
+id: 11107
+game_id: 23673
+game_slug: witchcraft-the-lotus-elixir
+name: 'Witchcraft: The Lotus Elixir'
+year: null
+user: kimchitea
+runner: wine
+slug: witchcraft-the-lotus-elixir-itchio
+version: itch.io
+description: https://immanitas-ent-gmbh.itch.io/witchcraft-the-lotus-elixer
+notes: Download the zip file, not the exe.
+created_at: '2018-12-07T18:31:02.349000Z'
+updated_at: '2018-12-07T23:15:52.855084Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $game
+  files:
+  - game: N/A:Please select the game archive
+  game:
+    prefix: $GAMEDIR
+    exe: Witchcraft.exe

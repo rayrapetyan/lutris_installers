@@ -1,0 +1,15 @@
+name: KnightShift
+slug: knightshift
+year: 2003
+platforms:
+- name: Windows
+genres:
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/knightshift.jpg
+icon_url: /games/icon/knightshift.png
+is_public: true
+updated: '2019-10-11T00:40:32.509752Z'
+steamid: 254060
+gogslug: ''
+humblestoreid: ''

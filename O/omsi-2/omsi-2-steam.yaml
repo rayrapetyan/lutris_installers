@@ -1,0 +1,31 @@
+id: 11293
+game_id: 4912
+game_slug: omsi-2
+name: OMSI 2
+year: 2011
+user: Natsuyasumi
+runner: winesteam
+slug: omsi-2-steam
+version: Steam
+description: null
+notes: "- Pressing Left Alt may pause and un-focus the game window, left-clicking\
+  \ the window resumes the gameplay;\r\n- A \"load x File - Direct9 Error: E_FAIL\"\
+  \ warning shows on map load, seems to have no impact on the gameplay itself;\r\n\
+  - Sometimes, opening the sub-menus causes the game to hang completely;"
+created_at: '2018-12-21T20:27:17.648000Z'
+updated_at: '2018-12-22T06:42:27.998766Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 252530
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: 3.21-x86_64
+    ShowCrashDialog: true
+  game:
+    appid: 252530
+    arch: win64

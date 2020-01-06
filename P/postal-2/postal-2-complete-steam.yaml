@@ -1,0 +1,24 @@
+id: 107
+game_id: 479
+game_slug: postal-2
+name: POSTAL 2
+year: 2003
+user: dennisjj4
+runner: steam
+slug: postal-2-complete-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2013-12-17T18:06:37.603000Z'
+updated_at: '2013-12-17T23:40:03.187000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 223470
+gogid: 1207658755
+gogslug: postal_2
+humblestoreid: postal-2
+script:
+  game:
+    appid: 223470

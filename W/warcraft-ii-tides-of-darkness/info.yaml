@@ -1,0 +1,21 @@
+name: 'Warcraft II: Tides of Darkness'
+slug: warcraft-ii-tides-of-darkness
+year: 1999
+platforms:
+- name: Windows
+genres:
+- name: Real-time strategy
+aliases:
+- slug: warcraft-ii
+  name: Warcraft II
+- slug: warcraft-2
+  name: Warcraft 2
+- slug: warcraft-ii-battlenet-edition
+  name: Warcraft II Battlenet Edition
+banner_url: /games/banner/warcraft-ii-tides-of-darkness.jpg
+icon_url: /games/icon/warcraft-ii-tides-of-darkness.png
+is_public: true
+updated: '2019-04-03T22:16:37.099192Z'
+steamid: null
+gogslug: warcraft_2_battlenet_edition
+humblestoreid: ''

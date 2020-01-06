@@ -1,0 +1,40 @@
+id: 6062
+game_id: 1179
+game_slug: resident-evil-6-biohazard-6
+name: Resident Evil 6 / Biohazard 6
+year: 2013
+user: soredake
+runner: winesteam
+slug: resident-evil-6-biohazard-6-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-10-22T17:27:42.505000Z'
+updated_at: '2019-12-28T14:44:24.241038Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 221040
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: lutris-4.20-x86_64
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Windows Media Player 10
+      arch: win32
+      app: wmp10
+      silent: true
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 221040
+    arch: win32

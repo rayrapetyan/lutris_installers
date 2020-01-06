@@ -1,0 +1,17 @@
+name: 'J.U.L.I.A.: Among the Stars'
+slug: julia-among-the-stars
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Point-and-click
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/julia-among-the-stars.jpg
+icon_url: /games/icon/julia-among-the-stars.png
+is_public: true
+updated: '2019-01-23T08:30:01.408469Z'
+steamid: 257690
+gogslug: julia_among_the_stars
+humblestoreid: ''

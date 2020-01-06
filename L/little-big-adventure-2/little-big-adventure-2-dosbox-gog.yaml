@@ -1,0 +1,43 @@
+id: 11540
+game_id: 1808
+game_slug: little-big-adventure-2
+name: Little Big Adventure 2
+year: 1997
+user: edwinfoss
+runner: dosbox
+slug: little-big-adventure-2-dosbox-gog
+version: Dosbox GOG
+description: null
+notes: ''
+created_at: '2019-01-10T12:49:55.884000Z'
+updated_at: '2019-04-26T04:44:15.143566Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 398000
+gogid: 1207658974
+gogslug: little_big_adventure_2
+humblestoreid: ''
+script:
+  main_file: $GAMEDIR/drive_c/GOG Games/Little Big Adventure 2/dosboxLBA2_lutris.conf
+  installer:
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES /NOCANCEL
+      name: wine.wineexec
+  - write_config:
+      section: sdl
+      key: fullresolution
+      value: desktop
+      file: $GAMEDIR/drive_c/GOG Games/Little Big Adventure 2/dosboxLBA2.conf
+  - execute:
+      command: echo -e "[IPX]\nEnable=0\nConnection=0\nipx=false\n\n\n[autoexec]\n#
+        Lines in this section will be run at startup.\n@echo off\nmount C "."\nimgmount
+        d "./LBA2.DAT" -t iso\nc:\ncls\nmixer cdaudio 50:50\nLBA2.EXE\nexit" > '$GAMEDIR/drive_c/GOG
+        Games/Little Big Adventure 2/dosboxLBA2_lutris.conf'
+  files:
+  - game: N/A:Select the installer downloaded from GOG.com
+  game:
+    config_file: $GAMEDIR/drive_c/GOG Games/Little Big Adventure 2/dosboxLBA2.conf

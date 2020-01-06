@@ -1,0 +1,33 @@
+id: 2834
+game_id: 7822
+game_slug: ponyvania-order-of-equestria
+name: 'Ponyvania: Order of Equestria'
+year: null
+user: djazz
+runner: linux
+slug: ponyvania-order-of-equestria-16
+version: '16'
+description: "See Read Me.txt for more info about how to play.\r\nPress F4 to toggle\
+  \ fullscreen/view modes."
+notes: ''
+created_at: '2016-10-03T16:59:23.618000Z'
+updated_at: '2017-04-27T08:53:18.631685Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Ponyvania
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: game
+  - chmodx: $GAMEDIR/Ponyvania
+  files:
+  - game:
+      filename: ponyvania.tar.gz
+      url: http://djazz.se/nas/games/?dl=ponyvania

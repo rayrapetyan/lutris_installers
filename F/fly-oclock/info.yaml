@@ -1,0 +1,15 @@
+name: Fly O'Clock
+slug: fly-oclock
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Casual
+aliases: []
+banner_url: /games/banner/fly-oclock.jpg
+icon_url: /games/icon/fly-oclock.png
+is_public: true
+updated: '2019-01-23T08:29:32.866968Z'
+steamid: 490820
+gogslug: ''
+humblestoreid: ''

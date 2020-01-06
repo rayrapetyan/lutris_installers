@@ -1,0 +1,26 @@
+id: 10559
+game_id: 1682
+game_slug: 1000-amps
+name: 1000 Amps
+year: 2012
+user: Jozua
+runner: steam
+slug: 1000-amps-steam-proton
+version: Steam (Proton)
+description: Installs and runs through the native Steam Client
+notes: "Enable Steam Play (if not already done):\r\nSteam > Steam > Settings > Account\
+  \ > Beta Participation > Change > Steam Beta Update > Restart\r\nSteam > Steam >\
+  \ Settings > Steam Play > Check all boxes > Restart\r\nThen run this installer"
+created_at: '2018-10-19T01:14:01.558278Z'
+updated_at: '2018-10-19T07:46:41.563451Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 205690
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 205690

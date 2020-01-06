@@ -1,0 +1,16 @@
+name: Assetto Corsa Competizione
+slug: assetto-corsa-competizione
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Racing
+- name: Simulation
+aliases: []
+banner_url: /games/banner/assetto-corsa-competizione.jpg
+icon_url: /games/icon/assetto-corsa-competizione.png
+is_public: true
+updated: '2019-01-23T08:28:27.563859Z'
+steamid: 805550
+gogslug: ''
+humblestoreid: ''

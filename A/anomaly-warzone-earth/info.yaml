@@ -1,0 +1,16 @@
+name: Anomaly Warzone Earth
+slug: anomaly-warzone-earth
+year: 2011
+platforms:
+- name: Linux
+genres:
+- name: Real-time strategy
+- name: Tower defense
+aliases: []
+banner_url: /games/banner/anomaly-warzone-earth.jpg
+icon_url: /games/icon/anomaly-warzone-earth.png
+is_public: true
+updated: '2019-01-23T08:28:22.600409Z'
+steamid: 91200
+gogslug: anomaly_warzone_earth
+humblestoreid: ''

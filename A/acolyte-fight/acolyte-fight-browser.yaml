@@ -1,0 +1,23 @@
+id: 15920
+game_id: 29598
+game_slug: acolyte-fight
+name: Acolyte Fight!
+year: 2018
+user: Alzarath
+runner: browser
+slug: acolyte-fight-browser
+version: Browser
+description: null
+notes: ''
+created_at: '2019-10-02T22:13:18.213463Z'
+updated_at: '2019-10-02T22:13:18.213506Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://acolytefight.io

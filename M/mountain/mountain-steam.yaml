@@ -1,0 +1,24 @@
+id: 674
+game_id: 2838
+game_slug: mountain
+name: Mountain
+year: 2014
+user: Xodetaetl
+runner: steam
+slug: mountain-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T12:00:53.848000Z'
+updated_at: '2014-09-15T13:26:55.411000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 313340
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 313340

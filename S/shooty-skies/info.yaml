@@ -1,0 +1,16 @@
+name: Shooty Skies
+slug: shooty-skies
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Arcade
+aliases: []
+banner_url: /games/banner/shooty-skies.jpg
+icon_url: /games/icon/shooty-skies.png
+is_public: true
+updated: '2019-01-23T08:31:12.546465Z'
+steamid: 702810
+gogslug: ''
+humblestoreid: ''

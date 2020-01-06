@@ -1,0 +1,24 @@
+id: 11131
+game_id: 4369
+game_slug: tera
+name: TERA
+year: 2015
+user: SamuelLira99
+runner: steam
+slug: tera-steam-proton
+version: Steam Proton
+description: This installer will try to install TERA under SteamPlay
+notes: Make sure that SteamPlay is enabled for all titles on your Steam client.
+created_at: '2018-12-10T13:32:54.611000Z'
+updated_at: '2019-05-19T06:37:41.129961Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 323370
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 323370

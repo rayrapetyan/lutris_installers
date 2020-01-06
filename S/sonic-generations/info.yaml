@@ -1,0 +1,16 @@
+name: Sonic Generations
+slug: sonic-generations
+year: 2011
+platforms:
+- name: Nintendo 3DS
+- name: Windows
+genres:
+- name: Platformer
+aliases: []
+banner_url: /games/banner/sonic-generations.jpg
+icon_url: /games/icon/sonic-generations.png
+is_public: true
+updated: '2019-06-01T06:17:51.678517Z'
+steamid: 71340
+gogslug: ''
+humblestoreid: ''

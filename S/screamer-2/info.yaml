@@ -1,0 +1,17 @@
+name: Screamer 2
+slug: screamer-2
+year: 1996
+platforms:
+- name: MS-DOS
+- name: Windows
+genres:
+- name: Arcade
+- name: Racing
+aliases: []
+banner_url: /games/banner/screamer-2.jpg
+icon_url: /games/icon/screamer-2.png
+is_public: true
+updated: '2019-10-23T23:48:44.796340Z'
+steamid: 698620
+gogslug: screamer_2
+humblestoreid: ''

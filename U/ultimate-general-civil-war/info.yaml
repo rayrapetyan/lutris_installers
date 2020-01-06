@@ -1,0 +1,18 @@
+name: 'Ultimate General: Civil War'
+slug: ultimate-general-civil-war
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Real-time strategy
+- name: Simulation
+- name: Strategy
+- name: Wargame
+aliases: []
+banner_url: /games/banner/ultimate-general-civil-war.jpg
+icon_url: /games/icon/ultimate-general-civil-war.png
+is_public: true
+updated: '2019-01-23T08:31:58.342474Z'
+steamid: 502520
+gogslug: ultimate_general_civil_war
+humblestoreid: ''

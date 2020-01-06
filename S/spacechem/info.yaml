@@ -1,0 +1,15 @@
+name: SpaceChem
+slug: spacechem
+year: 2011
+platforms:
+- name: Linux
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/spacechem.jpg
+icon_url: /games/icon/spacechem.png
+is_public: true
+updated: '2019-01-23T08:31:19.834690Z'
+steamid: 92800
+gogslug: spacechem
+humblestoreid: ''

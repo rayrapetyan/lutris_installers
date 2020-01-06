@@ -1,0 +1,33 @@
+id: 4214
+game_id: 11617
+game_slug: journey-the-heart-of-gaia
+name: 'Journey: The Heart of Gaia'
+year: 2012
+user: FakeShemp
+runner: wine
+slug: journey-the-heart-of-gaia-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-08T13:35:16.046000Z'
+updated_at: '2018-05-19T03:41:50.827604Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Waterlily Games/Journey - The Heart of Gaia/Journey_TheHeartofGaia.exe
+    arch: win32

@@ -1,0 +1,24 @@
+id: 14071
+game_id: 13573
+game_slug: neko-nin-exheart
+name: NEKO-NIN exHeart
+year: null
+user: kimchitea
+runner: steam
+slug: neko-nin-exheart-steam-proton-demo
+version: Steam Proton Demo
+description: null
+notes: ''
+created_at: '2019-06-13T19:10:01.619000Z'
+updated_at: '2019-06-17T02:45:01.848670Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 407310
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 616730

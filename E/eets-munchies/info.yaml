@@ -1,0 +1,15 @@
+name: Eets Munchies
+slug: eets-munchies
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/eets-munchies.jpg
+icon_url: /games/icon/eets-munchies.png
+is_public: true
+updated: '2019-01-23T08:29:21.613441Z'
+steamid: 214550
+gogslug: ''
+humblestoreid: ''

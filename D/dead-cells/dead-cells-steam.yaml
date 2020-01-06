@@ -1,0 +1,24 @@
+id: 6772
+game_id: 11324
+game_slug: dead-cells
+name: Dead Cells
+year: 2017
+user: NuSuey
+runner: steam
+slug: dead-cells-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-23T19:24:21.248000Z'
+updated_at: '2018-06-26T03:42:07.918901Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 588650
+gogid: 1237807960
+gogslug: dead_cells
+humblestoreid: ''
+script:
+  game:
+    appid: 588650

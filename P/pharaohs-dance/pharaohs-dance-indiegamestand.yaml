@@ -1,0 +1,29 @@
+id: 4379
+game_id: 11748
+game_slug: pharaohs-dance
+name: "Pharaoh\u2019s Dance"
+year: null
+user: FakeShemp
+runner: linux
+slug: pharaohs-dance-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-06-15T20:41:38.193873Z'
+updated_at: '2017-06-16T17:09:27.188532Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Pharaoh's Dance Demo.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Pharaoh's Dance Demo.x86
+  files:
+  - file1: N/A:Please select the IndieGameStand archive

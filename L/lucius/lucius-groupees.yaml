@@ -1,0 +1,37 @@
+id: 6091
+game_id: 806
+game_slug: lucius
+name: Lucius
+year: null
+user: FakeShemp
+runner: wine
+slug: lucius-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-10-23T19:03:45.856508Z'
+updated_at: '2018-05-19T03:41:48.301616Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 218640
+gogid: 1207659128
+gogslug: lucius
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/Lucius_setup.exe
+      prefix: $GAMEDIR
+      args: /sp- /verysilent /norestart /suppressmsgboxes /nogui
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Lucius/Lucius.exe
+    arch: win32

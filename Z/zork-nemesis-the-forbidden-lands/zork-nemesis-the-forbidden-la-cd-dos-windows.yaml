@@ -1,0 +1,56 @@
+id: 16863
+game_id: 11637
+game_slug: zork-nemesis-the-forbidden-lands
+name: 'Zork Nemesis: The Forbidden Lands'
+year: 1996
+user: legluondunet
+runner: scummvm
+slug: zork-nemesis-the-forbidden-la-cd-dos-windows
+version: CD DOS/ Windows
+description: "This script will install \"Zork Nemesis: The forbidden Lands\" CD DOS/Windows\
+  \ edition for ScummVM.\r\nBig thanks to people who gave their time to permit us\
+  \ playing this game in the best conditions."
+notes: "- You will need the 3 CD only during install\r\n- Please report issue concerning\
+  \ this script on my Github page:\r\nhttps://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2019-11-16T22:51:40.825000Z'
+updated_at: '2019-11-17T00:30:46.232587Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: 571060
+gogid: 1207658913
+gogslug: zork_nemesis_the_forbidden_lands
+humblestoreid: ''
+script:
+  custom-name: Zork Nemesis - The forbidden Lands - CD - ScummVM
+  scummvm:
+    fullscreen: true
+  installer:
+  - insert-disc:
+      requires: zsplash.exe
+      description: Please insert disc 1
+  - merge:
+      src: $DISC
+      dst: $GAMEDIR/ZNCD1
+  - insert-disc:
+      requires: zassets/conserv/vb3ea31c.avi
+      description: Please insert disc 2
+  - merge:
+      src: $DISC
+      dst: $GAMEDIR/ZNCD2
+  - insert-disc:
+      requires: zassets/asylum/ab4fa11c.avi
+      description: Please insert disc 3
+  - merge:
+      src: $DISC
+      dst: $GAMEDIR/ZNCD3
+  - chmodx: script
+  - execute:
+      file: script
+  files:
+  - script: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Zork%20Nemesis/clean.sh
+  game:
+    game_id: znemesis
+    path: $GAMEDIR
+    subtitles: true

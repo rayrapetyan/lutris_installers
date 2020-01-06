@@ -1,0 +1,17 @@
+name: 'Crazy Soccer: Football Stars'
+slug: crazy-soccer-football-stars
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Sports
+- name: Strategy
+aliases: []
+banner_url: /games/banner/crazy-soccer-football-stars.jpg
+icon_url: /games/icon/crazy-soccer-football-stars.png
+is_public: true
+updated: '2019-01-23T08:29:00.208701Z'
+steamid: 735550
+gogslug: ''
+humblestoreid: ''

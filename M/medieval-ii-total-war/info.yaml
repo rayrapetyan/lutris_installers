@@ -1,0 +1,16 @@
+name: 'Medieval II: Total War'
+slug: medieval-ii-total-war
+year: 2006
+platforms:
+- name: Linux
+genres:
+- name: Real-time tactics
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/medieval-ii-total-war.jpg
+icon_url: /games/icon/medieval-ii-total-war.png
+is_public: true
+updated: '2019-01-23T08:30:20.806231Z'
+steamid: 4700
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,69 @@
+id: 10300
+game_id: 21868
+game_slug: need-for-speed-most-wanted-2012
+name: 'Need for Speed: Most Wanted (2012)'
+year: 2012
+user: alvarlagerlof
+runner: wine
+slug: need-for-speed-most-wanted-20-origin
+version: Origin
+description: 'Only sets up Origin and DXVK you''ll need to download Need for Speed:
+  Most Wanted manually.'
+notes: "Please read before installing: <a href=\"https://github.com/lutris/lutris/wiki/Game:-Origin\"\
+  >https://github.com/lutris/lutris/wiki/Game:-Origin</a>\r\n\r\n- If Origin gets\
+  \ stuck on \\\"Finalizing\\\", restart the app through Lutris.\r\n\r\n- If there\
+  \ is no sound when launched try clicking the mouse once."
+created_at: '2018-09-22T23:31:23.104000Z'
+updated_at: '2019-04-01T22:43:58.513166Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: nocrashdialog
+      arch: win64
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Installing Origin... Login window will pop-up and close.
+      arch: win64
+      args: /silent
+      exclude_processes: Origin.exe OriginClientService.exe QtWebEngineProcess.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - chmodx: updater
+  - merge:
+      src: updater
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Origin
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Origin/Origin.exe
+    arch: win64
+  system:
+    env:
+      DXVK_HUD: 0
+    pulse_latency: true
+  wine:
+    version: tkg-protonified-3.21-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      nvapi,nvapi64: disabled
+      xaudio2_7: native,builtin
+  files:
+  - setup: https://origin-a.akamaihd.net/Origin-Client-Download/origin/live/OriginThinSetup.exe
+  - updater: https://raw.githubusercontent.com/DrDoctor13/wine-origin-updater/master/updateorigin.sh

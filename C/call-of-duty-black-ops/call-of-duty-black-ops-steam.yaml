@@ -1,0 +1,35 @@
+id: 2196
+game_id: 603
+game_slug: call-of-duty-black-ops
+name: 'Call of Duty: Black Ops'
+year: 2010
+user: strider
+runner: winesteam
+slug: call-of-duty-black-ops-steam
+version: Steam
+description: You can use the latest Wine release (currently TKG's Protonified 4.6
+  release) to play this, I suspect nothing will bring change to this. For some reason
+  though (no matter what I try) the performance is garbage (can easily pump 100+FPS
+  on max on Windows, but it struggles on WineSteam).
+notes: "Manual edit required: \"config.cfg\" in the game's `players` folder if a blur\
+  \ effect envelopes the screen on ADS. Look the line: `seta r_dof_enable`. Set the\
+  \ value to `\"0\"`.\r\n\r\nOnce in-game you might run into texture and model issues\
+  \ if you enable AA (Antialiasing). Keep it off if you experience this issue."
+created_at: '2016-06-24T17:46:22.704000Z'
+updated_at: '2019-09-09T01:57:17.858352Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 42700
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      app: xact
+      name: winetricks
+  game:
+    appid: 42700

@@ -1,0 +1,19 @@
+name: Planet Coaster
+slug: planet-coaster
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Sandbox
+- name: Simulation
+- name: Strategy
+aliases: []
+banner_url: /games/banner/planet-coaster.jpg
+icon_url: /games/icon/planet-coaster.png
+is_public: true
+updated: '2019-01-23T08:30:45.972469Z'
+steamid: 493340
+gogslug: ''
+humblestoreid: ''

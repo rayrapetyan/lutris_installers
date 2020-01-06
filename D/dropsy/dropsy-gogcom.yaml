@@ -1,0 +1,34 @@
+id: 4360
+game_id: 5764
+game_slug: dropsy
+name: Dropsy
+year: 2015
+user: robotkinz
+runner: linux
+slug: dropsy-gogcom
+version: GOG.com
+description: null
+notes: ''
+created_at: '2017-06-15T04:21:17.929000Z'
+updated_at: '2019-04-20T21:36:49.319326Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 274350
+gogid: 1441869560
+gogslug: dropsy
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

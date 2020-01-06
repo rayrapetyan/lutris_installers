@@ -1,0 +1,109 @@
+id: 6654
+game_id: 15108
+game_slug: an-elder-scrolls-legend-battlespire
+name: 'An Elder Scrolls Legend: Battlespire'
+year: 1997
+user: FakeShemp
+runner: dosbox
+slug: an-elder-scrolls-legend-battl-gog
+version: GOG
+description: Uses the files from the Windows installer from GOG.
+notes: "- Current version of Lutris DOSBOX runner does not seem to support compressed\
+  \ audio.  For workaround, select 1 in the launcher 'Battlespire Game (no music fix).\
+  \  Game will work without crashing when a character speaks, but no music will play.\r\
+  \n\r\n- To get music working:\r\n1 - Install DOSBOX - (on Mint 19: sudo apt install\
+  \ dosbox)\r\n2 - Backup the Lutris DOSBOX runner (on Mint 19: mv ~/.local/share/lutris/runners/dosbox/bin/dosbox\
+  \ ~/.local/share/lutris/runners/dosbox/bin/dosbox.bak)\r\n3 - Symlink installed\
+  \ DOSBOX binary to Lutris local directory (on Mint 19: ln -s /usr/bin/dosbox ~/.local/share/lutris/runners/dosbox/bin/)\r\
+  \n4 - Run Battlespire in Lutris and select 2 in the launcher 'Battlespire Game (with\
+  \ music - currently not working).\r\n\r\n- I cannot get fullscreen working with\
+  \ this game."
+created_at: '2017-12-13T19:55:14.740000Z'
+updated_at: '2018-11-05T07:04:02.564911Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1440163341
+gogslug: an_elder_scrolls_legend_battlespire
+humblestoreid: ''
+script:
+  main_file: DOSBOX/dosbox_battlespire_single.conf
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file2
+  - execute:
+      args: -d "$CACHE" "$file1"
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/app
+      dst: $GAMEDIR
+  - merge:
+      src: $GAMEDIR/dosbox_battlespire.conf
+      dst: $GAMEDIR/DOSBOX
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/DOSBOX/dosbox_battlespire.conf
+  - write_config:
+      section: sdl
+      key: output
+      value: overlay
+      file: $GAMEDIR/DOSBOX/dosbox_battlespire.conf
+  - write_config:
+      section: sdl
+      key: fullscreen
+      value: false
+      file: $GAMEDIR/DOSBOX/dosbox_battlespire.conf
+  - write_config:
+      section: sdl
+      key: fullresolution
+      value: 1920x1080
+      file: $GAMEDIR/DOSBOX/dosbox_battlespire.conf
+  - write_config:
+      section: midi
+      key: midiconfig
+      value: '128:0'
+      file: $GAMEDIR/DOSBOX/dosbox_battlespire.conf
+  - write_file:
+      content: "[ipx]\n# ipx: Enable ipx over UDP/IP emulation.\nipx=false\n\n[autoexec]\n\
+        \ @echo off\n cls\n ECHO  -----------------------------------------------------------\n\
+        \ ECHO  An Elder Scrolls Legend: Battlespire Lutris DOSBox Launcher\n ECHO\
+        \  -----------------------------------------------------------\n ECHO   1)\
+        \ Battlespire Game (no music fix)\n ECHO   2) Battlespire Game (with music\
+        \ - currently not working)\n ECHO   3) Battlespire Settings\n ECHO   4) Battlespire\
+        \ Client\n ECHO   5) Battlespire Server\n ECHO  -----------------------------------------------------------\n\
+        \ ECHO   6) exit program\n ECHO  -----------------------------------------------------------\n\
+        \n choice /c123456 /s Which game do you want to run? 1-6: /n\n if errorlevel\
+        \ 6 goto exit\n if errorlevel 5 goto batserv\n if errorlevel 4 goto batclient\n\
+        \ if errorlevel 3 goto batsettings\n if errorlevel 2 goto battle\n if errorlevel\
+        \ 1 goto batfix\n\n :batfix\n cls\n mount c \"..\"\n imgmount d \"../gamenomus.ins\"\
+        \ -t iso\n c:\n spire.bat\n exit\n\n :battle\n cls\n mount c \"..\"\n imgmount\
+        \ d \"../gamelinuxpath.ins\" -t iso\n c:\n spire.bat\n exit\n\n :batsettings\n\
+        \ cls\n mount c \"..\"\n imgmount d \"../gamenomus.ins\" -t iso\n c:\n INSTALL.EXE\n\
+        \ exit\n\n :batclient\n cls\n mount c \"..\"\n imgmount d \"../gamenomus.ins\"\
+        \ -t iso\n c:\n ipxnet connect 127.0.0.1 \n spire.bat\n exit\n\n :batserv\n\
+        \ cls\n mount c \"..\"\n imgmount d \"../gamenomus.ins\" -t iso\n c:\n ipxnet\
+        \ startserver\n spire.bat\n exit\n\n :exit\n exit"
+      file: $GAMEDIR/DOSBOX/dosbox_battlespire_single.conf
+  - write_file:
+      content: "FILE \"game.gog\" BINARY\n  TRACK 01 MODE2/2352\n    INDEX 01 00:00:00"
+      file: $GAMEDIR/gamenomus.ins
+  - write_file:
+      content: "FILE \"game.gog\" BINARY\n  TRACK 01 MODE2/2352\n    INDEX 01 00:00:00\n\
+        FILE \"MUSIC/Track02.ogg\" MP3\t\n  TRACK 02 AUDIO\n    INDEX 01 00:00:00\n\
+        FILE \"MUSIC/Track03.ogg\" MP3\n  TRACK 03 AUDIO\n    INDEX 01 00:00:00\n\
+        FILE \"MUSIC/Track04.ogg\" MP3\n  TRACK 04 AUDIO\n    INDEX 01 00:00:00\n\
+        FILE \"MUSIC/Track05.ogg\" MP3\n  TRACK 05 AUDIO\n    INDEX 01 00:00:00\n\
+        FILE \"MUSIC/Track06.ogg\" MP3\n  TRACK 06 AUDIO\n    INDEX 01 00:00:00\n\
+        FILE \"MUSIC/Track07.ogg\" MP3\n  TRACK 07 AUDIO\n    INDEX 01 00:00:00\n\
+        FILE \"MUSIC/Track08.ogg\" MP3\n  TRACK 08 AUDIO\n    INDEX 01 00:00:00"
+      file: $GAMEDIR/gamelinuxpath.ins
+  files:
+  - file1: N/A:Please select the GOG installer
+  - file2: https://lutris.net/files/tools/innoextract.tar.gz
+  game:
+    config_file: $GAMEDIR/DOSBOX/dosbox_battlespire.conf

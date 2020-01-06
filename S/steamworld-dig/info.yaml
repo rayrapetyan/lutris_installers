@@ -1,0 +1,15 @@
+name: SteamWorld Dig
+slug: steamworld-dig
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/steamworld-dig.jpg
+icon_url: /games/icon/steamworld-dig.png
+is_public: true
+updated: '2019-01-23T08:31:26.548762Z'
+steamid: 252410
+gogslug: steamworld_dig
+humblestoreid: steamworld-dig

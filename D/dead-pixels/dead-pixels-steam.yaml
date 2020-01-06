@@ -1,0 +1,24 @@
+id: 8215
+game_id: 483
+game_slug: dead-pixels
+name: Dead Pixels
+year: null
+user: soredake
+runner: winesteam
+slug: dead-pixels-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T07:13:59.736948Z'
+updated_at: '2018-05-11T22:46:58.326911Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 222980
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 222980

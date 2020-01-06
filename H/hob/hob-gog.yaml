@@ -1,0 +1,32 @@
+id: 10596
+game_id: 13486
+game_slug: hob
+name: Hob
+year: null
+user: Siarkowy
+runner: wine
+slug: hob-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2018-10-21T19:32:26.693000Z'
+updated_at: '2019-01-22T08:34:50.114504Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 404680
+gogid: 1300281766
+gogslug: hob
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the GOG installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Hob/HobLauncher.exe

@@ -1,0 +1,46 @@
+id: 17310
+game_id: 19526
+game_slug: the-city-of-lost-children
+name: The City of Lost Children
+year: 1997
+user: legluondunet
+runner: dosbox
+slug: the-city-of-lost-children-cd
+version: CD
+description: "This script will install \"The City of Lost Children\" CD edition for\
+  \ DOSBox.\r\nDuring install please let all options by default.\r\nBig thanks to\
+  \ people who gave their time to permit us playing this game in the best conditions."
+notes: "- You will need the CD only one time during install\r\n- Please report issue\
+  \ concerning this script on my Github page:\r\nhttps://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2019-12-13T06:09:51.493000Z'
+updated_at: '2019-12-13T17:17:57.930173Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  custom-name: The City of Lost Children - CD - DOSBox
+  installer:
+  - insert-disc:
+      requires: city.ico
+      description: Please insert disc 1
+  - extract:
+      src: cdrtools
+      dst: $GAMEDIR
+  - chmodx: script
+  - execute:
+      args: cite
+      file: script
+  - copy:
+      src: conf
+      dst: $GAMEDIR
+  files:
+  - cdrtools: https://github.com/legluondunet/mlls-tools/raw/master/cdrtools/cdrtools.zip
+  - script: https://github.com/legluondunet/mlls-tools/raw/master/scripts/copycd.sh
+  - conf: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/The%20City%20of%20Lost%20Children/tcolc_dosbox.conf
+  game:
+    main_file: $GAMEDIR/tcolc_dosbox.conf

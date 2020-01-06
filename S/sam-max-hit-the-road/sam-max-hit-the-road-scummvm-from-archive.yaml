@@ -1,0 +1,32 @@
+id: 52
+game_id: 66
+game_slug: sam-max-hit-the-road
+name: Sam & Max Hit the Road
+year: 1993
+user: strider
+runner: scummvm
+slug: sam-max-hit-the-road-scummvm-from-archive
+version: ScummVM from archive
+description: ''
+notes: ''
+created_at: '2013-07-22T00:12:07Z'
+updated_at: '2014-11-17T10:12:41.402000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 355170
+gogid: 1207666303
+gogslug: sam_max_hit_the_road
+humblestoreid: ''
+script:
+  scummvm:
+    aspect: true
+  installer:
+  - extract:
+      file: samnmax-archive
+  files:
+  - samnmax-archive: N/A:Select the archive containing the game's files for ScummVM
+  game:
+    game_id: samnmax
+    path: $GAMEDIR

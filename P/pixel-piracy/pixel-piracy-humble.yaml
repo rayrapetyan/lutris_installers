@@ -1,0 +1,32 @@
+id: 3816
+game_id: 2139
+game_slug: pixel-piracy
+name: Pixel Piracy
+year: null
+user: FakeShemp
+runner: linux
+slug: pixel-piracy-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-23T09:54:26.156777Z'
+updated_at: '2017-05-27T23:37:27.826452Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 264140
+gogid: 1207667073
+gogslug: pixel_piracy
+humblestoreid: ''
+script:
+  exe: linux.x86
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/Linux
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble archive

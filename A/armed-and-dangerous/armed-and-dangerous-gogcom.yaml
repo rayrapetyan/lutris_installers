@@ -1,0 +1,36 @@
+id: 6657
+game_id: 8598
+game_slug: armed-and-dangerous
+name: Armed and Dangerous
+year: null
+user: robotkinz
+runner: wine
+slug: armed-and-dangerous-gogcom
+version: GOG.com
+description: null
+notes: ''
+created_at: '2017-12-14T04:44:31.906000Z'
+updated_at: '2017-12-21T16:22:30.950108Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 6090
+gogid: 1440410681
+gogslug: armed_and_dangerous
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating WINE prefix
+      name: create_prefix
+  - task:
+      executable: installer
+      description: Running Setup
+      name: wineexec
+  files:
+  - installer: N/A:Select the GOG Installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Armed and Dangerous/game.exe

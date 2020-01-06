@@ -1,0 +1,82 @@
+id: 10755
+game_id: 591
+game_slug: mass-effect
+name: Mass Effect
+year: 2007
+user: meklahi
+runner: wine
+slug: mass-effect-origin
+version: Origin
+description: Only sets up Origin you'll need to download Mass Effect manually from
+  the Origin Client.
+notes: "If you have issues installing DLC try these links  - <a href=\"https://help.ea.com/en/help/origin/origin/download-dlc-for-classic-origin-games/#masseffect\"\
+  >https://help.ea.com/en/help/origin/origin/download-dlc-for-classic-origin-games/#masseffect</a>\r\
+  \n\r\nPlease read before installing: <a href=\"https://github.com/lutris/lutris/wiki/Game:-Origin\"\
+  >https://github.com/lutris/lutris/wiki/Game:-Origin</a>"
+created_at: '2018-11-03T16:16:31.560000Z'
+updated_at: '2019-12-28T18:24:30.160332Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 17460
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - execute:
+      command: mkdir "$GAMEDIR/nv-shaders"
+  - write_file:
+      content: dxgi.nvapiHack = False
+      file: $GAMEDIR/dxvk.conf
+  - chmodx: updater
+  - merge:
+      src: updater
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Origin
+  - task:
+      prefix: $GAMEDIR
+      app: arial d3dcompiler_43 d3dcompiler_47 d3dx9 win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: client
+      prefix: $GAMEDIR
+      description: Installing Origin... Login window will pop-up and close.
+      arch: win64
+      args: /silent
+      exclude_processes: Origin.exe OriginClientService.exe OriginWebHelperService.exe
+        QtWebEngineProcess.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Origin/Origin.exe
+    arch: win64
+  system:
+    env:
+      STAGING_SHARED_MEMORY: 0
+      DXVK_CONFIG_FILE: $GAMEDIR/dxvk.conf
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR/nv-shaders
+      WINE_LARGE_ADDRESS_AWARE: 1
+    manual_command: $GAMEDIR/drive_c/Program Files (x86)/Origin/updateorigin.sh
+    exclude_processes: QtWebEngineProcess.exe ActivationUI.exe OriginWebHelperService.exe
+  wine:
+    version: lutris-jedi-4.20-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      nvapi,nvapi64: disabled
+      openal32: builtin
+  files:
+  - updater: https://lutris.nyc3.cdn.digitaloceanspaces.com/games/origin/updateorigin.sh
+  - client: https://download.dm.origin.com/origin/live/OriginThinSetup.exe

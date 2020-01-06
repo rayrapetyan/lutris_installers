@@ -1,0 +1,16 @@
+name: 'Raptor: Call of The Shadows'
+slug: raptor-call-of-the-shadows
+year: 2010
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/raptor-call-of-the-shadows.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:54.676665Z'
+steamid: 336060
+gogslug: raptor_call_of_the_shadows_2010_edition
+humblestoreid: raptor-call-of-the-shadows-2010-edition

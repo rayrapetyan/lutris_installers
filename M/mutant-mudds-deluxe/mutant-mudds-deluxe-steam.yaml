@@ -1,0 +1,24 @@
+id: 1191
+game_id: 2497
+game_slug: mutant-mudds-deluxe
+name: Mutant Mudds Deluxe
+year: null
+user: RobLoach
+runner: winesteam
+slug: mutant-mudds-deluxe-steam
+version: steam
+description: Steam for Windows
+notes: 'Wine test results at: https://appdb.winehq.org/objectManager.php?sClass=application&iId=16496'
+created_at: '2014-12-03T13:06:41.099000Z'
+updated_at: '2016-01-05T18:29:40.976531Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 247370
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 247370

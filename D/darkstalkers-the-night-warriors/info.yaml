@@ -1,0 +1,16 @@
+name: 'Darkstalkers: The Night Warriors'
+slug: darkstalkers-the-night-warriors
+year: 1994
+platforms:
+- name: Arcade
+- name: Sony PlayStation
+genres:
+- name: Fighting
+aliases: []
+banner_url: /games/banner/darkstalkers-the-night-warriors.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-08T11:40:49.851971Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

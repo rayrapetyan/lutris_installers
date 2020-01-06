@@ -1,0 +1,24 @@
+id: 264
+game_id: 834
+game_slug: ibomber-defense-pacific
+name: iBomber Defense Pacific
+year: 2012
+user: strider
+runner: steam
+slug: ibomber-defense-pacific-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-19T23:56:20.268000Z'
+updated_at: '2013-12-19T23:56:20.268000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 206690
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 206690

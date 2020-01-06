@@ -1,0 +1,88 @@
+id: 13
+game_id: 20
+game_slug: serious-sam-the-first-encounter
+name: 'Serious Sam: The First Encounter'
+year: 2001
+user: strider
+runner: linux
+slug: serious-sam-the-first-encounte-humble-bundle
+version: humble-bundle
+description: Native version using assets from the Humble Bundle windows version
+notes: ''
+created_at: '2013-05-26T22:18:32Z'
+updated_at: '2014-09-21T23:58:47.432000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 41050
+gogid: 1207658876
+gogslug: serious_sam_the_first_encounter
+humblestoreid: serious-sam-hd-the-first-encounter
+script:
+  exe: Bin/ssamtfe
+  installer:
+  - extract:
+      dst: $CACHE/tmp/serious-sam-data
+      file: data
+  - move:
+      src: $CACHE/tmp/serious-sam-data/Install/1_00c.gro
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/serious-sam-data/Install/1_00c_Logo.gro
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/serious-sam-data/Install/1_00c_scripts.gro
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/serious-sam-data/Install/1_00_ExtraTools.gro
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/serious-sam-data/Install/1_00_music.gro
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/serious-sam-data/Install/1_04_patch.gro
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/serious-sam-data/Install/Controls
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/serious-sam-data/Install/Data
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/serious-sam-data/Install/Demos
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/serious-sam-data/Install/Help
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/serious-sam-data/Install/Levels
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/serious-sam-data/Install/Mods
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/serious-sam-data/Install/Players
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/serious-sam-data/Install/SaveGame
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/serious-sam-data/Install/Scripts
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/tmp/serious-sam-data/Install/VirtualTrees
+      dst: $GAMEDIR
+  - execute:
+      args: --noexec --keep --target $CACHE/tmp/ssam
+      file: installer
+  - extract:
+      nomerge: true
+      dst: $GAMEDIR
+      file: $CACHE/tmp/ssam/bins.tar.bz2
+  - extract:
+      dst: $GAMEDIR
+      file: $CACHE/tmp/ssam/SeriousSamPatch105_USA_linux.tar.bz2
+  files:
+  - installer: https://lutris.net/files/games/serious-sam/serious.sam.tfe_1.05beta3-english-2.run
+  - data: N/A:Select the ZIP file for the Windows version from http://humblebundle.com

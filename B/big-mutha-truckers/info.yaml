@@ -1,0 +1,18 @@
+name: Big Mutha Truckers
+slug: big-mutha-truckers
+year: 2002
+platforms:
+- name: GameCube
+- name: Nintendo DS
+- name: Sony PlayStation 2
+- name: Windows
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/big-mutha-truckers.jpg
+icon_url: null
+is_public: true
+updated: '2019-03-29T16:56:50.852515Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

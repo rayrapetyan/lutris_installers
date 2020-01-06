@@ -1,0 +1,43 @@
+id: 15544
+game_id: 21354
+game_slug: the-legend-of-kyrandia-book-two
+name: 'The Legend of Kyrandia: Book Two'
+year: 1993
+user: appoloin
+runner: scummvm
+slug: the-legend-of-kyrandia-book-t-ms-dos
+version: MS-DOS
+description: null
+notes: ''
+created_at: '2019-09-14T15:26:36.722906Z'
+updated_at: '2019-09-14T15:26:36.722929Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - write_file:
+      content: '#!/bin/bash
+
+        src=$1
+
+        dst=$2
+
+        src_path=$(echo "$1" | sed -r "s/(.+)\/.+/\1/")
+
+        cp -avr "$src_path/."  "$dst"'
+      file: $CACHE/bulkcopy.sh
+  - chmodx: $CACHE/bulkcopy.sh
+  - execute:
+      args: $game $GAMEDIR
+      file: $CACHE/bulkcopy.sh
+  files:
+  - game: N/A:Select the file HOF.EXE
+  game:
+    game_id: kyra2
+    path: $GAMEDIR

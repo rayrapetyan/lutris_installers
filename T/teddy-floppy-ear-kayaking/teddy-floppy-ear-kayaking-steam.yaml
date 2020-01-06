@@ -1,0 +1,24 @@
+id: 1920
+game_id: 4923
+game_slug: teddy-floppy-ear-kayaking
+name: Teddy Floppy Ear - Kayaking
+year: null
+user: WildCoder
+runner: steam
+slug: teddy-floppy-ear-kayaking-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-01-20T20:40:06.782351Z'
+updated_at: '2016-01-27T15:31:30.124863Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 340310
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 340310

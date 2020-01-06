@@ -1,0 +1,24 @@
+id: 14519
+game_id: 5897
+game_slug: call-to-arms
+name: Call to Arms
+year: null
+user: artur453
+runner: steam
+slug: call-to-arms-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-07-10T22:19:28.126000Z'
+updated_at: '2019-10-18T08:06:16.157429Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 302670
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 302670

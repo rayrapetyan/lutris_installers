@@ -1,0 +1,28 @@
+id: 5475
+game_id: 1097
+game_slug: zigfrak
+name: Zigfrak
+year: null
+user: FakeShemp
+runner: linux
+slug: zigfrak-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-22T15:00:36.168531Z'
+updated_at: '2017-08-27T22:02:45.517986Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 259430
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Zigfrak
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive

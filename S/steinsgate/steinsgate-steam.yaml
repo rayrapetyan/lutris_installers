@@ -1,0 +1,24 @@
+id: 8253
+game_id: 9041
+game_slug: steinsgate
+name: STEINS;GATE
+year: 2009
+user: soredake
+runner: winesteam
+slug: steinsgate-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T16:59:13.604672Z'
+updated_at: '2018-05-09T21:15:08.540046Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 412830
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 412830

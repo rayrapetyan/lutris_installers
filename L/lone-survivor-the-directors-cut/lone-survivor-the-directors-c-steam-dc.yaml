@@ -1,0 +1,61 @@
+id: 514
+game_id: 278
+game_slug: lone-survivor-the-directors-cut
+name: 'Lone Survivor: The Director''s Cut'
+year: 2013
+user: Xodetaetl
+runner: wine
+slug: lone-survivor-the-directors-c-steam-dc
+version: Steam DC
+description: "This script will install \"Lone's Survivor - The Director's Cut\" Steam\
+  \ edition with support for modern computer configuration.\r\nDuring install please\
+  \ let all options by default.\r\nThanks to the people who helped us play this game\
+  \ in the best conditions."
+notes: "- You have to install the game Steam Windows version before to launch this\
+  \ installer.\r\n- FYI only the Windows and MacOSX versions are \"Collector's Cut\"\
+  \ Edition, not the Linux one.\r\n- Please report issue concerning this script on\
+  \ my Github page:\r\nhttps://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2014-07-30T10:25:30.854000Z'
+updated_at: '2019-12-22T10:33:02.447934Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: 209830
+gogid: 1207660084
+gogslug: lone_survivor_directors_cut
+humblestoreid: ''
+script:
+  custom-name: Lone's Survivor - The Director's Cut - Steam - Wine
+  installer:
+  - insert-disc:
+      requires: LoneSurvivor.exe
+      description: Please browse to the "Lone Survirvor - Director's Cut - Steam Edition"
+        game folder
+  - merge:
+      src: $DISC/
+      dst: $GAMEDIR/drive_c/Lone Survivor
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_DWORD
+      value: '00000000'
+      key: csmt
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D\
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: 0 0 0
+      key: background
+      path: HKEY_CURRENT_USER\Control Panel\Colors\
+  wine:
+    Desktop: true
+  game:
+    prefix: $GAMEDIR
+    install_mono: false
+    install_gecko: false
+    exe: drive_c/Lone Survivor/LoneSurvivor.exe
+    arch: win64

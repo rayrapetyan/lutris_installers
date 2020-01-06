@@ -1,0 +1,32 @@
+id: 389
+game_id: 122
+game_slug: doom-3-resurrection-of-evil
+name: 'Doom 3: Resurrection of Evil'
+year: 2005
+user: strider
+runner: linux
+slug: doom-3-resurrection-of-evil-native-steam-data
+version: Native + Steam data
+description: ''
+notes: Install Doom 3 "Native + Steam data" version before this.
+created_at: '2014-01-19T16:38:26.500000Z'
+updated_at: '2016-02-10T18:18:04.240265Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 9070
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: doom-3-native-steam-data
+  exe: doom.x86
+  installer:
+  - merge:
+      src: roe-data
+      dst: $GAMEDIR/d3xp
+  files:
+  - roe-data: $STEAM:9070:d3xp
+  game:
+    args: +set fs_game d3xp

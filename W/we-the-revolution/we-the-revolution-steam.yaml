@@ -1,0 +1,24 @@
+id: 12968
+game_id: 26486
+game_slug: we-the-revolution
+name: We. The Revolution
+year: 2019
+user: cxf
+runner: steam
+slug: we-the-revolution-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-04-20T06:45:26.886280Z'
+updated_at: '2019-04-20T06:45:31.308439Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 736850
+gogid: 1492171024
+gogslug: we_the_revolution
+humblestoreid: ''
+script:
+  game:
+    appid: 736850

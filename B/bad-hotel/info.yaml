@@ -1,0 +1,15 @@
+name: Bad Hotel
+slug: bad-hotel
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Casual
+aliases: []
+banner_url: /games/banner/bad-hotel.jpg
+icon_url: /games/icon/bad-hotel.png
+is_public: true
+updated: '2019-01-23T08:28:30.642589Z'
+steamid: 231720
+gogslug: ''
+humblestoreid: ''

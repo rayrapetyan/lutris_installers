@@ -1,0 +1,50 @@
+id: 16256
+game_id: 29776
+game_slug: 4story
+name: 4Story
+year: 2009
+user: rainken
+runner: wine
+slug: 4story-gameforge
+version: Gameforge
+description: null
+notes: ''
+created_at: '2019-10-17T10:25:44.730986Z'
+updated_at: '2019-10-17T10:25:44.731017Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Setting prefix for game.
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Wine to Windows 7 32-Bit
+      app: win7
+      arch: win32
+      name: winetricks
+  - task:
+      executable: 4story_installer
+      prefix: $GAMEDIR
+      description: Please don't change default game install path .
+      arch: win32
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: winekill
+  files:
+  - 4story_installer: https://pl.4story.gameforge.com/game/downloadclient
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/GameforgeLive/GameforgeLive.exe
+    arch: win32

@@ -1,0 +1,18 @@
+name: Hogs of War
+slug: hogs-of-war
+year: 2000
+platforms:
+- name: Sony PlayStation
+- name: Sony PSP
+- name: Windows
+genres:
+- name: Turn-based strategy
+- name: Turn-based tactics
+aliases: []
+banner_url: /games/banner/hogs-of-war.jpg
+icon_url: /games/icon/hogs-of-war.png
+is_public: true
+updated: '2019-01-23T08:29:51.510289Z'
+steamid: 389900
+gogslug: hogs_of_war
+humblestoreid: ''

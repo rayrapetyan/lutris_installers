@@ -1,0 +1,42 @@
+id: 2251
+game_id: 6504
+game_slug: kaikan
+name: Kaikan
+year: 2013
+user: ssf
+runner: wine
+slug: kaikan-11b
+version: 1.1b
+description: ''
+notes: ''
+created_at: '2016-07-04T20:50:31.787354Z'
+updated_at: '2016-10-02T17:31:22.214597Z'
+draft: false
+published: true
+published_by: null
+rating: '2'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - extract:
+      dst: $GAMEDIR
+      file: game
+  - task:
+      prefix: $GAMEDIR
+      app: d3dx9
+      silent: true
+      name: winetricks
+  system:
+    use_us_layout: true
+  files:
+  - game: http://downloads.rgcd.co.uk/mirrored/kaikan1.1.zip
+  game:
+    prefix: $GAMEDIR
+    exe: KAIKAN.EXE

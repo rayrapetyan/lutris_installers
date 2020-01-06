@@ -1,0 +1,24 @@
+id: 4584
+game_id: 211
+game_slug: sam-max-205-whats-new-beelzebub
+name: 'Sam & Max 205: What''s New Beelzebub?'
+year: null
+user: flicknice
+runner: winesteam
+slug: sam-max-205-whats-new-beelzeb-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-06-24T21:13:33.906160Z'
+updated_at: '2017-07-01T19:25:31.344496Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 8300
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 8300

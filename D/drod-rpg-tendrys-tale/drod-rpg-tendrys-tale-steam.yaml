@@ -1,0 +1,24 @@
+id: 2624
+game_id: 6798
+game_slug: drod-rpg-tendrys-tale
+name: 'DROD RPG: Tendry''s Tale'
+year: null
+user: gschaffran
+runner: steam
+slug: drod-rpg-tendrys-tale-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-08-29T18:47:25.917257Z'
+updated_at: '2016-09-30T21:15:26.086406Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 351330
+gogid: 1207664983
+gogslug: drod_rpg_tendrys_tale
+humblestoreid: ''
+script:
+  game:
+    appid: 351330

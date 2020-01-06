@@ -1,0 +1,30 @@
+id: 2437
+game_id: 6278
+game_slug: kings-quest
+name: King's Quest
+year: 2015
+user: strider
+runner: winesteam
+slug: kings-quest-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2016-08-12T00:57:12.273000Z'
+updated_at: '2018-11-02T06:33:25.823532Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 345390
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: dotnet472
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 345390

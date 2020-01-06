@@ -1,0 +1,24 @@
+id: 213
+game_id: 1220
+game_slug: bionic-dues
+name: Bionic Dues
+year: null
+user: strider
+runner: steam
+slug: bionic-dues-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-19T23:56:18.249000Z'
+updated_at: '2013-12-19T23:56:18.249000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 238910
+gogid: 1207664573
+gogslug: bionic_dues
+humblestoreid: ''
+script:
+  game:
+    appid: 238910

@@ -1,0 +1,54 @@
+id: 1451
+game_id: 2925
+game_slug: warcraft-iii-the-frozen-throne
+name: 'Warcraft III: The Frozen Throne'
+year: 2003
+user: Akien
+runner: wine
+slug: warcraft-iii-the-frozen-thron-digital-or-cd
+version: Digital or CD
+description: 'For Blizzard''s downloader (or the downloaded installer) for Warcraft
+  III: The Frozen Throne. A retail CD version of Warcraft III: The Frozen Throne should
+  also work.'
+notes: "- An installed version of Warcraft III: Reign of Chaos is required to install\
+  \ this expansion set.\r\n- Ingame videos are disabled (by adding a \"TFT\" suffix\
+  \ to the /Movies/ folder name) to avoid a possible crash. You can try to revert\
+  \ this and see if the movies play on your system.\r\n- Although the installer fails\
+  \ on asking for the cd-keys on first launch of the game it will ask for the cd-keys\
+  \ without failure. If the cd-key window is blank just moved it out of screen bounds\
+  \ and move it back in. Some rendering issues."
+created_at: '2015-04-06T10:48:57.731000Z'
+updated_at: '2019-12-22T20:00:54.344371Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: 'Installing Warcraft III: The Frozen Throne'
+      name: wineexec
+  requires: warcraft-iii-reign-of-chaos
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Warcraft III/Frozen Throne.exe
+    arch: win32
+  system: {}
+  wine:
+    overrides:
+      nvapi64: disabled
+      nvapi: disabled
+      d3d12: disabled
+    dxvk: false
+  files:
+  - setup: 'N/A:Select the installer for Warcraft III: The Frozen Throne'

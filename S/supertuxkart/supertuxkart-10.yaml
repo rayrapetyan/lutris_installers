@@ -1,0 +1,29 @@
+id: 6545
+game_id: 2833
+game_slug: supertuxkart
+name: SuperTuxKart
+year: 2004
+user: dmsun
+runner: linux
+slug: supertuxkart-10
+version: '1.0'
+description: SuperTuxKart 1.0
+notes: ''
+created_at: '2017-12-05T11:30:30.892000Z'
+updated_at: '2019-04-21T05:28:39.361549Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: stk
+  files:
+  - stk: https://sourceforge.net/projects/supertuxkart/files/SuperTuxKart/1.0/supertuxkart-1.0-linux.tar.xz
+  game:
+    exe: run_game.sh

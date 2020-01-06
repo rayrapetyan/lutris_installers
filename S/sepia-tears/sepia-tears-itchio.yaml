@@ -1,0 +1,28 @@
+id: 8266
+game_id: 5510
+game_slug: sepia-tears
+name: Sepia Tears
+year: 2017
+user: oscararg
+runner: linux
+slug: sepia-tears-itchio
+version: Itchio
+description: null
+notes: ''
+created_at: '2018-05-10T16:14:11.925417Z'
+updated_at: '2018-05-13T09:17:02.820776Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 429300
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: sepiatears.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

@@ -1,0 +1,62 @@
+id: 16258
+game_id: 12977
+game_slug: whispers-last-hope
+name: 'Whispers: Last Hope'
+year: null
+user: vanstaveren
+runner: winesteam
+slug: whispers-last-hope-winesteam64
+version: WineSteam64
+description: testing ...
+notes: ''
+created_at: '2019-10-17T14:20:23.594082Z'
+updated_at: '2019-10-17T14:20:23.594114Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: 581700
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: ge-protonified-nofshack-4.9-x86_64
+    esync: true
+    dxvk: true
+  installer:
+  - task:
+      prefix: $HOME/.local/share/lutris/runners/winesteam/prefix64
+      description: Media Foundation workaround ...
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $HOME/.local/share/lutris/runners/winesteam/prefix64
+      description: Vulkan ...
+      app: dxvk
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $HOME/.local/share/lutris/runners/winesteam/prefix64
+      description: Windows version 8.1 ...
+      app: win81
+      arch: win64
+      name: winetricks
+  - execute:
+      command: mkdir "$HOME/.local/share/lutris/runners/winesteam/prefix64/mediafoundation_workaround"
+  - extract:
+      dst: $HOME/.local/share/lutris/runners/winesteam/prefix64/mediafoundation_workaround/
+      file: master.zip
+  - write_file:
+      content: cd $HOME/.local/share/lutris/runners/winesteam/prefix64/mediafoundation_workaround
+        && WINEPREFIX="$HOME/.local/share/lutris/runners/winesteam/prefix64" ./install-mf.sh
+      file: $HOME/.local/share/lutris/runners/winesteam/prefix64/mediafoundation_workaround/install.sh
+  - chmodx: $HOME/.local/share/lutris/runners/winesteam/prefix64/mediafoundation_workaround/install.sh
+  - execute:
+      command: sh $HOME/.local/share/lutris/runners/winesteam/prefix64/mediafoundation_workaround/install.sh
+  files:
+  - master.zip: https://github.com/z0z0z/mf-install/archive/master.zip
+  game:
+    prefix: $HOME/.local/share/lutris/runners/winesteam/prefix64
+    appid: 581700
+    arch: win64

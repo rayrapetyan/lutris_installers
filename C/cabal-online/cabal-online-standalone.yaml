@@ -1,0 +1,68 @@
+id: 13079
+game_id: 6374
+game_slug: cabal-online
+name: CABAL Online
+year: null
+user: mirazi_heket
+runner: wine
+slug: cabal-online-standalone
+version: Standalone
+description: null
+notes: ''
+created_at: '2019-04-24T16:01:38.665000Z'
+updated_at: '2019-05-18T08:06:15.804160Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 253490
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/CABAL Online (EU)/CabalMain.exe
+    arch: win32
+  overrides:
+    msvcrt.dll: n
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 32-bit Wine prefix.
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: winxp
+      name: winetricks
+  - task:
+      executable: vcredist
+      prefix: $GAMEDIR
+      description: Install vcredist 2012
+      arch: win32
+      name: wineexec
+  - task:
+      executable: directx
+      prefix: $GAMEDIR
+      description: Install directx 9.0c
+      arch: win32
+      name: wineexec
+  - task:
+      executable: game_setup
+      prefix: $GAMEDIR
+      description: Installing Cabal Online EU
+      arch: win32
+      name: wineexec
+  wine:
+    version: tkg-4.6-x86_64
+  files:
+  - game_setup:
+      filename: 11132014_EU_Setup.exe
+      url: http://cdn2.eu.playthisgame.com/Setup/11132014_EU_Setup.exe
+  - vcredist:
+      filename: vcredist_x86.exe
+      url: https://download.microsoft.com/download/C/6/D/C6D0FD4E-9E53-4897-9B91-836EBA2AACD3/vcredist_x86.exe
+  - directx:
+      filename: dxwebsetup.exe
+      url: https://download.microsoft.com/download/8/0/d/80d7e79d-c0e4-415a-bcca-e229eafe2679/dxwebsetup.exe

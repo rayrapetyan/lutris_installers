@@ -1,0 +1,30 @@
+id: 1198
+game_id: 3529
+game_slug: super-hang-on
+name: Super Hang-On
+year: 1987
+user: cyrilou
+runner: dgen
+slug: super-hang-on-genesis
+version: Genesis
+description: ''
+notes: ''
+created_at: '2014-12-06T17:47:21.854000Z'
+updated_at: '2016-04-15T21:48:13.838401Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: rom
+      dst: $GAMEDIR
+  files:
+  - rom: N/A:Select the game's ROM file
+  game:
+    main_file: rom

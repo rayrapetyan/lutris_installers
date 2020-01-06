@@ -1,0 +1,17 @@
+name: Star Conflict
+slug: star-conflict
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: MMORPG
+- name: Space flight
+aliases: []
+banner_url: /games/banner/star-conflict.jpg
+icon_url: /games/icon/star-conflict.png
+is_public: true
+updated: '2019-01-23T08:31:23.984354Z'
+steamid: 212070
+gogslug: ''
+humblestoreid: ''

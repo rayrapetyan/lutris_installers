@@ -1,0 +1,24 @@
+id: 16170
+game_id: 2441
+game_slug: star-wolves
+name: Star Wolves
+year: 2010
+user: cxf
+runner: steam
+slug: star-wolves-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-10-13T23:34:29.775356Z'
+updated_at: '2019-10-13T23:34:35.207646Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 46270
+gogid: 1207658864
+gogslug: star_wolves
+humblestoreid: ''
+script:
+  game:
+    appid: 46270

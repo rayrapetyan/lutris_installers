@@ -1,0 +1,38 @@
+id: 6437
+game_id: 14929
+game_slug: world-of-final-fantasy
+name: WORLD OF FINAL FANTASY
+year: 2016
+user: DarklinkFighter
+runner: winesteam
+slug: world-of-final-fantasy-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-11-26T15:25:15.416000Z'
+updated_at: '2019-10-16T21:54:44.631740Z'
+draft: false
+published: true
+published_by: 19464
+rating: '1'
+steamid: 552700
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2013 dotnet40 win7
+      name: winetricks
+  winesteam:
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: compiler
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 552700

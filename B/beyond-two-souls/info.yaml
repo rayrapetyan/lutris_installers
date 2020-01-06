@@ -1,0 +1,16 @@
+name: 'Beyond: Two Souls'
+slug: beyond-two-souls
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Action-adventure
+- name: Interactive drama
+aliases: []
+banner_url: /games/banner/beyond-two-souls.jpg
+icon_url: /games/icon/beyond-two-souls.png
+is_public: true
+updated: '2019-12-22T19:01:16.351865Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

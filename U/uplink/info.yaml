@@ -1,0 +1,19 @@
+name: Uplink
+slug: uplink
+year: 2001
+platforms:
+- name: Linux
+genres:
+- name: Modern
+- name: Simulation
+- name: Strategy
+aliases:
+- slug: uplink-hacker-elite
+  name: 'Uplink: Hacker Elite'
+banner_url: /games/banner/uplink.jpg
+icon_url: /games/icon/uplink.png
+is_public: true
+updated: '2019-11-04T03:30:58.417865Z'
+steamid: 1510
+gogslug: uplink_hacker_elite
+humblestoreid: ''

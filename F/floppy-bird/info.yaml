@@ -1,0 +1,15 @@
+name: Floppy Bird
+slug: floppy-bird
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/floppy-bird.jpg
+icon_url: /games/icon/floppy-bird.png
+is_public: true
+updated: '2019-03-09T04:41:57.996101Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

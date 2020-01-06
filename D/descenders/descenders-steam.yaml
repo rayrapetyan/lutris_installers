@@ -1,0 +1,24 @@
+id: 7287
+game_id: 16452
+game_slug: descenders
+name: Descenders
+year: 2018
+user: djazz
+runner: steam
+slug: descenders-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-02-11T13:22:18.506466Z'
+updated_at: '2018-02-11T13:22:23.993507Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 681280
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 681280

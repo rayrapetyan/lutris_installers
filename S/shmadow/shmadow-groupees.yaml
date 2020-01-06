@@ -1,0 +1,29 @@
+id: 4929
+game_id: 5823
+game_slug: shmadow
+name: Shmadow
+year: null
+user: FakeShemp
+runner: linux
+slug: shmadow-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-08T19:36:30.184638Z'
+updated_at: '2017-07-09T20:10:35.863899Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 397570
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: shmadow.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/shmadow.x86
+  files:
+  - file1: N/A:Please select the Groupees archive

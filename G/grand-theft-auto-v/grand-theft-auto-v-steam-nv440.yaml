@@ -1,0 +1,98 @@
+id: 17341
+game_id: 4168
+game_slug: grand-theft-auto-v
+name: Grand Theft Auto V
+year: 2013
+user: vanstaveren
+runner: wine
+slug: grand-theft-auto-v-steam-nv440
+version: steam-nv440
+description: GTA V Steam installation Wine 4.21, Nvidia 440 driver.
+notes: Don't do it ...
+created_at: '2019-12-14T20:07:52.082353Z'
+updated_at: '2019-12-14T20:07:52.082378Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: 271590
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Creating 64-bit prefix ...
+      arch: win64
+      name: create_prefix
+  - move:
+      src: SteamSetup.exe
+      dst: $GAMEDIR/prefix/drive_c/
+  - chmodx: $GAMEDIR/prefix/drive_c/SteamSetup.exe
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: DirectX ...
+      app: d3drm
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: DirectX 11 ...
+      app: d3dx11_42
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: DirectX 11 ...
+      app: d3dx11_43
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: DirectX compiler ...
+      app: d3dcompiler_43
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Vulkan ...
+      app: dxvk
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: arial
+      arch: win64
+      name: winetricks
+  - task:
+      executable: $GAMEDIR/prefix/drive_c/SteamSetup.exe
+      prefix: $GAMEDIR/prefix
+      args: /S
+      description: Steam ...
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Windows version 10 ...
+      app: win10
+      arch: win64
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    exe: $GAMEDIR/prefix/drive_c/Program Files (x86)/Steam/Steam.exe
+    arch: win64
+    args: -nojoy -applaunch 271590
+    appid: '271590'
+    custom-name: dispatcher
+  system:
+    disable_compositor: true
+    pulse_latency: true
+    xboxdrv: xboxdrv
+  wine:
+    Audio: pulse
+    version: lutris-4.21-x86_64
+    overrides:
+      winedbg.exe: d
+    dxvk: true
+  files:
+  - SteamSetup.exe: https://steamcdn-a.akamaihd.net/client/installer/SteamSetup.exe

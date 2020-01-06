@@ -1,0 +1,15 @@
+name: NBA 2K20
+slug: nba-2k20
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Sports
+aliases: []
+banner_url: /games/banner/nba-2k20.jpg
+icon_url: /games/icon/nba-2k20.png
+is_public: true
+updated: '2019-10-28T00:21:18.414767Z'
+steamid: 1089350
+gogslug: ''
+humblestoreid: ''

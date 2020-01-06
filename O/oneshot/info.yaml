@@ -1,0 +1,16 @@
+name: OneShot
+slug: oneshot
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/oneshot.jpg
+icon_url: /games/icon/oneshot.png
+is_public: true
+updated: '2019-11-09T07:41:56.465422Z'
+steamid: 420530
+gogslug: ''
+humblestoreid: ''

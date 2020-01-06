@@ -1,0 +1,16 @@
+name: Hedon
+slug: hedon
+year: 2019
+platforms:
+- name: Linux
+genres:
+- name: Fantasy
+- name: FPS
+aliases: []
+banner_url: /games/banner/hedon.jpg
+icon_url: null
+is_public: true
+updated: '2019-04-28T21:22:57.047301Z'
+steamid: 1072150
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 7130
+game_id: 7018
+game_slug: aozora-meikyuu
+name: Aozora Meikyuu
+year: 2016
+user: t-rex91
+runner: steam
+slug: aozora-meikyuu-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-01-18T18:01:38.215000Z'
+updated_at: '2018-01-19T05:57:54.876492Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 427980
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 427980

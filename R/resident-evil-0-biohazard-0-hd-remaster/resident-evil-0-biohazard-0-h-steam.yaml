@@ -1,0 +1,62 @@
+id: 5101
+game_id: 5624
+game_slug: resident-evil-0-biohazard-0-hd-remaster
+name: Resident Evil 0 / biohazard 0 HD REMASTER
+year: 2016
+user: strider
+runner: winesteam
+slug: resident-evil-0-biohazard-0-h-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-07-20T01:47:45.978000Z'
+updated_at: '2019-12-28T21:57:16.428762Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 339340
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing needed libraries
+      arch: win32
+      app: wmp10 d3dcompiler_43 d3dx9
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Changing to Windows XP to install video codec (otherwise it will
+        fail)
+      app: winxp
+      arch: win32
+      name: winetricks
+  - task:
+      executable: codecs
+      prefix: $GAMEDIR/prefix
+      description: Installing video codecs
+      arch: win32
+      args: /q
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Changing to Windows 7
+      app: win7
+      arch: win32
+      name: winetricks
+  system:
+    xboxdrv: --trigger-as-button
+  files:
+  - codecs: https://lutris.net/files/tools/windowsmedia-kb942423-x86-intl.exe
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 339340
+    arch: win32

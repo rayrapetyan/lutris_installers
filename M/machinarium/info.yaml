@@ -1,0 +1,17 @@
+name: Machinarium
+slug: machinarium
+year: 2009
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/machinarium.jpg
+icon_url: /games/icon/machinarium.png
+is_public: true
+updated: '2019-12-01T20:32:24.779633Z'
+steamid: 40700
+gogslug: machinarium_collectors_edition
+humblestoreid: machinarium

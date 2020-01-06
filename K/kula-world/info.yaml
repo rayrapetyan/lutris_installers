@@ -1,0 +1,17 @@
+name: Kula World
+slug: kula-world
+year: 1998
+platforms:
+- name: Sony PlayStation
+- name: Sony PSP
+genres:
+- name: Platform
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/kula-world.jpg
+icon_url: /games/icon/kula-world.png
+is_public: true
+updated: '2019-01-23T08:30:06.874039Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

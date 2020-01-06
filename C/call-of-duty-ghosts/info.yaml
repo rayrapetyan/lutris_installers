@@ -1,0 +1,15 @@
+name: 'Call of Duty: Ghosts'
+slug: call-of-duty-ghosts
+year: null
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/call-of-duty-ghosts.jpg
+icon_url: /games/icon/call-of-duty-ghosts.png
+is_public: false
+updated: '2019-11-15T07:07:49.539332Z'
+steamid: 209160
+gogslug: ''
+humblestoreid: ''

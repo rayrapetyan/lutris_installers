@@ -1,0 +1,16 @@
+name: 'Titanic: Adventure Out of Time'
+slug: titanic-adventure-out-of-time
+year: 1996
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/titanic-adventure-out-of-time.jpg
+icon_url: /games/icon/titanic-adventure-out-of-time.png
+is_public: true
+updated: '2019-01-23T08:31:51.771955Z'
+steamid: 785480
+gogslug: titanic_adventure_out_of_time
+humblestoreid: ''

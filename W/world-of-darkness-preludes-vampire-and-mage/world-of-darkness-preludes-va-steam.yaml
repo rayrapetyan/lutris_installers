@@ -1,0 +1,24 @@
+id: 11710
+game_id: 20945
+game_slug: world-of-darkness-preludes-vampire-and-mage
+name: 'World of Darkness Preludes: Vampire and Mage'
+year: null
+user: orestes1986
+runner: steam
+slug: world-of-darkness-preludes-va-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-01-25T05:57:36.291000Z'
+updated_at: '2019-01-26T02:25:29.582657Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 565410
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 565410

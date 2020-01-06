@@ -1,0 +1,56 @@
+id: 12746
+game_id: 25538
+game_slug: anno-1800
+name: Anno 1800
+year: 2019
+user: DerSyd0
+runner: wine
+slug: anno-1800-uplay-w-dxvk
+version: Uplay w/ DXVK
+description: null
+notes: "Uplay relies on 32-bit libs please make sure you have i386 Vulkan libs installed\
+  \ on your system.\r\n\r\nIssues:\r\n- Game is only offline playable (It shows \"\
+  NAT type: unknown\")"
+created_at: '2019-04-12T07:34:26.108000Z'
+updated_at: '2019-05-01T23:48:28.421153Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 916440
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: corefonts win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: uplay
+      prefix: $GAMEDIR
+      args: /S
+      arch: win64
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/Uplay.exe
+    arch: win64
+  system:
+    env:
+      PYTHONIOENCODING: utf8
+      DXVK_HUD: 0
+  wine:
+    version: tkg-protonified-4.6-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      nvapi,nvapi64: disabled
+  files:
+  - uplay: https://ubistatic3-a.akamaihd.net/orbit/launcher_installer/UplayInstaller.exe

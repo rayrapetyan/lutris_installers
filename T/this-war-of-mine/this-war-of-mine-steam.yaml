@@ -1,0 +1,24 @@
+id: 1248
+game_id: 3657
+game_slug: this-war-of-mine
+name: This War of Mine
+year: 2014
+user: Xodetaetl
+runner: steam
+slug: this-war-of-mine-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-01-05T19:39:47.896000Z'
+updated_at: '2015-01-05T19:40:17.336000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 282070
+gogid: 1207666873
+gogslug: this_war_of_mine
+humblestoreid: ''
+script:
+  game:
+    appid: 282070

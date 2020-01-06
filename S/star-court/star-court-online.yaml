@@ -1,0 +1,26 @@
+id: 6304
+game_id: 14763
+game_slug: star-court
+name: Star Court
+year: null
+user: FakeShemp
+runner: web
+slug: star-court-online
+version: Online
+description: null
+notes: ''
+created_at: '2017-11-12T13:09:19.713387Z'
+updated_at: '2017-11-12T13:10:25.866516Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  web:
+    window_size: 1280x720
+  game:
+    main_file: http://auntiepixelante.com/starcourt/

@@ -1,0 +1,16 @@
+name: 'Diablo III: Reaper Of Souls'
+slug: diablo-iii-reaper-of-souls
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: RPG
+aliases: []
+banner_url: /games/banner/diablo-iii-reaper-of-souls.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:11.209418Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,35 @@
+id: 16291
+game_id: 21495
+game_slug: mindustry
+name: Mindustry
+year: 2017
+user: paperbenni
+runner: linux
+slug: mindustry-java
+version: Java
+description: Uses the jar file from GitHub and your native java runtime
+notes: requires to have openjdk or any other java implementation to be installed
+created_at: '2019-10-19T17:09:54.776000Z'
+updated_at: '2019-10-27T04:49:42.234272Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 1127400
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - chmodx: starter
+  - move:
+      src: starter
+      dst: $GAMEDIR/start.sh
+  - move:
+      src: jar
+      dst: $GAMEDIR/Mindustry.jar
+  files:
+  - jar: https://github.com/Anuken/Mindustry/releases/download/v96/Mindustry.jar
+  - starter: https://raw.githubusercontent.com/paperbenni/lutris/master/mindustry/start.sh
+  game:
+    exe: $GAMEDIR/start.sh

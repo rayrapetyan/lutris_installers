@@ -1,0 +1,62 @@
+id: 4089
+game_id: 11544
+game_slug: warhammer-dark-omen
+name: 'Warhammer: Dark Omen'
+year: 1998
+user: strider
+runner: wine
+slug: warhammer-dark-omen-cd
+version: CD
+description: ''
+notes: "The game uses Xephyr to set a 640x480x16bit color screen mode.\r\nXephyr might\
+  \ not work on the NVidia driver but will work on the Mesa driver.\r\nThe game has\
+  \ severe graphical artifacts\r\nCPU rendering mode, which should fix the artifacts,\
+  \ is disabled"
+created_at: '2017-06-04T00:29:08.954000Z'
+updated_at: '2017-06-04T20:26:46.001123Z'
+draft: false
+published: true
+published_by: null
+rating: '2'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: data1.cab
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Using Windows 98
+      app: win98
+      arch: win32
+      name: winetricks
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  - move:
+      src: $GAMEDIR/drive_c/Program Files/Dark Omen/PRG_ENG/EngRel.exe
+      dst: $GAMEDIR/drive_c/Program Files/Dark Omen/PRG_ENG/EngRel.exe.orig
+  - move:
+      src: patch
+      dst: $GAMEDIR/drive_c/Program Files/Dark Omen/PRG_ENG
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Dark Omen/PRG_ENG/EngRel.exe
+    arch: win32
+  system:
+    xephyr_resolution: 640x480
+    xephyr: 16bpp
+  wine:
+    WineDesktop: 640x480
+    Desktop: true
+  files:
+  - patch: https://lutris.net/files/games/warhammer-dark-omen/EngRel.exe

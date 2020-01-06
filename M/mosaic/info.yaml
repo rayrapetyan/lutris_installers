@@ -1,0 +1,16 @@
+name: Mosaic
+slug: mosaic
+year: 2019
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Indie
+aliases: []
+banner_url: /games/banner/mosaic.jpg
+icon_url: /games/icon/mosaic.png
+is_public: false
+updated: '2019-06-11T00:40:57.618824Z'
+steamid: 349270
+gogslug: ''
+humblestoreid: ''

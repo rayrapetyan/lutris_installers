@@ -1,0 +1,15 @@
+name: World of Padman
+slug: world-of-padman
+year: 2007
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/world-of-padman.jpg
+icon_url: /games/icon/world-of-padman.png
+is_public: true
+updated: '2019-01-23T08:32:10.599325Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

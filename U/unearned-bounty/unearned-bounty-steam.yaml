@@ -1,0 +1,24 @@
+id: 7386
+game_id: 9347
+game_slug: unearned-bounty
+name: Unearned Bounty
+year: 2018
+user: t-rex91
+runner: steam
+slug: unearned-bounty-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-02-24T18:25:31.825158Z'
+updated_at: '2018-02-25T22:48:13.960109Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 377260
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 377260

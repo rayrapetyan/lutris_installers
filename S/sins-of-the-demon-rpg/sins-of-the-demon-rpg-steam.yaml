@@ -1,0 +1,24 @@
+id: 8664
+game_id: 6562
+game_slug: sins-of-the-demon-rpg
+name: Sins Of The Demon RPG
+year: 2016
+user: soredake
+runner: winesteam
+slug: sins-of-the-demon-rpg-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-11T07:42:15.096618Z'
+updated_at: '2018-06-11T07:52:46.479851Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 461640
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 461640

@@ -1,0 +1,36 @@
+id: 4795
+game_id: 1654
+game_slug: the-cat-lady
+name: The Cat Lady
+year: 2012
+user: FakeShemp
+runner: ags
+slug: the-cat-lady-humble-1
+version: Humble
+description: Uses the files from the Windows installer from Humble.
+notes: ''
+created_at: '2017-07-04T11:21:04.102493Z'
+updated_at: '2017-07-04T18:16:46.399162Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 253110
+gogid: 1207659201
+gogslug: the_cat_lady
+humblestoreid: ''
+script:
+  main_file: Cat Lady.exe
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file2
+  - execute:
+      args: -d "$CACHE" "$file1"
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/app
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble installer
+  - file2: https://lutris.net/files/tools/innoextract.tar.gz

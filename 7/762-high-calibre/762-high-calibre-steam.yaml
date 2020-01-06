@@ -1,0 +1,26 @@
+id: 9719
+game_id: 2566
+game_slug: 762-high-calibre
+name: 7,62 High Calibre
+year: 2007
+user: jehdin
+runner: winesteam
+slug: 762-high-calibre-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-13T06:33:02.655609Z'
+updated_at: '2018-08-16T06:23:05.832471Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 289890
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-3.12-x86_64
+  game:
+    appid: 289890

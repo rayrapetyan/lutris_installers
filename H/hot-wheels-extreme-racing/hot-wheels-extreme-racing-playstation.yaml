@@ -1,0 +1,31 @@
+id: 7610
+game_id: 17523
+game_slug: hot-wheels-extreme-racing
+name: 'Hot Wheels: Extreme Racing'
+year: 2001
+user: te_lanus
+runner: libretro
+slug: hot-wheels-extreme-racing-playstation
+version: PlayStation
+description: null
+notes: ''
+created_at: '2018-03-20T05:14:42.671328Z'
+updated_at: '2018-03-20T05:14:55.351547Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the PlayStation image file
+  game:
+    core: mednafen_psx_hw
+    main_file: file1

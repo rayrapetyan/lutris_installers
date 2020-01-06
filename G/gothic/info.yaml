@@ -1,0 +1,15 @@
+name: Gothic
+slug: gothic
+year: 2001
+platforms:
+- name: Windows
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/gothic.jpg
+icon_url: /games/icon/gothic.png
+is_public: true
+updated: '2019-01-23T08:29:41.925595Z'
+steamid: 65540
+gogslug: gothic
+humblestoreid: ''

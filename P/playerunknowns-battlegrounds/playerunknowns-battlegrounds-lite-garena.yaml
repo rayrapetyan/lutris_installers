@@ -1,0 +1,49 @@
+id: 12253
+game_id: 11178
+game_slug: playerunknowns-battlegrounds
+name: PLAYERUNKNOWN'S BATTLEGROUNDS
+year: 2017
+user: OsamaBinlada
+runner: wine
+slug: playerunknowns-battlegrounds-lite-garena
+version: Lite Garena
+description: Only sets up Garena and DXVK you'll need to download PUBG Lite manually.
+notes: ''
+created_at: '2019-03-04T02:24:16.380000Z'
+updated_at: '2019-10-28T21:04:48.918283Z'
+draft: false
+published: true
+published_by: 51687
+rating: '1'
+steamid: 578080
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: 'Installing the garena (WARNING: Don''t login, close the window)'
+      arch: win64
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files (x86)/Garena/Garena/Garena.exe
+    arch: win64
+  system:
+    env:
+      __GL_THREADED_OPTIMIZATIONS: 1
+      mesa_glthread: true
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+  wine:
+    dxvk: true
+  files:
+  - setup: http://cdn.gxx.garenanow.com/gxx/pc/installer/Garena-v2.0.exe

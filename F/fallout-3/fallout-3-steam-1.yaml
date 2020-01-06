@@ -1,0 +1,442 @@
+id: 17198
+game_id: 1398
+game_slug: fallout-3
+name: Fallout 3
+year: 2008
+user: jcohentech
+runner: winesteam
+slug: fallout-3-steam-1
+version: Steam
+description: Includes Fallout Script Extender and some essential fixes
+notes: "* This script assumes Steam is installed in ~/.local/share/lutris/runners/winesteam/prefix64/drive_c/Program\
+  \ Files (x86)/Steam/ (which is the default)\r\n* When starting the game, click \"\
+  Fallout 3\" in the taskbar repeatedly, that seems to hide the taskbar.\r\n* Don't\
+  \ run the game in windowed mode, instead just change the resolution.\r\n* Some ini\
+  \ fixes for better performance.\r\n* Fakes a Nvidia GPU for Intel support (gpu autodetect\
+  \ doesn't work here)\r\n* Patches exe with 4GB/LAA support (if you want to play\
+  \ with HQ texture mods etc.)\r\n* Includes FOSE, NVAC, Fallout Stutter Remover,\
+  \ BOSS, Unofficial Fallout 3 Patch and a special launch menu.\r\n* Background image\
+  \ instead of the boring blue background of Wine!\r\n* Do not verify local files\
+  \ through Steam after install! It will overwrite some fixes done by this installer."
+created_at: '2019-12-06T10:40:58.137064Z'
+updated_at: '2019-12-06T10:40:58.137089Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 22300
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - input_menu:
+      options:
+      - 'true': Yes, store them in home
+      - 'false': No, store them inside the wineprefix
+      description: Do you want to store saves in ~/Documents/My Games/Fallout3/Saves
+        ?
+      id: CONFIG_LOCATION
+      preselect: 'true'
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Creating 64-bit Wine prefix
+      arch: win64
+      install_mono: false
+      install_gecko: false
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Disabling virtual desktop
+      arch: win64
+      key: WineDesktop
+      value: ''
+      path: HKEY_CURRENT_USER\Software\Wine\Explorer\Desktops
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: 'winetricks: win7 quartz'
+      app: win7 quartz
+      arch: win64
+      name: winetricks
+  - extract:
+      dst: $GAMEDIR/prefix/drive_c
+      file: wallpaper
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Setting wallpaper
+      arch: win64
+      key: Background
+      value: 0 0 0
+      path: HKEY_CURRENT_USER\Control Panel\Colors
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Setting wallpaper
+      arch: win64
+      key: Wallpaper
+      value: c:\\wallpaper.bmp
+      path: HKEY_CURRENT_USER\Control Panel\Desktop
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Enabling GrabFullscreen for Fallout3.exe
+      arch: win64
+      key: GrabFullscreen
+      value: Y
+      path: HKEY_CURRENT_USER\Software\Wine\AppDefaults\Fallout3.exe\X11 Driver
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Forcing Nvidia VideoPci
+      arch: win64
+      type: REG_DWORD
+      value: '402'
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D
+      key: VideoPciDeviceID
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Forcing Nvidia VideoPci
+      arch: win64
+      type: REG_DWORD
+      value: 10de
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D
+      key: VideoPciVendorID
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Disabling AlwaysOffscreen
+      arch: win64
+      key: AlwaysOffscreen
+      value: disabled
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Configuring console
+      arch: win64
+      type: REG_DWORD
+      value: 202e0e
+      path: HKEY_CURRENT_USER\Console
+      key: ColorTable02
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Configuring console
+      arch: win64
+      type: REG_DWORD
+      value: 74f014
+      path: HKEY_CURRENT_USER\Console
+      key: ColorTable10
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Configuring console
+      arch: win64
+      key: FaceName
+      value: Fixedsys
+      path: HKEY_CURRENT_USER\Console
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Configuring console
+      arch: win64
+      type: REG_DWORD
+      value: 2a
+      path: HKEY_CURRENT_USER\Console
+      key: ScreenColors
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Configuring console
+      arch: win64
+      type: REG_DWORD
+      value: 0190
+      path: HKEY_CURRENT_USER\Console
+      key: FontWeight
+      name: set_regedit
+  - write_config:
+      section: General
+      key: bUseThreadedAI
+      value: 1
+      file: $GAMEDIR/Fallout_default.ini
+  - write_config:
+      section: General
+      key: iNumHWThreads
+      value: 2
+      file: $GAMEDIR/Fallout_default.ini
+  - write_config:
+      section: General
+      key: bUseThreadedBlood
+      value: 1
+      file: $GAMEDIR/Fallout_default.ini
+  - write_config:
+      section: General
+      key: bUseThreadedMorpher
+      value: 1
+      file: $GAMEDIR/Fallout_default.ini
+  - write_config:
+      section: General
+      key: bUseThreadedTempEffects
+      value: 1
+      file: $GAMEDIR/Fallout_default.ini
+  - write_config:
+      section: General
+      key: bUseThreadedParticleSystem
+      value: 1
+      file: $GAMEDIR/Fallout_default.ini
+  - write_config:
+      section: General
+      key: bUseMultiThreadedFaceGen
+      value: 1
+      file: $GAMEDIR/Fallout_default.ini
+  - write_config:
+      section: General
+      key: bUseMultiThreadedTrees
+      value: 1
+      file: $GAMEDIR/Fallout_default.ini
+  - write_config:
+      section: General
+      key: iPreloadSizeLimit
+      value: 104857600
+      file: $GAMEDIR/Fallout_default.ini
+  - write_config:
+      section: Display
+      key: fDefaultFOV
+      value: 85
+      file: $GAMEDIR/Fallout_default.ini
+  - write_config:
+      section: Display
+      key: fDefaultWorldFOV
+      value: 85
+      file: $GAMEDIR/Fallout_default.ini
+  - write_config:
+      section: Display
+      key: fDefault1stPersonFOV
+      value: 65
+      file: $GAMEDIR/Fallout_default.ini
+  - write_config:
+      section: Display
+      key: fPipboy1stPersonFOV
+      value: 50
+      file: $GAMEDIR/Fallout_default.ini
+  - write_config:
+      section: Display
+      key: iPresentInterval
+      value: 0
+      file: $GAMEDIR/Fallout_default.ini
+  - write_config:
+      section: Display
+      key: bFull Screen
+      value: 1
+      file: $GAMEDIR/Fallout_default.ini
+  - write_config:
+      section: Audio
+      key: bMultiThreadAudio
+      value: 1
+      file: $GAMEDIR/Fallout_default.ini
+  - write_config:
+      section: Audio
+      key: bEnableAudioCache
+      value: 1
+      file: $GAMEDIR/Fallout_default.ini
+  - write_config:
+      section: Audio
+      key: iAudioCacheSize
+      value: 4096
+      file: $GAMEDIR/Fallout_default.ini
+  - write_config:
+      section: Audio
+      key: iMaxSizeForCachedSound
+      value: 256
+      file: $GAMEDIR/Fallout_default.ini
+  - write_config:
+      section: Audio
+      key: iRadioUpdateInterval
+      value: 1024
+      file: $GAMEDIR/Fallout_default.ini
+  - write_config:
+      section: Controls
+      key: fForegroundMouseMult
+      value: 0
+      file: $GAMEDIR/Fallout_default.ini
+  - write_config:
+      section: Controls
+      key: fForegroundMouseAccelBase
+      value: 0
+      file: $GAMEDIR/Fallout_default.ini
+  - write_config:
+      section: Controls
+      key: fForegroundMouseAccelTop
+      value: 0
+      file: $GAMEDIR/Fallout_default.ini
+  - write_config:
+      section: Controls
+      key: fForegroundMouseBase
+      value: 0
+      file: $GAMEDIR/Fallout_default.ini
+  - write_config:
+      section: Controls
+      key: bBackground Mouse
+      value: 1
+      file: $GAMEDIR/Fallout_default.ini
+  - write_config:
+      section: Archive
+      key: bInvalidateOlderFiles
+      value: 1
+      file: $GAMEDIR/Fallout_default.ini
+  - extract:
+      description: Patching Fallout3.exe with Large Address Aware support
+      dst: $CACHE/laa-patcher
+      file: laa-patcher
+  - task:
+      executable: $CACHE/laa-patcher/EDITBIN.EXE
+      prefix: $GAMEDIR/prefix
+      description: Patching Fallout3.exe with Large Address Aware support
+      arch: win64
+      args: /LARGEADDRESSAWARE Fallout3.exe
+      working_dir: $GAMEDIR
+      name: wineexec
+  - extract:
+      dst: $GAMEDIR
+      file: modpack
+  - extract:
+      dst: $GAMEDIR
+      file: launchmenu
+  - execute:
+      command: 'rm -f "$GAMEDIR/prefix/drive_c/users/$USER/My Documents"
+
+        mkdir -pv "$GAMEDIR/prefix/drive_c/users/$USER/My Documents/My Games/Fallout3"
+
+        rm -f "$GAMEDIR/config"; ln -svrT "$GAMEDIR/prefix/drive_c/users/$USER/My
+        Documents/My Games/Fallout3" "$GAMEDIR/config"
+
+        rm -f "$GAMEDIR/prefix/drive_c/users/$USER/My Documents/My Games/Fallout3/Saves"
+
+        $INPUT_CONFIG_LOCATION && (mkdir -pv "$HOME/Documents/My Games/Fallout3/Saves"
+        "$GAMEDIR/prefix/drive_c/users/$USER/My Documents/My Games/Fallout3"; ln -svT
+        "$HOME/Documents/My Games/Fallout3/Saves" "$GAMEDIR/prefix/drive_c/users/$USER/My
+        Documents/My Games/Fallout3/Saves")
+
+        ln -svfT "$HOME/.local/share/lutris/runners/winesteam/prefix64/drive_c/Program
+        Files (x86)" "$GAMEDIR/prefix/dosdevices/s:"
+
+        '
+  - task:
+      executable: msiexec
+      env:
+        WINEDEBUG: -all
+      description: Installing Games for Windows Live
+      arch: win64
+      args: /i "$GAMEDIR/GFWLive/xliveredist.msi" /passive
+      name: wineexec
+      prefix: $GAMEDIR/prefix
+  - task:
+      executable: regedit
+      prefix: $HOME/.local/share/lutris/runners/winesteam/prefix64
+      description: Exporting Steam registry
+      arch: win64
+      args: /E "$CACHE/steam.reg" 'HKEY_CURRENT_USER\Software\Valve\Steam'
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Importing Steam registry
+      filename: $CACHE/steam.reg
+      arch: win64
+      name: set_regedit_file
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Enabling virtual desktop
+      arch: win64
+      key: WineDesktop
+      value: 1280x720
+      path: HKEY_CURRENT_USER\Software\Wine\Explorer\Desktops
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Enabling virtual desktop
+      arch: win64
+      key: Desktop
+      value: WineDesktop
+      path: HKEY_CURRENT_USER\Software\Wine\Explorer
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: wine.winekill
+  - write_file:
+      content: "\"InstallScript\"\n{\n  \"Registry\"\n  {\n    \"HKEY_LOCAL_MACHINE\\\
+        \\SOFTWARE\\\\Bethesda Softworks\\\\Fallout 3\\\\1.00.0000\"\n    {\n    }\n\
+        \    \"HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Bethesda Softworks\\\\Fallout3\"\n\
+        \    {\n      \"string\"\n      {\n        \"Installed Path\"    \"%INSTALLDIR%\\\
+        \\\"\n      }\n    }\n  }\n  \"Run Process\"\n  {\n  }\n  \"Copy Folders\"\
+        \n  {\n    \"Fallout 3\"\n    {\n      \"SrcFolder 1\"   \"%INSTALLDIR%\\\\\
+        Fallout3\"\n      \"DstFolder 1\"   \"%USER_MYDOCS%\\\\My Games\\\\Fallout3\"\
+        \n    }\n  }\n}\n"
+      file: $GAMEDIR/installscript.vdf
+  - write_file:
+      content: "@ECHO OFF\n\nREG DELETE \"HKEY_CURRENT_USER\\Software\\Valve\\Steam\\\
+        Apps\\22370\" /v Name /f >nul\nREG DELETE \"HKEY_LOCAL_MACHINE\\Software\\\
+        Wow6432Node\\Bethesda Softworks\\Fallout3\" /v \"Installed Path\" /f >nul\n\
+        \nSTART \"\" S:\\Steam\\Steam.exe -no-cef-sandbox -applaunch 22370\n\nREM\
+        \ This is to keep Lutris from stopping Steam before the game is installed\n\
+        REM by running other processes until FalloutLauncher.exe starts\n:Check_Key\n\
+        ping 127.0.0.1 -n 5 >NUL\n\nREG QUERY \"HKEY_CURRENT_USER\\Software\\Valve\\\
+        Steam\\Apps\\22370\" /v Name >nul 2>&1\n(\n    if %errorlevel% equ 0 ( ) else\
+        \ ( GOTO Check_Key )\n)\n\nREG QUERY \"HKEY_LOCAL_MACHINE\\Software\\Wow6432Node\\\
+        Bethesda Softworks\\Fallout3\" /v \"Installed Path\" >nul 2>&1\n(\n    if\
+        \ %errorlevel% equ 0 ( ) else ( GOTO Check_Key )\n)\n\nping 127.0.0.1 -n 5\
+        \ >NUL\nECHO Exit the launcher to complete installation.\n"
+      file: $GAMEDIR/install.bat
+  - task:
+      executable: $GAMEDIR/install.bat
+      env:
+        WINEDEBUG: -all
+      description: 'Configure video settings and enable data files (DLCs).
+
+        Exit the Fallout launcher and Steam to complete installation.
+
+        '
+      arch: win64
+      prefix: $GAMEDIR/prefix
+      overrides:
+        Fallout3.exe: disabled
+      exclude_processes: Fallout3.exe Steam.exe steamwebhelper.exe wineconsole wineserver
+      name: wineexec
+  - task:
+      executable: cmd
+      env:
+        WINEDEBUG: -all
+      description: Closing Steam...
+      arch: win64
+      prefix: $GAMEDIR/prefix
+      overrides:
+        Fallout3.exe: disabled
+      include_processes: Steam.exe
+      args: /c S:\\Steam\\Steam.exe -shutdown
+      exclude_processes: Fallout3.exe
+      name: wineexec
+  winesteam:
+    WineDesktop: 1280x720
+    run_without_steam: true
+    overrides:
+      winegstreamer: disabled
+      gameoverlayrenderer: disabled
+    Desktop: true
+  system:
+    env:
+      __GL_THREADED_OPTIMIZATIONS: '1'
+      mesa_glthread: 'true'
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR/prefix
+      __GL_SHADER_DISK_CACHE: '1'
+  files:
+  - wallpaper: https://gist.github.com/daniel-j/28c6d207c5393aa64c3a9d8ee26d1425/raw/wallpaper-fallout3.tar.xz
+  - laa-patcher: https://gist.github.com/daniel-j/28c6d207c5393aa64c3a9d8ee26d1425/raw/laa-patcher.tar.xz
+  - launchmenu: https://gist.github.com/daniel-j/8194c168cff79e57960eed7080e8516b/archive/master.tar.gz
+  - modpack: https://djazz.se/nas/games/fallout3/modpack.tar.xz
+  game:
+    prefix: $GAMEDIR/prefix
+    steamless_binary: $GAMEDIR/launch.exe
+    run_without_steam: true
+    appid: 22300
+    arch: win64

@@ -1,0 +1,20 @@
+name: "720\xBA"
+slug: 720o
+year: 1986
+platforms:
+- name: Amstrad CPC 464
+- name: Arcade
+- name: Commodore 64
+- name: NES
+- name: Nintendo Game Boy Color
+- name: ZX Spectrum
+genres:
+- name: Sports
+aliases: []
+banner_url: /games/banner/720o.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:09.508181Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

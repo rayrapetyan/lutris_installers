@@ -1,0 +1,24 @@
+id: 8214
+game_id: 3219
+game_slug: dcs-world
+name: DCS World
+year: 2008
+user: soredake
+runner: winesteam
+slug: dcs-world-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T07:13:31.224752Z'
+updated_at: '2018-05-11T22:39:52.467310Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 223750
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 223750

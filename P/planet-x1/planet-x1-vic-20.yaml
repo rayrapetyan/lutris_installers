@@ -1,0 +1,29 @@
+id: 7193
+game_id: 16264
+game_slug: planet-x1
+name: Planet X1
+year: 2009
+user: t-rex91
+runner: vice
+slug: planet-x1-vic-20
+version: VIC-20
+description: null
+notes: ''
+created_at: '2018-01-30T15:06:45.495000Z'
+updated_at: '2018-01-30T22:50:34.151207Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: planetx1
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $game
+  files:
+  - game: http://www.the8bitguy.com/wp-content/uploads/2017/02/planetx1-1.zip

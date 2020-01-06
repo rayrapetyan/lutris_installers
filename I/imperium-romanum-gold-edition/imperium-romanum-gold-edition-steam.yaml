@@ -1,0 +1,24 @@
+id: 9358
+game_id: 1167
+game_slug: imperium-romanum-gold-edition
+name: 'Imperium Romanum: Gold Edition'
+year: null
+user: Magbed
+runner: winesteam
+slug: imperium-romanum-gold-edition-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-24T21:14:47.398000Z'
+updated_at: '2018-08-02T07:38:18.914843Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 23400
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 23400

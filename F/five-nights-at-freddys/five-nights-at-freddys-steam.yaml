@@ -1,0 +1,24 @@
+id: 6796
+game_id: 2609
+game_slug: five-nights-at-freddys
+name: Five Nights at Freddy's
+year: null
+user: soredake
+runner: winesteam
+slug: five-nights-at-freddys-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-23T21:08:58.765335Z'
+updated_at: '2017-12-23T21:09:07.493469Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 319510
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 319510

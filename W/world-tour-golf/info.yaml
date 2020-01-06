@@ -1,0 +1,18 @@
+name: World Tour Golf
+slug: world-tour-golf
+year: 1985
+platforms:
+- name: Amiga
+- name: Apple IIGS
+- name: Commodore 64
+- name: MS-DOS
+genres:
+- name: Sports
+aliases: []
+banner_url: /games/banner/world-tour-golf.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:10.866025Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

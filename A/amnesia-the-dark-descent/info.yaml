@@ -1,0 +1,15 @@
+name: 'Amnesia: The Dark Descent'
+slug: amnesia-the-dark-descent
+year: 2010
+platforms:
+- name: Linux
+genres:
+- name: Horror
+aliases: []
+banner_url: /games/banner/amnesia-the-dark-descent.jpg
+icon_url: /games/icon/amnesia-the-dark-descent.png
+is_public: true
+updated: '2019-01-23T22:02:34.390474Z'
+steamid: 57300
+gogslug: amnesia_the_dark_descent
+humblestoreid: ''

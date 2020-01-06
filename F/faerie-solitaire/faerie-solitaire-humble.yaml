@@ -1,0 +1,33 @@
+id: 4227
+game_id: 478
+game_slug: faerie-solitaire
+name: Faerie Solitaire
+year: null
+user: FakeShemp
+runner: wine
+slug: faerie-solitaire-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-08T18:32:36.507770Z'
+updated_at: '2018-05-19T03:41:50.309308Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 38600
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Faerie Solitaire/Faerie Solitaire.exe
+    arch: win32

@@ -1,0 +1,27 @@
+id: 6966
+game_id: 15168
+game_slug: starlit-flowers
+name: Starlit Flowers
+year: 2016
+user: FakeShemp
+runner: web
+slug: starlit-flowers-online
+version: Online
+description: null
+notes: ''
+created_at: '2018-01-02T17:18:09.260773Z'
+updated_at: '2018-01-02T17:18:57.297074Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  web:
+    open_links: true
+    window_size: 1280x720
+  game:
+    main_file: http://sandbox-adventure.com/starlit-flowers/

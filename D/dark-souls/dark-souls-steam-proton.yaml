@@ -1,0 +1,24 @@
+id: 12558
+game_id: 819
+game_slug: dark-souls
+name: Dark Souls
+year: 2012
+user: Zekromaster
+runner: steam
+slug: dark-souls-steam-proton
+version: Steam Proton
+description: Enable Proton for all games
+notes: ''
+created_at: '2019-03-29T12:06:47.755000Z'
+updated_at: '2019-05-21T23:57:11.086777Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 211420
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 211420

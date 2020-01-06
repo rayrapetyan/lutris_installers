@@ -1,0 +1,16 @@
+name: Asteroids
+slug: asteroids
+year: 1979
+platforms:
+- name: Arcade
+genres:
+- name: Arcade
+- name: Shooter
+aliases: []
+banner_url: /games/banner/asteroids.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:27.672515Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

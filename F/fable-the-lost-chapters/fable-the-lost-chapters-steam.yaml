@@ -1,0 +1,24 @@
+id: 4184
+game_id: 421
+game_slug: fable-the-lost-chapters
+name: 'Fable: The Lost Chapters'
+year: 2005
+user: coco
+runner: winesteam
+slug: fable-the-lost-chapters-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-06-07T01:13:57.958742Z'
+updated_at: '2017-06-07T21:20:22.419530Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 204030
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 204030

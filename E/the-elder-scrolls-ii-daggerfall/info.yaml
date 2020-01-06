@@ -1,0 +1,16 @@
+name: 'The Elder Scrolls II: Daggerfall'
+slug: the-elder-scrolls-ii-daggerfall
+year: 1996
+platforms:
+- name: MS-DOS
+genres:
+- name: Action
+- name: RPG
+aliases: []
+banner_url: /games/banner/the-elder-scrolls-ii-daggerfall.jpg
+icon_url: /games/icon/the-elder-scrolls-ii-daggerfall.png
+is_public: true
+updated: '2019-01-23T08:31:40.699690Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

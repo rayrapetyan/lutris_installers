@@ -1,0 +1,30 @@
+id: 17089
+game_id: 6037
+game_slug: tree-of-savior-english-ver
+name: Tree of Savior (English Ver.)
+year: 2016
+user: yasmisan
+runner: winesteam
+slug: tree-of-savior-english-ver-japanese-ver
+version: Japanese Ver.
+description: Changed appid to be the id for Japanese Ver.
+notes: ''
+created_at: '2019-11-29T15:41:38.682000Z'
+updated_at: '2019-12-23T10:50:18.038629Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 372000
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Installing vcrun2017...
+      app: vcrun2017
+      name: winetricks
+  game:
+    appid: 1175730

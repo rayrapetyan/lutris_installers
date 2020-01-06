@@ -1,0 +1,24 @@
+id: 8990
+game_id: 19675
+game_slug: taste-of-power
+name: Taste of Power
+year: 2018
+user: TuiorGames
+runner: steam
+slug: taste-of-power-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-02T13:54:50.631859Z'
+updated_at: '2018-07-02T15:55:52.979715Z'
+draft: true
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 758250

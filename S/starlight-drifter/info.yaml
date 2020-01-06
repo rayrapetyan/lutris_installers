@@ -1,0 +1,16 @@
+name: Starlight Drifter
+slug: starlight-drifter
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: RPG
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/starlight-drifter.jpg
+icon_url: /games/icon/starlight-drifter.png
+is_public: true
+updated: '2019-01-23T08:31:24.379901Z'
+steamid: 326060
+gogslug: ''
+humblestoreid: ''

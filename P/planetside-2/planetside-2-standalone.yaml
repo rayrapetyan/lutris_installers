@@ -1,0 +1,57 @@
+id: 3396
+game_id: 744
+game_slug: planetside-2
+name: PlanetSide 2 - Nanite Systems Operatives
+year: 2012
+user: Dandellion
+runner: wine
+slug: planetside-2-standalone
+version: Standalone
+description: null
+notes: Does not work because of anti-cheat.
+created_at: '2017-03-25T02:55:38.368000Z'
+updated_at: '2018-07-08T23:21:41.868682Z'
+draft: false
+published: true
+published_by: null
+rating: '1'
+steamid: 218230
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing corefonts
+      app: corefonts
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing DirectX9 D3D v43
+      app: d3dx9_43
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing DirectX9 D3D v43
+      app: d3dcompiler_43
+      arch: win32
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: ' Installing the game When installing DirectX9 press cancel. Exit
+        the launcher to finish install'
+      name: wineexec
+  files:
+  - setup: https://launch.daybreakgames.com/installer/PS2_setup.exe
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/users/Public/Daybreak Game Company/Installed Games/PlanetSide
+      2/LaunchPad.exe
+    arch: win64

@@ -1,0 +1,17 @@
+name: 'SWAT 4: Gold Edition'
+slug: swat-4-gold-edition
+year: 2005
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases:
+- slug: swat-4
+  name: SWAT 4
+banner_url: /games/banner/swat-4-gold-edition.jpg
+icon_url: /games/icon/swat-4-gold-edition.png
+is_public: true
+updated: '2019-03-12T06:36:17.939454Z'
+steamid: null
+gogslug: swat_4_gold_edition
+humblestoreid: ''

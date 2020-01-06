@@ -1,0 +1,27 @@
+id: 7247
+game_id: 3032
+game_slug: majesty-gold-hd
+name: Majesty Gold HD
+year: null
+user: DreiK
+runner: winesteam
+slug: majesty-gold-hd-steam
+version: Steam
+description: null
+notes: "When open the game, if Microsoft VC Redist Package is take Forever to Install.\
+  \ Just go to Lutris > configure>game options \r\nand mark Do not launch the game,\
+  \ only open steam.\r\nOn steam go to Majesty Gold HD, and open the folder of install.\
+  \ \r\nGo to _CommonRedist and delete the file: installscript.vdf"
+created_at: '2018-02-05T22:24:06.724000Z'
+updated_at: '2018-02-07T22:59:35.622949Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 73230
+gogid: 1423481910
+gogslug: majesty_gold_hd
+humblestoreid: ''
+script:
+  game:
+    appid: 73230

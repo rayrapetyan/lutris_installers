@@ -1,0 +1,17 @@
+name: 'Vampire: The Masquerade - Bloodlines'
+slug: vampire-the-masquerade-bloodlines
+year: 2004
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Horror
+- name: Role-playing
+aliases: []
+banner_url: /games/banner/vampire-the-masquerade-bloodlines.jpg
+icon_url: /games/icon/vampire-the-masquerade-bloodlines.png
+is_public: true
+updated: '2019-06-13T16:12:24.118488Z'
+steamid: 2600
+gogslug: vampire_the_masquerade_bloodlines
+humblestoreid: ''

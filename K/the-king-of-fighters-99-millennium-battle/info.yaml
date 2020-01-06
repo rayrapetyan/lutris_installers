@@ -1,0 +1,18 @@
+name: 'The King of Fighters ''99: Millennium Battle'
+slug: the-king-of-fighters-99-millennium-battle
+year: 1999
+platforms:
+- name: Arcade
+- name: Neo Geo
+- name: Neo Geo CD
+- name: Sony PlayStation
+genres:
+- name: Fighting
+aliases: []
+banner_url: /games/banner/the-king-of-fighters-99-millennium-battle.jpg
+icon_url: null
+is_public: true
+updated: '2019-03-05T06:31:27.247893Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

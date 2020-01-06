@@ -1,0 +1,16 @@
+name: 'The Legend of Zelda: Parallel Worlds'
+slug: the-legend-of-zelda-parallel-worlds
+year: 2015
+platforms:
+- name: Super Nintendo
+genres:
+- name: Action
+- name: RPG
+aliases: []
+banner_url: /games/banner/the-legend-of-zelda-parallel-worlds.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:43.841869Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

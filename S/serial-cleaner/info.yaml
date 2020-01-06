@@ -1,0 +1,16 @@
+name: Serial Cleaner
+slug: serial-cleaner
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Stealth
+aliases: []
+banner_url: /games/banner/serial-cleaner.jpg
+icon_url: /games/icon/serial-cleaner.png
+is_public: true
+updated: '2019-12-15T18:14:52.837837Z'
+steamid: 522210
+gogslug: serial_cleaner
+humblestoreid: ''

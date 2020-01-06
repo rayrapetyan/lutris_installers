@@ -1,0 +1,15 @@
+name: Neptunia Shooter
+slug: neptunia-shooter
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/neptunia-shooter.jpg
+icon_url: /games/icon/neptunia-shooter.png
+is_public: true
+updated: '2019-10-18T03:51:32.555366Z'
+steamid: 1037590
+gogslug: ''
+humblestoreid: ''

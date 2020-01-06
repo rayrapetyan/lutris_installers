@@ -1,0 +1,15 @@
+name: 8BitMMO
+slug: 8bitmmo
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: MMO
+aliases: []
+banner_url: /games/banner/8bitmmo.jpg
+icon_url: /games/icon/8bitmmo.png
+is_public: true
+updated: '2019-01-23T08:28:09.878662Z'
+steamid: 250420
+gogslug: ''
+humblestoreid: ''

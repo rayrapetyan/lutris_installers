@@ -1,0 +1,17 @@
+name: Aerannis
+slug: aerannis
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Platform
+- name: Stealth
+aliases: []
+banner_url: /games/banner/aerannis.jpg
+icon_url: /games/icon/aerannis.png
+is_public: true
+updated: '2019-01-23T08:28:12.802905Z'
+steamid: 356580
+gogslug: ''
+humblestoreid: ''

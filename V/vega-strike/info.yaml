@@ -1,0 +1,19 @@
+name: Vega Strike
+slug: vega-strike
+year: 2007
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Simulation
+- name: Space flight
+- name: Space simulation
+- name: Strategy
+aliases: []
+banner_url: /games/banner/vega-strike.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:01.744550Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

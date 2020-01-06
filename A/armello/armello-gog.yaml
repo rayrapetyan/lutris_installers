@@ -1,0 +1,37 @@
+id: 2321
+game_id: 4349
+game_slug: armello
+name: Armello
+year: 2015
+user: Lulu
+runner: linux
+slug: armello-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2016-07-21T20:02:17.727809Z'
+updated_at: '2016-08-20T05:04:05.401165Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 290340
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Game/start.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/Game
+  files:
+  - game: 'N/A: Plese select the GOG.com Linux installer'
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

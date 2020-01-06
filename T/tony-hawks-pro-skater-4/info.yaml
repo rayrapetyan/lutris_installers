@@ -1,0 +1,18 @@
+name: Tony Hawk's Pro Skater 4
+slug: tony-hawks-pro-skater-4
+year: 2003
+platforms:
+- name: GameCube
+- name: Sony PlayStation
+- name: Sony PlayStation 2
+- name: Windows
+genres:
+- name: Sports
+aliases: []
+banner_url: /games/banner/tony-hawks-pro-skater-4.jpg
+icon_url: null
+is_public: true
+updated: '2019-12-17T19:07:38.153647Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

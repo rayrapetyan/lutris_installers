@@ -1,0 +1,53 @@
+id: 12740
+game_id: 11162
+game_slug: tom-clancys-ghost-recon-wildlands
+name: "Tom Clancy's Ghost Recon\xAE Wildlands"
+year: 2017
+user: LONEWOLF
+runner: wine
+slug: tom-clancys-ghost-recon-wildl-uplay-w-dxvk
+version: Uplay w/ DXVK
+description: Uplay installer. Just download the game from the Uplay menu.
+notes: ''
+created_at: '2019-04-12T00:10:53.927000Z'
+updated_at: '2019-04-13T05:47:27.226688Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 460930
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/Uplay.exe
+    arch: win64
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: corefonts
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2010 vcrun2012 vcrun2015 win10
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /S
+      name: wineexec
+  wine:
+    version: tkg-4.3-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      nvapi,nvapi64: disabled
+      xaudio2_7: native,builtin
+  files:
+  - setup: https://ubistatic3-a.akamaihd.net/orbit/launcher_installer/UplayInstaller.exe

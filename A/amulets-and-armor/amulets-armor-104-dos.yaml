@@ -1,0 +1,42 @@
+id: 1741
+game_id: 5331
+game_slug: amulets-and-armor
+name: Amulets & Armor
+year: 1997
+user: Xodetaetl
+runner: dosbox
+slug: amulets-armor-104-dos
+version: 1.04 DOS
+description: Free game download included
+notes: ''
+created_at: '2015-12-22T11:11:24.149850Z'
+updated_at: '2016-02-02T17:06:13.268787Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: dosbox.conf
+  dosbox:
+    scaler: hq3x
+  installer:
+  - extract:
+      file: $archive
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/dosbox_lutris.conf
+  - write_config:
+      section: sdl
+      key: fullresolution
+      value: original
+      file: $GAMEDIR/dosbox_lutris.conf
+  files:
+  - archive: http://lutris.net/files/games/amulets-and-armor/AAClassicV1.04_DOS.zip
+  game:
+    config_file: $GAMEDIR/dosbox_lutris.conf

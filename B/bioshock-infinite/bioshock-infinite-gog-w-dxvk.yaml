@@ -1,0 +1,67 @@
+id: 13823
+game_id: 822
+game_slug: bioshock-infinite
+name: BioShock Infinite
+year: 2013
+user: jacksapper
+runner: wine
+slug: bioshock-infinite-gog-w-dxvk
+version: GOG w/ DXVK
+description: GOG only sells the Windows version, but it still runs with Wine + DXVK
+notes: "The GOG installer will throw error messages towards the end.  Continue to\
+  \ click OK on these error messages and the install will still complete successfully.\r\
+  \n\r\nThis game doesn't have a gog gameslug yet, so you'll have to manually download\
+  \ the installer from gog."
+created_at: '2019-05-31T02:14:36.808000Z'
+updated_at: '2019-06-12T04:16:58.942730Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 8870
+gogid: null
+gogslug: ''
+humblestoreid: bioshock-infinite
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - extract:
+      dst: $CACHE/dxsetup
+      file: dx2010
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR
+      args: /silent
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2012 vcrun2013 faudio win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /SP- /NOCANCEL /SUPPRESSMSGBOXES
+      description: Installing Bioshock Infinite
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/BioShock Infinite/Binaries/Win32/BioShockInfinite.exe
+    arch: win64
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+    pulse_latency: false
+  wine:
+    version: tkg-4.6-x86_64
+    dxvk: true
+    Desktop: false
+  files:
+  - dx2010: https://lutris.net/files/tools/directx-2010.tar.gz
+  - setup: N/A:Select the game's setup file

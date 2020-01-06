@@ -1,0 +1,16 @@
+name: Hot Wheels Turbo Racing
+slug: hot-wheels-turbo-racing
+year: 1999
+platforms:
+- name: Nintendo 64
+- name: Sony PlayStation
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/hot-wheels-turbo-racing.jpg
+icon_url: /games/icon/hot-wheels-turbo-racing.png
+is_public: true
+updated: '2019-01-23T08:29:52.610895Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

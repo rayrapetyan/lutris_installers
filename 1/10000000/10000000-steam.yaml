@@ -1,0 +1,24 @@
+id: 315
+game_id: 486
+game_slug: '10000000'
+name: 10,000,000
+year: 2013
+user: strider
+runner: steam
+slug: 10000000-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-20T00:21:44.268000Z'
+updated_at: '2013-12-20T00:21:44.269000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 227580
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 227580

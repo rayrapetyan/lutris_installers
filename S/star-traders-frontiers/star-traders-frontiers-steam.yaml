@@ -1,0 +1,24 @@
+id: 7754
+game_id: 14821
+game_slug: star-traders-frontiers
+name: 'Star Traders: Frontiers'
+year: 2017
+user: mishugashu
+runner: steam
+slug: star-traders-frontiers-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-04-03T16:08:58.628000Z'
+updated_at: '2018-04-05T23:18:06.539495Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 335620
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 335620

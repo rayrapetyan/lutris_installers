@@ -1,0 +1,15 @@
+name: Kraptor
+slug: kraptor
+year: 2002
+platforms:
+- name: Linux
+genres:
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/kraptor.jpg
+icon_url: /games/icon/kraptor.png
+is_public: true
+updated: '2019-01-23T08:30:06.631866Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

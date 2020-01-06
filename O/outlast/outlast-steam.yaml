@@ -1,0 +1,24 @@
+id: 1439
+game_id: 1572
+game_slug: outlast
+name: Outlast
+year: 2013
+user: Xodetaetl
+runner: steam
+slug: outlast-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-03-31T20:35:47.098000Z'
+updated_at: '2015-03-31T20:35:50.997000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 238320
+gogid: 1207660064
+gogslug: outlast
+humblestoreid: ''
+script:
+  game:
+    appid: 238320

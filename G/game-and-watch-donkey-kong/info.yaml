@@ -1,0 +1,16 @@
+name: 'Game and Watch: Donkey Kong'
+slug: game-and-watch-donkey-kong
+year: 1982
+platforms:
+- name: Browser
+- name: Windows
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/game-and-watch-donkey-kong.jpg
+icon_url: /games/icon/game-and-watch-donkey-kong.png
+is_public: true
+updated: '2019-04-09T15:29:48.744583Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 310
+game_id: 759
+game_slug: penumbra-black-plague
+name: 'Penumbra: Black Plague'
+year: null
+user: strider
+runner: steam
+slug: penumbra-black-plague-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-20T00:21:43.874000Z'
+updated_at: '2013-12-20T00:21:43.874000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 22120
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 22120

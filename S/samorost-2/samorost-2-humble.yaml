@@ -1,0 +1,32 @@
+id: 3956
+game_id: 167
+game_slug: samorost-2
+name: Samorost 2
+year: 2009
+user: FakeShemp
+runner: web
+slug: samorost-2-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-29T19:35:52.383000Z'
+updated_at: '2017-05-30T00:29:33.893165Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 40720
+gogid: 1435321049
+gogslug: samorost2
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: $file1
+  web:
+    enable_flash: true
+    window_size: 1024x768
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    main_file: $GAMEDIR/Samorost2.html

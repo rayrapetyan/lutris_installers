@@ -1,0 +1,66 @@
+id: 14525
+game_id: 28411
+game_slug: adobe-creativecloud
+name: Adobe Creative Cloud
+year: null
+user: FireBlackHat
+runner: wine
+slug: adobe-creative-cloud-latest-64bit
+version: Latest 64bit
+description: 64 Bit Adobe Products.
+notes: You may experience crash.
+created_at: '2019-07-11T08:14:38.182000Z'
+updated_at: '2019-07-25T19:36:05.272348Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      app: fontsmooth=rgb gdiplus vcrun2008 vcrun2010 vcrun2012 vcrun2013 vcrun2015
+        vcrun2017 atmlib msxml3 msxml6 corefonts msls31 riched20 tahoma win81
+      arch: win64
+      silent: true
+      name: winetricks
+  - extract:
+      format: zip
+      dst: $CACHE/CreativeCloud-Setup
+      file: offline_files
+  - move:
+      src: installer
+      dst: $CACHE/CreativeCloud-Setup
+  - task:
+      executable: $CACHE/CreativeCloud-Setup/CreativeCloudSet-Up.exe
+      prefix: $GAMEDIR
+      description: Installing Creative Cloud... - WARNING Please Quit CC From Menu
+        and signin after Installation finished.
+      arch: win64
+      exclude_processes: AGSService.exe AdobeIPCBroker.exe AdobeUpdateService.exe
+        "Adobe Desktop Service.exe"
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files (x86)/Adobe/Adobe Creative Cloud/ACC/Creative
+      Cloud.exe
+    arch: win64
+  system:
+    env:
+      __GL_THREADED_OPTIMIZATIONS: 1
+      mesa_glthread: 'true'
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      PBA_DISABLE: 0
+      __GL_SHADER_DISK_CACHE: 1
+    pulse_latency: true
+  wine:
+    version: ge-protonified-4.10-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - installer: https://ccmdls.adobe.com/AdobeProducts/KCCC/1/win32/CreativeCloudSet-Up.exe
+  - offline_files: http://ccmdl.adobe.com/AdobeProducts/KCCC/1/win32/ACCCx4_8_2_478.zip

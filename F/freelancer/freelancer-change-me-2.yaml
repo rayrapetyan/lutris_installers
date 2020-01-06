@@ -1,0 +1,132 @@
+id: 17408
+game_id: 18262
+game_slug: freelancer
+name: Freelancer
+year: 2003
+user: Nodoka_Hanamura
+runner: wine
+slug: freelancer-change-me-2
+version: Change Me
+description: "Includes the following:\r\n\r\n- Official 1.1 patch\r\n- Jason's Freelancer\
+  \ Patch (for widescreen support)\r\n- Draw distance extender (optional)"
+notes: I haven't set wine version as any recent one will work. An esync supporting
+  version is recommended for slightly better performance.
+created_at: '2019-12-18T05:31:49.424709Z'
+updated_at: '2019-12-18T05:31:49.424741Z'
+draft: false
+published: false
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/Microsoft Games/Freelancer/EXE/Freelancer.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - insert-disc:
+      requires: setup.exe
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      description: Installing Freelancer. Please choose "Express install".
+      name: wineexec
+  - execute:
+      command: mkdir -p '$GAMEDIR/drive_c/users/$USER/My Documents/My Games/Freelancer/'
+      description: Creating configuration directory
+  - move:
+      src: perfoptions
+      description: Creating confiugration file
+      dst: $GAMEDIR/drive_c/users/$USER/My Documents/My Games/Freelancer/PerfOptions.ini
+  - task:
+      executable: officialpatch
+      prefix: $GAMEDIR
+      description: Installing 1.1 patch...
+      name: wineexec
+  - task:
+      executable: wmfdist
+      prefix: $GAMEDIR
+      description: Installing required audio codecs (prevents in-game stuttering)
+      name: wineexec
+  - move:
+      src: nocd
+      description: Installing no-cd
+      dst: $GAMEDIR/drive_c/Program Files/Microsoft Games/Freelancer/EXE/Freelancer.exe
+  - move:
+      src: msacm32
+      description: Adding msacm32.dll (saves downloading a 300mb file from winetricks)
+      dst: $GAMEDIR/drive_c/Program Files/Microsoft Games/Freelancer/EXE/msacm32.dll
+  - task:
+      executable: jflp
+      prefix: $GAMEDIR
+      description: Installing Jason's Freelancer Patch for widescreen support...
+      name: wineexec
+  - execute:
+      command: "echo \"Setting in game resolution to $RESOLUTION_WIDTH x $RESOLUTION_HEIGHT...\"\
+        \n\nsed \"s/size\\s*=.*/size=$RESOLUTION_WIDTH, $RESOLUTION_HEIGHT /\" \"\
+        $GAMEDIR/drive_c/users/$USER/My Documents/My Games/Freelancer/PerfOptions.ini\"\
+        \ -i\nsed \"s/color_bpp\\s*=.*/color_bpp=32/\" \"$GAMEDIR/drive_c/users/$USER/My\
+        \ Documents/My Games/Freelancer/PerfOptions.ini\" -i\nsed \"s/depth_bpp\\\
+        s*=.*/depth_bpp=32/\" \"$GAMEDIR/drive_c/users/$USER/My Documents/My Games/Freelancer/PerfOptions.ini\"\
+        \ -i\necho \"...done\"\n\nif [ $RESOLUTION_HEIGHT -gt 1500 ]\nthen\n  echo\
+        \ \"Your resolution's height is larger than 1500 pixels, this causes Freelancer\
+        \ to render fonts incorrectly on both windows and linux\"\n  echo \"Applying\
+        \ font patch...\"\n  cp $CACHE/hidpi_fonts.ini \"$GAMEDIR/drive_c/Program\
+        \ Files/Microsoft Games/Freelancer/DATA/FONTS/fonts.ini\"\n  echo \"...done\"\
+        \nfi\n# Symlink steamuser to the main user directory so Proton uses the same\
+        \ PerfOptions.ini\nln -sf \"$GAMEDIR/drive_c/users/$USER\" \"$GAMEDIR/drive_c/users/steamuser\"\
+        \necho \"Complete!\"\n"
+      description: Setting game resolution your screen's native resolution
+  - input_menu:
+      options:
+      - y: 'Yes'
+      - n: 'No'
+      description: Increase draw distances?
+      id: DRAWDISTANCE
+      preselect: y
+  - execute:
+      command: "if [ $INPUT = 'n' ]\nthen\n  echo \"...skipping\"\nfi\nif [ $INPUT\
+        \ = 'y' ]\nthen\n  echo \"Increasing game draw distance...\"\n  sed \"s/LODranges.*/LODranges\
+        \ = 0, 99999/\" \"$GAMEDIR/drive_c/Program Files/Microsoft Games/Freelancer/DATA/SHIPS/shiparch.ini\"\
+        \ -i\n  sed \"s/LODranges.*/LODranges = 0, 99999/\" \"$GAMEDIR/drive_c/Program\
+        \ Files/Microsoft Games/Freelancer/DATA/SHIPS/rtc_shiparch.ini\" -i\n  sed\
+        \ \"s/LODranges.*/LODranges = 0, 99999/\" \"$GAMEDIR/drive_c/Program Files/Microsoft\
+        \ Games/Freelancer/DATA/SOLAR/solararch.ini\" -i\n  sed \"s/LODranges.*/LODranges\
+        \ = 0, 99999/\" \"$GAMEDIR/drive_c/Program Files/Microsoft Games/Freelancer/DATA/EQUIPMENT/select_equip.ini\"\
+        \ -i\n  sed \"s/LODranges.*/LODranges = 0, 99999/\" \"$GAMEDIR/drive_c/Program\
+        \ Files/Microsoft Games/Freelancer/DATA/EQUIPMENT/weapon_equip.ini\" -i\n\
+        \  sed \"s/LODranges.*/LODranges = 0, 99999/\" \"$GAMEDIR/drive_c/Program\
+        \ Files/Microsoft Games/Freelancer/DATA/EQUIPMENT/misc_equip.ini\" -i\n  sed\
+        \ \"s/LODranges.*/LODranges = 0, 99999/\" \"$GAMEDIR/drive_c/Program Files/Microsoft\
+        \ Games/Freelancer/DATA/EQUIPMENT/st_equip.ini\" -i\n  cp $CACHE/Freelancer_IncreasedDrawDistance.exe\
+        \ \"$GAMEDIR/drive_c/Program Files/Microsoft Games/Freelancer/EXE/Freelancer.exe\"\
+        \n\n  echo \"...done\"\nfi\necho \"Complete!\"\n"
+      description: Draw distance patch
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_DWORD
+      value: 00000008
+      key: SampleCount
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D
+  wine:
+    overrides:
+      msacm32.dll: n,b
+  files:
+  - officialpatch: https://r.je/freelancer/flpatch.exe
+  - jflp: https://r.je/freelancer/jflp.exe
+  - nocd: https://r.je/freelancer/Freelancer.exe
+  - perfoptions: https://r.je/freelancer/PerfOptions.ini
+  - msacm32: https://r.je/freelancer/msacm32.dll
+  - highdrawexe: https://r.je/freelancer/Freelancer_IncreasedDrawDistance.exe
+  - hidpifontsfix: https://r.je/freelancer/hidpi_fonts.ini
+  - wmfdist: https://r.je/freelancer/WMFDIST.EXE

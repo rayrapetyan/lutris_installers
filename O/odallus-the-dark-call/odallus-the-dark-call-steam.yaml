@@ -1,0 +1,26 @@
+id: 5176
+game_id: 8254
+game_slug: odallus-the-dark-call
+name: 'Odallus: The Dark Call'
+year: null
+user: BlasterPR
+runner: winesteam
+slug: odallus-the-dark-call-steam
+version: Steam
+description: I works with the controller now, let me know if it you have problems.
+notes: ''
+created_at: '2017-07-24T14:59:02.012000Z'
+updated_at: '2018-05-26T10:59:04.559542Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 319480
+gogid: 1435937720
+gogslug: odallus_the_dark_call
+humblestoreid: ''
+script:
+  winesteam:
+    UseXVidMode: true
+  game:
+    appid: '319480'

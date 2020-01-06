@@ -1,0 +1,37 @@
+id: 4331
+game_id: 11712
+game_slug: christmas-life-hd
+name: Christmas-Life HD
+year: 2014
+user: FakeShemp
+runner: wine
+slug: christmas-life-hd-30129
+version: '30129'
+description: ''
+notes: ''
+created_at: '2017-06-13T14:29:30.091527Z'
+updated_at: '2018-05-19T03:41:52.204749Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: d3dx9
+      name: winetricks
+  files:
+  - file1: http://www.polygon-art.com/files/CLHD_setup_v30129.exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Christmas-Life HD/Play.exe
+    arch: win32

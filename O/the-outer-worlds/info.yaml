@@ -1,0 +1,15 @@
+name: The Outer Worlds
+slug: the-outer-worlds
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/the-outer-worlds.jpg
+icon_url: /games/icon/the-outer-worlds.png
+is_public: true
+updated: '2019-10-31T01:01:10.628147Z'
+steamid: 578650
+gogslug: ''
+humblestoreid: ''

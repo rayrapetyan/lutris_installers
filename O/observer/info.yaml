@@ -1,0 +1,17 @@
+name: Observer
+slug: observer
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Horror
+- name: Sci-fi
+aliases: []
+banner_url: /games/banner/observer.jpg
+icon_url: /games/icon/observer.png
+is_public: true
+updated: '2019-01-23T08:30:34.882193Z'
+steamid: 514900
+gogslug: observer
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 230
+game_id: 766
+game_slug: magical-diary
+name: Magical Diary
+year: null
+user: strider
+runner: steam
+slug: magical-diary-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-19T23:56:19.119000Z'
+updated_at: '2013-12-19T23:56:19.120000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 211340
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 211340

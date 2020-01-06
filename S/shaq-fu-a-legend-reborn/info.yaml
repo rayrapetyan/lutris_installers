@@ -1,0 +1,17 @@
+name: 'Shaq Fu: A Legend Reborn'
+slug: shaq-fu-a-legend-reborn
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Arcade
+- name: Fighting
+aliases: []
+banner_url: /games/banner/shaq-fu-a-legend-reborn.jpg
+icon_url: null
+is_public: true
+updated: '2019-02-15T16:35:35.542676Z'
+steamid: 496040
+gogslug: shaqfu_a_legend_reborn
+humblestoreid: ''

@@ -1,0 +1,33 @@
+id: 7654
+game_id: 12254
+game_slug: tekken-7
+name: TEKKEN 7
+year: 2017
+user: Zuiron
+runner: winesteam
+slug: tekken-7-steam-dxvk
+version: Steam DXVK
+description: null
+notes: "Disable controller vibration in the game options, otherwise the motors will\
+  \ go out of control until the game exits.\r\n\r\nLeft and right analog triggers\
+  \ can't be mapped in the controller configuration, but those buttons are not used\
+  \ in the default layout."
+created_at: '2018-03-25T14:47:56.408000Z'
+updated_at: '2019-02-16T04:46:57.486353Z'
+draft: false
+published: true
+published_by: 19464
+rating: '4'
+steamid: 389730
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  system:
+    pulse_latency: true
+  game:
+    appid: 389730
+    arch: win64

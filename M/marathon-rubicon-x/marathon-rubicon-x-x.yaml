@@ -1,0 +1,34 @@
+id: 7170
+game_id: 7753
+game_slug: marathon-rubicon-x
+name: 'Marathon: Rubicon X'
+year: 2006
+user: johannesg
+runner: linux
+slug: marathon-rubicon-x-x
+version: X
+description: null
+notes: ''
+created_at: '2018-01-27T11:13:28.870000Z'
+updated_at: '2018-05-04T19:34:41.313218Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: alephone-x64
+  - extract:
+      nomerge: true
+      file: rubicon-data
+  files:
+  - alephone-x64: https://lutris.net/files/games/marathon/alephone-20171020-x86_64.tar.gz
+  - rubicon-data: http://files5.bungie.org/marathon/marathonRubiconX.zip
+  game:
+    args: "$GAMEDIR/Rubicon\\ X\\ \u0192"
+    exe: $GAMEDIR/bin/alephone

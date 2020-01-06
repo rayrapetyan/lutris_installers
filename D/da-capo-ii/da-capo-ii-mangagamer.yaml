@@ -1,0 +1,38 @@
+id: 14991
+game_id: 28518
+game_slug: da-capo-ii
+name: Da Capo II
+year: 2006
+user: lightking813
+runner: wine
+slug: da-capo-ii-mangagamer
+version: MangaGamer
+description: Manga Gamer Install for the game with the codec pack with my hope that
+  it fixes the problems with the cutscenes
+notes: Forked from the Shera my witch install (since both are from manga gamer) tweaked
+  to fit Da Capo 2
+created_at: '2019-08-13T13:25:02.396130Z'
+updated_at: '2019-10-06T20:11:01.675436Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the MangaGamer Archive
+  - CCCP: http://www.cccp-project.net/public/Combined-Community-Codec-Pack-64bit-2015-10-18.exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Circus/Da Capo 2/Dacapo2.exe

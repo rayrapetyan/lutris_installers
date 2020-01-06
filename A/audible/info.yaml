@@ -1,0 +1,15 @@
+name: Audible
+slug: audible
+year: 1997
+platforms:
+- name: Windows
+genres:
+- name: Tool
+aliases: []
+banner_url: /games/banner/audible.jpg
+icon_url: null
+is_public: true
+updated: '2019-03-06T06:50:59.895059Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

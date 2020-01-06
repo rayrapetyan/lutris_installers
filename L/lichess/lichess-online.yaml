@@ -1,0 +1,23 @@
+id: 13561
+game_id: 27316
+game_slug: lichess
+name: Lichess
+year: 2010
+user: scottviger
+runner: browser
+slug: lichess-online
+version: Online
+description: null
+notes: ''
+created_at: '2019-05-16T02:26:28.495420Z'
+updated_at: '2019-06-13T06:57:48.934116Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://lichess.org/

@@ -1,0 +1,24 @@
+id: 177
+game_id: 197
+game_slug: capsized
+name: Capsized
+year: 2011
+user: strider
+runner: steam
+slug: capsized-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-19T23:56:17.132000Z'
+updated_at: '2013-12-19T23:56:17.132000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 95300
+gogid: 1207659151
+gogslug: capsized
+humblestoreid: ''
+script:
+  game:
+    appid: 95300

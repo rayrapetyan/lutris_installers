@@ -1,0 +1,15 @@
+name: 'Carmageddon 2: Carpocalypse Now'
+slug: carmageddon-2-carpocalypse-now
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/carmageddon-2-carpocalypse-now.jpg
+icon_url: /games/icon/carmageddon-2-carpocalypse-now.png
+is_public: true
+updated: '2019-01-23T08:28:46.535880Z'
+steamid: 282030
+gogslug: carmageddon_2_carpocalypse_now
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 1371
+game_id: 3961
+game_slug: space-hulk-ascension
+name: Space Hulk Ascension
+year: null
+user: Xodetaetl
+runner: steam
+slug: space-hulk-ascension-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-03-04T19:16:11.801000Z'
+updated_at: '2015-03-04T19:16:16.360000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 317620
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 317620

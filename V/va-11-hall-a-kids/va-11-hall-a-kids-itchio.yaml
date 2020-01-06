@@ -1,0 +1,36 @@
+id: 16681
+game_id: 30189
+game_slug: va-11-hall-a-kids
+name: VA-11 Hall-A KIDS!
+year: 2018
+user: soredake
+runner: linux
+slug: va-11-hall-a-kids-itchio
+version: Itch.io
+description: null
+notes: ''
+created_at: '2019-11-07T09:38:14.806000Z'
+updated_at: '2019-11-16T09:18:50.794440Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  require-binaries: tar
+  installer:
+  - extract:
+      description: Extracting game data, it will take a while...
+      dst: $GAMEDIR
+      file: game
+  - chmodx: $GAMEDIR/VA11HallAKIDS-1.1-linux/VA11HallAKIDS.sh
+  - chmodx: $GAMEDIR/VA11HallAKIDS-1.1-linux/lib/linux-x86_64/VA11HallAKIDS
+  - chmodx: $GAMEDIR/VA11HallAKIDS-1.1-linux/lib/linux-i686/VA11HallAKIDS
+  files:
+  - game: 'N/A: Please select the VA11HallAKIDS-1.1-linux.tar.bz2 file downloaded
+      from https://sukebangames.itch.io/valhallakids'
+  game:
+    exe: $GAMEDIR/VA11HallAKIDS-1.1-linux/VA11HallAKIDS.sh

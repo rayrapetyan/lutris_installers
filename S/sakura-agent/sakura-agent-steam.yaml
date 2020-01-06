@@ -1,0 +1,24 @@
+id: 7134
+game_id: 13848
+game_slug: sakura-agent
+name: Sakura Agent
+year: 2017
+user: t-rex91
+runner: steam
+slug: sakura-agent-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-01-18T21:27:42.359607Z'
+updated_at: '2018-01-19T05:59:37.279578Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 575510
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 575510

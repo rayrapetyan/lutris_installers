@@ -1,0 +1,43 @@
+id: 17583
+game_id: 27728
+game_slug: a-plague-tale-innocence
+name: 'A Plague Tale: Innocence'
+year: 2019
+user: ludicoulus
+runner: wine
+slug: a-plague-tale-innocence-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-12-26T18:36:37.247000Z'
+updated_at: '2019-12-28T09:56:25.492084Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 752590
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/A Plague Tale Innocence/Launch A Plague Tale - Innocence.lnk
+    arch: win64
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /SP- /NOCANCEL /SILENT /SUPPRESSMSGBOXES /DIR="C:/GOG Games/A Plague Tale
+        Innocence"
+      arch: win64
+      name: wineexec
+  wine:
+    version: lutris-4.21-x86_64
+    dxvk: true
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.

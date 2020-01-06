@@ -1,0 +1,19 @@
+name: Tales of Symphonia
+slug: tales-of-symphonia
+year: 2003
+platforms:
+- name: GameCube
+- name: Sony PlayStation 2
+- name: Sony Playstation 3
+- name: Windows
+genres:
+- name: Action
+- name: Role-playing
+aliases: []
+banner_url: /games/banner/tales-of-symphonia.jpg
+icon_url: /games/icon/tales-of-symphonia.png
+is_public: true
+updated: '2019-12-22T19:03:06.985239Z'
+steamid: 372360
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,19 @@
+name: 'Star Wars Battlefront: Elite Squadron'
+slug: star-wars-battlefront-elite-squadron
+year: 2009
+platforms:
+- name: Nintendo DS
+- name: Sony PSP
+genres:
+- name: Action
+- name: Shooter
+- name: Space flight
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/star-wars-battlefront-elite-squadron.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:25.364222Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

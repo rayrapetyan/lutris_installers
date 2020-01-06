@@ -1,0 +1,24 @@
+id: 6469
+game_id: 3016
+game_slug: hammer-heads-deluxe
+name: Hammer Heads Deluxe
+year: null
+user: Stoney_Fish
+runner: winesteam
+slug: hammer-heads-deluxe-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-11-28T22:28:38.568833Z'
+updated_at: '2017-12-11T08:44:25.149629Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 3400
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 3400

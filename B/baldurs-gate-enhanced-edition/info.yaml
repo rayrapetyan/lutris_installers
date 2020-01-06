@@ -1,0 +1,16 @@
+name: 'Baldur''s Gate: Enhanced Edition'
+slug: baldurs-gate-enhanced-edition
+year: 2013
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/baldurs-gate-enhanced-edition.jpg
+icon_url: /games/icon/baldurs-gate-enhanced-edition.png
+is_public: true
+updated: '2019-01-23T08:28:30.961389Z'
+steamid: 228280
+gogslug: baldurs_gate_enhanced_edition
+humblestoreid: ''

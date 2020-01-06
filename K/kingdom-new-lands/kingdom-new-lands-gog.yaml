@@ -1,0 +1,34 @@
+id: 16132
+game_id: 7060
+game_slug: kingdom-new-lands
+name: 'Kingdom: New Lands'
+year: null
+user: cxf
+runner: linux
+slug: kingdom-new-lands-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-10-12T02:38:05.182000Z'
+updated_at: '2019-10-12T02:38:50.177317Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 496300
+gogid: 1473737130
+gogslug: kingdom_new_lands
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

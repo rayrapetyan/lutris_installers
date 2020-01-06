@@ -1,0 +1,16 @@
+name: 'Ogre Battle 64: Person of Lordly Caliber'
+slug: ogre-battle-64-person-of-lordly-caliber
+year: 2000
+platforms:
+- name: Nintendo 64
+genres:
+- name: Real-time strategy
+- name: RPG
+aliases: []
+banner_url: /games/banner/ogre-battle-64-person-of-lordly-caliber.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:35.889371Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

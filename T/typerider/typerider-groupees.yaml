@@ -1,0 +1,32 @@
+id: 5557
+game_id: 1221
+game_slug: typerider
+name: Type:Rider
+year: 2013
+user: FakeShemp
+runner: wine
+slug: typerider-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-31T20:01:47.859878Z'
+updated_at: '2018-05-19T03:41:57.502789Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 258890
+gogid: null
+gogslug: ''
+humblestoreid: typerider
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/TypeRider
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/TypeRider/TypeRider.exe
+    arch: win32

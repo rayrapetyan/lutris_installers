@@ -1,0 +1,86 @@
+id: 10281
+game_id: 21845
+game_slug: fusionfall-retro
+name: FusionFall Retro
+year: 2018
+user: ceasorlydell31
+runner: wine
+slug: fusionfall-retro-lutris-420-x86_64
+version: lutris-4.20-x86_64
+description: null
+notes: Extra steps are required during installation. You will be prompted with instructions
+  at the appropriate time.  The installer may create two files (.desktop and .lnk)
+  in your home directory. They can safely be deleted.
+created_at: '2018-09-21T23:29:11.135000Z'
+updated_at: '2019-12-23T10:46:43.259545Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/dosdevices/c:/Program Files/FusionFall Universe/UniverseLauncher.exe
+    working_dir: $GAMEDIR/dosdevices/c:/Program Files/FusionFall Universe/
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 32-bit Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing vcrun2017
+      app: vcrun2017
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing d3dx11_43
+      app: d3dx11_43
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing d3dcompiler_47
+      app: d3dcompiler_47
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Wine to Windows 7
+      app: win7
+      name: winetricks
+  - input_menu:
+      options:
+      - y: I understand
+      description: "ATTENTION! In order for this game to install successfully, the\
+        \ launcher needs to be run a single time to download extra required files.\n\
+        \nSteps:\n  * At the end of the following installer, check the box to \"Run\
+        \ FusionFall Universe\".\n  * Log in to your FusionFall Universe account.\n\
+        \  * Press \"Play Now\" in the launcher.\n  * The game will start, and then\
+        \ exit with an error. This is expected.\n  * Close the launcher.\n"
+      preselect: y
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Running FusionFall Retro Installer
+      name: wineexec
+  - execute:
+      command: 'rm -r "$GAMEDIR/dosdevices/c:/users/$USER/AppData/LocalLow/Unity/WebPlayer"
+        && ln -s "$GAMEDIR/dosdevices/c:/users/$USER/Application Data/FusionFall Universe/Games/Retro/WebPlayer"
+        "$GAMEDIR/dosdevices/c:/users/$USER/AppData/LocalLow/Unity/WebPlayer"
+
+        '
+      description: Fix Unity Web Player files
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  wine:
+    version: lutris-4.20-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - setup: https://cdn.fusionfalluniverse.com/launcher/ULInstaller.exe

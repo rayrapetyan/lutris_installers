@@ -1,0 +1,17 @@
+name: Trove
+slug: trove
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Casual
+- name: MMO
+aliases: []
+banner_url: /games/banner/trove.jpg
+icon_url: /games/icon/trove.png
+is_public: true
+updated: '2019-01-23T08:31:56.664202Z'
+steamid: 304050
+gogslug: ''
+humblestoreid: ''

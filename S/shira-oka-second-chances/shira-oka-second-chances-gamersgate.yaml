@@ -1,0 +1,32 @@
+id: 9286
+game_id: 16135
+game_slug: shira-oka-second-chances
+name: 'Shira Oka: Second Chances'
+year: 2010
+user: kimchitea
+runner: wine
+slug: shira-oka-second-chances-gamersgate
+version: GamersGate
+description: null
+notes: ''
+created_at: '2018-07-19T08:54:40.399000Z'
+updated_at: '2018-07-19T13:27:22.267953Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the GamersGate installer
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files (x86)/Okashi Studios/Shira Oka - Second Chances/sosc.exe

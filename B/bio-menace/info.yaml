@@ -1,0 +1,15 @@
+name: Bio Menace
+slug: bio-menace
+year: 1993
+platforms:
+- name: MS-DOS
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/bio-menace.jpg
+icon_url: /games/icon/bio-menace.png
+is_public: true
+updated: '2019-01-23T08:28:36.028850Z'
+steamid: 358180
+gogslug: bio_menace
+humblestoreid: ''

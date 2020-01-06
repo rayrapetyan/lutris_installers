@@ -1,0 +1,16 @@
+name: 'The Slaughter: Act One'
+slug: the-slaughter-act-one
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Horror
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/the-slaughter-act-one.jpg
+icon_url: /games/icon/the-slaughter-act-one.png
+is_public: true
+updated: '2019-10-10T23:56:39.291268Z'
+steamid: 356390
+gogslug: ''
+humblestoreid: ''

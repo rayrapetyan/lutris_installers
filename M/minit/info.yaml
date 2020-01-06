@@ -1,0 +1,15 @@
+name: Minit
+slug: minit
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/minit.jpg
+icon_url: /games/icon/minit.png
+is_public: true
+updated: '2019-01-23T08:30:24.430899Z'
+steamid: 609490
+gogslug: minit
+humblestoreid: ''

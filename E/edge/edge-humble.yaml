@@ -1,0 +1,54 @@
+id: 4467
+game_id: 288
+game_slug: edge
+name: EDGE
+year: 2011
+user: FakeShemp
+runner: linux
+slug: edge-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-18T12:34:14.432683Z'
+updated_at: '2017-06-18T23:27:39.770643Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 38740
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: EDGE.bin.x86
+  installer:
+  - execute:
+      args: --tar -xf -C $CACHE
+      file: $file1
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/instarchive_all_x86
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/instarchive_all_x86_64
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/instarchive_all
+  - extract:
+      format: tar
+      dst: $GAMEDIR
+      file: $CACHE/instarchive_all_x86~
+  - extract:
+      format: tar
+      dst: $GAMEDIR
+      file: $CACHE/instarchive_all_x86_64~
+  - extract:
+      format: tar
+      dst: $GAMEDIR
+      file: $CACHE/instarchive_all~
+  exe64: EDGE.bin.x86_64
+  files:
+  - file1: N/A:Please select the Humble installer

@@ -1,0 +1,39 @@
+id: 9103
+game_id: 19845
+game_slug: brasfoot
+name: Brasfoot
+year: 2003
+user: TuiorGames
+runner: wine
+slug: brasfoot-2019
+version: '2019'
+description: null
+notes: Missing exe path. Installer needs fixing.
+created_at: '2018-07-09T00:18:38.102000Z'
+updated_at: '2019-09-09T00:39:58.038075Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      nomerge: true
+      file: java-jre
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - setup: http://www.brasfoot2k.com/uploads/brasfoot2017.exe
+  - java-jre: https://lutris.nyc3.digitaloceanspaces.com/runners/java/jre-8u73-linux-x64.tar.gz
+  game:
+    prefix: $GAMEDIR
+    exe: null

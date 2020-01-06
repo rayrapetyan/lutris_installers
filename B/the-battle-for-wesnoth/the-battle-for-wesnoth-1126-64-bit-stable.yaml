@@ -1,0 +1,31 @@
+id: 5568
+game_id: 3361
+game_slug: the-battle-for-wesnoth
+name: Battle for Wesnoth
+year: 2005
+user: lordofallcubes
+runner: linux
+slug: the-battle-for-wesnoth-1126-64-bit-stable
+version: 1.12.6 64-bit (stable)
+description: ''
+notes: ''
+created_at: '2017-09-02T09:54:38.020000Z'
+updated_at: '2017-09-04T01:28:26.925188Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 599390
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: $game
+  system:
+    disable_runtime: true
+  files:
+  - game: https://lutris.net/files/games/the-battle-for-wesnoth/wesnoth-1.12.6-x86_64.tar.gz
+  game:
+    exe: wesnoth

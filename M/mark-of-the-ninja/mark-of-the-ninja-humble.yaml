@@ -1,0 +1,31 @@
+id: 4036
+game_id: 300
+game_slug: mark-of-the-ninja
+name: Mark of the Ninja
+year: 2012
+user: FakeShemp
+runner: linux
+slug: mark-of-the-ninja-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-01T13:44:32.160604Z'
+updated_at: '2017-06-04T22:04:36.817491Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 214560
+gogid: 1207665123
+gogslug: mark_of_the_ninja
+humblestoreid: ''
+script:
+  exe: bin/ninja-bin
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/bin/ninja-bin
+  - chmodx: $GAMEDIR/bin/ninja-bin32
+  - chmodx: $GAMEDIR/bin/ninja-bin64
+  files:
+  - file1: N/A:Please select the Humble archive

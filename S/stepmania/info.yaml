@@ -1,0 +1,15 @@
+name: StepMania
+slug: stepmania
+year: 2001
+platforms:
+- name: Linux
+genres:
+- name: Rhythm
+aliases: []
+banner_url: /games/banner/stepmania.jpg
+icon_url: /games/icon/stepmania.png
+is_public: true
+updated: '2019-01-23T08:31:26.890266Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 8274
+game_id: 4729
+game_slug: zero-k
+name: Zero-k
+year: 2015
+user: soredake
+runner: winesteam
+slug: zero-k-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-13T05:55:30.128052Z'
+updated_at: '2018-05-13T05:55:43.834663Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 334920
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 334920

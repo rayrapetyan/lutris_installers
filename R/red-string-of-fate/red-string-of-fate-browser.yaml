@@ -1,0 +1,23 @@
+id: 8991
+game_id: 11055
+game_slug: red-string-of-fate
+name: Red String of Fate
+year: 2017
+user: kimchitea
+runner: browser
+slug: red-string-of-fate-browser
+version: Browser
+description: null
+notes: ''
+created_at: '2018-07-02T14:58:13.398616Z'
+updated_at: '2018-07-02T16:06:42.492303Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 588010
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: http://sandbox-adventure.com/red-string-of-fate/

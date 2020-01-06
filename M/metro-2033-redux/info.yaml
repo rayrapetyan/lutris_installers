@@ -1,0 +1,17 @@
+name: Metro 2033 Redux
+slug: metro-2033-redux
+year: 2014
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+aliases: []
+banner_url: /games/banner/metro-2033-redux.jpg
+icon_url: /games/icon/metro-2033-redux.png
+is_public: true
+updated: '2019-02-07T00:16:46.232256Z'
+steamid: 286690
+gogslug: metro_2033_redux
+humblestoreid: ''

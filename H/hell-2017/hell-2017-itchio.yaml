@@ -1,0 +1,32 @@
+id: 6353
+game_id: 14816
+game_slug: hell-2017
+name: Hell (2017)
+year: 2017
+user: FakeShemp
+runner: wine
+slug: hell-2017-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2017-11-16T21:38:22.092762Z'
+updated_at: '2018-05-19T03:41:59.908625Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Hell
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Hell/hell.exe
+    arch: win32

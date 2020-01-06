@@ -1,0 +1,31 @@
+id: 2419
+game_id: 7077
+game_slug: sqrxz-remake
+name: Sqrxz (Remake)
+year: 2010
+user: strider
+runner: linux
+slug: sqrxz-remake-v0996a
+version: v0.9.9.6a
+description: ''
+notes: ''
+created_at: '2016-08-10T09:05:33.296100Z'
+updated_at: '2016-08-10T09:05:38.220865Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: sqrxz_ubuntu64
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: game
+  files:
+  - game: http://www.retroguru.com/sqrxz/sqrxz-v0996a-ubuntu.tar.gz
+  game:
+    args: -fs -ogl -hd

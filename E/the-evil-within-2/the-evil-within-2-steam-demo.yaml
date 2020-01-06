@@ -1,0 +1,25 @@
+id: 8024
+game_id: 15735
+game_slug: the-evil-within-2
+name: The Evil Within 2
+year: 2017
+user: Kuriot
+runner: winesteam
+slug: the-evil-within-2-steam-demo
+version: Steam (Demo)
+description: Demo version of Evil Within 2. You can test if it works for you.
+notes: ''
+created_at: '2018-05-01T11:25:39.459201Z'
+updated_at: '2018-05-06T07:27:02.870627Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 601430
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 757570
+    arch: win64

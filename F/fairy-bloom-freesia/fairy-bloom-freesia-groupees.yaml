@@ -1,0 +1,36 @@
+id: 5795
+game_id: 1164
+game_slug: fairy-bloom-freesia
+name: Fairy Bloom Freesia
+year: null
+user: FakeShemp
+runner: wine
+slug: fairy-bloom-freesia-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-18T11:30:59.671627Z'
+updated_at: '2018-05-19T03:41:50.811865Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 214590
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Fairy Bloom Freesia
+      file: $file1
+  - task:
+      prefix: $GAMEDIR
+      app: xact
+      name: winetricks
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Fairy Bloom Freesia/FairyBloomFreesia.exe
+    arch: win32

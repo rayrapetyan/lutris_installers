@@ -1,0 +1,38 @@
+id: 8448
+game_id: 6776
+game_slug: ori-and-the-blind-forest-definitive-edition
+name: 'Ori and the Blind Forest: Definitive Edition'
+year: 2016
+user: ph9214
+runner: wine
+slug: ori-and-the-blind-forest-defi-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2018-05-28T02:54:00.095000Z'
+updated_at: '2019-03-01T03:27:14.818516Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 387290
+gogid: 1384944984
+gogslug: ori_and_the_blind_forest_definitive_edition
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Ori and The Blind Forest - Definitive Edition/oriDE.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating WINE prefix
+      name: create_prefix
+  - task:
+      executable: goginstall
+      description: Running Setup
+      name: wineexec
+  wine:
+    version: staging-3.10-x86_64
+  files:
+  - goginstall: N/A:Select the Windows setup file downloaded from GOG

@@ -1,0 +1,36 @@
+id: 4231
+game_id: 422
+game_slug: kings-bounty-the-legend
+name: 'King''s Bounty: The Legend'
+year: null
+user: FakeShemp
+runner: wine
+slug: kings-bounty-the-legend-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-08T19:51:06.754000Z'
+updated_at: '2018-05-19T03:41:51.703846Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 25900
+gogid: 1207658867
+gogslug: kings_bounty_the_legend
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: "drive_c/Program Files/1C Company/King\u2019s Bounty. The Legend/kb.exe"
+    arch: win32

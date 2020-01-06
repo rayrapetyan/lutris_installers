@@ -1,0 +1,24 @@
+id: 1822
+game_id: 915
+game_slug: zombie-shooter
+name: Zombie Shooter
+year: null
+user: RobLoach
+runner: winesteam
+slug: zombie-shooter-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: https://appdb.winehq.org/objectManager.php?sClass=application&iId=13634
+created_at: '2016-01-05T06:44:28.260713Z'
+updated_at: '2016-01-06T21:49:36.652202Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 33130
+gogid: 1207660363
+gogslug: zombie_shooter
+humblestoreid: ''
+script:
+  game:
+    appid: 33130

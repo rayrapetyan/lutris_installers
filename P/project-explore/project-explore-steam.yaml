@@ -1,0 +1,24 @@
+id: 1474
+game_id: 4179
+game_slug: project-explore
+name: Project Explore
+year: null
+user: Xodetaetl
+runner: steam
+slug: project-explore-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-04-24T07:27:04.870000Z'
+updated_at: '2015-04-25T17:39:21.061000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 357650
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 357650

@@ -1,0 +1,18 @@
+name: Verdun
+slug: verdun
+year: 2015
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: FPS
+- name: Historical
+- name: Wargame
+aliases: []
+banner_url: /games/banner/verdun.jpg
+icon_url: /games/icon/verdun.png
+is_public: true
+updated: '2019-08-17T07:08:05.921073Z'
+steamid: 242860
+gogslug: ''
+humblestoreid: ''

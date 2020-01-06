@@ -1,0 +1,59 @@
+id: 12935
+game_id: 2684
+game_slug: valiant-hearts-the-great-wartm-soldats-inconnus-me
+name: "Valiant Hearts: The Great War\u2122 / Soldats Inconnus : M\xE9moires de la\
+  \ Grande Guerre\u2122"
+year: null
+user: cxf
+runner: wine
+slug: valiant-hearts-the-great-wart-uplay
+version: Uplay
+description: null
+notes: ''
+created_at: '2019-04-19T06:39:28.539000Z'
+updated_at: '2019-04-19T06:41:26.850434Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 260230
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - extract:
+      dst: $CACHE/dxsetup
+      file: dx2010
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR
+      args: /silent
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2010 corefonts win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: uplay
+      prefix: $GAMEDIR
+      args: /S
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  files:
+  - dx2010: https://lutris.net/files/tools/directx-2010.tar.gz
+  - uplay: https://ubistatic3-a.akamaihd.net/orbit/launcher_installer/UplayInstaller.exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Uplay/Ubisoft Game Launcher/Uplay.exe
+    arch: win64

@@ -1,0 +1,37 @@
+id: 9531
+game_id: 406
+game_slug: riven
+name: Riven
+year: 1997
+user: Qalthos
+runner: scummvm
+slug: riven-gog-1
+version: GOG
+description: null
+notes: Requires the downloaded GOG setup files and innoextract
+created_at: '2018-08-02T14:25:24.284205Z'
+updated_at: '2018-08-02T14:41:57.200479Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 63610
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  scummvm:
+    gfx-mode: 3x
+    windowed: true
+    aspect: true
+  installer:
+  - execute:
+      args: --gog -d "$GAMEDIR" "$setup"
+      description: Extracting game data
+      file: innoextract
+  files:
+  - setup: N/A:Select the GOG setup file
+  game:
+    appid: 63610
+    game_id: mohawk
+    path: $GAMEDIR

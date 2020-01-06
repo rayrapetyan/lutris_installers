@@ -1,0 +1,17 @@
+name: Slay the Spire
+slug: slay-the-spire
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Cards
+- name: Roguelike
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/slay-the-spire.jpg
+icon_url: /games/icon/slay-the-spire.png
+is_public: true
+updated: '2019-03-27T22:53:38.572412Z'
+steamid: 646570
+gogslug: slay_the_spire
+humblestoreid: ''

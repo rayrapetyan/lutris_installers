@@ -1,0 +1,17 @@
+name: 'Dark Fall: The Journal'
+slug: dark-fall-the-journal
+year: 2002
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Detective-mystery
+- name: FPP
+aliases: []
+banner_url: /games/banner/dark-fall-the-journal.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:04.236529Z'
+steamid: null
+gogslug: dark_fall_the_journal
+humblestoreid: ''

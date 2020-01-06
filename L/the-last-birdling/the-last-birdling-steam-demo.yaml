@@ -1,0 +1,24 @@
+id: 11606
+game_id: 20789
+game_slug: the-last-birdling
+name: The Last Birdling
+year: 2017
+user: kimchitea
+runner: steam
+slug: the-last-birdling-steam-demo
+version: Steam Demo
+description: null
+notes: ''
+created_at: '2019-01-16T17:06:29.596250Z'
+updated_at: '2019-01-17T05:33:34.270202Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 629430
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 633340

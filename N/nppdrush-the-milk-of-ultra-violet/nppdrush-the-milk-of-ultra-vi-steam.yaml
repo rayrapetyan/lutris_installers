@@ -1,0 +1,24 @@
+id: 8164
+game_id: 2176
+game_slug: nppdrush-the-milk-of-ultra-violet
+name: //N.P.P.D.RUSH// - The milk of Ultra violet
+year: null
+user: soredake
+runner: winesteam
+slug: nppdrush-the-milk-of-ultra-vi-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T06:49:17.831927Z'
+updated_at: '2018-05-12T10:20:36.412910Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 270090
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 270090

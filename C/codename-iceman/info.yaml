@@ -1,0 +1,16 @@
+name: 'Codename: ICEMAN'
+slug: codename-iceman
+year: 1984
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Simulation
+aliases: []
+banner_url: /games/banner/codename-iceman.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:55.322715Z'
+steamid: null
+gogslug: codename_iceman
+humblestoreid: ''

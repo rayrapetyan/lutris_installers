@@ -1,0 +1,18 @@
+name: Yakuza 0
+slug: yakuza-0
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Arcade
+- name: Beat'em up
+aliases: []
+banner_url: /games/banner/yakuza-0.jpg
+icon_url: /games/icon/yakuza-0.png
+is_public: true
+updated: '2019-01-23T08:32:12.810482Z'
+steamid: 638970
+gogslug: ''
+humblestoreid: ''

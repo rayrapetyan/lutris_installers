@@ -1,0 +1,37 @@
+id: 6607
+game_id: 12083
+game_slug: the-little-acre
+name: The Little Acre
+year: 2016
+user: Talvi
+runner: linux
+slug: the-little-acre-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2017-12-10T01:49:43.915464Z'
+updated_at: '2017-12-18T02:48:53.620104Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 423590
+gogid: 1950015716
+gogslug: the_little_acre
+humblestoreid: ''
+script:
+  exe: game/start.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Please select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

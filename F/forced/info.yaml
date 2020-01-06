@@ -1,0 +1,16 @@
+name: Forced
+slug: forced
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/forced.jpg
+icon_url: /games/icon/forced.png
+is_public: true
+updated: '2019-01-23T08:29:33.420033Z'
+steamid: 249990
+gogslug: ''
+humblestoreid: ''

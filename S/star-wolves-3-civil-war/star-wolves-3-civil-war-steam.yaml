@@ -1,0 +1,24 @@
+id: 6816
+game_id: 932
+game_slug: star-wolves-3-civil-war
+name: 'Star Wolves 3: Civil War'
+year: null
+user: soredake
+runner: winesteam
+slug: star-wolves-3-civil-war-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-23T22:16:19.912859Z'
+updated_at: '2017-12-23T22:16:25.766405Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 46260
+gogid: 1426253436
+gogslug: star_wolves_3_civil_war
+humblestoreid: ''
+script:
+  game:
+    appid: 46260

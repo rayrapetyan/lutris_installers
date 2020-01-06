@@ -1,0 +1,31 @@
+id: 2248
+game_id: 6501
+game_slug: torus-trooper
+name: Torus Trooper
+year: 2004
+user: ssf
+runner: linux
+slug: torus-trooper-022b-x86_32
+version: 0.22b (x86_32)
+description: ''
+notes: ''
+created_at: '2016-07-04T19:13:37.992676Z'
+updated_at: '2016-10-02T13:41:54.817365Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  system:
+    use_us_layout: true
+  installer:
+  - extract:
+      file: game
+  - chmodx: $GAMEDIR/ttrooper
+  exe: ttrooper
+  files:
+  - game: https://lutris.net/files/games/torus-trooper/tt-0.22b.tar.gz

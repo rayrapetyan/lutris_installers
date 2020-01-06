@@ -1,0 +1,17 @@
+name: 'FATE: Undiscovered Realms'
+slug: fate-undiscovered-realms
+year: 2008
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Dungeon crawl
+- name: Role-playing
+aliases: []
+banner_url: /games/banner/fate-undiscovered-realms.jpg
+icon_url: /games/icon/fate-undiscovered-realms.png
+is_public: true
+updated: '2019-06-01T06:17:11.337322Z'
+steamid: 276890
+gogslug: ''
+humblestoreid: ''

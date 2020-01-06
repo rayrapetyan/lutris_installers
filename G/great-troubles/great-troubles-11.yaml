@@ -1,0 +1,32 @@
+id: 8959
+game_id: 19608
+game_slug: great-troubles
+name: "Great Troubles (\u0411\u043E\u043B\u044C\u0448\u0438\u0435 \u043D\u0435\u043F\
+  \u0440\u0438\u044F\u0442\u043D\u043E\u0441\u0442\u0438)"
+year: 2015
+user: kimchitea
+runner: linux
+slug: great-troubles-11
+version: '1.1'
+description: Free download
+notes: 'Download: https://web.archive.org/web/20181124003922/http://hazukashii.ru/'
+created_at: '2018-06-30T18:19:52.612000Z'
+updated_at: '2019-04-23T03:53:56.459632Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Great troubles.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Great troubles.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Great troubles
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Great troubles
+  files:
+  - file1: N/A:Please select the game archive.

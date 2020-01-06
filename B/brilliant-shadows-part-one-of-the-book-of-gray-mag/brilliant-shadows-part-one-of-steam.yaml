@@ -1,0 +1,24 @@
+id: 13893
+game_id: 8600
+game_slug: brilliant-shadows-part-one-of-the-book-of-gray-mag
+name: Brilliant Shadows - Part One of the Book of Gray Magic
+year: 2015
+user: kimchitea
+runner: steam
+slug: brilliant-shadows-part-one-of-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-06-03T02:28:48.573149Z'
+updated_at: '2019-06-13T06:22:56.566134Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 409920
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 409920

@@ -1,0 +1,24 @@
+id: 7452
+game_id: 16709
+game_slug: crossing-souls
+name: Crossing Souls
+year: 2018
+user: t-rex91
+runner: steam
+slug: crossing-souls-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-04T14:13:43.069591Z'
+updated_at: '2018-03-04T22:35:09.611460Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 331690
+gogid: 1271058609
+gogslug: crossing_souls
+humblestoreid: ''
+script:
+  game:
+    appid: 331690

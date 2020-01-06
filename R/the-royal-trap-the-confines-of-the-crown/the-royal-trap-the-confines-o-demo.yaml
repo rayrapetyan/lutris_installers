@@ -1,0 +1,28 @@
+id: 13167
+game_id: 5053
+game_slug: the-royal-trap-the-confines-of-the-crown
+name: 'The Royal Trap: The Confines Of The Crown'
+year: 2013
+user: cxf
+runner: linux
+slug: the-royal-trap-the-confines-o-demo
+version: Demo
+description: null
+notes: ''
+created_at: '2019-04-27T21:12:27.689000Z'
+updated_at: '2019-04-27T21:13:15.448225Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 356530
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: The Royal Trap Demo.sh
+  installer:
+  - extract:
+      file: demo
+  files:
+  - demo: http://www.hanakogames.com/demos/TheRoyalTrapDemo-linux-1.0-x86.tar.bz2

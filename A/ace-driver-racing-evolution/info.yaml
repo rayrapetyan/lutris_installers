@@ -1,0 +1,17 @@
+name: 'Ace Driver: Racing Evolution'
+slug: ace-driver-racing-evolution
+year: 1994
+platforms:
+- name: Arcade
+genres:
+- name: Racing
+aliases:
+- slug: ace-driver
+  name: Ace Driver
+banner_url: /games/banner/ace-driver-racing-evolution.jpg
+icon_url: null
+is_public: true
+updated: '2019-09-13T07:00:16.314361Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

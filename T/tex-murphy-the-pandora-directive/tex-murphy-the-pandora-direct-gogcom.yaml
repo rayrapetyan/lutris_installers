@@ -1,0 +1,38 @@
+id: 4453
+game_id: 2642
+game_slug: tex-murphy-the-pandora-directive
+name: 'Tex Murphy: The Pandora Directive'
+year: 1996
+user: robotkinz
+runner: linux
+slug: tex-murphy-the-pandora-direct-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2017-06-18T04:23:48.647083Z'
+updated_at: '2017-06-18T23:24:21.250759Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 302360
+gogid: 1207658768
+gogslug: tex_murphy_the_pandora_directive
+humblestoreid: ''
+script:
+  exe: game/start.sh
+  gogid: tex_murphy_the_pandora_directive
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Plese select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

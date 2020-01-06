@@ -1,0 +1,16 @@
+name: 'Jade Empire: Special Edition'
+slug: jade-empire-special-edition
+year: 2007
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Role-playing
+aliases: []
+banner_url: /games/banner/jade-empire-special-edition.jpg
+icon_url: /games/icon/jade-empire-special-edition.png
+is_public: true
+updated: '2019-03-27T03:18:32.296280Z'
+steamid: 7110
+gogslug: jade_empire_special_edition
+humblestoreid: ''

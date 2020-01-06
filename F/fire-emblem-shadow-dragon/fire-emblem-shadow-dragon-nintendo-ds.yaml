@@ -1,0 +1,31 @@
+id: 13072
+game_id: 13956
+game_slug: fire-emblem-shadow-dragon
+name: 'Fire Emblem: Shadow Dragon'
+year: 2009
+user: h313
+runner: libretro
+slug: fire-emblem-shadow-dragon-nintendo-ds
+version: Nintendo DS
+description: Runs with libretro's desmume backend
+notes: ''
+created_at: '2019-04-24T05:44:24.867000Z'
+updated_at: '2019-04-30T02:03:52.373477Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: rom
+      dst: $GAMEDIR
+  files:
+  - rom: N/A:Select the game's ROM file
+  game:
+    core: desmume
+    main_file: rom

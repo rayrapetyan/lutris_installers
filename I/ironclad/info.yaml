@@ -1,0 +1,17 @@
+name: Ironclad
+slug: ironclad
+year: 1996
+platforms:
+- name: Arcade
+- name: Linux
+- name: Neo Geo
+genres:
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/ironclad.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:58.431585Z'
+steamid: null
+gogslug: ironclad
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 8510
+game_id: 7184
+game_slug: space-pilgrim-episode-iii-delta-pavonis
+name: 'Space Pilgrim Episode III: Delta Pavonis'
+year: null
+user: Nibiron
+runner: winesteam
+slug: space-pilgrim-episode-iii-del-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-02T18:41:18.467259Z'
+updated_at: '2018-06-03T09:20:44.817563Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 439250
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 439250

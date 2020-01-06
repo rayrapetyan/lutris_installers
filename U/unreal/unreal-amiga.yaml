@@ -1,0 +1,42 @@
+id: 469
+game_id: 2032
+game_slug: unreal
+name: Unreal (1990)
+year: 1990
+user: strider
+runner: fsuae
+slug: unreal-amiga
+version: amiga
+description: Amiga version
+notes: ''
+created_at: '2014-05-18T12:00:42.437000Z'
+updated_at: '2014-05-18T12:24:55.343000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: disk1
+  installer:
+  - merge:
+      src: disk1
+      dst: $GAMEDIR
+  - merge:
+      src: disk2
+      dst: $GAMEDIR
+  - merge:
+      src: disk3
+      dst: $GAMEDIR
+  files:
+  - disk1: N/A
+  - disk2: N/A
+  - disk3: N/A
+  game:
+    disks:
+    - disk1
+    - disk2
+    - disk3

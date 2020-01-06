@@ -1,0 +1,16 @@
+name: Raiden Legacy
+slug: raiden-legacy
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/raiden-legacy.jpg
+icon_url: null
+is_public: true
+updated: '2019-02-02T23:49:18.382325Z'
+steamid: 407600
+gogslug: raiden_legacy
+humblestoreid: ''

@@ -1,0 +1,33 @@
+id: 3916
+game_id: 1188
+game_slug: the-swapper
+name: The Swapper
+year: 2013
+user: FakeShemp
+runner: linux
+slug: the-swapper-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-27T18:33:09.029364Z'
+updated_at: '2017-05-27T23:53:00.942833Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 231160
+gogid: 1207660003
+gogslug: the_swapper
+humblestoreid: ''
+script:
+  exe: TheSwapper
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data/noarch
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble installer

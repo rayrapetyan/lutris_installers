@@ -1,0 +1,38 @@
+id: 6521
+game_id: 15009
+game_slug: undead-legions
+name: Undead Legions
+year: 2013
+user: FakeShemp
+runner: wine
+slug: undead-legions-groupees
+version: Groupees
+description: null
+notes: ''
+created_at: '2017-12-01T21:51:07.481000Z'
+updated_at: '2018-05-19T03:41:58.049586Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      app: xna40
+      name: winetricks
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      args: /sp- /verysilent /norestart /suppressmsgboxes /nogui
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Undead Legions/Undead Legions.exe
+    arch: win32

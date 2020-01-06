@@ -1,0 +1,32 @@
+id: 7003
+game_id: 2532
+game_slug: lost-civilization
+name: Lost Civilization
+year: null
+user: FakeShemp
+runner: wine
+slug: lost-civilization-desura
+version: Desura
+description: null
+notes: ''
+created_at: '2018-01-04T18:39:36.084520Z'
+updated_at: '2018-05-19T03:42:00.065557Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 264580
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Lost Civilization
+      file: $file1
+  files:
+  - file1: N/A:Please select the Desura archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Lost Civilization/Lost Civilization.exe
+    arch: win32

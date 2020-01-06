@@ -1,0 +1,24 @@
+id: 6195
+game_id: 1768
+game_slug: majesty-2
+name: Majesty 2
+year: null
+user: jonius
+runner: winesteam
+slug: majesty-2-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-10-30T14:07:22.548369Z'
+updated_at: '2017-11-04T23:04:20.004587Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 25980
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 25980

@@ -1,0 +1,17 @@
+name: Tacoma
+slug: tacoma
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: FPP
+- name: Narrative
+aliases: []
+banner_url: /games/banner/tacoma.jpg
+icon_url: /games/icon/tacoma.png
+is_public: true
+updated: '2019-01-23T08:31:34.397754Z'
+steamid: 343860
+gogslug: tacoma_game
+humblestoreid: ''

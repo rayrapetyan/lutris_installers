@@ -1,0 +1,16 @@
+name: 'CTR: Crash Team Racing'
+slug: ctr-crash-team-racing
+year: 1999
+platforms:
+- name: Sony PlayStation
+- name: Sony PSP
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/ctr-crash-team-racing.jpg
+icon_url: /games/icon/ctr-crash-team-racing.png
+is_public: true
+updated: '2019-01-23T08:29:01.784626Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

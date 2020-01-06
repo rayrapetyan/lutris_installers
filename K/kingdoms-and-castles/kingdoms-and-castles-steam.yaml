@@ -1,0 +1,24 @@
+id: 5888
+game_id: 11329
+game_slug: kingdoms-and-castles
+name: Kingdoms and Castles
+year: 2017
+user: Hammering
+runner: steam
+slug: kingdoms-and-castles-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-10-03T22:49:24.947278Z'
+updated_at: '2017-10-08T21:54:25.955504Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 569480
+gogid: 2067763543
+gogslug: kingdoms_castles
+humblestoreid: ''
+script:
+  game:
+    appid: 569480

@@ -1,0 +1,16 @@
+name: Super Mario War
+slug: super-mario-war
+year: 2006
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Platformer
+aliases: []
+banner_url: /games/banner/super-mario-war.jpg
+icon_url: null
+is_public: true
+updated: '2019-03-01T22:57:26.463656Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

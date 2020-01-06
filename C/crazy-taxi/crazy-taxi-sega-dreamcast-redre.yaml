@@ -1,0 +1,31 @@
+id: 10032
+game_id: 1263
+game_slug: crazy-taxi
+name: Crazy Taxi
+year: 1999
+user: VGJUNKY
+runner: libretro
+slug: crazy-taxi-sega-dreamcast-redre
+version: Sega Dreamcast redream
+description: Sega Dreamcast emulator with no bios required.
+notes: ''
+created_at: '2018-09-04T00:42:10.538926Z'
+updated_at: '2018-09-06T05:53:49.229351Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 71230
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: gdi_file
+      dst: $GAMEDIR
+  files:
+  - gdi_file: N/A:Please select the Dreamcast gdi file.
+  game:
+    core: redream
+    main_file: gdi_file

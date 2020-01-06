@@ -1,0 +1,28 @@
+id: 17035
+game_id: 30564
+game_slug: spike-under-the-leaves-2017
+name: 'Spike: Under the Leaves 2017'
+year: 2017
+user: oscararg
+runner: linux
+slug: spike-under-the-leaves-2017-itch
+version: Itch
+description: null
+notes: ''
+created_at: '2019-11-26T23:01:09.663856Z'
+updated_at: '2019-12-15T18:16:30.971648Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: SpikeUnderTheLeaves.x86_64
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

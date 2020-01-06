@@ -1,0 +1,24 @@
+id: 6197
+game_id: 1916
+game_slug: the-great-art-race
+name: The Great Art Race
+year: null
+user: jonius
+runner: winesteam
+slug: the-great-art-race-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-10-30T14:12:59.656319Z'
+updated_at: '2017-10-31T06:39:06.926815Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 33580
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 33580

@@ -1,0 +1,15 @@
+name: 'HeXen: Deathkings of the Dark Citadel'
+slug: hexen-deathkings-of-the-dark-citadel
+year: 1996
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/hexen-deathkings-of-the-dark-citadel.jpg
+icon_url: /games/icon/hexen-deathkings-of-the-dark-citadel.png
+is_public: true
+updated: '2019-01-23T08:29:50.144867Z'
+steamid: 2370
+gogslug: ''
+humblestoreid: ''

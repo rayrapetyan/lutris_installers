@@ -1,0 +1,48 @@
+id: 12790
+game_id: 4587
+game_slug: osu
+name: osu!
+year: 2007
+user: isoraqathedh
+runner: linux
+slug: osu-osulazer-201912130
+version: osu!lazer 2019.1213.0
+description: The new (official, alpha) cross-platform osu! client written in C#.
+notes: "Requires .NET Core SDK 3.0 or higher installed.\r\n\r\n<a href=\"https://dotnet.microsoft.com/download/dotnet-core/3.0\"\
+  >https://dotnet.microsoft.com/download/dotnet-core/3.0</a>"
+created_at: '2019-04-14T15:28:08.735000Z'
+updated_at: '2019-12-22T11:26:49.984389Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  require-binaries: dotnet
+  installer:
+  - extract:
+      file: archive
+  - execute:
+      command: dotnet build osu.Desktop /p:Configuration=Release /p:GenerateFullPaths=true
+        /m /verbosity:m
+  - write_file:
+      content: '#!/bin/bash
+
+
+        script_path="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+        app_path="$script_path"/osu.Desktop/bin/Release/netcoreapp3.0
+
+
+        LD_LIBRARY_PATH="$app_path" dotnet "$app_path"/osu\!.dll
+
+        '
+      file: $GAMEDIR/run.sh
+  - chmodx: $GAMEDIR/run.sh
+  files:
+  - archive: https://github.com/ppy/osu/archive/2019.1213.0.zip
+  game:
+    exe: run.sh

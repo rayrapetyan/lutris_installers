@@ -1,0 +1,18 @@
+name: 'Crusader: No Remorse'
+slug: crusader-no-remorse
+year: 1995
+platforms:
+- name: MS-DOS
+- name: Windows
+genres:
+- name: Action
+- name: Combat
+- name: Sci-fi
+aliases: []
+banner_url: /games/banner/crusader-no-remorse.jpg
+icon_url: null
+is_public: true
+updated: '2019-05-18T00:29:07.765541Z'
+steamid: null
+gogslug: crusader_no_remorse
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 5359
+game_id: 6827
+game_slug: redshift-blueshift
+name: Redshift Blueshift
+year: null
+user: FakeShemp
+runner: steam
+slug: redshift-blueshift-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-08-12T17:00:38.871294Z'
+updated_at: '2017-08-27T22:29:27.866353Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 367430
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 367430

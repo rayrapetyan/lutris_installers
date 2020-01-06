@@ -1,0 +1,16 @@
+name: Trine
+slug: trine
+year: 2009
+platforms:
+- name: Linux
+genres:
+- name: Platform
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/trine.jpg
+icon_url: /games/icon/trine.png
+is_public: true
+updated: '2019-11-23T16:16:04.133314Z'
+steamid: 35700
+gogslug: trine_enchanted_edition
+humblestoreid: trine-enchanted-edition

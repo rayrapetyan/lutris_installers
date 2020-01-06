@@ -1,0 +1,44 @@
+id: 12329
+game_id: 4605
+game_slug: the-marvellous-miss-take
+name: The Marvellous Miss Take
+year: null
+user: Anerak
+runner: winesteam
+slug: the-marvellous-miss-take-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-03-10T20:15:52.132000Z'
+updated_at: '2019-03-30T20:53:54.619230Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 327310
+gogid: 1207666973
+gogslug: the_marvellous_miss_take
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      key: ShowDotFiles
+      value: Y
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing .NET 4.7.2 will take a while...
+      app: dotnet472
+      arch: win64
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 327310
+    arch: win64

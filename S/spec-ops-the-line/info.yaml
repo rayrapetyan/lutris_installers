@@ -1,0 +1,16 @@
+name: 'Spec Ops: The Line'
+slug: spec-ops-the-line
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/spec-ops-the-line.jpg
+icon_url: /games/icon/spec-ops-the-line.png
+is_public: true
+updated: '2019-01-23T08:31:21.870718Z'
+steamid: 50300
+gogslug: ''
+humblestoreid: spec-ops-the-line

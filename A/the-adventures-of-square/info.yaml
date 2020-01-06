@@ -1,0 +1,15 @@
+name: The Adventures of Square
+slug: the-adventures-of-square
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/the-adventures-of-square.jpg
+icon_url: /games/icon/the-adventures-of-square.png
+is_public: true
+updated: '2019-01-23T08:31:38.181298Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

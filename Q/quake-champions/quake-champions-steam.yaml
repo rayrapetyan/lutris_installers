@@ -1,0 +1,53 @@
+id: 7956
+game_id: 13631
+game_slug: quake-champions
+name: Quake Champions
+year: 2017
+user: BuTbKa
+runner: winesteam
+slug: quake-champions-steam
+version: Steam
+description: null
+notes: "* Currently, you need the <a href=\"https://github.com/doitsujin/dxvk/wiki/Driver-support\"\
+  >latest available version of your graphic card drivers</a> to play this game.\r\n\
+  * If you experience stuttering, check <a href=\"https://github.com/Zeioth/zeioth-lutris/blob/master/game-installers/quake-champions/performance-guide.md\"\
+  >this guide</a>."
+created_at: '2018-04-22T07:58:02.124000Z'
+updated_at: '2019-06-24T21:04:09.551639Z'
+draft: false
+published: true
+published_by: 1
+rating: '5'
+steamid: 611500
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $GAMEDIR/../../shadercache/611500/DXVK_state_cache/
+      file: qcshadercache
+  - input_menu:
+      options:
+      - '0': None
+      - '1': FPS
+      - frametimes,fps,memory: Frametimes
+      description: 'Select your DXVK HUD (optional):'
+      id: HUD
+      preselect: None
+  winesteam:
+    esync: true
+    dxvk: true
+    overrides:
+      xaudio2_7: native,builtin
+  system:
+    disable_compositor: 'true'
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      STAGING_SHARED_MEMORY: 1
+      DXVK_HUD: $INPUT_HUD
+  files:
+  - qcshadercache: https://github.com/Zeioth/zeioth-lutris/raw/master/game-installers/quake-champions/quake-champions-dxvk-cache-0.0.10.zip
+  game:
+    appid: '611500'

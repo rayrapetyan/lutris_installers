@@ -1,0 +1,16 @@
+name: Flower
+slug: flower
+year: 2009
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Indie
+aliases: []
+banner_url: /games/banner/flower.jpg
+icon_url: null
+is_public: true
+updated: '2019-06-09T08:06:33.412040Z'
+steamid: 966330
+gogslug: ''
+humblestoreid: ''

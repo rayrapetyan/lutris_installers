@@ -1,0 +1,31 @@
+id: 6218
+game_id: 3237
+game_slug: silent-hill
+name: Silent Hill
+year: 1999
+user: FakeShemp
+runner: libretro
+slug: silent-hill-playstation
+version: PlayStation
+description: ''
+notes: ''
+created_at: '2017-11-01T20:28:29.623974Z'
+updated_at: '2017-11-01T20:38:46.305133Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the PlayStation image file
+  game:
+    core: mednafen_psx_hw
+    main_file: file1

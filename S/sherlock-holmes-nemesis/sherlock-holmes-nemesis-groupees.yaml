@@ -1,0 +1,37 @@
+id: 5640
+game_id: 697
+game_slug: sherlock-holmes-nemesis
+name: 'Sherlock Holmes: Nemesis'
+year: null
+user: FakeShemp
+runner: wine
+slug: sherlock-holmes-nemesis-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-09T20:28:01.204000Z'
+updated_at: '2018-05-19T03:41:57.454482Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 11040
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/setup.exe
+      prefix: $GAMEDIR
+      args: /sp- /verysilent /norestart /suppressmsgboxes /nogui
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Frogwares/Sherlock Holmes versus Arsene Lupin/game.exe
+    arch: win32

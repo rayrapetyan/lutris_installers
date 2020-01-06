@@ -1,0 +1,43 @@
+id: 7567
+game_id: 10082
+game_slug: furi
+name: Furi
+year: 2016
+user: plafue
+runner: wine
+slug: furi-1495-gog
+version: 1.4.95 (GOG)
+description: Needs GOG's classic installer for the game.
+notes: At the end of the installation process four error messages appear (3x "Runtime
+  Error " and 1x "Out of Global Vars range"). However, the game can be run without
+  any problems.
+created_at: '2018-03-15T23:19:06.967822Z'
+updated_at: '2018-04-26T00:28:45.795135Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 423230
+gogid: 2098128602
+gogslug: furi
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR/prefix
+    exe: $GAMEDIR/prefix/drive_c/game/Furi.exe
+    arch: win64
+    args: -force-d3d9
+    appid: 423230
+    working_dir: $GAMEDIR/prefix/drive_c/game
+  installer:
+  - task:
+      executable: install
+      prefix: $GAMEDIR/prefix
+      description: Installing...
+      arch: win64
+      args: /LANG=English /SP- /NOCANCEL /SUPPRESSMSGBOXES /DIR="C:/game"
+      name: wineexec
+  wine:
+    version: staging-3.3-x86_64
+  files:
+  - install: N/A:Select the game's setup file

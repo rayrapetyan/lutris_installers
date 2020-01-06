@@ -1,0 +1,62 @@
+id: 11486
+game_id: 14852
+game_slug: dark-age-of-camelot
+name: Dark Age Of Camelot
+year: 2002
+user: zer0_
+runner: wine
+slug: dark-age-of-camelot-phoenix-free-shard
+version: Phoenix Free Shard
+description: Phoenix Free Shard Installer
+notes: Close the patcher after the game patches to allow the installation to continue.
+created_at: '2019-01-06T21:18:28.721000Z'
+updated_at: '2019-03-04T23:52:00.720193Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Electronic Arts/Dark Age of Camelot/Phoenix.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: win7
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Corefonts
+      app: corefonts
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Installing DAOC
+      name: wineexec
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Electronic Arts/Dark Age of Camelot/
+      file: phoenix
+  - task:
+      executable: $GAMEDIR/drive_c/Program Files/Electronic Arts/Dark Age of Camelot/camelot.exe
+      prefix: $GAMEDIR
+      description: Patch Game
+      name: wineexec
+  wine:
+    version: tkg-3.21-x86_64
+  files:
+  - setup: http://darkageofcamelot.com/sites/daoc/files/downloads/DAoCSetup.exe
+  - phoenix:
+      filename: launcher.zip
+      url: https://forum.playphoenix.online/assets/launcher.zip

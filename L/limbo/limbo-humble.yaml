@@ -1,0 +1,33 @@
+id: 3822
+game_id: 274
+game_slug: limbo
+name: LIMBO
+year: 2011
+user: FakeShemp
+runner: linux
+slug: limbo-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-23T18:44:34.421560Z'
+updated_at: '2017-05-27T23:54:45.947245Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 48000
+gogid: 1724299977
+gogslug: limbo
+humblestoreid: ''
+script:
+  exe: limbo
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble installer

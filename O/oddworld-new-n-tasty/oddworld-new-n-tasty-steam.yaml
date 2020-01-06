@@ -1,0 +1,24 @@
+id: 1398
+game_id: 3993
+game_slug: oddworld-new-n-tasty
+name: 'Oddworld: New ''n'' Tasty'
+year: 2014
+user: Xodetaetl
+runner: steam
+slug: oddworld-new-n-tasty-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-03-11T11:04:50.462000Z'
+updated_at: '2015-03-11T11:37:39.899000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 314660
+gogid: 1424782569
+gogslug: oddworld_new_n_tasty
+humblestoreid: ''
+script:
+  game:
+    appid: 314660

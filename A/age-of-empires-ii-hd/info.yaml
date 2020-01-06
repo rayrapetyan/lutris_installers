@@ -1,0 +1,15 @@
+name: Age of Empires II HD
+slug: age-of-empires-ii-hd
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/age-of-empires-ii-hd.jpg
+icon_url: /games/icon/age-of-empires-ii-hd.png
+is_public: true
+updated: '2019-01-23T08:28:14.278496Z'
+steamid: 221380
+gogslug: ''
+humblestoreid: ''

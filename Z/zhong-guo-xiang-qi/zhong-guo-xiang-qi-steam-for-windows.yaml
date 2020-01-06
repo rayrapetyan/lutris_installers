@@ -1,0 +1,42 @@
+id: 11061
+game_id: 23242
+game_slug: zhong-guo-xiang-qi
+name: "\u4E2D\u56FD\u8C61\u68CB"
+year: null
+user: schaap137
+runner: winesteam
+slug: zhong-guo-xiang-qi-steam-for-windows
+version: Steam for Windows
+description: null
+notes: ''
+created_at: '2018-12-02T12:39:50.115000Z'
+updated_at: '2018-12-03T07:47:01.868488Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 722670
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    OffscreenRenderingMode: fbo
+    StrictDrawOrdering: enabled
+    UseGLSL: enabled
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Creating win32 prefix...
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing necessary components...
+      app: corefonts d3dx9_36 wenquanyi win7
+      arch: win32
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 722670
+    arch: win32

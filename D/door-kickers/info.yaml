@@ -1,0 +1,16 @@
+name: Door Kickers
+slug: door-kickers
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/door-kickers.jpg
+icon_url: /games/icon/door-kickers.png
+is_public: true
+updated: '2019-01-23T08:29:15.536523Z'
+steamid: 248610
+gogslug: door_kickers
+humblestoreid: door-kickers

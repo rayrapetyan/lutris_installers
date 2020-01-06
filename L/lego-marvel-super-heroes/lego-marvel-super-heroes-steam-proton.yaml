@@ -1,0 +1,25 @@
+id: 13952
+game_id: 2472
+game_slug: lego-marvel-super-heroes
+name: LEGO MARVEL Super Heroes
+year: 2013
+user: jackgc123
+runner: steam
+slug: lego-marvel-super-heroes-steam-proton
+version: Steam Proton
+description: null
+notes: Since this game is not officially whitelisted, you have to enable Steam Play
+  for all titles in Steam's settings prior to installation.
+created_at: '2019-06-06T10:31:14.938000Z'
+updated_at: '2019-06-13T06:38:57.737111Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 249130
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 249130

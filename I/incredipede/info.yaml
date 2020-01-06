@@ -1,0 +1,15 @@
+name: Incredipede
+slug: incredipede
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/incredipede.jpg
+icon_url: /games/icon/incredipede.png
+is_public: true
+updated: '2019-07-06T21:22:14.122330Z'
+steamid: 230150
+gogslug: incredipede
+humblestoreid: incredipede

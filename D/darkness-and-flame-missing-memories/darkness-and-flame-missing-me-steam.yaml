@@ -1,0 +1,24 @@
+id: 9316
+game_id: 20099
+game_slug: darkness-and-flame-missing-memories
+name: 'Darkness and Flame: Missing Memories'
+year: 2018
+user: kimchitea
+runner: winesteam
+slug: darkness-and-flame-missing-me-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-21T19:57:21.918267Z'
+updated_at: '2018-07-22T05:02:14.253397Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 646330
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 646330

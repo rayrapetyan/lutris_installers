@@ -1,0 +1,15 @@
+name: Bioforge
+slug: bioforge
+year: 1995
+platforms:
+- name: MS-DOS
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/bioforge.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:35.994978Z'
+steamid: null
+gogslug: bioforge
+humblestoreid: ''

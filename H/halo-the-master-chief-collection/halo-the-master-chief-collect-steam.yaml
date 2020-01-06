@@ -1,0 +1,31 @@
+id: 17177
+game_id: 30089
+game_slug: halo-the-master-chief-collection
+name: 'Halo: The Master Chief Collection'
+year: 2014
+user: citrusalex
+runner: winesteam
+slug: halo-the-master-chief-collect-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-12-04T06:09:57.500166Z'
+updated_at: '2019-12-04T06:48:08.216630Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 976730
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  wine:
+    version: lutris-halo-4.21-x86_64
+    d9vk: true
+    dxvk: true
+    overrides:
+      nvapi,nvapi64: disabled
+    esync: true
+  game:
+    appid: 976730

@@ -1,0 +1,38 @@
+id: 10732
+game_id: 23049
+game_slug: aimp
+name: Aimp
+year: 2006
+user: TheZemog
+runner: wine
+slug: aimp-451
+version: '4.51'
+description: null
+notes: ''
+created_at: '2018-11-02T10:20:36.302000Z'
+updated_at: '2019-10-28T21:02:02.255057Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  script:
+    installer:
+    - execute:
+        description: Installing AIMP
+        file: aimp_4.51.2080.exe
+    - move:
+        src: $CACHE/app
+        description: Extracting game data
+        dst: $GAMEDIR/drive_c/Program Files (x86)/AIMP
+    files:
+    - installer: http://aimp.su/storage/5a11962272e8dc7777525fd878e95e5d/aimp_4.51.2080.exe
+    game:
+      prefix: $GAMEDIR/AIMP
+      exe: $GAMEDIR/prefix/drive_c/Program Files (x86)/AIMP/AIMP.exe
+      working_dir: $GAMEDIR/prefix
+      arch: win64

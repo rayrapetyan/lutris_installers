@@ -1,0 +1,17 @@
+name: Dead Cells
+slug: dead-cells
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: Roguelike
+aliases: []
+banner_url: /games/banner/dead-cells.jpg
+icon_url: /games/icon/dead-cells.png
+is_public: true
+updated: '2019-01-23T08:29:06.092745Z'
+steamid: 588650
+gogslug: dead_cells
+humblestoreid: ''

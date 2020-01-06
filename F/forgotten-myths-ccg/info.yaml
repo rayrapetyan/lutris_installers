@@ -1,0 +1,15 @@
+name: Forgotten Myths CCG
+slug: forgotten-myths-ccg
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Cards
+aliases: []
+banner_url: /games/banner/forgotten-myths-ccg.jpg
+icon_url: /games/icon/forgotten-myths-ccg.png
+is_public: true
+updated: '2019-01-23T08:29:33.842898Z'
+steamid: 299910
+gogslug: ''
+humblestoreid: ''

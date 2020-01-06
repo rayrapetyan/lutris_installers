@@ -1,0 +1,16 @@
+name: Screamer
+slug: screamer
+year: 1995
+platforms:
+- name: MS-DOS
+- name: Windows
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/screamer.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:08.361084Z'
+steamid: 697580
+gogslug: screamer
+humblestoreid: ''

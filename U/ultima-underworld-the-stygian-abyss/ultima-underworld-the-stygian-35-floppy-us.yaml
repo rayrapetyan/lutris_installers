@@ -1,0 +1,29 @@
+id: 4541
+game_id: 4025
+game_slug: ultima-underworld-the-stygian-abyss
+name: 'Ultima Underworld: The Stygian Abyss'
+year: 1992
+user: Lulu
+runner: dosbox
+slug: ultima-underworld-the-stygian-35-floppy-us
+version: 3.5'' Floppy [US]
+description: ''
+notes: mount floppy in /media/floppy
+created_at: '2017-06-22T21:54:47.495130Z'
+updated_at: '2017-06-24T16:14:31.561232Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1207658937
+gogslug: ultima_underworld_1_2
+humblestoreid: ''
+script:
+  main_file: drive_c/UW/UW.EXE
+  installer:
+  - insert-disc:
+      requires: INSTALL.EXE
+  - task:
+      executable: mount a /media/floppy -t floppy
+      name: dosexec

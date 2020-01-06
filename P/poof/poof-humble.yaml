@@ -1,0 +1,48 @@
+id: 4743
+game_id: 2510
+game_slug: poof
+name: Poof
+year: null
+user: FakeShemp
+runner: wine
+slug: poof-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-30T20:48:39.085000Z'
+updated_at: '2018-05-19T03:41:53.698374Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 243280
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Poof
+      file: $file1
+  - task:
+      prefix: $GAMEDIR
+      app: xna40
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: wmp9
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: quartz
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: devenum
+      name: winetricks
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Poof/POOF.exe
+    arch: win32

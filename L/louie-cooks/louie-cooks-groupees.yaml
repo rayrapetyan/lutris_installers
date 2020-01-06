@@ -1,0 +1,29 @@
+id: 5132
+game_id: 6860
+game_slug: louie-cooks
+name: Louie Cooks
+year: null
+user: FakeShemp
+runner: linux
+slug: louie-cooks-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-21T12:11:47.940765Z'
+updated_at: '2017-08-27T22:17:42.487832Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 398480
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: LouieCooks.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/LouieCooks.x86
+  files:
+  - file1: N/A:Please select the Groupees archive

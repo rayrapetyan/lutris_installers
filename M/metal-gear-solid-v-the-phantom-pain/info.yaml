@@ -1,0 +1,16 @@
+name: 'METAL GEAR SOLID V: THE PHANTOM PAIN'
+slug: metal-gear-solid-v-the-phantom-pain
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/metal-gear-solid-v-the-phantom-pain.jpg
+icon_url: /games/icon/metal-gear-solid-v-the-phantom-pain.png
+is_public: true
+updated: '2019-01-23T08:30:22.130174Z'
+steamid: 287700
+gogslug: ''
+humblestoreid: ''

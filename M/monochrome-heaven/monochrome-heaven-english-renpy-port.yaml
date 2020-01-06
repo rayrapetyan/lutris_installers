@@ -1,0 +1,36 @@
+id: 9544
+game_id: 20614
+game_slug: monochrome-heaven
+name: Monochrome Heaven
+year: 2009
+user: kimchitea
+runner: linux
+slug: monochrome-heaven-english-renpy-port
+version: English Ren'Py port
+description: null
+notes: 'Download links: https://sites.google.com/site/xmonoh/download'
+created_at: '2018-08-03T03:50:47.262000Z'
+updated_at: '2019-04-26T04:17:18.259984Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Monochrome Heaven.sh
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $file1
+  - merge:
+      src: $file2
+      dst: $GAMEDIR/game
+  - chmodx: $GAMEDIR/Monochrome Heaven.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Monochrome Heaven
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Monochrome Heaven
+  files:
+  - file1: N/A:Please select the game archive
+  - file2: N/A:Please select the patch file

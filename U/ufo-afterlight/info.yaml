@@ -1,0 +1,15 @@
+name: 'UFO: Afterlight'
+slug: ufo-afterlight
+year: 2007
+platforms:
+- name: Windows
+genres:
+- name: Strategy
+aliases: []
+banner_url: /games/banner/ufo-afterlight.jpg
+icon_url: /games/icon/ufo-afterlight.png
+is_public: true
+updated: '2019-10-14T03:07:43.233899Z'
+steamid: 237950
+gogslug: ufo_afterlight
+humblestoreid: ''

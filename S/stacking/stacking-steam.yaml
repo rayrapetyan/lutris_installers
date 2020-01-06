@@ -1,0 +1,24 @@
+id: 321
+game_id: 338
+game_slug: stacking
+name: Stacking
+year: 2012
+user: strider
+runner: steam
+slug: stacking-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-20T00:21:44.519000Z'
+updated_at: '2013-12-20T00:21:44.520000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 115110
+gogid: 1207659145
+gogslug: stacking
+humblestoreid: stacking
+script:
+  game:
+    appid: 115110

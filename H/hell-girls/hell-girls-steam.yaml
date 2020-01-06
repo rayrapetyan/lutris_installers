@@ -1,0 +1,25 @@
+id: 9580
+game_id: 11377
+game_slug: hell-girls
+name: Hell Girls
+year: null
+user: sunderkeenin
+runner: winesteam
+slug: hell-girls-steam
+version: Steam
+description: null
+notes: "Default settings work. In fullscreen the game will crash if you switch window\
+  \ focus.\r\nUse windowed fullscreen for the best experience."
+created_at: '2018-08-04T14:25:01.158599Z'
+updated_at: '2018-08-06T04:31:41.356135Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 575550
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 575550

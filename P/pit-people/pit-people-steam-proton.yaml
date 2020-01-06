@@ -1,0 +1,24 @@
+id: 14681
+game_id: 10274
+game_slug: pit-people
+name: Pit People
+year: null
+user: TheLuckyOne89
+runner: steam
+slug: pit-people-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-07-23T16:20:09.633000Z'
+updated_at: '2019-10-11T00:38:05.200840Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 291860
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 291860

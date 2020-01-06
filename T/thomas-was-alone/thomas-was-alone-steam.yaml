@@ -1,0 +1,24 @@
+id: 316
+game_id: 302
+game_slug: thomas-was-alone
+name: Thomas Was Alone
+year: 2012
+user: strider
+runner: steam
+slug: thomas-was-alone-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2013-12-20T00:21:44.321000Z'
+updated_at: '2017-09-23T12:14:12.652265Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: 220780
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 220780

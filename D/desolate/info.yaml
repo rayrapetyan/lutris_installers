@@ -1,0 +1,19 @@
+name: DESOLATE
+slug: desolate
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Horror
+- name: RPG
+- name: Survival
+aliases: []
+banner_url: /games/banner/desolate.jpg
+icon_url: /games/icon/desolate.png
+is_public: true
+updated: '2019-01-23T08:29:10.300490Z'
+steamid: 671510
+gogslug: ''
+humblestoreid: ''

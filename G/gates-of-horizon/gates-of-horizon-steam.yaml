@@ -1,0 +1,24 @@
+id: 17097
+game_id: 5353
+game_slug: gates-of-horizon
+name: Gates of Horizon
+year: null
+user: orestes1986
+runner: steam
+slug: gates-of-horizon-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-11-29T23:05:22.405000Z'
+updated_at: '2019-12-23T10:50:06.033123Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 334290
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 334290

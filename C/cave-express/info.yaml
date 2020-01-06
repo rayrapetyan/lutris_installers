@@ -1,0 +1,16 @@
+name: CaveExpress
+slug: cave-express
+year: 2013
+platforms:
+- name: Browser
+- name: Linux
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/cave-express.jpg
+icon_url: /games/icon/cave-express.png
+is_public: true
+updated: '2019-01-23T08:28:48.962331Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

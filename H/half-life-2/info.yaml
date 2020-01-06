@@ -1,0 +1,15 @@
+name: Half-Life 2
+slug: half-life-2
+year: 2004
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/half-life-2.jpg
+icon_url: /games/icon/half-life-2.png
+is_public: true
+updated: '2019-01-23T08:29:45.983819Z'
+steamid: 220
+gogslug: ''
+humblestoreid: ''

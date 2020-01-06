@@ -1,0 +1,40 @@
+id: 17445
+game_id: 1160
+game_slug: they-bleed-pixels
+name: They Bleed Pixels
+year: 2012
+user: hitagi
+runner: wine
+slug: they-bleed-pixels-humble-bundle
+version: Humble Bundle
+description: null
+notes: ''
+created_at: '2019-12-20T06:11:45.380524Z'
+updated_at: '2019-12-20T06:11:45.380549Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 211260
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $game
+  - merge:
+      src: $CACHE
+      dst: $GAMEDIR/drive_c/Program Files (x86)/They Bleed Pixels
+  files:
+  - game: N/A:Please select the Humble zip file
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/They Bleed Pixels/They Bleed Pixels PC.exe
+    arch: win32

@@ -1,0 +1,16 @@
+name: 'Doom 3: Resurrection of Evil'
+slug: doom-3-resurrection-of-evil
+year: 2005
+platforms:
+- name: Linux
+genres:
+- name: FPS
+- name: Horror
+aliases: []
+banner_url: /games/banner/doom-3-resurrection-of-evil.jpg
+icon_url: /games/icon/doom-3-resurrection-of-evil.png
+is_public: true
+updated: '2019-01-23T08:29:15.372919Z'
+steamid: 9070
+gogslug: ''
+humblestoreid: ''

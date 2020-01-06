@@ -1,0 +1,32 @@
+id: 10438
+game_id: 22089
+game_slug: club-penguin-rewritten
+name: Club Penguin Rewritten
+year: 2017
+user: RepEpic
+runner: web
+slug: club-penguin-rewritten-web
+version: Web
+description: null
+notes: ''
+created_at: '2018-10-07T00:20:44.297466Z'
+updated_at: '2018-10-07T05:57:14.473657Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  system:
+    disable_runtime: false
+  web:
+    maximize_window: true
+    open_links: true
+    enable_flash: true
+    frameless: false
+    fullscreen: false
+  game:
+    main_file: https://play.cprewritten.net

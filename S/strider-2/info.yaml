@@ -1,0 +1,17 @@
+name: Strider 2
+slug: strider-2
+year: 1999
+platforms:
+- name: Arcade
+- name: Sony PlayStation
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/strider-2.jpg
+icon_url: /games/icon/strider-2.png
+is_public: true
+updated: '2019-01-23T08:31:28.215268Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

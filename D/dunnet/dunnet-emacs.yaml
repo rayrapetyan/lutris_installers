@@ -1,0 +1,29 @@
+id: 10054
+game_id: 21500
+game_slug: dunnet
+name: Dunnet
+year: 1992
+user: miky_kr5
+runner: linux
+slug: dunnet-emacs
+version: Emacs
+description: Requires the Emacs text editor to be installed system wide.
+notes: ''
+created_at: '2018-09-05T19:29:07.298561Z'
+updated_at: '2018-09-06T10:20:28.810889Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  require-binaries: emacs
+  system:
+    terminal: true
+  game:
+    exe: /usr/bin/emacs
+    args: -batch -l dunnet
+    working_dir: ~/

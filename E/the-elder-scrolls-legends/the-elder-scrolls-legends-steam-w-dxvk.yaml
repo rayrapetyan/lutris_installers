@@ -1,0 +1,43 @@
+id: 8619
+game_id: 11555
+game_slug: the-elder-scrolls-legends
+name: 'The Elder Scrolls: Legends'
+year: 2017
+user: cxf
+runner: winesteam
+slug: the-elder-scrolls-legends-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2018-06-09T06:06:38.567000Z'
+updated_at: '2019-02-16T04:48:01.164317Z'
+draft: false
+published: true
+published_by: 19464
+rating: '5'
+steamid: 364470
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: corefonts tahoma
+      name: winetricks
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 364470
+    arch: win64

@@ -1,0 +1,24 @@
+id: 580
+game_id: 1123
+game_slug: ai-war-fleet-command
+name: 'AI War: Fleet Command'
+year: 2009
+user: Xodetaetl
+runner: steam
+slug: ai-war-fleet-command-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2014-09-14T19:18:46.411000Z'
+updated_at: '2014-09-14T19:23:30.158000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 40400
+gogid: 1207665323
+gogslug: ai_war_fleet_command
+humblestoreid: ''
+script:
+  game:
+    appid: 40400

@@ -1,0 +1,51 @@
+id: 2386
+game_id: 1512
+game_slug: tomb-raider-i
+name: Tomb Raider I
+year: 1996
+user: strider
+runner: dosbox
+slug: tomb-raider-i-cd
+version: CD
+description: null
+notes: ''
+created_at: '2016-08-06T15:31:04.880000Z'
+updated_at: '2019-05-09T01:13:37.117653Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 224960
+gogid: 1207663463
+gogslug: tomb_raider_1
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: TOMB.EXE
+  - task:
+      commands:
+      - 'C:'
+      - CD TOMBRAID
+      - TOMB.EXE
+      path: $GAMEDIR/tomb-play.conf
+      drives:
+        c: $GAMEDIR
+        d: $DISC
+      name: makeconfig
+  - task:
+      commands:
+      - 'D:'
+      - INSTALL.BAT
+      - exit
+      path: $GAMEDIR/tomb-install.conf
+      drives:
+        c: $GAMEDIR
+        d: $DISC
+      name: makeconfig
+  - task:
+      config_file: $GAMEDIR/tomb-install.conf
+      working_dir: $GAMEDIR
+      name: dosexec
+  game:
+    main_file: $GAMEDIR/tomb-play.conf

@@ -1,0 +1,17 @@
+name: Darksiders II
+slug: darksiders-ii
+year: 2012
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Hack and slash
+- name: Platform
+aliases: []
+banner_url: /games/banner/darksiders-ii.jpg
+icon_url: /games/icon/darksiders-ii.png
+is_public: true
+updated: '2019-01-23T08:29:04.760126Z'
+steamid: 50650
+gogslug: ''
+humblestoreid: ''

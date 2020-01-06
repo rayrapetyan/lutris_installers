@@ -1,0 +1,24 @@
+id: 17204
+game_id: 21495
+game_slug: mindustry
+name: Mindustry
+year: 2017
+user: zgz
+runner: steam
+slug: mindustry-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-12-06T21:20:05.290000Z'
+updated_at: '2019-12-25T10:24:33.587562Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 1127400
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 1127400

@@ -1,0 +1,29 @@
+id: 5985
+game_id: 10513
+game_slug: soulless-ray-of-hope
+name: 'Soulless: Ray Of Hope'
+year: null
+user: FakeShemp
+runner: linux
+slug: soulless-ray-of-hope-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-10-18T19:08:06.236022Z'
+updated_at: '2017-10-18T19:11:20.233013Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 528300
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Soulless.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Soulless.x86
+  files:
+  - file1: N/A:Please select the Humble archive

@@ -1,0 +1,16 @@
+name: 'Mario & Luigi: Partners in Time'
+slug: mario-luigi-partners-in-time
+year: 2005
+platforms:
+- name: Nintendo DS
+genres:
+- name: Platform
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/mario-luigi-partners-in-time.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:17.699490Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,16 @@
+name: Amber's Magic Shop
+slug: ambers-magic-shop
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Simulation
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/ambers-magic-shop.jpg
+icon_url: /games/icon/ambers-magic-shop.png
+is_public: true
+updated: '2019-01-23T08:28:20.500928Z'
+steamid: 584940
+gogslug: ''
+humblestoreid: ''

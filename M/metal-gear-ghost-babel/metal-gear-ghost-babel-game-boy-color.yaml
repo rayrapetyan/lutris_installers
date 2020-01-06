@@ -1,0 +1,31 @@
+id: 11240
+game_id: 24311
+game_slug: metal-gear-ghost-babel
+name: 'Metal Gear: Ghost Babel'
+year: 2000
+user: soredake
+runner: libretro
+slug: metal-gear-ghost-babel-game-boy-color
+version: Game Boy Color
+description: null
+notes: ''
+created_at: '2018-12-16T15:01:39.068347Z'
+updated_at: '2018-12-16T15:01:44.904241Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: rom
+      dst: $GAMEDIR
+  files:
+  - rom: N/A:Select the game's ROM file
+  game:
+    core: gambatte
+    main_file: rom

@@ -1,0 +1,34 @@
+id: 11409
+game_id: 324
+game_slug: shadow-warrior-classic-redux
+name: Shadow Warrior Classic Redux
+year: 1997
+user: rmolina
+runner: linux
+slug: shadow-warrior-classic-redux-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-01-01T23:02:10.034000Z'
+updated_at: '2019-01-19T10:22:10.930393Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 225160
+gogid: 1618073558
+gogslug: shadow_warrior_classic_redux
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

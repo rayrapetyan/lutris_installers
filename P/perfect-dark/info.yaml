@@ -1,0 +1,17 @@
+name: Perfect Dark
+slug: perfect-dark
+year: 2000
+platforms:
+- name: Nintendo 64
+genres:
+- name: Action
+- name: FPS
+- name: Stealth
+aliases: []
+banner_url: /games/banner/perfect-dark.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:43.251763Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,84 @@
+id: 8605
+game_id: 19032
+game_slug: battlefield-3
+name: Battlefield 3
+year: 2011
+user: cxf
+runner: wine
+slug: battlefield-3-dxvk
+version: DXVK
+description: Only sets up Origin and DXVK you'll need to download Battlefield 3 manually.
+notes: "Please read before installing: <a href=\"https://github.com/lutris/lutris/wiki/Game:-Origin\"\
+  >https://github.com/lutris/lutris/wiki/Game:-Origin</a>\r\n\r\n<a href=\"https://redd.it/9a4ywi\"\
+  >To play multiplayer please read this.</a>\r\n\r\nTo play singleplayer, edit the\
+  \ command line arguments in Origin and add <tt>singleplayer</tt>"
+created_at: '2018-06-08T23:56:14.331000Z'
+updated_at: '2019-04-12T00:13:52.763018Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - input_menu:
+      options:
+      - Not needed for AMD. Ignore this.: AMD
+      - ? 'dxgi.customVendorId = 10de
+
+          dxgi.nvapiHack = False'
+        : Nvidia
+      description: 'Setting DXVK workarounds please choose your GPU:'
+      id: GPU
+      preselect: Not needed for AMD. Ignore this.
+  - write_file:
+      content: $INPUT_GPU
+      file: $GAMEDIR/dxvk.conf
+  - task:
+      prefix: $GAMEDIR
+      app: nocrashdialog win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: client
+      prefix: $GAMEDIR
+      description: Installing Origin... Login window will pop-up and close.
+      arch: win64
+      args: /silent
+      exclude_processes: Origin.exe OriginClientService.exe OriginWebHelperService.exe
+        QtWebEngineProcess.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  - chmodx: updater
+  - merge:
+      src: updater
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Origin
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Origin/Origin.exe
+    arch: win64
+  system:
+    env:
+      DXVK_CONFIG_FILE: $GAMEDIR/dxvk.conf
+      DXVK_HUD: 0
+    disable_runtime: false
+  wine:
+    version: tkg-protonified-3.21-x86_64
+    overrides:
+      nvapi,nvapi64: disabled
+      xaudio2_7: native,builtin
+    dxvk: true
+  files:
+  - client: https://origin-a.akamaihd.net/Origin-Client-Download/origin/live/OriginThinSetup.exe
+  - updater: https://raw.githubusercontent.com/DrDoctor13/wine-origin-updater/master/updateorigin.sh

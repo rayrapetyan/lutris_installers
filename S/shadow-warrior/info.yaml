@@ -1,0 +1,15 @@
+name: Shadow Warrior
+slug: shadow-warrior
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/shadow-warrior.jpg
+icon_url: /games/icon/shadow-warrior.png
+is_public: true
+updated: '2019-01-23T08:31:11.081381Z'
+steamid: 233130
+gogslug: shadow_warrior
+humblestoreid: shadow-warrior

@@ -1,0 +1,17 @@
+name: Blade & Soul
+slug: blade-soul
+year: 2012
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: MMORPG
+aliases: []
+banner_url: /games/banner/blade-soul.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:37.729374Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

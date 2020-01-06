@@ -1,0 +1,40 @@
+id: 3903
+game_id: 11450
+game_slug: blazing-star
+name: Blazing Star
+year: 1998
+user: FakeShemp
+runner: linux
+slug: blazing-star-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-26T15:38:35.198193Z'
+updated_at: '2017-05-27T23:57:57.601336Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1811651647
+gogslug: blazing_star
+humblestoreid: ''
+script:
+  exe: NeogeoEmu.bin.x86
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data/noarch
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86_64
+      dst: $GAMEDIR
+  exe64: NeogeoEmu.bin.x86_64
+  files:
+  - file1: N/A:Please select the Humble installer

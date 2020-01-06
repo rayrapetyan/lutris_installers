@@ -1,0 +1,39 @@
+id: 939
+game_id: 1855
+game_slug: age-of-empires-ii-the-age-of-kings
+name: 'Age of Empires II: The Age of Kings'
+year: 1999
+user: Xodetaetl
+runner: wine
+slug: age-of-empires-ii-the-age-of-cd
+version: CD
+description: ''
+notes: ''
+created_at: '2014-10-23T22:00:09.684000Z'
+updated_at: '2018-05-19T03:41:48.035458Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: drive_c/Program Files/Microsoft Games/Age of Empires II/empires2.exe
+  installer:
+  - insert-disc:
+      requires: aoesetup.exe
+  - task:
+      executable: $DISC/aoesetup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Installing directplay for multiplayer support
+      app: directplay
+      silent: true
+      name: winetricks
+  game:
+    prefix: $GAMEDIR
+    arch: win32

@@ -1,0 +1,37 @@
+id: 4162
+game_id: 5553
+game_slug: not-a-hero
+name: NOT A HERO
+year: null
+user: coco
+runner: linux
+slug: not-a-hero-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2017-06-06T17:05:02.392000Z'
+updated_at: '2017-06-08T04:48:49.657948Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 274270
+gogid: 1429698467
+gogslug: not_a_hero
+humblestoreid: ''
+script:
+  exe: game/start.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Please select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

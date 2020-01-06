@@ -1,0 +1,17 @@
+name: Valkyria Chronicles 4
+slug: valkyria-chronicles-4
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: RPG
+- name: Strategy
+aliases: []
+banner_url: /games/banner/valkyria-chronicles-4.jpg
+icon_url: /games/icon/valkyria-chronicles-4.png
+is_public: true
+updated: '2019-11-01T02:40:10.938422Z'
+steamid: 790820
+gogslug: ''
+humblestoreid: ''

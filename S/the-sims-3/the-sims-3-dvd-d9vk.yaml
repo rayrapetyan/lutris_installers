@@ -1,0 +1,71 @@
+id: 13601
+game_id: 954
+game_slug: the-sims-3
+name: The Sims 3
+year: 2009
+user: citrusalex
+runner: wine
+slug: the-sims-3-dvd-d9vk
+version: DVD | D9VK
+description: Significantly improves performance by utilizing Vulkan
+notes: "- Please install wine-staging from WineHQ to get all necessary dependencies.\r\
+  \n- Use this command in terminal \"xgamma -gamma 1.5\" to adjust color gamma.\r\n\
+  - It is highly suggested to install ErrorTrap, Traveler and Overwatch mods by nRaas\
+  \ to improve game's stability."
+created_at: '2019-05-18T10:48:05.089000Z'
+updated_at: '2019-10-28T20:12:57.794546Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: 47890
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine Prefix...
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing dependencies
+      arch: win64
+      app: dotnet20 d3dcompiler_43 d3dx9 mfc42
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting version to xp for Sims3LauncherW...
+      key: Version
+      value: winxp
+      path: HKEY_CURRENT_USER\Software\Wine\AppDefaults\Sims3LauncherW.exe
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      description: Setting version to 7 for default...
+      key: Version
+      value: win7
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+      __GL_SHADER_DISK_CACHE: 1
+      WINE_LARGE_ADDRESS_AWARE: 1
+  wine:
+    d9vk: true
+    esync: true
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Electronic Arts/The Sims 3/Game/Bin/TS3.exe
+    arch: win64

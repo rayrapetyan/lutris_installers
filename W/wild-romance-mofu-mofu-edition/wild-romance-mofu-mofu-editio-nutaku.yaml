@@ -1,0 +1,31 @@
+id: 11211
+game_id: 20784
+game_slug: wild-romance-mofu-mofu-edition
+name: 'Wild Romance: Mofu Mofu Edition'
+year: 2017
+user: kimchitea
+runner: linux
+slug: wild-romance-mofu-mofu-editio-nutaku
+version: Nutaku
+description: null
+notes: Download the Windows version.
+created_at: '2018-12-13T18:29:06.001000Z'
+updated_at: '2018-12-14T13:11:04.527142Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 748480
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: WildRomanceMME.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/WildRomanceMME.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/WildRomanceMME
+  - chmodx: $GAMEDIR/lib/linux-x86_64/WildRomanceMME
+  files:
+  - file1: N/A:Please select the game archive

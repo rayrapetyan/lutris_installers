@@ -1,0 +1,17 @@
+name: 'Homeworld: Emergence'
+slug: homeworld-emergence
+year: 2000
+platforms:
+- name: Windows
+genres:
+- name: Real-time
+- name: Sci-fi
+- name: Strategy
+aliases: []
+banner_url: /games/banner/homeworld-emergence.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:52.001763Z'
+steamid: null
+gogslug: homeworld_emergence
+humblestoreid: ''

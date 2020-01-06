@@ -1,0 +1,16 @@
+name: DARK SOULS III
+slug: dark-souls-iii
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: RPG
+aliases: []
+banner_url: /games/banner/dark-souls-iii.jpg
+icon_url: /games/icon/dark-souls-iii.png
+is_public: true
+updated: '2019-01-23T08:29:04.978642Z'
+steamid: 374320
+gogslug: ''
+humblestoreid: ''

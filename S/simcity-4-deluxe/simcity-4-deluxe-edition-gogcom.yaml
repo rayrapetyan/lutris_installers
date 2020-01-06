@@ -1,0 +1,40 @@
+id: 2523
+game_id: 778
+game_slug: simcity-4-deluxe
+name: SimCity 4 Deluxe Edition
+year: 2003
+user: ssf
+runner: wine
+slug: simcity-4-deluxe-edition-gogcom
+version: GOG.com
+description: null
+notes: ''
+created_at: '2016-08-21T14:46:29.509000Z'
+updated_at: '2019-02-27T10:22:43.411802Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: 24780
+gogid: 1207664593
+gogslug: simcity_4_deluxe_edition
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/SimCity 4 Deluxe Edition/Apps/SimCity 4.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: goginstaller
+      prefix: $GAMEDIR
+      args: /VERYSILENT /SUPPRESSMSGBOXES
+      name: wineexec
+  wine:
+    version: tkg-protonified-4.1-x86_64
+  files:
+  - goginstaller: N/A:Select GOG's setup file

@@ -1,0 +1,45 @@
+id: 6524
+game_id: 3549
+game_slug: gobliiins
+name: Gobliiins
+year: 1991
+user: FakeShemp
+runner: scummvm
+slug: gobliiins-groupees
+version: Groupees
+description: Uses the files from the Gobliiins Trilogy installer from Groupees.
+notes: ''
+created_at: '2017-12-01T22:50:07.598000Z'
+updated_at: '2017-12-01T23:03:06.818720Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: rar
+      dst: $CACHE
+      file: $file1
+  - extract:
+      dst: $CACHE
+      file: $CACHE/Multi5.zip
+  - extract:
+      dst: $CACHE
+      file: $CACHE/Common.zip
+  - merge:
+      src: $CACHE/Gobliiins1
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/Games/Gobliiins1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Groupees installer
+  game:
+    game_id: gob1
+    path: $GAMEDIR
+    subtitles: true

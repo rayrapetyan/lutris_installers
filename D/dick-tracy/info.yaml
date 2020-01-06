@@ -1,0 +1,21 @@
+name: Dick Tracy
+slug: dick-tracy
+year: 1990
+platforms:
+- name: Amiga
+- name: Amstrad CPC 464
+- name: Atari ST
+- name: MS-DOS
+- name: NES
+- name: ZX Spectrum
+genres:
+- name: Arcade
+- name: Shooter
+aliases: []
+banner_url: /games/banner/dick-tracy.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:11.426766Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

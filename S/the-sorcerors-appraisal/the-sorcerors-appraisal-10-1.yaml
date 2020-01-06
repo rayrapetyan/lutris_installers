@@ -1,0 +1,31 @@
+id: 4830
+game_id: 3840
+game_slug: the-sorcerors-appraisal
+name: The Sorceror's Appraisal
+year: 2002
+user: FakeShemp
+runner: scummvm
+slug: the-sorcerors-appraisal-10-1
+version: '1.0'
+description: ''
+notes: ''
+created_at: '2017-07-05T20:13:22.032429Z'
+updated_at: '2017-07-09T20:09:17.121531Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: http://www.realityonthenorm.info/downloads/games/sorc.zip
+  game:
+    game_id: agi-fanmade
+    path: $GAMEDIR
+    subtitles: true

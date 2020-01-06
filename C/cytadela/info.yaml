@@ -1,0 +1,15 @@
+name: Cytadela
+slug: cytadela
+year: 2006
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/cytadela.jpg
+icon_url: /games/icon/cytadela.png
+is_public: true
+updated: '2019-01-23T08:29:03.377168Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

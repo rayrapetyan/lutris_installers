@@ -1,0 +1,17 @@
+name: 'Myst V: End of Ages Limited Edition'
+slug: myst-v-end-of-ages-limited-edition
+year: 2005
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: FPP
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/myst-v-end-of-ages-limited-edition.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:29.174949Z'
+steamid: null
+gogslug: myst_5_end_of_ages
+humblestoreid: ''

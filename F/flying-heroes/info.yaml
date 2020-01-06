@@ -1,0 +1,17 @@
+name: Flying Heroes
+slug: flying-heroes
+year: 2000
+platforms:
+- name: Windows
+genres:
+- name: Fantasy
+- name: Shooter
+- name: Simulation
+aliases: []
+banner_url: /games/banner/flying-heroes.jpg
+icon_url: null
+is_public: true
+updated: '2019-02-05T19:42:10.812462Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

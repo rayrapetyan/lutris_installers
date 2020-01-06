@@ -1,0 +1,16 @@
+name: Big Pharma
+slug: big-pharma
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Management
+- name: Simulation
+aliases: []
+banner_url: /games/banner/big-pharma.jpg
+icon_url: /games/icon/big-pharma.png
+is_public: true
+updated: '2019-01-23T08:28:35.821910Z'
+steamid: 344850
+gogslug: big_pharma
+humblestoreid: ''

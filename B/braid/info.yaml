@@ -1,0 +1,16 @@
+name: Braid
+slug: braid
+year: 2008
+platforms:
+- name: Linux
+genres:
+- name: Platform
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/braid.jpg
+icon_url: /games/icon/braid.png
+is_public: true
+updated: '2019-01-23T08:28:41.218309Z'
+steamid: 26800
+gogslug: braid
+humblestoreid: braid

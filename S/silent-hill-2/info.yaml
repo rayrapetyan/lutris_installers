@@ -1,0 +1,17 @@
+name: Silent Hill 2
+slug: silent-hill-2
+year: 2001
+platforms:
+- name: Sony PlayStation 2
+- name: Windows
+genres:
+- name: Horror
+- name: Survival
+aliases: []
+banner_url: /games/banner/silent-hill-2.jpg
+icon_url: /games/icon/silent-hill-2.png
+is_public: true
+updated: '2019-10-13T19:12:12.810267Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

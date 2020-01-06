@@ -1,0 +1,18 @@
+name: Borderlands
+slug: borderlands
+year: 2009
+platforms:
+- name: Sony Playstation 3
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+- name: RPG
+aliases: []
+banner_url: /games/banner/borderlands.jpg
+icon_url: /games/icon/borderlands.png
+is_public: true
+updated: '2019-01-23T08:28:40.499559Z'
+steamid: 8980
+gogslug: ''
+humblestoreid: ''

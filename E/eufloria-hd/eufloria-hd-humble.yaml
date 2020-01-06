@@ -1,0 +1,130 @@
+id: 4431
+game_id: 3238
+game_slug: eufloria-hd
+name: Eufloria HD
+year: 2014
+user: FakeShemp
+runner: linux
+slug: eufloria-hd-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-17T19:38:39.900402Z'
+updated_at: '2017-06-18T23:27:58.856040Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 221180
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: EufloriaHD.bin.x86
+  installer:
+  - chmodx: $file1
+  - execute:
+      args: --tar -xf -C $CACHE
+      file: $file1
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/instarchive_linux_x86
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/instarchive_linux_x86_64
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/instarchive_all
+  - extract:
+      format: tar
+      dst: $GAMEDIR
+      file: $CACHE/instarchive_linux_x86~
+  - extract:
+      format: tar
+      dst: $GAMEDIR
+      file: $CACHE/instarchive_linux_x86_64~
+  - extract:
+      format: tar
+      dst: $GAMEDIR
+      file: $CACHE/instarchive_all~
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/subarch
+  - extract:
+      format: tar
+      dst: $CACHE/sa
+      file: $CACHE/subarch~
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/sa/deps/Cg/Cg_files_linux_x86_64
+  - extract:
+      format: tar
+      dst: $GAMEDIR/lib64
+      file: $CACHE/Cg_files_linux_x86_64~
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/sa/deps/SDL-1.2/SDL-1.2_files_linux_x86_64
+  - extract:
+      format: tar
+      dst: $GAMEDIR/lib64
+      file: $CACHE/SDL-1
+  - move:
+      src: $CACHE/SDL-1
+      dst: $CACHE/SDL-1_x64
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/sa/deps/SDL_image/SDL_image_files_linux_x86_64
+  - extract:
+      format: tar
+      dst: $GAMEDIR/lib64
+      file: $CACHE/SDL_image_files_linux_x86_64~
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/sa/deps/SDL_mixer/SDL_mixer_files_linux_x86_64
+  - extract:
+      format: tar
+      dst: $GAMEDIR/lib64
+      file: $CACHE/SDL_mixer_files_linux_x86_64~
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/sa/deps/Cg/Cg_files_linux_x86
+  - extract:
+      format: tar
+      dst: $GAMEDIR/lib
+      file: $CACHE/Cg_files_linux_x86~
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/sa/deps/SDL-1.2/SDL-1.2_files_linux_x86
+  - extract:
+      format: tar
+      dst: $GAMEDIR/lib
+      file: $CACHE/SDL-1
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/sa/deps/SDL_image/SDL_image_files_linux_x86
+  - extract:
+      format: tar
+      dst: $GAMEDIR/lib
+      file: $CACHE/SDL_image_files_linux_x86~
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/sa/deps/SDL_mixer/SDL_mixer_files_linux_x86
+  - extract:
+      format: tar
+      dst: $GAMEDIR/lib
+      file: $CACHE/SDL_mixer_files_linux_x86~
+  exe64: EufloriaHD.bin.x86_64
+  files:
+  - file1: N/A:Please select the Humble installer

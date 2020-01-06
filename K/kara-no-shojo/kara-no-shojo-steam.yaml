@@ -1,0 +1,25 @@
+id: 12609
+game_id: 23022
+game_slug: kara-no-shojo
+name: Kara no Shojo
+year: 2008
+user: talklittle
+runner: winesteam
+slug: kara-no-shojo-steam
+version: Steam
+description: null
+notes: DO NOT attempt to run the game in fullscreen nor maximize the window. It will
+  crash and then fail to launch until save data is manually deleted. (As of Wine 4.1)
+created_at: '2019-04-02T15:24:22.571000Z'
+updated_at: '2019-04-05T06:12:35.390460Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 965810
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 965810

@@ -1,0 +1,24 @@
+id: 2582
+game_id: 3571
+game_slug: albedo-eyes-from-outer-space
+name: 'Albedo: Eyes from Outer Space'
+year: null
+user: RobLoach
+runner: winesteam
+slug: albedo-eyes-from-outer-space-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: https://appdb.winehq.org/objectManager.php?sClass=application&iId=17715
+created_at: '2016-08-24T00:15:34.138019Z'
+updated_at: '2016-08-24T00:34:16.929882Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: 277520
+gogid: 1428071176
+gogslug: albedo_eyes_from_outer_space
+humblestoreid: ''
+script:
+  game:
+    appid: 277520

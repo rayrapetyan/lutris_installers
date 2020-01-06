@@ -1,0 +1,39 @@
+id: 13523
+game_id: 10600
+game_slug: hollow-knight
+name: Hollow Knight
+year: 2017
+user: darktiger
+runner: wine
+slug: hollow-knight-gog-w-dxvk
+version: GOG w/ DXVK
+description: null
+notes: ''
+created_at: '2019-05-14T13:49:08.578000Z'
+updated_at: '2019-05-18T06:07:32.801147Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 367520
+gogid: 1308320804
+gogslug: hollow_knight
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      description: Installing game
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Hollow Knight/hollow_knight.exe
+  system:
+    vk_icd: 'off'
+  wine:
+    version: tkg-protonified-4.6-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - game: 'N/A: Please select the GOG.com Windows installer.'

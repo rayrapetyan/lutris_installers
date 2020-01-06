@@ -1,0 +1,16 @@
+name: Descent 3
+slug: descent-3
+year: 1999
+platforms:
+- name: Linux
+genres:
+- name: FPS
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/descent-3.jpg
+icon_url: /games/icon/descent-3.png
+is_public: true
+updated: '2019-01-23T08:29:10.042416Z'
+steamid: 273590
+gogslug: ''
+humblestoreid: ''

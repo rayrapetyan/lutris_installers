@@ -1,0 +1,19 @@
+name: "The LEGO\xAE Movie - Videogame"
+slug: the-lego-movie-videogame
+year: 2014
+platforms:
+- name: Nintendo 3DS
+- name: Nintendo Wii U
+- name: Sony Playstation 3
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/the-lego-movie-videogame.jpg
+icon_url: /games/icon/the-lego-movie-videogame.png
+is_public: true
+updated: '2019-01-23T08:31:43.917577Z'
+steamid: 267530
+gogslug: ''
+humblestoreid: ''

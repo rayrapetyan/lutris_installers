@@ -1,0 +1,23 @@
+id: 2799
+game_id: 19
+game_slug: quake-3-arena
+name: Quake 3 Arena
+year: 1999
+user: djazz
+runner: browser
+slug: quake-3-arena-quakejs
+version: QuakeJS
+description: ''
+notes: ''
+created_at: '2016-09-29T17:07:52.245302Z'
+updated_at: '2016-09-30T20:44:54.742582Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 2200
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: http://www.quakejs.com/play

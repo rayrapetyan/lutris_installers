@@ -1,0 +1,16 @@
+name: 'Cities: Skylines'
+slug: cities-skylines
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: City building
+- name: Management
+aliases: []
+banner_url: /games/banner/cities-skylines.jpg
+icon_url: /games/icon/cities-skylines.png
+is_public: true
+updated: '2019-03-23T14:23:05.961183Z'
+steamid: 255710
+gogslug: ''
+humblestoreid: cities-skylines

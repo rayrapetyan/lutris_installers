@@ -1,0 +1,30 @@
+id: 12949
+game_id: 26866
+game_slug: bomb-squad
+name: BombSquad
+year: 2019
+user: DesfrutandoOS
+runner: linux
+slug: bombsquad-14150
+version: 1.4.150
+description: null
+notes: ''
+created_at: '2019-04-19T14:47:35.992000Z'
+updated_at: '2019-11-01T00:28:12.900947Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/
+      file: bombsquad
+  files:
+  - bombsquad: https://www.files.froemling.net/bombsquad/builds/BombSquad_Linux_64bit_1.4.150.tar.gz
+  game:
+    exe: $GAMEDIR/bombsquad

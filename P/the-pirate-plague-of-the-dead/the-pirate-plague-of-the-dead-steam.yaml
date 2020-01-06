@@ -1,0 +1,24 @@
+id: 8150
+game_id: 14327
+game_slug: the-pirate-plague-of-the-dead
+name: 'The Pirate: Plague of the Dead'
+year: null
+user: soredake
+runner: steam
+slug: the-pirate-plague-of-the-dead-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T06:42:46.627535Z'
+updated_at: '2018-05-13T09:15:45.053345Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 723790
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 723790

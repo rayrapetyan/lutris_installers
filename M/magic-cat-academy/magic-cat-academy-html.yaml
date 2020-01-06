@@ -1,0 +1,23 @@
+id: 2959
+game_id: 8234
+game_slug: magic-cat-academy
+name: Magic Cat Academy
+year: 2016
+user: strider
+runner: web
+slug: magic-cat-academy-html
+version: HTML
+description: ''
+notes: ''
+created_at: '2016-10-31T04:14:48.810948Z'
+updated_at: '2016-10-31T04:14:56.110245Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://www.google.com/logos/2016/halloween16/halloween16.html?hl=en

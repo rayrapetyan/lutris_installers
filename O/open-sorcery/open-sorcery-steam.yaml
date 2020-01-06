@@ -1,0 +1,24 @@
+id: 6263
+game_id: 11612
+game_slug: open-sorcery
+name: Open Sorcery
+year: 2017
+user: fanotriel
+runner: steam
+slug: open-sorcery-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-11-06T23:21:08.468515Z'
+updated_at: '2017-11-14T22:10:12.229708Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 585180
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 585180

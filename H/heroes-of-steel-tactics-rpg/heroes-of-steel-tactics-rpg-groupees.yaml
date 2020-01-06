@@ -1,0 +1,32 @@
+id: 5585
+game_id: 2636
+game_slug: heroes-of-steel-tactics-rpg
+name: 'Heroes of Steel: Tactics RPG'
+year: null
+user: FakeShemp
+runner: wine
+slug: heroes-of-steel-tactics-rpg-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-04T18:58:24.532266Z'
+updated_at: '2018-05-19T03:41:58.735836Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 291190
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Heroes of Steel
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Heroes of Steel/HeroesOfSteel.win32.exe
+    arch: win32

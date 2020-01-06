@@ -1,0 +1,50 @@
+id: 16653
+game_id: 392
+game_slug: grand-theft-auto-episodes-from-liberty-city
+name: 'Grand Theft Auto: Episodes from Liberty City'
+year: 2009
+user: soredake
+runner: winesteam
+slug: grand-theft-auto-episodes-fro-steamdxvk
+version: Steam/DXVK
+description: null
+notes: ''
+created_at: '2019-11-05T19:02:49.912000Z'
+updated_at: '2019-12-23T19:34:10.280137Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 12220
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: create_prefix
+  - merge:
+      src: $xlive
+      dst: $GAMEDIR/EFLC
+  - task:
+      prefix: $GAMEDIR/prefix
+      key: GrabFullScreen
+      value: Y
+      path: HKEY_CURRENT_USER\Software\Wine\X11 Driver
+      name: set_regedit
+  winesteam:
+    version: lutris-4.16-x86_64
+    dxvk: true
+  system:
+    env:
+      DXVK_LOG_LEVEL: none
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+  files:
+  - xlive: https://github.com/AccountOneOff/lutris_files/raw/master/xlive.dll
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 12220

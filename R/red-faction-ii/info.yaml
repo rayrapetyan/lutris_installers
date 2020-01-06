@@ -1,0 +1,21 @@
+name: Red Faction II
+slug: red-faction-ii
+year: 2002
+platforms:
+- name: GameCube
+- name: Sony PlayStation 2
+- name: Windows
+genres:
+- name: FPS
+- name: Sci-fi
+- name: Shooter
+aliases:
+- slug: red-faction-2
+  name: Red Faction 2
+banner_url: /games/banner/red-faction-ii.jpg
+icon_url: /games/icon/red-faction-ii.png
+is_public: true
+updated: '2019-10-14T01:58:58.356612Z'
+steamid: 20550
+gogslug: red_faction_2
+humblestoreid: ''

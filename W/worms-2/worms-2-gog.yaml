@@ -1,0 +1,52 @@
+id: 11375
+game_id: 6328
+game_slug: worms-2
+name: Worms 2
+year: 1997
+user: djazz
+runner: wine
+slug: worms-2-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2018-12-28T21:56:17.829000Z'
+updated_at: '2018-12-28T22:21:09.180826Z'
+draft: false
+published: true
+published_by: 2045
+rating: '3'
+steamid: null
+gogid: 1207659104
+gogslug: worms_2
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win32
+      type: REG_DWORD
+      value: 5
+      key: VideoSetting
+      path: HKEY_CURRENT_USER\Software\Team17SoftwareLTD\frontend\Worms2
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      exclude_processes: GOGLauncher.exe start.exe
+      arch: win32
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: winekill
+  files:
+  - setup: N/A:Please select the GOG.com Worms 2 installer executable
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Worms 2/frontend.exe
+    arch: win32

@@ -1,0 +1,29 @@
+id: 2762
+game_id: 7719
+game_slug: ifscl
+name: IFSCL
+year: 2016
+user: miky_kr5
+runner: linux
+slug: ifscl-323
+version: 3.2.3
+description: ''
+notes: ''
+created_at: '2016-09-22T00:15:12.418242Z'
+updated_at: '2016-10-09T18:51:41.023916Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: IFSCL_313c_LINUX.x86
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $file1
+  files:
+  - file1: http://www.mediafire.com/download/os0kya1pozozslw/IFSCL_323c_Linux.zip

@@ -1,0 +1,47 @@
+id: 15721
+game_id: 27780
+game_slug: heavens-vault
+name: Heaven's Vault
+year: 2019
+user: freaktechnik
+runner: wine
+slug: heavens-vault-gog
+version: GOG
+description: null
+notes: Requires two files for the setup. Mouse interaction will break occasionally
+  when in full screen. Alt-tabbing out while in full screen makes the game freeze.
+created_at: '2019-09-20T18:33:40.550000Z'
+updated_at: '2019-10-20T07:03:48.583273Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 774201
+gogid: 1117322977
+gogslug: heavens_vault
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Heaven's Vault/Heaven's Vault.exe
+    arch: win64
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES /NOCANCEL
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  wine:
+    version: ge-protonified-4.10-x86_64
+    dxvk: true
+  files:
+  - installer: N/A:Select the game's setup file

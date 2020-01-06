@@ -1,0 +1,36 @@
+id: 8085
+game_id: 6622
+game_slug: fallout-shelter
+name: Fallout Shelter
+year: 2015
+user: cxf
+runner: winesteam
+slug: fallout-shelter-dxvk
+version: DXVK
+description: null
+notes: ''
+created_at: '2018-05-07T07:45:46.203000Z'
+updated_at: '2019-02-14T06:04:54.812827Z'
+draft: false
+published: true
+published_by: 19464
+rating: '5'
+steamid: 588430
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-unity-4.1-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 588430
+    arch: win64

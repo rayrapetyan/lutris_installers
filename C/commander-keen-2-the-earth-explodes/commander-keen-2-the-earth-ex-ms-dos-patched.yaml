@@ -1,0 +1,95 @@
+id: 15134
+game_id: 29048
+game_slug: commander-keen-2-the-earth-explodes
+name: 'Commander Keen 2: The Earth Explodes'
+year: 1990
+user: appoloin
+runner: dosbox
+slug: commander-keen-2-the-earth-ex-ms-dos-patched
+version: MS-DOS + PATCHED
+description: The installer will patch the controls Space = shoot Enter = status
+notes: ''
+created_at: '2019-08-25T15:07:34.299838Z'
+updated_at: '2019-09-10T01:24:47.257404Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - execute:
+      args: $GAMEDIR/HDD $GAMEDIR/HDD/keen2
+      file: mkdir
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $patch
+  - execute:
+      args: $CACHE/CK2PATCH.EXE $GAMEDIR/HDD/keen2
+      file: /bin/cp
+  - write_file:
+      content: '%ext ck2
+
+        #Change the controls to: Space, shoot; Enter, status.
+
+        %patch $120B  $5024W
+
+        %patch $83A2  $5024W
+
+        %patch $6965  $90 $90 $90 $90 $90 $90 $90 $80 $3E $5041W  $00
+
+        %patch $6A90  $90 $90 $90 $90 $90 $90 $90 $80 $3E $5041W  $00
+
+        %patch $6BFB  $90 $90 $90 $90 $90 $90 $90 $80 $3E $5041W  $00
+
+        %patch $6C0E  $90 $90
+
+        %patch $6CAF  $90 $90 $90 $90 $90 $90 $90 $80 $3E $5041W  $00
+
+        %patch $6E3E  $90 $90 $90 $90 $90 $90 $90 $80 $3E $5041W  $00
+
+        %patch $6EEC  $90 $90 $90 $90 $90 $90 $90 $80 $3E $5041W  $00
+
+        %end'
+      file: $GAMEDIR/HDD/keen2/PATCH.PAT
+  - write_file:
+      content: '#!/bin/bash
+
+        src=$1
+
+        dst=$2
+
+        src_path=$(echo "$1" | sed -r "s/(.+)\/.+/\1/")
+
+        cp -avr "$src_path/."  "$dst"'
+      file: $CACHE/bulkcopy.sh
+  - chmodx: $CACHE/bulkcopy.sh
+  - execute:
+      args: $game $GAMEDIR/HDD/keen2
+      file: $CACHE/bulkcopy.sh
+  - write_file:
+      content: '[cpu]
+
+        cputype=386_slow
+
+        [autoexec]
+
+        mount C "$GAMEDIR/HDD" -t dir
+
+        C:
+
+        cd keen2
+
+        CK2PATCH.EXE patch.pat
+
+        exit'
+      file: $GAMEDIR/commander_keen.conf
+  files:
+  - game: N/A:Select the file Keen2.exe
+  - patch: http://www.shikadi.net/wiki/files/tools/t.ckpatch_v.0.10.andrew_durdin.2007-11-23.zip
+  game:
+    main_file: $GAMEDIR/commander_keen.conf

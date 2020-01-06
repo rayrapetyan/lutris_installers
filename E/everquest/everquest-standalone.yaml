@@ -1,0 +1,66 @@
+id: 5293
+game_id: 1117
+game_slug: everquest
+name: EverQuest
+year: 2012
+user: schotty
+runner: wine
+slug: everquest-standalone
+version: Standalone
+description: null
+notes: "During the installation of Everquest itself, it will need to install DirectX\
+  \ updates.  In this phase, take note that there is a Bing toolbar it wants to install.\
+  \  This is most certainly NOT needed, and you may uncheck this box to not install\
+  \ it.\r\n\r\nOnce you start the game, if you have a cursor that is off from where\
+  \ it clicks, just maximize the window and it will fix itself."
+created_at: '2017-08-07T01:16:16.241000Z'
+updated_at: '2019-03-31T05:51:49.849950Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 205710
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/users/Public/Daybreak Game Company/Installed Games/EverQuest/LaunchPad.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: win7
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Corefonts
+      app: corefonts
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Windows Management Interface
+      app: wmi
+      silent: false
+      name: winetricks
+  - task:
+      executable: wineboot
+      prefix: $GAMEDIR
+      description: Simulating Windows reboot.
+      name: wineexec
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Installing EverQuest
+      name: wineexec
+  wine:
+    version: tkg-3.21-x86_64
+  files:
+  - setup: https://launch.daybreakgames.com/installer/EQ_setup.exe

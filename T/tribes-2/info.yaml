@@ -1,0 +1,16 @@
+name: Tribes 2
+slug: tribes-2
+year: 2001
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/tribes-2.jpg
+icon_url: /games/icon/tribes-2.png
+is_public: true
+updated: '2019-01-23T08:31:55.641533Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

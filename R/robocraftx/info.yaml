@@ -1,0 +1,15 @@
+name: RobocraftX
+slug: robocraftx
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Sandbox
+aliases: []
+banner_url: /games/banner/robocraftx.jpg
+icon_url: /games/icon/robocraftx.png
+is_public: true
+updated: '2019-06-12T05:04:11.850017Z'
+steamid: 1078000
+gogslug: ''
+humblestoreid: ''

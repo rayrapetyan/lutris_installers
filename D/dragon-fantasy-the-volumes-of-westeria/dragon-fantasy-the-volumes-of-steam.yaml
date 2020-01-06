@@ -1,0 +1,24 @@
+id: 11434
+game_id: 10450
+game_slug: dragon-fantasy-the-volumes-of-westeria
+name: 'Dragon Fantasy: The Volumes of Westeria'
+year: null
+user: violaian
+runner: steam
+slug: dragon-fantasy-the-volumes-of-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-01-04T07:16:38.919662Z'
+updated_at: '2019-01-05T06:56:22.257955Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 327980
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 327980

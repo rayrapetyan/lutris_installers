@@ -1,0 +1,29 @@
+id: 4403
+game_id: 11758
+game_slug: inverto
+name: Inverto
+year: null
+user: FakeShemp
+runner: linux
+slug: inverto-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-06-16T19:29:59.792067Z'
+updated_at: '2017-06-17T19:29:14.526037Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Inverto.x86
+  installer:
+  - extract:
+      file: $file1
+  exe64: Inverto.x86_64
+  files:
+  - file1: N/A:Please select the IndieGameStand archive

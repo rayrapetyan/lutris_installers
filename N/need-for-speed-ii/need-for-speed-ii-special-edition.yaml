@@ -1,0 +1,38 @@
+id: 2082
+game_id: 3896
+game_slug: need-for-speed-ii
+name: Need for Speed II
+year: 1997
+user: strider
+runner: linux
+slug: need-for-speed-ii-special-edition
+version: Special Edition
+description: Open source re-implementation of the original game.
+notes: Requires the original NFSIISE CD-ROM during the installation.
+created_at: '2016-06-11T09:33:32.205000Z'
+updated_at: '2019-10-27T07:32:41.776828Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: nfs2se
+  installer:
+  - insert_disc:
+      requires: fedata
+      message: Insert the NFSIISE CD-ROM
+  - extract:
+      dst: $GAMEDIR
+      file: engine
+  - merge:
+      src: $DISC/fedata
+      dst: $GAMEDIR/fedata
+  - merge:
+      src: $DISC/gamedata
+      dst: $GAMEDIR/gamedata
+  files:
+  - engine: https://github.com/zaps166/NFSIISE/releases/download/v1.2.4/nfs2se-linux.tar.gz

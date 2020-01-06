@@ -1,0 +1,30 @@
+id: 4124
+game_id: 302
+game_slug: thomas-was-alone
+name: Thomas Was Alone
+year: 2012
+user: FakeShemp
+runner: linux
+slug: thomas-was-alone-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-04T21:08:35.811567Z'
+updated_at: '2017-06-04T22:11:56.445981Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 220780
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: thomasWasAlone
+  installer:
+  - extract:
+      format: tgz
+      file: $file1
+  - chmodx: $GAMEDIR/thomasWasAlone
+  files:
+  - file1: N/A:Please select the Humble archive

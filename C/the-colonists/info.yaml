@@ -1,0 +1,17 @@
+name: The Colonists
+slug: the-colonists
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Building
+- name: Managerial
+- name: Simulation
+aliases: []
+banner_url: /games/banner/the-colonists.jpg
+icon_url: null
+is_public: true
+updated: '2019-02-08T20:26:28.958957Z'
+steamid: 677340
+gogslug: the_colonists
+humblestoreid: ''

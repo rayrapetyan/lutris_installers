@@ -1,0 +1,24 @@
+id: 1865
+game_id: 798
+game_slug: avernum-escape-from-the-pit
+name: 'Avernum: Escape From the Pit'
+year: null
+user: WildCoder
+runner: winesteam
+slug: avernum-escape-from-the-pit-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-01-13T23:14:41.014790Z'
+updated_at: '2016-01-27T17:21:38.714766Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 208400
+gogid: 1420630484
+gogslug: avernum_escape_from_the_pit
+humblestoreid: ''
+script:
+  game:
+    appid: 208400

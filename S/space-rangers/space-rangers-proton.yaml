@@ -1,0 +1,24 @@
+id: 17551
+game_id: 3383
+game_slug: space-rangers
+name: Space Rangers
+year: null
+user: soredake
+runner: steam
+slug: space-rangers-proton
+version: Proton
+description: null
+notes: ''
+created_at: '2019-12-24T20:24:36.713455Z'
+updated_at: '2019-12-24T20:24:45.309058Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 46320
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 46320

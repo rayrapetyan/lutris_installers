@@ -1,0 +1,44 @@
+id: 8868
+game_id: 1601
+game_slug: x-com-terror-from-the-deep
+name: 'X-COM: Terror from the Deep'
+year: 1995
+user: lordheavy
+runner: dosbox
+slug: x-com-terror-from-the-deep-steam
+version: Steam
+description: Uses the files from Steam.
+notes: ''
+created_at: '2018-06-23T14:53:06.578000Z'
+updated_at: '2018-06-24T04:01:34.552319Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 7650
+gogid: 1445249983
+gogslug: xcom_terror_from_the_deep
+humblestoreid: ''
+script:
+  main_file: dosbox.conf
+  installer:
+  - merge:
+      src: $GAMEDIR/dosbox.conf
+      dst: $CACHE
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $CACHE/dosbox.conf
+  - write_config:
+      section: sdl
+      key: fullscreen
+      value: false
+      file: $CACHE/dosbox.conf
+  - move:
+      src: $CACHE/dosbox.conf
+      dst: $GAMEDIR/dosbox_lutris.conf
+  files:
+  - steam-data: $WINESTEAM:7650:base
+  game:
+    config_file: $GAMEDIR/dosbox_lutris.conf

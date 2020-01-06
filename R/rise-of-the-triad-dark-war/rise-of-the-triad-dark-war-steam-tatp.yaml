@@ -1,0 +1,32 @@
+id: 5780
+game_id: 3963
+game_slug: rise-of-the-triad-dark-war
+name: 'Rise of the Triad: Dark War'
+year: 1994
+user: maxlefou
+runner: dosbox
+slug: rise-of-the-triad-dark-war-steam-tatp
+version: Steam (TATP)
+description: The Apogee Throwback Pack
+notes: ''
+created_at: '2017-09-17T19:55:17.912000Z'
+updated_at: '2018-05-19T05:25:35.393616Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 358410
+gogid: 1207658732
+gogslug: rise_of_the_triad__dark_war
+humblestoreid: ''
+script:
+  main_file: $GAMEDIR/$INPUT_VERS
+  files:
+  - steamgame: $WINESTEAM:238050:.
+  - input_menu:
+      options:
+      - Rise of the Triad/ROTT.EXE: 'Rise Of the Triad: Dark War'
+      - Extreme Rise of the Triad/ROTT.EXE: Extreme Rise Of the Triad
+      description: 'Choose the game version:'
+      id: VERS
+      preselect: Rise of the Triad/ROTT.EXE

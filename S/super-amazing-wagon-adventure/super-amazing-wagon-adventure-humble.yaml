@@ -1,0 +1,37 @@
+id: 4181
+game_id: 1651
+game_slug: super-amazing-wagon-adventure
+name: Super Amazing Wagon Adventure
+year: null
+user: FakeShemp
+runner: wine
+slug: super-amazing-wagon-adventure-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-06T19:56:50.283000Z'
+updated_at: '2018-05-19T03:41:50.559924Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 250500
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: dotnet40
+      name: winetricks
+  files:
+  - file1: N/A:Please select the Humble installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Super Amazing Wagon Adventure/WagonAdventure.exe
+    arch: win32

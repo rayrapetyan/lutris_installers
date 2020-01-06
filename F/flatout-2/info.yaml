@@ -1,0 +1,16 @@
+name: FlatOut 2
+slug: flatout-2
+year: 2006
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/flatout-2.jpg
+icon_url: /games/icon/flatout-2.png
+is_public: true
+updated: '2019-11-06T03:13:59.273859Z'
+steamid: 2990
+gogslug: flatout_2
+humblestoreid: ''

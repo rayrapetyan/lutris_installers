@@ -1,0 +1,24 @@
+id: 7819
+game_id: 17751
+game_slug: nantucket
+name: Nantucket
+year: null
+user: Talvi
+runner: winesteam
+slug: nantucket-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-04-07T00:55:51.763000Z'
+updated_at: '2018-04-26T00:52:31.188334Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 621220
+gogid: 1263289061
+gogslug: nantucket
+humblestoreid: ''
+script:
+  game:
+    appid: 621220

@@ -1,0 +1,19 @@
+name: osu!
+slug: osu
+year: 2007
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Arcade
+- name: Rhythm
+aliases:
+- slug: opsu
+  name: opsu!
+banner_url: /games/banner/osu.jpg
+icon_url: /games/icon/osu.png
+is_public: true
+updated: '2019-06-13T07:57:51.053791Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

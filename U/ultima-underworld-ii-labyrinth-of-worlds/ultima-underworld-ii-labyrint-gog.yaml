@@ -1,0 +1,53 @@
+id: 1404
+game_id: 4026
+game_slug: ultima-underworld-ii-labyrinth-of-worlds
+name: 'Ultima Underworld II: Labyrinth of Worlds'
+year: 1993
+user: Xodetaetl
+runner: dosbox
+slug: ultima-underworld-ii-labyrint-gog
+version: GOG
+description: null
+notes: "- Recent GOG installer required (v2 or above)\r\n- Fixed music not playing\r\
+  \n- Keyboard layout image included in the game's folder.\r\n- Digital footstep sounds\
+  \ are not working for an unknown reason."
+created_at: '2015-03-12T16:59:29.333000Z'
+updated_at: '2018-01-31T10:02:56.708531Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1207658937
+gogslug: ultima_underworld_1_2
+humblestoreid: ''
+script:
+  main_file: $GAMEDIR/uw2/dosboxULTIMA2_single.conf
+  installer:
+  - extract:
+      dst: $CACHE/innoextract
+      file: innoextract
+  - execute:
+      args: --extract $game --output-dir $CACHE/uw
+      file: $CACHE/innoextract/innoextract
+  - merge:
+      src: $CACHE/uw/app
+      dst: $GAMEDIR/uw2
+  - extract:
+      dst: $GAMEDIR/uw2
+      file: $conf
+  - move:
+      src: $GAMEDIR/uw2/game.gog
+      dst: $GAMEDIR
+  - write_config:
+      section: sdl
+      key: output
+      value: opengl
+      file: $GAMEDIR/uw2/dosboxULTIMA2.conf
+  files:
+  - game: N/A:Select the Windows installer for Ultima Underworld 1 and 2 provided
+      by GOG
+  - innoextract: https://lutris.net/files/tools/innoextract.tar.gz
+  - conf: https://lutris.net/files/games/ultima-underworld-ii-labyrinth-of-worlds/uuw2_conf.zip
+  game:
+    config_file: $GAMEDIR/uw2/dosboxULTIMA2.conf

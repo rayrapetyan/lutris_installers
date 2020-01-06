@@ -1,0 +1,27 @@
+id: 17329
+game_id: 778
+game_slug: simcity-4-deluxe
+name: SimCity 4 Deluxe Edition
+year: 2003
+user: edjaa84
+runner: wine
+slug: simcity-4-deluxe-edition-gog-64bit
+version: GOG 64bit
+description: "SimCity 4 Deluxe Edition 64bit\r\n\r\nRaPiMoDEBianPaKaGer"
+notes: ''
+created_at: '2019-12-14T01:11:19.866848Z'
+updated_at: '2019-12-14T01:11:19.866884Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: 24780
+gogid: 1207664593
+gogslug: simcity_4_deluxe_edition
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/SimCity 4 Deluxe Edition/Apps/SimCity 4.exe
+    working_dir: /drive_c/GOG Games/SimCity 4 Deluxe Edition/Apps/
+    arch: win64

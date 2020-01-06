@@ -1,0 +1,24 @@
+id: 10723
+game_id: 7199
+game_slug: no-mans-sky
+name: No Man's Sky
+year: 2016
+user: Zengun
+runner: steam
+slug: no-mans-sky-steam-proton
+version: Steam Proton
+description: Enable Proton for all Steam titles before installing!
+notes: ''
+created_at: '2018-11-01T22:46:16.561000Z'
+updated_at: '2019-11-04T04:51:08.452728Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 275850
+gogid: 1446213994
+gogslug: no_mans_sky
+humblestoreid: ''
+script:
+  game:
+    appid: 275850

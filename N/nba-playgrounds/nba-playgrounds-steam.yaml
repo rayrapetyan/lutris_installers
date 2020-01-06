@@ -1,0 +1,24 @@
+id: 8283
+game_id: 12792
+game_slug: nba-playgrounds
+name: NBA Playgrounds
+year: null
+user: oem
+runner: winesteam
+slug: nba-playgrounds-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-14T00:34:13.527060Z'
+updated_at: '2018-05-14T03:44:58.170824Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 545270
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 545270

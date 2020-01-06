@@ -1,0 +1,29 @@
+id: 3827
+game_id: 2461
+game_slug: heavy-bullets
+name: Heavy Bullets
+year: null
+user: FakeShemp
+runner: linux
+slug: heavy-bullets-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-24T10:46:18.029739Z'
+updated_at: '2017-05-26T00:09:51.356523Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 297120
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: HEAVY_BULLETS.x86
+  installer:
+  - extract:
+      file: $file1
+  exe64: HEAVY_BULLETS.x86_64
+  files:
+  - file1: N/A:Please select the Humble archive

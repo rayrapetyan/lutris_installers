@@ -1,0 +1,24 @@
+id: 16488
+game_id: 2900
+game_slug: making-history-ii-the-war-of-the-world
+name: 'Making History II: The War of the World'
+year: null
+user: b3da
+runner: linux
+slug: making-history-ii-the-war-of-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-10-30T10:45:45.173555Z'
+updated_at: '2019-10-30T10:45:45.173600Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: 46770
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 46770

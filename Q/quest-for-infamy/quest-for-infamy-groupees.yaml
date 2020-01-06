@@ -1,0 +1,43 @@
+id: 4364
+game_id: 2629
+game_slug: quest-for-infamy
+name: Quest for Infamy
+year: null
+user: FakeShemp
+runner: linux
+slug: quest-for-infamy-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-06-15T16:38:46.943000Z'
+updated_at: '2017-06-17T04:49:13.335772Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 264560
+gogid: 1207664993
+gogslug: quest_for_infamy
+humblestoreid: ''
+script:
+  exe: QFI.bin.x86
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $CACHE/qfi-1.0.1_2014-07-09.bin
+  - merge:
+      src: $CACHE/data/noarch
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86_64
+      dst: $GAMEDIR
+  exe64: QFI.bin.x86_64
+  files:
+  - file1: N/A:Please select the Groupees archive

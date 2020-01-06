@@ -1,0 +1,24 @@
+id: 1714
+game_id: 4936
+game_slug: wasteland-2-directors-cut
+name: 'Wasteland 2: Director''s Cut'
+year: 2014
+user: Xodetaetl
+runner: steam
+slug: wasteland-2-directors-cut-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-11-27T10:34:17.284566Z'
+updated_at: '2015-11-27T10:34:29.013274Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 404730
+gogid: null
+gogslug: wasteland_2_directors_cut_digital_classic_edition
+humblestoreid: wasteland-2-directors-cut-classic-edition
+script:
+  game:
+    appid: 404730

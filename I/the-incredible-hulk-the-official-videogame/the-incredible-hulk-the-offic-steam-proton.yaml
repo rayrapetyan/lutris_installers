@@ -1,0 +1,24 @@
+id: 12854
+game_id: 25270
+game_slug: the-incredible-hulk-the-official-videogame
+name: 'The Incredible Hulk: The Official Videogame'
+year: null
+user: Testman42
+runner: steam
+slug: the-incredible-hulk-the-offic-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-04-16T21:00:57.128000Z'
+updated_at: '2019-05-19T07:31:25.105391Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 10510
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 10510

@@ -1,0 +1,24 @@
+id: 10320
+game_id: 6807
+game_slug: aerannis
+name: Aerannis
+year: 2015
+user: Roxxers
+runner: steam
+slug: aerannis-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2018-09-24T06:26:39.110000Z'
+updated_at: '2019-05-19T06:47:59.922820Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 356580
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 356580

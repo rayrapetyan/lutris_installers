@@ -1,0 +1,15 @@
+name: Unreal Tournament 2004
+slug: unreal-tournament-2004
+year: 2004
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/unreal-tournament-2004.jpg
+icon_url: /games/icon/unreal-tournament-2004.png
+is_public: true
+updated: '2019-03-16T04:46:03.626434Z'
+steamid: 13230
+gogslug: unreal_tournament_2004_ece
+humblestoreid: ''

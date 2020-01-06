@@ -1,0 +1,33 @@
+id: 12824
+game_id: 19068
+game_slug: fightn-rage
+name: Fight'N Rage
+year: 2017
+user: LeXofLeviafan
+runner: winesteam
+slug: fightn-rage-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-04-15T20:52:05.100000Z'
+updated_at: '2019-04-27T03:58:44.383099Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 674520
+gogid: 1608965204
+gogslug: fightn_rage
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: dotnet471 win7
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 674520

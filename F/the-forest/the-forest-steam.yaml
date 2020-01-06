@@ -1,0 +1,38 @@
+id: 5833
+game_id: 2390
+game_slug: the-forest
+name: The Forest
+year: 2018
+user: minerinnorway
+runner: winesteam
+slug: the-forest-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-09-21T14:54:58.981000Z'
+updated_at: '2019-02-24T02:46:49.383593Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 242760
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  system:
+    env:
+      mesa_glthread: 'true'
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+      __GL_THREADED_OPTIMIZATIONS: 1
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_STATE_CACHE: 1
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 242760
+    arch: win64

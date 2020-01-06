@@ -1,0 +1,16 @@
+name: Streets of Rage 3
+slug: streets-of-rage-3
+year: 1994
+platforms:
+- name: Sega Genesis / Mega Drive
+- name: Windows
+genres:
+- name: Beat'em up
+aliases: []
+banner_url: /games/banner/streets-of-rage-3.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:28.140466Z'
+steamid: 211206
+gogslug: ''
+humblestoreid: ''

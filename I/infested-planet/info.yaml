@@ -1,0 +1,15 @@
+name: Infested Planet
+slug: infested-planet
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Shooter
+aliases: []
+banner_url: /games/banner/infested-planet.jpg
+icon_url: /games/icon/infested-planet.png
+is_public: true
+updated: '2019-01-23T08:29:56.548157Z'
+steamid: 204530
+gogslug: infested_planet
+humblestoreid: ''

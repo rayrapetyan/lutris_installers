@@ -1,0 +1,23 @@
+id: 2878
+game_id: 7878
+game_slug: tanx
+name: TANX
+year: null
+user: ssf
+runner: browser
+slug: tanx-html5
+version: HTML5
+description: ''
+notes: ''
+created_at: '2016-10-11T14:31:22.483643Z'
+updated_at: '2016-10-23T18:54:56.520699Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://tanx.playcanvas.com

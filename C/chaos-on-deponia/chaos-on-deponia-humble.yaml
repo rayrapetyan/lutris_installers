@@ -1,0 +1,28 @@
+id: 3767
+game_id: 1686
+game_slug: chaos-on-deponia
+name: Chaos on Deponia
+year: 2012
+user: FakeShemp
+runner: linux
+slug: chaos-on-deponia-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-21T16:34:34.929622Z'
+updated_at: '2017-05-27T21:18:27.012089Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 220740
+gogid: 1207659124
+gogslug: deponia_2_chaos_on_deponia
+humblestoreid: chaos-on-deponia
+script:
+  exe: start
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

@@ -1,0 +1,45 @@
+id: 5796
+game_id: 1573
+game_slug: eleusis
+name: Eleusis
+year: null
+user: FakeShemp
+runner: wine
+slug: eleusis-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-18T11:34:14.341000Z'
+updated_at: '2018-05-19T03:41:53.216660Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 251310
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      app: dotnet35sp1
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: physx
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: dotnet40
+      name: winetricks
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Eleusis/Eleusis Game Launcher.exe
+    arch: win32

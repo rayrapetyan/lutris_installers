@@ -1,0 +1,23 @@
+id: 5409
+game_id: 7081
+game_slug: simant-the-electronic-ant-colony
+name: 'SimAnt: The Electronic Ant Colony'
+year: 1991
+user: bacera
+runner: web
+slug: simant-the-electronic-ant-col-stream
+version: Stream
+description: Play the game on archive.org through embedded DOSBox. No files required.
+notes: ''
+created_at: '2017-08-17T05:17:04.680000Z'
+updated_at: '2017-08-26T23:39:43.523932Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://archive.org/details/msdos_SimAnt_-_The_Electronic_Ant_Colony_1991

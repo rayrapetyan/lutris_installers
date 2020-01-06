@@ -1,0 +1,24 @@
+id: 4565
+game_id: 5442
+game_slug: sakura-fantasy-chapter-1
+name: Sakura Fantasy Chapter 1
+year: 2015
+user: FakeShemp
+runner: steam
+slug: sakura-fantasy-chapter-1-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-06-24T14:50:51.753621Z'
+updated_at: '2017-06-24T16:25:40.868703Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 375200
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 375200

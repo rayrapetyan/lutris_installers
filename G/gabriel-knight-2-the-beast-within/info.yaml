@@ -1,0 +1,16 @@
+name: 'Gabriel Knight 2: The Beast Within'
+slug: gabriel-knight-2-the-beast-within
+year: 1995
+platforms:
+- name: MS-DOS
+- name: Windows
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/gabriel-knight-2-the-beast-within.jpg
+icon_url: /games/icon/gabriel-knight-2-the-beast-within.png
+is_public: true
+updated: '2019-11-23T00:00:19.950296Z'
+steamid: 496760
+gogslug: gabriel_knight_2_the_beast_within
+humblestoreid: ''

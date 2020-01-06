@@ -1,0 +1,39 @@
+id: 4618
+game_id: 2784
+game_slug: freddi-fish-and-the-case-of-the-missing-kelp-seeds
+name: Freddi Fish and The Case of the Missing Kelp Seeds
+year: 1994
+user: FakeShemp
+runner: scummvm
+slug: freddi-fish-and-the-case-of-t-humble
+version: Humble
+description: Uses the files from the Windows installer from Humble.
+notes: ''
+created_at: '2017-06-26T07:10:47.171000Z'
+updated_at: '2017-07-04T18:05:55.934197Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 283940
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  scummvm:
+    gfx-mode: 2x
+  installer:
+  - task:
+      executable: $file1
+      prefix: $CACHE
+      args: /S
+      name: wine.wineexec
+  - merge:
+      src: $CACHE/drive_c/Games/Humongous Entertainment/Freddi Fish 1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble installer
+  game:
+    game_id: freddi
+    path: $GAMEDIR
+    subtitles: true

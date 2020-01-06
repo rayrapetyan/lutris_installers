@@ -1,0 +1,16 @@
+name: A Slow Year
+slug: a-slow-year
+year: 2010
+platforms:
+- name: Atari 2600
+- name: Windows
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/a-slow-year.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:27.080395Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

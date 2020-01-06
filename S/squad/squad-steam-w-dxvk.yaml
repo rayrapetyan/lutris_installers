@@ -1,0 +1,36 @@
+id: 10015
+game_id: 9154
+game_slug: squad
+name: Squad
+year: 2015
+user: goodeye
+runner: winesteam
+slug: squad-steam-w-dxvk
+version: Steam w/ DXVK
+description: Fully working in V14
+notes: TKG 4.2 / DXVK 1.2.1 support / Working in V14
+created_at: '2018-09-02T23:38:14.416000Z'
+updated_at: '2019-06-12T04:19:29.613880Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 393380
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.2-x86_64
+    overrides:
+      xaudio2_7: native
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+    disable_runtime: false
+    pulse_latency: true
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 393380
+    arch: win64

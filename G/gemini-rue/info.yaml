@@ -1,0 +1,16 @@
+name: Gemini Rue
+slug: gemini-rue
+year: 2011
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/gemini-rue.jpg
+icon_url: /games/icon/gemini-rue.png
+is_public: true
+updated: '2019-01-23T08:29:38.757082Z'
+steamid: 80310
+gogslug: gemini_rue
+humblestoreid: ''

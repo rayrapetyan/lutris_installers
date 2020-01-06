@@ -1,0 +1,24 @@
+id: 9930
+game_id: 325
+game_slug: dungeon-defenders
+name: Dungeon Defenders
+year: null
+user: optlink
+runner: winesteam
+slug: dungeon-defenders-steam-windows
+version: Steam (Windows)
+description: null
+notes: ''
+created_at: '2018-08-28T23:13:35.619157Z'
+updated_at: '2018-08-29T06:31:48.117722Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 65800
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 65800

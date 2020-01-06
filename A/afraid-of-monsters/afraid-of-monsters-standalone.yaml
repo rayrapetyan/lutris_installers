@@ -1,0 +1,44 @@
+id: 10819
+game_id: 23272
+game_slug: afraid-of-monsters
+name: Afraid of Monsters
+year: 2005
+user: bumba
+runner: wine
+slug: afraid-of-monsters-standalone
+version: Standalone
+description: null
+notes: ''
+created_at: '2018-11-09T16:23:57.987000Z'
+updated_at: '2019-10-28T21:23:49.519635Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/steam/steamapps/sourcemods/half-life/AoMDC/aomdc.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Afraid of Monsters installer..
+      arch: win32
+      name: wineexec
+  wine:
+    esync: true
+  files:
+  - setup:
+      referer: https://www.moddb.com/mods/afraid-of-monsters/downloads/
+      filename: Afraid+of+Monsters.exe
+      url: https://www.moddb.com/downloads/mirror/1069/100/2638b1df9480d851f83f6cfed0109654/

@@ -1,0 +1,24 @@
+id: 2067
+game_id: 6161
+game_slug: hyper-light-drifter
+name: Hyper Light Drifter
+year: 2016
+user: Xodetaetl
+runner: steam
+slug: hyper-light-drifter-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-05-21T13:38:07.012701Z'
+updated_at: '2016-05-21T13:38:10.900839Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 257850
+gogid: 1452863689
+gogslug: hyper_light_drifter
+humblestoreid: hyper-light-drifter
+script:
+  game:
+    appid: 257850

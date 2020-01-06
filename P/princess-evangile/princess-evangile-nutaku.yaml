@@ -1,0 +1,35 @@
+id: 7187
+game_id: 4260
+game_slug: princess-evangile
+name: Princess Evangile
+year: 2015
+user: kimchitea
+runner: wine
+slug: princess-evangile-nutaku
+version: Nutaku
+description: null
+notes: ''
+created_at: '2018-01-29T15:40:25.888000Z'
+updated_at: '2018-01-29T21:23:18.934277Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 344630
+gogid: 1441144583
+gogslug: princess_evangile
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Nutaku archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Games/Mangagamer/Princess Evangile/Evangile.exe

@@ -1,0 +1,47 @@
+id: 8848
+game_id: 19465
+game_slug: 18-wheels-of-steel-pedal-to-the-metal
+name: '18 Wheels of Steel: Pedal to the Metal'
+year: null
+user: socterean
+runner: wine
+slug: 18-wheels-of-steel-pedal-to-t-cd-or-digital
+version: CD or Digital
+description: This version includes v1.07 patch for the game
+notes: It is not necessary to install the DirectX at the end of the installer, the
+  game can use OpenGL
+created_at: '2018-06-21T16:25:41.546000Z'
+updated_at: '2018-07-19T01:16:09.982702Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Installing 18 WoS Pedal to the Metal...
+      name: wineexec
+  - task:
+      executable: patch
+      prefix: $GAMEDIR
+      description: Patching 18 WoS Pedal to the Metal...
+      name: wineexec
+  files:
+  - setup: N/A:Select the installer(setup.exe) for 18 Wheels of Steel Pedal to the
+      Metal
+  - patch: https://gitlab.com/cxf_/lutris_files/raw/master/RETAIL_CD_VERSION_ONLY_1_07.exe
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/18 WoS Pedal to the Metal/pttm.exe
+    arch: win32

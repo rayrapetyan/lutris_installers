@@ -1,0 +1,48 @@
+id: 17123
+game_id: 6917
+game_slug: soulcaster-part-i-ii
+name: 'Soulcaster: Part I & II'
+year: 2012
+user: legluondunet
+runner: linux
+slug: soulcaster-part-i-ii-humble-bundle
+version: Humble Bundle
+description: "This script will install \"Soulcaster: Part I & II\" Humble Bundle edition\
+  \ with support for modern computer configuration.\r\nDuring install please let all\
+  \ options by default.\r\nThanks to the people who helped us play this game in the\
+  \ best conditions."
+notes: "- You have to download the 2 game archives from Humble Bundle before to launch\
+  \ this installer.\r\n- Please report issue concerning this script on my Github page:\r\
+  \nhttps://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2019-11-30T23:45:14.333000Z'
+updated_at: '2019-12-01T11:59:45.990350Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: 460970
+gogid: null
+gogslug: ''
+humblestoreid: soulcaster-book-i-ii
+script:
+  installer:
+  - extract:
+      src: $file1
+      dst: $GAMEDIR/SC1
+  - extract:
+      src: $file2
+      dst: $GAMEDIR/SC2
+  - chmodx: script
+  - execute:
+      file: script
+  - chmodx: menu
+  - copy:
+      src: menu
+      dst: $GAMEDIR
+  exe: soulcaster.sh
+  files:
+  - script: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Soulcaster%20Part%20I%20%26%20II/clean.sh
+  - menu: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Soulcaster%20Part%20I%20%26%20II/soulcaster.sh
+  - file1: N/A:Please select the Humble archive 1
+  - file2: N/A:Please select the Humble archive 2
+  custom-name: Soulcaster - Part I & II - Humble Bundle

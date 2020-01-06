@@ -1,0 +1,34 @@
+id: 12045
+game_id: 9868
+game_slug: battle-chess
+name: Battle Chess
+year: 1988
+user: Nobu
+runner: linux
+slug: battle-chess-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-02-16T17:12:52.588000Z'
+updated_at: '2019-02-19T04:34:50.265808Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 622830
+gogid: 1207663033
+gogslug: battle_chess
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

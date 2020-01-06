@@ -1,0 +1,24 @@
+id: 1963
+game_id: 5247
+game_slug: timberman
+name: Timberman
+year: null
+user: WildCoder
+runner: steam
+slug: timberman-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-02-06T20:22:07.940572Z'
+updated_at: '2016-02-08T21:47:25.043552Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 398710
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 398710

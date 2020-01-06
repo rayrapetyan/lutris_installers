@@ -1,0 +1,15 @@
+name: Super Mario World
+slug: super-mario-world
+year: 1990
+platforms:
+- name: Super Nintendo
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/super-mario-world.jpg
+icon_url: /games/icon/super-mario-world.png
+is_public: true
+updated: '2019-01-23T08:31:30.676435Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

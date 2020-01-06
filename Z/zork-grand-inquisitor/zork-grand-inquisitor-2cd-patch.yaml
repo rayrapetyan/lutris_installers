@@ -1,0 +1,79 @@
+id: 15679
+game_id: 11636
+game_slug: zork-grand-inquisitor
+name: 'Zork: Grand Inquisitor'
+year: null
+user: appoloin
+runner: wine
+slug: zork-grand-inquisitor-2cd-patch
+version: 2CD + Patch
+description: null
+notes: ''
+created_at: '2019-09-18T23:45:04.273806Z'
+updated_at: '2019-12-15T18:53:39.837963Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 570680
+gogid: 1207658948
+gogslug: zork_grand_inquisitor
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      install_mono: false
+      name: wine.create_prefix
+  - insert-disc:
+      requires: setup.exe
+      description: Please insert disc 1
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      name: wine.wineexec
+  - task:
+      executable: $patch
+      prefix: $GAMEDIR
+      name: wine.wineexec
+  - execute:
+      args: $GAMEDIR/zassets1 $GAMEDIR/zassets1  $GAMEDIR/zgi_mx
+      file: mkdir
+  - copy:
+      src: $DISC/zassets1
+      dst: $GAMEDIR/zassets1
+  - copy:
+      src: $DISC/zgi/zgi_mx
+      dst: $GAMEDIR/zgi_mx
+  - copy:
+      src: $DISC/zgi/cursor.zfs
+      dst: $GAMEDIR
+  - copy:
+      src: $DISC/zgi/death.zfs
+      dst: $GAMEDIR
+  - copy:
+      src: $DISC/zgi/inquis.str
+      dst: $GAMEDIR
+  - copy:
+      src: $DISC/zgi/inquis.zix
+      dst: $GAMEDIR
+  - copy:
+      src: $DISC/zgi/r.svr
+      dst: $GAMEDIR
+  - copy:
+      src: $DISC/zgi/scripts.zfs
+      dst: $GAMEDIR
+  - copy:
+      src: $DISC/zgi/subtitle.zfs
+      dst: $GAMEDIR
+  - copy:
+      src: $DISC/zassets2
+      dst: $GAMEDIR/zassets2
+  - execute:
+      args: -R 775  "$GAMEDIR"
+      file: /bin/chmod
+  files:
+  - patch: http://www.thezorklibrary.com/installguides/Zpatch.exe
+  game:
+    game_id: zvision
+    path: $GAMEDIR

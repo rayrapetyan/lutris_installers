@@ -1,0 +1,17 @@
+name: Aragami
+slug: aragami
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: Stealth
+aliases: []
+banner_url: /games/banner/aragami.jpg
+icon_url: /games/icon/aragami.png
+is_public: true
+updated: '2019-01-30T03:00:58.496186Z'
+steamid: 280160
+gogslug: aragami
+humblestoreid: ''

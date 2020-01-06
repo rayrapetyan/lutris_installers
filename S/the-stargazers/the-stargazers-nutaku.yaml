@@ -1,0 +1,32 @@
+id: 7046
+game_id: 15721
+game_slug: the-stargazers
+name: The Stargazers
+year: 2016
+user: FakeShemp
+runner: linux
+slug: the-stargazers-nutaku
+version: Nutaku
+description: null
+notes: ''
+created_at: '2018-01-06T21:48:19.229000Z'
+updated_at: '2018-01-06T21:53:53.313575Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 445670
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Stargazers Adult.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/Stargazers-Adult-all
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Nutaku archive

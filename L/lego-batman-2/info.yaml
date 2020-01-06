@@ -1,0 +1,22 @@
+name: LEGO Batman 2
+slug: lego-batman-2
+year: 2012
+platforms:
+- name: Nintendo 3DS
+- name: Nintendo DS
+- name: Nintendo Wii U
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Platformer
+aliases:
+- slug: lego-batman-2-dc-super-heroes
+  name: LEGO Batman 2 DC Super Heroes
+banner_url: /games/banner/lego-batman-2.jpg
+icon_url: /games/icon/lego-batman-2.png
+is_public: true
+updated: '2019-05-08T09:06:54.037976Z'
+steamid: 213330
+gogslug: legor_batman_2_dc_super_heroes
+humblestoreid: ''

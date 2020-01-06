@@ -1,0 +1,24 @@
+id: 1238
+game_id: 3602
+game_slug: time-mysteries-the-final-enigma
+name: 'Time Mysteries: The Final Enigma'
+year: 2013
+user: Xodetaetl
+runner: steam
+slug: time-mysteries-the-final-enig-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-01-05T19:29:08.140000Z'
+updated_at: '2015-01-05T19:29:12.520000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 319320
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 319320

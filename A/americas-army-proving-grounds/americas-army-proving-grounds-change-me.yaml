@@ -1,0 +1,40 @@
+id: 13701
+game_id: 1228
+game_slug: americas-army-proving-grounds
+name: 'America''s Army: Proving Grounds'
+year: 2015
+user: cxf
+runner: winesteam
+slug: americas-army-proving-grounds-change-me
+version: Change Me
+description: null
+notes: ''
+created_at: '2019-05-24T07:06:14.966466Z'
+updated_at: '2019-05-24T07:06:14.966505Z'
+draft: false
+published: false
+published_by: 19464
+rating: ''
+steamid: 203290
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: xact
+      arch: win64
+      name: winetricks
+  winesteam:
+    version: tkg-4.2-x86_64
+    overrides:
+      xaudio2_6: native,builtin
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    pulse_latency: true
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 489830
+    arch: win64

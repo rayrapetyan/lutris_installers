@@ -1,0 +1,25 @@
+id: 13629
+game_id: 13672
+game_slug: sonic-mania
+name: Sonic Mania
+year: 2017
+user: skyace65
+runner: steam
+slug: sonic-mania-steam-proton
+version: Steam Proton
+description: null
+notes: Since this game is not officially whitelisted, you have to enable Steam Play
+  for all titles in Steam's settings prior to installation.
+created_at: '2019-05-19T16:05:35.038000Z'
+updated_at: '2019-05-21T23:55:10.199018Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 584400
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 584400

@@ -1,0 +1,38 @@
+id: 12374
+game_id: 9680
+game_slug: return-to-krondor
+name: Return to Krondor
+year: 1998
+user: chadberg
+runner: wine
+slug: return-to-krondor-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-03-14T02:27:26.729000Z'
+updated_at: '2019-03-25T06:46:49.103686Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 564960
+gogid: 1207658840
+gogslug: return_to_krondor
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: goginstaller
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  files:
+  - goginstaller: N/A:Please select the GOG installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Return To Krondor/Launcher.exe
+    arch: win32

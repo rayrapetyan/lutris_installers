@@ -1,0 +1,16 @@
+name: Cardinal Quest 2
+slug: cardinal-quest-2
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Roguelike
+- name: RPG
+aliases: []
+banner_url: /games/banner/cardinal-quest-2.jpg
+icon_url: /games/icon/cardinal-quest-2.png
+is_public: false
+updated: '2019-01-23T08:28:46.041819Z'
+steamid: 378030
+gogslug: ''
+humblestoreid: cardinal-quest-2

@@ -1,0 +1,24 @@
+id: 12267
+game_id: 439
+game_slug: rollercoaster-tycoon-3-platinum
+name: 'RollerCoaster Tycoon 3: Platinum!'
+year: 2006
+user: krm513
+runner: steam
+slug: rollercoaster-tycoon-3-platin-steam-proton
+version: Steam Proton
+description: Runs RCT3 using Steam for windows or Proton for linux if enabled.
+notes: ''
+created_at: '2019-03-05T02:07:09.377000Z'
+updated_at: '2019-04-05T06:47:23.044357Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 2700
+gogid: 1207659032
+gogslug: rollercoaster_tycoon_3
+humblestoreid: ''
+script:
+  game:
+    appid: 2700

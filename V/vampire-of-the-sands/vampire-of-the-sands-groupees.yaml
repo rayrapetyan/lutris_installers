@@ -1,0 +1,32 @@
+id: 5124
+game_id: 5329
+game_slug: vampire-of-the-sands
+name: Vampire of the Sands
+year: null
+user: FakeShemp
+runner: linux
+slug: vampire-of-the-sands-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-20T20:58:16.013000Z'
+updated_at: '2017-07-26T07:23:43.191386Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 386160
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: vots.sh
+  installer:
+  - extract:
+      file: $file1
+  - extract:
+      file: $file2
+  - chmodx: $GAMEDIR/vots.sh
+  files:
+  - file1: N/A:Please select the Groupees archive
+  - file2: https://gist.github.com/FakeShemp/634dea232632103d843b2418938f9897/archive/aa67e1af4bfba40c7ae3236813f0cfefa14ea078.zip

@@ -1,0 +1,17 @@
+name: Black Mirror II
+slug: black-mirror-ii
+year: 2011
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Horror
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/black-mirror-ii.jpg
+icon_url: /games/icon/black-mirror-ii.png
+is_public: true
+updated: '2019-10-12T01:41:30.543467Z'
+steamid: 286460
+gogslug: black_mirror_ii
+humblestoreid: ''

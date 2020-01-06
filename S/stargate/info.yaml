@@ -1,0 +1,16 @@
+name: Stargate
+slug: stargate
+year: 1994
+platforms:
+- name: Sega Genesis / Mega Drive
+- name: Super Nintendo
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/stargate.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:24.296499Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,38 @@
+id: 5310
+game_id: 6272
+game_slug: yargis-space-melee
+name: Yargis - Space Melee
+year: null
+user: FakeShemp
+runner: wine
+slug: yargis-space-melee-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-08T15:46:29.522000Z'
+updated_at: '2018-05-19T03:41:58.200450Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 369040
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      app: xna40
+      name: winetricks
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      args: /sp- /silent /norestart
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Yargis/Yargis.exe
+    arch: win32

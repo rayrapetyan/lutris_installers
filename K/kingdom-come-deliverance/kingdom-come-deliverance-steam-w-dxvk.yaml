@@ -1,0 +1,48 @@
+id: 7347
+game_id: 16451
+game_slug: kingdom-come-deliverance
+name: 'Kingdom Come: Deliverance'
+year: 2018
+user: Trollwut
+runner: winesteam
+slug: kingdom-come-deliverance-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2018-02-18T15:22:51.135000Z'
+updated_at: '2019-04-10T05:08:09.914937Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 379430
+gogid: 1719198803
+gogslug: kingdom_come_deliverance
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - merge:
+      src: $GAMEDIR/Bin/Win64Shared/d3dcompiler_46.dll
+      dst: $GAMEDIR/Bin/Win64
+  - merge:
+      src: $GAMEDIR/Bin/Win64Shared/d3dcompiler_47.dll
+      dst: $GAMEDIR/Bin/Win64
+  - merge:
+      src: $GAMEDIR/Bin/Win64Shared/amd_ags_x64.dll
+      dst: $GAMEDIR/Bin/Win64
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 379430
+    arch: win64

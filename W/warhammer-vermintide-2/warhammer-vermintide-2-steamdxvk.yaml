@@ -1,0 +1,70 @@
+id: 7699
+game_id: 17308
+game_slug: warhammer-vermintide-2
+name: 'Warhammer: Vermintide 2'
+year: 2018
+user: crusty
+runner: winesteam
+slug: warhammer-vermintide-2-steamdxvk
+version: Steam/DXVK
+description: null
+notes: Only singleplayer works.
+created_at: '2018-03-30T09:29:22.168000Z'
+updated_at: '2019-02-16T05:04:41.087164Z'
+draft: false
+published: true
+published_by: 19464
+rating: '2'
+steamid: 552500
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Creating Wine Prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing Internet Explorer 8
+      app: ie8
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing Visual C++ 2012
+      app: vcrun2012
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing Visual C++ 2015
+      app: vcrun2015
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing Dot.NET 4.7.2
+      app: dotnet472
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Switching to Windows 7
+      app: win7
+      arch: win64
+      name: winetricks
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 552500
+    arch: win64

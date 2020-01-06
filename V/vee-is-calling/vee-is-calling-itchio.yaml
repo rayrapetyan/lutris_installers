@@ -1,0 +1,28 @@
+id: 4199
+game_id: 11608
+game_slug: vee-is-calling
+name: Vee is Calling
+year: 2016
+user: FakeShemp
+runner: linux
+slug: vee-is-calling-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-06-07T19:52:25.576501Z'
+updated_at: '2017-06-08T16:20:28.574218Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Vee_Is_Calling.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

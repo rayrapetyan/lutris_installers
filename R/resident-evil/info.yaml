@@ -1,0 +1,19 @@
+name: Resident Evil
+slug: resident-evil
+year: 1996
+platforms:
+- name: Nintendo DS
+- name: Sega Saturn
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Horror
+- name: Survival
+aliases: []
+banner_url: /games/banner/resident-evil.jpg
+icon_url: /games/icon/resident-evil.png
+is_public: true
+updated: '2019-01-23T08:30:57.802979Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

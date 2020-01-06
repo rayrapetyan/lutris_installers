@@ -1,0 +1,41 @@
+id: 11144
+game_id: 5398
+game_slug: need-for-speed-most-wanted
+name: 'Need for Speed: Most Wanted'
+year: 2005
+user: yazors
+runner: wine
+slug: need-for-speed-most-wanted-black-edition-reload
+version: black edition reload
+description: null
+notes: Game is patched for full HD and uses xboxdrv for deadzone and triggers adjustments.
+  This is for Black Edition of the game.
+created_at: '2018-12-11T17:31:23.713000Z'
+updated_at: '2018-12-12T05:58:54.618276Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  system:
+    xboxdrv: --deadzone=6000 --trigger-as-button=true
+  game:
+    prefix: $GAMEDIR
+    arch: win32
+  installer:
+  - insert-disc:
+      requires: speed.exe
+  - task:
+      executable: $DISC/speed.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/EA GAMES/Need for Speed Most Wanted/
+      file: hdpatch
+  exe: drive_c/Program Files/EA GAMES/Need for Speed Most Wanted/speed.exe
+  files:
+  - hdpatch: https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/nfsmw/NFSMostWanted.WidescreenFix.zip

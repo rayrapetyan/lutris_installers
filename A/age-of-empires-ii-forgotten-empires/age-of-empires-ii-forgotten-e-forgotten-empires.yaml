@@ -1,0 +1,42 @@
+id: 3565
+game_id: 11076
+game_slug: age-of-empires-ii-forgotten-empires
+name: 'Age of Empires II: Forgotten Empires'
+year: null
+user: tyo100
+runner: wine
+slug: age-of-empires-ii-forgotten-e-forgotten-empires
+version: Forgotten Empires
+description: Install Unofficial Expansion Forgotten Empires
+notes: Only English expansion can be installed over any language game
+created_at: '2017-04-26T00:33:53.024000Z'
+updated_at: '2018-05-19T03:41:52.075184Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: age-of-empires-ii-the-conquer-cd
+  exe: drive_c/Program Files/Microsoft Games/Age of Empires II/age2_x1/age2_x2.exe
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/tmp/
+      file: forgotten
+  - move:
+      src: $GAMEDIR/drive_c/tmp/Age2_x1/age2_x2.exe
+      dst: $GAMEDIR/drive_c/Program Files/Microsoft Games/Age of Empires II/age2_x1/
+  - move:
+      src: $GAMEDIR/drive_c/tmp/Age2_x1/FixAoFE.exe
+      dst: $GAMEDIR/drive_c/Program Files/Microsoft Games/Age of Empires II/age2_x1/
+  - move:
+      src: $GAMEDIR/drive_c/tmp/Games
+      dst: $GAMEDIR/drive_c/Program Files/Microsoft Games/Age of Empires II/
+  files:
+  - forgotten: http://forgottenempires.net/fe_update.zip
+  game:
+    prefix: $GAMEDIR
+    arch: win32

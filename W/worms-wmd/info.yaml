@@ -1,0 +1,16 @@
+name: Worms W.M.D
+slug: worms-wmd
+year: 2016
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Strategy
+aliases: []
+banner_url: /games/banner/worms-wmd.jpg
+icon_url: /games/icon/worms-wmd.png
+is_public: true
+updated: '2019-01-23T08:32:11.319283Z'
+steamid: 327030
+gogslug: worms_wmd
+humblestoreid: ''

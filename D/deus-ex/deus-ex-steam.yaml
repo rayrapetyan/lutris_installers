@@ -1,0 +1,24 @@
+id: 392
+game_id: 438
+game_slug: deus-ex
+name: Deus Ex
+year: 2000
+user: dennisjj4
+runner: winesteam
+slug: deus-ex-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2014-01-22T23:09:46.799000Z'
+updated_at: '2014-03-03T23:46:02.744000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 6910
+gogid: 1207658995
+gogslug: deus_ex
+humblestoreid: deus-ex-game-of-the-year-edition
+script:
+  game:
+    appid: 6910

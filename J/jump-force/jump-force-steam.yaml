@@ -1,0 +1,48 @@
+id: 12331
+game_id: 25943
+game_slug: jump-force
+name: JUMP FORCE
+year: 2019
+user: OsamaBinlada
+runner: winesteam
+slug: jump-force-steam
+version: Steam
+description: null
+notes: "**CONFIGURE AND INSTALL THE DEPENDENCIES FIRST**\r\nInstructions for DXVK\
+  \ support: <a href=\"https://github.com/lutris/lutris/wiki/How-to:-DXVK\">https://github.com/lutris/lutris/wiki/How-to:-DXVK</a>"
+created_at: '2019-03-10T21:36:32.391000Z'
+updated_at: '2019-06-13T06:53:49.775590Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 816020
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - input_menu:
+      options:
+      - nvidia_icd: Nvidia
+      - radeon_icd.x86_64: AMD
+      - intel_icd.x86_64: Intel
+      description: 'Please read description first to ensure the game will work.
+
+        ---------------------------------------------------------
+
+        Choose which graphics you are going to use to play the game:'
+      id: VALUE
+      preselect: NA
+  winesteam:
+    version: tkg-4.0-x86_64
+    esync: true
+    dxvk: true
+  system:
+    env:
+      VK_ICD_FILENAMES: /usr/share/vulkan/icd.d/$INPUT_VALUE.json
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+  game:
+    appid: 816020

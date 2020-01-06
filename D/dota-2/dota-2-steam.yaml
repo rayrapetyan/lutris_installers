@@ -1,0 +1,24 @@
+id: 277
+game_id: 262
+game_slug: dota-2
+name: Dota 2
+year: 2013
+user: strider
+runner: steam
+slug: dota-2-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-20T00:21:42.037000Z'
+updated_at: '2018-11-11T02:30:09.988367Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: 570
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 570

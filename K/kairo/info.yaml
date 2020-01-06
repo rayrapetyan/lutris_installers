@@ -1,0 +1,17 @@
+name: Kairo
+slug: kairo
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Exploration
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/kairo.jpg
+icon_url: /games/icon/kairo.png
+is_public: true
+updated: '2019-01-23T08:30:02.060195Z'
+steamid: 233230
+gogslug: ''
+humblestoreid: ''

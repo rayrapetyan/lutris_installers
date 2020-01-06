@@ -1,0 +1,38 @@
+id: 2571
+game_id: 1547
+game_slug: the-shivah
+name: The Shivah
+year: 2006
+user: ssf
+runner: linux
+slug: the-shivah-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2016-08-23T16:21:33.482867Z'
+updated_at: '2016-08-30T15:31:45.586755Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 252370
+gogid: 1207660263
+gogslug: the_shivah
+humblestoreid: ''
+script:
+  exe: game/start.sh
+  gogid: the_shivah
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Please select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

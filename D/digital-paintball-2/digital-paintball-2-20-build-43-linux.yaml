@@ -1,0 +1,384 @@
+id: 9481
+game_id: 20521
+game_slug: digital-paintball-2
+name: Digital Paintball 2
+year: 1998
+user: Medath
+runner: linux
+slug: digital-paintball-2-20-build-43-linux
+version: 2.0 (build 43) Linux
+description: Sets up the native version of the game
+notes: You probably want to use the wine version because the Linux port has numerous
+  quality of life issues
+created_at: '2018-07-30T17:12:02.854000Z'
+updated_at: '2019-10-27T07:33:09.036276Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/
+      file: gamefiles
+  - write_file:
+      content: 'bind "TAB" "+scores"
+
+        bind "ENTER" "invuse"
+
+        bind "SPACE" "+moveup"
+
+        bind "''" "toggleconsole"
+
+        bind "0" "nextspawn"
+
+        bind "1" "dropgun"
+
+        bind "2" "dropbarrel"
+
+        bind "3" "drophopper"
+
+        bind "4" "dropco2"
+
+        bind "5" "dropammo large"
+
+        bind "6" "dropgren"
+
+        bind "7" "empty_co2"
+
+        bind "8" "dropflag"
+
+        bind "9" "alive"
+
+        bind "[" "invprev"
+
+        bind "]" "invnext"
+
+        bind "A" "+moveleft"
+
+        bind "D" "+moveright"
+
+        bind "E" "empty_co2"
+
+        bind "G" "tossgren"
+
+        bind "N" "noclip"
+
+        bind "P" "camera"
+
+        bind "R" "empty_co2"
+
+        bind "S" "+back"
+
+        bind "T" "messagemode"
+
+        bind "W" "+forward"
+
+        bind "Y" "messagemode2"
+
+        bind "BACKSPACE" "dropgun"
+
+        bind "UPARROW" "+forward"
+
+        bind "DOWNARROW" "+back"
+
+        bind "LEFTARROW" "+moveleft"
+
+        bind "RIGHTARROW" "+moveright"
+
+        bind "ALT" "+strafe"
+
+        bind "CTRL" "+movedown"
+
+        bind "SHIFT" "+speed"
+
+        bind "F1" "+scores"
+
+        bind "F9" "noclip"
+
+        bind "F12" "screenshot"
+
+        bind "KP_HOME" "join blue"
+
+        bind "KP_PGUP" "join purple"
+
+        bind "KP_5" "join observer"
+
+        bind "KP_END" "join red"
+
+        bind "KP_PGDN" "join yellow"
+
+        bind "MOUSE1" "+attack"
+
+        bind "MOUSE3" "+tossgren"
+
+        seta menu_server ""
+
+        seta cl_tutorialcomplete "0"
+
+        seta elim "60"
+
+        seta bob_style "0"
+
+        seta cl_hudstyle "1"
+
+        seta cl_vwep "1"
+
+        seta gender "male"
+
+        seta msg "0"
+
+        seta rate "25000"
+
+        seta skin "male/pb2b"
+
+        seta name "noname6594"
+
+        seta m_doubleclickspeed "200"
+
+        seta m_invert "0"
+
+        seta lookspring "0"
+
+        seta cl_run "1"
+
+        seta cl_menuback "conback"
+
+        seta cl_conback "conback"
+
+        seta cl_consoleheight "0.5"
+
+        seta cl_fast_download "1"
+
+        seta cl_centerprintkills "1"
+
+        seta cl_passwordpopup "1"
+
+        seta cl_swearfilter "1"
+
+        seta cl_scoreboard_sorting "2"
+
+        seta cl_autorecord "0"
+
+        seta cl_drawping "0"
+
+        seta cl_maptimey "-1"
+
+        seta cl_maptimex "-1"
+
+        seta cl_maptime "0"
+
+        seta cl_drawclocky "-1"
+
+        seta cl_drawclockx "-1"
+
+        seta cl_drawclock "0"
+
+        seta cl_menu "default"
+
+        seta cl_language "english"
+
+        seta cl_timestamp "0"
+
+        seta cl_drawtexinfo "0"
+
+        seta cl_drawpps "0"
+
+        seta cl_drawfps "0"
+
+        seta cl_sleep "0"
+
+        seta cl_cmdrate "60"
+
+        seta cl_locknetfps "0"
+
+        seta cl_maxfps "0"
+
+        seta cl_stereo_separation "0.4"
+
+        seta cd_nocd "1"
+
+        seta viewsize "100"
+
+        seta crosshair "2"
+
+        seta r_fakeFullscreen "0"
+
+        seta r_oldmodels "0"
+
+        seta r_reflectivewater_max "2"
+
+        seta r_reflectivewater "1"
+
+        seta r_caustics "2"
+
+        seta vid_lighten "0"
+
+        seta vid_resolution "640x480"
+
+        seta gl_3dlabs_broken "1"
+
+        seta gl_swapinterval "1"
+
+        seta vid_gamma_hw "0"
+
+        seta gl_motionblur "0"
+
+        seta gl_stainmaps "1"
+
+        seta gl_screenshot_jpeg_quality "90"
+
+        seta gl_screenshot_jpeg "1"
+
+        seta gl_ext_texture_compression "0"
+
+        seta gl_ext_compiled_vertex_array "1"
+
+        seta gl_ext_pointparameters "0"
+
+        seta gl_ext_multitexture "1"
+
+        seta gl_vertex_arrays "0"
+
+        seta gl_texturesolidmode "default"
+
+        seta gl_texturealphamode "default"
+
+        seta gl_texturemode "GL_LINEAR_MIPMAP_LINEAR"
+
+        seta gl_driver "libGL.so"
+
+        seta gl_finish "1"
+
+        seta gl_shadows "0"
+
+        seta cl_crosshairscale "2"
+
+        seta cl_hudscale "2"
+
+        seta gl_free_unused_textures "1"
+
+        seta gl_hash_textures "1"
+
+        seta gl_textshadow "1"
+
+        seta gl_lightmapgamma ".6"
+
+        seta gl_autobrightness "1"
+
+        seta gl_brightness "0"
+
+        seta gl_overbright "1"
+
+        seta gl_anisotropy "8"
+
+        seta gl_lightmap_saturation "1"
+
+        seta gl_highres_textures "1"
+
+        seta gl_texture_saturation "1"
+
+        seta gl_particle_att_c "0.01"
+
+        seta gl_particle_att_b "0.0"
+
+        seta gl_particle_att_a "0.01"
+
+        seta gl_particle_size "40"
+
+        seta gl_particle_max_size "40"
+
+        seta gl_particle_min_size "2"
+
+        seta gl_allow_software "0"
+
+        seta hand "0"
+
+        seta gl_arb_fragment_program "1"
+
+        seta gl_sgis_generate_mipmap "0"
+
+        seta gl_debug "0"
+
+        seta m_pitch "0.022000"
+
+        seta exponential_speedup "0"
+
+        seta sensitivity "3"
+
+        seta lookstrafe "0"
+
+        seta m_fovscale "1"
+
+        seta fov "90"
+
+        seta freelook "1"
+
+        seta in_mouse "1"
+
+        seta gl_mode "3"
+
+        seta vid_gamma "1"
+
+        seta vid_fullscreen "0"
+
+        seta vid_ypos "22"
+
+        seta vid_xpos "3"
+
+        seta vid_ref "pbgl"
+
+        seta snddevice "/dev/dsp"
+
+        seta sndchannels "2"
+
+        seta sndspeed "0"
+
+        seta sndbits "16"
+
+        seta snd_driver "sdl"
+
+        seta s_a3d "0"
+
+        seta s_primary "0"
+
+        seta s_mixahead "0.2"
+
+        seta s_volume "0.5"
+
+        seta s_nojump "1"
+
+        seta s_resamplequality "2"
+
+        seta s_loadas8bit "0"
+
+        seta s_khz "48"
+
+        seta s_force48khz "1"
+
+        seta con_notifytime "3"
+
+        seta sv_reconnect_limit "3"
+
+        seta allow_download_maps "1"
+
+        seta allow_download_sounds "1"
+
+        seta allow_download_models "1"
+
+        seta allow_download_players "1"
+
+        seta allow_download "1"
+
+        seta hostname "Paintball 2.0 (build 43)"
+
+        seta splattime "4"'
+      file: $GAMEDIR/pball/configs/config.cfg
+  files:
+  - gamefiles: http://downloads.sourceforge.net/paintball2/paintball2_build043_linux_full.tar.gz
+  game:
+    exe: paintball2

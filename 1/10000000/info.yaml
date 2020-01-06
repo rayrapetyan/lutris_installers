@@ -1,0 +1,15 @@
+name: 10,000,000
+slug: '10000000'
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Arcade
+aliases: []
+banner_url: /games/banner/10000000.jpg
+icon_url: /games/icon/10000000.png
+is_public: true
+updated: '2019-01-23T08:28:07.393206Z'
+steamid: 227580
+gogslug: ''
+humblestoreid: ''

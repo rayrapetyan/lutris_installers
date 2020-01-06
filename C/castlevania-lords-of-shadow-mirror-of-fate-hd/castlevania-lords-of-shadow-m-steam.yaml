@@ -1,0 +1,41 @@
+id: 13391
+game_id: 2339
+game_slug: castlevania-lords-of-shadow-mirror-of-fate-hd
+name: "Castlevania: Lords of Shadow \u2013 Mirror of Fate HD"
+year: 2014
+user: Xemmis
+runner: winesteam
+slug: castlevania-lords-of-shadow-m-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-05-08T12:30:30.439000Z'
+updated_at: '2019-10-10T23:39:59.043723Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 282530
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: create_prefix
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR/prefix
+      args: /silent
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2010 win7
+      name: winetricks
+  files:
+  - dx2010: https://lutris.net/files/tools/directx-2010.tar.gz
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 282530

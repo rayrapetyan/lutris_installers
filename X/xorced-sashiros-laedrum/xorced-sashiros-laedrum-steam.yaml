@@ -1,0 +1,24 @@
+id: 8774
+game_id: 19089
+game_slug: xorced-sashiros-laedrum
+name: XorceD - Sashiro's Laedrum
+year: 2016
+user: kimchitea
+runner: steam
+slug: xorced-sashiros-laedrum-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-17T19:59:24.628508Z'
+updated_at: '2018-06-18T05:24:05.280753Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 454170
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 454170

@@ -1,0 +1,15 @@
+name: FL Studio
+slug: fl-studio
+year: 1997
+platforms:
+- name: Windows
+genres:
+- name: Tool
+aliases: []
+banner_url: /games/banner/fl-studio.jpg
+icon_url: /games/icon/fl-studio.png
+is_public: true
+updated: '2019-04-24T03:24:50.823303Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,15 @@
+name: Oldage
+slug: oldage
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/oldage.jpg
+icon_url: /games/icon/oldage.png
+is_public: true
+updated: '2019-01-23T08:30:36.198422Z'
+steamid: 658320
+gogslug: ''
+humblestoreid: ''

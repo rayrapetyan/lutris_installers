@@ -1,0 +1,32 @@
+id: 5493
+game_id: 5421
+game_slug: pluck
+name: Pluck
+year: null
+user: FakeShemp
+runner: wine
+slug: pluck-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-22T18:49:18.834863Z'
+updated_at: '2018-05-19T03:41:56.794377Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 341010
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Pluck
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Pluck/Pluck.exe
+    arch: win32

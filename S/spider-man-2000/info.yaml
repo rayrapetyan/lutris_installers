@@ -1,0 +1,20 @@
+name: Spider-Man (2000)
+slug: spider-man-2000
+year: 2000
+platforms:
+- name: Nintendo 64
+- name: Nintendo Game Boy Color
+- name: Sega Dreamcast
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/spider-man-2000.jpg
+icon_url: /games/icon/spider-man-2000.png
+is_public: true
+updated: '2019-01-23T08:31:22.436505Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

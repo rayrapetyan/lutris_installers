@@ -1,0 +1,17 @@
+name: Tales of Berseria
+slug: tales-of-berseria
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Fantasy
+- name: jRPG
+aliases: []
+banner_url: /games/banner/tales-of-berseria.jpg
+icon_url: /games/icon/tales-of-berseria.png
+is_public: true
+updated: '2019-10-07T03:18:31.096256Z'
+steamid: 429660
+gogslug: ''
+humblestoreid: ''

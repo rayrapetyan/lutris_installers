@@ -1,0 +1,17 @@
+name: 'TRON: Evolution'
+slug: tron-evolution
+year: 2010
+platforms:
+- name: Sony Playstation 3
+- name: Sony PSP
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/tron-evolution.jpg
+icon_url: /games/icon/tron-evolution.png
+is_public: true
+updated: '2019-01-23T08:31:56.433106Z'
+steamid: 315440
+gogslug: ''
+humblestoreid: ''

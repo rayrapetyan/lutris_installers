@@ -1,0 +1,122 @@
+id: 10658
+game_id: 5857
+game_slug: redneck-rampage-collection
+name: Redneck Rampage Collection
+year: 1997
+user: ugly
+runner: dosbox
+slug: redneck-rampage-collection-gog
+version: GOG
+description: Uses the files from the Windows installer from GOG.
+notes: ''
+created_at: '2018-10-27T22:33:55.887000Z'
+updated_at: '2018-11-04T06:59:55.240869Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1207658674
+gogslug: redneck_rampage_collection
+humblestoreid: ''
+script:
+  main_file: DOSBOX/dosboxRR_single.conf
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file2
+  - execute:
+      args: -d "$CACHE" "$file1"
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/app
+      dst: $GAMEDIR
+  - merge:
+      src: $GAMEDIR/Redneck Rampage/dosboxRR.conf
+      dst: $GAMEDIR/DOSBOX
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/DOSBOX/dosboxRR.conf
+  - write_config:
+      section: sdl
+      key: output
+      value: overlay
+      file: $GAMEDIR/DOSBOX/dosboxRR.conf
+  - write_config:
+      section: sdl
+      key: fullscreen
+      value: false
+      file: $GAMEDIR/DOSBOX/dosboxRR.conf
+  - write_config:
+      section: sdl
+      key: fullresolution
+      value: 1920x1080
+      file: $GAMEDIR/DOSBOX/dosboxRR.conf
+  - write_config:
+      section: midi
+      key: midiconfig
+      value: '128:0'
+      file: $GAMEDIR/DOSBOX/dosboxRR.conf
+  - write_file:
+      content: "[ipx]\n# ipx: Enable ipx over UDP/IP emulation.\nipx=false\n\n[autoexec]\n\
+        \ @echo off\ncls\n ECHO  -------------------------------------------------\n\
+        \ ECHO  Redneck Rampage Collection Lutris DOSBox Launcher\n ECHO  -------------------------------------------------\n\
+        \ ECHO   1) Redneck Rampage\n ECHO   2) Redneck Rampage: Suckin' Grits on\
+        \ Route 66\n ECHO   3) Redneck Rampage Rides Again: Arkansas\n ECHO  -------------------------------------------------\n\
+        \ ECHO   4) exit program\n ECHO  -------------------------------------------------\n\
+        \n choice /c1234 /s Which game do you want to run? 1-4: /n\n if errorlevel\
+        \ 4 goto exit\n if errorlevel 3 goto rrraasub\n if errorlevel 2 goto rr66sub\n\
+        \ if errorlevel 1 goto rrsub\n\n :rrsub\n mount C \"../Redneck Rampage\"\n\
+        \ imgmount d \"../Redneck Rampage/REDNECK.inst\" -t iso -fs iso\n cls\n ECHO\
+        \  -------------------------------------------------\n ECHO  Redneck Rampage\
+        \ Collection Lutris DOSBox Launcher\n ECHO  -------------------------------------------------\n\
+        \ ECHO   1) Redneck Rampage Game\n ECHO   2) Redneck Rampage Settings\n ECHO\
+        \   3) Redneck Rampage Client\n ECHO   4) Redneck Rampage Server\n ECHO  -------------------------------------------------\n\
+        \ ECHO   5) exit program\n ECHO  -------------------------------------------------\n\
+        \n choice /c12345 /s Which game do you want to run? 1-5: /n\n if errorlevel\
+        \ 5 goto exitrr\n if errorlevel 4 goto rrserver\n if errorlevel 3 goto rrclient\n\
+        \ if errorlevel 2 goto setrr\n if errorlevel 1 goto rrgame\n\n  :rrgame\n\
+        \  cls\n  c:\n  cls\n  fix.exe\n  rr.exe\n  exit\n\n  :setrr\n  cls\n  c:\n\
+        \  cls\n  fix.exe\n  setup.exe\n  exit\n\n  :rrclient\n  cls\n  c:\n  fix.exe\n\
+        \  cls\n  IPXNET CONNECT 127.0.0.1\n  setup.exe\n  exit\n\n  :rrserver\n \
+        \ cls\n  c:\n  cls\n  IPXNET STARTSERVER\n  fix.exe\n  setup.exe\n  exit\n\
+        \n  :exitrr\n  exit\n\n :rr66sub\n mount C \"../Redneck Rampage\"\n imgmount\
+        \ d \"../Redneck Rampage/REDNECK.inst\" -t iso -fs iso\n cls\n ECHO  --------------------------------------------------------\n\
+        \ ECHO  Redneck Rampage Collection Lutris DOSBox Launcher\n ECHO  --------------------------------------------------------\n\
+        \ ECHO   1) Redneck Rampage: Suckin' Grits on Route 66 Game\n ECHO   2) Redneck\
+        \ Rampage: Suckin' Grits on Route 66 Settings\n ECHO   3) Redneck Rampage:\
+        \ Suckin' Grits on Route 66 Client\n ECHO   4) Redneck Rampage: Suckin' Grits\
+        \ on Route 66 Server\n ECHO  --------------------------------------------------------\n\
+        \ ECHO   5) exit program\n ECHO  -------------------------------------------------\n\
+        \n choice /c12345 /s Which game do you want to run? 1-5: /n\n if errorlevel\
+        \ 5 goto exitrr66\n if errorlevel 4 goto rr66server\n if errorlevel 3 goto\
+        \ rr66client\n if errorlevel 2 goto setrr66\n if errorlevel 1 goto rr66game\n\
+        \n  :rr66game\n  cls\n  c:\n  cls\n  fix.exe\n  ROUTE66.EXE\n  exit\n\n  :setrr66\n\
+        \  cls\n  c:\n  cls\n  fix.exe\n  setup.exe\n  exit\n\n  :rr66client\n  cls\n\
+        \  c:\n  cls\n  IPXNET CONNECT 127.0.0.1\n  fix.exe\n  ROUTE66M.EXE\n  exit\n\
+        \n  :rr66server\n  cls\n  c:\n  cls\n  IPXNET STARTSERVER\n  fix.exe\n  ROUTE66M.EXE\n\
+        \  exit\n\n  :exitrr66\n  exit\n\n :rrraasub\n mount C \"../Redneck Rides\
+        \ Again\"\n imgmount d \"../Redneck Rides Again/RRRAGAIN.inst\" -t iso -fs\
+        \ iso\n cls\n ECHO  --------------------------------------------------------\n\
+        \ ECHO  Redneck Rampage Collection Lutris DOSBox Launcher\n ECHO  --------------------------------------------------------\n\
+        \ ECHO   1) Redneck Rampage Rides Again: Arkansas Game\n ECHO   2) Redneck\
+        \ Rampage Rides Again: Arkansas Settings\n ECHO   3) Redneck Rampage Rides\
+        \ Again: Arkansas Client\n ECHO   4) Redneck Rampage Rides Again: Arkansas\
+        \ Server\n ECHO  --------------------------------------------------------\n\
+        \ ECHO   5) exit program\n ECHO  -------------------------------------------------\n\
+        \n choice /c12345 /s Which game do you want to run? 1-5: /n\n if errorlevel\
+        \ 5 goto exitrrra\n if errorlevel 4 goto rrraserver\n if errorlevel 3 goto\
+        \ rrraclient\n if errorlevel 2 goto setrrra\n if errorlevel 1 goto rrragame\n\
+        \n  :rrragame\n  cls\n  c:\n  cls\n  ra.exe\n exit\n\n  :setrrra\n  cls\n\
+        \  c:\n  cls\n  setup.exe\n  exit\n\n  :rrraclient\n  cls\n  c:\n  cls\n \
+        \ IPXNET CONNECT 127.0.0.1\n  ra.exe\n  exit\n\n  :rrraserver\n  cls\n  c:\n\
+        \  cls\n  IPXNET STARTSERVER\n  ra.exe\n  exit\n\n  :exitrrra\n  exit\n\n\
+        \ :exit\n exit"
+      file: $GAMEDIR/DOSBOX/dosboxRR_single.conf
+  files:
+  - file1: N/A:Please select the GOG installer
+  - file2: https://lutris.net/files/tools/innoextract.tar.gz
+  game:
+    config_file: $GAMEDIR/DOSBOX/dosboxRR.conf

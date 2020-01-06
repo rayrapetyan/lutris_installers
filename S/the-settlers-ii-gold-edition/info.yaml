@@ -1,0 +1,15 @@
+name: 'The Settlers II: Gold Edition'
+slug: the-settlers-ii-gold-edition
+year: 1996
+platforms:
+- name: Windows
+genres:
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/the-settlers-ii-gold-edition.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:46.993448Z'
+steamid: null
+gogslug: the_settlers_2_gold_edition
+humblestoreid: ''

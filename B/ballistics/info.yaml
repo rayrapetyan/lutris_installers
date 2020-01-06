@@ -1,0 +1,16 @@
+name: Ballistics
+slug: ballistics
+year: 2001
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/ballistics.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:31.124387Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

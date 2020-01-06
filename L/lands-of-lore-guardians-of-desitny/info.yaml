@@ -1,0 +1,19 @@
+name: 'Lands of Lore: Guardians of Destiny'
+slug: lands-of-lore-guardians-of-desitny
+year: 1997
+platforms:
+- name: MS-DOS
+genres:
+- name: RPG
+aliases:
+- slug: lands-of-lore-ii
+  name: Land of Lore II
+- slug: lands-of-lore-2
+  name: Lands of Lore 2
+banner_url: /games/banner/lands-of-lore-guardians-of-desitny.jpg
+icon_url: null
+is_public: true
+updated: '2019-05-19T05:48:16.439145Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

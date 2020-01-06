@@ -1,0 +1,36 @@
+id: 10751
+game_id: 23165
+game_slug: busty-maid-creampie-heaven
+name: 'Busty Maid: Creampie Heaven!'
+year: 2016
+user: kimchitea
+runner: wine
+slug: busty-maid-creampie-heaven-indiegala
+version: IndieGala
+description: null
+notes: Should work with the DRM-free version of the game purchased from any site as
+  long as SETUP.EXE is in the base folder of the archive.
+created_at: '2018-11-03T08:46:37.263000Z'
+updated_at: '2018-11-03T11:43:06.183786Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/SETUP.EXE
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the game archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/U+MePLUS/NakaTen/SETUP.EXE

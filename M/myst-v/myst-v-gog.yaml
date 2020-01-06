@@ -1,0 +1,40 @@
+id: 15330
+game_id: 412
+game_slug: myst-v
+name: Myst V
+year: null
+user: appoloin
+runner: wine
+slug: myst-v-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-09-06T17:13:13.000728Z'
+updated_at: '2019-09-06T17:13:13.000760Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 208110
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  prefix: $GAMEDIR
+  game:
+    exe: $GAMEDIR/drive_c/Program Files/GOG.com/Myst V End Of Ages/eoa.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      install_mono: false
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: $setup
+      prefix: $GAMEDIR
+      name: wineexec
+  wine:
+    Desktop: true
+  files:
+  - setup: N/A:Select GOG installer

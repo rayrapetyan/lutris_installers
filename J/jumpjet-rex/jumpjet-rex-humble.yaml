@@ -1,0 +1,49 @@
+id: 8881
+game_id: 4655
+game_slug: jumpjet-rex
+name: JumpJet Rex
+year: null
+user: basxto
+runner: linux
+slug: jumpjet-rex-humble
+version: Humble
+description: null
+notes: ''
+created_at: '2018-06-24T04:48:23.466760Z'
+updated_at: '2018-06-24T12:20:56.738134Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 329460
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      src: $game
+      format: zip
+      dst: $GAMEDIR
+  - write_file:
+      content: '#!/bin/sh
+
+        if (uname -m | grep "64"); then
+
+        arch="x86_64";
+
+        else
+
+        arch="x86";
+
+        fi;
+
+        ./JumpJetRex.$arch
+
+        '
+      file: $GAMEDIR/start.sh
+  - chmodx: $GAMEDIR/start.sh
+  files:
+  - game: 'N/A: Please select the *.zip downloaded from https://www.humblebundle.com'
+  game:
+    exe: $GAMEDIR/start.sh

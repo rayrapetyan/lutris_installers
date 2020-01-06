@@ -1,0 +1,32 @@
+id: 3811
+game_id: 1102
+game_slug: analogue-a-hate-story
+name: 'Analogue: A Hate Story'
+year: 2012
+user: FakeShemp
+runner: linux
+slug: analogue-a-hate-story-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-22T20:56:44.096702Z'
+updated_at: '2017-05-27T21:19:16.521772Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 209370
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Analogue.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/Analogue A Hate Story
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble archive

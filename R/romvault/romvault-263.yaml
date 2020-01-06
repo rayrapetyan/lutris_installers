@@ -1,0 +1,36 @@
+id: 9968
+game_id: 21377
+game_slug: romvault
+name: RomVault
+year: 2010
+user: RobLoach
+runner: wine
+slug: romvault-263
+version: 2.6.3
+description: null
+notes: ''
+created_at: '2018-08-30T03:29:58.736275Z'
+updated_at: '2018-09-06T18:08:54.787659Z'
+draft: false
+published: true
+published_by: null
+rating: '1'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/romvault
+      file: game
+  files:
+  - game: http://www.romvault.com/download/ROMVault_V2.6.3.zip
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/romvault/ROMVault263.exe
+    working_dir: $GAMEDIR/drive_c/Program Files/romvault

@@ -1,0 +1,24 @@
+id: 8663
+game_id: 2776
+game_slug: splatter-blood-red-edition
+name: Splatter - Blood Red Edition
+year: null
+user: soredake
+runner: winesteam
+slug: splatter-blood-red-edition-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-11T07:42:03.505748Z'
+updated_at: '2018-06-11T07:51:07.529105Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 281920
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 281920

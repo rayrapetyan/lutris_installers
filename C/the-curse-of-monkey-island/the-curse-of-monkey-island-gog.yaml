@@ -1,0 +1,49 @@
+id: 10207
+game_id: 1817
+game_slug: the-curse-of-monkey-island
+name: The Curse of Monkey Island
+year: 1997
+user: Wompus
+runner: scummvm
+slug: the-curse-of-monkey-island-gog
+version: GoG
+description: null
+notes: ''
+created_at: '2018-09-15T23:24:48.223000Z'
+updated_at: '2018-10-20T11:28:40.441492Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 730820
+gogid: 1528148981
+gogslug: the_curse_of_monkey_island
+humblestoreid: ''
+script:
+  scummvm:
+    aspect-ratio: true
+  installer:
+  - extract:
+      dst: $CACHE/inno
+      file: $innoextract
+  - execute:
+      args: --extract $comiarchive --output-dir $CACHE/comi --gog
+      file: $CACHE/inno/innoextract
+  - merge:
+      src: $CACHE/comi/COMI.LA0
+      dst: $GAMEDIR/
+  - merge:
+      src: $CACHE/comi/COMI.LA1
+      dst: $GAMEDIR/
+  - merge:
+      src: $CACHE/comi/COMI.LA2
+      dst: $GAMEDIR/
+  - merge:
+      src: $CACHE/comi/RESOURCE
+      dst: $GAMEDIR/RESOURCE
+  files:
+  - comiarchive: N/A:Please select the GoG installer setup_the_curse_of_monkey_islandtm_1.0l_(xxxxx).exe
+  - innoextract: http://constexpr.org/innoextract/files/innoextract-1.7/innoextract-1.7-linux.tar.xz
+  game:
+    game_id: comi
+    path: $GAMEDIR

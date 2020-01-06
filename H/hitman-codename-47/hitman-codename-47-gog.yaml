@@ -1,0 +1,40 @@
+id: 12694
+game_id: 689
+game_slug: hitman-codename-47
+name: 'Hitman: Codename 47'
+year: 2000
+user: Logeater
+runner: wine
+slug: hitman-codename-47-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-04-08T23:48:55.167000Z'
+updated_at: '2019-04-09T05:50:15.332452Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 6900
+gogid: 1207658996
+gogslug: hitman
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES
+      arch: win32
+      name: wineexec
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Hitman Codename 47/hitman.exe
+    arch: win32

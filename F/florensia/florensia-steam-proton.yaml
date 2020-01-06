@@ -1,0 +1,24 @@
+id: 14790
+game_id: 9328
+game_slug: florensia
+name: Florensia
+year: null
+user: WipeProof
+runner: steam
+slug: florensia-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-07-30T19:52:17.888000Z'
+updated_at: '2019-10-11T00:44:35.899626Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 384030
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 384030

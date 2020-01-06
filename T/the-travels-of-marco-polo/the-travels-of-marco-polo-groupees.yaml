@@ -1,0 +1,32 @@
+id: 4873
+game_id: 6825
+game_slug: the-travels-of-marco-polo
+name: The Travels of Marco Polo
+year: null
+user: FakeShemp
+runner: wine
+slug: the-travels-of-marco-polo-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-07T08:30:51.382842Z'
+updated_at: '2018-05-19T03:41:55.543059Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 366670
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/The Travels of Marco Polo
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/The Travels of Marco Polo/The Travels of Marco Polo.exe
+    arch: win32

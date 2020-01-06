@@ -1,0 +1,29 @@
+id: 2427
+game_id: 3236
+game_slug: strife-1996
+name: Strife (1996)
+year: 1996
+user: RobLoach
+runner: zdoom
+slug: strife-1996-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-08-11T06:02:23.244168Z'
+updated_at: '2016-09-09T22:07:41.558155Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 317040
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: strife1.wad
+  installer:
+  - merge:
+      src: wad-data
+      dst: $GAMEDIR
+  files:
+  - wad-data: $STEAM:317040:base

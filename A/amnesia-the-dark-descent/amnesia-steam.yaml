@@ -1,0 +1,24 @@
+id: 77
+game_id: 59
+game_slug: amnesia-the-dark-descent
+name: 'Amnesia: The Dark Descent'
+year: 2010
+user: darkofthechaos
+runner: steam
+slug: amnesia-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2013-12-01T19:54:07.374000Z'
+updated_at: '2013-12-01T20:22:07.287000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 57300
+gogid: 1207659259
+gogslug: amnesia_the_dark_descent
+humblestoreid: ''
+script:
+  game:
+    appid: 57300

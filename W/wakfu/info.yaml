@@ -1,0 +1,15 @@
+name: Wakfu
+slug: wakfu
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: MMORPG
+aliases: []
+banner_url: /games/banner/wakfu.jpg
+icon_url: /games/icon/wakfu.png
+is_public: true
+updated: '2019-01-23T08:32:04.858783Z'
+steamid: 215080
+gogslug: ''
+humblestoreid: ''

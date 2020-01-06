@@ -1,0 +1,31 @@
+id: 14509
+game_id: 28329
+game_slug: castle-of-the-winds-a-question-of-vengeance
+name: 'Castle of the Winds I: A Question of Vengeance'
+year: 1989
+user: stoz
+runner: wine
+slug: castle-of-the-winds-i-a-quest-112a
+version: 1.12a
+description: null
+notes: ''
+created_at: '2019-07-10T11:35:04.258309Z'
+updated_at: '2019-07-10T11:35:04.258341Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/
+      file: cotw
+  files:
+  - cotw: http://web.archive.org/web/20110710211812/http://www.exmsft.com/~ricks/castl11a.zip
+  game:
+    prefix: $GAMEDIR
+    exe: CASTLE1.EXE

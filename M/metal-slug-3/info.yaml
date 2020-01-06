@@ -1,0 +1,16 @@
+name: Metal Slug 3
+slug: metal-slug-3
+year: null
+platforms:
+- name: Arcade
+- name: Windows
+genres:
+- name: Arcade
+aliases: []
+banner_url: /games/banner/metal-slug-3.jpg
+icon_url: /games/icon/metal-slug-3.png
+is_public: true
+updated: '2019-01-23T08:30:22.196950Z'
+steamid: 250180
+gogslug: metal_slug_3
+humblestoreid: ''

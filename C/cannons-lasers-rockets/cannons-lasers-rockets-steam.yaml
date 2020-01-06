@@ -1,0 +1,24 @@
+id: 862
+game_id: 2223
+game_slug: cannons-lasers-rockets
+name: Cannons Lasers Rockets
+year: null
+user: Xodetaetl
+runner: steam
+slug: cannons-lasers-rockets-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T17:07:55.878000Z'
+updated_at: '2014-09-15T17:10:36.529000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 265770
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 265770

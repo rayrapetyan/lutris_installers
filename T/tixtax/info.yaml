@@ -1,0 +1,18 @@
+name: tix.tax
+slug: tixtax
+year: 2018
+platforms:
+- name: Browser
+genres:
+- name: Board
+- name: Casual
+- name: Strategy
+- name: Turn-based
+aliases: []
+banner_url: /games/banner/tixtax.jpg
+icon_url: null
+is_public: true
+updated: '2019-12-27T23:50:59.709173Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

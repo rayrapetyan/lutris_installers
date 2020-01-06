@@ -1,0 +1,42 @@
+id: 15861
+game_id: 24424
+game_slug: shortest-trip-to-earth
+name: Shortest Trip to Earth
+year: null
+user: dugova
+runner: wine
+slug: shortest-trip-to-earth-gog-beta
+version: GOG-Beta
+description: Its the beta of the GOG version.
+notes: Potentially lots of issues... my first attempt to write a lutris installer
+  script.
+created_at: '2019-09-29T00:19:19.226096Z'
+updated_at: '2019-09-29T00:19:19.226126Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: 812040
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/shortest-trip-to-earth/shortest-trip-to-earth.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: corefonts vcrun2015
+      name: winetricks
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      name: wineexec
+  wine:
+    version: tkg-4.0-x86_64
+  files:
+  - installer: N/A:Select the installer downloaded from GOG

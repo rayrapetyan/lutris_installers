@@ -1,0 +1,28 @@
+id: 7660
+game_id: 15242
+game_slug: ecchi-sketch-draw-cute-girls-every-day
+name: 'Ecchi Sketch: Draw Cute Girls Every Day!'
+year: 2017
+user: t-rex91
+runner: linux
+slug: ecchi-sketch-draw-cute-girls-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2018-03-25T18:58:00.576180Z'
+updated_at: '2018-03-26T19:59:13.790256Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 606690
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Ecchi_Sketch.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

@@ -1,0 +1,17 @@
+name: 'Barony: Cursed Edition'
+slug: barony
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Dungeon crawl
+- name: Roguelike
+- name: RPG
+aliases: []
+banner_url: /games/banner/barony.jpg
+icon_url: /games/icon/barony.png
+is_public: true
+updated: '2019-01-23T08:28:31.675608Z'
+steamid: 371970
+gogslug: barony_cursed_edition
+humblestoreid: barony-cursed-edition

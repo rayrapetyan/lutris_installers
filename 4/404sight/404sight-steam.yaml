@@ -1,0 +1,24 @@
+id: 8116
+game_id: 4410
+game_slug: 404sight
+name: 404Sight
+year: null
+user: soredake
+runner: winesteam
+slug: 404sight-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T06:05:14.610127Z'
+updated_at: '2018-05-13T09:12:10.276275Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 361630
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 361630

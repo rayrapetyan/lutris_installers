@@ -1,0 +1,24 @@
+id: 736
+game_id: 1953
+game_slug: nightmares-from-the-deep-the-cursed-heart
+name: 'Nightmares from the Deep: The Cursed Heart'
+year: null
+user: Xodetaetl
+runner: steam
+slug: nightmares-from-the-deep-the-c-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T13:39:59.144000Z'
+updated_at: '2014-09-15T16:13:31.453000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 259740
+gogid: 1148539461
+gogslug: nightmares_from_the_deep_the_cursed_heart
+humblestoreid: ''
+script:
+  game:
+    appid: 259740

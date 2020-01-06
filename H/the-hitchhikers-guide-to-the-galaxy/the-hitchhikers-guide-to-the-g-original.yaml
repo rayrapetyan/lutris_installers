@@ -1,0 +1,30 @@
+id: 938
+game_id: 3248
+game_slug: the-hitchhikers-guide-to-the-galaxy
+name: The Hitchhiker's Guide to the Galaxy
+year: 1984
+user: Xodetaetl
+runner: frotz
+slug: the-hitchhikers-guide-to-the-g-original
+version: Original
+description: Original version grabbed directly from Douglas Adams' website.
+notes: ''
+created_at: '2014-10-22T17:31:58.520000Z'
+updated_at: '2014-10-22T17:40:16.907000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: game
+      dst: $GAMEDIR
+  files:
+  - game: http://www.douglasadams.com/creations/hhgg.z3
+  game:
+    story: $GAMEDIR/hhgg.z3

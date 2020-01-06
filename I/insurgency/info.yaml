@@ -1,0 +1,15 @@
+name: Insurgency
+slug: insurgency
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/insurgency.jpg
+icon_url: /games/icon/insurgency.png
+is_public: true
+updated: '2019-01-23T08:29:57.497822Z'
+steamid: 222880
+gogslug: ''
+humblestoreid: ''

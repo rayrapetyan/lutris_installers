@@ -1,0 +1,101 @@
+id: 7622
+game_id: 16435
+game_slug: magic-the-gathering-online
+name: Magic The Gathering Online
+year: null
+user: JayCoda
+runner: wine
+slug: magic-the-gathering-online-regular
+version: Regular
+description: null
+notes: "The file path to the exe includes what looks like randomly generated folders\
+  \ and because of that Lutris can't set the exe for you. To do this manually you\
+  \ must open the Lutris Config window, select the Game options tab, click browse\
+  \ next to the executable field, and navigate to the exe located at:\r\n\r\n<tt>$HOME/Games/magic-the-gathering-online/drive_c/users/$USER/AppData/Local/Apps/2.0/Randomletters/Randomletters/mtgo...tionRandomletters/MGTO.exe</tt>"
+created_at: '2018-03-21T20:18:18.759000Z'
+updated_at: '2019-10-28T21:06:02.455448Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: wineboot
+      prefix: $GAMEDIR
+      description: Simulating Windows reboot.
+      arch: win32
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: sound=pulse winegstreamer=builtin
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: corefonts
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: dotnet46
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: win7
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: gdiplus
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: gdiplus=native
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: ddr=gdi
+      arch: win32
+      name: winetricks
+  - task:
+      executable: wineboot
+      prefix: $GAMEDIR
+      description: Simulating Windows reboot.
+      arch: win32
+      args: -s
+      name: wineexec
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      exclude_processes: dfsvc.exe
+      arch: win32
+      name: wineexec
+  - execute:
+      command: find $GAMEDIR/drive_c/ -name 'MTGO.exe' -exec sh -c 'ln -vs "$(dirname
+        "$0")" "$1" | cut -c 2-' {} $GAMEDIR/drive_c/MTGO \;
+  - merge:
+      src: setup
+      dst: $GAMEDIR/drive_c/MTGO
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/MTGO/setup.exe
+  system:
+    single_cpu: true
+  wine:
+    version: lutris-4.16-x86_64
+  files:
+  - setup:
+      filename: setup.exe
+      url: http://mtgoclientdepot.onlinegaming.wizards.com/setup.exe

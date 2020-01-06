@@ -1,0 +1,24 @@
+id: 8649
+game_id: 18063
+game_slug: battle-for-wesnoth
+name: Battle for Wesnoth
+year: null
+user: soredake
+runner: winesteam
+slug: battle-for-wesnoth-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-11T07:38:26.192249Z'
+updated_at: '2018-06-11T07:52:39.486702Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 599390
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 599390

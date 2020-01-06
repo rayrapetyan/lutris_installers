@@ -1,0 +1,47 @@
+id: 2718
+game_id: 3650
+game_slug: freespace-2
+name: Freespace 2
+year: 1999
+user: ssf
+runner: linux
+slug: freespace-2-fs2_open
+version: fs2_open
+description: null
+notes: "- official  x86-32 binary\r\n- uses the gog.com data files\r\n- starts with\
+  \ fs2-compatibe flags\r\n- starts in 800x600, check the cmd line to change resolution\r\
+  \n- see reference ( http://www.hard-light.net/wiki/index.php/Command-Line_Reference\
+  \ ) for all possible options"
+created_at: '2016-09-10T07:32:27.344000Z'
+updated_at: '2019-09-09T00:22:23.031257Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 273620
+gogid: 5
+gogslug: freespace_2
+humblestoreid: ''
+script:
+  requires: freespace-2-gogcom
+  exe: freespace2/fs2_open.sh
+  installer:
+  - extract:
+      description: extracting...
+      dst: $GAMEDIR/freespace2
+      file: $game
+  - execute:
+      args: -c "chmod +x $GAMEDIR/freespace2/fs2_open_*"
+      file: /bin/sh
+      terminal: false
+  - execute:
+      args: -c "printf '#!/bin/sh\ncd $GAMEDIR/freespace2\n./fs2_open_3_8_0_x64.AppImage
+        \"$$@\"'>$GAMEDIR/freespace2/fs2_open.sh"
+      file: /bin/sh
+      terminal: false
+  - chmodx: $GAMEDIR/freespace2/fs2_open.sh
+  files:
+  - game: https://github.com/scp-fs2open/fs2open.github.com/releases/download/release_3_8_0/fs2_open_3_8_0-builds-Linux.tar.gz
+  game:
+    args: -res 800x600 -nospec -noglow -noenv -nonormal -noheight -old_collision
+    working_dir: $GAMEDIR/freespace2

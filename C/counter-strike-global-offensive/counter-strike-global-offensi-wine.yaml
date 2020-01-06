@@ -1,0 +1,25 @@
+id: 7444
+game_id: 429
+game_slug: counter-strike-global-offensive
+name: 'Counter-Strike: Global Offensive'
+year: 2012
+user: cxf
+runner: winesteam
+slug: counter-strike-global-offensi-wine
+version: Wine
+description: null
+notes: "To be used with CS:GO SDK. \r\n\r\n<a href=\"https://lutris.net/games/counter-strike-global-offensive-sdk/\"\
+  >https://lutris.net/games/counter-strike-global-offensive-sdk/</a>"
+created_at: '2018-03-04T06:42:08.268000Z'
+updated_at: '2018-03-04T07:28:36.850472Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 730
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 730

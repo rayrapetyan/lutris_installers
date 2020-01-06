@@ -1,0 +1,24 @@
+id: 1215
+game_id: 3540
+game_slug: fotonica
+name: Fotonica
+year: null
+user: Xodetaetl
+runner: steam
+slug: fotonica-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2014-12-17T09:52:20.844000Z'
+updated_at: '2014-12-17T09:52:25.703000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 253290
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 253290

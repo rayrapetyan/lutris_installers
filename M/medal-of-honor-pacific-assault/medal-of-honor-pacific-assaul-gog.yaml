@@ -1,0 +1,32 @@
+id: 5345
+game_id: 12049
+game_slug: medal-of-honor-pacific-assault
+name: 'Medal of Honor: Pacific Assault'
+year: 2004
+user: FakeShemp
+runner: wine
+slug: medal-of-honor-pacific-assaul-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2017-08-12T11:45:12.580000Z'
+updated_at: '2017-08-27T21:22:20.750886Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1176929400
+gogslug: medal_of_honor_pacific_assault
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the GOG installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Medal of Honor - Pacific Assault/mohpa_setup.exe

@@ -1,0 +1,33 @@
+id: 3676
+game_id: 4387
+game_slug: pokemmo
+name: PokeMMO
+year: null
+user: Leeo97one
+runner: linux
+slug: pokemmo-portable
+version: Portable
+description: null
+notes: "Locate compatible ROMS* using the ingame menu.\r\n\r\nCurrent Required Compatible\
+  \ ROMS:\r\n- Black/White 1 (EN/FR/ES/DE/IT/KO)\r\n\r\nCurrent Optional Content Compatible\
+  \ ROMS:\r\n- Fire Red, Emerald (EN/FR/ES/DE/IT)\r\n\r\nCurrent Optional Visuals\
+  \ Compatible ROMS:\r\n- HeartGold, SoulSilver"
+created_at: '2017-05-14T00:48:13.830000Z'
+updated_at: '2019-02-12T01:45:15.336140Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: zip
+  - chmodx: $GAMEDIR/PokeMMO.sh
+  files:
+  - zip: https://dl.pokemmo.eu/download/PokeMMO-Client.zip
+  game:
+    exe: PokeMMO.sh

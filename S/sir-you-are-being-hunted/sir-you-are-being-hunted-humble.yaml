@@ -1,0 +1,31 @@
+id: 3821
+game_id: 506
+game_slug: sir-you-are-being-hunted
+name: Sir, You Are Being Hunted
+year: null
+user: FakeShemp
+runner: linux
+slug: sir-you-are-being-hunted-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-23T18:34:42.492455Z'
+updated_at: '2017-05-26T00:15:33.483070Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 242880
+gogid: 1207664303
+gogslug: sir_you_are_being_hunted
+humblestoreid: ''
+script:
+  exe: sir
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/sir
+  - chmodx: $GAMEDIR/launcher/sir
+  - chmodx: $GAMEDIR/multiplayer/sir
+  files:
+  - file1: N/A:Please select the Humble archive

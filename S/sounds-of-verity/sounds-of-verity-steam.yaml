@@ -1,0 +1,24 @@
+id: 10545
+game_id: 22180
+game_slug: sounds-of-verity
+name: Sounds of Verity
+year: 2018
+user: kimchitea
+runner: steam
+slug: sounds-of-verity-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-10-17T21:40:25.704155Z'
+updated_at: '2018-10-19T07:41:01.804676Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 816270
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 816270

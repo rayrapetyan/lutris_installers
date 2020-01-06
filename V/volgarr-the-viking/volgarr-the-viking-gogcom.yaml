@@ -1,0 +1,38 @@
+id: 2555
+game_id: 2499
+game_slug: volgarr-the-viking
+name: Volgarr the Viking
+year: 2013
+user: ssf
+runner: linux
+slug: volgarr-the-viking-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2016-08-22T16:29:41.775072Z'
+updated_at: '2016-09-30T21:06:22.294790Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 247240
+gogid: 1207659623
+gogslug: volgarr_the_viking
+humblestoreid: volgarr-the-viking
+script:
+  exe: game/start.sh
+  gogid: volgarr_the_viking
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Plese select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

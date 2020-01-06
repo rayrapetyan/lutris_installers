@@ -1,0 +1,28 @@
+id: 3011
+game_id: 5003
+game_slug: endless-sky
+name: Endless Sky
+year: 2015
+user: strider
+runner: linux
+slug: endless-sky-094
+version: 0.9.4
+description: ''
+notes: ''
+created_at: '2016-11-14T21:26:38.845123Z'
+updated_at: '2016-11-14T21:26:43.469828Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 404410
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: endless-sky
+  installer:
+  - extract:
+      file: endless_sky_094
+  files:
+  - endless_sky_094: https://lutris.net/files/games/endless-sky/endless-sky-0.9.4-x86_64.tar.gz

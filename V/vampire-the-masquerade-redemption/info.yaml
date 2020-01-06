@@ -1,0 +1,17 @@
+name: 'Vampire: The Masquerade - Redemption'
+slug: vampire-the-masquerade-redemption
+year: 2000
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Horror
+- name: RPG
+aliases: []
+banner_url: /games/banner/vampire-the-masquerade-redemption.jpg
+icon_url: /games/icon/vampire-the-masquerade-redemption.png
+is_public: true
+updated: '2019-05-04T19:14:42.249772Z'
+steamid: 559680
+gogslug: vampire_the_masquerade_redemption
+humblestoreid: ''

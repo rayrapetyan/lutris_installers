@@ -1,0 +1,18 @@
+name: 'Plague Inc: Evolved'
+slug: plague-inc-evolved
+year: 2016
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Indie
+- name: Simulation
+- name: Strategy
+aliases: []
+banner_url: /games/banner/plague-inc-evolved.jpg
+icon_url: /games/icon/plague-inc-evolved.png
+is_public: true
+updated: '2019-08-17T07:06:19.759398Z'
+steamid: 246620
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,19 @@
+name: Rock n' Roll Racing
+slug: rock-n-roll-racing
+year: 1993
+platforms:
+- name: Nintendo Game Boy Advance
+- name: Sega Genesis / Mega Drive
+- name: Super Nintendo
+genres:
+- name: Action
+- name: Arcade
+- name: Racing
+aliases: []
+banner_url: /games/banner/rock-n-roll-racing.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:03.022127Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

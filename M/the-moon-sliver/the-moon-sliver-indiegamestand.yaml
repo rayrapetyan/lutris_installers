@@ -1,0 +1,32 @@
+id: 4347
+game_id: 3359
+game_slug: the-moon-sliver
+name: The Moon Sliver
+year: null
+user: FakeShemp
+runner: wine
+slug: the-moon-sliver-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-06-14T16:40:14.030364Z'
+updated_at: '2018-05-19T03:41:51.869327Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 329830
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/The Moon Sliver
+      file: $file1
+  files:
+  - file1: N/A:Please select the IndieGameStand archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/The Moon Sliver/The Moon Sliver.exe
+    arch: win32

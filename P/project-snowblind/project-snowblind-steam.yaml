@@ -1,0 +1,25 @@
+id: 9484
+game_id: 825
+game_slug: project-snowblind
+name: 'Project: Snowblind'
+year: null
+user: Stoney_Fish
+runner: winesteam
+slug: project-snowblind-steam
+version: Steam
+description: null
+notes: Max screen resolution game setting is 1680x1050. Open Steam the game has a
+  separate "Configure Game" option.
+created_at: '2018-07-30T20:08:00.448000Z'
+updated_at: '2018-07-31T01:03:11.099718Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 7010
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 7010

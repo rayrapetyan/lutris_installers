@@ -1,0 +1,23 @@
+id: 8993
+game_id: 19679
+game_slug: starfighter-eclipse
+name: 'Starfighter: Eclipse'
+year: 2015
+user: kimchitea
+runner: browser
+slug: starfighter-eclipse-browser
+version: Browser
+description: null
+notes: ''
+created_at: '2018-07-02T15:11:48.821000Z'
+updated_at: '2018-07-02T16:03:37.391264Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://datenighto.com/game/starfighter-eclipse/play

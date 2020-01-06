@@ -1,0 +1,18 @@
+name: Crysis 2
+slug: crysis-2
+year: 2011
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Combat
+- name: FPS
+- name: Sci-fi
+aliases: []
+banner_url: /games/banner/crysis-2.jpg
+icon_url: /games/icon/crysis-2.png
+is_public: true
+updated: '2019-06-01T06:30:03.219472Z'
+steamid: 99830
+gogslug: ''
+humblestoreid: ''

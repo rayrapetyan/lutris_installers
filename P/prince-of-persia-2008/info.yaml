@@ -1,0 +1,16 @@
+name: Prince of Persia (2008)
+slug: prince-of-persia-2008
+year: 2008
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/prince-of-persia-2008.jpg
+icon_url: /games/icon/prince-of-persia-2008.png
+is_public: true
+updated: '2019-04-20T19:57:07.192484Z'
+steamid: 19980
+gogslug: prince_of_persia
+humblestoreid: ''

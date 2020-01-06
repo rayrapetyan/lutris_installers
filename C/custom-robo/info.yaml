@@ -1,0 +1,16 @@
+name: Custom Robo
+slug: custom-robo
+year: 2004
+platforms:
+- name: GameCube
+genres:
+- name: Action
+- name: RPG
+aliases: []
+banner_url: /games/banner/custom-robo.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:02.919082Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

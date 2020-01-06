@@ -1,0 +1,16 @@
+name: 'Hitman: Absolution'
+slug: hitman-absolution
+year: 2012
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Stealth
+aliases: []
+banner_url: /games/banner/hitman-absolution.jpg
+icon_url: /games/icon/hitman-absolution.png
+is_public: true
+updated: '2019-04-08T06:38:06.938715Z'
+steamid: 203140
+gogslug: hitman_absolution
+humblestoreid: ''

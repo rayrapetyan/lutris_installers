@@ -1,0 +1,29 @@
+id: 2835
+game_id: 3720
+game_slug: opendungeons
+name: OpenDungeons
+year: 2015
+user: Akien
+runner: linux
+slug: opendungeons-071-64-bit
+version: 0.7.1 (64-bit)
+description: http://download.tuxfamily.org/opendungeons/0.7/OpenDungeons-0.7.1-Linux64.tar.bz2
+notes: Requires 64-bit X11 and GL libraries installed on the system (should be there
+  by default on most 64-bit Linux installations).
+created_at: '2016-10-03T20:29:30.859265Z'
+updated_at: '2016-10-03T20:42:46.259607Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: opendungeons.x86_64
+  installer:
+  - extract:
+      file: game
+  files:
+  - game: http://download.tuxfamily.org/opendungeons/0.7/OpenDungeons-0.7.1-Linux64.tar.bz2

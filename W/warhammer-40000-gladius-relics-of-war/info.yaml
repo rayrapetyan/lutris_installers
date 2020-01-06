@@ -1,0 +1,17 @@
+name: 'Warhammer 40,000: Gladius - Relics of War'
+slug: warhammer-40000-gladius-relics-of-war
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: 4X
+- name: Strategy
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/warhammer-40000-gladius-relics-of-war.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:05.821639Z'
+steamid: 489630
+gogslug: warhammer_40000_gladius_relics_of_war
+humblestoreid: ''

@@ -1,0 +1,15 @@
+name: 'Tribes: Ascend'
+slug: tribes-ascend
+year: 2012
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/tribes-ascend.jpg
+icon_url: /games/icon/tribes-ascend.png
+is_public: true
+updated: '2019-01-23T08:31:55.652631Z'
+steamid: 17080
+gogslug: ''
+humblestoreid: ''

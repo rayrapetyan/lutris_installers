@@ -1,0 +1,24 @@
+id: 607
+game_id: 1940
+game_slug: fist-puncher
+name: Fist Puncher
+year: null
+user: Xodetaetl
+runner: steam
+slug: fist-puncher-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2014-09-14T21:27:06.155000Z'
+updated_at: '2014-09-14T21:28:53.447000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 238630
+gogid: 1207660303
+gogslug: fist_puncher
+humblestoreid: ''
+script:
+  game:
+    appid: 238630

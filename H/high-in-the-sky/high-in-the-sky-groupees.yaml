@@ -1,0 +1,32 @@
+id: 5032
+game_id: 12227
+game_slug: high-in-the-sky
+name: High In The Sky
+year: 2015
+user: FakeShemp
+runner: wine
+slug: high-in-the-sky-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-13T17:33:08.665455Z'
+updated_at: '2018-05-19T03:41:56.465043Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/High In The Sky
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/High In The Sky/High In The Sky V1.2.exe
+    arch: win32

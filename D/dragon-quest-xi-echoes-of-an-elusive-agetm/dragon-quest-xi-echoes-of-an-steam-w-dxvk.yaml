@@ -1,0 +1,33 @@
+id: 10076
+game_id: 21530
+game_slug: dragon-quest-xi-echoes-of-an-elusive-agetm
+name: "DRAGON QUEST\xAE XI: Echoes of an Elusive Age\u2122"
+year: null
+user: MentalAsPants
+runner: winesteam
+slug: dragon-quest-xi-echoes-of-an-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: FPS may stutter
+created_at: '2018-09-06T19:54:10.365000Z'
+updated_at: '2019-02-14T05:53:57.250516Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 742120
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      nvapi,nvapi64: disabled
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    appid: 742120
+    arch: win64

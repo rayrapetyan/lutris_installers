@@ -1,0 +1,47 @@
+id: 17588
+game_id: 30880
+game_slug: rollcage-stage-ii
+name: Rollcage Stage II
+year: 2000
+user: Heehaaw
+runner: wine
+slug: rollcage-stage-ii-win32
+version: win32
+description: null
+notes: "- Get the ISO at https://www.myabandonware.com/game/rollcage-stage-ii-9zm#download\
+  \ (or wherever else)\r\n- Mount the it with cdemu\r\n- Run this installer\r\n- Select\
+  \ the 'Full' installation option when prompted by the installer.\r\n- You can optionally\
+  \ get the patch .exe and run it inside the prefix."
+created_at: '2019-12-26T23:05:21.104007Z'
+updated_at: '2019-12-26T23:05:21.104033Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: Setup.exe
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - execute:
+      command: rm -f "$GAMEDIR/dosdevices/d:"
+  - copy:
+      src: $DISC/
+      dst: $GAMEDIR/dosdevices/d:/
+  - task:
+      executable: $GAMEDIR/dosdevices/d:/Setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  wine:
+    Desktop: true
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Psygnosis/Rollcage/RollCage.exe
+    arch: win32

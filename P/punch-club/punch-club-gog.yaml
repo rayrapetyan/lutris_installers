@@ -1,0 +1,34 @@
+id: 13623
+game_id: 5566
+game_slug: punch-club
+name: Punch Club
+year: 2015
+user: AlucardNoir
+runner: linux
+slug: punch-club-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-05-19T09:54:04.939000Z'
+updated_at: '2019-06-13T08:31:35.605401Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 394310
+gogid: 1452777713
+gogslug: punch_club
+humblestoreid: punch-club
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

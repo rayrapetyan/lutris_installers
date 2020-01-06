@@ -1,0 +1,19 @@
+name: Superhot
+slug: superhot
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: FPS
+- name: Puzzle
+- name: Shooter
+- name: Strategy
+aliases: []
+banner_url: /games/banner/superhot.jpg
+icon_url: /games/icon/superhot.png
+is_public: true
+updated: '2019-01-23T08:31:30.295257Z'
+steamid: 322500
+gogslug: superhot
+humblestoreid: ''

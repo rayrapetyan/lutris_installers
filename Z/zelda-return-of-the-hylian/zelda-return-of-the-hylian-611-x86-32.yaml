@@ -1,0 +1,38 @@
+id: 2155
+game_id: 6310
+game_slug: zelda-return-of-the-hylian
+name: 'Zelda: Return of the Hylian'
+year: 2009
+user: ssf
+runner: linux
+slug: zelda-return-of-the-hylian-611-x86-32
+version: 6.11 - x86-32
+description: english i386 release
+notes: "On Ubuntu 18.04:\r\n``` sudo apt install libsdl-gfx1.2-5:i386 libsdl-image1.2:i386\
+  \ libsdl-mixer1.2:i386"
+created_at: '2016-06-19T16:16:56.840000Z'
+updated_at: '2018-10-26T05:56:15.890312Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: start.sh
+  installer:
+  - extract:
+      format: tgz
+      file: game
+  - move:
+      src: $CACHE/fixlibs.sh
+      dst: $GAMEDIR/start.sh
+  - chmodx: $GAMEDIR/start.sh
+  - execute:
+      args: -i 's/<GAMEBIN>/ZeldaROTH_US/' $GAMEDIR/start.sh
+      file: /bin/sed
+  files:
+  - game: http://www.zeldaroth.fr/compteur.php?id=104
+  - fixlib: https://raw.githubusercontent.com/AccountOneOff/lutris_files/master/fixlibs.sh

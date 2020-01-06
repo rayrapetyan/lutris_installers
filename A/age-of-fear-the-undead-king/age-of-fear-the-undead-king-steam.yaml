@@ -1,0 +1,24 @@
+id: 2405
+game_id: 5430
+game_slug: age-of-fear-the-undead-king
+name: 'Age of Fear: The Undead King'
+year: null
+user: gschaffran
+runner: steam
+slug: age-of-fear-the-undead-king-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-08-09T17:36:48.644155Z'
+updated_at: '2016-09-25T19:51:25.492023Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 351480
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 351480

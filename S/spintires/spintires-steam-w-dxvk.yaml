@@ -1,0 +1,26 @@
+id: 3087
+game_id: 3166
+game_slug: spintires
+name: Spintires
+year: 2014
+user: policematt911
+runner: winesteam
+slug: spintires-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2016-12-14T00:52:44.515000Z'
+updated_at: '2019-04-28T05:55:20.000226Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 263280
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    dxvk: true
+  game:
+    appid: 263280

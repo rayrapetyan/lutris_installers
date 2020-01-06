@@ -1,0 +1,32 @@
+id: 9157
+game_id: 5549
+game_slug: black-closet
+name: Black Closet
+year: 2015
+user: kimchitea
+runner: linux
+slug: black-closet-demo
+version: Demo
+description: null
+notes: ''
+created_at: '2018-07-11T04:47:34.141000Z'
+updated_at: '2018-07-15T01:42:16.049943Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 400580
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: $game
+  - chmodx: $GAMEDIR/BlackCloset.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/BlackCloset
+  - chmodx: $GAMEDIR/lib/linux-x86_64/BlackCloset
+  files:
+  - game: https://s3.amazonaws.com/hanakodemos/BlackCloset-1.1.7-linux.tar.bz2
+  game:
+    exe: BlackCloset.sh

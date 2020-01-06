@@ -1,0 +1,17 @@
+name: Hind
+slug: hind
+year: 1996
+platforms:
+- name: Windows
+genres:
+- name: Combat
+- name: Modern
+- name: Simulation
+aliases: []
+banner_url: /games/banner/hind.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:50.868281Z'
+steamid: null
+gogslug: hind
+humblestoreid: ''

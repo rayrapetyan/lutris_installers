@@ -1,0 +1,50 @@
+id: 8642
+game_id: 1524
+game_slug: rayman-legends
+name: Rayman Legends
+year: 2013
+user: Jozua
+runner: wine
+slug: rayman-legends-uplay
+version: Uplay
+description: Installs Uplay. From there, Rayman Legends can be downloaded and run.
+notes: ''
+created_at: '2018-06-10T23:40:42.060000Z'
+updated_at: '2019-02-16T04:26:50.975975Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 242550
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: corefonts
+      name: winetricks
+  - task:
+      executable: uplay
+      prefix: $GAMEDIR
+      args: /silent
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/UbisoftGameLauncher.exe
+    arch: win64
+  system:
+    env:
+      DXVK_HUD: 0
+  wine:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  files:
+  - uplay: https://ubistatic3-a.akamaihd.net/orbit/launcher_installer/UplayInstaller.exe

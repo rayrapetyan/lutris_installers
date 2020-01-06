@@ -1,0 +1,29 @@
+id: 9459
+game_id: 20505
+game_slug: infinite-universe
+name: Infinite Universe
+year: 2012
+user: kimchitea
+runner: linux
+slug: infinite-universe-humble-64-bit
+version: Humble (64-bit)
+description: null
+notes: ''
+created_at: '2018-07-29T15:02:47.417000Z'
+updated_at: '2018-07-29T21:49:40.750656Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Gamebook Adventures - Infinite Universe.x86_64
+  installer:
+  - extract:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble archive

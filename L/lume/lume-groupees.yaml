@@ -1,0 +1,29 @@
+id: 5712
+game_id: 786
+game_slug: lume
+name: Lume
+year: null
+user: FakeShemp
+runner: linux
+slug: lume-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-12T09:24:14.228625Z'
+updated_at: '2017-09-12T09:25:13.217440Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 105100
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Lume
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Lume
+  files:
+  - file1: N/A:Please select the Groupees archive

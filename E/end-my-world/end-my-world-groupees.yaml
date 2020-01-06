@@ -1,0 +1,32 @@
+id: 6232
+game_id: 14531
+game_slug: end-my-world
+name: End My World
+year: 2013
+user: FakeShemp
+runner: wine
+slug: end-my-world-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-11-03T20:45:26.328252Z'
+updated_at: '2018-05-19T03:41:59.758273Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR/drive_c/Program Files/End My World
+  files:
+  - file1: N/A:Please select the Groupees executable
+  game:
+    prefix: $GAMEDIR
+    exe: file1
+    arch: win32

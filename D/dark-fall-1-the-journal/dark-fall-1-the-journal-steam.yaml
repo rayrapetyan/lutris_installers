@@ -1,0 +1,25 @@
+id: 8922
+game_id: 1957
+game_slug: dark-fall-1-the-journal
+name: 'Dark Fall 1: The Journal'
+year: 2003
+user: Snow_Guard
+runner: winesteam
+slug: dark-fall-1-the-journal-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-26T13:57:17.337000Z'
+updated_at: '2018-06-26T18:29:20.733594Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 260690
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 260690
+    arch: win32

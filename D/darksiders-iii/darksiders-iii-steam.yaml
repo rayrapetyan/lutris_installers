@@ -1,0 +1,40 @@
+id: 13069
+game_id: 23445
+game_slug: darksiders-iii
+name: Darksiders III
+year: 2018
+user: lucasath
+runner: winesteam
+slug: darksiders-iii-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-04-24T04:28:15.783000Z'
+updated_at: '2019-12-29T08:36:34.242058Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 606280
+gogid: 1246703238
+gogslug: darksiders_iii
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: d3dcompiler_43 vcrun2015 win7
+      name: winetricks
+  winesteam:
+    version: lutris-4.20-x86_64
+    esync: true
+    dxvk: true
+  system:
+    pulse_latency: true
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 606280
+    arch: win64

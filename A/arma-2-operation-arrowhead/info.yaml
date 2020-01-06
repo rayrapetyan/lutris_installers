@@ -1,0 +1,17 @@
+name: 'Arma 2: Operation Arrowhead'
+slug: arma-2-operation-arrowhead
+year: 2010
+platforms:
+- name: Windows
+genres:
+- name: FPS
+- name: Simulation
+- name: Tactical shooter
+aliases: []
+banner_url: /games/banner/arma-2-operation-arrowhead.jpg
+icon_url: /games/icon/arma-2-operation-arrowhead.png
+is_public: true
+updated: '2019-01-23T08:28:25.096719Z'
+steamid: 33930
+gogslug: ''
+humblestoreid: ''

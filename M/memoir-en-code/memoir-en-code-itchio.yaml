@@ -1,0 +1,38 @@
+id: 4871
+game_id: 12099
+game_slug: memoir-en-code
+name: Memoir En Code
+year: 2015
+user: FakeShemp
+runner: linux
+slug: memoir-en-code-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-07-07T07:55:51.484000Z'
+updated_at: '2017-07-09T20:07:10.025707Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: runner
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - extract:
+      file: $CACHE/_LINUX/_Memoir En Code.zip
+  - move:
+      src: $CACHE/MemoirEnCode_DigitalBooklet.pdf
+      dst: $GAMEDIR/MemoirEnCode_DigitalBooklet.pdf
+  - move:
+      src: $CACHE/_LINUX/Memoir De Code.url
+      dst: $GAMEDIR/Memoir De Code.url
+  - chmodx: $GAMEDIR/runner
+  files:
+  - file1: N/A:Please select the itch.io archive

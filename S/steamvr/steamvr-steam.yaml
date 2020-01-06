@@ -1,0 +1,24 @@
+id: 17118
+game_id: 5286
+game_slug: steamvr
+name: SteamVR
+year: null
+user: ectoBiologist15
+runner: steam
+slug: steamvr-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-11-30T17:52:36.927641Z'
+updated_at: '2019-11-30T17:52:36.927673Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 250820
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 250820

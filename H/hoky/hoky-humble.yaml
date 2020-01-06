@@ -1,0 +1,29 @@
+id: 4105
+game_id: 11550
+game_slug: hoky
+name: HOKY
+year: 2015
+user: FakeShemp
+runner: linux
+slug: hoky-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-04T18:29:30.517078Z'
+updated_at: '2017-06-04T22:01:53.758807Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: runner
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/runner
+  files:
+  - file1: N/A:Please select the Humble archive

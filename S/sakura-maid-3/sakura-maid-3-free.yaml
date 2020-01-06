@@ -1,0 +1,32 @@
+id: 13869
+game_id: 27658
+game_slug: sakura-maid-3
+name: Sakura Maid 3
+year: 2016
+user: kimchitea
+runner: linux
+slug: sakura-maid-3-free
+version: Free
+description: null
+notes: 'Download: <a href="https://we.tl/wQus6O7vG6">https://we.tl/wQus6O7vG6</a>'
+created_at: '2019-06-02T07:01:26.493000Z'
+updated_at: '2019-06-13T08:05:01.024888Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: zip
+  - chmodx: $GAMEDIR/SakuraMaid3.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/SakuraMaid3
+  - chmodx: $GAMEDIR/lib/linux-x86_64/SakuraMaid3
+  files:
+  - zip: N/A:Please select the game archive
+  game:
+    exe: SakuraMaid3.sh

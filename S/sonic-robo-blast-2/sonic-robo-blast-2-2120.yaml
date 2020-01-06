@@ -1,0 +1,33 @@
+id: 2069
+game_id: 6162
+game_slug: sonic-robo-blast-2
+name: Sonic Robo Blast 2
+year: 1998
+user: strider
+runner: wine
+slug: sonic-robo-blast-2-2120
+version: 2.1.20
+description: Sonic Robo Blast 2 is a 3D open-source Sonic the Hedgehog fangame built
+  using a modified version of the Doom Legacy port of Doom. SRB2 is closely inspired
+  by the original Sonic games from the Sega Genesis, and attempts to recreate the
+  design in 3D. While SRB2 isn't fully completed, it already features tons of levels,
+  enemies, speed, and quite a lot of the fun that the original Sonic games provided.
+notes: Requires unzip
+created_at: '2016-05-22T01:00:33.801000Z'
+updated_at: '2018-08-13T18:29:44.384698Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  script:
+    files:
+    - installer: https://files.srb2.org/srb2.org/SRB2-v2120-Installer.exe
+    - frontend: https://mb.srb2.org/attachment.php?attachmentid=4059&d=1396299196
+    game:
+      exe: $GAMEDIR/srb2win.exe
+      working_dir: $GAMEDIR

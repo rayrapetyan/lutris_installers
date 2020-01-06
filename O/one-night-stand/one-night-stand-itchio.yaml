@@ -1,0 +1,28 @@
+id: 2210
+game_id: 6346
+game_slug: one-night-stand
+name: One Night Stand
+year: 2016
+user: Lulu
+runner: linux
+slug: one-night-stand-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2016-06-27T19:11:42.232000Z'
+updated_at: '2017-12-23T21:28:59.227154Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 549860
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: One Night Stand.sh
+  installer:
+  - extract:
+      file: game
+  files:
+  - game: N/A:Please select the itch.io archive

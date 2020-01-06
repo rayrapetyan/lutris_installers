@@ -1,0 +1,17 @@
+name: Double Kick Heroes
+slug: double-kick-heroes
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: Racing
+aliases: []
+banner_url: /games/banner/double-kick-heroes.jpg
+icon_url: null
+is_public: true
+updated: '2019-05-23T21:16:57.749565Z'
+steamid: 589670
+gogslug: double_kick_heroes
+humblestoreid: ''

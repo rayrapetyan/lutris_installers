@@ -1,0 +1,414 @@
+id: 8739
+game_id: 951
+game_slug: fallout-3-game-of-the-year-edition
+name: 'Fallout 3: Game of the Year Edition'
+year: 2009
+user: djazz
+runner: wine
+slug: fallout-3-game-of-the-year-ed-gog
+version: GOG
+description: Includes Fallout Script Extender and some essential fixes
+notes: "Download the game from GOG (requires you to be logged in and owning the game):\
+  \ <a href=\"https://www.gog.com/downloads/fallout_3_game_of_the_year_edition_game/en1installer0\"\
+  >Part 1 of 3</a> <a href=\"https://www.gog.com/downloads/fallout_3_game_of_the_year_edition_game/en1installer1\"\
+  >Part 2 of 3</a> <a href=\"https://www.gog.com/downloads/fallout_3_game_of_the_year_edition_game/en1installer2\"\
+  >Part 3 of 3</a>\r\n\r\n<b>Features of this installer</b>\r\n* Don't run the game\
+  \ in windowed mode, instead just change the resolution.\r\n* Some ini fixes for\
+  \ better performance.\r\n* Fakes a Nvidia GPU for Intel support (gpu autodetect\
+  \ doesn't work here)\r\n* Patches exe with 4GB/LAA support (if you want to play\
+  \ with HQ texture mods etc.)\r\n* Includes FOSE, NVAC, Fallout Stutter Remover,\
+  \ BOSS, Unofficial Fallout 3 Patch and a special launch menu.\r\n* Background image\
+  \ instead of the boring blue background of Wine!"
+created_at: '2018-06-15T09:45:58.017000Z'
+updated_at: '2019-02-11T20:50:36.432102Z'
+draft: false
+published: true
+published_by: null
+rating: '3'
+steamid: 22370
+gogid: 1454315831
+gogslug: fallout_3_game_of_the_year_edition
+humblestoreid: fallout-3-game-of-the-year-edition
+script:
+  system:
+    env:
+      __GL_THREADED_OPTIMIZATIONS: '1'
+      mesa_glthread: 'true'
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      __GL_SHADER_DISK_CACHE: '1'
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Fallout 3/launch.bat
+    arch: win64
+  installer:
+  - input_menu:
+      options:
+      - 'true': Yes, store them in home
+      - 'false': No, store them inside the wineprefix
+      description: Do you want to store saves in ~/Documents/My Games/Fallout3/Saves
+        ?
+      id: CONFIG_LOCATION
+      preselect: 'true'
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 64-bit Wine prefix
+      arch: win64
+      install_mono: false
+      install_gecko: false
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Disabling virtual desktop
+      arch: win64
+      key: WineDesktop
+      value: ''
+      path: HKEY_CURRENT_USER\Software\Wine\Explorer\Desktops
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      description: 'winetricks: winxp quartz'
+      app: winxp quartz
+      arch: win64
+      name: winetricks
+  - extract:
+      dst: $GAMEDIR/drive_c
+      file: wallpaper
+  - task:
+      prefix: $GAMEDIR
+      description: Setting wallpaper
+      arch: win64
+      key: Background
+      value: 0 0 0
+      path: HKEY_CURRENT_USER\Control Panel\Colors
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      description: Setting wallpaper
+      arch: win64
+      key: Wallpaper
+      value: c:\\wallpaper.bmp
+      path: HKEY_CURRENT_USER\Control Panel\Desktop
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      description: Enabling GrabFullscreen for Fallout3.exe
+      arch: win64
+      key: GrabFullscreen
+      value: Y
+      path: HKEY_CURRENT_USER\Software\Wine\AppDefaults\Fallout3.exe\X11 Driver
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      description: Forcing Nvidia VideoPci
+      arch: win64
+      type: REG_DWORD
+      value: '402'
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D
+      key: VideoPciDeviceID
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      description: Forcing Nvidia VideoPci
+      arch: win64
+      type: REG_DWORD
+      value: 10de
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D
+      key: VideoPciVendorID
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      description: Disabling AlwaysOffscreen
+      arch: win64
+      key: AlwaysOffscreen
+      value: disabled
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      description: Configuring console
+      arch: win64
+      type: REG_DWORD
+      value: 202e0e
+      path: HKEY_CURRENT_USER\Console
+      key: ColorTable02
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      description: Configuring console
+      arch: win64
+      type: REG_DWORD
+      value: 74f014
+      path: HKEY_CURRENT_USER\Console
+      key: ColorTable10
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      description: Configuring console
+      arch: win64
+      key: FaceName
+      value: Fixedsys
+      path: HKEY_CURRENT_USER\Console
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      description: Configuring console
+      arch: win64
+      type: REG_DWORD
+      value: 2a
+      path: HKEY_CURRENT_USER\Console
+      key: ScreenColors
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      description: Configuring console
+      arch: win64
+      type: REG_DWORD
+      value: 0190
+      path: HKEY_CURRENT_USER\Console
+      key: FontWeight
+      name: set_regedit
+  - extract:
+      dst: $CACHE/innoextract
+      file: innoextract
+  - execute:
+      command: mkdir -pv "$GAMEDIR/drive_c/Fallout 3" "$CACHE/extract"; ln -sv "$GAMEDIR/drive_c/Fallout
+        3" "$CACHE/extract/app"
+  - execute:
+      args: --gog --exclude-temp --output-dir "$CACHE/extract" "$setup"
+      description: Extracting game files
+      file: $CACHE/innoextract/innoextract
+  - write_file:
+      content: 'REGEDIT4
+
+
+        [HKEY_LOCAL_MACHINE\Software\Bethesda Softworks\Fallout3]
+
+        "Installed Path"="C:\\Fallout 3\\"
+
+
+        [HKEY_LOCAL_MACHINE\Software\Wow6432Node\Bethesda Softworks\Fallout3]
+
+        "Installed Path"="C:\\Fallout 3\\"
+
+        '
+      file: $CACHE/fallout3.reg
+  - task:
+      prefix: $GAMEDIR
+      filename: $CACHE/fallout3.reg
+      arch: win64
+      name: set_regedit_file
+  - write_config:
+      section: General
+      key: bUseThreadedAI
+      value: 1
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+  - write_config:
+      section: General
+      key: iNumHWThreads
+      value: 2
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+  - write_config:
+      section: General
+      key: bUseThreadedBlood
+      value: 1
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+  - write_config:
+      section: General
+      key: bUseThreadedMorpher
+      value: 1
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+  - write_config:
+      section: General
+      key: bUseThreadedTempEffects
+      value: 1
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+  - write_config:
+      section: General
+      key: bUseThreadedParticleSystem
+      value: 1
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+  - write_config:
+      section: General
+      key: bUseMultiThreadedFaceGen
+      value: 1
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+  - write_config:
+      section: General
+      key: bUseMultiThreadedTrees
+      value: 1
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+  - write_config:
+      section: General
+      key: iPreloadSizeLimit
+      value: 104857600
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+  - write_config:
+      section: Display
+      key: fDefaultFOV
+      value: 85
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+  - write_config:
+      section: Display
+      key: fDefaultWorldFOV
+      value: 85
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+  - write_config:
+      section: Display
+      key: fDefault1stPersonFOV
+      value: 65
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+  - write_config:
+      section: Display
+      key: fPipboy1stPersonFOV
+      value: 50
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+  - write_config:
+      section: Display
+      key: iPresentInterval
+      value: 0
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+  - write_config:
+      section: Display
+      key: bFull Screen
+      value: 1
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+  - write_config:
+      section: Audio
+      key: bMultiThreadAudio
+      value: 1
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+  - write_config:
+      section: Audio
+      key: bEnableAudioCache
+      value: 1
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+  - write_config:
+      section: Audio
+      key: iAudioCacheSize
+      value: 4096
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+  - write_config:
+      section: Audio
+      key: iMaxSizeForCachedSound
+      value: 256
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+  - write_config:
+      section: Audio
+      key: iRadioUpdateInterval
+      value: 1024
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+  - write_config:
+      section: Controls
+      key: fForegroundMouseMult
+      value: 0
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+  - write_config:
+      section: Controls
+      key: fForegroundMouseAccelBase
+      value: 0
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+  - write_config:
+      section: Controls
+      key: fForegroundMouseAccelTop
+      value: 0
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+  - write_config:
+      section: Controls
+      key: fForegroundMouseBase
+      value: 0
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+  - write_config:
+      section: Controls
+      key: bBackground Mouse
+      value: 1
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+  - extract:
+      dst: $GAMEDIR/drive_c/Fallout 3
+      file: modpack
+  - extract:
+      dst: $GAMEDIR/drive_c/Fallout 3
+      file: launchmenu
+  - extract:
+      description: Patching Fallout3.exe with Large Address Aware support
+      dst: $CACHE/laa-patcher
+      file: laa-patcher
+  - task:
+      executable: $CACHE/laa-patcher/EDITBIN.EXE
+      prefix: $GAMEDIR
+      description: Patching Fallout3.exe with Large Address Aware support
+      arch: win64
+      args: /LARGEADDRESSAWARE Fallout3.exe
+      working_dir: $GAMEDIR/drive_c/Fallout 3
+      name: wineexec
+  - task:
+      executable: $GAMEDIR/drive_c/Fallout 3/boss.exe
+      prefix: $GAMEDIR
+      description: Sorting modlist with BOSS
+      arch: win64
+      args: --update --silent --game Fallout3
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Enabling virtual desktop
+      arch: win64
+      key: WineDesktop
+      value: 1280x720
+      path: HKEY_CURRENT_USER\Software\Wine\Explorer\Desktops
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      description: Enabling virtual desktop
+      arch: win64
+      key: Desktop
+      value: WineDesktop
+      path: HKEY_CURRENT_USER\Software\Wine\Explorer
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - execute:
+      command: 'rm -f "$GAMEDIR/drive_c/users/$USER/My Documents"
+
+        mkdir -pv "$GAMEDIR/drive_c/users/$USER/My Documents/My Games/Fallout3"
+
+        rm -f "$GAMEDIR/data"; ln -svrT "$GAMEDIR/drive_c/Fallout 3/Data" "$GAMEDIR/data"
+
+        rm -f "$GAMEDIR/config"; ln -svrT "$GAMEDIR/drive_c/users/$USER/My Documents/My
+        Games/Fallout3" "$GAMEDIR/config"
+
+        rm -f "$GAMEDIR/drive_c/users/$USER/My Documents/My Games/Fallout3/Saves"
+
+        $INPUT_CONFIG_LOCATION && (mkdir -pv "$HOME/Documents/My Games/Fallout3/Saves"
+        "$GAMEDIR/drive_c/users/$USER/My Documents/My Games/Fallout3"; ln -svT "$HOME/Documents/My
+        Games/Fallout3/Saves" "$GAMEDIR/drive_c/users/$USER/My Documents/My Games/Fallout3/Saves")
+
+        '
+  - task:
+      executable: $GAMEDIR/drive_c/Fallout 3/FalloutLauncher.exe
+      prefix: $GAMEDIR
+      description: 'Configure data files (DLCs), video settings and exit the launcher.
+
+        Don''t forget to set your native resolution!
+
+        '
+      arch: win64
+      env:
+        WINEDEBUG: -all
+      exclude_processes: Fallout3.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  files:
+  - setup: N/A:Please select file setup_fallout_3_1.7.0.3_(12034).exe from GOG
+  - innoextract: http://constexpr.org/innoextract/files/innoextract-1.7/innoextract-1.7-linux.tar.xz
+  - wallpaper: https://gist.github.com/daniel-j/28c6d207c5393aa64c3a9d8ee26d1425/raw/wallpaper-fallout3.tar.xz
+  - laa-patcher: https://gist.github.com/daniel-j/28c6d207c5393aa64c3a9d8ee26d1425/raw/laa-patcher.tar.xz
+  - launchmenu: https://gist.github.com/daniel-j/8194c168cff79e57960eed7080e8516b/archive/master.tar.gz
+  - modpack: https://djazz.se/nas/games/fallout3/modpack.tar.xz
+  wine:
+    WineDesktop: 1280x720
+    overrides:
+      winegstreamer: disabled
+    Desktop: true

@@ -1,0 +1,24 @@
+id: 6792
+game_id: 1026
+game_slug: galactic-civilizations-i-ultimate-edition
+name: 'Galactic Civilizations I: Ultimate Edition'
+year: null
+user: soredake
+runner: winesteam
+slug: galactic-civilizations-i-ulti-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-23T21:05:15.864898Z'
+updated_at: '2017-12-23T21:05:23.418250Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 214150
+gogid: 1207659206
+gogslug: galactic_civilizations_i_ultimate_edition
+humblestoreid: ''
+script:
+  game:
+    appid: 214150

@@ -1,0 +1,24 @@
+id: 1763
+game_id: 1093
+game_slug: kings-bounty-crossworlds
+name: 'King''s Bounty: Crossworlds'
+year: null
+user: RobLoach
+runner: winesteam
+slug: kings-bounty-crossworlds-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: https://appdb.winehq.org/objectManager.php?sClass=application&iId=10975
+created_at: '2015-12-27T18:40:27.301717Z'
+updated_at: '2016-09-09T22:24:07.851888Z'
+draft: false
+published: true
+published_by: null
+rating: '4'
+steamid: 63910
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 63910

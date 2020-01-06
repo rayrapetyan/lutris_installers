@@ -1,0 +1,15 @@
+name: 'Medal of Honor: Airborne'
+slug: medal-of-honor-airborne
+year: 2007
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/medal-of-honor-airborne.jpg
+icon_url: /games/icon/medal-of-honor-airborne.png
+is_public: true
+updated: '2019-01-23T08:30:20.626298Z'
+steamid: 24840
+gogslug: ''
+humblestoreid: ''

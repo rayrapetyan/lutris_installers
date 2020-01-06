@@ -1,0 +1,19 @@
+name: Tom Clancy's Ghost Recon
+slug: tom-clancys-ghost-recon
+year: 2001
+platforms:
+- name: GameCube
+- name: Sony PlayStation 2
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+- name: Tactical shooter
+aliases: []
+banner_url: /games/banner/tom-clancys-ghost-recon.jpg
+icon_url: /games/icon/tom-clancys-ghost-recon.png
+is_public: true
+updated: '2019-10-24T23:59:36.610322Z'
+steamid: 15300
+gogslug: tom_clancys_ghost_recon
+humblestoreid: ''

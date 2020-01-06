@@ -1,0 +1,20 @@
+name: Street Cat (AKA Bad Cat)
+slug: street-cat-aka-bad-cat
+year: 1987
+platforms:
+- name: Amiga
+- name: Amstrad CPC 464
+- name: Atari ST
+- name: Commodore 64
+- name: MS-DOS
+genres:
+- name: Action
+- name: Sports
+aliases: []
+banner_url: /games/banner/street-cat-aka-bad-cat.jpg
+icon_url: null
+is_public: true
+updated: '2019-10-22T22:06:48.641274Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

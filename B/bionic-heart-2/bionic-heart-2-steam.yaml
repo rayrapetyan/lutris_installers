@@ -1,0 +1,24 @@
+id: 1236
+game_id: 3604
+game_slug: bionic-heart-2
+name: Bionic Heart 2
+year: 2013
+user: Xodetaetl
+runner: steam
+slug: bionic-heart-2-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-01-05T19:28:36.086000Z'
+updated_at: '2015-01-05T19:28:41.459000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 317290
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 317290

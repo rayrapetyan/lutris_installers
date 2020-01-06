@@ -1,0 +1,24 @@
+id: 13076
+game_id: 8877
+game_slug: dishonored-2
+name: Dishonored 2
+year: 2016
+user: Freso
+runner: steam
+slug: dishonored-2-steam-proton
+version: Steam Proton
+description: Steam Proton version
+notes: ''
+created_at: '2019-04-24T13:25:14.833606Z'
+updated_at: '2019-04-26T07:24:41.407788Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 403640
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 403640

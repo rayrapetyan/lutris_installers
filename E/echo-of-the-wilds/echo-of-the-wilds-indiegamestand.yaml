@@ -1,0 +1,32 @@
+id: 4371
+game_id: 2813
+game_slug: echo-of-the-wilds
+name: Echo of the Wilds
+year: null
+user: FakeShemp
+runner: wine
+slug: echo-of-the-wilds-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-06-15T19:08:29.099000Z'
+updated_at: '2018-05-19T03:41:49.833667Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 305780
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Echo of the Wilds
+      file: $file1
+  files:
+  - file1: N/A:Please select the IndieGameStand archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Echo of the Wilds/Echo of the Wilds.exe
+    arch: win32

@@ -1,0 +1,32 @@
+id: 2701
+game_id: 7294
+game_slug: no-marios-sky
+name: No Mario's Sky
+year: 2016
+user: Lulu
+runner: linux
+slug: no-marios-sky-itchio
+version: Itch.io
+description: ''
+notes: ''
+created_at: '2016-09-07T19:04:04.858578Z'
+updated_at: '2016-11-04T17:27:01.718046Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: NoMariosSky.x86
+  installer:
+  - extract:
+      file: no-marios-sky-game
+  - chmodx: $GAMEDIR/NoMariosSky.x86
+  - chmodx: $GAMEDIR/NoMariosSky.x86_64
+  exe64: NoMariosSky.x86_64
+  files:
+  - no-marios-sky-game: 'N/A: Please select the .zip install file downloaded from
+      itch.io'

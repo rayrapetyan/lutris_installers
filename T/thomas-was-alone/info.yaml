@@ -1,0 +1,16 @@
+name: Thomas Was Alone
+slug: thomas-was-alone
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: Platform
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/thomas-was-alone.jpg
+icon_url: /games/icon/thomas-was-alone.png
+is_public: true
+updated: '2019-01-23T08:31:49.660854Z'
+steamid: 220780
+gogslug: ''
+humblestoreid: ''

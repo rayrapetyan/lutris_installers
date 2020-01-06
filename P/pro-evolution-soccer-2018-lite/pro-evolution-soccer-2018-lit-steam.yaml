@@ -1,0 +1,39 @@
+id: 10103
+game_id: 15141
+game_slug: pro-evolution-soccer-2018-lite
+name: PRO EVOLUTION SOCCER 2018 LITE
+year: 2017
+user: carzacc
+runner: winesteam
+slug: pro-evolution-soccer-2018-lit-steam
+version: Steam
+description: PES 2018 script for the LITE version
+notes: ''
+created_at: '2018-09-08T12:13:30.798000Z'
+updated_at: '2019-02-16T04:20:40.644809Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 592600
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: dotnet472 corefonts cjkfonts win7
+      arch: win64
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 592600
+    arch: win64

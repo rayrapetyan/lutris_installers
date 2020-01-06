@@ -1,0 +1,27 @@
+id: 9815
+game_id: 21125
+game_slug: marvel-vs-capcom-clash-of-super-heroes
+name: 'Marvel vs. Capcom: Clash of Super Heroes'
+year: 1998
+user: RobLoach
+runner: libretro
+slug: marvel-vs-capcom-clash-of-sup-reicast
+version: reicast
+description: null
+notes: ''
+created_at: '2018-08-20T03:41:54.319000Z'
+updated_at: '2018-08-20T04:37:46.409240Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  files:
+  - rom: N/A:Select the game's ROM file
+  game:
+    core: reicast
+    main_file: rom

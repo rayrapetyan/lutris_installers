@@ -1,0 +1,18 @@
+name: FINAL FANTASY XI
+slug: final-fantasy-xi
+year: 2003
+platforms:
+- name: Sony PlayStation 2
+- name: Windows
+genres:
+- name: MMORPG
+aliases:
+- slug: final-fantasy-xi-online
+  name: Final Fantasy XI Online
+banner_url: /games/banner/final-fantasy-xi.jpg
+icon_url: /games/icon/final-fantasy-xi.png
+is_public: true
+updated: '2019-04-17T06:09:19.284852Z'
+steamid: 23360
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,17 @@
+name: Egoboo
+slug: egoboo
+year: 1999
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: Dungeon crawl
+aliases: []
+banner_url: /games/banner/egoboo.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:21.694491Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

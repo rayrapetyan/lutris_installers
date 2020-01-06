@@ -1,0 +1,16 @@
+name: Grim Fandango Remastered
+slug: grim-fandango-remastered
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/grim-fandango-remastered.jpg
+icon_url: /games/icon/grim-fandango-remastered.png
+is_public: true
+updated: '2019-01-23T08:29:43.539244Z'
+steamid: 316790
+gogslug: grim_fandango_remastered
+humblestoreid: ''

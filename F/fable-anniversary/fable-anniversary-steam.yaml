@@ -1,0 +1,50 @@
+id: 2202
+game_id: 3707
+game_slug: fable-anniversary
+name: Fable Anniversary
+year: 2014
+user: strider
+runner: winesteam
+slug: fable-anniversary-steam
+version: Steam
+description: ''
+notes: Game might start minimized, click the Fable icon on your task bar to bring
+  up the game window or run the game in a virtual desktop.
+created_at: '2016-06-26T04:02:53.640921Z'
+updated_at: '2016-11-27T09:39:02.499616Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 288470
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    xinput: true
+    overrides:
+      dinput8: native,builtin
+      xinput1_3: builtin
+    StrictDrawOrdering: enabled
+  installer:
+  - extract:
+      dst: $GAMEDIR/Binaries/Win32
+      file: x360ce_dinput8
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing Visual C++ 2010 Runtime
+      app: vcrun2010
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing .NET 4.0
+      app: dotnet40
+      silent: true
+      name: winetricks
+  files:
+  - x360ce_dinput8: https://lutris.net/files/tools/x360ce-dinput8.tar.gz
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 288470

@@ -1,0 +1,32 @@
+id: 460
+game_id: 183
+game_slug: shadowgrounds
+name: Shadowgrounds
+year: 2006
+user: strider
+runner: linux
+slug: shadowgrounds-humble-bundle
+version: Humble Bundle
+description: ''
+notes: ''
+created_at: '2014-03-22T18:18:21.654000Z'
+updated_at: '2014-11-12T12:57:41.798000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 2500
+gogid: 1207658914
+gogslug: shadowgrounds
+humblestoreid: shadowgrounds
+script:
+  exe: shadowgrounds-bin
+  installer:
+  - extract:
+      format: zip
+      dst: $GAMEDIR
+      file: sg-run
+  - chmodx: $GAMEDIR/shadowgrounds-bin
+  - chmodx: $GAMEDIR/shadowgrounds-launcher
+  files:
+  - sg-run: N/A:Please select installer from Humble Bundle

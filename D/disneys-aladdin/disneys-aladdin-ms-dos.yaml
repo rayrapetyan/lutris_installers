@@ -1,0 +1,70 @@
+id: 5619
+game_id: 6711
+game_slug: disneys-aladdin
+name: Disney's Aladdin
+year: 1993
+user: maxlefou
+runner: dosbox
+slug: disneys-aladdin-ms-dos
+version: MS-DOS
+description: ''
+notes: ''
+created_at: '2017-09-07T19:42:54.551000Z'
+updated_at: '2017-09-17T19:23:58.079820Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 561100
+gogid: 1364995551
+gogslug: disney_aladdin
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE/game
+      file: $file1
+  - extract:
+      dst: $CACHE/p7z
+      file: $file2
+  - execute:
+      args: x "$CACHE/game/DISK1.DAT"
+      description: Extracting the data files...
+      file: $CACHE/p7z/7z
+  - execute:
+      args: x "$CACHE/game/DISK2.DAT"
+      description: Extracting more data files...
+      file: $CACHE/p7z/7z
+  - merge:
+      src: $CACHE/game
+      dst: $GAMEDIR
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/dosbox_aladdin.conf
+  - write_config:
+      section: sdl
+      key: fullscreen
+      value: false
+      file: $GAMEDIR/dosbox_aladdin.conf
+  - write_config:
+      section: sblaster
+      key: sbtype
+      value: sb16
+      file: $GAMEDIR/dosbox_aladdin.conf
+  - write_config:
+      section: cpu
+      key: cycles
+      value: max
+      file: $GAMEDIR/dosbox_aladdin.conf
+  - task:
+      executable: SETSND.EXE
+      description: Setting sound. just type Y and Enter directly.
+      name: dosexec
+  files:
+  - file1: N/A:Select the game's archive file
+  - file2: https://lutris.net/files/tools/p7zip-16.02-i686.tar.gz
+  game:
+    config_file: $GAMEDIR/dosbox_aladdin.conf
+    main_file: ALADDIN.EXE

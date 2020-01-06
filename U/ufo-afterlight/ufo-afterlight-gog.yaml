@@ -1,0 +1,36 @@
+id: 14406
+game_id: 1121
+game_slug: ufo-afterlight
+name: 'UFO: Afterlight'
+year: 2007
+user: marciocr
+runner: wine
+slug: ufo-afterlight-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-07-03T21:58:35.180000Z'
+updated_at: '2019-10-14T03:02:41.220864Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 237950
+gogid: 1207658869
+gogslug: ufo_afterlight
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES /NOCANCEL
+      name: wineexec
+  files:
+  - setup: N/A:Select the Windows installer downloaded from GOG
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/UFO Afterlight/UFO.exe

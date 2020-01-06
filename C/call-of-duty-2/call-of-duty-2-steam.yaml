@@ -1,0 +1,24 @@
+id: 3702
+game_id: 1238
+game_slug: call-of-duty-2
+name: Call of Duty 2
+year: 2005
+user: strider
+runner: winesteam
+slug: call-of-duty-2-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-05-16T03:48:41.126116Z'
+updated_at: '2017-05-16T03:48:46.565826Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 2630
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 2630

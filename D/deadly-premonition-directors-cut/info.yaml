@@ -1,0 +1,17 @@
+name: 'Deadly Premonition: Director''s Cut'
+slug: deadly-premonition-directors-cut
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Horror
+aliases: []
+banner_url: /games/banner/deadly-premonition-directors-cut.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:06.565611Z'
+steamid: null
+gogslug: deadly_premonition_directors_cut
+humblestoreid: ''

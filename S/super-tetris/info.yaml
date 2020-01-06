@@ -1,0 +1,16 @@
+name: Super Tetris
+slug: super-tetris
+year: 1991
+platforms:
+- name: Amiga
+- name: MS-DOS
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/super-tetris.jpg
+icon_url: null
+is_public: true
+updated: '2019-03-20T18:40:29.589591Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

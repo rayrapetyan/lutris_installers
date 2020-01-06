@@ -1,0 +1,24 @@
+id: 1407
+game_id: 4028
+game_slug: defense-zone-2
+name: Defense Zone 2
+year: null
+user: Xodetaetl
+runner: steam
+slug: defense-zone-2-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-03-15T00:09:33.870000Z'
+updated_at: '2015-03-15T00:18:11.168000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 295630
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 295630

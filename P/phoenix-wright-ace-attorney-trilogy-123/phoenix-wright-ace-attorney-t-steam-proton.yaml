@@ -1,0 +1,26 @@
+id: 14694
+game_id: 26573
+game_slug: phoenix-wright-ace-attorney-trilogy-123
+name: "Phoenix Wright: Ace Attorney Trilogy / \u9006\u8EE2\u88C1\u5224123 \u6210\u6B69\
+  \u5802\u30BB\u30EC\u30AF\u30B7\u30E7\u30F3"
+year: 2019
+user: kimchitea
+runner: steam
+slug: phoenix-wright-ace-attorney-t-steam-proton
+version: Steam Proton
+description: null
+notes: "If you experience issues:\r\n\r\n- update your graphics drivers https://github.com/ValveSoftware/Proton/wiki/Requirements\r\
+  \n\r\n- enable WineD3D\r\n\r\n- switch from fullscreen to windowed mode\r\nhttps://www.protondb.com/app/787480"
+created_at: '2019-07-24T00:04:30.761000Z'
+updated_at: '2019-11-04T04:49:54.854986Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 787480
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 787480

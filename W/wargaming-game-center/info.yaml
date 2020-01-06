@@ -1,0 +1,19 @@
+name: Wargaming Game Center
+slug: wargaming-game-center
+year: 2009
+platforms:
+- name: Windows
+genres:
+- name: Tool
+aliases:
+- slug: wargaming-center
+  name: Wargaming center
+- slug: wargamingnet-launcher
+  name: Wargaming.net Launcher
+banner_url: /games/banner/wargaming-game-center.jpg
+icon_url: null
+is_public: true
+updated: '2019-11-07T23:28:03.676042Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,39 @@
+id: 12652
+game_id: 26492
+game_slug: scp-containment-breach-unity-remake
+name: 'SCP: Containment Breach - Unity Remake'
+year: 2017
+user: cxf
+runner: wine
+slug: scp-containment-breach-unity-alpha-0651
+version: Alpha 0.6.5.1
+description: Enables DXVK
+notes: ''
+created_at: '2019-04-07T03:15:04.144000Z'
+updated_at: '2019-09-07T06:19:57.263635Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - extract:
+      src: zip
+      dst: $GAMEDIR/drive_c/Program Files/SCP Containment Breach
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/SCP Containment Breach/Containment Breach.exe
+  system:
+    env:
+      DXVK_HUD: 0
+  wine:
+    dxvk: true
+  files:
+  - zip: https://f-cdn.gamejolt.net/data/games/4/191/303941/protected-files-cdn/5cafd09aaf94a/cb-v0.6.5.1-windows-64-bit.zip?secure=yS3kSEY1uIwtLmqitY07Ig,1567880249

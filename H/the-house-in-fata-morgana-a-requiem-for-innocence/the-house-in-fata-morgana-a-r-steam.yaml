@@ -1,0 +1,24 @@
+id: 10939
+game_id: 21466
+game_slug: the-house-in-fata-morgana-a-requiem-for-innocence
+name: 'The House in Fata Morgana: A Requiem for Innocence'
+year: 2018
+user: talklittle
+runner: winesteam
+slug: the-house-in-fata-morgana-a-r-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-11-21T22:16:52.589000Z'
+updated_at: '2018-11-29T01:53:25.024134Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 804700
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 804700

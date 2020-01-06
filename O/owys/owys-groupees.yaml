@@ -1,0 +1,34 @@
+id: 6703
+game_id: 7938
+game_slug: owys
+name: Owys
+year: null
+user: FakeShemp
+runner: wine
+slug: owys-groupees
+version: Groupees
+description: null
+notes: ''
+created_at: '2017-12-16T22:44:10.881000Z'
+updated_at: '2018-05-19T03:41:49.246422Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 394770
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      args: '"/S" "/D="C:\\Program Files\\Owys""'
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Owys/Owys.exe
+    arch: win32

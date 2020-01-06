@@ -1,0 +1,16 @@
+name: 'Atlantis: The Lost Tales'
+slug: atlantis-the-lost-tales
+year: 1997
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/atlantis-the-lost-tales.jpg
+icon_url: /games/icon/atlantis-the-lost-tales.png
+is_public: true
+updated: '2019-09-24T21:56:30.623360Z'
+steamid: null
+gogslug: atlantis_the_lost_tales
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 14791
+game_id: 11370
+game_slug: metin2
+name: Metin2
+year: 2005
+user: WipeProof
+runner: steam
+slug: metin2-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-07-30T19:59:02.844000Z'
+updated_at: '2019-10-11T00:45:27.827248Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 550900
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 550900

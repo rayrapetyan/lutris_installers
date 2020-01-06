@@ -1,0 +1,29 @@
+id: 6212
+game_id: 1097
+game_slug: zigfrak
+name: Zigfrak
+year: null
+user: FakeShemp
+runner: linux
+slug: zigfrak-desura
+version: Desura
+description: ''
+notes: ''
+created_at: '2017-11-01T17:38:39.050000Z'
+updated_at: '2017-11-01T17:41:35.574170Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 259430
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Zigfrak.x86
+  installer:
+  - extract:
+      file: $file1
+  exe64: Zigfrak.x86_64
+  files:
+  - file1: N/A:Please select the Desura archive

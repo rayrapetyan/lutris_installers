@@ -1,0 +1,15 @@
+name: A Virus Named TOM
+slug: a-virus-named-tom
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/a-virus-named-tom.jpg
+icon_url: /games/icon/a-virus-named-tom.png
+is_public: true
+updated: '2019-01-23T08:28:29.594885Z'
+steamid: 207650
+gogslug: ''
+humblestoreid: ''

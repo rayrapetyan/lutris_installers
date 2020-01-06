@@ -1,0 +1,46 @@
+id: 11404
+game_id: 24568
+game_slug: the-realm-online-finvarras-fortress
+name: 'The Realm Online: Finvarra''s Fortress'
+year: 2018
+user: Elpha
+runner: wine
+slug: the-realm-online-finvarras-fo-finvarras-fortress
+version: Finvarra's Fortress
+description: null
+notes: ''
+created_at: '2019-01-01T16:30:51.353000Z'
+updated_at: '2019-10-31T22:01:45.666622Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Rat Labs/The Realm Online/wlaunch.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: msiexec
+      prefix: $GAMEDIR
+      args: /i "$CACHE/realm/RatLabsRealm.msi" /q
+      description: Installing The Realm Online
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  wine:
+    version: tkg-3.21-x86_64
+    overrides:
+      d3d11: disabled
+  files:
+  - realm: https://realmserver.com/files/TheRealmOnline.msi

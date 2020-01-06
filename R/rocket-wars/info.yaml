@@ -1,0 +1,17 @@
+name: Rocket Wars
+slug: rocket-wars
+year: 2017
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Action
+- name: Arcade
+aliases: []
+banner_url: /games/banner/rocket-wars.jpg
+icon_url: /games/icon/rocket-wars.png
+is_public: false
+updated: '2019-01-23T08:31:02.970195Z'
+steamid: 627670
+gogslug: ''
+humblestoreid: ''

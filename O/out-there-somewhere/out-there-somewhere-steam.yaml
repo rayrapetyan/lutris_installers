@@ -1,0 +1,24 @@
+id: 8162
+game_id: 4316
+game_slug: out-there-somewhere
+name: Out There Somewhere
+year: null
+user: soredake
+runner: winesteam
+slug: out-there-somewhere-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T06:48:29.447907Z'
+updated_at: '2018-05-12T10:17:25.865346Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 263980
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 263980

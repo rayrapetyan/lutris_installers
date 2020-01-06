@@ -1,0 +1,30 @@
+id: 12354
+game_id: 24578
+game_slug: metro-exodus
+name: Metro Exodus
+year: 2019
+user: cxf
+runner: winesteam
+slug: metro-exodus-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2019-03-12T07:13:45.670379Z'
+updated_at: '2019-03-12T07:13:50.486838Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 412020
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    appid: 412020
+    arch: win64

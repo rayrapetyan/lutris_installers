@@ -1,0 +1,20 @@
+name: Toy Story Racer
+slug: toy-story-racer
+year: 2001
+platforms:
+- name: Nintendo Game Boy Color
+- name: Sony PlayStation
+- name: Sony Playstation 3
+- name: Sony PSP
+genres:
+- name: Racing
+aliases:
+- slug: disneypixar-toy-story-racer
+  name: "Disney\u2022Pixar Toy Story Racer"
+banner_url: /games/banner/toy-story-racer.jpg
+icon_url: null
+is_public: true
+updated: '2019-11-04T02:46:00.834552Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

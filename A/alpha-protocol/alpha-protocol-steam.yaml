@@ -1,0 +1,24 @@
+id: 562
+game_id: 1008
+game_slug: alpha-protocol
+name: Alpha Protocol
+year: 2010
+user: strider
+runner: winesteam
+slug: alpha-protocol-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-09T23:10:00.194000Z'
+updated_at: '2014-09-09T23:10:08.804000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 34010
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 34010

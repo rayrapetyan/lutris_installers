@@ -1,0 +1,17 @@
+name: 'SYNTHETIK: Legion Rising'
+slug: synthetik-legion-rising
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Sci-fi
+- name: Shooter
+aliases: []
+banner_url: /games/banner/synthetik-legion-rising.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:34.086663Z'
+steamid: null
+gogslug: synthetik_legion_rising
+humblestoreid: ''

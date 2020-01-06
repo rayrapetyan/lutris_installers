@@ -1,0 +1,30 @@
+id: 1725
+game_id: 3006
+game_slug: enemy-territory-quake-wars
+name: 'Enemy Territory: Quake Wars'
+year: 2007
+user: strider
+runner: linux
+slug: enemy-territory-quake-wars-dvd
+version: DVD
+description: ''
+notes: ''
+created_at: '2015-12-13T07:21:24.927702Z'
+updated_at: '2015-12-13T07:23:50.814783Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 10000
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: etqw
+  installer:
+  - insert-disc:
+      requires: Setup/Data/base/game000.pk4
+  - execute:
+      file: etqw15
+  files:
+  - etqw15: N/A:Select the Enemy Territory Quake Wars installer

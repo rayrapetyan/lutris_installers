@@ -1,0 +1,16 @@
+name: Thimbleweed Park
+slug: thimbleweed-park
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/thimbleweed-park.jpg
+icon_url: /games/icon/thimbleweed-park.png
+is_public: true
+updated: '2019-01-23T08:31:49.370837Z'
+steamid: 569860
+gogslug: thimbleweed_park
+humblestoreid: ''

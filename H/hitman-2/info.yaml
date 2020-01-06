@@ -1,0 +1,18 @@
+name: HITMAN 2
+slug: hitman-2
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Stealth
+aliases:
+- slug: hitmantm-2
+  name: "HITMAN\u2122 2"
+banner_url: /games/banner/hitman-2.jpg
+icon_url: /games/icon/hitman-2.png
+is_public: true
+updated: '2019-02-28T23:42:06.321024Z'
+steamid: 863550
+gogslug: ''
+humblestoreid: ''

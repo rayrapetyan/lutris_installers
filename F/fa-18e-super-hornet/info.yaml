@@ -1,0 +1,16 @@
+name: F/A-18E Super Hornet
+slug: fa-18e-super-hornet
+year: 2000
+platforms:
+- name: Windows
+genres:
+- name: Flight
+- name: Shooter
+aliases: []
+banner_url: /games/banner/fa-18e-super-hornet.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:27.297769Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,27 @@
+id: 15072
+game_id: 2454
+game_slug: heroes-of-might-magic-v
+name: Heroes of Might & Magic V
+year: null
+user: rajcina12
+runner: wine
+slug: heroes-of-might-magic-v-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-08-20T18:52:37.650638Z'
+updated_at: '2019-08-20T18:52:37.650675Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: 15170
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  files:
+  - file2: N/A:Select the game's setup file
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Game/game.exe

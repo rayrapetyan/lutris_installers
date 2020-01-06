@@ -1,0 +1,92 @@
+id: 16494
+game_id: 4986
+game_slug: smite
+name: SMITE
+year: null
+user: vanstaveren
+runner: wine
+slug: smite-steam64
+version: Steam64
+description: xboxdrv package needs to be installed.
+notes: ''
+created_at: '2019-10-30T14:53:10.334996Z'
+updated_at: '2019-10-30T14:53:10.335021Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: 386360
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - execute:
+      command: mv -v $HOME/.local/share/lutris/runners/winesteam/prefix64 /tmp/dump
+      description: Removing any existing winesteam-prefixes ...
+  - task:
+      prefix: $HOME/.local/share/lutris/runners/winesteam/prefix64
+      description: Creating 64-bit prefix ...
+      arch: win64
+      name: create_prefix
+  - extract:
+      description: Extracting EasyAntiCheat_x64.dll ...
+      dst: $HOME/.local/share/lutris/runners/winesteam/prefix64/drive_c
+      file: easyanticheat_x64.zip
+  - task:
+      executable: $HOME/.local/share/lutris/runners/winesteam/prefix64/drive_c/SteamSetup.exe
+      prefix: $HOME/.local/share/lutris/runners/winesteam/prefix64
+      args: /S
+      description: Steam ...
+      name: wineexec
+  - task:
+      prefix: $HOME/.local/share/lutris/runners/winesteam/prefix64
+      description: Visual C++ 2010 libraries ...
+      app: vcrun2010
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $HOME/.local/share/lutris/runners/winesteam/prefix64
+      description: Vulkan ...
+      app: dxvk
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $HOME/.local/share/lutris/runners/winesteam/prefix64
+      description: MS.NET 4.0 ...
+      app: dotnet40
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $HOME/.local/share/lutris/runners/winesteam/prefix64
+      description: Windows version 8.1 ...
+      app: win81
+      arch: win64
+      name: winetricks
+  - write_file:
+      content: cd $HOME/.local/share/lutris/runners/winesteam/prefix64/drive_c/Program\
+        Files\ \(x86\)/Steam && WINEPREFIX="$HOME/.local/share/lutris/runners/winesteam/prefix64"
+        wine Steam.exe -applaunch 386360
+      description: Creating SMITE.sh with prefix ...
+      file: $HOME/.local/share/lutris/runners/winesteam/prefix64/drive_c/SMITE.sh
+  - chmodx: $HOME/.local/share/lutris/runners/winesteam/prefix64/drive_c/SMITE.sh
+  - execute:
+      command: rm $HOME/.local/share/lutris/runners/winesteam/prefix64/drive_c/SteamSetup.exe
+      description: Clean-up ...
+  game:
+    prefix: $HOME/.local/share/lutris/runners/winesteam/prefix64
+    exe: $HOME/.local/share/lutris/runners/winesteam/prefix64/drive_c/Program Files
+      (x86)/Steam/Steam.exe
+    arch: win64
+    args: -nojoy -applaunch 386360
+    appid: '386360'
+    custom-name: SMITE
+  system:
+    xboxdrv: xboxdrv
+  wine:
+    esync: true
+    dxvk: true
+  files:
+  - youtube-video: null
+  - easyanticheat_x64.zip: https://www.dll-files.com/download/643016441fd3a997789666b2afc5d23f/easyanticheat_x64.dll.html?c=K2VxQytVQS8yZGFSWDhzTHArbDArQT09
+  - SteamSetup.exe: https://steamcdn-a.akamaihd.net/client/installer/SteamSetup.exe

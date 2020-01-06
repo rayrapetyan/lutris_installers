@@ -1,0 +1,16 @@
+name: 'Hitman: Codename 47'
+slug: hitman-codename-47
+year: 2000
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Stealth
+aliases: []
+banner_url: /games/banner/hitman-codename-47.jpg
+icon_url: /games/icon/hitman-codename-47.png
+is_public: true
+updated: '2019-01-23T08:29:51.174312Z'
+steamid: 6900
+gogslug: hitman
+humblestoreid: ''

@@ -1,0 +1,33 @@
+id: 2729
+game_id: 7650
+game_slug: zax-the-alien-hunter
+name: 'Zax: The Alien Hunter'
+year: 2002
+user: Lulu
+runner: wine
+slug: zax-the-alien-hunter-cd
+version: CD
+description: Original CD must be inserted or No-CD patch needed because of SecuROM.
+notes: 'Set wine to: Windows 98'
+created_at: '2016-09-12T20:26:26.285145Z'
+updated_at: '2018-05-19T03:41:48.234376Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: drive_c/Program Files/Zax/Zax.exe
+  installer:
+  - insert-disc:
+      requires: Install Zax.exe
+  - task:
+      executable: $DISC/Install Zax.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    arch: win32

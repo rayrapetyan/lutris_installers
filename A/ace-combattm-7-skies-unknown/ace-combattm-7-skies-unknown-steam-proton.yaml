@@ -1,0 +1,25 @@
+id: 13190
+game_id: 25730
+game_slug: ace-combattm-7-skies-unknown
+name: "ACE COMBAT\u2122 7: SKIES UNKNOWN"
+year: 2019
+user: skyace65
+runner: steam
+slug: ace-combattm-7-skies-unknown-steam-proton
+version: Steam Proton
+description: null
+notes: Since this game is not officially whitelisted, you have to enable Steam Play
+  for all titles in Steam's settings prior to installation.
+created_at: '2019-04-28T14:02:27.054000Z'
+updated_at: '2019-05-19T07:11:21.005082Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 502500
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 502500

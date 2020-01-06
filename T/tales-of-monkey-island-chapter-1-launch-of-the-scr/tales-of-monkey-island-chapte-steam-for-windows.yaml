@@ -1,0 +1,24 @@
+id: 1793
+game_id: 1718
+game_slug: tales-of-monkey-island-chapter-1-launch-of-the-scr
+name: 'Tales of Monkey Island: Chapter 1 - Launch of the Screaming Narwhal'
+year: null
+user: RobLoach
+runner: winesteam
+slug: tales-of-monkey-island-chapte-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: https://appdb.winehq.org/objectManager.php?sClass=application&iId=9981
+created_at: '2015-12-29T08:34:59.005599Z'
+updated_at: '2016-01-20T08:22:37.053239Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 31170
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 31170

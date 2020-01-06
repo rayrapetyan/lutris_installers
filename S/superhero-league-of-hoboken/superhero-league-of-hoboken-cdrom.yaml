@@ -1,0 +1,88 @@
+id: 15537
+game_id: 28315
+game_slug: superhero-league-of-hoboken
+name: Superhero League of Hoboken
+year: 1994
+user: appoloin
+runner: dosbox
+slug: superhero-league-of-hoboken-cdrom
+version: CDrom
+description: null
+notes: ''
+created_at: '2019-09-14T13:00:24.010000Z'
+updated_at: '2019-10-14T02:25:06.789825Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - execute:
+      args: $GAMEDIR/HDD $GAMEDIR/CDD  $GAMEDIR/CDD/DISC1
+      file: mkdir
+  - write_file:
+      content: '#!/bin/bash
+
+        src=$1
+
+        dst=$2
+
+        src_path=$(echo "$1" | sed -r "s/(.+)\/.+/\1/")
+
+        cp -avr "$src_path/."  "$dst"'
+      file: $CACHE/bulkcopy.sh
+  - chmodx: $CACHE/bulkcopy.sh
+  - execute:
+      args: $game $GAMEDIR/CDD/DISC1
+      file: $CACHE/bulkcopy.sh
+  - execute:
+      args: -R 775  "$GAMEDIR"
+      file: /bin/chmod
+  - write_file:
+      content: '[sdl]
+
+        sensitivity=20
+
+        [autoexec]
+
+        mount C "$GAMEDIR/HDD" -t dir
+
+        mount D "$GAMEDIR/CDD/DISC1" -t cdrom
+
+        C:
+
+        cd HOBOKEN
+
+        SLH.EXE
+
+        exit'
+      file: $GAMEDIR/hoboken.conf
+  - write_file:
+      content: '[sdl]
+
+        sensitivity=20
+
+        [autoexec]
+
+        mount C "$GAMEDIR/HDD" -t dir
+
+        mount D "$GAMEDIR/CDD/DISC1" -t cdrom
+
+        D:
+
+        install
+
+        exit'
+      file: $GAMEDIR/hoboken-setup.conf
+  - task:
+      config_file: $GAMEDIR/hoboken-setup.conf
+      working_dir: $GAMEDIR/HDD
+      name: dosexec
+  files:
+  - game: N/A:Select the file Install.bat
+  game:
+    main_file: $GAMEDIR/hoboken.conf

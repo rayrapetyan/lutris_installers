@@ -1,0 +1,35 @@
+id: 13038
+game_id: 26952
+game_slug: love-witches
+name: Love Witches
+year: 2018
+user: kimchitea
+runner: linux
+slug: love-witches-nutaku
+version: Nutaku
+description: null
+notes: ''
+created_at: '2019-04-22T20:50:08.646000Z'
+updated_at: '2019-04-23T03:54:41.087801Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: LoveWitches.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - extract:
+      dst: $GAMEDIR
+      file: $CACHE/LoveWitches-1.0-pc (1).zip
+  - chmodx: $GAMEDIR/LoveWitches.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/LoveWitches
+  - chmodx: $GAMEDIR/lib/linux-x86_64/LoveWitches
+  files:
+  - file1: N/A:Please select the Nutaku archive

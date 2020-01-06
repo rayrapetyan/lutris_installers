@@ -1,0 +1,17 @@
+name: Quintet
+slug: quintet
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Space flight
+- name: Space simulation
+aliases: []
+banner_url: /games/banner/quintet.jpg
+icon_url: /games/icon/quintet.png
+is_public: true
+updated: '2019-01-23T08:30:53.418206Z'
+steamid: 340350
+gogslug: ''
+humblestoreid: ''

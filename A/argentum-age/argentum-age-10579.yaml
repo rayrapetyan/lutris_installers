@@ -1,0 +1,32 @@
+id: 5943
+game_id: 14242
+game_slug: argentum-age
+name: Argentum Age
+year: 2017
+user: predator8bit
+runner: linux
+slug: argentum-age-10579
+version: 1.0.579
+description: null
+notes: ''
+created_at: '2017-10-12T21:48:40.171000Z'
+updated_at: '2018-01-11T20:18:44.859314Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  system:
+    disable_runtime: true
+  installer:
+  - extract:
+      format: bz2
+      dst: $GAMEDIR
+      file: argentum-age
+  exe: run.sh
+  files:
+  - argentum-age: http://theargentlark.com/files/argentum-age.tar.bz2

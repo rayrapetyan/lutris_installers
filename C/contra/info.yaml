@@ -1,0 +1,15 @@
+name: Contra
+slug: contra
+year: 1988
+platforms:
+- name: NES
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/contra.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:57.823421Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

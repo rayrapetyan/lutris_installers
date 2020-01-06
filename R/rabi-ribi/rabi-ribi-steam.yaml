@@ -1,0 +1,24 @@
+id: 7644
+game_id: 6754
+game_slug: rabi-ribi
+name: Rabi-Ribi
+year: 2016
+user: Tudi20
+runner: winesteam
+slug: rabi-ribi-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-24T19:06:23.955348Z'
+updated_at: '2018-03-24T23:48:36.786336Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 400910
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 400910

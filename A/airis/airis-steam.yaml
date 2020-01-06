@@ -1,0 +1,25 @@
+id: 7243
+game_id: 11876
+game_slug: airis
+name: AIRIS
+year: 2017
+user: kimchitea
+runner: steam
+slug: airis-steam
+version: Steam
+description: null
+notes: Removed from Steam; cannot be installed unless it was in your account prior
+  to removal.
+created_at: '2018-02-05T17:41:35.180000Z'
+updated_at: '2019-04-18T04:50:14.813997Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 628610
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 628610

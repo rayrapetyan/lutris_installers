@@ -1,0 +1,15 @@
+name: Train Fever
+slug: train-fever
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Simulation
+aliases: []
+banner_url: /games/banner/train-fever.jpg
+icon_url: /games/icon/train-fever.png
+is_public: true
+updated: '2019-01-23T08:31:54.682857Z'
+steamid: 304730
+gogslug: train_fever
+humblestoreid: ''

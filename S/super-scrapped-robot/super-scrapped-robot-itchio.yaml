@@ -1,0 +1,28 @@
+id: 4417
+game_id: 11780
+game_slug: super-scrapped-robot
+name: Super Scrapped Robot
+year: 2014
+user: FakeShemp
+runner: linux
+slug: super-scrapped-robot-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-06-17T12:35:32.365446Z'
+updated_at: '2017-06-17T19:27:51.664473Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Super Scrapped Robot
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

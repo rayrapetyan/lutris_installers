@@ -1,0 +1,15 @@
+name: 'Fate/EXTELLA: The Umbral Star'
+slug: fateextella
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/fateextella.jpg
+icon_url: /games/icon/fateextella.png
+is_public: false
+updated: '2019-05-27T04:26:50.299800Z'
+steamid: 511680
+gogslug: ''
+humblestoreid: ''

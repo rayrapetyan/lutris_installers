@@ -1,0 +1,37 @@
+id: 4665
+game_id: 340
+game_slug: wallace-gromit-ep-2-the-last-resort
+name: 'Wallace & Gromit Ep 2: The Last Resort'
+year: null
+user: FakeShemp
+runner: wine
+slug: wallace-gromit-ep-2-the-last-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-27T08:32:11.965548Z'
+updated_at: '2018-05-19T03:41:54.218629Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 31110
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/WG NoDRM/WallaceGromit102_200910191741_full_nodrm.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Telltale Games/Wallace and Gromits Grand Adventures/The
+      Last Resort/WallaceGromit102.exe
+    arch: win32

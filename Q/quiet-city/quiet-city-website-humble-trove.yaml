@@ -1,0 +1,30 @@
+id: 8818
+game_id: 19422
+game_slug: quiet-city
+name: Quiet City
+year: 2017
+user: basxto
+runner: linux
+slug: quiet-city-website-humble-trove
+version: Website / Humble Trove
+description: null
+notes: ''
+created_at: '2018-06-20T18:06:37.815000Z'
+updated_at: '2018-06-21T10:32:51.161045Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      file: quiet_city_linux.zip
+  files:
+  - quiet_city_linux.zip: N/A:Select the game's zip file
+  game:
+    exe: quiet city.x86_64

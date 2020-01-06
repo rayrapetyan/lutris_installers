@@ -1,0 +1,53 @@
+id: 12997
+game_id: 13439
+game_slug: zero-escape-the-nonary-games
+name: 'Zero Escape: The Nonary Games'
+year: null
+user: talklittle
+runner: winesteam
+slug: zero-escape-the-nonary-games-steam
+version: Steam
+description: The launcher fails to start, so this script overwrites Launcher.exe with
+  either ze1.exe or ze2.exe. To switch between ZE1 and ZE2, reinstall (no need to
+  remove data).
+notes: Install the latest LAVFilters from https://github.com/Nevcairiel/LAVFilters/releases
+  (Run EXE inside wine prefix) to fix black screen video hang.
+created_at: '2019-04-21T01:34:52.847000Z'
+updated_at: '2019-04-21T07:30:43.420263Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 477740
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: dotnet46
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: quartz win7
+      name: winetricks
+  - execute:
+      command: ls Launcher.exe.orig || cp Launcher.exe Launcher.exe.orig
+      description: Backing up Launcher.exe to Launcher.exe.orig
+  - input_menu:
+      options:
+      - ze1: 999 (ze1.exe)
+      - ze2: VLR (ze2.exe)
+      description: 'Choose the game to launch:'
+      id: ZE1OR2
+      preselect: ze1
+  - execute:
+      command: cp $INPUT_ZE1OR2.exe Launcher.exe
+      description: Replacing Launcher.exe
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 477740

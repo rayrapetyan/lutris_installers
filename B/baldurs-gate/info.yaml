@@ -1,0 +1,15 @@
+name: Baldur's Gate
+slug: baldurs-gate
+year: 1998
+platforms:
+- name: Windows
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/baldurs-gate.jpg
+icon_url: /games/icon/baldurs-gate.png
+is_public: true
+updated: '2019-01-23T08:28:30.937760Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

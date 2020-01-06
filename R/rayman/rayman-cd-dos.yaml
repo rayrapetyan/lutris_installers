@@ -1,0 +1,46 @@
+id: 14867
+game_id: 28695
+game_slug: rayman
+name: Rayman
+year: 1995
+user: legluondunet
+runner: dosbox
+slug: rayman-cd-dos
+version: CD DOS
+description: "This script will install \"Rayman\" DOS CD edition for DOSBox.\r\nDuring\
+  \ install please let all options by default.\r\nBig thanks to people who gave their\
+  \ time to permit us playing this game in the best conditions."
+notes: "- You will need the CD only one time during install\r\n- x360 gamepad support\r\
+  \n- Please report issue concerning this script on my Github page:\r\nhttps://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2019-08-04T20:57:33.374000Z'
+updated_at: '2019-11-15T19:32:12.797566Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  custom-name: Rayman - CD DOS - DOSBox
+  installer:
+  - insert-disc:
+      requires: rayman/rayman.exe
+      description: Please insert disc 1
+  - extract:
+      src: cdrtools
+      dst: $GAMEDIR
+  - chmodx: script
+  - execute:
+      args: rayman
+      file: script
+  - copy:
+      src: conf
+      dst: $GAMEDIR
+  files:
+  - cdrtools: https://github.com/legluondunet/mlls-tools/raw/master/cdrtools/cdrtools.zip
+  - script: https://github.com/legluondunet/mlls-tools/raw/master/scripts/copycd.sh
+  - conf: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Rayman/rayman_dosbox.conf
+  game:
+    main_file: $GAMEDIR/rayman_dosbox.conf

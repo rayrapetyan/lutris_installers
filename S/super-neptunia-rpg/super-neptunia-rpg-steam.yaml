@@ -1,0 +1,26 @@
+id: 17231
+game_id: 28505
+game_slug: super-neptunia-rpg
+name: Super Neptunia RPG
+year: 2019
+user: packof14eggies
+runner: steam
+slug: super-neptunia-rpg-steam
+version: Steam
+description: null
+notes: "The game will blackscreen when starting. To fix this, the Media Foundation\
+  \ codecs should be installed using a tool such as:\r\nhttps://github.com/z0z0z/mf-install\r\
+  \nOnce installed, the game runs flawlessly."
+created_at: '2019-12-08T08:18:07.967643Z'
+updated_at: '2019-12-19T17:53:14.790864Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 1016960
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 1016960

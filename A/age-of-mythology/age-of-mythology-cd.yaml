@@ -1,0 +1,38 @@
+id: 943
+game_id: 3253
+game_slug: age-of-mythology
+name: Age of Mythology
+year: 2002
+user: Xodetaetl
+runner: wine
+slug: age-of-mythology-cd
+version: CD
+description: 'Note: select the normal installation not the "Express install".'
+notes: ''
+created_at: '2014-10-25T13:36:59.311000Z'
+updated_at: '2018-05-19T03:41:48.067651Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: drive_c/Program Files/Microsoft Games/Age of Mythology/aom.exe
+  installer:
+  - insert-disc:
+      requires: aom/aom.exe
+  - task:
+      prefix: $GAMEDIR
+      app: mfc42
+      silent: true
+      name: winetricks
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    arch: win32

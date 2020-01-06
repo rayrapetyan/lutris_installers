@@ -1,0 +1,18 @@
+name: Life is Strange 2
+slug: life-is-strange-2
+year: null
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Casual
+aliases: []
+banner_url: /games/banner/life-is-strange-2.jpg
+icon_url: /games/icon/life-is-strange-2.png
+is_public: true
+updated: '2019-12-17T20:45:08.726113Z'
+steamid: 532210
+gogslug: ''
+humblestoreid: ''

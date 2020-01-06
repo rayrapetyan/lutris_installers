@@ -1,0 +1,28 @@
+id: 16506
+game_id: 27070
+game_slug: reality-2017
+name: "\uFF1C/reality\uFF1E (2017)"
+year: 2017
+user: FakeShemp
+runner: linux
+slug: reality-2017-itchio
+version: itch.io
+description: Installer also works on the demo.
+notes: ''
+created_at: '2019-10-31T14:53:44.719000Z'
+updated_at: '2019-10-31T22:07:01.120135Z'
+draft: false
+published: true
+published_by: 1465
+rating: ''
+steamid: 562280
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: reality.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

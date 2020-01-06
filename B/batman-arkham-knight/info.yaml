@@ -1,0 +1,16 @@
+name: 'Batman: Arkham Knight'
+slug: batman-arkham-knight
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/batman-arkham-knight.jpg
+icon_url: /games/icon/batman-arkham-knight.png
+is_public: true
+updated: '2019-01-23T08:28:32.127550Z'
+steamid: 208650
+gogslug: ''
+humblestoreid: ''

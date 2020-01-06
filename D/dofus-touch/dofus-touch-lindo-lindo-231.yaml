@@ -1,0 +1,30 @@
+id: 8522
+game_id: 19033
+game_slug: dofus-touch
+name: DOFUS Touch (Lindo)
+year: 2016
+user: Leeo97one
+runner: linux
+slug: dofus-touch-lindo-lindo-231
+version: Lindo 2.3.1
+description: Lindo allow you to play DofusTouch without android emulator, it's entirely
+  coded in javascript via electron & angular. Lindo is totally corss-platform.https://github.com/prixe/lindo
+notes: ''
+created_at: '2018-06-03T13:34:00.588000Z'
+updated_at: '2019-10-27T08:49:11.496131Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      src: targz
+  files:
+  - targz: https://github.com/prixe/lindo/releases/download/v2.3.1/lindo-2.3.1.tar.gz
+  game:
+    exe: Lindo

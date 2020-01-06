@@ -1,0 +1,17 @@
+name: Minecraft - Feed the Beast
+slug: minecraft-feed-the-beast
+year: 2012
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Sandbox
+- name: Survival
+aliases: []
+banner_url: /games/banner/minecraft-feed-the-beast.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:23.955209Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

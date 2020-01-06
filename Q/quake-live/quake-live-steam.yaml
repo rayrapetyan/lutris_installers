@@ -1,0 +1,31 @@
+id: 956
+game_id: 3147
+game_slug: quake-live
+name: Quake Live
+year: 2010
+user: RobLoach
+runner: winesteam
+slug: quake-live-steam
+version: steam
+description: null
+notes: ''
+created_at: '2014-10-28T17:44:03.311000Z'
+updated_at: '2019-03-01T16:36:15.009225Z'
+draft: false
+published: true
+published_by: 68872
+rating: '5'
+steamid: 282440
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    esync: true
+  system:
+    disable_compositor: 'true'
+    env:
+      __GL_THREADED_OPTIMIZATIONS: '1'
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+  game:
+    appid: 282440

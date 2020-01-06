@@ -1,0 +1,24 @@
+id: 2609
+game_id: 4962
+game_slug: the-beginners-guide
+name: The Beginner's Guide
+year: 2015
+user: gschaffran
+runner: steam
+slug: the-beginners-guide-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-08-27T11:53:27.715146Z'
+updated_at: '2016-09-08T17:22:44.617313Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 303210
+gogid: null
+gogslug: ''
+humblestoreid: the-beginners-guide
+script:
+  game:
+    appid: 303210

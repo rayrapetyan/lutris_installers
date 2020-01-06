@@ -1,0 +1,24 @@
+id: 16180
+game_id: 19494
+game_slug: the-mummy-demastered
+name: The Mummy Demastered
+year: 2017
+user: cxf
+runner: steam
+slug: the-mummy-demastered-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-10-14T03:31:33.316203Z'
+updated_at: '2019-10-14T03:31:37.293400Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 630310
+gogid: 1839071992
+gogslug: the_mummy_demastered
+humblestoreid: ''
+script:
+  game:
+    appid: 630310

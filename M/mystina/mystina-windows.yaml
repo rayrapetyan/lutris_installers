@@ -1,0 +1,57 @@
+id: 12417
+game_id: 26293
+game_slug: mystina
+name: Mystina
+year: 2002
+user: iHad169
+runner: wine
+slug: mystina-windows
+version: Windows
+description: http://mo.lager.com.tw/intro/a_Story/Story-Page01.shtml
+notes: Please Install default Location on Game Installer
+created_at: '2019-03-18T15:59:52.282000Z'
+updated_at: '2019-03-21T01:23:10.510877Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Lager/Mystina/login.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Setting up wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing CJK Fonts for proper Asian font display
+      app: cjkfonts
+      arch: win32
+      name: winetricks
+  - merge:
+      src: installer
+      dst: $GAMEDIR/drive_c/Lager/Mystina/
+  - task:
+      executable: $GAMEDIR/drive_c/Lager/Mystina/Mystina_20110530.exe
+      description: 'Installing Mystina...
+
+        PLEASE close the game after it opens to finish installation!'
+      arch: win32
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  wine:
+    version: tkg-protonified-4.1-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - installer: http://files.lager.com.tw/mo/Mystina_20110530.exe

@@ -1,0 +1,28 @@
+id: 7757
+game_id: 17735
+game_slug: sailaway-the-sailing-simulator
+name: Sailaway - The Sailing Simulator
+year: 2018
+user: TuiorGames
+runner: winesteam
+slug: sailaway-the-sailing-simulato-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-04-03T22:17:19.245000Z'
+updated_at: '2018-07-10T03:39:38.069187Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 552920
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-3.12-x86_64
+    Desktop: true
+  game:
+    appid: 552920
+    arch: win64

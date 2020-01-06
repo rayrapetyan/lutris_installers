@@ -1,0 +1,44 @@
+id: 17017
+game_id: 29583
+game_slug: rugby-06
+name: Rugby 06
+year: 2006
+user: J2Three
+runner: wine
+slug: rugby-06-retail-cd-windows
+version: Retail CD; Windows
+description: null
+notes: ''
+created_at: '2019-11-26T14:23:57.814514Z'
+updated_at: '2019-11-26T14:23:57.814544Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: setup.exe
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  - move:
+      src: file_id
+      dst: $GAMEDIR
+  - move:
+      src: file_id
+      dst: $GAMEDIR
+  files:
+  - file_id: N/A:Select the game's setup file
+  - unredistribuable_file: N/A
+  - prefix: $GAMEDIR/prefix
+    exe: drive_c/Program Files (x86)/EA SPORTS/EA SPORTS Rugby 06/rugby06.exe
+    arch: win64
+    args: -arg
+    working_dir: $GAMEDIR/prefix
+    game: null

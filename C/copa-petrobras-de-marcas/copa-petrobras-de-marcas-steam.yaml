@@ -1,0 +1,24 @@
+id: 4216
+game_id: 4155
+game_slug: copa-petrobras-de-marcas
+name: Copa Petrobras de Marcas
+year: 2014
+user: Orn
+runner: winesteam
+slug: copa-petrobras-de-marcas-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-06-08T15:07:39.845000Z'
+updated_at: '2017-06-11T00:14:59.199968Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 359800
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 359800

@@ -1,0 +1,49 @@
+id: 17390
+game_id: 2052
+game_slug: flatout-2
+name: FlatOut 2
+year: 2006
+user: Eisi
+runner: wine
+slug: flatout-2-gog-windows
+version: GOG Windows
+description: null
+notes: There might be an error during the installation process but the game should
+  still work
+created_at: '2019-12-17T12:39:34.304000Z'
+updated_at: '2019-12-23T19:37:46.457702Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 2990
+gogid: 1207660523
+gogslug: flatout_2
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/GOG Games/FlatOut 2/FlatOut2.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      install_mono: false
+      install_gecko: false
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: d3dx9_30
+      arch: win32
+      name: winetricks
+  wine:
+    version: ge-protonified-4.9-x86_64
+    dxvk: true
+  files:
+  - installer: N/A:Please select the GOG.com Windows installer

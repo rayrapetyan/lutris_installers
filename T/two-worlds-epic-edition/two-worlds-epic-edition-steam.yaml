@@ -1,0 +1,24 @@
+id: 2262
+game_id: 1628
+game_slug: two-worlds-epic-edition
+name: 'Two Worlds: Epic Edition'
+year: 2007
+user: s1ns3nt
+runner: steam
+slug: two-worlds-epic-edition-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-07-05T23:47:56.818975Z'
+updated_at: '2016-07-06T05:33:38.956286Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 1930
+gogid: 1207658861
+gogslug: two_worlds
+humblestoreid: ''
+script:
+  game:
+    appid: 1930

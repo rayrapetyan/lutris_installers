@@ -1,0 +1,24 @@
+id: 3865
+game_id: 2611
+game_slug: nba-2k13
+name: NBA 2K13
+year: null
+user: rensch77
+runner: winesteam
+slug: nba-2k13-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-05-25T08:44:07.987317Z'
+updated_at: '2017-05-27T21:16:18.742786Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 219600
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 219600

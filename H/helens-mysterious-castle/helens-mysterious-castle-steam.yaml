@@ -1,0 +1,29 @@
+id: 9579
+game_id: 11490
+game_slug: helens-mysterious-castle
+name: Helen's Mysterious Castle
+year: null
+user: sunderkeenin
+runner: winesteam
+slug: helens-mysterious-castle-steam
+version: Steam
+description: null
+notes: "game crashes upon fullscreen with no wine desktop\r\nfullscreen does not scale\
+  \ the game\r\nwithout wine desktop the game will crash *if you try to fullscreen*\
+  \ and set your resolution to 640x480"
+created_at: '2018-08-04T14:15:53.683940Z'
+updated_at: '2018-08-06T06:01:25.681385Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 418190
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    WineDesktop: 720x576
+    Desktop: true
+  game:
+    appid: '418190'

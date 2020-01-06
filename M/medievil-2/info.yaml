@@ -1,0 +1,17 @@
+name: MediEvil 2
+slug: medievil-2
+year: 2000
+platforms:
+- name: Sony PlayStation
+genres:
+- name: Action
+- name: Adventure
+- name: Beat'em up
+aliases: []
+banner_url: /games/banner/medievil-2.jpg
+icon_url: null
+is_public: true
+updated: '2019-11-01T23:23:51.943430Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

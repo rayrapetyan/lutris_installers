@@ -1,0 +1,17 @@
+name: Hedgewars
+slug: hedgewars
+year: 2006
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Artillery
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/hedgewars.jpg
+icon_url: /games/icon/hedgewars.png
+is_public: true
+updated: '2020-01-06T03:04:41.768626Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

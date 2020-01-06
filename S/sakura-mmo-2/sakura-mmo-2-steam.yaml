@@ -1,0 +1,24 @@
+id: 12141
+game_id: 25652
+game_slug: sakura-mmo-2
+name: Sakura MMO 2
+year: null
+user: Gonleef
+runner: steam
+slug: sakura-mmo-2-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-02-23T12:55:48.408307Z'
+updated_at: '2019-04-05T06:32:42.748438Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 968950
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 968950

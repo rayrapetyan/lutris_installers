@@ -1,0 +1,24 @@
+id: 130
+game_id: 289
+game_slug: anomaly-warzone-earth
+name: Anomaly Warzone Earth
+year: 2011
+user: Ilya
+runner: steam
+slug: anomaly-warzone-earth-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2013-12-19T19:14:28.075000Z'
+updated_at: '2013-12-19T21:21:40.818000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 91200
+gogid: 1207659035
+gogslug: anomaly_warzone_earth
+humblestoreid: ''
+script:
+  game:
+    appid: 91200

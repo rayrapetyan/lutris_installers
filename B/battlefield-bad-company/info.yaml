@@ -1,0 +1,17 @@
+name: 'Battlefield: Bad Company'
+slug: battlefield-bad-company
+year: 2008
+platforms:
+- name: Sony Playstation 3
+genres:
+- name: Action
+- name: FPS
+- name: Shooter
+aliases: []
+banner_url: /games/banner/battlefield-bad-company.jpg
+icon_url: null
+is_public: true
+updated: '2019-09-11T17:29:21.574724Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

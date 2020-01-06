@@ -1,0 +1,18 @@
+name: Montezuma's Revenge
+slug: montezumas-revenge
+year: 1983
+platforms:
+- name: Atari 2600
+- name: Atari 5200
+- name: Colecovision
+- name: Commodore 64
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/montezumas-revenge.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:26.241282Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

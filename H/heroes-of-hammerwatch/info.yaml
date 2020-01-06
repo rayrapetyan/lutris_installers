@@ -1,0 +1,16 @@
+name: Heroes of Hammerwatch
+slug: heroes-of-hammerwatch
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Hack and slash
+- name: Roguelike
+aliases: []
+banner_url: /games/banner/heroes-of-hammerwatch.jpg
+icon_url: /games/icon/heroes-of-hammerwatch.png
+is_public: true
+updated: '2019-01-23T08:29:49.376243Z'
+steamid: 677120
+gogslug: heroes_of_hammerwatch
+humblestoreid: ''

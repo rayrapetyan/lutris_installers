@@ -1,0 +1,16 @@
+name: Riven
+slug: riven
+year: 1997
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/riven.jpg
+icon_url: /games/icon/riven.png
+is_public: true
+updated: '2019-01-23T08:31:01.864298Z'
+steamid: 63610
+gogslug: ''
+humblestoreid: ''

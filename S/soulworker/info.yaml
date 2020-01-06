@@ -1,0 +1,16 @@
+name: SoulWorker
+slug: soulworker
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: MMORPG
+aliases: []
+banner_url: /games/banner/soulworker.jpg
+icon_url: /games/icon/soulworker.png
+is_public: true
+updated: '2019-04-01T02:10:42.115276Z'
+steamid: 630100
+gogslug: ''
+humblestoreid: ''

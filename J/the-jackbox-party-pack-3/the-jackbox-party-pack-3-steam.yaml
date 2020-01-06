@@ -1,0 +1,24 @@
+id: 11232
+game_id: 10486
+game_slug: the-jackbox-party-pack-3
+name: The Jackbox Party Pack 3
+year: 2016
+user: ttpcodes
+runner: steam
+slug: the-jackbox-party-pack-3-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-12-16T00:04:11.685310Z'
+updated_at: '2018-12-19T07:32:05.371278Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 434170
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 434170

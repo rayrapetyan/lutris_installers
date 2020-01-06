@@ -1,0 +1,16 @@
+name: Cook, Serve, Delicious!
+slug: cook-serve-delicious
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Casual
+- name: Simulation
+aliases: []
+banner_url: /games/banner/cook-serve-delicious.jpg
+icon_url: /games/icon/cook-serve-delicious.png
+is_public: true
+updated: '2019-01-23T08:28:58.036305Z'
+steamid: 247020
+gogslug: cook_serve_delicious
+humblestoreid: ''

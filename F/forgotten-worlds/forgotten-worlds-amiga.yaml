@@ -1,0 +1,37 @@
+id: 1813
+game_id: 8
+game_slug: forgotten-worlds
+name: Forgotten Worlds
+year: 1988
+user: strider
+runner: fsuae
+slug: forgotten-worlds-amiga
+version: Amiga
+description: ''
+notes: ''
+created_at: '2016-01-01T09:34:58.638008Z'
+updated_at: '2016-01-01T09:35:24.528207Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: disc1
+  installer:
+  - merge:
+      src: disc1
+      dst: $GAMEDIR
+  - merge:
+      src: disc2
+      dst: $GAMEDIR
+  files:
+  - disc1: N/A:Select disc 1
+  - disc2: N/A:Select disc 2
+  game:
+    disks:
+    - disc1
+    - disc2

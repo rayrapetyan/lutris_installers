@@ -1,0 +1,31 @@
+id: 6217
+game_id: 14523
+game_slug: bishi-bashi-special
+name: Bishi Bashi Special
+year: 1998
+user: FakeShemp
+runner: libretro
+slug: bishi-bashi-special-playstation
+version: PlayStation
+description: ''
+notes: ''
+created_at: '2017-11-01T19:25:01.755873Z'
+updated_at: '2017-11-01T19:28:32.180604Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the PlayStation image file
+  game:
+    core: mednafen_psx_hw
+    main_file: file1

@@ -1,0 +1,45 @@
+id: 4461
+game_id: 293
+game_slug: shatter
+name: Shatter
+year: 2009
+user: FakeShemp
+runner: linux
+slug: shatter-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-18T10:19:58.942981Z'
+updated_at: '2017-06-18T23:26:07.756378Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 20820
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Shatter.bin.x86
+  installer:
+  - execute:
+      args: --tar -xf -C $CACHE
+      file: $file1
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/instarchive_linux_all
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/instarchive_all
+  - extract:
+      format: tar
+      dst: $GAMEDIR
+      file: $CACHE/instarchive_linux_all~
+  - extract:
+      format: tar
+      dst: $GAMEDIR
+      file: $CACHE/instarchive_all~
+  files:
+  - file1: N/A:Please select the Humble installer

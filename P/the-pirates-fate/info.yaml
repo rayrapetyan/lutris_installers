@@ -1,0 +1,16 @@
+name: The Pirate's Fate
+slug: the-pirates-fate
+year: 2018
+platforms:
+- name: Browser
+- name: Windows
+genres:
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/the-pirates-fate.jpg
+icon_url: /games/icon/the-pirates-fate.png
+is_public: false
+updated: '2019-01-23T08:31:45.833216Z'
+steamid: 553480
+gogslug: ''
+humblestoreid: ''

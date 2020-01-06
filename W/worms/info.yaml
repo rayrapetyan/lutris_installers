@@ -1,0 +1,23 @@
+name: Worms
+slug: worms
+year: 1995
+platforms:
+- name: Amiga
+- name: Atari Jaguar
+- name: Game Boy
+- name: MS-DOS
+- name: Sega Genesis / Mega Drive
+- name: Sega Saturn
+- name: Sony PlayStation
+- name: Super Nintendo
+genres:
+- name: Artillery
+- name: Turn-based tactics
+aliases: []
+banner_url: /games/banner/worms.jpg
+icon_url: /games/icon/worms.png
+is_public: true
+updated: '2019-02-23T02:01:05.052987Z'
+steamid: 70640
+gogslug: worms_united
+humblestoreid: ''

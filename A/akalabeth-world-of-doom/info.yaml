@@ -1,0 +1,15 @@
+name: 'Akalabeth: World of Doom'
+slug: akalabeth-world-of-doom
+year: 1979
+platforms:
+- name: Linux
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/akalabeth-world-of-doom.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:17.359864Z'
+steamid: null
+gogslug: akalabeth_world_of_doom
+humblestoreid: ''

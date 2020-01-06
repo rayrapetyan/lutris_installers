@@ -1,0 +1,16 @@
+name: Braveland
+slug: braveland
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/braveland.jpg
+icon_url: /games/icon/braveland.png
+is_public: true
+updated: '2019-01-23T08:28:41.373965Z'
+steamid: 285800
+gogslug: braveland
+humblestoreid: ''

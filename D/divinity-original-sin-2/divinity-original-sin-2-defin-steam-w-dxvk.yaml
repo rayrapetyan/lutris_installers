@@ -1,0 +1,47 @@
+id: 8743
+game_id: 8935
+game_slug: divinity-original-sin-2
+name: 'Divinity: Original Sin 2 - Definitive Edition'
+year: 2016
+user: cxf
+runner: winesteam
+slug: divinity-original-sin-2-defin-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: Virtual desktop required. To change the resolution right-click D:OS2 > Configure
+  > Runner options > Virtual desktop resolution
+created_at: '2018-06-15T23:45:33.074000Z'
+updated_at: '2019-02-14T05:51:40.243303Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 435150
+gogid: 1584823040
+gogslug: divinity_original_sin_2
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: dotnet472
+      arch: win64
+      name: winetricks
+  winesteam:
+    version: tkg-4.0-x86_64
+    WineDesktop: 1920x1080
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+    Desktop: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 435150
+    arch: win64

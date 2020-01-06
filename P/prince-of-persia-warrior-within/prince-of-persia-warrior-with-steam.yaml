@@ -1,0 +1,25 @@
+id: 5900
+game_id: 400
+game_slug: prince-of-persia-warrior-within
+name: 'Prince of Persia: Warrior Within'
+year: null
+user: king_dick
+runner: winesteam
+slug: prince-of-persia-warrior-with-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-10-05T07:02:55.494404Z'
+updated_at: '2017-10-19T04:57:57.493261Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 13500
+gogid: 1207659082
+gogslug: prince_of_persia_warrior_within
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 13500

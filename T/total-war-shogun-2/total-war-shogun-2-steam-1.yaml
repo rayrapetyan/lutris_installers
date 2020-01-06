@@ -1,0 +1,24 @@
+id: 3876
+game_id: 613
+game_slug: total-war-shogun-2
+name: 'Total War: SHOGUN 2'
+year: 2011
+user: FakeShemp
+runner: steam
+slug: total-war-shogun-2-steam-1
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-05-25T09:47:35.923245Z'
+updated_at: '2017-05-27T21:16:40.647563Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 34330
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 34330

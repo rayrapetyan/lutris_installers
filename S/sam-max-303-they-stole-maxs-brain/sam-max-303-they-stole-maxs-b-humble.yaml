@@ -1,0 +1,37 @@
+id: 4599
+game_id: 200
+game_slug: sam-max-303-they-stole-maxs-brain
+name: 'Sam & Max 303: They Stole Max''s Brain!'
+year: null
+user: FakeShemp
+runner: wine
+slug: sam-max-303-they-stole-maxs-b-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-25T13:24:14.378319Z'
+updated_at: '2018-05-19T03:41:53.064552Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 31240
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/SamMax303_v02.06_full.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Telltale Games/Sam and Max - The Devil's Playhouse/They
+      Stole Max's Brain!/SamMax303.exe
+    arch: win32

@@ -1,0 +1,67 @@
+id: 8852
+game_id: 14730
+game_slug: nba-2k18
+name: NBA 2K18
+year: 2017
+user: tgm4883
+runner: winesteam
+slug: nba-2k18-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-21T23:32:16.976000Z'
+updated_at: '2019-02-16T03:59:38.962501Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 577800
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE/dxsetup
+      file: dx2010
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR/prefix
+      args: /silent
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: winekill
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2010 vcrun2012
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: dsound win7
+      arch: win64
+      name: winetricks
+  winesteam:
+    version: tkg-4.0-x86_64
+    x360ce-path: $GAMEDIR
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+    x360ce-xinput9: true
+  system:
+    env:
+      DXVK_HUD: 0
+    pulse_latency: true
+  files:
+  - dx2010: https://lutris.net/files/tools/directx-2010.tar.gz
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 577800
+    arch: win64

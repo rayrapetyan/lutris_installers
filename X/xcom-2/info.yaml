@@ -1,0 +1,15 @@
+name: XCOM 2
+slug: xcom-2
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Turn-based tactics
+aliases: []
+banner_url: /games/banner/xcom-2.jpg
+icon_url: /games/icon/xcom-2.png
+is_public: true
+updated: '2019-01-23T08:32:12.031420Z'
+steamid: 268500
+gogslug: ''
+humblestoreid: ''

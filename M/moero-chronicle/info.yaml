@@ -1,0 +1,16 @@
+name: Moero Chronicle
+slug: moero-chronicle
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Dungeon crawl
+- name: RPG
+aliases: []
+banner_url: /games/banner/moero-chronicle.jpg
+icon_url: /games/icon/moero-chronicle.png
+is_public: true
+updated: '2019-11-01T23:08:38.395548Z'
+steamid: 638160
+gogslug: ''
+humblestoreid: ''

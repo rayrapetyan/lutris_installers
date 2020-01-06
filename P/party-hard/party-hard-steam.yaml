@@ -1,0 +1,24 @@
+id: 3476
+game_id: 5333
+game_slug: party-hard
+name: Party Hard
+year: null
+user: liberodark
+runner: steam
+slug: party-hard-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-04-01T10:24:09.084310Z'
+updated_at: '2017-04-02T23:48:09.404268Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 356570
+gogid: 1236689966
+gogslug: party_hard
+humblestoreid: ''
+script:
+  game:
+    appid: 356570

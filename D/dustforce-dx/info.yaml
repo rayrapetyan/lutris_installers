@@ -1,0 +1,17 @@
+name: Dustforce DX
+slug: dustforce-dx
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Arcade
+- name: Platformer
+aliases: []
+banner_url: /games/banner/dustforce-dx.jpg
+icon_url: /games/icon/dustforce-dx.png
+is_public: true
+updated: '2019-03-30T00:05:11.603702Z'
+steamid: 65300
+gogslug: dustforce_dx
+humblestoreid: ''

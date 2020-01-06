@@ -1,0 +1,16 @@
+name: Wasteland 2
+slug: wasteland-2
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: RPG
+- name: Turn-based tactics
+aliases: []
+banner_url: /games/banner/wasteland-2.jpg
+icon_url: /games/icon/wasteland-2.png
+is_public: true
+updated: '2019-01-23T08:32:06.775377Z'
+steamid: 240760
+gogslug: wasteland_2_directors_cut_digital_classic_edition
+humblestoreid: wasteland-2-directors-cut-classic-edition

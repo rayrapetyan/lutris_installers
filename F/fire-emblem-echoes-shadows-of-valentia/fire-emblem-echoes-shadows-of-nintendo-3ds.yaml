@@ -1,0 +1,31 @@
+id: 13071
+game_id: 26090
+game_slug: fire-emblem-echoes-shadows-of-valentia
+name: 'Fire Emblem Echoes : Shadows of Valentia'
+year: 2017
+user: h313
+runner: libretro
+slug: fire-emblem-echoes-shadows-of-nintendo-3ds
+version: Nintendo 3DS
+description: runs with libretro citra
+notes: ''
+created_at: '2019-04-24T05:37:39.804550Z'
+updated_at: '2019-04-24T05:55:23.539351Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: rom
+      dst: $GAMEDIR
+  files:
+  - rom: N/A:Select the game's ROM file
+  game:
+    core: citra
+    main_file: rom

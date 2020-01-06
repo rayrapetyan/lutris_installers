@@ -1,0 +1,17 @@
+name: Tomb Raider II
+slug: tomb-raider-ii
+year: 1997
+platforms:
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/tomb-raider-ii.jpg
+icon_url: /games/icon/tomb-raider-ii.png
+is_public: true
+updated: '2019-09-24T23:47:35.627470Z'
+steamid: 225300
+gogslug: tomb_raider_123
+humblestoreid: ''

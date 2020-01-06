@@ -1,0 +1,16 @@
+name: "LEGO\xAE MARVEL's Avengers"
+slug: lego-marvels-avengers
+year: 2016
+platforms:
+- name: Nintendo 3DS
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/lego-marvels-avengers.jpg
+icon_url: /games/icon/lego-marvels-avengers.png
+is_public: true
+updated: '2019-04-25T04:39:40.319593Z'
+steamid: 405310
+gogslug: ''
+humblestoreid: ''

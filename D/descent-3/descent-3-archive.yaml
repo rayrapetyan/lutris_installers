@@ -1,0 +1,29 @@
+id: 2301
+game_id: 3457
+game_slug: descent-3
+name: Descent 3
+year: 1999
+user: strider
+runner: linux
+slug: descent-3-archive
+version: Archive
+description: ''
+notes: ''
+created_at: '2016-07-16T02:09:23.227638Z'
+updated_at: '2016-07-16T02:09:28.695459Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 273590
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: descent3
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: archive
+  files:
+  - archive: N/A:Please provide the archive containing Descent 3

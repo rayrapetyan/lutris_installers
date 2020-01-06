@@ -1,0 +1,19 @@
+name: FreeTrain
+slug: freetrain
+year: 2007
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: City building
+- name: Construction
+- name: Management
+- name: Sandbox
+aliases: []
+banner_url: /games/banner/freetrain.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:35.302256Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

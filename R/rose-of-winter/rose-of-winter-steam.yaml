@@ -1,0 +1,24 @@
+id: 8772
+game_id: 16016
+game_slug: rose-of-winter
+name: Rose of Winter
+year: 2016
+user: kimchitea
+runner: steam
+slug: rose-of-winter-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-17T19:58:11.882771Z'
+updated_at: '2018-06-18T05:23:22.490531Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 540880
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 540880

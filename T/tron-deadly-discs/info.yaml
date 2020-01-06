@@ -1,0 +1,17 @@
+name: 'Tron: Deadly Discs'
+slug: tron-deadly-discs
+year: 1982
+platforms:
+- name: Aquarius
+- name: Atari 2600
+- name: Intellivision
+genres:
+- name: Shooter
+aliases: []
+banner_url: /games/banner/tron-deadly-discs.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-21T21:12:53.831101Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

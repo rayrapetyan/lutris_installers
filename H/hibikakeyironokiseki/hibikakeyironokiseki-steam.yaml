@@ -1,0 +1,24 @@
+id: 7273
+game_id: 16430
+game_slug: hibikakeyironokiseki
+name: "HIBIKAKEYIRONOKISEKI / \u88C2\u8272\u7684\u5947\u8FF9"
+year: 2017
+user: t-rex91
+runner: steam
+slug: hibikakeyironokiseki-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-02-08T20:25:55.737612Z'
+updated_at: '2018-02-09T00:13:01.369270Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 759970
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 759970

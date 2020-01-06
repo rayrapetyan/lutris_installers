@@ -1,0 +1,28 @@
+id: 4916
+game_id: 3677
+game_slug: lucky-rabbit-reflex
+name: Lucky Rabbit Reflex!
+year: 2011
+user: FakeShemp
+runner: linux
+slug: lucky-rabbit-reflex-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-08T14:05:31.157364Z'
+updated_at: '2017-07-09T20:13:20.128323Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 404030
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: LRR-v1.13.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive

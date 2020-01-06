@@ -1,0 +1,30 @@
+id: 1376
+game_id: 3991
+game_slug: virtual-jay-peak
+name: Virtual Jay Peak
+year: 2002
+user: Xodetaetl
+runner: linux
+slug: virtual-jay-peak-linux
+version: Linux
+description: ''
+notes: No sound
+created_at: '2015-03-09T11:03:28.508000Z'
+updated_at: '2016-08-29T01:53:32.923137Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: game
+  files:
+  - game: https://lutris.net/files/games/virtual-jay-peak/virtual_jay_peak_linux_1_1a.tar.gz
+  game:
+    args: DefaultMountain=Jay_Peak OGLModeIndex=8
+    exe: $GAMEDIR/soulride_static

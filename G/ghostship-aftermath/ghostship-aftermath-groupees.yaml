@@ -1,0 +1,39 @@
+id: 5598
+game_id: 2128
+game_slug: ghostship-aftermath
+name: Ghostship Aftermath
+year: null
+user: FakeShemp
+runner: wine
+slug: ghostship-aftermath-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-05T09:52:47.357000Z'
+updated_at: '2017-09-05T10:25:34.963605Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 280890
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      prefix: $GAMEDIR
+      app: dotnet40
+      name: winetricks
+  - task:
+      executable: $CACHE/AftermathAv2.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/UDK/GhostshipAmAlph2/Binaries/Win32/UDK.exe

@@ -1,0 +1,24 @@
+id: 1544
+game_id: 4313
+game_slug: starcrawlers
+name: StarCrawlers
+year: 2017
+user: Xodetaetl
+runner: steam
+slug: starcrawlers-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-05-19T16:05:26.946000Z'
+updated_at: '2015-06-01T17:41:29.199000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 318970
+gogid: 1432039876
+gogslug: starcrawlers
+humblestoreid: ''
+script:
+  game:
+    appid: 318970

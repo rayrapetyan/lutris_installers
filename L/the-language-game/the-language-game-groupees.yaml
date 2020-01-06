@@ -1,0 +1,37 @@
+id: 5276
+game_id: 6832
+game_slug: the-language-game
+name: The Language Game
+year: null
+user: FakeShemp
+runner: wine
+slug: the-language-game-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-05T15:06:29.447000Z'
+updated_at: '2018-05-19T03:41:58.085429Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 372720
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/setup.exe
+      prefix: $GAMEDIR
+      args: /sp- /silent /norestart
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/The Language Game/Bin/Lingo.exe
+    arch: win32

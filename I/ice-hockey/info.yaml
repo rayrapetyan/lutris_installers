@@ -1,0 +1,17 @@
+name: Ice Hockey
+slug: ice-hockey
+year: 1988
+platforms:
+- name: NES
+- name: Nintendo Wii
+- name: Nintendo Wii U
+genres:
+- name: Sports
+aliases: []
+banner_url: /games/banner/ice-hockey.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:54.270590Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,28 @@
+id: 4090
+game_id: 935
+game_slug: air-forte
+name: Air Forte
+year: 2010
+user: FakeShemp
+runner: linux
+slug: air-forte-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-04T15:27:33.873089Z'
+updated_at: '2017-06-04T22:14:47.097348Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 55020
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: AirForte
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

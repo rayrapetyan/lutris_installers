@@ -1,0 +1,84 @@
+id: 8286
+game_id: 2835
+game_slug: assetto-corsa
+name: Assetto Corsa
+year: 2014
+user: Laegnur
+runner: winesteam
+slug: assetto-corsa-dxvk
+version: DXVK
+description: null
+notes: IF the game don't run in Windows 7 mode, try to change it to Windows Vista
+  or Windows 8 in Wine Configuration
+created_at: '2018-05-14T11:38:05.034000Z'
+updated_at: '2019-02-14T04:27:59.939395Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 244210
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Creating prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing corefonts
+      app: corefonts
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2008
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2010
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2012
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2013
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: d3dx11_43
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: d3dcompiler_43
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing .NET 4.7.2 (it may take a while)
+      app: dotnet472 win7
+      arch: win64
+      name: winetricks
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+    pulse_latency: true
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 244210
+    arch: win64

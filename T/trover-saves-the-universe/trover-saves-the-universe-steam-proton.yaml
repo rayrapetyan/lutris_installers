@@ -1,0 +1,27 @@
+id: 15382
+game_id: 28613
+game_slug: trover-saves-the-universe
+name: Trover Saves the Universe
+year: 2019
+user: vanstaveren
+runner: steam
+slug: trover-saves-the-universe-steam-proton
+version: Steam Proton
+description: null
+notes: "Install Media Foundation workaround (prefix location may vary):\r\n\r\nsudo\
+  \ apt-get install git\r\n\r\ncd $HOME\r\n\r\ngit clone https://github.com/z0z0z/mf-install\r\
+  \n\r\ncd mf-install\r\n\r\nWINEPREFIX=$HOME/.local/share/Steam/steamapps/compatdata/1051200/pfx\
+  \ exec install-mf.sh"
+created_at: '2019-09-08T01:12:31.661000Z'
+updated_at: '2019-10-22T20:37:53.503580Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 1051200
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 1051200

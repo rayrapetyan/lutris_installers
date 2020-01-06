@@ -1,0 +1,57 @@
+id: 11906
+game_id: 6693
+game_slug: tom-clancys-the-division
+name: Tom Clancy's The Division
+year: 2016
+user: mrthesoulz@gmail.com
+runner: wine
+slug: tom-clancys-the-division-uplay-w-dxvk
+version: Uplay w/ DXVK
+description: null
+notes: ''
+created_at: '2019-02-07T21:05:34.056000Z'
+updated_at: '2019-03-17T01:28:46.039338Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 365590
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/Uplay.exe
+    arch: win64
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: corefonts
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2010 vcrun2012 vcrun2015
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: win10
+      name: winetricks
+  - task:
+      executable: uplay
+      prefix: $GAMEDIR
+      args: /S
+      name: wineexec
+  wine:
+    version: tkg-4.3-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      nvapi,nvapi64: disabled
+      xaudio2_7: native,builtin
+  files:
+  - uplay: https://ubistatic3-a.akamaihd.net/orbit/launcher_installer/UplayInstaller.exe

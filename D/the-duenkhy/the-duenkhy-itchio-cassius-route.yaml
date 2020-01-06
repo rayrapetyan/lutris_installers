@@ -1,0 +1,31 @@
+id: 10433
+game_id: 22083
+game_slug: the-duenkhy
+name: The Duenkhy
+year: null
+user: kimchitea
+runner: linux
+slug: the-duenkhy-itchio-cassius-route
+version: itch.io - Cassius Route Beta
+description: <a href="https://alyssaleandra.itch.io/the-duenkhy-demo">itch.io</a>
+notes: ''
+created_at: '2018-10-06T18:15:32.722308Z'
+updated_at: '2018-10-07T05:56:58.470744Z'
+draft: true
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: The Duenkhy.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/The Duenkhy.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/The Duenkhy
+  - chmodx: $GAMEDIR/lib/linux-x86_64/The Duenkhy
+  files:
+  - file1: N/A:Please select the itch.io archive

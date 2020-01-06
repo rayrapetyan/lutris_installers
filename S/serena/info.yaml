@@ -1,0 +1,15 @@
+name: Serena
+slug: serena
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/serena.jpg
+icon_url: /games/icon/serena.png
+is_public: true
+updated: '2019-01-23T08:31:09.665245Z'
+steamid: 272060
+gogslug: ''
+humblestoreid: ''

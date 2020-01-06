@@ -1,0 +1,15 @@
+name: theHunter
+slug: thehunter
+year: 2009
+platforms:
+- name: Windows
+genres:
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/thehunter.jpg
+icon_url: /games/icon/thehunter.png
+is_public: true
+updated: '2019-08-17T07:04:16.545090Z'
+steamid: 253710
+gogslug: ''
+humblestoreid: ''

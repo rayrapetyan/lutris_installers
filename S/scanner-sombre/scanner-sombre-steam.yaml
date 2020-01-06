@@ -1,0 +1,24 @@
+id: 8157
+game_id: 11750
+game_slug: scanner-sombre
+name: Scanner Sombre
+year: null
+user: soredake
+runner: winesteam
+slug: scanner-sombre-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T06:46:07.744273Z'
+updated_at: '2018-05-12T10:17:29.637161Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 475190
+gogid: 1420469009
+gogslug: scanner_sombre
+humblestoreid: ''
+script:
+  game:
+    appid: 475190

@@ -1,0 +1,25 @@
+id: 14836
+game_id: 597
+game_slug: just-cause-2
+name: Just Cause 2
+year: 2010
+user: FakeShemp
+runner: steam
+slug: just-cause-2-steam
+version: Steam
+description: null
+notes: You will need to check "Enable Steam Play for all titles" under the "Steam
+  Play" tab in your Steam settings for the game to install.
+created_at: '2019-08-02T18:48:40.895586Z'
+updated_at: '2019-08-02T18:51:11.365467Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 8190
+gogid: null
+gogslug: ''
+humblestoreid: just-cause-2
+script:
+  game:
+    appid: 8190

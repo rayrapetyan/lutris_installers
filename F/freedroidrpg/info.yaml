@@ -1,0 +1,16 @@
+name: FreedroidRPG
+slug: freedroidrpg
+year: null
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: RPG
+aliases: []
+banner_url: /games/banner/freedroidrpg.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:35.185810Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

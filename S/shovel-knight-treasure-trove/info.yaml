@@ -1,0 +1,17 @@
+name: 'Shovel Knight: Treasure Trove'
+slug: shovel-knight-treasure-trove
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Platform
+aliases:
+- slug: shovel-knight
+  name: Shovel Knight
+banner_url: /games/banner/shovel-knight-treasure-trove.jpg
+icon_url: /games/icon/shovel-knight-treasure-trove.png
+is_public: true
+updated: '2019-10-27T23:25:49.777403Z'
+steamid: 250760
+gogslug: shovel_knight
+humblestoreid: ''

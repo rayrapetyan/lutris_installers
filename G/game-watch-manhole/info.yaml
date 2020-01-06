@@ -1,0 +1,15 @@
+name: 'Game & Watch: Manhole'
+slug: game-watch-manhole
+year: 1981
+platforms:
+- name: Arcade
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/game-watch-manhole.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:37.828157Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,17 @@
+name: Ace of Spades
+slug: ace-of-spades
+year: 2012
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+- name: Shooter
+aliases: []
+banner_url: /games/banner/ace-of-spades.jpg
+icon_url: /games/icon/ace-of-spades.png
+is_public: true
+updated: '2019-01-23T08:28:10.938934Z'
+steamid: 224540
+gogslug: ''
+humblestoreid: ''

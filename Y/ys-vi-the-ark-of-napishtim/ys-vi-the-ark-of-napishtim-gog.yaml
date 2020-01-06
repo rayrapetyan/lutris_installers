@@ -1,0 +1,71 @@
+id: 13081
+game_id: 6513
+game_slug: ys-vi-the-ark-of-napishtim
+name: 'Ys VI: The Ark of Napishtim'
+year: null
+user: fate
+runner: wine
+slug: ys-vi-the-ark-of-napishtim-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-04-24T20:36:43.816000Z'
+updated_at: '2019-04-25T03:35:38.768573Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 312540
+gogid: 1429178878
+gogslug: ys_vi_the_ark_of_napishtim
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Ys VI - The Ark of Napishtim/ys6_win.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2008
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing quartz
+      app: quartz
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing amstream
+      app: amstream
+      arch: win32
+      name: winetricks
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  - task:
+      executable: lavf
+      prefix: $GAMEDIR
+      description: Install LavFilter to have movies
+      arch: win32
+      name: wineexec
+  - task:
+      executable: $GAMEDIR/drive_c/GOG Games/Ys VI - The Ark of Napishtim/config.exe
+      prefix: $GAMEDIR
+      description: Running config tool for first time launch...
+      arch: win32
+      name: wineexec
+  wine:
+    overrides:
+      winegstreamer: disabled
+  files:
+  - lavf: https://github.com/Nevcairiel/LAVFilters/releases/download/0.74.1/LAVFilters-0.74.1-Installer.exe
+  - game: N/A:Select the Ys VI installer provided by GOG.

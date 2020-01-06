@@ -1,0 +1,77 @@
+id: 16926
+game_id: 27821
+game_slug: star-wars-jedi-fallen-order
+name: 'Star Wars Jedi: Fallen Order'
+year: 2019
+user: citrusalex
+runner: wine
+slug: star-wars-jedi-fallen-order-origin
+version: Origin
+description: null
+notes: 'Please read before installing: <a href="https://github.com/lutris/lutris/wiki/Game:-Origin">https://github.com/lutris/lutris/wiki/Game:-Origin</a>'
+created_at: '2019-11-21T17:56:19.888452Z'
+updated_at: '2019-12-23T19:49:26.369304Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 1172380
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - execute:
+      command: mkdir "$GAMEDIR/nv-shaders"
+  - write_file:
+      content: dxgi.nvapiHack = False
+      file: $GAMEDIR/dxvk.conf
+  - chmodx: updater
+  - merge:
+      src: updater
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Origin
+  - task:
+      prefix: $GAMEDIR
+      app: nocrashdialog arial vcrun2010 vcrun2013 win7 d3dcompiler_43 d3dcompiler_47
+        d3dx9
+      arch: win64
+      name: winetricks
+  - task:
+      executable: client
+      prefix: $GAMEDIR
+      description: Installing Origin... Login window will pop-up and close.
+      arch: win64
+      args: /silent
+      exclude_processes: Origin.exe OriginClientService.exe OriginWebHelperService.exe
+        QtWebEngineProcess.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Origin/Origin.exe
+    arch: win64
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR/nv-shaders
+      DXVK_CONFIG_FILE: $GAMEDIR/dxvk.conf
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+      WINE_LARGE_ADDRESS_AWARE: 1
+    manual_command: $GAMEDIR/drive_c/Program Files (x86)/Origin/updateorigin.sh
+    exclude_processes: QtWebEngineProcess.exe ActivationUI.exe OriginWebHelperService.exe
+  wine:
+    version: lutris-jedi-4.20-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      nvapi,nvapi64: disabled
+  files:
+  - updater: https://lutris.nyc3.cdn.digitaloceanspaces.com/games/origin/updateorigin.sh
+  - client: https://download.dm.origin.com/origin/live/OriginThinSetup.exe

@@ -1,0 +1,49 @@
+id: 10506
+game_id: 22169
+game_slug: pro-pilkki-2
+name: Pro Pilkki 2
+year: 2013
+user: ramram
+runner: wine
+slug: pro-pilkki-2-142
+version: 1.4.2
+description: Does not use Vulkan.
+notes: ''
+created_at: '2018-10-14T22:44:36.559000Z'
+updated_at: '2019-11-01T00:10:51.067983Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/ProPilkki2/ProPilkki2.exe
+    arch: win64
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine Prefix...
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: pilkki_installer
+      prefix: $GAMEDIR
+      description: Installing Pro Pilkki 2...
+      exclude_processes: ProPilkki2.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  wine:
+    version: lutris-4.16-x86_64
+    overrides:
+      mscoree,mshtml: disabled
+  files:
+  - pilkki_installer:
+      filename: P2Installer_v1.4.2.exe
+      url: http://propilkki.ddns.net/propilkki2/download/PP2_download.php?id=0

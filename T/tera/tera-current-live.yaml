@@ -1,0 +1,97 @@
+id: 7666
+game_id: 4369
+game_slug: tera
+name: TERA
+year: 2015
+user: jdwininger
+runner: wine
+slug: tera-current-live
+version: Current Live
+description: null
+notes: During initial installation you will receive an error about installing Visual
+  C++ runtime 2010 for x64. It is safe to click YES to continue the installation.
+created_at: '2018-03-26T10:57:39.987000Z'
+updated_at: '2019-10-27T07:58:03.589239Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 323370
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: glyph_installer
+      dst: $GAMEDIR/drive_c
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows 7 mode for Wine
+      app: win7
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Microsoft TrueType Fonts
+      app: corefonts
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Flash Player
+      app: flash
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing D3D9 Dlls
+      app: d3dx9
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Visual C++ Runtime 2008
+      app: vcrun2008
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Visual C++ Runtime 2010
+      app: vcrun2010
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Visual C++ Runtime 2013
+      app: vcrun2013
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting minimum required video memory size to 2048
+      key: VideoMemorySize
+      value: 2048
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D
+      name: set_regedit
+  - task:
+      executable: tera_installer
+      prefix: $GAMEDIR
+      description: Installing game. You will receive an error about installing Visual
+        C++ runtime 2010 for x64. It is safe to click YES to continue the installation.
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/users/Public/Games/En Masse Entertainment/TERA/TERA-Launcher.exe
+    arch: win64
+  system:
+    env:
+      __GL_THREADED_OPTIMIZATIONS: '1'
+      mesa_glthread: true
+      PBA_ENABLE: 1
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      __GL_SHADER_DISK_CACHE: '1'
+    pulse_latency: true
+  wine:
+    version: esync-staging-pba-3.16-x86_64
+  files:
+  - tera_installer: http://patch.tera.enmasse-game.com/temp/TERA-Minimal-Setup.exe
+  - glyph_installer: http://download.dyn.triongames.com/GlyphInstall.exe

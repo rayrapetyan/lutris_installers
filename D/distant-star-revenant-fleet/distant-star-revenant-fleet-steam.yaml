@@ -1,0 +1,24 @@
+id: 9743
+game_id: 6202
+game_slug: distant-star-revenant-fleet
+name: 'Distant Star: Revenant Fleet'
+year: null
+user: HyrumGraff
+runner: steam
+slug: distant-star-revenant-fleet-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-15T16:22:10.311382Z'
+updated_at: '2018-08-16T06:22:38.152782Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 335830
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 335830

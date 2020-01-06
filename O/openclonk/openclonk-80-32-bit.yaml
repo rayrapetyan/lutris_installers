@@ -1,0 +1,28 @@
+id: 1205
+game_id: 3550
+game_slug: openclonk
+name: OpenClonk
+year: 2014
+user: strider
+runner: linux
+slug: openclonk-80-32-bit
+version: 8.0 (32-bit)
+description: null
+notes: ''
+created_at: '2014-12-14T14:43:22.912000Z'
+updated_at: '2018-05-06T07:30:12.640361Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: openclonk
+  installer:
+  - extract:
+      file: openclonk_archive
+  files:
+  - openclonk_archive: http://www.openclonk.org/builds/release/8.0/openclonk-8.0.tar.bz2

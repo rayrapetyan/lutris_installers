@@ -1,0 +1,26 @@
+id: 9566
+game_id: 4520
+game_slug: grapple
+name: Grapple
+year: null
+user: sunderkeenin
+runner: winesteam
+slug: grapple-steam
+version: Steam
+description: null
+notes: works on staging, not on esync
+created_at: '2018-08-04T00:46:09.420925Z'
+updated_at: '2018-08-04T08:26:40.800955Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 268320
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-3.12-x86_64
+  game:
+    appid: 268320

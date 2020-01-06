@@ -1,0 +1,24 @@
+id: 7521
+game_id: 8112
+game_slug: salt-and-sanctuary
+name: Salt and Sanctuary
+year: 2016
+user: mfaqiri
+runner: steam
+slug: salt-and-sanctuary-steam
+version: Steam
+description: The linux version of Salt and Santuary on steam.
+notes: ''
+created_at: '2018-03-13T19:05:31.436705Z'
+updated_at: '2018-03-13T21:57:30.083848Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 283640
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 283640

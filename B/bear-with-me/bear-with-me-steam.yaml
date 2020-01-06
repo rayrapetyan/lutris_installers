@@ -1,0 +1,24 @@
+id: 8645
+game_id: 8937
+game_slug: bear-with-me
+name: Bear With Me
+year: null
+user: soredake
+runner: winesteam
+slug: bear-with-me-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-11T07:37:17.524495Z'
+updated_at: '2018-06-11T07:50:06.908765Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 492630
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 492630

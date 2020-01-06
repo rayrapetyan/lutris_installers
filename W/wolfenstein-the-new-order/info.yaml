@@ -1,0 +1,15 @@
+name: 'Wolfenstein: The New Order'
+slug: wolfenstein-the-new-order
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/wolfenstein-the-new-order.jpg
+icon_url: /games/icon/wolfenstein-the-new-order.png
+is_public: true
+updated: '2019-01-23T08:32:09.879279Z'
+steamid: 201810
+gogslug: ''
+humblestoreid: ''

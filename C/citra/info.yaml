@@ -1,0 +1,15 @@
+name: Citra
+slug: citra
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Tool
+aliases: []
+banner_url: /games/banner/citra.jpg
+icon_url: null
+is_public: true
+updated: '2019-10-22T22:04:35.346639Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

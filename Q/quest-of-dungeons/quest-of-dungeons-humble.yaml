@@ -1,0 +1,31 @@
+id: 3849
+game_id: 2276
+game_slug: quest-of-dungeons
+name: Quest of Dungeons
+year: null
+user: FakeShemp
+runner: linux
+slug: quest-of-dungeons-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-24T20:27:28.900572Z'
+updated_at: '2017-05-26T21:10:56.602716Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 270050
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: QuestofDungeons
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/QuestofDungeons
+  - chmodx: $GAMEDIR/x86/QuestofDungeons
+  - chmodx: $GAMEDIR/amd64/QuestofDungeons
+  files:
+  - file1: N/A:Please select the Humble archive

@@ -1,0 +1,15 @@
+name: 'Burnout Paradise: Remastered'
+slug: burnout-paradise-remastered
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/burnout-paradise-remastered.jpg
+icon_url: /games/icon/burnout-paradise-remastered.png
+is_public: true
+updated: '2019-02-14T05:21:16.758141Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

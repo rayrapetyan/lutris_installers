@@ -1,0 +1,29 @@
+id: 17339
+game_id: 13991
+game_slug: ultimate-mortal-kombat
+name: Ultimate Mortal Kombat
+year: 2007
+user: leandrovitals
+runner: mame
+slug: ultimate-mortal-kombat-arcade
+version: arcade
+description: null
+notes: ''
+created_at: '2019-12-14T19:15:24.574000Z'
+updated_at: '2019-12-22T11:22:26.702839Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: rom
+  installer:
+  - merge:
+      src: rom
+      dst: $GAMEDIR
+  files:
+  - rom: N/A:Select the game''s ROM file

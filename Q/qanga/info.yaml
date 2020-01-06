@@ -1,0 +1,21 @@
+name: Qanga
+slug: qanga
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Exploration
+- name: FPS
+- name: Open World
+- name: Shooter
+- name: Survival
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/qanga.jpg
+icon_url: null
+is_public: true
+updated: '2019-06-13T21:12:08.281028Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

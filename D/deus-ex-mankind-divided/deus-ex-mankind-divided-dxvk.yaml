@@ -1,0 +1,32 @@
+id: 11208
+game_id: 7843
+game_slug: deus-ex-mankind-divided
+name: 'Deus Ex: Mankind Divided'
+year: 2016
+user: soredake
+runner: winesteam
+slug: deus-ex-mankind-divided-dxvk
+version: DXVK
+description: null
+notes: ''
+created_at: '2018-12-13T06:52:02.233000Z'
+updated_at: '2020-01-01T14:28:23.888047Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 337000
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: lutris-4.20-x86_64
+    esync: false
+    dxvk: true
+  system:
+    env:
+      WINEFSYNC: 0
+  game:
+    appid: 337000
+    arch: win64

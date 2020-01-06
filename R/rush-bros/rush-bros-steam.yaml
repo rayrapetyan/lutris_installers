@@ -1,0 +1,24 @@
+id: 8158
+game_id: 1181
+game_slug: rush-bros
+name: Rush Bros
+year: null
+user: soredake
+runner: winesteam
+slug: rush-bros-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T06:46:54.857622Z'
+updated_at: '2018-05-12T10:17:33.141846Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 234490
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 234490

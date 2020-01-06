@@ -1,0 +1,17 @@
+name: LawBreakers
+slug: lawbreakers
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: FPS
+aliases: []
+banner_url: /games/banner/lawbreakers.jpg
+icon_url: /games/icon/lawbreakers.png
+is_public: true
+updated: '2019-01-23T08:30:08.276726Z'
+steamid: 350280
+gogslug: ''
+humblestoreid: ''

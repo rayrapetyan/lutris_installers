@@ -1,0 +1,16 @@
+name: Forza Motorsport 7
+slug: forza-motorsport-7
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Racing
+- name: Simulation
+aliases: []
+banner_url: /games/banner/forza-motorsport-7.jpg
+icon_url: null
+is_public: true
+updated: '2020-01-01T07:00:17.933133Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

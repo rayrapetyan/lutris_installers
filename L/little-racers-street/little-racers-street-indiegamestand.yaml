@@ -1,0 +1,37 @@
+id: 4393
+game_id: 1830
+game_slug: little-racers-street
+name: Little Racers STREET
+year: 2014
+user: FakeShemp
+runner: wine
+slug: little-racers-street-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-06-16T17:44:34.504000Z'
+updated_at: '2018-05-19T03:41:52.839882Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 262690
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      app: xna40
+      name: winetricks
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the IndieGameStand installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Milkstone Studios/Little Racers STREET/LittleRacersStreet.exe
+    arch: win32

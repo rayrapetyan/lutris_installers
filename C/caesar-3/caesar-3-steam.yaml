@@ -1,0 +1,40 @@
+id: 9043
+game_id: 7319
+game_slug: caesar-3
+name: Caesar 3
+year: null
+user: Asgaroth
+runner: winesteam
+slug: caesar-3-steam
+version: Steam
+description: null
+notes: Max game resolution is 1024x768 but plays fine.
+created_at: '2018-07-06T11:49:23.365602Z'
+updated_at: '2018-07-06T19:27:43.051870Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 517790
+gogid: 1207658835
+gogslug: caesar_3
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-3.11-x86_64
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Creating wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Setting wine to Windows 10
+      app: win10
+      arch: win64
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 517790
+    arch: win64

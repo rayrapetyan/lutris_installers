@@ -1,0 +1,44 @@
+id: 13328
+game_id: 27172
+game_slug: lockon-modern-air-combat
+name: 'LockOn: Modern Air Combat'
+year: 2003
+user: alfyn
+runner: wine
+slug: lockon-modern-air-combat-demo
+version: Demo
+description: Installer not stable, requires testing.
+notes: The resolution is fixed very low and not detected.
+created_at: '2019-05-04T10:57:59.785814Z'
+updated_at: '2019-05-04T10:57:59.785836Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Installing vcrun6
+      app: vcrun6
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Installing LockOn Demo...
+      name: wineexec
+  files:
+  - setup: N/A:Select the installer for LockOn demo (lock_on.exe)
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Ubi Soft/Lock On Demo/LockOn.exe
+    arch: win32

@@ -1,0 +1,16 @@
+name: Anachronox
+slug: anachronox
+year: 2001
+platforms:
+- name: Windows
+genres:
+- name: RPG
+- name: Turn-based tactics
+aliases: []
+banner_url: /games/banner/anachronox.jpg
+icon_url: /games/icon/anachronox.png
+is_public: true
+updated: '2019-01-23T08:28:21.345600Z'
+steamid: 242940
+gogslug: anachronox
+humblestoreid: ''

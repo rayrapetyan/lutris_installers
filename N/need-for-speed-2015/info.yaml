@@ -1,0 +1,17 @@
+name: Need for Speed (2015)
+slug: need-for-speed-2015
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Racing
+aliases:
+- slug: need-for-speed
+  name: Need for Speed
+banner_url: /games/banner/need-for-speed-2015.jpg
+icon_url: /games/icon/need-for-speed-2015.png
+is_public: true
+updated: '2019-05-18T07:46:33.310470Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

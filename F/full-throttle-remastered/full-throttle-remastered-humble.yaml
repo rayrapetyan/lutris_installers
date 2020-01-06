@@ -1,0 +1,28 @@
+id: 6328
+game_id: 12074
+game_slug: full-throttle-remastered
+name: Full Throttle Remastered
+year: 2017
+user: FakeShemp
+runner: linux
+slug: full-throttle-remastered-humble
+version: Humble
+description: null
+notes: ''
+created_at: '2017-11-13T20:20:40.490497Z'
+updated_at: '2017-11-13T20:24:21.576268Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 228360
+gogid: 1325415523
+gogslug: full_throttle_remastered
+humblestoreid: ''
+script:
+  exe: Throttle
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

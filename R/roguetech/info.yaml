@@ -1,0 +1,22 @@
+name: RogueTech
+slug: roguetech
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: MMO
+- name: RPG
+- name: Sci-fi
+- name: Strategy
+- name: Turn-based
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/roguetech.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:03.451236Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

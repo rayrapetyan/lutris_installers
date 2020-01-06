@@ -1,0 +1,29 @@
+id: 4927
+game_id: 12154
+game_slug: treasures-of-arcania
+name: Treasures of Arcania
+year: null
+user: FakeShemp
+runner: linux
+slug: treasures-of-arcania-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-08T19:30:05.758000Z'
+updated_at: '2017-07-09T20:05:03.049684Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: TreasuresOfArcania - 1.13.0.0 - Linux.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/TreasuresOfArcania - 1.13.0.0 - Linux.x86
+  files:
+  - file1: N/A:Please select the Groupees archive

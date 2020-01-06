@@ -1,0 +1,18 @@
+name: Widget Workshop
+slug: widget-workshop
+year: 1995
+platforms:
+- name: Windows
+genres:
+- name: Educational
+- name: Programming
+- name: Puzzle
+- name: Sandbox
+aliases: []
+banner_url: /games/banner/widget-workshop.jpg
+icon_url: /games/icon/widget-workshop.png
+is_public: true
+updated: '2019-01-23T08:32:08.373425Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

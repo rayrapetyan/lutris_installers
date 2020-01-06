@@ -1,0 +1,50 @@
+id: 11813
+game_id: 5033
+game_slug: darksiders-ii-deathinitive-edition
+name: 'Darksiders II: Deathinitive Edition'
+year: 2015
+user: ephase
+runner: wine
+slug: darksiders-ii-deathinitive-ed-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-02-03T12:01:58.550000Z'
+updated_at: '2019-02-14T05:36:07.120096Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 388410
+gogid: 1446463013
+gogslug: darksiders_ii_deathinitive_edition
+humblestoreid: ''
+script:
+  pulse_latency: false
+  installer:
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Installing Darksiders II Deathinitive Edition (GOG)
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    appid: 388410
+    exe: drive_c/GOG Games/Darksiders II Deathinitive Edition/Darksiders2.exe
+    arch: win64
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+  files:
+  - setup: N/A:Select the game's setup file
+  wine:
+    version: tkg-4.0-x86_64
+    xinput: true
+    esync: true
+    dxvk: true
+    overrides:
+      dinput8: native,builtin
+      xinput1_3: builtin
+      xaudio2_7: native,builtin

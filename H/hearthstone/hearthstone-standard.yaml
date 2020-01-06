@@ -1,0 +1,134 @@
+id: 8500
+game_id: 2421
+game_slug: hearthstone
+name: Hearthstone
+year: 2014
+user: Dox
+runner: wine
+slug: hearthstone-standard
+version: Standard
+description: null
+notes: "**CONFIGURE AND INSTALL THE DEPENDENCIES FIRST**\r\nInstructions for Vulkan\
+  \ support: <a href=\"https://github.com/lutris/lutris/wiki/Installing-drivers\"\
+  >https://github.com/lutris/lutris/wiki/Installing-drivers</a>\r\nInstructions for\
+  \ proper functionality of Battle.Net (+ common problems) <a href=\"https://github.com/lutris/lutris/wiki/Game:-Blizzard-App\"\
+  >https://github.com/lutris/lutris/wiki/Game:-Blizzard-App</a>"
+created_at: '2018-06-02T15:27:40.491000Z'
+updated_at: '2019-11-29T21:18:10.188356Z'
+draft: false
+published: true
+published_by: 51687
+rating: '4'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 64bit Wine prefix.
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Arial font...
+      arch: win64
+      app: arial
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows 10 mode for Wine
+      arch: win64
+      key: Version
+      value: win10
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - write_json:
+      description: Writing a Battle.Net config file
+      data:
+        Client:
+          HardwareAcceleration: 'false'
+          GameLaunchWindowBehavior: '2'
+          GameSearch:
+            BackgroundSearch: 'true'
+          Sound:
+            Enabled: 'false'
+          Streaming:
+            StreamingEnabled: 'false'
+      file: $GAMEDIR/drive_c/users/$USER/Application Data/Battle.net/Battle.net.config
+  - write_config:
+      section: Render.13
+      description: Enabling Borderless Windowed mode
+      value: '"1"'
+      key: WindowMode
+      file: $GAMEDIR/drive_c/users/$USER/My Documents/Overwatch/Settings/Settings_v0.ini
+  - write_config:
+      section: MovieExport.1
+      description: Switching to WEBM format for saving Highlights
+      value: '"1"'
+      key: Type
+      file: $GAMEDIR/drive_c/users/$USER/My Documents/Overwatch/Settings/Settings_v0.ini
+  - write_config:
+      section: MovieExport.1
+      description: Disabling hardware acceleration for saving Highlights
+      value: '"0"'
+      key: UseHardware
+      file: $GAMEDIR/drive_c/users/$USER/My Documents/Overwatch/Settings/Settings_v0.ini
+  - write_file:
+      content: hasseennewcinematic=True
+      description: Adding a startup workaround for Hearthstone
+      file: $GAMEDIR/drive_c/users/$USER/Local Settings/Application Data/Blizzard/Hearthstone/options.txt
+  - task:
+      prefix: $GAMEDIR
+      description: 'Wine Staging: Enabling DXVA2'
+      arch: win64
+      key: backend
+      value: va
+      path: HKEY_CURRENT_USER\Software\Wine\DXVA2
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - task:
+      executable: setup
+      description: 'Installing Blizzard App. An installer will open.
+
+        ------------------------------
+
+        To progress, manually continue installation in that window.'
+      exclude_processes: Battle.net.exe Agent.exe "Battle.net Helper.exe"
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Battle.net/Battle.net.exe
+    arch: win64
+  system:
+    env:
+      STAGING_SHARED_MEMORY: 1
+      DXVK_CONFIG_FILE: $GAMEDIR/dxvk.conf
+      __GL_SHADER_DISK_CACHE: 1
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      __GL_SHADER_DISK_CACHE_SIZE: 1000000000
+    exclude_processes: Agent.exe "Battle.net Helper.exe"
+  wine:
+    version: lutris-4.20-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      ucrtbase: n,b
+      nvapi64: disabled
+      nvapi: disabled
+      d3d12: disabled
+      api-ms-win-crt-private-l1-1-0: n,b
+  files:
+  - setup: http://dist.blizzard.com/downloads/bna-installers/322d5bb9ae0318de3d4cde7641c96425/retail.1/Battle.net-Setup-enUS.exe

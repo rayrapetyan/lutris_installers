@@ -1,0 +1,17 @@
+name: Factorio
+slug: factorio
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Construction
+- name: Management
+aliases: []
+banner_url: /games/banner/factorio.jpg
+icon_url: /games/icon/factorio.png
+is_public: true
+updated: '2019-01-23T08:29:27.485457Z'
+steamid: 427520
+gogslug: factorio
+humblestoreid: ''

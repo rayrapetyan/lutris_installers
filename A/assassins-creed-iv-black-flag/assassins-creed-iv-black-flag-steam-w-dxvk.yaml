@@ -1,0 +1,78 @@
+id: 2030
+game_id: 2927
+game_slug: assassins-creed-iv-black-flag
+name: Assassin's Creed IV Black Flag
+year: 2013
+user: Freso
+runner: winesteam
+slug: assassins-creed-iv-black-flag-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2016-03-30T15:08:45.569000Z'
+updated_at: '2019-02-21T06:57:57.688797Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 242050
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - write_config:
+      section: Max feature level
+      key: d3d11.maxFeatureLevel
+      value: '10_1'
+      file: $GAMEDIR/dxvk.conf
+  - extract:
+      dst: $CACHE/dxsetup
+      file: dx2010
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR/prefix
+      args: /silent
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2008 vcrun2010 corefonts
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Please be patient while we install .NET 4.7.2
+      app: dotnet472 win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: uplay
+      prefix: $GAMEDIR/prefix
+      args: /S
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: winekill
+  winesteam:
+    version: tkg-4.0-x86_64
+    esync: true
+    dxvk: true
+  system:
+    env:
+      DXVK_CONFIG_FILE: $GAMEDIR/dxvk.conf
+      DXVK_HUD: 0
+    disable_runtime: false
+  files:
+  - dx2010: https://lutris.net/files/tools/directx-2010.tar.gz
+  - uplay: https://ubistatic3-a.akamaihd.net/orbit/launcher_installer/UplayInstaller.exe
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 242050
+    arch: win64

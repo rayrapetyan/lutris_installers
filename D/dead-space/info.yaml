@@ -1,0 +1,16 @@
+name: Dead Space
+slug: dead-space
+year: 2008
+platforms:
+- name: Windows
+genres:
+- name: Horror
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/dead-space.jpg
+icon_url: /games/icon/dead-space.png
+is_public: true
+updated: '2019-04-21T23:05:16.248848Z'
+steamid: 17470
+gogslug: dead_space
+humblestoreid: ''

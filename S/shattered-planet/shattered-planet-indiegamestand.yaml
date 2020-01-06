@@ -1,0 +1,33 @@
+id: 4260
+game_id: 4423
+game_slug: shattered-planet
+name: Shattered Planet
+year: null
+user: FakeShemp
+runner: wine
+slug: shattered-planet-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-06-10T14:02:15.516000Z'
+updated_at: '2018-05-19T03:41:52.715745Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 305640
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the IndieGameStand installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Kitfox Games/Shattered Planet/shatteredPlanet.exe
+    arch: win32

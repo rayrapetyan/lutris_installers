@@ -1,0 +1,16 @@
+name: Twitch Sings
+slug: twitch-sings
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Rhythm
+- name: Twitch
+aliases: []
+banner_url: /games/banner/twitch-sings.jpg
+icon_url: null
+is_public: true
+updated: '2020-01-01T18:44:24.941764Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

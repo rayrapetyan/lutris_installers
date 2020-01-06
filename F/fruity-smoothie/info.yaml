@@ -1,0 +1,15 @@
+name: Fruity Smoothie
+slug: fruity-smoothie
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Casual
+aliases: []
+banner_url: /games/banner/fruity-smoothie.jpg
+icon_url: /games/icon/fruity-smoothie.png
+is_public: true
+updated: '2019-01-23T08:29:36.069006Z'
+steamid: 763230
+gogslug: ''
+humblestoreid: ''

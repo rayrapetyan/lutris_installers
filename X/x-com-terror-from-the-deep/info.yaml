@@ -1,0 +1,19 @@
+name: 'X-COM: Terror from the Deep'
+slug: x-com-terror-from-the-deep
+year: 1995
+platforms:
+- name: MS-DOS
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Sci-fi
+- name: Strategy
+- name: Turn-based
+aliases: []
+banner_url: /games/banner/x-com-terror-from-the-deep.jpg
+icon_url: /games/icon/x-com-terror-from-the-deep.png
+is_public: true
+updated: '2019-07-20T02:52:48.244622Z'
+steamid: 7650
+gogslug: xcom_terror_from_the_deep
+humblestoreid: ''

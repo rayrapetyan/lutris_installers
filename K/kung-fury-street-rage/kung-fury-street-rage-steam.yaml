@@ -1,0 +1,24 @@
+id: 2132
+game_id: 4657
+game_slug: kung-fury-street-rage
+name: 'Kung Fury: Street Rage'
+year: null
+user: strider
+runner: steam
+slug: kung-fury-street-rage-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-06-15T05:48:46.852315Z'
+updated_at: '2016-06-15T05:48:51.862947Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 373180
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 373180

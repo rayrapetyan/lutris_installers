@@ -1,0 +1,25 @@
+id: 5433
+game_id: 9193
+game_slug: batman-the-telltale-series
+name: Batman - The Telltale Series
+year: 2016
+user: NuSuey
+runner: winesteam
+slug: batman-the-telltale-series-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-08-20T01:39:40.210000Z'
+updated_at: '2017-11-30T20:15:51.220200Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 498240
+gogid: 2140144872
+gogslug: batman_a_telltale_game_series
+humblestoreid: ''
+script:
+  game:
+    appid: 498240
+    arch: win64

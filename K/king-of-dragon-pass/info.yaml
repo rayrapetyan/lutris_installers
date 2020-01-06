@@ -1,0 +1,17 @@
+name: King of Dragon Pass
+slug: king-of-dragon-pass
+year: 1999
+platforms:
+- name: Windows
+genres:
+- name: Management
+- name: RPG
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/king-of-dragon-pass.jpg
+icon_url: /games/icon/king-of-dragon-pass.png
+is_public: true
+updated: '2019-01-23T08:30:04.193271Z'
+steamid: 352220
+gogslug: king_of_dragon_pass
+humblestoreid: ''

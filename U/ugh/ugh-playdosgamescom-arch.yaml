@@ -1,0 +1,30 @@
+id: 15327
+game_id: 29277
+game_slug: ugh
+name: UGH!
+year: 1992
+user: Heehaaw
+runner: dosbox
+slug: ugh-playdosgamescom-arch
+version: PlayDOSGames.com Archive
+description: null
+notes: ''
+created_at: '2019-09-06T15:15:32.492943Z'
+updated_at: '2019-10-06T20:26:57.466464Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: archive
+  files:
+  - archive: https://www.playdosgames.com/assets/zips/ugh.zip
+  game:
+    main_file: UGH.EXE

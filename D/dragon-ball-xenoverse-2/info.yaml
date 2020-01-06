@@ -1,0 +1,18 @@
+name: 'Dragon Ball: Xenoverse 2'
+slug: dragon-ball-xenoverse-2
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Fighting
+- name: RPG
+aliases: []
+banner_url: /games/banner/dragon-ball-xenoverse-2.jpg
+icon_url: /games/icon/dragon-ball-xenoverse-2.png
+is_public: true
+updated: '2019-01-23T08:29:16.387458Z'
+steamid: 454650
+gogslug: ''
+humblestoreid: ''

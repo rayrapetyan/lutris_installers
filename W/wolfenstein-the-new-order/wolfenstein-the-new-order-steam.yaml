@@ -1,0 +1,40 @@
+id: 5923
+game_id: 2320
+game_slug: wolfenstein-the-new-order
+name: 'Wolfenstein: The New Order'
+year: 2014
+user: GloriousEggroll
+runner: winesteam
+slug: wolfenstein-the-new-order-steam
+version: Steam
+description: null
+notes: "If you have the game installed already in another steam library folder:\r\n\
+  \r\n1. Run this installer. When it finishes, -do not- press \"Launch Game\". Press\
+  \ Close.\r\n2. In Lutris, right click Wolfenstein>configure>game options\r\n--check\
+  \ the box that says \"Do not launch game, only open steam\"\r\n3. Launch the game,\
+  \ it will open steam. Login.\r\n4. Add your steam library folder the way you normally\
+  \ would and set it as Default\r\n5. In steam, Right click on Wolfenstein>properties>local\
+  \ files>verify integrity of files.\r\n6. When it finishes, close/exit steam. Go\
+  \ back into lutris and uncheck the \"Do not launch the game, only open Steam\" checkbox.\r\
+  \n\r\nNow you can play with your existing install!"
+created_at: '2017-10-08T07:02:11.231000Z'
+updated_at: '2018-06-12T04:26:26.628161Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 201810
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-3.8-x86_64
+  system:
+    env:
+      MESA_GL_VERSION_OVERRIDE: 4.5COMPAT
+    disable_runtime: true
+    pulse_latency: true
+  game:
+    appid: 201810
+    arch: win64

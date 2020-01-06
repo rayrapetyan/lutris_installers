@@ -1,0 +1,32 @@
+id: 7041
+game_id: 5366
+game_slug: monster-truck-destruction
+name: Monster Truck Destruction
+year: null
+user: FakeShemp
+runner: wine
+slug: monster-truck-destruction-desura
+version: Desura
+description: null
+notes: ''
+created_at: '2018-01-05T23:37:13.672356Z'
+updated_at: '2018-05-19T03:41:59.738689Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 324760
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Monster Truck Destruction
+      file: $file1
+  files:
+  - file1: N/A:Please select the Desura archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Monster Truck Destruction/MTD.exe
+    arch: win32

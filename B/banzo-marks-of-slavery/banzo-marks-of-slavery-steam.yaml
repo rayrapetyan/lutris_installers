@@ -1,0 +1,24 @@
+id: 9118
+game_id: 19855
+game_slug: banzo-marks-of-slavery
+name: Banzo - Marks of Slavery
+year: 2018
+user: TuiorGames
+runner: winesteam
+slug: banzo-marks-of-slavery-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-09T12:45:19.942000Z'
+updated_at: '2018-08-24T07:25:38.990552Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 872380
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 872380

@@ -1,0 +1,33 @@
+id: 3155
+game_id: 69
+game_slug: doom-3
+name: Doom 3
+year: 2004
+user: RobLoach
+runner: linux
+slug: doom-3-dhewm-steam
+version: dhewm + Steam
+description: Downloads the Dhewm3 engine with Steam data on top.
+notes: ''
+created_at: '2017-01-02T12:33:07.093000Z'
+updated_at: '2017-06-16T18:56:52.254574Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: 9050
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: dhewm3
+  installer:
+  - merge:
+      src: doom3-data
+      dst: $GAMEDIR/base
+  - extract:
+      file: doom3-engine
+  - chmodx: $GAMEDIR/dhewm3
+  files:
+  - doom3-engine: https://lutris.net/files/games/doom-3/dhewm-master-x86_64.tar.gz
+  - doom3-data: $STEAM:9050:base

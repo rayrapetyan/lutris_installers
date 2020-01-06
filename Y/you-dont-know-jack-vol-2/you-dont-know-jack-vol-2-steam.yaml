@@ -1,0 +1,24 @@
+id: 1923
+game_id: 2887
+game_slug: you-dont-know-jack-vol-2
+name: YOU DON'T KNOW JACK Vol. 2
+year: null
+user: WildCoder
+runner: winesteam
+slug: you-dont-know-jack-vol-2-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-01-20T20:41:17.515052Z'
+updated_at: '2016-09-30T20:40:24.278660Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 259940
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 259940

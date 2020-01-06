@@ -1,0 +1,16 @@
+name: Commander Keen Complete Pack
+slug: commander-keen-complete-pack
+year: 1990
+platforms:
+- name: Linux
+- name: MS-DOS
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/commander-keen-complete-pack.jpg
+icon_url: /games/icon/commander-keen-complete-pack.png
+is_public: true
+updated: '2019-01-23T08:28:56.583887Z'
+steamid: 9180
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,85 @@
+id: 12986
+game_id: 24361
+game_slug: star-wars-battlefront-ii-2017
+name: Star Wars Battlefront II (2017)
+year: 2017
+user: nourez
+runner: wine
+slug: star-wars-battlefront-ii-2017-origin
+version: Origin
+description: "Only sets up Origin and DXVK you'll need to download Battlefront II\
+  \ manually within Origin.\r\n\r\nNotable issue: Mouse controls are messed up once\
+  \ you join a game, but in menus they are fine."
+notes: "Please read before installing: <a href=\"https://github.com/lutris/lutris/wiki/Game:-Origin\"\
+  >https://github.com/lutris/lutris/wiki/Game:-Origin</a>\r\n\r\nWine version: https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/4.20-GE-1\r\
+  \nDXVK version: 1.4.5"
+created_at: '2019-04-20T15:09:17.444000Z'
+updated_at: '2019-12-23T10:49:44.398611Z'
+draft: false
+published: true
+published_by: 20548
+rating: '1'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - execute:
+      command: mkdir "$GAMEDIR/bfv-nv-shaders"
+  - input_menu:
+      options:
+      - Not needed for AMD. Ignore this.: AMD
+      - dxgi.customVendorId = 10DE dxgi.customDeviceId = 1C81 dxgi.nvapiHack = True: Nvidia
+      description: 'Setting DXVK workarounds please choose your GPU:'
+      id: GPU
+      preselect: Not needed for AMD. Ignore this.
+  - write_file:
+      content: $INPUT_GPU
+      file: $GAMEDIR/dxvk.conf
+  - task:
+      prefix: $GAMEDIR
+      app: nocrashdialog vcrun2017 win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: client
+      prefix: $GAMEDIR
+      description: Installing Origin... Login window will pop-up and close.
+      arch: win64
+      args: /silent
+      exclude_processes: Origin.exe OriginClientService.exe OriginWebHelperService.exe
+        QtWebEngineProcess.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  - chmodx: updater
+  - merge:
+      src: updater
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Origin
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Origin/Origin.exe
+    arch: win64
+  system:
+    env:
+      DXVK_CONFIG_FILE: $GAMEDIR/dxvk.conf
+      DXVK_HUD: fps
+    disable_runtime: false
+  wine:
+    version: tkg-protonified-3.21-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      OriginThinSetupInternal.exe: disabled
+      nvapi,nvapi64: disabled
+  files:
+  - client: https://origin-a.akamaihd.net/Origin-Client-Download/origin/live/OriginThinSetup.exe
+  - updater: https://raw.githubusercontent.com/DrDoctor13/wine-origin-updater/master/updateorigin.sh

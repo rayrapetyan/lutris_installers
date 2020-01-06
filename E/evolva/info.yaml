@@ -1,0 +1,15 @@
+name: Evolva
+slug: evolva
+year: 2000
+platforms:
+- name: Windows
+genres:
+- name: Shooter
+aliases: []
+banner_url: /games/banner/evolva.jpg
+icon_url: null
+is_public: true
+updated: '2019-05-06T20:17:19.605054Z'
+steamid: 771430
+gogslug: evolva
+humblestoreid: ''

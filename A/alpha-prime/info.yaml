@@ -1,0 +1,16 @@
+name: Alpha Prime
+slug: alpha-prime
+year: 2007
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+aliases: []
+banner_url: /games/banner/alpha-prime.jpg
+icon_url: /games/icon/alpha-prime.png
+is_public: true
+updated: '2019-01-23T08:28:19.857030Z'
+steamid: 2590
+gogslug: ''
+humblestoreid: ''

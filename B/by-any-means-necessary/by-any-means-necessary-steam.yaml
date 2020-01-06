@@ -1,0 +1,24 @@
+id: 11186
+game_id: 23790
+game_slug: by-any-means-necessary
+name: By Any Means Necessary
+year: null
+user: strider
+runner: steam
+slug: by-any-means-necessary-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-12-12T07:16:12.646021Z'
+updated_at: '2018-12-12T07:16:12.646051Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 702820
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: '702820'

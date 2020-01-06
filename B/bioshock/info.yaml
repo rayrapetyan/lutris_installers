@@ -1,0 +1,15 @@
+name: BioShock
+slug: bioshock
+year: 2007
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/bioshock.jpg
+icon_url: /games/icon/bioshock.png
+is_public: true
+updated: '2019-01-23T08:28:36.148162Z'
+steamid: 7670
+gogslug: ''
+humblestoreid: bioshock

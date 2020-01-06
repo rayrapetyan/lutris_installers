@@ -1,0 +1,31 @@
+id: 6325
+game_id: 7264
+game_slug: epistory-typing-chronicles
+name: Epistory - Typing Chronicles
+year: 2014
+user: FakeShemp
+runner: linux
+slug: epistory-typing-chronicles-humble
+version: Humble
+description: null
+notes: ''
+created_at: '2017-11-13T19:59:54.350374Z'
+updated_at: '2017-11-13T20:06:44.802332Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 398850
+gogid: 1986504189
+gogslug: epistory_typing_chronicles
+humblestoreid: ''
+script:
+  exe: Epistory.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Epistory.x86
+  - chmodx: $GAMEDIR/Epistory.x86_64
+  exe64: Epistory.x86_64
+  files:
+  - file1: N/A:Please select the Humble archive

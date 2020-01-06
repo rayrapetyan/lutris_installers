@@ -1,0 +1,21 @@
+name: 'Tomb Raider: Legend'
+slug: tomb-raider-legend
+year: 2006
+platforms:
+- name: GameCube
+- name: Nintendo DS
+- name: Nintendo Game Boy Advance
+- name: Sony PlayStation 2
+- name: Sony PSP
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/tomb-raider-legend.jpg
+icon_url: /games/icon/tomb-raider-legend.png
+is_public: true
+updated: '2019-01-23T08:31:52.650623Z'
+steamid: 7000
+gogslug: ''
+humblestoreid: ''

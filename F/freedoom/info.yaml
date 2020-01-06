@@ -1,0 +1,15 @@
+name: Freedoom
+slug: freedoom
+year: 2003
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/freedoom.jpg
+icon_url: /games/icon/freedoom.png
+is_public: true
+updated: '2019-01-23T08:29:35.177631Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

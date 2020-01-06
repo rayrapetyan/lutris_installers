@@ -1,0 +1,15 @@
+name: Homeworld Remastered Collection
+slug: homeworld-remastered-collection
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/homeworld-remastered-collection.jpg
+icon_url: /games/icon/homeworld-remastered-collection.png
+is_public: true
+updated: '2019-01-23T08:29:52.012716Z'
+steamid: 244160
+gogslug: homeworld_remastered_collection
+humblestoreid: ''

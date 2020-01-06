@@ -1,0 +1,16 @@
+name: Forge Quest
+slug: forge-quest
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Dungeon crawl
+- name: RPG
+aliases: []
+banner_url: /games/banner/forge-quest.jpg
+icon_url: /games/icon/forge-quest.png
+is_public: true
+updated: '2019-01-23T08:29:33.700666Z'
+steamid: 249950
+gogslug: ''
+humblestoreid: ''

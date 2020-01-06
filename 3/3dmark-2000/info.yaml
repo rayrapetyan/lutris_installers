@@ -1,0 +1,17 @@
+name: 3DMark 2000
+slug: 3dmark-2000
+year: 2000
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Building
+- name: Management
+aliases: []
+banner_url: /games/banner/3dmark-2000.jpg
+icon_url: null
+is_public: true
+updated: '2019-12-17T19:06:45.548401Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

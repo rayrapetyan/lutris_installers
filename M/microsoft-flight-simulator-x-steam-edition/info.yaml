@@ -1,0 +1,16 @@
+name: 'Microsoft Flight Simulator X: Steam Edition'
+slug: microsoft-flight-simulator-x-steam-edition
+year: 2006
+platforms:
+- name: Windows
+genres:
+- name: Flight
+- name: Simulation
+aliases: []
+banner_url: /games/banner/microsoft-flight-simulator-x-steam-edition.jpg
+icon_url: /games/icon/microsoft-flight-simulator-x-steam-edition.png
+is_public: true
+updated: '2019-04-19T03:39:32.467650Z'
+steamid: 314160
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 6620
+game_id: 10478
+game_slug: megamagic-wizards-of-the-neon-age
+name: 'Megamagic: Wizards of the Neon Age'
+year: 2016
+user: Talvi
+runner: steam
+slug: megamagic-wizards-of-the-neon-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-10T17:07:44.289318Z'
+updated_at: '2017-12-17T09:02:42.839743Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 422650
+gogid: 1098700594
+gogslug: megamagic_wizards_of_the_neon_age
+humblestoreid: ''
+script:
+  game:
+    appid: 422650

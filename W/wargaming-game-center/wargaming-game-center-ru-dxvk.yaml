@@ -1,0 +1,61 @@
+id: 13832
+game_id: 27406
+game_slug: wargaming-game-center
+name: Wargaming Game Center
+year: 2009
+user: skyper100mc
+runner: wine
+slug: wargaming-game-center-ru-dxvk
+version: RU DXVK
+description: null
+notes: "When you install this launcher be sure to install it with dx11.\r\n\r\nWhen\
+  \ the Launcher opens you need to end the WGC.exe process so that the install will\
+  \ finish.\r\n\r\nI advise not running this under proton, because proton is a bit\
+  \ funky with multiple windows."
+created_at: '2019-05-31T09:40:13.650000Z'
+updated_at: '2019-06-13T08:20:38.925728Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: wgcinstaller
+      prefix: $GAMEDIR
+      description: Installing Wargaming Launcher
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Wine to Windows 10
+      app: win10
+      arch: win64
+      name: winetricks
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files (x86)/Wargaming.net/GameCenter/wgc.exe
+    arch: win64
+  system:
+    env:
+      DXVK_HUD: 0
+    disable_runtime: false
+  wine:
+    version: tkg-4.6-x86_64
+    DXVK: true
+  files:
+  - wgcinstaller:
+      filename: Wargaming_Game_Center_Install_RU.exe
+      url: http://redirect.wargaming.net/WGC/Wargaming_Game_Center_Install_RU.exe

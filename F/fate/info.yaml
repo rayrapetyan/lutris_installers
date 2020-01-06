@@ -1,0 +1,17 @@
+name: FATE
+slug: fate
+year: 2005
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Dungeon crawl
+- name: Role-playing
+aliases: []
+banner_url: /games/banner/fate.jpg
+icon_url: /games/icon/fate.png
+is_public: true
+updated: '2019-06-01T05:44:08.007712Z'
+steamid: 246840
+gogslug: ''
+humblestoreid: ''

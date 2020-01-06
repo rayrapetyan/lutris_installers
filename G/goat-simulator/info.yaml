@@ -1,0 +1,16 @@
+name: Goat Simulator
+slug: goat-simulator
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Casual
+- name: Parody
+aliases: []
+banner_url: /games/banner/goat-simulator.jpg
+icon_url: /games/icon/goat-simulator.png
+is_public: true
+updated: '2019-01-23T08:29:40.563084Z'
+steamid: 265930
+gogslug: ''
+humblestoreid: goat-simulator

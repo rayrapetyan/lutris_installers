@@ -1,0 +1,25 @@
+id: 5043
+game_id: 679
+game_slug: realm-of-the-mad-god
+name: Realm of the Mad God
+year: null
+user: Witzur
+runner: winesteam
+slug: realm-of-the-mad-god-steam
+version: Steam
+description: Team up with dozens of players and battle through the Realm of the Mad
+  God, Oryx. With a retro 8-bit style, Realm is an evolution of traditional MMO gameplay.
+notes: ''
+created_at: '2017-07-13T21:37:12.056501Z'
+updated_at: '2017-08-27T22:16:21.939787Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 200210
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 200210

@@ -1,0 +1,24 @@
+id: 12266
+game_id: 4713
+game_slug: rollercoaster-tycoon-2
+name: RollerCoaster Tycoon 2
+year: 2002
+user: krm513
+runner: steam
+slug: rollercoaster-tycoon-2-steam-proton
+version: Steam Proton
+description: Runs RCT2 using Steam for windows or Proton for linux if enabled.
+notes: ''
+created_at: '2019-03-05T02:06:30.710000Z'
+updated_at: '2019-04-26T05:12:57.106803Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 285330
+gogid: 1207658957
+gogslug: rollercoaster_tycoon_2
+humblestoreid: ''
+script:
+  game:
+    appid: 285330

@@ -1,0 +1,24 @@
+id: 1973
+game_id: 1859
+game_slug: stronghold-3
+name: Stronghold 3
+year: null
+user: WildCoder
+runner: steam
+slug: stronghold-3-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-02-06T20:29:49.751874Z'
+updated_at: '2016-02-08T21:44:50.175094Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 47400
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 47400

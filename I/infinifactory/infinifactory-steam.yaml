@@ -1,0 +1,24 @@
+id: 1543
+game_id: 4322
+game_slug: infinifactory
+name: Infinifactory
+year: null
+user: Xodetaetl
+runner: steam
+slug: infinifactory-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-05-19T16:03:50.130000Z'
+updated_at: '2015-06-01T17:41:29.259000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 300570
+gogid: 1436435983
+gogslug: infinifactory
+humblestoreid: ''
+script:
+  game:
+    appid: 300570

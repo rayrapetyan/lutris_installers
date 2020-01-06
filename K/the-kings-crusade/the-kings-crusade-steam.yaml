@@ -1,0 +1,24 @@
+id: 6198
+game_id: 1754
+game_slug: the-kings-crusade
+name: The Kings' Crusade
+year: null
+user: jonius
+runner: winesteam
+slug: the-kings-crusade-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-10-30T14:13:08.996234Z'
+updated_at: '2017-11-04T23:03:38.140644Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 42920
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 42920

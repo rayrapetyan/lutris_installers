@@ -1,0 +1,45 @@
+id: 13316
+game_id: 6329
+game_slug: worms-forts-under-siege
+name: 'Worms Forts: Under Siege'
+year: 2004
+user: Eisi
+runner: wine
+slug: worms-forts-under-siege-gog
+version: GOG
+description: null
+notes: If the game doesn't launch change Executable (Rightclick -> Configure -> Game
+  Options) to GAMEDIR/drive_c/GOG Games/Worms Forts Under Siege/options.exe and turn
+  off Native Res. Then set Executable to GAMEDIR/drive_c/GOG Games/Worms Forts Under
+  Siege/WF.exe again.
+created_at: '2019-05-03T17:07:40.457000Z'
+updated_at: '2019-05-18T06:43:08.518381Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: 1207659170
+gogslug: worms_forts_under_siege
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      args: /SILENT /LANG=en /SP- /NOCANCEL /SUPPRESSMSGBOXES /NOGUI /DIR="C:/GOG
+        Games/Worms Forts Under Siege"
+      arch: win32
+      name: wineexec
+  system:
+    env:
+      __GL_FSAA_MODE: 0
+      R600_TEX_ANISO: 0
+      __GL_LOG_MAX_ANISO: 0
+  files:
+  - installer: N/A:Please select the GOG.com Windows installer
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/GOG Games/Worms Forts Under Siege/WF.exe
+    working_dir: $GAMEDIR
+    arch: win32

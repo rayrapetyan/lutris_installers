@@ -1,0 +1,24 @@
+id: 6073
+game_id: 2477
+game_slug: summoner
+name: Summoner
+year: null
+user: king_dick
+runner: winesteam
+slug: summoner-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-10-23T02:37:52.863000Z'
+updated_at: '2017-10-30T01:02:06.213336Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 275570
+gogid: 1207660823
+gogslug: summoner
+humblestoreid: ''
+script:
+  game:
+    appid: 275570

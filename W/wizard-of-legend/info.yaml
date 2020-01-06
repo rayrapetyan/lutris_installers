@@ -1,0 +1,17 @@
+name: Wizard of Legend
+slug: wizard-of-legend
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: Roguelike
+aliases: []
+banner_url: /games/banner/wizard-of-legend.jpg
+icon_url: /games/icon/wizard-of-legend.png
+is_public: true
+updated: '2019-07-04T07:28:26.862431Z'
+steamid: 445980
+gogslug: wizard_of_legend
+humblestoreid: ''

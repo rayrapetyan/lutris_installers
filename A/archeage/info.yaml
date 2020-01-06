@@ -1,0 +1,15 @@
+name: ArcheAge
+slug: archeage
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: MMORPG
+aliases: []
+banner_url: /games/banner/archeage.jpg
+icon_url: /games/icon/archeage.png
+is_public: true
+updated: '2019-01-23T08:28:24.155924Z'
+steamid: 304030
+gogslug: ''
+humblestoreid: ''

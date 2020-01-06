@@ -1,0 +1,16 @@
+name: Rise of the Tomb Raider
+slug: rise-of-the-tomb-raider
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/rise-of-the-tomb-raider.jpg
+icon_url: /games/icon/rise-of-the-tomb-raider.png
+is_public: true
+updated: '2019-01-23T08:31:01.527484Z'
+steamid: 391220
+gogslug: ''
+humblestoreid: ''

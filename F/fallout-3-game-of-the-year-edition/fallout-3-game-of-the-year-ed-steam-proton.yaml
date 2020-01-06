@@ -1,0 +1,24 @@
+id: 16552
+game_id: 951
+game_slug: fallout-3-game-of-the-year-edition
+name: 'Fallout 3: Game of the Year Edition'
+year: 2009
+user: monyarm
+runner: steam
+slug: fallout-3-game-of-the-year-ed-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-11-02T09:32:10.812000Z'
+updated_at: '2019-11-04T04:41:10.872996Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 22370
+gogid: 1454315831
+gogslug: fallout_3_game_of_the_year_edition
+humblestoreid: fallout-3-game-of-the-year-edition
+script:
+  game:
+    appid: 22370

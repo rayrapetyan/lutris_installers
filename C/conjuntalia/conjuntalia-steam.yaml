@@ -1,0 +1,24 @@
+id: 7105
+game_id: 15789
+game_slug: conjuntalia
+name: Conjuntalia
+year: null
+user: liberodark
+runner: steam
+slug: conjuntalia-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-01-15T14:24:38.288820Z'
+updated_at: '2018-01-15T18:05:31.907016Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 619340
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 619340

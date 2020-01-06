@@ -1,0 +1,24 @@
+id: 13176
+game_id: 4221
+game_slug: lego-batman-3-beyond-gotham
+name: 'LEGO Batman 3: Beyond Gotham'
+year: 2014
+user: skyace65
+runner: winesteam
+slug: lego-batman-3-beyond-gotham-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-04-28T01:30:52.585145Z'
+updated_at: '2019-04-28T05:45:24.748178Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 313690
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 313690

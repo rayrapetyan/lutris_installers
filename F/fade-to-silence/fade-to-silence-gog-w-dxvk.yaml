@@ -1,0 +1,45 @@
+id: 16230
+game_id: 23009
+game_slug: fade-to-silence
+name: Fade to Silence
+year: 2019
+user: cxf
+runner: wine
+slug: fade-to-silence-gog-w-dxvk
+version: GOG w/ DXVK
+description: null
+notes: ''
+created_at: '2019-10-16T19:29:10.406530Z'
+updated_at: '2019-10-16T19:29:15.123839Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 706020
+gogid: 1986871555
+gogslug: fade_to_silence
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2015 win7
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES /NOCANCEL
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Fade to Silence/FadeToSilence.exe
+  system:
+    env:
+      DXVK_HUD: compiler
+  wine:
+    dxvk: true
+  files:
+  - setup: N/A:Select GOG setup exe

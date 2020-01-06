@@ -1,0 +1,40 @@
+id: 3908
+game_id: 11454
+game_slug: king-of-the-monsters
+name: King of the Monsters
+year: 1991
+user: FakeShemp
+runner: linux
+slug: king-of-the-monsters-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-26T16:15:20.119578Z'
+updated_at: '2017-05-27T21:20:52.521985Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1652749096
+gogslug: king_of_the_monsters
+humblestoreid: ''
+script:
+  exe: NeogeoEmu.bin.x86
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data/noarch
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86_64
+      dst: $GAMEDIR
+  exe64: NeogeoEmu.bin.x86_64
+  files:
+  - file1: N/A:Please select the Humble installer

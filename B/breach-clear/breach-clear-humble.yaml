@@ -1,0 +1,29 @@
+id: 3845
+game_id: 2114
+game_slug: breach-clear
+name: Breach & Clear
+year: 2014
+user: FakeShemp
+runner: linux
+slug: breach-clear-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-24T17:43:06.860664Z'
+updated_at: '2017-05-27T21:15:12.128962Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 266130
+gogid: 1434013541
+gogslug: breach_and_clear
+humblestoreid: ''
+script:
+  exe: Bnc.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Bnc.x86
+  files:
+  - file1: N/A:Please select the Humble archive

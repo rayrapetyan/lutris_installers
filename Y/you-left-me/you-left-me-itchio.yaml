@@ -1,0 +1,28 @@
+id: 8267
+game_id: 18003
+game_slug: you-left-me
+name: You Left Me
+year: 2018
+user: oscararg
+runner: linux
+slug: you-left-me-itchio
+version: Itchio
+description: null
+notes: ''
+created_at: '2018-05-10T16:26:12.041000Z'
+updated_at: '2018-08-16T06:21:26.698733Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: YOU LEFT ME_Linux/YOU LEFT ME.x86
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

@@ -1,0 +1,37 @@
+id: 17718
+game_id: 3746
+game_slug: pox-nora
+name: Pox Nora
+year: null
+user: muminseren
+runner: wine
+slug: pox-nora-official-client
+version: Official Client
+description: null
+notes: ''
+created_at: '2020-01-03T01:23:12.410033Z'
+updated_at: '2020-01-03T01:23:12.410060Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: 201210
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - move:
+      src: client
+      dst: $GAMEDIR
+  - chmodx: $GAMEDIR/PoxNoraSetup.exe
+  files:
+  - client: http://d2szb01kljasc0.cloudfront.net/port/launcher/PoxNoraSetup.exe
+  game:
+    prefix: $GAMEDIR
+    args: null
+    exe: PoxNoraSetup.exe

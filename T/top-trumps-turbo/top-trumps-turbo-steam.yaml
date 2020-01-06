@@ -1,0 +1,24 @@
+id: 2065
+game_id: 5650
+game_slug: top-trumps-turbo
+name: Top Trumps Turbo
+year: null
+user: dennisjj4
+runner: steam
+slug: top-trumps-turbo-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-05-13T02:41:20.724180Z'
+updated_at: '2016-09-30T20:44:15.263597Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 343180
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 343180

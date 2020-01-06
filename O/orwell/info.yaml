@@ -1,0 +1,16 @@
+name: Orwell
+slug: orwell
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Life simulation
+- name: Social simulation
+aliases: []
+banner_url: /games/banner/orwell.jpg
+icon_url: /games/icon/orwell.png
+is_public: true
+updated: '2019-01-23T08:30:38.386386Z'
+steamid: 491950
+gogslug: orwell
+humblestoreid: ''

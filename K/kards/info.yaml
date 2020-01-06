@@ -1,0 +1,17 @@
+name: KARDS
+slug: kards
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Cards
+- name: Casual
+- name: Strategy
+aliases: []
+banner_url: /games/banner/kards.jpg
+icon_url: /games/icon/kards.png
+is_public: true
+updated: '2019-10-06T22:05:27.436220Z'
+steamid: 544810
+gogslug: ''
+humblestoreid: ''

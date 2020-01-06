@@ -1,0 +1,33 @@
+id: 44
+game_id: 58
+game_slug: urban-terror
+name: Urban Terror
+year: 2007
+user: strider
+runner: linux
+slug: urban-terror-latest-64bit
+version: Latest (64bit)
+description: Linux updater
+notes: ''
+created_at: '2013-07-13T13:13:06Z'
+updated_at: '2016-10-06T18:33:07.622578Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Quake3-UrT.x86_64
+  installer:
+  - extract:
+      file: updater
+  - chmodx: $GAMEDIR/UrTUpdater.x86_64
+  - execute:
+      file: $GAMEDIR/UrTUpdater.x86_64
+  - chmodx: $GAMEDIR/Quake3-UrT.x86_64
+  - chmodx: $GAMEDIR/Quake3-UrT-Ded.x86_64
+  files:
+  - updater: https://lutris.net/files/games/urban-terror/urban-terror-updater.tar.gz

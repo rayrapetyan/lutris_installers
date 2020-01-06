@@ -1,0 +1,31 @@
+id: 10575
+game_id: 22215
+game_slug: iron-rust
+name: Iron & Rust
+year: 2018
+user: kimchitea
+runner: linux
+slug: iron-rust-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2018-10-20T15:50:18.669000Z'
+updated_at: '2018-10-21T06:59:26.235459Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Iron and Rust.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Iron and Rust.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Iron and Rust
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Iron and Rust
+  files:
+  - file1: N/A:Please select the game archive

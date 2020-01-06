@@ -1,0 +1,33 @@
+id: 1771
+game_id: 5389
+game_slug: gameplay-football
+name: Gameplay Football
+year: 2015
+user: strider
+runner: linux
+slug: gameplay-football-public-beta-2
+version: Public beta 2
+description: ''
+notes: ''
+created_at: '2015-12-28T17:54:59.594189Z'
+updated_at: '2015-12-28T17:56:38.684411Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: gameplay-football
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: beta2
+  - extract:
+      dst: $GAMEDIR
+      file: libs
+  files:
+  - beta2: http://www.properlydecent.com/releases/gameplayfootball_beta2v01_linux64.tar.gz
+  - libs: https://lutris.net/files/games/gameplay-football/gameplayfootball-libs.tar.gz

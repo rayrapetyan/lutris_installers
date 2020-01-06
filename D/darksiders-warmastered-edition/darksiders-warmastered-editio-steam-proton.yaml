@@ -1,0 +1,27 @@
+id: 13954
+game_id: 8959
+game_slug: darksiders-warmastered-edition
+name: Darksiders Warmastered Edition
+year: null
+user: jackgc123
+runner: steam
+slug: darksiders-warmastered-editio-steam-proton
+version: Steam Proton
+description: null
+notes: "Since this game is not officially whitelisted, you have to enable Steam Play\
+  \ for all titles in Steam's settings prior to installation.\r\n\r\n* In case you\
+  \ experience any issue related to Windows Media Foundation, install <a href=\"https://github.com/z0z0z/mf-installcab\"\
+  >this fix</a>."
+created_at: '2019-06-06T10:35:32.195367Z'
+updated_at: '2019-09-21T19:01:59.639675Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 462780
+gogid: 1430901154
+gogslug: darksiders_warmastered_edition
+humblestoreid: ''
+script:
+  game:
+    appid: 462780

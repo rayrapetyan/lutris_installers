@@ -1,0 +1,24 @@
+id: 809
+game_id: 2536
+game_slug: paranormal-state-poison-spring-collectors-edition
+name: 'Paranormal State: Poison Spring Collector''s Edition'
+year: null
+user: Xodetaetl
+runner: steam
+slug: paranormal-state-poison-spring-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T16:32:25.947000Z'
+updated_at: '2014-09-15T17:10:38.905000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 268810
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 268810

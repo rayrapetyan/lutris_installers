@@ -1,0 +1,24 @@
+id: 8233
+game_id: 4280
+game_slug: morphopolis
+name: Morphopolis
+year: null
+user: soredake
+runner: winesteam
+slug: morphopolis-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T07:33:13.197073Z'
+updated_at: '2018-05-13T08:59:51.213940Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 314020
+gogid: 1559432711
+gogslug: morphopolis
+humblestoreid: ''
+script:
+  game:
+    appid: 314020

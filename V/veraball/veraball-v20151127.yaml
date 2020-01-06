@@ -1,0 +1,29 @@
+id: 4238
+game_id: 11644
+game_slug: veraball
+name: Veraball
+year: 2015
+user: scottviger
+runner: linux
+slug: veraball-v20151127
+version: v2015.11.27
+description: Early release.
+notes: ''
+created_at: '2017-06-09T02:24:01.576605Z'
+updated_at: '2017-06-11T00:25:02.698163Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: veraball.x86_64
+  installer:
+  - extract:
+      file: veraball
+  - chmodx: veraball.x86_64
+  files:
+  - veraball: https://github.com/Veraball/veraball/releases/download/v2015.11.27/veraball-linux.v2015.11.27.tar.xz

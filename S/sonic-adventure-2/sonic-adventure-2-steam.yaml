@@ -1,0 +1,41 @@
+id: 2379
+game_id: 1412
+game_slug: sonic-adventure-2
+name: Sonic Adventure 2
+year: 2001
+user: strider
+runner: winesteam
+slug: sonic-adventure-2-steam
+version: steam
+description: null
+notes: ''
+created_at: '2016-07-30T21:34:07.657322Z'
+updated_at: '2019-12-28T22:03:51.936367Z'
+draft: false
+published: true
+published_by: null
+rating: '3'
+steamid: 213610
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    xinput: true
+    overrides:
+      dinput8: native,builtin
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: x360ce_dinput8
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing .NET 2.0
+      app: dotnet20
+      silent: true
+      name: winetricks
+  files:
+  - x360ce_dinput8: https://lutris.net/files/tools/x360ce-dinput8.tar.gz
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 213610

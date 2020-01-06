@@ -1,0 +1,16 @@
+name: The Forest of Doom
+slug: the-forest-of-doom
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/the-forest-of-doom.jpg
+icon_url: /games/icon/the-forest-of-doom.png
+is_public: true
+updated: '2019-01-23T08:31:41.465165Z'
+steamid: 270490
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,31 @@
+id: 10505
+game_id: 22171
+game_slug: gt-racing-2-the-real-car-experience
+name: 'GT Racing 2: The real car experience'
+year: 2013
+user: te_lanus
+runner: libretro
+slug: gt-racing-2-the-real-car-expe-j2me
+version: J2ME
+description: null
+notes: ''
+created_at: '2018-10-14T18:28:09.153144Z'
+updated_at: '2018-10-14T18:29:53.060644Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Java game file
+  game:
+    core: freej2me
+    main_file: file1

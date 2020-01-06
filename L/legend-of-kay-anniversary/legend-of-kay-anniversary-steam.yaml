@@ -1,0 +1,114 @@
+id: 8373
+game_id: 13845
+game_slug: legend-of-kay-anniversary
+name: Legend of Kay Anniversary
+year: 2015
+user: nastys
+runner: winesteam
+slug: legend-of-kay-anniversary-steam
+version: Steam
+description: Windows version from Steam.
+notes: "- Requires cabextract and Python to install the Media Foundation libraries\
+  \ required for video playback\r\n- If you hear crackling, enable \"Reset PulseAudio\"\
+  \ (right-click on the game, select \"Configure\" \u2192 \"System options\")\r\n\
+  - Video playback may be sluggish and out of sync with the audio. Enabling DXVK fixes\
+  \ it (right-click on the game, select \"Configure\" \u2192 \"Runner options\", then\
+  \ check/tick \"Enable DXVK\"), but it may also make the game run slower and cause\
+  \ issues with certain video drivers"
+created_at: '2018-05-22T07:45:12.038000Z'
+updated_at: '2018-06-05T05:04:21.105686Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 313810
+gogid: 1437553673
+gogslug: legend_of_kay_anniversary
+humblestoreid: ''
+script:
+  installer:
+  - input_menu:
+      options:
+      - Y: 'Yes'
+      - N: 'No'
+      description: 'Allow the window manager to control and decorate the game window
+        (disable if you use DXVK and the game hangs):'
+      id: DECOR
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Creating Wine prefix...
+      arch: win64
+      name: create_prefix
+  - extract:
+      description: Unpacking python-installcab...
+      dst: $GAMEDIR/prefix
+      file: instcab
+  - chmodx: $GAMEDIR/prefix/installcab.py
+  - chmodx: $GAMEDIR/prefix/install-mf.sh
+  - execute:
+      env:
+        WINEPREFIX: $GAMEDIR/prefix
+      args: w7sp
+      description: Installing Media Foundation libraries...
+      file: $GAMEDIR/prefix/install-mf.sh
+  - execute:
+      args: -F Jun2010_XAudio_x??.cab $dx -d /tmp
+      description: Installing DirectX Audio libraries...
+      file: cabextract
+  - move:
+      src: $GAMEDIR/prefix/drive_c/windows/system32/xaudio2_7.dll
+      description: Backing up fake DirectX Audio libraries...
+      dst: $GAMEDIR/prefix/drive_c/windows/system32/xaudio2_7.dll.bak
+  - move:
+      src: $GAMEDIR/prefix/drive_c/windows/syswow64/xaudio2_7.dll
+      description: Backing up fake DirectX Audio libraries...
+      dst: $GAMEDIR/prefix/drive_c/windows/syswow64/xaudio2_7.dll.bak
+  - execute:
+      args: -F xaudio2_7.dll /tmp/Jun2010_XAudio_x64.cab -d $GAMEDIR/prefix/drive_c/windows/system32
+      description: Installing DirectX Audio libraries...
+      file: cabextract
+  - execute:
+      args: -F xaudio2_7.dll /tmp/Jun2010_XAudio_x86.cab -d $GAMEDIR/prefix/drive_c/windows/syswow64
+      description: Installing DirectX Audio libraries...
+      file: cabextract
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Setting registry keys...
+      arch: win64
+      key: Decorated
+      value: $INPUT_DECOR
+      path: HKEY_CURRENT_USER\Software\Wine\X11 Driver\
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Setting registry keys...
+      arch: win64
+      key: Managed
+      value: $INPUT_DECOR
+      path: HKEY_CURRENT_USER\Software\Wine\X11 Driver\
+      name: set_regedit
+  winesteam:
+    version: pba-firerat-3.9-x86_64
+    overrides:
+      mf.dll: n
+      mfplat.dll: n
+      mfreadwrite.dll: n
+      xaudio2_7.dll: n
+      wmvdcod.dll: n
+      wmadmod.dll: n
+  system:
+    env:
+      __GL_THREADED_OPTIMIZATIONS: '1'
+      mesa_glthread: 'true'
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      __GL_SHADER_DISK_CACHE: '1'
+  files:
+  - instcab:
+      filename: python-installcab.zip
+      url: https://codeload.github.com/nastys/python-installcab/zip/0b22cab6b88c4c97b63c9405040563f431ec66b3
+  - dx: https://download.microsoft.com/download/8/4/A/84A35BF1-DAFE-4AE8-82AF-AD2AE20B6B14/directx_Jun2010_redist.exe
+  - w7sp: https://download.microsoft.com/download/0/A/F/0AFB5316-3062-494A-AB78-7FB0D4461357/windows6.1-KB976932-X64.exe
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 313810
+    arch: win64

@@ -1,0 +1,17 @@
+name: Phantasmagoria 2
+slug: phantasmagoria-2
+year: 1996
+platforms:
+- name: MS-DOS
+- name: Windows
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/phantasmagoria-2.jpg
+icon_url: /games/icon/phantasmagoria-2.png
+is_public: false
+updated: '2019-05-23T21:13:18.032053Z'
+steamid: 501970
+gogslug: phantasmagoria_2
+humblestoreid: ''

@@ -1,0 +1,48 @@
+id: 15559
+game_id: 13926
+game_slug: waxworks
+name: Waxworks
+year: 1992
+user: appoloin
+runner: scummvm
+slug: waxworks-ms-dos
+version: MS-DOS
+description: null
+notes: ''
+created_at: '2019-09-15T09:43:57.353272Z'
+updated_at: '2019-09-15T09:43:57.353300Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: 1207658702
+gogslug: waxworks
+humblestoreid: ''
+script:
+  installer:
+  - write_file:
+      content: '#!/bin/bash
+
+        src=$1
+
+        dst=$2
+
+        src_path=$(echo "$1" | sed -r "s/(.+)\/.+/\1/")
+
+        find "$src_path" -type f \( -iname "*.MUS" -o -iname "MENUS.DAT" -o -iname
+        "MUSIC.DRV" -o -iname "ROOMS*" -o -iname "ROOMSLST*" -o -iname "START*" -o
+        -iname "STATELST" -o -iname "STRIPPED.TXT" -o -iname "TABLES*" -o -iname "TBLLIST"
+        -o -iname "TEXT*" -o -iname "WAX.FXB" -o -iname "XTABLE*" -o -iname "XTBLLIST"
+        -o -iname "*.VGA" -o -iname "GAMEPC" -o -iname "ICON.DAT" \) -exec cp {} "$dst"
+        \;'
+      file: $CACHE/selectcopy.sh
+  - chmodx: $CACHE/selectcopy.sh
+  - execute:
+      args: $game $GAMEDIR
+      file: $CACHE/selectcopy.sh
+  files:
+  - game: N/A:Select a file with *.exe extension
+  game:
+    game_id: waxworks
+    path: $GAMEDIR

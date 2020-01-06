@@ -1,0 +1,24 @@
+id: 15336
+game_id: 25195
+game_slug: mothergunship
+name: MOTHERGUNSHIP
+year: 2018
+user: improperBunny
+runner: steam
+slug: mothergunship-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-09-06T22:13:10.254000Z'
+updated_at: '2019-10-11T01:29:06.539682Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 574090
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 574090

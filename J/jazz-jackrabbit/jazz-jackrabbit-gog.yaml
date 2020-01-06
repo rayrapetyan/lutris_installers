@@ -1,0 +1,59 @@
+id: 6528
+game_id: 4083
+game_slug: jazz-jackrabbit
+name: Jazz Jackrabbit
+year: 1994
+user: djazz
+runner: dosbox
+slug: jazz-jackrabbit-gog
+version: GOG
+description: Installs Jazz Jackrabbit from the GOG Linux installer
+notes: "Includes a fix for the game-breaking bug in Orbitus 2.\r\n\r\n<a href=\"https://www.gog.com/downloads/jazz_jackrabbit_collection/en3installer0\"\
+  >Download game directly from GOG.com</a>"
+created_at: '2017-12-02T14:49:45.615000Z'
+updated_at: '2019-04-08T02:11:11.352623Z'
+draft: false
+published: true
+published_by: 19464
+rating: '5'
+steamid: null
+gogid: 1808582759
+gogslug: jazz_jackrabbit_collection
+humblestoreid: ''
+script:
+  dosbox:
+    scaler: normal3x
+  installer:
+  - extract:
+      dst: $CACHE
+      file: zip
+  - execute:
+      args: $game -d "$CACHE" "data/noarch/*"
+      description: Extracting game data
+      file: $CACHE/unzip
+  - rename:
+      src: $CACHE/data/noarch/data/LEVEL1.005
+      dst: $CACHE/data/noarch/data/LEVEL1.005.bak
+  - extract:
+      dst: $CACHE/data/noarch/data
+      file: helper
+  - execute:
+      command: mv -f $CACHE/data/noarch/* $GAMEDIR/
+      description: Extracting game data
+  - write_config:
+      section: sdl
+      key: fullscreen
+      value: 'false'
+      file: $GAMEDIR/dosbox_jazz.conf
+  - write_config:
+      section: joystick
+      key: timed
+      value: 'false'
+      file: $GAMEDIR/dosbox_jazz.conf
+  files:
+  - game: N/A:Please select the GOG.com Jazz Jackrabbit Linux installer
+  - zip: http://lutris.net/files/tools/unzip.tar.gz
+  - helper: https://gist.github.com/daniel-j/8b6c04df599fec82958b8bc4d1d69473/archive/master.zip
+  game:
+    config_file: $GAMEDIR/dosbox_jazz.conf
+    main_file: $GAMEDIR/dosbox_jazz_single.conf

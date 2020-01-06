@@ -1,0 +1,32 @@
+id: 1836
+game_id: 2029
+game_slug: stunt-rally
+name: Stunt Rally
+year: 2014
+user: RobLoach
+runner: linux
+slug: stunt-rally-26
+version: '2.6'
+description: null
+notes: "- On Arch:\r\n  If the game doesn't start at all (segfault on launch), try\
+  \ to delete lib/64/libstdc++.so.6 from the game's intall directory. (It is conflicting\
+  \ with the one already installed on your OS)"
+created_at: '2016-01-07T20:06:50.655000Z'
+updated_at: '2018-06-29T03:40:00.124934Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $download
+  files:
+  - download: https://downloads.sourceforge.net/project/stuntrally/2.6/StuntRally-2.6-linux.tar.gz
+  game:
+    exe: stuntrally

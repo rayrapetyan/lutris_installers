@@ -1,0 +1,34 @@
+id: 14025
+game_id: 1384
+game_slug: risk-of-rain
+name: Risk of Rain
+year: null
+user: jacksapper
+runner: linux
+slug: risk-of-rain-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-06-10T06:56:43.728000Z'
+updated_at: '2019-06-13T08:02:04.954045Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 248820
+gogid: 1207660563
+gogslug: risk_of_rain
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

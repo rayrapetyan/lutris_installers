@@ -1,0 +1,24 @@
+id: 8463
+game_id: 4922
+game_slug: turok-2-seeds-of-evil
+name: 'Turok 2: Seeds of Evil'
+year: 1998
+user: TuiorGames
+runner: steam
+slug: turok-2-seeds-of-evil-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-29T12:31:48.221245Z'
+updated_at: '2018-05-30T06:19:03.347244Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 405830
+gogid: 1410768011
+gogslug: turok_2_seeds_of_evil
+humblestoreid: ''
+script:
+  game:
+    appid: 405830

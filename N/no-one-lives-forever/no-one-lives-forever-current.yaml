@@ -1,0 +1,55 @@
+id: 3298
+game_id: 9991
+game_slug: no-one-lives-forever
+name: No One Lives Forever
+year: 2000
+user: professorkaos64
+runner: wine
+slug: no-one-lives-forever-current
+version: current
+description: null
+notes: ''
+created_at: '2017-02-26T23:43:11.032000Z'
+updated_at: '2018-07-10T04:16:27.818625Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - insert-disc:
+      requires: data1.hdr
+  - task:
+      prefix: $GAMEDIR
+      description: Installing dsound
+      app: dsound
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing dmusic
+      app: dmusic
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing DirectX 9
+      app: directx9
+      silent: true
+      name: winetricks
+  - task:
+      executable: $DISC/Setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Games/NOLF/NOLF.exe

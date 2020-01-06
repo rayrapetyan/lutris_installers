@@ -1,0 +1,15 @@
+name: WRC 7
+slug: wrc-7
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/wrc-7.jpg
+icon_url: /games/icon/wrc-7.png
+is_public: false
+updated: '2019-11-06T03:14:10.757702Z'
+steamid: 621830
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,30 @@
+id: 10917
+game_id: 6039
+game_slug: super-mario-bros
+name: Super Mario Bros.
+year: 1985
+user: rican-linux
+runner: mednafen
+slug: super-mario-bros-nes
+version: NES
+description: null
+notes: ''
+created_at: '2018-11-18T22:58:14.925343Z'
+updated_at: '2018-11-20T03:52:49.345667Z'
+draft: true
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: rom
+      dst: $GAMEDIR
+  files:
+  - rom: N/A:Select the game's ROM file
+  game:
+    main_file: rom

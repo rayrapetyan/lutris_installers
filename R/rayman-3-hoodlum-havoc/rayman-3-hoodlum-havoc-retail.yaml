@@ -1,0 +1,47 @@
+id: 15270
+game_id: 21100
+game_slug: rayman-3-hoodlum-havoc
+name: 'Rayman 3: Hoodlum Havoc'
+year: 2003
+user: tognee
+runner: wine
+slug: rayman-3-hoodlum-havoc-retail
+version: Retail
+description: Install the game without changing the default installation folder
+notes: ''
+created_at: '2019-09-03T12:36:47.192180Z'
+updated_at: '2019-09-03T12:36:47.192210Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: 1207658947
+gogslug: rayman_3_hoodlum_havoc
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating WINE prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: winxp
+      name: winetricks
+  - insert-disc:
+      requires: Rayman3.exe
+  - task:
+      executable: $DISC/setup.exe
+      description: Installing Rayman 3, don't change default settings.
+      arch: win32
+      name: wineexec
+  wine:
+    version: tkg-4.0-x86_64
+    WineDesktop: 1024x768
+    Desktop: true
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Ubisoft/Rayman 3/Rayman3.exe
+    arch: win32

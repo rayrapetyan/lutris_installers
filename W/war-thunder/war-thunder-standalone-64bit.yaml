@@ -1,0 +1,38 @@
+id: 1020
+game_id: 882
+game_slug: war-thunder
+name: War Thunder
+year: 2012
+user: Xodetaetl
+runner: linux
+slug: war-thunder-standalone-64bit
+version: Standalone 64bit
+description: null
+notes: ''
+created_at: '2014-11-06T14:37:25.057000Z'
+updated_at: '2019-06-13T08:09:05.215741Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 236390
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  system:
+    terminal: true
+  installer:
+  - extract:
+      format: tgz
+      dst: $GAMEDIR
+      file: game
+  - execute:
+      description: Launcher will download the actual game
+      file: $GAMEDIR/launcher
+      terminal: true
+  exe: launcher
+  files:
+  - game:
+      filename: wt_launcher_linux_0.9.4.11.tar.gz
+      url: https://warthunder.com/download/launcherLinux/

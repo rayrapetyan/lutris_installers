@@ -1,0 +1,35 @@
+id: 14872
+game_id: 28231
+game_slug: shattered-paradise
+name: Shattered Paradise
+year: 2018
+user: nop
+runner: linux
+slug: shattered-paradise-20181210
+version: '20181210'
+description: null
+notes: "Requires Mono to be installed on your system: https://www.mono-project.com/download/stable/#download-lin\
+  \ or try \r\nArch Linux/Manjaro:\r\n\"sudo pacman -S mono\"\r\n\r\nDebian/Ubuntu-based:\r\
+  \n \"sudo apt install mono-devel\"\r\n\r\n\r\nShattered Paradise will not launch\
+  \ and crash on boot without it."
+created_at: '2019-08-05T12:44:17.967000Z'
+updated_at: '2019-10-31T00:56:17.686027Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  system:
+    disable_runtime: true
+  installer:
+  - move:
+      src: file1
+      dst: $GAMEDIR
+  - chmodx: $GAMEDIR/ShatteredParadise-SP-Build-20181210.AppImage
+  exe: ShatteredParadise-SP-Build-20181210.AppImage
+  files:
+  - file1: https://github.com/ABrandau/Shattered-Paradise-SDK/releases/download/SP-Build-20181210/ShatteredParadise-SP-Build-20181210.AppImage

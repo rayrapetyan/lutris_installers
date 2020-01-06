@@ -1,0 +1,24 @@
+id: 11677
+game_id: 5154
+game_slug: fuse
+name: Fuse
+year: null
+user: kristian95
+runner: winesteam
+slug: fuse-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-01-22T10:15:52.388130Z'
+updated_at: '2019-01-23T01:34:42.894311Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 257400
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 257400

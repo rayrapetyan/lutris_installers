@@ -1,0 +1,24 @@
+id: 7205
+game_id: 8217
+game_slug: surfingers
+name: Surfingers
+year: 2016
+user: t-rex91
+runner: steam
+slug: surfingers-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-01-30T20:54:16.177324Z'
+updated_at: '2018-01-30T22:32:11.606389Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 438080
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 438080

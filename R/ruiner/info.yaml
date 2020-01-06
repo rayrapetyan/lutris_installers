@@ -1,0 +1,19 @@
+name: RUINER
+slug: ruiner
+year: 2017
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Action
+- name: Shoot'em up
+- name: Shooter
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/ruiner.jpg
+icon_url: /games/icon/ruiner.png
+is_public: true
+updated: '2019-01-30T01:50:41.423517Z'
+steamid: 464060
+gogslug: ruiner
+humblestoreid: ''

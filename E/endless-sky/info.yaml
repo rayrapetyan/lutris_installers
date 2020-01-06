@@ -1,0 +1,16 @@
+name: Endless Sky
+slug: endless-sky
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Space simulation
+aliases: []
+banner_url: /games/banner/endless-sky.jpg
+icon_url: /games/icon/endless-sky.png
+is_public: true
+updated: '2019-01-23T08:29:23.283150Z'
+steamid: 404410
+gogslug: ''
+humblestoreid: ''

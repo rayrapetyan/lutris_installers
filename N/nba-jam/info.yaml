@@ -1,0 +1,20 @@
+name: NBA Jam
+slug: nba-jam
+year: 1993
+platforms:
+- name: Arcade
+- name: Game Boy
+- name: Sega Game Gear
+- name: Sega Genesis / Mega Drive
+- name: Super Nintendo
+genres:
+- name: Sports
+- name: Team sport
+aliases: []
+banner_url: /games/banner/nba-jam.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-29T09:02:02.987700Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

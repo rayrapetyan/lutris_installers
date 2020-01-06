@@ -1,0 +1,15 @@
+name: Astebreed
+slug: astebreed
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/astebreed.jpg
+icon_url: /games/icon/astebreed.png
+is_public: true
+updated: '2019-01-23T08:28:27.606241Z'
+steamid: 283680
+gogslug: astebreed
+humblestoreid: ''

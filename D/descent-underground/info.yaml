@@ -1,0 +1,16 @@
+name: 'Descent: Underground'
+slug: descent-underground
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Shooter
+aliases: []
+banner_url: /games/banner/descent-underground.jpg
+icon_url: /games/icon/descent-underground.png
+is_public: true
+updated: '2019-01-23T08:29:10.092391Z'
+steamid: 360950
+gogslug: ''
+humblestoreid: ''

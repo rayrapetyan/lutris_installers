@@ -1,0 +1,24 @@
+id: 1053
+game_id: 3441
+game_slug: darklands
+name: Darklands
+year: 1992
+user: Xodetaetl
+runner: steam
+slug: darklands-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-11-11T14:21:13.750000Z'
+updated_at: '2014-11-11T14:21:18.370000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 327930
+gogid: 1207658972
+gogslug: darklands
+humblestoreid: ''
+script:
+  game:
+    appid: 327930

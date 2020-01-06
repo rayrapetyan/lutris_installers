@@ -1,0 +1,16 @@
+name: 'Insurgency: Sandstorm'
+slug: insurgency-sandstorm
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+aliases: []
+banner_url: /games/banner/insurgency-sandstorm.jpg
+icon_url: /games/icon/insurgency-sandstorm.png
+is_public: true
+updated: '2019-01-23T08:29:57.513787Z'
+steamid: 581320
+gogslug: ''
+humblestoreid: ''

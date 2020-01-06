@@ -1,0 +1,73 @@
+id: 13793
+game_id: 27572
+game_slug: adobe-acrobat-reader-dc
+name: Adobe Acrobat Reader DC
+year: 2015
+user: Maxattax
+runner: wine
+slug: adobe-acrobat-reader-dc-installer
+version: Installer
+description: null
+notes: At the moment requires you to disable protected execution (first dialog popup).
+created_at: '2019-05-30T01:24:42.984938Z'
+updated_at: '2019-05-30T01:24:42.984966Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Adobe/Acrobat Reader DC/Reader/AcroRd32.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Installing allfonts
+      app: allfonts
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing richtx32
+      app: richtx32
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing wsh57
+      app: wsh57
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing atmlib
+      app: atmlib
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing mspatcha
+      app: mspatcha
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing dotnet472
+      app: dotnet472
+      arch: win32
+      name: winetricks
+  - task:
+      executable: setup
+      description: Installing Adobe Acrobat Reader DC
+      arch: win32
+      name: wineexec
+  wine:
+    wine: 4.3-x86_64
+    sandbox: false
+  files:
+  - setup: https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/1901220034/AcroRdrDC1901220034_en_US.exe

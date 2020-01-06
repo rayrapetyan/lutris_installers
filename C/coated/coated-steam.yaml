@@ -1,0 +1,24 @@
+id: 4282
+game_id: 7904
+game_slug: coated
+name: Coated
+year: null
+user: FakeShemp
+runner: steam
+slug: coated-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-06-10T20:53:54.479923Z'
+updated_at: '2017-06-11T00:42:37.455020Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 354810
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 354810

@@ -1,0 +1,25 @@
+id: 13189
+game_id: 1114
+game_slug: star-wars-the-force-unleashed
+name: 'Star Wars: The Force Unleashed Ultimate Sith Edition'
+year: 2009
+user: skyace65
+runner: steam
+slug: star-wars-the-force-unleashed-steam-proton
+version: Steam Proton
+description: null
+notes: Since this game is not officially whitelisted, you have to enable Steam Play
+  for all titles in Steam's settings prior to installation.
+created_at: '2019-04-28T14:01:51.393000Z'
+updated_at: '2019-05-19T07:11:44.273701Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 32430
+gogid: 1189268228
+gogslug: star_wars_the_force_unleashed_ultimate_sith_edition
+humblestoreid: ''
+script:
+  game:
+    appid: 32430

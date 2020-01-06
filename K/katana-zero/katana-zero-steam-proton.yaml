@@ -1,0 +1,24 @@
+id: 14020
+game_id: 26899
+game_slug: katana-zero
+name: Katana Zero
+year: 2019
+user: jacksapper
+runner: steam
+slug: katana-zero-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-06-10T04:34:23.271000Z'
+updated_at: '2019-06-12T04:12:06.771815Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 460950
+gogid: 1557080015
+gogslug: katana_zero
+humblestoreid: ''
+script:
+  game:
+    appid: 460950

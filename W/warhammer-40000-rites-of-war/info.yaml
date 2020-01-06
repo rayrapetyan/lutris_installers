@@ -1,0 +1,17 @@
+name: 'Warhammer 40,000: Rites of War'
+slug: warhammer-40000-rites-of-war
+year: 1999
+platforms:
+- name: Windows
+genres:
+- name: Sci-fi
+- name: Strategy
+- name: Turn-based
+aliases: []
+banner_url: /games/banner/warhammer-40000-rites-of-war.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:05.863438Z'
+steamid: null
+gogslug: warhammer_40000_rites_of_war
+humblestoreid: ''

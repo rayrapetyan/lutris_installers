@@ -1,0 +1,24 @@
+id: 2173
+game_id: 5457
+game_slug: hatoful-boyfriend-holiday-star
+name: 'Hatoful Boyfriend: Holiday Star'
+year: null
+user: Lulu
+runner: steam
+slug: hatoful-boyfriend-holiday-sta-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-06-20T20:42:28.116370Z'
+updated_at: '2016-08-18T10:18:48.264933Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 377080
+gogid: 1450092067
+gogslug: hatoful_boyfriend_holiday_star
+humblestoreid: ''
+script:
+  game:
+    appid: 377080

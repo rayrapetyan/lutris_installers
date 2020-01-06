@@ -1,0 +1,24 @@
+id: 747
+game_id: 2461
+game_slug: heavy-bullets
+name: Heavy Bullets
+year: null
+user: Xodetaetl
+runner: steam
+slug: heavy-bullets-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T13:46:32.640000Z'
+updated_at: '2014-09-15T16:13:30.986000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 297120
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 297120

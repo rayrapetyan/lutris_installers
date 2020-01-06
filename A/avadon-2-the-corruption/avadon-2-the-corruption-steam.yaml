@@ -1,0 +1,24 @@
+id: 8280
+game_id: 1956
+game_slug: avadon-2-the-corruption
+name: 'Avadon 2: The Corruption'
+year: null
+user: Honeytoes
+runner: winesteam
+slug: avadon-2-the-corruption-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-13T19:13:59.558231Z'
+updated_at: '2018-05-14T03:44:21.967958Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 233310
+gogid: 1207660054
+gogslug: avadon_2_the_corruption
+humblestoreid: ''
+script:
+  game:
+    appid: 233310

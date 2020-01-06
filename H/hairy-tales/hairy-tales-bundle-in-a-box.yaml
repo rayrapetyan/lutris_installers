@@ -1,0 +1,31 @@
+id: 4854
+game_id: 12087
+game_slug: hairy-tales
+name: Hairy Tales
+year: 2012
+user: FakeShemp
+runner: linux
+slug: hairy-tales-bundle-in-a-box
+version: Bundle in a Box
+description: ''
+notes: ''
+created_at: '2017-07-06T17:27:07.163939Z'
+updated_at: '2017-07-09T20:14:37.223367Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: HairyTales.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/HairyTales.x86
+  - chmodx: $GAMEDIR/HairyTales.x86_64
+  exe64: HairyTales.x86_64
+  files:
+  - file1: N/A:Please select the BIAB archive

@@ -1,0 +1,46 @@
+id: 11622
+game_id: 11357
+game_slug: anarchy-online
+name: Anarchy Online
+year: null
+user: magzu
+runner: wine
+slug: anarchy-online-windows-non-steam
+version: Windows non steam
+description: AO old engine non steam
+notes: ''
+created_at: '2019-01-17T19:34:54.331000Z'
+updated_at: '2019-06-12T04:49:16.928661Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 396280
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows version to XP
+      app: winxp
+      arch: win32
+      name: winetricks
+  - task:
+      executable: AO_installer
+      prefix: $GAMEDIR
+      description: Running Anarchy Online Installer. Please do not run the game until
+        this script finishes installing.
+      arch: win32
+      name: wineexec
+  files:
+  - AO_installer: http://update.anarchy-online.com/download/AO/AnarchyOnline_EP1.exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Funcom/Anarchy Online/AnarchyOnline.exe
+    arch: win32

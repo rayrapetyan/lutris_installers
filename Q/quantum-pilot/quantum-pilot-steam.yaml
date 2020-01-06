@@ -1,0 +1,24 @@
+id: 7552
+game_id: 14984
+game_slug: quantum-pilot
+name: Quantum Pilot
+year: 2017
+user: t-rex91
+runner: steam
+slug: quantum-pilot-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-15T16:41:46.511000Z'
+updated_at: '2018-03-20T04:45:21.124091Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 652000
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 652000

@@ -1,0 +1,32 @@
+id: 5254
+game_id: 5717
+game_slug: superstatic
+name: Superstatic
+year: null
+user: FakeShemp
+runner: linux
+slug: superstatic-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-01T21:04:16.294000Z'
+updated_at: '2017-08-27T21:25:13.917504Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 375290
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Superstatic.sh
+  installer:
+  - extract:
+      file: $file1
+  - extract:
+      file: $file2
+  - chmodx: $GAMEDIR/Superstatic.sh
+  files:
+  - file1: N/A:Please select the Groupees archive
+  - file2: https://gist.github.com/FakeShemp/5bbfa3162bc4713568bd03ba4898836e/archive/fb4268f356227d7fa4aeec6d19c7ec7edcfc82de.zip

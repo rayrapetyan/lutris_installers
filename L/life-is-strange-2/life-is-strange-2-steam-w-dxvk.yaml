@@ -1,0 +1,38 @@
+id: 10341
+game_id: 20310
+game_slug: life-is-strange-2
+name: Life is Strange 2
+year: null
+user: soredake
+runner: winesteam
+slug: life-is-strange-2-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2018-09-26T17:12:53.889000Z'
+updated_at: '2019-12-22T19:22:21.155990Z'
+draft: false
+published: true
+published_by: 20548
+rating: '5'
+steamid: 532210
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: dxvkcache
+  winesteam:
+    dxvk: true
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+  files:
+  - dxvkcache: https://github.com/tannisroot/dxvk-caches/releases/download/LIS2/LIS2-Win64-Shipping.tar.xz
+  game:
+    appid: 532210

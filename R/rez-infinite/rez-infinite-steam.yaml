@@ -1,0 +1,24 @@
+id: 15403
+game_id: 16744
+game_slug: rez-infinite
+name: Rez Infinite
+year: 2016
+user: KekBoi
+runner: wine
+slug: rez-infinite-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-09-08T16:38:21.344556Z'
+updated_at: '2019-09-09T03:07:02.333802Z'
+draft: true
+published: true
+published_by: null
+rating: ''
+steamid: 636450
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 636450

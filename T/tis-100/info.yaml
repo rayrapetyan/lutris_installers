@@ -1,0 +1,17 @@
+name: TIS-100
+slug: tis-100
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Modern
+- name: Puzzle
+- name: Simulation
+aliases: []
+banner_url: /games/banner/tis-100.jpg
+icon_url: /games/icon/tis-100.png
+is_public: true
+updated: '2019-01-23T08:31:51.701641Z'
+steamid: 370360
+gogslug: tis100
+humblestoreid: ''

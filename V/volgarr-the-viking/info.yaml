@@ -1,0 +1,17 @@
+name: Volgarr the Viking
+slug: volgarr-the-viking
+year: 2013
+platforms:
+- name: Linux
+- name: Sega Dreamcast
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/volgarr-the-viking.jpg
+icon_url: /games/icon/volgarr-the-viking.png
+is_public: true
+updated: '2019-01-23T08:32:03.688831Z'
+steamid: 247240
+gogslug: volgarr_the_viking
+humblestoreid: volgarr-the-viking

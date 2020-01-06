@@ -1,0 +1,16 @@
+name: OGS Mahjong
+slug: ogs-mahjong
+year: 2013
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/ogs-mahjong.jpg
+icon_url: /games/icon/ogs-mahjong.png
+is_public: true
+updated: '2019-11-28T07:44:22.481618Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,31 @@
+id: 9340
+game_id: 11946
+game_slug: pokemon-prism
+name: "Pok\xE9mon Prism"
+year: 2016
+user: paperbenni
+runner: libretro
+slug: pokemon-prism-full
+version: Full
+description: null
+notes: ''
+created_at: '2018-07-23T17:14:42.524000Z'
+updated_at: '2018-07-29T04:38:47.969040Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: http://pokemonprism.surge.sh/prism.gbc
+  game:
+    core: gambatte
+    main_file: file1

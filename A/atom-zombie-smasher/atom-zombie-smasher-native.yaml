@@ -1,0 +1,28 @@
+id: 1568
+game_id: 225
+game_slug: atom-zombie-smasher
+name: Atom Zombie Smasher
+year: 2011
+user: strider
+runner: linux
+slug: atom-zombie-smasher-native
+version: Native
+description: DRM free version from humblebundle.com
+notes: ''
+created_at: '2015-08-02T05:03:57.948117Z'
+updated_at: '2015-08-02T05:04:10.835619Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 55040
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: AtomZombieSmasher
+  installer:
+  - extract:
+      file: azsarchive
+  files:
+  - azsarchive: N/A:Select the game archive

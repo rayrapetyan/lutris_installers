@@ -1,0 +1,36 @@
+id: 8711
+game_id: 19270
+game_slug: quake-the-offering
+name: 'Quake: The Offering'
+year: 1998
+user: edjaa84
+runner: linux
+slug: quake-the-offering-darkplaces-fedora28
+version: Darkplaces + Fedora28
+description: null
+notes: "$game-data-packager --search /home/user/Downloads/GOG.exe\r\n\r\nMayor informaci\xF3\
+  n:\r\nhttp://rapimodebianpakager.blogspot.com/p/gdp-game-data-pakaguer.html\r\n\r\
+  \nhttp://rapimodebianpakager.blogspot.com/p/quake.html"
+created_at: '2018-06-13T16:23:34.284000Z'
+updated_at: '2018-06-15T05:15:11.085063Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1440166133
+gogslug: quake_the_offering
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: darkplaces-engine
+  - chmodx: $GAMEDIR/darkplaces-linux-686-sdl
+  - chmodx: $GAMEDIR/darkplaces-linux-x86_64-sdl
+  files:
+  - darkplaces-engine: http://icculus.org/twilight/darkplaces/files/darkplacesengine20140513.zip
+  game:
+    args: -basedir /usr/share/quake
+    exe: darkplaces-linux-686-sdl
+    exe64: darkplaces-linux-x86_64-sdl

@@ -1,0 +1,16 @@
+name: Quantum Pilot
+slug: quantum-pilot
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/quantum-pilot.jpg
+icon_url: /games/icon/quantum-pilot.png
+is_public: true
+updated: '2019-01-23T08:30:52.950531Z'
+steamid: 652000
+gogslug: ''
+humblestoreid: ''

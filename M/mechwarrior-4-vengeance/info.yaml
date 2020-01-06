@@ -1,0 +1,16 @@
+name: 'MechWarrior 4: Vengeance'
+slug: mechwarrior-4-vengeance
+year: 2000
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Simulation
+aliases: []
+banner_url: /games/banner/mechwarrior-4-vengeance.jpg
+icon_url: null
+is_public: true
+updated: '2019-12-22T18:06:51.279468Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

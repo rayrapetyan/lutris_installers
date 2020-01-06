@@ -1,0 +1,41 @@
+id: 10979
+game_id: 23391
+game_slug: the-witchs-house
+name: The Witch's House
+year: null
+user: superuserocde
+runner: wine
+slug: the-witchs-house-108
+version: '1.08'
+description: null
+notes: ''
+created_at: '2018-11-25T07:56:37.701444Z'
+updated_at: '2018-11-29T05:06:03.225829Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: cjkfonts
+      arch: win32
+      name: winetricks
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/TheWitchsHouse108
+      file: zip
+  files:
+  - zip: http://www.vgperson.com/games/TheWitchsHouse108.zip
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/TheWitchsHouse108/Game.exe
+    arch: win32

@@ -1,0 +1,24 @@
+id: 115
+game_id: 426
+game_slug: counter-strike-condition-zero-deleted-scenes
+name: 'Counter-Strike: Condition Zero Deleted Scenes'
+year: 2004
+user: dennisjj4
+runner: steam
+slug: counter-strike-condition-zero-deleted-scenes-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2013-12-17T18:26:23.819000Z'
+updated_at: '2013-12-17T23:38:41.827000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 100
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 100

@@ -1,0 +1,30 @@
+id: 11729
+game_id: 25388
+game_slug: game-over-quest
+name: Game Over Quest
+year: 2018
+user: Frankiva
+runner: linux
+slug: game-over-quest-14
+version: '1.4'
+description: null
+notes: ''
+created_at: '2019-01-26T19:45:16.300876Z'
+updated_at: '2019-01-27T01:23:34.867097Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Game
+  installer:
+  - extract:
+      src: file_id
+      dst: $GAMEDIR
+  - chmodx: Game
+  files:
+  - file_id: http://goq.thomascyrix.com/Game%20Over%20Quest%20Linux%20V1.4.7z

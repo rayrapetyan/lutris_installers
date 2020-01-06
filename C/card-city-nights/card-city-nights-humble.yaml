@@ -1,0 +1,28 @@
+id: 3722
+game_id: 2121
+game_slug: card-city-nights
+name: Card City Nights
+year: 2014
+user: FakeShemp
+runner: linux
+slug: card-city-nights-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-17T20:50:55.881238Z'
+updated_at: '2017-05-18T18:31:10.334138Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 271820
+gogid: 1446823701
+gogslug: card_city_nights
+humblestoreid: ''
+script:
+  exe: ccn.x86
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

@@ -1,0 +1,41 @@
+id: 4850
+game_id: 2829
+game_slug: rooks-keep
+name: Rooks Keep
+year: null
+user: FakeShemp
+runner: wine
+slug: rooks-keep-bundle-in-a-box
+version: Bundle in a Box
+description: ''
+notes: ''
+created_at: '2017-07-06T10:41:19.223000Z'
+updated_at: '2018-05-19T03:41:55.395447Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 299440
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      prefix: $GAMEDIR
+      app: dotnet40
+      name: winetricks
+  - task:
+      executable: $CACHE/rookskeep_v1.0.exe
+      prefix: $GAMEDIR
+      args: /S
+      name: wineexec
+  files:
+  - file1: N/A:Please select the BIAB archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/RooksKeep/Binaries/Win32/UDK.exe
+    arch: win32

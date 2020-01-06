@@ -1,0 +1,40 @@
+id: 5059
+game_id: 12247
+game_slug: andromedas-erbe-teil-ii-der-wahre-seig
+name: 'Andromedas Erbe Teil II: Der (wahre) Seig?'
+year: 1994
+user: FakeShemp
+runner: dosbox
+slug: andromedas-erbe-teil-ii-der-w-free
+version: Free
+description: ''
+notes: ''
+created_at: '2017-07-14T19:44:34.866000Z'
+updated_at: '2017-07-26T07:25:30.572513Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: and2e.exe
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $file1
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/dosbox_lutris.conf
+  - write_config:
+      section: autoexec
+      key: mount c .
+      file: $GAMEDIR/dosbox_lutris.conf
+  files:
+  - file1: http://outpost.simplicity.de/and/and2.zip
+  game:
+    config_file: $GAMEDIR/dosbox_lutris.conf

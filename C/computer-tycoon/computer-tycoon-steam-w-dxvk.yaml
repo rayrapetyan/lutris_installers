@@ -1,0 +1,38 @@
+id: 9638
+game_id: 18984
+game_slug: computer-tycoon
+name: Computer Tycoon
+year: null
+user: jehdin
+runner: winesteam
+slug: computer-tycoon-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2018-08-08T06:46:09.285000Z'
+updated_at: '2019-02-14T05:29:22.829260Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 686680
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: corefonts
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 686680
+    arch: win64

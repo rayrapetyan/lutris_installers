@@ -1,0 +1,37 @@
+id: 14890
+game_id: 28652
+game_slug: minecraft-bedrock-edition
+name: Minecraft Bedrock Edition
+year: 2017
+user: Bonicgamer
+runner: linux
+slug: minecraft-bedrock-edition-bedrock-appimg
+version: Bedrock AppImg
+description: "I just copied this from the Minecraft game page.\r\n\r\nOriginal description:\r\
+  \n\r\nYou will have to update the launcher manually. The game itself can be updated\
+  \ from the launcher .\r\n\r\nDisclaimer: YOU NEED A COPY OF THE GAME BOUGHT ON GOOGLE\
+  \ PLAY FOR IT TO WORK and you have to log into the launcher using your google account.\
+  \ If you don't own the game you will only have access to the trial mode.\r\n\r\n\
+  For now you have to set up the game version manually editing your profile if the\
+  \ launcher is stuck at \"Please wait\""
+notes: ''
+created_at: '2019-08-06T20:54:48.587549Z'
+updated_at: '2019-08-06T20:54:48.587586Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - chmodx: appimg
+  - move:
+      src: appimg
+      dst: $GAMEDIR
+  files:
+  - appimg: https://mcpelauncher.mrarm.io/appimage/Minecraft_Bedrock_Launcher.AppImage
+  game:
+    exe: $GAMEDIR/Minecraft_Bedrock_Launcher.AppImage

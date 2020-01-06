@@ -1,0 +1,32 @@
+id: 4352
+game_id: 11730
+game_slug: noodle-arm-royale
+name: Noodle Arm Royale
+year: 2013
+user: FakeShemp
+runner: wine
+slug: noodle-arm-royale-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-06-14T18:38:58.676826Z'
+updated_at: '2018-05-19T03:41:52.170129Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Noodle Arm Royale
+      file: $file1
+  files:
+  - file1: N/A:Please select the IndieGameStand archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Noodle Arm Royale/NoodleArmRoyale.exe
+    arch: win32

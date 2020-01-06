@@ -1,0 +1,24 @@
+id: 256
+game_id: 292
+game_slug: rocketbirds-hardboiled-chicken
+name: 'Rocketbirds: Hardboiled Chicken'
+year: null
+user: strider
+runner: steam
+slug: rocketbirds-hardboiled-chicken-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-19T23:56:20.039000Z'
+updated_at: '2013-12-19T23:56:20.039000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 215510
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 215510

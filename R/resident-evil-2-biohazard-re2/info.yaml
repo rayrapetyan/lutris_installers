@@ -1,0 +1,18 @@
+name: RESIDENT EVIL 2 / BIOHAZARD RE:2
+slug: resident-evil-2-biohazard-re2
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Horror
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/resident-evil-2-biohazard-re2.jpg
+icon_url: /games/icon/resident-evil-2-biohazard-re2.png
+is_public: true
+updated: '2019-02-09T20:51:28.409185Z'
+steamid: 883710
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 8938
+game_id: 11835
+game_slug: patterna
+name: Patterna
+year: null
+user: lysergia
+runner: steam
+slug: patterna-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-28T07:36:24.453000Z'
+updated_at: '2018-06-28T13:06:37.068546Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 503860
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 503860

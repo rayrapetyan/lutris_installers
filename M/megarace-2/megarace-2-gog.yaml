@@ -1,0 +1,36 @@
+id: 442
+game_id: 1832
+game_slug: megarace-2
+name: MegaRace 2
+year: 1996
+user: Xodetaetl
+runner: wine
+slug: megarace-2-gog
+version: GOG
+description: GOG version. Recent GOG installer required (v2 or above).
+notes: ''
+created_at: '2014-03-04T08:27:33.889000Z'
+updated_at: '2014-09-27T13:47:47.627000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 733760
+gogid: 1207658758
+gogslug: megarace_1_2
+humblestoreid: ''
+script:
+  exe: drive_c/GOG Games/Megarace 1 + 2/DOSBOX/DOSBox.exe
+  installer:
+  - task:
+      executable: file1
+      prefix: $GAMEDIR
+      args: /silent /nogui
+      name: wineexec
+  files:
+  - file1: "N/A:Select the MegaRace 1+2 installer provided by GOG. You can download\
+      \ it here: \nhttps://secure.gog.com/downlink/megarace_1_2/en1installer0"
+  game:
+    prefix: $GAMEDIR
+    args: -conf "../Megarace 2/dosboxmegarace2.conf" -conf "../Megarace 2/dosboxmegarace2_single.conf"
+      -noconsole -c exit

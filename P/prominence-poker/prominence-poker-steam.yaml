@@ -1,0 +1,25 @@
+id: 7342
+game_id: 6391
+game_slug: prominence-poker
+name: Prominence Poker
+year: null
+user: what777
+runner: winesteam
+slug: prominence-poker-steam
+version: Steam
+description: 64bit only.
+notes: ''
+created_at: '2018-02-17T19:19:00.452000Z'
+updated_at: '2018-02-22T08:23:02.424181Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 384180
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 384180
+    arch: win64

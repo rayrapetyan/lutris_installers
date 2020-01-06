@@ -1,0 +1,64 @@
+id: 17018
+game_id: 27680
+game_slug: lego-island-2-the-bricksters-revenge
+name: 'Lego Island 2: The Brickster''s Revenge'
+year: 2001
+user: JJK
+runner: wine
+slug: lego-island-2-the-bricksters-421
+version: '4.21'
+description: null
+notes: "Install the game in the default location.\r\nApply the patches \"load screen\
+  \ fix\" and \"skip intro\" in the patcher window.\r\nIf after installing the game\
+  \ the graphics are glitched (seethrough hills) you should make sure that you are\
+  \ using a wine version which includes this patch: https://source.winehq.org/git/wine.git/commit/8eab6d45020701b61cf2773305977b7b99b22e73"
+created_at: '2019-11-26T14:33:23.576000Z'
+updated_at: '2019-12-25T16:55:32.028504Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/LEGO Media/LEGO Island 2/LEGO Island 2.exe
+    arch: win32
+  installer:
+  - insert-disc:
+      requires: Setup.exe
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: directmusic
+      arch: win32
+      name: winetricks
+  - task:
+      executable: $DISC/Setup.exe
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/LEGO Media/LEGO Island 2/
+      file: patcher
+  - task:
+      executable: $GAMEDIR/drive_c/Program Files/LEGO Media/LEGO Island 2/LI2ModManager.exe
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  wine:
+    WineDesktop: 1280x1024
+    overrides:
+      dsound: b
+    dxvk: false
+    Desktop: true
+  files:
+  - patcher:
+      filename: LI2.Mod.Manager.V1.2.3.zip
+      url: https://github.com/JeffRuLz/LI2-Mod-Manager/releases/download/v1.2.3/LI2.Mod.Manager.V1.2.3.zip

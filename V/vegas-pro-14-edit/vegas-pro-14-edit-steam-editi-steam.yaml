@@ -1,0 +1,38 @@
+id: 11962
+game_id: 16883
+game_slug: vegas-pro-14-edit
+name: VEGAS Pro 14 Edit
+year: null
+user: cxf
+runner: winesteam
+slug: vegas-pro-14-edit-steam-editi-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-02-11T07:44:54.555153Z'
+updated_at: '2019-02-11T07:45:02.768996Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 528200
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2008 vcrun2010 vcrun2012 vcrun2013
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing .NET 4.7.2
+      app: dotnet472 win7
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 528200

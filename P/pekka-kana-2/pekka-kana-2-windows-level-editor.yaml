@@ -1,0 +1,40 @@
+id: 8396
+game_id: 18480
+game_slug: pekka-kana-2
+name: Pekka Kana 2
+year: 2003
+user: nastys
+runner: wine
+slug: pekka-kana-2-windows-level-editor
+version: Windows Level Editor
+description: null
+notes: Base game required.
+created_at: '2018-05-23T16:15:40.345000Z'
+updated_at: '2019-10-28T20:46:37.781824Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix...
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Installing Pekka Kana 2 Level Editor...
+      arch: win32
+      name: wineexec
+  files:
+  - setup: https://www.pistegamez.net/PK2/editor/LevelEditorInstaller.exe
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/Pekka Kana 2 Level Editor 0.9 beta/PK2LevelEditor.exe
+    arch: win32

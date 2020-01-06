@@ -1,0 +1,15 @@
+name: 'Game & Watch: Chef'
+slug: game-watch-chef
+year: 1981
+platforms:
+- name: Arcade
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/game-watch-chef.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-08T18:14:13.583721Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

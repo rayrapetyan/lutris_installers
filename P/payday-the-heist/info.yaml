@@ -1,0 +1,16 @@
+name: 'PAYDAY: The Heist'
+slug: payday-the-heist
+year: 2011
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+aliases: []
+banner_url: /games/banner/payday-the-heist.jpg
+icon_url: /games/icon/payday-the-heist.png
+is_public: true
+updated: '2019-05-18T00:16:04.479560Z'
+steamid: 24240
+gogslug: ''
+humblestoreid: ''

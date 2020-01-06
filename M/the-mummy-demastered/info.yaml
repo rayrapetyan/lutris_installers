@@ -1,0 +1,16 @@
+name: The Mummy Demastered
+slug: the-mummy-demastered
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/the-mummy-demastered.jpg
+icon_url: /games/icon/the-mummy-demastered.png
+is_public: true
+updated: '2019-10-14T03:34:18.410438Z'
+steamid: 630310
+gogslug: the_mummy_demastered
+humblestoreid: ''

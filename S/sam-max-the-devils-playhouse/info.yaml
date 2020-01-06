@@ -1,0 +1,17 @@
+name: "Sam & Max: The Devil\u2019s Playhouse"
+slug: sam-max-the-devils-playhouse
+year: 2010
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Detective-mystery
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/sam-max-the-devils-playhouse.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:06.959763Z'
+steamid: null
+gogslug: sam_max_the_devils_playhouse
+humblestoreid: ''

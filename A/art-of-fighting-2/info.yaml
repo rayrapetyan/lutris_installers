@@ -1,0 +1,19 @@
+name: Art of Fighting 2
+slug: art-of-fighting-2
+year: 1994
+platforms:
+- name: Arcade
+- name: Linux
+- name: Neo Geo
+- name: Neo Geo CD
+- name: Super Nintendo
+genres:
+- name: Fighting
+aliases: []
+banner_url: /games/banner/art-of-fighting-2.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:26.530868Z'
+steamid: null
+gogslug: art_of_fighting_2
+humblestoreid: ''

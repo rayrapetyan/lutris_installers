@@ -1,0 +1,17 @@
+name: 'STAR WARS: Rogue Squadron 3D'
+slug: star-wars-rogue-squadron-3d
+year: 1998
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Combat
+- name: Sci-fi
+aliases: []
+banner_url: /games/banner/star-wars-rogue-squadron-3d.jpg
+icon_url: null
+is_public: false
+updated: '2019-04-24T01:45:24.405279Z'
+steamid: null
+gogslug: star_wars_rogue_squadron_3d
+humblestoreid: ''

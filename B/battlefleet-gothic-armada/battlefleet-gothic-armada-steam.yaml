@@ -1,0 +1,24 @@
+id: 5751
+game_id: 8597
+game_slug: battlefleet-gothic-armada
+name: 'Battlefleet Gothic: Armada'
+year: null
+user: aethelwyrd
+runner: winesteam
+slug: battlefleet-gothic-armada-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-09-16T11:31:01.657403Z'
+updated_at: '2017-09-17T20:09:24.945102Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 363680
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 363680

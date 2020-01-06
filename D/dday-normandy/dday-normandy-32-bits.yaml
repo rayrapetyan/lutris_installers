@@ -1,0 +1,30 @@
+id: 4236
+game_id: 11643
+game_slug: dday-normandy
+name: 'DDay: Normandy'
+year: null
+user: scottviger
+runner: linux
+slug: dday-normandy-32-bits
+version: 32 Bits
+description: ''
+notes: "If it doesn't work try without the Lutris runtime (;\r\nDependencies:\r\n\
+  \    libSDL2\r\n    libpng1.6"
+created_at: '2017-06-08T22:21:03.106000Z'
+updated_at: '2017-06-11T00:25:41.992546Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: DDaynormandy_linux_i386
+  installer:
+  - extract:
+      file: dday
+  - chmodx: DDaynormandy_linux_i386
+  files:
+  - dday: https://github.com/PowaBanga/DDaynormandyFPS/releases/download/5.03.03/D-Day.Normandy5.03.3.1.zip

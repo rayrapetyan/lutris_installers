@@ -1,0 +1,18 @@
+name: Air Combat
+slug: air-combat
+year: 1995
+platforms:
+- name: Sony PlayStation
+genres:
+- name: Action
+- name: Flight
+- name: Shooter
+- name: Simulation
+aliases: []
+banner_url: /games/banner/air-combat.jpg
+icon_url: null
+is_public: true
+updated: '2019-11-11T02:34:03.869937Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

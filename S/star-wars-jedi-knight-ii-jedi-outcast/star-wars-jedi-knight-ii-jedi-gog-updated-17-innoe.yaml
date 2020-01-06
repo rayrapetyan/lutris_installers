@@ -1,0 +1,41 @@
+id: 8195
+game_id: 11
+game_slug: star-wars-jedi-knight-ii-jedi-outcast
+name: 'Star Wars Jedi Knight II: Jedi Outcast'
+year: 2002
+user: exit_head
+runner: linux
+slug: star-wars-jedi-knight-ii-jedi-gog-updated-17-innoe
+version: GOG updated 1.7 innoextract
+description: Installer is using the xLava JKII engine port and requires the GOG windows
+  installer to extract the base files to use.
+notes: ''
+created_at: '2018-05-09T07:02:54.791000Z'
+updated_at: '2019-12-16T05:01:58.007249Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: 6030
+gogid: 1428935917
+gogslug: star_wars_jedi_knight_ii_jedi_outcast
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file2
+  - execute:
+      args: -d "$CACHE" "$file1"
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/app
+      dst: $GAMEDIR
+  - extract:
+      file: jedi-outcast-bin
+  files:
+  - file1: N/A:Please select the GOG installer
+  - file2: https://lutris.net/files/tools/innoextract-1.7-pre-x86_64.tar.gz
+  - jedi-outcast-bin: https://lutris.net/files/games/jedi-outcast/jedi-outcast-i386.tar.gz
+  game:
+    exe: jk2sp

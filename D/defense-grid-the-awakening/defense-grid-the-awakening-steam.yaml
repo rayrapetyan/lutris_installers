@@ -1,0 +1,24 @@
+id: 1883
+game_id: 189
+game_slug: defense-grid-the-awakening
+name: 'Defense Grid: The Awakening'
+year: null
+user: WildCoder
+runner: winesteam
+slug: defense-grid-the-awakening-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-01-17T17:31:04.075387Z'
+updated_at: '2016-09-30T20:39:43.355450Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 18500
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 18500

@@ -1,0 +1,29 @@
+id: 12593
+game_id: 9113
+game_slug: curve-fever-pro
+name: Curve Fever Pro
+year: 2019
+user: cxf
+runner: web
+slug: curve-fever-pro-browser
+version: Browser
+description: null
+notes: Press alt+f4 to close
+created_at: '2019-04-01T03:28:12.321000Z'
+updated_at: '2019-04-01T03:29:15.755303Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://curvefever.pro/
+  web:
+    disable_menu_bar: true
+    remove_margin: true
+    enable_flash: true
+    window_size: 1920x1080
+    fullscreen: true

@@ -1,0 +1,41 @@
+id: 6295
+game_id: 14733
+game_slug: paranoia
+name: Paranoia
+year: 2007
+user: soredake
+runner: wine
+slug: paranoia-the-game-edition
+version: The Game Edition
+description: null
+notes: ''
+created_at: '2017-11-11T16:18:01.104000Z'
+updated_at: '2017-11-27T21:54:42.598678Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Setting up wine prefix
+      name: create_prefix
+  - task:
+      executable: $installer
+      prefix: $GAMEDIR/prefix
+      description: 'Installing Paranoia: The Game Edition
+
+        Make sure to close installer after installation finishes
+
+        After exiting, wait a bit for lutris to finish'
+      name: wineexec
+  files:
+  - installer: N/A:Select the game's setup file
+  game:
+    prefix: $GAMEDIR/prefix
+    exe: $GAMEDIR/prefix/drive_c/Games/PARANOIA - The Game Editon/paranoia.exe

@@ -1,0 +1,17 @@
+name: Rust
+slug: rust
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Sandbox
+- name: Survival
+aliases: []
+banner_url: /games/banner/rust.jpg
+icon_url: /games/icon/rust.png
+is_public: true
+updated: '2019-01-23T08:31:05.356206Z'
+steamid: 252490
+gogslug: ''
+humblestoreid: ''

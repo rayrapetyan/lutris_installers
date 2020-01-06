@@ -1,0 +1,56 @@
+id: 6833
+game_id: 15263
+game_slug: contra-2028
+name: Contra 2028
+year: null
+user: cxf
+runner: wine
+slug: contra-2028-demo-w-dxvk
+version: Demo w/ DXVK
+description: null
+notes: "Please download Contra from itch.io before proceeding:\r\n\r\n<a href=\"https://contragon.itch.io/contra-2028\"\
+  >https://contragon.itch.io/contra-2028</a>"
+created_at: '2017-12-24T00:28:15.306000Z'
+updated_at: '2019-02-14T05:31:31.472021Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: xact
+      name: winetricks
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Contra 2028
+      file: contra
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      key: HideWineExports
+      value: Y
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Contra 2028/ContraReboot.exe
+    arch: win64
+  system:
+    env:
+      DXVK_HUD: 0
+  wine:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  files:
+  - contra: N/A:Please select the itch.io archive

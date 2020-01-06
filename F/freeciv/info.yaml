@@ -1,0 +1,16 @@
+name: Freeciv
+slug: freeciv
+year: 1996
+platforms:
+- name: Browser
+- name: Linux
+genres:
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/freeciv.jpg
+icon_url: /games/icon/freeciv.png
+is_public: true
+updated: '2019-04-09T06:14:06.749966Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

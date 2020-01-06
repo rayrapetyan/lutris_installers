@@ -1,0 +1,33 @@
+id: 2917
+game_id: 8128
+game_slug: atlauncher
+name: AtLauncher
+year: 2012
+user: scottviger
+runner: linux
+slug: atlauncher-lastest
+version: Lastest
+description: AtLauncher launcher without a Java wrapper.
+notes: Does not include Java runtime
+created_at: '2016-10-19T02:18:51.920428Z'
+updated_at: '2016-10-26T15:55:52.341076Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: atlauncher-jar
+      dst: $GAMEDIR
+  game:
+    args: java -jar "$GAMEDIR/ATLauncher.jar"
+    exe: /usr/bin/env
+  game_slug: atlauncher
+  exe: ATLauncher.jar
+  files:
+  - atlauncher-jar: https://download.nodecdn.net/containers/atl/ATLauncher.jar

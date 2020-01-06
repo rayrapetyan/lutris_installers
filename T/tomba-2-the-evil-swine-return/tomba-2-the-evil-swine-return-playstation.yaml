@@ -1,0 +1,31 @@
+id: 6122
+game_id: 14415
+game_slug: tomba-2-the-evil-swine-return
+name: 'Tomba! 2: The Evil Swine Return'
+year: 1999
+user: FakeShemp
+runner: libretro
+slug: tomba-2-the-evil-swine-return-playstation
+version: PlayStation
+description: ''
+notes: ''
+created_at: '2017-10-26T10:48:26.008489Z'
+updated_at: '2017-10-26T10:53:19.145338Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the PlayStation image file
+  game:
+    core: mednafen_psx_hw
+    main_file: file1

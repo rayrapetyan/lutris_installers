@@ -1,0 +1,24 @@
+id: 9395
+game_id: 3981
+game_slug: shadowgate-macventure-series
+name: 'Shadowgate: MacVenture Series'
+year: null
+user: BlasterPR
+runner: winesteam
+slug: shadowgate-macventure-series-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-26T09:24:15.202000Z'
+updated_at: '2018-07-29T22:02:30.125090Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 343800
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 343800

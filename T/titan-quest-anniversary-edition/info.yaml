@@ -1,0 +1,15 @@
+name: Titan Quest Anniversary Edition
+slug: titan-quest-anniversary-edition
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/titan-quest-anniversary-edition.jpg
+icon_url: /games/icon/titan-quest-anniversary-edition.png
+is_public: true
+updated: '2019-01-23T08:31:51.846169Z'
+steamid: 475150
+gogslug: titan_quest_anniversary_edition
+humblestoreid: ''

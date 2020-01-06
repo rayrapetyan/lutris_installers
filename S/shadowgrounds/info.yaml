@@ -1,0 +1,15 @@
+name: Shadowgrounds
+slug: shadowgrounds
+year: 2006
+platforms:
+- name: Linux
+genres:
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/shadowgrounds.jpg
+icon_url: /games/icon/shadowgrounds.png
+is_public: true
+updated: '2019-01-23T08:31:10.641152Z'
+steamid: 2500
+gogslug: shadowgrounds
+humblestoreid: shadowgrounds

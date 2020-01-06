@@ -1,0 +1,21 @@
+name: ROBLOX
+slug: roblox
+year: 2006
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Casual
+- name: FPS
+- name: Racing
+aliases:
+- slug: roblox-imagination-platform
+  name: Roblox Imagination Platform
+banner_url: /games/banner/roblox.jpg
+icon_url: /games/icon/roblox.png
+is_public: true
+updated: '2019-07-01T07:30:11.572868Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

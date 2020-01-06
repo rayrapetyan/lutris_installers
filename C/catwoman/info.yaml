@@ -1,0 +1,17 @@
+name: Catwoman
+slug: catwoman
+year: 2004
+platforms:
+- name: GameCube
+- name: Sony PlayStation 2
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/catwoman.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:48.787117Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

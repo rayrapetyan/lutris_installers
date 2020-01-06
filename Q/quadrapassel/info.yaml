@@ -1,0 +1,17 @@
+name: Quadrapassel
+slug: quadrapassel
+year: 2009
+platforms:
+- name: Linux
+genres:
+- name: Arcade
+- name: Casual
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/quadrapassel.jpg
+icon_url: /games/icon/quadrapassel.png
+is_public: true
+updated: '2019-01-23T08:30:52.601212Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,17 @@
+name: SEGA Genesis & Mega Drive Classics
+slug: sega-genesis-mega-drive-classics
+year: 2010
+platforms:
+- name: Windows
+genres:
+- name: Compilation
+aliases:
+- slug: sega-mega-drive-and-genesis-classics
+  name: SEGA Mega Drive and Genesis Classics
+banner_url: /games/banner/sega-genesis-mega-drive-classics.jpg
+icon_url: /games/icon/sega-genesis-mega-drive-classics.png
+is_public: true
+updated: '2019-04-17T06:11:06.197423Z'
+steamid: 34270
+gogslug: ''
+humblestoreid: ''

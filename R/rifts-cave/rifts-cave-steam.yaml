@@ -1,0 +1,24 @@
+id: 1503
+game_id: 4225
+game_slug: rifts-cave
+name: Rift's Cave
+year: 2014
+user: Xodetaetl
+runner: steam
+slug: rifts-cave-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-04-25T17:51:49.525000Z'
+updated_at: '2015-04-25T17:55:45.956000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 335210
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 335210

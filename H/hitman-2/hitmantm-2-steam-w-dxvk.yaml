@@ -1,0 +1,28 @@
+id: 10934
+game_id: 23387
+game_slug: hitman-2
+name: HITMAN 2
+year: 2018
+user: cxf
+runner: winesteam
+slug: hitmantm-2-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2018-11-21T09:12:10.586000Z'
+updated_at: '2019-02-16T03:17:43.391537Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 863550
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  game:
+    appid: 863550
+    arch: win64

@@ -1,0 +1,24 @@
+id: 9370
+game_id: 1563
+game_slug: sang-froid-tales-of-werewolves
+name: 'Sang-Froid: Tales of Werewolves'
+year: 2013
+user: VGJUNKY
+runner: winesteam
+slug: sang-froid-tales-of-werewolve-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-25T08:07:06.543083Z'
+updated_at: '2018-07-25T08:37:20.673270Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 227220
+gogid: 1207660203
+gogslug: sangfroid_tales_of_werewolves
+humblestoreid: ''
+script:
+  game:
+    appid: 227220

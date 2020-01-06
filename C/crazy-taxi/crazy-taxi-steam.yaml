@@ -1,0 +1,24 @@
+id: 1181
+game_id: 1263
+game_slug: crazy-taxi
+name: Crazy Taxi
+year: 1999
+user: Xodetaetl
+runner: winesteam
+slug: crazy-taxi-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-12-02T11:51:02.827000Z'
+updated_at: '2014-12-02T11:51:07.721000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 71230
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 71230

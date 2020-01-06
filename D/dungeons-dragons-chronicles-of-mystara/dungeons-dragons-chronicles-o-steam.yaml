@@ -1,0 +1,36 @@
+id: 8600
+game_id: 4285
+game_slug: dungeons-dragons-chronicles-of-mystara
+name: 'Dungeons & Dragons: Chronicles of Mystara'
+year: 2013
+user: cxf
+runner: winesteam
+slug: dungeons-dragons-chronicles-o-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-08T19:28:59.182781Z'
+updated_at: '2018-06-08T19:29:22.068388Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 229480
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: xact
+      arch: win64
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 229480
+    arch: win64

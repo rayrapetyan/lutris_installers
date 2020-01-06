@@ -1,0 +1,18 @@
+name: 'Oddworld: New ''n'' Tasty'
+slug: oddworld-new-n-tasty
+year: 2014
+platforms:
+- name: Linux
+- name: Nintendo Wii U
+- name: Sony Playstation 3
+- name: Windows
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/oddworld-new-n-tasty.jpg
+icon_url: /games/icon/oddworld-new-n-tasty.png
+is_public: true
+updated: '2019-10-21T01:54:18.508910Z'
+steamid: 314660
+gogslug: oddworld_new_n_tasty
+humblestoreid: ''

@@ -1,0 +1,41 @@
+id: 5513
+game_id: 1642
+game_slug: bleed
+name: Bleed
+year: null
+user: FakeShemp
+runner: wine
+slug: bleed-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-24T09:15:56.644000Z'
+updated_at: '2018-05-19T03:41:56.703795Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 239800
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      prefix: $GAMEDIR
+      app: xna40
+      name: winetricks
+  - task:
+      executable: $CACHE/windows-bleed-1.7.exe
+      prefix: $GAMEDIR
+      args: /sp- /verysilent /norestart /suppressmsgboxes /nogui
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Bleed/Bleed.exe
+    arch: win32

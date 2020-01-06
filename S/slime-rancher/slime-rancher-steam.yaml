@@ -1,0 +1,24 @@
+id: 3452
+game_id: 5884
+game_slug: slime-rancher
+name: Slime Rancher
+year: 2017
+user: liberodark
+runner: steam
+slug: slime-rancher-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-04-01T03:11:56.306600Z'
+updated_at: '2017-04-02T23:49:57.145031Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 433340
+gogid: 1459259227
+gogslug: slime_rancher
+humblestoreid: slime-rancher
+script:
+  game:
+    appid: 433340

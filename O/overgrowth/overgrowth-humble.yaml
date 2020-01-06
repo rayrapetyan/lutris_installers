@@ -1,0 +1,32 @@
+id: 7677
+game_id: 1063
+game_slug: overgrowth
+name: Overgrowth
+year: null
+user: littlechalan
+runner: linux
+slug: overgrowth-humble
+version: Humble
+description: null
+notes: ''
+created_at: '2018-03-27T20:39:19.024000Z'
+updated_at: '2018-05-06T07:26:42.033713Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 25000
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $archive
+  - chmodx: $GAMEDIR/Overgrowth.bin.x86_64
+  files:
+  - archive: "N/A:Select overgrowth-[\u2026]-linux64.zip"
+  game:
+    prefix: $GAMEDIR
+    exe: Overgrowth.bin.x86_64

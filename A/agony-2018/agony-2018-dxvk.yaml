@@ -1,0 +1,27 @@
+id: 11337
+game_id: 19226
+game_slug: agony-2018
+name: Agony (2018)
+year: 2018
+user: VortexAcherontic
+runner: winesteam
+slug: agony-2018-dxvk
+version: DXVK
+description: null
+notes: ''
+created_at: '2018-12-25T16:51:15.274000Z'
+updated_at: '2019-12-29T11:28:30.790724Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 487720
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: lutris-4.20-x86_64
+    dxvk: true
+  game:
+    appid: 879420

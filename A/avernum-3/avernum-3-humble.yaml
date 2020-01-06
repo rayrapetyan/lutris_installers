@@ -1,0 +1,36 @@
+id: 4767
+game_id: 12024
+game_slug: avernum-3
+name: Avernum 3
+year: 2002
+user: FakeShemp
+runner: wine
+slug: avernum-3-humble
+version: Humble
+description: From "The First Avernum Trilogy"
+notes: ''
+created_at: '2017-07-03T13:24:24.467073Z'
+updated_at: '2018-05-19T03:41:54.799184Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/Avernum3Full.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Avernum 3/Avernum 3.exe
+    arch: win32

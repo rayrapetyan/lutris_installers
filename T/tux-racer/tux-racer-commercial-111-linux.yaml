@@ -1,0 +1,48 @@
+id: 12823
+game_id: 8519
+game_slug: tux-racer
+name: Tux Racer
+year: 2001
+user: TheLimeyDragon
+runner: linux
+slug: tux-racer-commercial-111-linux
+version: Commercial (1.1.1) Linux
+description: 'CD image available from archive.org: https://archive.org/details/TuxRacerCD'
+notes: You may be missing some 32-bit library files. (Need feedback from other distros)
+created_at: '2019-04-15T20:15:07.661000Z'
+updated_at: '2019-04-18T04:53:05.331954Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  custom-name: Tux Racer (Commercial)
+  installer:
+  - insert-disc:
+      requires: Tux Racer.msi
+  - copy:
+      src: $DISC/program files/Sunspire Studios/Tux Racer/
+      dst: $GAMEDIR
+  - copy:
+      src: $DISC/program files/Sunspire Studios/Tux Racer/bin/x86/glibc-2.1/
+      dst: $GAMEDIR
+  - execute:
+      args: 744 -R $GAMEDIR
+      file: chmod
+  - copy:
+      src: $CACHE/libaudiofile.so.0
+      dst: $GAMEDIR
+  - copy:
+      src: $CACHE/tuxracer-bin
+      dst: $GAMEDIR
+  - chmodx: $GAMEDIR/tuxracer-bin
+  - chmodx: $GAMEDIR/tuxracer
+  files:
+  - v111patch: http://www.thelimeydragon.com/tuxracer-bin
+  - libaudiofile: http://www.thelimeydragon.com/libaudiofile.so.0
+  game:
+    exe: $GAMEDIR/tuxracer

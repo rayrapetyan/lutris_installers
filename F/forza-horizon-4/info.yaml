@@ -1,0 +1,16 @@
+name: Forza Horizon 4
+slug: forza-horizon-4
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Arcade
+- name: Racing
+aliases: []
+banner_url: /games/banner/forza-horizon-4.jpg
+icon_url: null
+is_public: true
+updated: '2020-01-01T07:00:17.675120Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

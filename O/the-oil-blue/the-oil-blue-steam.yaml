@@ -1,0 +1,30 @@
+id: 6659
+game_id: 7458
+game_slug: the-oil-blue
+name: The Oil Blue
+year: null
+user: sdestroyiers
+runner: winesteam
+slug: the-oil-blue-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-14T06:15:08.854000Z'
+updated_at: '2017-12-17T14:03:38.964041Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 386700
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - write_config:
+      section: Data
+      key: OPsoundprocessvarini
+      value: 0
+      file: $GAMEDIR/drive_c/Program Files/Steam/steamapps/common/The Oil Blue/datafiles/options.sav
+  game:
+    appid: 386700

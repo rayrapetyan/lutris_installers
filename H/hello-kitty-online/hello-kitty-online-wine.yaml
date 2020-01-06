@@ -1,0 +1,33 @@
+id: 1366
+game_id: 3923
+game_slug: hello-kitty-online
+name: Hello Kitty Online
+year: 2009
+user: strider
+runner: wine
+slug: hello-kitty-online-wine
+version: wine
+description: ''
+notes: ''
+created_at: '2015-03-03T13:40:39.177000Z'
+updated_at: '2018-05-19T03:41:48.202545Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: hkoinstaller
+      prefix: $GAMEDIR
+      name: wine.wineexec
+  files:
+  - hkoinstaller: http://pod.installer.hellokittyonline.com/HKO_Download_Manager.exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/SanrioTown/Hello Kitty Online
+    arch: win32

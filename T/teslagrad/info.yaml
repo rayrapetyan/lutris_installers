@@ -1,0 +1,17 @@
+name: Teslagrad
+slug: teslagrad
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/teslagrad.jpg
+icon_url: /games/icon/teslagrad.png
+is_public: true
+updated: '2019-01-23T08:31:37.515126Z'
+steamid: 249590
+gogslug: teslagrad
+humblestoreid: ''

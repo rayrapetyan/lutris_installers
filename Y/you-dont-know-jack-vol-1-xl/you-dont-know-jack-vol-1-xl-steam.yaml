@@ -1,0 +1,24 @@
+id: 1924
+game_id: 2886
+game_slug: you-dont-know-jack-vol-1-xl
+name: YOU DON'T KNOW JACK Vol. 1 XL
+year: null
+user: WildCoder
+runner: winesteam
+slug: you-dont-know-jack-vol-1-xl-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-01-20T20:41:30.280640Z'
+updated_at: '2016-09-18T15:42:43.074379Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 252730
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 252730

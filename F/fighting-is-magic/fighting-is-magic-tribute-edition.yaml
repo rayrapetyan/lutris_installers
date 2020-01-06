@@ -1,0 +1,36 @@
+id: 3266
+game_id: 9909
+game_slug: fighting-is-magic
+name: Fighting is Magic
+year: 2014
+user: djazz
+runner: wine
+slug: fighting-is-magic-tribute-edition
+version: Tribute Edition
+description: ''
+notes: Press F4 to toggle fullscreen.
+created_at: '2017-02-15T12:20:33.156000Z'
+updated_at: '2017-04-27T09:01:17.519932Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - extract:
+      dst: $GAMEDIR/drive_c/Tribute_Edition/
+      file: game
+  files:
+  - game:
+      filename: fim-tribute-edition.tar.xz
+      url: http://djazz.se/nas/games/?dl=fim-tribute
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Tribute_Edition/Tribute_Edition.exe

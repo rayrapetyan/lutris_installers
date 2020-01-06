@@ -1,0 +1,35 @@
+id: 17373
+game_id: 21495
+game_slug: mindustry
+name: Mindustry
+year: 2017
+user: Redo11
+runner: linux
+slug: mindustry-v101-release
+version: v101 RELEASE
+description: Uses the jar file from GitHub and your native java runtime
+notes: requires to have openjdk or any other java implementation to be installed
+created_at: '2019-12-16T19:07:43.718000Z'
+updated_at: '2019-12-22T11:25:16.133301Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 1127400
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - chmodx: starter
+  - move:
+      src: starter
+      dst: $GAMEDIR/start.sh
+  - move:
+      src: jar
+      dst: $GAMEDIR/Mindustry.jar
+  files:
+  - jar: https://github.com/Anuken/Mindustry/releases/download/v101/Mindustry.jar
+  - starter: https://raw.githubusercontent.com/paperbenni/lutris/master/mindustry/start.sh
+  game:
+    exe: $GAMEDIR/start.sh

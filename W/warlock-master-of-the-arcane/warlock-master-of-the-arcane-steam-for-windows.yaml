@@ -1,0 +1,24 @@
+id: 3038
+game_id: 636
+game_slug: warlock-master-of-the-arcane
+name: Warlock - Master of the Arcane
+year: 2012
+user: RobLoach
+runner: winesteam
+slug: warlock-master-of-the-arcane-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: ''
+created_at: '2016-11-23T07:57:14.533681Z'
+updated_at: '2016-11-23T08:08:55.810469Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: 203630
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 203630

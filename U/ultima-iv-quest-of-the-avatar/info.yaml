@@ -1,0 +1,27 @@
+name: 'Ultima IV: Quest of the Avatar'
+slug: ultima-iv-quest-of-the-avatar
+year: 1985
+platforms:
+- name: Amiga
+- name: Apple //e
+- name: Atari 800
+- name: Atari ST
+- name: Commodore 64
+- name: MS-DOS
+- name: MSX2
+- name: NES
+- name: Sega Master System
+- name: Windows
+- name: X68000
+genres:
+- name: RPG
+aliases:
+- slug: ultima-4-quest-of-the-avatar
+  name: 'Ultima 4: Quest of the Avatar'
+banner_url: /games/banner/ultima-iv-quest-of-the-avatar.jpg
+icon_url: /games/icon/ultima-iv-quest-of-the-avatar.png
+is_public: true
+updated: '2019-10-31T01:20:56.928399Z'
+steamid: null
+gogslug: ultima_4
+humblestoreid: ''

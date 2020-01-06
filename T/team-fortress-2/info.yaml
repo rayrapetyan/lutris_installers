@@ -1,0 +1,15 @@
+name: Team Fortress 2
+slug: team-fortress-2
+year: 2007
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/team-fortress-2.jpg
+icon_url: /games/icon/team-fortress-2.png
+is_public: true
+updated: '2019-10-23T06:15:18.034653Z'
+steamid: 440
+gogslug: ''
+humblestoreid: ''

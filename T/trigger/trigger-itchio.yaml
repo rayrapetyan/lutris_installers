@@ -1,0 +1,31 @@
+id: 10284
+game_id: 21836
+game_slug: trigger
+name: Trigger
+year: 2015
+user: kimchitea
+runner: linux
+slug: trigger-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2018-09-22T08:11:42.101000Z'
+updated_at: '2018-09-23T04:01:49.975759Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Trigger.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Trigger.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Trigger
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Trigger
+  files:
+  - file1: N/A:Please select the itch.io archive

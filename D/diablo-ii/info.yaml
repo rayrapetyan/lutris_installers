@@ -1,0 +1,16 @@
+name: Diablo II
+slug: diablo-ii
+year: 2000
+platforms:
+- name: Windows
+genres:
+- name: Hack and slash
+- name: RPG
+aliases: []
+banner_url: /games/banner/diablo-ii.jpg
+icon_url: /games/icon/diablo-ii.png
+is_public: true
+updated: '2019-01-23T08:29:11.186016Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

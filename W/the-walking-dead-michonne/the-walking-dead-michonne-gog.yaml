@@ -1,0 +1,45 @@
+id: 7387
+game_id: 9142
+game_slug: the-walking-dead-michonne
+name: 'The Walking Dead: Michonne'
+year: null
+user: soredake
+runner: wine
+slug: the-walking-dead-michonne-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2018-02-24T19:38:30.208065Z'
+updated_at: '2018-05-14T03:51:39.840416Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 429570
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - execute:
+      args: --gog -d "$CACHE" "$installer"
+      description: Extracting game data
+      file: innoextract
+  - move:
+      src: $CACHE/app
+      description: Extracting game data
+      dst: $GAMEDIR/prefix/drive_c/game
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Setting Wine to Windows 10
+      app: win10
+      name: winetricks
+  files:
+  - installer: N/A:Select the game's setup file
+  game:
+    prefix: $GAMEDIR/prefix
+    exe: $GAMEDIR/prefix/drive_c/game/WalkingDeadMichonne.exe

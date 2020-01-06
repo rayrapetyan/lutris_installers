@@ -1,0 +1,17 @@
+name: Tetris (Game Boy)
+slug: tetris-game-boy
+year: 1989
+platforms:
+- name: Game Boy
+genres:
+- name: Arcade
+- name: Puzzle
+- name: Twitch
+aliases: []
+banner_url: /games/banner/tetris-game-boy.jpg
+icon_url: /games/icon/tetris-game-boy.png
+is_public: true
+updated: '2019-01-23T08:31:37.697030Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

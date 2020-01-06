@@ -1,0 +1,41 @@
+id: 9652
+game_id: 1114
+game_slug: star-wars-the-force-unleashed
+name: 'Star Wars: The Force Unleashed Ultimate Sith Edition'
+year: 2009
+user: t3hyoshi
+runner: winesteam
+slug: star-wars-the-force-unleashed-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-09T09:48:10.078000Z'
+updated_at: '2019-03-30T01:42:51.150876Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 32430
+gogid: 1189268228
+gogslug: star_wars_the_force_unleashed_ultimate_sith_edition
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: dotnet35sp1
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2005 win7
+      arch: win32
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 32430
+    arch: win32

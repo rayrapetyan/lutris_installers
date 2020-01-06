@@ -1,0 +1,17 @@
+name: Mega Man X5
+slug: mega-man-x5
+year: 2001
+platforms:
+- name: Sony PlayStation
+genres:
+- name: Action
+- name: Adventure
+- name: Platform
+aliases: []
+banner_url: /games/banner/mega-man-x5.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:21.169133Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

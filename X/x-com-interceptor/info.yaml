@@ -1,0 +1,17 @@
+name: 'X-COM: Interceptor'
+slug: x-com-interceptor
+year: 1998
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Sci-fi
+- name: Strategy
+aliases: []
+banner_url: /games/banner/x-com-interceptor.jpg
+icon_url: /games/icon/x-com-interceptor.png
+is_public: true
+updated: '2019-01-23T08:32:12.137186Z'
+steamid: 7730
+gogslug: xcom_interceptor
+humblestoreid: ''

@@ -1,0 +1,17 @@
+name: 'Tom Clancy''s Ghost Recon: Island Thunder'
+slug: tom-clancys-ghost-recon-island-thunder
+year: 2002
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+- name: Tactical shooter
+aliases: []
+banner_url: /games/banner/tom-clancys-ghost-recon-island-thunder.jpg
+icon_url: /games/icon/tom-clancys-ghost-recon-island-thunder.png
+is_public: false
+updated: '2019-10-25T00:01:08.055706Z'
+steamid: 13630
+gogslug: ''
+humblestoreid: ''

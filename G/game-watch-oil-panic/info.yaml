@@ -1,0 +1,15 @@
+name: 'Game & Watch: Oil Panic'
+slug: game-watch-oil-panic
+year: 1982
+platforms:
+- name: Arcade
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/game-watch-oil-panic.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:37.860638Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

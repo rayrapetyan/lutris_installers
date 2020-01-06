@@ -1,0 +1,50 @@
+id: 14034
+game_id: 27471
+game_slug: challenge-promode-arena
+name: Challenge ProMode Arena
+year: 2000
+user: Lonsfor
+runner: linux
+slug: challenge-promode-arena-v-152
+version: v 1.52
+description: Requires Quake 3 Arena
+notes: ''
+created_at: '2019-06-10T17:25:59.162000Z'
+updated_at: '2019-06-12T04:14:40.806585Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: quake-3-arena
+  installer:
+  - extract:
+      dst: $CACHE
+      file: cnq3
+  - move:
+      src: $CACHE/cnq3-x64
+      dst: $GAMEDIR
+  - chmodx: $GAMEDIR/cnq3-x64
+  - move:
+      src: $CACHE/cnq3-server-x64
+      dst: $GAMEDIR
+  - chmodx: $GAMEDIR/cnq3-server-x64
+  - extract:
+      dst: $GAMEDIR/cpma
+      file: cpma
+  - extract:
+      dst: $GAMEDIR/baseq3/
+      file: maps
+  - write_file:
+      content: '2222222222222222'
+      file: $GAMEDIR/baseq3/q3key
+  files:
+  - cnq3: https://cdn.playmorepromode.com/files/cnq3/cnq3-1.51.zip
+  - cpma: https://cdn.playmorepromode.com/files/cpma/cpma-1.52-nomaps.zip
+  - maps: https://cdn.playmorepromode.com/files/cpma-mappack-full.zip
+  game:
+    exe: $GAMEDIR/cnq3-x64

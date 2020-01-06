@@ -1,0 +1,17 @@
+name: 'Batman: Return of the Joker'
+slug: batman-return-of-the-joker
+year: 1991
+platforms:
+- name: NES
+- name: Nintendo Game Boy Color
+- name: Sega Genesis / Mega Drive
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/batman-return-of-the-joker.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:32.183460Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

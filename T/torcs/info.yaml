@@ -1,0 +1,16 @@
+name: TORCS
+slug: torcs
+year: 1997
+platforms:
+- name: Linux
+genres:
+- name: Racing
+- name: Simulation
+aliases: []
+banner_url: /games/banner/torcs.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:53.439618Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

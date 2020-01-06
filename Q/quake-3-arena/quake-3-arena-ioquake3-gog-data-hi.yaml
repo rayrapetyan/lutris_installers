@@ -1,0 +1,51 @@
+id: 9487
+game_id: 19
+game_slug: quake-3-arena
+name: Quake 3 Arena
+year: 1999
+user: veleiro
+runner: linux
+slug: quake-3-arena-ioquake3-gog-data-hi
+version: ioquake3 + GOG Data + HiRes
+description: Uses the ioquake3 engine, with GOG data, and the High-Res Texture Pack.
+notes: ''
+created_at: '2018-07-30T23:09:24.132000Z'
+updated_at: '2019-09-09T01:49:19.771400Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 2200
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - chmodx: ioquake3installer
+  - execute:
+      args: --tar -xf ./ioquake3.x86_64.tar
+      file: ioquake3installer
+  - extract:
+      dst: $GAMEDIR
+      file: $GAMEDIR/ioquake3.x86_64.tar
+  - execute:
+      command: rm ioquake3.x86_64.tar
+  - extract:
+      dst: $CACHE/innoextract
+      file: innoextract
+  - execute:
+      args: --extract $q3data --output-dir $CACHE/q3data/
+      file: $CACHE/innoextract/innoextract
+  - merge:
+      src: $CACHE/q3data/app/baseq3
+      dst: $GAMEDIR/baseq3
+  - extract:
+      dst: $GAMEDIR/baseq3
+      file: $highrestextures
+  files:
+  - highrestextures: http://ioquake3.org/files/xcsv_hires.zip
+  - ioquake3installer: http://ioquake3.org/files/1.36/installer/ioquake3-1.36-7.1.x86_64.run
+  - innoextract: https://lutris.net/files/tools/innoextract.tar.gz
+  - q3data: N/A:Please select the GOG.com Windows installer
+  game:
+    exe: ioquake3.x86_64

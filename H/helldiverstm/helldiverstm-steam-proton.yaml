@@ -1,0 +1,24 @@
+id: 11759
+game_id: 8207
+game_slug: helldiverstm
+name: "HELLDIVERS\u2122"
+year: null
+user: property
+runner: steam
+slug: helldiverstm-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-01-28T18:08:03.130000Z'
+updated_at: '2019-05-22T00:06:12.737912Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 394510
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 394510

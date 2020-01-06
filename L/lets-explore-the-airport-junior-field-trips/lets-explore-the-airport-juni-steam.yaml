@@ -1,0 +1,24 @@
+id: 1982
+game_id: 4580
+game_slug: lets-explore-the-airport-junior-field-trips
+name: Let's Explore The Airport (Junior Field Trips)
+year: null
+user: WildCoder
+runner: steam
+slug: lets-explore-the-airport-juni-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-02-24T15:51:21.756556Z'
+updated_at: '2016-02-28T20:12:55.296399Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 363050
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 363050

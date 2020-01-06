@@ -1,0 +1,24 @@
+id: 1610
+game_id: 1525
+game_slug: ducktales-remastered
+name: DuckTales Remastered
+year: 2013
+user: KimplE
+runner: winesteam
+slug: ducktales-remastered-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-09-29T20:23:58.815816Z'
+updated_at: '2015-11-02T14:35:44.740674Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 237630
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 237630

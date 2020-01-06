@@ -1,0 +1,16 @@
+name: SimCity 4 Deluxe Edition
+slug: simcity-4-deluxe
+year: 2003
+platforms:
+- name: Windows
+genres:
+- name: City building
+- name: Management
+aliases: []
+banner_url: /games/banner/simcity-4-deluxe.jpg
+icon_url: /games/icon/simcity-4-deluxe.png
+is_public: true
+updated: '2019-02-28T21:51:56.751634Z'
+steamid: 24780
+gogslug: simcity_4_deluxe_edition
+humblestoreid: ''

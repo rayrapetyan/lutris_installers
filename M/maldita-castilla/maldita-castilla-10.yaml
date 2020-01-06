@@ -1,0 +1,29 @@
+id: 12144
+game_id: 21657
+game_slug: maldita-castilla
+name: Maldita Castilla
+year: 2012
+user: son_link
+runner: linux
+slug: maldita-castilla-10
+version: '1.0'
+description: null
+notes: ''
+created_at: '2019-02-23T14:23:20.843000Z'
+updated_at: '2019-02-27T21:23:48.688735Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: runner
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: mc
+  files:
+  - mc: https://www.locomalito.com/juegos/Maldita_Castilla_linux.tgz

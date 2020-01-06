@@ -1,0 +1,15 @@
+name: 'Icewind Dale: Enhanced Edition'
+slug: icewind-dale-enhanced-edition
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/icewind-dale-enhanced-edition.jpg
+icon_url: /games/icon/icewind-dale-enhanced-edition.png
+is_public: true
+updated: '2019-05-04T13:03:51.316589Z'
+steamid: 321800
+gogslug: icewind_dale_enhanced_edition
+humblestoreid: ''

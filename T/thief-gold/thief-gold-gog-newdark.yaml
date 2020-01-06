@@ -1,0 +1,57 @@
+id: 15464
+game_id: 404
+game_slug: thief-gold
+name: Thief Gold
+year: null
+user: appoloin
+runner: wine
+slug: thief-gold-gog-newdark
+version: GOG + NewDark
+description: null
+notes: "The newdark mod is required. You can download the exe from \r\nhttps://drive.google.com/open?id=1hgzJOrCYCXNrGo_XuGSm3YeC36NfCBuN"
+created_at: '2019-09-11T23:43:10.330544Z'
+updated_at: '2019-09-11T23:43:10.330571Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 211600
+gogid: 1207658997
+gogslug: thief_gold
+humblestoreid: ''
+script:
+  files:
+  - setup: N/A:Select setup file from GOG
+  - patch: N/A:Select Patch EXE
+  Desktop: true
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      install_mono: false
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2008
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: directx9
+      arch: win32
+      name: winetricks
+  - task:
+      executable: $setup
+      prefix: $GAMEDIR
+      description: Installing Thief
+      name: wineexec
+  - task:
+      executable: $patch
+      prefix: $GAMEDIR
+      description: Installing NewDark
+      name: wineexec
+  wine: null
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/GOG.com/Thief Gold/THIEF.EXE
+    arch: win32

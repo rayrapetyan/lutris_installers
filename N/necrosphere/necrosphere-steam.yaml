@@ -1,0 +1,24 @@
+id: 9082
+game_id: 19825
+game_slug: necrosphere
+name: Necrosphere
+year: 2017
+user: TuiorGames
+runner: winesteam
+slug: necrosphere-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-08T01:31:07.821000Z'
+updated_at: '2018-08-24T07:40:04.467482Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 607400
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 607400

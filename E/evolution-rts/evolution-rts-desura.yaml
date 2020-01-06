@@ -1,0 +1,28 @@
+id: 6913
+game_id: 2418
+game_slug: evolution-rts
+name: Evolution RTS
+year: 2014
+user: FakeShemp
+runner: linux
+slug: evolution-rts-desura
+version: Desura
+description: null
+notes: ''
+created_at: '2017-12-30T23:01:13.286961Z'
+updated_at: '2017-12-30T23:04:50.461465Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 291150
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: weblobby
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Desura archive

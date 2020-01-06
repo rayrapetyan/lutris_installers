@@ -1,0 +1,33 @@
+id: 3583
+game_id: 8322
+game_slug: black-mesa-legacy
+name: Black Mesa Legacy
+year: null
+user: dj_who
+runner: winesteam
+slug: black-mesa-legacy-legacy
+version: Legacy
+description: ''
+notes: ''
+created_at: '2017-04-27T23:09:38.490000Z'
+updated_at: '2017-05-02T00:28:41.633087Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $GAMEDIR
+      file: bms
+  files:
+  - bms: https://www.gameconnect.net/files/7
+  game:
+    args: $GAMEDIR
+    appid: 218
+    exe: 218

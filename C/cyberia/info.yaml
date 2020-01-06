@@ -1,0 +1,21 @@
+name: Cyberia
+slug: cyberia
+year: 1994
+platforms:
+- name: 3DO
+- name: Linux
+- name: MS-DOS
+- name: Sega Saturn
+- name: Sony PlayStation
+genres:
+- name: Action
+- name: Puzzle
+- name: Shooter
+aliases: []
+banner_url: /games/banner/cyberia.jpg
+icon_url: null
+is_public: true
+updated: '2019-02-27T04:45:18.342046Z'
+steamid: 624080
+gogslug: cyberia
+humblestoreid: ''

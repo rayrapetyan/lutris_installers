@@ -1,0 +1,25 @@
+id: 8906
+game_id: 16285
+game_slug: staxel
+name: Staxel
+year: 2018
+user: TuiorGames
+runner: winesteam
+slug: staxel-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-25T15:38:27.767314Z'
+updated_at: '2018-06-26T03:36:22.844233Z'
+draft: true
+published: true
+published_by: null
+rating: ''
+steamid: 405710
+gogid: 1780262881
+gogslug: staxel
+humblestoreid: ''
+script:
+  game:
+    appid: 405710
+    arch: win64

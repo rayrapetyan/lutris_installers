@@ -1,0 +1,16 @@
+name: Exorder
+slug: exorder
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Casual
+- name: Strategy
+aliases: []
+banner_url: /games/banner/exorder.jpg
+icon_url: null
+is_public: true
+updated: '2019-12-24T11:56:22.477386Z'
+steamid: 716770
+gogslug: ''
+humblestoreid: ''

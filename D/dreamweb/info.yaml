@@ -1,0 +1,17 @@
+name: DreamWeb
+slug: dreamweb
+year: 1994
+platforms:
+- name: Amiga
+- name: MS-DOS
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/dreamweb.jpg
+icon_url: /games/icon/dreamweb.png
+is_public: true
+updated: '2019-01-23T08:29:17.596308Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

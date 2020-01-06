@@ -1,0 +1,17 @@
+name: Gee Bee Air Rally
+slug: gee-bee-air-rally
+year: 1987
+platforms:
+- name: Amiga
+- name: Commodore 64
+- name: ZX Spectrum
+genres:
+- name: Flight
+aliases: []
+banner_url: /games/banner/gee-bee-air-rally.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:38.646186Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

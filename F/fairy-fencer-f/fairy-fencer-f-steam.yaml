@@ -1,0 +1,24 @@
+id: 7645
+game_id: 6076
+game_slug: fairy-fencer-f
+name: Fairy Fencer F
+year: null
+user: Tudi20
+runner: winesteam
+slug: fairy-fencer-f-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-24T19:07:42.738945Z'
+updated_at: '2018-03-24T23:48:56.143221Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 347830
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 347830

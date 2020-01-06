@@ -1,0 +1,15 @@
+name: Frozen Synapse
+slug: frozen-synapse
+year: 2011
+platforms:
+- name: Linux
+genres:
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/frozen-synapse.jpg
+icon_url: /games/icon/frozen-synapse.png
+is_public: true
+updated: '2019-01-23T08:29:35.976704Z'
+steamid: 98200
+gogslug: frozen_synapse
+humblestoreid: ''

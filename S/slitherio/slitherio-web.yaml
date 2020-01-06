@@ -1,0 +1,23 @@
+id: 10971
+game_id: 5995
+game_slug: slitherio
+name: Slither.io
+year: 2016
+user: zaren812
+runner: web
+slug: slitherio-web
+version: Web
+description: null
+notes: ''
+created_at: '2018-11-24T11:45:24.593917Z'
+updated_at: '2018-11-29T02:11:00.815226Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://slither.io/

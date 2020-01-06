@@ -1,0 +1,15 @@
+name: 'Half-Life 2: Episode One'
+slug: half-life-2-episode-one
+year: 2006
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/half-life-2-episode-one.jpg
+icon_url: /games/icon/half-life-2-episode-one.png
+is_public: true
+updated: '2019-01-23T08:29:46.082605Z'
+steamid: 380
+gogslug: ''
+humblestoreid: ''

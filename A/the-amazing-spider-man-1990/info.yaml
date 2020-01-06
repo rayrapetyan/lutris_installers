@@ -1,0 +1,18 @@
+name: The Amazing Spider-Man (1990)
+slug: the-amazing-spider-man-1990
+year: 1990
+platforms:
+- name: Amiga
+- name: Atari ST
+- name: Commodore 64
+- name: MS-DOS
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/the-amazing-spider-man-1990.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:38.298215Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

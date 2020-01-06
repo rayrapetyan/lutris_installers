@@ -1,0 +1,41 @@
+id: 17001
+game_id: 30531
+game_slug: echoes-of-sorrow-2
+name: Echoes of Sorrow 2
+year: 2013
+user: kimchitea
+runner: wine
+slug: echoes-of-sorrow-2-gamersgate
+version: GamersGate
+description: https://www.gamersgate.com/DD-EOS2/echoes-of-sorrow-2
+notes: ''
+created_at: '2019-11-25T14:42:58.955000Z'
+updated_at: '2019-12-25T16:36:21.752653Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Echoes of Sorrow 2/Echoes of Sorrow 2.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: file1
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  wine:
+    version: 3.0-x86_64
+  files:
+  - file1: N/A:Please select the GamersGate installer

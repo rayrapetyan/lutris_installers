@@ -1,0 +1,24 @@
+id: 3579
+game_id: 810
+game_slug: stalker-clear-sky
+name: 'S.T.A.L.K.E.R.: Clear Sky'
+year: 2008
+user: schaap137
+runner: winesteam
+slug: stalker-clear-sky-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: ''
+created_at: '2017-04-27T22:11:10.595788Z'
+updated_at: '2017-05-02T00:34:34.334652Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 20510
+gogid: 1207660603
+gogslug: stalker_clear_sky
+humblestoreid: ''
+script:
+  game:
+    appid: 20510

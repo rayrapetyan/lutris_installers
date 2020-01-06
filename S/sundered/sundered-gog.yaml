@@ -1,0 +1,37 @@
+id: 5399
+game_id: 11350
+game_slug: sundered
+name: Sundered
+year: 2017
+user: Lulu
+runner: linux
+slug: sundered-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2017-08-14T21:13:36.332000Z'
+updated_at: '2019-09-09T01:30:29.306991Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 535480
+gogid: 1116941879
+gogslug: sundered
+humblestoreid: ''
+script:
+  exe: Game/start.sh
+  installer:
+  - extract:
+      dst: $CACHE/unzip-extracted
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip-extracted/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/Game
+  files:
+  - game: 'N/A: Plese select the GOG.com Linux installer'
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

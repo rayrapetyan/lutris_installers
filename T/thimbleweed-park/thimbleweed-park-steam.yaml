@@ -1,0 +1,24 @@
+id: 4550
+game_id: 10392
+game_slug: thimbleweed-park
+name: Thimbleweed Park
+year: 2017
+user: Wompus
+runner: steam
+slug: thimbleweed-park-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-06-23T17:52:49.441348Z'
+updated_at: '2017-06-24T16:08:10.507992Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 569860
+gogid: 1325604411
+gogslug: thimbleweed_park
+humblestoreid: ''
+script:
+  game:
+    appid: 569860

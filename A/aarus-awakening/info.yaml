@@ -1,0 +1,16 @@
+name: Aaru's Awakening
+slug: aarus-awakening
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/aarus-awakening.jpg
+icon_url: /games/icon/aarus-awakening.png
+is_public: true
+updated: '2019-01-23T08:28:10.134038Z'
+steamid: 294060
+gogslug: ''
+humblestoreid: ''

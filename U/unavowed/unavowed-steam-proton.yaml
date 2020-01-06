@@ -1,0 +1,24 @@
+id: 12240
+game_id: 21878
+game_slug: unavowed
+name: Unavowed
+year: 2018
+user: kimchitea
+runner: steam
+slug: unavowed-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-03-02T20:45:28.253000Z'
+updated_at: '2019-05-21T23:58:54.153606Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 336140
+gogid: 1637485057
+gogslug: unavowed
+humblestoreid: ''
+script:
+  game:
+    appid: 336140

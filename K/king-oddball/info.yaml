@@ -1,0 +1,15 @@
+name: King Oddball
+slug: king-oddball
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/king-oddball.jpg
+icon_url: /games/icon/king-oddball.png
+is_public: false
+updated: '2019-05-21T18:46:02.976454Z'
+steamid: 525450
+gogslug: ''
+humblestoreid: ''

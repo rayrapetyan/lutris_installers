@@ -1,0 +1,16 @@
+name: Descent
+slug: descent
+year: 1994
+platforms:
+- name: Linux
+genres:
+- name: FPS
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/descent.jpg
+icon_url: /games/icon/descent.png
+is_public: true
+updated: '2019-01-23T08:29:10.025926Z'
+steamid: 273570
+gogslug: descent
+humblestoreid: ''

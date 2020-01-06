@@ -1,0 +1,68 @@
+id: 17601
+game_id: 85
+game_slug: world-of-tanks
+name: World of Tanks
+year: 2010
+user: vilkoxd
+runner: wine
+slug: world-of-tanks-change-me-5
+version: Change Me
+description: Version for installing the Wargaming Center under Windows 7, to fix the
+  start problems under Windows 10.
+notes: ''
+created_at: '2019-12-27T14:11:34.853723Z'
+updated_at: '2019-12-27T14:11:34.853749Z'
+draft: false
+published: false
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      description: Installing World of Tanks
+      args: /VERYSILENT /CLOSEAPPLICATIONS
+      exclude_processes: explorer.exe rpcss.exe winedevice.exe plugplay.exe WargamingGameUpdater.exe
+        WoTLauncher.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Wine to win7
+      app: corefonts win7
+      arch: win64
+      name: winetricks
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Games/World_of_Tanks/WoTLauncher.exe
+    arch: win64
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+    disable_runtime: false
+  wine:
+    version: lutris-4.21-x86_64
+    WineDesktop: 1920x1080
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+    Desktop: true
+  files:
+  - game:
+      filename: WoT_internet_install_eu.exe
+      url: https://wot.gcdn.co/eu/files/WoT_internet_install_eu.exe

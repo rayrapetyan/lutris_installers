@@ -1,0 +1,33 @@
+id: 3503
+game_id: 1261
+game_slug: bulletstorm
+name: Bulletstorm
+year: null
+user: strider
+runner: wine
+slug: bulletstorm-dvd
+version: DVD
+description: ''
+notes: ''
+created_at: '2017-04-08T03:42:00.395000Z'
+updated_at: '2018-05-19T03:41:51.769375Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 99810
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: Media1.cab
+  - task:
+      executable: $DISC/Setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/EA/Bulletstorm/Bulletstorm.exe
+    arch: win32

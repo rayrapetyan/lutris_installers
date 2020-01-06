@@ -1,0 +1,114 @@
+id: 13639
+game_id: 5491
+game_slug: simcity-2000-special-edition
+name: 'SimCity 2000: Special Edition'
+year: 1995
+user: rregeer
+runner: dosbox
+slug: simcity-2000-special-edition-gogcom
+version: GOG.com
+description: Will use the Windows installer from GOG.com. This installer will change
+  the DOSBox settings to have the best available performance. The installer will also
+  create the sim city configuration for you so sound and music will work out of the
+  box.
+notes: ''
+created_at: '2019-05-20T10:03:30.718662Z'
+updated_at: '2019-05-20T10:03:30.718687Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      description: Extracting innoextract application
+      dst: $CACHE
+      file: $fileextract
+  - execute:
+      args: -d "$CACHE/game" "$installer"
+      description: Extracting game data
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/game
+      dst: $GAMEDIR
+  - move:
+      src: $GAMEDIR/__support/app/dosboxSC2000.conf
+      dst: $GAMEDIR
+  - write_config:
+      section: sdl
+      key: output
+      value: opengl
+      file: $GAMEDIR/dosboxSC2000.conf
+  - write_config:
+      section: sdl
+      key: fulldouble
+      value: true
+      file: $GAMEDIR/dosboxSC2000.conf
+  - write_config:
+      section: sdl
+      key: fullresolution
+      value: desktop
+      file: $GAMEDIR/dosboxSC2000.conf
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/dosboxSC2000.conf
+  - write_config:
+      section: render
+      key: scaler
+      value: normal2x
+      file: $GAMEDIR/dosboxSC2000.conf
+  - write_file:
+      content: '[ipx] ipx=false
+
+        [autoexec]
+
+        mount c .
+
+        c:
+
+        imgmount d SC2000SE.DAT -t iso -fs iso
+
+        LOADFIX -1 SC2K %1
+
+        exit
+
+        '
+      file: $GAMEDIR/dosboxSC2000_single.conf
+  - write_config:
+      section: Music
+      key: MUSICNAME
+      value: Sound Blaster 16
+      file: $GAMEDIR/SC2000.CFG
+  - write_config:
+      section: Music
+      key: MUSICDRIVER
+      value: A32SP2FM.DLL
+      file: $GAMEDIR/SC2000.CFG
+  - write_config:
+      section: Music
+      key: MUSICADDRESS
+      value: 220
+      file: $GAMEDIR/SC2000.CFG
+  - write_config:
+      section: Music
+      key: MUSICIRQ
+      value: 5
+      file: $GAMEDIR/SC2000.CFG
+  - write_config:
+      section: Music
+      key: MUSICDMA
+      value: 1
+      file: $GAMEDIR/SC2000.CFG
+  files:
+  - installer: "N/A:Select the GOG.com game setup file. Download it here: \nhttps://www.gog.com/downloads/simcity_2000_special_edition/en1installer0\n"
+  - fileextract: https://lutris.nyc3.digitaloceanspaces.com/tools/innoextract/innoextract-1.8-dev-2019-01-13-linux.tar.xz
+  game:
+    config_file: $GAMEDIR/dosboxSC2000.conf
+    main_file: $GAMEDIR/dosboxSC2000_single.conf
+    game_id: simcity-2000-special-edition

@@ -1,0 +1,42 @@
+id: 6013
+game_id: 141
+game_slug: oddworld-abes-oddysee
+name: 'Oddworld: Abe''s Oddysee'
+year: 1997
+user: bacera
+runner: wine
+slug: oddworld-abes-oddysee-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2017-10-20T04:19:24.699000Z'
+updated_at: '2019-02-07T00:40:41.802923Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 15700
+gogid: 1207658705
+gogslug: oddworld_abes_oddysee
+humblestoreid: oddworld-abes-oddysee
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Abes Oddysee/AbeWin.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: goginstaller
+      prefix: $GAMEDIR
+      args: /LANG=English /SP- /SUPPRESSMSGBOXES
+      arch: win32
+      name: wineexec
+  wine:
+    WineDesktop: 640x480
+    Desktop: true
+  files:
+  - goginstaller: N/A:Please select the GOG.com Windows installer

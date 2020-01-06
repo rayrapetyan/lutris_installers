@@ -1,0 +1,45 @@
+id: 17247
+game_id: 1364
+game_slug: the-longest-journey
+name: The Longest Journey
+year: 1999
+user: legluondunet
+runner: residualvm
+slug: the-longest-journey-steam-residualvm
+version: Steam + ResidualVM
+description: "Play the first opus of \"The Longest Journey\" Steam version on Linux\
+  \ with ResidualVM.\r\nBig thanks to people who gave their time to permit us playing\
+  \ this game in the best conditions."
+notes: "- \"The Longest Journey\" should be installed on Steam before to launch this\
+  \ installer script.\r\n- Please report issue concerning this script on my Github\
+  \ page:\r\nhttps://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2019-12-09T20:02:26.932000Z'
+updated_at: '2019-12-09T20:30:12.408639Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: 6310
+gogid: 1207658794
+gogslug: the_longest_journey
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: x.xarc
+      description: Please browse to the The Long Journey Steam Edition game folder
+  - merge:
+      src: $DISC
+      dst: $GAMEDIR/
+  - extract:
+      dst: $GAMEDIR/engines
+      file: rvmengine
+  game:
+    game_id: tlj
+    path: $GAMEDIR/
+    subtitles: true
+  residualvm:
+    fullscreen: true
+  files:
+  - rvmengine: https://lutris.nyc3.digitaloceanspaces.com/games/the-longest-journey/engines-stark.tar.xz
+  custom-name: The Longest Journey - Steam - ResidualVM

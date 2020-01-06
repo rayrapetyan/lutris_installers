@@ -1,0 +1,16 @@
+name: 'Wolfenstein: The Old Blood'
+slug: wolfenstein-the-old-blood
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+aliases: []
+banner_url: /games/banner/wolfenstein-the-old-blood.jpg
+icon_url: /games/icon/wolfenstein-the-old-blood.png
+is_public: true
+updated: '2019-01-23T08:32:09.901986Z'
+steamid: 350080
+gogslug: ''
+humblestoreid: ''

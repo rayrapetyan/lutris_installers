@@ -1,0 +1,15 @@
+name: "Pok\xE9mon Super Mystery Dungeon"
+slug: pokemon-super-mystery-dungeon
+year: 2015
+platforms:
+- name: Nintendo 3DS
+genres:
+- name: Roguelike
+aliases: []
+banner_url: /games/banner/pokemon-super-mystery-dungeon.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-17T06:40:55.293733Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

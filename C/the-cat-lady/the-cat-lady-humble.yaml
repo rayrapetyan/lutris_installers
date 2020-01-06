@@ -1,0 +1,33 @@
+id: 4145
+game_id: 1654
+game_slug: the-cat-lady
+name: The Cat Lady
+year: 2012
+user: FakeShemp
+runner: wine
+slug: the-cat-lady-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-05T21:01:36.419000Z'
+updated_at: '2018-05-19T03:41:52.772921Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 253110
+gogid: 1207659201
+gogslug: the_cat_lady
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Screen7/Premier Games/The Cat Lady/Cat Lady.exe
+    arch: win32

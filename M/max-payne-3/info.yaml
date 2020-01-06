@@ -1,0 +1,17 @@
+name: Max Payne 3
+slug: max-payne-3
+year: 2012
+platforms:
+- name: Sony Playstation 3
+- name: Windows
+genres:
+- name: Action
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/max-payne-3.jpg
+icon_url: /games/icon/max-payne-3.png
+is_public: true
+updated: '2019-02-16T03:38:50.676550Z'
+steamid: 204100
+gogslug: ''
+humblestoreid: ''

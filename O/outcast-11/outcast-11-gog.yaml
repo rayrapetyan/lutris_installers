@@ -1,0 +1,39 @@
+id: 13812
+game_id: 4122
+game_slug: outcast-11
+name: Outcast 1.1
+year: 1999
+user: Eisi
+runner: wine
+slug: outcast-11-gog
+version: GOG
+description: null
+notes: "- Flicker warning: The intro video may flicker and be unwatchable. It can\
+  \ be disabled in the Configurator that launches before the game under Settings->Advanced->Skip\
+  \ Intro Video. The video can be watched outside of the game using a video player.\
+  \ It is located at GAMEDIR/drive_c/GOG Games/Outcast/Video/INTRO.mkv\r\n- There\
+  \ may be errors at the end of the installation process but the game runs despite\
+  \ of that"
+created_at: '2019-05-30T19:58:21.729000Z'
+updated_at: '2019-09-09T01:50:29.307645Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 336610
+gogid: 1207658853
+gogslug: outcast
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  files:
+  - installer: N/A:Please select the GOG.com Windows installer
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/GOG Games/Outcast/Outcast 1.1.exe
+    arch: win32

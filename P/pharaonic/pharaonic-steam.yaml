@@ -1,0 +1,24 @@
+id: 3439
+game_id: 9119
+game_slug: pharaonic
+name: Pharaonic
+year: null
+user: liberodark
+runner: steam
+slug: pharaonic-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-04-01T03:06:24.887894Z'
+updated_at: '2017-04-06T19:50:32.194497Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 386080
+gogid: 1331575837
+gogslug: pharaonic
+humblestoreid: ''
+script:
+  game:
+    appid: 386080

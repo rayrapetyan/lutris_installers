@@ -1,0 +1,17 @@
+name: Duke Nukem II
+slug: duke-nukem-2
+year: 1993
+platforms:
+- name: MS-DOS
+genres:
+- name: Action
+- name: Platform
+- name: Shooter
+aliases: []
+banner_url: /games/banner/duke-nukem-2.jpg
+icon_url: /games/icon/duke-nukem-2.png
+is_public: true
+updated: '2019-01-23T08:29:18.797939Z'
+steamid: 240180
+gogslug: ''
+humblestoreid: ''

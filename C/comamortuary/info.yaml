@@ -1,0 +1,17 @@
+name: Coma:Mortuary
+slug: comamortuary
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Horror
+- name: Indie
+aliases: []
+banner_url: /games/banner/comamortuary.jpg
+icon_url: /games/icon/comamortuary.png
+is_public: true
+updated: '2019-06-11T18:49:02.620877Z'
+steamid: 293320
+gogslug: ''
+humblestoreid: ''

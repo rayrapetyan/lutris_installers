@@ -1,0 +1,19 @@
+name: ADOM (Ancient Domains Of Mystery)
+slug: adom-ancient-domains-of-mystery
+year: 2015
+platforms:
+- name: Amiga
+- name: Linux
+- name: MS-DOS
+genres:
+- name: Adventure
+- name: Roguelike
+- name: Role-playing
+aliases: []
+banner_url: /games/banner/adom-ancient-domains-of-mystery.jpg
+icon_url: /games/icon/adom-ancient-domains-of-mystery.png
+is_public: true
+updated: '2019-01-23T08:28:11.993317Z'
+steamid: 333300
+gogslug: adom
+humblestoreid: ''

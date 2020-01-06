@@ -1,0 +1,16 @@
+name: Far Cry 4
+slug: far-cry-4
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+aliases: []
+banner_url: /games/banner/far-cry-4.jpg
+icon_url: /games/icon/far-cry-4.png
+is_public: true
+updated: '2019-01-23T08:29:28.641315Z'
+steamid: 298110
+gogslug: ''
+humblestoreid: ''

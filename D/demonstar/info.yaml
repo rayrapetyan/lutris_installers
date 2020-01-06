@@ -1,0 +1,17 @@
+name: DemonStar
+slug: demonstar
+year: 1998
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Arcade
+- name: Shooter
+aliases: []
+banner_url: /games/banner/demonstar.jpg
+icon_url: null
+is_public: true
+updated: '2019-03-01T22:57:31.789507Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

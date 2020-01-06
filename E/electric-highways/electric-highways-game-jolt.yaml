@@ -1,0 +1,31 @@
+id: 9800
+game_id: 6209
+game_slug: electric-highways
+name: Electric Highways
+year: null
+user: maxlefou
+runner: wine
+slug: electric-highways-game-jolt
+version: Game Jolt
+description: null
+notes: Get the archive from the game's Game Jolt page
+created_at: '2018-08-19T13:02:25.473000Z'
+updated_at: '2018-08-19T19:17:19.344215Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 412140
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: archive
+  files:
+  - archive: N/A:Select the game's archive
+  game:
+    prefix: $GAMEDIR/Electric Highways
+    exe: Electric Highways.exe

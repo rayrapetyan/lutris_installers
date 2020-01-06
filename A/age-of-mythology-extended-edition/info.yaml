@@ -1,0 +1,17 @@
+name: 'Age of Mythology: Extended Edition'
+slug: age-of-mythology-extended-edition
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Simulation
+- name: Strategy
+- name: Tactical
+aliases: []
+banner_url: /games/banner/age-of-mythology-extended-edition.jpg
+icon_url: /games/icon/age-of-mythology-extended-edition.png
+is_public: true
+updated: '2019-04-28T05:55:41.167464Z'
+steamid: 266840
+gogslug: ''
+humblestoreid: ''

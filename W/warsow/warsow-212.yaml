@@ -1,0 +1,28 @@
+id: 36
+game_id: 49
+game_slug: warsow
+name: Warsow
+year: 2012
+user: strider
+runner: linux
+slug: warsow-212
+version: 2.1.2
+description: null
+notes: ''
+created_at: '2013-07-03T23:36:25Z'
+updated_at: '2018-01-11T20:17:57.047079Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: warsow
+  installer:
+  - extract:
+      file: $game
+  files:
+  - game: https://www.warsow.net/mirror/warsow-2.1.2.tar.gz

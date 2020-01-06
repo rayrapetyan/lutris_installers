@@ -1,0 +1,16 @@
+name: The Swapper
+slug: the-swapper
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Platform
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/the-swapper.jpg
+icon_url: /games/icon/the-swapper.png
+is_public: true
+updated: '2019-01-23T08:31:47.851482Z'
+steamid: 231160
+gogslug: the_swapper
+humblestoreid: ''

@@ -1,0 +1,51 @@
+id: 14029
+game_id: 25152
+game_slug: need-for-speed-underground
+name: 'Need for Speed: Underground'
+year: 2003
+user: VortexAcherontic
+runner: wine
+slug: need-for-speed-underground-2-disc
+version: 2 Disc
+description: "Installer which requires 2 CDs for the game installation.\r\nThis installer\
+  \ will copy the content of the entire 1st disc into the wine prefix in order to\
+  \ launch the setup from there and prevent Linux from refusing to eject the CD ROM\
+  \ because of open files. You'll be able to switch CDs if requested by the installer."
+notes: ''
+created_at: '2019-06-10T12:26:44.040000Z'
+updated_at: '2019-10-28T21:15:47.409911Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      install_mono: false
+      description: Creating Wine Bottle, please wait...
+      arch: win32
+      name: create_prefix
+  - insert-disc:
+      requires: setup.exe
+      description: Insert disc 1
+  - merge:
+      src: $DISC
+      description: Extracting installation data from disc, please wait ...
+      dst: $GAMEDIR/drive_c/nfsusetup
+  - execute:
+      args: 744 -R $GAMEDIR/drive_c/nfsusetup
+      descritpion: Set proper file permissions for extracted data, please wait...
+      file: chmod
+  - task:
+      executable: $GAMEDIR/drive_c/nfsusetup/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/EA GAMES/NFS Underground/Speed.exe
+    arch: win32

@@ -1,0 +1,24 @@
+id: 6248
+game_id: 7080
+game_slug: faeria
+name: Faeria
+year: 2017
+user: fanotriel
+runner: steam
+slug: faeria-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-11-06T13:48:19.731869Z'
+updated_at: '2017-11-11T21:42:44.847458Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 397060
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 397060

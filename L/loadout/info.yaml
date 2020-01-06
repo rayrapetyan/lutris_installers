@@ -1,0 +1,15 @@
+name: Loadout
+slug: loadout
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/loadout.jpg
+icon_url: /games/icon/loadout.png
+is_public: true
+updated: '2019-01-23T08:30:12.048973Z'
+steamid: 208090
+gogslug: ''
+humblestoreid: ''

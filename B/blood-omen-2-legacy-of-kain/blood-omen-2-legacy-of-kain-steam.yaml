@@ -1,0 +1,24 @@
+id: 7443
+game_id: 3455
+game_slug: blood-omen-2-legacy-of-kain
+name: 'Blood Omen 2: Legacy of Kain'
+year: 2002
+user: strider
+runner: winesteam
+slug: blood-omen-2-legacy-of-kain-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-04T05:57:43.670011Z'
+updated_at: '2018-03-04T05:57:53.755168Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 242960
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 242960

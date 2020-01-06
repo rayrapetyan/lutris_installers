@@ -1,0 +1,24 @@
+id: 6412
+game_id: 1075
+game_slug: nexus-the-jupiter-incident
+name: 'Nexus: The Jupiter Incident'
+year: null
+user: Stoney_Fish
+runner: winesteam
+slug: nexus-the-jupiter-incident-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-11-23T22:05:56.740581Z'
+updated_at: '2017-11-26T01:57:54.856345Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 6420
+gogid: 1207659080
+gogslug: nexus_the_jupiter_incident
+humblestoreid: ''
+script:
+  game:
+    appid: 6420

@@ -1,0 +1,25 @@
+id: 13955
+game_id: 982
+game_slug: the-wolf-among-us
+name: The Wolf Among Us
+year: 2013
+user: jackgc123
+runner: steam
+slug: the-wolf-among-us-steam-proton
+version: Steam Proton
+description: null
+notes: Since this game is not officially whitelisted, you have to enable Steam Play
+  for all titles in Steam's settings prior to installation.
+created_at: '2019-06-06T10:37:24.588845Z'
+updated_at: '2019-06-13T06:39:57.506867Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 250320
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 250320

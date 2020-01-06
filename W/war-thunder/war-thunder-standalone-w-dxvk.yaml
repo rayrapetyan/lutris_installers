@@ -1,0 +1,64 @@
+id: 10579
+game_id: 882
+game_slug: war-thunder
+name: War Thunder
+year: 2012
+user: 88cdc6cfc9626326a983ea87b1b69a60
+runner: wine
+slug: war-thunder-standalone-w-dxvk
+version: Standalone w/ DXVK
+description: This is the windows standalone version with DXVK. Try this if you have
+  problems with the linux version of the game.
+notes: "Instructions for DXVK support: <a href=\"https://github.com/lutris/lutris/wiki/How-to:-DXVK\"\
+  >https://github.com/lutris/lutris/wiki/How-to:-DXVK</a>\r\n\r\nChange to \"full\
+  \ screen (window mode)\" If you have multiple monitors and the mouse doesn't stay\
+  \ in the game window.\r\n\r\nSometimes the game doesn't quit completely. You need\
+  \ to close it with a right click on the wine system tray icon or by stopping the\
+  \ game with lutris."
+created_at: '2018-10-20T23:09:32.585000Z'
+updated_at: '2019-06-13T08:07:04.940717Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 236390
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 32bit Wine prefix.
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Arial font
+      app: arial
+      arch: win32
+      name: winetricks
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      description: 'Installing the game.
+
+        ------------------------------
+
+        Let Lutris installer finish first. UNCHECK launch WarThunder before you close
+        the installer!'
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/users/$USER/Local Settings/Application Data/WarThunder/launcher.exe
+    arch: win32
+  system:
+    env:
+      DXVK_HUD: 0
+  wine:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  files:
+  - game:
+      filename: wt_launcher.exe
+      url: https://yupmaster.gaijinent.com/launcher/current.php?id=WarThunderLauncher

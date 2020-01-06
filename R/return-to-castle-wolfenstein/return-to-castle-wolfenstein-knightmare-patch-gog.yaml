@@ -1,0 +1,47 @@
+id: 2658
+game_id: 115
+game_slug: return-to-castle-wolfenstein
+name: Return to Castle Wolfenstein
+year: 2001
+user: ssf
+runner: wine
+slug: return-to-castle-wolfenstein-knightmare-patch-gog
+version: Knightmare Patch GOG
+description: GOG installer with 1.42d Knightmare Patch
+notes: ''
+created_at: '2016-08-31T21:13:17.937000Z'
+updated_at: '2019-04-20T20:37:12.616327Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 9010
+gogid: 1441704976
+gogslug: return_to_castle_wolfenstein
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /SP- /NOCANCEL /SUPPRESSMSGBOXES
+      arch: win32
+      name: wineexec
+  - move:
+      src: $GAMEDIR/drive_c/GOG Games/Return to Castle Wolfenstein/Main/sp_pak4.pk3
+      dst: $GAMEDIR/drive_c/GOG Games/Return to Castle Wolfenstein/Main/sp_pak5.pk3
+  - extract:
+      dst: $GAMEDIR/drive_c/GOG Games/Return to Castle Wolfenstein
+      file: 142d
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.
+  - 142d: http://www.markshan.com/knightmare/downloads/rtcw-sp-1.42d-win32-bin.zip
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Return to Castle Wolfenstein/WolfSP.exe
+    arch: win32

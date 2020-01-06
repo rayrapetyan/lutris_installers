@@ -1,0 +1,16 @@
+name: Big Bang Empire
+slug: big-bang-empire
+year: null
+platforms:
+- name: Browser
+- name: Windows
+genres:
+- name: Casual
+aliases: []
+banner_url: /games/banner/big-bang-empire.jpg
+icon_url: /games/icon/big-bang-empire.png
+is_public: true
+updated: '2019-01-23T08:28:35.635852Z'
+steamid: 510660
+gogslug: ''
+humblestoreid: ''

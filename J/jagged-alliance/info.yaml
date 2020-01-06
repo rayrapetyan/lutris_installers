@@ -1,0 +1,17 @@
+name: Jagged Alliance
+slug: jagged-alliance
+year: 1994
+platforms:
+- name: Windows
+genres:
+- name: Modern
+- name: Strategy
+- name: Turn-based
+aliases: []
+banner_url: /games/banner/jagged-alliance.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:59.582293Z'
+steamid: null
+gogslug: jagged_alliance
+humblestoreid: ''

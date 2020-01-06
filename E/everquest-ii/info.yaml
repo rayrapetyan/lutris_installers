@@ -1,0 +1,15 @@
+name: EverQuest II
+slug: everquest-ii
+year: 2004
+platforms:
+- name: Windows
+genres:
+- name: MMORPG
+aliases: []
+banner_url: /games/banner/everquest-ii.jpg
+icon_url: /games/icon/everquest-ii.png
+is_public: true
+updated: '2019-09-07T06:18:44.767631Z'
+steamid: 201230
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 4583
+game_id: 210
+game_slug: sam-max-204-chariots-of-the-dogs
+name: 'Sam & Max 204: Chariots of the Dogs'
+year: null
+user: flicknice
+runner: winesteam
+slug: sam-max-204-chariots-of-the-d-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-06-24T21:11:13.547623Z'
+updated_at: '2017-06-26T14:19:09.100623Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 8290
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 8290

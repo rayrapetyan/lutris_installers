@@ -1,0 +1,37 @@
+id: 4151
+game_id: 1101
+game_slug: qube
+name: Q.U.B.E.
+year: null
+user: FakeShemp
+runner: wine
+slug: qube-humble-gog
+version: Humble & GOG
+description: null
+notes: ''
+created_at: '2017-06-06T15:12:15.914000Z'
+updated_at: '2018-06-11T13:14:05.847939Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 203730
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      app: dotnet40
+      name: winetricks
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble (or GOG) installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Toxic Games/QUBE/Binaries/Win32/QUBE.exe
+    arch: win32

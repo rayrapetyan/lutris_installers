@@ -1,0 +1,24 @@
+id: 114
+game_id: 425
+game_slug: counter-strike-condition-zero
+name: 'Counter-Strike: Condition Zero'
+year: 2004
+user: dennisjj4
+runner: steam
+slug: counter-strike-condition-zero-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2013-12-17T18:26:04.527000Z'
+updated_at: '2013-12-17T23:39:28.485000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 80
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 80

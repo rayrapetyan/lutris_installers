@@ -1,0 +1,16 @@
+name: The Cat Lady
+slug: the-cat-lady
+year: 2012
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/the-cat-lady.jpg
+icon_url: /games/icon/the-cat-lady.png
+is_public: true
+updated: '2019-01-23T08:31:39.440855Z'
+steamid: 253110
+gogslug: the_cat_lady
+humblestoreid: ''

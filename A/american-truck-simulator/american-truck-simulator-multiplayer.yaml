@@ -1,0 +1,43 @@
+id: 8955
+game_id: 5608
+game_slug: american-truck-simulator
+name: American Truck Simulator
+year: 2016
+user: Bokemekeis
+runner: wine
+slug: american-truck-simulator-multiplayer
+version: Multiplayer
+description: "Installer needs bash, wget, awk and md5sum.\r\nTo launch the mod you\
+  \ need to launch steam first through 'Run EXE inside wine prefix' (default location\
+  \ is \"$HOME/.local/share/lutris/runners/winesteam/prefix/drive_c/Program Files/Steam/Steam.exe\"\
+  \r\n)"
+notes: ''
+created_at: '2018-06-30T13:21:31.612000Z'
+updated_at: '2018-09-14T00:09:08.499694Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 270880
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  require-binaries: bash, wget, awk, md5sum
+  installer:
+  - chmodx: downloader
+  - execute:
+      file: downloader
+  - move:
+      src: $launcher
+      dst: $GAMEDIR
+  files:
+  - steamdata: $WINESTEAM:270880:/
+  - launcher: https://github.com/lhark/truckersmp-cli/raw/master/truckersmp-cli.exe
+  - downloader: https://notabug.org/soredake/lutris-additions/raw/master/truckers-mp.sh
+  game:
+    prefix: $GAMEDIR/prefix
+    exe: $GAMEDIR/truckersmp-cli.exe
+    args: . $GAMEDIR/prefix/drive_c/truckersmp
+    working_dir: $steamdata
+    arch: win64

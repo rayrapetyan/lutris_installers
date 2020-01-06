@@ -1,0 +1,15 @@
+name: FIFA 18
+slug: fifa-18
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Sports
+aliases: []
+banner_url: /games/banner/fifa-18.jpg
+icon_url: /games/icon/fifa-18.png
+is_public: true
+updated: '2019-01-23T08:29:30.374774Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

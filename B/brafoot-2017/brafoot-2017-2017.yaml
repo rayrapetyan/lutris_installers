@@ -1,0 +1,39 @@
+id: 14722
+game_id: 28561
+game_slug: brafoot-2017
+name: brafoot 2017
+year: 2017
+user: lucasmatheussan
+runner: wine
+slug: brafoot-2017-2017
+version: '2017'
+description: null
+notes: ''
+created_at: '2019-07-26T04:56:55.186436Z'
+updated_at: '2019-12-08T18:38:31.228380Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      nomerge: true
+      file: java-jre
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - setup: http://www.brasfoot2k.com/uploads/brasfoot2017.exe
+  - java-jre: https://lutris.nyc3.digitaloceanspaces.com/runners/java/jre-8u73-linux-x64.tar.gz
+  game:
+    prefix: $GAMEDIR
+    exe: null

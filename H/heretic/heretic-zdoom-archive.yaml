@@ -1,0 +1,29 @@
+id: 2425
+game_id: 5396
+game_slug: heretic
+name: Heretic
+year: 1994
+user: RobLoach
+runner: zdoom
+slug: heretic-zdoom-archive
+version: ZDoom + Archive
+description: Provide a zip file containing HERETIC.WAD
+notes: ''
+created_at: '2016-08-11T05:56:50.403634Z'
+updated_at: '2016-09-09T22:35:32.244976Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: HERETIC.WAD
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: wad-data
+  files:
+  - wad-data: N/A:Select an archive containing the Heretic game files

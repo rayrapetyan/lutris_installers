@@ -1,0 +1,16 @@
+name: "Pok\xE9mon Pearl Version"
+slug: pokemon-pearl-version
+year: 2006
+platforms:
+- name: Nintendo DS
+genres:
+- name: jRPG
+- name: RPG
+aliases: []
+banner_url: /games/banner/pokemon-pearl-version.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:47.120954Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

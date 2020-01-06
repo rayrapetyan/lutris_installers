@@ -1,0 +1,18 @@
+name: 'Serious Sam 4: Planet Badass'
+slug: serious-sam-4-planet-badass
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: FPS
+- name: Shooter
+aliases: []
+banner_url: /games/banner/serious-sam-4-planet-badass.jpg
+icon_url: /games/icon/serious-sam-4-planet-badass.png
+is_public: true
+updated: '2019-01-23T08:31:09.761803Z'
+steamid: 257420
+gogslug: ''
+humblestoreid: ''

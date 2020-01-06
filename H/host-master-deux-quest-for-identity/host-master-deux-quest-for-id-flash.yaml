@@ -1,0 +1,23 @@
+id: 2019
+game_id: 5791
+game_slug: host-master-deux-quest-for-identity
+name: 'Host Master Deux: Quest for Identity'
+year: 2013
+user: dennisjj4
+runner: browser
+slug: host-master-deux-quest-for-id-flash
+version: Flash
+description: ''
+notes: ''
+created_at: '2016-03-14T00:29:24.649140Z'
+updated_at: '2016-03-15T17:29:19.604852Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: http://www.doublefine.com/games/host_master_deux

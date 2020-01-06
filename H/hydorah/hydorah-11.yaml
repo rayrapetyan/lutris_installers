@@ -1,0 +1,54 @@
+id: 2247
+game_id: 6500
+game_slug: hydorah
+name: Hydorah
+year: 2010
+user: ssf
+runner: wine
+slug: hydorah-11
+version: '1.1'
+description: ''
+notes: ''
+created_at: '2016-07-04T18:26:29.429946Z'
+updated_at: '2016-10-03T17:57:23.022539Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - extract:
+      dst: $GAMEDIR
+      file: game
+  - task:
+      prefix: $GAMEDIR
+      app: l3codecx
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: sound=alsa
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: windowmanagermanaged=n
+      silent: true
+      name: winetricks
+  system:
+    use_us_layout: true
+    single_cpu: true
+  files:
+  - game: https://locomalito.com/juegos/Hydorah_1_1.zip
+  game:
+    prefix: $GAMEDIR
+    exe: Hydorah.exe
+    arch: win32

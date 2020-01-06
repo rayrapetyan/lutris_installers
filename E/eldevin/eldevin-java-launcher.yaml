@@ -1,0 +1,36 @@
+id: 7692
+game_id: 3522
+game_slug: eldevin
+name: Eldevin
+year: 2014
+user: raku-cat
+runner: linux
+slug: eldevin-java-launcher
+version: Java launcher
+description: Standalone java launcher for eldevin
+notes: "Edit the `eldevin.sh` file and prepend the bash shebang `#!/bin/bash`\r\n\
+  Worked best with openjdk-8 for me."
+created_at: '2018-03-30T01:20:33.438000Z'
+updated_at: '2018-05-02T01:02:44.057612Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 298160
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $launcher
+  - chmodx: $GAMEDIR/eldevin.sh
+  system:
+    disable_runtime: true
+    pulse_latency: false
+  files:
+  - launcher: https://www.eldevin.com/cdn/files/eldevin_linux.zip
+  game:
+    appid: 298160
+    exe: $GAMEDIR/eldevin.sh

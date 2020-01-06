@@ -1,0 +1,17 @@
+name: 'Cyberbots: Full Metal Madness'
+slug: cyberbots-full-metal-madness
+year: 1995
+platforms:
+- name: Arcade
+- name: Sega Saturn
+- name: Sony PlayStation
+genres:
+- name: Fighting
+aliases: []
+banner_url: /games/banner/cyberbots-full-metal-madness.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-04T19:19:08.786485Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

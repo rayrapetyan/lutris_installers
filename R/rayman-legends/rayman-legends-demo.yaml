@@ -1,0 +1,24 @@
+id: 9318
+game_id: 1524
+game_slug: rayman-legends
+name: Rayman Legends
+year: 2013
+user: cxf
+runner: winesteam
+slug: rayman-legends-demo
+version: Demo
+description: null
+notes: ''
+created_at: '2018-07-21T21:18:49.401000Z'
+updated_at: '2018-07-21T21:19:28.924985Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 242550
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 243340

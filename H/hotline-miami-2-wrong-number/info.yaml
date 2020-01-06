@@ -1,0 +1,16 @@
+name: 'Hotline Miami 2: Wrong Number'
+slug: hotline-miami-2-wrong-number
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Shooter
+aliases: []
+banner_url: /games/banner/hotline-miami-2-wrong-number.jpg
+icon_url: /games/icon/hotline-miami-2-wrong-number.png
+is_public: true
+updated: '2019-01-23T08:29:52.497298Z'
+steamid: 274170
+gogslug: hotline_miami_2_wrong_number
+humblestoreid: ''

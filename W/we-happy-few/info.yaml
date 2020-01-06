@@ -1,0 +1,17 @@
+name: We Happy Few
+slug: we-happy-few
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Survival
+aliases: []
+banner_url: /games/banner/we-happy-few.jpg
+icon_url: /games/icon/we-happy-few.png
+is_public: true
+updated: '2019-01-23T08:32:07.473130Z'
+steamid: 320240
+gogslug: we_happy_few
+humblestoreid: ''

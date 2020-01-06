@@ -1,0 +1,24 @@
+id: 8804
+game_id: 19401
+game_slug: maze-and-dagger
+name: Maze And Dagger
+year: 2018
+user: TuiorGames
+runner: steam
+slug: maze-and-dagger-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-19T13:26:09.630000Z'
+updated_at: '2018-08-02T07:47:37.413318Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 874690
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 874690

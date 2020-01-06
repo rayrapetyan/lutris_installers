@@ -1,0 +1,24 @@
+id: 1819
+game_id: 162
+game_slug: greed-corp
+name: Greed Corp
+year: null
+user: RobLoach
+runner: winesteam
+slug: greed-corp-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: https://appdb.winehq.org/objectManager.php?sClass=version&iId=22214
+created_at: '2016-01-05T06:34:15.665656Z'
+updated_at: '2016-01-06T21:49:36.693874Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 48950
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 48950

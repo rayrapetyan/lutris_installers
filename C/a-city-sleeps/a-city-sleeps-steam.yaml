@@ -1,0 +1,24 @@
+id: 2101
+game_id: 4601
+game_slug: a-city-sleeps
+name: A City Sleeps
+year: 2014
+user: strider
+runner: winesteam
+slug: a-city-sleeps-steam
+version: Steam
+description: ''
+notes: Xinput can be enabled for joypad support (tested with x360ce)
+created_at: '2016-06-15T03:45:08.134335Z'
+updated_at: '2016-06-15T04:02:06.895414Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 316180
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 316180

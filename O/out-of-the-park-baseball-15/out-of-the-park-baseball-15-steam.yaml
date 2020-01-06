@@ -1,0 +1,24 @@
+id: 3694
+game_id: 4417
+game_slug: out-of-the-park-baseball-15
+name: Out of the Park Baseball 15
+year: null
+user: FakeShemp
+runner: steam
+slug: out-of-the-park-baseball-15-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-05-15T19:42:36.953784Z'
+updated_at: '2017-05-18T18:32:06.709760Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 272670
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 272670

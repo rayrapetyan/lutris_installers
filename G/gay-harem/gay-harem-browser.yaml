@@ -1,0 +1,23 @@
+id: 8937
+game_id: 17208
+game_slug: gay-harem
+name: Gay Harem
+year: null
+user: kimchitea
+runner: browser
+slug: gay-harem-browser
+version: Browser
+description: null
+notes: ''
+created_at: '2018-06-28T00:45:53.635838Z'
+updated_at: '2018-06-28T04:36:26.823353Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://www.gayharem.com/

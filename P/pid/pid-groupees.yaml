@@ -1,0 +1,32 @@
+id: 5552
+game_id: 1172
+game_slug: pid
+name: 'Pid '
+year: 2012
+user: FakeShemp
+runner: wine
+slug: pid-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-31T18:33:29.525947Z'
+updated_at: '2018-05-19T03:41:57.060509Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 218740
+gogid: 1207659131
+gogslug: pid
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Pid
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Pid/Pid.exe
+    arch: win32

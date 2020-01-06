@@ -1,0 +1,96 @@
+id: 16739
+game_id: 30163
+game_slug: 3dmark-1999
+name: 3DMark 1999
+year: 1999
+user: vanstaveren
+runner: wine
+slug: 3dmark-1999-max-pro-complete
+version: Max Pro, complete
+description: "* License: Legacy,\r\n* Hardware acceleration benchmark software,\r\n\
+  * Legacy key: 78TR2-8DBDU-BMXXS,\r\n* Legacy user: Futuremark,\r\n* MP3codec DirectShow,\r\
+  \n* Ddraw.dll: 4.08.01 \r\n* DirectX: 6,1."
+notes: ''
+created_at: '2019-11-10T03:52:49.536000Z'
+updated_at: '2019-12-23T20:12:13.935265Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 64-bit prefix ...
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: MP3codec DirectShow ...
+      app: l3codecx
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Windows version 98 ...
+      app: win98
+      arch: win64
+      name: winetricks
+  - move:
+      src: setup
+      dst: $GAMEDIR
+  - extract:
+      dst: $GAMEDIR/3dmark99
+      file: $GAMEDIR/3dmark99.exe
+  - task:
+      executable: $GAMEDIR/3dmark99/Setup.exe
+      prefix: $GAMEDIR
+      description: 3DMark 1999 ...
+      name: wineexec
+  - move:
+      src: ddraw
+      dst: $GAMEDIR
+  - extract:
+      dst: $GAMEDIR/3dmark99
+      file: $GAMEDIR/ddraw.dll.zip
+  - merge:
+      src: $GAMEDIR/3dmark99/DDRAW.DLL
+      dst: $GAMEDIR/drive_c/windows/system32/ddraw.dll
+  - merge:
+      src: $GAMEDIR/3dmark99/DDRAW.DLL
+      dst: $GAMEDIR/drive_c/windows/syswow64/ddraw.dll
+  - task:
+      description: Register KeyCode ...
+      name: set_regedit
+      arch: win64
+      key: RegKey
+      value: 78TR2-8DBDU-BMXXS
+      type: REG_SZ
+      path: HKEY_LOCAL_MACHINE\Software\Wow6432Node\Futuremark Corporation\3DMark
+        Registration
+  - task:
+      description: Register KeyCode ...
+      name: set_regedit
+      arch: win64
+      key: RegName
+      value: Futuremark
+      type: REG_SZ
+      path: HKEY_LOCAL_MACHINE\Software\Wow6432Node\Futuremark Corporation\3DMark
+        Registration
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files (x86)/3DMark 99 Max/3dmark.exe
+    arch: win64
+  system:
+    disable_compositor: true
+  wine:
+    overrides:
+      msvcirt.dll: n
+    Desktop: true
+  files:
+  - ddraw: https://download.game155.com/zip/ddraw.dll.zip
+  - setup: https://benchmarks.ul.com/downloads/3dmark99.exe

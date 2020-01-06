@@ -1,0 +1,32 @@
+id: 12428
+game_id: 26305
+game_slug: ankama-launcher
+name: Ankama Launcher
+year: 2019
+user: Zhaith
+runner: linux
+slug: ankama-launcher-linux-standalone-32b
+version: Linux Standalone 32bits
+description: Download the AppImage file and run it.
+notes: ''
+created_at: '2019-03-19T13:49:41.079000Z'
+updated_at: '2019-11-02T22:00:16.835019Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: AnkamaLauncher32.AppImage
+  installer:
+  - move:
+      src: main
+      dst: $GAMEDIR
+  - chmodx: $GAMEDIR/AnkamaLauncher32.AppImage
+  files:
+  - main:
+      filename: AnkamaLauncher32.AppImage
+      url: https://ankama.akamaized.net/zaap/installers/production/Ankama%20Launcher-Setup-i386.AppImage

@@ -1,0 +1,29 @@
+id: 4255
+game_id: 1863
+game_slug: eets-munchies
+name: Eets Munchies
+year: 2014
+user: FakeShemp
+runner: linux
+slug: eets-munchies-humble-64bit
+version: Humble (64bit)
+description: ''
+notes: ''
+created_at: '2017-06-09T21:34:24.191564Z'
+updated_at: '2017-06-11T00:48:19.551419Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 214550
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: eets2
+  installer:
+  - extract:
+      format: tgz
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

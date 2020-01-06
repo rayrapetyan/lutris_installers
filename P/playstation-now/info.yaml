@@ -1,0 +1,15 @@
+name: PlayStation Now
+slug: playstation-now
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Tool
+aliases: []
+banner_url: /games/banner/playstation-now.jpg
+icon_url: /games/icon/playstation-now.png
+is_public: true
+updated: '2019-10-29T00:34:25.642331Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 276
+game_id: 733
+game_slug: planetary-annihilation
+name: Planetary Annihilation
+year: 2014
+user: strider
+runner: steam
+slug: planetary-annihilation-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-20T00:21:41.992000Z'
+updated_at: '2013-12-20T00:21:41.992000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 233250
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 233250

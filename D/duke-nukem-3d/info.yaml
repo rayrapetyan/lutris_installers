@@ -1,0 +1,20 @@
+name: Duke Nukem 3D
+slug: duke-nukem-3d
+year: 1996
+platforms:
+- name: Linux
+- name: MS-DOS
+- name: Sega Genesis / Mega Drive
+- name: Sega Saturn
+- name: Sony PlayStation
+genres:
+- name: Action
+- name: FPS
+aliases: []
+banner_url: /games/banner/duke-nukem-3d.jpg
+icon_url: /games/icon/duke-nukem-3d.png
+is_public: true
+updated: '2019-03-01T19:12:37.923697Z'
+steamid: 225140
+gogslug: ''
+humblestoreid: ''

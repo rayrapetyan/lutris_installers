@@ -1,0 +1,20 @@
+name: 'Baldur''s Gate: Dark Alliance II'
+slug: baldurs-gate-dark-alliance-ii
+year: 2004
+platforms:
+- name: Sony PlayStation 2
+genres:
+- name: Action
+- name: Adventure
+- name: Dungeon crawl
+- name: Fantasy
+- name: Hack and slash
+- name: RPG
+aliases: []
+banner_url: /games/banner/baldurs-gate-dark-alliance-ii.jpg
+icon_url: null
+is_public: true
+updated: '2019-07-01T07:32:56.171184Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

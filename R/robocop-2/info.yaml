@@ -1,0 +1,17 @@
+name: RoboCop 2
+slug: robocop-2
+year: 1991
+platforms:
+- name: Commodore 64
+- name: NES
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/robocop-2.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:02.272371Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,47 @@
+id: 15050
+game_id: 4119
+game_slug: total-war-attila
+name: 'Total War: ATTILA'
+year: null
+user: alfyn
+runner: wine
+slug: total-war-attila-dvd-or-digital
+version: DVD or Digital
+description: null
+notes: ''
+created_at: '2019-08-18T16:33:17.206061Z'
+updated_at: '2019-08-18T16:33:17.206092Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: 325610
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating win64 prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Changing windows version to Win7
+      app: win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Installing the game. You might get an error at the end of the installation,
+        just close the installer window and don't click on retry
+      arch: win64
+      name: wineexec
+  files:
+  - setup: N/A:Select the installer for the game.
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Total War ATTILA/TotalWarAttila.exe
+    arch: win64

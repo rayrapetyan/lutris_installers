@@ -1,0 +1,17 @@
+name: Quake
+slug: quake
+year: 1996
+platforms:
+- name: Linux
+- name: Nintendo 64
+- name: Sega Saturn
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/quake.jpg
+icon_url: /games/icon/quake.png
+is_public: true
+updated: '2019-03-09T05:15:51.939457Z'
+steamid: 2310
+gogslug: ''
+humblestoreid: ''

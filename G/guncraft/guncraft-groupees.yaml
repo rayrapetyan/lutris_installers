@@ -1,0 +1,36 @@
+id: 5793
+game_id: 1189
+game_slug: guncraft
+name: Guncraft
+year: null
+user: FakeShemp
+runner: wine
+slug: guncraft-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-18T11:08:49.314000Z'
+updated_at: '2018-05-19T03:41:50.660094Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 241720
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      app: xna40
+      name: winetricks
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Guncraft
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Guncraft/Guncraft.exe
+    arch: win32

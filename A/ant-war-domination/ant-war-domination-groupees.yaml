@@ -1,0 +1,32 @@
+id: 4989
+game_id: 5747
+game_slug: ant-war-domination
+name: 'Ant War: Domination'
+year: null
+user: FakeShemp
+runner: wine
+slug: ant-war-domination-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-12T17:35:38.615420Z'
+updated_at: '2018-05-19T03:41:56.221342Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 406080
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Ant War Domination
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Ant War Domination/Antwar-Win-v1.6.0f1.exe
+    arch: win32

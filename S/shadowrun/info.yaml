@@ -1,0 +1,15 @@
+name: Shadowrun
+slug: shadowrun
+year: 1993
+platforms:
+- name: Super Nintendo
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/shadowrun.jpg
+icon_url: /games/icon/shadowrun.png
+is_public: true
+updated: '2019-01-23T08:31:10.771971Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

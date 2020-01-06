@@ -1,0 +1,171 @@
+id: 15117
+game_id: 26784
+game_slug: windows-31x
+name: Windows 3.1x
+year: 1992
+user: appoloin
+runner: dosbox
+slug: windows-31x-8-disc-floppy-s3-sb1
+version: 8 Disc Floppy + S3 + SB16
+description: The installer requires the 8 disc version of WfW 3.11.    S3 and SB16
+  are downloaded  from the same source as the other installer, the relevant  instructions
+  apply.   For display I would go with 800x600,   games using win3.1  won't need a
+  higher resolution than this.
+notes: ''
+created_at: '2019-08-23T22:24:45.478815Z'
+updated_at: '2019-08-23T22:24:45.478842Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - execute:
+      args: $GAMEDIR/HDD $GAMEDIR/FDD  $GAMEDIR/FDD/DISC1
+      file: mkdir
+  - execute:
+      args: $GAMEDIR/FDD/Drivers $GAMEDIR/FDD/Drivers/sb16  $GAMEDIR/FDD/Drivers/s3
+      file: mkdir
+  - extract:
+      format: zip
+      dst: $GAMEDIR/FDD/Drivers/sb16
+      file: $SB16
+  - extract:
+      format: zip
+      dst: $GAMEDIR/FDD/Drivers/s3
+      file: $S3
+  - write_file:
+      content: '[sblaster]
+
+        irq=5
+
+        [sdl]
+
+        sensitivity=10
+
+        [autoexec]
+
+        imgmount A "$Disc1" -t floppy
+
+        imgmount J "$Disc2" -t floppy
+
+        imgmount I "$Disc3" -t floppy
+
+        imgmount D "$Disc4" -t floppy
+
+        imgmount E "$Disc5" -t floppy
+
+        imgmount F "$Disc6" -t floppy
+
+        imgmount G "$Disc7" -t floppy
+
+        imgmount H "$Disc1" -t floppy
+
+        mount B "$GAMEDIR/FDD/Drivers" -t dir
+
+        mount C "$GAMEDIR/HDD" -t dir
+
+        mount Y "$GAMEDIR/FDD/DISC1" -t dir
+
+        A:
+
+        copy *.* Y:
+
+        J:
+
+        copy *.* Y:
+
+        I:
+
+        copy *.* Y:
+
+        D:
+
+        copy *.* Y:
+
+        E:
+
+        copy *.* Y:
+
+        F:
+
+        copy *.* Y:
+
+        G:
+
+        copy *.* Y:
+
+        H:
+
+        copy *.* Y:
+
+        Y:
+
+        setup.exe
+
+        SET PATH=%PATH%;C:\WINDOWS;
+
+        SET TEMP=C:\WINDOWS\TEMP
+
+        c:
+
+        cd Windows
+
+        Setup
+
+        B:
+
+        cd sb16
+
+        install
+
+        exit'
+      file: $GAMEDIR/windows-for-workgroups-setup.conf
+  - task:
+      config_file: $GAMEDIR/windows-for-workgroups-setup.conf
+      working_dir: $GAMEDIR/HDD
+      name: dosexec
+  - write_file:
+      content: '[sblaster]
+
+        irq=5
+
+        [sdl]
+
+        sensitivity=10
+
+        [autoexec]
+
+        mount A "$GAMEDIR/FDD/DISC1" -t dir
+
+        mount B "$GAMEDIR/FDD/Drivers" -t dir
+
+        mount C "$GAMEDIR/HDD" -t dir
+
+        SET PATH=%PATH%;C:\WINDOWS;
+
+        SET TEMP=C:\WINDOWS\TEMP
+
+        c:
+
+        win
+
+        exit'
+      file: $GAMEDIR/windows-for-workgroups.conf
+  files:
+  - Disc1: N/A:Select the image of Disc 1
+  - Disc2: N/A:Select the image of Disc 2
+  - Disc3: N/A:Select the image of Disc 3
+  - Disc4: N/A:Select the image of Disc 4
+  - Disc5: N/A:Select the image of Disc 5
+  - Disc6: N/A:Select the image of Disc 6
+  - Disc7: N/A:Select the image of Disc 7
+  - Disc8: N/A:Select the image of Disc 8
+  - S3: https://www.dropbox.com/s/w3o4v5e7alm1zg5/s3drivers.zip?dl=1
+  - SB16: https://www.dropbox.com/s/0ve3ohhtks0wrnf/SB16W3x.zip?dl=1
+  game:
+    main_file: $GAMEDIR/windows-for-workgroups.conf

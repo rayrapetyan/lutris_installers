@@ -1,0 +1,32 @@
+id: 8827
+game_id: 16077
+game_slug: anomie
+name: Anomie
+year: 2017
+user: kimchitea
+runner: linux
+slug: anomie-steam
+version: Steam
+description: Native Linux version using Steam game data.
+notes: ''
+created_at: '2018-06-20T22:21:31.771000Z'
+updated_at: '2018-06-20T23:20:57.466380Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 625410
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Anomie.sh
+  installer:
+  - merge:
+      src: steam-data
+      dst: $GAMEDIR
+  - chmodx: $GAMEDIR/Anomie.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Anomie
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Anomie
+  files:
+  - steam-data: $WINESTEAM:625410:/

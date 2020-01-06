@@ -1,0 +1,28 @@
+id: 1564
+game_id: 4627
+game_slug: simcity-2000
+name: SimCity 2000
+year: 1994
+user: strider
+runner: dosbox
+slug: simcity-2000-archive
+version: Archive
+description: ''
+notes: ''
+created_at: '2015-07-18T02:09:16.849543Z'
+updated_at: '2015-07-18T02:09:35.644457Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1207658969
+gogslug: simcity_2000_special_edition
+humblestoreid: ''
+script:
+  main_file: SC2000.EXE
+  installer:
+  - extract:
+      file: sc2karchive
+  files:
+  - sc2karchive: N/A:Please select the SimCity 2000 archive

@@ -1,0 +1,28 @@
+id: 4104
+game_id: 11549
+game_slug: hellmouth
+name: Hellmouth
+year: 2014
+user: FakeShemp
+runner: linux
+slug: hellmouth-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-04T18:23:42.294911Z'
+updated_at: '2017-06-04T22:01:46.626076Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Hellmouth
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

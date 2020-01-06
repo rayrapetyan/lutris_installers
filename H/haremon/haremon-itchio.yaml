@@ -1,0 +1,32 @@
+id: 16036
+game_id: 29642
+game_slug: haremon
+name: haremon
+year: null
+user: madamondine
+runner: wine
+slug: haremon-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2019-10-06T22:25:26.426036Z'
+updated_at: '2019-10-06T22:25:26.426069Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/haremon
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/haremon/Haremon.exe
+    arch: win32

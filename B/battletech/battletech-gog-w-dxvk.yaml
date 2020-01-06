@@ -1,0 +1,62 @@
+id: 11235
+game_id: 17980
+game_slug: battletech
+name: BATTLETECH
+year: 2018
+user: Sompom
+runner: wine
+slug: battletech-gog-w-dxvk
+version: GOG w/ DXVK
+description: null
+notes: ''
+created_at: '2018-12-16T03:43:06.483000Z'
+updated_at: '2019-02-14T05:26:30.442904Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 637090
+gogid: 1482783682
+gogslug: battletech_game
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing dotnet472 with winetricks. This will take several minutes.
+      app: dotnet472
+      arch: win64
+      name: winetricks
+  - task:
+      executable: CCCP
+      prefix: $GAMEDIR
+      description: Installing CCCP (Combined Community Codec Pack) else cutscenes
+        can't play and the game can't launch. Please follow the installer prompts
+        to select "Full Installation".
+      arch: win64
+      name: wineexec
+  - task:
+      executable: goginstaller
+      prefix: $GAMEDIR
+      description: Please wait while the game installs. This will take several minutes.
+      arch: win64
+      args: /LANG=en /SP- /SUPPRESSMSGBOXES
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    args: -force-driver-type-warp
+    exe: drive_c/GOG Games/BATTLETECH/BattleTechLauncher.exe
+    arch: win64
+  system:
+    env:
+      DXVK_HUD: 0
+  wine:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  files:
+  - goginstaller: N/A:Select the BATTLETECH setup file
+  - CCCP: http://www.cccp-project.net/public/Combined-Community-Codec-Pack-64bit-2015-10-18.exe

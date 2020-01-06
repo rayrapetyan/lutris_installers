@@ -1,0 +1,53 @@
+id: 6984
+game_id: 15602
+game_slug: the-tone-rebellion
+name: The Tone Rebellion
+year: 1997
+user: Wild
+runner: wine
+slug: the-tone-rebellion-131e
+version: 1.31E
+description: "This will install the game but also patch it to version 1.31E.\r\nYou\
+  \ need the tone rebellion disk."
+notes: ''
+created_at: '2018-01-03T13:22:45.326549Z'
+updated_at: '2018-01-04T11:34:49.195154Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: toneicon.ico
+  - task:
+      executable: $DISC/directx/dxsetup.exe
+      prefix: $GAMEDIR
+      args: /Q
+      name: wineexec
+  - task:
+      executable: $DISC/setup/amovie.exe
+      prefix: $GAMEDIR
+      args: /Q
+      name: wineexec
+  - task:
+      executable: $DISC/setup/setup.exe
+      prefix: $GAMEDIR
+      args: null
+      name: wineexec
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Tone
+      file: $patch
+  - execute:
+      command: cd "$GAMEDIR/drive_c/Program Files/Tone/"; mv Float.exe float.exe;
+        sed -i "s/draw_method 2/draw_method 4/" float.cfg
+  files:
+  - patch: https://archive.org/download/tone131e/tone131e.zip
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Tone/float.exe
+    arch: win32

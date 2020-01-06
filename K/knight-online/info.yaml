@@ -1,0 +1,19 @@
+name: Knight Online
+slug: knight-online
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: MMORPG
+aliases:
+- slug: knight-online-usko
+  name: Knight Online (USKO)
+banner_url: /games/banner/knight-online.jpg
+icon_url: /games/icon/knight-online.png
+is_public: true
+updated: '2019-10-14T00:52:45.387791Z'
+steamid: 389430
+gogslug: ''
+humblestoreid: ''

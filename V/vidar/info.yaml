@@ -1,0 +1,16 @@
+name: Vidar
+slug: vidar
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Puzzle
+- name: RPG
+aliases: []
+banner_url: /games/banner/vidar.jpg
+icon_url: /games/icon/vidar.png
+is_public: true
+updated: '2019-01-23T08:32:02.469101Z'
+steamid: 355370
+gogslug: ''
+humblestoreid: ''

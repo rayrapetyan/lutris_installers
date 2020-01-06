@@ -1,0 +1,24 @@
+id: 2666
+game_id: 7296
+game_slug: forced-showdown
+name: 'Forced: Showdown'
+year: 2016
+user: RobLoach
+runner: steam
+slug: forced-showdown-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-09-01T20:10:32.218744Z'
+updated_at: '2016-09-01T20:11:01.061943Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 265000
+gogid: 1453126104
+gogslug: forced_showdown
+humblestoreid: ''
+script:
+  game:
+    appid: 265000

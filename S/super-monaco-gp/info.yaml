@@ -1,0 +1,20 @@
+name: Super Monaco GP
+slug: super-monaco-gp
+year: 1989
+platforms:
+- name: Amiga
+- name: Arcade
+- name: Atari ST
+- name: Commodore 64
+- name: Sega Genesis / Mega Drive
+- name: Sega Master System
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/super-monaco-gp.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:30.858809Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,16 @@
+name: BeamNG.drive
+slug: beamngdrive
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Racing
+- name: Simulation
+aliases: []
+banner_url: /games/banner/beamngdrive.jpg
+icon_url: /games/icon/beamngdrive.png
+is_public: true
+updated: '2019-01-23T08:28:33.870694Z'
+steamid: 284160
+gogslug: ''
+humblestoreid: ''

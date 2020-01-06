@@ -1,0 +1,16 @@
+name: F1 2019
+slug: f1-2019
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Racing
+- name: Simulation
+aliases: []
+banner_url: /games/banner/f1-2019.jpg
+icon_url: null
+is_public: true
+updated: '2019-12-22T18:53:16.874337Z'
+steamid: 928600
+gogslug: ''
+humblestoreid: ''

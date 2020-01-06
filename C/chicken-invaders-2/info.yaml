@@ -1,0 +1,16 @@
+name: Chicken Invaders 2
+slug: chicken-invaders-2
+year: 2002
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Arcade
+aliases: []
+banner_url: /games/banner/chicken-invaders-2.jpg
+icon_url: /games/icon/chicken-invaders-2.png
+is_public: true
+updated: '2019-01-23T08:28:51.003700Z'
+steamid: 449550
+gogslug: ''
+humblestoreid: ''

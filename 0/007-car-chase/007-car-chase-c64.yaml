@@ -1,0 +1,31 @@
+id: 8561
+game_id: 19153
+game_slug: 007-car-chase
+name: 007 Car Chase
+year: 1985
+user: MrCoolSpan
+runner: libretro
+slug: 007-car-chase-c64
+version: C64
+description: null
+notes: ''
+created_at: '2018-06-07T09:52:09.578573Z'
+updated_at: '2018-06-07T20:13:09.749345Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Game image file
+  game:
+  - core: vice_x64
+  - main_file: file1

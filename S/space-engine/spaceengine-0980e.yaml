@@ -1,0 +1,49 @@
+id: 12743
+game_id: 17343
+game_slug: space-engine
+name: SpaceEngine
+year: 2014
+user: cxf
+runner: wine
+slug: spaceengine-0980e
+version: 0.9.8.0e
+description: Install the 9.8.0 base simulator, and then installs the 9.8.0e patch.
+  Should work out of the box.
+notes: ''
+created_at: '2019-04-12T01:37:07.315000Z'
+updated_at: '2019-09-08T23:32:34.157710Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 314650
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/SpaceEngine/system/SpaceEngine.exe
+    arch: win64
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES /SILENT /NOCANCEL
+      arch: win64
+      name: wineexec
+  - extract:
+      src: patch
+      dst: $GAMEDIR/drive_c/SpaceEngine
+  wine:
+    version: tkg-4.5-x86_64
+  files:
+  - setup:
+      referer: https://spaceengine.funix.cz/
+      filename: SE-0980-setup.exe
+      url: http://spaceengine.funix.cz/engine/latest/SE-0980-setup.exe
+  - patch: http://spaceengine.funix.cz/engine/latest/SE-0980e-patch.zip

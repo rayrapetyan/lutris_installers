@@ -1,0 +1,118 @@
+id: 14534
+game_id: 28436
+game_slug: future-pinball
+name: Future Pinball
+year: 2004
+user: legluondunet
+runner: wine
+slug: future-pinball-19120101231-27
+version: 1.9.1.20101231-2.7
+description: "This script will install last official \"Future Pinball\"  1.9.1.20101231\
+  \ version with 2.7 physics update.\r\nDuring install please let all options by default.\r\
+  \nCredits:\r\nFuture Pinball: https://futurepinball.com/\r\nBack to the future utlimate\
+  \ 3.0 mod by francisco666, Glxb, Nitronimbus, rom, skinooe, SLAMT1LT, szaand: http://www.pinsimdb.org/fr/flipper/table-24475-back_to_the_future_ultimate_3_0_mod.\r\
+  \nThanks to the people who helped us play this game in the best conditions."
+notes: "- Main controls:  left and right SHIFT key for flippers, 5=add coins, 1=start,\
+  \ ENTER=pull plunger, ESC=exit table, F5=launch table.\r\n- FP supports natively\
+  \ x360 gamepad. But if like me you prefer use triggers as flippers, you will find\
+  \ x360 (Antimicro) and Steam controller (sc-controller) profiles in \"gamepad profiles\"\
+  \ folder.\r\n- Known issue:\r\nNot BAM tables compatible\r\n- Please report issue\
+  \ concerning this script on my Github page:\r\nhttps://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2019-07-11T23:36:03.025000Z'
+updated_at: '2019-11-03T10:09:23.886646Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    args: /open "C:\Future Pinball\Tables\back_to_the_future_ultimate_3_0_mod-table\BTTFMOD.fpt"
+      /play
+    exe: drive_c/Future Pinball/Future Pinball.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - extract:
+      src: fpball
+      dst: $GAMEDIR/drive_c/Future Pinball/
+  - extract:
+      src: table1
+      dst: $GAMEDIR/drive_c/Future Pinball/Tables/back_to_the_future_ultimate_3_0_mod-table/
+  - merge:
+      src: regfile
+      dst: $GAMEDIR/drive_c/tmp
+  - merge:
+      src: script
+      dst: $GAMEDIR/drive_c/tmp/
+  - chmodx: $GAMEDIR/drive_c/tmp/resolution.sh
+  - execute:
+      args: $RESOLUTION_WIDTH $RESOLUTION_HEIGHT
+      file: $GAMEDIR/drive_c/tmp/resolution.sh
+  - task:
+      executable: regedit
+      prefix: $GAMEDIR
+      args: $GAMEDIR/drive_c/tmp/fp2.reg
+      name: wineexec
+  - merge:
+      src: gpreadme
+      dst: $GAMEDIR/drive_c/Future Pinball/gamepad profiles/
+  - merge:
+      src: gpx360
+      dst: $GAMEDIR/drive_c/Future Pinball/gamepad profiles/
+  - merge:
+      src: gpsteam
+      dst: $GAMEDIR/drive_c/Future Pinball/gamepad profiles/
+  - task:
+      prefix: $GAMEDIR
+      app: oleaut32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun6
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: wsh57
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_DWORD
+      value: '00000000'
+      key: csmt
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D\
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: Y
+      key: EAXEnabled
+      path: HKEY_CURRENT_USER\Software\Wine\DirectSound
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: 0 0 0
+      key: background
+      path: HKEY_CURRENT_USER\Control Panel\Colors\
+  wine:
+    version: lutris-nofshack-4.18-x86_64
+    Desktop: true
+  files:
+  - fpball: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Future%20Pinball/fp_install.zip
+  - regfile: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Future%20Pinball/fp.reg
+  - script: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Future%20Pinball/resolution.sh
+  - table1: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Future%20Pinball/back_to_the_future_ultimate_3_0_mod-table.zip
+  - gpreadme: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Future%20Pinball/gamepad%20profiles/fp_gamepad_readme.html
+  - gpx360: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Future%20Pinball/gamepad%20profiles/fp_x360.gamecontroller.amgp
+  - gpsteam: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Future%20Pinball/gamepad%20profiles/fp_steam.sccprofile

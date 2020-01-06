@@ -1,0 +1,138 @@
+id: 2675
+game_id: 3650
+game_slug: freespace-2
+name: Freespace 2
+year: 1999
+user: ssf
+runner: wine
+slug: freespace-2-gogcom
+version: GOG.com
+description: ''
+notes: installs a fs2_open compatible FreeSpace 2
+created_at: '2016-09-03T21:34:27.466052Z'
+updated_at: '2016-09-22T18:06:13.770791Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 273620
+gogid: 5
+gogslug: freespace_2
+humblestoreid: ''
+script:
+  gogid: freespace_2
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      type: REG_SZ
+      value: ''
+      key: winemenubuilder.exe
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /VERYSILENT /SP- /NOCANCEL /SUPPRESSMSGBOXES '/DIR=C:/game'
+      description: Installing...
+      name: wineexec
+  - execute:
+      args: -c "mkdir -p $GAMEDIR/drive_c/game/data/movies"
+      description: making the GOGVersion fs2_open compatible...
+      file: /bin/sh
+  - execute:
+      args: -c "mv $GAMEDIR/drive_c/game/data2/*.MVE $GAMEDIR/drive_c/game/data"
+      description: making the GOGVersion fs2_open compatible...
+      file: /bin/sh
+  - execute:
+      args: -c "mv $GAMEDIR/drive_c/game/data3/*.MVE $GAMEDIR/drive_c/game/data"
+      description: making the GOGVersion fs2_open compatible...
+      file: /bin/sh
+  - execute:
+      args: -c "cp -f $GAMEDIR/drive_c/game/data2/tango*.vp $GAMEDIR/drive_c/game"
+      description: making the GOGVersion fs2_open compatible...
+      file: /bin/sh
+  - execute:
+      args: -c "cp -f $GAMEDIR/drive_c/game/data3/tango*.vp $GAMEDIR/drive_c/game"
+      description: making the GOGVersion fs2_open compatible...
+      file: /bin/sh
+  - execute:
+      args: -c "rm -rf $GAMEDIR/drive_c/game/data3 $GAMEDIR/drive_c/game/data2"
+      description: making the GOGVersion fs2_open compatible...
+      file: /bin/sh
+  - execute:
+      args: -c "ln -s $GAMEDIR/drive_c/game/data $GAMEDIR/drive_c/game/data2"
+      description: making the GOGVersion fs2_open compatible...
+      file: /bin/sh
+  - execute:
+      args: -c "ln -s $GAMEDIR/drive_c/game/data $GAMEDIR/drive_c/game/data3"
+      description: making the GOGVersion fs2_open compatible...
+      file: /bin/sh
+  - execute:
+      args: -c "mkdir $GAMEDIR/drive_c/game/data/movies"
+      description: making the GOGVersion fs2_open compatible...
+      file: /bin/sh
+  - execute:
+      args: -c "cd $GAMEDIR/drive_c/game/data && ln -s ../BASTION.MVE movies/BASTION.MVE"
+      description: making the GOGVersion fs2_open compatible...
+      file: /bin/sh
+  - execute:
+      args: -c "cd $GAMEDIR/drive_c/game/data && ln -s ../COLOSSUS.MVE movies/COLOSSUS.MVE"
+      description: making the GOGVersion fs2_open compatible...
+      file: /bin/sh
+  - execute:
+      args: -c "cd $GAMEDIR/drive_c/game/data && ln -s ../ENDPART1.MVE movies/ENDPART1.MVE"
+      description: making the GOGVersion fs2_open compatible...
+      file: /bin/sh
+  - execute:
+      args: -c "cd $GAMEDIR/drive_c/game/data && ln -s ../ENDPART2A.MVE movies/ENDPART2A.MVE"
+      description: making the GOGVersion fs2_open compatible...
+      file: /bin/sh
+  - execute:
+      args: -c "cd $GAMEDIR/drive_c/game/data && ln -s ../ENDPART2B.MVE movies/ENDPART2B.MVE"
+      description: making the GOGVersion fs2_open compatible...
+      file: /bin/sh
+  - execute:
+      args: -c "cd $GAMEDIR/drive_c/game/data && ln -s ../INTRO.MVE movies/INTRO.MVE"
+      description: making the GOGVersion fs2_open compatible...
+      file: /bin/sh
+  - execute:
+      args: -c "cd $GAMEDIR/drive_c/game/data && ln -s ../MONO1.MVE movies/MONO1.MVE"
+      description: making the GOGVersion fs2_open compatible...
+      file: /bin/sh
+  - execute:
+      args: -c "cd $GAMEDIR/drive_c/game/data && ln -s ../MONO2.MVE movies/MONO2.MVE"
+      description: making the GOGVersion fs2_open compatible...
+      file: /bin/sh
+  - execute:
+      args: -c "cd $GAMEDIR/drive_c/game/data && ln -s ../MONO3.MVE movies/MONO3.MVE"
+      description: making the GOGVersion fs2_open compatible...
+      file: /bin/sh
+  - execute:
+      args: -c "cd $GAMEDIR/drive_c/game/data && ln -s ../MONO4.MVE movies/MONO4.MVE"
+      description: making the GOGVersion fs2_open compatible...
+      file: /bin/sh
+  - move:
+      src: $GAMEDIR/drive_c/game
+      description: making the GOGVersion fs2_open compatible...
+      dst: $GAMEDIR/freespace2
+  - execute:
+      args: -c "cd $GAMEDIR && ln -sf ../freespace2 $GAMEDIR/drive_c/game"
+      description: making the GOGVersion fs2_open compatible...
+      file: /bin/sh
+  - task:
+      prefix: $GAMEDIR
+      description: Disabling unused WINE features
+      app: sandbox
+      silent: true
+      name: winetricks
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/game/FS2.exe
+    working_dir: $GAMEDIR/drive_c/game
+    arch: win32

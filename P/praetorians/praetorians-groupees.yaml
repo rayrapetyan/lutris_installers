@@ -1,0 +1,37 @@
+id: 5679
+game_id: 2179
+game_slug: praetorians
+name: Praetorians
+year: null
+user: FakeShemp
+runner: wine
+slug: praetorians-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-10T19:26:28.976000Z'
+updated_at: '2018-05-19T03:41:52.122201Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 277460
+gogid: 1207658795
+gogslug: praetorians
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/setup.exe
+      prefix: $GAMEDIR
+      args: /sp- /verysilent /norestart /suppressmsgboxes /nogui
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Pyro Studios/Praetorians/Praetorians.exe
+    arch: win32

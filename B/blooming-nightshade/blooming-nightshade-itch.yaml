@@ -1,0 +1,28 @@
+id: 15349
+game_id: 29283
+game_slug: blooming-nightshade
+name: Blooming Nightshade
+year: 2017
+user: oscararg
+runner: linux
+slug: blooming-nightshade-itch
+version: Itch
+description: null
+notes: ''
+created_at: '2019-09-07T05:25:23.015000Z'
+updated_at: '2019-10-06T20:32:55.994777Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 1148400
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: BloomingNightshade.sh
+  installer:
+  - extract:
+      file: archive
+  files:
+  - archive: N/A:Please select the itch.io archive

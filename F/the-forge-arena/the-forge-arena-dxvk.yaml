@@ -1,0 +1,42 @@
+id: 10471
+game_id: 22139
+game_slug: the-forge-arena
+name: The Forge Arena
+year: 2018
+user: SteveHeist
+runner: wine
+slug: the-forge-arena-dxvk
+version: DXVK
+description: null
+notes: Anti-cheat prevents game from running.
+created_at: '2018-10-10T06:50:39.995000Z'
+updated_at: '2019-02-16T04:52:31.164798Z'
+draft: false
+published: true
+published_by: 19464
+rating: '1'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: forgearena
+      prefix: $GAMEDIR
+      name: wineexec
+  game:
+    exe: drive_c/Program Files/Freezing Raccoon/The Forge Arena/TFA Launcher.exe
+    arch: win64
+  system:
+    env:
+      DXVK_HUD: 0
+  wine:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  files:
+  - forgearena: https://theforgearena.com/The%20Forge%20Arena.exe

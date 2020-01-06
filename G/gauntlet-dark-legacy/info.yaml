@@ -1,0 +1,19 @@
+name: 'Gauntlet: Dark Legacy'
+slug: gauntlet-dark-legacy
+year: 2000
+platforms:
+- name: Arcade
+- name: GameCube
+- name: Sony PlayStation 2
+genres:
+- name: Action
+- name: Hack and slash
+- name: Role-playing
+aliases: []
+banner_url: /games/banner/gauntlet-dark-legacy.jpg
+icon_url: null
+is_public: true
+updated: '2019-05-27T04:30:23.265893Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

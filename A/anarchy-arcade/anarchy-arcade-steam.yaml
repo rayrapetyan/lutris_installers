@@ -1,0 +1,24 @@
+id: 8243
+game_id: 3189
+game_slug: anarchy-arcade
+name: Anarchy Arcade
+year: null
+user: soredake
+runner: winesteam
+slug: anarchy-arcade-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T07:37:18.837078Z'
+updated_at: '2018-05-09T21:15:31.197820Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 266430
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 266430

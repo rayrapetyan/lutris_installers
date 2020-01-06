@@ -1,0 +1,32 @@
+id: 6930
+game_id: 1662
+game_slug: eryis-action
+name: Eryi's Action
+year: 2013
+user: FakeShemp
+runner: wine
+slug: eryis-action-desura
+version: Desura
+description: null
+notes: ''
+created_at: '2017-12-31T20:11:39.292776Z'
+updated_at: '2018-05-19T03:41:53.129490Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 261700
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Eryi's Action
+      file: $file1
+  files:
+  - file1: N/A:Please select the Desura archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Eryi's Action/eryi.exe
+    arch: win32

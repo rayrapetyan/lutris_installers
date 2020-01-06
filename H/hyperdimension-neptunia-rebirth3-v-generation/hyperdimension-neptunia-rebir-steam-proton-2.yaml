@@ -1,0 +1,25 @@
+id: 14844
+game_id: 6078
+game_slug: hyperdimension-neptunia-rebirth3-v-generation
+name: Hyperdimension Neptunia Re;Birth3 V Generation
+year: 2015
+user: j800r
+runner: steam
+slug: hyperdimension-neptunia-rebir-steam-proton-2
+version: Steam Proton
+description: null
+notes: Running status might get stuck after Steam's initial setup. If this happens
+  force Steam to quit and all seems to work fine.
+created_at: '2019-08-02T23:16:14.229000Z'
+updated_at: '2019-10-11T00:52:20.657190Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 353270
+gogid: 1908407113
+gogslug: hyperdimension_neptunia_rebirth3_v_generation
+humblestoreid: ''
+script:
+  game:
+    appid: 353270

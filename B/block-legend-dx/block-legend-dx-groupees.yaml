@@ -1,0 +1,29 @@
+id: 5483
+game_id: 3878
+game_slug: block-legend-dx
+name: Block Legend DX
+year: null
+user: FakeShemp
+runner: linux
+slug: block-legend-dx-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-22T15:49:52.176251Z'
+updated_at: '2017-08-27T22:04:38.763341Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 345640
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: BlockLegendDX.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/BlockLegendDX.x86
+  files:
+  - file1: N/A:Please select the Groupees archive

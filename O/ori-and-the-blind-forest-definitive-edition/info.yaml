@@ -1,0 +1,16 @@
+name: 'Ori and the Blind Forest: Definitive Edition'
+slug: ori-and-the-blind-forest-definitive-edition
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/ori-and-the-blind-forest-definitive-edition.jpg
+icon_url: /games/icon/ori-and-the-blind-forest-definitive-edition.png
+is_public: true
+updated: '2019-01-23T08:30:38.242560Z'
+steamid: 387290
+gogslug: ori_and_the_blind_forest_definitive_edition
+humblestoreid: ''

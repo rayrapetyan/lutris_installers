@@ -1,0 +1,15 @@
+name: Moonwar
+slug: moonwar
+year: 1981
+platforms:
+- name: Arcade
+genres:
+- name: Shooter
+aliases: []
+banner_url: /games/banner/moonwar.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-13T21:13:40.037240Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

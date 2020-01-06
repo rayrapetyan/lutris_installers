@@ -1,0 +1,30 @@
+id: 13410
+game_id: 7313
+game_slug: gabriel-knight-2-the-beast-within
+name: 'Gabriel Knight 2: The Beast Within'
+year: 1995
+user: marciocr
+runner: scummvm
+slug: gabriel-knight-2-the-beast-wi-scummvm
+version: ScummVM
+description: null
+notes: ''
+created_at: '2019-05-09T14:14:54.635000Z'
+updated_at: '2019-05-18T06:41:01.882961Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 496760
+gogid: 1207658837
+gogslug: gabriel_knight_2_the_beast_within
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: archive
+  files:
+  - archive: N/A:Select the game's archive file for ScummVM.
+  game:
+    game_id: gk2
+    path: $GAMEDIR

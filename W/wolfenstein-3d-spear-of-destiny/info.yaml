@@ -1,0 +1,16 @@
+name: 'Wolfenstein 3D: Spear of Destiny'
+slug: wolfenstein-3d-spear-of-destiny
+year: 1993
+platforms:
+- name: Linux
+- name: MS-DOS
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/wolfenstein-3d-spear-of-destiny.jpg
+icon_url: /games/icon/wolfenstein-3d-spear-of-destiny.png
+is_public: true
+updated: '2019-01-23T08:32:09.835837Z'
+steamid: 9000
+gogslug: ''
+humblestoreid: ''

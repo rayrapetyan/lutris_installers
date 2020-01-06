@@ -1,0 +1,29 @@
+id: 7002
+game_id: 15627
+game_slug: sudden-strike-2-gold
+name: Sudden Strike 2 Gold
+year: null
+user: pix_1
+runner: winesteam
+slug: sudden-strike-2-gold-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-01-04T17:33:17.311000Z'
+updated_at: '2018-01-11T20:23:37.108339Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 612520
+gogid: 1421964930
+gogslug: sudden_strike_2_gold
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-2.21-x86_64
+    overrides:
+      winegstreamer: disable
+  game:
+    args: --windowed
+    appid: 612520

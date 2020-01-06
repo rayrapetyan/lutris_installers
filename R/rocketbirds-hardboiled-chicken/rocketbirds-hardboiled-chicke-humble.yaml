@@ -1,0 +1,46 @@
+id: 4463
+game_id: 292
+game_slug: rocketbirds-hardboiled-chicken
+name: 'Rocketbirds: Hardboiled Chicken'
+year: null
+user: FakeShemp
+runner: linux
+slug: rocketbirds-hardboiled-chicke-humble
+version: Humble
+description: null
+notes: ''
+created_at: '2017-06-18T11:09:41.570000Z'
+updated_at: '2018-06-24T12:20:50.237663Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 215510
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: rocketbirds.bin.x86
+  installer:
+  - chmodx: $file1
+  - execute:
+      args: --tar -xf -C $CACHE
+      file: $file1
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/instarchive_linux_all
+  - extract:
+      format: lzma
+      dst: $CACHE
+      file: $CACHE/instarchive_all
+  - extract:
+      format: tar
+      dst: $GAMEDIR
+      file: $CACHE/instarchive_linux_all~
+  - extract:
+      format: tar
+      dst: $GAMEDIR
+      file: $CACHE/instarchive_all~
+  files:
+  - file1: N/A:Please select the Humble installer

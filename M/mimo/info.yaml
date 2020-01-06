@@ -1,0 +1,16 @@
+name: MIMO
+slug: mimo
+year: 2019
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Fantasy
+aliases: []
+banner_url: /games/banner/mimo.jpg
+icon_url: /games/icon/mimo.png
+is_public: true
+updated: '2019-10-06T21:07:38.971547Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

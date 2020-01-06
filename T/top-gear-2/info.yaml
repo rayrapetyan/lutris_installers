@@ -1,0 +1,17 @@
+name: Top Gear 2
+slug: top-gear-2
+year: 1993
+platforms:
+- name: Amiga
+- name: Sega Genesis / Mega Drive
+- name: Super Nintendo
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/top-gear-2.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:53.255635Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

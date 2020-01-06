@@ -1,0 +1,16 @@
+name: Resident Evil Survivor
+slug: resident-evil-survivor
+year: 2000
+platforms:
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Shooter
+aliases: []
+banner_url: /games/banner/resident-evil-survivor.jpg
+icon_url: null
+is_public: true
+updated: '2019-11-01T23:33:04.775025Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

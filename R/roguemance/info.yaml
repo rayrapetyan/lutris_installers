@@ -1,0 +1,15 @@
+name: Roguemance
+slug: roguemance
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Roguelike
+aliases: []
+banner_url: /games/banner/roguemance.jpg
+icon_url: /games/icon/roguemance.png
+is_public: false
+updated: '2019-01-23T08:31:03.341088Z'
+steamid: 742530
+gogslug: ''
+humblestoreid: ''

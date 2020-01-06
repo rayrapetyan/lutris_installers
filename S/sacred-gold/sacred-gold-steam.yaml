@@ -1,0 +1,24 @@
+id: 3688
+game_id: 1338
+game_slug: sacred-gold
+name: Sacred Gold
+year: 2004
+user: fabi2607
+runner: winesteam
+slug: sacred-gold-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-05-15T12:47:35.344000Z'
+updated_at: '2017-05-16T04:57:18.905779Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 12320
+gogid: 1207658688
+gogslug: sacred_gold
+humblestoreid: ''
+script:
+  game:
+    appid: 12320

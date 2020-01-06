@@ -1,0 +1,39 @@
+id: 8979
+game_id: 15229
+game_slug: batman-the-enemy-within-the-telltale-series
+name: 'Batman: The Enemy Within - The Telltale Series'
+year: 2017
+user: NuSuey
+runner: winesteam
+slug: batman-the-enemy-within-the-t-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2018-07-02T07:15:40.816000Z'
+updated_at: '2019-02-14T04:29:49.989606Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 675260
+gogid: 2135854393
+gogslug: batman_the_enemy_within_the_telltale_series
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 675260
+    arch: win64

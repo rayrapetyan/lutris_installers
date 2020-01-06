@@ -1,0 +1,38 @@
+id: 2855
+game_id: 7833
+game_slug: butcher
+name: Butcher
+year: 2016
+user: Lulu
+runner: linux
+slug: butcher-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2016-10-07T18:02:37.056000Z'
+updated_at: '2018-11-06T06:51:24.067657Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 474210
+gogid: 1689871374
+gogslug: butcher
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/Game
+  files:
+  - game: N/A:Select the Linux installer downloaded from GOG
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz
+  game:
+    exe: Game/start.sh

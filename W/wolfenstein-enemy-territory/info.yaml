@@ -1,0 +1,15 @@
+name: 'Wolfenstein: Enemy Territory'
+slug: wolfenstein-enemy-territory
+year: 2003
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/wolfenstein-enemy-territory.jpg
+icon_url: /games/icon/wolfenstein-enemy-territory.png
+is_public: true
+updated: '2019-01-23T08:32:09.850715Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

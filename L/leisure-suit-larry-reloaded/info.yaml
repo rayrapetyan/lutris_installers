@@ -1,0 +1,17 @@
+name: 'Leisure Suit Larry: Reloaded'
+slug: leisure-suit-larry-reloaded
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Modern
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/leisure-suit-larry-reloaded.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:09.833952Z'
+steamid: null
+gogslug: leisure_suit_larry_reloaded
+humblestoreid: ''

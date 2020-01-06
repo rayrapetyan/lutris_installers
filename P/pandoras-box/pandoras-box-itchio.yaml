@@ -1,0 +1,28 @@
+id: 11125
+game_id: 23658
+game_slug: pandoras-box
+name: Pandora's Box
+year: 2018
+user: t-rex91
+runner: linux
+slug: pandoras-box-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2018-12-09T22:51:08.594525Z'
+updated_at: '2018-12-14T13:11:34.493052Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Pandoras_Box.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

@@ -1,0 +1,28 @@
+id: 8036
+game_id: 18019
+game_slug: super-mega-baseball-2
+name: Super Mega Baseball 2
+year: 2018
+user: TuiorGames
+runner: winesteam
+slug: super-mega-baseball-2-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-01T23:38:25.680000Z'
+updated_at: '2019-02-16T04:46:32.143368Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 414870
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  game:
+    appid: 414870
+    arch: win64

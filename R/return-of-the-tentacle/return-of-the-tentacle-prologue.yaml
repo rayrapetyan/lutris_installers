@@ -1,0 +1,30 @@
+id: 9816
+game_id: 21126
+game_slug: return-of-the-tentacle
+name: Return of the Tentacle
+year: 2018
+user: RobLoach
+runner: linux
+slug: return-of-the-tentacle-prologue
+version: Prologue
+description: The Prologue available from Itch.io
+notes: ''
+created_at: '2018-08-20T05:52:39.208283Z'
+updated_at: '2018-08-20T06:05:17.985583Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $file1
+  files:
+  - file1: N/A:Download and select the latest Linux zip file from https://catmic.itch.io/return-of-the-tentacle
+  game:
+    exe: $GAMEDIR/RotT.x86_64

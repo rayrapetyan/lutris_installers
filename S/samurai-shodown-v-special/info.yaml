@@ -1,0 +1,19 @@
+name: Samurai Shodown V Special
+slug: samurai-shodown-v-special
+year: 2004
+platforms:
+- name: Arcade
+- name: Linux
+- name: Neo Geo
+genres:
+- name: Action
+- name: Arcade
+- name: Fighting
+aliases: []
+banner_url: /games/banner/samurai-shodown-v-special.jpg
+icon_url: null
+is_public: true
+updated: '2020-01-02T19:50:55.227204Z'
+steamid: 1076550
+gogslug: samurai_shodown_v
+humblestoreid: ''

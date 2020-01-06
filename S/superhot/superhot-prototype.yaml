@@ -1,0 +1,30 @@
+id: 454
+game_id: 1873
+game_slug: superhot
+name: Superhot
+year: 2016
+user: strider
+runner: linux
+slug: superhot-prototype
+version: prototype
+description: ''
+notes: ''
+created_at: '2014-03-13T19:42:08.497000Z'
+updated_at: '2016-08-17T10:29:10.532830Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 322500
+gogid: 1456141688
+gogslug: superhot
+humblestoreid: ''
+script:
+  exe: SUPERHOT-LINUX.x86
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: superhot-linux
+  - chmodx: $GAMEDIR/SUPERHOT-LINUX.x86
+  files:
+  - superhot-linux: http://superhotgame-new.azurewebsites.net/BUILDS/SUPERHOT_Prototype_Linux.zip

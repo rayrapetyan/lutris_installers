@@ -1,0 +1,41 @@
+id: 9371
+game_id: 20211
+game_slug: lemures-blues-2-am
+name: Lemures Blue's 2 A.M.
+year: 2014
+user: kimchitea
+runner: wine
+slug: lemures-blues-2-am-itchio
+version: itch.io
+description: English translation from <a href="https://hiragihoux.itch.io/lemures-blues-2-am">https://hiragihoux.itch.io/lemures-blues-2-am</a>
+notes: Entering fullscreen mode may cause the game to freeze.
+created_at: '2018-07-25T08:08:43.658000Z'
+updated_at: '2018-07-25T08:36:57.072853Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $file1
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows version to XP
+      app: winxp
+      arch: win32
+      name: winetricks
+  system:
+    env:
+      LC_ALL: ja_JP.UTF-8
+  files:
+  - file1: N/A:Please select the itch.io archive
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/Lemures Blue's 2 A.M..exe
+    arch: win32

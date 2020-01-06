@@ -1,0 +1,41 @@
+id: 4357
+game_id: 4310
+game_slug: killing-floor-2
+name: Killing Floor 2
+year: 2016
+user: Gotziem
+runner: winesteam
+slug: killing-floor-2-steam-for-windows
+version: Steam for Windows
+description: null
+notes: Make sure you run it with -dx10 as a launch option
+created_at: '2017-06-14T19:47:01.514000Z'
+updated_at: '2018-02-08T06:29:23.580846Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 232090
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: xact
+      name: winetricks
+  winesteam:
+    version: staging-2.21-x86_64
+  system:
+    env:
+      __GL_THREADED_OPTIMIZATIONS: '1'
+      mesa_glthread: 'true'
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 232090
+    arch: win64

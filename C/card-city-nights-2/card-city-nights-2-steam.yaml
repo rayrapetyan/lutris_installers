@@ -1,0 +1,24 @@
+id: 9017
+game_id: 19092
+game_slug: card-city-nights-2
+name: Card City Nights 2
+year: 2017
+user: kimchitea
+runner: steam
+slug: card-city-nights-2-steam
+version: Steam
+description: null
+notes: Achievements don't work.
+created_at: '2018-07-05T02:41:13.487566Z'
+updated_at: '2018-07-05T04:40:05.731928Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 241300
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 241300

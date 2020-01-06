@@ -1,0 +1,38 @@
+id: 3102
+game_id: 2345
+game_slug: towerfall-ascension
+name: TowerFall Ascension
+year: 2013
+user: solbero
+runner: linux
+slug: towerfall-ascension-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2016-12-20T11:40:46.399148Z'
+updated_at: '2017-03-21T18:18:45.061741Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 251470
+gogid: 1430924174
+gogslug: towerfall_ascension
+humblestoreid: ''
+script:
+  exe: game/start.sh
+  gogid: deponia
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Please select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

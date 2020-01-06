@@ -1,0 +1,15 @@
+name: 'Call of Cthulhu: Shadow of the Comet'
+slug: call-of-cthulhu-shadow-of-the-comet
+year: 1993
+platforms:
+- name: MS-DOS
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/call-of-cthulhu-shadow-of-the-comet.jpg
+icon_url: /games/icon/call-of-cthulhu-shadow-of-the-comet.png
+is_public: true
+updated: '2019-10-12T23:40:26.254773Z'
+steamid: 389470
+gogslug: call_of_cthulhu_shadow_of_the_comet
+humblestoreid: ''

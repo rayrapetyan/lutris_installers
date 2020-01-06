@@ -1,0 +1,17 @@
+name: League of Legends
+slug: league-of-legends
+year: 2009
+platforms:
+- name: Windows
+genres:
+- name: Moba
+aliases:
+- slug: ying-xiong-lian-meng-zhong-guo-fu
+  name: "\u82F1\u96C4\u8054\u76DF\u4E2D\u56FD\u670D"
+banner_url: /games/banner/league-of-legends.jpg
+icon_url: /games/icon/league-of-legends.png
+is_public: true
+updated: '2019-09-01T04:30:20.890446Z'
+steamid: 20590
+gogslug: ''
+humblestoreid: ''

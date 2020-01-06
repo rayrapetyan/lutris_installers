@@ -1,0 +1,37 @@
+id: 2238
+game_id: 6386
+game_slug: zak-mckracken-and-the-alien-mindbenders
+name: Zak McKracken and the Alien Mindbenders
+year: 1988
+user: cazsan
+runner: scummvm
+slug: zak-mckracken-and-the-alien-m-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2016-07-02T22:23:31.995000Z'
+updated_at: '2019-09-09T01:12:00.669689Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 559070
+gogid: 1425040088
+gogslug: zak_mckracken_and_the_alien_mindbenders
+humblestoreid: ''
+script:
+  scummvm:
+    aspect: true
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/data
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    game_id: zak
+    path: $GAMEDIR

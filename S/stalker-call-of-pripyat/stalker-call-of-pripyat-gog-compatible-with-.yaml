@@ -1,0 +1,62 @@
+id: 4613
+game_id: 812
+game_slug: stalker-call-of-pripyat
+name: 'S.T.A.L.K.E.R.: Call of Pripyat'
+year: null
+user: debbydowner
+runner: wine
+slug: stalker-call-of-pripyat-gog-compatible-with-
+version: GOG (Compatible with COC)
+description: This is an installer for the GOG version of S.T.A.L.K.E.R. COP written
+  with the intent of being as vanilla as possible. It is currently configured to run
+  on dx9 (the only available API atm) with optional access to Enhanced Full Dynamic
+  Lighting.
+notes: "- The GOG installer will not pop-up. This is intentional (be patient, it takes\
+  \ a minute).\r\n- You will need to set COP's resolution manually. It will ruin your\
+  \ desktop resolution most likely on first run.\r\n- You will have to disable the\
+  \ built in d3dx10/d3dx11 libs manually as per the instructions on WineDB. I have\
+  \ them set to install automatically, but cannot set their override to 'disabled'\
+  \ the same way. It will still work without them disabled, but if you don't the options\
+  \ will list APIs that will make the game unbootable (at least in mods).\r\n- I cannon\
+  \ determine how to set the Virtual Desktop setting in lutris using the installer\
+  \ script. You will have to set this to your liking."
+created_at: '2017-06-26T03:42:48.260000Z'
+updated_at: '2018-08-07T02:45:15.227134Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 41700
+gogid: 1207660583
+gogslug: stalker_call_of_pripyat
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: installer_file
+      prefix: $GAMEDIR
+      args: /DIR="C:/GOG Games/S.T.A.L.K.E.R. Call of Pripyat/" /SP- /SILENT /VERYSILENT
+        /NORESTART /CLOSEAPPLICATIONS
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: d3dx9
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: d3dx10
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: d3dx11_42
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: d3dx11_43
+      name: winetricks
+  files:
+  - installer_file: N/A:Select installer file from GOG
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/S.T.A.L.K.E.R. Call of Pripyat/bin/xrEngine.exe
+    working_dir: $GAMEDIR/drive_c/GOG Games/S.T.A.L.K.E.R. Call of Pripyat/

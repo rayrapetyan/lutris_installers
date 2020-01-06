@@ -1,0 +1,16 @@
+name: POSTAL 2
+slug: postal-2
+year: 2003
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/postal-2.jpg
+icon_url: /games/icon/postal-2.png
+is_public: true
+updated: '2019-04-08T01:43:08.523566Z'
+steamid: 223470
+gogslug: postal_2
+humblestoreid: postal-2

@@ -1,0 +1,29 @@
+id: 17338
+game_id: 13807
+game_slug: mortal-kombat-3
+name: Mortal Kombat 3
+year: 1995
+user: leandrovitals
+runner: mame
+slug: mortal-kombat-3-arcade
+version: arcade
+description: null
+notes: ''
+created_at: '2019-12-14T19:06:24.561000Z'
+updated_at: '2019-12-22T11:23:52.562766Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: rom
+  installer:
+  - merge:
+      src: rom
+      dst: $GAMEDIR
+  files:
+  - rom: N/A:Select the game''s ROM file

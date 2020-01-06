@@ -1,0 +1,29 @@
+id: 3283
+game_id: 2101
+game_slug: jazzpunk
+name: Jazzpunk
+year: null
+user: FakeShemp
+runner: linux
+slug: jazzpunk-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-02-19T16:42:20.764269Z'
+updated_at: '2017-03-16T01:58:06.722120Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 250260
+gogid: 1207660673
+gogslug: jazzpunk
+humblestoreid: ''
+script:
+  exe: Jazzpunk.x86
+  installer:
+  - extract:
+      file: file1
+  exe64: Jazzpunk.x86_64
+  files:
+  - file1: N/A:Please select the Humble archive

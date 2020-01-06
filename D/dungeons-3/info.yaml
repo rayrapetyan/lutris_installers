@@ -1,0 +1,16 @@
+name: Dungeons 3
+slug: dungeons-3
+year: 2017
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/dungeons-3.jpg
+icon_url: /games/icon/dungeons-3.png
+is_public: true
+updated: '2019-01-23T08:29:19.406628Z'
+steamid: 493900
+gogslug: dungeons_3
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 8037
+game_id: 3361
+game_slug: the-battle-for-wesnoth
+name: Battle for Wesnoth
+year: 2005
+user: RobLoach
+runner: steam
+slug: the-battle-for-wesnoth-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-02T13:03:58.410000Z'
+updated_at: '2018-06-19T04:44:36.965095Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: 599390
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 599390

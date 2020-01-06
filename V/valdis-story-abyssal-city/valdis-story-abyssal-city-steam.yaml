@@ -1,0 +1,24 @@
+id: 7578
+game_id: 1669
+game_slug: valdis-story-abyssal-city
+name: 'Valdis Story: Abyssal City'
+year: null
+user: Garland_g
+runner: winesteam
+slug: valdis-story-abyssal-city-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-17T00:52:24.347974Z'
+updated_at: '2018-05-02T01:11:07.544872Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 252030
+gogid: 1207660143
+gogslug: valdis_story_abyssal_city
+humblestoreid: ''
+script:
+  game:
+    appid: 252030

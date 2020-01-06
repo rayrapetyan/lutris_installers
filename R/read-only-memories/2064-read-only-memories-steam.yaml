@@ -1,0 +1,24 @@
+id: 1912
+game_id: 5497
+game_slug: read-only-memories
+name: '2064: Read Only Memories'
+year: 2015
+user: WildCoder
+runner: steam
+slug: 2064-read-only-memories-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2016-01-19T00:42:46.832000Z'
+updated_at: '2019-10-29T21:15:28.243603Z'
+draft: false
+published: true
+published_by: 1465
+rating: '5'
+steamid: 330820
+gogid: 1444027604
+gogslug: read_only_memories
+humblestoreid: 2064-read-only-memories
+script:
+  game:
+    appid: 330820

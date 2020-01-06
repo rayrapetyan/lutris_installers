@@ -1,0 +1,84 @@
+id: 17770
+game_id: 29442
+game_slug: alien-breed
+name: Alien Breed
+year: 1991
+user: appoloin
+runner: dosbox
+slug: alien-breed-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2020-01-05T17:49:54.085302Z'
+updated_at: '2020-01-05T17:49:54.085328Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $inno
+  - execute:
+      args: -I app -d "$CACHE" "$game"
+      file: $CACHE/innoextract
+  - execute:
+      args: $GAMEDIR/HDD $GAMEDIR/HDD/alien
+      file: mkdir
+  - merge:
+      src: $CACHE/app
+      dst: $GAMEDIR/HDD/alien
+  - execute:
+      args: -R $GAMEDIR/HDD/alien/DOSBOX
+      file: /bin/rm
+  - execute:
+      args: -R $GAMEDIR/HDD/alien/__support
+      file: /bin/rm
+  - write_file:
+      content: '[sdl]
+
+        sensitivity=20
+
+        [autoexec]
+
+        mount C "$GAMEDIR/HDD" -t dir
+
+        C:
+
+        cd alien
+
+        config.EXE
+
+        exit'
+      file: $GAMEDIR/alien-setup.conf
+  - task:
+      config_file: $GAMEDIR/alien-setup.conf
+      working_dir: $GAMEDIR/HDD
+      name: dosexec
+  - write_file:
+      content: '[sdl]
+
+        sensitivity=20
+
+        [autoexec]
+
+        mount C "$GAMEDIR/HDD" -t dir
+
+        C:
+
+        cd alien
+
+        alien.EXE
+
+        exit'
+      file: $GAMEDIR/alien.conf
+  files:
+  - game: N/A:Select GOG installer
+  - inno: https://lutris.nyc3.digitaloceanspaces.com/tools/innoextract/innoextract-1.8-dev-2019-01-13-linux.tar.xz
+  game:
+    main_file: $GAMEDIR/alien.conf

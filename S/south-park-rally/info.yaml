@@ -1,0 +1,19 @@
+name: South Park Rally
+slug: south-park-rally
+year: 1999
+platforms:
+- name: Nintendo 64
+- name: Sega Dreamcast
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Arcade
+- name: Racing
+aliases: []
+banner_url: /games/banner/south-park-rally.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:19.486240Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

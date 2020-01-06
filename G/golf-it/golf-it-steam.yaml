@@ -1,0 +1,30 @@
+id: 7450
+game_id: 13460
+game_slug: golf-it
+name: Golf It!
+year: 2018
+user: aenderboy
+runner: winesteam
+slug: golf-it-steam
+version: Steam
+description: fluently playable, but minior graphics bugs
+notes: "Steamwebhelper.exe errors may occur. You probably can ignore them. \r\n1.\
+  \ start the installation in wine-steam\r\n2. open your wine-steam library\r\n3.\
+  \ right-click Golf-it! -> properties -> set launch options -> -opengl4\r\n4. ingame\
+  \ options -> advanced -> set shadow quality to lowest -> apply\r\nIssues: some grass\
+  \ and some shadows have issues, but this changes only the appearance of the environment,\
+  \ not the tracks themselfes."
+created_at: '2018-03-04T13:28:56.953000Z'
+updated_at: '2018-03-04T22:54:29.486607Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 571740
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 571740
+    arch: win64

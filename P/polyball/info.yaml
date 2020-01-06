@@ -1,0 +1,17 @@
+name: Polyball
+slug: polyball
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Platform
+- name: Racing
+aliases: []
+banner_url: /games/banner/polyball.jpg
+icon_url: /games/icon/polyball.png
+is_public: true
+updated: '2019-01-23T08:30:47.589541Z'
+steamid: 368180
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,17 @@
+name: 'Batman: Arkham Asylum'
+slug: batman-arkham-asylum-goty-edition
+year: 2009
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Beat'em up
+aliases: []
+banner_url: /games/banner/batman-arkham-asylum-goty-edition.jpg
+icon_url: /games/icon/batman-arkham-asylum-goty-edition.png
+is_public: true
+updated: '2019-01-23T08:28:32.083753Z'
+steamid: 35140
+gogslug: ''
+humblestoreid: batman-arkham-asylum-goty-edition

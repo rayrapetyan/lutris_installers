@@ -1,0 +1,16 @@
+name: Undertale
+slug: undertale
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/undertale.jpg
+icon_url: /games/icon/undertale.png
+is_public: true
+updated: '2019-10-12T01:47:31.274576Z'
+steamid: 391540
+gogslug: undertale
+humblestoreid: ''

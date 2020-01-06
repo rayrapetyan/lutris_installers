@@ -1,0 +1,24 @@
+id: 8244
+game_id: 2219
+game_slug: amazing-world
+name: Amazing World
+year: null
+user: soredake
+runner: winesteam
+slug: amazing-world-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T07:37:39.605240Z'
+updated_at: '2018-05-11T22:46:43.152203Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 293500
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 293500

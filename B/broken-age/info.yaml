@@ -1,0 +1,16 @@
+name: Broken Age
+slug: broken-age
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/broken-age.jpg
+icon_url: /games/icon/broken-age.png
+is_public: true
+updated: '2019-01-23T08:28:42.303478Z'
+steamid: 232790
+gogslug: broken_age
+humblestoreid: broken-age

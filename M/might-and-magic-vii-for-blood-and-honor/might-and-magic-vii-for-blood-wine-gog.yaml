@@ -1,0 +1,39 @@
+id: 8946
+game_id: 5869
+game_slug: might-and-magic-vii-for-blood-and-honor
+name: 'Might and Magic VII: For Blood and Honor'
+year: 1999
+user: ryochan7
+runner: wine
+slug: might-and-magic-vii-for-blood-wine-gog
+version: Wine + GOG
+description: This installer requires the windows installer from GOG. It will use wine.
+notes: Follow GOG installer and use the default options. After installation is finished,
+  exit the installer without launching the game.
+created_at: '2018-06-29T05:42:12.369000Z'
+updated_at: '2019-05-12T04:09:15.279361Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: 1207658916
+gogslug: might_and_magic_7_for_blood_and_honor
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES /NOCANCEL
+      name: wineexec
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Might and Magic 7/MM7.exe
+    arch: win32

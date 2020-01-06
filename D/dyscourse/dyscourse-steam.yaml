@@ -1,0 +1,24 @@
+id: 1888
+game_id: 4956
+game_slug: dyscourse
+name: Dyscourse
+year: null
+user: WildCoder
+runner: steam
+slug: dyscourse-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-01-17T17:34:02.087302Z'
+updated_at: '2016-01-19T14:22:41.557734Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 234920
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 234920

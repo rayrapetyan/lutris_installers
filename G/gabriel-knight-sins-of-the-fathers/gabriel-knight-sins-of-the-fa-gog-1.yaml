@@ -1,0 +1,43 @@
+id: 15310
+game_id: 5297
+game_slug: gabriel-knight-sins-of-the-fathers
+name: 'Gabriel Knight: Sins of the Fathers'
+year: 1993
+user: appoloin
+runner: scummvm
+slug: gabriel-knight-sins-of-the-fa-gog-1
+version: GOG
+description: "This script will install \"Gabriel Knight - Sins of the Father\" GOG\
+  \ edition for ScummVM.\r\nDuring install please let all options by default.\r\n\
+  Big thanks to people who gave their time to permit us playing this game in the best\
+  \ conditions."
+notes: "- Please report issue concerning this script on my Github page:\r\nhttps://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2019-09-05T16:00:56.699000Z'
+updated_at: '2019-11-22T22:00:17.572313Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: 495700
+gogid: 1207658828
+gogslug: gabriel_knight_sins_of_the_fathers
+humblestoreid: ''
+script:
+  custom-name: Gabriel Knight - Sins of the Father - GOG - ScummVM
+  installer:
+  - extract:
+      dst: $CACHE
+      file: inno
+  - execute:
+      args: -d "$GAMEDIR" "$setup"
+      file: $CACHE/innoextract
+  - execute:
+      command: cd $GAMEDIR; rm -f -r app commonappdata GRAVIS __redist scummvm __support
+        SVGA tmp VESA VFW goggame-1207658828.*
+  files:
+  - inno: http://constexpr.org/innoextract/files/snapshots/innoextract-1.8-dev-2019-01-13/innoextract-1.8-dev-2019-01-13-linux.tar.xz
+  - setup: N/A:Please select the GOG installer
+  game:
+    game_id: sci
+    path: $GAMEDIR
+    subtitles: true

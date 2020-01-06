@@ -1,0 +1,24 @@
+id: 16127
+game_id: 3309
+game_slug: the-black-mirror
+name: The Black Mirror
+year: 2003
+user: cxf
+runner: steam
+slug: the-black-mirror-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-10-12T01:24:05.531498Z'
+updated_at: '2019-10-12T01:24:10.408747Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 292930
+gogid: 1207664913
+gogslug: the_black_mirror
+humblestoreid: ''
+script:
+  game:
+    appid: 292930

@@ -1,0 +1,30 @@
+id: 95
+game_id: 436
+game_slug: vanguard
+name: Vanguard
+year: 1982
+user: strider
+runner: atari800
+slug: vanguard-atari5200
+version: atari5200
+description: Atari 5200 version released in 1983
+notes: ''
+created_at: '2013-12-15T23:09:40.678000Z'
+updated_at: '2014-03-15T21:44:42.151000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: rom
+      dst: $GAMEDIR
+  files:
+  - rom: N/A
+  game:
+    main_file: rom

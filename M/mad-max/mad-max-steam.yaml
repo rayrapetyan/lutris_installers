@@ -1,0 +1,24 @@
+id: 3134
+game_id: 4881
+game_slug: mad-max
+name: Mad Max
+year: 2015
+user: FakeShemp
+runner: steam
+slug: mad-max-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-12-27T21:23:23.282000Z'
+updated_at: '2016-12-30T01:48:06.975052Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 234140
+gogid: null
+gogslug: ''
+humblestoreid: mad-max
+script:
+  game:
+    appid: 234140

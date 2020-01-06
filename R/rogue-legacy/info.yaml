@@ -1,0 +1,17 @@
+name: Rogue Legacy
+slug: rogue-legacy
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Platform
+- name: Roguelike
+aliases: []
+banner_url: /games/banner/rogue-legacy.jpg
+icon_url: /games/icon/rogue-legacy.png
+is_public: true
+updated: '2019-01-23T08:31:03.300006Z'
+steamid: 241600
+gogslug: rogue_legacy
+humblestoreid: rogue-legacy

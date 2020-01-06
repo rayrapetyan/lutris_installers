@@ -1,0 +1,29 @@
+id: 4436
+game_id: 4113
+game_slug: toast-time
+name: Toast Time
+year: null
+user: FakeShemp
+runner: linux
+slug: toast-time-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-17T20:21:33.726884Z'
+updated_at: '2017-06-18T23:29:05.913071Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 316660
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: run.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/run.sh
+  files:
+  - file1: N/A:Please select the Humble archive

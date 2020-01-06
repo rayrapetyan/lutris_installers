@@ -1,0 +1,24 @@
+id: 1668
+game_id: 1416
+game_slug: might-magic-heroes-vi
+name: 'Might & Magic: Heroes VI'
+year: null
+user: RobLoach
+runner: winesteam
+slug: might-magic-heroes-vi-steam
+version: Steam
+description: ''
+notes: https://appdb.winehq.org/objectManager.php?sClass=version&iId=24580
+created_at: '2015-11-02T12:18:54.506152Z'
+updated_at: '2016-09-09T22:25:22.708982Z'
+draft: false
+published: true
+published_by: null
+rating: '4'
+steamid: 48220
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 48220

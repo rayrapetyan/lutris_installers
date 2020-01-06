@@ -1,0 +1,16 @@
+name: Bomberman 64
+slug: bomberman-64
+year: 1997
+platforms:
+- name: Nintendo 64
+genres:
+- name: Action
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/bomberman-64.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:39.981415Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

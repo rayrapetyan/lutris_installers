@@ -1,0 +1,24 @@
+id: 2491
+game_id: 3437
+game_slug: super-time-force-ultra
+name: Super Time Force Ultra
+year: null
+user: RobLoach
+runner: steam
+slug: super-time-force-ultra-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-08-18T06:22:06.687335Z'
+updated_at: '2016-08-18T06:22:13.004683Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 250700
+gogid: 1207665553
+gogslug: super_time_force_ultra
+humblestoreid: ''
+script:
+  game:
+    appid: 250700

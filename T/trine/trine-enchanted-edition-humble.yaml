@@ -1,0 +1,38 @@
+id: 3952
+game_id: 181
+game_slug: trine
+name: Trine
+year: 2009
+user: FakeShemp
+runner: linux
+slug: trine-enchanted-edition-humble
+version: Humble
+description: Enchanted Edition
+notes: ''
+created_at: '2017-05-29T16:49:05.141521Z'
+updated_at: '2017-05-30T00:28:03.312778Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 35700
+gogid: 1207659020
+gogslug: trine_enchanted_edition
+humblestoreid: trine-enchanted-edition
+script:
+  exe: trine1.sh
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/_enchanted_edition_
+      dst: $GAMEDIR
+  - chmodx: $GAMEDIR/trine1.sh
+  - chmodx: $GAMEDIR/bin/install_dependencies_ubuntu_64bit.sh
+  - chmodx: $GAMEDIR/bin/trine1_bin_starter.sh
+  - chmodx: $GAMEDIR/bin/trine1_linux_32bit
+  - chmodx: $GAMEDIR/bin/trine1_linux_launcher_32bit
+  files:
+  - file1: N/A:Please select the Humble archive

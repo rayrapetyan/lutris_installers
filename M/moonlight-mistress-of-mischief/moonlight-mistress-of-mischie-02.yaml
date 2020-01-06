@@ -1,0 +1,32 @@
+id: 4480
+game_id: 11731
+game_slug: moonlight-mistress-of-mischief
+name: 'Moonlight: Mistress of Mischief'
+year: 2012
+user: FakeShemp
+runner: wine
+slug: moonlight-mistress-of-mischie-02
+version: '0.2'
+description: ''
+notes: ''
+created_at: '2017-06-18T16:12:00.807894Z'
+updated_at: '2018-05-19T03:41:52.220201Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Moonlight Mistress of Mischief
+      file: $file1
+  files:
+  - file1: http://www.lantanagames.com/moonlight/moonlight.zip
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Moonlight Mistress of Mischief/moonlight.exe
+    arch: win32

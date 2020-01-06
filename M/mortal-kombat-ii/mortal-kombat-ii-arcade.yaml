@@ -1,0 +1,29 @@
+id: 17337
+game_id: 5
+game_slug: mortal-kombat-ii
+name: Mortal Kombat II
+year: 1993
+user: leandrovitals
+runner: mame
+slug: mortal-kombat-ii-arcade
+version: arcade
+description: null
+notes: ''
+created_at: '2019-12-14T18:59:56.299000Z'
+updated_at: '2019-12-22T11:22:49.720889Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: rom
+  installer:
+  - merge:
+      src: rom
+      dst: $GAMEDIR
+  files:
+  - rom: N/A:Select the game''s ROM file

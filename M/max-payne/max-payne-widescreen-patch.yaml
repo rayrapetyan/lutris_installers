@@ -1,0 +1,40 @@
+id: 497
+game_id: 2044
+game_slug: max-payne
+name: Max Payne
+year: 2001
+user: Xodetaetl
+runner: wine
+slug: max-payne-widescreen-patch
+version: Widescreen patch
+description: Widescreen patch by ThirteenAG. "Change FOV in scripts/MP1_widescreen_fix.ini
+  if necessary. You can change comics display mode by pressing F2 in game."
+notes: ''
+created_at: '2014-07-20T11:50:38.506000Z'
+updated_at: '2018-05-19T03:41:47.856673Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 12140
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: max-payne
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Max Payne/
+      file: file1
+  - task:
+      prefix: $GAMEDIR
+      key: d3d8
+      value: native
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+      name: set_regedit
+  files:
+  - file1: https://lutris.net/files/games/max-payne/MP1_widescreen_fix.zip
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/Max Payne/MaxPayne.exe
+    arch: win32

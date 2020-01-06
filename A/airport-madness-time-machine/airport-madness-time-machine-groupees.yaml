@@ -1,0 +1,41 @@
+id: 4991
+game_id: 7949
+game_slug: airport-madness-time-machine
+name: 'Airport Madness: Time Machine'
+year: null
+user: FakeShemp
+runner: wine
+slug: airport-madness-time-machine-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-12T17:51:27.209000Z'
+updated_at: '2018-05-19T03:41:56.390258Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 402210
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      prefix: $GAMEDIR
+      app: adobeair
+      name: winetricks
+  - task:
+      executable: $CACHE/AMTM.exe
+      prefix: $GAMEDIR
+      args: -silent -eulaAccepted
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/AMTM/AMTM.exe
+    arch: win32

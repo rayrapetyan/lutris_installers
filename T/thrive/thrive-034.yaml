@@ -1,0 +1,29 @@
+id: 3273
+game_id: 9833
+game_slug: thrive
+name: Thrive
+year: 2014
+user: Marteon27
+runner: linux
+slug: thrive-034
+version: 0.3.4
+description: ''
+notes: ''
+created_at: '2017-02-18T16:37:48.277000Z'
+updated_at: '2017-08-11T16:43:52.045054Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: launch.sh
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: game
+  files:
+  - game: https://github.com/Revolutionary-Games/Thrive/releases/download/v0.3.4/LINUX_Thrive.0.3.4.7z

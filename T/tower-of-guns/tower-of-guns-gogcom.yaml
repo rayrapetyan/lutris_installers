@@ -1,0 +1,38 @@
+id: 2640
+game_id: 2396
+game_slug: tower-of-guns
+name: Tower of Guns
+year: null
+user: ssf
+runner: linux
+slug: tower-of-guns-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2016-08-31T18:16:12.747600Z'
+updated_at: '2016-09-27T17:41:38.248047Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 266110
+gogid: 1207660863
+gogslug: tower_of_guns
+humblestoreid: ''
+script:
+  exe: game/start.sh
+  gogid: tower_of_guns
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Please select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

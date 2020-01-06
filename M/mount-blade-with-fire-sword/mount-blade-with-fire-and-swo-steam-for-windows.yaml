@@ -1,0 +1,24 @@
+id: 3575
+game_id: 395
+game_slug: mount-blade-with-fire-sword
+name: 'Mount & Blade: With Fire & Sword'
+year: 2011
+user: schaap137
+runner: winesteam
+slug: mount-blade-with-fire-and-swo-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: ''
+created_at: '2017-04-27T22:04:58.955353Z'
+updated_at: '2017-05-02T23:03:45.110086Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 48720
+gogid: 1207666903
+gogslug: mount_blade_with_fire_sword
+humblestoreid: ''
+script:
+  game:
+    appid: 48720

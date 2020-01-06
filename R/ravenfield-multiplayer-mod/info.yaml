@@ -1,0 +1,21 @@
+name: 'Ravenfield: Multiplayer Mod'
+slug: ravenfield-multiplayer-mod
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Arcade
+- name: Combat
+- name: Fighting
+- name: Flight
+- name: FPS
+- name: Shooter
+aliases: []
+banner_url: /games/banner/ravenfield-multiplayer-mod.jpg
+icon_url: /games/icon/ravenfield-multiplayer-mod.png
+is_public: false
+updated: '2019-08-17T06:43:13.610262Z'
+steamid: 1104390
+gogslug: ''
+humblestoreid: ''

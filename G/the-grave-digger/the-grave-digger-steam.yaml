@@ -1,0 +1,24 @@
+id: 4856
+game_id: 6791
+game_slug: the-grave-digger
+name: The Grave Digger
+year: null
+user: FakeShemp
+runner: steam
+slug: the-grave-digger-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-07-06T17:49:02.458693Z'
+updated_at: '2017-07-09T20:11:13.375632Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 345340
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 345340

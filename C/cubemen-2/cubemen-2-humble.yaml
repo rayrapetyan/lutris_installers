@@ -1,0 +1,29 @@
+id: 3718
+game_id: 494
+game_slug: cubemen-2
+name: Cubemen 2
+year: null
+user: FakeShemp
+runner: linux
+slug: cubemen-2-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-17T20:03:32.630000Z'
+updated_at: '2017-05-19T17:24:18.724952Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 228440
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Cubemen2.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Cubemen2.x86
+  files:
+  - file1: N/A:Please select the Humble archive

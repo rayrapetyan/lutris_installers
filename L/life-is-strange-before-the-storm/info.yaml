@@ -1,0 +1,17 @@
+name: 'Life is Strange: Before the Storm'
+slug: life-is-strange-before-the-storm
+year: 2017
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/life-is-strange-before-the-storm.jpg
+icon_url: /games/icon/life-is-strange-before-the-storm.png
+is_public: true
+updated: '2019-12-17T20:47:11.398570Z'
+steamid: 554620
+gogslug: ''
+humblestoreid: ''

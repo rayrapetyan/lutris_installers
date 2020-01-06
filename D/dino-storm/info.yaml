@@ -1,0 +1,23 @@
+name: Dino Storm
+slug: dino-storm
+year: 2011
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: MMORPG
+- name: Open World
+- name: Sci-fi
+- name: Shooter
+- name: Survival
+- name: Tactical shooter
+- name: Third-person shooter
+- name: Wargame
+aliases: []
+banner_url: /games/banner/dino-storm.jpg
+icon_url: null
+is_public: true
+updated: '2019-12-21T15:45:37.375932Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,16 @@
+name: Sim Farm
+slug: sim-farm
+year: 1993
+platforms:
+- name: MS-DOS
+genres:
+- name: Business
+- name: Simulation
+aliases: []
+banner_url: /games/banner/sim-farm.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:13.798537Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

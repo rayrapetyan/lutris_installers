@@ -1,0 +1,16 @@
+name: DC Universe Online
+slug: dc-universe-online
+year: 2011
+platforms:
+- name: Windows
+genres:
+- name: MMO
+- name: RPG
+aliases: []
+banner_url: /games/banner/dc-universe-online.jpg
+icon_url: /games/icon/dc-universe-online.png
+is_public: true
+updated: '2019-01-23T08:29:05.866817Z'
+steamid: 24200
+gogslug: ''
+humblestoreid: ''

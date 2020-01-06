@@ -1,0 +1,32 @@
+id: 5497
+game_id: 3326
+game_slug: triblaster
+name: TriBlaster
+year: null
+user: FakeShemp
+runner: wine
+slug: triblaster-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-22T20:05:37.346305Z'
+updated_at: '2018-05-19T03:41:57.236277Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 303880
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/TriBlaster
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/TriBlaster/TriBlaster-Win.exe
+    arch: win32

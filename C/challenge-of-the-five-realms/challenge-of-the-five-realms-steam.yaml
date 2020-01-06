@@ -1,0 +1,24 @@
+id: 2476
+game_id: 6809
+game_slug: challenge-of-the-five-realms
+name: Challenge of the Five Realms
+year: null
+user: gschaffran
+runner: steam
+slug: challenge-of-the-five-realms-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-08-17T18:29:42.445871Z'
+updated_at: '2016-09-30T20:52:36.716514Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 347240
+gogid: 1207665363
+gogslug: challenge_of_the_five_realms
+humblestoreid: ''
+script:
+  game:
+    appid: 347240

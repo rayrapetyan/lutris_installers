@@ -1,0 +1,64 @@
+id: 9225
+game_id: 1509
+game_slug: sins-of-a-solar-empire-rebellion
+name: 'Sins of a Solar Empire: Rebellion'
+year: 2012
+user: VortexAcherontic
+runner: winesteam
+slug: sins-of-a-solar-empire-rebell-steam
+version: Steam
+description: null
+notes: "!ATTENTION! After installation:\r\n1) Set option: \"Do not launch game, only\
+  \ open Steam\"\r\n2) Run the prefix\r\n3) Right click your prefix and select \"\
+  Run EXE inside prefix\"\r\n4) Select \"Sins of a Solar Empire Rebellion.exe\"\r\n\
+  \r\nCurrently I'm searching a way to bypass the StardockLauncher\r\nYou can fiddle\
+  \ around with the Steam Launch Option: \"/nolauncher\" did not worked for me yet.\r\
+  \n\r\nIf any First Time Setups fail on your system configuration you can skip them\
+  \ by killing the install task. All dependencies are installed by this installer."
+created_at: '2018-07-15T17:52:20.629000Z'
+updated_at: '2018-11-18T17:12:42.393364Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 204880
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-2.0-i386
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Creating Wine Prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Changeing to Windows XP
+      app: winxp
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing Direct X 9
+      app: d3dx9_43
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing Visual C++ 2012
+      app: vcrun2012
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing Dot.NET 4.0
+      app: dotnet40
+      arch: win32
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 204880
+    arch: win32

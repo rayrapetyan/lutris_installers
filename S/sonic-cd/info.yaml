@@ -1,0 +1,15 @@
+name: Sonic CD
+slug: sonic-cd
+year: 1993
+platforms:
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/sonic-cd.jpg
+icon_url: /games/icon/sonic-cd.png
+is_public: true
+updated: '2019-01-23T08:31:18.153998Z'
+steamid: 200940
+gogslug: ''
+humblestoreid: sonic-cd

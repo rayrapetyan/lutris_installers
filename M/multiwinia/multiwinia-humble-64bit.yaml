@@ -1,0 +1,28 @@
+id: 4055
+game_id: 248
+game_slug: multiwinia
+name: Multiwinia
+year: null
+user: FakeShemp
+runner: linux
+slug: multiwinia-humble-64bit
+version: Humble (64bit)
+description: ''
+notes: ''
+created_at: '2017-06-02T16:52:08.315955Z'
+updated_at: '2017-06-04T22:08:29.755564Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 1530
+gogid: 1207659074
+gogslug: multiwinia
+humblestoreid: ''
+script:
+  exe: multiwinia.bin.x86_64
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

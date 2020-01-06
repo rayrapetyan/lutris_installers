@@ -1,0 +1,46 @@
+id: 9181
+game_id: 19905
+game_slug: big-fish-games-app
+name: Big Fish Games App
+year: null
+user: kimchitea
+runner: wine
+slug: big-fish-games-app-universal
+version: Universal
+description: null
+notes: ''
+created_at: '2018-07-12T03:24:54.975000Z'
+updated_at: '2019-10-28T20:33:27.992805Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows version to XP
+      app: winxp
+      arch: win32
+      name: winetricks
+  - task:
+      executable: $setup
+      prefix: $GAMEDIR
+      description: Installing BFG client
+      arch: win32
+      name: wineexec
+  files:
+  - setup: http://cdn-games.bigfishsites.com/gm_32/gm_installers/currentInstallers/Windows/bfginstaller32_s1_l1.exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/bfgclient/bfgclient.exe
+    arch: win32

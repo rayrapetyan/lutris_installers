@@ -1,0 +1,31 @@
+id: 10098
+game_id: 14233
+game_slug: stay-stay-democratic-peoples-republic-of-korea
+name: Stay! Stay! Democratic People's Republic of Korea!
+year: 2017
+user: kimchitea
+runner: linux
+slug: stay-stay-democratic-peoples-nutaku
+version: Nutaku
+description: null
+notes: ''
+created_at: '2018-09-08T05:44:30.055000Z'
+updated_at: '2018-09-08T11:11:28.958363Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 512060
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Stay! Stay! DPRK.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Stay! Stay! DPRK.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Stay! Stay! DPRK
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Stay! Stay! DPRK
+  files:
+  - file1: N/A:Please select the Nutaku archive for Windows

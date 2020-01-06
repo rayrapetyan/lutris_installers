@@ -1,0 +1,17 @@
+name: Advent Rising
+slug: advent-rising
+year: 2005
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/advent-rising.jpg
+icon_url: /games/icon/advent-rising.png
+is_public: true
+updated: '2019-01-23T08:28:12.154602Z'
+steamid: 3800
+gogslug: advent_rising
+humblestoreid: ''

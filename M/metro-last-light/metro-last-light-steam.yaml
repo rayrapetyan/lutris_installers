@@ -1,0 +1,24 @@
+id: 79
+game_id: 350
+game_slug: metro-last-light
+name: 'Metro: Last Light'
+year: 2013
+user: strider
+runner: steam
+slug: metro-last-light-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2013-12-08T19:49:57.663000Z'
+updated_at: '2013-12-08T19:50:27.589000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 43160
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 43160

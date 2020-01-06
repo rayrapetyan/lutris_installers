@@ -1,0 +1,25 @@
+id: 9603
+game_id: 19128
+game_slug: oh-my-god-look-at-this-knight
+name: OH MY GOD, LOOK AT THIS KNIGHT
+year: 2018
+user: kimchitea
+runner: winesteam
+slug: oh-my-god-look-at-this-knight-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-06T01:11:25.011000Z'
+updated_at: '2018-08-06T04:26:05.776869Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 781440
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 781440
+    arch: win32

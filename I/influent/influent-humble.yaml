@@ -1,0 +1,29 @@
+id: 3898
+game_id: 3076
+game_slug: influent
+name: Influent
+year: 2014
+user: FakeShemp
+runner: linux
+slug: influent-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-26T12:59:06.931961Z'
+updated_at: '2017-05-27T21:12:50.704031Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 274980
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Influent.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Influent.x86
+  files:
+  - file1: N/A:Please select the Humble archive

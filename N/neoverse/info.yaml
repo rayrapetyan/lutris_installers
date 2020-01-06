@@ -1,0 +1,17 @@
+name: NEOVERSE
+slug: neoverse
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Cards
+- name: Indie
+- name: Strategy
+aliases: []
+banner_url: /games/banner/neoverse.jpg
+icon_url: /games/icon/neoverse.png
+is_public: true
+updated: '2019-03-10T05:56:28.306401Z'
+steamid: 994220
+gogslug: ''
+humblestoreid: ''

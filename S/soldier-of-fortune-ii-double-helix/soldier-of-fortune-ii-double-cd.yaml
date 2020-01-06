@@ -1,0 +1,36 @@
+id: 1807
+game_id: 5397
+game_slug: soldier-of-fortune-ii-double-helix
+name: 'Soldier of Fortune II: Double Helix'
+year: 2002
+user: strider
+runner: wine
+slug: soldier-of-fortune-ii-double-cd
+version: CD
+description: ''
+notes: ''
+created_at: '2015-12-30T07:23:48.140025Z'
+updated_at: '2018-05-19T03:41:48.500381Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  system:
+    env:
+      __GL_ExtensionStringVersion: '17700'
+  installer:
+  - insert-disc:
+      requires: Setup/SoF2.exe
+  - task:
+      executable: $DISC/Setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  exe: drive_c/Program Files/Soldier of Fortune II - Double Helix/SoF2.exe
+  game:
+    prefix: $GAMEDIR
+    arch: win32

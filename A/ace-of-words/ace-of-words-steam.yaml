@@ -1,0 +1,24 @@
+id: 9165
+game_id: 5848
+game_slug: ace-of-words
+name: Ace of Words
+year: null
+user: Ben_01
+runner: winesteam
+slug: ace-of-words-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-11T14:18:29.964000Z'
+updated_at: '2018-07-12T04:40:27.236532Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 398680
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 398680

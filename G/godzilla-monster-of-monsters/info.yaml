@@ -1,0 +1,16 @@
+name: 'Godzilla: Monster of Monsters!'
+slug: godzilla-monster-of-monsters
+year: 1988
+platforms:
+- name: NES
+genres:
+- name: Action
+- name: Strategy
+aliases: []
+banner_url: /games/banner/godzilla-monster-of-monsters.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:41.021714Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

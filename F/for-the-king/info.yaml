@@ -1,0 +1,17 @@
+name: For The King
+slug: for-the-king
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: RPG
+- name: Strategy
+aliases: []
+banner_url: /games/banner/for-the-king.jpg
+icon_url: /games/icon/for-the-king.png
+is_public: true
+updated: '2019-01-23T08:29:34.167922Z'
+steamid: 527230
+gogslug: for_the_king
+humblestoreid: ''

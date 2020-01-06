@@ -1,0 +1,18 @@
+name: Turok
+slug: turok-dinosaur-hunter
+year: 1997
+platforms:
+- name: Linux
+- name: Nintendo 64
+genres:
+- name: Action
+- name: Adventure
+- name: FPS
+aliases: []
+banner_url: /games/banner/turok-dinosaur-hunter.jpg
+icon_url: /games/icon/turok-dinosaur-hunter.png
+is_public: true
+updated: '2019-01-23T08:31:57.192630Z'
+steamid: 405820
+gogslug: turok
+humblestoreid: ''

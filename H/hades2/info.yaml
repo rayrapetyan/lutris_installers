@@ -1,0 +1,16 @@
+name: Hades2
+slug: hades2
+year: 1999
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Shooter
+aliases: []
+banner_url: /games/banner/hades2.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:45.690310Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

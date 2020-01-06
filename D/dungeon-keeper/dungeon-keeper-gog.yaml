@@ -1,0 +1,38 @@
+id: 420
+game_id: 1819
+game_slug: dungeon-keeper
+name: Dungeon Keeper
+year: 1997
+user: strider
+runner: dosbox
+slug: dungeon-keeper-gog
+version: GOG
+description: Dungeon Keeper Gold from GOG
+notes: "Recent GOG installer required (v2 or above). \r\nTip: press Alt+R in-game\
+  \ to double the resolution (at the cost of bad performance)."
+created_at: '2014-02-09T15:56:15.150000Z'
+updated_at: '2016-01-26T20:22:37.912681Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1207658934
+gogslug: dungeon_keeper
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $game
+      prefix: $GAMEDIR
+      args: /silent /nogui /suppressmsgboxes
+      name: wine.wineexec
+  - merge:
+      src: $config
+      dst: $GAMEDIR/drive_c/GOG Games/Dungeon Keeper Gold/
+  files:
+  - game: N/A:Select the game's Windows installer provided by GOG
+  - config: http://lutris.net/files/games/dungeon-keeper/dosboxDK_lutris.conf
+  game:
+    config_file: $GAMEDIR/drive_c/GOG Games/Dungeon Keeper Gold/dosboxDK.conf
+    main_file: $GAMEDIR/drive_c/GOG Games/Dungeon Keeper Gold/dosboxDK_lutris.conf

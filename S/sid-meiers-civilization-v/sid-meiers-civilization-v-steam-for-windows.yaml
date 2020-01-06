@@ -1,0 +1,26 @@
+id: 8951
+game_id: 424
+game_slug: sid-meiers-civilization-v
+name: Sid Meier's Civilization V
+year: 2010
+user: phi11ipus
+runner: winesteam
+slug: sid-meiers-civilization-v-steam-for-windows
+version: Steam for Windows
+description: null
+notes: ''
+created_at: '2018-06-29T22:45:43.945000Z'
+updated_at: '2019-11-16T09:14:38.387816Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 8930
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 8930
+    arch: win32

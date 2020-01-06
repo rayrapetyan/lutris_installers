@@ -1,0 +1,33 @@
+id: 3600
+game_id: 9712
+game_slug: glportal
+name: GlPortal
+year: null
+user: dj_who
+runner: linux
+slug: glportal-071
+version: 0,7.1
+description: null
+notes: probably hosting on lutris needed because of dynamic mirrors
+created_at: '2017-04-30T17:58:51.975000Z'
+updated_at: '2018-12-18T06:50:17.945485Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: glportal
+  files:
+  - glportal:
+      referer: https://sjc7.dl.dbolical.com/
+      filename: GlPortal-v0.0.7.1-frogger.tar.gz
+      url: https://sjc7.dl.dbolical.com/dl/2014/06/02/GlPortal-v0.0.7.1-frogger.tar.gz?st=P5NNvBLE7O0q8gLUL7G80g==&e=1545093106
+  game:
+    exe: portal

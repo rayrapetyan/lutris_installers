@@ -1,0 +1,24 @@
+id: 9280
+game_id: 6092
+game_slug: higurashi-when-they-cry-ch2-watanagashi
+name: Higurashi When They Cry - Ch.2 Watanagashi
+year: 2015
+user: kimchitea
+runner: steam
+slug: higurashi-when-they-cry-ch2-w-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-19T07:21:13.086599Z'
+updated_at: '2018-07-19T13:24:52.231196Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 410890
+gogid: 1387720706
+gogslug: higurashi_when_they_cry_hou_ch2_watanagashi
+humblestoreid: ''
+script:
+  game:
+    appid: 410890

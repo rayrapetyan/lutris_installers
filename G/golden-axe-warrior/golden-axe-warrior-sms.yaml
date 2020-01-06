@@ -1,0 +1,31 @@
+id: 7794
+game_id: 17726
+game_slug: golden-axe-warrior
+name: Golden Axe Warrior
+year: 1991
+user: te_lanus
+runner: libretro
+slug: golden-axe-warrior-sms
+version: SMS
+description: null
+notes: ''
+created_at: '2018-04-05T19:04:10.229623Z'
+updated_at: '2018-04-05T19:04:22.124092Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Master System game file
+  game:
+    core: genesis_plus_gx
+    main_file: file1

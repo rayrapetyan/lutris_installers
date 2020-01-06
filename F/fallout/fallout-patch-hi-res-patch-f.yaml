@@ -1,0 +1,48 @@
+id: 398
+game_id: 381
+game_slug: fallout
+name: Fallout
+year: 1997
+user: Xodetaetl
+runner: wine
+slug: fallout-patch-hi-res-patch-f
+version: '[Patch] Hi-res patch for GOG'
+description: ''
+notes: ''
+created_at: '2014-01-27T21:05:42.633000Z'
+updated_at: '2016-09-30T20:22:46.300777Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 38400
+gogid: 1440166342
+gogslug: fallout
+humblestoreid: ''
+script:
+  requires: fallout-gog
+  installer:
+  - extract:
+      dst: drive_c/GOG Games/Fallout
+      file: file1
+  - task:
+      prefix: $GAMEDIR
+      description: Downloading some DirectX9 library, it may take a little while.
+      app: d3dx9_36
+      silent: true
+      name: winetricks
+  - task:
+      executable: Fallout1_High_Resolution_Patch_4.1.7.exe
+      prefix: $GAMEDIR
+      description: Installing the Hi-res patch
+      working_dir: $GAMEDIR/drive_c/GOG Games/Fallout/
+      name: wineexec
+  - task:
+      executable: f1_res_Config.exe
+      prefix: $GAMEDIR
+      description: "Configuring the Hi-res patch.\n Make sure you enable it before\
+        \ clicking Done"
+      working_dir: $GAMEDIR/drive_c/GOG Games/Fallout/
+      name: wineexec
+  files:
+  - file1: http://lutris.net/files/games/fallout/Fallout1_High_Resolution_Patch_4.1.7.zip

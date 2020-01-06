@@ -1,0 +1,32 @@
+id: 6018
+game_id: 4903
+game_slug: fine-sweeper
+name: Fine Sweeper
+year: null
+user: FakeShemp
+runner: wine
+slug: fine-sweeper-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-10-20T15:16:55.493168Z'
+updated_at: '2018-05-19T03:41:57.002233Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 367000
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR/drive_c/Program Files/Fine Sweeper
+  files:
+  - file1: N/A:Please select the Groupees executable
+  game:
+    prefix: $GAMEDIR
+    exe: $file1
+    arch: win32

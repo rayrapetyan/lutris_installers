@@ -1,0 +1,34 @@
+id: 5469
+game_id: 6802
+game_slug: trigger-saint
+name: Trigger Saint
+year: null
+user: FakeShemp
+runner: wine
+slug: trigger-saint-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-22T11:46:31.576000Z'
+updated_at: '2018-05-19T03:41:53.572996Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 354770
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      args: '"/S" "/D="C:\\Program Files\\Trigger Saint""'
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Trigger Saint/Trigger Saint.exe
+    arch: win32

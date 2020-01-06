@@ -1,0 +1,33 @@
+id: 2289
+game_id: 6546
+game_slug: lionheart
+name: Lionheart
+year: 1992
+user: strider
+runner: linux
+slug: lionheart-remake
+version: Remake
+description: Java remake from http://www.b3dgs.com/v7/page.php?lang=en&section=lionheart_remake
+notes: This game requires Java (probably already installed on your system).
+created_at: '2016-07-09T21:27:05.333071Z'
+updated_at: '2016-07-25T14:44:38.219311Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 494160
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: remake
+  - chmodx: $GAMEDIR/run.bat
+  files:
+  - remake: http://www.b3dgs.com/v7/projects/lionheart_remake/files/lionheart_java_remake_0.0.8.zip
+  game:
+    exe: /bin/bash
+    args: '"$GAMEDIR/run.bat"'
+    working_dir: $GAMEDIR

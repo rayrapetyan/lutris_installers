@@ -1,0 +1,16 @@
+name: DISTRAINT
+slug: distraint
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Horror
+aliases: []
+banner_url: /games/banner/distraint.jpg
+icon_url: /games/icon/distraint.png
+is_public: true
+updated: '2019-01-23T08:29:13.796716Z'
+steamid: 395170
+gogslug: ''
+humblestoreid: ''

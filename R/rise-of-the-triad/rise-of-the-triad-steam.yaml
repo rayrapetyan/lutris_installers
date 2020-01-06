@@ -1,0 +1,35 @@
+id: 3366
+game_id: 1452
+game_slug: rise-of-the-triad
+name: Rise of the Triad
+year: 2013
+user: strider
+runner: winesteam
+slug: rise-of-the-triad-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-03-17T22:11:32.358000Z'
+updated_at: '2017-03-17T23:26:14.263249Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 217140
+gogid: 1207659244
+gogslug: rise_of_the_triad
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: dotnet40
+      silent: true
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 217140

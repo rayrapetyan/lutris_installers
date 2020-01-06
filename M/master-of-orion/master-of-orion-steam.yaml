@@ -1,0 +1,24 @@
+id: 13018
+game_id: 6122
+game_slug: master-of-orion
+name: Master of Orion
+year: 2016
+user: skyace65
+runner: steam
+slug: master-of-orion-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-04-21T19:37:36.881949Z'
+updated_at: '2019-04-27T02:24:15.642590Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 298050
+gogid: 1441029515
+gogslug: master_of_orion
+humblestoreid: ''
+script:
+  game:
+    appid: 298050

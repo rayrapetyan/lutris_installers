@@ -1,0 +1,32 @@
+id: 3230
+game_id: 9798
+game_slug: demon-master-chris
+name: Demon Master Chris
+year: 2013
+user: FakeShemp
+runner: linux
+slug: demon-master-chris-mangagamer
+version: MangaGamer
+description: Installer also works on the demo version and the Nutaku version.
+notes: ''
+created_at: '2017-02-05T16:07:17.281000Z'
+updated_at: '2018-06-21T15:59:19.934708Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: DMC.sh
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: game
+  - chmodx: $GAMEDIR/DMC.sh
+  - chmodx: $GAMEDIR/lib/linux-x86_64/DMC
+  - chmodx: $GAMEDIR/lib/linux-i686/DMC
+  files:
+  - game: 'N/A: Please select the archive from MangaGamer'

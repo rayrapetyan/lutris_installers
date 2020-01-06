@@ -1,0 +1,28 @@
+id: 871
+game_id: 2681
+game_slug: strife
+name: Strife
+year: null
+user: Xodetaetl
+runner: linux
+slug: strife-32-or-64-bit
+version: 32 or 64-bit
+description: ''
+notes: '2015.11.26: Fixed extraction and disabled runtime.'
+created_at: '2014-09-17T19:51:45.509000Z'
+updated_at: '2015-11-26T17:56:31.143534Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 339280
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: bin/strife
+  installer:
+  - extract:
+      file: $game
+  files:
+  - game: N/A:Select the install archive for Strife. Download it at https://strife.com/download

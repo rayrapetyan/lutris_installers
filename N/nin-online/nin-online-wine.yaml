@@ -1,0 +1,45 @@
+id: 15005
+game_id: 28840
+game_slug: nin-online
+name: Nin Online
+year: 2015
+user: HyrumGraff
+runner: wine
+slug: nin-online-wine
+version: Wine
+description: null
+notes: Uses a custom build from the developer that has been tweaked to work with wine.
+created_at: '2019-08-14T10:45:28.342796Z'
+updated_at: '2019-08-14T10:45:28.342826Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/game/Client.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: dotnet40 dx8vb
+      arch: win32
+      name: winetricks
+  - extract:
+      dst: $GAMEDIR/drive_c/game/
+      file: ninonline
+  wine:
+    overrides:
+      rundll32.exe: disabled
+      msacm32: n
+  files:
+  - ninonline: https://www.silverdalegame.com/ninonline.zip

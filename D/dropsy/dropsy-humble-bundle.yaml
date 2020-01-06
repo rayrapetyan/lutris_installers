@@ -1,0 +1,31 @@
+id: 2166
+game_id: 5764
+game_slug: dropsy
+name: Dropsy
+year: 2015
+user: Lulu
+runner: linux
+slug: dropsy-humble-bundle
+version: Humble Bundle
+description: ''
+notes: ''
+created_at: '2016-06-20T18:27:47.971963Z'
+updated_at: '2016-08-11T20:58:46.941355Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 274350
+gogid: 1441869560
+gogslug: dropsy
+humblestoreid: ''
+script:
+  exe: Dropsy.x86
+  installer:
+  - extract:
+      file: dropsy-game
+  - chmodx: $GAMEDIR/Dropsy.x86
+  - chmodx: $GAMEDIR/Dropsy.x86_64
+  exe64: Dropsy.x86_64
+  files:
+  - dropsy-game: 'N/A: Please select the .zip install file downloaded from humblebundle.com'

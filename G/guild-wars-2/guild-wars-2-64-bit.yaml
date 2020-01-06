@@ -1,0 +1,54 @@
+id: 1742
+game_id: 3364
+game_slug: guild-wars-2
+name: Guild Wars 2
+year: 2012
+user: RobLoach
+runner: wine
+slug: guild-wars-2-64-bit
+version: 64-Bit
+description: This installer is only recommended in case you experience issues with
+  the D9VK installer.
+notes: To improve perfomance, <a href="https://i.imgur.com/fhEr0rW.jpg">these settings</a>.
+  are suggested.
+created_at: '2015-12-22T22:19:40.456000Z'
+updated_at: '2019-10-07T22:19:11.618032Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating win64 prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing d3dx9 and d3dcompiler_43
+      app: d3dx9
+      name: winetricks
+  - execute:
+      command: mkdir -p "$GAMEDIR/drive_c/Program Files/Guild Wars 2"
+  - move:
+      src: client
+      dst: $GAMEDIR/drive_c/Program Files/Guild Wars 2/GW2-64.exe
+  game:
+    prefix: $GAMEDIR
+    args: -maploadinfo
+    exe: drive_c/Program Files/Guild Wars 2/GW2-64.exe
+    arch: win64
+  system:
+    env:
+      PBA_ENABLE: 1
+  wine:
+    version: esync-staging-pba-3.16-x86_64
+    esync: true
+  files:
+  - client: https://s3.amazonaws.com/gw2cdn/client/branches/Gw2Setup-64.exe
+  - libfile: https://github.com/dhollinger/lutris_gw2_lib/raw/master/libpng16.so.16

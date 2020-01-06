@@ -1,0 +1,31 @@
+id: 10843
+game_id: 23338
+game_slug: princess-of-ruin
+name: Princess of Ruin
+year: 2014
+user: kimchitea
+runner: linux
+slug: princess-of-ruin-15
+version: '1.5'
+description: null
+notes: Should work for the demo as well as the full version.
+created_at: '2018-11-11T23:00:14.618000Z'
+updated_at: '2018-11-12T18:42:49.549407Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Princess of Ruin.sh
+  installer:
+  - extract:
+      file: file1
+  - chmodx: $GAMEDIR/Princess of Ruin.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Princess of Ruin
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Princess of Ruin
+  files:
+  - file1: N/A:Please select the game archive

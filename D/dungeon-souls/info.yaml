@@ -1,0 +1,15 @@
+name: Dungeon Souls
+slug: dungeon-souls
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/dungeon-souls.jpg
+icon_url: /games/icon/dungeon-souls.png
+is_public: true
+updated: '2019-01-23T08:29:19.732085Z'
+steamid: 383230
+gogslug: dungeon_souls
+humblestoreid: ''

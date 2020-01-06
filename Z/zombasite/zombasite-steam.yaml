@@ -1,0 +1,24 @@
+id: 3463
+game_id: 7693
+game_slug: zombasite
+name: Zombasite
+year: null
+user: liberodark
+runner: steam
+slug: zombasite-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-04-01T03:17:46.672049Z'
+updated_at: '2017-04-02T23:49:08.453255Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 408960
+gogid: 1218352612
+gogslug: zombasite
+humblestoreid: ''
+script:
+  game:
+    appid: 408960

@@ -1,0 +1,42 @@
+id: 2016
+game_id: 5638
+game_slug: command-conquer
+name: Command & Conquer
+year: 1995
+user: strider
+runner: wine
+slug: command-conquer-gold-edition
+version: Gold edition
+description: null
+notes: ''
+created_at: '2016-03-07T16:18:39.158000Z'
+updated_at: '2019-02-12T04:29:06.609741Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      executable: videos
+      prefix: $GAMEDIR
+      name: wineexec
+  - extract:
+      dst: $GAMEDIR/drive_c/Westwood/C&C95/
+      file: cnc_ddraw
+  files:
+  - installer: https://lutris.nyc3.digitaloceanspaces.com/games/command-and-conquer/cc95v106c_r3_u4_full.exe
+  - videos: https://lutris.nyc3.digitaloceanspaces.com/games/command-and-conquer/cc95v106_videobase_eng.1.exe
+  - cnc_ddraw: https://lutris.nyc3.digitaloceanspaces.com/games/command-and-conquer/cnc-ddraw.zip
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Westwood/C&C95/C&C95.exe
+    arch: win32

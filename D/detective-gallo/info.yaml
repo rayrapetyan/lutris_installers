@@ -1,0 +1,17 @@
+name: Detective Gallo
+slug: detective-gallo
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Detective-mystery
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/detective-gallo.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:10.584466Z'
+steamid: null
+gogslug: detective_gallo
+humblestoreid: ''

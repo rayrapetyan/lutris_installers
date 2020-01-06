@@ -1,0 +1,39 @@
+id: 13780
+game_id: 26629
+game_slug: generation-zero
+name: Generation Zero
+year: null
+user: Chou128
+runner: winesteam
+slug: generation-zero-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-05-29T05:06:49.809000Z'
+updated_at: '2019-06-17T01:50:12.431270Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 704270
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing winetricks. Please be patient.
+      app: vcrun2015 dotnet472 win7
+      name: winetricks
+  winesteam:
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: compiler
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 704270

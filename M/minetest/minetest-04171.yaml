@@ -1,0 +1,28 @@
+id: 12085
+game_id: 76
+game_slug: minetest
+name: Minetest
+year: 2013
+user: strider
+runner: linux
+slug: minetest-04171
+version: 0.4.17.1
+description: null
+notes: ''
+created_at: '2019-02-18T22:30:40.146000Z'
+updated_at: '2019-02-18T23:25:23.067383Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: bin/minetest
+  installer:
+  - extract:
+      file: archive
+  files:
+  - archive: https://lutris.nyc3.digitaloceanspaces.com/games/minetest/minetest-0.4.17.1-x86_64.tar.gz

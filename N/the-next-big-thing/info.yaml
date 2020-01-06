@@ -1,0 +1,16 @@
+name: The Next BIG Thing
+slug: the-next-big-thing
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/the-next-big-thing.jpg
+icon_url: /games/icon/the-next-big-thing.png
+is_public: true
+updated: '2019-09-07T19:22:27.750608Z'
+steamid: 58570
+gogslug: the_next_big_thing
+humblestoreid: ''

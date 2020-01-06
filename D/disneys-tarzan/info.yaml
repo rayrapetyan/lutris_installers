@@ -1,0 +1,21 @@
+name: Disney's Tarzan
+slug: disneys-tarzan
+year: 1999
+platforms:
+- name: Nintendo 64
+- name: Nintendo Game Boy Color
+- name: Sony PlayStation
+- name: Sony Playstation 3
+- name: Sony PSP
+- name: Windows
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/disneys-tarzan.jpg
+icon_url: null
+is_public: true
+updated: '2019-11-11T02:14:04.607885Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,16 @@
+name: Flashing Lights
+slug: flashing-lights
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Indie
+- name: Simulation
+aliases: []
+banner_url: /games/banner/flashing-lights.jpg
+icon_url: /games/icon/flashing-lights.png
+is_public: false
+updated: '2019-08-17T06:47:52.525217Z'
+steamid: 605740
+gogslug: ''
+humblestoreid: ''

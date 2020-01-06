@@ -1,0 +1,32 @@
+id: 3601
+game_id: 7686
+game_slug: quetoo
+name: Quetoo
+year: null
+user: dj_who
+runner: linux
+slug: quetoo-beta
+version: Beta
+description: ''
+notes: ''
+created_at: '2017-04-30T18:34:34.232000Z'
+updated_at: '2017-05-02T23:03:15.122683Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: quetoo
+  - execute:
+      file: $GAMEDIR/bin/quetoo-update
+  files:
+  - quetoo: http://quetoo.s3.amazonaws.com/snapshots/quetoo-BETA-x86_64-pc-linux.tar.gz
+  game:
+    exe: $GAMEDIR/bin/quetoo

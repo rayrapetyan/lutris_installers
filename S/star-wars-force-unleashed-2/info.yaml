@@ -1,0 +1,15 @@
+name: 'Star Wars: The Force Unleashed II'
+slug: star-wars-force-unleashed-2
+year: 2010
+platforms:
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/star-wars-force-unleashed-2.jpg
+icon_url: /games/icon/star-wars-force-unleashed-2.png
+is_public: true
+updated: '2019-01-23T08:31:25.810124Z'
+steamid: 32500
+gogslug: star_wars_the_force_unleashed_ii
+humblestoreid: star-wars-the-force-unleashed-ii

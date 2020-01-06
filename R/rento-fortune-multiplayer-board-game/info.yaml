@@ -1,0 +1,18 @@
+name: Rento Fortune - Multiplayer Board Game
+slug: rento-fortune-multiplayer-board-game
+year: 2017
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Board
+- name: Casual
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/rento-fortune-multiplayer-board-game.jpg
+icon_url: /games/icon/rento-fortune-multiplayer-board-game.png
+is_public: true
+updated: '2019-01-23T08:30:57.493922Z'
+steamid: 663390
+gogslug: ''
+humblestoreid: ''

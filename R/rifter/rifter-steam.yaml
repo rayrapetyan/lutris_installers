@@ -1,0 +1,24 @@
+id: 11193
+game_id: 23798
+game_slug: rifter
+name: Rifter
+year: null
+user: strider
+runner: steam
+slug: rifter-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-12-12T07:16:26.066730Z'
+updated_at: '2018-12-12T07:16:26.066765Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 625740
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: '625740'

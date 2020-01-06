@@ -1,0 +1,39 @@
+id: 10766
+game_id: 4017
+game_slug: metal-gear-solid-v-ground-zeroes
+name: 'Metal Gear Solid V: Ground Zeroes'
+year: null
+user: aremeczk
+runner: winesteam
+slug: metal-gear-solid-v-ground-zer-steam-dxvk
+version: Steam DXVK
+description: null
+notes: ''
+created_at: '2018-11-04T10:37:01.123000Z'
+updated_at: '2019-02-16T03:42:09.342108Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 311340
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 311340
+    arch: win64

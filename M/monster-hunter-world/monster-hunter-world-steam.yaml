@@ -1,0 +1,35 @@
+id: 9139
+game_id: 19873
+game_slug: monster-hunter-world
+name: 'MONSTER HUNTER: WORLD'
+year: 2018
+user: TuiorGames
+runner: winesteam
+slug: monster-hunter-world-steam
+version: Steam
+description: null
+notes: '* This game might require to manually install <a href="https://github.com/z0z0z/mf-install">this
+  fix</a>.'
+created_at: '2018-07-10T23:00:57.086000Z'
+updated_at: '2019-09-21T18:54:23.511748Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 582010
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      nvapi,nvapi64: disabled
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    appid: 582010
+    arch: win64

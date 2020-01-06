@@ -1,0 +1,24 @@
+id: 11095
+game_id: 23636
+game_slug: inexplicable-geeks-dawn-of-just-us
+name: 'Inexplicable Geeks: Dawn of Just Us'
+year: 2018
+user: kimchitea
+runner: steam
+slug: inexplicable-geeks-dawn-of-ju-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-12-06T09:27:13.457972Z'
+updated_at: '2018-12-12T05:07:47.836119Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 704670
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 704670

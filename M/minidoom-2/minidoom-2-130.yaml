@@ -1,0 +1,49 @@
+id: 7569
+game_id: 17422
+game_slug: minidoom-2
+name: MiniDoom 2
+year: 2018
+user: plafue
+runner: wine
+slug: minidoom-2-130
+version: 1.3.0
+description: Should work with any version of the zip downloaded from the website,
+  but has been tested with v1.3.0.
+notes: ''
+created_at: '2018-03-16T10:30:14.596542Z'
+updated_at: '2018-03-20T04:10:43.460094Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR/prefix
+    exe: $GAMEDIR/prefix/drive_c/miniDoom2/miniDoom2.exe
+    working_dir: $GAMEDIR/prefix/drive_c/miniDoom2
+    arch: win64
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Setting up wine prefix
+      arch: win64
+      name: create_prefix
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $zip -d "$GAMEDIR/prefix/drive_c"
+      file: $CACHE/unzip
+  - execute:
+      command: mv $GAMEDIR/prefix/drive_c/miniDoom* $GAMEDIR/prefix/drive_c/miniDoom2
+  - execute:
+      command: mv $GAMEDIR/prefix/drive_c/miniDoom2/miniDoom2*.exe $GAMEDIR/prefix/drive_c/miniDoom2/miniDoom2.exe
+  wine:
+    version: staging-3.3-x86_64
+  files:
+  - zip: N/A:Select the MiniDoom2 zip file downloaded from calaverastudio.itch.io
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

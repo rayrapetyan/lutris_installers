@@ -1,0 +1,24 @@
+id: 3193
+game_id: 957
+game_slug: just-cause
+name: Just Cause
+year: null
+user: bradgy
+runner: winesteam
+slug: just-cause-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-01-26T19:02:20.886000Z'
+updated_at: '2018-03-04T01:03:37.845590Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: 6880
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 6880

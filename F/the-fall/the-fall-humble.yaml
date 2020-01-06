@@ -1,0 +1,29 @@
+id: 3761
+game_id: 2144
+game_slug: the-fall
+name: The Fall
+year: null
+user: FakeShemp
+runner: linux
+slug: the-fall-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-21T12:29:56.602000Z'
+updated_at: '2017-05-27T23:55:36.138301Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 290770
+gogid: 1425568340
+gogslug: the_fall
+humblestoreid: ''
+script:
+  exe: TheFall.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/TheFall.x86
+  files:
+  - file1: N/A:Please select the Humble archive

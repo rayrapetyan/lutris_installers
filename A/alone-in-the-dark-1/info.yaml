@@ -1,0 +1,20 @@
+name: Alone in the Dark 1
+slug: alone-in-the-dark-1
+year: 1992
+platforms:
+- name: 3DO
+- name: MS-DOS
+- name: PC-98
+genres:
+- name: Action
+- name: Adventure
+- name: Horror
+- name: Survival
+aliases: []
+banner_url: /games/banner/alone-in-the-dark-1.jpg
+icon_url: /games/icon/alone-in-the-dark-1.png
+is_public: true
+updated: '2019-10-23T23:50:14.518932Z'
+steamid: null
+gogslug: alone_in_the_dark
+humblestoreid: ''

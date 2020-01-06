@@ -1,0 +1,80 @@
+id: 12290
+game_id: 2927
+game_slug: assassins-creed-iv-black-flag
+name: Assassin's Creed IV Black Flag
+year: 2013
+user: duerrwlu
+runner: wine
+slug: assassins-creed-iv-black-flag-uplay-w-dxvk
+version: Uplay w/ DXVK
+description: null
+notes: Has problems with MSAA (2x, 4x, and 8x)
+created_at: '2019-03-07T21:19:23.113000Z'
+updated_at: '2019-04-20T09:08:26.072941Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 242050
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - write_config:
+      section: Max feature level
+      key: d3d11.maxFeatureLevel
+      value: '10_1'
+      file: $GAMEDIR/dxvk.conf
+  - extract:
+      dst: $CACHE/dxsetup
+      file: dx2010
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR
+      args: /silent
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2008 vcrun2010 d3dcompiler_43 corefonts
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Please be patient while we install .NET 4.7.2
+      app: dotnet472 win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: uplay
+      prefix: $GAMEDIR
+      args: /S
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/Uplay.exe
+    arch: win64
+  system:
+    env:
+      DXVK_CONFIG_FILE: $GAMEDIR/dxvk.conf
+      DXVK_HUD: 0
+  wine:
+    version: tkg-4.6-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      nvapi,nvapi64: disabled
+      xaudio2_7: native,builtin
+  files:
+  - dx2010: https://lutris.net/files/tools/directx-2010.tar.gz
+  - uplay: https://ubistatic3-a.akamaihd.net/orbit/launcher_installer/UplayInstaller.exe

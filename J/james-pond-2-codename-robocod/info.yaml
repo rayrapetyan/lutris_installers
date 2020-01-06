@@ -1,0 +1,18 @@
+name: 'James Pond 2: Codename RoboCod'
+slug: james-pond-2-codename-robocod
+year: 1991
+platforms:
+- name: Nintendo Game Boy Color
+- name: Sega Game Gear
+- name: Sega Genesis / Mega Drive
+- name: Sega Master System
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/james-pond-2-codename-robocod.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:59.823212Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,27 @@
+id: 1352
+game_id: 3736
+game_slug: dying-light
+name: Dying Light
+year: 2015
+user: Xodetaetl
+runner: steam
+slug: dying-light-steam
+version: Steam
+description: null
+notes: The libGL from 2013 is required to run the game. libgl1-mesa-glx_13.0.2-3+bsos1_amd64;
+  this used to be located <a href="http://repo.steampowered.com/steamos/pool/main/m/mesa/">here</a>  as
+  a whole package. Unfortunately it is no more (updated to a newer version), I uploaded
+  the raw file you need to place into the root of your game folder <a href="https://github.com/Farcrada/DyingLight_LibGl1_getter">here</a>.
+created_at: '2015-02-25T20:02:52.201000Z'
+updated_at: '2019-04-23T04:01:55.516145Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 239140
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 239140

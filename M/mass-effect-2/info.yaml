@@ -1,0 +1,15 @@
+name: Mass Effect 2
+slug: mass-effect-2
+year: 2010
+platforms:
+- name: Windows
+genres:
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/mass-effect-2.jpg
+icon_url: /games/icon/mass-effect-2.png
+is_public: true
+updated: '2019-01-23T08:30:18.548645Z'
+steamid: 24980
+gogslug: ''
+humblestoreid: ''

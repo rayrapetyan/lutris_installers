@@ -1,0 +1,15 @@
+name: 'The Bureau: XCOM Declassified'
+slug: the-bureau-xcom-declassified
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/the-bureau-xcom-declassified.jpg
+icon_url: /games/icon/the-bureau-xcom-declassified.png
+is_public: true
+updated: '2019-01-23T08:31:39.301878Z'
+steamid: 65930
+gogslug: the_bureau_xcom_declassified
+humblestoreid: ''

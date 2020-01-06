@@ -1,0 +1,18 @@
+name: Open Fodder
+slug: open-fodder
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Real-time
+- name: Shoot'em up
+- name: Strategy
+aliases: []
+banner_url: /games/banner/open-fodder.jpg
+icon_url: null
+is_public: true
+updated: '2019-03-22T21:10:37.129999Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

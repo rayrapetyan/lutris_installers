@@ -1,0 +1,35 @@
+id: 8433
+game_id: 1111
+game_slug: doom-3-bfg-edition
+name: 'Doom 3: BFG Edition'
+year: 2012
+user: RTheren
+runner: linux
+slug: doom-3-bfg-edition-native-gog-data
+version: Native + GOG data
+description: Doom 3:BFG Edition from GOG using RBDOOM-3-BFG engine
+notes: ''
+created_at: '2018-05-26T19:14:57.900000Z'
+updated_at: '2018-10-03T02:36:11.285779Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 208200
+gogid: 1733124578
+gogslug: doom_3_bfg_edition
+humblestoreid: ''
+script:
+  exe: drive_c/game/RBDoom3BFG
+  installer:
+  - task:
+      executable: install
+      prefix: $GAMEDIR
+      args: /LANG=en /SP- /NOCANCEL /SUPPRESSMSGBOXES /NOGUI /DIR="C:/game"
+      name: wine.wineexec
+  - extract:
+      dst: $GAMEDIR/drive_c/game/
+      file: rbdoom
+  files:
+  - install: N/A:Select the Doom 3 installer from GOG
+  - rbdoom: https://lutris.nyc3.digitaloceanspaces.com/games/doom-3/rbdoom-3-bfg-1.0.3.1401-x86_64.tar.gz

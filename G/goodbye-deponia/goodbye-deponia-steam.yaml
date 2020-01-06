@@ -1,0 +1,24 @@
+id: 1227
+game_id: 2516
+game_slug: goodbye-deponia
+name: Goodbye Deponia
+year: 2013
+user: dennisjj4
+runner: steam
+slug: goodbye-deponia-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-01-05T17:44:39.022000Z'
+updated_at: '2015-01-05T19:48:46.671000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 241910
+gogid: 1207660233
+gogslug: goodbye_deponia
+humblestoreid: goodbye-deponia
+script:
+  game:
+    appid: 241910

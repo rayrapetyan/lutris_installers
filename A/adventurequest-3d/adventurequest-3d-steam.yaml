@@ -1,0 +1,24 @@
+id: 3541
+game_id: 7780
+game_slug: adventurequest-3d
+name: AdventureQuest 3D
+year: 2016
+user: strider
+runner: winesteam
+slug: adventurequest-3d-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-04-19T01:48:46.838323Z'
+updated_at: '2017-04-19T02:04:12.934270Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 429790
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 429790

@@ -1,0 +1,16 @@
+name: Mirror
+slug: mirror
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/mirror.jpg
+icon_url: /games/icon/mirror.png
+is_public: true
+updated: '2019-01-23T08:30:24.582181Z'
+steamid: 644560
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,15 @@
+name: Crysis Warhead
+slug: crysis-warhead
+year: 2008
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/crysis-warhead.jpg
+icon_url: /games/icon/crysis-warhead.png
+is_public: true
+updated: '2019-01-23T08:29:01.521002Z'
+steamid: 17330
+gogslug: crysiswarhead
+humblestoreid: ''

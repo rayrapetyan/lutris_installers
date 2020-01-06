@@ -1,0 +1,15 @@
+name: 'Half-Life: Before'
+slug: half-life-before
+year: 2009
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/half-life-before.jpg
+icon_url: /games/icon/half-life-before.png
+is_public: true
+updated: '2019-01-23T08:29:46.199408Z'
+steamid: 261980
+gogslug: ''
+humblestoreid: ''

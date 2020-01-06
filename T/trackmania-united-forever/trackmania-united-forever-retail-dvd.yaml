@@ -1,0 +1,61 @@
+id: 11782
+game_id: 9056
+game_slug: trackmania-united-forever
+name: TrackMania United Forever
+year: 2006
+user: r6RNjMKgw
+runner: wine
+slug: trackmania-united-forever-retail-dvd
+version: Retail, DVD
+description: Requires a valid serial number.
+notes: ''
+created_at: '2019-01-30T18:29:18.050240Z'
+updated_at: '2019-02-15T01:02:46.081055Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: TmUnitedForeverSetup.exe
+  - task:
+      prefix: $GAMEDIR
+      install_mono: false
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      type: REG_SZ
+      value: ''
+      key: winemenubuilder.exe
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+  - task:
+      executable: $DISC/TmUnitedForeverSetup.exe
+      prefix: $GAMEDIR
+      args: /silent
+      description: Installing...
+      name: wineexec
+  - task:
+      executable: update
+      prefix: $GAMEDIR
+      args: /silent
+      description: Updating...
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Disabling unused WINE features
+      app: sandbox
+      silent: true
+      name: winetricks
+  files:
+  - update: http://files2.trackmaniaforever.com/TmUnitedForever_Update_2010-03-15_Setup.exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/TmUnitedForever/TmForeverLauncher.exe
+    arch: win32

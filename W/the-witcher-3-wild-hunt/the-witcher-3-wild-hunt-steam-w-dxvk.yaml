@@ -1,0 +1,40 @@
+id: 3042
+game_id: 4418
+game_slug: the-witcher-3-wild-hunt
+name: 'The Witcher 3: Wild Hunt'
+year: 2015
+user: RobLoach
+runner: winesteam
+slug: the-witcher-3-wild-hunt-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2016-11-23T14:48:43.316000Z'
+updated_at: '2019-06-19T06:03:15.130953Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 292030
+gogid: 1207664643
+gogslug: the_witcher_3_wild_hunt
+humblestoreid: the-witcher-3-wild-hunt-game-of-the-year-edition
+script:
+  winesteam:
+    WineDesktop: 1920x1080
+    esync: true
+    Desktop: true
+    version: tkg-4.0-x86_64
+    overrides:
+      nvapi,nvapi64: disabled
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: 0
+    pulse_latency: false
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 292030
+    arch: win64

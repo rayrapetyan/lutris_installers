@@ -1,0 +1,19 @@
+name: Tekken
+slug: tekken
+year: 1994
+platforms:
+- name: Arcade
+- name: Sony PlayStation
+- name: Sony Playstation 3
+- name: Sony PSP
+genres:
+- name: Arcade
+- name: Fighting
+aliases: []
+banner_url: /games/banner/tekken.jpg
+icon_url: null
+is_public: true
+updated: '2019-11-01T23:17:37.952447Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

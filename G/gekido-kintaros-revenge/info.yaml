@@ -1,0 +1,17 @@
+name: "Gekido Kintaro\u2019s Revenge"
+slug: gekido-kintaros-revenge
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Arcade
+- name: Fighting
+aliases: []
+banner_url: /games/banner/gekido-kintaros-revenge.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:38.687355Z'
+steamid: null
+gogslug: gekido_kintaros_revenge
+humblestoreid: ''

@@ -1,0 +1,36 @@
+id: 1776
+game_id: 29
+game_slug: quake-2-ground-zero
+name: 'Quake 2: Ground Zero'
+year: 1998
+user: strider
+runner: linux
+slug: quake-2-ground-zero-native-steam-data
+version: Native + steam data
+description: ''
+notes: Install "Native + steam data" version of Quake 2 before this add-on.
+created_at: '2015-12-28T20:40:24.300000Z'
+updated_at: '2017-05-26T00:19:16.636746Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 2340
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: quake-2-native-steam-data
+  exe: quake2
+  installer:
+  - merge:
+      src: steam-data
+      dst: $GAMEDIR/rogue
+  - extract:
+      dst: $GAMEDIR/rogue
+      file: rogue-so
+  files:
+  - steam-data: $STEAM:2340:rogue
+  - rogue-so: https://lutris.net/files/games/quake-2/yamagi-rogue-5.34-x86_64.tar.gz
+  game:
+    args: +set game rogue $*

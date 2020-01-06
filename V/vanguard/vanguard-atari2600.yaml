@@ -1,0 +1,30 @@
+id: 90
+game_id: 436
+game_slug: vanguard
+name: Vanguard
+year: 1982
+user: strider
+runner: stella
+slug: vanguard-atari2600
+version: atari2600
+description: Atari 2600 version released in 1982
+notes: ''
+created_at: '2013-12-15T20:25:03.995000Z'
+updated_at: '2014-03-15T21:45:11.773000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: rom
+      dst: $GAMEDIR
+  files:
+  - rom: N/A
+  game:
+    main_file: rom

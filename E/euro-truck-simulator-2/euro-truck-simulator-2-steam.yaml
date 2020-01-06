@@ -1,0 +1,24 @@
+id: 165
+game_id: 488
+game_slug: euro-truck-simulator-2
+name: Euro Truck Simulator 2
+year: 2012
+user: strider
+runner: steam
+slug: euro-truck-simulator-2-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-19T23:56:16.738000Z'
+updated_at: '2013-12-19T23:56:16.738000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 227300
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 227300

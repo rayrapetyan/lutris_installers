@@ -1,0 +1,29 @@
+id: 17372
+game_id: 4287
+game_slug: metal-slug-x
+name: METAL SLUG X
+year: null
+user: leandrovitals
+runner: mame
+slug: metal-slug-x-arcade
+version: arcade
+description: null
+notes: ''
+created_at: '2019-12-16T18:30:21.313000Z'
+updated_at: '2019-12-17T20:04:16.465905Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 312610
+gogid: 2046360890
+gogslug: metal_slug_x
+humblestoreid: ''
+script:
+  main_file: rom
+  installer:
+  - merge:
+      src: rom
+      dst: $GAMEDIR
+  files:
+  - rom: N/A:Select the game''s ROM file

@@ -1,0 +1,24 @@
+id: 13857
+game_id: 19875
+game_slug: f1-2018
+name: F1 2018
+year: 2018
+user: Phulu_OMGRT
+runner: steam
+slug: f1-2018-steam-proton
+version: Steam Proton
+description: null
+notes: Ensure you enable Steam Play for all titles.
+created_at: '2019-06-01T19:16:58.359000Z'
+updated_at: '2019-06-13T06:21:02.029640Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 737800
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 737800

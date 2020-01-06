@@ -1,0 +1,28 @@
+id: 3275
+game_id: 3513
+game_slug: everlasting-summer
+name: Everlasting Summer
+year: 2014
+user: FakeShemp
+runner: linux
+slug: everlasting-summer-drm-free-18
+version: DRM-free 18+
+description: "Can be downloaded from Moonworks' webpage.\r\nhttps://moonworks.ru/"
+notes: ''
+created_at: '2017-02-18T17:35:33.047942Z'
+updated_at: '2017-03-17T22:49:14.246045Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 331470
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Everlasting Summer.sh
+  installer:
+  - extract:
+      file: file1
+  files:
+  - file1: N/A:Please select the DRM-free archive

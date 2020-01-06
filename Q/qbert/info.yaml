@@ -1,0 +1,24 @@
+name: Q*bert
+slug: qbert
+year: 1982
+platforms:
+- name: Arcade
+- name: Atari 2600
+- name: Atari 5200
+- name: Colecovision
+- name: Commodore 64
+- name: Game Boy
+- name: Intellivision
+- name: "Magnavox Odyssey\xB2"
+- name: MS-DOS
+genres:
+- name: Action
+- name: Arcade
+aliases: []
+banner_url: /games/banner/qbert.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:52.442077Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

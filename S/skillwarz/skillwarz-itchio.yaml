@@ -1,0 +1,31 @@
+id: 13066
+game_id: 26904
+game_slug: skillwarz
+name: Skillwarz
+year: 2017
+user: robsonpc
+runner: linux
+slug: skillwarz-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2019-04-24T02:14:02.826000Z'
+updated_at: '2019-04-30T02:04:15.024903Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      file: stk
+  - chmodx: $GAMEDIR/skillwarz.x86_64
+  files:
+  - stk: N/A:Select skillwarz_43_Linux.zip
+  game:
+    exe: skillwarz.x86_64

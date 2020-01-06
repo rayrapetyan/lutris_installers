@@ -1,0 +1,16 @@
+name: Albion Online
+slug: albion-online
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: MMORPG
+- name: RPG
+aliases: []
+banner_url: /games/banner/albion-online.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:17.898027Z'
+steamid: 761890
+gogslug: ''
+humblestoreid: ''

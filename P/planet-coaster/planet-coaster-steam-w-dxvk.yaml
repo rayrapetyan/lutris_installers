@@ -1,0 +1,44 @@
+id: 10964
+game_id: 9004
+game_slug: planet-coaster
+name: Planet Coaster
+year: 2018
+user: macskay
+runner: winesteam
+slug: planet-coaster-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: Might not work.
+created_at: '2018-11-24T01:36:21.348000Z'
+updated_at: '2019-02-09T22:56:54.851903Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 493340
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2015
+      arch: win64
+      name: winetricks
+  winesteam:
+    overrides:
+      nvapi,nvapi64: disabled
+    dvxk: true
+  system:
+    env:
+      DVXK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    args: -nointro
+    appid: 493340
+    arch: win64

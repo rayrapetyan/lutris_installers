@@ -1,0 +1,29 @@
+id: 6497
+game_id: 576
+game_slug: quantz
+name: QuantZ
+year: 2009
+user: fanotriel
+runner: linux
+slug: quantz-demo-64-bit
+version: Demo 64-bit
+description: null
+notes: ''
+created_at: '2017-11-30T18:34:06.938250Z'
+updated_at: '2017-11-30T18:35:56.362350Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 37800
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: QuantZ
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: game
+  files:
+  - game: http://c0550982.cdn.cloudfiles.rackspacecloud.com/QuantZ-demo_1.1.4_amd64.tar.gz

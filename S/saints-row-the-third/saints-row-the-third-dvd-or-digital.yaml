@@ -1,0 +1,66 @@
+id: 15043
+game_id: 237
+game_slug: saints-row-the-third
+name: 'Saints Row: The Third'
+year: 2011
+user: alfyn
+runner: wine
+slug: saints-row-the-third-dvd-or-digital
+version: DVD or Digital
+description: null
+notes: ''
+created_at: '2019-08-17T21:23:17.282000Z'
+updated_at: '2019-09-09T00:13:08.382595Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 55230
+gogid: 1430740694
+gogslug: saints_row_the_third_the_full_package
+humblestoreid: saints-row-the-third-the-full-package
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating win64 prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing corefonts
+      app: arial
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Changing windows version to Win7
+      app: win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Installing the game. You might get an error at the end of the installation,
+        just close the installer window and don't click on retry
+      arch: win64
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    args: -noChunkedDownload -DX11
+    exe: drive_c/Program Files/Saints Row The Third/sr3.exe
+    arch: win64
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+  wine:
+    version: tkg-protonified-4.6-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      winedbg.exe: disabled
+  files:
+  - setup: N/A:Select the installer for Saints Row The Third (setup.exe)

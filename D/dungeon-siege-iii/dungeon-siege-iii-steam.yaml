@@ -1,0 +1,25 @@
+id: 1696
+game_id: 818
+game_slug: dungeon-siege-iii
+name: Dungeon Siege III
+year: null
+user: RobLoach
+runner: winesteam
+slug: dungeon-siege-iii-steam
+version: Steam
+description: ''
+notes: 'WineHQ: http://appdb.winehq.org/objectManager.php?sClass=version&iId=30711
+  Footage: http://www.youtube.com/watch?v=C1stkWBPqnE'
+created_at: '2015-11-04T18:07:50.320181Z'
+updated_at: '2016-01-29T10:57:22.171488Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 39160
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 39160

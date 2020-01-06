@@ -1,0 +1,36 @@
+id: 12758
+game_id: 127
+game_slug: doom-ii-hell-on-earth
+name: 'Doom II: Hell on Earth'
+year: 1994
+user: SaltySeaSnake
+runner: zdoom
+slug: doom-ii-hell-on-earth-steam-d4t-mod
+version: Steam + D4T mod
+description: Death Foretold mod for Doom II
+notes: ''
+created_at: '2019-04-12T17:27:26.600120Z'
+updated_at: '2019-05-18T08:24:52.614032Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 2300
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: D4T
+  - merge:
+      src: waddata
+      dst: $GAMEDIR
+  files:
+  - waddata: $STEAM:2300:base
+  - D4T: https://www.moddb.com/downloads/mirror/125383/115/365b7b324b0f1c2cb8101770f76d95c0/?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fdeath-foretold
+  game:
+    main_file: DOOM2.WAD
+    files:
+    - D4Tv21.pk3

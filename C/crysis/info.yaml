@@ -1,0 +1,15 @@
+name: Crysis
+slug: crysis
+year: 2007
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/crysis.jpg
+icon_url: /games/icon/crysis.png
+is_public: true
+updated: '2019-01-23T08:29:01.472597Z'
+steamid: 17300
+gogslug: crysis
+humblestoreid: ''

@@ -1,0 +1,16 @@
+name: Opus Magnum
+slug: opus-magnum
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Programming
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/opus-magnum.jpg
+icon_url: /games/icon/opus-magnum.png
+is_public: true
+updated: '2019-04-18T03:28:48.489329Z'
+steamid: 558990
+gogslug: opus_magnum
+humblestoreid: ''

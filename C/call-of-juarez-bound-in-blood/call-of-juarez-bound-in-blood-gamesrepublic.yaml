@@ -1,0 +1,37 @@
+id: 5498
+game_id: 1076
+game_slug: call-of-juarez-bound-in-blood
+name: 'Call of Juarez: Bound in Blood'
+year: null
+user: FakeShemp
+runner: wine
+slug: call-of-juarez-bound-in-blood-gamesrepublic
+version: GamesRepublic
+description: ''
+notes: ''
+created_at: '2017-08-22T20:26:35.282000Z'
+updated_at: '2018-05-19T03:41:56.778820Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 21980
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: rar
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the GamesRepublic installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Call of Juarez Bound in Blood/CoJBiB.exe
+    arch: win32

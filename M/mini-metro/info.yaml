@@ -1,0 +1,16 @@
+name: Mini Metro
+slug: mini-metro
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Simulation
+- name: Strategy
+aliases: []
+banner_url: /games/banner/mini-metro.jpg
+icon_url: /games/icon/mini-metro.png
+is_public: true
+updated: '2019-01-23T08:30:24.303007Z'
+steamid: 287980
+gogslug: mini_metro
+humblestoreid: ''

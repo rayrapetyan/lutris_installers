@@ -1,0 +1,15 @@
+name: Mortal Kombat Kollection
+slug: mortal-kombat-kollection
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Arcade
+aliases: []
+banner_url: /games/banner/mortal-kombat-kollection.jpg
+icon_url: /games/icon/mortal-kombat-kollection.png
+is_public: true
+updated: '2019-12-26T13:01:19.273330Z'
+steamid: 205350
+gogslug: ''
+humblestoreid: ''

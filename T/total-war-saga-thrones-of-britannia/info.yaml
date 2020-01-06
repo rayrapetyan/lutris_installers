@@ -1,0 +1,16 @@
+name: 'Total War Saga: Thrones of Britannia'
+slug: total-war-saga-thrones-of-britannia
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Strategy
+aliases: []
+banner_url: /games/banner/total-war-saga-thrones-of-britannia.jpg
+icon_url: /games/icon/total-war-saga-thrones-of-britannia.png
+is_public: true
+updated: '2019-01-23T08:31:53.714619Z'
+steamid: 712100
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,38 @@
+id: 6053
+game_id: 482
+game_slug: delve-deeper
+name: Delve Deeper
+year: null
+user: FakeShemp
+runner: wine
+slug: delve-deeper-desura
+version: Desura
+description: ''
+notes: ''
+created_at: '2017-10-22T09:26:03.094000Z'
+updated_at: '2018-05-19T03:41:57.321313Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 63800
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      args: /S
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: dotnet35sp1
+      name: winetricks
+  files:
+  - file1: N/A:Please select the Desura installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Lunar Giant Studios/Delve Deeper/DelveDeeper.exe
+    arch: win32

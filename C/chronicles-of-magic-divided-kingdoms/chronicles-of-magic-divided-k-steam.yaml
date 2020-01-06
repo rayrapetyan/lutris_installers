@@ -1,0 +1,24 @@
+id: 13898
+game_id: 22021
+game_slug: chronicles-of-magic-divided-kingdoms
+name: 'Chronicles of Magic: Divided Kingdoms'
+year: 2018
+user: kimchitea
+runner: steam
+slug: chronicles-of-magic-divided-k-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-06-03T02:59:50.541639Z'
+updated_at: '2019-06-13T06:23:26.742665Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 746840
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 746840

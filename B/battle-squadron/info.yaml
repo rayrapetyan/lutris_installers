@@ -1,0 +1,17 @@
+name: Battle Squadron
+slug: battle-squadron
+year: 1989
+platforms:
+- name: Amiga
+- name: Commodore 64
+- name: Sega Genesis / Mega Drive
+genres:
+- name: Shooter
+aliases: []
+banner_url: /games/banner/battle-squadron.jpg
+icon_url: null
+is_public: true
+updated: '2020-01-05T07:10:34.618047Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

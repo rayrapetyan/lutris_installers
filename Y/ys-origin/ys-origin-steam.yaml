@@ -1,0 +1,24 @@
+id: 3213
+game_id: 1685
+game_slug: ys-origin
+name: Ys Origin
+year: null
+user: strider
+runner: winesteam
+slug: ys-origin-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-01-29T22:59:02.264000Z'
+updated_at: '2017-01-29T22:59:18.726270Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 207350
+gogid: 1422357892
+gogslug: ys_origin
+humblestoreid: ''
+script:
+  game:
+    appid: 207350

@@ -1,0 +1,17 @@
+name: 'Descent: Freespace Battle Pack'
+slug: descent-freespace-battle-pack
+year: 1998
+platforms:
+- name: Windows
+genres:
+- name: Combat
+- name: Sci-fi
+- name: Simulation
+aliases: []
+banner_url: /games/banner/descent-freespace-battle-pack.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:10.058327Z'
+steamid: null
+gogslug: freespace_expansion
+humblestoreid: ''

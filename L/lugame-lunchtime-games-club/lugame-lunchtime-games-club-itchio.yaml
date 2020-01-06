@@ -1,0 +1,32 @@
+id: 16609
+game_id: 30081
+game_slug: lugame-lunchtime-games-club
+name: 'LuGame: Lunchtime Games Club!'
+year: 2019
+user: kimchitea
+runner: linux
+slug: lugame-lunchtime-games-club-itchio
+version: itch.io
+description: '- <a href="https://urban-meadows.itch.io/lugame">https://urban-meadows.itch.io/lugame</a>'
+notes: ''
+created_at: '2019-11-04T13:35:39.324000Z'
+updated_at: '2019-11-06T03:16:29.952083Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 812840
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: file1
+  - chmodx: $GAMEDIR/LunchtimeGamesClub-1.06-market/LunchtimeGamesClub.sh
+  - chmodx: $GAMEDIR/LunchtimeGamesClub-1.06-market/lib/linux-i686/LunchtimeGamesClub
+  - chmodx: $GAMEDIR/LunchtimeGamesClub-1.06-market/lib/linux-x86_64/LunchtimeGamesClub
+  files:
+  - file1: N/A:Please select the game archive
+  game:
+    exe: LunchtimeGamesClub-1.06-market/LunchtimeGamesClub.sh

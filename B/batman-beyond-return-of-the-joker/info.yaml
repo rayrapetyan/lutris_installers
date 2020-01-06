@@ -1,0 +1,17 @@
+name: 'Batman Beyond: Return of the Joker'
+slug: batman-beyond-return-of-the-joker
+year: 2000
+platforms:
+- name: Nintendo 64
+- name: Nintendo Game Boy Color
+- name: Sony PlayStation
+genres:
+- name: Beat'em up
+aliases: []
+banner_url: /games/banner/batman-beyond-return-of-the-joker.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:32.166791Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

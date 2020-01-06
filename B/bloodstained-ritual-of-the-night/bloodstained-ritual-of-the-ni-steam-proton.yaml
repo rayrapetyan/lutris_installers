@@ -1,0 +1,24 @@
+id: 15653
+game_id: 23825
+game_slug: bloodstained-ritual-of-the-night
+name: 'Bloodstained: Ritual of the Night'
+year: 2019
+user: zeioth
+runner: steam
+slug: bloodstained-ritual-of-the-ni-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-09-18T17:20:20.831760Z'
+updated_at: '2019-09-18T17:20:38.473970Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: 692850
+gogid: 1133514031
+gogslug: bloodstained_ritual_of_the_night
+humblestoreid: ''
+script:
+  game:
+    appid: 692850

@@ -1,0 +1,41 @@
+id: 10193
+game_id: 8976
+game_slug: fantasy-grounds
+name: Fantasy Grounds
+year: 2014
+user: Lethiks
+runner: wine
+slug: fantasy-grounds-free-version-officia
+version: Free Version (official site)
+description: Can be upgraded to paying version during or after installation.
+notes: "Simply press OK to every prompt.\r\nThe installer may restart a few times\
+  \ during installation without a problem.\r\nAt the end of installation the following\
+  \ error will popup: \"Unable to create Start Menu Shortcuts; CoInitialize Error:\
+  \ 1\" simply click on \"OK\".\r\n\r\nIf you have problems with fullscreen not working,\
+  \ activate \"windowed (virtual Desktop)\" in the Runner Option."
+created_at: '2018-09-15T03:39:54.727000Z'
+updated_at: '2019-09-09T01:39:40.762153Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 252690
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Fantasy Grounds/FantasyGrounds.exe
+    arch: win64
+  installer:
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      arch: win64
+      name: wineexec
+  wine:
+    version: tkg-protonified-4.6-x86_64
+    esync: true
+  files:
+  - setup: https://fantasygrounds.com/filelibrary/FGWebInstall.exe

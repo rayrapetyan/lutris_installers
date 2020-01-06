@@ -1,0 +1,16 @@
+name: Crusader Kings II
+slug: crusader-kings-ii
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: 4X
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/crusader-kings-ii.jpg
+icon_url: /games/icon/crusader-kings-ii.png
+is_public: true
+updated: '2019-01-23T08:29:01.202482Z'
+steamid: 203770
+gogslug: ''
+humblestoreid: ''

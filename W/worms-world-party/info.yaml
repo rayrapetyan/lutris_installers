@@ -1,0 +1,19 @@
+name: Worms World Party
+slug: worms-world-party
+year: 2001
+platforms:
+- name: Nintendo Game Boy Advance
+- name: Sega Dreamcast
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Artillery
+- name: Turn-based tactics
+aliases: []
+banner_url: /games/banner/worms-world-party.jpg
+icon_url: /games/icon/worms-world-party.png
+is_public: true
+updated: '2019-01-23T08:32:11.334068Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

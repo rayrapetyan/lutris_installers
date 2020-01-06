@@ -1,0 +1,28 @@
+id: 5955
+game_id: 14266
+game_slug: chook-sosig
+name: Chook & Sosig
+year: 2017
+user: FakeShemp
+runner: linux
+slug: chook-sosig-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-10-15T14:00:31.532583Z'
+updated_at: '2017-10-15T14:01:28.651108Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: chookandsosig.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

@@ -1,0 +1,31 @@
+id: 11330
+game_id: 672
+game_slug: age-of-empires-ii-hd
+name: Age of Empires II HD
+year: 2013
+user: SleeplessSloth
+runner: steam
+slug: age-of-empires-ii-hd-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2018-12-25T02:25:19.437000Z'
+updated_at: '2019-05-19T06:34:02.328154Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 221380
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: $GAMEDIR/Launcher.exe
+      dst: $GAMEDIR/Launcher.exe.bak
+  - move:
+      src: $GAMEDIR/AoK HD.exe
+      dst: $GAMEDIR/Launcher.exe
+  game:
+    appid: 221380

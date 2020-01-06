@@ -1,0 +1,18 @@
+name: 'Magic Carpet 2: The Netherworlds'
+slug: magic-carpet-2-the-netherworlds
+year: 1995
+platforms:
+- name: MS-DOS
+- name: Windows
+genres:
+- name: Action
+- name: Flight
+- name: Shooter
+aliases: []
+banner_url: /games/banner/magic-carpet-2-the-netherworlds.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:15.663201Z'
+steamid: null
+gogslug: magic_carpet_2_the_netherworlds
+humblestoreid: ''

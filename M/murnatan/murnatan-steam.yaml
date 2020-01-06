@@ -1,0 +1,24 @@
+id: 7722
+game_id: 17719
+game_slug: murnatan
+name: Murnatan
+year: 2018
+user: TuiorGames
+runner: steam
+slug: murnatan-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-04-02T12:11:45.944543Z'
+updated_at: '2018-04-05T23:50:02.045792Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 634070
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 634070

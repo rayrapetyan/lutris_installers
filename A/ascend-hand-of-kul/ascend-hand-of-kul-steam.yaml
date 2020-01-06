@@ -1,0 +1,24 @@
+id: 8240
+game_id: 2343
+game_slug: ascend-hand-of-kul
+name: 'Ascend: Hand of Kul'
+year: null
+user: soredake
+runner: winesteam
+slug: ascend-hand-of-kul-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T07:35:54.759682Z'
+updated_at: '2018-05-13T09:18:28.983976Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 233630
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 233630

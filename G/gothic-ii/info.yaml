@@ -1,0 +1,16 @@
+name: Gothic II
+slug: gothic-ii
+year: 2003
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/gothic-ii.jpg
+icon_url: null
+is_public: false
+updated: '2019-01-23T08:29:41.979022Z'
+steamid: 39510
+gogslug: gothic_2_gold_edition
+humblestoreid: ''

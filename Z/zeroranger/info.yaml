@@ -1,0 +1,16 @@
+name: ZeroRanger
+slug: zeroranger
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/zeroranger.jpg
+icon_url: /games/icon/zeroranger.png
+is_public: true
+updated: '2019-01-23T08:32:14.577556Z'
+steamid: 809020
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 200
+game_id: 247
+game_slug: defcon
+name: DEFCON
+year: null
+user: strider
+runner: steam
+slug: defcon-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-19T23:56:17.771000Z'
+updated_at: '2013-12-19T23:56:17.771000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 1520
+gogid: 1207659075
+gogslug: defcon
+humblestoreid: ''
+script:
+  game:
+    appid: 1520

@@ -1,0 +1,17 @@
+name: 'Drascula: The Vampire Strikes Back'
+slug: drascula-the-vampire-strikes-back
+year: 1996
+platforms:
+- name: Linux
+- name: MS-DOS
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/drascula-the-vampire-strikes-back.jpg
+icon_url: /games/icon/drascula-the-vampire-strikes-back.png
+is_public: true
+updated: '2019-01-23T08:29:17.004675Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,17 @@
+name: 'Grand Theft Auto: Liberty City Stories'
+slug: grand-theft-auto-liberty-city-stories
+year: 2006
+platforms:
+- name: Sony PlayStation 2
+- name: Sony PSP
+genres:
+- name: Action
+- name: Sandbox
+aliases: []
+banner_url: /games/banner/grand-theft-auto-liberty-city-stories.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:42.438209Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

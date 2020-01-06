@@ -1,0 +1,16 @@
+name: 'Dragon Ball: Xenoverse'
+slug: dragon-ball-xenoverse
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Fighting
+aliases: []
+banner_url: /games/banner/dragon-ball-xenoverse.jpg
+icon_url: /games/icon/dragon-ball-xenoverse.png
+is_public: true
+updated: '2019-01-23T08:29:16.379953Z'
+steamid: 323470
+gogslug: ''
+humblestoreid: ''

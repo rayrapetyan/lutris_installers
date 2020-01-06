@@ -1,0 +1,32 @@
+id: 15709
+game_id: 29194
+game_slug: baldis-basics-in-education-and-learning
+name: Baldi's Basics in Education and Learning
+year: 2018
+user: polocatfan
+runner: linux
+slug: baldis-basics-in-education-an-143
+version: 1.4.3
+description: null
+notes: "Manually download the Linux 1.4.3 zip file from the Baldi site.\r\nAfter install,\
+  \ Right Click the \"BALDI.x86_64\" in the directory and allow it to run as a program."
+created_at: '2019-09-19T20:28:06.232000Z'
+updated_at: '2019-11-01T00:28:48.186482Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $GAMEDIR
+      file: baldi
+  files:
+  - baldi: N/A:Select the zip file.
+  game:
+    exe: BALDI.x86_64

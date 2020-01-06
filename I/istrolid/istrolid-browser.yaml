@@ -1,0 +1,23 @@
+id: 7116
+game_id: 6280
+game_slug: istrolid
+name: Istrolid
+year: 2016
+user: cxf
+runner: browser
+slug: istrolid-browser
+version: Browser
+description: null
+notes: ''
+created_at: '2018-01-16T21:33:13.707005Z'
+updated_at: '2018-01-16T21:33:19.539086Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 449140
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: http://www.istrolid.com/game.html

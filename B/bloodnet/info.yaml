@@ -1,0 +1,15 @@
+name: BloodNet
+slug: bloodnet
+year: 1993
+platforms:
+- name: Linux
+genres:
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/bloodnet.jpg
+icon_url: /games/icon/bloodnet.png
+is_public: true
+updated: '2019-01-23T08:28:39.088887Z'
+steamid: 327920
+gogslug: bloodnet
+humblestoreid: ''

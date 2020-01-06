@@ -1,0 +1,17 @@
+name: 'Prince of Persia: Revelations'
+slug: prince-of-persia-revelations
+year: 2005
+platforms:
+- name: Sony PSP
+genres:
+- name: Action
+- name: Adventure
+- name: Platform
+aliases: []
+banner_url: /games/banner/prince-of-persia-revelations.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:49.274621Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

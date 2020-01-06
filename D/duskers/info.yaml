@@ -1,0 +1,17 @@
+name: Duskers
+slug: duskers
+year: 2016
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Horror
+- name: Roguelike
+aliases: []
+banner_url: /games/banner/duskers.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:19.989963Z'
+steamid: 254320
+gogslug: duskers
+humblestoreid: ''

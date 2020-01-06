@@ -1,0 +1,40 @@
+id: 17478
+game_id: 25389
+game_slug: microsoft-powerpoint
+name: Microsoft PowerPoint
+year: 1987
+user: Soerensen
+runner: wine
+slug: microsoft-powerpoint-2010-32bit
+version: 2010 32bit
+description: null
+notes: ''
+created_at: '2019-12-22T00:11:20.323522Z'
+updated_at: '2019-12-22T00:11:20.323551Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      description: Running setup
+      arch: win32
+      name: wineexec
+  files:
+  - installer: N/A:Please select the setup.exe located on the installation DVD.
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Microsoft Office/Office14/MSPUB.EXE
+    arch: win32

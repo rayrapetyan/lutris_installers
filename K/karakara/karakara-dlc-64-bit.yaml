@@ -1,0 +1,33 @@
+id: 9359
+game_id: 11609
+game_slug: karakara
+name: KARAKARA
+year: 2016
+user: kimchitea
+runner: wine
+slug: karakara-dlc-64-bit
+version: DLC (64-bit)
+description: null
+notes: ''
+created_at: '2018-07-24T21:19:22.668000Z'
+updated_at: '2018-08-01T08:39:54.722524Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 487430
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: karakara-steam
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $patch
+  - task:
+      executable: $CACHE/KARAKARA_Steam_R18DLC.exe
+      prefix: $HOME/.local/share/lutris/runners/winesteam/prefix64
+      name: wineexec
+  files:
+  - patch: N/A:Please select the Denpasoft DLC archive

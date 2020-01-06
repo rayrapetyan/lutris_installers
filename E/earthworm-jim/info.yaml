@@ -1,0 +1,21 @@
+name: Earthworm Jim
+slug: earthworm-jim
+year: 1994
+platforms:
+- name: Game Boy
+- name: MS-DOS
+- name: Nintendo Game Boy Advance
+- name: Sega Game Gear
+- name: Sega Genesis / Mega Drive
+- name: Sega Master System
+- name: Super Nintendo
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/earthworm-jim.jpg
+icon_url: /games/icon/earthworm-jim.png
+is_public: true
+updated: '2019-01-23T08:29:20.877991Z'
+steamid: 38480
+gogslug: earthworm_jim_1_2
+humblestoreid: ''

@@ -1,0 +1,17 @@
+name: Cruis'n World
+slug: cruisn-world
+year: 1996
+platforms:
+- name: Arcade
+- name: Nintendo 64
+genres:
+- name: Arcade
+- name: Racing
+aliases: []
+banner_url: /games/banner/cruisn-world.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:01.133796Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

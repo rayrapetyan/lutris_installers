@@ -1,0 +1,24 @@
+id: 10435
+game_id: 19669
+game_slug: pathfinder-kingmaker
+name: 'Pathfinder: Kingmaker'
+year: 2018
+user: property
+runner: steam
+slug: pathfinder-kingmaker-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-10-06T18:47:09.895166Z'
+updated_at: '2018-10-10T01:12:30.393432Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 640820
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 640820

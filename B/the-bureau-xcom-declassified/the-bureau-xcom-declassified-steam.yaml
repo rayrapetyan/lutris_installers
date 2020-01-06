@@ -1,0 +1,38 @@
+id: 5091
+game_id: 1700
+game_slug: the-bureau-xcom-declassified
+name: 'The Bureau: XCOM Declassified'
+year: 2013
+user: NuSuey
+runner: winesteam
+slug: the-bureau-xcom-declassified-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-07-19T00:20:16.820000Z'
+updated_at: '2019-12-28T22:20:59.096027Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 65930
+gogid: 1166983063
+gogslug: the_bureau_xcom_declassified
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing .NET 4.0
+      app: dotnet40
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: win7
+      arch: win32
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 65930
+    arch: win32

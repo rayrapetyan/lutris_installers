@@ -1,0 +1,24 @@
+id: 7719
+game_id: 10066
+game_slug: kingdoms
+name: Kingdoms
+year: 2015
+user: cxf
+runner: winesteam
+slug: kingdoms-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-04-02T01:52:48.145571Z'
+updated_at: '2018-04-02T01:52:56.038309Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 409590
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 409590

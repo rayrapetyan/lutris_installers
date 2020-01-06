@@ -1,0 +1,29 @@
+id: 5460
+game_id: 6886
+game_slug: alphabeats-master-edition
+name: 'Alphabeats: Master Edition'
+year: null
+user: FakeShemp
+runner: linux
+slug: alphabeats-master-edition-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-21T20:12:43.275777Z'
+updated_at: '2017-08-27T21:54:47.042055Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 420160
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Alphabeats.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Alphabeats.x86
+  files:
+  - file1: N/A:Please select the Groupees archive

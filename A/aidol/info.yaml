@@ -1,0 +1,15 @@
+name: AIdol
+slug: aidol
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/aidol.jpg
+icon_url: /games/icon/aidol.png
+is_public: true
+updated: '2019-01-23T08:28:16.338653Z'
+steamid: 829210
+gogslug: ''
+humblestoreid: ''

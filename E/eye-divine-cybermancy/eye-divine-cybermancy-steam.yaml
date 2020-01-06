@@ -1,0 +1,24 @@
+id: 1551
+game_id: 832
+game_slug: eye-divine-cybermancy
+name: 'E.Y.E: Divine Cybermancy'
+year: 2011
+user: Valeth
+runner: winesteam
+slug: eye-divine-cybermancy-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-05-19T17:09:45.246000Z'
+updated_at: '2015-06-01T17:50:14.973000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 91700
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 91700

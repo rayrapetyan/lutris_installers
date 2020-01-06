@@ -1,0 +1,17 @@
+name: 'Warhammer: Shadow of the Horned Rat'
+slug: warhammer-shadow-of-the-horned-rat
+year: 1995
+platforms:
+- name: Windows
+genres:
+- name: Fantasy
+- name: Real-time
+- name: Strategy
+aliases: []
+banner_url: /games/banner/warhammer-shadow-of-the-horned-rat.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:06.046556Z'
+steamid: null
+gogslug: warhammer_shadow_of_the_horned_rat
+humblestoreid: ''

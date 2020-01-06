@@ -1,0 +1,18 @@
+name: 'Star Trek: Strategic Operations Simulator'
+slug: star-trek-strategic-operations-simulator
+year: 1983
+platforms:
+- name: Arcade
+- name: Atari 2600
+- name: Atari 5200
+genres:
+- name: Arcade
+- name: Shooter
+aliases: []
+banner_url: /games/banner/star-trek-strategic-operations-simulator.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:25.222710Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

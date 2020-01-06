@@ -1,0 +1,24 @@
+id: 10603
+game_id: 13488
+game_slug: pyre
+name: Pyre
+year: null
+user: citrusalex
+runner: steam
+slug: pyre-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-10-22T18:46:11.782767Z'
+updated_at: '2018-10-22T18:46:16.610955Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 462770
+gogid: 1408852789
+gogslug: pyre
+humblestoreid: ''
+script:
+  game:
+    appid: 462770

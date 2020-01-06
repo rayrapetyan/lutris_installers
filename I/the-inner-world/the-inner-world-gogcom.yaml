@@ -1,0 +1,38 @@
+id: 4442
+game_id: 1944
+game_slug: the-inner-world
+name: The Inner World
+year: null
+user: robotkinz
+runner: linux
+slug: the-inner-world-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2017-06-17T20:40:27.597894Z'
+updated_at: '2017-06-18T23:21:46.409042Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 251430
+gogid: 1207659793
+gogslug: the_inner_world
+humblestoreid: ''
+script:
+  exe: game/start.sh
+  gogid: the_inner_world
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Plese select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

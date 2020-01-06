@@ -1,0 +1,24 @@
+id: 14139
+game_id: 14824
+game_slug: the-letter
+name: The Letter
+year: 2017
+user: kimchitea
+runner: steam
+slug: the-letter-steam-demo
+version: Steam Demo
+description: null
+notes: ''
+created_at: '2019-06-17T03:58:22.045427Z'
+updated_at: '2019-10-10T23:59:32.722604Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 460430
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 612850

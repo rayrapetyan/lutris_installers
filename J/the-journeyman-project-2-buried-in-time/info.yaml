@@ -1,0 +1,19 @@
+name: 'The Journeyman Project 2: Buried in Time'
+slug: the-journeyman-project-2-buried-in-time
+year: 1995
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: FPP
+- name: Puzzle
+aliases:
+- slug: journeyman-project-2-buried-in-time-the
+  name: 'Journeyman Project 2: Buried in Time, The'
+banner_url: /games/banner/the-journeyman-project-2-buried-in-time.jpg
+icon_url: /games/icon/the-journeyman-project-2-buried-in-time.png
+is_public: true
+updated: '2019-10-31T22:17:48.719817Z'
+steamid: null
+gogslug: journeyman_project_2
+humblestoreid: ''

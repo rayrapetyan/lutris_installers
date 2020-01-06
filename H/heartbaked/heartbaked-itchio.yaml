@@ -1,0 +1,28 @@
+id: 5149
+game_id: 12342
+game_slug: heartbaked
+name: Heartbaked
+year: 2016
+user: FakeShemp
+runner: linux
+slug: heartbaked-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-07-21T21:29:42.756801Z'
+updated_at: '2017-07-26T07:39:52.527960Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: HeartBaked.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

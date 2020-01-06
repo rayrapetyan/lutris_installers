@@ -1,0 +1,24 @@
+id: 7911
+game_id: 17915
+game_slug: out-of-the-park-baseball-19
+name: Out of the Park Baseball 19
+year: 2018
+user: TuiorGames
+runner: steam
+slug: out-of-the-park-baseball-19-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-04-16T14:26:03.601714Z'
+updated_at: '2018-04-21T19:55:52.246684Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 619290
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 619290

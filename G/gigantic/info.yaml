@@ -1,0 +1,16 @@
+name: Gigantic
+slug: gigantic
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Moba
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/gigantic.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:39.771974Z'
+steamid: 327690
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,51 @@
+id: 2989
+game_id: 8326
+game_slug: brutal-doom-64
+name: Brutal Doom 64
+year: 2016
+user: RobLoach
+runner: zdoom
+slug: brutal-doom-64-1c-with-zdoom
+version: 1C with ZDoom
+description: Brtual Doom 64 Version 1C, running natively in ZDoom
+notes: http://www.moddb.com/mods/brutal-doom-64/
+created_at: '2016-11-07T19:43:03.023638Z'
+updated_at: '2016-11-07T19:43:38.779876Z'
+draft: false
+published: true
+published_by: null
+rating: '4'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: $game
+      dst: $GAMEDIR
+  - move:
+      src: $map
+      dst: $GAMEDIR
+  - move:
+      src: $music
+      dst: $GAMEDIR
+  - move:
+      src: $hud
+      dst: $GAMEDIR
+  - merge:
+      src: wad-data
+      dst: $GAMEDIR
+  files:
+  - game: http://libregeek.org/Linux/game-files/brutal-doom-64/bd64gameV1c.pk3
+  - map: http://libregeek.org/Linux/game-files/brutal-doom-64/bd64mapsV1c.pk3
+  - music: http://libregeek.org/Linux/game-files/brutal-doom-64/ZD64MUSIC.pk3
+  - hud: http://files.robloach.net/lutris/wwhud-doom64-v2.pk3
+  - wad-data: $STEAM:2300:base
+  game:
+    main_file: DOOM2.WAD
+    files:
+    - ZD64MUSIC.pk3
+    - bd64mapsV1c.pk3
+    - bd64gameV1c.pk3
+    - wwhud-doom64-v2.pk3

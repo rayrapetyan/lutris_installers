@@ -1,0 +1,19 @@
+name: Copa Petrobras de Marcas
+slug: copa-petrobras-de-marcas
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Arcade
+- name: FPS
+- name: Simulation
+- name: Sports
+aliases: []
+banner_url: /games/banner/copa-petrobras-de-marcas.jpg
+icon_url: /games/icon/copa-petrobras-de-marcas.png
+is_public: true
+updated: '2019-01-23T08:28:58.201696Z'
+steamid: 359800
+gogslug: ''
+humblestoreid: ''

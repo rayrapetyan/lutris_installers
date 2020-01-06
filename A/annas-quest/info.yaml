@@ -1,0 +1,16 @@
+name: Anna's Quest
+slug: annas-quest
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/annas-quest.jpg
+icon_url: /games/icon/annas-quest.png
+is_public: true
+updated: '2019-01-23T08:28:22.236510Z'
+steamid: 327220
+gogslug: annas_quest
+humblestoreid: annas-quest

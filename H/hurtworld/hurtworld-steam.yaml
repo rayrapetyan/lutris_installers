@@ -1,0 +1,24 @@
+id: 3430
+game_id: 6640
+game_slug: hurtworld
+name: Hurtworld
+year: null
+user: liberodark
+runner: steam
+slug: hurtworld-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-04-01T03:00:17.432786Z'
+updated_at: '2017-04-06T19:47:48.952953Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 393420
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 393420

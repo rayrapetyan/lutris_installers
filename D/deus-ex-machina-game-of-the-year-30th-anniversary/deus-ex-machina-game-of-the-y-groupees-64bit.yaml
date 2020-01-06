@@ -1,0 +1,32 @@
+id: 4965
+game_id: 9966
+game_slug: deus-ex-machina-game-of-the-year-30th-anniversary-
+name: "Deus Ex Machina, Game of the Year, 30th Anniversary Collector\u2019s Edition"
+year: null
+user: FakeShemp
+runner: linux
+slug: deus-ex-machina-game-of-the-y-groupees-64bit
+version: Groupees (64bit)
+description: ''
+notes: ''
+created_at: '2017-07-11T16:45:06.023639Z'
+updated_at: '2017-08-27T22:04:55.698406Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 508910
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: deusexmachina
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - extract:
+      file: $CACHE/DeusExMachinaLinux64.zip
+  - chmodx: $GAMEDIR/deusexmachina
+  files:
+  - file1: N/A:Please select the Groupees archive

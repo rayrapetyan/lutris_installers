@@ -1,0 +1,27 @@
+name: Universal Paperclips
+slug: universal-paperclips
+year: 2017
+platforms:
+- name: Browser
+genres:
+- name: 4X
+- name: Business
+- name: Casual
+- name: Comedy
+- name: Economic
+- name: Educational
+- name: Gambling
+- name: Horror
+- name: Indie
+- name: Management
+- name: Sci-fi
+- name: Simulation
+- name: Space simulation
+aliases: []
+banner_url: /games/banner/universal-paperclips.jpg
+icon_url: null
+is_public: true
+updated: '2020-01-01T07:00:18.973261Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

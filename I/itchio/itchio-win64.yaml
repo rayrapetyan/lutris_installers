@@ -1,0 +1,43 @@
+id: 13588
+game_id: 19268
+game_slug: itchio
+name: Itch.io
+year: null
+user: soredake
+runner: wine
+slug: itchio-win64
+version: win64
+description: null
+notes: ''
+created_at: '2019-05-17T21:17:04.843000Z'
+updated_at: '2019-05-18T06:00:34.938677Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  custom-name: Itch.io win64
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: arial
+      name: winetricks
+  - extract:
+      dst: $CACHE
+      file: itch
+  - merge:
+      src: $CACHE
+      dst: $GAMEDIR/drive_c/users/$USER/Local Settings/Application Data/itch
+  files:
+  - itch: N/A:Select 'itch-windows-amd64.zip' downloaded from https://fasterthanlime.itch.io/itch
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/users/$USER/Local Settings/Application Data/itch/itch.exe

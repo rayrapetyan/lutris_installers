@@ -1,0 +1,17 @@
+name: Total Annihilation
+slug: total-annihilation
+year: 1997
+platforms:
+- name: Windows
+genres:
+- name: Real-time strategy
+aliases:
+- slug: total-annihilation-commander-pack
+  name: 'Total Annihilation: Commander Pack'
+banner_url: /games/banner/total-annihilation.jpg
+icon_url: /games/icon/total-annihilation.png
+is_public: true
+updated: '2020-01-03T06:28:50.061768Z'
+steamid: 298030
+gogslug: ''
+humblestoreid: ''

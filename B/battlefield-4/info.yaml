@@ -1,0 +1,17 @@
+name: Battlefield 4
+slug: battlefield-4
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+- name: Shooter
+aliases: []
+banner_url: /games/banner/battlefield-4.jpg
+icon_url: /games/icon/battlefield-4.png
+is_public: true
+updated: '2019-01-23T08:28:32.910500Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

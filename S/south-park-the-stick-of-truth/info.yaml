@@ -1,0 +1,15 @@
+name: 'South Park: The Stick of Truth'
+slug: south-park-the-stick-of-truth
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/south-park-the-stick-of-truth.jpg
+icon_url: /games/icon/south-park-the-stick-of-truth.png
+is_public: true
+updated: '2019-01-23T08:31:19.506781Z'
+steamid: 213670
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,109 @@
+id: 16579
+game_id: 28594
+game_slug: world-of-warcraft-classic
+name: World of Warcraft (Classic)
+year: 2019
+user: wavejumper
+runner: wine
+slug: world-of-warcraft-classic-change-me-5
+version: Change Me
+description: 'Platinum: installs and runs flawlessly'
+notes: "**IMPORTANT: INSTALL THE DEPENDENCIES FIRST**\r\nRead: Game: World-of-Warcraft\
+  \ before trying to install World of Warcraft. And install the needed dependencies\
+  \ for Wine into your system. Also, make sure you have Vulkan set up correctly.\r\
+  \nSame steps as with WoW retail, if you've already installed retail successfully\
+  \ you can just download Classic within your Battle.net launcher."
+created_at: '2019-11-02T22:42:21.649988Z'
+updated_at: '2019-11-02T22:42:21.650022Z'
+draft: false
+published: false
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 64bit Wine prefix.
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Arial font
+      app: arial
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows 10 mode for Wine
+      arch: win64
+      key: Version
+      value: win10
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      description: 'Wine Staging: Enabling DXVA2'
+      arch: win64
+      key: backend
+      value: va
+      path: HKEY_CURRENT_USER\Software\Wine\DXVA2
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - write_json:
+      description: Disabling Sound/Hardware Acceleration/Streaming in Blizzard App
+      data:
+        Client:
+          HardwareAcceleration: 'false'
+          GameLaunchWindowBehavior: '2'
+          Sound:
+            Enabled: 'false'
+          Streaming:
+            StreamingEnabled: 'false'
+      file: $GAMEDIR/drive_c/users/$USER/Application Data/Battle.net/Battle.net.config
+  - task:
+      executable: setup
+      description: 'Installing Blizzard App
+
+        ------------------------------
+
+        Do not try to log into Battle.net. Lutris will automatically close the login
+        window. After Lutris installer is finished, you can start Blizzard App with
+        "Launch the game", and install / locate your Blizzard game.'
+      exclude_processes: Battle.net.exe Agent.exe "Battle.net Helper.exe"
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Battle.net/Battle.net.exe
+    arch: win64
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      STAGING_SHARED_MEMORY: 1
+      DXVK_HUD: compiler
+      __GL_SHADER_DISK_CACHE: 1
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+    exclude_processes: Agent.exe "Battle.net Helper.exe"
+  wine:
+    version: ge-protonified-nofshack-4.9-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      ucrtbase: n,b
+      nvapi64: disabled
+      nvapi: disabled
+      d3d12: disabled
+      api-ms-win-crt-private-l1-1-0: n,b
+  files:
+  - setup:
+      filename: Battle.net-Setup-enUS.exe
+      url: http://dist.blizzard.com/downloads/bna-installers/322d5bb9ae0318de3d4cde7641c96425/retail.1/Battle.net-Setup-enUS.exe

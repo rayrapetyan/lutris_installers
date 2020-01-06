@@ -1,0 +1,65 @@
+id: 14102
+game_id: 22209
+game_slug: project-warlock
+name: Project Warlock
+year: 2018
+user: jacksapper
+runner: wine
+slug: project-warlock-gog-w-dxvk
+version: GOG w/ DXVK
+description: Installs DX-2010 and Visual C++ 2015 as dependencies.
+notes: The installer will complain a few times towards the end of the install.  Just
+  click OK and it will install fine.
+created_at: '2019-06-15T05:21:37.593000Z'
+updated_at: '2019-06-17T00:19:21.456533Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 893680
+gogid: 1459073823
+gogslug: project_warlock
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - extract:
+      dst: $CACHE/dxsetup
+      file: dx2010
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR
+      args: /silent
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2015 faudio win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /SP- /NOCANCEL /SUPPRESSMSGBOXES
+      description: Installing Project Warlock
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Project Warlock/pw_x64.exe
+    arch: win64
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+    pulse_latency: false
+  wine:
+    version: ge-protonified-4.9-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - dx2010: https://lutris.net/files/tools/directx-2010.tar.gz
+  - setup: N/A:Select the game's setup file

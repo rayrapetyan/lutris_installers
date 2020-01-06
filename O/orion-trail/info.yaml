@@ -1,0 +1,15 @@
+name: Orion Trail
+slug: orion-trail
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/orion-trail.jpg
+icon_url: /games/icon/orion-trail.png
+is_public: true
+updated: '2019-01-23T08:30:38.325177Z'
+steamid: 381260
+gogslug: ''
+humblestoreid: ''

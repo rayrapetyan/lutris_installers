@@ -1,0 +1,94 @@
+id: 7711
+game_id: 17693
+game_slug: battlefield-4
+name: Battlefield 4
+year: 2013
+user: Will
+runner: wine
+slug: battlefield-4-dxvk
+version: DXVK
+description: Only sets up Origin and DXVK you'll need to download Battlefield 4 manually.
+notes: "Please read before installing: <a href=\"https://github.com/lutris/lutris/wiki/Game:-Origin\"\
+  >https://github.com/lutris/lutris/wiki/Game:-Origin</a>\r\n\r\nRun the <tt>~/Games/battlefield-4/pbsetup.exe</tt>\
+  \ <b>after</b> downloading Battlefield 4 from Origin <a href=\"https://forums.lutris.net/t/battlefield-4-punk-buster-kicks-me/4759/6\"\
+  >to make multiplayer work.</a>"
+created_at: '2018-03-31T22:19:29.480000Z'
+updated_at: '2019-10-29T00:59:23.864595Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - execute:
+      command: mkdir "$GAMEDIR/nv-shaders"
+  - input_menu:
+      options:
+      - Not needed for AMD. Ignore this.: AMD
+      - ? 'dxgi.customVendorId = 10de
+
+          dxgi.nvapiHack = False'
+        : Nvidia
+      description: 'Setting DXVK workarounds please choose your GPU:'
+      id: GPU
+      preselect: Not needed for AMD. Ignore this.
+  - write_file:
+      content: $INPUT_GPU
+      file: $GAMEDIR/dxvk.conf
+  - task:
+      prefix: $GAMEDIR
+      app: nocrashdialog arial faudio vcrun2010 vcrun2013 vcrun2015 win81
+      arch: win64
+      name: winetricks
+  - task:
+      executable: client
+      prefix: $GAMEDIR
+      description: Installing Origin... Login window might pop-up and close.
+      arch: win64
+      args: /silent
+      exclude_processes: Origin.exe OriginClientService.exe OriginWebHelperService.exe
+        QtWebEngineProcess.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - chmodx: updater
+  - merge:
+      src: updater
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Origin
+  - extract:
+      dst: $GAMEDIR
+      file: pbuster
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Origin/Origin.exe
+    arch: win64
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR/nv-shaders
+      STAGING_SHARED_MEMORY: 0
+      DXVK_CONFIG_FILE: $GAMEDIR/dxvk.conf
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+    exclude_processes: QtWebEngineProcess.exe ActivationUI.exe OriginWebHelperService.exe
+    pulse_latency: true
+  wine:
+    version: tkg-4.0-x86_64
+    overrides:
+      OriginThinSetupInternal.exe: disabled
+      nvapi,nvapi64: disabled
+      xaudio2_7: native,builtin
+    dxvk: true
+  files:
+  - client: https://lutris.nyc3.cdn.digitaloceanspaces.com/games/origin/OriginSetup.exe
+  - updater: https://raw.githubusercontent.com/DrDoctor13/wine-origin-updater/master/updateorigin.sh
+  - pbuster: http://websec.evenbalance.com/downloads/W/gui/pbsetup.zip

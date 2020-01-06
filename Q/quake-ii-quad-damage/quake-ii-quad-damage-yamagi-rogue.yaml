@@ -1,0 +1,26 @@
+id: 8758
+game_id: 7217
+game_slug: quake-ii-quad-damage
+name: 'Quake II: Quad Damage'
+year: 1999
+user: edjaa84
+runner: linux
+slug: quake-ii-quad-damage-yamagi-rogue
+version: Yamagi + Rogue
+description: 'Acceso a Quake 2: Ground Zero'
+notes: ''
+created_at: '2018-06-16T20:35:53.079000Z'
+updated_at: '2018-06-19T04:44:29.490092Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1443696817
+gogslug: quake_ii_quad_damage
+humblestoreid: ''
+script:
+  custom-name: Quake II Ground Zero
+  game:
+    args: +set game rogue
+    exe: quake2

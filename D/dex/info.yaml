@@ -1,0 +1,16 @@
+name: Dex
+slug: dex
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Platform
+- name: RPG
+aliases: []
+banner_url: /games/banner/dex.jpg
+icon_url: /games/icon/dex.png
+is_public: true
+updated: '2019-01-23T08:29:11.135986Z'
+steamid: 269650
+gogslug: dex
+humblestoreid: ''

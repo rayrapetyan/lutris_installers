@@ -1,0 +1,24 @@
+id: 2110
+game_id: 5934
+game_slug: ark-survival-of-the-fittest
+name: 'ARK: Survival Of The Fittest'
+year: null
+user: strider
+runner: steam
+slug: ark-survival-of-the-fittest-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-06-15T05:09:42.933341Z'
+updated_at: '2016-06-15T05:09:47.408888Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 407530
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 407530

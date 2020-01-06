@@ -1,0 +1,16 @@
+name: 'Tom Clancy''s Splinter Cell: Conviction'
+slug: tom-clancys-splinter-cell-conviction
+year: 2010
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/tom-clancys-splinter-cell-conviction.jpg
+icon_url: /games/icon/tom-clancys-splinter-cell-conviction.png
+is_public: true
+updated: '2019-01-23T08:31:52.990839Z'
+steamid: 33229
+gogslug: ''
+humblestoreid: ''

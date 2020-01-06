@@ -1,0 +1,45 @@
+id: 11953
+game_id: 22202
+game_slug: creative-destruction-pc
+name: Creative Destruction PC
+year: 2018
+user: OsamaBinlada
+runner: wine
+slug: creative-destruction-pc-standalone
+version: Standalone
+description: Facebook login only, Google login doesn't work.
+notes: ''
+created_at: '2019-02-10T14:39:27.420000Z'
+updated_at: '2019-10-28T21:12:34.289360Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Creative Destruction/client.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating the wine prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Setting the prefix
+      app: vcrun2010 wininet
+      name: winetricks
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      description: 'Installing game (WARNING: Uncheck Launch Creative Destruction)'
+      name: wineexec
+  wine:
+    overrides:
+      wininet: builtin,native
+  files:
+  - installer: https://g91na.gdl.netease.com/creative_destruction_3.0.36_20190307.exe

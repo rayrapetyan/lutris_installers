@@ -1,0 +1,16 @@
+name: 'Empire: Total War'
+slug: empire-total-war
+year: 2009
+platforms:
+- name: Linux
+genres:
+- name: Real-time tactics
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/empire-total-war.jpg
+icon_url: /games/icon/empire-total-war.png
+is_public: true
+updated: '2019-01-23T08:29:22.941900Z'
+steamid: 10500
+gogslug: ''
+humblestoreid: ''

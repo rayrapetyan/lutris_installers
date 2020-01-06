@@ -1,0 +1,16 @@
+name: Scrash
+slug: scrash
+year: 2018
+platforms:
+- name: Browser
+- name: Linux
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/scrash.jpg
+icon_url: /games/icon/scrash.png
+is_public: true
+updated: '2019-01-23T08:31:08.336369Z'
+steamid: 807050
+gogslug: ''
+humblestoreid: ''

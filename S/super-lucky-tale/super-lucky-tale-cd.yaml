@@ -1,0 +1,33 @@
+id: 10400
+game_id: 22039
+game_slug: super-lucky-tale
+name: Super Lucky Tale
+year: 2017
+user: chuber
+runner: wine
+slug: super-lucky-tale-cd
+version: CD
+description: null
+notes: ''
+created_at: '2018-10-02T10:30:33.549494Z'
+updated_at: '2018-10-03T11:49:17.342890Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: drive_c/Program Files/Microsoft Games/Super Lucky Tale/slt.exe
+  installer:
+  - insert-disc:
+      requires: SetSuprL.exe
+  - task:
+      executable: SetSuprL.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    arch: win64

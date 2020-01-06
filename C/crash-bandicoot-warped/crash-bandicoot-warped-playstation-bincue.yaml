@@ -1,0 +1,35 @@
+id: 11290
+game_id: 8392
+game_slug: crash-bandicoot-warped
+name: 'Crash Bandicoot: Warped'
+year: 1998
+user: Zekromaster
+runner: mednafen
+slug: crash-bandicoot-warped-playstation-bincue
+version: PlayStation (.bin/.cue)
+description: null
+notes: ''
+created_at: '2018-12-21T15:17:38.805548Z'
+updated_at: '2018-12-23T02:49:52.536306Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - copy:
+      src: cue
+      dst: $GAMEDIR
+  - copy:
+      src: bin
+      dst: $GAMEDIR
+  files:
+  - cue: 'N/A: Please select your Crash Bandicoot: Warped.cue file'
+  - bin: 'N/A: Please select your Crash Bandicoot: Warped.bin file'
+  game:
+    machine: psx
+    main_file: cue

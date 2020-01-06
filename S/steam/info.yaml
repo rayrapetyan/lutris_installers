@@ -1,0 +1,22 @@
+name: Steam
+slug: steam
+year: 2003
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Arcade
+- name: Artillery
+- name: Beat'em up
+- name: City building
+- name: Horror
+- name: Wargame
+aliases: []
+banner_url: /games/banner/steam.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:26.331385Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

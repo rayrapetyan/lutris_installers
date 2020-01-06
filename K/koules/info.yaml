@@ -1,0 +1,16 @@
+name: Koules
+slug: koules
+year: 1995
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Arcade
+aliases: []
+banner_url: /games/banner/koules.jpg
+icon_url: /games/icon/koules.png
+is_public: true
+updated: '2019-01-23T08:30:06.566233Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

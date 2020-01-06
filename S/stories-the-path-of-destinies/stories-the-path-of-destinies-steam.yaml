@@ -1,0 +1,24 @@
+id: 8661
+game_id: 8602
+game_slug: stories-the-path-of-destinies
+name: 'Stories: The Path of Destinies'
+year: null
+user: soredake
+runner: winesteam
+slug: stories-the-path-of-destinies-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-11T07:41:36.676054Z'
+updated_at: '2018-06-11T07:49:55.579316Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 439190
+gogid: 1457539226
+gogslug: stories_the_path_of_destinies
+humblestoreid: ''
+script:
+  game:
+    appid: 439190

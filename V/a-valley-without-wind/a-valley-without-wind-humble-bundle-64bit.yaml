@@ -1,0 +1,29 @@
+id: 2796
+game_id: 1150
+game_slug: a-valley-without-wind
+name: A Valley Without Wind
+year: null
+user: Lulu
+runner: linux
+slug: a-valley-without-wind-humble-bundle-64bit
+version: Humble Bundle (64bit)
+description: ''
+notes: ''
+created_at: '2016-09-28T20:04:45.818259Z'
+updated_at: '2016-09-30T20:44:28.310370Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 209330
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: valley-game
+  - chmodx: $GAMEDIR/AVWWLinux.x86_64
+  exe64: AVWWLinux.x86_64
+  files:
+  - valley-game: N/A:Please select the .zip install file downloaded from humblebundle.com

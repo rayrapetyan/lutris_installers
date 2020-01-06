@@ -1,0 +1,41 @@
+id: 3621
+game_id: 3366
+game_slug: openttd
+name: OpenTTD
+year: null
+user: scottviger
+runner: linux
+slug: openttd-172-32bit
+version: 1.7.2 (32bit)
+description: null
+notes: ''
+created_at: '2017-05-02T21:01:49.198000Z'
+updated_at: '2018-03-23T14:43:39.951334Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: openttd
+  - extract:
+      dst: $GAMEDIR/baseset
+      file: opengfx
+  - extract:
+      dst: $GAMEDIR/data
+      file: opensfx
+  - extract:
+      dst: $GAMEDIR/gm
+      file: openmsx
+  files:
+  - openttd: https://binaries.openttd.org/releases/1.7.2/openttd-1.7.2-linux-generic-i686.tar.gz
+  - opengfx: https://binaries.openttd.org/extra/opengfx/0.5.2/opengfx-0.5.2-all.zip
+  - opensfx: https://binaries.openttd.org/extra/opensfx/0.2.3/opensfx-0.2.3-all.zip
+  - openmsx: https://binaries.openttd.org/extra/openmsx/0.3.1/openmsx-0.3.1-all.zip
+  game:
+    exe: $GAMEDIR/openttd

@@ -1,0 +1,35 @@
+id: 926
+game_id: 3234
+game_slug: hover
+name: Hover!
+year: 1995
+user: Xodetaetl
+runner: wine
+slug: hover-win95
+version: Win95
+description: To get music, you need to use a MIDI synthesizer like FluidSynth or TiMidity.
+  Install Qsynth (an interface to FluidSynth) and running it before starting the game
+  should work.
+notes: ''
+created_at: '2014-10-17T19:03:49.502000Z'
+updated_at: '2014-12-01T22:23:03.351000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: drive_c/Hover/HOVER.EXE
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - extract:
+      format: zip
+      dst: $GAMEDIR/drive_c/Hover/
+      file: game
+  files:
+  - game: http://lutris.net/files/games/hover/Hover.exe

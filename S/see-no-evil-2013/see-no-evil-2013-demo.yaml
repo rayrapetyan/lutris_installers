@@ -1,0 +1,31 @@
+id: 13537
+game_id: 27300
+game_slug: see-no-evil-2013
+name: See No Evil (2013)
+year: 2013
+user: kimchitea
+runner: wine
+slug: see-no-evil-2013-demo
+version: Demo
+description: null
+notes: ''
+created_at: '2019-05-15T00:15:47.011000Z'
+updated_at: '2019-05-18T06:06:35.255695Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/SNE
+      file: file_id
+  files:
+  - file_id: N/A:Please select the demo archive
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/SNE/See_No_Evil_DEMO.exe

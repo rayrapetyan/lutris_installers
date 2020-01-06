@@ -1,0 +1,40 @@
+id: 941
+game_id: 3252
+game_slug: age-of-empires-ii-the-conquerors
+name: 'Age of Empires II: The Conquerors'
+year: 2000
+user: Xodetaetl
+runner: wine
+slug: age-of-empires-ii-the-conquer-cd
+version: CD
+description: ''
+notes: ''
+created_at: '2014-10-24T14:25:18.955000Z'
+updated_at: '2018-05-19T03:41:48.052264Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: age-of-empires-ii-the-age-of-kings
+  exe: drive_c/Program Files/Microsoft Games/Age of Empires II/age2_x1/age2_x1.exe
+  installer:
+  - insert-disc:
+      requires: aocsetup.exe
+  - task:
+      executable: $DISC/aocsetup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Installing directplay for multiplayer support
+      app: directplay
+      silent: true
+      name: winetricks
+  game:
+    prefix: $GAMEDIR
+    arch: win32

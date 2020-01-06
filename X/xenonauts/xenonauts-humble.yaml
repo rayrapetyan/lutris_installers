@@ -1,0 +1,36 @@
+id: 3960
+game_id: 1000
+game_slug: xenonauts
+name: Xenonauts
+year: 2014
+user: FakeShemp
+runner: linux
+slug: xenonauts-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-29T21:01:33.559973Z'
+updated_at: '2017-05-30T00:27:36.874933Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 223830
+gogid: 1207664803
+gogslug: xenonauts
+humblestoreid: ''
+script:
+  exe: Xenonauts.bin.x86
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data/noarch
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble installer

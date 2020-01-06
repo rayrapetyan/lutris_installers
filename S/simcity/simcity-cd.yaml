@@ -1,0 +1,28 @@
+id: 17210
+game_id: 7054
+game_slug: simcity
+name: SimCity
+year: 1989
+user: edjaa84
+runner: wine
+slug: simcity-cd
+version: CD
+description: "Simcity Classic (WineHQ) (Acceso Directo)\r\n\r\nRaPiMoDEBianPaKaGer"
+notes: "Para la musica MIDI\r\n\r\n$ timidity -iA -Os\r\n\r\nDebes instalar el juego\
+  \ manualmente a traves del men\xFA conceptual."
+created_at: '2019-12-07T02:18:37.284177Z'
+updated_at: '2019-12-07T02:18:37.284210Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Maxis/SimCity Classic/CLASSIC.EXE
+    working_dir: $GAMEDIR/drive_c/Program Files/Maxis/SimCity Classic/
+    arch: win32

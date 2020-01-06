@@ -1,0 +1,37 @@
+id: 5314
+game_id: 7230
+game_slug: gabe-newell-simulator
+name: Gabe Newell Simulator
+year: 2015
+user: FakeShemp
+runner: wine
+slug: gabe-newell-simulator-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-08T19:52:54.193000Z'
+updated_at: '2018-05-19T03:41:58.716041Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 407420
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Gabe Newell Simulator
+      file: $file1
+  - task:
+      prefix: $GAMEDIR
+      app: corefonts
+      name: winetricks
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    args: -force-d3d9
+    exe: drive_c/Program Files/Gabe Newell Simulator/Gabe Newell Simulator Demo.exe
+    arch: win32

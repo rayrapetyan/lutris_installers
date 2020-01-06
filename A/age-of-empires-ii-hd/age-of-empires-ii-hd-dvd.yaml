@@ -1,0 +1,36 @@
+id: 2895
+game_id: 672
+game_slug: age-of-empires-ii-hd
+name: Age of Empires II HD
+year: 2013
+user: strider
+runner: wine
+slug: age-of-empires-ii-hd-dvd
+version: DVD
+description: ''
+notes: ''
+created_at: '2016-10-14T21:49:05.716173Z'
+updated_at: '2018-05-19T03:41:49.090122Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 221380
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - setup: N/A:Select the setup file on the DVD
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/Age2HD/Launcher_ AoE2HD.exe
+    arch: win32

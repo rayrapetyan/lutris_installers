@@ -1,0 +1,16 @@
+name: 'Warhammer: Dark Omen'
+slug: warhammer-dark-omen
+year: 1998
+platforms:
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Real-time tactics
+aliases: []
+banner_url: /games/banner/warhammer-dark-omen.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:06.005356Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

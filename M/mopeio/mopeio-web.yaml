@@ -1,0 +1,23 @@
+id: 16537
+game_id: 30046
+game_slug: mopeio
+name: Mope.io
+year: 2016
+user: cxf
+runner: web
+slug: mopeio-web
+version: Web
+description: null
+notes: ''
+created_at: '2019-11-01T23:38:26.276208Z'
+updated_at: '2019-11-01T23:38:31.276226Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: http://mope.io/

@@ -1,0 +1,31 @@
+id: 4343
+game_id: 3817
+game_slug: crunch-time
+name: Crunch Time!
+year: null
+user: FakeShemp
+runner: linux
+slug: crunch-time-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-06-14T10:55:06.276226Z'
+updated_at: '2017-06-14T16:10:33.463503Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 340550
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: CrunchTime.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/CrunchTime.x86
+  - chmodx: $GAMEDIR/CrunchTime.x86_64
+  exe64: CrunchTime.x86_64
+  files:
+  - file1: N/A:Please select the IndieGameStand archive

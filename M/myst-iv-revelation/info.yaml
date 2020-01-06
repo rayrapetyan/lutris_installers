@@ -1,0 +1,18 @@
+name: 'Myst IV: Revelation'
+slug: myst-iv-revelation
+year: 2004
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: FPP
+- name: Point-and-click
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/myst-iv-revelation.jpg
+icon_url: /games/icon/myst-iv-revelation.png
+is_public: true
+updated: '2019-01-23T08:30:29.133266Z'
+steamid: 925940
+gogslug: myst_4
+humblestoreid: ''

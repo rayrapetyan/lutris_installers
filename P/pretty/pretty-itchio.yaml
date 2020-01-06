@@ -1,0 +1,28 @@
+id: 5990
+game_id: 4057
+game_slug: pretty
+name: Pretty
+year: 2014
+user: FakeShemp
+runner: linux
+slug: pretty-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-10-19T15:00:06.216464Z'
+updated_at: '2017-10-19T15:00:59.547462Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Pretty.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

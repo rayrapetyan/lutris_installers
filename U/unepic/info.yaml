@@ -1,0 +1,15 @@
+name: Unepic
+slug: unepic
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/unepic.jpg
+icon_url: /games/icon/unepic.png
+is_public: true
+updated: '2019-01-23T08:31:59.299871Z'
+steamid: 233980
+gogslug: unepic
+humblestoreid: ''

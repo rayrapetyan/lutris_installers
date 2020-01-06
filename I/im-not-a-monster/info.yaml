@@ -1,0 +1,16 @@
+name: "I\u2019m not a Monster"
+slug: im-not-a-monster
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: MMORPG
+- name: Strategy
+aliases: []
+banner_url: /games/banner/im-not-a-monster.jpg
+icon_url: /games/icon/im-not-a-monster.png
+is_public: true
+updated: '2019-01-23T08:29:55.613395Z'
+steamid: 826600
+gogslug: ''
+humblestoreid: ''

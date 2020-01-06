@@ -1,0 +1,56 @@
+id: 2592
+game_id: 7257
+game_slug: syndicate-wars
+name: Syndicate Wars
+year: 1996
+user: ssf
+runner: dosbox
+slug: syndicate-wars-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2016-08-24T19:10:49.897000Z'
+updated_at: '2018-12-14T06:38:54.253502Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: 1207659193
+gogslug: syndicate_wars
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: wine.create_prefix
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /VERYSILENT /SP- /NOCANCEL /SUPPRESSMSGBOXES '/DIR=C:/game'
+      description: Installing ...
+      name: wine.wineexec
+  - merge:
+      src: $GAMEDIR/drive_c/game
+      dst: $GAMEDIR
+  - move:
+      src: $GAMEDIR/drive_c
+      dst: $CACHE
+  - move:
+      src: $GAMEDIR/dosdevices
+      dst: $CACHE
+  - execute:
+      args: -i 's|mount C ".."|mount C "."|g' $GAMEDIR/dosboxSWARS_single.conf
+      file: /bin/sed
+  - execute:
+      args: -i 's|..\swars\game.ins|swars/game.ins|g' $GAMEDIR/dosboxSWARS_single.conf
+      file: /bin/sed
+  - move:
+      src: $GAMEDIR/DOSBOX
+      dst: $CACHE
+  files:
+  - game: N/A:Please select the GOG.com Windows installer
+  game:
+    config_file: $GAMEDIR/dosboxSWARS.conf
+    main_file: $GAMEDIR/dosboxSWARS_single.conf

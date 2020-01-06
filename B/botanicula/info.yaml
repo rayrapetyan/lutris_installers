@@ -1,0 +1,16 @@
+name: Botanicula
+slug: botanicula
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: Point-and-click
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/botanicula.jpg
+icon_url: /games/icon/botanicula.png
+is_public: true
+updated: '2019-01-23T08:28:40.804907Z'
+steamid: 207690
+gogslug: botanicula
+humblestoreid: botanicula

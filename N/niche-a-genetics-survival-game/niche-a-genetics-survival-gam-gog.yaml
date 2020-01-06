@@ -1,0 +1,37 @@
+id: 6600
+game_id: 8991
+game_slug: niche-a-genetics-survival-game
+name: Niche - a genetics survival game
+year: 2016
+user: Talvi
+runner: linux
+slug: niche-a-genetics-survival-gam-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2017-12-10T01:35:19.196123Z'
+updated_at: '2017-12-17T14:20:40.583928Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 440650
+gogid: 1126406171
+gogslug: niche
+humblestoreid: ''
+script:
+  exe: game/start.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Please select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

@@ -1,0 +1,28 @@
+id: 9227
+game_id: 3174
+game_slug: tom-clancys-splinter-cell-blacklist
+name: 'Tom Clancy''s Splinter Cell: Blacklist'
+year: 2013
+user: manhunterFR
+runner: winesteam
+slug: tom-clancys-splinter-cell-bla-steam-wdxvk
+version: Steam w/DXVK
+description: null
+notes: ''
+created_at: '2018-07-15T19:16:20.909000Z'
+updated_at: '2019-02-16T04:59:13.091536Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 235600
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  game:
+    appid: 235600
+    arch: win64

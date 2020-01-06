@@ -1,0 +1,16 @@
+name: 20XX
+slug: 20xx
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Roguelike
+aliases: []
+banner_url: /games/banner/20xx.jpg
+icon_url: /games/icon/20xx.png
+is_public: true
+updated: '2019-02-05T04:29:40.229346Z'
+steamid: 322110
+gogslug: ''
+humblestoreid: ''

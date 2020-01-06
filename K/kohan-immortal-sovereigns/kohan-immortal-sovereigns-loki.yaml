@@ -1,0 +1,67 @@
+id: 11506
+game_id: 5799
+game_slug: kohan-immortal-sovereigns
+name: 'Kohan: Immortal Sovereigns'
+year: null
+user: rmolina
+runner: linux
+slug: kohan-immortal-sovereigns-loki
+version: Loki
+description: Native Linux version from Loki (requires xserver-xephyr and pulseaudio-utils)
+notes: "Installs version 1.1.0 from CD-ROM.\r\nCan be manually updated to version\
+  \ 1.3.1.\r\nSee: http://updates.lokigames.com/kohan/"
+created_at: '2019-01-08T00:13:24.179000Z'
+updated_at: '2019-01-09T02:04:45.935554Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 97110
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: kohan-launcher
+  installer:
+  - insert-disc:
+      requires: setup.sh
+      message: Mount the Kohan CD-Rom to continue
+  - merge:
+      src: $DISC/bin/x86
+      dst: $GAMEDIR
+  - merge:
+      src: $DISC/Cinematics
+      dst: $GAMEDIR/Cinematics
+  - merge:
+      src: $DISC/Maps
+      dst: $GAMEDIR/Maps
+  - merge:
+      src: $DISC/SAI
+      dst: $GAMEDIR/SAI
+  - merge:
+      src: $DISC/Kohan.TGW
+      dst: $GAMEDIR
+  - merge:
+      src: $DISC/Music.TGW
+      dst: $GAMEDIR
+  - merge:
+      src: $DISC/Voice.TGW
+      dst: $GAMEDIR
+  - merge:
+      src: $DISC/icon.xpm
+      dst: $GAMEDIR
+  - merge:
+      src: $DISC/QuickStart.txt
+      dst: $GAMEDIR
+  - merge:
+      src: $DISC/README
+      dst: $GAMEDIR
+  - merge:
+      src: $DISC/README.Editor
+      dst: $GAMEDIR
+  - move:
+      src: launcher
+      dst: $GAMEDIR/kohan-launcher
+  - chmodx: $GAMEDIR/kohan-launcher
+  files:
+  - launcher: https://paste.debian.net/download/1059143

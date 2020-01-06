@@ -1,0 +1,32 @@
+id: 4197
+game_id: 3570
+game_slug: farming-world
+name: Farming World
+year: null
+user: FakeShemp
+runner: wine
+slug: farming-world-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-07T19:21:11.089949Z'
+updated_at: '2018-05-19T03:41:51.841416Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 277500
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Farming World
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Farming World/FarmingWorld.exe
+    arch: win32

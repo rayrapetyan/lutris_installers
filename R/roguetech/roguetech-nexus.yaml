@@ -1,0 +1,38 @@
+id: 11258
+game_id: 24341
+game_slug: roguetech
+name: RogueTech
+year: 2018
+user: Sompom
+runner: wine
+slug: roguetech-nexus
+version: Nexus
+description: Please download the mod installer from https://www.nexusmods.com/battletech/mods/79
+  before proceeding. Unfortunately, since Nexus requires a login, this cannot be fetched
+  automatically
+notes: ''
+created_at: '2018-12-18T22:43:42.615367Z'
+updated_at: '2018-12-19T15:08:58.433627Z'
+draft: true
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: battletech
+  installer:
+  - task:
+      executable: rt-installer
+      prefix: battletech-prefix
+      description: Please follow the menu options to configure and install RogueTech
+      name: wineexec
+  files:
+  - rt-installer: N/A:Please select the RogueTech installer
+  - battletech-prefix: N/A:Please select the prefix into which BATTLETECH is installed
+  game:
+    prefix: battletech-prefix
+    args: -force-opengl
+    exe: drive_c/GOG Games/BATTLETECH/BattleTech.exe

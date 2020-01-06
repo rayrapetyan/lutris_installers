@@ -1,0 +1,39 @@
+id: 5162
+game_id: 1822
+game_slug: the-legend-of-kyrandia-book-one
+name: 'The Legend of Kyrandia: Book One'
+year: 1992
+user: FakeShemp
+runner: scummvm
+slug: the-legend-of-kyrandia-book-o-gog
+version: GOG
+description: Uses the files from the Windows installer from GOG.
+notes: ''
+created_at: '2017-07-22T22:04:27.348000Z'
+updated_at: '2017-07-26T07:21:06.034739Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file2
+  - execute:
+      args: -d "$CACHE" "$file1"
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/app/DAT
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the GOG installer
+  - file2: https://lutris.net/files/tools/innoextract.tar.gz
+  game:
+    game_id: kyra1
+    path: $GAMEDIR
+    subtitles: true

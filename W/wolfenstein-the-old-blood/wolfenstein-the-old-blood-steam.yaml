@@ -1,0 +1,42 @@
+id: 5924
+game_id: 4725
+game_slug: wolfenstein-the-old-blood
+name: 'Wolfenstein: The Old Blood'
+year: 2015
+user: GloriousEggroll
+runner: winesteam
+slug: wolfenstein-the-old-blood-steam
+version: Steam
+description: ''
+notes: "*You may also need to install idtech5-2.19 from the wine runners list in lutris.\
+  \ Lutris>Manage Runners>Wine>manage versions*\r\n\r\nIf you have the game installed\
+  \ already in another steam library folder:\r\n\r\n1. Run this installer. When it\
+  \ finishes, -do not- press \"Launch Game\". Press Close.\r\n2. In Lutris, right\
+  \ click Wolfenstein>configure>game options\r\n--check the box that says \"Do not\
+  \ launch game, only open steam\"\r\n3. Launch the game, it will open steam. Login.\r\
+  \n4. Add your steam library folder the way you normally would and set it as Default\r\
+  \n5. In steam, Right click on Wolfenstein>properties>local files>verify integrity\
+  \ of files.\r\n6. When it finishes, close/exit steam. Go back into lutris and uncheck\
+  \ the \"Do not launch the game, only open Steam\" checkbox.\r\n\r\nNow you can play\
+  \ with your existing install!"
+created_at: '2017-10-08T07:32:35.897000Z'
+updated_at: '2018-07-24T04:46:28.405874Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 350080
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: idtech5-2.19-x86_64
+  system:
+    env:
+      MESA_GL_VERSION_OVERRIDE: 4.5COMPAT
+    disable_runtime: true
+    pulse_latency: true
+  game:
+    appid: 350080
+    arch: win64

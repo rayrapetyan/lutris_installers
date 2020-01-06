@@ -1,0 +1,42 @@
+id: 5055
+game_id: 12242
+game_slug: my-girlfriend-is-the-president
+name: My Girlfriend is the President
+year: 2009
+user: FakeShemp
+runner: wine
+slug: my-girlfriend-is-the-presiden-jast-usa
+version: JAST USA
+description: ''
+notes: ''
+created_at: '2017-07-14T15:30:08.001000Z'
+updated_at: '2018-05-19T03:41:56.687548Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/President_Setup.exe
+      prefix: $GAMEDIR
+      args: '"/sp-" "/silent" "/norestart" /DIR="C:\\Program Files\\My Girlfriend
+        is the President"'
+      name: wineexec
+  - extract:
+      dst: $GAMEDIR/plugin
+      file: $file2
+  files:
+  - file1: N/A:Please select the JAST USA archive
+  - file2: N/A:Please select the JAST USA patch file
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/My Girlfriend is the President/osana.exe
+    arch: win32

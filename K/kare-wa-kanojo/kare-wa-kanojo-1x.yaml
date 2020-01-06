@@ -1,0 +1,31 @@
+id: 5737
+game_id: 13904
+game_slug: kare-wa-kanojo
+name: Kare wa Kanojo
+year: 2011
+user: maxlefou
+runner: linux
+slug: kare-wa-kanojo-1x
+version: 1.x
+description: null
+notes: ''
+created_at: '2017-09-13T21:09:15.654000Z'
+updated_at: '2018-01-09T13:10:26.013730Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 1024790
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: archive
+  files:
+  - archive: http://karewakanojo.maxlefou.com/KareWaKanojo-linux.tar.bz2
+  game:
+    prefix: $GAMEDIR
+    exe: kwk.sh

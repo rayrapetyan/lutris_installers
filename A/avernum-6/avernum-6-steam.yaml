@@ -1,0 +1,24 @@
+id: 1864
+game_id: 802
+game_slug: avernum-6
+name: Avernum 6
+year: null
+user: WildCoder
+runner: winesteam
+slug: avernum-6-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-01-13T23:14:20.593859Z'
+updated_at: '2016-01-27T16:40:11.470086Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 206060
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 206060

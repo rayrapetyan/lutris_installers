@@ -1,0 +1,52 @@
+id: 948
+game_id: 438
+game_slug: deus-ex
+name: Deus Ex
+year: 2000
+user: strider
+runner: wine
+slug: deus-ex-cd-rom
+version: CD-ROM
+description: Includes D3D9, D3D10 and OpenGL renderers.
+notes: ''
+created_at: '2014-10-26T17:06:27.818000Z'
+updated_at: '2019-01-23T14:13:25.723884Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 6910
+gogid: 1207658995
+gogslug: deus_ex
+humblestoreid: deus-ex-game-of-the-year-edition
+script:
+  exe: drive_c/DeusEx/System/DeusEx.exe
+  installer:
+  - insert_disc:
+      requires: Setup.exe
+      message: Insert your Deus Ex CD-Rom
+  - task:
+      executable: $DISC/Setup.exe
+      prefix: $GAMEDIR
+      args: /silent /nogui
+      name: wineexec
+  - task:
+      executable: patch
+      prefix: $GAMEDIR
+      name: wineexec
+  - extract:
+      dst: $GAMEDIR/drive_c/DeusEx/System/
+      file: d3d9renderer
+  - extract:
+      dst: $GAMEDIR/drive_c/DeusEx/System/
+      file: d3d10renderer
+  - extract:
+      dst: $GAMEDIR/drive_c/DeusEx/System/
+      file: oglrenderer
+  files:
+  - patch: https://lutris.net/files/games/deus-ex/DeusExMPPatch1112fm.exe
+  - d3d9renderer: https://lutris.net/files/games/deus-ex/dxd3d9r13.zip
+  - d3d10renderer: http://kentie.net/article/d3d10drv/files/d3d10drv-v29.zip
+  - oglrenderer: https://lutris.net/files/games/deus-ex/dxglr20.zip
+  game:
+    prefix: $GAMEDIR

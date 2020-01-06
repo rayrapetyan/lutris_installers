@@ -1,0 +1,24 @@
+id: 13598
+game_id: 18957
+game_slug: wizard-of-legend
+name: Wizard of Legend
+year: 2018
+user: Jozua
+runner: steam
+slug: wizard-of-legend-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-05-18T07:28:06.690446Z'
+updated_at: '2019-05-18T08:30:16.564497Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 445980
+gogid: 2061814323
+gogslug: wizard_of_legend
+humblestoreid: ''
+script:
+  game:
+    appid: 445980

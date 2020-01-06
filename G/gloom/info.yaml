@@ -1,0 +1,16 @@
+name: Gloom
+slug: gloom
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/gloom.jpg
+icon_url: /games/icon/gloom.png
+is_public: false
+updated: '2019-01-23T08:29:40.270022Z'
+steamid: 619280
+gogslug: ''
+humblestoreid: ''

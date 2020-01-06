@@ -1,0 +1,16 @@
+name: 'Joe Danger 2: The Movie'
+slug: joe-danger-2-the-movie
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Racing
+aliases: []
+banner_url: /games/banner/joe-danger-2-the-movie.jpg
+icon_url: /games/icon/joe-danger-2-the-movie.png
+is_public: true
+updated: '2019-01-23T08:30:00.804016Z'
+steamid: 242110
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,33 @@
+id: 5809
+game_id: 13972
+game_slug: renga-samurai-shogun
+name: Renga Samurai Shogun
+year: 2013
+user: FakeShemp
+runner: wine
+slug: renga-samurai-shogun-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-19T09:11:47.310000Z'
+updated_at: '2018-05-19T03:41:58.248646Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Tamugaia/Renga Samurai Shogun/Renga Samurai Shogun.exe
+    arch: win32

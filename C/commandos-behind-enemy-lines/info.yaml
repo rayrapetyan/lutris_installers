@@ -1,0 +1,16 @@
+name: 'Commandos: Behind Enemy Lines'
+slug: commandos-behind-enemy-lines
+year: 1998
+platforms:
+- name: Windows
+genres:
+- name: Real-time tactics
+- name: Stealth
+aliases: []
+banner_url: /games/banner/commandos-behind-enemy-lines.jpg
+icon_url: /games/icon/commandos-behind-enemy-lines.png
+is_public: true
+updated: '2019-01-23T08:28:56.691717Z'
+steamid: 6800
+gogslug: commandos_ammo_pack
+humblestoreid: ''

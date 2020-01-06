@@ -1,0 +1,30 @@
+id: 441
+game_id: 74
+game_slug: shadowrun-returns
+name: Shadowrun Returns
+year: 2013
+user: Xodetaetl
+runner: linux
+slug: shadowrun-returns-humble-bundle-dragon
+version: Humble Bundle - Dragonfall
+description: Dragonfall add-on from Humble Bundle
+notes: ''
+created_at: '2014-03-03T19:43:10.882000Z'
+updated_at: '2016-02-10T14:43:56.035836Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 234650
+gogid: 1207660413
+gogslug: shadowrun_returns
+humblestoreid: shadowrun-returns
+script:
+  requires: shadowrun-returns-humble-bundle
+  exe: Shadowrun.sh
+  installer:
+  - extract:
+      dst: $GAMEDIR/Shadowrun_Data/StreamingAssets
+      file: file1
+  files:
+  - file1: N/A:Select the Dragonfall archive provided by Humble Store

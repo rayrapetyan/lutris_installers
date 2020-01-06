@@ -1,0 +1,30 @@
+id: 9161
+game_id: 3994
+game_slug: alcarys-complex
+name: Alcarys Complex
+year: 2012
+user: kimchitea
+runner: linux
+slug: alcarys-complex-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2018-07-11T12:31:10.660000Z'
+updated_at: '2018-07-12T04:38:23.812967Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Alcarys_Complex/runner
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $file1
+  - chmodx: $GAMEDIR/Alcarys_Complex/runner
+  files:
+  - file1: N/A:Please select the itch.io archive

@@ -1,0 +1,24 @@
+id: 13628
+game_id: 14390
+game_slug: tales-from-candlekeep-tomb-of-annihilation
+name: 'Tales from Candlekeep: Tomb of Annihilation'
+year: null
+user: Phulu_OMGRT
+runner: steam
+slug: tales-from-candlekeep-tomb-of-steam-proton
+version: Steam Proton
+description: You need to enable Steam Play for all titles
+notes: ''
+created_at: '2019-05-19T14:42:00.843000Z'
+updated_at: '2019-06-13T06:10:50.924726Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 663380
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 663380

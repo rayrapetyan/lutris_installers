@@ -1,0 +1,16 @@
+name: Blue Rose
+slug: blue-rose
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Fantasy
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/blue-rose.jpg
+icon_url: /games/icon/blue-rose.png
+is_public: true
+updated: '2019-06-05T05:28:02.461810Z'
+steamid: 362660
+gogslug: ''
+humblestoreid: ''

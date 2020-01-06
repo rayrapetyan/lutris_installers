@@ -1,0 +1,15 @@
+name: 'Game & Watch: Super Mario Bros.'
+slug: game-watch-super-mario-bros
+year: 1986
+platforms:
+- name: Arcade
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/game-watch-super-mario-bros.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:37.877644Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

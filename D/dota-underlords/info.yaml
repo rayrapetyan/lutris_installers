@@ -1,0 +1,15 @@
+name: Dota Underlords
+slug: dota-underlords
+year: 2019
+platforms:
+- name: Linux
+genres:
+- name: Tactical
+aliases: []
+banner_url: /games/banner/dota-underlords.jpg
+icon_url: /games/icon/dota-underlords.png
+is_public: true
+updated: '2019-06-27T05:11:56.647841Z'
+steamid: 1046930
+gogslug: ''
+humblestoreid: ''

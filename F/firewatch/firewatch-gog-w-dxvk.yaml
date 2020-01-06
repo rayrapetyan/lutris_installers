@@ -1,0 +1,40 @@
+id: 13514
+game_id: 5628
+game_slug: firewatch
+name: Firewatch
+year: 2016
+user: darktiger
+runner: wine
+slug: firewatch-gog-w-dxvk
+version: GOG w/ DXVK
+description: null
+notes: ''
+created_at: '2019-05-14T08:37:26.935000Z'
+updated_at: '2019-05-18T06:18:05.546987Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 383870
+gogid: 1459256379
+gogslug: firewatch
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      description: Installing game
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Firewatch/Firewatch.exe
+  system:
+    env:
+      LC_ALL: C
+  wine:
+    version: tkg-protonified-4.6-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - game: 'N/A: Please select the GOG.com Windows installer.'

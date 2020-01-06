@@ -1,0 +1,16 @@
+name: Guacamelee! 2
+slug: guacamelee-2
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/guacamelee-2.jpg
+icon_url: /games/icon/guacamelee-2.png
+is_public: true
+updated: '2019-10-14T01:02:33.351603Z'
+steamid: 534550
+gogslug: guacamelee_2
+humblestoreid: ''

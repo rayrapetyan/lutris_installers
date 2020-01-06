@@ -1,0 +1,162 @@
+id: 12168
+game_id: 11850
+game_slug: anno-1503
+name: Anno 1503 A.D.
+year: 2003
+user: citiroller
+runner: wine
+slug: anno-1503-dvd
+version: DVD
+description: Installs the game with the DVD-ROM
+notes: Does not include the latest patches for version 1.05 as I could only find them
+  for German language. If your Disc is not already on this version, its recommended
+  to install the patches manually.
+created_at: '2019-02-25T11:04:35.502000Z'
+updated_at: '2019-03-01T20:50:33.864953Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: setup.exe
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      install_mono: false
+      install_gecko: false
+      name: create_prefix
+  - write_file:
+      content: '[InstallShield Silent]
+
+        Version=v7.00
+
+        File=Response File
+
+        [File Transfer]
+
+        OverwrittenReadOnly=NoToAll
+
+        [{EBBB1DEF-8878-4CB8-BC0D-1196B30E7527}-DlgOrder]
+
+        Dlg0={EBBB1DEF-8878-4CB8-BC0D-1196B30E7527}-SdWelcome-0
+
+        Count=9
+
+        Dlg1={EBBB1DEF-8878-4CB8-BC0D-1196B30E7527}-SdLicense2-0
+
+        Dlg2={EBBB1DEF-8878-4CB8-BC0D-1196B30E7527}-SdAskDestPath-0
+
+        Dlg3={EBBB1DEF-8878-4CB8-BC0D-1196B30E7527}-SdSelectFolder-0
+
+        Dlg4={EBBB1DEF-8878-4CB8-BC0D-1196B30E7527}-AskOptions-0
+
+        Dlg5={EBBB1DEF-8878-4CB8-BC0D-1196B30E7527}-AskOptions-1
+
+        Dlg6={EBBB1DEF-8878-4CB8-BC0D-1196B30E7527}-AskOptions-2
+
+        Dlg7={EBBB1DEF-8878-4CB8-BC0D-1196B30E7527}-SdStartCopy-0
+
+        Dlg8={EBBB1DEF-8878-4CB8-BC0D-1196B30E7527}-SdFinish-0
+
+        [{EBBB1DEF-8878-4CB8-BC0D-1196B30E7527}-SdWelcome-0]
+
+        Result=1
+
+        [{EBBB1DEF-8878-4CB8-BC0D-1196B30E7527}-SdLicense2-0]
+
+        Result=1
+
+        [{EBBB1DEF-8878-4CB8-BC0D-1196B30E7527}-SdAskDestPath-0]
+
+        szDir=C:\game\ANNO 1503
+
+        Result=1
+
+        [{EBBB1DEF-8878-4CB8-BC0D-1196B30E7527}-SdSelectFolder-0]
+
+        szFolder=ANNO 1503
+
+        Result=1
+
+        [{EBBB1DEF-8878-4CB8-BC0D-1196B30E7527}-AskOptions-0]
+
+        Result=1
+
+        Sel-0=0
+
+        Sel-1=1
+
+        [{EBBB1DEF-8878-4CB8-BC0D-1196B30E7527}-AskOptions-1]
+
+        Result=1
+
+        Sel-0=0
+
+        Sel-1=1
+
+        [{EBBB1DEF-8878-4CB8-BC0D-1196B30E7527}-AskOptions-2]
+
+        Result=1
+
+        Sel-0=0
+
+        Sel-1=1
+
+        [{EBBB1DEF-8878-4CB8-BC0D-1196B30E7527}-SdStartCopy-0]
+
+        Result=1
+
+        [Application]
+
+        Name=ANNO 1503
+
+        Version=1.05
+
+        Company=Sunflowers
+
+        Lang=0007
+
+        [{EBBB1DEF-8878-4CB8-BC0D-1196B30E7527}-SdFinish-0]
+
+        Result=1
+
+        bOpt1=0
+
+        bOpt2=0
+
+        '
+      description: Creating installer config file
+      file: $GAMEDIR/drive_c/setup.iss
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      args: /s /f1"C:\setup.iss"
+      description: Installing...
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Setting up winetricks...
+      app: windowmanagermanaged=n
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting up winetricks...
+      app: directmusic
+      silent: true
+      name: winetricks
+  system:
+    reset_desktop: true
+  wine:
+    version: tkg-4.0-x86_64
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/game/ANNO 1503/1503Startup.exe
+    arch: win32

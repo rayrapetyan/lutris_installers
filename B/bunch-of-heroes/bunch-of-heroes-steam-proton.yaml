@@ -1,0 +1,24 @@
+id: 12867
+game_id: 1100
+game_slug: bunch-of-heroes
+name: Bunch Of Heroes
+year: null
+user: Testman42
+runner: steam
+slug: bunch-of-heroes-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-04-16T21:03:59.330000Z'
+updated_at: '2019-05-19T07:25:09.563555Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 111400
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 111400

@@ -1,0 +1,19 @@
+name: Toy Story
+slug: toy-story
+year: 1995
+platforms:
+- name: Game Boy
+- name: Sega Genesis / Mega Drive
+- name: Super Nintendo
+- name: Windows
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/toy-story.jpg
+icon_url: null
+is_public: true
+updated: '2019-11-04T02:34:09.661289Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

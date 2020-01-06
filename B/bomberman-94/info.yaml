@@ -1,0 +1,19 @@
+name: Bomberman '94
+slug: bomberman-94
+year: 1993
+platforms:
+- name: TurboGrafx-16
+genres:
+- name: Action
+aliases:
+- slug: bomberman_94_special_version
+  name: Bomberman '94 Special Version
+- slug: bonbaman-94-taikenhan
+  name: "Bonb\u0101man '94 Taikenhan"
+banner_url: /games/banner/bomberman-94.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-04T12:37:56.102031Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

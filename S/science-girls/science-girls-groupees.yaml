@@ -1,0 +1,28 @@
+id: 6164
+game_id: 2859
+game_slug: science-girls
+name: Science Girls
+year: 2009
+user: FakeShemp
+runner: linux
+slug: science-girls-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-10-28T20:25:01.873164Z'
+updated_at: '2017-10-28T20:26:24.857210Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 269010
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: ScienceGirls!.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive

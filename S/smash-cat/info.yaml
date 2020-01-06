@@ -1,0 +1,15 @@
+name: Smash Cat
+slug: smash-cat
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: Shooter
+aliases: []
+banner_url: /games/banner/smash-cat.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:16.158164Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

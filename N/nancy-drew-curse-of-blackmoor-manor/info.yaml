@@ -1,0 +1,15 @@
+name: 'Nancy Drew: Curse of Blackmoor Manor'
+slug: nancy-drew-curse-of-blackmoor-manor
+year: -8
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/nancy-drew-curse-of-blackmoor-manor.jpg
+icon_url: /games/icon/nancy-drew-curse-of-blackmoor-manor.png
+is_public: false
+updated: '2019-07-20T03:04:22.246142Z'
+steamid: 31830
+gogslug: nancy_drew_curse_of_blackmoor_manor
+humblestoreid: ''

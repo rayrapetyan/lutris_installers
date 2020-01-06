@@ -1,0 +1,28 @@
+id: 7028
+game_id: 15695
+game_slug: daisy-chain
+name: Daisy Chain
+year: 2017
+user: FakeShemp
+runner: linux
+slug: daisy-chain-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2018-01-05T16:17:06.396331Z'
+updated_at: '2018-01-05T16:17:39.768122Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: DaisyChain.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

@@ -1,0 +1,35 @@
+id: 3582
+game_id: 9863
+game_slug: yo-frankie
+name: Yo Frankie!
+year: 2008
+user: dj_who
+runner: linux
+slug: yo-frankie-11-64bit
+version: 1.1-64bit
+description: ''
+notes: ''
+created_at: '2017-04-27T22:46:46.764000Z'
+updated_at: '2017-05-02T00:32:16.971681Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: blender-player
+  - extract:
+      dst: $GAMEDIR
+      file: yo-frankie
+  files:
+  - blender-player: http://download.blender.org/release/Blender2.49a/blender-2.49a-linux-glibc236-py26-x86_64.tar.bz2
+  - yo-frankie: https://download.blender.org/apricot/yofrankie_bge.zip
+  game:
+    args: $GAMEDIR/yofrankie/yofrankie-linux-x86_64.bin
+    exe: blenderplayer

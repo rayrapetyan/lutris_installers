@@ -1,0 +1,16 @@
+name: Dark Souls
+slug: dark-souls
+year: 2012
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: RPG
+aliases: []
+banner_url: /games/banner/dark-souls.jpg
+icon_url: /games/icon/dark-souls.png
+is_public: true
+updated: '2019-04-03T05:44:33.850366Z'
+steamid: 211420
+gogslug: ''
+humblestoreid: ''

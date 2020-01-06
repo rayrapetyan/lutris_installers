@@ -1,0 +1,28 @@
+id: 6977
+game_id: 10260
+game_slug: ultimate-marvel-vs-capcom-3
+name: Ultimate Marvel vs. Capcom 3
+year: 2017
+user: Griffen8280
+runner: winesteam
+slug: ultimate-marvel-vs-capcom-3-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-01-03T01:31:32.663000Z'
+updated_at: '2018-10-07T01:00:02.502819Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 357190
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    overrides:
+      xaudio2_7: n,b
+  game:
+    appid: 357190
+    arch: win64

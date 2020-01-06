@@ -1,0 +1,24 @@
+id: 4745
+game_id: 905
+game_slug: wasteland-angel
+name: Wasteland Angel
+year: null
+user: Funeral
+runner: winesteam
+slug: wasteland-angel-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-07-01T13:46:20.353023Z'
+updated_at: '2017-07-01T19:24:25.207157Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 46520
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 46520

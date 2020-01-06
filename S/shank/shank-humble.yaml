@@ -1,0 +1,34 @@
+id: 4080
+game_id: 256
+game_slug: shank
+name: Shank
+year: 2010
+user: FakeShemp
+runner: linux
+slug: shank-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-03T09:26:10.676000Z'
+updated_at: '2017-06-04T22:13:59.952764Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 6120
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Shank
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data
+      dst: $GAMEDIR
+  - chmodx: $GAMEDIR/Shank
+  files:
+  - file1: N/A:Please select the Humble installer

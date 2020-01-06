@@ -1,0 +1,25 @@
+name: Cannon Fodder
+slug: cannon-fodder
+year: 1993
+platforms:
+- name: 3DO
+- name: Amiga
+- name: Atari Jaguar
+- name: Atari ST
+- name: Linux
+- name: MS-DOS
+- name: Nintendo Game Boy Color
+- name: Sega Genesis / Mega Drive
+- name: Super Nintendo
+genres:
+- name: Action
+- name: Real-time tactics
+- name: Shooter
+aliases: []
+banner_url: /games/banner/cannon-fodder.jpg
+icon_url: null
+is_public: true
+updated: '2019-03-01T19:15:02.633830Z'
+steamid: null
+gogslug: cannon_fodder
+humblestoreid: ''

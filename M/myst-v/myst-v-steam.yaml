@@ -1,0 +1,30 @@
+id: 8621
+game_id: 412
+game_slug: myst-v
+name: Myst V
+year: null
+user: Jozua
+runner: winesteam
+slug: myst-v-steam
+version: Steam
+description: null
+notes: Opens in a low resolution - changing the resolution may not be supported on
+  your graphics card (wasn't on mine)
+created_at: '2018-06-09T08:46:22.917000Z'
+updated_at: '2018-10-25T12:07:23.349105Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 208110
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  system:
+    disable_monitoring: true
+    disable_runtime: true
+    pulse_latency: true
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 208110

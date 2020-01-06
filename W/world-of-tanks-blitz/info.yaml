@@ -1,0 +1,21 @@
+name: World of Tanks Blitz
+slug: world-of-tanks-blitz
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: MMO
+- name: Shooter
+- name: Simulation
+- name: Wargame
+aliases:
+- slug: world-of-tanks-blitz-mmo
+  name: World of Tanks Blitz MMO
+banner_url: /games/banner/world-of-tanks-blitz.jpg
+icon_url: /games/icon/world-of-tanks-blitz.png
+is_public: true
+updated: '2019-02-11T05:43:29.699183Z'
+steamid: 444200
+gogslug: ''
+humblestoreid: ''

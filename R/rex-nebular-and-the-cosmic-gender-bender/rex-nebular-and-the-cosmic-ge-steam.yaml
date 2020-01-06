@@ -1,0 +1,24 @@
+id: 1133
+game_id: 3509
+game_slug: rex-nebular-and-the-cosmic-gender-bender
+name: Rex Nebular and the Cosmic Gender Bender
+year: null
+user: Xodetaetl
+runner: steam
+slug: rex-nebular-and-the-cosmic-ge-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-11-25T10:34:23.900000Z'
+updated_at: '2014-11-25T10:45:23.353000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 328430
+gogid: 1207662113
+gogslug: rex_nebular_and_the_cosmic_gender_bender
+humblestoreid: ''
+script:
+  game:
+    appid: 328430

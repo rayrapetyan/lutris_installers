@@ -1,0 +1,18 @@
+name: Combat Wings
+slug: combat-wings
+year: 2005
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Flight
+- name: Simulation
+- name: Wargame
+aliases: []
+banner_url: /games/banner/combat-wings.jpg
+icon_url: null
+is_public: true
+updated: '2019-07-23T03:41:27.413567Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

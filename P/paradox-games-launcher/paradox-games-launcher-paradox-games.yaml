@@ -1,0 +1,30 @@
+id: 8982
+game_id: 19667
+game_slug: paradox-games-launcher
+name: Paradox Games Launcher
+year: 2018
+user: TuiorGames
+runner: linux
+slug: paradox-games-launcher-paradox-games
+version: Paradox Games
+description: null
+notes: Requires <tt>libgconf-2-4</tt>
+created_at: '2018-07-02T12:50:04.844000Z'
+updated_at: '2019-04-27T05:13:50.348811Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      file: archive
+  files:
+  - archive: http://launcher.paradoxplaza.com/linux_launcher
+  game:
+    exe: null

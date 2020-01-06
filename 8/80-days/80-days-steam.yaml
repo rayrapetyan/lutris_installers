@@ -1,0 +1,24 @@
+id: 3209
+game_id: 6286
+game_slug: 80-days
+name: 80 Days
+year: 2015
+user: bradgy
+runner: winesteam
+slug: 80-days-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-01-28T15:27:06.984447Z'
+updated_at: '2017-03-29T21:05:36.666260Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 381780
+gogid: 1441269533
+gogslug: 80_days
+humblestoreid: ''
+script:
+  game:
+    appid: 381780

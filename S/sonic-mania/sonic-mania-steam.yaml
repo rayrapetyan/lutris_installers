@@ -1,0 +1,24 @@
+id: 5589
+game_id: 13672
+game_slug: sonic-mania
+name: Sonic Mania
+year: 2017
+user: XoraTheImmortal
+runner: winesteam
+slug: sonic-mania-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-09-04T19:47:51.241723Z'
+updated_at: '2017-09-05T01:43:52.071291Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 584400
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 584400

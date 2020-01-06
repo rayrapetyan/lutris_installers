@@ -1,0 +1,15 @@
+name: Ultimate Doom Builder
+slug: gzdoom-builder-bugfix
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Tool
+aliases: []
+banner_url: /games/banner/gzdoom-builder-bugfix.jpg
+icon_url: null
+is_public: true
+updated: '2020-01-01T18:44:11.157288Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

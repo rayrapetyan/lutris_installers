@@ -1,0 +1,16 @@
+name: Flight Sim World
+slug: flight-sim-world
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Flight
+- name: Simulation
+aliases: []
+banner_url: /games/banner/flight-sim-world.jpg
+icon_url: /games/icon/flight-sim-world.png
+is_public: true
+updated: '2019-04-25T04:40:04.146534Z'
+steamid: 389280
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,15 @@
+name: Slime Rancher
+slug: slime-rancher
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Life simulation
+aliases: []
+banner_url: /games/banner/slime-rancher.jpg
+icon_url: /games/icon/slime-rancher.png
+is_public: true
+updated: '2019-01-23T08:31:15.726818Z'
+steamid: 433340
+gogslug: slime_rancher
+humblestoreid: slime-rancher

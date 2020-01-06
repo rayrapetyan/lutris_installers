@@ -1,0 +1,17 @@
+name: The Final Fantasy Legend
+slug: the-final-fantasy-legend
+year: 1989
+platforms:
+- name: Bandai WonderSwan Color
+- name: Game Boy
+genres:
+- name: Role-playing
+- name: RPG
+aliases: []
+banner_url: /games/banner/the-final-fantasy-legend.jpg
+icon_url: null
+is_public: false
+updated: '2020-01-06T15:45:27.269305Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

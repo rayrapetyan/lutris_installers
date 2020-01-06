@@ -1,0 +1,31 @@
+id: 10802
+game_id: 1156
+game_slug: death-to-spies
+name: Death to Spies
+year: null
+user: bumba
+runner: steam
+slug: death-to-spies-steam-proton
+version: Steam Proton
+description: null
+notes: "* In Steam settings / \"Steam Play\": tick each checkbox and select the latest\
+  \ <i>Proton</i> version.\r\n* This version won't play intro video (credits).\r\n\
+  * Enable Vsync to avoid mouse glitching on menu items."
+created_at: '2018-11-07T16:43:11.107000Z'
+updated_at: '2018-11-09T11:37:33.634758Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 9800
+gogid: 1426249888
+gogslug: death_to_spies
+humblestoreid: ''
+script:
+  installer:
+  - execute:
+      command: mkdir "$GAMEDIR/videos" & mv "$GAMEDIR/intro_1.vid" "$GAMEDIR/intro_2.vid"
+        "$GAMEDIR/intro_3.vid" "$GAMEDIR/videos"
+      description: moving non-playable video files
+  game:
+    appid: 9800

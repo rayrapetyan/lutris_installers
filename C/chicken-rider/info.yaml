@@ -1,0 +1,15 @@
+name: Chicken Rider
+slug: chicken-rider
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/chicken-rider.jpg
+icon_url: /games/icon/chicken-rider.png
+is_public: true
+updated: '2019-01-23T08:28:51.078481Z'
+steamid: 871550
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,29 @@
+id: 8788
+game_id: 19385
+game_slug: frontier-first-encounters
+name: 'Frontier: First Encounters'
+year: 1995
+user: Wompus
+runner: dosbox
+slug: frontier-first-encounters-shareware
+version: Shareware
+description: null
+notes: ''
+created_at: '2018-06-18T20:55:31.400000Z'
+updated_at: '2018-06-19T04:44:18.698124Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: $GAMEDIR/firstenc.bat
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $file_id
+  files:
+  - file_id: http://www.frontierastro.co.uk/Files/FIRSTENC.zip

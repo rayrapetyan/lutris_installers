@@ -1,0 +1,42 @@
+id: 23
+game_id: 36
+game_slug: stealth-bastard-deluxe
+name: Stealth Bastard Deluxe
+year: 2012
+user: strider
+runner: linux
+slug: stealth-bastard-deluxe-humble-bundle
+version: Humble Bundle
+description: DRM Free version from Humble Bundle
+notes: ''
+created_at: '2013-07-03T20:07:31Z'
+updated_at: '2014-11-17T19:01:12.199000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 209190
+gogid: 1430239690
+gogslug: stealth_bastard_deluxe_complete_edition
+humblestoreid: stealth-bastard-deluxe
+script:
+  exe: StealthBastardDeluxe/StealthBastardDeluxe
+  installer:
+  - extract:
+      nomerge: true
+      dst: $GAMEDIR
+      file: sbd-game
+  - chmodx: $GAMEDIR/StealthBastardDeluxe/StealthBastardDeluxe
+  - mkdir: $GAMEDIR/lib
+  - extract:
+      dst: $GAMEDIR/lib
+      file: libssl
+  - extract:
+      dst: $GAMEDIR/lib
+      file: libcrypto
+  files:
+  - sbd-game: N/A:Select the game's archive downloaded from Humble Bundle
+  - libssl: http://lutris.net/files/lib32/libssl.so.1.0.0.gz
+  - libcrypto: http://lutris.net/files/lib32/libcrypto.so.1.0.0.gz
+  game:
+    ld_library_path: $GAMEDIR/lib

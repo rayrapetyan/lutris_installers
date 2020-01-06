@@ -1,0 +1,16 @@
+name: Treasure Adventure Game
+slug: treasure-adventure-game
+year: 2011
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Platform
+aliases: []
+banner_url: /games/banner/treasure-adventure-game.jpg
+icon_url: /games/icon/treasure-adventure-game.png
+is_public: true
+updated: '2019-12-22T10:10:06.269487Z'
+steamid: null
+gogslug: treasure_adventure_game
+humblestoreid: ''

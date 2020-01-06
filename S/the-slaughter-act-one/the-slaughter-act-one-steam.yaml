@@ -1,0 +1,24 @@
+id: 14132
+game_id: 8933
+game_slug: the-slaughter-act-one
+name: 'The Slaughter: Act One'
+year: 2016
+user: kimchitea
+runner: steam
+slug: the-slaughter-act-one-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-06-17T03:41:42.639589Z'
+updated_at: '2019-10-10T23:56:38.013506Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 356390
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 356390

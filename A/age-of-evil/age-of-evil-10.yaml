@@ -1,0 +1,32 @@
+id: 4833
+game_id: 4110
+game_slug: age-of-evil
+name: Age of Evil
+year: 2003
+user: FakeShemp
+runner: dosbox
+slug: age-of-evil-10
+version: '1.0'
+description: ''
+notes: ''
+created_at: '2017-07-05T20:42:34.218000Z'
+updated_at: '2017-07-09T20:08:46.966258Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: duke-nukem-3d
+  installer:
+  - extract:
+      dst: $GAMEDIR/data
+      file: $file1
+  - task:
+      executable: $GAMEDIR/data/Evil_Install.bat
+      name: dosexec
+  files:
+  - file1: http://www.clawofcat.com/yahtzee/evil.zip

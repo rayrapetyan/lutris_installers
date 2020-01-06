@@ -1,0 +1,24 @@
+id: 3497
+game_id: 578
+game_slug: operation-flashpoint-dragon-rising
+name: 'Operation Flashpoint: Dragon Rising'
+year: 2009
+user: deliciousfudge
+runner: winesteam
+slug: operation-flashpoint-dragon-r-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-04-07T00:21:04.144000Z'
+updated_at: '2017-04-11T20:24:57.010365Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 12830
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 12830

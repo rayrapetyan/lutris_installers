@@ -1,0 +1,16 @@
+name: Syndicate Plus
+slug: syndicate-plus
+year: 1993
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Real-time tactics
+aliases: []
+banner_url: /games/banner/syndicate-plus.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:33.995046Z'
+steamid: null
+gogslug: syndicate
+humblestoreid: ''

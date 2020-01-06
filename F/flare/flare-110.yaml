@@ -1,0 +1,32 @@
+id: 8969
+game_id: 9005
+game_slug: flare
+name: Flare
+year: 2010
+user: basxto
+runner: linux
+slug: flare-110
+version: '1.10'
+description: Only 64 bit is available
+notes: "libSDL2-mixer should be manually installed, as the bundled library returns\
+  \ undefined object, preventing launch.\r\nFlare will always report that there is\
+  \ another instance running."
+created_at: '2018-07-01T07:28:53.453000Z'
+updated_at: '2019-09-09T00:42:41.167934Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: flare.sh
+  installer:
+  - extract:
+      src: $game
+      format: tgz
+      dst: $GAMEDIR/
+  files:
+  - game: https://sourceforge.net/projects/flare-game/files/Linux/flare-v1.10.tar.gz/download

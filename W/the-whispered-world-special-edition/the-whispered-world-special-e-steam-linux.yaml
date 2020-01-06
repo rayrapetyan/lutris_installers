@@ -1,0 +1,24 @@
+id: 11712
+game_id: 2237
+game_slug: the-whispered-world-special-edition
+name: The Whispered World Special Edition
+year: 2014
+user: orestes1986
+runner: steam
+slug: the-whispered-world-special-e-steam-linux
+version: Steam (Linux)
+description: null
+notes: ''
+created_at: '2019-01-25T06:07:01.678000Z'
+updated_at: '2019-01-26T02:26:03.959698Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 268540
+gogid: 1207659019
+gogslug: the_whispered_world_special_edition
+humblestoreid: ''
+script:
+  game:
+    appid: 268540

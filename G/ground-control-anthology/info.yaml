@@ -1,0 +1,17 @@
+name: Ground Control Anthology
+slug: ground-control-anthology
+year: 2000
+platforms:
+- name: Windows
+genres:
+- name: Real-time
+- name: Sci-fi
+- name: Strategy
+aliases: []
+banner_url: /games/banner/ground-control-anthology.jpg
+icon_url: /games/icon/ground-control-anthology.png
+is_public: false
+updated: '2019-01-23T08:29:43.954837Z'
+steamid: 254820
+gogslug: ground_control_expansion
+humblestoreid: ''

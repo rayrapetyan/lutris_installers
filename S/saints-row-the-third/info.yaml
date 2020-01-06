@@ -1,0 +1,16 @@
+name: 'Saints Row: The Third'
+slug: saints-row-the-third
+year: 2011
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Sandbox
+aliases: []
+banner_url: /games/banner/saints-row-the-third.jpg
+icon_url: /games/icon/saints-row-the-third.png
+is_public: true
+updated: '2019-01-23T08:31:06.386365Z'
+steamid: 55230
+gogslug: saints_row_the_third_the_full_package
+humblestoreid: saints-row-the-third-the-full-package

@@ -1,0 +1,44 @@
+id: 2011
+game_id: 264
+game_slug: legend-of-grimrock
+name: Legend of Grimrock
+year: 2012
+user: Juan
+runner: linux
+slug: legend-of-grimrock-humble-bundle
+version: Humble Bundle
+description: null
+notes: Default executable is set for 64 bit systems. If running on a 32 bit system,
+  you need to manually set "Grimrock/Grimrock.bin.x86" as the executable.
+created_at: '2016-03-05T22:47:49.672000Z'
+updated_at: '2018-06-24T04:02:16.631188Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 207170
+gogid: 1207659016
+gogslug: legend_of_grimrock
+humblestoreid: legend-of-grimrock
+script:
+  installer:
+  - chmodx: $game
+  - execute:
+      args: -u -r -d $GAMEDIR -b $GAMEDIR --nox11
+      file: $game
+  - write_file:
+      content: '#!/bin/sh
+
+        exe=./Grimrock/Grimrock.bin.x86
+
+        ( [ -e ${exe}_64 ] && ${exe}_64 ) ||
+
+        ( [ -e ${exe} ] && ${exe} )
+
+        '
+      file: $GAMEDIR/start.sh
+  - chmodx: $GAMEDIR/start.sh
+  files:
+  - game: 'N/A: Select the .sh archive downloaded from Humble Bundle'
+  game:
+    exe: $GAMEDIR/start.sh

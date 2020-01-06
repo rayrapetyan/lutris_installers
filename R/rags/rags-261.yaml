@@ -1,0 +1,42 @@
+id: 13180
+game_id: 27059
+game_slug: rags
+name: RAGs
+year: null
+user: BlackDeath
+runner: wine
+slug: rags-261
+version: 2.6.1
+description: null
+notes: ''
+created_at: '2019-04-28T10:26:19.281486Z'
+updated_at: '2019-05-18T07:53:28.820336Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .Net
+      app: dotnet45
+      silent: true
+      name: winetricks
+  - task:
+      executable: installRAGS
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - installRAGS: http://ragsgame.com/downloads/RagsSetup.2.6.1.exe
+  game:
+    prefix: $GAMEDIR
+    arch: win32

@@ -1,0 +1,24 @@
+id: 7972
+game_id: 6456
+game_slug: pesadelo-regressao
+name: "Pesadelo - Regress\xE3o"
+year: 2016
+user: TuiorGames
+runner: winesteam
+slug: pesadelo-regressao-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-04-23T12:04:35.503007Z'
+updated_at: '2018-04-30T06:25:26.001526Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 378930
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 378930

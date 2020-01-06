@@ -1,0 +1,24 @@
+id: 7370
+game_id: 3954
+game_slug: heroes-of-might-magic-iii-hd-edition
+name: Heroes of Might & Magic III - HD Edition
+year: 2015
+user: eragonas5555
+runner: winesteam
+slug: heroes-of-might-magic-iii-hd-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-02-22T11:52:10.795318Z'
+updated_at: '2018-03-04T23:25:32.793334Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 297000
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 297000

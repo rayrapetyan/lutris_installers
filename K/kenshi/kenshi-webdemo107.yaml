@@ -1,0 +1,66 @@
+id: 11538
+game_id: 1058
+game_slug: kenshi
+name: Kenshi
+year: 2018
+user: Kupferdrache
+runner: wine
+slug: kenshi-webdemo107
+version: Web/Demo1.07
+description: A script for the web version from their Forum. <a href="https://www.lofigames.com/phpBB3/viewtopic.php?f=12&t=8428">Click
+  here to download.</a>
+notes: Seems to have no installer this way, still testing all dependencies seem to
+  been installed. Manual copy Kenshie's unpacked files in drive_c/Program Files for
+  now.
+created_at: '2019-01-10T10:36:27.332000Z'
+updated_at: '2019-02-16T03:19:49.574809Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 233860
+gogid: 1193046833
+gogslug: kenshi
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - extract:
+      dst: $CACHE/dxsetup
+      file: dx2010
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR
+      args: /silent
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: corefonts ogg physx vcrun2005 vcrun2008 vcrun2010 vcrun2012 vcrun2013 vcrun2015
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Have patience while we install .NET 4.7.2.
+      app: dotnet472 win7
+      arch: win64
+      name: winetricks
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Kenshi
+      file: zip
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Kenshi/kenshi_x64.exe
+    arch: win64
+  system:
+    env:
+      DXVK_HUD: 0
+  wine:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  files:
+  - dx2010: https://lutris.net/files/tools/directx-2010.tar.gz
+  - zip: N/A:Select kenshi_1.0.7.zip downloaded from the torrent

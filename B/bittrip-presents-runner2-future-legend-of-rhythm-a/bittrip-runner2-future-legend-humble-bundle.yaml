@@ -1,0 +1,28 @@
+id: 1102
+game_id: 487
+game_slug: bittrip-presents-runner2-future-legend-of-rhythm-a
+name: 'BIT.TRIP Runner2: Future Legend of Rhythm Alien'
+year: 2013
+user: RobLoach
+runner: linux
+slug: bittrip-runner2-future-legend-humble-bundle
+version: Humble Bundle
+description: ''
+notes: ''
+created_at: '2014-11-17T21:26:04.293000Z'
+updated_at: '2014-11-24T12:18:15.658000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 218060
+gogid: 1460734831
+gogslug: bittrip_presents_runner2_future_legend_of_rhythm_alien
+humblestoreid: bittrip-presents-runner2-future-legend-of-rhythm-alien
+script:
+  exe: runner2/runner2
+  installer:
+  - extract:
+      file: game
+  files:
+  - game: N/A:Select the game's archive downloaded from Humble Bundle

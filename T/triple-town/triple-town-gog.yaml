@@ -1,0 +1,37 @@
+id: 11561
+game_id: 2880
+game_slug: triple-town
+name: Triple Town
+year: 2012
+user: Nobu
+runner: wine
+slug: triple-town-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-01-12T18:02:01.534000Z'
+updated_at: '2019-10-28T20:59:10.741956Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: 209950
+gogid: 1207660023
+gogslug: triple_town
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: installer
+      description: Running Setup
+      name: wineexec
+  files:
+  - installer: N/A:Select the EXE downloaded from GOG
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Triple Town/TripleTown.exe
+    arch: win64

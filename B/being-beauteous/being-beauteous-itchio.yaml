@@ -1,0 +1,28 @@
+id: 7637
+game_id: 17559
+game_slug: being-beauteous
+name: Being Beauteous
+year: 2015
+user: oscararg
+runner: linux
+slug: being-beauteous-itchio
+version: Itchio
+description: null
+notes: ''
+created_at: '2018-03-24T06:13:12.542674Z'
+updated_at: '2018-03-26T20:15:28.269995Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Being Beauteous.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

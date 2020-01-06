@@ -1,0 +1,42 @@
+id: 1367
+game_id: 3960
+game_slug: ned-et-les-maki
+name: Ned et les maki
+year: 2014
+user: strider
+runner: linux
+slug: ned-et-les-maki-bundled-java
+version: Bundled Java
+description: ''
+notes: "- Fullscreen game will only show half the game on dual monitors, use the Restrict\
+  \ to display option in Lutris\r\n- Sound does not work"
+created_at: '2015-03-04T11:25:55.224000Z'
+updated_at: '2016-08-11T20:48:22.549517Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: jre
+  - move:
+      src: gamejar
+      dst: $GAMEDIR
+  - substitute_vars:
+      file: installproperties
+  - chmodx: gamejar
+  - execute:
+      args: -jar $GAMEDIR/nedetlesmaki-installer-0.3.jar -options $installproperties
+      file: $GAMEDIR/bin/java
+  files:
+  - gamejar: http://static.geekygoblin.org/ned-et-les-maki/release/nedetlesmaki-installer-0.3.jar
+  - jre: https://lutris.net/files/runners/jre-7u25-linux-x64.tar.gz
+  - installproperties: https://lutris.net/files/games/ned-et-les-maki/ned-et-les-maki.properties
+  game:
+    exe: run_linux.sh

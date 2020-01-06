@@ -1,0 +1,15 @@
+name: Sacrifice
+slug: sacrifice
+year: 2000
+platforms:
+- name: Windows
+genres:
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/sacrifice.jpg
+icon_url: /games/icon/sacrifice.png
+is_public: true
+updated: '2019-01-23T08:31:06.060386Z'
+steamid: 38440
+gogslug: sacrifice
+humblestoreid: ''

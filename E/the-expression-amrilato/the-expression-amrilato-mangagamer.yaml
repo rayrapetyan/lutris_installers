@@ -1,0 +1,31 @@
+id: 14086
+game_id: 27955
+game_slug: the-expression-amrilato
+name: The Expression Amrilato
+year: 2019
+user: kimchitea
+runner: linux
+slug: the-expression-amrilato-mangagamer
+version: MangaGamer
+description: null
+notes: ''
+created_at: '2019-06-14T14:28:09.978000Z'
+updated_at: '2019-06-17T00:20:38.022611Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: TheExpressionAmrilato.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/TheExpressionAmrilato.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/TheExpressionAmrilato
+  - chmodx: $GAMEDIR/lib/linux-x86_64/TheExpressionAmrilato
+  files:
+  - file1: N/A:Please select the game archive

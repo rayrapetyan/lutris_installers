@@ -1,0 +1,15 @@
+name: Nemesis
+slug: nemesis
+year: 1990
+platforms:
+- name: Game Boy
+genres:
+- name: Shooter
+aliases: []
+banner_url: /games/banner/nemesis.jpg
+icon_url: null
+is_public: true
+updated: '2020-01-01T06:51:51.528910Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

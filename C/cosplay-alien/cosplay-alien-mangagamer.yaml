@@ -1,0 +1,40 @@
+id: 4509
+game_id: 11817
+game_slug: cosplay-alien
+name: Cosplay Alien
+year: 2005
+user: FakeShemp
+runner: wine
+slug: cosplay-alien-mangagamer
+version: MangaGamer
+description: ''
+notes: ''
+created_at: '2017-06-19T19:54:25.146000Z'
+updated_at: '2018-05-19T03:41:50.694967Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: dsound
+      name: winetricks
+  files:
+  - file1: N/A:Please select the MangaGamer archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/SCORE/Cosplay Alien/lcsebody.exe
+    arch: win32

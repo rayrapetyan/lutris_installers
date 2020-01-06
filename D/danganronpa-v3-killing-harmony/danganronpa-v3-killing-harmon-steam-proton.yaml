@@ -1,0 +1,24 @@
+id: 15821
+game_id: 15059
+game_slug: danganronpa-v3-killing-harmony
+name: 'Danganronpa V3: Killing Harmony'
+year: 2017
+user: kimchitea
+runner: steam
+slug: danganronpa-v3-killing-harmon-steam-proton
+version: Steam Proton
+description: null
+notes: 'Install the Media Foundation workaround: <a href="https://github.com/z0z0z/mf-install">https://github.com/z0z0z/mf-install</a>'
+created_at: '2019-09-27T12:46:08.361000Z'
+updated_at: '2019-10-11T01:56:02.966288Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 567640
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 567640

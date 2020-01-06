@@ -1,0 +1,35 @@
+id: 15774
+game_id: 19975
+game_slug: narbacular-drop
+name: Narbacular Drop
+year: 2005
+user: Testman42
+runner: wine
+slug: narbacular-drop-release
+version: release
+description: Downloads and installs the game from official website
+notes: ''
+created_at: '2019-09-24T18:35:27.413000Z'
+updated_at: '2019-11-01T02:33:55.686348Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - setup: http://www.nuclearmonkeysoftware.com/downloads/narbacular_drop.exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Narbacular Drop/Narbacular Drop.exe

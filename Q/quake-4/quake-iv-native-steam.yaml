@@ -1,0 +1,37 @@
+id: 1778
+game_id: 879
+game_slug: quake-4
+name: Quake IV
+year: 2005
+user: strider
+runner: linux
+slug: quake-iv-native-steam
+version: Native + Steam
+description: null
+notes: "Run the game at least once using Wine to generate the CD key then copy the\
+  \ key in q4base/quake4key to ~/.quake4/q4base/\r\nIf you experience audio lag, set\
+  \ padsp as the command prefix in the system options."
+created_at: '2015-12-28T21:04:00.262000Z'
+updated_at: '2018-07-05T20:13:05.287420Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 2210
+gogid: 1108791957
+gogslug: quake_4
+humblestoreid: ''
+script:
+  exe: quake4
+  installer:
+  - merge:
+      src: steam-data
+      dst: $GAMEDIR/q4base
+  - chmodx: binaries
+  - execute:
+      args: -- -i $GAMEDIR -b $GAMEDIR
+      file: binaries
+      terminal: true
+  files:
+  - binaries: https://lutris.net/files/games/quake-4/quake4-linux-1.4.2.x86.run
+  - steam-data: $WINESTEAM:2210:q4base

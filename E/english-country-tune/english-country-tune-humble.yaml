@@ -1,0 +1,29 @@
+id: 4102
+game_id: 265
+game_slug: english-country-tune
+name: English Country Tune
+year: null
+user: FakeShemp
+runner: linux
+slug: english-country-tune-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-04T17:13:52.073687Z'
+updated_at: '2017-06-04T22:16:34.079230Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 207570
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: English Country Tune.x86
+  installer:
+  - extract:
+      file: $file1
+  exe64: English Country Tune.x86_64
+  files:
+  - file1: N/A:Please select the Humble archive

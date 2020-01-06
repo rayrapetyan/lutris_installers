@@ -1,0 +1,24 @@
+id: 4945
+game_id: 12173
+game_slug: blue-collar-astronaut
+name: Blue-Collar Astronaut
+year: null
+user: FakeShemp
+runner: steam
+slug: blue-collar-astronaut-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-07-10T17:45:34.495730Z'
+updated_at: '2017-08-27T21:49:45.057327Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 414760
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 414760

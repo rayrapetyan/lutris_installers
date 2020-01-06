@@ -1,0 +1,15 @@
+name: Zup!
+slug: zup
+year: 2011
+platforms:
+- name: Windows
+genres:
+- name: Casual
+aliases: []
+banner_url: /games/banner/zup.jpg
+icon_url: /games/icon/zup.png
+is_public: true
+updated: '2019-03-25T06:04:28.963491Z'
+steamid: 533300
+gogslug: ''
+humblestoreid: ''

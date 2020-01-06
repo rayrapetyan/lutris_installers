@@ -1,0 +1,16 @@
+name: 'Beatbuddy: Tale of the Guardians'
+slug: beatbuddy-tale-of-the-guardians
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/beatbuddy-tale-of-the-guardians.jpg
+icon_url: /games/icon/beatbuddy-tale-of-the-guardians.png
+is_public: true
+updated: '2019-01-23T08:28:34.116266Z'
+steamid: 231040
+gogslug: beatbuddy_tale_of_the_guardians
+humblestoreid: beatbuddy

@@ -1,0 +1,24 @@
+id: 613
+game_id: 1350
+game_slug: battle-worlds-kronos
+name: 'Battle Worlds: Kronos'
+year: null
+user: Xodetaetl
+runner: steam
+slug: battle-worlds-kronos-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-14T21:32:01.215000Z'
+updated_at: '2014-09-14T21:47:57.692000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 237470
+gogid: 1207660124
+gogslug: battle_worlds_kronos
+humblestoreid: ''
+script:
+  game:
+    appid: 237470

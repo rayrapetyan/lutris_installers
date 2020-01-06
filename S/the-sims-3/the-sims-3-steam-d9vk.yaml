@@ -1,0 +1,73 @@
+id: 13600
+game_id: 954
+game_slug: the-sims-3
+name: The Sims 3
+year: 2009
+user: citrusalex
+runner: winesteam
+slug: the-sims-3-steam-d9vk
+version: Steam | D9VK
+description: Significantly improves performance by utilizing Vulkan
+notes: "- If Steam is stuck at installing VC Redist, remove \"_install.vdf\" files\
+  \ inside game's steam folder.\r\n- This installer automatically adds ErrorTrap and\
+  \ Overwatch mods by nRaas to improve game's stability. Remove if you experience\
+  \ issues, but it's highly suggested to leave them."
+created_at: '2019-05-18T10:34:25.006000Z'
+updated_at: '2019-10-28T20:10:16.791665Z'
+draft: false
+published: true
+published_by: 51687
+rating: '4'
+steamid: 47890
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      install_mono: false
+      description: Creating prefix
+      arch: win64
+      name: create_prefix
+  - execute:
+      command: ln -s "$GAMEDIR/prefix" "$CACHE/prefix"
+  - task:
+      prefix: $CACHE/prefix
+      description: Installing dependencies
+      arch: win64
+      app: dotnet20 d3dcompiler_43 d3dx9
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $CACHE/prefix
+      description: Setting version to XP for Sims3LauncherW...
+      arch: win64
+      key: Version
+      value: winxp
+      path: HKEY_CURRENT_USER\Software\Wine\AppDefaults\Sims3LauncherW.exe
+      name: set_regedit
+  - task:
+      prefix: $CACHE/prefix
+      description: Setting version to 7 for default...
+      arch: win64
+      key: Version
+      value: win7
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  - task:
+      prefix: $CACHE/prefix
+      name: winekill
+  winesteam:
+    d9vk: true
+    esync: true
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR/prefix
+      DXVK_STATE_CACHE_PATH: $GAMEDIR/prefix
+      __GL_SHADER_DISK_CACHE: 1
+      WINE_LARGE_ADDRESS_AWARE: 1
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 47890
+    arch: win64

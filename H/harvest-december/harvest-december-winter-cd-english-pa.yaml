@@ -1,0 +1,43 @@
+id: 9552
+game_id: 20554
+game_slug: harvest-december
+name: Harvest December
+year: 2007
+user: kimchitea
+runner: wine
+slug: harvest-december-winter-cd-english-pa
+version: Winter - CD + English patch
+description: "Volume 1 \u53CE\u7A6B\u306E\u5341\u4E8C\u6708\uFF5E\u51AC\uFF5E"
+notes: <a href="https://georgehenryshaft.wordpress.com/2017/06/21/project-3-talestune-release/">Patch
+  info</a>
+created_at: '2018-08-03T14:03:45.171000Z'
+updated_at: '2018-08-04T08:30:21.729304Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: $setup
+      dst: $CACHE/setup.zip
+  - extract:
+      src: $CACHE/setup.zip
+      dst: $GAMEDIR/drive_c/Program Files/talestune/harvest december 1
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/talestune/harvest december 1
+      file: $patch
+  system:
+    env:
+      LC_ALL: ja_JP.UTF-8
+  files:
+  - setup: N/A:Please select the setup.exe file
+  - patch: N/A:Please select the English patch archive
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/talestune/harvest december 1/harvest12_winter.exe
+    arch: win32

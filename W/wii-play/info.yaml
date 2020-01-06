@@ -1,0 +1,15 @@
+name: Wii Play
+slug: wii-play
+year: 2006
+platforms:
+- name: Nintendo Wii
+genres:
+- name: Party
+aliases: []
+banner_url: /games/banner/wii-play.jpg
+icon_url: null
+is_public: false
+updated: '2020-01-05T12:06:09.978459Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

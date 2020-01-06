@@ -1,0 +1,17 @@
+name: Hollow Knight
+slug: hollow-knight
+year: 2017
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/hollow-knight.jpg
+icon_url: /games/icon/hollow-knight.png
+is_public: true
+updated: '2019-01-23T08:29:51.604979Z'
+steamid: 367520
+gogslug: hollow_knight
+humblestoreid: ''

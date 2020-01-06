@@ -1,0 +1,24 @@
+id: 9759
+game_id: 20117
+game_slug: odysseus-kosmos-and-his-robot-quest-episode-1
+name: Odysseus Kosmos and his Robot Quest - Episode 1
+year: null
+user: soredake
+runner: winesteam
+slug: odysseus-kosmos-and-his-robot-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-16T06:29:44.688104Z'
+updated_at: '2018-08-17T05:58:12.899630Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 769920
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 769920

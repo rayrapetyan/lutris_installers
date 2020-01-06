@@ -1,0 +1,16 @@
+name: Return of the Tentacle
+slug: return-of-the-tentacle
+year: 2018
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/return-of-the-tentacle.jpg
+icon_url: /games/icon/return-of-the-tentacle.png
+is_public: true
+updated: '2019-01-23T08:30:58.646479Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

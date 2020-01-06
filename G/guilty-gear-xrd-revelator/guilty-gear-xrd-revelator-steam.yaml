@@ -1,0 +1,24 @@
+id: 8940
+game_id: 11074
+game_slug: guilty-gear-xrd-revelator-
+name: GUILTY GEAR Xrd -REVELATOR-
+year: 2016
+user: Mar2ck
+runner: winesteam
+slug: guilty-gear-xrd-revelator-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-28T14:39:43.548281Z'
+updated_at: '2018-06-28T17:08:02.404174Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 520440
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 520440

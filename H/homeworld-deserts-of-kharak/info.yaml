@@ -1,0 +1,15 @@
+name: 'Homeworld: Deserts of Kharak'
+slug: homeworld-deserts-of-kharak
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Strategy
+aliases: []
+banner_url: /games/banner/homeworld-deserts-of-kharak.jpg
+icon_url: /games/icon/homeworld-deserts-of-kharak.png
+is_public: true
+updated: '2019-10-18T22:49:29.776704Z'
+steamid: 281610
+gogslug: homeworld_deserts_of_kharak
+humblestoreid: ''

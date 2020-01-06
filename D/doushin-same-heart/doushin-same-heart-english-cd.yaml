@@ -1,0 +1,41 @@
+id: 9694
+game_id: 20515
+game_slug: doushin-same-heart
+name: Doushin - Same Heart
+year: 2006
+user: kimchitea
+runner: wine
+slug: doushin-same-heart-english-cd
+version: English CD
+description: null
+notes: ''
+created_at: '2018-08-11T17:32:45.577893Z'
+updated_at: '2018-08-12T14:57:11.631847Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: dou.exe
+      description: Insert Doushin Disc 1
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows version to XP
+      app: winxp
+      arch: win32
+      name: winetricks
+  - task:
+      executable: $DISC/Setup.exe
+      prefix: $GAMEDIRfile
+      arch: win32
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Crowd/Doushin - Same Heart/dou.exe
+    arch: win32

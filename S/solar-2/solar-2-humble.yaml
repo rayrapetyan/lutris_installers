@@ -1,0 +1,28 @@
+id: 4114
+game_id: 217
+game_slug: solar-2
+name: Solar 2
+year: 2011
+user: FakeShemp
+runner: linux
+slug: solar-2-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-04T19:55:42.469308Z'
+updated_at: '2017-06-04T22:06:07.502375Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 97000
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: solar2.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

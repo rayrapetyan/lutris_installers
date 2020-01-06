@@ -1,0 +1,44 @@
+id: 1092
+game_id: 3473
+game_slug: mount-blade
+name: Mount & Blade
+year: 2008
+user: Xodetaetl
+runner: wine
+slug: mount-blade-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2014-11-16T10:54:32.584000Z'
+updated_at: '2019-04-20T21:31:47.959867Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 22100
+gogid: 1207666893
+gogslug: mount_blade
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: d3dx9_36 d3dx9_27 d3dx9_31
+      arch: win32
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES /NOCANCEL
+      arch: win32
+      name: wineexec
+  files:
+  - setup: N/A:Select the Windows setup file downloaded from GOG
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Mount and Blade/mount&blade.exe
+    arch: win32

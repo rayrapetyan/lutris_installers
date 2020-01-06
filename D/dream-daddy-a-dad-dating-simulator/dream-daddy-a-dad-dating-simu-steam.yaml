@@ -1,0 +1,24 @@
+id: 5128
+game_id: 12335
+game_slug: dream-daddy-a-dad-dating-simulator
+name: 'Dream Daddy: A Dad Dating Simulator'
+year: 2017
+user: kolakcc
+runner: steam
+slug: dream-daddy-a-dad-dating-simu-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-07-21T08:53:52.632000Z'
+updated_at: '2018-03-20T05:10:57.864230Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 654880
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 654880

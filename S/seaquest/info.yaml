@@ -1,0 +1,16 @@
+name: Seaquest
+slug: seaquest
+year: 1983
+platforms:
+- name: Atari 2600
+genres:
+- name: Action
+- name: Arcade
+aliases: []
+banner_url: /games/banner/seaquest.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:08.661552Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,17 @@
+name: The Watchmaker
+slug: the-watchmaker
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/the-watchmaker.jpg
+icon_url: null
+is_public: true
+updated: '2019-02-23T03:38:57.363738Z'
+steamid: 504430
+gogslug: ''
+humblestoreid: ''

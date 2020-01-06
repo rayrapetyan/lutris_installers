@@ -1,0 +1,15 @@
+name: HeXen II
+slug: hexen-ii
+year: 1998
+platforms:
+- name: Linux
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/hexen-ii.jpg
+icon_url: /games/icon/hexen-ii.png
+is_public: true
+updated: '2019-01-23T08:29:50.161171Z'
+steamid: 9060
+gogslug: ''
+humblestoreid: ''

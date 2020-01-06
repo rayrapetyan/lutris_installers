@@ -1,0 +1,18 @@
+name: Mortal Kombat Trilogy
+slug: mortal-kombat-trilogy
+year: 1996
+platforms:
+- name: Nintendo 64
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Arcade
+- name: Fighting
+aliases: []
+banner_url: /games/banner/mortal-kombat-trilogy.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:26.749028Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

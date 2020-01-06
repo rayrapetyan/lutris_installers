@@ -1,0 +1,39 @@
+id: 536
+game_id: 2058
+game_slug: myth-ii-soulblighter
+name: 'Myth II: Soulblighter'
+year: 1998
+user: Xodetaetl
+runner: wine
+slug: myth-ii-soulblighter-chimera-campaign
+version: Chimera campaign
+description: 'Additional Chimera campaign: an eight level single-player quest set
+  in the Myth world. Ten years after Soulblighter''s defeat, three veteran heroes
+  of the battles against the Fallen band together to confront a vengeful sorceress
+  and the evil she has awakened.  Developed by the Badlands map making group with
+  the support of Bungie Software and members of the Myth II development team, Chimera
+  pushes Myth II''s technological boundaries with stunning new characters, maps and
+  cinematics.'
+notes: ''
+created_at: '2014-08-10T20:11:46.504000Z'
+updated_at: '2018-05-19T03:41:49.040351Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: myth-ii-soulblighter-cd
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Myth II
+      file: file1
+  files:
+  - file1: http://ovocean.com/partage/lutris/myth2/Chimera.tar.gz
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Myth II/Myth II.exe
+    arch: win32

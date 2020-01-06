@@ -1,0 +1,32 @@
+id: 6520
+game_id: 6856
+game_slug: rot-gut
+name: Rot Gut
+year: null
+user: FakeShemp
+runner: wine
+slug: rot-gut-groupees
+version: Groupees
+description: null
+notes: ''
+created_at: '2017-12-01T21:39:48.253000Z'
+updated_at: '2018-05-19T03:41:57.828348Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 395500
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR/drive_c/Program Files/Rot Gut
+  files:
+  - file1: N/A:Please select the Groupees executable
+  game:
+    prefix: $GAMEDIR
+    exe: file1
+    arch: win32

@@ -1,0 +1,23 @@
+id: 3373
+game_id: 5280
+game_slug: drifting-souls-2
+name: Drifting Souls 2
+year: 2003
+user: scottviger
+runner: browser
+slug: drifting-souls-2-online
+version: Online
+description: ''
+notes: ''
+created_at: '2017-03-19T03:18:33.571000Z'
+updated_at: '2017-03-23T11:53:19.066407Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: http://ds.drifting-souls.net/ds2j/ds?module=main&action=default

@@ -1,0 +1,19 @@
+name: Devolver Bootleg
+slug: devolver-bootleg
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Casual
+- name: Indie
+- name: Sports
+aliases: []
+banner_url: /games/banner/devolver-bootleg.jpg
+icon_url: /games/icon/devolver-bootleg.png
+is_public: true
+updated: '2019-06-11T00:45:18.431599Z'
+steamid: 1066260
+gogslug: ''
+humblestoreid: ''

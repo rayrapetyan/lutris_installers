@@ -1,0 +1,28 @@
+id: 6949
+game_id: 2269
+game_slug: grimind
+name: Grimind
+year: null
+user: FakeShemp
+runner: linux
+slug: grimind-desura
+version: Desura
+description: null
+notes: ''
+created_at: '2018-01-01T23:58:06.259744Z'
+updated_at: '2018-01-02T00:02:47.340593Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 265380
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Grimind
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Desura archive

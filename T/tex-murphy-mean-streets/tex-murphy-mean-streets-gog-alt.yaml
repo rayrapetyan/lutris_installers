@@ -1,0 +1,68 @@
+id: 15421
+game_id: 2639
+game_slug: tex-murphy-mean-streets
+name: 'Tex Murphy: Mean Streets'
+year: null
+user: appoloin
+runner: dosbox
+slug: tex-murphy-mean-streets-gog-alt
+version: GOG ALT
+description: null
+notes: ''
+created_at: '2019-09-09T15:14:31.015767Z'
+updated_at: '2019-09-09T15:14:31.015795Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 302330
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - write_file:
+      content: '#!/bin/bash
+
+        src=$1
+
+        dst=$2
+
+        find "$src" -type f \( -iname "*.ACC" -o -iname  "MS.EXE" -o -iname  "MS._XE"
+        -o -iname "*.pdf" \) -exec cp {} "$dst" \;'
+      file: $CACHE/selectcopy.sh
+  - chmodx: $CACHE/selectcopy.sh
+  - extract:
+      dst: $CACHE
+      file: $inno
+  - execute:
+      args: -I app -d "$CACHE" "$game"
+      file: $CACHE/innoextract
+  - execute:
+      args: $GAMEDIR/HDD $GAMEDIR/HDD/mean
+      file: mkdir
+  - execute:
+      args: $CACHE/app $GAMEDIR/HDD/mean
+      file: $CACHE/selectcopy.sh
+  - write_file:
+      content: '[sdl]
+
+        sensitivity=20
+
+        [autoexec]
+
+        mount C "$GAMEDIR/HDD" -t dir
+
+        C:
+
+        cd mean
+
+        ms.exe
+
+        exit'
+      file: $GAMEDIR/mean-streets.conf
+  files:
+  - game: N/A:Select GOG installer
+  - inno: https://lutris.nyc3.digitaloceanspaces.com/tools/innoextract/innoextract-1.8-dev-2019-01-13-linux.tar.xz
+  game:
+    main_file: $GAMEDIR/mean-streets.conf

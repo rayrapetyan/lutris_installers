@@ -1,0 +1,46 @@
+id: 13624
+game_id: 136
+game_slug: grand-theft-auto
+name: Grand Theft Auto
+year: 1997
+user: youen
+runner: wine
+slug: grand-theft-auto-rockstar-classics
+version: Rockstar Classics
+description: Script for the free version of the game provided by Rockstar games
+notes: ''
+created_at: '2019-05-19T10:46:50.966000Z'
+updated_at: '2019-06-13T07:09:47.018923Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 12170
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $installer -d $CACHE
+      file: $CACHE/unzip
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: mfc42
+      name: winetricks
+  - task:
+      executable: $CACHE/GTAINSTALLER/SETUP.EXE
+      description: Running installer
+      name: wineexec
+  files:
+  - installer: https://gta.com.ua/files/iso/GTAINSTALLER.exe
+  - unzip: https://lutris.net/files/tools/unzip.tar.gz
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Rockstar Games/Grand Theft Auto/WINO/Grand Theft Auto.exe

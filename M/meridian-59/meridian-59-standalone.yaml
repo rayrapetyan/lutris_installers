@@ -1,0 +1,37 @@
+id: 9475
+game_id: 20518
+game_slug: meridian-59
+name: Meridian 59
+year: 1996
+user: duhow
+runner: wine
+slug: meridian-59-standalone
+version: Standalone
+description: null
+notes: ''
+created_at: '2018-07-30T09:36:48.203000Z'
+updated_at: '2018-07-31T01:05:21.990111Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files (x86)/Meridian 59/Meridian.exe
+    working_dir: $GAMEDIR/drive_c/users/$USER/Local Settings/Application Data/Meridian
+      59
+  installer:
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      args: /S
+      name: wineexec
+  wine:
+    version: staging-3.12-x86_64
+  files:
+  - installer: http://www.meridian59.com/meridian59-installer.exe

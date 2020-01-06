@@ -1,0 +1,24 @@
+id: 8985
+game_id: 19670
+game_slug: crazy-soccer-football-stars
+name: 'Crazy Soccer: Football Stars'
+year: 2018
+user: TuiorGames
+runner: winesteam
+slug: crazy-soccer-football-stars-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-02T13:18:04.486000Z'
+updated_at: '2018-08-07T04:02:56.480186Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 735550
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 735550

@@ -1,0 +1,21 @@
+name: Home Alone
+slug: home-alone
+year: 1991
+platforms:
+- name: Amiga
+- name: Game Boy
+- name: MS-DOS
+- name: NES
+- name: Sega Game Gear
+- name: Sega Genesis / Mega Drive
+- name: Super Nintendo
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/home-alone.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:51.759992Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

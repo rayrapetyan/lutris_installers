@@ -1,0 +1,30 @@
+id: 13040
+game_id: 26952
+game_slug: love-witches
+name: Love Witches
+year: 2018
+user: kimchitea
+runner: linux
+slug: love-witches-save-patch
+version: Save Patch
+description: Patch to fix the issue with save/load, settings, etc. menus not being
+  accessible. Please install the game first.
+notes: 'Patch download: https://www.dropbox.com/s/krhqv6ld6kkl61e/script.rpyc'
+created_at: '2019-04-22T22:08:12.765000Z'
+updated_at: '2019-04-23T03:54:09.745029Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: love-witches
+  installer:
+  - merge:
+      src: file_id
+      dst: $GAMEDIR/game
+  files:
+  - file_id: N/A:Please select the patch file.

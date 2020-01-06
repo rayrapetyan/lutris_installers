@@ -1,0 +1,32 @@
+id: 11747
+game_id: 25411
+game_slug: bud-tucker-in-double-trouble
+name: Bud Tucker in Double Trouble
+year: 1996
+user: qsf
+runner: scummvm
+slug: bud-tucker-in-double-trouble-cd-dos
+version: CD DOS
+description: Install the game with subtitles enable by default
+notes: ''
+created_at: '2019-01-28T06:29:22.965000Z'
+updated_at: '2019-01-29T05:50:20.981539Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      file: $Game
+  files:
+  - Game: N/A:Please select Bud Tucker in Double Trouble (CD DOS).zip
+  game:
+    game_id: tucker
+    path: $GAMEDIR
+    subtitles: true

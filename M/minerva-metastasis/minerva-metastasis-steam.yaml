@@ -1,0 +1,24 @@
+id: 1089
+game_id: 1286
+game_slug: minerva-metastasis
+name: 'MINERVA: Metastasis'
+year: null
+user: dennisjj4
+runner: winesteam
+slug: minerva-metastasis-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-11-15T16:54:18.105000Z'
+updated_at: '2016-09-30T20:18:48.936905Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 235780
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 235780

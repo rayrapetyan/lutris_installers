@@ -1,0 +1,84 @@
+id: 14440
+game_id: 28320
+game_slug: darksiders-wrath-of-war
+name: 'DARKSIDERS: Wrath of War'
+year: 2010
+user: edjaa84
+runner: wine
+slug: darksiders-wrath-of-war-gogcom
+version: GOG.com
+description: "GOG versi\xF3n para Intel HD o superior \r\nWine 32bit\r\nNivel: Gold\
+  \ (Deshabilita los subtitulos para que corra el juego mas fluido y a veces se cierra\
+  \ despu\xE9s de varias horas de juego)\r\n\r\nDebido a que La versi\xF3n 2010 de\
+  \ este juego ya no existe en Steam o GOG e optado por prestar la versi\xF3n antigua\
+  \ (2.0.0.6) de GOG gracias al DRM FREE y a un amigo."
+notes: "Una vez instalado Wine (4 o superior) y sus componentes instale el  juego\
+  \ manualmente desde el men\xFA conceptual > Run EXE inside wine prefix.\r\n\r\n\
+  Como se muestra en la imagen.\r\nhttps://1.bp.blogspot.com/-BgHGOLtM4Ak/XSCeQXpl7DI/AAAAAAAAPl0/LbmzbSig2bkuOECC7uqOi9cpHrSHhGiZACLcBGAs/s1600/Captura%2Bde%2Bpanta"
+created_at: '2019-07-06T14:00:05.662000Z'
+updated_at: '2019-09-09T01:00:33.247200Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/windows/system32/
+      file: d3dcompiler_42
+  - task:
+      prefix: $GAMEDIR/
+      description: Installing DirectX 9
+      app: d3dx9
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/
+      description: Installing Quartz
+      app: quartz
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/
+      description: Installing devenum
+      app: devenum
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/
+      description: Installing Windows Media Player 9
+      app: wmp9
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/
+      description: Installing amstream
+      app: amstream
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/
+      description: MouseWarpOverride disable
+      app: mwo=disable
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/
+      description: Cambiando a Windows 7
+      app: win7
+      silent: true
+      name: winetricks
+  system:
+    reset_desktop: true
+    resolution: 640x480
+  files:
+  - d3dcompiler_42: http://download.game155.com/zip/d3dcompiler_42.dll.zip
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/GOG Games/Darksiders/DarksidersPC.exe
+    working_dir: $GAMEDIR/drive_c/GOG Games/Darksiders/
+    arch: win32

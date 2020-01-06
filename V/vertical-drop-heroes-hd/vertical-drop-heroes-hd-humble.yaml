@@ -1,0 +1,34 @@
+id: 4787
+game_id: 3417
+game_slug: vertical-drop-heroes-hd
+name: Vertical Drop Heroes HD
+year: null
+user: FakeShemp
+runner: wine
+slug: vertical-drop-heroes-hd-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-07-03T19:13:45.539000Z'
+updated_at: '2018-05-19T03:41:55.010820Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 311480
+gogid: 1207664413
+gogslug: vertical_drop_heroes_hd
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      args: '"/S" "/D="C:\\Program Files\\Vertical Drop Heroes HD""'
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Vertical Drop Heroes HD/Vertical Drop Heroes HD.exe
+    arch: win32

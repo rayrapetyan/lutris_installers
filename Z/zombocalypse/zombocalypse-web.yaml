@@ -1,0 +1,30 @@
+id: 16483
+game_id: 15297
+game_slug: zombocalypse
+name: Zombocalypse
+year: 2011
+user: Jeef
+runner: web
+slug: zombocalypse-web
+version: Web
+description: null
+notes: ''
+created_at: '2019-10-30T03:17:09.863960Z'
+updated_at: '2019-10-30T03:17:09.863995Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://www.addictinggames.com/zombie/zombocalypse
+  web:
+    disable_resizing: true
+    remove_margin: true
+    disable_scrolling: true
+    disable_menu_bar: true
+    enable_flash: true
+    window_size: 792x600

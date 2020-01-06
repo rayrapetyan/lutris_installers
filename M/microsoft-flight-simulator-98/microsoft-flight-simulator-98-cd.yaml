@@ -1,0 +1,33 @@
+id: 2632
+game_id: 7290
+game_slug: microsoft-flight-simulator-98
+name: Microsoft Flight Simulator '98
+year: 1997
+user: Lulu
+runner: wine
+slug: microsoft-flight-simulator-98-cd
+version: CD
+description: "CD image available at archive.org:\r\nhttps://archive.org/details/Microsoft_Flight_Simulator_98_Eng"
+notes: ''
+created_at: '2016-08-30T18:35:51.932402Z'
+updated_at: '2018-05-19T03:41:49.205622Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: drive_c/Program Files/Microsoft Games/Flight Simulator/FLTSIM98.EXE
+  installer:
+  - insert-disc:
+      requires: fs98/FLTSIM98.EXE
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    arch: win32

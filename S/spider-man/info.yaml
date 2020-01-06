@@ -1,0 +1,17 @@
+name: Spider-Man (1994)
+slug: spider-man
+year: 1994
+platforms:
+- name: Sega Genesis / Mega Drive
+- name: Super Nintendo
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/spider-man.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:22.419857Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

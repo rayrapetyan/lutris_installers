@@ -1,0 +1,38 @@
+id: 2594
+game_id: 7260
+game_slug: okhlos
+name: Okhlos
+year: 2016
+user: Lulu
+runner: linux
+slug: okhlos-gog
+version: GOG
+description: "Savegames and config files are in:\r\n~/.config/unity3d/Coffee Powered\
+  \ Machine/Okhlos/"
+notes: ''
+created_at: '2016-08-24T21:19:23.635660Z'
+updated_at: '2016-09-30T21:09:25.338775Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 400180
+gogid: 1318673719
+gogslug: okhlos
+humblestoreid: ''
+script:
+  exe: Game/start.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/Game
+  files:
+  - game: 'N/A: Plese select the GOG.com Linux installer'
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

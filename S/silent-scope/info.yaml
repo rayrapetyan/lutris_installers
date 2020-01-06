@@ -1,0 +1,20 @@
+name: Silent Scope
+slug: silent-scope
+year: 1999
+platforms:
+- name: Arcade
+- name: Nintendo Game Boy Advance
+- name: Sega Dreamcast
+- name: Sony PlayStation 2
+genres:
+- name: Action
+- name: Arcade
+- name: Shooter
+aliases: []
+banner_url: /games/banner/silent-scope.jpg
+icon_url: null
+is_public: true
+updated: '2019-11-16T05:20:32.098088Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,35 @@
+id: 4215
+game_id: 11618
+game_slug: cat-girl-alliance
+name: Cat Girl Alliance
+year: 2004
+user: FakeShemp
+runner: wine
+slug: cat-girl-alliance-jast-usa
+version: JAST USA
+description: ''
+notes: ''
+created_at: '2017-06-08T13:46:25.721000Z'
+updated_at: '2018-05-19T03:41:50.745001Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/CatGirlAlliance
+      dst: $GAMEDIR/drive_c/Program Files/Cat Girl Alliance
+  files:
+  - file1: N/A:Please select the JAST USA archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Cat Girl Alliance/Koneko_US.exe
+    arch: win32

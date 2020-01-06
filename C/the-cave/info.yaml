@@ -1,0 +1,17 @@
+name: The Cave
+slug: the-cave
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Platform
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/the-cave.jpg
+icon_url: /games/icon/the-cave.png
+is_public: true
+updated: '2019-01-23T08:31:39.466730Z'
+steamid: 221810
+gogslug: ''
+humblestoreid: the-cave

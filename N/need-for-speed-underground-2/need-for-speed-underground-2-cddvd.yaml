@@ -1,0 +1,37 @@
+id: 3286
+game_id: 8212
+game_slug: need-for-speed-underground-2
+name: 'Need for Speed: Underground 2'
+year: 2004
+user: strider
+runner: wine
+slug: need-for-speed-underground-2-cddvd
+version: CD/DVD
+description: null
+notes: ''
+created_at: '2017-02-20T01:01:59.211000Z'
+updated_at: '2019-05-08T09:11:36.116496Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: data2.cab
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: $DISC/Setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/EA GAMES/Need for Speed Underground 2/SPEED2.EXE
+    arch: win32

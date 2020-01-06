@@ -1,0 +1,28 @@
+id: 9542
+game_id: 20612
+game_slug: dark-realm-guardian-of-flames
+name: 'Dark Realm: Guardian of Flames'
+year: 2017
+user: kimchitea
+runner: wine
+slug: dark-realm-guardian-of-flames-big-fish
+version: Big Fish
+description: null
+notes: Install and activate the game through the <a href="https://lutris.net/games/big-fish-games-app/">Big
+  Fish app,</a> then run this installer to launch the game outside the app.
+created_at: '2018-08-03T03:20:02.036000Z'
+updated_at: '2019-10-28T20:33:47.434815Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: big-fish-games-app
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Dark Realm - Guardian of Flames Collectors Edition/DarkRealm_GuardianOfFlames_CE.exe
+    arch: win32

@@ -1,0 +1,38 @@
+id: 11743
+game_id: 3468
+game_slug: escape-from-monkey-island
+name: Escape from Monkey Island
+year: 2000
+user: qsf
+runner: wine
+slug: escape-from-monkey-island-gogcom
+version: gog.com
+description: Uses the gog.com windows installer
+notes: ''
+created_at: '2019-01-28T02:29:01.620000Z'
+updated_at: '2019-05-18T06:42:48.543873Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: 1885026907
+gogslug: escape_from_monkey_island
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating WINE prefix
+      name: create_prefix
+  - task:
+      executable: installer
+      args: /silent /nogui
+      description: Running Setup
+      name: wineexec
+  files:
+  - installer: N/A:Select the EXE - setup_escape_from_monkey_islandtm_1.1_(xxxxx)
+      - downloaded from GOG...
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Escape from Monkey Island/Monkey4.exe

@@ -1,0 +1,66 @@
+id: 13708
+game_id: 2136
+game_slug: final-fantasy-xiv-a-realm-reborn
+name: 'FINAL FANTASY XIV: A Realm Reborn'
+year: 2014
+user: Tarulia
+runner: wine
+slug: final-fantasy-xiv-a-realm-reb-shadowbringers-bench
+version: Shadowbringers Benchmark - DXVK
+description: FFXIV Shadowbringers Benchmark Installer
+notes: The launcher does not currently work, so options are set via the Arguments
+  (resolution in the script is 1920x1080, change SYS.ScreenWidth=1920 SYS.ScreenHeight=1080
+  SYS.FullScreenWidth=1920 SYS.FullScreenHeight=1080 to your resolution). Note that
+  the Benchmark displays 1280x720 when running, this is a known bug.
+created_at: '2019-05-24T17:29:20.266000Z'
+updated_at: '2019-06-19T06:21:52.772232Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 39210
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Changing to Windows 7
+      app: win7
+      arch: win64
+      name: winetricks
+  - extract:
+      format: zip
+      description: Extracting benchmark
+      file: shbbenchmark
+      dst: $GAMEDIR/drive_c/Program Files (x86)/SquareEnix/FINAL FANTASY XIV Benchmark
+        - Shadowbringers
+  game:
+    prefix: $GAMEDIR
+    args: SYS.Language=1 SYS.Fps=0 SYS.ScreenMode=1 SYS.ScreenWidth=1920 SYS.ScreenHeight=1080
+      SYS.FullScreenWidth=1920 SYS.FullScreenHeight=1080 SYS.Gamma=50 SYS.IsSoundAlways=0
+      SYS.SoundMaster=100 SYS.SoundBgm=100 SYS.SoundSe=100 SYS.SoundVoice=100 SYS.SoundSystem=100
+      SYS.SoundEnv=100 SYS.IsSndMaster=0 SYS.IsSndBgm=0 SYS.IsSndSe=0 SYS.IsSndVoice=0
+      SYS.IsSndSystem=0 SYS.IsSndEnv=0 SYS.WaterWet_DX11=1 SYS.OcclusionCulling_DX11=0
+      SYS.LodType_DX11=0 SYS.ReflectionType_DX11=3 SYS.AntiAliasing_DX11=1 SYS.TranslucentQuality_DX11=1
+      SYS.GrassQuality_DX11=3 SYS.ShadowLOD_DX11=0 SYS.ShadowVisibilityTypeSelf_DX11=1
+      SYS.ShadowVisibilityTypeOther_DX11=1 SYS.ShadowTextureSizeType_DX11=2 SYS.ShadowCascadeCountType_DX11=2
+      SYS.ShadowSoftShadowType_DX11=1 SYS.PhysicsTypeSelf_DX11=2 SYS.PhysicsTypeOther_DX11=2
+      SYS.TextureFilterQuality_DX11=2 SYS.TextureAnisotropicQuality_DX11=2 SYS.Vignetting_DX11=1
+      SYS.RadialBlur_DX11=1 SYS.SSAO_DX11=4 SYS.Glare_DX11=2 SYS.DepthOfField_DX11=1
+      SYS.ParallaxOcclusion_DX11=1 SYS.Tessellation_DX11=1 SYS.GlareRepresentation_DX11=1
+      SYS.DistortionWater_DX11=2
+    exe: drive_c/Program Files (x86)/SquareEnix/FINAL FANTASY XIV Benchmark - Shadowbringers/game/ffxiv_dx11.exe
+    arch: win64
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      __GL_SHADER_DISK_CACHE: 1
+    pulse_latency: true
+  wine:
+    version: ge-protonified-4.10-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - shbbenchmark: http://gdl.square-enix.com/ffxiv/nr2xkhecw9vrkuqy/ffxiv-shadowbringers-bench.zip

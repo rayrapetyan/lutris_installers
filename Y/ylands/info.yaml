@@ -1,0 +1,16 @@
+name: Ylands
+slug: ylands
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Simulation
+aliases: []
+banner_url: /games/banner/ylands.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:13.069127Z'
+steamid: 298610
+gogslug: ''
+humblestoreid: ''

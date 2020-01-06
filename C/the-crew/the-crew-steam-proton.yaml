@@ -1,0 +1,24 @@
+id: 15183
+game_id: 5513
+game_slug: the-crew
+name: The Crew
+year: 2014
+user: rockerbacon
+runner: steam
+slug: the-crew-steam-proton
+version: Steam Proton
+description: null
+notes: It's necessary to disable UPlay Overlay for the game to work
+created_at: '2019-08-28T20:01:45.791000Z'
+updated_at: '2019-10-11T01:02:15.833837Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 241560
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 241560

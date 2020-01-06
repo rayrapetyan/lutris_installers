@@ -1,0 +1,71 @@
+id: 11285
+game_id: 397
+game_slug: the-witcher-2-assassins-of-kings-enhanced-edition
+name: 'The Witcher 2: Assassins of Kings Enhanced Edition'
+year: 2011
+user: ririen
+runner: wine
+slug: the-witcher-2-assassins-of-ki-windows-gog
+version: Windows GOG
+description: null
+notes: "Important: <b>You must supply the exe and bin files yourself.</b> \r\n\r\n\
+  Download:\r\n\r\n<a href=\"https://www.gog.com/downloads/the_witcher_2/en1installer14\"\
+  >The Witcher 2: Assassins Of Kings - Enhanced Edition (Part 1 of 6)</a>\r\n\r\n\
+  <a href=\"https://www.gog.com/downloads/the_witcher_2/en1installer15\">The Witcher\
+  \ 2: Assassins Of Kings - Enhanced Edition (Part 2 of 6)</a>\r\n\r\n<a href=\"https://www.gog.com/downloads/the_witcher_2/en1installer16\"\
+  >The Witcher 2: Assassins Of Kings - Enhanced Edition (Part 3 of 6)</a>\r\n\r\n\
+  <a href=\"https://www.gog.com/downloads/the_witcher_2/en1installer17\">The Witcher\
+  \ 2: Assassins Of Kings - Enhanced Edition (Part 4 of 6)</a>\r\n\r\n<a href=\"https://www.gog.com/downloads/the_witcher_2/en1installer18\"\
+  >The Witcher 2: Assassins Of Kings - Enhanced Edition (Part 5 of 6)</a>\r\n\r\n\
+  <a href=\"https://www.gog.com/downloads/the_witcher_2/en1installer19\">The Witcher\
+  \ 2: Assassins Of Kings - Enhanced Edition (Part 6 of 6)</a>"
+created_at: '2018-12-21T11:05:45.329000Z'
+updated_at: '2019-06-12T04:05:17.641226Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 20920
+gogid: 1207658930
+gogslug: the_witcher_2
+humblestoreid: the-witcher-2-assassins-of-kings-enhanced-edition
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: d3dx9_36
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: d3dx9_39
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: dotnet472
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2010 win7
+      arch: win32
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Installing Witcher 2
+      name: wineexec
+  system:
+    env:
+      __GL_THREADED_OPTIMIZATIONS: '1'
+  files:
+  - setup: N/A:Select the game's setup file from GOG
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/The Witcher 2/Launcher.exe
+    arch: win32

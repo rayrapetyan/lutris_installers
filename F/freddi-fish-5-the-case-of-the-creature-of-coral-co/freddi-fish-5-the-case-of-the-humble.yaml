@@ -1,0 +1,39 @@
+id: 4623
+game_id: 2801
+game_slug: freddi-fish-5-the-case-of-the-creature-of-coral-co
+name: 'Freddi Fish 5: The Case of the Creature of Coral Cove'
+year: 2001
+user: FakeShemp
+runner: scummvm
+slug: freddi-fish-5-the-case-of-the-humble
+version: Humble
+description: Uses the files from the Windows installer from Humble.
+notes: ''
+created_at: '2017-06-26T09:15:56.664000Z'
+updated_at: '2017-07-04T18:06:01.161325Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 294570
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  scummvm:
+    gfx-mode: 2x
+  installer:
+  - task:
+      executable: $file1
+      prefix: $CACHE
+      args: /S
+      name: wine.wineexec
+  - merge:
+      src: $CACHE/drive_c/Games/Humongous Entertainment/Freddi Fish 5
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble installer
+  game:
+    game_id: freddicove
+    path: $GAMEDIR
+    subtitles: true

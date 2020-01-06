@@ -1,0 +1,35 @@
+id: 3361
+game_id: 10321
+game_slug: aliens-tc-2017
+name: Aliens (TC) 2017
+year: 2017
+user: strider
+runner: zdoom
+slug: aliens-tc-2017-12
+version: '1.2'
+description: ''
+notes: Requires an installation of The Ultimate Doom
+created_at: '2017-03-17T03:12:56.506000Z'
+updated_at: '2017-06-16T19:01:51.456265Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: the-ultimate-doom
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: alienstc
+  files:
+  - alienstc: https://lutris.net/files/games/aliens-tc/ALIENS_TC_2017_v_1.2.zip
+  game:
+    main_file: DOOM.WAD
+    files:
+    - ATCLEV.WAD
+    - PSXMUSIC.WAD
+    - AUD9.5.pk3

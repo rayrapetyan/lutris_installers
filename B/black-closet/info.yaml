@@ -1,0 +1,16 @@
+name: Black Closet
+slug: black-closet
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Simulation
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/black-closet.jpg
+icon_url: /games/icon/black-closet.png
+is_public: true
+updated: '2019-01-23T08:28:37.079494Z'
+steamid: 400580
+gogslug: ''
+humblestoreid: ''

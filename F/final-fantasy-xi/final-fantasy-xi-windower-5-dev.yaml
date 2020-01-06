@@ -1,0 +1,44 @@
+id: 16307
+game_id: 3731
+game_slug: final-fantasy-xi
+name: FINAL FANTASY XI
+year: 2003
+user: khandha
+runner: wine
+slug: final-fantasy-xi-windower-5-dev
+version: Windower 5 Dev
+description: Windower is a third party program for Final Fantasy XI that offers many
+  positive enhancements to the game. https://github.com/Windower/packages/wiki
+notes: 'This will default to running the game in full screen mode. If you want to
+  run in a window then you need to add these game arguments, after the existing ones:
+  --mode window --res 800x600'
+created_at: '2019-10-20T01:21:20.051000Z'
+updated_at: '2019-10-20T01:47:05.885148Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 23360
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: final-fantasy-xi-full-eu | final-fantasy-xi-full-jp | final-fantasy-xi-full-us
+  custom-name: Windower 5
+  installer:
+  - task:
+      executable: msiexec
+      args: -q -i "$installer"
+      description: Installing Windower 5
+      name: wineexec
+  - task:
+      executable: drive_c/Program Files (x86)/Windower Dev/windower.exe
+      args: save default --overwrite
+      description: Configuring Windower 5
+      name: wineexec
+  files:
+  - installer: http://files.windower.net/5/core/test/windower.msi
+  game:
+    prefix: $GAMEDIR
+    args: launch default
+    exe: drive_c/Program Files (x86)/Windower Dev/windower.exe

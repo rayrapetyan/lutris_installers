@@ -1,0 +1,16 @@
+name: Tom Clancy's Rainbow Six Siege
+slug: tom-clancys-rainbow-six-siege
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+aliases: []
+banner_url: /games/banner/tom-clancys-rainbow-six-siege.jpg
+icon_url: /games/icon/tom-clancys-rainbow-six-siege.png
+is_public: true
+updated: '2019-01-23T08:31:52.926494Z'
+steamid: 359550
+gogslug: ''
+humblestoreid: ''

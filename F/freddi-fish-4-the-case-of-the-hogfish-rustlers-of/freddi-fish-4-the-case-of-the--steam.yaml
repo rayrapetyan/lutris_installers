@@ -1,0 +1,24 @@
+id: 719
+game_id: 2800
+game_slug: freddi-fish-4-the-case-of-the-hogfish-rustlers-of-
+name: 'Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch'
+year: 1999
+user: Xodetaetl
+runner: steam
+slug: freddi-fish-4-the-case-of-the--steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T13:18:52.059000Z'
+updated_at: '2014-09-15T13:26:53.463000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 294550
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 294550

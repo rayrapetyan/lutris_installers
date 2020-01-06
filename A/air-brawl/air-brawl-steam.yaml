@@ -1,0 +1,24 @@
+id: 8119
+game_id: 4516
+game_slug: air-brawl
+name: Air Brawl
+year: null
+user: soredake
+runner: steam
+slug: air-brawl-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T06:06:37.460728Z'
+updated_at: '2018-05-13T09:12:18.156615Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 375600
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 375600

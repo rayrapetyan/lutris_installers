@@ -1,0 +1,28 @@
+id: 9091
+game_id: 19843
+game_slug: adrift
+name: Adrift
+year: 2011
+user: kimchitea
+runner: linux
+slug: adrift-renpy-games-list
+version: Ren'Py Games List
+description: Free download
+notes: ''
+created_at: '2018-07-08T22:17:35.160000Z'
+updated_at: '2018-07-09T04:01:11.342923Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Adrift.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: https://games.renpy.org/games-dl/Adrift-all.zip

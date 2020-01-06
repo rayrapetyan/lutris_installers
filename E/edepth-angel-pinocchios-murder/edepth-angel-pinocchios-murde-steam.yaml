@@ -1,0 +1,32 @@
+id: 8810
+game_id: 19368
+game_slug: edepth-angel-pinocchios-murder
+name: 'Edepth Angel: Pinocchio''s Murder'
+year: 2017
+user: TuiorGames
+runner: linux
+slug: edepth-angel-pinocchios-murde-steam
+version: Steam
+description: Native Linux version using Steam game data.
+notes: ''
+created_at: '2018-06-19T22:55:49.437000Z'
+updated_at: '2018-06-20T03:36:22.679554Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 764780
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: EDepth_PM.sh
+  installer:
+  - merge:
+      src: steam-data
+      dst: $GAMEDIR
+  - chmodx: $GAMEDIR/EDepth_PM.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/EDepth_PM
+  - chmodx: $GAMEDIR/lib/linux-x86_64/EDepth_PM
+  files:
+  - steam-data: $STEAM:764780:/

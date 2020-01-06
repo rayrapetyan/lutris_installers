@@ -1,0 +1,24 @@
+id: 1748
+game_id: 5359
+game_slug: emily-is-away
+name: Emily is Away
+year: 2015
+user: Cobradabest
+runner: steam
+slug: emily-is-away-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-12-27T00:24:25.514468Z'
+updated_at: '2016-02-02T16:56:26.361748Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 417860
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 417860

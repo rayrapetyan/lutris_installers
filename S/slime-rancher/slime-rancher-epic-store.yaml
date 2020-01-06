@@ -1,0 +1,81 @@
+id: 12921
+game_id: 5884
+game_slug: slime-rancher
+name: Slime Rancher
+year: 2017
+user: Patryk
+runner: wine
+slug: slime-rancher-epic-store
+version: Epic Store
+description: null
+notes: "Install the launcher through Lutris and the game through the launcher.\r\n\
+  If your game crashes on load then you probably have the discord-rpc-wine-git package.\
+  \ You have to delete/remove the package for the game to work properly."
+created_at: '2019-04-18T14:21:54.620000Z'
+updated_at: '2019-09-09T00:29:19.006681Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 433340
+gogid: 1459259227
+gogslug: slime_rancher
+humblestoreid: slime-rancher
+script:
+  installer:
+  - extract:
+      dst: $CACHE/dxsetup
+      file: audio
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR
+      args: /silent
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  - task:
+      prefix: $GAMEDIR
+      description: Installing dependencies
+      app: arial dotnet48
+      arch: win64
+      name: winetricks
+  - copy:
+      src: epic
+      dst: $CACHE/epic/
+  - task:
+      executable: msiexec
+      prefix: $GAMEDIR
+      arch: win64
+      args: /i "$CACHE/epic/EpicGamesLauncherInstaller.msi" /q
+      exclude_processes: EpicGamesLauncher.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  game:
+    prefix: $GAMEDIR
+    args: -opengl
+    exe: drive_c/Program Files (x86)/Epic Games/Launcher/Portal/Binaries/Win32/EpicGamesLauncher.exe
+    arch: win64
+  system:
+    env:
+      MESA_GL_VERSION_OVERRIDE: 4.4COMPAT
+      PULSE_LATENCY_MSEC: 60
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: 1
+      __GL_SHADER_DISK_CACHE: 1
+  wine:
+    version: ge-protonified-4.10-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - epic: https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi
+  - audio: https://lutris.net/files/tools/directx-2010.tar.gz

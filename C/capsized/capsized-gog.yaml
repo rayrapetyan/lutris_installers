@@ -1,0 +1,37 @@
+id: 7326
+game_id: 197
+game_slug: capsized
+name: Capsized
+year: 2011
+user: AlexRavenheart
+runner: linux
+slug: capsized-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2018-02-16T12:02:56.633334Z'
+updated_at: '2018-02-28T04:17:43.424690Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 95300
+gogid: 1207659151
+gogslug: capsized
+humblestoreid: ''
+script:
+  exe: Game/start.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/Game
+  files:
+  - game: 'N/A: Please select the GOG.com Linux installer'
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

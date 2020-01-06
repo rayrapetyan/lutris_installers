@@ -1,0 +1,16 @@
+name: BattleBlock Theater
+slug: battleblock-theater
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/battleblock-theater.jpg
+icon_url: /games/icon/battleblock-theater.png
+is_public: true
+updated: '2019-01-23T08:28:32.660534Z'
+steamid: 238460
+gogslug: ''
+humblestoreid: ''

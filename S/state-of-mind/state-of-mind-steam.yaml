@@ -1,0 +1,24 @@
+id: 10329
+game_id: 20225
+game_slug: state-of-mind
+name: State of Mind
+year: null
+user: charly2k18
+runner: steam
+slug: state-of-mind-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-09-25T02:44:45.636000Z'
+updated_at: '2019-10-18T03:55:04.294179Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 437630
+gogid: 1663581818
+gogslug: state_of_mind
+humblestoreid: ''
+script:
+  game:
+    appid: 437630

@@ -1,0 +1,16 @@
+name: X-Plane 10 Global
+slug: x-plane-10-global
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Flight
+- name: Simulation
+aliases: []
+banner_url: /games/banner/x-plane-10-global.jpg
+icon_url: /games/icon/x-plane-10-global.png
+is_public: true
+updated: '2019-01-23T08:32:12.660588Z'
+steamid: 292180
+gogslug: ''
+humblestoreid: ''

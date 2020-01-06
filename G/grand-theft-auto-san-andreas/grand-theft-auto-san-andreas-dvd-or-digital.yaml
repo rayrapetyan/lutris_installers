@@ -1,0 +1,40 @@
+id: 8721
+game_id: 135
+game_slug: grand-theft-auto-san-andreas
+name: 'Grand Theft Auto: San Andreas'
+year: 2005
+user: socterean
+runner: wine
+slug: grand-theft-auto-san-andreas-dvd-or-digital
+version: DVD or Digital
+description: null
+notes: The game works with no problems if you don't change the default installation
+  path .
+created_at: '2018-06-13T21:03:06.117000Z'
+updated_at: '2019-09-08T23:32:04.045611Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 12120
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Installing GTA:SA...
+      name: wineexec
+  files:
+  - setup: N/A:Select the installer for GTA San Andreas (setup.exe)
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Rockstar Games/GTA San Andreas/gta_sa.exe
+    arch: win32

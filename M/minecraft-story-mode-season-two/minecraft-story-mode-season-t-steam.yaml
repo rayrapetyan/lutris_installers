@@ -1,0 +1,27 @@
+id: 9127
+game_id: 16319
+game_slug: minecraft-story-mode-season-two
+name: 'Minecraft: Story Mode - Season Two'
+year: 2017
+user: redsolver
+runner: winesteam
+slug: minecraft-story-mode-season-t-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-10T08:54:17.939000Z'
+updated_at: '2019-02-16T03:44:15.581615Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 639170
+gogid: 1614341910
+gogslug: minecraft_story_mode_season_2
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  game:
+    appid: 639170

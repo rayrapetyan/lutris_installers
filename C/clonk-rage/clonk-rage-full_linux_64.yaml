@@ -1,0 +1,32 @@
+id: 7723
+game_id: 17720
+game_slug: clonk-rage
+name: Clonk Rage
+year: 2007
+user: founderio
+runner: linux
+slug: clonk-rage-full_linux_64
+version: full_linux_64
+description: The full freeware version for linux, 64 bit
+notes: "The game's default config uses 800x600 \"full screen\", but sometimes still\
+  \ shows as a window. If you resolution seems weird, turn off fullscreen.\r\n\r\n\
+  The game's config is generated in ~/.clonk/rage upon first run."
+created_at: '2018-04-02T12:17:24.475000Z'
+updated_at: '2018-04-07T01:36:37.000762Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  system:
+    disable_runtime: true
+  installer:
+  - extract:
+      file: cr_full_linux
+  exe: clonk64
+  files:
+  - cr_full_linux: http://www.clonkx.de/rage/cr_full_linux.tar.bz2

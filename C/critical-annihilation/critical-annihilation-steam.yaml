@@ -1,0 +1,24 @@
+id: 3419
+game_id: 10400
+game_slug: critical-annihilation
+name: Critical Annihilation
+year: null
+user: liberodark
+runner: steam
+slug: critical-annihilation-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-04-01T02:52:56.029084Z'
+updated_at: '2017-04-06T19:49:40.454806Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 339440
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 339440

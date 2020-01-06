@@ -1,0 +1,37 @@
+id: 4144
+game_id: 5394
+game_slug: ether-one-redux
+name: Ether One Redux
+year: null
+user: FakeShemp
+runner: wine
+slug: ether-one-redux-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-05T20:54:02.184447Z'
+updated_at: '2018-05-19T03:41:52.682728Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 391920
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Ether One
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    args: -opengl4
+    exe: drive_c/Program Files/Ether One/EtherOne.exe
+    arch: win32

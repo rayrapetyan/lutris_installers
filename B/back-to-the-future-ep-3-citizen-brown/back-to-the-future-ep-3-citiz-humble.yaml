@@ -1,0 +1,37 @@
+id: 4495
+game_id: 176
+game_slug: back-to-the-future-ep-3-citizen-brown
+name: 'Back to the Future: Ep 3 - Citizen Brown'
+year: 2011
+user: FakeShemp
+runner: wine
+slug: back-to-the-future-ep-3-citiz-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-18T22:25:44.922335Z'
+updated_at: '2018-05-19T03:41:51.737181Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 94510
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/BackToTheFuture103_full_nodrm.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Telltale Games/Back to the Future The Game/Episode
+      3/BackToTheFuture103.exe
+    arch: win32

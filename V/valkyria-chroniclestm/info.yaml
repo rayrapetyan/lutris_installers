@@ -1,0 +1,16 @@
+name: "Valkyria Chronicles\u2122"
+slug: valkyria-chroniclestm
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/valkyria-chroniclestm.jpg
+icon_url: /games/icon/valkyria-chroniclestm.png
+is_public: true
+updated: '2020-01-01T09:53:09.443181Z'
+steamid: 294860
+gogslug: ''
+humblestoreid: ''

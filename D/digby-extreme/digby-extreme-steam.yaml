@@ -1,0 +1,24 @@
+id: 11189
+game_id: 23794
+game_slug: digby-extreme
+name: Digby Extreme
+year: null
+user: strider
+runner: steam
+slug: digby-extreme-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-12-12T07:16:19.789136Z'
+updated_at: '2018-12-12T07:16:19.789166Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 593070
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: '593070'

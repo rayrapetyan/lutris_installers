@@ -1,0 +1,54 @@
+id: 5446
+game_id: 13604
+game_slug: ultima-iv-quest-of-the-avatar
+name: 'Ultima IV: Quest of the Avatar'
+year: 1985
+user: FakeShemp
+runner: dosbox
+slug: ultima-iv-quest-of-the-avatar-gog
+version: GOG
+description: Uses the files from the Windows installer from GOG.
+notes: ''
+created_at: '2017-08-21T12:25:36.651000Z'
+updated_at: '2019-03-28T04:11:17.982856Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: 1207658962
+gogslug: ultima_4
+humblestoreid: ''
+script:
+  main_file: DOSBOX/dosboxULTIMA4_single.conf
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file2
+  - execute:
+      args: -d "$CACHE" "$file1"
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE
+      dst: $GAMEDIR
+  - merge:
+      src: $GAMEDIR/__support/app/dosboxULTIMA4_single.conf
+      dst: $GAMEDIR/DOSBOX
+  - merge:
+      src: $GAMEDIR/__support/app/dosboxULTIMA4.conf
+      dst: $GAMEDIR
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/dosboxULTIMA4.conf
+  - write_config:
+      section: sdl
+      key: fullscreen
+      value: false
+      file: $GAMEDIR/dosboxULTIMA4.conf
+  files:
+  - file1: N/A:Please select the GOG installer
+  - file2: https://lutris.nyc3.digitaloceanspaces.com/tools/innoextract/innoextract-1.8-dev-2019-01-13-linux.tar.xz
+  game:
+    config_file: $GAMEDIR/dosboxULTIMA4.conf

@@ -1,0 +1,16 @@
+name: Unavowed
+slug: unavowed
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/unavowed.jpg
+icon_url: /games/icon/unavowed.png
+is_public: true
+updated: '2019-01-23T08:31:58.733041Z'
+steamid: 336140
+gogslug: unavowed
+humblestoreid: ''

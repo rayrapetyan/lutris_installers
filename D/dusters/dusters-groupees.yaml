@@ -1,0 +1,32 @@
+id: 6015
+game_id: 12116
+game_slug: dusters
+name: Dusters
+year: null
+user: FakeShemp
+runner: wine
+slug: dusters-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-10-20T15:11:25.076998Z'
+updated_at: '2018-05-19T03:41:56.860603Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR/drive_c/Program Files/Dusters
+  files:
+  - file1: N/A:Please select the Groupees executable
+  game:
+    prefix: $GAMEDIR
+    exe: $file1
+    arch: win32

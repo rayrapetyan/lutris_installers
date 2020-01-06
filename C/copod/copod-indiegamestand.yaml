@@ -1,0 +1,29 @@
+id: 4363
+game_id: 11735
+game_slug: copod
+name: Copod
+year: 2014
+user: FakeShemp
+runner: linux
+slug: copod-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-06-15T09:26:10.804317Z'
+updated_at: '2017-06-16T17:36:55.618771Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Copod.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Copod.sh
+  files:
+  - file1: N/A:Please select the IndieGameStand archive

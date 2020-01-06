@@ -1,0 +1,28 @@
+id: 3792
+game_id: 1544
+game_slug: knock-knock
+name: Knock-knock
+year: null
+user: FakeShemp
+runner: linux
+slug: knock-knock-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-22T14:49:53.308657Z'
+updated_at: '2017-05-26T00:27:21.316467Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 250380
+gogid: 1207659923
+gogslug: knock_knock
+humblestoreid: ''
+script:
+  exe: knock.x86
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

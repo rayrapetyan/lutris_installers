@@ -1,0 +1,32 @@
+id: 7023
+game_id: 14268
+game_slug: doki-doki-literature-club
+name: Doki Doki Literature Club!
+year: 2017
+user: Jozua
+runner: winesteam
+slug: doki-doki-literature-club-steam
+version: Steam
+description: Not all parts of the game will work - it will gather data within the
+  prefix and edit files within the prefix.The default location for this game is at
+  ~/.local/share/lutris/runners/winesteam/prefix/drive_c/Program\ Files/Steam/steamapps/common/Doki\
+  Doki\ Literature\ Club/
+notes: ''
+created_at: '2018-01-05T02:04:37.869000Z'
+updated_at: '2018-10-25T12:05:55.957895Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 698780
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  system:
+    disable_monitoring: true
+    disable_runtime: true
+    pulse_latency: true
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 698780

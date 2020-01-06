@@ -1,0 +1,24 @@
+id: 568
+game_id: 2918
+game_slug: train-fever
+name: Train Fever
+year: 2014
+user: Xodetaetl
+runner: steam
+slug: train-fever-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2014-09-14T18:44:27.217000Z'
+updated_at: '2014-09-14T18:44:32.475000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 304730
+gogid: 1424258777
+gogslug: train_fever
+humblestoreid: ''
+script:
+  game:
+    appid: 304730

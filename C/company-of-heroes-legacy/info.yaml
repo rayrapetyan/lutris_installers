@@ -1,0 +1,15 @@
+name: Company of Heroes Legacy Edition
+slug: company-of-heroes-legacy
+year: 2006
+platforms:
+- name: Windows
+genres:
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/company-of-heroes-legacy.jpg
+icon_url: /games/icon/company-of-heroes-legacy.png
+is_public: true
+updated: '2019-01-23T08:28:56.987464Z'
+steamid: 4560
+gogslug: ''
+humblestoreid: ''

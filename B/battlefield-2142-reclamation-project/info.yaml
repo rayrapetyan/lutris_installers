@@ -1,0 +1,17 @@
+name: 'Battlefield 2142: Reclamation Project'
+slug: battlefield-2142-reclamation-project
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: FPS
+- name: Real-time tactics
+- name: Shooter
+aliases: []
+banner_url: /games/banner/battlefield-2142-reclamation-project.jpg
+icon_url: null
+is_public: true
+updated: '2020-01-01T06:54:03.822343Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

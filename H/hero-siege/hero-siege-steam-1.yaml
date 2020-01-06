@@ -1,0 +1,24 @@
+id: 1811
+game_id: 1967
+game_slug: hero-siege
+name: Hero Siege
+year: null
+user: RobLoach
+runner: steam
+slug: hero-siege-steam-1
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-12-31T19:27:02.049417Z'
+updated_at: '2016-01-05T17:57:33.434572Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 269210
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 269210

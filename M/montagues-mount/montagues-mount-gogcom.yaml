@@ -1,0 +1,38 @@
+id: 4454
+game_id: 1551
+game_slug: montagues-mount
+name: Montague's Mount
+year: null
+user: robotkinz
+runner: linux
+slug: montagues-mount-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2017-06-18T04:28:55.756468Z'
+updated_at: '2017-06-18T23:24:12.495252Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 258950
+gogid: 1207659853
+gogslug: montagues_mount
+humblestoreid: ''
+script:
+  exe: game/start.sh
+  gogid: montague_s_mount
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Plese select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

@@ -1,0 +1,23 @@
+id: 7357
+game_id: 16556
+game_slug: memrise
+name: Memrise
+year: 2009
+user: TuiorGames
+runner: browser
+slug: memrise-memrisecom
+version: Memrise.com
+description: null
+notes: ''
+created_at: '2018-02-19T11:04:57.211904Z'
+updated_at: '2018-02-19T21:18:10.631781Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://www.memrise.com/login/

@@ -1,0 +1,16 @@
+name: Anomaly 2
+slug: anomaly-2
+year: 2011
+platforms:
+- name: Linux
+genres:
+- name: Real-time strategy
+- name: Tower defense
+aliases: []
+banner_url: /games/banner/anomaly-2.jpg
+icon_url: /games/icon/anomaly-2.png
+is_public: true
+updated: '2019-01-23T08:28:22.538647Z'
+steamid: 236730
+gogslug: anomaly_2
+humblestoreid: ''

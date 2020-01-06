@@ -1,0 +1,16 @@
+name: ASTRONEER
+slug: astroneer
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Exploration
+aliases: []
+banner_url: /games/banner/astroneer.jpg
+icon_url: /games/icon/astroneer.png
+is_public: true
+updated: '2019-01-23T08:28:27.966909Z'
+steamid: 361420
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,18 @@
+name: War Thunder
+slug: war-thunder
+year: 2012
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Action
+- name: Flight
+- name: Simulation
+aliases: []
+banner_url: /games/banner/war-thunder.jpg
+icon_url: /games/icon/war-thunder.png
+is_public: true
+updated: '2019-01-23T08:32:06.639164Z'
+steamid: 236390
+gogslug: ''
+humblestoreid: ''

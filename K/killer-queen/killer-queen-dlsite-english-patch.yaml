@@ -1,0 +1,46 @@
+id: 9399
+game_id: 20271
+game_slug: killer-queen
+name: Killer Queen
+year: 2006
+user: kimchitea
+runner: linux
+slug: killer-queen-dlsite-english-patch
+version: DLsite + English patch
+description: null
+notes: "DLsite:  http://www.dlsite.com/ecchi-eng/work/=/product_id/RE029647.html\r\
+  \nONScripter: https://web.archive.org/web/20180804033515/http://unclemion.com/onscripter/releases"
+created_at: '2018-07-26T10:13:10.315000Z'
+updated_at: '2019-05-01T23:48:55.439681Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $game
+  - merge:
+      src: $GAMEDIR/movie
+      dst: $GAMEDIR/data/movie
+  - merge:
+      src: $GAMEDIR/save
+      dst: $GAMEDIR/data/save
+  - extract:
+      dst: $GAMEDIR/data/KillerQueen-en
+      file: $patch
+  - extract:
+      dst: $GAMEDIR/data/KillerQueen-en
+      file: $ons
+  - chmodx: $GAMEDIR/data/KillerQueen-en/onscripter-en
+  files:
+  - game: N/A:Please select the DLsite archive
+  - patch: N/A:Please select the English patch archive
+  - ons: N/A:Please select the ONScripter archive
+  game:
+    exe: $GAMEDIR/data/KillerQueen-en/onscripter-en

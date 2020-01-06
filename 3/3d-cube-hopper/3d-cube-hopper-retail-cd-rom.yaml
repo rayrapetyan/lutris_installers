@@ -1,0 +1,46 @@
+id: 7966
+game_id: 17966
+game_slug: 3d-cube-hopper
+name: 3D Cube Hopper
+year: 1998
+user: classicgamerX
+runner: wine
+slug: 3d-cube-hopper-retail-cd-rom
+version: Retail (CD-ROM)
+description: null
+notes: Game will default to 320x280 pixels. This can be changed to a new resolution
+  by right-clicking the game and selecting "Browse files". Then select "3DCUBE.INI"
+  and change after "resolution" to 1024x786, 1280x720, etc.
+created_at: '2018-04-22T22:27:01.889000Z'
+updated_at: '2019-10-28T20:43:32.151134Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: ~/Games/3D_Cube_Hopper/drive_c/Program Files/Galaxy of Arcade/Cube Hopper/3DCUBE.EXE
+  installer:
+  - task:
+      executable: $DISC/SETUP.EXE
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: ~/Games/3D_Cube_Hopper  /drive_c/Program Files/Galaxy of Arcade/Cube
+        Hopper/3DCUBE.EXE
+      prefix: $GAMEDIR
+      args: --windowed
+      name: wineexec
+  wine:
+    WineDesktop: 320x280
+    Desktop: true
+  game:
+    prefix: $GAMEDIR
+    arch: win32

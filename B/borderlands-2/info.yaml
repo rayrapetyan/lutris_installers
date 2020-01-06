@@ -1,0 +1,17 @@
+name: Borderlands 2
+slug: borderlands-2
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: FPS
+- name: RPG
+aliases: []
+banner_url: /games/banner/borderlands-2.jpg
+icon_url: /games/icon/borderlands-2.png
+is_public: true
+updated: '2019-01-23T08:28:40.549028Z'
+steamid: 49520
+gogslug: ''
+humblestoreid: ''

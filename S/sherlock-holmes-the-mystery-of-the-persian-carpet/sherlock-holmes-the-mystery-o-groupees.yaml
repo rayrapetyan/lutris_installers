@@ -1,0 +1,38 @@
+id: 5610
+game_id: 701
+game_slug: sherlock-holmes-the-mystery-of-the-persian-carpet
+name: 'Sherlock Holmes: The Mystery of The Persian Carpet'
+year: null
+user: FakeShemp
+runner: wine
+slug: sherlock-holmes-the-mystery-o-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-06T10:25:01.022000Z'
+updated_at: '2018-05-19T03:41:50.644041Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 11180
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/SHTMOPC-EN_setup.exe
+      prefix: $GAMEDIR
+      args: /sp- /verysilent /norestart /suppressmsgboxes /nogui
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Waterlily Games/Sherlock Holmes - The Mystery of the
+      Persian Carpet/TheMysteryofthePersianCarpet.exe
+    arch: win32

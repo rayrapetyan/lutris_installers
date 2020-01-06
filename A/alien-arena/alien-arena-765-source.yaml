@@ -1,0 +1,28 @@
+id: 25
+game_id: 38
+game_slug: alien-arena
+name: Alien Arena
+year: 2013
+user: strider
+runner: linux
+slug: alien-arena-765-source
+version: 7.65-source
+description: Alien Arena 7.65 for Linux (source code)
+notes: ''
+created_at: '2013-06-27T23:35:20Z'
+updated_at: '2013-07-10T12:11:50Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: crx
+  installer:
+  - extract:
+      file: alienarena-game
+  files:
+  - alienarena-game: http://icculus.org/alienarena/Files/alienarena-7.65-linux20130207.tar.gz

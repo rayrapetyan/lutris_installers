@@ -1,0 +1,16 @@
+name: Guns of Icarus Alliance
+slug: guns-of-icarus-alliance
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Flight
+- name: MMOFPS
+aliases: []
+banner_url: /games/banner/guns-of-icarus-alliance.jpg
+icon_url: /games/icon/guns-of-icarus-alliance.png
+is_public: true
+updated: '2019-01-23T08:29:45.095190Z'
+steamid: 608800
+gogslug: ''
+humblestoreid: ''

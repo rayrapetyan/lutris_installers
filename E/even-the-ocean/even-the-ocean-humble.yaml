@@ -1,0 +1,32 @@
+id: 4669
+game_id: 9755
+game_slug: even-the-ocean
+name: Even the Ocean
+year: 2012
+user: FakeShemp
+runner: wine
+slug: even-the-ocean-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-27T09:06:11.939385Z'
+updated_at: '2018-05-19T03:41:53.710009Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 265470
+gogid: 2010600563
+gogslug: even_the_ocean
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Even the Ocean
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Even the Ocean/playgame.bat
+    arch: win32

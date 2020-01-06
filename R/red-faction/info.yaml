@@ -1,0 +1,16 @@
+name: Red Faction
+slug: red-faction
+year: 2001
+platforms:
+- name: Sony PlayStation 2
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/red-faction.jpg
+icon_url: /games/icon/red-faction.png
+is_public: true
+updated: '2019-01-23T08:30:56.354990Z'
+steamid: 20530
+gogslug: red_faction
+humblestoreid: ''

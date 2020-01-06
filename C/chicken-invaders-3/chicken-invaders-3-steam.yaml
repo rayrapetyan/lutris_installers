@@ -1,0 +1,24 @@
+id: 3408
+game_id: 10409
+game_slug: chicken-invaders-3
+name: Chicken Invaders 3
+year: 2015
+user: liberodark
+runner: steam
+slug: chicken-invaders-3-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-04-01T02:41:50.374252Z'
+updated_at: '2017-04-06T19:49:04.537602Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 377460
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 377460

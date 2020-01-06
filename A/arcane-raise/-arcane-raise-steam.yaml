@@ -1,0 +1,24 @@
+id: 8432
+game_id: 11508
+game_slug: -arcane-raise-
+name: '- Arcane Raise -'
+year: null
+user: Nibiron
+runner: steam
+slug: -arcane-raise-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-26T18:45:58.146811Z'
+updated_at: '2018-05-27T04:16:03.104150Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 603750
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 603750

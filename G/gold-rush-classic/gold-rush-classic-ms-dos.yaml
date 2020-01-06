@@ -1,0 +1,43 @@
+id: 15569
+game_id: 2602
+game_slug: gold-rush-classic
+name: Gold Rush! Classic
+year: null
+user: appoloin
+runner: scummvm
+slug: gold-rush-classic-ms-dos
+version: MS-DOS
+description: null
+notes: ''
+created_at: '2019-09-15T15:19:25.909517Z'
+updated_at: '2020-01-06T03:09:04.905484Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 308000
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - write_file:
+      content: '#!/bin/bash
+
+        src=$1
+
+        dst=$2
+
+        src_path=$(echo "$1" | sed -r "s/(.+)\/.+/\1/")
+
+        cp -avr "$src_path/."  "$dst"'
+      file: $CACHE/bulkcopy.sh
+  - chmodx: $CACHE/bulkcopy.sh
+  - execute:
+      args: $game $GAMEDIR
+      file: $CACHE/bulkcopy.sh
+  files:
+  - game: N/A:Select the file  Sierra.com
+  game:
+    game_id: agi
+    path: $GAMEDIR

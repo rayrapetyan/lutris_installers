@@ -1,0 +1,30 @@
+id: 11596
+game_id: 25222
+game_slug: loot-keeper
+name: Loot Keeper
+year: 2017
+user: Hiredcifo
+runner: wine
+slug: loot-keeper-11
+version: '1.1'
+description: 'The itch.io version: <a href="https://outstar.itch.io/lootkeeper">https://outstar.itch.io/lootkeeper</a>'
+notes: ''
+created_at: '2019-01-15T21:39:02.953000Z'
+updated_at: '2019-10-28T20:28:58.874165Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: zipfile
+  files:
+  - zipfile: N/A:Select the game's zip file
+  game:
+    exe: lootkeeper

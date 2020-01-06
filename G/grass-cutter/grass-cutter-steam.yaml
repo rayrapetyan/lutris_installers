@@ -1,0 +1,24 @@
+id: 9688
+game_id: 15659
+game_slug: grass-cutter
+name: Grass Cutter
+year: null
+user: hockdudu
+runner: steam
+slug: grass-cutter-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-11T11:41:34.250000Z'
+updated_at: '2018-08-12T05:08:19.614643Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 589420
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 589420

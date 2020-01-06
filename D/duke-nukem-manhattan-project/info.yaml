@@ -1,0 +1,15 @@
+name: 'Duke Nukem: Manhattan Project'
+slug: duke-nukem-manhattan-project
+year: 2002
+platforms:
+- name: Windows
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/duke-nukem-manhattan-project.jpg
+icon_url: /games/icon/duke-nukem-manhattan-project.png
+is_public: true
+updated: '2019-10-27T06:57:06.160347Z'
+steamid: 240200
+gogslug: duke_nukem_manhattan_project
+humblestoreid: ''

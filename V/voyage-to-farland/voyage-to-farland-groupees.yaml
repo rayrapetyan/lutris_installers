@@ -1,0 +1,28 @@
+id: 5277
+game_id: 5056
+game_slug: voyage-to-farland
+name: Voyage to Farland
+year: null
+user: FakeShemp
+runner: linux
+slug: voyage-to-farland-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-05T15:15:20.774186Z'
+updated_at: '2017-08-27T22:04:18.275110Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 364790
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: voyage_launch.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive

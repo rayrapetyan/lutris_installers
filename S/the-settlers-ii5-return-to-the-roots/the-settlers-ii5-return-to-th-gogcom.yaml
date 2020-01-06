@@ -1,0 +1,41 @@
+id: 2527
+game_id: 7246
+game_slug: the-settlers-ii5-return-to-the-roots
+name: 'The Settlers II.5: Return to the Roots'
+year: null
+user: ssf
+runner: linux
+slug: the-settlers-ii5-return-to-th-gogcom
+version: GOG.com
+description: "- 0.8.1 - x86-64 version\r\n- Uses the GOG.com Settlers II: Gold Edition\
+  \ data files"
+notes: needs libsdlmixer
+created_at: '2016-08-21T17:35:02.768485Z'
+updated_at: '2016-09-08T18:49:51.632260Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: the-settlers-ii-gold-edition-gogcom
+  exe: rttr/bin/rttr.sh
+  installer:
+  - extract:
+      dst: $GAMEDIR/rttr
+      file: $game
+  - execute:
+      args: -c 'rm -rf $GAMEDIR/rttr/share/s25rttr/S2'
+      file: /bin/sh
+      terminal: false
+  - execute:
+      args: -c 'ln -sf $GAMEDIR $GAMEDIR/rttr/share/s25rttr/S2'
+      file: /bin/sh
+      terminal: false
+  files:
+  - game: http://www.siedler25.org/uploads/stable/0.8.1/s25rttr_0.8.1-9016_linux.x86_64.tar.bz2
+  game:
+    prefix: $GAMEDIR

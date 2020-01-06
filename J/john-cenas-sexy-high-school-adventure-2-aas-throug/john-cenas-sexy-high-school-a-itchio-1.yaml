@@ -1,0 +1,29 @@
+id: 3227
+game_id: 9786
+game_slug: john-cenas-sexy-high-school-adventure-2-aas-throug
+name: 'John Cena''s Sexy High School Adventure!!! 2: AAs Through Time'
+year: 2015
+user: FakeShemp
+runner: linux
+slug: john-cenas-sexy-high-school-a-itchio-1
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-02-04T17:54:16.425000Z'
+updated_at: '2017-03-16T02:11:56.176772Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: JohnCenaSchool2.sh
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: game
+  files:
+  - game: N/A:Select the game's archive

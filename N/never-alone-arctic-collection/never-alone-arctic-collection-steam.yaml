@@ -1,0 +1,24 @@
+id: 2601
+game_id: 7252
+game_slug: never-alone-arctic-collection
+name: 'Never Alone: Arctic Collection'
+year: 2014
+user: RobLoach
+runner: steam
+slug: never-alone-arctic-collection-steam
+version: Steam
+description: ''
+notes: https://appdb.winehq.org/objectManager.php?sClass=version&iId=31350
+created_at: '2016-08-26T03:27:34.197816Z'
+updated_at: '2016-09-09T22:16:17.363343Z'
+draft: false
+published: true
+published_by: null
+rating: '4'
+steamid: 295790
+gogid: 1446112277
+gogslug: never_alone_arctic_collection
+humblestoreid: ''
+script:
+  game:
+    appid: 295790

@@ -1,0 +1,38 @@
+id: 2563
+game_id: 2770
+game_slug: the-last-federation
+name: The Last Federation
+year: null
+user: ssf
+runner: linux
+slug: the-last-federation-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2016-08-23T16:09:50.391084Z'
+updated_at: '2016-09-30T21:08:46.812218Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 273070
+gogid: 1207664253
+gogslug: last_federation_the
+humblestoreid: ''
+script:
+  exe: game/start.sh
+  gogid: last_federation_the
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Please select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

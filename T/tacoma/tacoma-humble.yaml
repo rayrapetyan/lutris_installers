@@ -1,0 +1,31 @@
+id: 7295
+game_id: 14202
+game_slug: tacoma
+name: Tacoma
+year: 2017
+user: littlechalan
+runner: linux
+slug: tacoma-humble
+version: Humble
+description: null
+notes: ''
+created_at: '2018-02-13T18:03:29.643000Z'
+updated_at: '2018-02-15T19:50:50.255907Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 343860
+gogid: 1452577588
+gogslug: tacoma_game
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $GAMEDIR
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble installer
+  game:
+    exe: Launch.sh

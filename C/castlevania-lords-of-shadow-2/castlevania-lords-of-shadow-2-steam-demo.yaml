@@ -1,0 +1,25 @@
+id: 425
+game_id: 1825
+game_slug: castlevania-lords-of-shadow-2
+name: 'Castlevania: Lords of Shadow 2'
+year: 2014
+user: Xodetaetl
+runner: winesteam
+slug: castlevania-lords-of-shadow-2-steam-demo
+version: steam demo
+description: Demo version from Steam. If cutscenes are black, reduce Depth of Field
+  to medium in the video options.
+notes: ''
+created_at: '2014-02-12T19:35:36.919000Z'
+updated_at: '2014-02-13T18:14:15.680000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 239250
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 273130

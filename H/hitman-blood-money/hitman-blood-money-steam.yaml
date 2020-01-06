@@ -1,0 +1,26 @@
+id: 3021
+game_id: 688
+game_slug: hitman-blood-money
+name: 'Hitman: Blood Money'
+year: 2006
+user: maxer456
+runner: winesteam
+slug: hitman-blood-money-steam
+version: Steam
+description: ''
+notes: "https://appdb.winehq.org/objectManager.php?sClass=version&iId=26573\r\nChanging\
+  \ the resolution crashes the game.\r\nYou can manually change it in HitmanBloodMoney.ini\
+  \ in the directory of the game."
+created_at: '2016-11-18T11:52:49.877763Z'
+updated_at: '2016-11-21T05:07:41.723216Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 6860
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 6860

@@ -1,0 +1,17 @@
+name: Fable III
+slug: fable-iii
+year: 2010
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/fable-iii.jpg
+icon_url: /games/icon/fable-iii.png
+is_public: true
+updated: '2019-10-11T00:53:21.040363Z'
+steamid: 105400
+gogslug: ''
+humblestoreid: ''

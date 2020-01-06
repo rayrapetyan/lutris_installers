@@ -1,0 +1,32 @@
+id: 7620
+game_id: 17529
+game_slug: monster-girl-tailes
+name: Monster Girl Tailes
+year: 2017
+user: t-rex91
+runner: wine
+slug: monster-girl-tailes-itchio-64bit
+version: itch.io 64bit
+description: null
+notes: ''
+created_at: '2018-03-21T16:44:53.017127Z'
+updated_at: '2018-05-19T03:42:00.354306Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Monster Girl Tailes
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Monster Girl Tailes/Monster Girl Tailes 64-bit.exe
+    arch: win32

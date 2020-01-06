@@ -1,0 +1,50 @@
+id: 13056
+game_id: 1282
+game_slug: rayman-origins
+name: Rayman Origins
+year: 2012
+user: Tidschimon
+runner: wine
+slug: rayman-origins-uplay
+version: Uplay
+description: Installer for the UPlay version
+notes: ''
+created_at: '2019-04-23T20:02:50.503010Z'
+updated_at: '2019-04-26T07:25:44.108537Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 207490
+gogid: 1207659234
+gogslug: rayman_origins
+humblestoreid: rayman-origins
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: corefonts
+      name: winetricks
+  - task:
+      executable: uplay
+      prefix: $GAMEDIR
+      args: /silent
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/UbisoftGameLauncher.exe
+    arch: win64
+  system:
+    env:
+      DXVK_HUD: 0
+  wine:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  files:
+  - uplay: https://ubistatic3-a.akamaihd.net/orbit/launcher_installer/UplayInstaller.exe

@@ -1,0 +1,24 @@
+id: 3347
+game_id: 4664
+game_slug: cradle
+name: Cradle
+year: null
+user: uso
+runner: steam
+slug: cradle-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-03-15T13:45:52.648185Z'
+updated_at: '2017-03-29T00:57:43.458600Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 361550
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 361550

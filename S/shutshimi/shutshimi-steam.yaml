@@ -1,0 +1,24 @@
+id: 7550
+game_id: 4072
+game_slug: shutshimi
+name: "Sh\xFCtshimi"
+year: 2014
+user: t-rex91
+runner: steam
+slug: shutshimi-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-15T16:32:01.988000Z'
+updated_at: '2018-03-20T04:44:55.406633Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 332530
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 332530

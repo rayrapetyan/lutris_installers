@@ -1,0 +1,24 @@
+id: 8859
+game_id: 11370
+game_slug: metin2
+name: Metin2
+year: 2005
+user: gingerbread
+runner: winesteam
+slug: metin2-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-22T21:57:05.863404Z'
+updated_at: '2019-10-11T00:44:54.398414Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 550900
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 550900

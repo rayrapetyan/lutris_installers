@@ -1,0 +1,24 @@
+id: 1234
+game_id: 3588
+game_slug: namariel-legends-iron-lord-premium-edition
+name: 'Namariel Legends: Iron Lord Premium Edition'
+year: null
+user: Xodetaetl
+runner: steam
+slug: namariel-legends-iron-lord-pr-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-01-05T19:25:33.785000Z'
+updated_at: '2015-01-05T19:25:39.934000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 302730
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 302730

@@ -1,0 +1,16 @@
+name: Harry Potter and the Sorcerer's Stone
+slug: harry-potter-and-the-sorcerers-stone
+year: 2001
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/harry-potter-and-the-sorcerers-stone.jpg
+icon_url: null
+is_public: true
+updated: '2020-01-01T07:01:08.627957Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

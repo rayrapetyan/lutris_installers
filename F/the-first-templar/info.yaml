@@ -1,0 +1,16 @@
+name: The First Templar
+slug: the-first-templar
+year: 2011
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/the-first-templar.jpg
+icon_url: /games/icon/the-first-templar.png
+is_public: true
+updated: '2019-01-23T08:31:41.298691Z'
+steamid: 57680
+gogslug: ''
+humblestoreid: ''

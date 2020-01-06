@@ -1,0 +1,16 @@
+name: Depression Quest
+slug: depression-quest
+year: 2013
+platforms:
+- name: Browser
+- name: Linux
+genres:
+- name: Interactive fiction
+aliases: []
+banner_url: /games/banner/depression-quest.jpg
+icon_url: /games/icon/depression-quest.png
+is_public: true
+updated: '2019-01-23T08:29:09.785828Z'
+steamid: 270170
+gogslug: ''
+humblestoreid: ''

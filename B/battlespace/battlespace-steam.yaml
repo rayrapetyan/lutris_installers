@@ -1,0 +1,24 @@
+id: 1316
+game_id: 3830
+game_slug: battlespace
+name: BattleSpace
+year: null
+user: Xodetaetl
+runner: steam
+slug: battlespace-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-02-25T19:26:10.987000Z'
+updated_at: '2015-02-25T20:44:04.708000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 306930
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 306930

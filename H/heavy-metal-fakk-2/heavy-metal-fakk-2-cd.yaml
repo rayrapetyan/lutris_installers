@@ -1,0 +1,29 @@
+id: 14054
+game_id: 27773
+game_slug: heavy-metal-fakk-2
+name: 'Heavy Metal: F.A.K.K. 2'
+year: 2000
+user: bonaccolto90
+runner: wine
+slug: heavy-metal-fakk-2-cd
+version: CD
+description: null
+notes: ''
+created_at: '2019-06-12T10:54:33.013564Z'
+updated_at: '2019-06-12T10:54:33.013600Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Select Heavy Metall F.A.K.K2's Install.exe

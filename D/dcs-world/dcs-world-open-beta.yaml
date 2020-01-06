@@ -1,0 +1,83 @@
+id: 15226
+game_id: 3219
+game_slug: dcs-world
+name: DCS World
+year: 2008
+user: ZenimNL
+runner: wine
+slug: dcs-world-open-beta
+version: Open Beta
+description: "Open beta branch of DCS World standalone.\r\nInstallation and usage\
+  \  of multiple modules is possible. Tested the Persian Gulf map, A-10C, F-5E, F-86,\
+  \ F/A-18C, Mig-15, Mig-21 and all seem to work fine.\r\nMultiplayer works as well."
+notes: "Known issues:\r\n- Installation cannot be silent. Please keep the default\
+  \ installation location as it is required for the script.\r\n- Changing screen settings\
+  \ will crash the game, however starting the game again will have the new settings\
+  \ applied.\r\n- F10 to open the map might crash the game.\r\n- External view mouse\
+  \ look is not working perfectly"
+created_at: '2019-08-31T20:47:04.303000Z'
+updated_at: '2019-09-08T23:30:24.724758Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 223750
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2013
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2017
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: corefonts win10
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: d3dcompiler_43
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: xact
+      arch: win64
+      name: winetricks
+  - task:
+      executable: client
+      prefix: $GAMEDIR
+      description: Installing client
+      arch: win64
+      args: /silent
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Eagle Dynamics/DCS World OpenBeta/bin/DCS_updater.exe
+    arch: win64
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+  wine:
+    version: lutris-4.13-x86_64
+    esync: true
+    dxvk: true
+    nvapi,nvapi64: disabled
+    overrides: null
+  files:
+  - client: https://updates.digitalcombatsimulator.com/installers/DCS_World_OpenBeta_web.exe

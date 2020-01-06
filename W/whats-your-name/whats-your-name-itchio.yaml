@@ -1,0 +1,28 @@
+id: 5040
+game_id: 12229
+game_slug: whats-your-name
+name: What's Your Name?
+year: 2017
+user: FakeShemp
+runner: linux
+slug: whats-your-name-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-07-13T20:09:42.176817Z'
+updated_at: '2017-07-26T07:39:59.367433Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: WhatsYourName.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

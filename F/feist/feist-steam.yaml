@@ -1,0 +1,24 @@
+id: 2219
+game_id: 6331
+game_slug: feist
+name: Feist
+year: 2015
+user: RobLoach
+runner: steam
+slug: feist-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-06-28T05:43:50.815238Z'
+updated_at: '2016-07-10T09:18:00.187711Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 327060
+gogid: 1437060567
+gogslug: feist
+humblestoreid: ''
+script:
+  game:
+    appid: 327060

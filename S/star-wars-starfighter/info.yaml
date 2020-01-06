@@ -1,0 +1,17 @@
+name: Star Wars Starfighter
+slug: star-wars-starfighter
+year: 2002
+platforms:
+- name: Sony PlayStation 2
+- name: Windows
+genres:
+- name: Action
+- name: Simulation
+aliases: []
+banner_url: /games/banner/star-wars-starfighter.jpg
+icon_url: /games/icon/star-wars-starfighter.png
+is_public: true
+updated: '2019-05-21T18:45:58.740070Z'
+steamid: 32350
+gogslug: star_wars_starfighter
+humblestoreid: ''

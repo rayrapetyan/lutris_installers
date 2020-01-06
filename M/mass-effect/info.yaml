@@ -1,0 +1,17 @@
+name: Mass Effect
+slug: mass-effect
+year: 2007
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: RPG
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/mass-effect.jpg
+icon_url: /games/icon/mass-effect.png
+is_public: true
+updated: '2019-01-23T08:30:18.531596Z'
+steamid: 17460
+gogslug: ''
+humblestoreid: ''

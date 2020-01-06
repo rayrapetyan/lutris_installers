@@ -1,0 +1,24 @@
+id: 6474
+game_id: 3020
+game_slug: typer-shark-deluxe
+name: Typer Shark! Deluxe
+year: null
+user: Stoney_Fish
+runner: winesteam
+slug: typer-shark-deluxe-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-11-28T22:38:34.125988Z'
+updated_at: '2017-11-30T20:35:07.142871Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 3450
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 3450

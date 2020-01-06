@@ -1,0 +1,16 @@
+name: Loom
+slug: loom
+year: 1990
+platforms:
+- name: MS-DOS
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/loom.jpg
+icon_url: /games/icon/loom.png
+is_public: true
+updated: '2019-01-23T08:30:12.579008Z'
+steamid: 32340
+gogslug: loom
+humblestoreid: ''

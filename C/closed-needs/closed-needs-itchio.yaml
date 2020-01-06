@@ -1,0 +1,31 @@
+id: 13675
+game_id: 27440
+game_slug: closed-needs
+name: CLOSED / NEEDS
+year: 2015
+user: kimchitea
+runner: linux
+slug: closed-needs-itchio
+version: itch.io
+description: null
+notes: To change the menus from French to English, delete the $GAMEDIR/game/tl folder.
+created_at: '2019-05-22T01:31:39.033000Z'
+updated_at: '2019-06-01T06:17:05.929480Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: CLOSED NEEDS.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/CLOSED NEEDS.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/CLOSED NEEDS
+  - chmodx: $GAMEDIR/lib/linux-x86_64/CLOSED NEEDS
+  files:
+  - file1: N/A:Please select the game archive

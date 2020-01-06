@@ -1,0 +1,30 @@
+id: 1070
+game_id: 154
+game_slug: the-dig
+name: The Dig
+year: 1995
+user: RobLoach
+runner: scummvm
+slug: the-dig-scummvm-archive
+version: ScummVM archive
+description: ''
+notes: ''
+created_at: '2014-11-13T20:41:10.356000Z'
+updated_at: '2014-11-13T21:14:31.161000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 6040
+gogid: 1425299904
+gogslug: the_dig
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: archive
+  files:
+  - archive: N/A:Select the archive that contains the files for The Dig.
+  game:
+    game_id: dig
+    path: $GAMEDIR

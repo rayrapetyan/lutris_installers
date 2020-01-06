@@ -1,0 +1,24 @@
+id: 439
+game_id: 404
+game_slug: thief-gold
+name: Thief Gold
+year: null
+user: Freso
+runner: winesteam
+slug: thief-gold-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: ''
+created_at: '2014-03-03T02:28:26.847000Z'
+updated_at: '2016-01-05T20:29:28.681630Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 211600
+gogid: 1207658997
+gogslug: thief_gold
+humblestoreid: ''
+script:
+  game:
+    appid: 211600

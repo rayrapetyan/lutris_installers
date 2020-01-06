@@ -1,0 +1,17 @@
+name: Alien Trilogy
+slug: alien-trilogy
+year: 1996
+platforms:
+- name: MS-DOS
+- name: Sega Saturn
+- name: Sony PlayStation
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/alien-trilogy.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:19.241949Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

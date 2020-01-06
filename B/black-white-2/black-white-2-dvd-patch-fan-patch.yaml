@@ -1,0 +1,63 @@
+id: 13539
+game_id: 21914
+game_slug: black-white-2
+name: Black & White 2
+year: 2005
+user: FuruTheBat
+runner: wine
+slug: black-white-2-dvd-patch-fan-patch
+version: DVD + Patch + Fan Patch
+description: "Requires a Black & White 2 DVD\r\n\r\nForum Readme: https://www.bwfiles.com/forum/index.php?topic=7917.0"
+notes: The DVD has to be mounted for the game or the installer to work
+created_at: '2019-05-15T01:13:41.961000Z'
+updated_at: '2019-05-18T06:29:12.065207Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Lionhead Studios/Black & White 2/white.exe
+    arch: win64
+  installer:
+  - insert-disc:
+      requires: setup.exe
+      message: Please insert your Black & White 2 installation disc.
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      arch: win64
+      name: wineexec
+  - task:
+      executable: patch_1_1
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      executable: patch_1_2
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      executable: patch_1_3
+      prefix: $GAMEDIR
+      name: wineexec
+  wine:
+    version: tkg-3.21-x86_64
+  files:
+  - patch_1_1:
+      filename: BW2Patch_v11.exe
+      url: https://www.bwfiles.com/files/download.php?id=587
+  - patch_1_2:
+      filename: bw2patch_v12.exe
+      url: https://www.bwfiles.com/files/download.php?id=695
+  - patch_1_3:
+      filename: BW2FanPatchInstaller.exe
+      url: https://www.bwfiles.com/files/download.php?id=1421

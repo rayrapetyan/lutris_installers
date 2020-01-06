@@ -1,0 +1,24 @@
+id: 6205
+game_id: 461
+game_slug: swords-and-soldiers-hd
+name: Swords and Soldiers HD
+year: null
+user: jonius
+runner: winesteam
+slug: swords-and-soldiers-hd-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-10-30T14:16:28.067024Z'
+updated_at: '2017-11-14T22:17:09.263125Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 63500
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 63500

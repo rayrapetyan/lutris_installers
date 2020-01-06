@@ -1,0 +1,31 @@
+id: 9229
+game_id: 19951
+game_slug: black-diary
+name: Black Diary
+year: 2014
+user: kimchitea
+runner: linux
+slug: black-diary-case-1-dlsite
+version: Case 1 - DLsite
+description: null
+notes: Download from http://www.dlsite.com/eng/work/=/product_id/RE138434.html
+created_at: '2018-07-15T23:08:09.244000Z'
+updated_at: '2018-07-17T21:57:05.601505Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Black Diary Case 1.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Black Diary Case 1.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Black Diary Case 1
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Black Diary Case 1
+  files:
+  - file1: N/A:Please select the DLsite archive

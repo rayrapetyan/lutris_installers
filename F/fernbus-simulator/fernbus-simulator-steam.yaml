@@ -1,0 +1,28 @@
+id: 8034
+game_id: 18016
+game_slug: fernbus-simulator
+name: Fernbus Simulator
+year: 2016
+user: TuiorGames
+runner: winesteam
+slug: fernbus-simulator-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-01T23:03:17.912000Z'
+updated_at: '2018-07-05T17:21:27.654966Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 427100
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-3.11-x86_64
+    Desktop: true
+  game:
+    appid: 427100
+    arch: win64

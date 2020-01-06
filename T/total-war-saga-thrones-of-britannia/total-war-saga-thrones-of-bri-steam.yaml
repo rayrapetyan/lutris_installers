@@ -1,0 +1,24 @@
+id: 8094
+game_id: 17728
+game_slug: total-war-saga-thrones-of-britannia
+name: 'Total War Saga: Thrones of Britannia'
+year: 2018
+user: TuiorGames
+runner: steam
+slug: total-war-saga-thrones-of-bri-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-07T12:05:58.825000Z'
+updated_at: '2018-08-07T03:21:37.493997Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 712100
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 712100

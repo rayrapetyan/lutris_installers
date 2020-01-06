@@ -1,0 +1,28 @@
+id: 4982
+game_id: 12214
+game_slug: moonlight-crossing
+name: Moonlight Crossing
+year: 2017
+user: FakeShemp
+runner: linux
+slug: moonlight-crossing-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-07-12T15:43:49.398291Z'
+updated_at: '2017-08-27T21:53:53.154736Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: MoonlightCrossing.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

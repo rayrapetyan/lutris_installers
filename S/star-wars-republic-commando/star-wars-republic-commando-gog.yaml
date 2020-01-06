@@ -1,0 +1,47 @@
+id: 8953
+game_id: 1312
+game_slug: star-wars-republic-commando
+name: Star Wars Republic Commando
+year: 2005
+user: CounterAttack
+runner: wine
+slug: star-wars-republic-commando-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2018-06-30T03:29:56.373000Z'
+updated_at: '2018-10-03T11:47:54.278712Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 6000
+gogid: 1421405135
+gogslug: star_wars_republic_commando
+humblestoreid: ''
+script:
+  exe: drive_c/GOG Games/Star Wars - Republic Commando/GameData/System/SWRepublicCommando.exe
+  installer:
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      args: /SILENT /LANG=en /SP- /NOCANCEL /SUPPRESSMSGBOXES /NOGUI
+      arch: win32
+      name: wineexec
+  - extract:
+      dst: $GAMEDIR/drive_c/GOG Games/Star Wars - Republic Commando/GameData
+      file: graphics-fix
+  - execute:
+      command: mv "$GAMEDIR/drive_c/GOG Games/Star Wars - Republic Commando/GameData/Movies/LECIntro.avi"
+        "$GAMEDIR/drive_c/GOG Games/Star Wars - Republic Commando/GameData/Movies/LECIntro.avi.bak"
+  - execute:
+      command: mv "$GAMEDIR/drive_c/GOG Games/Star Wars - Republic Commando/GameData/Movies/NVIDIAIntro.avi"
+        "$GAMEDIR/drive_c/GOG Games/Star Wars - Republic Commando/GameData/Movies/NVIDIAIntro.avi.bak"
+  files:
+  - installer: N/A:Select the game's setup file
+  - graphics-fix:
+      filename: SWRC_Graphics_Fix.8.zip
+      url: https://www.moddb.com/downloads/mirror/129918/120/a8f0b3b668705900ccd8fdf023f1a21d
+  game:
+    prefix: $GAMEDIR
+    arch: win32

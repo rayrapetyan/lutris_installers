@@ -1,0 +1,17 @@
+name: Europa Universalis II
+slug: europa-universalis-ii
+year: 2001
+platforms:
+- name: Windows
+genres:
+- name: Historical
+- name: Real-time
+- name: Strategy
+aliases: []
+banner_url: /games/banner/europa-universalis-ii.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:25.746063Z'
+steamid: null
+gogslug: europa_universalis_ii
+humblestoreid: ''

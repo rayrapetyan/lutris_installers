@@ -1,0 +1,24 @@
+id: 3137
+game_id: 3910
+game_slug: another-star
+name: Another Star
+year: 2014
+user: FakeShemp
+runner: steam
+slug: another-star-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-12-27T23:17:11.169000Z'
+updated_at: '2016-12-30T01:49:32.821955Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 358030
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 358030

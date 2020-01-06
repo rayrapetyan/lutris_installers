@@ -1,0 +1,31 @@
+id: 9889
+game_id: 2624
+game_slug: final-fantasy-iii
+name: FINAL FANTASY III
+year: 1990
+user: stooj
+runner: libretro
+slug: final-fantasy-iii-super-nintendo
+version: Super Nintendo
+description: null
+notes: ''
+created_at: '2018-08-25T20:42:42.758000Z'
+updated_at: '2018-08-26T07:41:32.823096Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 239120
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  install:
+  - src: rom
+    dst: $GAMEDIR
+    merge: null
+  files:
+  - rom: 'N/A: Select the game''s ROM file'
+  game:
+    core: snes9x
+    main_file: rom

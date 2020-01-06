@@ -1,0 +1,15 @@
+name: Megamania
+slug: megamania
+year: 1983
+platforms:
+- name: Atari 2600
+genres:
+- name: Shooter
+aliases: []
+banner_url: /games/banner/megamania.jpg
+icon_url: null
+is_public: true
+updated: '2020-01-01T06:51:52.853498Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

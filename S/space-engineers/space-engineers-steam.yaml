@@ -1,0 +1,66 @@
+id: 3612
+game_id: 1801
+game_slug: space-engineers
+name: Space Engineers
+year: 2013
+user: ChillBacon
+runner: winesteam
+slug: space-engineers-steam
+version: Steam
+description: null
+notes: "You have to install libjpeg62 package or else the thumbnails in New Game menu\
+  \ will be dispalyed as magenta rectangles. Due to JIT compiler issues and the way\
+  \ this game uses multithreating, there are audio stutters. If you are on a Debian-based\
+  \ distribution you can try the libFAudio package from this PPA:\r\n\r\n<a href=\"\
+  https://launchpad.net/~cybermax-dexter/+archive/ubuntu/sdl2-backport\">https://launchpad.net/~cybermax-dexter/+archive/ubuntu/sdl2-backport</a>"
+created_at: '2017-05-01T15:18:01.862000Z'
+updated_at: '2019-11-01T00:07:57.789211Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 244850
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - write_file:
+      content: dxgi.nvapiHack = False
+      file: $GAMEDIR/prefix/dxvk.conf
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: winekill
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2017 xact
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing .NET 4.7.2. This will take a while...
+      app: dotnet472 win7
+      arch: win64
+      name: winetricks
+  winesteam:
+    version: lutris-mk11-4.18-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      msvcr120: n,b
+      nvapi,nvapi64: disabled
+  system:
+    env:
+      STAGING_SHARED_MEMORY: 0
+      DXVK_CONFIG_FILE: $GAMEDIR/prefix/dxvk.conf
+      DXVK_HUD: compiler
+    pulse_latency: true
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 244850
+    arch: win64

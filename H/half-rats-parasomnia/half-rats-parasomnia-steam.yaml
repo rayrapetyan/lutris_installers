@@ -1,0 +1,24 @@
+id: 8132
+game_id: 15408
+game_slug: half-rats-parasomnia
+name: 'Half-Rats: Parasomnia'
+year: null
+user: soredake
+runner: steam
+slug: half-rats-parasomnia-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T06:12:32.450729Z'
+updated_at: '2018-05-13T09:17:18.737546Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 638360
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 638360

@@ -1,0 +1,15 @@
+name: Trench Run
+slug: trench-run
+year: null
+platforms:
+- name: Linux
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/trench-run.jpg
+icon_url: /games/icon/trench-run.png
+is_public: false
+updated: '2019-03-02T21:37:54.918255Z'
+steamid: 262100
+gogslug: ''
+humblestoreid: ''

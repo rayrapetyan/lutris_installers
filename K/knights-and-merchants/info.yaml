@@ -1,0 +1,16 @@
+name: Knights and Merchants
+slug: knights-and-merchants
+year: 1998
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/knights-and-merchants.jpg
+icon_url: /games/icon/knights-and-merchants.png
+is_public: true
+updated: '2019-01-23T08:30:05.828292Z'
+steamid: 253900
+gogslug: ''
+humblestoreid: ''

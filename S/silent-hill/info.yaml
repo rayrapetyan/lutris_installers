@@ -1,0 +1,16 @@
+name: Silent Hill
+slug: silent-hill
+year: 1999
+platforms:
+- name: Sony PlayStation
+- name: Sony PSP
+genres:
+- name: Horror
+aliases: []
+banner_url: /games/banner/silent-hill.jpg
+icon_url: /games/icon/silent-hill.png
+is_public: true
+updated: '2019-01-23T08:31:13.405726Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 6407
+game_id: 927
+game_slug: men-of-war
+name: Men of War
+year: null
+user: Stoney_Fish
+runner: winesteam
+slug: men-of-war-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-11-23T21:35:38.004462Z'
+updated_at: '2017-11-28T18:17:32.766694Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 7830
+gogid: 1426246476
+gogslug: men_of_war
+humblestoreid: ''
+script:
+  game:
+    appid: 7830

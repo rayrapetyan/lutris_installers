@@ -1,0 +1,16 @@
+name: Beholder 2
+slug: beholder-2
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Strategy
+aliases: []
+banner_url: /games/banner/beholder-2.jpg
+icon_url: /games/icon/beholder-2.png
+is_public: true
+updated: '2019-01-23T08:28:34.528164Z'
+steamid: 761620
+gogslug: beholder_2
+humblestoreid: ''

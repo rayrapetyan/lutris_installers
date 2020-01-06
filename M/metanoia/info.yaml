@@ -1,0 +1,17 @@
+name: Metanoia
+slug: metanoia
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: Casual
+aliases: []
+banner_url: /games/banner/metanoia.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:22.319755Z'
+steamid: 856750
+gogslug: ''
+humblestoreid: ''

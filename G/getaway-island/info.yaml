@@ -1,0 +1,15 @@
+name: Getaway Island
+slug: getaway-island
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/getaway-island.jpg
+icon_url: /games/icon/getaway-island.png
+is_public: true
+updated: '2019-01-23T08:29:39.178278Z'
+steamid: 605190
+gogslug: ''
+humblestoreid: ''

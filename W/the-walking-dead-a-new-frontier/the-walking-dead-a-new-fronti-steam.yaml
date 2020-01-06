@@ -1,0 +1,24 @@
+id: 6778
+game_id: 9721
+game_slug: the-walking-dead-a-new-frontier
+name: 'The Walking Dead: A New Frontier'
+year: 2016
+user: soredake
+runner: winesteam
+slug: the-walking-dead-a-new-fronti-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-23T20:57:13.824269Z'
+updated_at: '2017-12-23T20:57:21.730190Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 536220
+gogid: null
+gogslug: walking_dead_a_new_frontier_the
+humblestoreid: ''
+script:
+  game:
+    appid: 536220

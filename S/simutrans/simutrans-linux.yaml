@@ -1,0 +1,29 @@
+id: 2221
+game_id: 6225
+game_slug: simutrans
+name: Simutrans
+year: 2016
+user: RobLoach
+runner: linux
+slug: simutrans-linux
+version: Linux
+description: Version 120.2
+notes: ''
+created_at: '2016-06-28T05:54:31.102000Z'
+updated_at: '2017-06-24T16:08:35.887073Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 434520
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: simutrans
+  installer:
+  - extract:
+      file: simutrans-game
+  - chmodx: $GAMEDIR/simutrans
+  files:
+  - simutrans-game: http://sourceforge.net/projects/simutrans/files/simutrans/120-2/simulinux-120-2.zip

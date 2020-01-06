@@ -1,0 +1,40 @@
+id: 4734
+game_id: 11978
+game_slug: magical-teacher-my-teachers-a-mage
+name: 'Magical Teacher: My Teacher''s a Mage?'
+year: 2006
+user: FakeShemp
+runner: wine
+slug: magical-teacher-my-teachers-a-mangagamer
+version: MangaGamer
+description: ''
+notes: ''
+created_at: '2017-06-30T18:30:27.389000Z'
+updated_at: '2017-07-01T19:15:31.868156Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/setup.exe
+      prefix: $GAMEDIR
+      args: /s /v"/qn"
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: dsound
+      name: winetricks
+  files:
+  - file1: N/A:Please select the MangaGamer archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/SCORE/Magical Teacher/lcsebody.exe

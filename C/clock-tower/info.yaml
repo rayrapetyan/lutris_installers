@@ -1,0 +1,17 @@
+name: Clock Tower
+slug: clock-tower
+year: 1997
+platforms:
+- name: Sony PlayStation
+- name: Super Nintendo
+genres:
+- name: Adventure
+- name: Horror
+aliases: []
+banner_url: /games/banner/clock-tower.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:54.372408Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 385
+game_id: 1121
+game_slug: ufo-afterlight
+name: 'UFO: Afterlight'
+year: 2007
+user: strider
+runner: winesteam
+slug: ufo-afterlight-steam-old
+version: Steam Old
+description: 'The old Steam version of UFO: Afterlight.'
+notes: ''
+created_at: '2014-01-16T20:09:04.558000Z'
+updated_at: '2019-10-14T03:09:44.171994Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 237950
+gogid: 1207658869
+gogslug: ufo_afterlight
+humblestoreid: ''
+script:
+  game:
+    appid: 7500

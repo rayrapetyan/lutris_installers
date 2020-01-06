@@ -1,0 +1,17 @@
+name: 'Civilization II: Test of Time'
+slug: civilization-ii-test-of-time
+year: 1999
+platforms:
+- name: Windows
+genres:
+- name: Simulation
+- name: Turn-based strategy
+- name: Turn-based tactics
+aliases: []
+banner_url: /games/banner/civilization-ii-test-of-time.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:53.572103Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,15 @@
+name: 'Descent: Freespace - The Great War'
+slug: descent-freespace-the-great-war
+year: 1998
+platforms:
+- name: Linux
+genres:
+- name: Space simulation
+aliases: []
+banner_url: /games/banner/descent-freespace-the-great-war.jpg
+icon_url: /games/icon/descent-freespace-the-great-war.png
+is_public: true
+updated: '2019-01-23T08:29:10.066940Z'
+steamid: 273600
+gogslug: ''
+humblestoreid: ''

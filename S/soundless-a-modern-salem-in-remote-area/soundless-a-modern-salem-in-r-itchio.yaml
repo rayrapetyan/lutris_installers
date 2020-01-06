@@ -1,0 +1,31 @@
+id: 10038
+game_id: 21489
+game_slug: soundless-a-modern-salem-in-remote-area-
+name: Soundless - A Modern Salem in Remote Area -
+year: 2017
+user: kimchitea
+runner: linux
+slug: soundless-a-modern-salem-in-r-itchio
+version: itch.io
+description: <a href="https://milkplus.itch.io/soundless">itch.io link</a>
+notes: ''
+created_at: '2018-09-04T19:25:53.306000Z'
+updated_at: '2018-10-20T11:27:57.708093Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: soundless.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/soundless.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/soundless
+  - chmodx: $GAMEDIR/lib/linux-x86_64/soundless
+  files:
+  - file1: N/A:Please select the itch.io archive

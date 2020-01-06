@@ -1,0 +1,24 @@
+id: 1745
+game_id: 1860
+game_slug: divinity-original-sin
+name: Divinity Original Sin
+year: 2014
+user: Xodetaetl
+runner: winesteam
+slug: divinity-original-sin-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2015-12-25T18:18:52.745000Z'
+updated_at: '2018-08-24T07:46:49.458058Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 230230
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 230230

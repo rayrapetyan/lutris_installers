@@ -1,0 +1,30 @@
+id: 9835
+game_id: 11740
+game_slug: shuffle
+name: Shuffle!
+year: 2004
+user: kimchitea
+runner: winesteam
+slug: shuffle-steam-32-bit
+version: Steam (32-bit)
+description: null
+notes: ''
+created_at: '2018-08-21T07:25:19.198093Z'
+updated_at: '2018-08-21T08:19:14.394480Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 537100
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $HOME/.local/share/lutris/runners/winesteam/prefix
+      description: Installing corefonts
+      app: corefonts
+      name: winetricks
+  game:
+    appid: 537100

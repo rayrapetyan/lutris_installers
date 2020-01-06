@@ -1,0 +1,46 @@
+id: 4809
+game_id: 3527
+game_slug: super-3d-noahs-ark
+name: Super 3D Noah's Ark
+year: 1994
+user: FakeShemp
+runner: dosbox
+slug: super-3d-noahs-ark-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-07-04T19:49:47.776000Z'
+updated_at: '2017-07-09T20:09:46.625543Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: noah3d.exe
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $file1
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/dosbox_lutris.conf
+  - write_config:
+      section: sdl
+      key: fullscreen
+      value: false
+      file: $GAMEDIR/dosbox_lutris.conf
+  - write_config:
+      section: cpu
+      key: cycles
+      value: fixed 7500
+      file: $GAMEDIR/dosbox_lutris.conf
+  files:
+  - file1: N/A:Please select the itch.io archive
+  game:
+    config_file: $GAMEDIR/dosbox_lutris.conf

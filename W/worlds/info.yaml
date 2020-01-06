@@ -1,0 +1,15 @@
+name: Worlds
+slug: worlds
+year: null
+platforms:
+- name: Linux
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/worlds.jpg
+icon_url: /games/icon/worlds.png
+is_public: true
+updated: '2019-03-06T04:52:34.111060Z'
+steamid: 304850
+gogslug: ''
+humblestoreid: ''

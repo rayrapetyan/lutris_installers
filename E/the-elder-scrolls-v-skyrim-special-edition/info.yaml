@@ -1,0 +1,16 @@
+name: 'The Elder Scrolls V: Skyrim Special Edition'
+slug: the-elder-scrolls-v-skyrim-special-edition
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/the-elder-scrolls-v-skyrim-special-edition.jpg
+icon_url: /games/icon/the-elder-scrolls-v-skyrim-special-edition.png
+is_public: true
+updated: '2019-01-23T08:31:40.871311Z'
+steamid: 489830
+gogslug: ''
+humblestoreid: ''

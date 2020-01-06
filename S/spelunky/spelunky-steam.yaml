@@ -1,0 +1,24 @@
+id: 1002
+game_id: 43
+game_slug: spelunky
+name: Spelunky
+year: 2009
+user: RobLoach
+runner: winesteam
+slug: spelunky-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2014-10-29T11:04:10.684000Z'
+updated_at: '2014-11-12T13:03:12.430000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 239350
+gogid: 1207659257
+gogslug: spelunky
+humblestoreid: ''
+script:
+  game:
+    appid: 239350

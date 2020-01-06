@@ -1,0 +1,15 @@
+name: Pac-Man World 3
+slug: pac-man-world-3
+year: 2005
+platforms:
+- name: GameCube
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/pac-man-world-3.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:40.717204Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

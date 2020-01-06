@@ -1,0 +1,17 @@
+name: Second Earth
+slug: second-earth
+year: null
+platforms:
+- name: Linux
+genres:
+- name: Simulation
+- name: Space simulation
+- name: Strategy
+aliases: []
+banner_url: /games/banner/second-earth.jpg
+icon_url: null
+is_public: true
+updated: '2019-12-27T23:50:42.253184Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

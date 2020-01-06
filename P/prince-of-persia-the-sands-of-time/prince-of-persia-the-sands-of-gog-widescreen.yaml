@@ -1,0 +1,120 @@
+id: 14028
+game_id: 2
+game_slug: prince-of-persia-the-sands-of-time
+name: 'Prince of Persia: The Sands of Time'
+year: 2003
+user: legluondunet
+runner: wine
+slug: prince-of-persia-the-sands-of-gog-widescreen
+version: GOG + WIDESCREEN
+description: "This script will install \"Prince of Persia - The Sands of Time\" GOG\
+  \ edition with support for modern resolution. \r\nDuring install please let all\
+  \ options by default.\r\nThis script uses ps2wide widescreen patch: http://ps2wide.net/\r\
+  \nThanks to the people who contributed to play this game in the best conditions."
+notes: "- POP - TSOT has insufficient controller support. For a better game experience,\
+  \ you will find profiles for x360 and Steam Controller in the \"gamepad profiles\"\
+  \ folder.\r\n- Please report issue concerning this script on my Github page:\r\n\
+  https://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2019-06-10T07:14:50.408000Z'
+updated_at: '2019-11-17T16:45:36.766036Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: 13600
+gogid: 1207658747
+gogslug: prince_of_persia_the_sands_of_time
+humblestoreid: ''
+script:
+  custom-name: Prince of Persia - The Sands of Time - GOG
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Prince of Persia - The Sands of Time/PrinceOfPersia.EXE
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: goginstaller
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES /SILENT
+      name: wineexec
+  - extract:
+      dst: $GAMEDIR/drive_c/GOG Games/Prince of Persia - The Sands of Time/
+      file: wds
+  - write_file:
+      content: '[MAIN]
+
+        Width = $RESOLUTION_WIDTH
+
+        Height = $RESOLUTION_HEIGHT
+
+
+        [HUD]
+
+        HUD_posX_auto = 1 // 0 - Off; 1 - On;
+
+        HUD_posX =  -0.148958 // -0.082450 - for 16x10 mode; -0.148958 for 16x9 mode;
+
+
+        [MISC]
+
+        cutscenes_black_borders = 0 //  0 - Off; 1 - On
+
+        Xbox_fov = 0 //  0 - Off; 1 - On
+
+        fov_multiplier = 1.0 // original value 1.0;'
+      file: $GAMEDIR/drive_c/GOG Games/Prince of Persia - The Sands of Time/pop.ini
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: native,builtin
+      key: d3d9
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides\
+  - merge:
+      src: gppreadme
+      dst: $GAMEDIR/drive_c/GOG Games/Prince of Persia - The Sands of Time/gamepad
+        profiles/
+  - merge:
+      src: gppx360
+      dst: $GAMEDIR/drive_c/GOG Games/Prince of Persia - The Sands of Time/gamepad
+        profiles/
+  - merge:
+      src: gppsteam
+      dst: $GAMEDIR/drive_c/GOG Games/Prince of Persia - The Sands of Time/gamepad
+        profiles/
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_DWORD
+      value: '00000000'
+      key: csmt
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D\
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: Y
+      key: EAXEnabled
+      path: HKEY_CURRENT_USER\Software\Wine\DirectSound
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: 0 0 0
+      key: background
+      path: HKEY_CURRENT_USER\Control Panel\Colors\
+  wine:
+    Desktop: true
+  files:
+  - goginstaller: N/A:Please select the GOG.com Windows installer
+  - wds: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Prince%20of%20Persia%20-%20The%20Sands%20of%20time/pop.7z
+  - gppreadme: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Prince%20of%20Persia%20-%20The%20Sands%20of%20time/gamepad%20profiles/pop-sot_gamepad_readme.html
+  - gppx360: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Prince%20of%20Persia%20-%20The%20Sands%20of%20time/gamepad%20profiles/pop-sot_x360.gamecontroller.amgp
+  - gppsteam: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Prince%20of%20Persia%20-%20The%20Sands%20of%20time/gamepad%20profiles/pop-sot_steam.sccprofile

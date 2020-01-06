@@ -1,0 +1,25 @@
+id: 3091
+game_id: 4562
+game_slug: town-of-salem
+name: Town of Salem
+year: null
+user: syntobu
+runner: winesteam
+slug: town-of-salem-steam
+version: Steam
+description: This is the windows version of Town of Salem. You must have purchased
+  the game through steam to use it.
+notes: ''
+created_at: '2016-12-17T10:31:19.431000Z'
+updated_at: '2017-03-21T15:23:34.476108Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 334230
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 334230

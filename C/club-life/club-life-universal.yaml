@@ -1,0 +1,29 @@
+id: 5079
+game_id: 6086
+game_slug: club-life
+name: Club Life
+year: 2016
+user: FakeShemp
+runner: linux
+slug: club-life-universal
+version: Universal
+description: 'Uncensor patch from: http://dharkerstudio.com/uncensored.html'
+notes: ''
+created_at: '2017-07-17T18:32:22.255000Z'
+updated_at: '2017-07-17T18:33:30.820144Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 404180
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: club-life
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $file1
+  files:
+  - file1: N/A:Please select the patch archive

@@ -1,0 +1,57 @@
+id: 14975
+game_id: 852
+game_slug: dungeons-dragons-online
+name: "Dungeons & Dragons Online\xAE"
+year: null
+user: oTarUX
+runner: wine
+slug: dungeons-dragons-online-preview-server-w-dxv
+version: Preview server w/ DXVK
+description: Server is not up 24/7 so check the official forums.
+notes: ''
+created_at: '2019-08-11T23:45:49.966000Z'
+updated_at: '2019-08-14T01:35:48.105641Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 206480
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: win7
+      name: winetricks
+  - merge:
+      src: setup
+      dst: $GAMEDIR/drive_c/Program Files (x86)/StandingStoneGames/Dungeons & Dragons
+        Online (Preview)
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Installing Dungeons & Dragons Online (Preview)
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/StandingStoneGames/Dungeons & Dragons Online
+      (Preview)/DNDLauncher.exe
+    arch: win64
+  system:
+    env:
+      DXVK_HUD: 0
+    reset_pulse: true
+    pulse_latency: true
+  wine:
+    version: tkg-4.0-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - setup: http://live.ddo.com/sites/clientdl/ddo/preview/ddopreview.exe

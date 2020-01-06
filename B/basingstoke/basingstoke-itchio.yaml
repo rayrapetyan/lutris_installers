@@ -1,0 +1,31 @@
+id: 16406
+game_id: 18135
+game_slug: basingstoke
+name: Basingstoke
+year: 2018
+user: gigaSproule
+runner: linux
+slug: basingstoke-itchio
+version: itch.io
+description: null
+notes: Need to download the zip file from itch.io
+created_at: '2019-10-25T21:56:56.994000Z'
+updated_at: '2019-10-26T00:12:26.493536Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 336940
+gogid: 1146716716
+gogslug: basingstoke
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $zip
+  - chmodx: $GAMEDIR/Basingstoke.x86_64
+  files:
+  - zip: N/A:Select the game's zip file
+  game:
+    exe: $GAMEDIR/Basingstoke.x86_64

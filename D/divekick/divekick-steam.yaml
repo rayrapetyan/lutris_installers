@@ -1,0 +1,24 @@
+id: 4132
+game_id: 1299
+game_slug: divekick
+name: Divekick
+year: null
+user: strider
+runner: winesteam
+slug: divekick-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-06-04T22:22:23.539162Z'
+updated_at: '2017-06-04T22:22:32.786277Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 244730
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 244730

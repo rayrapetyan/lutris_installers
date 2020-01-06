@@ -1,0 +1,16 @@
+name: Starship Traveller
+slug: starship-traveller
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Interactive fiction
+- name: RPG
+aliases: []
+banner_url: /games/banner/starship-traveller.jpg
+icon_url: /games/icon/starship-traveller.png
+is_public: true
+updated: '2019-01-23T08:31:24.739329Z'
+steamid: 348180
+gogslug: ''
+humblestoreid: ''

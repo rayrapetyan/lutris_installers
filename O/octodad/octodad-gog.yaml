@@ -1,0 +1,33 @@
+id: 5035
+game_id: 4024
+game_slug: octodad
+name: Octodad
+year: 2011
+user: FakeShemp
+runner: wine
+slug: octodad-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2017-07-13T19:05:34.026000Z'
+updated_at: '2017-07-17T21:01:11.969055Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      args: /sp- /silent /norestart
+      name: wineexec
+  files:
+  - file1: N/A:Please select the GOG installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Octodad/Octodad.exe

@@ -1,0 +1,17 @@
+name: 'Battlefield: Bad Company 2'
+slug: battlefield-bad-company-2
+year: 2010
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+- name: Shooter
+aliases: []
+banner_url: /games/banner/battlefield-bad-company-2.jpg
+icon_url: /games/icon/battlefield-bad-company-2.png
+is_public: true
+updated: '2019-01-23T08:28:32.922185Z'
+steamid: 24960
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 8204
+game_id: 7376
+game_slug: eternal-winter
+name: Eternal Winter
+year: null
+user: soredake
+runner: winesteam
+slug: eternal-winter-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T07:09:44.394083Z'
+updated_at: '2018-05-13T09:04:01.125584Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 325210
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 325210

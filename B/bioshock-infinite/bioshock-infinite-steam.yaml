@@ -1,0 +1,27 @@
+id: 1424
+game_id: 822
+game_slug: bioshock-infinite
+name: BioShock Infinite
+year: 2013
+user: Xodetaetl
+runner: steam
+slug: bioshock-infinite-steam
+version: Steam
+description: +200% Performance on Lutris in comparison with Steam.
+notes: ''
+created_at: '2015-03-17T18:08:27.750000Z'
+updated_at: '2018-11-03T08:23:46.198328Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: 8870
+gogid: null
+gogslug: ''
+humblestoreid: bioshock-infinite
+script:
+  system:
+    env:
+      __GL_THREADED_OPTIMIZATIONS: '1'
+  game:
+    appid: 8870

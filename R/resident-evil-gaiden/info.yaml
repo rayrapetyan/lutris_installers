@@ -1,0 +1,18 @@
+name: Resident Evil Gaiden
+slug: resident-evil-gaiden
+year: 2001
+platforms:
+- name: Nintendo Game Boy Color
+genres:
+- name: Horror
+- name: Survival
+aliases:
+- slug: biohazard-gaiden
+  name: Biohazard Gaiden
+banner_url: /games/banner/resident-evil-gaiden.jpg
+icon_url: null
+is_public: true
+updated: '2019-02-15T15:39:15.272925Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

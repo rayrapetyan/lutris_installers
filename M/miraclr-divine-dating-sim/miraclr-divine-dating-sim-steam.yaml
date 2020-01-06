@@ -1,0 +1,24 @@
+id: 8769
+game_id: 19129
+game_slug: miraclr-divine-dating-sim
+name: miraclr - Divine Dating Sim
+year: 2018
+user: kimchitea
+runner: steam
+slug: miraclr-divine-dating-sim-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-17T19:55:44.771835Z'
+updated_at: '2018-06-18T05:28:12.377371Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 787970
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 787970

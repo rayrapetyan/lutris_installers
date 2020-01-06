@@ -1,0 +1,16 @@
+name: The Plan
+slug: the-plan
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Casual
+aliases: []
+banner_url: /games/banner/the-plan.jpg
+icon_url: /games/icon/the-plan.png
+is_public: true
+updated: '2019-01-23T08:31:45.868289Z'
+steamid: 250600
+gogslug: ''
+humblestoreid: ''

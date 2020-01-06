@@ -1,0 +1,31 @@
+id: 9113
+game_id: 19851
+game_slug: dejection-an-ode
+name: 'Dejection: An Ode'
+year: 2014
+user: kimchitea
+runner: linux
+slug: dejection-an-ode-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2018-07-09T07:36:59.111000Z'
+updated_at: '2018-07-09T17:17:22.837168Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Dejection.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Dejection.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Dejection
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Dejection
+  files:
+  - file1: N/A:Please select the itch.io archive

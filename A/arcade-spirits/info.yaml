@@ -1,0 +1,15 @@
+name: Arcade Spirits
+slug: arcade-spirits
+year: 2019
+platforms:
+- name: Linux
+genres:
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/arcade-spirits.jpg
+icon_url: /games/icon/arcade-spirits.png
+is_public: true
+updated: '2019-02-15T00:42:18.130018Z'
+steamid: 910630
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,25 @@
+id: 5901
+game_id: 401
+game_slug: prince-of-persia-the-two-thrones
+name: 'Prince of Persia: The Two Thrones'
+year: null
+user: king_dick
+runner: winesteam
+slug: prince-of-persia-the-two-thro-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-10-05T07:20:04.324000Z'
+updated_at: '2017-10-19T04:56:57.250998Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 13530
+gogid: 1207659091
+gogslug: prince_of_persia_the_two_thrones
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 13530

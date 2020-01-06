@@ -1,0 +1,15 @@
+name: 'Alien Breed 2: Assault'
+slug: alien-breed-2-assault
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/alien-breed-2-assault.jpg
+icon_url: /games/icon/alien-breed-2-assault.png
+is_public: true
+updated: '2019-02-05T22:50:52.086284Z'
+steamid: 22650
+gogslug: ''
+humblestoreid: ''

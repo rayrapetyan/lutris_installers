@@ -1,0 +1,15 @@
+name: Breathedge
+slug: breathedge
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/breathedge.jpg
+icon_url: /games/icon/breathedge.png
+is_public: true
+updated: '2019-04-08T06:52:24.132640Z'
+steamid: 738520
+gogslug: breathedge
+humblestoreid: ''

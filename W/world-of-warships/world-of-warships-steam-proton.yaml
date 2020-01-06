@@ -1,0 +1,35 @@
+id: 10057
+game_id: 11406
+game_slug: world-of-warships
+name: World of Warships
+year: 2015
+user: cxf
+runner: steam
+slug: world-of-warships-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2018-09-05T22:31:41.114000Z'
+updated_at: '2019-05-19T06:51:36.071957Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 552990
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - chmodx: sppfx
+  - execute:
+      command: $CACHE/sppfx.sh 552990 winetricks -q corefonts
+      description: Installing corefonts
+  - execute:
+      command: $CACHE/sppfx.sh 552990 winetricks -q win10
+  system:
+    pulse_latency: true
+  files:
+  - sppfx: https://gitlab.com/quietkerb/steamplayprefix/raw/master/sppfx.sh
+  game:
+    appid: 552990

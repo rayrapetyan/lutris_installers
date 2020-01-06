@@ -1,0 +1,48 @@
+id: 12063
+game_id: 8201
+game_slug: command-conquer-red-alert-2
+name: 'Command & Conquer: Red Alert 2'
+year: 2000
+user: Soerensen
+runner: wine
+slug: command-conquer-red-alert-2-xwis-mutliplayer
+version: XWIS Mutliplayer
+description: null
+notes: ''
+created_at: '2019-02-16T20:45:06.544000Z'
+updated_at: '2019-03-30T21:18:11.994895Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 32bit Wine prefix.
+      arch: win32
+      name: create_prefix
+  - merge:
+      src: game_file
+      dst: $GAMEDIR/drive_c/Red Alert 2/
+  - merge:
+      src: music_file
+      dst: $GAMEDIR/drive_c/Red Alert 2/
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Select C:/Red Alert 2/ as the installation folder
+      arch: win32
+      name: wine.wineexec
+  files:
+  - setup: http://xwis.net/dl/Red-Alert-2-Multiplayer.exe
+  - game_file: N/A:Select the game's setup file
+  - music_file: N/A:Select the game's setup file
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/ra2/Red-Alert-2-Multiplayer.exe
+    arch: win32

@@ -1,0 +1,15 @@
+name: Quake 3 Team Arena
+slug: quake-3-team-arena
+year: 2000
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/quake-3-team-arena.jpg
+icon_url: /games/icon/quake-3-team-arena.png
+is_public: true
+updated: '2019-01-23T08:30:52.728396Z'
+steamid: 2350
+gogslug: ''
+humblestoreid: ''

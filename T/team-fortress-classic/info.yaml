@@ -1,0 +1,15 @@
+name: Team Fortress Classic
+slug: team-fortress-classic
+year: 1999
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/team-fortress-classic.jpg
+icon_url: /games/icon/team-fortress-classic.png
+is_public: true
+updated: '2019-01-23T08:31:36.010763Z'
+steamid: 20
+gogslug: ''
+humblestoreid: ''

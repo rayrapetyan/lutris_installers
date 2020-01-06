@@ -1,0 +1,30 @@
+id: 6895
+game_id: 15337
+game_slug: masters-of-the-universe-the-power-of-he-man
+name: 'Masters of the Universe: The Power of He-Man'
+year: 1983
+user: maxlefou
+runner: jzintv
+slug: masters-of-the-universe-the-p-intellivision
+version: Intellivision
+description: null
+notes: ''
+created_at: '2017-12-29T13:37:58.785894Z'
+updated_at: '2017-12-29T16:34:37.859637Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: romfile
+      dst: $GAMEDIR
+  files:
+  - romfile: N/A:Please select the ROM file
+  game:
+    main_file: romfile

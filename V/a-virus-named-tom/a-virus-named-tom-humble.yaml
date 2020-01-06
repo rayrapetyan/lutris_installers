@@ -1,0 +1,33 @@
+id: 3830
+game_id: 267
+game_slug: a-virus-named-tom
+name: A Virus Named TOM
+year: 2012
+user: FakeShemp
+runner: linux
+slug: a-virus-named-tom-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-24T11:21:39.267006Z'
+updated_at: '2017-05-26T00:09:24.505659Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 207650
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: AVirusNamedTOM
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble installer

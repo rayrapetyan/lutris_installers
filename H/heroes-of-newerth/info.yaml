@@ -1,0 +1,15 @@
+name: Heroes of Newerth
+slug: heroes-of-newerth
+year: 2010
+platforms:
+- name: Linux
+genres:
+- name: Moba
+aliases: []
+banner_url: /games/banner/heroes-of-newerth.jpg
+icon_url: /games/icon/heroes-of-newerth.png
+is_public: true
+updated: '2019-01-23T08:29:49.526345Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

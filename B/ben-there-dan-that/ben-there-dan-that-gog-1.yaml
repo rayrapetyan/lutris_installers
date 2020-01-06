@@ -1,0 +1,33 @@
+id: 5247
+game_id: 385
+game_slug: ben-there-dan-that
+name: Ben There, Dan That!
+year: 2009
+user: FakeShemp
+runner: wine
+slug: ben-there-dan-that-gog-1
+version: GOG
+description: ''
+notes: ''
+created_at: '2017-08-01T15:15:45.544000Z'
+updated_at: '2017-08-08T18:06:14.519760Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 37420
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      args: /sp- /silent /norestart
+      name: wineexec
+  files:
+  - file1: N/A:Please select the GOG installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Ben There Dan That!/BTDT.exe

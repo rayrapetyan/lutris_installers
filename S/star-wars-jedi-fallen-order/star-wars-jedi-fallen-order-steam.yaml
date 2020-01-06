@@ -1,0 +1,30 @@
+id: 16828
+game_id: 27821
+game_slug: star-wars-jedi-fallen-order
+name: 'Star Wars Jedi: Fallen Order'
+year: 2019
+user: citrusalex
+runner: winesteam
+slug: star-wars-jedi-fallen-order-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-11-15T11:56:13.714000Z'
+updated_at: '2019-12-23T19:50:30.077507Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: 1172380
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  wine:
+    version: lutris-jedi-4.20-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      nvapi,nvapi64: disabled
+  game:
+    appid: 1172380

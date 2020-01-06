@@ -1,0 +1,20 @@
+name: Tropico 6
+slug: tropico-6
+year: 2019
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Building
+- name: Construction
+- name: Sandbox
+- name: Simulation
+- name: Strategy
+aliases: []
+banner_url: /games/banner/tropico-6.jpg
+icon_url: /games/icon/tropico-6.png
+is_public: false
+updated: '2019-06-10T12:05:11.950923Z'
+steamid: 492720
+gogslug: ''
+humblestoreid: ''

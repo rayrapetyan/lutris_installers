@@ -1,0 +1,16 @@
+name: Fran Bow
+slug: fran-bow
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Indie
+aliases: []
+banner_url: /games/banner/fran-bow.jpg
+icon_url: /games/icon/fran-bow.png
+is_public: true
+updated: '2019-05-23T21:13:28.767258Z'
+steamid: 362680
+gogslug: fran_bow
+humblestoreid: ''

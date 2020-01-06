@@ -1,0 +1,24 @@
+id: 1457
+game_id: 3391
+game_slug: age-of-wonders-iii
+name: Age of Wonders III
+year: 2014
+user: Xodetaetl
+runner: steam
+slug: age-of-wonders-iii-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-04-14T16:37:51.557000Z'
+updated_at: '2015-04-14T16:37:55.690000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 226840
+gogid: 1207660893
+gogslug: age_of_wonders_3
+humblestoreid: ''
+script:
+  game:
+    appid: 226840

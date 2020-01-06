@@ -1,0 +1,30 @@
+id: 10052
+game_id: 126
+game_slug: final-doom
+name: Final Doom
+year: 1996
+user: miky_kr5
+runner: zdoom
+slug: final-doom-plutonia-wad-require
+version: Plutonia Wad required
+description: null
+notes: ''
+created_at: '2018-09-05T18:35:14.521891Z'
+updated_at: '2018-09-06T10:24:47.008802Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 2290
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: wad-data
+      dst: $GAMEDIR
+  files:
+  - wad-data: N/A:Select a The Plutonia Experiment WAD file
+  game:
+    main_file: PLUTONIA.WAD

@@ -1,0 +1,24 @@
+id: 17434
+game_id: 30812
+game_slug: gtfo
+name: GTFO
+year: 2019
+user: AlphaAngel
+runner: steam
+slug: gtfo-steam-with-proton
+version: Steam with Proton
+description: null
+notes: ''
+created_at: '2019-12-19T15:47:00.014783Z'
+updated_at: '2019-12-19T15:47:00.014808Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 493520

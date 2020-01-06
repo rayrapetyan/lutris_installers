@@ -1,0 +1,16 @@
+name: Race The Sun
+slug: race-the-sun
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Arcade
+- name: Racing
+aliases: []
+banner_url: /games/banner/race-the-sun.jpg
+icon_url: /games/icon/race-the-sun.png
+is_public: true
+updated: '2019-01-23T08:30:53.758629Z'
+steamid: 253030
+gogslug: race_the_sun
+humblestoreid: race-the-sun

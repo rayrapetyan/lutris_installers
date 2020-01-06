@@ -1,0 +1,28 @@
+id: 10736
+game_id: 20693
+game_slug: cursed-lands
+name: Cursed Lands
+year: 2018
+user: kimchitea
+runner: steam
+slug: cursed-lands-steam-uncensored
+version: Steam (Uncensored)
+description: null
+notes: ''
+created_at: '2018-11-02T18:37:15.615200Z'
+updated_at: '2018-11-03T06:29:01.111264Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 758320
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: $GAMEDIR/game/censored.txt
+      dst: $CACHE
+  game:
+    appid: 758320

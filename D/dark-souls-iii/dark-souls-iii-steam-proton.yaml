@@ -1,0 +1,26 @@
+id: 11983
+game_id: 6072
+game_slug: dark-souls-iii
+name: DARK SOULS III
+year: 2016
+user: HyrumGraff
+runner: steam
+slug: dark-souls-iii-steam-proton
+version: Steam Proton
+description: null
+notes: "This will detect if the game is already installed and is able to launch the\
+  \ game, but does not monitor it properly \u2014 it does not recognize when the game\
+  \ has quit, and the stop button has no effect."
+created_at: '2019-02-12T15:14:18.151000Z'
+updated_at: '2019-05-19T06:30:34.054628Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 374320
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 374320

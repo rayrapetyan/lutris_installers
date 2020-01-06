@@ -1,0 +1,24 @@
+id: 1613
+game_id: 947
+game_slug: spec-ops-the-line
+name: 'Spec Ops: The Line'
+year: 2012
+user: KimplE
+runner: steam
+slug: spec-ops-the-line-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-09-29T20:44:05.599000Z'
+updated_at: '2018-04-02T00:32:51.744633Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: 50300
+gogid: null
+gogslug: ''
+humblestoreid: spec-ops-the-line
+script:
+  game:
+    appid: 50300

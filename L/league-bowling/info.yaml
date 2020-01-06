@@ -1,0 +1,18 @@
+name: League Bowling
+slug: league-bowling
+year: 1991
+platforms:
+- name: Arcade
+- name: Neo Geo
+genres:
+- name: Arcade
+- name: Simulation
+- name: Sports
+aliases: []
+banner_url: /games/banner/league-bowling.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:08.434282Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

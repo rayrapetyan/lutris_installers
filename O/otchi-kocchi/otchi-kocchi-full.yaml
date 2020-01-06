@@ -1,0 +1,38 @@
+id: 9537
+game_id: 20603
+game_slug: otchi-kocchi
+name: OTChi Kocchi
+year: 2013
+user: kimchitea
+runner: linux
+slug: otchi-kocchi-full
+version: Full
+description: null
+notes: Uses the Ren'Py SDK to run the game natively in Linux.
+created_at: '2018-08-02T18:11:48.383000Z'
+updated_at: '2018-08-04T08:32:25.542169Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $renpy
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/game
+      dst: $GAMEDIR/otchi-kocchi/game
+  files:
+  - file1: N/A:Please select the game archive (Windows)
+  - renpy: https://www.renpy.org/dl/6.15.7/renpy-6.15.7-sdk.tar.bz2
+  game:
+    args: otchi-kocchi
+    exe: renpy.sh

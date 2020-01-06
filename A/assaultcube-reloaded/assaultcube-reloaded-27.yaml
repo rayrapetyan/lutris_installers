@@ -1,0 +1,35 @@
+id: 1990
+game_id: 4732
+game_slug: assaultcube-reloaded
+name: AssaultCube Reloaded
+year: 2015
+user: vinylourson
+runner: linux
+slug: assaultcube-reloaded-27
+version: '2.7'
+description: null
+notes: ''
+created_at: '2016-02-25T12:55:15.120000Z'
+updated_at: '2018-09-23T23:11:38.158436Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: client.sh
+  installer:
+  - extract:
+      file: $archive
+  - chmodx: client.sh
+  - chmodx: server.sh
+  - chmodx: server_wizard.sh
+  - chmodx: bin_unix/linux_64_client
+  - chmodx: bin_unix/linux_64_server
+  - chmodx: bin_unix/linux_client
+  - chmodx: bin_unix/linux_server
+  files:
+  - archive: https://github.com/acreloaded/acr/releases/download/v2.7/acr_02_07_00-l.zip

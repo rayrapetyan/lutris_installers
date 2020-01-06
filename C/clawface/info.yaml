@@ -1,0 +1,15 @@
+name: Clawface
+slug: clawface
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/clawface.jpg
+icon_url: /games/icon/clawface.png
+is_public: true
+updated: '2019-01-23T08:28:53.930712Z'
+steamid: 785130
+gogslug: ''
+humblestoreid: ''

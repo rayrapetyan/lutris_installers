@@ -1,0 +1,28 @@
+id: 4229
+game_id: 11642
+game_slug: kaitlyn-in-chinaland
+name: Kaitlyn in Chinaland
+year: 2015
+user: FakeShemp
+runner: linux
+slug: kaitlyn-in-chinaland-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-06-08T19:41:38.926824Z'
+updated_at: '2017-06-11T00:21:06.376232Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Kaitlyn in Chinaland.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

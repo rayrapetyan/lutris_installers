@@ -1,0 +1,24 @@
+id: 1567
+game_id: 310
+game_slug: red-faction-armageddon
+name: 'Red Faction: Armageddon'
+year: 2011
+user: strider
+runner: winesteam
+slug: red-faction-armageddon-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-08-01T02:08:13.685406Z'
+updated_at: '2015-08-01T02:08:22.629823Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 55110
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 55110

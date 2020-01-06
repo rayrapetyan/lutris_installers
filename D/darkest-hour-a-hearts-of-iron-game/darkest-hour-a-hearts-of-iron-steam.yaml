@@ -1,0 +1,24 @@
+id: 1182
+game_id: 1612
+game_slug: darkest-hour-a-hearts-of-iron-game
+name: 'Darkest Hour: A Hearts of Iron Game'
+year: null
+user: Xodetaetl
+runner: winesteam
+slug: darkest-hour-a-hearts-of-iron-steam
+version: steam
+description: ''
+notes: Switching languages crashes the setup window and doesn't keep the modification.
+created_at: '2014-12-02T12:00:43.896000Z'
+updated_at: '2014-12-02T12:00:48.801000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 73170
+gogid: 1445505773
+gogslug: darkest_hour_a_hearts_of_iron_game
+humblestoreid: ''
+script:
+  game:
+    appid: 73170

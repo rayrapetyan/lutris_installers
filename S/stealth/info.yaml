@@ -1,0 +1,15 @@
+name: STEALTH
+slug: stealth
+year: 2015
+platforms:
+- name: Browser
+genres:
+- name: Interactive fiction
+aliases: []
+banner_url: /games/banner/stealth.jpg
+icon_url: /games/icon/stealth.png
+is_public: true
+updated: '2019-01-23T08:31:26.255806Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,25 @@
+id: 16750
+game_id: 1176
+game_slug: call-of-duty-black-ops-ii-zombies
+name: 'Call of Duty: Black Ops II - Zombies'
+year: null
+user: Sentry
+runner: winesteam
+slug: call-of-duty-black-ops-ii-zom-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-11-10T19:25:11.411000Z'
+updated_at: '2019-11-16T08:52:26.709023Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 212910
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: call-of-duty-black-ops-ii-steam
+  game:
+    appid: 212910

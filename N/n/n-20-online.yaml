@@ -1,0 +1,30 @@
+id: 2851
+game_id: 5255
+game_slug: n
+name: N
+year: 2004
+user: djazz
+runner: web
+slug: n-20-online
+version: 2.0 online
+description: Requires an internet connection to play.
+notes: ''
+created_at: '2016-10-07T09:10:17.332051Z'
+updated_at: '2016-10-09T22:34:32.983355Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 230270
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: http://www.thewayoftheninja.org/nv2.html
+  web:
+    disable_resizing: true
+    remove_margin: true
+    disable_scrolling: true
+    disable_menu_bar: true
+    enable_flash: true
+    window_size: 792x600

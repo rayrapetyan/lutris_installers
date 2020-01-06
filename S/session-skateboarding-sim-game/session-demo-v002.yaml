@@ -1,0 +1,66 @@
+id: 6664
+game_id: 15124
+game_slug: session-skateboarding-sim-game
+name: 'Session: Skateboarding Sim Game'
+year: 2019
+user: cxf
+runner: wine
+slug: session-demo-v002
+version: Demo V002
+description: null
+notes: ''
+created_at: '2017-12-14T20:23:17.787000Z'
+updated_at: '2019-08-13T22:04:53.645886Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 861650
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: xact
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: win7
+      name: winetricks
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Session Demo
+      file: session
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      key: HideWineExports
+      value: Y
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Session Demo/SessionGame/Binaries/Win64/SessionGame-Win64-Shipping.exe
+    arch: win64
+  system:
+    env:
+      DXVK_HUD: compiler
+    pulse_latency: true
+  wine:
+    esync: true
+    dumbxinputemu: true
+    version: tkg-4.0-x86_64
+    x360ce-path: $GAMEDIR/drive_c/Program Files (x86)/Session Demo/SessionGame/Binaries/Win64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  files:
+  - session:
+      referer: http://www.indiedb.com/members/crea-turestudios/downloads
+      filename: Kickstarter_-_DemoV002.zip
+      url: https://www.indiedb.com/downloads/mirror/130492/115/4d7818fd6551c9811f827b59e07028cd/

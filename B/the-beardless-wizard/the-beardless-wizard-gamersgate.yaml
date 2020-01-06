@@ -1,0 +1,32 @@
+id: 16363
+game_id: 29939
+game_slug: the-beardless-wizard
+name: The Beardless Wizard
+year: 2014
+user: kimchitea
+runner: wine
+slug: the-beardless-wizard-gamersgate
+version: GamersGate
+description: https://www.gamersgate.com/DD-BLW/the-beardless-wizard
+notes: If cursor is invisible, check system cursor in the options menu.
+created_at: '2019-10-24T03:20:59.183000Z'
+updated_at: '2019-10-26T00:23:33.287659Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the GamersGate installer
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files (x86)/The Beardless Wizard/TheBeardlessWizard.exe

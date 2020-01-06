@@ -1,0 +1,31 @@
+id: 15785
+game_id: 6175
+game_slug: alley-cat
+name: Alley Cat
+year: 1983
+user: bonaccolto90
+runner: dosbox
+slug: alley-cat-dos
+version: DOS
+description: null
+notes: ''
+created_at: '2019-09-25T10:39:24.394000Z'
+updated_at: '2019-10-31T22:02:46.478310Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      description: Extracting game
+      dst: $GAMEDIR
+      file: archive
+  files:
+  - archive: https://ia802705.us.archive.org/cors_get.php?path=%2F33%2Fitems%2Fmsdos_Alley_Cat_1984%2FAlley_Cat_1984.zip
+  game:
+    main_file: CAT.EXE

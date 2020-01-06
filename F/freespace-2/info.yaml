@@ -1,0 +1,16 @@
+name: Freespace 2
+slug: freespace-2
+year: 1999
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Space simulation
+aliases: []
+banner_url: /games/banner/freespace-2.jpg
+icon_url: /games/icon/freespace-2.png
+is_public: true
+updated: '2019-01-23T08:29:35.260681Z'
+steamid: 273620
+gogslug: freespace_2
+humblestoreid: ''

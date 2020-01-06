@@ -1,0 +1,32 @@
+id: 5116
+game_id: 5718
+game_slug: tiki-man
+name: Tiki Man
+year: null
+user: FakeShemp
+runner: wine
+slug: tiki-man-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-20T17:11:31.875542Z'
+updated_at: '2018-05-19T03:41:56.902113Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 376920
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Tiki Man
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Tiki Man/TikiMan.exe
+    arch: win32

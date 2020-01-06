@@ -1,0 +1,37 @@
+id: 6578
+game_id: 263
+game_slug: the-bards-tale
+name: The Bard's Tale
+year: 2004
+user: Talvi
+runner: linux
+slug: the-bards-tale-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2017-12-09T23:54:40.500327Z'
+updated_at: '2017-12-17T19:54:33.801874Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 41900
+gogid: 1207659164
+gogslug: the_bards_tale
+humblestoreid: ''
+script:
+  exe: game/start.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Please select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

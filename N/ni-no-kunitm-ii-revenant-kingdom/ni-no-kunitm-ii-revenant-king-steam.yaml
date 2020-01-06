@@ -1,0 +1,24 @@
+id: 12639
+game_id: 18228
+game_slug: ni-no-kunitm-ii-revenant-kingdom
+name: "Ni no Kuni\u2122 II: Revenant Kingdom"
+year: 2018
+user: soredake
+runner: winesteam
+slug: ni-no-kunitm-ii-revenant-king-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-04-06T10:10:54.358985Z'
+updated_at: '2019-04-26T06:44:14.094541Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 589360
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 589360

@@ -1,0 +1,55 @@
+id: 16109
+game_id: 29670
+game_slug: project-06
+name: Project 06
+year: null
+user: Cervox
+runner: wine
+slug: project-06-standalone
+version: Standalone
+description: Installs Project 06 from a zip file
+notes: "-<b>Comes with a DXVK cache for a stutter free experience!</b> (DXVK cache\
+  \ made with demo 2)\r\n-The wine virtual desktop is enabled so that you can alt+tab\
+  \ freely. You may disable it if you wish, but if you alt+tab the game will refuse\
+  \ any inputs until relaunch.\r\n-Downloads can be found from the youtube video descriptions\
+  \ of this youtube channel: https://www.youtube.com/channel/UCPcCzJ5G4tHG4PQRnZXc4Qw"
+created_at: '2019-10-11T00:14:20.526000Z'
+updated_at: '2019-11-04T04:02:55.819226Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - extract:
+      src: gamezip
+      dst: $GAMEDIR/drive_c/project_06
+  - extract:
+      src: cache
+      dst: $GAMEDIR
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/project_06/Sonic the Hedgehog.exe
+    arch: win64
+  system:
+    env:
+      STAGING_SHARED_MEMORY: 1
+      DXVK_HUD: compiler
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+  wine:
+    version: lutris-nofshack-4.18-x86_64
+    esync: true
+    dxvk: true
+    Desktop: true
+  files:
+  - gamezip: N/A:Please select the Project 06 zip file
+  - cache: https://github.com/Cervoxx/DXVKCACHE/raw/master/project-06-cache.tar.xz

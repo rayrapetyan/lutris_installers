@@ -1,0 +1,33 @@
+id: 3890
+game_id: 228
+game_slug: rising-stormred-orchestra-2-multiplayer
+name: Rising Storm/Red Orchestra 2 Multiplayer
+year: 2011
+user: strider
+runner: winesteam
+slug: rising-stormred-orchestra-2-m-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-05-25T20:02:48.136000Z'
+updated_at: '2017-05-25T20:27:43.896865Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 35450
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing .NET 3.5 SP1
+      app: dotnet35sp1
+      arch: win32
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 35450
+    arch: win32

@@ -1,0 +1,24 @@
+id: 3199
+game_id: 1307
+game_slug: sonic-all-stars-racing-transformed
+name: Sonic & All-Stars Racing Transformed
+year: 2012
+user: bradgy
+runner: winesteam
+slug: sonic-all-stars-racing-transf-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-01-26T19:03:54.820000Z'
+updated_at: '2017-03-19T17:20:23.219815Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 212480
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 212480

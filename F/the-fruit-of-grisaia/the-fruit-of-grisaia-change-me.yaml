@@ -1,0 +1,32 @@
+id: 17161
+game_id: 11069
+game_slug: the-fruit-of-grisaia
+name: The Fruit of Grisaia
+year: null
+user: israelman22
+runner: winesteam
+slug: the-fruit-of-grisaia-change-me
+version: Change Me
+description: null
+notes: "Install LAVFilters to mate the MPEG-1 Video cut scenes work.\r\n\r\nDownload\
+  \ the latest installer from: https://github.com/Nevcairiel/LAVFilters/releases"
+created_at: '2019-12-02T23:24:50.324560Z'
+updated_at: '2019-12-02T23:24:50.324594Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: 345610
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  task:
+    executable: drive_c/Program Files/Game/Game.exe
+    prefix: $GAMEDIR
+    args: --windowed
+    name: wineexec
+  files:
+  - file1: 'N/A:Select the LAVFilters Installer. Download latest version from: https://github.com/Nevcairiel/LAVFilters/releases'
+  game:
+    appid: 345610

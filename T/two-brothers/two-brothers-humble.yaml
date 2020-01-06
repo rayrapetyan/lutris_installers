@@ -1,0 +1,33 @@
+id: 4687
+game_id: 1954
+game_slug: two-brothers
+name: Two Brothers
+year: null
+user: FakeShemp
+runner: wine
+slug: two-brothers-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-27T17:35:14.677000Z'
+updated_at: '2018-05-19T03:41:53.768236Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 259760
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Two Brothers/TwoBrothers.exe
+    arch: win32

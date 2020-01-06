@@ -1,0 +1,18 @@
+name: 'Grand Theft Auto: Episodes from Liberty City'
+slug: grand-theft-auto-episodes-from-liberty-city
+year: 2009
+platforms:
+- name: Sony Playstation 3
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Sandbox
+aliases: []
+banner_url: /games/banner/grand-theft-auto-episodes-from-liberty-city.jpg
+icon_url: /games/icon/grand-theft-auto-episodes-from-liberty-city.png
+is_public: true
+updated: '2019-01-23T08:29:42.350898Z'
+steamid: 12220
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,38 @@
+id: 2158
+game_id: 6312
+game_slug: zelda-navis-quest
+name: 'Zelda: Navi''s Quest'
+year: 2014
+user: ssf
+runner: linux
+slug: zelda-navis-quest-18-x86-64
+version: 1.8 - x86-64
+description: null
+notes: "Install on Ubuntu 18.04:\r\n``` bash\r\nsudo apt install libsdl-gfx1.2-5\r\
+  \nsudo ln -sf /usr/lib/x86_64-linux-gnu/libSDL_gfx.so.15.9.1 /usr/lib/x86_64-linux-gnu/libSDL_gfx.so.13"
+created_at: '2016-06-19T16:29:40.812000Z'
+updated_at: '2018-10-26T05:56:07.673314Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: start.sh
+  installer:
+  - extract:
+      format: tgz
+      file: game
+  - move:
+      src: $CACHE/fixlibs.sh
+      dst: $GAMEDIR/start.sh
+  - chmodx: $GAMEDIR/start.sh
+  - execute:
+      args: -i 's/<GAMEBIN>/ZeldaNSQ/' $GAMEDIR/start.sh
+      file: /bin/sed
+  files:
+  - game: http://www.zeldaroth.fr/compteur.php?id=43
+  - fixlib: https://raw.githubusercontent.com/AccountOneOff/lutris_files/master/fixlibs.sh

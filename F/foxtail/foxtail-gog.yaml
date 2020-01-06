@@ -1,0 +1,34 @@
+id: 7593
+game_id: 17204
+game_slug: foxtail
+name: FoxTail
+year: 2018
+user: soredake
+runner: linux
+slug: foxtail-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2018-03-18T14:19:59.405000Z'
+updated_at: '2019-04-27T14:52:52.617232Z'
+draft: false
+published: true
+published_by: 43931
+rating: ''
+steamid: 581360
+gogid: 1606709194
+gogslug: foxtail
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

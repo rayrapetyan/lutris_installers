@@ -1,0 +1,28 @@
+id: 1110
+game_id: 37
+game_slug: hotline-miami
+name: Hotline Miami
+year: 2012
+user: RobLoach
+runner: linux
+slug: hotline-miami-humble-bundle
+version: Humble Bundle
+description: ''
+notes: ''
+created_at: '2014-11-17T21:59:05.446000Z'
+updated_at: '2014-11-24T13:24:36Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 219150
+gogid: 1207659118
+gogslug: hotline_miami
+humblestoreid: hotline-miami
+script:
+  exe: Hotline
+  installer:
+  - extract:
+      file: game
+  files:
+  - game: N/A:Select the game's archive downloaded from Humble Bundle

@@ -1,0 +1,31 @@
+id: 4859
+game_id: 12089
+game_slug: paper-roses
+name: Paper Roses
+year: 2017
+user: FakeShemp
+runner: linux
+slug: paper-roses-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-07-06T18:34:10.070717Z'
+updated_at: '2017-07-09T20:14:45.337320Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: PaperRoses.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/PaperRoses.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/PaperRoses
+  - chmodx: $GAMEDIR/lib/linux-x86_64/PaperRoses
+  files:
+  - file1: N/A:Please select the itch.io archive

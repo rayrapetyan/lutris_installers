@@ -1,0 +1,33 @@
+id: 3557
+game_id: 127
+game_slug: doom-ii-hell-on-earth
+name: 'Doom II: Hell on Earth'
+year: 1994
+user: tyo100
+runner: linux
+slug: doom-ii-hell-on-earth-doom-ii-zdoom-wad-re-1
+version: Doom II + zdoom + WAD Required
+description: 'Doom II: Hell on Earth + zdoom + Require original DOOM2.WAD'
+notes: ''
+created_at: '2017-04-24T04:54:26.926000Z'
+updated_at: '2017-04-24T17:43:59.553789Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 2300
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: zdoom
+  installer:
+  - merge:
+      src: wad-data
+      dst: $GAMEDIR
+  - extract:
+      dst: $GAMEDIR
+      file: zdoom64
+  files:
+  - wad-data: N/A:Select a Doom 2 WAD file
+  - zdoom64: https://lutris.net/files/games/zdoom/zdoom-2.8pre-1887-g1070bd9-x86_64.tar.gz

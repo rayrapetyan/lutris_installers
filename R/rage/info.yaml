@@ -1,0 +1,15 @@
+name: RAGE
+slug: rage
+year: 2011
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/rage.jpg
+icon_url: /games/icon/rage.png
+is_public: true
+updated: '2019-01-23T08:30:54.022438Z'
+steamid: 9200
+gogslug: ''
+humblestoreid: ''

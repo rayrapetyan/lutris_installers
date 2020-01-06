@@ -1,0 +1,15 @@
+name: NecroVisioN
+slug: necrovision
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Shooter
+aliases: []
+banner_url: /games/banner/necrovision.jpg
+icon_url: /games/icon/necrovision.png
+is_public: true
+updated: '2019-12-17T19:50:24.570179Z'
+steamid: 7860
+gogslug: necrovision
+humblestoreid: ''

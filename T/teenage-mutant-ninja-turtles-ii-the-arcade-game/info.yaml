@@ -1,0 +1,15 @@
+name: 'Teenage Mutant Ninja Turtles II: The Arcade Game'
+slug: teenage-mutant-ninja-turtles-ii-the-arcade-game
+year: 1990
+platforms:
+- name: NES
+genres:
+- name: Beat'em up
+aliases: []
+banner_url: /games/banner/teenage-mutant-ninja-turtles-ii-the-arcade-game.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:36.230243Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

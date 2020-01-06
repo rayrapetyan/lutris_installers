@@ -1,0 +1,36 @@
+id: 6481
+game_id: 11161
+game_slug: conan-exiles
+name: Conan Exiles
+year: 2017
+user: cxf
+runner: winesteam
+slug: conan-exiles-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2017-11-29T05:24:01.584000Z'
+updated_at: '2019-12-29T08:52:01.513530Z'
+draft: false
+published: true
+published_by: 19464
+rating: '1'
+steamid: 440900
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  winesteam:
+    version: lutris-4.20-x86_64
+    dxvk: true
+  system:
+    pulse_latency: true
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 440900
+    arch: win64

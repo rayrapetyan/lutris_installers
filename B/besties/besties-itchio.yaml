@@ -1,0 +1,32 @@
+id: 6970
+game_id: 15637
+game_slug: besties
+name: Besties
+year: 2015
+user: FakeShemp
+runner: wine
+slug: besties-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2018-01-03T00:40:57.916816Z'
+updated_at: '2018-05-19T03:41:52.887368Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Besties
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Besties/Besties.exe
+    arch: win32

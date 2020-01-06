@@ -1,0 +1,18 @@
+name: Battle Academy
+slug: battle-academy
+year: 2010
+platforms:
+- name: Windows
+genres:
+- name: Historical
+- name: Strategy
+- name: Turn-based strategy
+- name: Wargame
+aliases: []
+banner_url: /games/banner/battle-academy.jpg
+icon_url: /games/icon/battle-academy.png
+is_public: true
+updated: '2019-01-23T08:28:32.352625Z'
+steamid: 287070
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,28 @@
+id: 1377
+game_id: 3999
+game_slug: freedroidrpg
+name: FreedroidRPG
+year: null
+user: strider
+runner: linux
+slug: freedroidrpg-015-64bit
+version: 0.15 64bit
+description: ''
+notes: ''
+created_at: '2015-03-09T11:05:25.992000Z'
+updated_at: '2015-03-09T11:10:36.541000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: bin/freedroidRPG
+  installer:
+  - extract:
+      file: fdrpggame
+  files:
+  - fdrpggame: https://lutris.net/files/games/freedroidrpg/freedroidrpg.tar.gz

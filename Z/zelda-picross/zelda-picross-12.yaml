@@ -1,0 +1,39 @@
+id: 2159
+game_id: 6313
+game_slug: zelda-picross
+name: 'Zelda: Picross'
+year: 2011
+user: ssf
+runner: linux
+slug: zelda-picross-12
+version: '1.2'
+description: french amd64 release
+notes: "Install on Ubuntu 18.04:\r\n``` bash\r\nsudo apt install libsdl-gfx1.2-5\r\
+  \nsudo ln -sf /usr/lib/x86_64-linux-gnu/libSDL_gfx.so.15.9.1 /usr/lib/x86_64-linux-gnu/libSDL_gfx.so.13\r\
+  \ncp /usr/lib/x86_64-linux-gnu/libSDL_gfx.so.13 ~/Games/zelda-picross/libSDL_gfx.so.13"
+created_at: '2016-06-19T16:34:51.371000Z'
+updated_at: '2018-10-26T05:56:12.264638Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: ZeldaPicross
+  installer:
+  - extract:
+      format: tgz
+      file: game
+  - move:
+      src: $CACHE/fixlibs.sh
+      dst: $GAMEDIR/start.sh
+  - chmodx: $GAMEDIR/start.sh
+  - execute:
+      args: -i 's/<GAMEBIN>/ZeldaPicross/' $GAMEDIR/start.sh
+      file: /bin/sed
+  files:
+  - game: http://www.zeldaroth.fr/compteur.php?id=24
+  - fixlib: https://raw.githubusercontent.com/AccountOneOff/lutris_files/master/fixlibs.sh

@@ -1,0 +1,15 @@
+name: The Secret World
+slug: the-secret-world
+year: 2012
+platforms:
+- name: Windows
+genres:
+- name: MMORPG
+aliases: []
+banner_url: /games/banner/the-secret-world.jpg
+icon_url: /games/icon/the-secret-world.png
+is_public: true
+updated: '2019-01-23T08:31:46.878390Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,43 @@
+id: 15766
+game_id: 14306
+game_slug: silent-hill-2
+name: Silent Hill 2
+year: 2001
+user: legluondunet
+runner: wine
+slug: silent-hill-2-sh2e-fmv-audio-remas
+version: SH2e FMV-Audio remastered packs
+description: "This installer is complementary to \"CD Director's Cut EU + SH2e\" one,\
+  \ it will add SH2e FMV-Audio remastered packs to previous install.\r\nIt uses SH2e\
+  \ project:  \r\nhttp://enhanced.townofsilenthill.com/SH2/#installFMVPack\r\nhttp://enhanced.townofsilenthill.com/SH2/#installAudioEnhancementPack\r\
+  \nThanks to the people who contributed to play this game in the best conditions,\
+  \ particularly Elisha Riedlinger and all SH2e devs team."
+notes: "- This installer will not install \"Silent Hill 2 Director's Cut EU\" but\
+  \ only SH2e FMV-Audio remastered packs. I separated the two installations because\
+  \ the download of these two files is too heavy: FMV --> 3,2 Go and audio --> 1,6\
+  \ Go.\r\n- Please report issue concerning this script on my github page:\r\nhttps://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2019-09-23T18:48:32.397000Z'
+updated_at: '2019-09-23T22:23:51.473251Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      src: sh2efmv
+      dst: $CACHE
+  - extract:
+      src: sh2eaudio
+      dst: $CACHE
+  - merge:
+      src: $CACHE/SILENT HILL 2/sh2e/
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Konami/Silent Hill 2 - Directors Cut/sh2e/
+  files:
+  - sh2efmv: http://enhanced.townofsilenthill.com/SH2/files/SH2PC_Enhanced_FMV_Pack_16-10_Aspect_Ratio_1.0.2.zip
+  - sh2eaudio: http://enhanced.townofsilenthill.com/SH2/files/SH2PC_Audio_Enhancement_Pack_2.0.1.zip
+  extends: silent-hill-2

@@ -1,0 +1,16 @@
+name: "Otch\u0142a\u0144"
+slug: otchan
+year: 1999
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/otchan.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:38.607921Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

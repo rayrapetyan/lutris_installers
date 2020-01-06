@@ -1,0 +1,33 @@
+id: 4715
+game_id: 655
+game_slug: journey-of-a-roach
+name: Journey of a Roach
+year: null
+user: FakeShemp
+runner: wine
+slug: journey-of-a-roach-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-28T19:15:12.328000Z'
+updated_at: '2018-05-19T03:41:54.350623Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 255300
+gogid: 1207661723
+gogslug: journey_of_a_roach
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Daedalic Entertainment GmbH/Journey of a Roach/launcher.exe
+    arch: win32

@@ -1,0 +1,24 @@
+id: 12574
+game_id: 496
+game_slug: eador-genesis
+name: Eador. Genesis
+year: null
+user: cxf
+runner: winesteam
+slug: eador-genesis-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-03-30T21:21:53.645270Z'
+updated_at: '2019-03-30T21:21:58.120924Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 235660
+gogid: 1207659147
+gogslug: eador_genesis
+humblestoreid: ''
+script:
+  game:
+    appid: 235660

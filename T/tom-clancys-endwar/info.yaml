@@ -1,0 +1,18 @@
+name: Tom Clancy's EndWar
+slug: tom-clancys-endwar
+year: 2008
+platforms:
+- name: Nintendo DS
+- name: Sony Playstation 3
+- name: Sony PSP
+- name: Windows
+genres:
+- name: Turn-based tactics
+aliases: []
+banner_url: /games/banner/tom-clancys-endwar.jpg
+icon_url: /games/icon/tom-clancys-endwar.png
+is_public: true
+updated: '2019-01-23T08:31:52.714969Z'
+steamid: 21800
+gogslug: ''
+humblestoreid: ''

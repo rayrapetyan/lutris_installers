@@ -1,0 +1,24 @@
+id: 10181
+game_id: 10573
+game_slug: planescape-torment-enhanced-edition
+name: 'Planescape: Torment: Enhanced Edition'
+year: 2017
+user: cxf
+runner: steam
+slug: planescape-torment-enhanced-e-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-09-14T01:14:39.675093Z'
+updated_at: '2018-09-14T01:14:45.896254Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 466300
+gogid: 1203613131
+gogslug: planescape_torment_enhanced_edition
+humblestoreid: ''
+script:
+  game:
+    appid: 466300

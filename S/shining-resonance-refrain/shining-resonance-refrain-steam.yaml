@@ -1,0 +1,28 @@
+id: 9143
+game_id: 19877
+game_slug: shining-resonance-refrain
+name: Shining Resonance Refrain
+year: 2017
+user: TuiorGames
+runner: winesteam
+slug: shining-resonance-refrain-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-10T23:43:46.639000Z'
+updated_at: '2019-02-16T04:36:55.265031Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 809890
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  game:
+    appid: 809890
+    arch: win64

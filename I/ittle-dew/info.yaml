@@ -1,0 +1,15 @@
+name: Ittle Dew
+slug: ittle-dew
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/ittle-dew.jpg
+icon_url: /games/icon/ittle-dew.png
+is_public: true
+updated: '2019-06-01T06:11:19.865914Z'
+steamid: 241320
+gogslug: ittle_dew
+humblestoreid: ''

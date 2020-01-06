@@ -1,0 +1,24 @@
+id: 2122
+game_id: 5625
+game_slug: duet
+name: Duet
+year: null
+user: strider
+runner: steam
+slug: duet-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-06-15T05:44:08.826296Z'
+updated_at: '2016-06-20T19:16:22.648489Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 292600
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 292600

@@ -1,0 +1,59 @@
+id: 7091
+game_id: 904
+game_slug: robin-hood-the-legend-of-sherwood
+name: 'Robin Hood: The Legend of Sherwood'
+year: 2002
+user: CharlyDelta
+runner: linux
+slug: robin-hood-the-legend-of-sher-desura
+version: Desura
+description: The Desura version is the only native Linux version available.
+notes: "* After installation, you should disable the Lutris Runtime in order to have\
+  \ the game set the proper resolution by itself. Right click on the game -> \"Configure\"\
+  \ -> Tab \"System options\" -> Check [x] \"Show advanced options\" (bottom left)\
+  \ -> Check [x] \"Disable Lutris Runtime\".\r\n\r\n* The language cannot be set directly,\
+  \ so there's a workaround in this installer - The game looks for the folder 'data/1031',\
+  \ and if it exists, the language is German. If not, it looks for the folder 'data/1036',\
+  \ and if that exists, it sets the language to French. The fallback 'data/2047' is\
+  \ English."
+created_at: '2018-01-14T15:25:18.158000Z'
+updated_at: '2018-01-14T17:35:29.339093Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 46560
+gogid: 1207659008
+gogslug: robin_hood
+humblestoreid: ''
+script:
+  exe: data/robin
+  installer:
+  - input_menu:
+      options:
+      - en: English
+      - de: German
+      - fr: French
+      description: 'Choose the game''s language:'
+      id: LANG
+      preselect: en
+  - extract:
+      description: Installing game data
+      format: zip
+      file: $game
+  - extract:
+      description: Installing binaries and executables
+      dst: $GAMEDIR/data
+      file: $GAMEDIR/data/bins.and.libs_LINUX_X86_32.tar.xz
+  - execute:
+      env:
+        INPUT_LANG: $INPUT_LANG
+        GAMEDIR: $GAMEDIR
+      command: if [ "$INPUT_LANG" = "de" ]; then mv $GAMEDIR/data/1036 $GAMEDIR/data/disabled_1036
+        && mv $GAMEDIR/data/2047 $GAMEDIR/data/disabled_2047; elif [ "$INPUT_LANG"
+        = "fr" ]; then mv $GAMEDIR/data/1031 $GAMEDIR/data/disabled_1031 && mv $GAMEDIR/data/2047
+        $GAMEDIR/data/disabled_2047; else mv $GAMEDIR/data/1031 $GAMEDIR/data/disabled_1031
+        && mv $GAMEDIR/data/1036 $GAMEDIR/data/disabled_1036; fi
+      description: Setting language
+  files:
+  - game: N/A:Select the Linux installer downloaded from Desura

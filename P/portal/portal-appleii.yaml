@@ -1,0 +1,32 @@
+id: 3176
+game_id: 129
+game_slug: portal
+name: Portal
+year: 2007
+user: mfoxdogg
+runner: mess
+slug: portal-appleii
+version: AppleII
+description: null
+notes: ''
+created_at: '2017-01-21T04:47:14.315000Z'
+updated_at: '2019-11-06T22:23:49.842030Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 400
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: rom
+      dst: $GAMEDIR
+  files:
+  - rom: http://www.deater.net/weave/vmwprod/portal/glados33.dsk
+  game:
+    machine: apple2e
+    device: flop1
+    main_file: rom

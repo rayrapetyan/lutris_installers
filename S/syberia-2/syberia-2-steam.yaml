@@ -1,0 +1,24 @@
+id: 8406
+game_id: 1135
+game_slug: syberia-2
+name: Syberia 2
+year: null
+user: onliniak
+runner: winesteam
+slug: syberia-2-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-24T19:19:55.432909Z'
+updated_at: '2018-05-25T03:55:05.684183Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 46510
+gogid: 1207658849
+gogslug: syberia_2
+humblestoreid: ''
+script:
+  game:
+    appid: 46510

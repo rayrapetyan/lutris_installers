@@ -1,0 +1,16 @@
+name: Mega Man X4
+slug: mega-man-x4
+year: 1997
+platforms:
+- name: Sega Saturn
+- name: Sony PlayStation
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/mega-man-x4.jpg
+icon_url: null
+is_public: true
+updated: '2019-05-27T04:38:43.987288Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

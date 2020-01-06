@@ -1,0 +1,31 @@
+id: 10749
+game_id: 23042
+game_slug: lost-impressions
+name: Lost Impressions
+year: 2016
+user: kimchitea
+runner: linux
+slug: lost-impressions-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2018-11-03T08:13:28.005000Z'
+updated_at: '2018-11-03T11:43:00.551014Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Lost Impressions.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Lost Impressions.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Lost Impressions
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Lost Impressions
+  files:
+  - file1: N/A:Please select the itch.io archive

@@ -1,0 +1,39 @@
+id: 4658
+game_id: 2786
+game_slug: spy-fox-in-dry-cereal
+name: 'SPY Fox in: Dry Cereal'
+year: 1997
+user: FakeShemp
+runner: scummvm
+slug: spy-fox-in-dry-cereal-humble
+version: Humble
+description: Uses the files from the Windows installer from Humble.
+notes: ''
+created_at: '2017-06-26T21:35:32.212000Z'
+updated_at: '2017-07-04T18:04:05.781217Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 283980
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  scummvm:
+    gfx-mode: 2x
+  installer:
+  - task:
+      executable: $file1
+      prefix: $CACHE
+      args: /S
+      name: wine.wineexec
+  - merge:
+      src: $CACHE/drive_c/Games/Humongous Entertainment/SPY Fox 1 - Dry Cereal
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble installer
+  game:
+    game_id: spyfox
+    path: $GAMEDIR
+    subtitles: true

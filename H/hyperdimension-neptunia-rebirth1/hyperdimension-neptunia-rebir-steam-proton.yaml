@@ -1,0 +1,24 @@
+id: 14842
+game_id: 3932
+game_slug: hyperdimension-neptunia-rebirth1
+name: Hyperdimension Neptunia Re;Birth1
+year: 2015
+user: j800r
+runner: steam
+slug: hyperdimension-neptunia-rebir-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-08-02T23:03:23.852000Z'
+updated_at: '2019-10-11T00:51:08.241483Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 282900
+gogid: 1445338941
+gogslug: hyperdimension_neptunia_rebirth1
+humblestoreid: ''
+script:
+  game:
+    appid: 282900

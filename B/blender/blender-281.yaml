@@ -1,0 +1,32 @@
+id: 14783
+game_id: 4241
+game_slug: blender
+name: Blender
+year: 1998
+user: paperbenni
+runner: linux
+slug: blender-281
+version: '2.81'
+description: This is an auto updating blender 2.81 install that fetches from builder.blender.org
+notes: It sometimes takes a few minutes to start. DO NOT STOP THE APP, it's updating
+  blender in the background
+created_at: '2019-07-30T10:25:16.154000Z'
+updated_at: '2019-09-09T00:37:02.189729Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 365670
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - chmodx: script
+  - move:
+      src: script
+      dst: $GAMEDIR/2.81.sh
+  files:
+  - script: https://raw.githubusercontent.com/paperbenni/blender-update/master/2.81.sh
+  game:
+    exe: $GAMEDIR/2.81.sh

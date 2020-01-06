@@ -1,0 +1,28 @@
+id: 3716
+game_id: 158
+game_slug: broken-sword-2-the-smoking-mirror-remastered
+name: "Broken Sword 2: The Smoking Mirror \u2013 Remastered"
+year: 2010
+user: FakeShemp
+runner: linux
+slug: broken-sword-2-the-smoking-mi-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-17T19:36:53.343030Z'
+updated_at: '2017-05-18T18:32:36.661451Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 33600
+gogid: 1207658707
+gogslug: broken_sword_2__the_smoking_mirror
+humblestoreid: broken-sword-2-the-smoking-mirror
+script:
+  exe: BS2Remastered_i386
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

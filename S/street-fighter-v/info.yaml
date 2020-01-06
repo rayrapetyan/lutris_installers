@@ -1,0 +1,16 @@
+name: 'Street Fighter V: Arcade Edition'
+slug: street-fighter-v
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Fighting
+aliases: []
+banner_url: /games/banner/street-fighter-v.jpg
+icon_url: /games/icon/street-fighter-v.png
+is_public: true
+updated: '2019-01-23T08:31:28.007660Z'
+steamid: 310950
+gogslug: ''
+humblestoreid: ''

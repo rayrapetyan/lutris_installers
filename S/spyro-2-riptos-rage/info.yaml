@@ -1,0 +1,21 @@
+name: 'Spyro 2: Ripto''s Rage!'
+slug: spyro-2-riptos-rage
+year: 1999
+platforms:
+- name: Sony PlayStation
+- name: Sony Playstation 3
+- name: Sony PSP
+genres:
+- name: Action
+- name: Adventure
+- name: Platform
+aliases:
+- slug: spyro-2-gateway-to-glimmer
+  name: 'Spyro 2: Gateway to Glimmer'
+banner_url: /games/banner/spyro-2-riptos-rage.jpg
+icon_url: /games/icon/spyro-2-riptos-rage.png
+is_public: true
+updated: '2019-11-04T03:40:29.424968Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

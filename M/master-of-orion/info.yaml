@@ -1,0 +1,15 @@
+name: Master of Orion
+slug: master-of-orion
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: 4X
+aliases: []
+banner_url: /games/banner/master-of-orion.jpg
+icon_url: /games/icon/master-of-orion.png
+is_public: false
+updated: '2019-05-21T18:46:36.929922Z'
+steamid: 298050
+gogslug: master_of_orion
+humblestoreid: ''

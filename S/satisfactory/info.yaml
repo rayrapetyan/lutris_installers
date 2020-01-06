@@ -1,0 +1,16 @@
+name: Satisfactory
+slug: satisfactory
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Construction
+- name: Management
+aliases: []
+banner_url: /games/banner/satisfactory.jpg
+icon_url: /games/icon/satisfactory.png
+is_public: true
+updated: '2019-03-26T01:31:43.637888Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

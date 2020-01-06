@@ -1,0 +1,26 @@
+id: 13134
+game_id: 11050
+game_slug: animal-lover
+name: Animal Lover
+year: 2017
+user: kimchitea
+runner: steam
+slug: animal-lover-steam-proton
+version: Steam Proton
+description: null
+notes: By default, Steam will install a non-working Linux version. In the Properties
+  window, check "Force the use of an specific Steam Play compatibility tool" to install
+  & launch the Windows version with Proton.
+created_at: '2019-04-26T23:48:55.138000Z'
+updated_at: '2019-05-19T07:14:14.475054Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 542200
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 542200

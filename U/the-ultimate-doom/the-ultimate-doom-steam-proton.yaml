@@ -1,0 +1,24 @@
+id: 10461
+game_id: 125
+game_slug: the-ultimate-doom
+name: The Ultimate Doom
+year: 1995
+user: ZoeyGlobe
+runner: steam
+slug: the-ultimate-doom-steam-proton
+version: Steam (Proton)
+description: null
+notes: Be sure to enable SteamPlay (aka Proton) before using this installer.
+created_at: '2018-10-08T20:52:47.791000Z'
+updated_at: '2018-10-08T22:12:44.035116Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 2280
+gogid: 1440164514
+gogslug: the_ultimate_doom
+humblestoreid: ''
+script:
+  game:
+    appid: 2280

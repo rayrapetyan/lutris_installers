@@ -1,0 +1,43 @@
+id: 3632
+game_id: 977
+game_slug: jet-set-radio
+name: Jet Set Radio
+year: 2000
+user: codythedragondude
+runner: winesteam
+slug: jet-set-radio-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-05-05T00:32:54.906000Z'
+updated_at: '2018-12-11T09:10:25.771699Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 205950
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    x360ce-path: $GAMEDIR
+    dumbxinputemu: true
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing .NET 3.5 (it may take a while)
+      app: dotnet35
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: winekill
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 205950
+    arch: win32

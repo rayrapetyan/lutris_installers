@@ -1,0 +1,15 @@
+name: Teamspeak
+slug: teamspeak
+year: 2001
+platforms:
+- name: Linux
+genres:
+- name: Tool
+aliases: []
+banner_url: /games/banner/teamspeak.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:36.045702Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

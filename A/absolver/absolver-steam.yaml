@@ -1,0 +1,24 @@
+id: 6632
+game_id: 14041
+game_slug: absolver
+name: Absolver
+year: 2017
+user: JungleRobba
+runner: winesteam
+slug: absolver-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-10T19:11:34.619000Z'
+updated_at: '2018-08-07T02:48:59.848778Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 473690
+gogid: 1816205133
+gogslug: absolver
+humblestoreid: ''
+script:
+  game:
+    appid: 473690

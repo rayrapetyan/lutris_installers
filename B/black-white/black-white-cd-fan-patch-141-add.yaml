@@ -1,0 +1,122 @@
+id: 13536
+game_id: 25624
+game_slug: black-white
+name: Black & White
+year: 2001
+user: FuruTheBat
+runner: wine
+slug: black-white-cd-fan-patch-141-add
+version: CD + Fan Patch 1.41 + AddOns
+description: "Forum Readme: https://www.bwfiles.com/forum/index.php?topic=7916.0\r\
+  \n\r\nthx for hosting the files, www.bwfiles.com"
+notes: "Game is set to start windowed mode and a a resolution at 1280x800.\r\n\r\n\
+  Issues:\r\n - Creature Unlocker (installer) crashes\r\n\r\nThis Version uses Wine\
+  \ Staging 3.17 or you can change Wine version to System (4.8 (Staging)), textures\
+  \ should be fixed."
+created_at: '2019-05-14T23:24:44.574000Z'
+updated_at: '2019-10-28T21:20:33.489120Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: drive_c/Program Files (x86)/Lionhead Studios Ltd/Black & White/runblack.exe
+  game:
+    prefix: $GAMEDIR
+  installer:
+  - insert-disc:
+      requires: data1.cab
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      executable: patch_1_1
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      executable: patch_1_2
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      executable: patch_1_41
+      prefix: $GAMEDIR
+      name: wineexec
+  - merge:
+      src: $DISC/Audio/
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Lionhead Studios Ltd/Black & White/Audio/
+  - extract:
+      dst: $GAMEDIR/addons/
+      file: mandrill
+  - extract:
+      dst: $GAMEDIR/addons/
+      file: leopard
+  - extract:
+      dst: $GAMEDIR/addons/
+      file: horse
+  - extract:
+      dst: $GAMEDIR/addons/
+      file: gorilla
+  - chmodx: $GAMEDIR/addons/creaturecd_mandrill.exe
+  - chmodx: $GAMEDIR/addons/creaturecd_leopard.exe
+  - chmodx: $GAMEDIR/addons/creaturecd_horse.exe
+  - chmodx: $GAMEDIR/addons/creaturecd_gorilla.exe
+  - task:
+      executable: $GAMEDIR/addons/creaturecd_mandrill.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      executable: $GAMEDIR/addons/creaturecd_leopard.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      executable: $GAMEDIR/addons/creaturecd_horse.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      executable: $GAMEDIR/addons/creaturecd_gorilla.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      executable: villager_banter
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      executable: football_addon
+      prefix: $GAMEDIR
+      name: wineexec
+  wine:
+    WineDesktop: 1280x800
+    Desktop: true
+  files:
+  - patch_1_1:
+      filename: Black_White_Patch_v1.100.exe
+      url: https://www.bwfiles.com/files/download.php?id=129
+  - patch_1_2:
+      filename: black_white_patch_v1_20.exe
+      url: https://www.bwfiles.com/files/download.php?id=130
+  - patch_1_41:
+      filename: BWFanPatchInstaller.exe
+      url: https://www.bwfiles.com/files/download.php?id=1418
+  - mandrill:
+      filename: mandrill.zip
+      url: https://www.bwfiles.com/files/download.php?id=136
+  - leopard:
+      filename: leopard.zip
+      url: https://www.bwfiles.com/files/download.php?id=135
+  - horse:
+      filename: horse.zip
+      url: https://www.bwfiles.com/files/download.php?id=134
+  - gorilla:
+      filename: gorilla.zip
+      url: https://www.bwfiles.com/files/download.php?id=133
+  - villager_banter:
+      filename: BW_Villager_Banter.exe
+      url: https://www.bwfiles.com/files/download.php?id=139
+  - football_addon:
+      filename: BW_Football_Addon.exe
+      url: https://www.bwfiles.com/files/download.php?id=138

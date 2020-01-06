@@ -1,0 +1,39 @@
+id: 3156
+game_id: 122
+game_slug: doom-3-resurrection-of-evil
+name: 'Doom 3: Resurrection of Evil'
+year: 2005
+user: RobLoach
+runner: linux
+slug: doom-3-resurrection-of-evil-dhewm-steam
+version: dhewm + Steam
+description: ''
+notes: Install Doom 3 "Dhewm + Steam" version before this.
+created_at: '2017-01-02T13:17:47.309000Z'
+updated_at: '2017-06-16T18:57:31.037941Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: 9070
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: dhewm3
+  installer:
+  - merge:
+      src: doom3-data
+      dst: $GAMEDIR/base
+  - extract:
+      file: doom3-engine
+  - chmodx: $GAMEDIR/dhewm3
+  - merge:
+      src: roe-data
+      dst: $GAMEDIR/d3xp
+  files:
+  - doom3-data: $STEAM:9050:base
+  - doom3-engine: https://lutris.net/files/games/doom-3/dhewm-master-x86_64.tar.gz
+  - roe-data: $STEAM:9070:d3xp
+  game:
+    args: +set fs_game d3xp

@@ -1,0 +1,37 @@
+id: 6210
+game_id: 1370
+game_slug: east-india-company
+name: East India Company
+year: null
+user: jonius
+runner: winesteam
+slug: east-india-company-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-11-01T12:50:17.642000Z'
+updated_at: '2017-11-14T22:16:03.170702Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 25930
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      app: d3dx9
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: physx
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: quartz
+      name: winetricks
+  game:
+    appid: 25930

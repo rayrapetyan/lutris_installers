@@ -1,0 +1,37 @@
+id: 2320
+game_id: 4945
+game_slug: chroma-squad
+name: Chroma Squad
+year: 2015
+user: Lulu
+runner: linux
+slug: chroma-squad-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2016-07-21T18:48:00.663149Z'
+updated_at: '2016-07-27T12:46:26.808363Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 251130
+gogid: 1430123043
+gogslug: chroma_squad
+humblestoreid: ''
+script:
+  exe: Game/start.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/Game
+  files:
+  - game: 'N/A: Plese select the GOG.com Linux installer'
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

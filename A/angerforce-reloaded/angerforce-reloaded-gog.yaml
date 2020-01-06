@@ -1,0 +1,42 @@
+id: 15756
+game_id: 14109
+game_slug: angerforce-reloaded
+name: 'AngerForce: Reloaded'
+year: 2017
+user: bonaccolto90
+runner: wine
+slug: angerforce-reloaded-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-09-22T18:38:39.430000Z'
+updated_at: '2019-10-20T06:57:43.525125Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 650780
+gogid: 1924930564
+gogslug: angerforce_reloaded
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/AngerForce Reloaded/AngerForcePC.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      app: mf_install_verb
+      name: winetricks
+  - task:
+      executable: gogsetup
+      args: /SP- /SUPPRESSMSGBOXES
+      description: Installing game
+      name: wineexec
+  wine:
+    esync: false
+    dxvk: true
+  files:
+  - gogsetup: N/A:Select the game's setup file

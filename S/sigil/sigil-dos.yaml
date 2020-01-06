@@ -1,0 +1,51 @@
+id: 13876
+game_id: 27591
+game_slug: sigil
+name: Sigil
+year: 2019
+user: maxlefou
+runner: dosbox
+slug: sigil-dos
+version: DOS
+description: null
+notes: Requires a copy of The Ultimate Doom for MS-DOS as a zip file
+created_at: '2019-06-02T12:57:56.728000Z'
+updated_at: '2019-06-11T22:20:56.419681Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: sigil
+  - extract:
+      dst: $GAMEDIR
+      file: doom
+  - merge:
+      src: $CACHE/SIGIL_COMPAT.wad
+      dst: $GAMEDIR
+  - write_file:
+      content: DOOM.EXE -file SIGIL_~1.wad
+      file: $GAMEDIR/sigil.bat
+  - write_config:
+      section: cpu
+      key: cycles
+      value: max
+      file: $GAMEDIR/dosbox_sigil.conf
+  - write_config:
+      section: dosbox
+      key: memsize
+      value: 512
+      file: $GAMEDIR/dosbox_sigil.conf
+  files:
+  - doom: N/A:Please select the Ultimate Doom zip file.
+  - sigil: https://www.romerogames.ie/s/SIGIL_V1_1.zip
+  game:
+    config_file: dosbox_sigil.conf
+    main_file: sigil.bat

@@ -1,0 +1,17 @@
+name: 'BlazBlue: Calamity Trigger'
+slug: blazblue-calamity-trigger
+year: 2008
+platforms:
+- name: Arcade
+- name: Sony PSP
+- name: Windows
+genres:
+- name: Fighting
+aliases: []
+banner_url: /games/banner/blazblue-calamity-trigger.jpg
+icon_url: /games/icon/blazblue-calamity-trigger.png
+is_public: true
+updated: '2019-01-23T08:28:37.998430Z'
+steamid: 263300
+gogslug: blazblue_calamity_trigger
+humblestoreid: ''

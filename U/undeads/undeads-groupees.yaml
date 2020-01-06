@@ -1,0 +1,31 @@
+id: 5253
+game_id: 5720
+game_slug: undeads
+name: UNDEADS
+year: null
+user: FakeShemp
+runner: linux
+slug: undeads-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-01T20:56:58.921304Z'
+updated_at: '2017-08-27T22:27:06.300652Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 377980
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: UNDEADS_VER1.3LinuxUniv.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/UNDEADS_VER1.3LinuxUniv.x86
+  - chmodx: $GAMEDIR/UNDEADS_VER1.3LinuxUniv.x86_64
+  exe64: UNDEADS_VER1.3LinuxUniv.x86_64
+  files:
+  - file1: N/A:Please select the Groupees archive

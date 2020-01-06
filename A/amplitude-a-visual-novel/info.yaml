@@ -1,0 +1,15 @@
+name: 'AMPLITUDE: A Visual Novel'
+slug: amplitude-a-visual-novel
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/amplitude-a-visual-novel.jpg
+icon_url: /games/icon/amplitude-a-visual-novel.png
+is_public: true
+updated: '2019-01-23T08:28:21.268022Z'
+steamid: 704680
+gogslug: ''
+humblestoreid: ''

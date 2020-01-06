@@ -1,0 +1,31 @@
+id: 14092
+game_id: 27965
+game_slug: miss-bullards-school-for-former-ladies
+name: "Miss Bullard\u2019s School for Former Ladies"
+year: 2018
+user: kimchitea
+runner: linux
+slug: miss-bullards-school-for-form-itchio
+version: itch.io
+description: Download the Windows release.
+notes: ''
+created_at: '2019-06-14T22:11:30.394000Z'
+updated_at: '2019-06-17T01:44:04.492937Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: MBSchoolforFormerLadies.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/MBSchoolforFormerLadies.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/MBSchoolforFormerLadies
+  - chmodx: $GAMEDIR/lib/linux-x86_64/MBSchoolforFormerLadies
+  files:
+  - file1: N/A:Please select the game archive

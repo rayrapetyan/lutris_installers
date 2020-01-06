@@ -1,0 +1,28 @@
+id: 1285
+game_id: 1585
+game_slug: the-typing-of-the-dead-overkill
+name: 'The Typing of The Dead: Overkill'
+year: 2013
+user: strider
+runner: winesteam
+slug: the-typing-of-the-dead-overki-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2015-02-06T00:13:00.578000Z'
+updated_at: '2019-12-23T10:46:03.755455Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 246580
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      app: vcrun2010
+      name: winetricks
+  game:
+    appid: 246580

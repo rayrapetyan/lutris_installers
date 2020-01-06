@@ -1,0 +1,24 @@
+id: 1328
+game_id: 3790
+game_slug: drive-to-hell
+name: Drive to Hell
+year: 2014
+user: Xodetaetl
+runner: steam
+slug: drive-to-hell-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-02-25T19:36:58.982000Z'
+updated_at: '2015-02-25T20:44:03.950000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 334840
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 334840

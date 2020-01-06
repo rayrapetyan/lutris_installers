@@ -1,0 +1,31 @@
+id: 10582
+game_id: 22927
+game_slug: return-of-the-obra-dinn
+name: Return of the Obra Dinn
+year: 2018
+user: halfpotato
+runner: winesteam
+slug: return-of-the-obra-dinn-steam
+version: Steam
+description: null
+notes: No sound, odd sensitivity
+created_at: '2018-10-21T01:31:38.610000Z'
+updated_at: '2019-02-16T04:28:44.043166Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 653530
+gogid: 1108393852
+gogslug: return_of_the_obra_dinn
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    appid: 72850
+    arch: win64

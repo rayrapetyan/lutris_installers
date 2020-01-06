@@ -1,0 +1,40 @@
+id: 3917
+game_id: 11458
+game_slug: real-bout-fatal-fury-2-the-newcomers
+name: 'Real Bout Fatal Fury 2: The Newcomers'
+year: 1997
+user: FakeShemp
+runner: linux
+slug: real-bout-fatal-fury-2-the-ne-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-27T18:43:03.106834Z'
+updated_at: '2017-05-27T23:53:32.205713Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1490050478
+gogslug: real_bout_fatal_fury_2
+humblestoreid: ''
+script:
+  exe: NeogeoEmu.bin.x86
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data/noarch
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86_64
+      dst: $GAMEDIR
+  exe64: NeogeoEmu.bin.x86_64
+  files:
+  - file1: N/A:Please select the Humble installer

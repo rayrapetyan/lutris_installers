@@ -1,0 +1,26 @@
+id: 12474
+game_id: 7995
+game_slug: abzu
+name: "ABZ\xDB"
+year: 2016
+user: Jozua
+runner: steam
+slug: abzu-steam-proton
+version: Steam Proton
+description: Installs and runs through the native Steam Client
+notes: "Enable Steam Play (if not already done):\r\nSteam > Steam > Settings > Account\
+  \ > Beta Participation > Change > Steam Beta Update > Restart\r\nSteam > Steam >\
+  \ Settings > Steam Play > Check all boxes > Restart\r\nThen run this installer"
+created_at: '2019-03-23T07:02:51.933000Z'
+updated_at: '2019-05-21T23:57:52.548594Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 384190
+gogid: 1622602219
+gogslug: abzu
+humblestoreid: ''
+script:
+  game:
+    appid: 384190

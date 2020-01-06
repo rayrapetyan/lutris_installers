@@ -1,0 +1,15 @@
+name: Furi
+slug: furi
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/furi.jpg
+icon_url: /games/icon/furi.png
+is_public: true
+updated: '2019-01-23T08:29:36.396243Z'
+steamid: 423230
+gogslug: furi
+humblestoreid: ''

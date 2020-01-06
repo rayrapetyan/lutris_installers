@@ -1,0 +1,32 @@
+id: 8828
+game_id: 19116
+game_slug: baptism
+name: BAPTISM
+year: 2017
+user: kimchitea
+runner: linux
+slug: baptism-steam
+version: Steam
+description: Native Linux version using Steam game data.
+notes: ''
+created_at: '2018-06-20T22:28:51.870000Z'
+updated_at: '2018-06-20T23:20:39.765721Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 747160
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: BAPTISM.sh
+  installer:
+  - merge:
+      src: steam-data
+      dst: $GAMEDIR
+  - chmodx: $GAMEDIR/BAPTISM.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/BAPTISM
+  - chmodx: $GAMEDIR/lib/linux-x86_64/BAPTISM
+  files:
+  - steam-data: $WINESTEAM:747160:/

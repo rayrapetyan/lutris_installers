@@ -1,0 +1,45 @@
+id: 11919
+game_id: 7078
+game_slug: blip-and-blop-balls-of-steel
+name: Blip and Blop Balls Of Steel
+year: 2002
+user: PowaBanga
+runner: wine
+slug: blip-and-blop-balls-of-steel-10
+version: '1.0'
+description: Gargamel was shot by infamous creatures. The bastards! we will avenge
+  him!
+notes: It is possible that the game crash at the first start when you push on your
+  keyboard. I do not have this bug every time. Simply force to shut it down, and restart
+  it, the game will work perfectly every time after.
+created_at: '2019-02-08T21:33:52.470000Z'
+updated_at: '2019-02-09T02:53:21.882326Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: 7z
+      arch: win32
+      dst: $CACHE/bbsetup
+      file: file_id
+  - task:
+      executable: $CACHE/bbsetup/bb_install.exe
+      prefix: $GAMEDIR
+      args: /safe
+      arch: win32
+      name: wineexec
+  files:
+  - file_id: https://tele500.abandonware-france.org/fichiers/jeux/Autres/jeu-00801-blip_blop-pcwin.7z
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Blip Blop/BlipBlop.exe
+    args: /safe
+    working_dir: $GAMEDIR/drive_c/Program Files/Blip Blop/
+    arch: win32

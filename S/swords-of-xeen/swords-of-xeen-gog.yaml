@@ -1,0 +1,70 @@
+id: 10143
+game_id: 9931
+game_slug: swords-of-xeen
+name: Swords of Xeen
+year: 1995
+user: ugly
+runner: dosbox
+slug: swords-of-xeen-gog
+version: GOG
+description: "Uses the files from the Windows installer from GOG.\r\n\r\nGOG installer\
+  \ has a file format of: setup_mm_swords"
+notes: Audio (MIDI and sound FX) should work without additional setup.
+created_at: '2018-09-09T19:36:19.403000Z'
+updated_at: '2018-09-10T03:17:15.331640Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: $GAMEDIR/DOSBOX/dosboxMM5a_single.conf
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file2
+  - execute:
+      args: -d "$CACHE" "$file1"
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/app
+      dst: $GAMEDIR
+  - merge:
+      src: $GAMEDIR/dosboxMM5a.conf
+      dst: $GAMEDIR/DOSBOX
+  - merge:
+      src: $GAMEDIR/dosboxMM5a_single.conf
+      dst: $GAMEDIR/DOSBOX
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/DOSBOX/dosboxMM5a.conf
+  - write_config:
+      section: sdl
+      key: output
+      value: overlay
+      file: $GAMEDIR/DOSBOX/dosboxMM5a.conf
+  - write_config:
+      section: sdl
+      key: fullscreen
+      value: false
+      file: $GAMEDIR/DOSBOX/dosboxMM5a.conf
+  - write_config:
+      section: sdl
+      key: fullresolution
+      value: 1920x1080
+      file: $GAMEDIR/DOSBOX/dosboxMM5a.conf
+  - write_config:
+      section: midi
+      key: midiconfig
+      value: '128:0'
+      file: $GAMEDIR/DOSBOX/dosboxMM5a.conf
+  files:
+  - file1: N/A:Please select the GOG installer
+  - file2: https://lutris.net/files/tools/innoextract.tar.gz
+  game:
+    config_file: $GAMEDIR/DOSBOX/dosboxMM5a.conf

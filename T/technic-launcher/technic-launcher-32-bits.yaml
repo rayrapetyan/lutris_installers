@@ -1,0 +1,43 @@
+id: 2909
+game_id: 4099
+game_slug: technic-launcher
+name: Technic Launcher
+year: 2011
+user: scottviger
+runner: linux
+slug: technic-launcher-32-bits
+version: 32 Bits
+description: ''
+notes: Includes Java runtime 8
+created_at: '2016-10-18T21:38:53.671446Z'
+updated_at: '2016-10-23T19:24:18.946176Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: minecraft
+  installer:
+  - move:
+      src: minecraft-jar
+      dst: $GAMEDIR
+  - extract:
+      nomerge: true
+      file: java-jre
+  - extract:
+      nomerge: true
+      file: minecraft-launcher
+  - rename:
+      src: $GAMEDIR/TechnicLauncher.jar
+      dst: $GAMEDIR/Minecraft.jar
+  - execute:
+      args: -s "$HOME/.technic" "$GAMEDIR/Data folder"
+      file: /bin/ln
+  files:
+  - minecraft-jar: http://launcher.technicpack.net/launcher4/347/TechnicLauncher.jar
+  - java-jre: http://lutris.net/files/runners/jre-8u73-linux-i586.tar.gz
+  - minecraft-launcher: http://lutris.net/files/games/minecraft/wrapper_java8.tar.gz

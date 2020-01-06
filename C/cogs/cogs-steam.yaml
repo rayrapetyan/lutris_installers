@@ -1,0 +1,24 @@
+id: 196
+game_id: 190
+game_slug: cogs
+name: Cogs
+year: null
+user: strider
+runner: steam
+slug: cogs-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-19T23:56:17.655000Z'
+updated_at: '2013-12-19T23:56:17.655000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 26500
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 26500

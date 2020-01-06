@@ -1,0 +1,16 @@
+name: 'Mario & Luigi: Paper Jam'
+slug: mario-luigi-paper-jam
+year: 2015
+platforms:
+- name: Nintendo 3DS
+genres:
+- name: Action
+- name: Role-playing
+aliases: []
+banner_url: /games/banner/mario-luigi-paper-jam.jpg
+icon_url: null
+is_public: true
+updated: '2019-12-27T23:49:11.451997Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

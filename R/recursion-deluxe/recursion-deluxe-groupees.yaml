@@ -1,0 +1,31 @@
+id: 4990
+game_id: 7961
+game_slug: recursion-deluxe
+name: Recursion Deluxe
+year: null
+user: FakeShemp
+runner: linux
+slug: recursion-deluxe-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-12T17:48:34.922320Z'
+updated_at: '2017-08-27T22:05:15.252086Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 425160
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: RecursionDeluxe.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/RecursionDeluxe.x86
+  - chmodx: $GAMEDIR/RecursionDeluxe.x86_64
+  exe64: RecursionDeluxe.x86_64
+  files:
+  - file1: N/A:Please select the Groupees archive

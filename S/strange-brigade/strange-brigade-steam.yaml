@@ -1,0 +1,29 @@
+id: 10454
+game_id: 21543
+game_slug: strange-brigade
+name: Strange Brigade
+year: null
+user: strider
+runner: winesteam
+slug: strange-brigade-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-10-08T06:00:51.621000Z'
+updated_at: '2019-02-16T04:44:42.278206Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 312670
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    esync: true
+    dxvk: true
+  game:
+    appid: 312670
+    arch: win64

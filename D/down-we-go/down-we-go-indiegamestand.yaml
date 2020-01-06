@@ -1,0 +1,32 @@
+id: 4348
+game_id: 11728
+game_slug: down-we-go
+name: Down We Go!
+year: 2014
+user: FakeShemp
+runner: wine
+slug: down-we-go-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-06-14T16:48:39.591802Z'
+updated_at: '2018-05-19T03:41:52.004138Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Down We Go
+      file: $file1
+  files:
+  - file1: N/A:Please select the IndieGameStand archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Down We Go/Down We Go.exe
+    arch: win32

@@ -1,0 +1,38 @@
+id: 2690
+game_id: 7618
+game_slug: death-road-to-canada
+name: Death Road to Canada
+year: 2016
+user: ssf
+runner: linux
+slug: death-road-to-canada-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2016-09-07T02:48:52.858438Z'
+updated_at: '2016-09-09T20:15:10.788525Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 252610
+gogid: 1960384075
+gogslug: death_road_to_canada
+humblestoreid: ''
+script:
+  exe: game/start.sh
+  gogid: death_road_to_canada
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Please select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

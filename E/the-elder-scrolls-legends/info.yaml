@@ -1,0 +1,15 @@
+name: 'The Elder Scrolls: Legends'
+slug: the-elder-scrolls-legends
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Cards
+aliases: []
+banner_url: /games/banner/the-elder-scrolls-legends.jpg
+icon_url: /games/icon/the-elder-scrolls-legends.png
+is_public: true
+updated: '2019-01-23T08:31:40.750135Z'
+steamid: 364470
+gogslug: ''
+humblestoreid: ''

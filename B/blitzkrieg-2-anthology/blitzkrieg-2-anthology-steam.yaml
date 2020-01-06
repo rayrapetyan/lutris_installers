@@ -1,0 +1,40 @@
+id: 9038
+game_id: 4358
+game_slug: blitzkrieg-2-anthology
+name: Blitzkrieg 2 Anthology
+year: null
+user: Asgaroth
+runner: winesteam
+slug: blitzkrieg-2-anthology-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-06T09:24:55.729427Z'
+updated_at: '2018-07-06T19:27:23.725812Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 313500
+gogid: 1207659119
+gogslug: blitzkrieg_2_anthology
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-3.11-x86_64
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Creating wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Setting wine to Windows XP
+      app: winxp
+      arch: win64
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 313500
+    arch: win64

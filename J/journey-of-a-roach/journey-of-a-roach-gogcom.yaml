@@ -1,0 +1,54 @@
+id: 2244
+game_id: 655
+game_slug: journey-of-a-roach
+name: Journey of a Roach
+year: null
+user: ssf
+runner: wine
+slug: journey-of-a-roach-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2016-07-04T15:25:42.086705Z'
+updated_at: '2016-09-30T20:48:21.632807Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 255300
+gogid: 1207661723
+gogslug: journey_of_a_roach
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - execute:
+      args: -c 'printf "[Software\\Wine\\DllOverrides]\n"mscoree"=""\n"mshtml"=""\n"winemenubuilder.exe"=""\n"
+        >> $GAMEDIR/user.reg'
+      file: /bin/sh
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /VERYSILENT /SP- /NOCANCEL /SUPPRESSMSGBOXES
+      description: Installing Journey of a Roach
+      name: wineexec
+  runner: wine
+  steamid: 255300
+  humblestoreid: ''
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.
+  notes: ''
+  game_slug: journey-of-a-roach
+  year: 2013
+  version: GOG.com
+  slug: journey-of-a-roach-gogcom
+  installer_slug: journey-of-a-roach-gogcom
+  name: Journey of a Roach
+  gogid: ''
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Journey of a Roach/JoaR.exe
+    arch: win32

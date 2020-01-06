@@ -1,0 +1,30 @@
+id: 6886
+game_id: 15331
+game_slug: us-ski-team-skiing
+name: U.S. Ski Team Skiing
+year: 1980
+user: maxlefou
+runner: jzintv
+slug: us-ski-team-skiing-intellivision
+version: Intellivision
+description: null
+notes: ''
+created_at: '2017-12-28T19:27:31.610702Z'
+updated_at: '2017-12-29T16:35:24.128582Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: romfile
+      dst: $GAMEDIR
+  files:
+  - romfile: N/A:Please select the ROM file
+  game:
+    main_file: romfile

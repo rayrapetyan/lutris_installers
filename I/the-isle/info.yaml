@@ -1,0 +1,16 @@
+name: The Isle
+slug: the-isle
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Historical
+- name: Life simulation
+aliases: []
+banner_url: /games/banner/the-isle.jpg
+icon_url: /games/icon/the-isle.png
+is_public: false
+updated: '2019-05-21T18:46:21.378613Z'
+steamid: 376210
+gogslug: ''
+humblestoreid: ''

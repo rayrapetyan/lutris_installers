@@ -1,0 +1,44 @@
+id: 17398
+game_id: 1306
+game_slug: nights-into-dreams
+name: NiGHTS into Dreams...
+year: null
+user: Hedgenfox
+runner: winesteam
+slug: nights-into-dreams-steam-dotnet
+version: Steam + Dotnet
+description: Installer that sets up DXVK and Dotnet 4.8 for the launcher
+notes: ''
+created_at: '2019-12-17T19:38:07.825927Z'
+updated_at: '2019-12-17T19:38:07.825951Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: 219950
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    installer:
+    - task:
+        prefix: $GAMEDIR/prefix
+        description: Setting up wine prefix
+        arch: win64
+        name: create_prefix
+    - task:
+        prefix: $GAMEDIR
+        description: Setting up Dotnet V4.8
+        app: dotnet48
+        name: winetricks
+    appid: 219950
+    system:
+      terminal: false
+    winesteam:
+      DXVK: true
+      Desktop: false
+    game:
+      prefix: $GAMEDIR/prefix
+      appid: 219950
+      arch: win64

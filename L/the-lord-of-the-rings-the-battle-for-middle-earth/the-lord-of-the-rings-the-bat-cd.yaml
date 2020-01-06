@@ -1,0 +1,84 @@
+id: 10641
+game_id: 22995
+game_slug: the-lord-of-the-rings-the-battle-for-middle-earth
+name: The Lord of The Rings The Battle For Middle-Earth
+year: 2004
+user: static-dragon
+runner: wine
+slug: the-lord-of-the-rings-the-bat-cd
+version: CD
+description: Please be sure to install the game in English when prompted. After the
+  initial installer finishes do not run the game, the patches and HD Edition need
+  the game closed to run install properly.
+notes: "The resolution in: $GAMEDIR/drive_c/users/$USER/Application Data/My Battle\
+  \ for Middle-earth Files/Options.ini needs to be set manually. For example the Resolution\
+  \ line should be set as follows:\r\nResolution = 1920 1080"
+created_at: '2018-10-26T04:15:06.667000Z'
+updated_at: '2019-09-08T23:37:33.188517Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - insert-disc:
+      requires: setup.exe
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      description: Run Installer
+      arch: win32
+      name: wineexec
+  - task:
+      executable: patch103
+      prefix: $GAMEDIR
+      description: Installing official patch version 1.03
+      arch: win32
+      name: wineexec
+  - task:
+      executable: patch106
+      prefix: $GAMEDIR
+      description: Installing patch 1.06
+      arch: win32
+      name: wineexec
+  - task:
+      executable: hdmod
+      prefix: $GAMEDIR
+      description: Installing hd mod
+      arch: win32
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Setting OS as Windows XP.
+      key: Version
+      value: winxp
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  files:
+  - patch103:
+      referer: https://duckduckgo.com
+      filename: patch103.exe
+      url: https://www.moddb.com/downloads/mirror/35515/114/8bbf8b446714cd14972d743587497db8/
+  - patch106:
+      filename: patch106AIO.exe
+      url: http://server.cnc-online.net/downloads/patch/T3AOnlineBFME1_Patch1.06_AIO.exe
+  - hdmod:
+      referer: https://duckduckgo.com
+      filename: hd.exe
+      url: https://www.moddb.com/downloads/mirror/127233/112/249735ed278c725f969e979f94bb72f3/
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/EA GAMES/The Battle for Middle-earth (tm)/lotrbfme.exe
+    arch: win32
+    version: lutris-4.13-x86_64
+    args: -mod "$GAMEDIR/drive_c/users/$USER/Application Data/My Battle for Middle-earth
+      Files/HDEditionv1.0.big"
+    wine: null

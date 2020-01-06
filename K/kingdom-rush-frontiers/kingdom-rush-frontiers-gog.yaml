@@ -1,0 +1,37 @@
+id: 7325
+game_id: 10306
+game_slug: kingdom-rush-frontiers
+name: Kingdom Rush Frontiers
+year: 2016
+user: AlexRavenheart
+runner: linux
+slug: kingdom-rush-frontiers-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2018-02-16T11:51:27.535346Z'
+updated_at: '2018-03-04T23:18:38.710858Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 458710
+gogid: 1195536024
+gogslug: kingdom_rush_frontiers
+humblestoreid: ''
+script:
+  exe: Game/start.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/Game
+  files:
+  - game: 'N/A: Please select the GOG.com Linux installer'
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

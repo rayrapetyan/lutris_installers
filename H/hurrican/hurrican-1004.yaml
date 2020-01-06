@@ -1,0 +1,41 @@
+id: 11991
+game_id: 8215
+game_slug: hurrican
+name: Hurrican
+year: null
+user: strider
+runner: wine
+slug: hurrican-1004
+version: 1.0.0.4
+description: null
+notes: ''
+created_at: '2019-02-13T03:32:26.157000Z'
+updated_at: '2019-02-13T03:34:12.844048Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      name: create_prefix
+  - extract:
+      dst: $GAMEDIR/setup
+      file: installer
+  - extract:
+      dst: $GAMEDIR/editor
+      file: $GAMEDIR/setup/editor.zip
+  - task:
+      executable: $GAMEDIR/setup/hurrican-setup-1.0.0.4.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - installer: https://lutris.nyc3.digitaloceanspaces.com/games/hurrican/hurrican.zip
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Hurrican/hurrican.exe
+    arch: win32

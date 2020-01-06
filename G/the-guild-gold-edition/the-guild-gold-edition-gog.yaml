@@ -1,0 +1,38 @@
+id: 12027
+game_id: 5640
+game_slug: the-guild-gold-edition
+name: The Guild Gold Edition
+year: null
+user: Kupferdrache
+runner: wine
+slug: the-guild-gold-edition-gog
+version: GOG
+description: Script for the version form GOG
+notes: last wineDB rated gold, HWTL executable has coulors of. Fix status unknown
+created_at: '2019-02-15T17:39:37.085000Z'
+updated_at: '2019-02-19T03:41:00.923015Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 39520
+gogid: 1207658720
+gogslug: the_guild_gold_edition
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: goginstaller
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  files:
+  - goginstaller: 'N/A: Select the game''s setup file'
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/The Guild Gold/Europa1400Gold.exe
+    arch: win32

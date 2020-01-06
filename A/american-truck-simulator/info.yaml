@@ -1,0 +1,16 @@
+name: American Truck Simulator
+slug: american-truck-simulator
+year: 2016
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Simulation
+aliases: []
+banner_url: /games/banner/american-truck-simulator.jpg
+icon_url: /games/icon/american-truck-simulator.png
+is_public: true
+updated: '2019-04-17T06:49:39.696805Z'
+steamid: 270880
+gogslug: ''
+humblestoreid: ''

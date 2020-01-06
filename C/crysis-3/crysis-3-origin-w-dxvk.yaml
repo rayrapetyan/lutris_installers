@@ -1,0 +1,81 @@
+id: 9961
+game_id: 16472
+game_slug: crysis-3
+name: Crysis 3
+year: 2013
+user: bocadillodeatun
+runner: wine
+slug: crysis-3-origin-w-dxvk
+version: Origin w/ DXVK
+description: Only sets up Origin and DXVK you'll need to download Crysis 3 manually.
+notes: "Please read before installing: <a href=\"https://github.com/lutris/lutris/wiki/Game:-Origin\"\
+  >https://github.com/lutris/lutris/wiki/Game:-Origin</a>\r\n\r\n1. Inside the game\
+  \ menus, go to settings and select \"full screen\" (also change any other option\
+  \ you might want).\r\n\r\n2. Try to play the game. If the mouse movement is not\
+  \ restricted (ie. you can rotate the view 360 deg) you are good to go (skip the\
+  \ rest of steps). Otherwise keep reading.\r\n\r\n3. Exit the game and Lutris.\r\n\
+  \r\n4. In the Lutris menus, right click on \"Crysis 3\" and select \"Configure -->\
+  \ Runner options --> Mouse Warp Override = Force\"\r\n\r\n5. Run the game. This\
+  \ time you will need to use the KEYBOARD to navigate the menus, but once inside\
+  \ the game, everything will work as expected (this is a wine issue, explained here\
+  \ in case you are curious: https://bugs.winehq.org/show_bug.cgi?id=43918 )\r\n\r\
+  \n---\r\nYou may encounter some stuttering when first running game but after a few\
+  \ minutes the DXVK cache builds and the stuttering disappears."
+created_at: '2018-08-29T18:11:20.725000Z'
+updated_at: '2019-05-17T04:33:54.764782Z'
+draft: false
+published: true
+published_by: 19464
+rating: '1'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: nocrashdialog win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: client
+      prefix: $GAMEDIR
+      description: Installing Origin... Login window will pop-up and close.
+      arch: win64
+      args: /silent
+      exclude_processes: Origin.exe OriginClientService.exe OriginWebHelperService.exe
+        QtWebEngineProcess.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  - chmodx: updater
+  - merge:
+      src: updater
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Origin
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Origin/Origin.exe
+    arch: win64
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+    disable_runtime: false
+  wine:
+    version: tkg-protonified-3.21-x86_64
+    overrides:
+      nvapi,nvapi64: disabled
+      xaudio2_7: native,builtin
+    dxvk: true
+  files:
+  - client: https://origin-a.akamaihd.net/Origin-Client-Download/origin/live/OriginThinSetup.exe
+  - updater: https://raw.githubusercontent.com/DrDoctor13/wine-origin-updater/master/updateorigin.sh

@@ -1,0 +1,17 @@
+name: Geometry Dash
+slug: geometry-dash
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Platformer
+- name: Rhythm
+aliases: []
+banner_url: /games/banner/geometry-dash.jpg
+icon_url: /games/icon/geometry-dash.png
+is_public: true
+updated: '2019-06-13T05:03:54.981398Z'
+steamid: 322170
+gogslug: ''
+humblestoreid: ''

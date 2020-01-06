@@ -1,0 +1,16 @@
+name: Destination Sol
+slug: destination-sol
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Arcade
+- name: RPG
+aliases: []
+banner_url: /games/banner/destination-sol.jpg
+icon_url: /games/icon/destination-sol.png
+is_public: true
+updated: '2019-01-23T08:29:10.403846Z'
+steamid: 342980
+gogslug: ''
+humblestoreid: ''

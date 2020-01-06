@@ -1,0 +1,16 @@
+name: For Honor
+slug: for-honor
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Fighting
+aliases: []
+banner_url: /games/banner/for-honor.jpg
+icon_url: /games/icon/for-honor.png
+is_public: true
+updated: '2019-08-17T07:00:38.336084Z'
+steamid: 304390
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,46 @@
+id: 11035
+game_id: 7804
+game_slug: yandere-simulator
+name: Yandere Simulator
+year: 2016
+user: cxf
+runner: wine
+slug: yandere-simulator-latest
+version: Latest
+description: null
+notes: "Download before using this installer: <a href=\"https://yanderedev.wordpress.com/downloads/\"\
+  >https://yanderedev.wordpress.com/downloads/</a>\r\n\r\nWe recommend you use the\
+  \ Mega or Mediafire links."
+created_at: '2018-11-30T04:46:18.612000Z'
+updated_at: '2019-02-16T05:09:49.315497Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Yandere Simulator/YandereSimulator.exe
+    arch: win64
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: cjkfonts
+      arch: win64
+      name: winetricks
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Yandere Simulator
+      file: zip
+  wine:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  files:
+  - zip: N/A:Please select zip archive

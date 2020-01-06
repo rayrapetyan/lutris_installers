@@ -1,0 +1,38 @@
+id: 12015
+game_id: 9704
+game_slug: anno-1701-ad
+name: Anno 1701 AD
+year: 2006
+user: FloVanLu
+runner: wine
+slug: anno-1701-ad-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-02-14T18:30:52.124000Z'
+updated_at: '2019-02-15T06:30:50.572532Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: 1438075172
+gogslug: anno_1701_ad
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      executable: goginstaller
+      prefix: $GAMEDIR
+      description: Installing Anno 1701 AD
+      name: wineexec
+  files:
+  - goginstaller: N/A:Please select the GOG.com Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Anno 1701 AD/Anno1701.exe
+    arch: win32

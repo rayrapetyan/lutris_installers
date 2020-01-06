@@ -1,0 +1,16 @@
+name: The Punisher
+slug: the-punisher
+year: 1994
+platforms:
+- name: Arcade
+- name: Sega Genesis / Mega Drive
+genres:
+- name: Beat'em up
+aliases: []
+banner_url: /games/banner/the-punisher.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-27T06:08:14.225542Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

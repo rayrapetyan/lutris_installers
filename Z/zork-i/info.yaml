@@ -1,0 +1,15 @@
+name: Zork I
+slug: zork-i
+year: 1980
+platforms:
+- name: MS-DOS
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/zork-i.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-21T06:58:59.149601Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

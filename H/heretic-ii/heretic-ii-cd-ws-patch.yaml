@@ -1,0 +1,102 @@
+id: 14194
+game_id: 1821
+game_slug: heretic-ii
+name: Heretic II
+year: 1998
+user: legluondunet
+runner: linux
+slug: heretic-ii-cd-ws-patch
+version: CD + WS patch
+description: This script will install "Heretic II" CD Linux edition with support for
+  modern computer configuration.During install please let all options by default.Thanks
+  to the people who contribute to play this game in the best conditions.
+notes: "- update to 1.06c\r\n- WS patch: the game will be patch during install to\
+  \ use your desktop native resolution.\r\n- Multilanguage: you will be able to select\
+  \ others game language during install between french, german, spanish or italian.\r\
+  \nKnown issues:\r\n- Changing resolution will crash H2.\r\n- ALT-TAB inactive when\
+  \ gaming fullscreen.\r\n- You have to keep the CD mounted during gaming if you want\
+  \ to hear soundtrack.\r\n- H2 controller support is insufficient . Instead I invite\
+  \ you to use a keymapper like Antimicro or sc-controller. You will find profiles\
+  \ for x360 and Steam Controller in the \"gamepad profiles\" folder.\r\n- Please\
+  \ report issue concerning this script on my github page:\r\nhttps://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2019-06-18T20:00:36.054000Z'
+updated_at: '2019-11-05T20:31:59.251110Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  custom-name: HERETIC II - Linux CD
+  installer:
+  - insert-disc:
+      requires: base/video/bumper.mpg
+      description: Please insert "HERETIC II" Linux CD and press autodetect
+  - merge:
+      src: $DISC/
+      description: Copying data from "HERETIC II" Linux CD, please wait
+      dst: $GAMEDIR/HERETICIICDL
+  - extract:
+      src: $DISC/data.tar.gz
+      dst: $GAMEDIR/HERETICIICDL/base
+  - extract:
+      src: patch106l
+      dst: $GAMEDIR/HERETICIICDL/tmp2
+  - extract:
+      src: $GAMEDIR/HERETICIICDL/tmp2/data/patch-1.06c.tar.xz
+      dst: $GAMEDIR/HERETICIICDL/
+  - extract:
+      src: $GAMEDIR/HERETICIICDL/tmp2/data/dm-maps.tar.xz
+      dst: $GAMEDIR/HERETICIICDL/
+  - copy:
+      src: $GAMEDIR/HERETICIICDL/tmp2/data/heretic2.sh
+      dst: $GAMEDIR/HERETICIICDL/
+  - chmodx: $GAMEDIR/HERETICIICDL/heretic2.sh
+  - chmodx: scriptws
+  - execute:
+      args: $RESOLUTION_WIDTH $RESOLUTION_HEIGHT
+      file: scriptws
+  - input_menu:
+      options:
+      - keep: I prefer to use default install language
+      - fr: French
+      - ge: German
+      - it: Italian
+      - sp: Spanish
+      description: 'Please choose wich language you would like to install this game:'
+      id: LANG
+      preselect: keep
+  - chmodx: scriptlocal
+  - execute:
+      args: $INPUT_LANG
+      file: scriptlocal
+  - chmodx: scriptconf
+  - execute:
+      file: scriptconf
+  - merge:
+      src: gppreadme
+      dst: $GAMEDIR/HERETICIICDL/gamepad profiles
+  - copy:
+      src: gppx360
+      dst: $GAMEDIR/HERETICIICDL/gamepad profiles
+  - merge:
+      src: gppsc
+      dst: $GAMEDIR/HERETICIICDL/gamepad profiles
+  - execute:
+      command: cd $GAMEDIR/HERETICIICDL; rm -f -r tmp2 bin* Parches setup.* data.tar.gz
+        win32/ autorun.inf heretic2.dynamic Soundtrack
+  files:
+  - patch106l: https://github.com/liflg/heretic.2_1.06c-english_x86/archive/master.zip
+  - scriptws: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Heretic%20II/hereticiiws.sh
+  - scriptlocal: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Heretic%20II/h2local.sh
+  - scriptconf: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Heretic%20II/defconfig.sh
+  - gppreadme: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Heretic%20II/gamepad%20profiles/h2_gamepad_readme.html
+  - gppx360: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Heretic%20II/gamepad%20profiles/h2_x360.gamecontroller.amgp
+  - gppsc: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Heretic%20II/gamepad%20profiles/h2_steam.sccprofile
+  game:
+    prefix: $GAMEDIR
+    args: +set vid_ref glx +set vid_mode 3 +set vid_fullscreen 1 +set gl_driver /usr/lib/i386-linux-gnu/libGL.so.1
+    exe: HERETICIICDL/heretic2.sh

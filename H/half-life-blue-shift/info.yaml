@@ -1,0 +1,15 @@
+name: 'Half-Life: Blue Shift'
+slug: half-life-blue-shift
+year: 2001
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/half-life-blue-shift.jpg
+icon_url: /games/icon/half-life-blue-shift.png
+is_public: true
+updated: '2019-01-23T08:29:46.215813Z'
+steamid: 130
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,36 @@
+id: 10580
+game_id: 9930
+game_slug: supaplex
+name: Supaplex
+year: 1991
+user: Siarkowy
+runner: dosbox
+slug: supaplex-elmer-productions-sp
+version: Elmer Productions + SpeedFix
+description: null
+notes: ''
+created_at: '2018-10-20T23:34:56.157779Z'
+updated_at: '2018-10-21T06:39:23.816613Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  dosbox:
+    scaler: normal3x
+    fullscreen: true
+  installer:
+  - extract:
+      src: game
+      dst: $GAMEDIR
+  - write_file:
+      content: akmx
+      file: $GAMEDIR/SUPAPLEX.CFG
+  files:
+  - game: http://www.elmerproductions.com/sp/software/supaplex.zip
+  game:
+    main_file: spfix63.exe

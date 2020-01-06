@@ -1,0 +1,24 @@
+id: 6471
+game_id: 3018
+game_slug: pizza-frenzy
+name: Pizza Frenzy
+year: null
+user: Stoney_Fish
+runner: winesteam
+slug: pizza-frenzy-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-11-28T22:33:53.719959Z'
+updated_at: '2017-11-30T20:38:32.738780Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 3430
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 3430

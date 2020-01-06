@@ -1,0 +1,35 @@
+id: 10
+game_id: 14
+game_slug: chasm
+name: Chasm
+year: 2013
+user: strider
+runner: linux
+slug: chasm-demo
+version: demo
+description: ''
+notes: ''
+created_at: '2013-06-16T17:06:25Z'
+updated_at: '2014-12-15T00:06:16.506000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 312200
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  system:
+    xboxdrv: --config $GAMEDIR/chasm.xboxdrv
+  installer:
+  - extract:
+      file: chasm-demo
+  - chmodx: $GAMEDIR/chasm
+  - merge:
+      src: chasm-xboxdrv
+      dst: $GAMEDIR
+  exe: chasm
+  files:
+  - chasm-demo: http://lutris.net/files/games/chasm/ChasmDemo106-Linux.tar.gz
+  - chasm-xboxdrv: http://lutris.net/files/games/chasm/chasm.xboxdrv

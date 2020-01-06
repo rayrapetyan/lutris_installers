@@ -1,0 +1,51 @@
+id: 8379
+game_id: 16
+game_slug: unreal-gold
+name: Unreal Gold
+year: 1998
+user: parkerlreed
+runner: linux
+slug: unreal-gold-mesa-fixes
+version: Mesa Fixes
+description: Extension script to make Unreal Gold run on up to date Mesa plus fix
+  audio (Works on Arch and possibly others)
+notes: "Mesa fix: Removed libgcc* and libstdc++* from the lib/s folder\r\n\r\nAudio\
+  \ fix: Set the ALSA output device and correct the FMod number. \r\n\r\nNote: Rerun\
+  \ this script any time after changing settings (fixes crash from wrong audio device)"
+created_at: '2018-05-22T17:50:27.500000Z'
+updated_at: '2019-04-12T17:37:19.589019Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 13250
+gogid: 1207658679
+gogslug: unreal_gold
+humblestoreid: ''
+script:
+  installer:
+  - write_config:
+      section: ALAudio.ALAudioSubsystem
+      key: ALDevices
+      value: ALSASoftware
+      file: $GAMEDIR/System/UnrealLinux.ini
+  - write_config:
+      section: ALAudio.ALAudioSubsystem
+      key: FMODDevices
+      value: 27
+      file: $GAMEDIR/System/UnrealLinux.ini
+  - execute:
+      command: rm -f $GAMEDIR/lib/libstdc++.a
+  - execute:
+      command: rm -f $GAMEDIR/lib/libstdc++.la
+  - execute:
+      command: rm -f $GAMEDIR/lib/libstdc++.so
+  - execute:
+      command: rm -f $GAMEDIR/lib/libstdc++.so.6
+  - execute:
+      command: rm -f $GAMEDIR/lib/libstdc++.so.6.0.8
+  - execute:
+      command: rm -f $GAMEDIR/lib/libgcc_s.so
+  - execute:
+      command: rm -f $GAMEDIR/lib/libgcc_s.so.1
+  extends: unreal-gold

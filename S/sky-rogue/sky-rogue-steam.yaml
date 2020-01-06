@@ -1,0 +1,24 @@
+id: 4303
+game_id: 4695
+game_slug: sky-rogue
+name: Sky Rogue
+year: 2017
+user: FakeShemp
+runner: steam
+slug: sky-rogue-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-06-11T20:03:50.904829Z'
+updated_at: '2017-06-12T18:22:01.274428Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 381020
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 381020

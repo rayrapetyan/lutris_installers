@@ -1,0 +1,16 @@
+name: Ravenfield
+slug: ravenfield
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: FPS
+- name: Shooter
+aliases: []
+banner_url: /games/banner/ravenfield.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:54.834958Z'
+steamid: 636480
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,17 @@
+name: Prodigy Tactics
+slug: prodigy-tactics
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Fantasy
+- name: Strategy
+- name: Turn-based
+aliases: []
+banner_url: /games/banner/prodigy-tactics.jpg
+icon_url: null
+is_public: true
+updated: '2019-04-11T14:11:35.036007Z'
+steamid: 626550
+gogslug: prodigy_tactics
+humblestoreid: ''

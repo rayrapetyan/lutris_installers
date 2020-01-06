@@ -1,0 +1,24 @@
+id: 8245
+game_id: 5150
+game_slug: all-is-dust
+name: All Is Dust
+year: 2015
+user: soredake
+runner: winesteam
+slug: all-is-dust-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T07:38:04.123258Z'
+updated_at: '2018-05-09T21:15:17.399265Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 373330
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 373330

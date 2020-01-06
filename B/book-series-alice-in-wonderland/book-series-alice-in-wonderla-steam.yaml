@@ -1,0 +1,24 @@
+id: 7181
+game_id: 14319
+game_slug: book-series-alice-in-wonderland
+name: Book Series - Alice in Wonderland
+year: 2016
+user: kimchitea
+runner: winesteam
+slug: book-series-alice-in-wonderla-steam
+version: Steam
+description: null
+notes: If only a black screen shows, set ddr=gdi in Winetricks.
+created_at: '2018-01-28T07:06:49.921000Z'
+updated_at: '2018-01-31T10:04:17.495834Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 544190
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 544190

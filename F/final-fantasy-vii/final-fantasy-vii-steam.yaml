@@ -1,0 +1,24 @@
+id: 3684
+game_id: 1643
+game_slug: final-fantasy-vii
+name: Final Fantasy VII
+year: 1997
+user: gugutz
+runner: winesteam
+slug: final-fantasy-vii-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-05-15T01:33:54.890000Z'
+updated_at: '2017-05-15T15:13:28.409335Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 39140
+gogid: null
+gogslug: ''
+humblestoreid: final-fantasy-vii
+script:
+  game:
+    appid: 39140

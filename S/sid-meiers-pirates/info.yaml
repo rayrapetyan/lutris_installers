@@ -1,0 +1,19 @@
+name: Sid Meier's Pirates!
+slug: sid-meiers-pirates
+year: 2005
+platforms:
+- name: Nintendo Wii
+- name: Sony PSP
+- name: Windows
+genres:
+- name: Adventure
+- name: RPG
+- name: Strategy
+aliases: []
+banner_url: /games/banner/sid-meiers-pirates.jpg
+icon_url: /games/icon/sid-meiers-pirates.png
+is_public: true
+updated: '2019-01-23T08:31:13.216629Z'
+steamid: 3920
+gogslug: sid_meiers_pirates
+humblestoreid: sid-meiers-pirates

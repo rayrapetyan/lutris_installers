@@ -1,0 +1,31 @@
+id: 6788
+game_id: 10384
+game_slug: dead-rising
+name: Dead Rising
+year: 2006
+user: soredake
+runner: winesteam
+slug: dead-rising-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2017-12-23T21:03:22.204000Z'
+updated_at: '2019-02-14T05:41:36.087683Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 427190
+gogid: null
+gogslug: ''
+humblestoreid: dead-rising
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    appid: 427190
+    arch: win64

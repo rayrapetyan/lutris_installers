@@ -1,0 +1,17 @@
+name: Su-27 Flanker
+slug: su-27-flanker
+year: 1995
+platforms:
+- name: MS-DOS
+- name: Windows
+genres:
+- name: Flight
+- name: Shooter
+aliases: []
+banner_url: /games/banner/su-27-flanker.jpg
+icon_url: null
+is_public: true
+updated: '2019-05-21T06:50:26.857132Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

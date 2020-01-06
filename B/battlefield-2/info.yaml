@@ -1,0 +1,15 @@
+name: Battlefield 2
+slug: battlefield-2
+year: 2005
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/battlefield-2.jpg
+icon_url: /games/icon/battlefield-2.png
+is_public: true
+updated: '2019-06-05T05:28:00.011185Z'
+steamid: 24860
+gogslug: ''
+humblestoreid: ''

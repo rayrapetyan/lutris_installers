@@ -1,0 +1,29 @@
+id: 9587
+game_id: 20642
+game_slug: dark-romance-the-monster-within
+name: 'Dark Romance: The Monster Within'
+year: 2017
+user: kimchitea
+runner: wine
+slug: dark-romance-the-monster-with-big-fish
+version: Big Fish
+description: null
+notes: Install and activate the game through the <a href="https://lutris.net/games/big-fish-games-app/">Big
+  Fish app,</a> then run this installer to launch the game outside the app. May need
+  to disable custom icons and special effects in the game settings.
+created_at: '2018-08-05T01:30:49.673000Z'
+updated_at: '2019-10-28T20:34:05.910677Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: big-fish-games-app
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Dark Romance - The Monster Within Collectors Edition/DarkRomance_TheMonsterWithin_CE.exe
+    arch: win32

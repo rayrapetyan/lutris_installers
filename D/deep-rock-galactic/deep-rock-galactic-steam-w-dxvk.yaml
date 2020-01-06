@@ -1,0 +1,52 @@
+id: 8410
+game_id: 11369
+game_slug: deep-rock-galactic
+name: Deep Rock Galactic
+year: 2018
+user: diamondburned
+runner: winesteam
+slug: deep-rock-galactic-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2018-05-25T04:27:35.206000Z'
+updated_at: '2019-02-14T05:43:05.411092Z'
+draft: false
+published: true
+published_by: 19464
+rating: '4'
+steamid: 548430
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: xact
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2015
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: win7
+      name: winetricks
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+    pulse_latency: true
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 548430
+    arch: win64

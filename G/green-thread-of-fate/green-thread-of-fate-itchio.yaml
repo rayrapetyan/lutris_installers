@@ -1,0 +1,31 @@
+id: 17285
+game_id: 30701
+game_slug: green-thread-of-fate
+name: Green Thread of Fate
+year: 2019
+user: kimchitea
+runner: linux
+slug: green-thread-of-fate-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2019-12-12T14:24:32.039000Z'
+updated_at: '2019-12-15T18:54:38.848896Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: GreenThreadofFate.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/GreenThreadofFate.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/GreenThreadofFate
+  - chmodx: $GAMEDIR/lib/linux-x86_64/GreenThreadofFate
+  files:
+  - file1: N/A:Please select the itch.io archive

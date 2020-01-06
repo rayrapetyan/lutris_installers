@@ -1,0 +1,15 @@
+name: 'Call of Duty: Black Ops Mobile'
+slug: call-of-duty-black-ops-mobile
+year: 2010
+platforms:
+- name: J2ME
+genres:
+- name: Shooter
+aliases: []
+banner_url: /games/banner/call-of-duty-black-ops-mobile.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:44.599923Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

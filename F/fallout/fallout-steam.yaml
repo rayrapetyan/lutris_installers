@@ -1,0 +1,29 @@
+id: 1832
+game_id: 381
+game_slug: fallout
+name: Fallout
+year: 1997
+user: djazz
+runner: winesteam
+slug: fallout-steam
+version: Steam
+description: null
+notes: Loads virtual desktop in low resolution mode to launch game initially. Once
+  the game is loaded, edit settings to preferred resolution, and restart. You can
+  then change the window resolution in Runner options or uncheck it.
+created_at: '2016-01-06T11:33:35.065000Z'
+updated_at: '2018-06-14T02:35:16.936700Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 38400
+gogid: 1440166342
+gogslug: fallout
+humblestoreid: ''
+script:
+  winesteam:
+    WineDesktop: 800x600
+    Desktop: true
+  game:
+    appid: 38400

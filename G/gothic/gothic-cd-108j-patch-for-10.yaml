@@ -1,0 +1,42 @@
+id: 2678
+game_id: 1481
+game_slug: gothic
+name: Gothic
+year: 2001
+user: Lulu
+runner: wine
+slug: gothic-cd-108j-patch-for-10
+version: CD 1.08j + patch for 1.08k
+description: 'Download patch 1.08k here: http://www.worldofgothic.de/dl/download_6.htm'
+notes: "Install directmusic in Winetricks.\r\n\r\nIf you can't change resolution ingame.\
+  \ You have to edit the GOTHIC.INI in drive_c/Program Files/Piranha-Bytes/Gothic/system/\r\
+  \n\r\nFor example to:\r\n  zVidResFullscreenX=1280\r\n  zVidResFullscreenY=800\r\
+  \n  zVidResFullscreenBPP=32"
+created_at: '2016-09-04T18:44:39.976656Z'
+updated_at: '2018-05-19T03:41:49.361844Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 65540
+gogid: 1207658682
+gogslug: gothic
+humblestoreid: ''
+script:
+  exe: drive_c/Program Files/Piranha-Bytes/Gothic/system/gothic.exe
+  installer:
+  - insert-disc:
+      requires: gothic.ico
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      executable: patch
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - patch: 'N/A: Select patch to 1.08k downloaded from http://www.worldofgothic.de'
+  game:
+    prefix: $GAMEDIR
+    arch: win32

@@ -1,0 +1,105 @@
+id: 7391
+game_id: 4514
+game_slug: betrayal-at-krondor
+name: Betrayal at Krondor
+year: 1993
+user: knathrak
+runner: dosbox
+slug: betrayal-at-krondor-dosbox-gog
+version: Dosbox + GOG
+description: This is the dosbox version that requires the GOG windows installer.
+notes: "The game runs fine but without sound. In order to make the sound work you\
+  \ need to manually run install.exe from the game's directory inside dosbox and select\
+  \ the soundblaster/adlib soundcard for the music and effects. After saving the setup\
+  \ the sound will work fine as well.\r\n\r\nTo run INSTALL.EXE:\r\n   I - Configure\
+  \ --> Game Options --> Main File --> Select 'dosboxBAK_settings.conf'\r\n   II -\
+  \ Run the game and you'll start the Setup\r\n   III - Choose Music --> Soundblaster\
+  \ /AdLib Card (or compatibles)\r\n   IV - Accept these choices and save configuration\r\
+  \n   V - In Lutris, Configure --> Game Options --> Main File --> Select 'dosboxBAK_single.conf'\r\
+  \n   VI - Start the game\r\n\r\nFor better quality MIDI audio perform the same steps\
+  \ as above.  But instead for Music select 'General MIDI'.\r\nThen you need to install\
+  \ fluid-soundfont-gm and fluidsynth.  For Mint 19:\r\nsudo apt install -y fluid-soundfont-gm\
+  \ fluidsynth\r\nOpen terminal and run the command (needs to be run each time you\
+  \ want to play):\r\nfluidsynth -l -s -i -aalsa -o audio.alsa.device=default /usr/share/sounds/sf2/FluidR3_GM.sf2\r\
+  \nThen start the game."
+created_at: '2018-02-24T22:47:54.633000Z'
+updated_at: '2018-09-02T17:05:50.246274Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1207658850
+gogslug: betrayal_at_krondor
+humblestoreid: ''
+script:
+  main_file: DOSBOX/dosboxBAK_single.conf
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file2
+  - execute:
+      args: -d "$CACHE" "$file1"
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/app
+      dst: $GAMEDIR
+  - merge:
+      src: $GAMEDIR/dosboxBAK_single.conf
+      dst: $GAMEDIR/DOSBOX
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/dosboxBAK.conf
+  - write_config:
+      section: sdl
+      key: fullscreen
+      value: false
+      file: $GAMEDIR/dosboxBAK.conf
+  - write_config:
+      section: sdl
+      key: fullresolution
+      value: 1920x1080
+      file: $GAMEDIR/dosboxBAK.conf
+  - write_config:
+      section: midi
+      key: midiconfig
+      value: '128:0'
+      file: $GAMEDIR/dosboxBAK.conf
+  - write_file:
+      content: '[IPX]
+
+        Enable=0
+
+        Connection=0
+
+        ipx=false
+
+
+        [autoexec]
+
+        # Lines in this section will be run at startup.
+
+
+        @ECHO OFF
+
+        mount C ".."
+
+        imgmount d "..\bak.inst" -t iso -fs iso
+
+        c:
+
+        cls
+
+        INSTALL.EXE
+
+        exit
+
+        '
+      file: $GAMEDIR/DOSBOX/dosboxBAK_settings.conf
+  files:
+  - file1: N/A:Please select the GOG installer
+  - file2: https://lutris.net/files/tools/innoextract.tar.gz
+  game:
+    config_file: $GAMEDIR/dosboxBAK.conf

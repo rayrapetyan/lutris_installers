@@ -1,0 +1,24 @@
+id: 14915
+game_id: 28672
+game_slug: elsinore
+name: Elsinore
+year: 2019
+user: kimchitea
+runner: steam
+slug: elsinore-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-08-08T02:04:39.636743Z'
+updated_at: '2019-10-11T00:56:36.829244Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 512890
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 512890

@@ -1,0 +1,15 @@
+name: Triple Town
+slug: triple-town
+year: 2012
+platforms:
+- name: Windows
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/triple-town.jpg
+icon_url: /games/icon/triple-town.png
+is_public: true
+updated: '2019-05-21T18:46:59.075153Z'
+steamid: 209950
+gogslug: triple_town
+humblestoreid: ''

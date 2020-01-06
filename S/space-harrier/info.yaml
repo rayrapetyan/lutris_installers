@@ -1,0 +1,29 @@
+name: Space Harrier
+slug: space-harrier
+year: 1985
+platforms:
+- name: Amiga
+- name: Arcade
+- name: Atari ST
+- name: Commodore 64
+- name: MS-DOS
+- name: NES
+- name: Nintendo 3DS
+- name: Nintendo Wii
+- name: Sega 32X
+- name: Sega Game Gear
+- name: Sega Master System
+- name: Sega Saturn
+- name: TurboGrafx-16
+- name: ZX Spectrum
+genres:
+- name: Arcade
+- name: Shooter
+aliases: []
+banner_url: /games/banner/space-harrier.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:20.628834Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

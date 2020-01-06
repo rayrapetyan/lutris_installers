@@ -1,0 +1,15 @@
+name: 'Mega Man: The Power Battle'
+slug: mega-man-the-power-battle
+year: 1995
+platforms:
+- name: Arcade
+genres:
+- name: Fighting
+aliases: []
+banner_url: /games/banner/mega-man-the-power-battle.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-13T14:20:02.179488Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

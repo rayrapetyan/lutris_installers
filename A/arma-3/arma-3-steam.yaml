@@ -1,0 +1,24 @@
+id: 2088
+game_id: 1746
+game_slug: arma-3
+name: Arma 3
+year: 2013
+user: Xodetaetl
+runner: steam
+slug: arma-3-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2016-06-13T13:57:19.738000Z'
+updated_at: '2018-01-19T14:25:06.831211Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 107410
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 107410

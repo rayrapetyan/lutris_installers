@@ -1,0 +1,33 @@
+id: 5958
+game_id: 5568
+game_slug: cryptark
+name: CRYPTARK
+year: null
+user: FakeShemp
+runner: linux
+slug: cryptark-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-10-15T14:38:12.673246Z'
+updated_at: '2017-10-15T14:39:40.422448Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 344740
+gogid: 1938069609
+gogslug: cryptark
+humblestoreid: ''
+script:
+  exe: Cryptark
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble installer

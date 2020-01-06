@@ -1,0 +1,16 @@
+name: The Beginner's Guide
+slug: the-beginners-guide
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: FPS
+- name: Interactive fiction
+aliases: []
+banner_url: /games/banner/the-beginners-guide.jpg
+icon_url: /games/icon/the-beginners-guide.png
+is_public: true
+updated: '2019-01-23T08:31:38.768080Z'
+steamid: 303210
+gogslug: ''
+humblestoreid: the-beginners-guide

@@ -1,0 +1,37 @@
+id: 6215
+game_id: 14522
+game_slug: police-force
+name: Police Force
+year: 2011
+user: FakeShemp
+runner: wine
+slug: police-force-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-11-01T18:29:36.536000Z'
+updated_at: '2018-05-19T03:41:58.897337Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/setup.exe
+      prefix: $GAMEDIR
+      args: /S
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Quadriga Games/Police Force/bin.x86/police.exe
+    arch: win32

@@ -1,0 +1,28 @@
+id: 8334
+game_id: 4416
+game_slug: the-golf-club
+name: The Golf Club
+year: 2014
+user: TuiorGames
+runner: winesteam
+slug: the-golf-club-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-19T15:25:51.303905Z'
+updated_at: '2018-05-20T07:59:14.789237Z'
+draft: true
+published: true
+published_by: null
+rating: ''
+steamid: 269730
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-3.8-x86_64
+    Desktop: true
+  game:
+    appid: 269730
+    arch: win64

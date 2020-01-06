@@ -1,0 +1,53 @@
+id: 13980
+game_id: 27605
+game_slug: warhammer-chaosbane
+name: 'Warhammer: Chaosbane'
+year: 2019
+user: cbiondi
+runner: winesteam
+slug: warhammer-chaosbane-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2019-06-08T00:05:50.279000Z'
+updated_at: '2019-06-12T04:33:39.381997Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 774241
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Setting Wine to Windows 10
+      app: win10
+      arch: win64
+      name: winetricks
+  winesteam:
+    WineDesktop: 1920x1080
+    esync: true
+    Desktop: true
+    version: tkg-4.6-x86_64
+    overrides:
+      d3dcompiler_47: native
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+    reset_pulse: true
+    pulse_latency: true
+  game:
+    prefix: $GAMEDIR/prefix
+    args: --waitforpreload
+    appid: 774241
+    arch: win64

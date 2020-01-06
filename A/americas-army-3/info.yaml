@@ -1,0 +1,16 @@
+name: America's Army
+slug: americas-army-3
+year: 2002
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/americas-army-3.jpg
+icon_url: /games/icon/americas-army-3.png
+is_public: false
+updated: '2019-01-23T08:28:20.697741Z'
+steamid: 13140
+gogslug: ''
+humblestoreid: ''

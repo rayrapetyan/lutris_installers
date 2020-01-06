@@ -1,0 +1,16 @@
+name: 'Gabriel Knight: Sins of the Fathers'
+slug: gabriel-knight-sins-of-the-fathers
+year: 1993
+platforms:
+- name: MS-DOS
+- name: Windows
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/gabriel-knight-sins-of-the-fathers.jpg
+icon_url: /games/icon/gabriel-knight-sins-of-the-fathers.png
+is_public: true
+updated: '2019-11-23T08:55:11.820396Z'
+steamid: 495700
+gogslug: gabriel_knight_sins_of_the_fathers
+humblestoreid: ''

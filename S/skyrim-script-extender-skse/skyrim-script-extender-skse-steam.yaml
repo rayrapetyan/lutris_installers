@@ -1,0 +1,24 @@
+id: 5238
+game_id: 4734
+game_slug: skyrim-script-extender-skse
+name: Skyrim Script Extender (SKSE)
+year: 2015
+user: krm513
+runner: winesteam
+slug: skyrim-script-extender-skse-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-07-31T01:18:30.718000Z'
+updated_at: '2017-08-08T18:04:01.492766Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 365720
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 365720

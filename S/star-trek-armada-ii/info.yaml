@@ -1,0 +1,15 @@
+name: 'Star Trek: Armada II'
+slug: star-trek-armada-ii
+year: 2001
+platforms:
+- name: Windows
+genres:
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/star-trek-armada-ii.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:24.971917Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

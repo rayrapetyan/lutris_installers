@@ -1,0 +1,16 @@
+name: The Miskatonic
+slug: the-miskatonic
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Horror
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/the-miskatonic.jpg
+icon_url: /games/icon/the-miskatonic.png
+is_public: false
+updated: '2019-06-19T05:19:24.423532Z'
+steamid: 870290
+gogslug: ''
+humblestoreid: ''

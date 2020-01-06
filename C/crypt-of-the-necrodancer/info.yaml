@@ -1,0 +1,17 @@
+name: Crypt of the NecroDancer
+slug: crypt-of-the-necrodancer
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Dungeon crawl
+- name: Rhythm
+- name: Roguelike
+aliases: []
+banner_url: /games/banner/crypt-of-the-necrodancer.jpg
+icon_url: /games/icon/crypt-of-the-necrodancer.png
+is_public: true
+updated: '2019-01-23T08:29:01.414278Z'
+steamid: 247080
+gogslug: crypt_of_the_necrodancer
+humblestoreid: ''

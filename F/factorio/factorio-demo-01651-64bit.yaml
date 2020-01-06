@@ -1,0 +1,31 @@
+id: 1801
+game_id: 4116
+game_slug: factorio
+name: Factorio
+year: 2016
+user: RobLoach
+runner: linux
+slug: factorio-demo-01651-64bit
+version: Demo 0.16.51 (64bit)
+description: null
+notes: ''
+created_at: '2015-12-29T16:25:52.741000Z'
+updated_at: '2019-06-12T04:35:17.563360Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 427520
+gogid: 1238653230
+gogslug: factorio
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: tgz
+      dst: $GAMEDIR/factorio/
+      file: $archive
+  files:
+  - archive: https://www.factorio.com/get-download/0.16.51/demo/linux64
+  game:
+    exe: factorio/bin/x64/factorio

@@ -1,0 +1,24 @@
+id: 739
+game_id: 2261
+game_slug: jetsnguns-gold
+name: Jets'n'Guns Gold
+year: null
+user: Xodetaetl
+runner: steam
+slug: jetsnguns-gold-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T13:43:58.321000Z'
+updated_at: '2014-09-15T16:13:31.316000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 262260
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 262260

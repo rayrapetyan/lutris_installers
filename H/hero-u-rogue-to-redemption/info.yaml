@@ -1,0 +1,17 @@
+name: 'Hero-U: Rogue to Redemption'
+slug: hero-u-rogue-to-redemption
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Fantasy
+- name: Role-playing
+aliases: []
+banner_url: /games/banner/hero-u-rogue-to-redemption.jpg
+icon_url: /games/icon/hero-u-rogue-to-redemption.png
+is_public: true
+updated: '2019-01-23T08:29:49.851010Z'
+steamid: 375440
+gogslug: herou_rogue_to_redemption
+humblestoreid: ''

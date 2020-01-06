@@ -1,0 +1,17 @@
+name: Chess Puzzles
+slug: chess-puzzles
+year: null
+platforms:
+- name: Linux
+genres:
+- name: Casual
+- name: Indie
+- name: Strategy
+aliases: []
+banner_url: /games/banner/chess-puzzles.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:50.843987Z'
+steamid: 874380
+gogslug: ''
+humblestoreid: ''

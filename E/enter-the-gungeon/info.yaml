@@ -1,0 +1,16 @@
+name: Enter the Gungeon
+slug: enter-the-gungeon
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Roguelike
+aliases: []
+banner_url: /games/banner/enter-the-gungeon.jpg
+icon_url: /games/icon/enter-the-gungeon.png
+is_public: true
+updated: '2019-04-20T04:52:52.759653Z'
+steamid: 311690
+gogslug: enter_the_gungeon
+humblestoreid: ''

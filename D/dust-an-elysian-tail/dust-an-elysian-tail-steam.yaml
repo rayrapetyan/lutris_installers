@@ -1,0 +1,24 @@
+id: 157
+game_id: 585
+game_slug: dust-an-elysian-tail
+name: 'Dust: An Elysian Tail'
+year: 2012
+user: strider
+runner: steam
+slug: dust-an-elysian-tail-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2013-12-19T23:56:16.514000Z'
+updated_at: '2017-09-15T15:53:02.816431Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: 236090
+gogid: 1207660094
+gogslug: dust_an_elysian_tail
+humblestoreid: dust-an-elysian-tail
+script:
+  game:
+    appid: 236090

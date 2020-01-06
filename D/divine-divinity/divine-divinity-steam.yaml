@@ -1,0 +1,25 @@
+id: 1146
+game_id: 2408
+game_slug: divine-divinity
+name: Divine Divinity
+year: 2002
+user: Xodetaetl
+runner: winesteam
+slug: divine-divinity-steam
+version: steam
+description: ''
+notes: When you start the game, choose Configure and select Software rendering instead
+  of Direct 3D, to prevent cursor jittering.
+created_at: '2014-11-27T18:34:00.014000Z'
+updated_at: '2014-11-27T18:34:03.970000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 214170
+gogid: 1207658805
+gogslug: divine_divinity
+humblestoreid: ''
+script:
+  game:
+    appid: 214170

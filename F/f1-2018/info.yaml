@@ -1,0 +1,17 @@
+name: F1 2018
+slug: f1-2018
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Racing
+- name: Simulation
+- name: Sports
+aliases: []
+banner_url: /games/banner/f1-2018.jpg
+icon_url: /games/icon/f1-2018.png
+is_public: true
+updated: '2019-02-09T21:39:42.072465Z'
+steamid: 737800
+gogslug: ''
+humblestoreid: ''

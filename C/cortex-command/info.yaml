@@ -1,0 +1,17 @@
+name: Cortex Command
+slug: cortex-command
+year: 2012
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Action
+- name: Strategy
+aliases: []
+banner_url: /games/banner/cortex-command.jpg
+icon_url: /games/icon/cortex-command.png
+is_public: true
+updated: '2019-01-23T08:28:58.437329Z'
+steamid: 209670
+gogslug: ''
+humblestoreid: ''

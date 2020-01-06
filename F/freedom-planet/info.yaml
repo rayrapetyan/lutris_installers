@@ -1,0 +1,16 @@
+name: Freedom Planet
+slug: freedom-planet
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/freedom-planet.jpg
+icon_url: /games/icon/freedom-planet.png
+is_public: true
+updated: '2019-01-23T08:29:35.154743Z'
+steamid: 248310
+gogslug: freedom_planet
+humblestoreid: freedom-planet

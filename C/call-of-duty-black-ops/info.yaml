@@ -1,0 +1,18 @@
+name: 'Call of Duty: Black Ops'
+slug: call-of-duty-black-ops
+year: 2010
+platforms:
+- name: Nintendo DS
+- name: Nintendo Wii
+- name: Sony Playstation 3
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/call-of-duty-black-ops.jpg
+icon_url: /games/icon/call-of-duty-black-ops.png
+is_public: true
+updated: '2019-06-03T06:24:01.412756Z'
+steamid: 42700
+gogslug: ''
+humblestoreid: ''

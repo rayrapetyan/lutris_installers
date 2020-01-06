@@ -1,0 +1,29 @@
+id: 339
+game_id: 1457
+game_slug: turrican-2
+name: Turrican 2
+year: 1991
+user: strider
+runner: fsuae
+slug: turrican-2-factor5-backup
+version: factor5-backup
+description: Use only if you legally own the game
+notes: ''
+created_at: '2013-12-28T15:03:07.568000Z'
+updated_at: '2014-03-15T22:38:01.030000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: disk1
+  installer:
+  - merge:
+      src: disk1
+      dst: $GAMEDIR
+  files:
+  - disk1: http://www.factor5.de/downloads/t2.zip

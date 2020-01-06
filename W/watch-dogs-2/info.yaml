@@ -1,0 +1,20 @@
+name: Watch Dogs 2
+slug: watch-dogs-2
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Shooter
+- name: Stealth
+aliases:
+- slug: watch_dogs-2
+  name: Watch Dogs 2
+banner_url: /games/banner/watch-dogs-2.jpg
+icon_url: /games/icon/watch-dogs-2.png
+is_public: true
+updated: '2019-02-26T06:49:56.437570Z'
+steamid: 447040
+gogslug: ''
+humblestoreid: ''

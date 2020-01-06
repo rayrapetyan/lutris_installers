@@ -1,0 +1,47 @@
+id: 4479
+game_id: 247
+game_slug: defcon
+name: DEFCON
+year: null
+user: FakeShemp
+runner: linux
+slug: defcon-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-18T15:48:51.982785Z'
+updated_at: '2017-06-18T23:20:34.493623Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 1520
+gogid: 1207659075
+gogslug: defcon
+humblestoreid: ''
+script:
+  exe: defcon.bin.x86
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - extract:
+      format: ar
+      dst: $CACHE
+      file: $CACHE/defcon_1.6-1_i386.deb
+  - extract:
+      dst: $CACHE
+      file: $CACHE/data.tar.gz
+  - extract:
+      format: ar
+      dst: $CACHE
+      file: $CACHE/defcon_1.6-1_amd64.deb
+  - extract:
+      dst: $CACHE
+      file: $CACHE/data.tar.gz
+  - merge:
+      src: $CACHE/local/games/defcon
+      dst: $GAMEDIR
+  exe64: defcon.bin.x86_64
+  files:
+  - file1: N/A:Please select the Humble archive

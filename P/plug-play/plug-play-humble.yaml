@@ -1,0 +1,29 @@
+id: 3998
+game_id: 5499
+game_slug: plug-play
+name: Plug & Play
+year: null
+user: FakeShemp
+runner: linux
+slug: plug-play-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-31T14:09:59.921331Z'
+updated_at: '2017-05-31T16:30:08.011083Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 353560
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: pnp.x86
+  installer:
+  - extract:
+      file: $file1
+  exe64: pnp.x86_64
+  files:
+  - file1: N/A:Please select the Humble archive

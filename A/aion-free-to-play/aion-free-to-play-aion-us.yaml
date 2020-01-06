@@ -1,0 +1,46 @@
+id: 10624
+game_id: 8011
+game_slug: aion-free-to-play
+name: AION Free-to-Play
+year: null
+user: Echoa
+runner: wine
+slug: aion-free-to-play-aion-us
+version: Aion US
+description: null
+notes: ''
+created_at: '2018-10-24T18:51:50.898000Z'
+updated_at: '2018-10-25T05:36:41.990925Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 261430
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Wine to Windows 7 64-Bit
+      app: win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: $setup
+      prefix: $GAMEDIR
+      name: wineexec
+  game:
+    exe: drive_c/Program Files/Gameforge/NCLauncher/NCLauncher.exe
+    arch: win32
+  system:
+    disable_runtime: 'true'
+  wine:
+    version: staging-3.18-x86_64
+  files:
+  - setup: http://aion.patcher.ncsoft.com/AION/aioninstaller/AionInstaller.exe

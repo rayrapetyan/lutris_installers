@@ -1,0 +1,33 @@
+id: 16619
+game_id: 30160
+game_slug: visualsubsync
+name: VisualSubSync
+year: null
+user: Lulu
+runner: wine
+slug: visualsubsync-vss-enhanced-12310
+version: VSS Enhanced 1.2.31.0
+description: VisualSubSync Enhanced 1.2.31.0 installer
+notes: ''
+created_at: '2019-11-04T19:46:40.345115Z'
+updated_at: '2019-11-04T19:46:40.345146Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      src: vsszip
+      description: Unzipping VisualSubSync Enhanced
+      dst: $GAMEDIR/drive_c/vss-enhanced
+  files:
+  - vsszip: https://github.com/Red5goahead/VisualSubSync-Enhanced/releases/download/1.2.31.0/VisualSubSyncEnh-portable-1.2.31.0.zip
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/vss-enhanced/VisualSubSyncEnh.exe
+    arch: win32

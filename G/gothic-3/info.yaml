@@ -1,0 +1,15 @@
+name: Gothic 3
+slug: gothic-3
+year: 2006
+platforms:
+- name: Windows
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/gothic-3.jpg
+icon_url: /games/icon/gothic-3.png
+is_public: true
+updated: '2019-01-23T08:29:41.941816Z'
+steamid: 39500
+gogslug: gothic_3
+humblestoreid: ''

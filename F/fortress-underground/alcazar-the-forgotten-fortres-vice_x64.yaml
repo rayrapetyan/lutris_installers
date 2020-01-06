@@ -1,0 +1,31 @@
+id: 8586
+game_id: 19159
+game_slug: fortress-underground
+name: 'Alcazar: The Forgotten Fortress'
+year: 1987
+user: MrCoolSpan
+runner: libretro
+slug: alcazar-the-forgotten-fortres-vice_x64
+version: vice_x64
+description: null
+notes: ''
+created_at: '2018-06-08T08:35:10.295237Z'
+updated_at: '2018-06-08T15:10:22.376973Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the game disk
+  game:
+    core: vice_x64
+    main_file: file1

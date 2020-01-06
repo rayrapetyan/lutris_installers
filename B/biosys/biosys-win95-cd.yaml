@@ -1,0 +1,34 @@
+id: 2617
+game_id: 7286
+game_slug: biosys
+name: BioSys
+year: 1999
+user: Lulu
+runner: wine
+slug: biosys-win95-cd
+version: Win95 CD
+description: ''
+notes: "Set Windows version to Win95. Wine needs to be executed within the game folder.\r\
+  \n\r\nData CD needs to be inserted or mounted for playing."
+created_at: '2016-08-29T17:04:08.615000Z'
+updated_at: '2018-05-19T03:41:51.318247Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: drive_c/Program Files/Jumpstart Solutions/Biosys/BioSys.exe
+  installer:
+  - insert-disc:
+      requires: biosys.ico
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    arch: win32

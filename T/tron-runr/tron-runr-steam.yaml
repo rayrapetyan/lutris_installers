@@ -1,0 +1,27 @@
+id: 4870
+game_id: 7149
+game_slug: tron-runr
+name: TRON RUN/r
+year: null
+user: NuSuey
+runner: winesteam
+slug: tron-runr-steam
+version: Steam
+description: "Return to the world of TRON with TRON RUN/r, a new lightning fast, action-adventure\
+  \ runner with a twist! Hone your DISC and CYCLE skills, then challenge the grueling\
+  \ STREAM program that throws endless combinations of modes and levels at you until\
+  \ you crash \u2013 how long can you survive?"
+notes: ''
+created_at: '2017-07-07T06:53:14.528017Z'
+updated_at: '2017-07-09T20:15:06.045403Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 392000
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 392000

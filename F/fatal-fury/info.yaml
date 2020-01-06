@@ -1,0 +1,18 @@
+name: 'Fatal Fury: King of Fighters'
+slug: fatal-fury
+year: 1991
+platforms:
+- name: Neo Geo
+- name: Sega Genesis / Mega Drive
+- name: Sony PSP
+- name: Super Nintendo
+genres:
+- name: Beat'em up
+aliases: []
+banner_url: /games/banner/fatal-fury.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:29.232796Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

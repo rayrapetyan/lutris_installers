@@ -1,0 +1,24 @@
+id: 1422
+game_id: 3698
+game_slug: freedom-planet
+name: Freedom Planet
+year: 2014
+user: djazz
+runner: winesteam
+slug: freedom-planet-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-03-16T10:03:16.802000Z'
+updated_at: '2015-03-16T10:52:43.472000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 248310
+gogid: 1207667013
+gogslug: freedom_planet
+humblestoreid: freedom-planet
+script:
+  game:
+    appid: 248310

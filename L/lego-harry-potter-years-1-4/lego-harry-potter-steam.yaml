@@ -1,0 +1,24 @@
+id: 7928
+game_id: 1304
+game_slug: lego-harry-potter-years-1-4
+name: 'LEGO Harry Potter: Years 1-4'
+year: 2010
+user: Wompus
+runner: winesteam
+slug: lego-harry-potter-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-04-17T22:04:59.242000Z'
+updated_at: '2018-05-09T05:51:59.762755Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 21130
+gogid: 1423058817
+gogslug: lego_harry_potter_years_14
+humblestoreid: ''
+script:
+  game:
+    appid: 21130

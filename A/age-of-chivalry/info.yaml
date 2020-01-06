@@ -1,0 +1,15 @@
+name: Age of Chivalry
+slug: age-of-chivalry
+year: 2007
+platforms:
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/age-of-chivalry.jpg
+icon_url: /games/icon/age-of-chivalry.png
+is_public: true
+updated: '2019-01-23T08:28:14.050017Z'
+steamid: 17510
+gogslug: ''
+humblestoreid: ''

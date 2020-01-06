@@ -1,0 +1,24 @@
+id: 571
+game_id: 1518
+game_slug: gone-home
+name: Gone Home
+year: 2013
+user: Xodetaetl
+runner: steam
+slug: gone-home-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2014-09-14T18:55:32.090000Z'
+updated_at: '2017-09-15T19:37:42.851384Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: 232430
+gogid: 1207665163
+gogslug: gone_home
+humblestoreid: gone-home
+script:
+  game:
+    appid: 232430

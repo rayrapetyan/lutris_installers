@@ -1,0 +1,16 @@
+name: 'Dust: An Elysian Tail'
+slug: dust-an-elysian-tail
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/dust-an-elysian-tail.jpg
+icon_url: /games/icon/dust-an-elysian-tail.png
+is_public: true
+updated: '2019-01-23T08:29:20.022744Z'
+steamid: 236090
+gogslug: dust_an_elysian_tail
+humblestoreid: dust-an-elysian-tail

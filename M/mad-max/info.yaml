@@ -1,0 +1,17 @@
+name: Mad Max
+slug: mad-max
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Racing
+- name: Sandbox
+aliases: []
+banner_url: /games/banner/mad-max.jpg
+icon_url: /games/icon/mad-max.png
+is_public: true
+updated: '2019-01-23T08:30:15.100218Z'
+steamid: 234140
+gogslug: ''
+humblestoreid: mad-max

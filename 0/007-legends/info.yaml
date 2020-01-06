@@ -1,0 +1,17 @@
+name: 007 Legends
+slug: 007-legends
+year: 2012
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Shooter
+aliases: []
+banner_url: /games/banner/007-legends.jpg
+icon_url: /games/icon/007-legends.png
+is_public: true
+updated: '2019-01-23T08:28:07.239958Z'
+steamid: 211670
+gogslug: ''
+humblestoreid: ''

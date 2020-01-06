@@ -1,0 +1,28 @@
+id: 4115
+game_id: 3064
+game_slug: spacecom
+name: SPACECOM
+year: null
+user: FakeShemp
+runner: linux
+slug: spacecom-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-04T20:10:17.455027Z'
+updated_at: '2017-06-04T22:06:14.156745Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 263860
+gogid: 1207665863
+gogslug: spacecom
+humblestoreid: ''
+script:
+  exe: SPACECOM.x86
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

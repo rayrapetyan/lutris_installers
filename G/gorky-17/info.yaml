@@ -1,0 +1,16 @@
+name: Gorky 17
+slug: gorky-17
+year: 1999
+platforms:
+- name: Linux
+genres:
+- name: RPG
+- name: Turn-based tactics
+aliases: []
+banner_url: /games/banner/gorky-17.jpg
+icon_url: /games/icon/gorky-17.png
+is_public: true
+updated: '2019-01-23T08:29:41.833840Z'
+steamid: 253920
+gogslug: gorky_17
+humblestoreid: ''

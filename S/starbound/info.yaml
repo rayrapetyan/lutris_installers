@@ -1,0 +1,17 @@
+name: Starbound
+slug: starbound
+year: null
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Sandbox
+- name: Survival
+aliases: []
+banner_url: /games/banner/starbound.jpg
+icon_url: /games/icon/starbound.png
+is_public: true
+updated: '2019-01-23T08:31:23.877621Z'
+steamid: 211820
+gogslug: starbound
+humblestoreid: ''

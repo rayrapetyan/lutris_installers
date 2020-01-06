@@ -1,0 +1,17 @@
+name: The Simpsons Arcade Game
+slug: the-simpsons
+year: 1991
+platforms:
+- name: Arcade
+- name: Commodore 64
+- name: MS-DOS
+genres:
+- name: Beat'em up
+aliases: []
+banner_url: /games/banner/the-simpsons.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:47.335641Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

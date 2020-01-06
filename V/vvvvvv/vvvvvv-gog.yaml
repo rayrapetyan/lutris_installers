@@ -1,0 +1,37 @@
+id: 2152
+game_id: 226
+game_slug: vvvvvv
+name: VVVVVV
+year: 2010
+user: ssf
+runner: linux
+slug: vvvvvv-gog
+version: GOG
+description: DRM-Free GOG.com version
+notes: ''
+created_at: '2016-06-19T12:44:38.139547Z'
+updated_at: '2016-08-22T15:36:03.804435Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 70300
+gogid: 1207659753
+gogslug: vvvvvv
+humblestoreid: vvvvvv
+script:
+  exe: game/start.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Plese select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

@@ -1,0 +1,70 @@
+id: 13130
+game_id: 4715
+game_slug: trove
+name: Trove
+year: 2015
+user: openglfreak
+runner: wine
+slug: trove-glyph
+version: Glyph
+description: Installs Glyph and allows to install Trove afterwards.
+notes: "The installer requires manual intervention, as there is no known silent install\
+  \ option for Glyph.\r\nChanging window mode in-game is really wonky, you should\
+  \ probably stay with the default."
+created_at: '2019-04-26T22:50:25.628303Z'
+updated_at: '2019-04-27T05:50:43.580218Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 304050
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: glyphinstall
+      prefix: $GAMEDIR
+      description: 'Installing Glyph...
+
+        Do not change the installation path!'
+      exclude_processes: GlyphClientApp.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Glyph...
+      name: winekill
+  - execute:
+      args: -i 's/<MinOS>win.*<\/MinOS>/<MinOS>winxp<\/MinOS>/g' '$GAMEDIR/drive_c/Program
+        Files (x86)/Glyph/Library/GlyphLibrary.xml'
+      description: Fixing Glyph Library
+      file: sed
+  - execute:
+      args: a-w '$GAMEDIR/drive_c/Program Files (x86)/Glyph/Library/GlyphLibrary.xml'
+      description: Fixing Glyph Library
+      file: chmod
+  - write_config:
+      section: Glyph
+      description: Configuring Glyph to exit after game launch
+      value: Exit
+      key: AfterLaunch
+      file: $GAMEDIR/drive_c/users/$USER/Local Settings/Application Data/Glyph/GlyphClient.cfg
+  - write_config:
+      section: Rendering
+      description: Setting renderer for Trove to OpenGL
+      value: opengl
+      key: Device
+      file: $GAMEDIR/drive_c/users/$USER/Application Data/Trove/Trove.cfg
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Glyph/GlyphClient.exe
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      __GL_SHADER_DISK_CACHE: 1
+  wine:
+    version: tkg-4.6-x86_64
+    esync: true
+  files:
+  - glyphinstall: http://download.dyn.triongames.com/GlyphInstall-9999-1001.exe

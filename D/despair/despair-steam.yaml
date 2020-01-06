@@ -1,0 +1,24 @@
+id: 6826
+game_id: 4620
+game_slug: despair
+name: Despair
+year: null
+user: soredake
+runner: winesteam
+slug: despair-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-23T22:23:55.800146Z'
+updated_at: '2017-12-23T22:24:04.203315Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 368990
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 368990

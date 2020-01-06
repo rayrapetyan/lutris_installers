@@ -1,0 +1,57 @@
+id: 5436
+game_id: 1820
+game_slug: halo-combat-evolved
+name: 'Halo: Combat Evolved'
+year: 2001
+user: bacera
+runner: wine
+slug: halo-combat-evolved-custom-edition-cd
+version: Custom Edition + CD
+description: null
+notes: "Requires product key.\r\n\r\nBefore install, you must drag the halocesetup_en_1.00.exe\
+  \ from http://hce.halomaps.org/?fid=410 into your halo-combat-evolved folder."
+created_at: '2017-08-20T08:33:34.163000Z'
+updated_at: '2019-09-09T01:30:53.013371Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: halo-combat-evolved-cd
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2010
+      arch: win32
+      name: winetricks
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      description: Running setup for Halo CE. Leave paths default and uncheck installing
+        Gamespy Arcade.
+      name: wineexec
+  - task:
+      executable: $GAMEDIR/drive_c/Program Files (x86)/Microsoft Games/Halo Custom
+        Edition/haloupdate.exe
+      prefix: $GAMEDIR
+      description: Installing latest patch.
+      name: wineexec
+  system:
+    disable_runtime: false
+  files:
+  - installer:
+      filename: halocesetup_en_1.00.exe
+      url: http://dl.halomaps.org/dl.cfm?fid=410&f=halocesetup%5Fen%5F1%2E00%2Eexe&S=3&h=779B3681498A06888C40C90A698F0DC0
+  - patch: http://halo.bungie.net/images/games/halopc/patch/110/haloce-patch-1.0.10.exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Microsoft Games/Halo Custom Edition/haloce.exe
+    arch: win32

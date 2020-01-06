@@ -1,0 +1,38 @@
+id: 65
+game_id: 21
+game_slug: diablo-ii
+name: Diablo II
+year: 2000
+user: Xodetaetl
+runner: wine
+slug: diablo-ii-cd
+version: CD
+description: null
+notes: ''
+created_at: '2013-08-04T11:56:56Z'
+updated_at: '2018-11-20T03:51:05.647124Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: file1
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Diablo II setup file
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Diablo II/Diablo II.exe
+    arch: win32

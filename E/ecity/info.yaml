@@ -1,0 +1,16 @@
+name: eCITY
+slug: ecity
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Management
+- name: Simulation
+aliases: []
+banner_url: /games/banner/ecity.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:21.260802Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

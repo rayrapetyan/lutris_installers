@@ -1,0 +1,16 @@
+name: UltraStar Deluxe
+slug: ultrastar-deluxe
+year: 2010
+platforms:
+- name: Linux
+genres:
+- name: Party
+- name: Rhythm
+aliases: []
+banner_url: /games/banner/ultrastar-deluxe.jpg
+icon_url: /games/icon/ultrastar-deluxe.png
+is_public: true
+updated: '2019-01-23T08:31:58.574962Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,28 @@
+id: 2962
+game_id: 2935
+game_slug: flashback-the-quest-for-identity
+name: 'Flashback: The Quest for Identity'
+year: 1992
+user: strider
+runner: linux
+slug: flashback-the-quest-for-ident-reminisence
+version: Reminisence
+description: ''
+notes: ''
+created_at: '2016-10-31T20:46:07.693003Z'
+updated_at: '2016-10-31T20:58:03.945273Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: rs
+  installer:
+  - extract:
+      file: reminiscence
+  files:
+  - reminiscence: https://lutris.net/files/games/flashback/flashback-x86_64.tar.gz

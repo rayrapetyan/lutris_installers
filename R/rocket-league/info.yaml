@@ -1,0 +1,17 @@
+name: Rocket League
+slug: rocket-league
+year: 2015
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Racing
+- name: Sports
+aliases: []
+banner_url: /games/banner/rocket-league.jpg
+icon_url: /games/icon/rocket-league.png
+is_public: true
+updated: '2019-06-19T06:16:22.941463Z'
+steamid: 252950
+gogslug: ''
+humblestoreid: ''

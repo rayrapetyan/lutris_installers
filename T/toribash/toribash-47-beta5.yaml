@@ -1,0 +1,30 @@
+id: 3602
+game_id: 2304
+game_slug: toribash
+name: Toribash
+year: null
+user: dj_who
+runner: linux
+slug: toribash-47-beta5
+version: 4.7 beta5
+description: Last non-Steam Linux version
+notes: ''
+created_at: '2017-04-30T18:58:34.945000Z'
+updated_at: '2017-05-02T23:02:33.686967Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 248570
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: toribash
+  files:
+  - toribash: http://cache.toribash.com/toribash-linux-4.7-beta5.tgz
+  game:
+    exe: toribash_ubuntu64

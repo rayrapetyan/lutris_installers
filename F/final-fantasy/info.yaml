@@ -1,0 +1,17 @@
+name: Final Fantasy
+slug: final-fantasy
+year: 1990
+platforms:
+- name: NES
+- name: Sony PSP
+genres:
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/final-fantasy.jpg
+icon_url: null
+is_public: true
+updated: '2019-12-28T20:52:33.501259Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

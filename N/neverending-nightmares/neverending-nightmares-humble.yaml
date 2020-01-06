@@ -1,0 +1,48 @@
+id: 4460
+game_id: 2974
+game_slug: neverending-nightmares
+name: Neverending Nightmares
+year: null
+user: FakeShemp
+runner: linux
+slug: neverending-nightmares-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-18T10:04:31.371357Z'
+updated_at: '2017-06-18T23:27:04.557721Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 253330
+gogid: 1207665993
+gogslug: neverending_nightmares
+humblestoreid: ''
+script:
+  exe: nightmare
+  installer:
+  - extract:
+      format: ar
+      dst: $CACHE
+      file: $file1
+  - extract:
+      dst: $CACHE
+      file: $CACHE/data.tar.gz
+  - move:
+      src: $CACHE/opt/neverending-nightmares/main_opengl.itap
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/opt/neverending-nightmares/nightmare
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/opt/neverending-nightmares/nightmare.png
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/opt/neverending-nightmares/OpenAL-MOB.so
+      dst: $GAMEDIR
+  - move:
+      src: $CACHE/opt/neverending-nightmares/sound.itap
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble installer

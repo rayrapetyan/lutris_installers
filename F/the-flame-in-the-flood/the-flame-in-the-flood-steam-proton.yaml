@@ -1,0 +1,24 @@
+id: 16024
+game_id: 4822
+game_slug: the-flame-in-the-flood
+name: The Flame in the Flood
+year: 2016
+user: rockerbacon
+runner: steam
+slug: the-flame-in-the-flood-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-10-06T17:06:44.626599Z'
+updated_at: '2019-10-07T19:42:00.892550Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 318600
+gogid: 1452692111
+gogslug: the_flame_in_the_flood
+humblestoreid: ''
+script:
+  game:
+    appid: 318600

@@ -1,0 +1,17 @@
+name: Spiritfarer
+slug: spiritfarer
+year: 2020
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Indie
+- name: Simulation
+aliases: []
+banner_url: /games/banner/spiritfarer.jpg
+icon_url: /games/icon/spiritfarer.png
+is_public: true
+updated: '2019-06-13T21:12:12.333080Z'
+steamid: 972660
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,40 @@
+id: 4025
+game_id: 622
+game_slug: gemini-rue
+name: Gemini Rue
+year: 2011
+user: FakeShemp
+runner: linux
+slug: gemini-rue-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-31T18:54:10.664166Z'
+updated_at: '2017-06-04T21:52:02.912542Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 80310
+gogid: 1207659073
+gogslug: gemini_rue
+humblestoreid: ''
+script:
+  exe: GeminiRue.bin.x86
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/data/noarch
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86_64
+      dst: $GAMEDIR
+  exe64: GeminiRue.bin.x86_64
+  files:
+  - file1: N/A:Please select the Humble installer

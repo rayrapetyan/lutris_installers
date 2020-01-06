@@ -1,0 +1,31 @@
+id: 998
+game_id: 3370
+game_slug: full-throttle
+name: Full Throttle
+year: 1995
+user: RobLoach
+runner: scummvm
+slug: full-throttle-scummvm-from-archive
+version: ScummVM from archive
+description: ''
+notes: ''
+created_at: '2014-10-29T00:21:57.987000Z'
+updated_at: '2014-11-14T10:29:05.703000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: archive
+  files:
+  - archive: N/A:Select the Full Throttle archive file.
+  game:
+    game_id: ft
+    path: $GAMEDIR

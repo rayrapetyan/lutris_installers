@@ -1,0 +1,39 @@
+id: 4653
+game_id: 2804
+game_slug: putt-putt-saves-the-zoo
+name: Putt-Putt Saves the Zoo
+year: null
+user: FakeShemp
+runner: scummvm
+slug: putt-putt-saves-the-zoo-humble
+version: Humble
+description: Uses the files from the Windows installer from Humble.
+notes: ''
+created_at: '2017-06-26T21:08:59.142000Z'
+updated_at: '2017-07-04T18:04:44.043193Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 294660
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  scummvm:
+    gfx-mode: 2x
+  installer:
+  - task:
+      executable: $file1
+      prefix: $CACHE
+      args: /S
+      name: wine.wineexec
+  - merge:
+      src: $CACHE/drive_c/Games/Humongous Entertainment/Putt-Putt 3
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Humble installer
+  game:
+    game_id: puttzoo
+    path: $GAMEDIR
+    subtitles: true

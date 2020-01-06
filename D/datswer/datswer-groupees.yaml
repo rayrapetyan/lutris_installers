@@ -1,0 +1,36 @@
+id: 5484
+game_id: 3883
+game_slug: datswer
+name: Datswer
+year: null
+user: FakeShemp
+runner: wine
+slug: datswer-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-22T15:56:28.451000Z'
+updated_at: '2018-05-19T03:41:55.804522Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 348000
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/SetupDatswer.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Behtam Developer/Datswer/Datswer.exe
+    arch: win32

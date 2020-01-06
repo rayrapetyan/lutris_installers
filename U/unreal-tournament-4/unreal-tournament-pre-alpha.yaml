@@ -1,0 +1,35 @@
+id: 1596
+game_id: 4834
+game_slug: unreal-tournament-4
+name: Unreal Tournament
+year: 2015
+user: strider
+runner: linux
+slug: unreal-tournament-pre-alpha
+version: pre-alpha
+description: Pre alpha version of the game, has no official launcher yet. You can
+  get the official community maps here https://www.epicgames.com/unrealtournament/forums/mapunlock
+notes: ''
+created_at: '2015-09-19T05:15:40.592000Z'
+updated_at: '2018-01-11T06:53:47.655479Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: ut4
+  - chmodx: $GAMEDIR/Engine/Binaries/Linux/UE4-Linux-Test
+  - chmodx: $GAMEDIR/Engine/Binaries/Linux/UE4-Linux-Shipping
+  system:
+    disable_runtime: true
+  files:
+  - ut4: https://s3.amazonaws.com/unrealtournament/ShippedBuilds/%2B%2BUT%2BRelease-Next-CL-3525360/UnrealTournament-Client-XAN-3525360-Linux.zip
+  game:
+    args: UnrealTournament -SaveToUserDir -opengl4
+    exe: Engine/Binaries/Linux/UE4-Linux-Shipping

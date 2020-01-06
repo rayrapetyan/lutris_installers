@@ -1,0 +1,32 @@
+id: 5051
+game_id: 5846
+game_slug: woof-blaster
+name: Woof Blaster
+year: null
+user: FakeShemp
+runner: wine
+slug: woof-blaster-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-14T12:29:19.057766Z'
+updated_at: '2018-05-19T03:41:56.619302Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 397990
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Woof Blaster
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Woof Blaster/Woof Blaster.exe
+    arch: win32

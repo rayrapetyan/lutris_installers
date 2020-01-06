@@ -1,0 +1,29 @@
+id: 9578
+game_id: 20560
+game_slug: hero-and-daughter
+name: Hero and Daughter+
+year: null
+user: sunderkeenin
+runner: winesteam
+slug: hero-and-daughter-steam
+version: Steam
+description: null
+notes: "The wine desktop is to prevent resolution changes/crashes upon fullscreen.\
+  \ The game would crash upon alt+enter in i3 and set my resolution to 640x480 without\
+  \ it.\r\nfullscreen also doesn't scale, so there's no point in doing it."
+created_at: '2018-08-04T13:56:11.418207Z'
+updated_at: '2018-08-06T06:01:45.951439Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 271970
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    WineDesktop: 720x576
+    Desktop: true
+  game:
+    appid: '271970'

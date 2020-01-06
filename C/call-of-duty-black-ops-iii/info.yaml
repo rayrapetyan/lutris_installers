@@ -1,0 +1,16 @@
+name: 'Call of Duty: Black Ops III'
+slug: call-of-duty-black-ops-iii
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+aliases: []
+banner_url: /games/banner/call-of-duty-black-ops-iii.jpg
+icon_url: /games/icon/call-of-duty-black-ops-iii.png
+is_public: true
+updated: '2019-02-13T20:48:00.192913Z'
+steamid: 311210
+gogslug: ''
+humblestoreid: ''

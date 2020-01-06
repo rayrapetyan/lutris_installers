@@ -1,0 +1,46 @@
+id: 4696
+game_id: 3610
+game_slug: pirates-gold-plus-classic
+name: Pirates! Gold Plus (Classic)
+year: null
+user: FakeShemp
+runner: dosbox
+slug: pirates-gold-plus-classic-humble
+version: Humble
+description: Uses the Humble DRM-free Windows installer
+notes: ''
+created_at: '2017-06-27T21:32:57.534000Z'
+updated_at: '2017-07-04T18:09:28.344395Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 327380
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: dosbox_smpiratesgold_launch_windows.conf
+  installer:
+  - task:
+      executable: $file1
+      prefix: $CACHE
+      args: /S
+      name: wine.wineexec
+  - merge:
+      src: $CACHE/drive_c/Games/Retroism/Pirates and Pirates Gold
+      dst: $GAMEDIR
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/dosbox_smpiratesgold.conf
+  - write_config:
+      section: sdl
+      key: fullscreen
+      value: false
+      file: $GAMEDIR/dosbox_smpiratesgold.conf
+  files:
+  - file1: N/A:Please select the Humble installer
+  game:
+    config_file: $GAMEDIR/dosbox_smpiratesgold.conf

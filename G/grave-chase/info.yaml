@@ -1,0 +1,17 @@
+name: Grave Chase
+slug: grave-chase
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: Horror
+aliases: []
+banner_url: /games/banner/grave-chase.jpg
+icon_url: /games/icon/grave-chase.png
+is_public: true
+updated: '2019-01-23T08:29:42.747717Z'
+steamid: 611630
+gogslug: ''
+humblestoreid: ''

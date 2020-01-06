@@ -1,0 +1,63 @@
+id: 2530
+game_id: 3446
+game_slug: star-trek-online
+name: Star Trek Online
+year: 2010
+user: ssf
+runner: wine
+slug: star-trek-online-retail
+version: Retail
+description: Uses the old Cryptic Launcher (No Arc, No Steam)
+notes: "- Starting the game for the first time can need very long, please be patient\r\
+  \n- Short freezes when going to a map or seeing effects the first time, this will\
+  \ get better after playing a while"
+created_at: '2016-08-21T19:10:15.016000Z'
+updated_at: '2019-09-09T00:55:18.547133Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 9900
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Star Trek Online.exe
+    arch: win64
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      type: REG_SZ
+      value: ''
+      key: winemenubuilder.exe
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+  - task:
+      prefix: $GAMEDIR
+      description: Setting required Windows version (Win10)
+      key: Version
+      value: win10
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  - task:
+      prefix: $GAMEDIR
+      description: Disabling unused WINE features
+      app: sandbox
+      silent: true
+      name: winetricks
+  - move:
+      src: $game
+      description: Moving launcher into place
+      dst: $GAMEDIR/drive_c/Star Trek Online.exe
+  wine:
+    version: ge-protonified-nofshack-4.9-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - game: http://files.startrekonline.com/launcher/Star%20Trek%20Online.exe

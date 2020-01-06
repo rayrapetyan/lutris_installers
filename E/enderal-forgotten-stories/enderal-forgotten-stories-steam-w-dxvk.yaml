@@ -1,0 +1,63 @@
+id: 16735
+game_id: 26086
+game_slug: enderal-forgotten-stories
+name: 'Enderal: Forgotten Stories'
+year: 2019
+user: VortexAcherontic
+runner: winesteam
+slug: enderal-forgotten-stories-steam-w-dxvk
+version: Steam /w DXVK
+description: null
+notes: ''
+created_at: '2019-11-09T22:28:50.213000Z'
+updated_at: '2019-12-23T19:37:29.956453Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Creating Wine Prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing Dot.NET 4.5.2
+      app: dotnet452
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: xact
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Set Windows version to Windows 7
+      app: win7
+      arch: win32
+      name: winetricks
+  winesteam:
+    version: tkg-4.2-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      xaudio2_6: native,builtin
+      xaudio2_7: native,builtin
+  system:
+    env:
+      __GL_THREADED_OPTIMIZATIONS: 1
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      __GL_SHADER_DISK_CACHE: 1
+    reset_pulse: true
+    pulse_latency: true
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 933480
+    arch: win32

@@ -1,0 +1,16 @@
+name: Tabletop Simulator
+slug: tabletop-simulator
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Board
+- name: Simulation
+aliases: []
+banner_url: /games/banner/tabletop-simulator.jpg
+icon_url: /games/icon/tabletop-simulator.png
+is_public: true
+updated: '2019-01-23T08:31:34.342957Z'
+steamid: 286160
+gogslug: ''
+humblestoreid: ''

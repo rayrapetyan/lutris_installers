@@ -1,0 +1,42 @@
+id: 5550
+game_id: 1414
+game_slug: grim-dawn
+name: Grim Dawn
+year: 2016
+user: vgplayer
+runner: wine
+slug: grim-dawn-gog-w-dxvk
+version: GOG w/ DXVK
+description: null
+notes: ''
+created_at: '2017-08-29T04:42:18.986000Z'
+updated_at: '2019-12-14T16:09:53.469668Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: 219990
+gogid: 1449651388
+gogslug: grim_dawn
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Grim Dawn/Grim Dawn.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Installing dependencies
+      app: vcrun2010 vcrun2012 vcrun2013 vcrun2015 d3dcompiler_43 d3dcompiler_47 win7
+      name: winetricks
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      description: Installing Grim Dawn
+      name: wineexec
+  wine:
+    version: lutris-4.20-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.

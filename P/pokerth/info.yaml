@@ -1,0 +1,16 @@
+name: PokerTH
+slug: pokerth
+year: 2006
+platforms:
+- name: Linux
+genres:
+- name: Cards
+- name: Gambling
+aliases: []
+banner_url: /games/banner/pokerth.jpg
+icon_url: null
+is_public: true
+updated: '2019-04-20T20:25:28.015609Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

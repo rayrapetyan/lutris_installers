@@ -1,0 +1,39 @@
+id: 13579
+game_id: 3192
+game_slug: test
+name: A test
+year: null
+user: cxf
+runner: wine
+slug: a-test-d9vk11
+version: d9vk11
+description: null
+notes: ''
+created_at: '2019-05-17T05:14:17.741000Z'
+updated_at: '2019-05-17T05:26:14.716766Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - extract:
+      dst: $CACHE/d9vk-0.11/
+      file: d9vk011
+  - move:
+      src: $CACHE/d9vk-0.11/dxvk-release/
+      dst: $HOME/.local/share/lutris/runtime/dxvk/d9vk-0.11/
+  files:
+  - d9vk011: https://github.com/Joshua-Ashton/d9vk/releases/download/0.11/d9vk-release-0.11.2a0c153b0c9e0b754b9cfc41ea16c5bdc758fab5.zip
+  game:
+    prefix: $GAMEDIR
+    exe: null
+    arch: win32

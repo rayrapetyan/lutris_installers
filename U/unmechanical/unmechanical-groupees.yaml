@@ -1,0 +1,37 @@
+id: 5553
+game_id: 1296
+game_slug: unmechanical
+name: Unmechanical
+year: 2012
+user: FakeShemp
+runner: wine
+slug: unmechanical-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-31T18:48:13.254000Z'
+updated_at: '2017-08-31T18:54:30.559947Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 211180
+gogid: 1207659087
+gogslug: unmechanical
+humblestoreid: unmechanical
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      args: /S
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: dotnet40
+      name: winetricks
+  files:
+  - file1: N/A:Please select the Groupees installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Unmechanical/Binaries/Win32/UDK.exe

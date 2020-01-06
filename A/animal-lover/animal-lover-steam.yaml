@@ -1,0 +1,24 @@
+id: 8750
+game_id: 11050
+game_slug: animal-lover
+name: Animal Lover
+year: 2017
+user: kimchitea
+runner: winesteam
+slug: animal-lover-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-16T15:00:26.308313Z'
+updated_at: '2018-06-16T17:41:38.633038Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 542200
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 542200

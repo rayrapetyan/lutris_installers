@@ -1,0 +1,39 @@
+id: 11976
+game_id: 18932
+game_slug: nitronic-rush
+name: Nitronic Rush
+year: 2011
+user: cxf
+runner: wine
+slug: nitronic-rush-latest
+version: Latest
+description: null
+notes: ''
+created_at: '2019-02-12T02:05:04.060000Z'
+updated_at: '2019-02-12T02:14:47.438220Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /silent
+      arch: win32
+      name: wineexec
+  files:
+  - setup: http://nr.jordanhemenway.com/NitronicRush_setup_20121221.2.exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Digipen/Nitronic Rush/NitronicRush.exe
+    arch: win32

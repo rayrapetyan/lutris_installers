@@ -1,0 +1,17 @@
+name: Xenus 2. White gold.
+slug: xenus-2-white-gold
+year: 2008
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+- name: RPG
+aliases: []
+banner_url: /games/banner/xenus-2-white-gold.jpg
+icon_url: /games/icon/xenus-2-white-gold.png
+is_public: false
+updated: '2019-01-23T08:32:12.341124Z'
+steamid: 546230
+gogslug: ''
+humblestoreid: ''

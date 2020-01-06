@@ -1,0 +1,17 @@
+name: Depth
+slug: depth
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Survival
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/depth.jpg
+icon_url: /games/icon/depth.png
+is_public: true
+updated: '2019-01-23T08:29:09.801375Z'
+steamid: 274940
+gogslug: ''
+humblestoreid: ''

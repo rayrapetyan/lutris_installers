@@ -1,0 +1,53 @@
+id: 16477
+game_id: 29990
+game_slug: pro-evolution-soccer-5
+name: Pro Evolution Soccer 5
+year: 2005
+user: lazanet
+runner: wine
+slug: pro-evolution-soccer-5-dvd
+version: DVD
+description: null
+notes: ''
+created_at: '2019-10-29T22:47:16.273000Z'
+updated_at: '2019-10-31T00:50:33.521012Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: setup.exe
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 32bit Wine prefix.
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Enabling CSMT for better graphic performance.
+      key: wined3d
+      value: wined3d-csmt.dll
+      path: HKEY_CURRENT_USER\Software\Wine\DllRedirects
+      name: set_regedit
+  - task:
+      executable: $DISC/Setup.exe
+      prefix: $GAMEDIR
+      description: 'Installing PES5.
+
+        The installating folder MUST BE ''C:\Program Files\KONAMI\Pro Evolution Soccer
+        5'''
+      name: wineexec
+  wine:
+    overrides:
+      dxgi: disable
+      nvcuda: disable
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/KONAMI/Pro Evolution Soccer 5/PES5.exe
+    arch: win32

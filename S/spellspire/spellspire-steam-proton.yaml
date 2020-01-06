@@ -1,0 +1,24 @@
+id: 13387
+game_id: 19211
+game_slug: spellspire
+name: Spellspire
+year: 2017
+user: kimchitea
+runner: steam
+slug: spellspire-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-05-08T09:36:22.674000Z'
+updated_at: '2019-05-21T23:55:32.710929Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 626580
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 626580

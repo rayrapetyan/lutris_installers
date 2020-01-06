@@ -1,0 +1,16 @@
+name: Punch Club
+slug: punch-club
+year: 2015
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/punch-club.jpg
+icon_url: /games/icon/punch-club.png
+is_public: true
+updated: '2019-01-23T08:30:51.394171Z'
+steamid: 394310
+gogslug: punch_club
+humblestoreid: punch-club

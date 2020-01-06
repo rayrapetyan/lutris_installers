@@ -1,0 +1,36 @@
+id: 10260
+game_id: 17457
+game_slug: star-oceantm-the-last-hopetm-4k-full-hd-remaster
+name: "STAR OCEAN\u2122 - THE LAST HOPE\u2122 - 4K & Full HD Remaster"
+year: 2017
+user: Erde
+runner: winesteam
+slug: star-oceantm-the-last-hopetm-dxvk
+version: DXVK
+description: null
+notes: ''
+created_at: '2018-09-20T23:52:27.358000Z'
+updated_at: '2019-02-16T04:43:15.631546Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 609150
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  system:
+    pulse_latency: true
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 609150
+    arch: win64

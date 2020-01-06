@@ -1,0 +1,24 @@
+id: 6942
+game_id: 8547
+game_slug: shenzhen-io
+name: SHENZHEN I/O
+year: 2016
+user: cxf
+runner: steam
+slug: shenzhen-io-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-01-01T22:48:45.471972Z'
+updated_at: '2018-01-01T22:48:56.632297Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 504210
+gogid: 1640205738
+gogslug: shenzhen_io
+humblestoreid: ''
+script:
+  game:
+    appid: 504210

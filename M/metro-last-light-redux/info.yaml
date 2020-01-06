@@ -1,0 +1,16 @@
+name: 'Metro: Last Light Redux'
+slug: metro-last-light-redux
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: FPS
+aliases: []
+banner_url: /games/banner/metro-last-light-redux.jpg
+icon_url: /games/icon/metro-last-light-redux.png
+is_public: true
+updated: '2019-08-30T07:12:57.426393Z'
+steamid: 287390
+gogslug: metro_last_light_redux
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 1675
+game_id: 1384
+game_slug: risk-of-rain
+name: Risk of Rain
+year: null
+user: RobLoach
+runner: steam
+slug: risk-of-rain-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-11-02T12:23:32.006349Z'
+updated_at: '2016-01-05T17:42:06.073168Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 248820
+gogid: 1207660563
+gogslug: risk_of_rain
+humblestoreid: ''
+script:
+  game:
+    appid: 248820

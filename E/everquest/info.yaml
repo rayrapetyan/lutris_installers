@@ -1,0 +1,15 @@
+name: EverQuest
+slug: everquest
+year: 2012
+platforms:
+- name: Windows
+genres:
+- name: MMORPG
+aliases: []
+banner_url: /games/banner/everquest.jpg
+icon_url: /games/icon/everquest.png
+is_public: true
+updated: '2019-01-23T08:29:26.047717Z'
+steamid: 205710
+gogslug: ''
+humblestoreid: ''

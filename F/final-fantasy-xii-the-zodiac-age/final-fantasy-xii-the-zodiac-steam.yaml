@@ -1,0 +1,24 @@
+id: 14849
+game_id: 16687
+game_slug: final-fantasy-xii-the-zodiac-age
+name: FINAL FANTASY XII THE ZODIAC AGE
+year: null
+user: ArchaicLord
+runner: wine
+slug: final-fantasy-xii-the-zodiac-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-08-03T14:01:36.991609Z'
+updated_at: '2019-08-03T14:01:36.991645Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 595520
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 595520

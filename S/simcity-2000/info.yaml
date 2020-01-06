@@ -1,0 +1,21 @@
+name: SimCity 2000
+slug: simcity-2000
+year: 1994
+platforms:
+- name: Amiga
+- name: MS-DOS
+- name: Nintendo 64
+- name: Sony PlayStation
+- name: Super Nintendo
+- name: Windows
+genres:
+- name: City building
+- name: Management
+aliases: []
+banner_url: /games/banner/simcity-2000.jpg
+icon_url: /games/icon/simcity-2000.png
+is_public: true
+updated: '2019-01-23T08:31:13.707873Z'
+steamid: null
+gogslug: simcity_2000_special_edition
+humblestoreid: ''

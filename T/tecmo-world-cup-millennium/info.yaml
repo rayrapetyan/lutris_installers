@@ -1,0 +1,16 @@
+name: Tecmo World Cup Millennium
+slug: tecmo-world-cup-millennium
+year: 2000
+platforms:
+- name: Arcade
+genres:
+- name: Sports
+- name: Team sport
+aliases: []
+banner_url: /games/banner/tecmo-world-cup-millennium.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-18T08:42:16.719574Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

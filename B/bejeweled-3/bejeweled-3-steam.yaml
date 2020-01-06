@@ -1,0 +1,24 @@
+id: 3085
+game_id: 1870
+game_slug: bejeweled-3
+name: Bejeweled 3
+year: null
+user: beansmyname
+runner: winesteam
+slug: bejeweled-3-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-12-11T23:02:44.760252Z'
+updated_at: '2017-04-03T19:04:39.272751Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 78000
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 78000

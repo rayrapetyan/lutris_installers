@@ -1,0 +1,32 @@
+id: 6171
+game_id: 2287
+game_slug: circuits
+name: Circuits
+year: null
+user: FakeShemp
+runner: wine
+slug: circuits-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-10-29T07:48:04.601655Z'
+updated_at: '2018-05-19T03:41:59.555327Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 282760
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Circuits
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Circuits/Circuits.exe
+    arch: win32

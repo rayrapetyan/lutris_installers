@@ -1,0 +1,17 @@
+name: 'X-COM: Enforcer'
+slug: x-com-enforcer
+year: 2001
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Sci-fi
+- name: Shooter
+aliases: []
+banner_url: /games/banner/x-com-enforcer.jpg
+icon_url: /games/icon/x-com-enforcer.png
+is_public: true
+updated: '2019-01-23T08:32:12.121543Z'
+steamid: 7770
+gogslug: xcom_enforcer
+humblestoreid: ''

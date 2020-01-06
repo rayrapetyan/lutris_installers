@@ -1,0 +1,25 @@
+id: 14608
+game_id: 5936
+game_slug: star-trektm-starfleet-academy
+name: "Star Trek\u2122: Starfleet Academy"
+year: 1997
+user: skyace65
+runner: steam
+slug: star-trektm-starfleet-academy-steam-proton
+version: Steam Proton
+description: null
+notes: Since this game is not officially whitelisted, you have to enable Steam Play
+  for all titles in Steam's settings prior to installation.
+created_at: '2019-07-17T23:41:41.964000Z'
+updated_at: '2019-10-11T00:28:58.200969Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 364810
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 364810

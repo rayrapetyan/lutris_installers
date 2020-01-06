@@ -1,0 +1,17 @@
+name: Dungeons 2
+slug: dungeons-2
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: City building
+- name: Management
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/dungeons-2.jpg
+icon_url: /games/icon/dungeons-2.png
+is_public: true
+updated: '2019-01-23T08:29:19.396275Z'
+steamid: 262280
+gogslug: dungeons_2
+humblestoreid: ''

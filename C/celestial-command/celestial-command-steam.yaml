@@ -1,0 +1,24 @@
+id: 1500
+game_id: 4222
+game_slug: celestial-command
+name: Celestial Command
+year: null
+user: Xodetaetl
+runner: steam
+slug: celestial-command-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-04-25T17:50:49.022000Z'
+updated_at: '2015-04-25T17:55:46.146000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 330460
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 330460

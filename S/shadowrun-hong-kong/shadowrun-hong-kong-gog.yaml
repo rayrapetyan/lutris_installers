@@ -1,0 +1,34 @@
+id: 1584
+game_id: 4570
+game_slug: shadowrun-hong-kong
+name: 'Shadowrun: Hong Kong'
+year: 2015
+user: Xodetaetl
+runner: linux
+slug: shadowrun-hong-kong-gog
+version: GOG
+description: null
+notes: Requires the latest version of GOG's Linux installer.
+created_at: '2015-08-23T19:00:19.200000Z'
+updated_at: '2019-09-09T01:40:14.148017Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 346940
+gogid: 1436866438
+gogslug: shadowrun_hong_kong_extended_edition
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

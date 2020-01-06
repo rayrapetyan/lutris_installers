@@ -1,0 +1,24 @@
+id: 7256
+game_id: 13617
+game_slug: pretty-girls-panic
+name: Pretty Girls Panic!
+year: 2016
+user: t-rex91
+runner: winesteam
+slug: pretty-girls-panic-steam
+version: Steam
+description: null
+notes: Fullscreen is not Working. Window Mode Only and a little bit laggy
+created_at: '2018-02-06T20:35:33.145404Z'
+updated_at: '2018-02-06T23:31:32.575693Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 565720
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 565720

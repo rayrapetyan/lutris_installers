@@ -1,0 +1,39 @@
+id: 8718
+game_id: 13582
+game_slug: deceit
+name: Deceit
+year: 2017
+user: cxf
+runner: winesteam
+slug: deceit-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2018-06-13T19:27:27.601000Z'
+updated_at: '2019-02-14T05:42:58.751378Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 466240
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  winesteam:
+    version: tkg-4.0-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 466240
+    arch: win64

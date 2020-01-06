@@ -1,0 +1,23 @@
+id: 8992
+game_id: 11699
+game_slug: we-know-the-devil
+name: We Know the Devil
+year: 2015
+user: kimchitea
+runner: browser
+slug: we-know-the-devil-browser
+version: Browser
+description: null
+notes: ''
+created_at: '2018-07-02T15:03:20.952000Z'
+updated_at: '2018-07-02T15:59:35.882817Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 435300
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://datenighto.com/game/we-know-the-devil/play

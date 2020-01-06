@@ -1,0 +1,33 @@
+id: 6740
+game_id: 6440
+game_slug: reign-of-kings
+name: Reign Of Kings
+year: null
+user: Finest1989
+runner: winesteam
+slug: reign-of-kings-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-20T15:14:49.021731Z'
+updated_at: '2017-12-20T21:09:41.720687Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 344760
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-2.21-x86_64
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 344760
+    arch: win64

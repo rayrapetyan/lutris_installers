@@ -1,0 +1,16 @@
+name: 'Duke: Nuclear Winter'
+slug: duke-nuclear-winter
+year: 1997
+platforms:
+- name: MS-DOS
+genres:
+- name: Action
+- name: FPS
+aliases: []
+banner_url: /games/banner/duke-nuclear-winter.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:18.722017Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

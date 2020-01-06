@@ -1,0 +1,55 @@
+id: 8575
+game_id: 12312
+game_slug: runescape-3
+name: RuneScape 3
+year: 2001
+user: sigmacool
+runner: linux
+slug: runescape-3-225
+version: 2.2.5
+description: null
+notes: ''
+created_at: '2018-06-08T00:58:35.534000Z'
+updated_at: '2019-03-15T10:54:47.687326Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - execute:
+      args: xf runescape_deb
+      file: ar
+  - extract:
+      dst: $GAMEDIR
+      file: data.tar.xz
+  - execute:
+      args: -i -e 's:/usr/share/games/runescape-launcher/runescape:../share/games/runescape-launcher/runescape:g'
+        bin/runescape-launcher
+      file: sed
+  - execute:
+      args: xf png_lib
+      file: ar
+  - extract:
+      dst: $GAMEDIR
+      file: data.tar.xz
+  - execute:
+      args: xf curl_lib
+      file: ar
+  - extract:
+      dst: $GAMEDIR
+      file: data.tar.xz
+  system:
+    env:
+      PULSE_LATENCY_MSEC: 100
+      LD_PRELOAD: $GAMEDIR/lib/x86_64-linux-gnu/libpng12.so.0 $GAMEDIR/lib/x86_64-linux-gnu/libcurl.so.4
+  files:
+  - runescape_deb: https://content.runescape.com/downloads/ubuntu/pool/non-free/r/runescape-launcher/runescape-launcher_2.2.4_amd64.deb
+  - png_lib: http://security.ubuntu.com/ubuntu/pool/main/libp/libpng/libpng12-0_1.2.54-1ubuntu1.1_amd64.deb
+  - curl_lib: http://mirrors.kernel.org/ubuntu/pool/universe/c/curl3/libcurl3_7.58.0-2ubuntu2_amd64.deb
+  game:
+    exe: bin/runescape-launcher

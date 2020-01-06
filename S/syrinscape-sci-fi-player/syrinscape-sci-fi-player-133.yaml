@@ -1,0 +1,38 @@
+id: 8309
+game_id: 18222
+game_slug: syrinscape-sci-fi-player
+name: Syrinscape Sci-Fi Player
+year: null
+user: tgm4883
+runner: wine
+slug: syrinscape-sci-fi-player-133
+version: 1.3.3
+description: null
+notes: ''
+created_at: '2018-05-16T23:48:46.427466Z'
+updated_at: '2018-05-19T03:42:01.040326Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      app: corefonts
+      name: winetricks
+  - task:
+      executable: $installer
+      prefix: $GAMEDIR
+      description: Installing Syrinscape Sci-Fi Player
+      name: wine.wineexec
+  files:
+  - installer: https://syrinscape-us.s3.amazonaws.com/files/syrinscape-sci-fi-win-1.3.3-20160816.exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/SyrinscapeSciFiPlayer/Syrinscape Sci-Fi Player.exe
+    arch: win32

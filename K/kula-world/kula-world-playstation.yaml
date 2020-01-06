@@ -1,0 +1,31 @@
+id: 6902
+game_id: 15372
+game_slug: kula-world
+name: Kula World
+year: 1998
+user: FakeShemp
+runner: libretro
+slug: kula-world-playstation
+version: PlayStation
+description: null
+notes: ''
+created_at: '2017-12-30T18:40:12.574183Z'
+updated_at: '2017-12-30T18:46:07.484500Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the PlayStation image file
+  game:
+    core: mednafen_psx_hw
+    main_file: file1

@@ -1,0 +1,42 @@
+id: 13353
+game_id: 6762
+game_slug: am2r-return-of-samus
+name: 'AM2R: Return of Samus'
+year: 2016
+user: darktiger
+runner: wine
+slug: am2r-return-of-samus-143
+version: 1.4.3
+description: null
+notes: 'MD5sum of AM2R_143.zip: 953cb7258d80f44efe63571b72a279aa'
+created_at: '2019-05-06T11:48:09.523821Z'
+updated_at: '2019-05-06T11:48:09.523851Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/AM2R/AM2R.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating wine prefix
+      name: create_prefix
+  - extract:
+      format: zip
+      dst: $GAMEDIR/drive_c/AM2R
+      file: main_file
+  wine:
+    version: tkg-protonified-4.6-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      D3DX9_43: n
+  files:
+  - main_file: 'N/A: Please select the AM2R_143.zip file'

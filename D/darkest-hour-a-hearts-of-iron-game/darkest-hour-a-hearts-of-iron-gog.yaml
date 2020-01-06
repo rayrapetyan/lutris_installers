@@ -1,0 +1,33 @@
+id: 7362
+game_id: 1612
+game_slug: darkest-hour-a-hearts-of-iron-game
+name: 'Darkest Hour: A Hearts of Iron Game'
+year: null
+user: elbarto512
+runner: wine
+slug: darkest-hour-a-hearts-of-iron-gog
+version: GOG
+description: Runs the launcher, not the actual game, as most of the settings are set
+  here, and not in-game.
+notes: ''
+created_at: '2018-02-19T22:27:25.508000Z'
+updated_at: '2019-12-22T11:23:24.672599Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 73170
+gogid: 1445505773
+gogslug: darkest_hour_a_hearts_of_iron_game
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $installer
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - installer: N/A:Please select the GOG installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Darkest Hour/Darkest Hour Launcher.exe

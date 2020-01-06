@@ -1,0 +1,24 @@
+id: 1010
+game_id: 1549
+game_slug: not-the-robots
+name: Not The Robots
+year: 2013
+user: RobLoach
+runner: steam
+slug: not-the-robots-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2014-10-31T17:10:50.854000Z'
+updated_at: '2014-11-06T23:41:33.825000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 257120
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 257120

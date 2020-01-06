@@ -1,0 +1,19 @@
+name: Wizard of Wor
+slug: wizard-of-wor
+year: 1980
+platforms:
+- name: Arcade
+- name: Atari 2600
+- name: Atari 5200
+- name: Commodore 64
+genres:
+- name: Arcade
+- name: Shooter
+aliases: []
+banner_url: /games/banner/wizard-of-wor.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:09.557203Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

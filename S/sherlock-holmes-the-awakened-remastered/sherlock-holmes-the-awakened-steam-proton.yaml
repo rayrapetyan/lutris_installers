@@ -1,0 +1,24 @@
+id: 12866
+game_id: 699
+game_slug: sherlock-holmes-the-awakened-remastered
+name: 'Sherlock Holmes: The Awakened - Remastered'
+year: null
+user: Testman42
+runner: steam
+slug: sherlock-holmes-the-awakened-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-04-16T21:03:47.690000Z'
+updated_at: '2019-05-19T07:25:56.166426Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 11140
+gogid: 1460731213
+gogslug: sherlock_holmes_the_awakened_remastered
+humblestoreid: ''
+script:
+  game:
+    appid: 11140

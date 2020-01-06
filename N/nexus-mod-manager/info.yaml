@@ -1,0 +1,17 @@
+name: Nexus Mod Manager
+slug: nexus-mod-manager
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Tool
+aliases:
+- slug: vortex-nexus-mods
+  name: Vortex (Nexus Mods)
+banner_url: /games/banner/nexus-mod-manager.jpg
+icon_url: null
+is_public: true
+updated: '2019-04-26T06:39:22.612691Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

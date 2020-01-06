@@ -1,0 +1,17 @@
+name: Tales of Monkey Island
+slug: tales-of-monkey-island
+year: 2009
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Point-and-click
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/tales-of-monkey-island.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:34.879145Z'
+steamid: null
+gogslug: tales_of_monkey_island
+humblestoreid: ''

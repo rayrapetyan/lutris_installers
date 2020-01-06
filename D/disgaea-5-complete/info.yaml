@@ -1,0 +1,18 @@
+name: Disgaea 5 Complete
+slug: disgaea-5-complete
+year: null
+platforms:
+- name: Windows
+genres:
+- name: jRPG
+- name: Turn-based strategy
+aliases:
+- slug: disgaea-5-alliance-of-vengeance
+  name: 'Disgaea 5: Alliance of Vengeance'
+banner_url: /games/banner/disgaea-5-complete.jpg
+icon_url: /games/icon/disgaea-5-complete.png
+is_public: true
+updated: '2019-04-17T06:36:33.033848Z'
+steamid: 803600
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 9868
+game_id: 17165
+game_slug: puyo-puyotmtetris
+name: "Puyo Puyo\u2122Tetris\xAE "
+year: null
+user: UnixEpoch
+runner: winesteam
+slug: puyo-puyotmtetris-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-24T02:01:37.425020Z'
+updated_at: '2018-08-24T07:51:00.620524Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 546050
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 546050

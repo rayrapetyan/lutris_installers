@@ -1,0 +1,24 @@
+id: 2104
+game_id: 4523
+game_slug: age-of-fear-2-the-chaos-lord
+name: 'Age of Fear 2: The Chaos Lord'
+year: 2015
+user: strider
+runner: steam
+slug: age-of-fear-2-the-chaos-lord-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-06-15T04:23:16.366427Z'
+updated_at: '2016-06-15T04:23:22.019899Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 341150
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 341150

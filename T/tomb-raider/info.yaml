@@ -1,0 +1,16 @@
+name: Tomb Raider
+slug: tomb-raider
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/tomb-raider.jpg
+icon_url: /games/icon/tomb-raider.png
+is_public: true
+updated: '2019-01-23T08:31:52.542820Z'
+steamid: 203160
+gogslug: ''
+humblestoreid: ''

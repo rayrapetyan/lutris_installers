@@ -1,0 +1,24 @@
+id: 12843
+game_id: 1433
+game_slug: kings-quest-collection
+name: King's Quest Collection
+year: null
+user: Testman42
+runner: steam
+slug: kings-quest-collection-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-04-16T20:57:02.671000Z'
+updated_at: '2019-05-19T07:35:20.589378Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 10100
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 10100

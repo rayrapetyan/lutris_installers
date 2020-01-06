@@ -1,0 +1,19 @@
+name: Excitebike
+slug: excitebike
+year: 1984
+platforms:
+- name: Arcade
+- name: NES
+genres:
+- name: Racing
+- name: Sports
+aliases:
+- slug: vs-excitebike
+  name: Vs. Excitebike
+banner_url: /games/banner/excitebike.jpg
+icon_url: null
+is_public: true
+updated: '2019-05-20T13:29:31.776083Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

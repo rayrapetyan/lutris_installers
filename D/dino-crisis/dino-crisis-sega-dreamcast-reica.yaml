@@ -1,0 +1,31 @@
+id: 5877
+game_id: 7864
+game_slug: dino-crisis
+name: Dino Crisis
+year: 1999
+user: FakeShemp
+runner: libretro
+slug: dino-crisis-sega-dreamcast-reica
+version: Sega Dreamcast reicast
+description: null
+notes: ''
+created_at: '2017-10-01T09:28:24.639000Z'
+updated_at: '2018-09-04T04:38:59.395297Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Dreamcast image file
+  game:
+    core: reicast
+    main_file: file1

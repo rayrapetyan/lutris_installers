@@ -1,0 +1,34 @@
+id: 6509
+game_id: 276
+game_slug: bastion
+name: Bastion
+year: 2011
+user: Noxes
+runner: linux
+slug: bastion-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2017-12-01T17:27:46.637000Z'
+updated_at: '2019-10-21T04:19:34.633420Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 107100
+gogid: 1423058311
+gogslug: bastion
+humblestoreid: bastion
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

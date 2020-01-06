@@ -1,0 +1,24 @@
+id: 2328
+game_id: 2065
+game_slug: thinking-with-time-machine
+name: Thinking with Time Machine
+year: null
+user: s1ns3nt
+runner: steam
+slug: thinking-with-time-machine-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-07-22T01:18:27.563832Z'
+updated_at: '2016-07-27T12:46:15.794912Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 286080
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 286080

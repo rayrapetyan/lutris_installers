@@ -1,0 +1,24 @@
+id: 1670
+game_id: 3335
+game_slug: otttd
+name: OTTTD
+year: null
+user: RobLoach
+runner: steam
+slug: otttd-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-11-02T12:20:45.608811Z'
+updated_at: '2016-01-05T18:29:40.809416Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 312630
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 312630

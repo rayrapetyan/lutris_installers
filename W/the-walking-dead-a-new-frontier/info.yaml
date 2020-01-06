@@ -1,0 +1,15 @@
+name: 'The Walking Dead: A New Frontier'
+slug: the-walking-dead-a-new-frontier
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/the-walking-dead-a-new-frontier.jpg
+icon_url: /games/icon/the-walking-dead-a-new-frontier.png
+is_public: true
+updated: '2019-01-23T08:31:48.527696Z'
+steamid: 536220
+gogslug: walking_dead_a_new_frontier_the
+humblestoreid: ''

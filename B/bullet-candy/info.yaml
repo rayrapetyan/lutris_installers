@@ -1,0 +1,16 @@
+name: Bullet Candy
+slug: bullet-candy
+year: 2007
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Casual
+aliases: []
+banner_url: /games/banner/bullet-candy.jpg
+icon_url: /games/icon/bullet-candy.png
+is_public: true
+updated: '2019-01-23T08:28:43.066717Z'
+steamid: 6600
+gogslug: ''
+humblestoreid: ''

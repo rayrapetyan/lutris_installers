@@ -1,0 +1,31 @@
+id: 5626
+game_id: 13859
+game_slug: eggnogg
+name: Eggnogg+
+year: null
+user: Lucki
+runner: linux
+slug: eggnogg-itchio
+version: itch.io
+description: Download at https://madgarden.itch.io/eggnogg
+notes: ''
+created_at: '2017-09-08T13:35:04.287000Z'
+updated_at: '2017-09-08T21:13:38.867508Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $archive
+  - chmodx: $GAMEDIR/eggnoggplus
+  files:
+  - archive: 'N/A: Select eggnoggplus-linux.zip'
+  game:
+    exe: eggnoggplus

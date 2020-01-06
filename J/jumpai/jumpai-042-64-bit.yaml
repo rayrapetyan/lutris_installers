@@ -1,0 +1,33 @@
+id: 9833
+game_id: 21146
+game_slug: jumpai
+name: "Jumpa\xEF"
+year: 2018
+user: cxf
+runner: linux
+slug: jumpai-042-64-bit
+version: 0.4.2 64-bit
+description: null
+notes: "Download <b>Jumpa\xEF 0.4.2 for Linux 64 bit</b> from icth.io first: <a href=\"\
+  https://beartrapstudio.itch.io/jumpai\">https://beartrapstudio.itch.io/jumpai</a>"
+created_at: '2018-08-21T06:37:56.977000Z'
+updated_at: '2019-01-15T09:55:56.203133Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: itchio
+  files:
+  - itchio: N/A:Select the Jumpai tar.gz file
+  game:
+    exe: jre/bin/java
+    args: -jar Jumpai.jar
+    working_dir: $GAMEDIR

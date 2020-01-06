@@ -1,0 +1,15 @@
+name: 'UFO: Aftermath'
+slug: ufo-aftermath
+year: 2003
+platforms:
+- name: Windows
+genres:
+- name: Strategy
+aliases: []
+banner_url: /games/banner/ufo-aftermath.jpg
+icon_url: /games/icon/ufo-aftermath.png
+is_public: true
+updated: '2019-10-14T02:52:01.668555Z'
+steamid: 292160
+gogslug: ufo_aftermath
+humblestoreid: ''

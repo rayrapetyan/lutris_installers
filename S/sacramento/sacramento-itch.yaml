@@ -1,0 +1,28 @@
+id: 15351
+game_id: 29284
+game_slug: sacramento
+name: Sacramento
+year: 2015
+user: oscararg
+runner: linux
+slug: sacramento-itch
+version: Itch
+description: null
+notes: ''
+created_at: '2019-09-07T05:37:52.860000Z'
+updated_at: '2019-10-06T20:35:48.421531Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Sacramento_Linux.x86
+  installer:
+  - extract:
+      file: archive
+  files:
+  - archive: N/A:Please select the itch.io archive

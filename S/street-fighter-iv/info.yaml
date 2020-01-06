@@ -1,0 +1,15 @@
+name: Street Fighter IV
+slug: street-fighter-iv
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Combat
+aliases: []
+banner_url: /games/banner/street-fighter-iv.jpg
+icon_url: /games/icon/street-fighter-iv.png
+is_public: true
+updated: '2019-04-25T04:42:15.395377Z'
+steamid: 21660
+gogslug: ''
+humblestoreid: ''

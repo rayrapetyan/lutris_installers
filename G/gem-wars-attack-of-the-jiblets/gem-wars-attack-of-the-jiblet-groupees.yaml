@@ -1,0 +1,38 @@
+id: 5363
+game_id: 5439
+game_slug: gem-wars-attack-of-the-jiblets
+name: 'Gem Wars: Attack of the Jiblets'
+year: null
+user: FakeShemp
+runner: wine
+slug: gem-wars-attack-of-the-jiblet-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-08-12T17:07:05.727000Z'
+updated_at: '2018-05-19T03:41:58.650189Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 370590
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/Gem Wars Setup.exe
+      prefix: $GAMEDIR
+      args: /s /nr
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Queen Birdface Productions/Gem Wars Attack of the Jiblets/bin/release/Gem
+      Wars.exe
+    arch: win32

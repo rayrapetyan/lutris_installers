@@ -1,0 +1,32 @@
+id: 14586
+game_id: 14217
+game_slug: clone-hero
+name: Clone Hero
+year: 2017
+user: GreeneMachine05
+runner: linux
+slug: clone-hero-0225-1
+version: 0.22.5
+description: Downloads and installs Clone Hero version 0.22.5.
+notes: ''
+created_at: '2019-07-16T01:18:52.739000Z'
+updated_at: '2019-09-09T00:48:00.057752Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/
+      file: installer
+  - chmodx: $GAMEDIR/clonehero
+  files:
+  - installer: http://dl.clonehero.net/clonehero-v.22.5/clonehero-linux.tar.gz
+  game:
+    prefix: $GAMEDIR
+    exe: clonehero

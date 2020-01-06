@@ -1,0 +1,24 @@
+id: 8766
+game_id: 5637
+game_slug: castle-torgeath
+name: Castle Torgeath
+year: null
+user: LeXofLeviafan
+runner: winesteam
+slug: castle-torgeath-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-17T18:05:55.498445Z'
+updated_at: '2018-06-17T19:19:31.861495Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 431870
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 431870

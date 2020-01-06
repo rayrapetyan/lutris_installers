@@ -1,0 +1,24 @@
+id: 8891
+game_id: 19475
+game_slug: aidol
+name: AIdol
+year: 2018
+user: kimchitea
+runner: steam
+slug: aidol-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-25T00:21:32.702788Z'
+updated_at: '2018-06-25T03:59:42.112088Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 829210
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 829210

@@ -1,0 +1,69 @@
+id: 12908
+game_id: 26812
+game_slug: hedon
+name: Hedon
+year: 2019
+user: D1SoveR
+runner: zdoom
+slug: hedon-linux
+version: Linux
+description: The installer will need the .tar archive that can be obtained either
+  from itch.io or IndieDB. This game does NOT require any Doom WADs to run.
+notes: "https://zanthebonebreaker.itch.io/hedon  \r\nhttps://www.indiedb.com/games/hedon"
+created_at: '2019-04-17T19:15:59.455000Z'
+updated_at: '2019-04-18T04:54:00.119893Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 1072150
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    main_file: $GAMEDIR/hedon.ipk3
+    savedir: $GAMEDIR
+  installer:
+  - extract:
+      format: tgz
+      dst: $CACHE
+      file: archive
+  - execute:
+      command: '
+
+        export IPK3_FILE=$(find "$CACHE" -type f -iname ''hedon.ipk3'') &&
+
+        export CONFIG_FILE=$(find "$CACHE" -type f -iname ''*.ini'') &&
+
+        mv "$IPK3_FILE" "$GAMEDIR/hedon.ipk3" &&
+
+        mv "$CONFIG_FILE" "$GAMEDIR/config.ini" &&
+
+        mkdir "$GAMEDIR/screenshots"
+
+        '
+      description: Copying game assets and config to installation directory...
+  - execute:
+      command: "\nif [ $RESOLUTION_HEIGHT -ge 1080 ]; then\n  sed -i 's/con_scaletext=1/con_scaletext=2/g'\
+        \ \"$GAMEDIR/config.ini\"\nfi\n"
+      description: Adjusting text scale to screen resolution...
+  - write_config:
+      data:
+        GlobalSettings:
+          vid_scale_customheight: $RESOLUTION_HEIGHT
+          saveloadconfirmation: false
+          vid_scale_customwidth: $RESOLUTION_WIDTH
+          menu_resolution_custom_width: $RESOLUTION_WIDTH
+          screenshot_dir: $GAMEDIR/screenshots
+          menu_resolution_custom_height: $RESOLUTION_HEIGHT
+          vid_adapter: 0
+        Hedon.ConsoleVariables:
+          am_rotate: 1
+        Hedon.Bindings:
+          f12: screenshot
+      file: $GAMEDIR/config.ini
+  files:
+  - archive: N/A:Please select archive containing Hedon (Linux version)
+  zdoom:
+    config: $GAMEDIR/config.ini

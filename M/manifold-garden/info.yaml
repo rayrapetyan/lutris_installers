@@ -1,0 +1,16 @@
+name: Manifold Garden
+slug: manifold-garden
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/manifold-garden.jpg
+icon_url: null
+is_public: true
+updated: '2019-12-22T18:06:53.789251Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,26 @@
+id: 16053
+game_id: 19688
+game_slug: captain-forever-trilogy
+name: Captain Forever Trilogy
+year: null
+user: Dther
+runner: steam
+slug: captain-forever-trilogy-steam-proton
+version: Steam Proton
+description: null
+notes: "\"Force the use of a specific Steam Play compatibility tool\" must be checked\
+  \ under Properties. Works under Proton 4.11-6.\r\n\r\nRuns slowly to the point of\
+  \ unplayability on non-accelerated hardware."
+created_at: '2019-10-08T05:13:25.392000Z'
+updated_at: '2019-10-11T01:57:00.605186Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 758930
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 758930

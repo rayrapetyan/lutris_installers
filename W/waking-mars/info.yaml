@@ -1,0 +1,16 @@
+name: Waking Mars
+slug: waking-mars
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Platform
+aliases: []
+banner_url: /games/banner/waking-mars.jpg
+icon_url: /games/icon/waking-mars.png
+is_public: true
+updated: '2019-01-23T08:32:04.900205Z'
+steamid: 227200
+gogslug: waking_mars
+humblestoreid: ''

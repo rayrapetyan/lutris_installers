@@ -1,0 +1,24 @@
+id: 9461
+game_id: 12314
+game_slug: house-of-hell
+name: House of Hell
+year: 2016
+user: kimchitea
+runner: steam
+slug: house-of-hell-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-29T15:07:51.168732Z'
+updated_at: '2018-07-29T21:51:22.994888Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 419810
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 419810

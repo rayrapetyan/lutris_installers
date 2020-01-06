@@ -1,0 +1,58 @@
+id: 2528
+game_id: 7247
+game_slug: the-settlers-ii-10th-anniversary
+name: The Settlers II 10th Anniversary
+year: 2006
+user: ssf
+runner: wine
+slug: the-settlers-ii-10th-annivers-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2016-08-21T18:00:23.938000Z'
+updated_at: '2019-03-23T22:25:53.341430Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: 1207659163
+gogslug: the_settlers_2_10th_anniversary
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing d3dx9
+      app: d3dx9
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing d3dx9_36
+      app: d3dx9_36
+      arch: win32
+      name: winetricks
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /silent /nogui
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Wine CSMT to 0
+      name: set_regedit
+      key: csmt
+      value: 0
+      type: REG_DWORD
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D
+  files:
+  - game: N/A:Please select the GOG.com OFFLINE Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/The Settlers II - 10th Anniversary/bin/S2DNG.exe
+    arch: win32

@@ -1,0 +1,22 @@
+name: Pooyan
+slug: pooyan
+year: 1982
+platforms:
+- name: Apple //e
+- name: Arcade
+- name: Atari 2600
+- name: Commodore 64
+- name: MSX
+- name: NES
+- name: Tomy Tutor
+genres:
+- name: Arcade
+- name: Shooter
+aliases: []
+banner_url: /games/banner/pooyan.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:47.881184Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

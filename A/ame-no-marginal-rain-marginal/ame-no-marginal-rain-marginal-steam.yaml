@@ -1,0 +1,24 @@
+id: 7173
+game_id: 9422
+game_slug: ame-no-marginal-rain-marginal-
+name: Ame no Marginal -Rain Marginal-
+year: 2014
+user: t-rex91
+runner: winesteam
+slug: ame-no-marginal-rain-marginal-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-01-27T19:39:19.654827Z'
+updated_at: '2018-01-28T07:55:30.700525Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 348950
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 348950

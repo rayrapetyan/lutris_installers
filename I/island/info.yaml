@@ -1,0 +1,15 @@
+name: ISLAND
+slug: island
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/island.jpg
+icon_url: /games/icon/island.png
+is_public: true
+updated: '2019-01-23T08:29:58.806204Z'
+steamid: 857450
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,28 @@
+id: 4076
+game_id: 456
+game_slug: aaaaa-for-the-awesome
+name: Aaaaa! for the Awesome
+year: 2013
+user: FakeShemp
+runner: linux
+slug: aaaaa-for-the-awesome-humble-64bit
+version: Humble (64bit)
+description: ''
+notes: ''
+created_at: '2017-06-02T21:19:10.646594Z'
+updated_at: '2017-06-04T21:48:56.539039Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 15560
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Awesome.x86_64
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

@@ -1,0 +1,24 @@
+id: 1444
+game_id: 4089
+game_slug: 12-labours-of-hercules
+name: 12 Labours of Hercules
+year: 2015
+user: Xodetaetl
+runner: steam
+slug: 12-labours-of-hercules-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-04-02T13:49:53.114000Z'
+updated_at: '2015-04-02T14:39:35.866000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 342580
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 342580

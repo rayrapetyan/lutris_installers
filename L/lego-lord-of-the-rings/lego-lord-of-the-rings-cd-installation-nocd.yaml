@@ -1,0 +1,76 @@
+id: 2949
+game_id: 756
+game_slug: lego-lord-of-the-rings
+name: LEGO Lord of the Rings
+year: 2012
+user: Onurb
+runner: wine
+slug: lego-lord-of-the-rings-cd-installation-nocd
+version: CD Installation + NoCDfix
+description: This installer is for the DVD released 2012. The CD is only needed for
+  installation. A NoCDfix will be downloaded so the game can be played without the
+  cd in the drive. This installer should make it easy to use every gamepad to play
+  together or alone.
+notes: "If you're installer seems to be crashed don't close it, it just doesn't respond\
+  \ when its copying files.\r\nDepending on your gamepad you have to either deactivate\
+  \ the *(event) or *(js) device in the joystick control panel.(You have to try which)"
+created_at: '2016-10-28T21:28:57.185765Z'
+updated_at: '2018-05-19T03:41:49.690951Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 214510
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: "drive_c/Program Files/Warner Bros. Interactive Entertainment/LEGO\xAE The\
+    \ Lord of the Rings\u2122/LEGOLOTR.exe"
+  game:
+    prefix: $GAMEDIR
+    arch: win32
+  installer:
+  - insert-disc:
+      requires: LEGOLOTR.msi
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Windows File System (Wine Bottle)
+      name: create_prefix
+  - task:
+      executable: $DISC/Launcher.exe
+      prefix: $GAMEDIR
+      args: null
+      description: Please follow the instructions of the Installer   Don't kill the
+        Installer(As long as the Drive is spinning)   nIt will finish the installation
+        even though it is recognized as Non responsive      This should take only
+        about 5min
+      name: wineexec
+  - extract:
+      description: Installing x360 dinput8 for controller support
+      dst: "$GAMEDIR/drive_c/Program Files/Warner Bros. Interactive Entertainment/LEGO\xAE\
+        \ The Lord of the Rings\u2122/"
+      file: $X360
+  - extract:
+      format: tgz
+      description: Installing NoCD fix
+      file: $NoCDfix
+      dst: "$GAMEDIR/drive_c/Program Files/Warner Bros. Interactive Entertainment/LEGO\xAE\
+        \ The Lord of the Rings\u2122/"
+  - extract:
+      format: tgz
+      description: Setting up Gamepad support
+      file: $GamepadSupportSettings
+      dst: "$GAMEDIR/drive_c/Program Files/Warner Bros. Interactive Entertainment/LEGO\xAE\
+        \ The Lord of the Rings\u2122/"
+  - execute:
+      args: "-v -c \"env WINEPREFIX=$GAMEDIR wine regedit '$GAMEDIR/drive_c/Program\
+        \ Files/Warner Bros. Interactive Entertainment/LEGO\xAE The Lord of the Rings\u2122\
+        /wine_custom_user.reg'\""
+      file: /bin/sh
+  wine:
+    xinput: true
+  files:
+  - GamepadSupportSettings: https://dl.dropboxusercontent.com/s/o1d6nndmczd2els/LutrisGamepadSupportSettings.tar.gz
+  - NoCDfix: https://dl.dropboxusercontent.com/s/zy3u3bj32k6cqbk/LutrisLegoLordOfTheRingsFix.tar.gz
+  - X360: https://lutris.net/files/tools/x360ce-dinput8.tar.gz

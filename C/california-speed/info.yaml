@@ -1,0 +1,16 @@
+name: California Speed
+slug: california-speed
+year: 1998
+platforms:
+- name: Arcade
+- name: Nintendo 64
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/california-speed.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:44.366942Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

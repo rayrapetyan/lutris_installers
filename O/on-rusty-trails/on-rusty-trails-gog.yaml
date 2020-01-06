@@ -1,0 +1,37 @@
+id: 2815
+game_id: 7748
+game_slug: on-rusty-trails
+name: On Rusty Trails
+year: null
+user: Lulu
+runner: linux
+slug: on-rusty-trails-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2016-09-30T16:54:29.639840Z'
+updated_at: '2016-09-30T21:11:28.968757Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 277700
+gogid: 1476356259
+gogslug: on_rusty_trails
+humblestoreid: ''
+script:
+  exe: Game/start.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/Game
+  files:
+  - game: 'N/A: Plese select the GOG.com Linux installer'
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

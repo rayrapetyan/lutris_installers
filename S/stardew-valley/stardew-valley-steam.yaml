@@ -1,0 +1,24 @@
+id: 2371
+game_id: 5919
+game_slug: stardew-valley
+name: Stardew Valley
+year: 2016
+user: RobLoach
+runner: steam
+slug: stardew-valley-steam
+version: Steam
+description: 'Steam Beta Password: MonoGame2016'
+notes: ''
+created_at: '2016-07-27T13:02:14.887000Z'
+updated_at: '2018-01-09T13:15:00.613010Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 413150
+gogid: 1453375253
+gogslug: stardew_valley
+humblestoreid: ''
+script:
+  game:
+    appid: 413150

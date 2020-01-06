@@ -1,0 +1,48 @@
+id: 15536
+game_id: 1671
+game_slug: neverwinter
+name: Neverwinter
+year: 2013
+user: 30_characters_max
+runner: wine
+slug: neverwinter-standalone-client
+version: Standalone client
+description: null
+notes: ''
+created_at: '2019-09-14T12:43:18.949000Z'
+updated_at: '2019-12-17T02:34:05.568813Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 109600
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      executable: neverwinter_installer
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  winesteam:
+    version: lutris-4.15-x86_64
+    dxvk: true
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+  files:
+  - neverwinter_installer:
+      filename: Neverwinter_ArcSetup.exe
+      url: https://www.arcgames.com/download/?game=nw
+  game:
+    prefix: $GAMEDIR
+    appid: 109600
+    exe: drive_c/Program Files (x86)/Arc/ArcLauncher.exe

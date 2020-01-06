@@ -1,0 +1,28 @@
+id: 3406
+game_id: 6079
+game_slug: cursed-sight
+name: Cursed Sight
+year: 2015
+user: FakeShemp
+runner: linux
+slug: cursed-sight-demo
+version: Demo
+description: ''
+notes: ''
+created_at: '2017-03-31T08:50:51.617124Z'
+updated_at: '2017-04-02T23:50:15.388265Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 360550
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: cursed_sight_demo.sh
+  installer:
+  - extract:
+      file: file1
+  files:
+  - file1: http://cursedsight.invertmouse.com/assets/cursed_sight_demo_linux.tar.bz2

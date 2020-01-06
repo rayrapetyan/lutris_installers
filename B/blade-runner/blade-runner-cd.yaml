@@ -1,0 +1,100 @@
+id: 14582
+game_id: 21535
+game_slug: blade-runner
+name: Blade Runner
+year: 1997
+user: legluondunet
+runner: scummvm
+slug: blade-runner-cd
+version: CD
+description: "This script will install \"Blade Runner\" CD edition for ScummVM.\r\n\
+  Thanks to the people who helped us play this game in the best conditions."
+notes: "- Please report issue concerning this script on my Github page:\r\nhttps://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2019-07-15T14:36:44.900000Z'
+updated_at: '2019-12-21T14:46:28.736460Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: null
+gogid: 1370811355
+gogslug: blade_runner
+humblestoreid: ''
+script:
+  custom-name: Blade Runner - CD - ScummVM
+  scummvm:
+    fullscreen: true
+  installer:
+  - insert-disc:
+      requires: cd1/outtake1.mix
+      description: Please insert Blade Runner CD 1
+  - merge:
+      src: $DISC/cd1/
+      dst: $GAMEDIR/Blade Runner/
+  - copy:
+      src: $DISC/base/coreanim.dat
+      dst: $GAMEDIR/Blade Runner/
+  - copy:
+      src: $DISC/base/mode.mix
+      dst: $GAMEDIR/Blade Runner/
+  - copy:
+      src: $DISC/base/music.mix
+      dst: $GAMEDIR/Blade Runner/
+  - copy:
+      src: $DISC/base/sfx.mix
+      dst: $GAMEDIR/Blade Runner/
+  - copy:
+      src: $DISC/base/spchsfx.tlk
+      dst: $GAMEDIR/Blade Runner/
+  - copy:
+      src: $DISC/base/startup.mix
+      dst: $GAMEDIR/Blade Runner/
+  - move:
+      src: $GAMEDIR/Blade Runner/cdframes.dat
+      dst: $GAMEDIR/Blade Runner/cdframes1.dat
+  - move:
+      src: $GAMEDIR/Blade Runner/a.tlk
+      dst: $CACHE/a1.tlk
+  - insert-disc:
+      requires: cd2/outtake2.mix
+      description: Please insert Blade Runner CD 2
+  - merge:
+      src: $DISC/cd2/
+      dst: $GAMEDIR/Blade Runner/
+  - move:
+      src: $GAMEDIR/Blade Runner/cdframes.dat
+      dst: $GAMEDIR/Blade Runner/cdframes2.dat
+  - move:
+      src: $GAMEDIR/Blade Runner/a.tlk
+      dst: $CACHE/a2.tlk
+  - insert-disc:
+      requires: cd3/outtake3.mix
+      description: Please insert Blade Runner CD 3
+  - merge:
+      src: $DISC/cd3/
+      dst: $GAMEDIR/Blade Runner/
+  - move:
+      src: $GAMEDIR/Blade Runner/cdframes.dat
+      dst: $GAMEDIR/Blade Runner/cdframes3.dat
+  - move:
+      src: $GAMEDIR/Blade Runner/a.tlk
+      dst: $CACHE/a3.tlk
+  - move:
+      src: $GAMEDIR/Blade Runner/3.tlk
+      dst: $CACHE/
+  - move:
+      src: $GAMEDIR/Blade Runner/vqa3.mix
+      dst: $CACHE/
+  - insert-disc:
+      requires: cd4/outtake4.mix
+      description: Please insert Blade Runner CD 4
+  - merge:
+      src: $DISC/cd4/
+      dst: $GAMEDIR/Blade Runner/
+  - move:
+      src: $GAMEDIR/Blade Runner/cdframes.dat
+      dst: $GAMEDIR/Blade Runner/cdframes4.dat
+  game:
+    game_id: bladerunner
+    path: $GAMEDIR/Blade Runner/
+    subtitles: true

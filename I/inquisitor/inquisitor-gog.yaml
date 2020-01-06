@@ -1,0 +1,36 @@
+id: 2709
+game_id: 2239
+game_slug: inquisitor
+name: Inquisitor
+year: null
+user: Lulu
+runner: wine
+slug: inquisitor-gog
+version: GOG
+description: ''
+notes: 'Graphical issues in Inquisitor (red squares painted on the screen). More info
+  here: https://bugs.winehq.org/show_bug.cgi?id=32490'
+created_at: '2016-09-07T21:39:16.518636Z'
+updated_at: '2016-10-04T19:05:51.200120Z'
+draft: false
+published: true
+published_by: null
+rating: '2'
+steamid: 241620
+gogid: 1207659095
+gogslug: inquisitor
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Inquisitor/GameData/Inquisitor.exe
+  installer:
+  - task:
+      executable: inquisitor
+      prefix: $GAMEDIR
+      args: /silent /nogui
+      name: wineexec
+  wine:
+    version: staging-1.9.19-i386
+  files:
+  - inquisitor: N/A:Select the Windows installer downloaded from GOG

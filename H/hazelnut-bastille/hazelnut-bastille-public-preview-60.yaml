@@ -1,0 +1,31 @@
+id: 10439
+game_id: 22091
+game_slug: hazelnut-bastille
+name: Hazelnut Bastille
+year: 2018
+user: RobLoach
+runner: linux
+slug: hazelnut-bastille-public-preview-60
+version: Public Preview 6.0
+description: September 29, 2018, Public Preview Build 6.0 from https://www.aloftstudio.com/hbdemobuilds
+notes: ''
+created_at: '2018-10-07T03:15:46.166151Z'
+updated_at: '2018-10-07T03:16:43.200553Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $file_id
+  - chmodx: $GAMEDIR/September.29.2018.PublicPreview.linux.x86
+  files:
+  - file_id: https://s3.amazonaws.com/s3.aloftstudio.com/September.29.2018.PublicPreview.Linux.zip
+  game:
+    exe: September.29.2018.PublicPreview.linux.x86

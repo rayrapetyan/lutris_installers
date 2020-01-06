@@ -1,0 +1,16 @@
+name: Steam Marines
+slug: steam-marines
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: RPG
+- name: Strategy
+aliases: []
+banner_url: /games/banner/steam-marines.jpg
+icon_url: /games/icon/steam-marines.png
+is_public: true
+updated: '2019-01-23T08:31:26.457761Z'
+steamid: 253630
+gogslug: ''
+humblestoreid: ''

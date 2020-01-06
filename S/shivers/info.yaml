@@ -1,0 +1,17 @@
+name: Shivers
+slug: shivers
+year: 1994
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Horror
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/shivers.jpg
+icon_url: /games/icon/shivers.png
+is_public: true
+updated: '2019-10-23T08:23:13.275410Z'
+steamid: null
+gogslug: shivers
+humblestoreid: ''

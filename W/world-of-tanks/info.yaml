@@ -1,0 +1,16 @@
+name: World of Tanks
+slug: world-of-tanks
+year: 2010
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/world-of-tanks.jpg
+icon_url: /games/icon/world-of-tanks.png
+is_public: true
+updated: '2019-02-11T07:33:22.488344Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

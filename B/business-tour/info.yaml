@@ -1,0 +1,18 @@
+name: Business Tour
+slug: business-tour
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Arcade
+- name: Board
+- name: Casual
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/business-tour.jpg
+icon_url: /games/icon/business-tour.png
+is_public: true
+updated: '2019-01-23T08:28:43.693081Z'
+steamid: 397900
+gogslug: ''
+humblestoreid: ''

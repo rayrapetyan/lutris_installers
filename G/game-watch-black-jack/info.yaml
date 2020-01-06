@@ -1,0 +1,15 @@
+name: 'Game & Watch: Black Jack'
+slug: game-watch-black-jack
+year: 1985
+platforms:
+- name: Arcade
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/game-watch-black-jack.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:37.778008Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

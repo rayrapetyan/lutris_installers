@@ -1,0 +1,32 @@
+id: 6367
+game_id: 14845
+game_slug: little-gardens
+name: Little Gardens
+year: 2015
+user: FakeShemp
+runner: wine
+slug: little-gardens-groupees
+version: Groupees
+description: null
+notes: ''
+created_at: '2017-11-18T16:36:23.108035Z'
+updated_at: '2018-05-19T03:41:53.555661Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Little Gardens
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Little Gardens/LittleGardens.exe
+    arch: win32

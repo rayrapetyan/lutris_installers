@@ -1,0 +1,20 @@
+name: Child of Light
+slug: child-of-light
+year: 2014
+platforms:
+- name: Nintendo Wii U
+- name: Sony Playstation 3
+- name: Windows
+genres:
+- name: Adventure
+- name: Fantasy
+- name: Platform
+- name: Turn-based
+aliases: []
+banner_url: /games/banner/child-of-light.jpg
+icon_url: /games/icon/child-of-light.png
+is_public: true
+updated: '2019-06-01T06:31:12.424252Z'
+steamid: 256290
+gogslug: ''
+humblestoreid: ''

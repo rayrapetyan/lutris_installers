@@ -1,0 +1,24 @@
+id: 174
+game_id: 238
+game_slug: spacechem
+name: SpaceChem
+year: 2011
+user: strider
+runner: steam
+slug: spacechem-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-19T23:56:17.013000Z'
+updated_at: '2013-12-19T23:56:17.013000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 92800
+gogid: 1207659018
+gogslug: spacechem
+humblestoreid: ''
+script:
+  game:
+    appid: 92800

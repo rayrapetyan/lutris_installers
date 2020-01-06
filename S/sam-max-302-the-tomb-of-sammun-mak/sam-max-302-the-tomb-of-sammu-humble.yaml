@@ -1,0 +1,37 @@
+id: 4598
+game_id: 213
+game_slug: sam-max-302-the-tomb-of-sammun-mak
+name: 'Sam & Max 302: The Tomb of Sammun-Mak'
+year: null
+user: FakeShemp
+runner: wine
+slug: sam-max-302-the-tomb-of-sammu-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-25T11:36:12.440448Z'
+updated_at: '2018-05-19T03:41:50.094434Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 31230
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/SamMax302_201004261619_full.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Telltale Games/Sam and Max - The Devil's Playhouse/The
+      Tomb of Sammun-Mak/SamMax302.exe
+    arch: win32

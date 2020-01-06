@@ -1,0 +1,16 @@
+name: BMW M3 Challenge
+slug: bmw-m3-challenge
+year: 2007
+platforms:
+- name: Windows
+genres:
+- name: Racing
+- name: Simulation
+aliases: []
+banner_url: /games/banner/bmw-m3-challenge.jpg
+icon_url: /games/icon/bmw-m3-challenge.png
+is_public: true
+updated: '2019-01-23T08:28:39.722261Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

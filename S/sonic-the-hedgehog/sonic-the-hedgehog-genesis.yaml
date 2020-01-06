@@ -1,0 +1,31 @@
+id: 17380
+game_id: 3240
+game_slug: sonic-the-hedgehog
+name: Sonic the Hedgehog
+year: 1991
+user: leandrovitals
+runner: libretro
+slug: sonic-the-hedgehog-genesis
+version: Genesis
+description: null
+notes: ''
+created_at: '2019-12-17T00:33:50.962000Z'
+updated_at: '2019-12-20T18:33:27.548997Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: rom
+      dst: $GAMEDIR
+  files:
+  - rom: N/A:Select the game's ROM file
+  game:
+    core: genesis_plus_gx
+    main_file: rom

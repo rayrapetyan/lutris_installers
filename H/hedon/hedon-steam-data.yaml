@@ -1,0 +1,64 @@
+id: 13221
+game_id: 26812
+game_slug: hedon
+name: Hedon
+year: 2019
+user: D1SoveR
+runner: zdoom
+slug: hedon-steam-data
+version: Steam Data
+description: "This installer will use the game archive downloaded and updated through\
+  \ Steam, but run it using Lutris' ZDoom runner.\r\nYou will have to have Hedon installed\
+  \ through Steam to use it."
+notes: ''
+created_at: '2019-04-29T23:01:03.606000Z'
+updated_at: '2019-12-22T11:22:13.243643Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 1072150
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    main_file: archive
+    savedir: $GAMEDIR
+  installer:
+  - merge:
+      src: config
+      description: Copying configuration to installation directory...
+      dst: $GAMEDIR
+  - execute:
+      command: 'mv "$GAMEDIR/gzdoom.ini" "$GAMEDIR/config.ini" &&
+
+        mkdir "$GAMEDIR/screenshots"
+
+        '
+      description: Copying configuration to installation directory...
+  - execute:
+      command: "\nif [ $RESOLUTION_HEIGHT -ge 1080 ]; then\n  sed -i 's/con_scaletext=1/con_scaletext=2/g'\
+        \ \"$GAMEDIR/config.ini\"\nfi\n"
+      description: Adjusting text scale to screen resolution...
+  - write_config:
+      description: First-time configuration...
+      data:
+        GlobalSettings:
+          vid_scale_customheight: $RESOLUTION_HEIGHT
+          saveloadconfirmation: false
+          vid_scale_customwidth: $RESOLUTION_WIDTH
+          menu_resolution_custom_width: $RESOLUTION_WIDTH
+          screenshot_dir: $GAMEDIR/screenshots
+          menu_resolution_custom_height: $RESOLUTION_HEIGHT
+          vid_adapter: 0
+        Hedon.ConsoleVariables:
+          am_rotate: 1
+        Hedon.Bindings:
+          f12: screenshot
+      file: $GAMEDIR/config.ini
+  files:
+  - archive: $STEAM:1072150:gzdoom/Hedon.ipk3
+  - config: $STEAM:1072150:gzdoom/gzdoom.ini
+  zdoom:
+    config: $GAMEDIR/config.ini

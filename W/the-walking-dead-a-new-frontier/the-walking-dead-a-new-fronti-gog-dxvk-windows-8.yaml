@@ -1,0 +1,53 @@
+id: 14293
+game_id: 9721
+game_slug: the-walking-dead-a-new-frontier
+name: 'The Walking Dead: A New Frontier'
+year: 2016
+user: OsamaBinlada
+runner: wine
+slug: the-walking-dead-a-new-fronti-gog-dxvk-windows-8
+version: GOG + DXVK (Windows 8)
+description: null
+notes: ''
+created_at: '2019-06-24T23:57:48.537000Z'
+updated_at: '2019-09-09T01:14:12.631653Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 536220
+gogid: null
+gogslug: walking_dead_a_new_frontier_the
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2015 win8
+      arch: win64
+      name: winetricks
+  - task:
+      executable: goginstaller
+      prefix: $GAMEDIR
+      arch: win64
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/The Walking Dead - A New Frontier/WalkingDead3_win8.exe
+    arch: win64
+  system:
+    env:
+      DXVK_HUD: 0
+    pulse_latency: true
+  wine:
+    version: ge-protonified-4.10-x86_64
+    overrides:
+      xaudio2_7: native,builtin
+    dxvk: true
+    Desktop: true
+  files:
+  - goginstaller: N/A:Select the game's setup file

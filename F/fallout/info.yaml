@@ -1,0 +1,15 @@
+name: Fallout
+slug: fallout
+year: 1997
+platforms:
+- name: Windows
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/fallout.jpg
+icon_url: /games/icon/fallout.png
+is_public: true
+updated: '2019-03-02T21:42:41.856970Z'
+steamid: 38400
+gogslug: fallout
+humblestoreid: ''

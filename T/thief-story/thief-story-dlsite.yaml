@@ -1,0 +1,35 @@
+id: 11473
+game_id: 25001
+game_slug: thief-story
+name: Thief Story
+year: 2016
+user: kimchitea
+runner: linux
+slug: thief-story-dlsite
+version: DLsite
+description: null
+notes: ''
+created_at: '2019-01-06T13:51:17.239000Z'
+updated_at: '2019-01-20T05:31:26.194643Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Thief_Story.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - extract:
+      dst: $GAMEDIR
+      file: $CACHE/Thief_Story-1.0-linux.tar.bz2
+  - chmodx: $GAMEDIR/Thief_Story.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Thief_Story
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Thief_Story
+  files:
+  - file1: N/A:Please select the game archive from https://www.dlsite.com/ecchi-eng/work/=/product_id/RE196106.html

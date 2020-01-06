@@ -1,0 +1,32 @@
+id: 9998
+game_id: 21457
+game_slug: silhouette-mirage
+name: Silhouette Mirage
+year: 1997
+user: miky_kr5
+runner: libretro
+slug: silhouette-mirage-ps1
+version: PS1
+description: null
+notes: The BIN files for all the tracks of the game CD image must be copied manually
+  to the game's installation directory so they are besides the game CUE sheet.
+created_at: '2018-09-02T04:30:23.431525Z'
+updated_at: '2018-09-07T06:08:06.522392Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - move:
+      src: cue
+      dst: $GAMEDIR
+  files:
+  - cue: N/A:Please select the game's CUE sheet.
+  game:
+    core: pcsx_rearmed
+    main_file: cue

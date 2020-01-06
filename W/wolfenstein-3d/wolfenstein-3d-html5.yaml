@@ -1,0 +1,23 @@
+id: 922
+game_id: 316
+game_slug: wolfenstein-3d
+name: Wolfenstein 3D
+year: 1992
+user: fanotriel
+runner: browser
+slug: wolfenstein-3d-html5
+version: html5
+description: Free online version
+notes: ''
+created_at: '2014-10-11T14:43:39.301000Z'
+updated_at: '2019-11-24T22:12:00.878468Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 2270
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: http://3d.wolfenstein.com/

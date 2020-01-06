@@ -1,0 +1,16 @@
+name: Syberia
+slug: syberia
+year: 2002
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Casual
+aliases: []
+banner_url: /games/banner/syberia.jpg
+icon_url: /games/icon/syberia.png
+is_public: true
+updated: '2019-10-24T19:00:42.623011Z'
+steamid: 46500
+gogslug: syberia
+humblestoreid: ''

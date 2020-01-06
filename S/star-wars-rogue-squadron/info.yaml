@@ -1,0 +1,16 @@
+name: 'Star Wars: Rogue Squadron'
+slug: star-wars-rogue-squadron
+year: 1998
+platforms:
+- name: Nintendo 64
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/star-wars-rogue-squadron.jpg
+icon_url: /games/icon/star-wars-rogue-squadron.png
+is_public: true
+updated: '2019-01-23T08:31:25.722771Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

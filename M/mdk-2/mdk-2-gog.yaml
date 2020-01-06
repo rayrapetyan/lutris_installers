@@ -1,0 +1,33 @@
+id: 5127
+game_id: 1436
+game_slug: mdk-2
+name: MDK 2
+year: 2000
+user: FakeShemp
+runner: wine
+slug: mdk-2-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2017-07-21T07:59:57.872000Z'
+updated_at: '2018-10-28T05:31:14.053595Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 38460
+gogid: 1207658645
+gogslug: mdk_2
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      args: /sp- /silent /norestart
+      name: wineexec
+  files:
+  - file1: N/A:Please select the GOG installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/MDK 2/MDK2.exe

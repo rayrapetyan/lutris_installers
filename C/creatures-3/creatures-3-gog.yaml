@@ -1,0 +1,36 @@
+id: 443
+game_id: 1833
+game_slug: creatures-3
+name: Creatures 3
+year: 1999
+user: Xodetaetl
+runner: wine
+slug: creatures-3-gog
+version: GOG
+description: GOG version (Creatures Exodus). Docking Station's launch not supported
+  yet. The egg layer doesn't work so you'll have to start with the adult norns...
+notes: ''
+created_at: '2014-03-04T20:06:43.493000Z'
+updated_at: '2018-12-14T03:41:21.387992Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: 1207658812
+gogslug: creatures_exodus
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: file1
+      prefix: $GAMEDIR
+      args: /silent /nogui
+      name: wineexec
+  files:
+  - file1: "N/A:Select the Creatures Exodus installer provided by GOG. You can download\
+      \ it here: \nhttps://secure.gog.com/downlink/creatures_exodus/en1installer0"
+  game:
+    prefix: $GAMEDIR
+    args: --autokill
+    exe: drive_c/GOG Games/Creatures Exodus/Creatures 3/engine.exe

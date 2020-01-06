@@ -1,0 +1,24 @@
+id: 9020
+game_id: 8896
+game_slug: ace-of-protectors
+name: Ace of Protectors
+year: 2016
+user: kimchitea
+runner: steam
+slug: ace-of-protectors-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-05T02:47:57.898184Z'
+updated_at: '2018-07-05T04:47:16.194608Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 398150
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 398150

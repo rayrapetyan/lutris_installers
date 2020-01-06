@@ -1,0 +1,28 @@
+id: 9748
+game_id: 20948
+game_slug: the-bards-tale-trilogy
+name: The Bard's Tale Trilogy
+year: null
+user: lordheavy
+runner: winesteam
+slug: the-bards-tale-trilogy-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-15T19:23:56.669000Z'
+updated_at: '2019-02-16T04:47:41.672675Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 843260
+gogid: 2147483059
+gogslug: the_bards_tale_trilogy
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  game:
+    args: -force-glcore
+    appid: 843260

@@ -1,0 +1,24 @@
+id: 3629
+game_id: 1692
+game_slug: earth-defense-force-insect-armageddon
+name: 'Earth Defense Force: Insect Armageddon'
+year: null
+user: codythedragondude
+runner: winesteam
+slug: earth-defense-force-insect-ar-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-05-04T17:49:06.821000Z'
+updated_at: '2017-05-04T18:03:39.561023Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 23530
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 23530

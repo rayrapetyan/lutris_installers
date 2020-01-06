@@ -1,0 +1,31 @@
+id: 6087
+game_id: 1094
+game_slug: gravi
+name: Gravi
+year: null
+user: FakeShemp
+runner: linux
+slug: gravi-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-10-23T18:29:11.179089Z'
+updated_at: '2017-10-23T18:30:26.514032Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 247310
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: GraviLinux.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/GraviLinux.x86
+  - chmodx: $GAMEDIR/GraviLinux.x86_64
+  exe64: GraviLinux.x86_64
+  files:
+  - file1: N/A:Please select the Groupees archive

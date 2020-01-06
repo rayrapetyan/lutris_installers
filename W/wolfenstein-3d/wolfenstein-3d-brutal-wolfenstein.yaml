@@ -1,0 +1,46 @@
+id: 2721
+game_id: 316
+game_slug: wolfenstein-3d
+name: Wolfenstein 3D
+year: 1992
+user: RobLoach
+runner: zdoom
+slug: wolfenstein-3d-brutal-wolfenstein
+version: Brutal Wolfenstein
+description: Port of Wolfenstein using the Doom engine, along with the Brutal Doom
+  mod.
+notes: ''
+created_at: '2016-09-11T02:40:49.836746Z'
+updated_at: '2016-09-11T02:40:57.664447Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 2270
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: doomwad
+      dst: $GAMEDIR
+  - extract:
+      dst: $GAMEDIR
+      file: $bwzip
+  - extract:
+      dst: $GAMEDIR
+      file: $musiczip
+  - move:
+      src: $bwpk
+      dst: $GAMEDIR
+  files:
+  - doomwad: $STEAM:2300:base
+  - bwzip: https://lutris.net/files/games/brutal-wolfenstein/BW-V4.5_2.zip
+  - musiczip: https://lutris.net/files/games/brutal-wolfenstein/BW-MusicPack.zip
+  - bwpk: https://lutris.net/files/games/brutal-wolfenstein/BW-HUDPATCH.pk3
+  game:
+    main_file: DOOM2.WAD
+    files:
+    - BW-V4.5.pk3
+    - BW-MusicPack.wad

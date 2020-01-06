@@ -1,0 +1,15 @@
+name: 'Half-Life: Opposing Force'
+slug: half-life-opposing-force
+year: 1999
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/half-life-opposing-force.jpg
+icon_url: /games/icon/half-life-opposing-force.png
+is_public: true
+updated: '2019-01-23T08:29:46.331295Z'
+steamid: 50
+gogslug: ''
+humblestoreid: ''

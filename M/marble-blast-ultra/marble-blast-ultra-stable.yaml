@@ -1,0 +1,57 @@
+id: 5545
+game_id: 13652
+game_slug: marble-blast-ultra
+name: Marble Blast Ultra
+year: 2006
+user: bacera
+runner: wine
+slug: marble-blast-ultra-stable
+version: Stable
+description: "v. 1.9.1.5\r\nAlternative builds/links here:\r\nhttp://old.marblevortex.com/game/download/index.php"
+notes: "This is a dx9 game\r\nMultiplayer untested.\r\n\r\nFPS speed ranking:\r\n\
+  gallium-nine > wine+esync > wine\r\nd9vk, dxup, etc. untested"
+created_at: '2017-08-27T21:24:35.018000Z'
+updated_at: '2019-05-18T06:48:49.848804Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 32bit Wine prefix.
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - task:
+      executable: setup
+      description: 'Installing Marble Blast Ultra
+
+        ------------------------------
+
+        Make sure to uncheck final launch toggle.'
+      arch: win32
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Marble Blast Ultra/marbleblast.exe
+    arch: win32
+  system:
+    pulse_latency: true
+  wine:
+    esync: true
+    Desktop: true
+  files:
+  - setup:
+      filename: MarbleBlastUltra-1.9.1.5_setup.exe
+      url: http://old.marblevortex.com/download/MarbleBlastUltra-1.9.1.5_setup.exe

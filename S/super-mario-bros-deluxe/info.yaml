@@ -1,0 +1,15 @@
+name: Super Mario Bros. Deluxe
+slug: super-mario-bros-deluxe
+year: 1999
+platforms:
+- name: Nintendo Game Boy Color
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/super-mario-bros-deluxe.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:30.600736Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

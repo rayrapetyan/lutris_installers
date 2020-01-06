@@ -1,0 +1,17 @@
+name: Bomb'X
+slug: bombx
+year: 1993
+platforms:
+- name: Amiga
+- name: Atari ST
+- name: MS-DOS
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/bombx.jpg
+icon_url: null
+is_public: true
+updated: '2019-12-15T18:14:10.121684Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

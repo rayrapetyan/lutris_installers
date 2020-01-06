@@ -1,0 +1,15 @@
+name: 'Half-Life Deathmatch: Source'
+slug: half-life-deathmatch-source
+year: 2005
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/half-life-deathmatch-source.jpg
+icon_url: /games/icon/half-life-deathmatch-source.png
+is_public: true
+updated: '2019-01-23T08:29:46.268079Z'
+steamid: 360
+gogslug: ''
+humblestoreid: ''

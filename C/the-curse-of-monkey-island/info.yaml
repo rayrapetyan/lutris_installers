@@ -1,0 +1,16 @@
+name: The Curse of Monkey Island
+slug: the-curse-of-monkey-island
+year: 1997
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/the-curse-of-monkey-island.jpg
+icon_url: /games/icon/the-curse-of-monkey-island.png
+is_public: true
+updated: '2019-01-23T08:31:39.973217Z'
+steamid: 730820
+gogslug: the_curse_of_monkey_island
+humblestoreid: ''

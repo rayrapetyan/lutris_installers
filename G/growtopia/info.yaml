@@ -1,0 +1,17 @@
+name: Growtopia
+slug: growtopia
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: MMO
+- name: Platformer
+- name: Sandbox
+aliases: []
+banner_url: /games/banner/growtopia.jpg
+icon_url: null
+is_public: true
+updated: '2019-07-01T07:26:23.835884Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

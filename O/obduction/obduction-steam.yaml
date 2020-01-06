@@ -1,0 +1,81 @@
+id: 8622
+game_id: 8885
+game_slug: obduction
+name: Obduction
+year: 2016
+user: Jozua
+runner: winesteam
+slug: obduction-steam
+version: Steam
+description: null
+notes: On first launch, a Steam window will be stuck installing DirectX. When this
+  comes up, wait a tad and close the window. Then, reopen Obduction.
+created_at: '2018-06-09T09:40:22.948000Z'
+updated_at: '2019-03-07T20:46:38.041815Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: 306760
+gogid: 2003665371
+gogslug: obduction
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - merge:
+      src: mfplat_dll_64
+      dst: $GAMEDIR/prefix/drive_c/windows/system32
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: mf
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      component: mediafoundation
+      cabfile: $HOME/.cache/winetricks/win7sp1/windows6.1-KB976932-X86.exe
+      name: install_cab_component
+  - task:
+      prefix: $GAMEDIR/prefix
+      component: mf_
+      cabfile: $HOME/.cache/winetricks/win7sp1/windows6.1-KB976932-X86.exe
+      name: install_cab_component
+  - task:
+      prefix: $GAMEDIR/prefix
+      component: mfreadwrite
+      cabfile: $HOME/.cache/winetricks/win7sp1/windows6.1-KB976932-X86.exe
+      name: install_cab_component
+  - task:
+      prefix: $GAMEDIR/prefix
+      component: wmadmod
+      cabfile: $HOME/.cache/winetricks/win7sp1/windows6.1-KB976932-X86.exe
+      name: install_cab_component
+  - task:
+      prefix: $GAMEDIR/prefix
+      component: wmvdecod
+      cabfile: $HOME/.cache/winetricks/win7sp1/windows6.1-KB976932-X86.exe
+      name: install_cab_component
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: xact
+      name: winetricks
+  winesteam:
+    version: tkg-protonified-4.1-x86_64
+    overrides:
+      mfplat: native,builtin
+      mf: native,builtin
+      mfreadwrite: native,builtin
+      xaudio2_7: native,builtin
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  files:
+  - mfplat_dll_64: https://lutris.net/files/tools/dll/mfplat/x64/mfplat.dll
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 306760
+    arch: win64

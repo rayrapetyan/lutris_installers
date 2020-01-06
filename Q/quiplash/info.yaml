@@ -1,0 +1,16 @@
+name: Quiplash
+slug: quiplash
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Casual
+- name: Party
+aliases: []
+banner_url: /games/banner/quiplash.jpg
+icon_url: /games/icon/quiplash.png
+is_public: true
+updated: '2019-01-23T08:30:53.425862Z'
+steamid: 351510
+gogslug: ''
+humblestoreid: ''

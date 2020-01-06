@@ -1,0 +1,17 @@
+name: 'Grand Theft Auto: London 1969'
+slug: grand-theft-auto-london-1969
+year: 1999
+platforms:
+- name: MS-DOS
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/grand-theft-auto-london-1969.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:42.446377Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,16 @@
+name: Mare Nostrum
+slug: mare-nostrum
+year: 2008
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: FPS
+aliases: []
+banner_url: /games/banner/mare-nostrum.jpg
+icon_url: /games/icon/mare-nostrum.png
+is_public: true
+updated: '2019-01-23T08:30:17.544363Z'
+steamid: 1230
+gogslug: ''
+humblestoreid: ''

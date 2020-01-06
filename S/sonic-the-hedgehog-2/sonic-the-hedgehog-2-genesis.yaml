@@ -1,0 +1,31 @@
+id: 17381
+game_id: 6062
+game_slug: sonic-the-hedgehog-2
+name: Sonic the Hedgehog 2
+year: 1992
+user: leandrovitals
+runner: libretro
+slug: sonic-the-hedgehog-2-genesis
+version: Genesis
+description: null
+notes: ''
+created_at: '2019-12-17T00:41:26.613000Z'
+updated_at: '2019-12-20T18:33:43.700409Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 71163
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: rom
+      dst: $GAMEDIR
+  files:
+  - rom: N/A:Select the game's ROM file
+  game:
+    core: genesis_plus_gx
+    main_file: rom

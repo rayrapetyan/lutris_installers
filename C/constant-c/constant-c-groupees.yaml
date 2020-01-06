@@ -1,0 +1,38 @@
+id: 5798
+game_id: 2102
+game_slug: constant-c
+name: Constant C
+year: null
+user: FakeShemp
+runner: wine
+slug: constant-c-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-18T18:54:07.942000Z'
+updated_at: '2018-05-19T03:41:53.331257Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 251510
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      app: xna40
+      name: winetricks
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      args: /sp- /verysilent /norestart /suppressmsgboxes /nogui
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Constant C/ConstantC.exe
+    arch: win32

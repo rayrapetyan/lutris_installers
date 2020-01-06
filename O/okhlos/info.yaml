@@ -1,0 +1,16 @@
+name: Okhlos
+slug: okhlos
+year: 2016
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/okhlos.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:36.149604Z'
+steamid: 400180
+gogslug: okhlos
+humblestoreid: ''

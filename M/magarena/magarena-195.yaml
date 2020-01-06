@@ -1,0 +1,32 @@
+id: 2856
+game_id: 7842
+game_slug: magarena
+name: Magarena
+year: 2010
+user: Lulu
+runner: linux
+slug: magarena-195
+version: '1.95'
+description: null
+notes: ''
+created_at: '2016-10-07T18:27:53.224000Z'
+updated_at: '2019-10-29T00:47:20.026967Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: installer
+  - chmodx: Magarena.sh
+  files:
+  - installer:
+      filename: Magarena-1.95.zip
+      url: https://github.com/magarena/magarena/releases/download/1.95/Magarena-1.95.zip
+  game:
+    exe: Magarena.sh

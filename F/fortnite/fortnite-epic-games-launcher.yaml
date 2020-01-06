@@ -1,0 +1,92 @@
+id: 7185
+game_id: 14194
+game_slug: fortnite
+name: Fortnite
+year: 2017
+user: potz_
+runner: wine
+slug: fortnite-epic-games-launcher
+version: Epic Games Launcher
+description: The game does not work due to Easy Anti Cheat. Please let know Epic Games
+  that you are interested in playing on Linux. Epic Games has released Fortnite on
+  7 different platforms and is currently the most wealthy video game company and yet
+  they have made the decision not to support Linux. Make your voice heard and demand
+  native support!
+notes: "If the <a href=\"https://cdn.discordapp.com/attachments/288951868082749441/476766447381512202/unknown.png\"\
+  >BattlEye Launcher opens</a> when launching Fortnite follow these steps:\r\n\r\n\
+  1. Quit the Epic Games Launcher and make sure no Wine processes are running.\r\n\
+  2. Open regedit (right-click Fortnite > Wine registry) and navigate to <b>HKEY_CURRENT_USER\\\
+  Software\\Epic Games\\Unreal Engine\\Identifiers</b>\r\n3. Delete the <b>MachineId</b>\
+  \ key\r\n4. Launch Fortnite\r\n\r\nIf the BattlEye Launcher still opens repeat steps\
+  \ 1-4 until Fortnite opens.\r\n\r\nOptional: After installing Fortnite add \"com.epicgames.launcher://apps/Fortnite?action=launch&silent=true\"\
+  \ (without quotes) to the arguments field in Game options after \"-SkipBuildPatchPrereq\"\
+  \ to have Fortnite boot directly."
+created_at: '2018-01-28T22:34:02.039000Z'
+updated_at: '2019-04-19T07:14:37.051413Z'
+draft: false
+published: true
+published_by: 51687
+rating: '1'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE/dxsetup
+      file: audio
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR
+      args: /silent
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  - task:
+      prefix: $GAMEDIR
+      app: arial
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: faudio
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  - task:
+      executable: epic
+      prefix: $GAMEDIR
+      arch: win64
+      args: /q
+      exclude_processes: EpicGamesLauncher.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  game:
+    prefix: $GAMEDIR
+    args: -SkipBuildPatchPrereq -opengl
+    exe: drive_c/Program Files (x86)/Epic Games/Launcher/Portal/Binaries/Win32/EpicGamesLauncher.exe
+    arch: win64
+  system:
+    env:
+      MESA_GL_VERSION_OVERRIDE: 4.4COMPAT
+  wine:
+    version: tkg-4.6-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - epic: https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi
+  - audio: https://lutris.net/files/tools/directx-2010.tar.gz

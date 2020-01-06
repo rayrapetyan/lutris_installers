@@ -1,0 +1,24 @@
+id: 1674
+game_id: 472
+game_slug: retro-city-rampagetm
+name: Retro City Rampage DX
+year: 2012
+user: RobLoach
+runner: steam
+slug: retro-city-rampagetm-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-11-02T12:23:06.742213Z'
+updated_at: '2016-01-05T17:42:11.914479Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 204630
+gogid: null
+gogslug: ''
+humblestoreid: retro-city-rampage-dx
+script:
+  game:
+    appid: 204630

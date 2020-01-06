@@ -1,0 +1,24 @@
+id: 6487
+game_id: 14525
+game_slug: urban-rivals
+name: Urban Rivals
+year: 2006
+user: fanotriel
+runner: steam
+slug: urban-rivals-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-11-29T21:30:58.131000Z'
+updated_at: '2018-04-26T00:15:57.902986Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 715310
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 715310

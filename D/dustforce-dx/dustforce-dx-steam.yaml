@@ -1,0 +1,24 @@
+id: 12563
+game_id: 24001
+game_slug: dustforce-dx
+name: Dustforce DX
+year: 2012
+user: cxf
+runner: steam
+slug: dustforce-dx-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-03-30T00:02:02.264463Z'
+updated_at: '2019-03-30T00:02:07.060757Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 65300
+gogid: 1207660253
+gogslug: dustforce_dx
+humblestoreid: ''
+script:
+  game:
+    appid: 65300

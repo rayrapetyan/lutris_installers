@@ -1,0 +1,36 @@
+id: 4666
+game_id: 341
+game_slug: wallace-gromit-ep-3-muzzled
+name: 'Wallace & Gromit Ep 3: Muzzled!'
+year: null
+user: FakeShemp
+runner: wine
+slug: wallace-gromit-ep-3-muzzled-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-27T08:35:34.030000Z'
+updated_at: '2018-05-19T03:41:54.135240Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 31120
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/WG NoDRM/WallaceGromit103_200910201151_full_nodrm.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Telltale Games/Wallace and Gromits Grand Adventures/Muzzled/WallaceGromit103.exe
+    arch: win32

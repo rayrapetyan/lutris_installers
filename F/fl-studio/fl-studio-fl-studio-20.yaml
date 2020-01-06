@@ -1,0 +1,49 @@
+id: 13068
+game_id: 26981
+game_slug: fl-studio
+name: FL Studio
+year: 1997
+user: cxf
+runner: wine
+slug: fl-studio-fl-studio-20
+version: FL Studio 20
+description: null
+notes: ''
+created_at: '2019-04-24T03:10:55.339000Z'
+updated_at: '2019-10-27T08:52:31.208355Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Image-Line/FL Studio 20/FL64 (scaled).exe
+    arch: win64
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /S
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: gdiplus allfonts windowmanagermanaged=y win10
+      arch: win64
+      name: winetricks
+  wine:
+    version: tkg-4.0-x86_64
+    overrides:
+      d2d1: disabled
+  files:
+  - setup:
+      filename: flstudio_win_20.5.1.1193.exe
+      url: https://support.image-line.com/redirect/flstudio20_win_installer

@@ -1,0 +1,33 @@
+id: 399
+game_id: 1805
+game_slug: soldier-of-fortune
+name: Soldier of Fortune
+year: 2000
+user: strider
+runner: linux
+slug: soldier-of-fortune-liflg
+version: liflg
+description: Native version from CD Rom
+notes: ''
+created_at: '2014-01-27T22:51:19.646000Z'
+updated_at: '2016-09-20T18:03:09.794336Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: sof.sh
+  installer:
+  - insert-disc:
+      requires: setup.sh
+      message: Please insert the Soldier of Fortune CD
+  - chmodx: sof-installer
+  - execute:
+      args: --destination=$GAMEDIR
+      file: sof-installer
+  files:
+  - sof-installer: http://lutris.net/files/games/soldier-of-fortune/sof_1.06a-english_x86.mojo.run

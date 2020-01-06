@@ -1,0 +1,41 @@
+id: 13697
+game_id: 8941
+game_slug: jalopy
+name: Jalopy
+year: 2018
+user: cxf
+runner: wine
+slug: jalopy-gog-w-dxvk
+version: GOG w/ DXVK
+description: null
+notes: ''
+created_at: '2019-05-24T04:48:53.969000Z'
+updated_at: '2019-05-24T05:15:49.278896Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 446020
+gogid: 1268302405
+gogslug: jalopy
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES /NOCANCEL
+      name: wineexec
+  system:
+    env:
+      DXVK_HUD: 0
+  wine:
+    dxvk: true
+  file:
+  - setup: N/A:Please select the Windows GOG setup exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Jalopy/Jalopy.exe

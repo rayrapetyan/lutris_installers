@@ -1,0 +1,17 @@
+name: Darkwood
+slug: darkwood
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Horror
+- name: RPG
+- name: Survival
+aliases: []
+banner_url: /games/banner/darkwood.jpg
+icon_url: /games/icon/darkwood.png
+is_public: true
+updated: '2019-01-23T08:29:05.173372Z'
+steamid: 274520
+gogslug: darkwood
+humblestoreid: ''

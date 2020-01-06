@@ -1,0 +1,17 @@
+name: 88 Heroes
+slug: 88-heroes
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Arcade
+- name: Platformer
+aliases: []
+banner_url: /games/banner/88-heroes.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:09.732982Z'
+steamid: 487040
+gogslug: 88_heroes
+humblestoreid: ''

@@ -1,0 +1,33 @@
+id: 9172
+game_id: 19486
+game_slug: time-commando
+name: Time Commando
+year: 1996
+user: jbsathler
+runner: wine
+slug: time-commando-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2018-07-11T19:34:53.596672Z'
+updated_at: '2018-07-12T04:37:10.085663Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1207658987
+gogslug: time_commando
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: install
+      prefix: $GAMEDIR/prefix
+      args: /LANG=en /SP- /NOCANCEL /SUPPRESSMSGBOXES /NOGUI /DIR="C:/game"
+      name: wineexec
+  files:
+  - install: N/A:Select the Windows setup file downloaded from GOG
+  game:
+    prefix: $GAMEDIR/prefix
+    exe: $GAMEDIR/prefix/drive_c/game/TIMECO.EXE

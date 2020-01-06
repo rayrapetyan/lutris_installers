@@ -1,0 +1,23 @@
+id: 7068
+game_id: 15584
+game_slug: nationstates
+name: NationStates
+year: 2002
+user: cxf
+runner: browser
+slug: nationstates-browser
+version: Browser
+description: null
+notes: ''
+created_at: '2018-01-11T20:04:28.548517Z'
+updated_at: '2018-01-11T20:05:30.219629Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://www.nationstates.net/

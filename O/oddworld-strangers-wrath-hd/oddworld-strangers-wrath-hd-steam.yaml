@@ -1,0 +1,24 @@
+id: 6373
+game_id: 1260
+game_slug: oddworld-strangers-wrath-hd
+name: 'Oddworld: Stranger''s Wrath HD'
+year: 2010
+user: strider
+runner: winesteam
+slug: oddworld-strangers-wrath-hd-steam
+version: Steam
+description: null
+notes: Incomplete controller support, any help appreciated.
+created_at: '2017-11-18T22:50:47.075000Z'
+updated_at: '2017-11-19T01:45:19.731242Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 15750
+gogid: 1207658950
+gogslug: oddworld_strangers_wrath
+humblestoreid: oddworld-strangers-wrath-hd
+script:
+  game:
+    appid: 15750

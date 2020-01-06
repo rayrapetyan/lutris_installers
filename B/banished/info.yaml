@@ -1,0 +1,16 @@
+name: Banished
+slug: banished
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: City building
+- name: Management
+aliases: []
+banner_url: /games/banner/banished.jpg
+icon_url: /games/icon/banished.png
+is_public: true
+updated: '2019-01-23T08:28:31.412668Z'
+steamid: 242920
+gogslug: banished
+humblestoreid: ''

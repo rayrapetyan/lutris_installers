@@ -1,0 +1,19 @@
+name: "LEGO\xAE Jurassic World"
+slug: lego-jurassic-world
+year: 2015
+platforms:
+- name: Nintendo 3DS
+- name: Nintendo Wii U
+- name: Sony Playstation 3
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/lego-jurassic-world.jpg
+icon_url: /games/icon/lego-jurassic-world.png
+is_public: true
+updated: '2019-10-11T01:41:30.576417Z'
+steamid: 352400
+gogslug: ''
+humblestoreid: ''

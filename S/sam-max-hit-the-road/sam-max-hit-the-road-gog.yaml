@@ -1,0 +1,37 @@
+id: 1098
+game_id: 66
+game_slug: sam-max-hit-the-road
+name: Sam & Max Hit the Road
+year: 1993
+user: Xodetaetl
+runner: scummvm
+slug: sam-max-hit-the-road-gog
+version: GOG
+description: null
+notes: Requires the latest version of GOG's Linux installer.
+created_at: '2014-11-17T10:53:11.824000Z'
+updated_at: '2019-05-11T00:07:02.287759Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 355170
+gogid: 1207666303
+gogslug: sam_max_hit_the_road
+humblestoreid: ''
+script:
+  scummvm:
+    aspect: true
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/data
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    game_id: samnmax
+    path: $GAMEDIR

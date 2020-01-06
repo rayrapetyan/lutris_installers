@@ -1,0 +1,17 @@
+name: Alone in the Dark 3
+slug: alone-in-the-dark-3
+year: 1994
+platforms:
+- name: MS-DOS
+- name: Windows
+genres:
+- name: Action
+- name: Horror
+aliases: []
+banner_url: /games/banner/alone-in-the-dark-3.jpg
+icon_url: /games/icon/alone-in-the-dark-3.png
+is_public: true
+updated: '2019-12-22T18:59:16.967988Z'
+steamid: null
+gogslug: alone_in_the_dark
+humblestoreid: ''

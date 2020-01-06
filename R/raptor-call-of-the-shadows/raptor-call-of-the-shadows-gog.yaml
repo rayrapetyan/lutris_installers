@@ -1,0 +1,33 @@
+id: 2271
+game_id: 6518
+game_slug: raptor-call-of-the-shadows
+name: 'Raptor: Call of The Shadows'
+year: 2010
+user: ssf
+runner: wine
+slug: raptor-call-of-the-shadows-gog
+version: GOG
+description: 2010 Edition from GOG
+notes: Recent GOG installer required (v2 or above).
+created_at: '2016-07-06T03:17:30.156027Z'
+updated_at: '2016-07-23T14:04:31.635815Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: 336060
+gogid: 1207658879
+gogslug: raptor_call_of_the_shadows_2010_edition
+humblestoreid: raptor-call-of-the-shadows-2010-edition
+script:
+  installer:
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /VERYSILENT /SUPPRESSMSGBOXES
+      name: wineexec
+  files:
+  - game: N/A:Please select the Windows installer provided by GOG
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Raptor - Call of the Shadows/Raptor.exe

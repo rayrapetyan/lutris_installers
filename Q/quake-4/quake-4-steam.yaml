@@ -1,0 +1,28 @@
+id: 1779
+game_id: 879
+game_slug: quake-4
+name: Quake IV
+year: 2005
+user: strider
+runner: winesteam
+slug: quake-4-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2015-12-28T21:43:08.177000Z'
+updated_at: '2018-07-05T17:21:32.248275Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 2210
+gogid: 1108791957
+gogslug: quake_4
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-3.11-x86_64
+    Desktop: true
+  game:
+    appid: 2210
+    arch: win64

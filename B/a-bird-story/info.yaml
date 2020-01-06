@@ -1,0 +1,16 @@
+name: A Bird Story
+slug: a-bird-story
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/a-bird-story.jpg
+icon_url: /games/icon/a-bird-story.png
+is_public: true
+updated: '2019-01-23T08:28:10.295768Z'
+steamid: 327410
+gogslug: a_bird_story
+humblestoreid: ''

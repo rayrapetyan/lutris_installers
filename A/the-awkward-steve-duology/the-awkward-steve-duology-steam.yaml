@@ -1,0 +1,24 @@
+id: 14144
+game_id: 16013
+game_slug: the-awkward-steve-duology
+name: THE AWKWARD STEVE DUOLOGY
+year: 2017
+user: kimchitea
+runner: steam
+slug: the-awkward-steve-duology-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-06-17T04:19:27.836335Z'
+updated_at: '2019-10-11T00:01:18.543328Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 536770
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 536770

@@ -1,0 +1,40 @@
+id: 6182
+game_id: 137
+game_slug: grand-theft-auto-2
+name: Grand Theft Auto 2
+year: 1999
+user: FakeShemp
+runner: wine
+slug: grand-theft-auto-2-rockstar-classics
+version: Rockstar Classics
+description: null
+notes: ''
+created_at: '2017-10-29T16:21:55.701000Z'
+updated_at: '2019-06-13T07:12:32.872062Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 12180
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - extract:
+      dst: $CACHE
+      file: installer
+  - task:
+      executable: $CACHE/GTA2.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - installer: N/A:Please select the Rockstar Classics archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Rockstar Games/GTA2/gta2.exe
+    arch: win32

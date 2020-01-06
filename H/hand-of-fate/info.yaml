@@ -1,0 +1,17 @@
+name: Hand Of Fate
+slug: hand-of-fate
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Cards
+- name: RPG
+aliases: []
+banner_url: /games/banner/hand-of-fate.jpg
+icon_url: /games/icon/hand-of-fate.png
+is_public: true
+updated: '2019-01-23T08:29:46.803207Z'
+steamid: 266510
+gogslug: hand_of_fate
+humblestoreid: ''

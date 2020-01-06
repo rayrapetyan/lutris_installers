@@ -1,0 +1,28 @@
+id: 7011
+game_id: 15678
+game_slug: my-magical-divorce-bureau
+name: My Magical Divorce Bureau!!
+year: 2017
+user: FakeShemp
+runner: linux
+slug: my-magical-divorce-bureau-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2018-01-04T20:46:12.621844Z'
+updated_at: '2018-01-04T20:47:11.770377Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: MMDB.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

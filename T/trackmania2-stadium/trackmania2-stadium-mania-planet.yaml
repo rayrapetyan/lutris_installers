@@ -1,0 +1,41 @@
+id: 15760
+game_id: 1529
+game_slug: trackmania2-stadium
+name: "TrackMania\xB2 Stadium"
+year: 2013
+user: BenTGNU
+runner: wine
+slug: trackmania2-stadium-mania-planet
+version: Mania Planet
+description: null
+notes: ''
+created_at: '2019-09-23T05:47:23.310000Z'
+updated_at: '2019-10-27T08:51:48.929334Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 232910
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: d3dx9
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - setup: N/A:Select Maniaplanet Setup TMStadium.exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/ManiaPlanet/ManiaPlanetLauncher.exe
+    arch: win32

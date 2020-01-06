@@ -1,0 +1,24 @@
+id: 6933
+game_id: 2402
+game_slug: skyborn
+name: Skyborn
+year: null
+user: Exdaix
+runner: winesteam
+slug: skyborn-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-31T21:09:44.416000Z'
+updated_at: '2018-01-01T15:40:18.579177Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 278460
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 278460

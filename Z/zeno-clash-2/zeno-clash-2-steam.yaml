@@ -1,0 +1,24 @@
+id: 4398
+game_id: 378
+game_slug: zeno-clash-2
+name: Zeno Clash 2
+year: null
+user: strider
+runner: winesteam
+slug: zeno-clash-2-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-06-16T18:43:22.561867Z'
+updated_at: '2017-06-16T18:43:27.706099Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 215690
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 215690

@@ -1,0 +1,28 @@
+id: 1995
+game_id: 2499
+game_slug: volgarr-the-viking
+name: Volgarr the Viking
+year: 2013
+user: Juan
+runner: linux
+slug: volgarr-the-viking-humble-bundle
+version: Humble Bundle
+description: ''
+notes: ''
+created_at: '2016-02-28T18:41:07.553200Z'
+updated_at: '2016-03-03T10:50:34.647545Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 247240
+gogid: 1207659623
+gogslug: volgarr_the_viking
+humblestoreid: volgarr-the-viking
+script:
+  exe: Volgarr
+  installer:
+  - extract:
+      file: game
+  files:
+  - game: 'N/A: Select the .tar.gz archive downloaded from Humble Bundle'

@@ -1,0 +1,24 @@
+id: 6728
+game_id: 2111
+game_slug: one-finger-death-punch
+name: One Finger Death Punch
+year: null
+user: shadowilson
+runner: winesteam
+slug: one-finger-death-punch-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-19T21:56:13.545338Z'
+updated_at: '2017-12-21T15:22:44.212883Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 264200
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 264200

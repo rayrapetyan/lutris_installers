@@ -1,0 +1,55 @@
+id: 13070
+game_id: 23445
+game_slug: darksiders-iii
+name: Darksiders III
+year: 2018
+user: cxf
+runner: wine
+slug: darksiders-iii-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-04-24T04:43:58.184000Z'
+updated_at: '2019-12-29T08:36:12.261466Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 606280
+gogid: 1246703238
+gogslug: darksiders_iii
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: d3dcompiler_43 vcrun2015
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: win10
+      name: winetricks
+  - task:
+      app: mf_install_verb
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES /NOCANCEL
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Darksiders III/Darksiders3.exe
+    arch: win64
+  system:
+    pulse_latency: true
+  wine:
+    version: lutris-4.20-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - setup: N/A:Select gog Windows setup exe
+  - mf_install_verb: https://lutris.nyc3.digitaloceanspaces.com/tools/winetricks/mf_install.verb

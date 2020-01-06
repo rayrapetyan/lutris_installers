@@ -1,0 +1,24 @@
+id: 2412
+game_id: 6784
+game_slug: asa-a-space-adventure-remastered-edition
+name: 'ASA: A Space Adventure - Remastered Edition'
+year: null
+user: gschaffran
+runner: steam
+slug: asa-a-space-adventure-remaste-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-08-09T18:04:25.287517Z'
+updated_at: '2016-09-30T21:11:48.726784Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 329980
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 329980

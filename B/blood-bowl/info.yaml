@@ -1,0 +1,17 @@
+name: Blood Bowl
+slug: blood-bowl
+year: 2009
+platforms:
+- name: Nintendo DS
+- name: Sony PSP
+- name: Windows
+genres:
+- name: Sports
+aliases: []
+banner_url: /games/banner/blood-bowl.jpg
+icon_url: null
+is_public: true
+updated: '2019-03-29T18:16:18.924096Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

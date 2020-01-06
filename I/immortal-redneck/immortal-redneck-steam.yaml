@@ -1,0 +1,24 @@
+id: 7813
+game_id: 11160
+game_slug: immortal-redneck
+name: Immortal Redneck
+year: null
+user: catman1900
+runner: steam
+slug: immortal-redneck-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-04-06T20:29:52.518084Z'
+updated_at: '2018-04-12T05:59:20.381424Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 595140
+gogid: 2089001920
+gogslug: immortal_redneck
+humblestoreid: ''
+script:
+  game:
+    appid: 595140

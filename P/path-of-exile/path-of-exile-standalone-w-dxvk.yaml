@@ -1,0 +1,79 @@
+id: 6653
+game_id: 969
+game_slug: path-of-exile
+name: Path of Exile
+year: 2013
+user: shadowthorn22
+runner: wine
+slug: path-of-exile-standalone-w-dxvk
+version: Standalone w/ DXVK
+description: The game launches in DX11 mode.
+notes: ''
+created_at: '2017-12-13T19:22:27.246000Z'
+updated_at: '2019-09-09T00:32:34.084318Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 238960
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: win7
+      name: winetricks
+  - merge:
+      src: setup
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Grinding Gear Games/Path of Exile
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Rich Text Editor 2.0
+      app: riched20
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing Uniscribe 1.0
+      app: usp10
+      silent: true
+      name: winetricks
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      description: Installing Path Of Exile
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      key: VideoMemorySize
+      value: 8192
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D
+      name: set_regedit
+  game:
+    prefix: $GAMEDIR
+    args: --waitforpreload --nologo --nodx9ex --gc2
+    exe: $GAMEDIR/drive_c/Program Files (x86)/Grinding Gear Games/Path of Exile/PathOfExile.exe
+    arch: win64
+  system:
+    env:
+      DXVK_USE_PIPECOMPILER: 1
+      DXVK_USE_PLACEHOLDER_SHADERS: 1
+      DXVK_HUD: 0
+    reset_pulse: true
+    pulse_latency: true
+  wine:
+    version: tkg-4.6-x86_64
+    esync: true
+    dxvk: true
+    overrides:
+      d3dcompiler_47: native
+      xaudio2_7: native,builtin
+  files:
+  - setup: https://www.pathofexile.com/downloads/PathOfExileInstaller.exe

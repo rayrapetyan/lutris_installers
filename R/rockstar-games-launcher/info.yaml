@@ -1,0 +1,15 @@
+name: Rockstar Games Launcher
+slug: rockstar-games-launcher
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Tool
+aliases: []
+banner_url: /games/banner/rockstar-games-launcher.jpg
+icon_url: /games/icon/rockstar-games-launcher.png
+is_public: true
+updated: '2019-10-17T06:15:56.958026Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

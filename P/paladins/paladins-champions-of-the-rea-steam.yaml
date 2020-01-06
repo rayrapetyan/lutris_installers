@@ -1,0 +1,65 @@
+id: 2825
+game_id: 7724
+game_slug: paladins
+name: 'Paladins: Champions of the Realm'
+year: 2016
+user: strider
+runner: winesteam
+slug: paladins-champions-of-the-rea-steam
+version: Steam
+description: null
+notes: Easy Anti Cheat system prevents the game from running.
+created_at: '2016-10-01T21:05:07.691000Z'
+updated_at: '2018-11-24T21:02:07.831417Z'
+draft: false
+published: true
+published_by: 1
+rating: '1'
+steamid: 444090
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-3.21-x86_64
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing .NET 3.5
+      app: dotnet35
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing Visual C++ Runtime 2010
+      app: vcrun2010
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing DirectX9 D3D v43
+      app: d3dx9_43
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing DirectX11 D3D v43
+      app: d3dx11_43
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing DirectX11 D3D compiler v43
+      app: d3dcompiler_43
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing .NET 4.0
+      app: dotnet40
+      arch: win32
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 444090
+    arch: win32

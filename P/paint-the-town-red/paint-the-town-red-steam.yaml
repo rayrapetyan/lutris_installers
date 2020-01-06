@@ -1,0 +1,24 @@
+id: 3475
+game_id: 8338
+game_slug: paint-the-town-red
+name: Paint the Town Red
+year: 2015
+user: liberodark
+runner: steam
+slug: paint-the-town-red-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-04-01T10:23:51.386962Z'
+updated_at: '2017-04-05T16:21:30.845920Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 337320
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 337320

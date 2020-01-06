@@ -1,0 +1,17 @@
+name: 'Warhammer 40,000: Chaos Gate'
+slug: warhammer-40000-chaos-gate
+year: 1998
+platforms:
+- name: Windows
+genres:
+- name: Sci-fi
+- name: Strategy
+- name: Turn-based
+aliases: []
+banner_url: /games/banner/warhammer-40000-chaos-gate.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:05.629456Z'
+steamid: null
+gogslug: warhammer_40000_chaos_gate
+humblestoreid: ''

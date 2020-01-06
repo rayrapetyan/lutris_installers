@@ -1,0 +1,33 @@
+id: 4386
+game_id: 11753
+game_slug: knytt-stories
+name: Knytt Stories
+year: null
+user: FakeShemp
+runner: wine
+slug: knytt-stories-121
+version: 1.2.1
+description: null
+notes: ''
+created_at: '2017-06-16T10:22:04.137000Z'
+updated_at: '2019-10-28T20:58:53.625102Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Knytt Stories
+      file: $file1
+  files:
+  - file1:
+      filename: Knytt Stories 121.zip
+      url: https://nifflas.ni2.se/games/Knytt%20Stories%20121.zip
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Knytt Stories/Knytt Stories.exe

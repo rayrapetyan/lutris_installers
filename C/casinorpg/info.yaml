@@ -1,0 +1,17 @@
+name: CasinoRPG
+slug: casinorpg
+year: 2014
+platforms:
+- name: Browser
+genres:
+- name: Gambling
+- name: MMO
+- name: Simulation
+aliases: []
+banner_url: /games/banner/casinorpg.jpg
+icon_url: /games/icon/casinorpg.png
+is_public: true
+updated: '2019-01-23T08:28:47.210213Z'
+steamid: 658970
+gogslug: ''
+humblestoreid: ''

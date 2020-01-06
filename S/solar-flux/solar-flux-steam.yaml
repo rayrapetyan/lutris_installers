@@ -1,0 +1,24 @@
+id: 801
+game_id: 2656
+game_slug: solar-flux
+name: Solar Flux
+year: null
+user: Xodetaetl
+runner: steam
+slug: solar-flux-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-15T16:25:59.416000Z'
+updated_at: '2014-09-15T17:10:39.255000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 251910
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 251910

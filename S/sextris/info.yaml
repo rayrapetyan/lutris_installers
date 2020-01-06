@@ -1,0 +1,16 @@
+name: Sextris
+slug: sextris
+year: 1992
+platforms:
+- name: MS-DOS
+genres:
+- name: Action
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/sextris.jpg
+icon_url: null
+is_public: true
+updated: '2019-10-22T22:07:23.541240Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

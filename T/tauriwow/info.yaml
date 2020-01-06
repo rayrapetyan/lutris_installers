@@ -1,0 +1,15 @@
+name: TauriWOW
+slug: tauriwow
+year: 2004
+platforms:
+- name: Windows
+genres:
+- name: MMORPG
+aliases: []
+banner_url: /games/banner/tauriwow.jpg
+icon_url: null
+is_public: true
+updated: '2019-12-15T18:39:18.359847Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

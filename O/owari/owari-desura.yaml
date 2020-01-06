@@ -1,0 +1,32 @@
+id: 7009
+game_id: 15677
+game_slug: owari
+name: Owari
+year: 2014
+user: FakeShemp
+runner: wine
+slug: owari-desura
+version: Desura
+description: null
+notes: ''
+created_at: '2018-01-04T19:37:29.912217Z'
+updated_at: '2018-05-19T03:41:50.134145Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 547140
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Owari
+      file: $file1
+  files:
+  - file1: N/A:Please select the Desura archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Owari/owari.exe
+    arch: win32

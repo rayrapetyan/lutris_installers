@@ -1,0 +1,24 @@
+id: 9346
+game_id: 9679
+game_slug: pharaoh-cleopatra
+name: Pharaoh + Cleopatra
+year: null
+user: VGJUNKY
+runner: winesteam
+slug: pharaoh-cleopatra-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-24T00:43:15.489139Z'
+updated_at: '2018-07-24T04:44:04.072990Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 564530
+gogid: 1207659046
+gogslug: pharaoh_cleopatra
+humblestoreid: ''
+script:
+  game:
+    appid: 564530

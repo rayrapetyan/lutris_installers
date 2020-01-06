@@ -1,0 +1,18 @@
+name: Shrek the Third
+slug: shrek-the-third
+year: 2007
+platforms:
+- name: Nintendo Wii
+- name: Sony PlayStation 2
+- name: Sony PSP
+- name: Windows
+genres:
+- name: Platformer
+aliases: []
+banner_url: /games/banner/shrek-the-third.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-21T05:40:40.730903Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

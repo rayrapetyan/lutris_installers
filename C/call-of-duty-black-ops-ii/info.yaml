@@ -1,0 +1,15 @@
+name: 'Call of Duty: Black Ops II'
+slug: call-of-duty-black-ops-ii
+year: 2012
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/call-of-duty-black-ops-ii.jpg
+icon_url: /games/icon/call-of-duty-black-ops-ii.png
+is_public: true
+updated: '2019-01-23T08:28:44.552149Z'
+steamid: 202970
+gogslug: ''
+humblestoreid: ''

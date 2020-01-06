@@ -1,0 +1,24 @@
+id: 1486
+game_id: 4207
+game_slug: nightmares-from-the-deep-3-davy-jones
+name: 'Nightmares from the Deep 3: Davy Jones'
+year: null
+user: Xodetaetl
+runner: steam
+slug: nightmares-from-the-deep-3-da-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-04-25T17:46:37.473000Z'
+updated_at: '2015-04-25T17:55:47.023000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 284810
+gogid: 1074372977
+gogslug: nightmares_from_the_deep_3_davy_jones
+humblestoreid: ''
+script:
+  game:
+    appid: 284810

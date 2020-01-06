@@ -1,0 +1,24 @@
+id: 17564
+game_id: 29706
+game_slug: police-stories
+name: Police Stories
+year: 2019
+user: WouJy
+runner: linux
+slug: police-stories-steam
+version: Steam
+description: Install the Linux version of "Police Stories" from Steam.
+notes: ''
+created_at: '2019-12-25T14:07:09.266440Z'
+updated_at: '2019-12-25T14:07:09.266466Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 539470
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 539470

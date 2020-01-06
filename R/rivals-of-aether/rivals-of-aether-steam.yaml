@@ -1,0 +1,25 @@
+id: 5615
+game_id: 5352
+game_slug: rivals-of-aether
+name: Rivals of Aether
+year: null
+user: devush
+runner: winesteam
+slug: rivals-of-aether-steam
+version: Steam
+description: null
+notes: vcrun2010 is required to fix Vertex Shader crash. I'm not changing the installer
+  because I'm not aware of the proper formatting, but this can be done with Winetricks
+created_at: '2017-09-06T18:01:49.167000Z'
+updated_at: '2018-06-12T04:26:29.871037Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 383980
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 383980

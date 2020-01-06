@@ -1,0 +1,32 @@
+id: 8908
+game_id: 15886
+game_slug: error-human-not-found
+name: 'ERROR: Human Not Found'
+year: 2018
+user: kimchitea
+runner: linux
+slug: error-human-not-found-steam
+version: Steam
+description: Native Linux version using Steam game data.
+notes: ''
+created_at: '2018-06-25T18:30:15.638581Z'
+updated_at: '2018-06-26T03:35:25.593139Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 771450
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: ErrorHumanNotFound.sh
+  installer:
+  - merge:
+      src: steam-data
+      dst: $GAMEDIR
+  - chmodx: $GAMEDIR/ErrorHumanNotFound.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/ErrorHumanNotFound
+  - chmodx: $GAMEDIR/lib/linux-x86_64/ErrorHumanNotFound
+  files:
+  - steam-data: $WINESTEAM:771450:/

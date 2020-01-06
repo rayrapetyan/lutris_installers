@@ -1,0 +1,16 @@
+name: 'Megamind: The Blue Defender'
+slug: megamind-the-blue-defender
+year: 2010
+platforms:
+- name: Nintendo DS
+- name: Sony PSP
+genres:
+- name: Platformer
+aliases: []
+banner_url: /games/banner/megamind-the-blue-defender.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-13T14:28:24.341401Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

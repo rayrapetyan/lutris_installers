@@ -1,0 +1,24 @@
+id: 16533
+game_id: 4994
+game_slug: blazblue-continuum-shift-extend
+name: 'BlazBlue: Continuum Shift Extend'
+year: null
+user: monyarm
+runner: steam
+slug: blazblue-continuum-shift-exte-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-11-01T21:08:57.184000Z'
+updated_at: '2019-11-01T23:31:12.335853Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 294810
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 294810

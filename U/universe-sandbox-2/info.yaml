@@ -1,0 +1,18 @@
+name: "Universe Sandbox \xB2"
+slug: universe-sandbox-2
+year: 2015
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Sandbox
+- name: Simulation
+- name: Space simulation
+aliases: []
+banner_url: /games/banner/universe-sandbox-2.jpg
+icon_url: /games/icon/universe-sandbox-2.png
+is_public: true
+updated: '2019-08-17T07:03:47.381745Z'
+steamid: 230290
+gogslug: ''
+humblestoreid: ''

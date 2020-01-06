@@ -1,0 +1,15 @@
+name: Creatures Docking Station
+slug: creatures-docking-station
+year: 2001
+platforms:
+- name: Linux
+genres:
+- name: Life simulation
+aliases: []
+banner_url: /games/banner/creatures-docking-station.jpg
+icon_url: /games/icon/creatures-docking-station.png
+is_public: true
+updated: '2019-01-23T08:29:00.408717Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

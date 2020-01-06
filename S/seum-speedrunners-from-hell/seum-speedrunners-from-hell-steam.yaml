@@ -1,0 +1,24 @@
+id: 3449
+game_id: 7782
+game_slug: seum-speedrunners-from-hell
+name: 'SEUM: Speedrunners from Hell'
+year: null
+user: liberodark
+runner: steam
+slug: seum-speedrunners-from-hell-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-04-01T03:10:42.547905Z'
+updated_at: '2017-04-02T23:48:20.420708Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 457210
+gogid: 2120284974
+gogslug: seum_speedrunners_from_hell
+humblestoreid: ''
+script:
+  game:
+    appid: 457210

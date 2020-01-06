@@ -1,0 +1,15 @@
+name: 'Sunrider: Mask of Arcadius'
+slug: sunrider-mask-of-arcadius
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/sunrider-mask-of-arcadius.jpg
+icon_url: /games/icon/sunrider-mask-of-arcadius.png
+is_public: true
+updated: '2019-01-23T08:31:29.383958Z'
+steamid: 313730
+gogslug: sunrider_mask_of_arcadius
+humblestoreid: ''

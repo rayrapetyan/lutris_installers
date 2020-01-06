@@ -1,0 +1,24 @@
+id: 8675
+game_id: 11671
+game_slug: hunters-grimm
+name: Hunter's Grimm
+year: null
+user: soredake
+runner: winesteam
+slug: hunters-grimm-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-11T07:44:47.881413Z'
+updated_at: '2018-06-11T07:50:59.835635Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 577460
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 577460

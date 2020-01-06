@@ -1,0 +1,33 @@
+id: 6177
+game_id: 3420
+game_slug: darkstone
+name: Darkstone
+year: 1999
+user: FakeShemp
+runner: wine
+slug: darkstone-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-10-29T11:57:01.955000Z'
+updated_at: '2017-10-29T12:02:54.042525Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 320320
+gogid: 1207659025
+gogslug: darkstone
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      args: /sp- /verysilent /norestart /suppressmsgboxes /nogui
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Groupees installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Darkstone/Darkstone.exe

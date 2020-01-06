@@ -1,0 +1,15 @@
+name: Rift
+slug: rift
+year: 2011
+platforms:
+- name: Windows
+genres:
+- name: MMORPG
+aliases: []
+banner_url: /games/banner/rift.jpg
+icon_url: /games/icon/rift.png
+is_public: true
+updated: '2019-01-23T08:31:00.120418Z'
+steamid: 39120
+gogslug: ''
+humblestoreid: ''

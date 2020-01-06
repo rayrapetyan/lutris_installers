@@ -1,0 +1,54 @@
+id: 12153
+game_id: 2357
+game_slug: watch_dogs
+name: Watch Dogs
+year: 2014
+user: VortexAcherontic
+runner: wine
+slug: watch-dogs-uplay
+version: UPlay
+description: null
+notes: "+ After the installer finished please download the game via UPlay\r\n+ I recommend\
+  \ to disable the in game UPlay Overlay it might crash the game\r\n+ To get the sound\
+  \ working you need to open up the Wine Configuration, In the application tab pick\
+  \ \"Add Application\" .. then go into Program Files (x64)/Ubisoft/Ubisoft Game Launcher/games/Watch_Dogs/bin/Watch_Dogs.exe\
+  \ then click on \"Watch_Dogs.exe\" and choose it's OS as Windows XP"
+created_at: '2019-02-24T13:24:20.195000Z'
+updated_at: '2019-12-29T08:42:14.669833Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 243470
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: corefonts win7
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .NET 4.7.2
+      app: dotnet472
+      name: winetricks
+  - task:
+      executable: uplay
+      prefix: $GAMEDIR
+      args: /S
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/Uplay.exe
+  system:
+    pulse_latency: true
+  wine:
+    version: lutris-4.20-x86_64
+    dxvk: true
+  files:
+  - uplay: https://ubistatic3-a.akamaihd.net/orbit/launcher_installer/UplayInstaller.exe

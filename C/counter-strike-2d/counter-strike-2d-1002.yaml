@@ -1,0 +1,37 @@
+id: 2892
+game_id: 7863
+game_slug: counter-strike-2d
+name: Counter-Strike 2D
+year: 2004
+user: dj_who
+runner: linux
+slug: counter-strike-2d-1002
+version: 1.0.0.2
+description: ''
+notes: ''
+created_at: '2016-10-12T21:54:01.424000Z'
+updated_at: '2017-05-16T04:32:05.058052Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 666220
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $GAMEDIR
+      file: cs2d-lin
+  - extract:
+      format: zip
+      dst: $GAMEDIR
+      file: cs2d-win
+  files:
+  - cs2d-lin: http://www.unrealsoftware.de/get.php?get=cs2d_1002_linux.zip&p=1&cid=13315
+  - cs2d-win: http://www.unrealsoftware.de/get.php?get=cs2d_1002_win.zip&p=1&cid=13315
+  game:
+    args: -fullscreen -gl -24bit
+    exe: CounterStrike2D

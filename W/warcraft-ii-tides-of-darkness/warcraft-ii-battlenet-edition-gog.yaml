@@ -1,0 +1,40 @@
+id: 12552
+game_id: 6768
+game_slug: warcraft-ii-tides-of-darkness
+name: 'Warcraft II: Tides of Darkness'
+year: 1999
+user: knathrak
+runner: wine
+slug: warcraft-ii-battlenet-edition-gog
+version: GOG
+description: This is the GOG version of the game. By default it runs the launcher
+  which allows you to change some settings and run the old, or new version of the
+  game
+notes: During installation let it run without changing the deafule install location.
+  When prompted to run the game at the end of the GOG installer, DO NOT. Finish the
+  installer and then you will be able to launch the game normally.
+created_at: '2019-03-28T17:51:10.399000Z'
+updated_at: '2019-03-31T05:42:19.874242Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: 1418669891
+gogslug: warcraft_2_battlenet_edition
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES
+      name: wineexec
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Warcraft II BNE/War2Launcher.exe

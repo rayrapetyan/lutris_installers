@@ -1,0 +1,31 @@
+id: 9886
+game_id: 14058
+game_slug: the-legend-of-zelda-oracle-of-ages
+name: 'The Legend of Zelda: Oracle of Ages'
+year: 2001
+user: CharlyDelta
+runner: libretro
+slug: the-legend-of-zelda-oracle-of-gameboy-color
+version: Gameboy Color
+description: null
+notes: ''
+created_at: '2018-08-25T17:16:31.729072Z'
+updated_at: '2018-08-25T17:16:55.514276Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Gameboy Color image file
+  game:
+    core: gambatte
+    main_file: file1

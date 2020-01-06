@@ -1,0 +1,24 @@
+id: 2022
+game_id: 2246
+game_slug: knights-and-merchants
+name: Knights and Merchants
+year: 1998
+user: dennisjj4
+runner: steam
+slug: knights-and-merchants-histori-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-03-16T16:03:13.234642Z'
+updated_at: '2016-03-16T17:22:24.488144Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 253900
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 253900

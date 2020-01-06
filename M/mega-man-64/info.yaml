@@ -1,0 +1,17 @@
+name: Mega Man 64
+slug: mega-man-64
+year: 2000
+platforms:
+- name: Nintendo 64
+genres:
+- name: Action
+- name: Adventure
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/mega-man-64.jpg
+icon_url: null
+is_public: true
+updated: '2019-10-07T03:36:55.742832Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,17 @@
+name: Donkey Kong 64
+slug: donkey-kong-64
+year: 1999
+platforms:
+- name: Nintendo 64
+genres:
+- name: Action
+- name: Adventure
+- name: Platform
+aliases: []
+banner_url: /games/banner/donkey-kong-64.jpg
+icon_url: /games/icon/donkey-kong-64.png
+is_public: true
+updated: '2019-02-17T00:48:02.713302Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

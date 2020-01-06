@@ -1,0 +1,15 @@
+name: 'Quake II: Quad Damage'
+slug: quake-ii-quad-damage
+year: 1999
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/quake-ii-quad-damage.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:52.792827Z'
+steamid: null
+gogslug: quake_ii_quad_damage
+humblestoreid: ''

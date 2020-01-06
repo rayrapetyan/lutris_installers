@@ -1,0 +1,32 @@
+id: 4385
+game_id: 11753
+game_slug: knytt-stories
+name: Knytt Stories
+year: null
+user: FakeShemp
+runner: wine
+slug: knytt-stories-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-06-16T09:54:15.276026Z'
+updated_at: '2018-05-19T03:41:51.168770Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Knytt Stories
+      file: $file1
+  files:
+  - file1: N/A:Please select the IndieGameStand archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Knytt Stories/Knytt Stories.exe
+    arch: win32

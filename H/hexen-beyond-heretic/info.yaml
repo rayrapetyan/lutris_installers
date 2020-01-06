@@ -1,0 +1,15 @@
+name: 'HeXen: Beyond Heretic'
+slug: hexen-beyond-heretic
+year: 1995
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/hexen-beyond-heretic.jpg
+icon_url: /games/icon/hexen-beyond-heretic.png
+is_public: true
+updated: '2019-01-23T08:29:50.126069Z'
+steamid: 2360
+gogslug: ''
+humblestoreid: ''

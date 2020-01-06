@@ -1,0 +1,15 @@
+name: 'Duke Nukem 3D: Megaton Edition'
+slug: duke-nukem-3d-megaton-edition
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/duke-nukem-3d-megaton-edition.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:18.763291Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

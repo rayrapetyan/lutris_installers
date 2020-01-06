@@ -1,0 +1,29 @@
+id: 12519
+game_id: 26302
+game_slug: baba-is-you
+name: Baba Is You
+year: 2019
+user: antech
+runner: linux
+slug: baba-is-you-humble-bundle
+version: Humble Bundle
+description: null
+notes: ''
+created_at: '2019-03-25T19:52:06.860000Z'
+updated_at: '2019-03-26T04:01:39.148023Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 736260
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: file1
+  files:
+  - file1: N/A:Please select the Humble Bundle archive
+  game:
+    exe: run.sh

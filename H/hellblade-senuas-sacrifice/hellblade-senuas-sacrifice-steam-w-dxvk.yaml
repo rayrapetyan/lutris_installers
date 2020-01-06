@@ -1,0 +1,26 @@
+id: 5647
+game_id: 13498
+game_slug: hellblade-senuas-sacrifice
+name: 'Hellblade: Senua''s Sacrifice'
+year: 2017
+user: strider
+runner: winesteam
+slug: hellblade-senuas-sacrifice-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2017-09-10T06:53:50.110000Z'
+updated_at: '2019-12-29T08:37:44.111204Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 414340
+gogid: 1573355755
+gogslug: hellblade_senuas_sacrifice
+humblestoreid: ''
+script:
+  winesteam:
+    dxvk: true
+  game:
+    appid: 414340

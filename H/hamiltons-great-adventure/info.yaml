@@ -1,0 +1,16 @@
+name: Hamilton's Great Adventure
+slug: hamiltons-great-adventure
+year: 2011
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/hamiltons-great-adventure.jpg
+icon_url: /games/icon/hamiltons-great-adventure.png
+is_public: false
+updated: '2019-01-23T08:29:46.606834Z'
+steamid: 42140
+gogslug: ''
+humblestoreid: ''

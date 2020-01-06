@@ -1,0 +1,48 @@
+id: 14490
+game_id: 21682
+game_slug: age-of-empires
+name: Age of Empires
+year: 1997
+user: izolight
+runner: wine
+slug: age-of-empires-upatch-hd
+version: Upatch HD
+description: "This script is a complement installer to \"Age of Empires I\" and \"\
+  Age of Empires I: Rise of Rome\" or \"Age of Empires I: Gold Edition\", they should\
+  \ be installed before to launch this installer. \r\nDuring install please let all\
+  \ options by default.\r\nCredits: https://upatch-hd.weebly.com/\r\nThanks to the\
+  \ people who contributed to play this game in the best conditions."
+notes: "- \"Age of Empires: Rise of Rome\" will be updated to unofficial 1.1-R4 version.\r\
+  \n- Support for 9 game languages: English, German, French, Spanish, Portuguese,\
+  \ Italian, Polish, Russian and Chinese.\r\n- Please report issue concerning this\
+  \ script on my Github page:\r\nhttps://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2019-07-09T20:38:38.381000Z'
+updated_at: '2019-10-22T20:05:33.723125Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: winemono
+      name: wineexec
+  - extract:
+      dst: $CACHE
+      file: upatchhd
+  - task:
+      executable: $CACHE/UPatch HD 1.1-R4 Setup.exe
+      name: wineexec
+  files:
+  - upatchhd:
+      filename: UPatch_HD_1.1-R4.zip
+      url: https://www.dropbox.com/s/nh7nudvgtrvlgwd/UPatch_HD_1.1-R4.zip?dl=1
+  - winemono: http://dl.winehq.org/wine/wine-mono/4.9.3/wine-mono-4.9.3.msi
+  extends: age-of-empires
+  wine:
+    version: ge-protonified-nofshack-4.9-x86_64
+    Desktop: true

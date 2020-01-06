@@ -1,0 +1,24 @@
+id: 1901
+game_id: 889
+game_slug: flotilla
+name: Flotilla
+year: null
+user: WildCoder
+runner: winesteam
+slug: flotilla-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-01-17T17:46:53.056525Z'
+updated_at: '2016-09-30T20:24:36.497719Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 55000
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 55000

@@ -1,0 +1,17 @@
+name: 'Max Payne 2: The Fall of Max Payne'
+slug: max-payne-2-the-fall-of-max-payne
+year: 2003
+platforms:
+- name: Sony PlayStation 2
+- name: Windows
+genres:
+- name: Action
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/max-payne-2-the-fall-of-max-payne.jpg
+icon_url: /games/icon/max-payne-2-the-fall-of-max-payne.png
+is_public: true
+updated: '2019-01-23T08:30:19.762899Z'
+steamid: 12150
+gogslug: ''
+humblestoreid: ''

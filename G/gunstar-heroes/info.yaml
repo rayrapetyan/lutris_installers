@@ -1,0 +1,17 @@
+name: Gunstar Heroes
+slug: gunstar-heroes
+year: 1993
+platforms:
+- name: Sega Game Gear
+- name: Sega Genesis / Mega Drive
+genres:
+- name: Action
+- name: Shooter
+aliases: []
+banner_url: /games/banner/gunstar-heroes.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:45.190762Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

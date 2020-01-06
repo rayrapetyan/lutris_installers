@@ -1,0 +1,16 @@
+name: Sam & Max Hit the Road
+slug: sam-max-hit-the-road
+year: 1993
+platforms:
+- name: MS-DOS
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/sam-max-hit-the-road.jpg
+icon_url: /games/icon/sam-max-hit-the-road.png
+is_public: true
+updated: '2019-03-24T02:39:56.610506Z'
+steamid: 355170
+gogslug: sam_max_hit_the_road
+humblestoreid: ''

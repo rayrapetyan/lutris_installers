@@ -1,0 +1,15 @@
+name: Bethesda Launcher
+slug: bethesda-launcher
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Tool
+aliases: []
+banner_url: /games/banner/bethesda-launcher.jpg
+icon_url: /games/icon/bethesda-launcher.png
+is_public: true
+updated: '2019-01-23T08:28:35.044029Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

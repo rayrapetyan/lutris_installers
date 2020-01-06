@@ -1,0 +1,16 @@
+name: To the Moon
+slug: to-the-moon
+year: 2011
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/to-the-moon.jpg
+icon_url: /games/icon/to-the-moon.png
+is_public: true
+updated: '2019-01-23T08:31:53.803091Z'
+steamid: 206440
+gogslug: to_the_moon
+humblestoreid: ''

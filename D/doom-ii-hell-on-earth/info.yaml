@@ -1,0 +1,16 @@
+name: 'Doom II: Hell on Earth'
+slug: doom-ii-hell-on-earth
+year: 1994
+platforms:
+- name: Linux
+- name: Nintendo Game Boy Advance
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/doom-ii-hell-on-earth.jpg
+icon_url: /games/icon/doom-ii-hell-on-earth.png
+is_public: true
+updated: '2019-01-23T08:29:15.447613Z'
+steamid: 2300
+gogslug: ''
+humblestoreid: ''

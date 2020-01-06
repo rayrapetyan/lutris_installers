@@ -1,0 +1,24 @@
+id: 9671
+game_id: 19895
+game_slug: cognizer
+name: Cognizer
+year: null
+user: soredake
+runner: winesteam
+slug: cognizer-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-10T13:57:43.374385Z'
+updated_at: '2018-08-11T06:40:42.836437Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 711690
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 711690

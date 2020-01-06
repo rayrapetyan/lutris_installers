@@ -1,0 +1,44 @@
+id: 8843
+game_id: 155
+game_slug: torchlight
+name: Torchlight
+year: 2009
+user: basxto
+runner: linux
+slug: torchlight-humble
+version: Humble
+description: Uses out-dated SDL2 for working mouse and sound
+notes: ''
+created_at: '2018-06-21T08:09:18.998442Z'
+updated_at: '2018-06-21T15:59:01.341953Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 41500
+gogid: 1207659069
+gogslug: torchlight
+humblestoreid: ''
+script:
+  installer:
+  - execute:
+      args: -u -r -l -d $GAMEDIR -b $GAMEDIR --nox11
+      file: $game
+  - execute:
+      args: --tar xvf -C $CACHE
+      file: $game
+  - execute:
+      command: "if (uname -m | grep \"64\"); then\n arch=\"x86_64\";\nelse\n arch=\"\
+        x86\";\nfi;\n\"$CACHE/bin/linux/$arch/libc.so.6/lzma\" d \"$CACHE/subarch\"\
+        \ - | tar xvf - -C \"$CACHE/\" &&\n\"$CACHE/bin/linux/$arch/libc.so.6/lzma\"\
+        \ d \"$CACHE/deps/SDL2/SDL2_files_linux_$arch\" - | tar xvf - -C \"$GAMEDIR/Torchlight/\"\
+        \n"
+  - write_file:
+      content: "#!/bin/sh\nif (uname -m | grep \"64\"); then\n arch=\"x86_64\";\n\
+        else\n arch=\"x86\";\nfi;\n./Torchlight/Torchlight.bin.$arch\n"
+      file: $GAMEDIR/start.sh
+  - chmodx: $GAMEDIR/start.sh
+  files:
+  - game: 'N/A: Please select the .sh install file downloaded from humblebundle.com'
+  game:
+    exe: $GAMEDIR/start.sh

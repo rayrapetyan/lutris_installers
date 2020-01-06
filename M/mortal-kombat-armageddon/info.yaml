@@ -1,0 +1,16 @@
+name: 'Mortal Kombat: Armageddon'
+slug: mortal-kombat-armageddon
+year: 2006
+platforms:
+- name: Nintendo Wii
+- name: Sony PlayStation 2
+genres:
+- name: Fighting
+aliases: []
+banner_url: /games/banner/mortal-kombat-armageddon.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:26.673967Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

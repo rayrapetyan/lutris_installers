@@ -1,0 +1,24 @@
+id: 588
+game_id: 1548
+game_slug: eldritch
+name: Eldritch
+year: 2013
+user: Xodetaetl
+runner: steam
+slug: eldritch-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2014-09-14T20:58:11.296000Z'
+updated_at: '2014-09-14T20:58:16.355000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 252630
+gogid: null
+gogslug: ''
+humblestoreid: eldritch
+script:
+  game:
+    appid: 252630

@@ -1,0 +1,15 @@
+name: Ankama Launcher
+slug: ankama-launcher
+year: 2019
+platforms:
+- name: Linux
+genres:
+- name: Tool
+aliases: []
+banner_url: /games/banner/ankama-launcher.jpg
+icon_url: /games/icon/ankama-launcher.png
+is_public: true
+updated: '2019-03-23T22:36:58.867950Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

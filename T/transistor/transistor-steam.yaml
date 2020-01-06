@@ -1,0 +1,24 @@
+id: 1008
+game_id: 2878
+game_slug: transistor
+name: Transistor
+year: 2014
+user: RobLoach
+runner: steam
+slug: transistor-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2014-10-31T04:15:39.713000Z'
+updated_at: '2014-10-31T16:47:52.646000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 237930
+gogid: 1429612159
+gogslug: transistor
+humblestoreid: ''
+script:
+  game:
+    appid: 237930

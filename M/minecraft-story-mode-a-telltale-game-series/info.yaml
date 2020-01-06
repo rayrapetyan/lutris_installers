@@ -1,0 +1,17 @@
+name: 'Minecraft: Story Mode - A Telltale Game Series'
+slug: minecraft-story-mode-a-telltale-game-series
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Fantasy
+- name: TPP
+aliases: []
+banner_url: /games/banner/minecraft-story-mode-a-telltale-game-series.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:23.971719Z'
+steamid: null
+gogslug: minecraft_story_mode
+humblestoreid: ''

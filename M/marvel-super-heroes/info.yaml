@@ -1,0 +1,17 @@
+name: Marvel Super Heroes
+slug: marvel-super-heroes
+year: 1995
+platforms:
+- name: Arcade
+- name: Sega Saturn
+- name: Sony PlayStation
+genres:
+- name: Fighting
+aliases: []
+banner_url: /games/banner/marvel-super-heroes.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-13T14:04:33.755741Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

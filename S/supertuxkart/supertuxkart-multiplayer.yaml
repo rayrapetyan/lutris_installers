@@ -1,0 +1,33 @@
+id: 10896
+game_id: 2833
+game_slug: supertuxkart
+name: SuperTuxKart
+year: 2004
+user: strider
+runner: linux
+slug: supertuxkart-multiplayer
+version: Multiplayer
+description: null
+notes: ''
+created_at: '2018-11-18T01:23:39.804000Z'
+updated_at: '2018-11-18T22:30:50.715393Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: stknet
+  - extract:
+      dst: $GAMEDIR/lib
+      file: libcurl
+  files:
+  - stknet: https://lutris.nyc3.digitaloceanspaces.com/games/supertuxkart/SuperTuxKart-0.9.3-net-x86_64.tar.gz
+  - libcurl: https://lutris.net/files/lib64/libcurl.so.4.gz
+  game:
+    exe: run_game.sh

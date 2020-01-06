@@ -1,0 +1,15 @@
+name: Space Fighter
+slug: space-fighter
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/space-fighter.jpg
+icon_url: /games/icon/space-fighter.png
+is_public: true
+updated: '2019-01-23T08:31:20.353284Z'
+steamid: 691540
+gogslug: ''
+humblestoreid: ''

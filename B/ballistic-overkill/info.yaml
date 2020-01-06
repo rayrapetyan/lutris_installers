@@ -1,0 +1,18 @@
+name: Ballistic Overkill
+slug: ballistic-overkill
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: FPS
+- name: Strategy
+aliases: []
+banner_url: /games/banner/ballistic-overkill.jpg
+icon_url: /games/icon/ballistic-overkill.png
+is_public: true
+updated: '2019-01-23T08:28:31.091420Z'
+steamid: 296300
+gogslug: ''
+humblestoreid: ''

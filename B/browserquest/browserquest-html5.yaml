@@ -1,0 +1,25 @@
+id: 2881
+game_id: 7881
+game_slug: browserquest
+name: BrowserQuest
+year: 2012
+user: ssf
+runner: browser
+slug: browserquest-html5
+version: HTML5
+description: "The existing link goes to a main screen with a changelog.  \r\nhttps://rastergames.itch.io/browserquest\r\
+  \n\r\nIf you want it to go straight to the login screen, change the link to:\r\n\
+  https://browserquest2.rastergames.com/"
+notes: Doesn't require a particular browser.
+created_at: '2016-10-11T14:55:48.637000Z'
+updated_at: '2019-09-09T00:18:36.250259Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://rastergames.itch.io/browserquest

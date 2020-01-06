@@ -1,0 +1,17 @@
+name: Wings.io
+slug: wingsio
+year: 2015
+platforms:
+- name: Browser
+genres:
+- name: Action
+- name: Casual
+- name: MMO
+aliases: []
+banner_url: /games/banner/wingsio.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:09.081865Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

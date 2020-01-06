@@ -1,0 +1,24 @@
+id: 9148
+game_id: 6070
+game_slug: danganronpa-trigger-happy-havoc
+name: 'Danganronpa: Trigger Happy Havoc'
+year: 2016
+user: kimchitea
+runner: steam
+slug: danganronpa-trigger-happy-hav-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-11T02:07:03.520000Z'
+updated_at: '2018-07-12T04:39:19.330602Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 413410
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 413410

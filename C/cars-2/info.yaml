@@ -1,0 +1,16 @@
+name: Cars 2
+slug: cars-2
+year: 2011
+platforms:
+- name: Nintendo Wii
+- name: Windows
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/cars-2.jpg
+icon_url: /games/icon/cars-2.png
+is_public: true
+updated: '2019-01-23T08:28:46.925785Z'
+steamid: 301760
+gogslug: ''
+humblestoreid: ''

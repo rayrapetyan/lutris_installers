@@ -1,0 +1,38 @@
+id: 11963
+game_id: 14349
+game_slug: vegas-pro-13-edit
+name: Vegas Pro 13 Edit
+year: null
+user: cxf
+runner: winesteam
+slug: vegas-pro-13-edit-steam-power-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-02-11T07:45:35.858879Z'
+updated_at: '2019-02-11T07:45:43.726854Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 278210
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2012
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing .NET 4.7.2
+      app: dotnet472 win7
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 278210

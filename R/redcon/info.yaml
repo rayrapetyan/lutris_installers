@@ -1,0 +1,18 @@
+name: REDCON
+slug: redcon
+year: 2016
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Indie
+- name: Strategy
+- name: Tower defense
+aliases: []
+banner_url: /games/banner/redcon.jpg
+icon_url: /games/icon/redcon.png
+is_public: true
+updated: '2019-03-01T13:32:36.700846Z'
+steamid: 449710
+gogslug: ''
+humblestoreid: ''

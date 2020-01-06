@@ -1,0 +1,40 @@
+id: 5183
+game_id: 4781
+game_slug: squarelands
+name: Squarelands
+year: null
+user: FakeShemp
+runner: wine
+slug: squarelands-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-24T20:05:19.108000Z'
+updated_at: '2018-05-19T03:41:57.355227Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 383560
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Squarelands
+      file: $file1
+  - task:
+      prefix: $GAMEDIR
+      app: dotnet45
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: xna40
+      name: winetricks
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Squarelands/Squarelands.exe
+    arch: win32

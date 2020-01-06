@@ -1,0 +1,33 @@
+id: 1783
+game_id: 1111
+game_slug: doom-3-bfg-edition
+name: 'Doom 3: BFG Edition'
+year: 2012
+user: strider
+runner: linux
+slug: doom-3-bfg-edition-native-steam-data-64
+version: Native + Steam data (64bit)
+description: Uses the open source engine RBDoomBFG
+notes: ''
+created_at: '2015-12-28T23:21:57.132000Z'
+updated_at: '2018-10-03T03:05:02.022299Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 208200
+gogid: 1733124578
+gogslug: doom_3_bfg_edition
+humblestoreid: ''
+script:
+  exe: RBDoom3BFG
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: rbdoom
+  - merge:
+      src: game_assets
+      dst: $GAMEDIR/base
+  files:
+  - game_assets: $WINESTEAM:208200:base
+  - rbdoom: https://lutris.nyc3.digitaloceanspaces.com/games/doom-3/rbdoom-3-bfg-1.0.3.1401-x86_64.tar.gz

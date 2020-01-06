@@ -1,0 +1,24 @@
+id: 8687
+game_id: 19257
+game_slug: stoneshard
+name: Stoneshard
+year: 2018
+user: TuiorGames
+runner: steam
+slug: stoneshard-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-11T12:00:26.790000Z'
+updated_at: '2018-08-07T03:38:00.894153Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 625960
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 625960

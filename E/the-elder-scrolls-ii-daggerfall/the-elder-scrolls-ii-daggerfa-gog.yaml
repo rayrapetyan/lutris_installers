@@ -1,0 +1,85 @@
+id: 5126
+game_id: 1593
+game_slug: the-elder-scrolls-ii-daggerfall
+name: 'The Elder Scrolls II: Daggerfall'
+year: 1996
+user: FakeShemp
+runner: dosbox
+slug: the-elder-scrolls-ii-daggerfa-gog
+version: GOG
+description: null
+notes: "For MIDI audio:\r\n\r\nMethod 1 (higher quality, might need to install additional\
+  \ packages):\r\nI - Need to install fluid-soundfont-gm and fluidsynth. For Mint\
+  \ 19:\r\nsudo apt install -y fluid-soundfont-gm fluidsynth\r\nII - Open terminal\
+  \ and run the command (needs to be run each time you want to play):\r\nfluidsynth\
+  \ -l -s -i -aalsa -o audio.alsa.device=default /usr/share/sounds/sf2/FluidR3_GM.sf2\r\
+  \nIII - Start the game.\r\n\r\nMethod 2 (lower quality, no additional packages):\r\
+  \nI - Configure --> Game Options --> Main File --> Select 'dosbox_daggerfall_settings.conf'\r\
+  \nII - Run the game and you'll start the Setup\r\nIII - Either do Autodetect or\
+  \ Select MIDI --> Sound Blaster Pro --> Port 338\r\nIV - Test to make sure it works\r\
+  \nV - OK --> OK and save configuration\r\nVI - Configure --> Game Options --> Main\
+  \ File --> Select 'dosbox_daggerfall_single.conf'\r\nVII - Start the game"
+created_at: '2017-07-20T21:20:29.177000Z'
+updated_at: '2018-09-03T05:21:10.358607Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: DOSBOX/dosbox_daggerfall_single.conf
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file2
+  - execute:
+      args: -d "$CACHE" "$file1"
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/app
+      dst: $GAMEDIR
+  - merge:
+      src: $GAMEDIR/dosbox_daggerfall_single.conf
+      dst: $GAMEDIR/DOSBOX
+  - merge:
+      src: $GAMEDIR/dosbox_daggerfall.conf
+      dst: $GAMEDIR/DOSBOX
+  - merge:
+      src: $GAMEDIR/dosbox_daggerfall_settings.conf
+      dst: $GAMEDIR/DOSBOX
+  - merge:
+      src: $GAMEDIR/dosbox_daggerfall_fixsave.conf
+      dst: $GAMEDIR/DOSBOX
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/DOSBOX/dosbox_daggerfall.conf
+  - write_config:
+      section: sdl
+      key: fullscreen
+      value: true
+      file: $GAMEDIR/DOSBOX/dosbox_daggerfall.conf
+  - write_config:
+      section: sdl
+      key: fullresolution
+      value: 1920x1080
+      file: $GAMEDIR/DOSBOX/dosbox_daggerfall.conf
+  - write_config:
+      section: cpu
+      key: cycles
+      value: max
+      file: $GAMEDIR/DOSBOX/dosbox_daggerfall.conf
+  - write_config:
+      section: midi
+      key: midiconfig
+      value: '128:0'
+      file: $GAMEDIR/DOSBOX/dosbox_daggerfall.conf
+  files:
+  - file1: N/A:Please select the GOG installer
+  - file2: https://lutris.net/files/tools/innoextract.tar.gz
+  game:
+    config_file: $GAMEDIR/DOSBOX/dosbox_daggerfall.conf

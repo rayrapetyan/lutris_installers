@@ -1,0 +1,24 @@
+id: 2325
+game_id: 930
+game_slug: kings-bounty-warriors-of-the-north
+name: 'King''s Bounty: Warriors of the North'
+year: null
+user: s1ns3nt
+runner: winesteam
+slug: kings-bounty-warriors-of-the-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: ''
+created_at: '2016-07-22T01:13:27.422923Z'
+updated_at: '2016-07-27T12:49:43.937845Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 203350
+gogid: 1207667083
+gogslug: kings_bounty_warriors_of_the_north
+humblestoreid: ''
+script:
+  game:
+    appid: 203350

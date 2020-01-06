@@ -1,0 +1,36 @@
+id: 471
+game_id: 2034
+game_slug: zero-ballistics
+name: Zero Ballistics
+year: 2008
+user: strider
+runner: linux
+slug: zero-ballistics-20
+version: '2.0'
+description: Download url fix
+notes: "2017.11.01 Fixed download url in blackPanther OS Gnu/Lnux\r\n2015.11.26: Fixed\
+  \ multiple issues preventing launch."
+created_at: '2014-05-29T16:16:39.616000Z'
+updated_at: '2019-05-01T23:52:47.483756Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: start_client.sh
+  installer:
+  - extract:
+      file: zb-archive
+  - extract:
+      dst: $GAMEDIR/shared_libs
+      file: libjpeg
+  - extract:
+      file: scripts
+  files:
+  - zb-archive: https://ufpr.dl.sourceforge.net/project/zeroballistics/release/linux/zb_20.tar.bz2
+  - libjpeg: http://lutris.net/files/lib32/libjpeg.so.62.gz
+  - scripts: https://lutris.net/files/games/zero-ballistics/zero_ballistics_scripts.tar.gz

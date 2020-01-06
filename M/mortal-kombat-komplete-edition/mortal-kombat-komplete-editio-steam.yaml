@@ -1,0 +1,30 @@
+id: 4944
+game_id: 1328
+game_slug: mortal-kombat-komplete-edition
+name: Mortal Kombat Komplete Edition
+year: null
+user: NuSuey
+runner: winesteam
+slug: mortal-kombat-komplete-editio-steam
+version: Steam
+description: null
+notes: Works only in non-staging wine versions
+created_at: '2017-07-10T12:15:04.121000Z'
+updated_at: '2018-01-09T13:11:23.808557Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 237110
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  task:
+    prefix: $GAMEDIR
+    description: Installing DirectX 9
+    app: directx9
+    arch: win32
+    name: winetricks
+  game:
+    appid: 237110

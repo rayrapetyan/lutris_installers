@@ -1,0 +1,15 @@
+name: Super Meat Boy
+slug: super-meat-boy
+year: 2010
+platforms:
+- name: Linux
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/super-meat-boy.jpg
+icon_url: /games/icon/super-meat-boy.png
+is_public: true
+updated: '2019-01-23T08:31:30.755238Z'
+steamid: 40800
+gogslug: ''
+humblestoreid: super-meat-boy

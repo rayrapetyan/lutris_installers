@@ -1,0 +1,17 @@
+name: In Cold Blood
+slug: in-cold-blood
+year: 2001
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Stealth
+- name: TPP
+aliases: []
+banner_url: /games/banner/in-cold-blood.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:55.979853Z'
+steamid: null
+gogslug: in_cold_blood
+humblestoreid: ''

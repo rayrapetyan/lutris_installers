@@ -1,0 +1,40 @@
+id: 6163
+game_id: 3776
+game_slug: journey-of-the-king
+name: Journey of the King
+year: null
+user: FakeShemp
+runner: wine
+slug: journey-of-the-king-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-10-28T20:03:28.676000Z'
+updated_at: '2018-05-19T03:41:59.055783Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 327960
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Journey of the King
+      file: $file1
+  - task:
+      prefix: $GAMEDIR
+      app: corefonts
+      name: winetricks
+  files:
+  - file1: N/A:Please select the Groupees archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Journey of the King/JotK.exe
+    arch: win32

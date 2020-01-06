@@ -1,0 +1,30 @@
+id: 9846
+game_id: 21165
+game_slug: love2d
+name: Love2D
+year: null
+user: RobLoach
+runner: linux
+slug: love2d-111
+version: '11.1'
+description: Installs the Love2D engine.
+notes: ''
+created_at: '2018-08-22T18:26:09.764489Z'
+updated_at: '2018-08-22T20:00:56.483180Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $love2d
+  files:
+  - love2d: https://bitbucket.org/rude/love/downloads/love-11.1-linux-x86_64.tar.gz
+  game:
+    exe: $GAMEDIR/love

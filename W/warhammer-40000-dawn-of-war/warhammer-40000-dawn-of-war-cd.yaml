@@ -1,0 +1,54 @@
+id: 16205
+game_id: 313
+game_slug: warhammer-40000-dawn-of-war
+name: 'Warhammer 40,000: Dawn of War'
+year: 2004
+user: DerHenning
+runner: wine
+slug: warhammer-40000-dawn-of-war-cd
+version: CD
+description: null
+notes: ''
+created_at: '2019-10-15T20:00:17.515813Z'
+updated_at: '2019-10-15T20:00:17.515845Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: 4570
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: drive_c/Program Files/THQ/Dawn of War/W40k.exe
+  installer:
+  - task:
+      executable: ccinstaller
+      prefix: $GAMEDIR
+      requires: setup.exe
+      name: wineexec
+  - merge:
+      src: $DISC
+      description: Copying disc 1 to cache
+      dst: $CACHE/cdrom
+  - insert-disc:
+      requires: Data2.cab
+      message: Insert disc 2
+  - merge:
+      src: $DISC/Data2.cab
+      description: Copying disc 2 to cache
+      dst: $CACHE/cdrom
+  - insert-disc:
+      requires: Data3.cab
+      message: Insert disc 3
+  - merge:
+      src: $DISC/Data3.cab
+      description: Copying disc 3 to cache
+      dst: $CACHE/cdrom
+  - task:
+      executable: $CACHE/cdrom/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    arch: win32

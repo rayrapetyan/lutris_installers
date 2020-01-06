@@ -1,0 +1,24 @@
+id: 96
+game_id: 52
+game_slug: fez
+name: Fez
+year: 2012
+user: Xodetaetl
+runner: steam
+slug: fez-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2013-12-15T23:15:24.070000Z'
+updated_at: '2019-01-19T10:31:42.072606Z'
+draft: false
+published: true
+published_by: 19464
+rating: platinum
+steamid: 224760
+gogid: 1207659211
+gogslug: fez
+humblestoreid: fez
+script:
+  game:
+    appid: 224760

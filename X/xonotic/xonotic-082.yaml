@@ -1,0 +1,31 @@
+id: 24
+game_id: 32
+game_slug: xonotic
+name: Xonotic
+year: 2011
+user: strider
+runner: linux
+slug: xonotic-082
+version: 0.8.2
+description: ''
+notes: ''
+created_at: '2013-07-03T22:12:17Z'
+updated_at: '2017-04-02T21:26:03.338265Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: xonotic-linux-glx.sh
+  installer:
+  - extract:
+      file: xonotic-game
+  - chmodx: $GAMEDIR/xonotic-linux-glx.sh
+  - chmodx: $GAMEDIR/xonotic-linux64-glx
+  - chmodx: $GAMEDIR/xonotic-linux32-glx
+  files:
+  - xonotic-game: http://dl.xonotic.org/xonotic-0.8.2.zip

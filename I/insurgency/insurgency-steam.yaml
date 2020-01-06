@@ -1,0 +1,24 @@
+id: 1991
+game_id: 1864
+game_slug: insurgency
+name: Insurgency
+year: 2014
+user: Xodetaetl
+runner: steam
+slug: insurgency-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-02-26T17:13:50.916840Z'
+updated_at: '2016-02-26T19:50:44.315506Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 222880
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 222880

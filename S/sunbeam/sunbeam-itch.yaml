@@ -1,0 +1,28 @@
+id: 17037
+game_id: 30566
+game_slug: sunbeam
+name: Sunbeam
+year: 2017
+user: oscararg
+runner: linux
+slug: sunbeam-itch
+version: Itch
+description: null
+notes: ''
+created_at: '2019-11-26T23:24:00.043364Z'
+updated_at: '2019-11-26T23:24:00.043389Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Sunbeam.x86
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

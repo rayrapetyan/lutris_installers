@@ -1,0 +1,32 @@
+id: 2998
+game_id: 8396
+game_slug: night-mission-pinball
+name: Night Mission Pinball
+year: 1982
+user: beansmyname
+runner: vice
+slug: night-mission-pinball-commodore-64
+version: Commodore 64
+description: ''
+notes: ''
+created_at: '2016-11-11T04:19:40.651210Z'
+updated_at: '2016-11-22T19:13:21.011192Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: rom
+      dst: $GAMEDIR
+  files:
+  - rom: N/A:Select the Night Mission Pinball D64 zip
+  vice:
+    machine: c64
+  game:
+    main_file: rom

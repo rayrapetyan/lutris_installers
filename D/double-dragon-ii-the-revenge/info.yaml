@@ -1,0 +1,23 @@
+name: 'Double Dragon II: The Revenge'
+slug: double-dragon-ii-the-revenge
+year: 1988
+platforms:
+- name: Amiga
+- name: Amstrad CPC 464
+- name: Arcade
+- name: Atari ST
+- name: Commodore 64
+- name: NES
+- name: Sega Genesis / Mega Drive
+- name: TurboGrafx CD
+- name: ZX Spectrum
+genres:
+- name: Beat'em up
+aliases: []
+banner_url: /games/banner/double-dragon-ii-the-revenge.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:15.828079Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

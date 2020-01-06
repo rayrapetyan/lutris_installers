@@ -1,0 +1,24 @@
+id: 9720
+game_id: 15285
+game_slug: dominions-5
+name: Dominions 5
+year: 2017
+user: cxf
+runner: steam
+slug: dominions-5-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-13T06:38:37.750771Z'
+updated_at: '2018-08-13T06:38:43.786579Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 722060
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 722060

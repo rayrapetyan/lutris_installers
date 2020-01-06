@@ -1,0 +1,15 @@
+name: 'Space Quest: Chapter I - The Sarien Encounter'
+slug: space-quest-chapter-i-the-sarien-encounter
+year: 1986
+platforms:
+- name: MS-DOS
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/space-quest-chapter-i-the-sarien-encounter.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-30T19:23:21.467262Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

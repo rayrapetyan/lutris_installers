@@ -1,0 +1,24 @@
+id: 13682
+game_id: 14023
+game_slug: solargun
+name: SolarGun
+year: null
+user: AlucardNoir
+runner: steam
+slug: solargun-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-05-22T16:44:03.531686Z'
+updated_at: '2019-06-13T06:16:00.574244Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 553340
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 553340

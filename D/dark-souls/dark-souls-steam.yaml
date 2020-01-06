@@ -1,0 +1,58 @@
+id: 1298
+game_id: 819
+game_slug: dark-souls
+name: Dark Souls
+year: 2012
+user: strider
+runner: winesteam
+slug: dark-souls-steam
+version: Steam
+description: 'Dark Souls: Prepare to die edition for Steam'
+notes: ''
+created_at: '2015-02-22T22:21:47.774000Z'
+updated_at: '2018-07-19T13:27:29.358374Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 211420
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    xinput: true
+    overrides:
+      dinput8: native,builtin
+      xinput1_3: native,builtin
+  installer:
+  - extract:
+      dst: $GAMEDIR/DATA
+      file: dsfix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing Quartz
+      arch: win32
+      app: quartz
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing devenum
+      arch: win32
+      app: devenum
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing Windows Media Player 9
+      arch: win32
+      app: wmp9
+      silent: true
+      name: winetricks
+  files:
+  - dsfix: https://lutris.net/files/games/dark-souls/dsfix-xinput.tar.gz
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 211420
+    arch: win32

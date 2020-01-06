@@ -1,0 +1,24 @@
+id: 11947
+game_id: 16836
+game_slug: rules-of-survival
+name: Rules of Survival
+year: 2017
+user: OsamaBinlada
+runner: winesteam
+slug: rules-of-survival-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-02-10T00:51:27.041849Z'
+updated_at: '2019-02-15T01:24:00.187931Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 788260
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 788260

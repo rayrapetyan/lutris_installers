@@ -1,0 +1,15 @@
+name: Titan Quest
+slug: titan-quest
+year: 2006
+platforms:
+- name: Windows
+genres:
+- name: Hack and slash
+aliases: []
+banner_url: /games/banner/titan-quest.jpg
+icon_url: /games/icon/titan-quest.png
+is_public: true
+updated: '2019-01-23T08:31:51.822215Z'
+steamid: 4540
+gogslug: ''
+humblestoreid: ''

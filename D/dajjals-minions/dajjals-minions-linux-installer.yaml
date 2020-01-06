@@ -1,0 +1,30 @@
+id: 3214
+game_id: 9202
+game_slug: dajjals-minions
+name: Dajjal's Minions
+year: 2017
+user: ashes999
+runner: linux
+slug: dajjals-minions-linux-installer
+version: Linux Installer
+description: Final installer for the game. Unzips archive with executable.
+notes: ''
+created_at: '2017-01-30T04:37:14.337000Z'
+updated_at: '2017-03-16T02:54:29.696726Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: archive
+  - chmodx: $GAMEDIR/dajjals_minions
+  files:
+  - archive: http://deengames.com/games/linux/dajjals-minions-1.0.2-linux.zip
+  game:
+    exe: dajjals_minions

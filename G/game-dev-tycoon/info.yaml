@@ -1,0 +1,16 @@
+name: Game Dev Tycoon
+slug: game-dev-tycoon
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Simulation
+- name: Strategy
+aliases: []
+banner_url: /games/banner/game-dev-tycoon.jpg
+icon_url: /games/icon/game-dev-tycoon.png
+is_public: true
+updated: '2019-01-23T08:29:37.357992Z'
+steamid: 239820
+gogslug: ''
+humblestoreid: ''

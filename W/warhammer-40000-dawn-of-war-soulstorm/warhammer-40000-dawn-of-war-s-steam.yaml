@@ -1,0 +1,24 @@
+id: 3630
+game_id: 1325
+game_slug: warhammer-40000-dawn-of-war-soulstorm
+name: "Warhammer 40,000: Dawn of War \u2013 Soulstorm"
+year: 2008
+user: Cronyk
+runner: winesteam
+slug: warhammer-40000-dawn-of-war-s-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-05-04T18:49:04.757434Z'
+updated_at: '2017-05-07T00:32:13.361026Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 9450
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 9450

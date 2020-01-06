@@ -1,0 +1,38 @@
+id: 5701
+game_id: 7299
+game_slug: romcenter
+name: RomCenter
+year: 1997
+user: Lulu
+runner: wine
+slug: romcenter-371
+version: 3.7.1
+description: ''
+notes: ''
+created_at: '2017-09-11T20:37:53.699000Z'
+updated_at: '2017-09-17T19:25:21.151231Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - extract:
+      description: Extracting RomCenter
+      dst: $GAMEDIR/drive_c/Program Files/RomCenter
+      file: $download
+  files:
+  - download: http://www.romcenter.com/download/rc_3_7_1.zip
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/RomCenter/romcenter.exe
+    working_dir: $GAMEDIR/drive_c/Program Files/RomCenter
+    arch: win32

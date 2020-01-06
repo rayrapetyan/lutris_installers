@@ -1,0 +1,19 @@
+name: Titus The Fox
+slug: titus-the-fox
+year: 1992
+platforms:
+- name: Amiga
+- name: Amstrad CPC 464
+- name: Atari ST
+- name: Game Boy
+- name: Linux
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/titus-the-fox.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:51.947105Z'
+steamid: 711230
+gogslug: ''
+humblestoreid: ''

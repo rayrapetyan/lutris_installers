@@ -1,0 +1,74 @@
+id: 9424
+game_id: 3731
+game_slug: final-fantasy-xi
+name: FINAL FANTASY XI
+year: 2003
+user: cxf
+runner: wine
+slug: final-fantasy-xi-lite
+version: Lite
+description: This script will install the game WITHOUT expansions.
+notes: "Due to some problems with InstallShield, the installation has to be completed\
+  \ manually. Please do not change the default installation path.\r\n\r\nWhen running\
+  \ the game for the first time, it will take hours to update the game data to its\
+  \ latest version, so please be patient.\r\n\r\nVirtual desktop set to 800x600 by\
+  \ default. Change to your preferred resolution under runner options."
+created_at: '2018-07-27T23:37:39.402000Z'
+updated_at: '2019-10-19T23:07:23.186185Z'
+draft: true
+published: false
+published_by: 19464
+rating: ''
+steamid: 23360
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  require-binaries: 7z
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/polboot.exe
+  installer:
+  - execute:
+      command: 7z x "$CACHE/FINALFANTASYXI.Data*" -o"$CACHE/extracted" -bso1 -y
+      description: Extracting game data
+  - execute:
+      command: rm $CACHE/FINALFANTASYXI.Data.00*
+      description: Extracting game data
+  - task:
+      prefix: $GAMEDIR
+      description: Installing .NET Framework 3.5
+      app: dotnet35
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing DirectX 9
+      app: d3dx9
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Changing to Windows 7
+      app: win7
+      name: winetricks
+  - task:
+      executable: $CACHE/extracted/PlayOnline/setup.exe
+      prefix: $GAMEDIR
+      description: Installing PlayOnline Viewer
+      name: wineexec
+  - task:
+      executable: $CACHE/extracted/INST1/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  wine:
+    WineDesktop: 800x600
+    Desktop: true
+  files:
+  - installer-01:
+      filename: FINALFANTASYXI.Data.001
+      url: http://gdl.square-enix.com/ffxi/download/us/FINALFANTASYXI.Data.001
+  - installer-02:
+      filename: FINALFANTASYXI.Data.002
+      url: http://gdl.square-enix.com/ffxi/download/us/FINALFANTASYXI.Data.002
+  - installer-03:
+      filename: FINALFANTASYXI.Data.003
+      url: http://gdl.square-enix.com/ffxi/download/us/FINALFANTASYXI.Data.003

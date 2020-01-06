@@ -1,0 +1,24 @@
+id: 296
+game_id: 434
+game_slug: wasteland
+name: Wasteland
+year: 1988
+user: strider
+runner: steam
+slug: wasteland-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2013-12-20T00:21:43.135000Z'
+updated_at: '2014-02-03T01:10:07.190000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 259130
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 259130

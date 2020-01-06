@@ -1,0 +1,17 @@
+name: Bad North
+slug: bad-north
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Real-time strategy
+- name: Real-time tactics
+aliases: []
+banner_url: /games/banner/bad-north.jpg
+icon_url: /games/icon/bad-north.png
+is_public: true
+updated: '2019-01-23T08:28:30.716021Z'
+steamid: 688420
+gogslug: bad_north
+humblestoreid: ''

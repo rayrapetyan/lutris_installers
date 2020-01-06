@@ -1,0 +1,24 @@
+id: 1337
+game_id: 3778
+game_slug: across-the-rhine
+name: Across The Rhine
+year: null
+user: Xodetaetl
+runner: steam
+slug: across-the-rhine-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-02-25T19:41:19.444000Z'
+updated_at: '2015-02-25T20:44:03.392000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 329620
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 329620

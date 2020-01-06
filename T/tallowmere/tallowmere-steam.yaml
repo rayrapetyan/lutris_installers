@@ -1,0 +1,24 @@
+id: 1395
+game_id: 3979
+game_slug: tallowmere
+name: Tallowmere
+year: 2015
+user: Xodetaetl
+runner: steam
+slug: tallowmere-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-03-11T11:00:32.804000Z'
+updated_at: '2015-03-11T11:37:40.086000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 340520
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 340520

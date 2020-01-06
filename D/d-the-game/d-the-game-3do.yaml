@@ -1,0 +1,35 @@
+id: 11238
+game_id: 12182
+game_slug: d-the-game
+name: 'D: The Game'
+year: 1995
+user: soredake
+runner: libretro
+slug: d-the-game-3do
+version: 3DO
+description: null
+notes: ''
+created_at: '2018-12-16T09:44:53.827000Z'
+updated_at: '2019-08-10T01:22:28.796424Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 510590
+gogid: 1852354510
+gogslug: d_the_game
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: rom1
+      dst: $GAMEDIR
+  - merge:
+      src: rom2
+      dst: $GAMEDIR
+  files:
+  - rom1: N/A:Select the game's ROM cd1 file
+  - rom2: N/A:Select the game's ROM cd2 file
+  game:
+    core: 4do
+    main_file: rom1

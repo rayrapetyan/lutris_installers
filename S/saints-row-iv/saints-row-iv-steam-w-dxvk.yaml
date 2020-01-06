@@ -1,0 +1,29 @@
+id: 10895
+game_id: 959
+game_slug: saints-row-iv
+name: Saints Row IV
+year: 2013
+user: citrusalex
+runner: winesteam
+slug: saints-row-iv-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2018-11-17T23:51:00.666000Z'
+updated_at: '2019-06-05T04:46:22.074981Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: 206420
+gogid: 2037689757
+gogslug: saints_row_iv_game_of_the_century_edition
+humblestoreid: saints-row-iv-game-of-the-century-edition
+script:
+  winesteam:
+    dxvk_version: 1.0.3
+    version: ge-protonified-4.9-x86_64
+    esync: true
+    dxvk: true
+  game:
+    appid: 206420

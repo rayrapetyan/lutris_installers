@@ -1,0 +1,64 @@
+id: 2636
+game_id: 3471
+game_slug: broken-sword-25-the-return-of-the-templars
+name: 'Broken Sword 2.5: The Return of the Templars'
+year: 2008
+user: ssf
+runner: scummvm
+slug: broken-sword-25-the-return-of-patch-1
+version: Patch 1
+description: 'officially supported languages are: English, French, German, Spanish,
+  Italian, Polish, Croatian, Portuguese and Russian.'
+notes: ''
+created_at: '2016-08-31T16:07:19.854425Z'
+updated_at: '2016-09-30T21:15:53.845288Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $game
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: wine.create_prefix
+  - task:
+      prefix: $GAMEDIR
+      name: wine.set_regedit
+      type: REG_SZ
+      value: ''
+      key: winemenubuilder.exe
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+  - task:
+      executable: $CACHE/bs25-setup.exe
+      prefix: $GAMEDIR
+      args: /VERYSILENT /SP- /NOCANCEL /SUPPRESSMSGBOXES '/DIR=C:/game'
+      description: Installing ...
+      name: wine.wineexec
+  - extract:
+      description: Installing ...
+      dst: $GAMEDIR/drive_c/game
+      file: $game2
+  - execute:
+      args: -c 'mv $GAMEDIR/drive_c/game/* $GAMEDIR'
+      file: /bin/sh
+      description: cleaning...
+      terminal: false
+  - execute:
+      args: -c 'rm -rf $GAMEDIR/drive_c $GAMEDIR/dosdevices $GAMEDIR/*.reg'
+      file: /bin/sh
+      description: cleaning...
+      terminal: false
+  files:
+  - game: http://server.c-otto.de/baphometsfluch/bs25setup.zip
+  - game2: http://baphometsfluch25.de/downloads/sonstiges/BS25_patch000_multilingual.zip
+  game:
+    game_id: sword25
+    path: $GAMEDIR

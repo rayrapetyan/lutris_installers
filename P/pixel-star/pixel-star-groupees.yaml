@@ -1,0 +1,32 @@
+id: 6028
+game_id: 5821
+game_slug: pixel-star
+name: Pixel Star
+year: null
+user: FakeShemp
+runner: wine
+slug: pixel-star-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-10-20T16:38:07.792837Z'
+updated_at: '2018-05-19T03:41:58.011987Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 367300
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR/drive_c/Program Files/Pixel Star
+  files:
+  - file1: N/A:Please select the Groupees executable
+  game:
+    prefix: $GAMEDIR
+    exe: $file1
+    arch: win32

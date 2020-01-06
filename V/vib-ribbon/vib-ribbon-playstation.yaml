@@ -1,0 +1,28 @@
+id: 1131
+game_id: 3477
+game_slug: vib-ribbon
+name: Vib-Ribbon
+year: 1999
+user: Xodetaetl
+runner: pcsxr
+slug: vib-ribbon-playstation
+version: Playstation
+description: ''
+notes: ''
+created_at: '2014-11-22T17:49:44.821000Z'
+updated_at: '2014-11-22T17:50:30.281000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: iso
+      dst: $GAMEDIR
+  files:
+  - iso: N/A:Select the game's ISO disc image.

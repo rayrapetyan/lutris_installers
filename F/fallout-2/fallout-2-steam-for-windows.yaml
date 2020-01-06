@@ -1,0 +1,24 @@
+id: 1831
+game_id: 1313
+game_slug: fallout-2
+name: Fallout 2
+year: 1998
+user: djazz
+runner: winesteam
+slug: fallout-2-steam-for-windows
+version: Steam for Windows
+description: ''
+notes: ''
+created_at: '2016-01-06T11:30:17.725780Z'
+updated_at: '2016-01-06T12:55:22.442263Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 38410
+gogid: 1440166436
+gogslug: fallout_2
+humblestoreid: ''
+script:
+  game:
+    appid: 38410

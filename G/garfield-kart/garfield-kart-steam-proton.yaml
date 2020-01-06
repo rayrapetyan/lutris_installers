@@ -1,0 +1,24 @@
+id: 13927
+game_id: 6332
+game_slug: garfield-kart
+name: Garfield Kart
+year: 2013
+user: suckybell
+runner: steam
+slug: garfield-kart-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-06-04T22:40:23.354968Z'
+updated_at: '2019-06-13T06:28:02.565456Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 362930
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 362930

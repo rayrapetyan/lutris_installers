@@ -1,0 +1,31 @@
+id: 2417
+game_id: 7075
+game_slug: fruity
+name: Fruit'Y
+year: 2015
+user: strider
+runner: linux
+slug: fruity-100-64bit
+version: 1.00 64bit
+description: ''
+notes: ''
+created_at: '2016-08-10T08:51:07.730357Z'
+updated_at: '2016-08-10T08:58:20.626058Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: fruity_linux64
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: game
+  files:
+  - game: http://www.retroguru.com/fruity/fruity-v.latest-linux64.tar.gz
+  game:
+    args: -fs

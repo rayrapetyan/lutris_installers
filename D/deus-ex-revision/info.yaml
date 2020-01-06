@@ -1,0 +1,17 @@
+name: 'Deus Ex: Revision'
+slug: deus-ex-revision
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: RPG
+- name: Stealth
+aliases: []
+banner_url: /games/banner/deus-ex-revision.jpg
+icon_url: /games/icon/deus-ex-revision.png
+is_public: true
+updated: '2019-02-09T20:52:28.337791Z'
+steamid: 397550
+gogslug: ''
+humblestoreid: ''

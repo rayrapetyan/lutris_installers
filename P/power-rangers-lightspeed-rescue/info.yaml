@@ -1,0 +1,17 @@
+name: 'Power Rangers: Lightspeed Rescue'
+slug: power-rangers-lightspeed-rescue
+year: 2000
+platforms:
+- name: Game Boy
+- name: Sony PlayStation
+- name: Windows
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/power-rangers-lightspeed-rescue.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-15T22:35:30.788311Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,44 @@
+id: 2848
+game_id: 7831
+game_slug: ambient-prologue
+name: Ambient.Prologue
+year: null
+user: djazz
+runner: wine
+slug: ambientprologue-alpha-009
+version: Alpha 0.0.9
+description: ''
+notes: 64-bit only
+created_at: '2016-10-06T09:11:25.314000Z'
+updated_at: '2017-04-27T08:57:50.577242Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/Ambient_Alpha_0.0.9
+      file: game
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2015
+      arch: win64
+      silent: true
+      name: winetricks
+  files:
+  - game:
+      filename: ambient-alpha.zip
+      url: http://djazz.se/nas/games/?dl=ambient-alpha
+  game:
+    prefix: $GAMEDIR/prefix
+    exe: Ambient_Alpha_0.0.9/Ambient_Alpha_0.0.9.exe
+    arch: win64

@@ -1,0 +1,24 @@
+id: 11554
+game_id: 19903
+game_slug: disgaea-5-complete
+name: Disgaea 5 Complete
+year: null
+user: cxf
+runner: steam
+slug: disgaea-5-complete-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-01-12T01:45:43.525000Z'
+updated_at: '2019-09-10T20:09:01.105694Z'
+draft: false
+published: true
+published_by: 19464
+rating: '5'
+steamid: 803600
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 803600

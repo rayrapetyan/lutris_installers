@@ -1,0 +1,29 @@
+id: 2426
+game_id: 3236
+game_slug: strife-1996
+name: Strife (1996)
+year: 1996
+user: RobLoach
+runner: zdoom
+slug: strife-1996-zdoom-archive
+version: ZDoom + Archive
+description: ''
+notes: ''
+created_at: '2016-08-11T06:00:07.387869Z'
+updated_at: '2016-08-11T06:01:09.043091Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 317040
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: strife1.wad
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: wad-data
+  files:
+  - wad-data: N/A:Select an archive containing the Strife game files

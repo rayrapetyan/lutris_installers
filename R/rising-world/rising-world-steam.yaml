@@ -1,0 +1,24 @@
+id: 3446
+game_id: 3944
+game_slug: rising-world
+name: Rising World
+year: null
+user: liberodark
+runner: steam
+slug: rising-world-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-04-01T03:09:28.640606Z'
+updated_at: '2017-04-06T19:44:43.727679Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 324080
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 324080

@@ -1,0 +1,24 @@
+id: 1201
+game_id: 2990
+game_slug: metro-last-light-redux
+name: 'Metro: Last Light Redux'
+year: 2014
+user: Xodetaetl
+runner: steam
+slug: metro-last-light-redux-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-12-12T09:59:05.959000Z'
+updated_at: '2014-12-12T09:59:11.644000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 287390
+gogid: 1430740172
+gogslug: metro_last_light_redux
+humblestoreid: ''
+script:
+  game:
+    appid: 287390

@@ -1,0 +1,35 @@
+id: 12649
+game_id: 26490
+game_slug: goldeneye-source
+name: 'GoldenEye: Source'
+year: 2010
+user: antech
+runner: winesteam
+slug: goldeneye-source-506-full-installer
+version: 5.0.6 Full Installer
+description: null
+notes: ''
+created_at: '2019-04-07T01:25:18.467140Z'
+updated_at: '2019-04-07T01:25:18.467168Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $installer
+      blocking: true
+      name: winesteam.wineexec
+  files:
+  - installer: N/A:Please select the game's setup file
+  - sourcesdk_exe: $WINESTEAM:218:hl2.exe
+  game:
+    prefix: $GAMEDIR/prefix
+    args: -game gesource
+    appid: 379720
+    arch: win64

@@ -1,0 +1,15 @@
+name: 'Test Drive III: The Passion'
+slug: test-drive-iii-the-passion
+year: 1990
+platforms:
+- name: MS-DOS
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/test-drive-iii-the-passion.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-29T09:01:32.321629Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

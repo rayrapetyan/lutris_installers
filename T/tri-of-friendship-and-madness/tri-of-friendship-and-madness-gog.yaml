@@ -1,0 +1,37 @@
+id: 2393
+game_id: 3542
+game_slug: tri-of-friendship-and-madness
+name: 'TRI: Of Friendship and Madness'
+year: 2014
+user: Lulu
+runner: linux
+slug: tri-of-friendship-and-madness-gog
+version: GOG
+description: ''
+notes: ''
+created_at: '2016-08-07T19:15:13.668989Z'
+updated_at: '2016-08-17T01:54:01.871514Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 293660
+gogid: 1207666243
+gogslug: tri
+humblestoreid: ''
+script:
+  exe: Game/start.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/Game
+  files:
+  - game: 'N/A: Plese select the GOG.com Linux installer'
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

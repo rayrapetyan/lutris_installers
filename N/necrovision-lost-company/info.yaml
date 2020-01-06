@@ -1,0 +1,15 @@
+name: 'NecrovisioN: Lost Company'
+slug: necrovision-lost-company
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Shooter
+aliases: []
+banner_url: /games/banner/necrovision-lost-company.jpg
+icon_url: /games/icon/necrovision-lost-company.png
+is_public: true
+updated: '2019-12-17T19:54:54.981789Z'
+steamid: 46250
+gogslug: necrovision_lost_company
+humblestoreid: ''

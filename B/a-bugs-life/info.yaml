@@ -1,0 +1,19 @@
+name: A Bug's Life
+slug: a-bugs-life
+year: 1998
+platforms:
+- name: Nintendo 64
+- name: Nintendo Game Boy Color
+- name: Sony PlayStation
+- name: Sony PSP
+- name: Windows
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/a-bugs-life.jpg
+icon_url: /games/icon/a-bugs-life.png
+is_public: true
+updated: '2019-01-23T08:28:10.584147Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

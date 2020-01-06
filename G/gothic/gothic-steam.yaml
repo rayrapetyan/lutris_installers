@@ -1,0 +1,42 @@
+id: 10804
+game_id: 1481
+game_slug: gothic
+name: Gothic
+year: 2001
+user: soredake
+runner: winesteam
+slug: gothic-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-11-07T17:15:24.094252Z'
+updated_at: '2018-12-11T17:18:47.799686Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 65540
+gogid: 1207658682
+gogslug: gothic
+humblestoreid: ''
+script:
+  require-binaries: sed
+  winesteam:
+    overrides:
+      gameoverlayrenderer: disabled
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: directmusic
+      name: winetricks
+  - execute:
+      args: sed -i 's/scaleVideos=1/scaleVideos=0/g' '$GAMEDIR/system/Gothic.ini'
+      file: /usr/bin/env
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 65540
+    arch: win32

@@ -1,0 +1,29 @@
+id: 35
+game_id: 48
+game_slug: aquaria
+name: Aquaria
+year: 2007
+user: strider
+runner: linux
+slug: aquaria-humble-bundle
+version: Humble Bundle
+description: DRM Free version from Humble Bundle with the tar.gz file
+notes: ''
+created_at: '2013-07-03T21:58:30Z'
+updated_at: '2016-07-17T21:25:21.569073Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 24420
+gogid: 1430398832
+gogslug: aquaria
+humblestoreid: ''
+script:
+  exe: aquaria
+  installer:
+  - extract:
+      file: aquaria-game
+  files:
+  - aquaria-game: 'N/A: Please select the 32bit .tar.gz install file downloaded from
+      humblebundle.com'

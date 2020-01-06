@@ -1,0 +1,31 @@
+id: 9710
+game_id: 20886
+game_slug: animorphs-shattered-reality
+name: 'Animorphs: Shattered Reality'
+year: 2000
+user: te_lanus
+runner: libretro
+slug: animorphs-shattered-reality-playstation
+version: Playstation
+description: null
+notes: ''
+created_at: '2018-08-12T18:49:19.853488Z'
+updated_at: '2018-08-12T18:49:47.842503Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Playstation Disc
+  game:
+    core: mednafen_psx_hw
+    main_file: file1

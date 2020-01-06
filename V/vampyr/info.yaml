@@ -1,0 +1,17 @@
+name: Vampyr
+slug: vampyr
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/vampyr.jpg
+icon_url: /games/icon/vampyr.png
+is_public: true
+updated: '2019-01-23T08:32:01.352146Z'
+steamid: 427290
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,31 @@
+id: 9046
+game_id: 19762
+game_slug: extinction
+name: Extinction
+year: 2018
+user: TuiorGames
+runner: winesteam
+slug: extinction-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2018-07-06T13:18:57.847000Z'
+updated_at: '2019-02-14T06:00:16.998593Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 570710
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    appid: 570710
+    arch: win64

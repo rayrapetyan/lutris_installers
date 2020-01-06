@@ -1,0 +1,15 @@
+name: Age of Empires
+slug: age-of-empires
+year: 1997
+platforms:
+- name: Windows
+genres:
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/age-of-empires.jpg
+icon_url: /games/icon/age-of-empires.png
+is_public: true
+updated: '2019-10-15T11:50:46.208335Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

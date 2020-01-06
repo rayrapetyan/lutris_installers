@@ -1,0 +1,17 @@
+name: Horror Hotel
+slug: horror-hotel
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Horror
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/horror-hotel.jpg
+icon_url: null
+is_public: true
+updated: '2019-10-22T22:02:00.952605Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

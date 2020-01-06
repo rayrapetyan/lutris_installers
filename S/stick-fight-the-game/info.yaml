@@ -1,0 +1,16 @@
+name: 'Stick Fight: The Game'
+slug: stick-fight-the-game
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Fighting
+aliases: []
+banner_url: /games/banner/stick-fight-the-game.jpg
+icon_url: /games/icon/stick-fight-the-game.png
+is_public: true
+updated: '2019-01-23T08:31:26.981827Z'
+steamid: 674940
+gogslug: ''
+humblestoreid: ''

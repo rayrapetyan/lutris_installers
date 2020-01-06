@@ -1,0 +1,19 @@
+name: Tekken 2
+slug: tekken-2
+year: 1995
+platforms:
+- name: Arcade
+- name: Sony PlayStation
+- name: Sony Playstation 3
+- name: Sony PSP
+genres:
+- name: Arcade
+- name: Fighting
+aliases: []
+banner_url: /games/banner/tekken-2.jpg
+icon_url: null
+is_public: true
+updated: '2019-11-01T23:18:41.874301Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,45 @@
+id: 5775
+game_id: 2086
+game_slug: the-apogee-throwback-pack
+name: The Apogee Throwback Pack
+year: null
+user: maxlefou
+runner: dosbox
+slug: the-apogee-throwback-pack-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-09-17T19:10:56.473000Z'
+updated_at: '2018-05-19T05:25:16.466532Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 238050
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: steam-data
+      dst: $GAMEDIR
+  - merge:
+      src: launcher
+      dst: $GAMEDIR
+  - write_config:
+      section: cpu
+      key: cycles
+      value: max
+      file: $GAMEDIR/TATP.conf
+  - write_config:
+      section: sdl
+      key: output
+      value: overlay
+      file: $GAMEDIR/TATP.conf
+  files:
+  - steam-data: $WINESTEAM:238050:.
+  - launcher: https://bitbucket.org/!api/2.0/snippets/maxlefou/peBKg4/7d4d57a48e7979946e1d7a15b30f64424f9c43ae/files/TATP.bat
+  game:
+    config_file: TATP.conf
+    main_file: TATP.bat

@@ -1,0 +1,20 @@
+name: Rick Dangerous II
+slug: rick-dangerous-ii
+year: 1990
+platforms:
+- name: Amiga
+- name: Commodore 64
+- name: MS-DOS
+- name: ZX Spectrum
+genres:
+- name: Platform
+aliases:
+- slug: rick-dangerous-2
+  name: Rick Dangerous 2
+banner_url: /games/banner/rick-dangerous-ii.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-17T06:20:10.289159Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,31 @@
+id: 4383
+game_id: 11752
+game_slug: ynglet
+name: Ynglet
+year: 2013
+user: FakeShemp
+runner: linux
+slug: ynglet-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-06-16T08:01:35.479989Z'
+updated_at: '2017-06-16T17:08:54.326601Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Ynglet.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Ynglet.x86
+  - chmodx: $GAMEDIR/Ynglet.x86_64
+  exe64: Ynglet.x86_64
+  files:
+  - file1: N/A:Please select the IndieGameStand archive

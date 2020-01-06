@@ -1,0 +1,19 @@
+name: Dino Crisis
+slug: dino-crisis
+year: 1999
+platforms:
+- name: Sega Dreamcast
+- name: Sony PlayStation
+- name: Sony PSP
+- name: Windows
+genres:
+- name: Horror
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/dino-crisis.jpg
+icon_url: /games/icon/dino-crisis.png
+is_public: true
+updated: '2019-01-23T08:29:11.925783Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

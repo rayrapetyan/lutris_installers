@@ -1,0 +1,17 @@
+name: 'Sang-Froid: Tales of Werewolves'
+slug: sang-froid-tales-of-werewolves
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Horror
+- name: Strategy
+aliases: []
+banner_url: /games/banner/sang-froid-tales-of-werewolves.jpg
+icon_url: /games/icon/sang-froid-tales-of-werewolves.png
+is_public: true
+updated: '2019-01-23T08:31:07.254319Z'
+steamid: 227220
+gogslug: sangfroid_tales_of_werewolves
+humblestoreid: ''

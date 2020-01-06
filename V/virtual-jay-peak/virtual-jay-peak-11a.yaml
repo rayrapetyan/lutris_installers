@@ -1,0 +1,45 @@
+id: 4071
+game_id: 3991
+game_slug: virtual-jay-peak
+name: Virtual Jay Peak
+year: 2002
+user: FakeShemp
+runner: linux
+slug: virtual-jay-peak-11a
+version: 1.1a
+description: Dynamically linked libraries
+notes: ''
+created_at: '2017-06-02T20:14:43.865197Z'
+updated_at: '2017-06-04T22:10:40.344719Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - input_menu:
+      options:
+      - '0': 320x240x16
+      - '1': 640x480x16
+      - '2': 800x600x16
+      - '3': 1024x768x16
+      - '4': 1280x1024x16
+      - '5': 320x240x32
+      - '6': 640x480x32
+      - '7': 800x600x32
+      - '8': 1024x768x32
+      - '9': 1280x1024x32
+      description: Choose the game's resolution
+      id: RES
+      preselect: 9
+  - extract:
+      file: $file1
+  files:
+  - file1: https://lutris.net/files/games/virtual-jay-peak/virtual_jay_peak_linux_1_1a.tar.gz
+  game:
+    args: DefaultMountain=Jay_Peak OGLModeIndex=$INPUT_RES
+    exe: $GAMEDIR/soulride

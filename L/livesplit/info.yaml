@@ -1,0 +1,15 @@
+name: LiveSplit
+slug: livesplit
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Tool
+aliases: []
+banner_url: /games/banner/livesplit.jpg
+icon_url: /games/icon/livesplit.png
+is_public: true
+updated: '2019-05-05T05:50:14.309179Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

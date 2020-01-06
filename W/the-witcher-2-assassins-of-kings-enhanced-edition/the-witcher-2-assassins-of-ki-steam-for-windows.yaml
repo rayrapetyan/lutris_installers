@@ -1,0 +1,55 @@
+id: 10729
+game_id: 397
+game_slug: the-witcher-2-assassins-of-kings-enhanced-edition
+name: 'The Witcher 2: Assassins of Kings Enhanced Edition'
+year: 2011
+user: zeioth
+runner: winesteam
+slug: the-witcher-2-assassins-of-ki-steam-for-windows
+version: Steam for Windows
+description: null
+notes: This version offers way better performance than the official Linux ports for
+  GOG and Steam.
+created_at: '2018-11-02T03:47:05.111000Z'
+updated_at: '2019-12-23T19:51:26.839068Z'
+draft: false
+published: true
+published_by: 20548
+rating: '1'
+steamid: 20920
+gogid: 1207658930
+gogslug: the_witcher_2
+humblestoreid: the-witcher-2-assassins-of-kings-enhanced-edition
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: d3dx9_36
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: d3dx9_39
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: dotnet40
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: win7
+      arch: win32
+      name: winetricks
+  winesteam:
+    esync: true
+    dxvk: true
+  system:
+    env:
+      __GL_THREADED_OPTIMIZATIONS: '1'
+      DXVK_HUD: devinfo,fps,memory,frametimes,gpuload
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 20920
+    arch: win32

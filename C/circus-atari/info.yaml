@@ -1,0 +1,17 @@
+name: Circus Atari
+slug: circus-atari
+year: 1977
+platforms:
+- name: Arcade
+- name: Atari 2600
+genres:
+- name: Action
+- name: Arcade
+aliases: []
+banner_url: /games/banner/circus-atari.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:53.055050Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,15 @@
+name: Evolution RTS
+slug: evolution-rts
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/evolution-rts.jpg
+icon_url: /games/icon/evolution-rts.png
+is_public: true
+updated: '2019-01-23T08:29:26.440738Z'
+steamid: 291150
+gogslug: ''
+humblestoreid: ''

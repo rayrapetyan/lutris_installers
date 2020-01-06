@@ -1,0 +1,16 @@
+name: Crysis 3
+slug: crysis-3
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Shooter
+aliases: []
+banner_url: /games/banner/crysis-3.jpg
+icon_url: /games/icon/crysis-3.png
+is_public: true
+updated: '2019-01-23T08:29:01.509442Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

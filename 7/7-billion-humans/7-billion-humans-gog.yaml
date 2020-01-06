@@ -1,0 +1,34 @@
+id: 10155
+game_id: 21368
+game_slug: 7-billion-humans
+name: 7 Billion Humans
+year: null
+user: Talvi
+runner: linux
+slug: 7-billion-humans-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2018-09-11T19:27:01.684000Z'
+updated_at: '2019-03-30T01:29:01.484069Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 792100
+gogid: 2056114425
+gogslug: 7_billion_humans
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

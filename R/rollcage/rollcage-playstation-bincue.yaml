@@ -1,0 +1,37 @@
+id: 11310
+game_id: 24391
+game_slug: rollcage
+name: Rollcage
+year: 1999
+user: Zekromaster
+runner: mednafen
+slug: rollcage-playstation-bincue
+version: PlayStation (.bin/.cue)
+description: "If you don't have PSX BIOS:  \r\n- Open or create ~/.mednafen/firmware\
+  \ directory.  \r\n- Make sure PSX BIOS files scph5500.bin, scph5501.bin, and scph5502.bin\
+  \ are there."
+notes: ''
+created_at: '2018-12-23T11:34:15.919439Z'
+updated_at: '2018-12-23T21:46:25.578325Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - copy:
+      src: cue
+      dst: $GAMEDIR
+  - copy:
+      src: bin
+      dst: $GAMEDIR
+  files:
+  - cue: 'N/A: Please select your Rollcage.cue file'
+  - bin: 'N/A: Please select your Rollcage.bin file'
+  game:
+    machine: psx
+    main_file: cue

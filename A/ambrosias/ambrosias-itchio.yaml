@@ -1,0 +1,28 @@
+id: 8263
+game_id: 18091
+game_slug: ambrosias
+name: Ambrosia's
+year: 2018
+user: oscararg
+runner: linux
+slug: ambrosias-itchio
+version: Itchio
+description: null
+notes: ''
+created_at: '2018-05-10T15:56:49.143243Z'
+updated_at: '2018-05-11T02:55:04.014333Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Ambrosia's.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

@@ -1,0 +1,15 @@
+name: Soldier of Fortune
+slug: soldier-of-fortune
+year: 2000
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/soldier-of-fortune.jpg
+icon_url: /games/icon/soldier-of-fortune.png
+is_public: true
+updated: '2019-01-23T08:31:17.538092Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,56 @@
+id: 10243
+game_id: 21789
+game_slug: where-in-the-world-is-carmen-sandiego-deluxe-editi
+name: Where in the World Is Carmen Sandiego? (Deluxe Edition)
+year: 1992
+user: Mr_Alert
+runner: dosbox
+slug: where-in-the-world-is-carmen-cd
+version: CD
+description: null
+notes: ''
+created_at: '2018-09-19T02:07:43.051000Z'
+updated_at: '2018-09-20T00:00:56.699310Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: carmen.dat
+  - mkdir: $GAMEDIR/c
+  - merge:
+      src: $DISC
+      dst: $GAMEDIR/d
+  - task:
+      commands:
+      - 'C:'
+      - CD DELUXE
+      - CALL CARMEN.BAT
+      - exit
+      path: $GAMEDIR/play.conf
+      drives:
+        c: $GAMEDIR/c
+        d: $GAMEDIR/d
+      name: makeconfig
+  - task:
+      commands:
+      - 'D:'
+      - SETUP.EXE
+      - exit
+      path: $GAMEDIR/install.conf
+      drives:
+        c: $GAMEDIR/c
+        d: $GAMEDIR/d
+      name: makeconfig
+  - task:
+      config_file: $GAMEDIR/install.conf
+      working_dir: $GAMEDIR
+      name: dosexec
+  game:
+    main_file: $GAMEDIR/play.conf

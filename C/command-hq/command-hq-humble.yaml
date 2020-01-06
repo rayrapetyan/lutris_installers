@@ -1,0 +1,46 @@
+id: 4607
+game_id: 3779
+game_slug: command-hq
+name: Command H.Q.
+year: null
+user: FakeShemp
+runner: dosbox
+slug: command-hq-humble
+version: Humble
+description: Uses the files from the Windows installer from Humble.
+notes: ''
+created_at: '2017-06-25T21:00:32.360000Z'
+updated_at: '2017-07-04T18:10:05.913145Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 329630
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: dosbox_commandhq_launch_windows.conf
+  installer:
+  - task:
+      executable: $file1
+      prefix: $CACHE
+      args: /S
+      name: wine.wineexec
+  - merge:
+      src: $CACHE/drive_c/Games/Retroism/Command HQ
+      dst: $GAMEDIR
+  - write_config:
+      section: render
+      key: aspect
+      value: true
+      file: $GAMEDIR/dosbox_commandhq.conf
+  - write_config:
+      section: sdl
+      key: fullscreen
+      value: false
+      file: $GAMEDIR/dosbox_commandhq.conf
+  files:
+  - file1: N/A:Please select the Humble installer
+  game:
+    config_file: $GAMEDIR/dosbox_commandhq.conf

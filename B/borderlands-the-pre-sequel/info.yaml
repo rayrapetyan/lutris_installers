@@ -1,0 +1,15 @@
+name: 'Borderlands: The Pre-Sequel'
+slug: borderlands-the-pre-sequel
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/borderlands-the-pre-sequel.jpg
+icon_url: /games/icon/borderlands-the-pre-sequel.png
+is_public: true
+updated: '2019-01-23T08:28:40.593719Z'
+steamid: 261640
+gogslug: ''
+humblestoreid: ''

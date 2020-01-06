@@ -1,0 +1,15 @@
+name: Tiles
+slug: tiles
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/tiles.jpg
+icon_url: /games/icon/tiles.png
+is_public: true
+updated: '2019-01-23T08:31:50.446002Z'
+steamid: 594750
+gogslug: ''
+humblestoreid: ''

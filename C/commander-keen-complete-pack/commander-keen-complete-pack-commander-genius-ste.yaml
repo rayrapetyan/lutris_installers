@@ -1,0 +1,33 @@
+id: 1004
+game_id: 124
+game_slug: commander-keen-complete-pack
+name: Commander Keen Complete Pack
+year: 1990
+user: RobLoach
+runner: linux
+slug: commander-keen-complete-pack-commander-genius-ste
+version: Commander Genius + Steam (64bit)
+description: ''
+notes: ''
+created_at: '2014-10-29T18:58:19.034000Z'
+updated_at: '2016-11-21T23:40:16.861020Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 9180
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: CGeniusExe
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: genius
+  - merge:
+      src: gamedata
+      dst: $GAMEDIR/games
+  files:
+  - gamedata: $STEAM:9180:/
+  - genius: https://lutris.net/files/games/commander-keen/commander-genius-1.9.6.0-beta-x86_64.tar.gz

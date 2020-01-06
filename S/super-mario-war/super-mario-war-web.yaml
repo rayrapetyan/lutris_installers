@@ -1,0 +1,23 @@
+id: 12182
+game_id: 26073
+game_slug: super-mario-war
+name: Super Mario War
+year: 2006
+user: Siarkowy
+runner: browser
+slug: super-mario-war-web
+version: Web
+description: null
+notes: ''
+created_at: '2019-02-26T19:54:43.752873Z'
+updated_at: '2019-03-30T20:51:14.319058Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://mmatyas.github.io/smw-js/

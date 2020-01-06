@@ -1,0 +1,24 @@
+id: 10235
+game_id: 14917
+game_slug: sonic-forces
+name: Sonic Forces
+year: 2017
+user: soredake
+runner: winesteam
+slug: sonic-forces-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-09-18T11:15:40.051693Z'
+updated_at: '2018-09-18T11:15:48.670413Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 637100
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 637100

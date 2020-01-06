@@ -1,0 +1,28 @@
+id: 2178
+game_id: 6319
+game_slug: bos-wars
+name: Bos Wars
+year: null
+user: Lulu
+runner: linux
+slug: bos-wars-27
+version: '2.7'
+description: ''
+notes: The game will be downloaded from www.boswars.org
+created_at: '2016-06-20T21:35:46.839507Z'
+updated_at: '2016-07-08T11:17:15.485235Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: boswars
+  installer:
+  - extract:
+      file: game
+  files:
+  - game: http://www.boswars.org/dist/releases/boswars-2.7-linux.tar.gz

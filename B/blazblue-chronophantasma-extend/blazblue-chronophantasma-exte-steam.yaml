@@ -1,0 +1,71 @@
+id: 5071
+game_id: 6747
+game_slug: blazblue-chronophantasma-extend
+name: 'BlazBlue: Chronophantasma Extend'
+year: null
+user: goolord
+runner: winesteam
+slug: blazblue-chronophantasma-exte-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-07-17T06:20:23.935000Z'
+updated_at: '2018-09-28T06:34:53.739580Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 388750
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-3.16-i386
+    overrides:
+      xaudio2_7: native,builtin
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing Quartz
+      app: quartz
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing devenum
+      app: devenum
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing Windows Media Player 9
+      app: wmp9
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing xact
+      app: xact
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: winxp
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      key: Version
+      value: win7
+      path: HKEY_CURRENT_USER\Software\Wine\AppDefaults\Steam.exe
+      name: set_regedit
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 388750
+    arch: win32

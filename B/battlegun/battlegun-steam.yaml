@@ -1,0 +1,24 @@
+id: 11292
+game_id: 17050
+game_slug: battlegun
+name: Battlegun
+year: null
+user: FoeX
+runner: winesteam
+slug: battlegun-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-12-21T18:35:16.025361Z'
+updated_at: '2018-12-22T06:42:56.799700Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 684720
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 684720

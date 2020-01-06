@@ -1,0 +1,29 @@
+id: 3777
+game_id: 958
+game_slug: cook-serve-delicious
+name: Cook, Serve, Delicious!
+year: 2013
+user: FakeShemp
+runner: linux
+slug: cook-serve-delicious-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-21T20:18:27.166974Z'
+updated_at: '2017-05-27T23:57:08.260078Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 247020
+gogid: 1712729523
+gogslug: cook_serve_delicious
+humblestoreid: ''
+script:
+  exe: runner
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/runner
+  files:
+  - file1: N/A:Please select the Humble archive

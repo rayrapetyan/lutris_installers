@@ -1,0 +1,53 @@
+id: 13065
+game_id: 9982
+game_slug: star-warstm-rogue-squadron-3d
+name: "STAR WARS\u2122: Rogue Squadron 3D"
+year: null
+user: skyace65
+runner: wine
+slug: star-warstm-rogue-squadron-3d-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-04-24T01:55:21.317000Z'
+updated_at: '2019-04-24T02:04:36.501928Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 455910
+gogid: 1421404950
+gogslug: star_wars_rogue_squadron_3d
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /SP- /NOCANCEL /SUPPRESSMSGBOXES
+      arch: win32
+      name: wineexec
+  - task:
+      prefix: GAMEDIR
+      app: dsound
+      arch: win32
+      name: winetricks
+  - task:
+      prefix: GAMEDIR
+      description: Enable Windows 98 compatibility mode
+      arch: win32
+      key: Version
+      value: win98
+      path: HKEY_CURRENT_USER\Software\Wine
+      name: set_regedit
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Star Wars - Rogue Squadron 3D/ROGUE/ROGUE.EXE
+    arch: win32

@@ -1,0 +1,17 @@
+name: Pine
+slug: pine
+year: 2019
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Open World
+- name: Survival
+aliases: []
+banner_url: /games/banner/pine.jpg
+icon_url: /games/icon/pine.png
+is_public: true
+updated: '2019-10-18T03:48:09.083791Z'
+steamid: 1042780
+gogslug: pine
+humblestoreid: ''

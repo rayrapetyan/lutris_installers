@@ -1,0 +1,31 @@
+id: 6510
+game_id: 2675
+game_slug: whispering-willows
+name: Whispering Willows
+year: null
+user: FakeShemp
+runner: linux
+slug: whispering-willows-humble
+version: Humble
+description: null
+notes: ''
+created_at: '2017-12-01T17:30:58.608482Z'
+updated_at: '2017-12-01T17:33:46.625949Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 288060
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: WhisperingWillows.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/WhisperingWillows.x86
+  - chmodx: $GAMEDIR/WhisperingWillows.x86_64
+  exe64: WhisperingWillows.x86_64
+  files:
+  - file1: N/A:Please select the Humble archive

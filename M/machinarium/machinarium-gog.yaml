@@ -1,0 +1,34 @@
+id: 2567
+game_id: 170
+game_slug: machinarium
+name: Machinarium
+year: 2009
+user: ssf
+runner: linux
+slug: machinarium-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2016-08-23T16:16:08.429000Z'
+updated_at: '2019-10-21T04:14:07.219885Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 40700
+gogid: 1207659017
+gogslug: machinarium_collectors_edition
+humblestoreid: machinarium
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

@@ -1,0 +1,15 @@
+name: FIFA 19
+slug: fifa-19
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Sports
+aliases: []
+banner_url: /games/banner/fifa-19.jpg
+icon_url: /games/icon/fifa-19.png
+is_public: true
+updated: '2019-01-23T08:29:30.382787Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

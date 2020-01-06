@@ -1,0 +1,15 @@
+name: Teeworlds
+slug: teeworlds
+year: 2013
+platforms:
+- name: Linux
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/teeworlds.jpg
+icon_url: /games/icon/teeworlds.png
+is_public: true
+updated: '2019-01-23T08:31:36.333066Z'
+steamid: 380840
+gogslug: ''
+humblestoreid: ''

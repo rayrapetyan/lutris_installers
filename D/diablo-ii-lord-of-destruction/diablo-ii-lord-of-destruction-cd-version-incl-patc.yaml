@@ -1,0 +1,37 @@
+id: 10048
+game_id: 11301
+game_slug: diablo-ii-lord-of-destruction
+name: 'Diablo II: Lord of Destruction'
+year: 2001
+user: redgloboli
+runner: wine
+slug: diablo-ii-lord-of-destruction-cd-version-incl-patc
+version: CD-Version incl. Patch  1.14
+description: Using the install cd and download latest patch
+notes: ''
+created_at: '2018-09-05T12:16:34.450000Z'
+updated_at: '2018-09-06T10:26:05.826010Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      executable: patch114
+      name: wineexec
+  files:
+  - installer: N/A:Please select the Diablo II Expansion Set setup file
+  - patch114: http://ftp.blizzard.com/pub/diablo2exp/patches/PC/LODPatch_114d.exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Diablo II/Diablo II.exe
+    arch: win32

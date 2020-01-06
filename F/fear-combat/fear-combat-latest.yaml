@@ -1,0 +1,47 @@
+id: 3620
+game_id: 11164
+game_slug: fear-combat
+name: F.E.A.R Combat
+year: 2006
+user: dj_who
+runner: wine
+slug: fear-combat-latest
+version: latest
+description: ''
+notes: Installer crashes
+created_at: '2017-05-02T20:58:23.807000Z'
+updated_at: '2018-05-19T03:41:50.031453Z'
+draft: false
+published: true
+published_by: null
+rating: '1'
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: fear-game
+      prefix: $GAMEDIR
+      description: Installing game
+      name: wineexec
+  - extract:
+      dst: $GAMEDIR
+      file: fear-launcher
+  files:
+  - fear-game:
+      filename: fear_combat_201_community_en_full.exe
+      url: http://fear-community.org/download/6080/
+  - fear-launcher:
+      filename: Launcher_2.5.1.rar
+      url: http://fear-community.org/download/6896/
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/FEAR Combat/FEAR.exe
+    arch: win32

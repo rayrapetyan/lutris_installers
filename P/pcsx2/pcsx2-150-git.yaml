@@ -1,0 +1,74 @@
+id: 17004
+game_id: 29407
+game_slug: pcsx2
+name: PCSX2
+year: 2002
+user: edjaa84
+runner: wine
+slug: pcsx2-150-git
+version: 1.5.0-git
+description: "Emulador PCSX2 1.5.0-git\r\n\r\nDescarga:\r\nhttps://buildbot.orphis.net/pcsx2/index.php"
+notes: "Una vez creado el Prefix o Unidad Virtual cambias la direccion del ejecutable\
+  \ y del directorio de trabajo en la configuraci\xF2n debido a que casi a diario\
+  \ sacan una \r\nnueva versi\xF2n. Ej: \r\ndrive_c/Program Files/PCSX2 1.5.0/pcsx2.exe\
+  \ >>>>>>>>>>>>>>>>>>>\r\ndrive_c/Program Files/pcsx2-v1.5.0-dev-3311-g3c38087e7-windows-x86/pcsx2.exe"
+created_at: '2019-11-25T22:33:01.951232Z'
+updated_at: '2019-11-25T22:33:01.951259Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2015
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: win7
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing DirectX 9
+      app: d3dx9
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing DirectX 11
+      app: d3dx11_42
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing DirectX 11
+      app: d3dx11_43
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing d3dcompiler42
+      app: d3dcompiler_42
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing d3dcompiler43
+      app: d3dcompiler_43
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Installing d3dcompiler47
+      app: d3dcompiler_47
+      name: winetricks
+  files:
+  - dark: N/A:Select setup exe
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/PCSX2 1.5.0/pcsx2.exe
+    working_dir: $GAMEDIR/drive_c/Program Files/PCSX2 1.5.0/
+    arch: win32

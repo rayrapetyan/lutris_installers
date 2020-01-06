@@ -1,0 +1,30 @@
+id: 7588
+game_id: 10381
+game_slug: nierautomata
+name: "NieR:Automata\u2122"
+year: 2017
+user: cxf
+runner: winesteam
+slug: nierautomatatm-dxvk
+version: DXVK
+description: null
+notes: ''
+created_at: '2018-03-17T22:38:08.753000Z'
+updated_at: '2019-12-22T19:20:56.448629Z'
+draft: false
+published: true
+published_by: 20548
+rating: '5'
+steamid: 524220
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+    pulse_latency: true
+  game:
+    appid: 524220

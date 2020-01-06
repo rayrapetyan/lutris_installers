@@ -1,0 +1,31 @@
+id: 6298
+game_id: 14755
+game_slug: mission-to-planet-x
+name: Mission to Planet X
+year: 2014
+user: FakeShemp
+runner: web
+slug: mission-to-planet-x-vodo
+version: Vodo
+description: null
+notes: ''
+created_at: '2017-11-11T22:33:05.845593Z'
+updated_at: '2017-11-11T22:35:13.035166Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: $file1
+  web:
+    window_size: 1280x720
+  files:
+  - file1: N/A:Please select the Vodo archive
+  game:
+    main_file: $GAMEDIR/index.html

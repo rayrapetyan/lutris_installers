@@ -1,0 +1,24 @@
+id: 2037
+game_id: 848
+game_slug: gorky-17
+name: Gorky 17
+year: 1999
+user: dennisjj4
+runner: steam
+slug: gorky-17-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-04-10T14:42:55.270607Z'
+updated_at: '2016-04-10T18:51:23.407764Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 253920
+gogid: 1207658744
+gogslug: gorky_17
+humblestoreid: ''
+script:
+  game:
+    appid: 253920

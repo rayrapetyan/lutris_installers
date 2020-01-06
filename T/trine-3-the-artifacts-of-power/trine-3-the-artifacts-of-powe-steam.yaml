@@ -1,0 +1,24 @@
+id: 1904
+game_id: 4583
+game_slug: trine-3-the-artifacts-of-power
+name: 'Trine 3: The Artifacts of Power'
+year: null
+user: WildCoder
+runner: steam
+slug: trine-3-the-artifacts-of-powe-steam
+version: Steam
+description: This game only works in 64 bits Linux.
+notes: ''
+created_at: '2016-01-17T17:52:18.184593Z'
+updated_at: '2016-01-19T14:21:30.657029Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 319910
+gogid: 1431599567
+gogslug: trine_3_the_artifacts_of_power
+humblestoreid: ''
+script:
+  game:
+    appid: 319910

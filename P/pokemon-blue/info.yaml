@@ -1,0 +1,16 @@
+name: "Pok\xE9mon Blue Version"
+slug: pokemon-blue
+year: 1996
+platforms:
+- name: Game Boy
+genres:
+- name: jRPG
+- name: RPG
+aliases: []
+banner_url: /games/banner/pokemon-blue.jpg
+icon_url: /games/icon/pokemon-blue.png
+is_public: true
+updated: '2019-01-23T08:30:47.005165Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

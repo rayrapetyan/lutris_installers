@@ -1,0 +1,15 @@
+name: Driftwood The Visual Novel
+slug: driftwood-the-visual-novel
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Simulation
+aliases: []
+banner_url: /games/banner/driftwood-the-visual-novel.jpg
+icon_url: /games/icon/driftwood-the-visual-novel.png
+is_public: true
+updated: '2019-01-23T08:29:17.771360Z'
+steamid: 510750
+gogslug: ''
+humblestoreid: ''

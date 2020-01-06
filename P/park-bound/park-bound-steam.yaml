@@ -1,0 +1,24 @@
+id: 9765
+game_id: 20946
+game_slug: park-bound
+name: Park Bound
+year: 2017
+user: Dragius
+runner: steam
+slug: park-bound-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-16T18:43:46.994018Z'
+updated_at: '2018-08-17T05:58:07.729228Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 611830
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 611830

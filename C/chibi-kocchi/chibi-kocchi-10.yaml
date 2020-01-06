@@ -1,0 +1,35 @@
+id: 9538
+game_id: 20604
+game_slug: chibi-kocchi
+name: Chibi Kocchi
+year: 2013
+user: kimchitea
+runner: linux
+slug: chibi-kocchi-10
+version: '1.0'
+description: null
+notes: ''
+created_at: '2018-08-02T18:33:49.356000Z'
+updated_at: '2018-08-04T08:31:42.356429Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Chibi Kocchi.sh
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - merge:
+      src: $CACHE/Chibi Kocchi-1.0-linux
+      dst: $GAMEDIR
+  - chmodx: $GAMEDIR/Chibi Kocchi.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Chibi Kocchi
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Chibi Kocchi
+  files:
+  - file1: N/A:Please select the game archive

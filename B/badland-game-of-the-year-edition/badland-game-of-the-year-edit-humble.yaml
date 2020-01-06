@@ -1,0 +1,28 @@
+id: 5953
+game_id: 4684
+game_slug: badland-game-of-the-year-edition
+name: 'BADLAND: Game of the Year Edition'
+year: null
+user: FakeShemp
+runner: linux
+slug: badland-game-of-the-year-edit-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-10-15T13:18:42.553147Z'
+updated_at: '2017-10-15T13:23:01.901426Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 269670
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: badland
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

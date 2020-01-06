@@ -1,0 +1,17 @@
+name: SiN Gold
+slug: sin-gold
+year: 1998
+platforms:
+- name: Windows
+genres:
+- name: FPP
+- name: Sci-fi
+- name: Shooter
+aliases: []
+banner_url: /games/banner/sin-gold.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:14.090775Z'
+steamid: null
+gogslug: sin_gold
+humblestoreid: ''

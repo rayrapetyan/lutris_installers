@@ -1,0 +1,16 @@
+name: Spintires
+slug: spintires
+year: 2014
+platforms:
+- name: Windows
+genres:
+- name: Open World
+- name: Simulation
+aliases: []
+banner_url: /games/banner/spintires.jpg
+icon_url: /games/icon/spintires.png
+is_public: true
+updated: '2019-04-28T05:54:36.579157Z'
+steamid: 263280
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,29 @@
+id: 3848
+game_id: 2174
+game_slug: deadly-30
+name: Deadly 30
+year: null
+user: FakeShemp
+runner: linux
+slug: deadly-30-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-24T19:46:36.962347Z'
+updated_at: '2017-05-26T00:08:58.221036Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 264730
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Deadly 30
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Deadly 30
+  files:
+  - file1: N/A:Please select the Humble archive

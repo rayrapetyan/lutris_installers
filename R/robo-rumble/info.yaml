@@ -1,0 +1,17 @@
+name: Robo Rumble
+slug: robo-rumble
+year: 1998
+platforms:
+- name: Windows
+genres:
+- name: Real-time
+- name: Sci-fi
+- name: Strategy
+aliases: []
+banner_url: /games/banner/robo-rumble.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:02.472274Z'
+steamid: null
+gogslug: robo_rumble
+humblestoreid: ''

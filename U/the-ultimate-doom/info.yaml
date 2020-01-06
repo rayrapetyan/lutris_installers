@@ -1,0 +1,15 @@
+name: The Ultimate Doom
+slug: the-ultimate-doom
+year: 1995
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/the-ultimate-doom.jpg
+icon_url: /games/icon/the-ultimate-doom.png
+is_public: true
+updated: '2019-01-23T08:31:48.247326Z'
+steamid: 2280
+gogslug: the_ultimate_doom
+humblestoreid: ''

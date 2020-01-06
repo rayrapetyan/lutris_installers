@@ -1,0 +1,97 @@
+id: 16813
+game_id: 19032
+game_slug: battlefield-3
+name: Battlefield 3
+year: 2011
+user: _stranger
+runner: wine
+slug: battlefield-3-latest-version-of-or
+version: Latest version of Origin
+description: "Experimental installer.\r\nAiming to provide an environment compatible\
+  \ with ReShade and DXVK."
+notes: "Experimental installer.\r\nDXVK is supported but not used by default. It can\
+  \ be enabled from the settings.\r\nReShade seems to be injecting but it exits immediately\
+  \ as there is an error i have not yet found out.\r\nThe following Origin features\
+  \ must be disabled prior to running the game:\r\n\t- Origin WebHelper\r\n\t- Origin\
+  \ InGame\r\n\t- Origin Overlay for BF3"
+created_at: '2019-11-14T09:50:48.957000Z'
+updated_at: '2019-12-25T16:45:53.967692Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix...
+      arch: win64
+      name: create_prefix
+  - write_file:
+      content: dxgi.nvapiHack = False
+      file: $GAMEDIR/dxvk.conf
+  - execute:
+      command: mkdir "$GAMEDIR/nv-shaders"
+  - chmodx: updater
+  - merge:
+      src: updater
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Origin
+  - task:
+      prefix: $GAMEDIR
+      app: win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: directxweb
+      prefix: $GAMEDIR
+      description: Installing DirectX...
+      arch: win64
+      name: wineexec
+  - task:
+      executable: vc2008x64
+      prefix: $GAMEDIR
+      description: Installing VC...
+      arch: win64
+      name: wineexec
+  - task:
+      executable: origin
+      prefix: $GAMEDIR
+      description: Installing Origin...
+      arch: win64
+      args: /silent
+      exclude_processes: Origin.exe OriginClientService.exe OriginWebHelperService.exe
+        QtWebEngineProcess.exe
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Origin/Origin.exe
+    arch: win64
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR/nv-shaders
+      DXVK_CONFIG_FILE: $GAMEDIR/dxvk.conf
+      DXVK_HUD: fps
+      __GL_SHADER_DISK_CACHE: 1
+      WINE_LARGE_ADDRESS_AWARE: 1
+    manual_command: $GAMEDIR/drive_c/Program Files (x86)/Origin/updateorigin.sh
+    exclude_processes: QtWebEngineProcess.exe ActivationUI.exe OriginWebHelperService.exe
+  wine:
+    version: lutris-nofshack-4.19-x86_64
+    WineDesktop: 1366x768
+    esync: true
+    overrides:
+      dxgi: native, builtin
+      nvapi,nvapi64: disabled
+    Desktop: true
+  files:
+  - directxweb: https://download.microsoft.com/download/1/7/1/1718CCC4-6315-4D8E-9543-8E28A4E18C4C/dxwebsetup.exe
+  - vc2008x64: https://download.microsoft.com/download/d/2/4/d242c3fb-da5a-4542-ad66-f9661d0a8d19/vcredist_x64.exe
+  - updater: https://lutris.nyc3.cdn.digitaloceanspaces.com/games/origin/updateorigin.sh
+  - origin: https://download.dm.origin.com/origin/live/OriginThinSetup.exe

@@ -1,0 +1,28 @@
+id: 9807
+game_id: 20538
+game_slug: clicker-heroes-2
+name: Clicker Heroes 2
+year: null
+user: FryyourBacon
+runner: winesteam
+slug: clicker-heroes-2-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-08-19T17:41:44.581000Z'
+updated_at: '2018-08-23T05:54:58.209185Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 629910
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: staging-3.14-x86_64
+    Desktop: true
+  game:
+    appid: 629910
+    arch: win64

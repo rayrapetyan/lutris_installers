@@ -1,0 +1,47 @@
+id: 17753
+game_id: 31041
+game_slug: rainbow-six-siege
+name: Rainbow Six Siege
+year: 2015
+user: ZVNexus
+runner: wine
+slug: rainbow-six-siege-shifting-tides
+version: Shifting Tides
+description: Anti Cheat prevents this from working properly. This is simply a placeholder
+  for the future.
+notes: ''
+created_at: '2020-01-05T04:17:27.126447Z'
+updated_at: '2020-01-05T04:17:27.126479Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  script:
+    game:
+      prefix: $GAMEDIR
+      exe: drive_c/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/Uplay.exe
+      arch: win64
+    installer:
+    - task:
+        prefix: $GAMEDIR
+        arch: win64
+        name: create_prefix
+    - task:
+        prefix: $GAMEDIR
+        app: corefonts vcrun2017 win7
+        name: winetricks
+    - task:
+        executable: uplay
+        prefix: $GAMEDIR
+        args: /S
+        name: wineexec
+    wine:
+      version: lutris-5.0-rc3-x86_64
+      dxvk: true
+    files:
+    - uplay: https://ubistatic3-a.akamaihd.net/orbit/launcher_installer/UplayInstaller.exe

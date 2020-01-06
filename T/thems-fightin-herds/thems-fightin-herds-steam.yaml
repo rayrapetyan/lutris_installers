@@ -1,0 +1,34 @@
+id: 7285
+game_id: 16450
+game_slug: thems-fightin-herds
+name: Them's Fightin' Herds
+year: 2018
+user: djazz
+runner: winesteam
+slug: thems-fightin-herds-steam
+version: Steam
+description: null
+notes: "msacm32 is installed with Winetricks.\r\nSteam overlay is disabled since it\
+  \ causes massive slowdowns."
+created_at: '2018-02-10T09:50:45.876000Z'
+updated_at: '2018-12-28T18:48:50.044449Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 574980
+gogid: null
+gogslug: ''
+humblestoreid: thems-fightin-herds
+script:
+  winesteam:
+    overrides:
+      gameoverlayrenderer: disabled
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: msacm32
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 574980

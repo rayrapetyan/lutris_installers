@@ -1,0 +1,29 @@
+id: 4433
+game_id: 1543
+game_slug: delver
+name: Delver
+year: null
+user: FakeShemp
+runner: linux
+slug: delver-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-17T19:58:40.893449Z'
+updated_at: '2017-06-18T23:27:48.484999Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 249630
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: run-delver.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/run-delver.sh
+  files:
+  - file1: N/A:Please select the Humble archive

@@ -1,0 +1,24 @@
+id: 225
+game_id: 1234
+game_slug: bridge-constructor
+name: Bridge Constructor
+year: 2013
+user: strider
+runner: steam
+slug: bridge-constructor-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-19T23:56:18.970000Z'
+updated_at: '2013-12-19T23:56:18.970000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 250460
+gogid: null
+gogslug: ''
+humblestoreid: bridge-constructor
+script:
+  game:
+    appid: 250460

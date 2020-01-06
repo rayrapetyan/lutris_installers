@@ -1,0 +1,20 @@
+name: 'X-Men Origins: Wolverine'
+slug: x-men-origins-wolverine
+year: 2009
+platforms:
+- name: Nintendo DS
+- name: Nintendo Wii
+- name: Sony PlayStation 2
+- name: Sony PSP
+- name: Windows
+genres:
+- name: Action
+- name: Beat'em up
+aliases: []
+banner_url: /games/banner/x-men-origins-wolverine.jpg
+icon_url: /games/icon/x-men-origins-wolverine.png
+is_public: true
+updated: '2019-10-23T23:59:22.311240Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

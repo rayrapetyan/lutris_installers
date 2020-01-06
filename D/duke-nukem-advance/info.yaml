@@ -1,0 +1,16 @@
+name: Duke Nukem Advance
+slug: duke-nukem-advance
+year: 2002
+platforms:
+- name: Nintendo Game Boy Advance
+genres:
+- name: Action
+- name: FPS
+aliases: []
+banner_url: /games/banner/duke-nukem-advance.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:18.771549Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,36 @@
+id: 16825
+game_id: 30332
+game_slug: oddly-enough-pied-piper
+name: 'Oddly Enough: Pied Piper'
+year: 2011
+user: kimchitea
+runner: wine
+slug: oddly-enough-pied-piper-gamersgate
+version: GamersGate
+description: https://www.gamersgate.com/DD-OEPP/oddly-enough-pied-piper
+notes: 'Installer will throw errors with the default folder names. Change "Oddly Enough:
+  Pied Piper" to "Oddly Enough - Pied Piper" to fix.'
+created_at: '2019-11-15T03:09:47.231000Z'
+updated_at: '2019-11-16T08:26:47.777374Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      executable: file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the GamersGate installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Oddly Enough - Pied Piper/oepp.exe

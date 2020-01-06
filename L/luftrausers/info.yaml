@@ -1,0 +1,15 @@
+name: Luftrausers
+slug: luftrausers
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/luftrausers.jpg
+icon_url: /games/icon/luftrausers.png
+is_public: true
+updated: '2019-01-23T08:30:14.064828Z'
+steamid: 233150
+gogslug: luftrausers
+humblestoreid: luftrausers

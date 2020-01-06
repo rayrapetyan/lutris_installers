@@ -1,0 +1,21 @@
+name: The Cycle
+slug: the-cycle
+year: 2020
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Combat
+- name: Exploration
+- name: FPS
+- name: MMOFPS
+- name: Shooter
+- name: Survival
+aliases: []
+banner_url: /games/banner/the-cycle.jpg
+icon_url: null
+is_public: true
+updated: '2019-09-11T17:33:19.319531Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

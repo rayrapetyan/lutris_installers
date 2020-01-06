@@ -1,0 +1,16 @@
+name: Depths of Peril
+slug: depths-of-peril
+year: null
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: RPG
+aliases: []
+banner_url: /games/banner/depths-of-peril.jpg
+icon_url: /games/icon/depths-of-peril.png
+is_public: true
+updated: '2019-04-09T06:38:37.900115Z'
+steamid: 23600
+gogslug: depths_of_peril
+humblestoreid: ''

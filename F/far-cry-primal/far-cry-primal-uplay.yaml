@@ -1,0 +1,84 @@
+id: 12205
+game_id: 7156
+game_slug: far-cry-primal
+name: Far Cry Primal
+year: 2016
+user: ThunderBoyU
+runner: wine
+slug: far-cry-primal-uplay
+version: Uplay
+description: Only installs Uplay you must install Far Cry Primal manually.
+notes: ''
+created_at: '2019-02-28T13:01:33.656000Z'
+updated_at: '2019-09-09T00:16:41.179792Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 371660
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - input_menu:
+      options:
+      - '#dxgi.nvapiHack = False': AMD
+      - dxgi.nvapiHack = False: Nvidia
+      description: 'Choose your GPU:'
+      id: GPU
+      preselect: '#dxgi.nvapiHack = False'
+  - write_file:
+      content: $INPUT_GPU
+      file: $GAMEDIR/dxvk.conf
+  - extract:
+      dst: $CACHE/dxsetup
+      file: dx2010
+  - task:
+      executable: $CACHE/dxsetup/DXSETUP.exe
+      prefix: $GAMEDIR
+      args: /silent
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2010 vcrun2012 corefonts
+      arch: win64
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Please be patient while we install .NET 4.7.2
+      app: dotnet472 win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: uplay
+      prefix: $GAMEDIR
+      args: /S
+      arch: win64
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: winekill
+  winesteam:
+    version: tkg-4.2-x86_64
+    esync: true
+    dxvk: true
+  system:
+    env:
+      DXVK_CONFIG_FILE: $GAMEDIR/dxvk.conf
+      DXVK_HUD: 0
+    disable_runtime: false
+  files:
+  - dx2010: https://lutris.net/files/tools/directx-2010.tar.gz
+  - uplay: https://ubistatic3-a.akamaihd.net/orbit/launcher_installer/UplayInstaller.exe
+  game:
+    prefix: $GAMEDIR
+    args: -skipintro
+    exe: drive_c/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/Uplay.exe
+    arch: win64

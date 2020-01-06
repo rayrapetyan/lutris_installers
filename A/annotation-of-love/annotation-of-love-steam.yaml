@@ -1,0 +1,24 @@
+id: 8646
+game_id: 19053
+game_slug: annotation-of-love
+name: Annotation of Love
+year: null
+user: soredake
+runner: winesteam
+slug: annotation-of-love-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-11T07:37:36.238789Z'
+updated_at: '2018-06-11T07:50:02.080513Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 787220
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 787220

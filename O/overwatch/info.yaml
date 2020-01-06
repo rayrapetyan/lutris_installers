@@ -1,0 +1,15 @@
+name: Overwatch
+slug: overwatch
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/overwatch.jpg
+icon_url: /games/icon/overwatch.png
+is_public: true
+updated: '2019-01-23T08:30:40.193451Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

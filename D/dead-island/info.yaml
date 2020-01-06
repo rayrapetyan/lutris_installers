@@ -1,0 +1,18 @@
+name: Dead Island
+slug: dead-island
+year: 2011
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: FPS
+- name: RPG
+- name: Survival
+aliases: []
+banner_url: /games/banner/dead-island.jpg
+icon_url: /games/icon/dead-island.png
+is_public: true
+updated: '2019-01-23T08:29:06.324766Z'
+steamid: 91310
+gogslug: ''
+humblestoreid: ''

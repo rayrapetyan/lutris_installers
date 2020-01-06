@@ -1,0 +1,44 @@
+id: 534
+game_id: 2058
+game_slug: myth-ii-soulblighter
+name: 'Myth II: Soulblighter'
+year: 1998
+user: Xodetaetl
+runner: wine
+slug: myth-ii-soulblighter-myth-tfl-solo-campai
+version: 'Myth: TFL solo campaign'
+description: 'Myth I: The Fallen Lords complete solo campaign ported to Myth II.'
+notes: ''
+created_at: '2014-08-10T17:20:02.837000Z'
+updated_at: '2018-05-19T03:41:47.875232Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: myth-ii-soulblighter-cd
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Myth II
+      file: file1
+  - task:
+      executable: file2
+      prefix: $GAMEDIR
+      name: wineexec
+  - task:
+      executable: taskkill
+      prefix: $GAMEDIR
+      args: /im qttask.exe
+      name: wineexec
+  files:
+  - file1: http://ovocean.com/partage/lutris/myth2/Magma_-_The_Fallen_Levels_v2.tar.gz
+  - file2: http://ovocean.com/partage/lutris/myth2/quicktimeinstaller.exe
+  - file3: http://ovocean.com/partage/lutris/myth2/quicktimeinstaller.ini
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Myth II/Myth II.exe
+    arch: win32

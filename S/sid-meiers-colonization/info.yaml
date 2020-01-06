@@ -1,0 +1,16 @@
+name: Sid Meier's Colonization
+slug: sid-meiers-colonization
+year: 1994
+platforms:
+- name: MS-DOS
+genres:
+- name: 4X
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/sid-meiers-colonization.jpg
+icon_url: /games/icon/sid-meiers-colonization.png
+is_public: true
+updated: '2020-01-05T10:05:19.901892Z'
+steamid: 327400
+gogslug: sid_meiers_colonization
+humblestoreid: ''

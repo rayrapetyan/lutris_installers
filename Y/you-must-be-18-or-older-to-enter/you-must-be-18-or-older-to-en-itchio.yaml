@@ -1,0 +1,32 @@
+id: 6006
+game_id: 11707
+game_slug: you-must-be-18-or-older-to-enter
+name: You Must Be 18 or Older to Enter
+year: 2016
+user: FakeShemp
+runner: wine
+slug: you-must-be-18-or-older-to-en-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-10-19T18:19:52.404623Z'
+updated_at: '2018-05-19T03:41:59.371619Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 608510
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR/drive_c/Program Files/You Must Be 18 or Older to Enter
+  files:
+  - file1: N/A:Please select the itch.io executable
+  game:
+    prefix: $GAMEDIR
+    exe: $file1
+    arch: win32

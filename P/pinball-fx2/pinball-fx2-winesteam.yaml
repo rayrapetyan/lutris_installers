@@ -1,0 +1,24 @@
+id: 349
+game_id: 968
+game_slug: pinball-fx2
+name: Pinball FX2
+year: 2010
+user: Xodetaetl
+runner: winesteam
+slug: pinball-fx2-winesteam
+version: winesteam
+description: ''
+notes: ''
+created_at: '2014-01-10T15:59:12.342000Z'
+updated_at: '2014-01-16T12:06:10.955000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 226980
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 226980

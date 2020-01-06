@@ -1,0 +1,15 @@
+name: Disney Epic Mickey 2
+slug: disney-epic-mickey-2
+year: 2012
+platforms:
+- name: Windows
+genres:
+- name: Platformer
+aliases: []
+banner_url: /games/banner/disney-epic-mickey-2.jpg
+icon_url: /games/icon/disney-epic-mickey-2.png
+is_public: true
+updated: '2019-01-23T08:29:12.860495Z'
+steamid: 245300
+gogslug: ''
+humblestoreid: ''

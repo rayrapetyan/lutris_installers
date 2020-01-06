@@ -1,0 +1,24 @@
+id: 1341
+game_id: 3774
+game_slug: alchemy-mysteries-prague-legends
+name: 'Alchemy Mysteries: Prague Legends'
+year: null
+user: Xodetaetl
+runner: steam
+slug: alchemy-mysteries-prague-lege-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-02-25T19:43:03.237000Z'
+updated_at: '2015-02-25T20:44:03.143000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 326190
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 326190

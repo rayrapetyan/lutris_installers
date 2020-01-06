@@ -1,0 +1,21 @@
+name: Cyber Sled
+slug: cyber-sled
+year: 1993
+platforms:
+- name: Arcade
+- name: Nintendo Wii
+- name: Sony PlayStation
+- name: Sony Playstation 3
+- name: Sony PSP
+genres:
+- name: Action
+- name: Arcade
+- name: Shooter
+aliases: []
+banner_url: /games/banner/cyber-sled.jpg
+icon_url: null
+is_public: true
+updated: '2019-11-11T02:36:19.493154Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

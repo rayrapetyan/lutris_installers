@@ -1,0 +1,15 @@
+name: 'Star Wars: Dark Forces'
+slug: star-wars-dark-forces
+year: 1995
+platforms:
+- name: MS-DOS
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/star-wars-dark-forces.jpg
+icon_url: /games/icon/star-wars-dark-forces.png
+is_public: true
+updated: '2019-01-23T08:31:25.449695Z'
+steamid: 32400
+gogslug: star_wars_dark_forces
+humblestoreid: ''

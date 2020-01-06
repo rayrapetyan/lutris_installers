@@ -1,0 +1,28 @@
+id: 3726
+game_id: 1171
+game_slug: defenders-quest-valley-of-the-forgotten
+name: 'Defender''s Quest: Valley of the Forgotten'
+year: 2012
+user: FakeShemp
+runner: linux
+slug: defenders-quest-valley-of-the-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-18T08:49:19.408181Z'
+updated_at: '2017-05-18T18:35:43.350117Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 218410
+gogid: 1207659129
+gogslug: defenders_quest
+humblestoreid: ''
+script:
+  exe: run.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive

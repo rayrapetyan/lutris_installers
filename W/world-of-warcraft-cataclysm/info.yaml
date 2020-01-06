@@ -1,0 +1,15 @@
+name: 'World of Warcraft: Cataclysm'
+slug: world-of-warcraft-cataclysm
+year: 2010
+platforms:
+- name: Windows
+genres:
+- name: MMORPG
+aliases: []
+banner_url: /games/banner/world-of-warcraft-cataclysm.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:10.716136Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

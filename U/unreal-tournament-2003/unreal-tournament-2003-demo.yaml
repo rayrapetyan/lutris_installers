@@ -1,0 +1,29 @@
+id: 400
+game_id: 1807
+game_slug: unreal-tournament-2003
+name: Unreal Tournament 2003
+year: 2002
+user: strider
+runner: linux
+slug: unreal-tournament-2003-demo
+version: demo
+description: Demo version (2 levels)
+notes: ''
+created_at: '2014-01-28T00:37:04.884000Z'
+updated_at: '2014-01-28T00:37:09.649000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: System/ut2003-bin
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: ut2003-demo
+  files:
+  - ut2003-demo: http://lutris.net/files/games/unreal-tournament-2003/ut2003lnx_demo.tar.bz2

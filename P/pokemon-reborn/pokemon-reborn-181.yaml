@@ -1,0 +1,43 @@
+id: 9881
+game_id: 21157
+game_slug: pokemon-reborn
+name: Pokemon Reborn
+year: 2014
+user: cxf
+runner: wine
+slug: pokemon-reborn-181
+version: '18.1'
+description: null
+notes: Download Reborn 18.1 before running installer.
+created_at: '2018-08-25T06:15:54.487000Z'
+updated_at: '2018-08-30T01:47:34.142311Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Pokemon Reborn/Game.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - execute:
+      command: mkdir "$GAMEDIR/drive_c/Program Files/Pokemon Reborn"
+  - extract:
+      src: $reborn
+      dst: $GAMEDIR/drive_c/Program Files/Pokemon Reborn
+  - task:
+      prefix: $GAMEDIR
+      app: quartz
+      name: winetricks
+  wine:
+    overrides:
+      winegstreamer: disabled
+  files:
+  - reborn: N/A:Select Reborn 18.1 zip archive

@@ -1,0 +1,33 @@
+id: 4377
+game_id: 1968
+game_slug: ku-shroud-of-the-morrigan
+name: 'Ku: Shroud of the Morrigan'
+year: null
+user: FakeShemp
+runner: wine
+slug: ku-shroud-of-the-morrigan-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-06-15T20:10:48.984000Z'
+updated_at: '2018-05-19T03:41:50.267652Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 270330
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the IndieGameStand installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Ku - Shroud of the Morrigan/KuSotm.exe
+    arch: win32

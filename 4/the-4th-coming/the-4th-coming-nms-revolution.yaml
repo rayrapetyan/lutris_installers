@@ -1,0 +1,52 @@
+id: 8078
+game_id: 15234
+game_slug: the-4th-coming
+name: The 4th Coming
+year: 1999
+user: Todaug
+runner: wine
+slug: the-4th-coming-nms-revolution
+version: NMS Revolution
+description: The 4th coming nms revolutions
+notes: ''
+created_at: '2018-05-06T20:45:57.601000Z'
+updated_at: '2019-04-05T06:02:58.024157Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Wine to Windows 7 32-Bit
+      app: win7
+      arch: win32
+      name: winetricks
+  - task:
+      executable: $setup
+      prefix: $GAMEDIR
+      name: wineexec
+  - move:
+      src: $CACHE
+      dst: $GAMEDIR/drive_c/Program Files/The4Coming
+  game:
+    prefix: $GAMEDIR
+    args: --waitforpreload --nologo --nodx9ex --gc2
+    exe: drive_c/Program Files/NMSRevolution/T4C Client/T4C.exe
+    arch: win32
+  system:
+    disable_runtime: true
+  wine:
+    version: tkg-4.4-x86_64
+    esync: true
+  files:
+  - setup: http://forum-nmsrevolution.com/NMSGame/NMSRevolution_Light.exe

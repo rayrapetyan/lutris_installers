@@ -1,0 +1,18 @@
+name: Gun Metal
+slug: gun-metal
+year: 2002
+platforms:
+- name: Windows
+genres:
+- name: Arcade
+- name: Fighting
+- name: Sci-fi
+- name: Shooter
+aliases: []
+banner_url: /games/banner/gun-metal.jpg
+icon_url: /games/icon/gun-metal.png
+is_public: false
+updated: '2019-01-23T08:29:44.781915Z'
+steamid: 267920
+gogslug: ''
+humblestoreid: ''

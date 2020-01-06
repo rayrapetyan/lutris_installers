@@ -1,0 +1,34 @@
+id: 4750
+game_id: 4182
+game_slug: qp-shooting-dangerous
+name: QP Shooting - Dangerous!!
+year: 2014
+user: FakeShemp
+runner: wine
+slug: qp-shooting-dangerous-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-07-02T15:18:26.441000Z'
+updated_at: '2018-05-19T03:41:54.559359Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 316600
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      args: /S
+      name: wineexec
+  files:
+  - file1: N/A:Please select the Humble installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Fruitbat Factory/QP Shooting - Dangerous/QP Shooting.exe
+    arch: win32

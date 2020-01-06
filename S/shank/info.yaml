@@ -1,0 +1,15 @@
+name: Shank
+slug: shank
+year: 2010
+platforms:
+- name: Linux
+genres:
+- name: Beat'em up
+aliases: []
+banner_url: /games/banner/shank.jpg
+icon_url: /games/icon/shank.png
+is_public: true
+updated: '2019-01-23T08:31:11.243426Z'
+steamid: 6120
+gogslug: ''
+humblestoreid: ''

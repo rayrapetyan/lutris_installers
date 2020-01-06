@@ -1,0 +1,16 @@
+name: Star Wolves
+slug: star-wolves
+year: 2010
+platforms:
+- name: Windows
+genres:
+- name: RPG
+- name: Strategy
+aliases: []
+banner_url: /games/banner/star-wolves.jpg
+icon_url: /games/icon/star-wolves.png
+is_public: true
+updated: '2019-10-13T23:39:27.960388Z'
+steamid: 46270
+gogslug: star_wolves
+humblestoreid: ''

@@ -1,0 +1,16 @@
+name: 'SCP: Secret Laboratory'
+slug: scp-secret-laboratory
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Horror
+aliases: []
+banner_url: /games/banner/scp-secret-laboratory.jpg
+icon_url: /games/icon/scp-secret-laboratory.png
+is_public: true
+updated: '2019-01-23T08:31:08.245843Z'
+steamid: 700330
+gogslug: ''
+humblestoreid: ''

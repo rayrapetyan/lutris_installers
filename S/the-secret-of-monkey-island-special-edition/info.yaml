@@ -1,0 +1,16 @@
+name: 'The Secret of Monkey Island: Special Edition'
+slug: the-secret-of-monkey-island-special-edition
+year: 2009
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/the-secret-of-monkey-island-special-edition.jpg
+icon_url: /games/icon/the-secret-of-monkey-island-special-edition.png
+is_public: true
+updated: '2019-01-23T08:31:46.795937Z'
+steamid: 32360
+gogslug: the_secret_of_monkey_island_special_edition
+humblestoreid: ''

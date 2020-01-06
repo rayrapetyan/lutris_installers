@@ -1,0 +1,29 @@
+id: 6907
+game_id: 7499
+game_slug: expander
+name: Expander
+year: null
+user: FakeShemp
+runner: linux
+slug: expander-desura
+version: Desura
+description: null
+notes: ''
+created_at: '2017-12-30T21:29:50.796172Z'
+updated_at: '2017-12-30T21:31:09.847547Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 410470
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Expander.x86
+  installer:
+  - extract:
+      file: $file1
+  exe64: Expander.x86_64
+  files:
+  - file1: N/A:Please select the Desura archive

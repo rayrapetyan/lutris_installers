@@ -1,0 +1,38 @@
+id: 3678
+game_id: 5826
+game_slug: diablo
+name: Diablo
+year: 1996
+user: gugutz
+runner: wine
+slug: diablo-original
+version: Original
+description: Original vanilla game, without any patches or mods.
+notes: "- Original CD required. Mount it before you play.\r\n- Use default options\
+  \ during the Windows setup. \r\n- Close the game with Alt+F4 if it launches automatically\
+  \ at the end."
+created_at: '2017-05-14T13:25:13.428000Z'
+updated_at: '2018-05-19T03:41:52.288140Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1412601690
+gogslug: diablo
+humblestoreid: ''
+script:
+  exe: drive_c/Program Files/Diablo/diablo.exe
+  installer:
+  - insert-disc:
+      requires: diabdat.mpq
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  - merge:
+      src: $DISC/diabdat.mpq
+      dst: $GAMEDIR
+  game:
+    prefix: $GAMEDIR
+    arch: win32

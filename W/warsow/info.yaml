@@ -1,0 +1,15 @@
+name: Warsow
+slug: warsow
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/warsow.jpg
+icon_url: /games/icon/warsow.png
+is_public: true
+updated: '2019-01-23T08:32:06.556002Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

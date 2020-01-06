@@ -1,0 +1,32 @@
+id: 7372
+game_id: 16598
+game_slug: virtual-date-leanna
+name: Virtual Date - Leanna
+year: null
+user: t-rex91
+runner: web
+slug: virtual-date-leanna-24-offline
+version: 2.4 offline
+description: null
+notes: ''
+created_at: '2018-02-22T14:11:21.047464Z'
+updated_at: '2018-02-24T05:01:06.797825Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: game
+  main_file: begin.html
+  web:
+    open_links: true
+    disable_scrolling: true
+    window_size: 1280x720
+  files:
+  - game: http://download1492.mediafire.com/qdoexud7bhag/7uci213c3p4buxi/leanna_2.4.zip

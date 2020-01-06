@@ -1,0 +1,24 @@
+id: 1468
+game_id: 4163
+game_slug: warlocks-vs-shadows
+name: Warlocks vs Shadows
+year: 2015
+user: Xodetaetl
+runner: steam
+slug: warlocks-vs-shadows-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-04-19T14:35:11.900000Z'
+updated_at: '2015-04-19T14:35:17.271000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 330270
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 330270

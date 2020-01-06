@@ -1,0 +1,15 @@
+name: Book Series - Alice in Wonderland
+slug: book-series-alice-in-wonderland
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/book-series-alice-in-wonderland.jpg
+icon_url: /games/icon/book-series-alice-in-wonderland.png
+is_public: true
+updated: '2019-01-23T08:28:40.330500Z'
+steamid: 544190
+gogslug: ''
+humblestoreid: ''

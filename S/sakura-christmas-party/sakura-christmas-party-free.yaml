@@ -1,0 +1,28 @@
+id: 6979
+game_id: 15638
+game_slug: sakura-christmas-party
+name: Sakura Christmas Party
+year: 2016
+user: FakeShemp
+runner: linux
+slug: sakura-christmas-party-free
+version: Free
+description: 'Free download from: https://we.tl/mmPjKnclAZ'
+notes: ''
+created_at: '2018-01-03T01:52:06.371000Z'
+updated_at: '2018-01-03T01:53:39.291525Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Sakura Christmas Party.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the archive

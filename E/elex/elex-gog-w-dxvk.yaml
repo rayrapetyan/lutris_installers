@@ -1,0 +1,46 @@
+id: 8060
+game_id: 13868
+game_slug: elex
+name: ELEX
+year: 2017
+user: property
+runner: wine
+slug: elex-gog-w-dxvk
+version: GOG w/ DXVK
+description: null
+notes: ''
+created_at: '2018-05-05T07:11:34.923000Z'
+updated_at: '2019-02-14T05:56:39.734543Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 411300
+gogid: 1885888793
+gogslug: elex
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/ELEX/system/ELEX.exe
+    arch: win64
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: vcrun2010 vcrun2012 win7
+      arch: win64
+      name: winetricks
+  - task:
+      executable: goginstaller
+      prefix: $GAMEDIR
+      description: Installing Elex...
+      name: wineexec
+  wine:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  files:
+  - goginstaller: N/A:Select the game's setup file from GOG

@@ -1,0 +1,17 @@
+name: Samorost 2
+slug: samorost-2
+year: 2009
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Fantasy
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/samorost-2.jpg
+icon_url: /games/icon/samorost-2.png
+is_public: true
+updated: '2019-01-23T08:31:06.978730Z'
+steamid: 40720
+gogslug: samorost2
+humblestoreid: ''

@@ -1,0 +1,59 @@
+id: 2654
+game_id: 1089
+game_slug: men-of-war-assault-squad
+name: 'Men of War: Assault Squad'
+year: null
+user: ssf
+runner: wine
+slug: men-of-war-assault-squad-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2016-08-31T19:31:12.385360Z'
+updated_at: '2016-09-30T21:09:19.721793Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 64000
+gogid: 1428580803
+gogslug: men_of_war_assault_squad
+humblestoreid: ''
+script:
+  gogid: men_of_war_assault_squad
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      type: REG_SZ
+      value: ''
+      key: winemenubuilder.exe
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /VERYSILENT /SP- /NOCANCEL /SUPPRESSMSGBOXES '/DIR=C:/game'
+      description: Installing...
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: directx9
+      silent: true
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Disabling unused WINE features
+      app: sandbox
+      silent: true
+      name: winetricks
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/game/mow_assault_squad.exe
+    working_dir: $GAMEDIR/drive_c/game
+    arch: win32

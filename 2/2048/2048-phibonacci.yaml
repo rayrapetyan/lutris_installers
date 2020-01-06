@@ -1,0 +1,32 @@
+id: 9849
+game_id: 3411
+game_slug: '2048'
+name: '2048'
+year: 2014
+user: RobLoach
+runner: linux
+slug: 2048-phibonacci
+version: Phibonacci
+description: 'Love-Phibonacci: 2048 but with Fibonacci'
+notes: "https://github.com/AlexanDDOS/Phibonacci\r\n\r\nRequires: love2d https://lutris.net/games/love2d/"
+created_at: '2018-08-22T19:55:00.870900Z'
+updated_at: '2018-08-22T20:04:10.510291Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  requires: love2d
+  installer:
+  - move:
+      src: $lovefile
+      dst: $GAMEDIR/phibonacci.love
+  files:
+  - lovefile: https://github.com/AlexanDDOS/Phibonacci/releases/download/v0.1/phibonacci.love
+  game:
+    args: $GAMEDIR/phibonacci.love
+    exe: love

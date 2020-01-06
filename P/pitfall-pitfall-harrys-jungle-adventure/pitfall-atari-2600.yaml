@@ -1,0 +1,29 @@
+id: 17343
+game_id: 24986
+game_slug: pitfall-pitfall-harrys-jungle-adventure
+name: Pitfall!
+year: 1982
+user: leandrovitals
+runner: stella
+slug: pitfall-atari-2600
+version: Atari 2600
+description: null
+notes: ''
+created_at: '2019-12-15T01:19:37.171000Z'
+updated_at: '2019-12-23T19:56:15.205697Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: rom
+  installer:
+  - merge:
+      src: rom
+      dst: $GAMEDIR
+  files:
+  - rom: N/A:Select the game''s ROM file

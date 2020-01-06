@@ -1,0 +1,28 @@
+id: 5591
+game_id: 3913
+game_slug: yousei
+name: Yousei
+year: 2013
+user: FakeShemp
+runner: linux
+slug: yousei-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-09-04T19:59:09.706855Z'
+updated_at: '2017-09-04T20:00:10.572751Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 771380
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: yousei.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the Groupees archive

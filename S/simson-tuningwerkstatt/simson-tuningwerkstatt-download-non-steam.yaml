@@ -1,0 +1,36 @@
+id: 15664
+game_id: 29451
+game_slug: simson-tuningwerkstatt
+name: simson tuningwerkstatt
+year: null
+user: Smeltie
+runner: wine
+slug: simson-tuningwerkstatt-download-non-steam
+version: Download Non Steam
+description: This installer is for the download version not for steam!
+notes: ''
+created_at: '2019-09-18T22:34:08.690000Z'
+updated_at: '2019-09-18T22:51:18.170212Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Simson Tuning-Werkstatt 3D/TuningWerkstatt.exe
+  installer:
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      name: wineexec
+  wine:
+    version: lutris-4.13-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - installer: N/A:Provide path to the installer (.exe file)

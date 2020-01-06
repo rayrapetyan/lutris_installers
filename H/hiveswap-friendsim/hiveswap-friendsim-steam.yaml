@@ -1,0 +1,24 @@
+id: 11041
+game_id: 19907
+game_slug: hiveswap-friendsim
+name: Hiveswap Friendsim
+year: 2018
+user: sudrien
+runner: steam
+slug: hiveswap-friendsim-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-12-01T05:57:37.811000Z'
+updated_at: '2018-12-01T06:10:05.768743Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 833040
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 833040

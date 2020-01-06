@@ -1,0 +1,31 @@
+id: 11967
+game_id: 25725
+game_slug: 1st-degree
+name: 1st Degree
+year: null
+user: kimchitea
+runner: linux
+slug: 1st-degree-updated-demo
+version: Updated Demo
+description: null
+notes: ''
+created_at: '2019-02-11T09:46:43.681035Z'
+updated_at: '2019-02-15T01:27:47.751805Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: FirstDegreeDemo.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/FirstDegreeDemo.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/FirstDegreeDemo
+  - chmodx: $GAMEDIR/lib/linux-x86_64/FirstDegreeDemo
+  files:
+  - file1: N/A:Please select the game archive

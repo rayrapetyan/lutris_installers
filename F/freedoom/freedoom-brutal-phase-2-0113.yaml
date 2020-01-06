@@ -1,0 +1,36 @@
+id: 2442
+game_id: 7153
+game_slug: freedoom
+name: Freedoom
+year: 2003
+user: RobLoach
+runner: zdoom
+slug: freedoom-brutal-phase-2-0113
+version: Brutal Phase 2 (0.11.3)
+description: null
+notes: ''
+created_at: '2016-08-12T06:09:26.218000Z'
+updated_at: '2018-01-01T15:40:42.505391Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: brutal
+  - extract:
+      dst: $GAMEDIR
+      file: freedoom
+  files:
+  - freedoom: https://github.com/freedoom/freedoom/releases/download/v0.11.3/freedoom-0.11.3.zip
+  - brutal: https://lutris.net/files/games/zdoom/brutalv20b.zip
+  game:
+    main_file: freedoom2.wad
+    files:
+    - brutalv20b.pk3

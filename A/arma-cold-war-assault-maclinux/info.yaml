@@ -1,0 +1,15 @@
+name: 'Arma: Cold War Assault Mac/Linux'
+slug: arma-cold-war-assault-maclinux
+year: 2011
+platforms:
+- name: Linux
+genres:
+- name: Tactical shooter
+aliases: []
+banner_url: /games/banner/arma-cold-war-assault-maclinux.jpg
+icon_url: /games/icon/arma-cold-war-assault-maclinux.png
+is_public: true
+updated: '2019-01-23T08:28:25.271968Z'
+steamid: 594550
+gogslug: ''
+humblestoreid: ''

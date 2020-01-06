@@ -1,0 +1,44 @@
+id: 13205
+game_id: 1599
+game_slug: spore
+name: Spore
+year: 2008
+user: citrusalex
+runner: winesteam
+slug: spore-steam-w-d9vk
+version: Steam w/ D9VK
+description: Runs much faster and fixes terrain issues.
+notes: "**CONFIGURE AND INSTALL THE DEPENDENCIES FIRST**\r\nInstructions for D9VK\
+  \ support: <a href=\"https://github.com/lutris/lutris/wiki/Installing-drivers\"\
+  >https://github.com/lutris/lutris/wiki/Installing-drivers</a>"
+created_at: '2019-04-29T01:32:59.304000Z'
+updated_at: '2019-11-16T08:54:24.088070Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 17390
+gogid: 1948823323
+gogslug: spore_collection
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: d3dcompiler_43 d3dx9
+      name: winetricks
+  winesteam:
+    d9vk: true
+    esync: true
+  system:
+    env:
+      DXVK_LOG_LEVEL: none
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      __GL_SHADER_DISK_CACHE: 1
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 17390

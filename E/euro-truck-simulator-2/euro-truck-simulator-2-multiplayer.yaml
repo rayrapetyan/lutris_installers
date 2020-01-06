@@ -1,0 +1,43 @@
+id: 6530
+game_id: 488
+game_slug: euro-truck-simulator-2
+name: Euro Truck Simulator 2
+year: 2012
+user: soredake
+runner: wine
+slug: euro-truck-simulator-2-multiplayer
+version: Multiplayer
+description: null
+notes: "Installer needs bash,  wget, awk and md5sum.\r\nTo launch the mod you need\
+  \ to launch steam first through 'Run EXE inside wine prefix' (default location is\
+  \ \"$HOME/.local/share/lutris/runners/winesteam/prefix/drive_c/Program Files/Steam/Steam.exe\"\
+  )"
+created_at: '2017-12-02T16:28:38.096000Z'
+updated_at: '2018-08-21T02:10:54.968504Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 227300
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  require-binaries: bash, wget, awk, md5sum
+  installer:
+  - chmodx: downloader
+  - execute:
+      file: downloader
+  - move:
+      src: $launcher
+      dst: $GAMEDIR
+  files:
+  - steamdata: $WINESTEAM:227300:/
+  - launcher: https://github.com/lhark/truckersmp-cli/raw/master/truckersmp-cli.exe
+  - downloader: https://notabug.org/soredake/lutris-additions/raw/master/truckers-mp.sh
+  game:
+    prefix: $GAMEDIR/prefix
+    exe: $GAMEDIR/truckersmp-cli.exe
+    args: . $GAMEDIR/prefix/drive_c/truckersmp
+    working_dir: $steamdata
+    arch: win64

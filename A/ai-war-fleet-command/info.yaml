@@ -1,0 +1,15 @@
+name: 'AI War: Fleet Command'
+slug: ai-war-fleet-command
+year: 2009
+platforms:
+- name: Linux
+genres:
+- name: Real-time strategy
+aliases: []
+banner_url: /games/banner/ai-war-fleet-command.jpg
+icon_url: /games/icon/ai-war-fleet-command.png
+is_public: true
+updated: '2019-01-23T08:28:17.282473Z'
+steamid: 40400
+gogslug: ai_war_fleet_command
+humblestoreid: ''

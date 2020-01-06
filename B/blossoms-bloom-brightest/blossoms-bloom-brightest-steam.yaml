@@ -1,0 +1,24 @@
+id: 4835
+game_id: 11208
+game_slug: blossoms-bloom-brightest
+name: Blossoms Bloom Brightest
+year: 2017
+user: FakeShemp
+runner: steam
+slug: blossoms-bloom-brightest-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-07-05T21:16:48.225085Z'
+updated_at: '2017-07-09T20:13:16.165307Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 437720
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 437720

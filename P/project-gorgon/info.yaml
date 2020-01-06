@@ -1,0 +1,15 @@
+name: 'Project: Gorgon'
+slug: project-gorgon
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: MMORPG
+aliases: []
+banner_url: /games/banner/project-gorgon.jpg
+icon_url: /games/icon/project-gorgon.png
+is_public: true
+updated: '2019-10-11T02:44:49.538307Z'
+steamid: 342940
+gogslug: ''
+humblestoreid: ''

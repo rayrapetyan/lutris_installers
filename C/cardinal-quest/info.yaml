@@ -1,0 +1,16 @@
+name: Cardinal Quest
+slug: cardinal-quest
+year: 2011
+platforms:
+- name: Linux
+genres:
+- name: Roguelike
+- name: RPG
+aliases: []
+banner_url: /games/banner/cardinal-quest.jpg
+icon_url: /games/icon/cardinal-quest.png
+is_public: false
+updated: '2019-01-23T08:28:46.015261Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

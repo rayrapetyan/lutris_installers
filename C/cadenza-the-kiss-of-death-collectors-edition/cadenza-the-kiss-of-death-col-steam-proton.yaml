@@ -1,0 +1,24 @@
+id: 10996
+game_id: 23518
+game_slug: cadenza-the-kiss-of-death-collectors-edition
+name: 'Cadenza: The Kiss of Death Collector''s Edition'
+year: 2015
+user: kimchitea
+runner: steam
+slug: cadenza-the-kiss-of-death-col-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2018-11-26T17:14:16.580000Z'
+updated_at: '2019-05-22T00:11:19.840949Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 758630
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 758630

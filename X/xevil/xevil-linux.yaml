@@ -1,0 +1,29 @@
+id: 3019
+game_id: 5180
+game_slug: xevil
+name: XEvil
+year: null
+user: scottviger
+runner: linux
+slug: xevil-linux
+version: Linux
+description: ''
+notes: ''
+created_at: '2016-11-17T02:23:12.466863Z'
+updated_at: '2016-11-21T21:37:05.918158Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: xevil
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: game
+  files:
+  - game: https://master.dl.sourceforge.net/project/open-source-games/Xevil.tar.xz

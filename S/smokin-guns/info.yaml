@@ -1,0 +1,16 @@
+name: Smokin' Guns
+slug: smokin-guns
+year: 2009
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: FPS
+aliases: []
+banner_url: /games/banner/smokin-guns.jpg
+icon_url: /games/icon/smokin-guns.png
+is_public: true
+updated: '2019-01-23T08:31:16.299740Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,19 @@
+name: 'Al-Qadim: The Genie''s Curse'
+slug: al-qadim-the-genies-curse
+year: 1993
+platforms:
+- name: Linux
+- name: MS-DOS
+genres:
+- name: Action
+- name: Fantasy
+- name: Role-playing
+- name: RPG
+aliases: []
+banner_url: /games/banner/al-qadim-the-genies-curse.jpg
+icon_url: /games/icon/al-qadim-the-genies-curse.png
+is_public: true
+updated: '2019-03-30T01:07:48.580766Z'
+steamid: null
+gogslug: alqadim_the_genies_curse
+humblestoreid: ''

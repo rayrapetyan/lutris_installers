@@ -1,0 +1,15 @@
+name: Sakura Beach
+slug: sakura-beach
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/sakura-beach.jpg
+icon_url: /games/icon/sakura-beach.png
+is_public: true
+updated: '2019-01-23T08:31:06.443444Z'
+steamid: 377680
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 8196
+game_id: 13273
+game_slug: estranged-act-ii
+name: 'Estranged: Act II'
+year: 2017
+user: soredake
+runner: steam
+slug: estranged-act-ii-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T07:05:28.991415Z'
+updated_at: '2018-05-13T09:02:38.991532Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 582890
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 582890

@@ -1,0 +1,17 @@
+name: Katana Zero
+slug: katana-zero
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Combat
+- name: Platformer
+aliases: []
+banner_url: /games/banner/katana-zero.jpg
+icon_url: /games/icon/katana-zero.png
+is_public: true
+updated: '2019-10-06T09:03:00.717818Z'
+steamid: 460950
+gogslug: katana_zero
+humblestoreid: ''

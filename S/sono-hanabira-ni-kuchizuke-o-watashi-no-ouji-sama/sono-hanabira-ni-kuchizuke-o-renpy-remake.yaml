@@ -1,0 +1,32 @@
+id: 13720
+game_id: 27496
+game_slug: sono-hanabira-ni-kuchizuke-o-watashi-no-ouji-sama
+name: Sono Hanabira ni Kuchizuke o - Watashi no Ouji-sama
+year: 2007
+user: kimchitea
+runner: linux
+slug: sono-hanabira-ni-kuchizuke-o-renpy-remake
+version: Ren'Py Remake
+description: Unofficial port by Polish translation group Nyan.
+notes: You may need to rename the game archive to remove brackets from the default
+  file name for the installer to work.
+created_at: '2019-05-25T05:53:03.771000Z'
+updated_at: '2019-09-09T01:57:40.970095Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: SH02.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/SH02.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/SH02
+  - chmodx: $GAMEDIR/lib/linux-x86_64/SH02
+  files:
+  - file1: N/A:Please select the game archive

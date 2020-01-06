@@ -1,0 +1,24 @@
+id: 2997
+game_id: 972
+game_slug: dirt-3
+name: DiRT 3
+year: null
+user: strider
+runner: steam
+slug: dirt-3-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2016-11-10T18:35:05.119000Z'
+updated_at: '2019-11-04T04:54:18.600496Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 44320
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 44320

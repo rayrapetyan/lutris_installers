@@ -1,0 +1,16 @@
+name: Unmechanical
+slug: unmechanical
+year: 2012
+platforms:
+- name: Linux
+genres:
+- name: Platform
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/unmechanical.jpg
+icon_url: /games/icon/unmechanical.png
+is_public: true
+updated: '2019-01-23T08:31:59.960502Z'
+steamid: 211180
+gogslug: unmechanical
+humblestoreid: unmechanical

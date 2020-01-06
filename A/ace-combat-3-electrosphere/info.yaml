@@ -1,0 +1,17 @@
+name: 'Ace Combat 3: Electrosphere'
+slug: ace-combat-3-electrosphere
+year: 2000
+platforms:
+- name: Sony PlayStation
+genres:
+- name: Flight
+- name: Shooter
+- name: Simulation
+aliases: []
+banner_url: /games/banner/ace-combat-3-electrosphere.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:10.874639Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

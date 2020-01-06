@@ -1,0 +1,17 @@
+name: The Binding of Isaac
+slug: the-binding-of-isaac
+year: 2011
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: Action
+- name: Roguelike
+aliases: []
+banner_url: /games/banner/the-binding-of-isaac.jpg
+icon_url: /games/icon/the-binding-of-isaac.png
+is_public: true
+updated: '2019-01-23T08:31:38.870412Z'
+steamid: 113200
+gogslug: ''
+humblestoreid: the-binding-of-isaac-wrath-of-the-lamb-dlc

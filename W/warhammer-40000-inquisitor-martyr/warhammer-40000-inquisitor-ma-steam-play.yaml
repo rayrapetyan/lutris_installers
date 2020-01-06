@@ -1,0 +1,24 @@
+id: 16964
+game_id: 15238
+game_slug: warhammer-40000-inquisitor-martyr
+name: 'Warhammer 40,000: Inquisitor - Martyr'
+year: 2018
+user: UndeadhunterBE
+runner: steam
+slug: warhammer-40000-inquisitor-ma-steam-play
+version: Steam Play
+description: Installed to run through Steam Play
+notes: ''
+created_at: '2019-11-23T09:18:34.407869Z'
+updated_at: '2019-11-23T09:18:34.407906Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 527430
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 527430

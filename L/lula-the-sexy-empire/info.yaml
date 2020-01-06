@@ -1,0 +1,16 @@
+name: 'Lula: The Sexy Empire'
+slug: lula-the-sexy-empire
+year: 1998
+platforms:
+- name: Amiga
+- name: Windows
+genres:
+- name: Simulation
+aliases: []
+banner_url: /games/banner/lula-the-sexy-empire.jpg
+icon_url: /games/icon/lula-the-sexy-empire.png
+is_public: true
+updated: '2019-01-23T08:30:14.119331Z'
+steamid: null
+gogslug: lula_the_sexy_empire
+humblestoreid: ''

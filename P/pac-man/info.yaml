@@ -1,0 +1,24 @@
+name: Pac-Man
+slug: pac-man
+year: 1980
+platforms:
+- name: Apple IIGS
+- name: Arcade
+- name: Atari 2600
+- name: Atari 5200
+- name: Commodore 64
+- name: Game Boy
+- name: MS-DOS
+- name: NES
+genres:
+- name: Adventure
+- name: Arcade
+- name: Shooter
+aliases: []
+banner_url: /games/banner/pac-man.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:40.643095Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

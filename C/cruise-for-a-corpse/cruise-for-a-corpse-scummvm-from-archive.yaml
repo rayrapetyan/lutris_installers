@@ -1,0 +1,30 @@
+id: 11885
+game_id: 25631
+game_slug: cruise-for-a-corpse
+name: Cruise for a Corpse
+year: 1991
+user: hchilde
+runner: scummvm
+slug: cruise-for-a-corpse-scummvm-from-archive
+version: ScummVM - From archive
+description: null
+notes: ''
+created_at: '2019-02-06T20:42:05.787437Z'
+updated_at: '2019-04-26T04:52:32.220854Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      file: archive
+  files:
+  - archive: N/A:Select the game's archive file for ScummVM.
+  game:
+    game_id: cruise
+    path: $GAMEDIR

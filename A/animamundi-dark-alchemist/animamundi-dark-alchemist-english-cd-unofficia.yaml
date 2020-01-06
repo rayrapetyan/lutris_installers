@@ -1,0 +1,63 @@
+id: 9313
+game_id: 20114
+game_slug: animamundi-dark-alchemist
+name: 'Animamundi: Dark Alchemist'
+year: 2004
+user: kimchitea
+runner: wine
+slug: animamundi-dark-alchemist-english-cd-unofficia
+version: English CD + unofficial patch
+description: null
+notes: Decensor patch by Sirrah restores cut content from the Japanese release. Also
+  includes necessary bugfix patches that are no longer available from the official
+  site.
+created_at: '2018-07-21T12:15:14.124000Z'
+updated_at: '2019-10-28T20:37:04.432590Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/Program Files/Karin_HIRAMEKI/animamundi/Animamundi-Dark_alchemist/animaUS_19.exe
+    arch: win32
+  installer:
+  - insert-disc:
+      requires: animamundi dark alchemist.msi
+      description: Insert the Animamundi CD
+  - task:
+      executable: $DISC/setup.exe
+      prefix: $GAMEDIR
+      arch: win32
+      name: wineexec
+  - extract:
+      dst: $CACHE
+      file: $patch
+  - merge:
+      src: $CACHE/animaUS_19.exe
+      dst: $GAMEDIR/drive_c/Program Files/Karin_HIRAMEKI/animamundi/Animamundi-Dark_alchemist
+  - merge:
+      src: $CACHE/Achr_60.swf
+      dst: $GAMEDIR/drive_c/Program Files/Karin_HIRAMEKI/animamundi/Animamundi-Dark_alchemist/chr
+  - merge:
+      src: $CACHE/anima_patches/scriptdata.swf
+      dst: $GAMEDIR/drive_c/Program Files/Karin_HIRAMEKI/animamundi/Animamundi-Dark_alchemist/sys
+  - merge:
+      src: $CACHE/anima_patches/ev_s
+      dst: $GAMEDIR/drive_c/Program Files/Karin_HIRAMEKI/animamundi/Animamundi-Dark_alchemist/ev_s
+  - merge:
+      src: $CACHE/bg fixes
+      dst: $GAMEDIR/drive_c/Program Files/Karin_HIRAMEKI/animamundi/Animamundi-Dark_alchemist/bg
+  - merge:
+      src: $CACHE/ev
+      dst: $GAMEDIR/drive_c/Program Files/Karin_HIRAMEKI/animamundi/Animamundi-Dark_alchemist/ev
+  wine:
+    WineDesktop: 640x480
+    Desktop: true
+  files:
+  - patch: N/A:Please select the patch from http://www.mediafire.com/file/5dusyyn36s7jwnl/AnimaMundiPatch.rar

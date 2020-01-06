@@ -1,0 +1,33 @@
+id: 11881
+game_id: 25632
+game_slug: wargroove
+name: Wargroove
+year: null
+user: Constant_
+runner: winesteam
+slug: wargroove-steam
+version: Steam
+description: null
+notes: "--skip-intro because of \"Halley has aborted...\" Crash at Launch on Steam\r\
+  \nsee <a href=\"https://community.playstarbound.com/threads/halley-has-aborted-crash-at-launch-on-steam.152133/\"\
+  >https://community.playstarbound.com/threads/halley-has-aborted-crash-at-launch-on-steam.152133/</a>\
+  \ for information"
+created_at: '2019-02-06T19:16:57.952000Z'
+updated_at: '2019-02-16T05:01:04.048887Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 607050
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  game:
+    prefix: $GAMEDIR/prefix
+    args: --skip-intro
+    appid: 607050
+    arch: win64

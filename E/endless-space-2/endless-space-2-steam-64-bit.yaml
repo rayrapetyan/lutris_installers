@@ -1,0 +1,40 @@
+id: 3207
+game_id: 9734
+game_slug: endless-space-2
+name: Endless Space 2
+year: null
+user: wolfyos
+runner: winesteam
+slug: endless-space-2-steam-64-bit
+version: Steam (64 Bit)
+description: "Installs Endless Space 2 into the default 64 bit Wine Steam prefix (ES2\
+  \ is 64 bit only) and makes sure .NET Runtime 4.5.2 is preinstalled.\r\nIf necessary,\
+  \ add a recent wine version to your winesteam runner.\r\nThe installation process\
+  \ may block after installing .NET 4.5.2. Check the winetricks output to be sure\
+  \ that the installation process of .NET is successfull, then cancel the installation.\
+  \ The game should be correctly installed, but you may check the wine configuration."
+notes: https://appdb.winehq.org/objectManager.php?sClass=version&iId=35297
+created_at: '2017-01-27T19:49:44.141000Z'
+updated_at: '2018-07-03T12:11:06.032764Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 392110
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  winesteam:
+    overrides:
+      winegstreamer: disable
+      mscoree: b, n
+  installer:
+  - task:
+      description: Installing .NET 4.5.2 Runtime...
+      app: dotnet452
+      silent: false
+      name: winetricks
+  game:
+    appid: 392110
+    arch: win64

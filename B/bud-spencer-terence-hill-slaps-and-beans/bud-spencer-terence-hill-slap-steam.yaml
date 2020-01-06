@@ -1,0 +1,24 @@
+id: 8453
+game_id: 16605
+game_slug: bud-spencer-terence-hill-slaps-and-beans
+name: Bud Spencer & Terence Hill - Slaps And Beans
+year: null
+user: dylanbr
+runner: steam
+slug: bud-spencer-terence-hill-slap-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-28T20:57:49.712492Z'
+updated_at: '2018-05-28T21:18:08.762913Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 564050
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 564050

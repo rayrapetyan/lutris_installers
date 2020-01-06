@@ -1,0 +1,29 @@
+id: 3947
+game_id: 332
+game_slug: strike-suit-zero
+name: Strike Suit Zero
+year: 2013
+user: FakeShemp
+runner: linux
+slug: strike-suit-zero-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-05-29T12:19:18.093089Z'
+updated_at: '2017-05-30T00:31:28.117561Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 209540
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: main/binary/StrikeSuitZero
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/main/binary/StrikeSuitZero
+  files:
+  - file1: N/A:Please select the Humble archive

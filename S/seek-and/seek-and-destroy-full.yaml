@@ -1,0 +1,117 @@
+id: 12706
+game_id: 26549
+game_slug: seek-and
+name: Seek and Destroy
+year: 1996
+user: D1SoveR
+runner: dosbox
+slug: seek-and-destroy-full
+version: Full
+description: null
+notes: ''
+created_at: '2019-04-09T20:17:30.509000Z'
+updated_at: '2019-04-18T05:13:38.923058Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: SEEK.EXE
+  dosbox:
+    scaler: hq3x
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/seek
+      file: gamearchive
+  - execute:
+      command: rmdir "$GAMEDIR" && mv "$CACHE/seek/SEEK/" "$GAMEDIR" && rm -rf "$CACHE/seek"
+  - write_file:
+      mode: w
+      content: 'Forward                        200 UP ARROW
+
+        Back                           208 DOWN ARROW
+
+        Left                           203 LEFT ARROW
+
+        Right                          205 RIGHT ARROW
+
+        Land                            57 SPACE
+
+        Strafe                          44 Z
+
+        Turn_Turret_Left                42 LEFT SHIFT
+
+        Turn_Turret_Right               44 Z
+
+        Select_Weapon                   29 LEFT CTRL
+
+        Fire                            56 LEFT ALT
+
+        Autozoom                        67 F9
+
+        0 0 1 2 3
+
+        '
+      file: $GAMEDIR/SEEK.CFG
+  - write_file:
+      mode: w
+      content: '4          card (0=sb,1=sbpro,2=gus,3=pas(not),4=sb16,5=awe32(not),678,9=none
+
+        0x220      port # in decimal (0x220=544) (0x240=576) (0x210=528)
+
+        7          irq number
+
+        0          low (8-bit) dma # (for cards that need it)
+
+        5          high (16-bit) dma # (ditto)
+
+        1          Sound Quality. 3=ultra(20), 2=high(16-def), 1=good(12), 0=low(8)
+
+        9          music card (0=OPL2, 1=OPL3, 5=GM, 6=GUS)
+
+        0x340      music port (0x388=904, 0x330=816, 0x340=832)
+
+
+        ^          ^
+
+        data here  comments no earlier than here!
+
+
+        --------------------------------------------------------------------------
+
+        VISION SOUND LIBRARY (C)1995 VISION SOFTWARE, ALL RIGHTS RESERVED.
+
+        WRITTEN BY PAUL ANDREWS.
+
+        '
+      file: $GAMEDIR/SOUND.CFG
+  - write_config:
+      data:
+        sblaster:
+          hdma: 5
+          sbmixer: true
+          sbtype: sb16
+          irq: 7
+          dma: 1
+          sbbase: 220
+        sdl:
+          output: overlay
+          fullscreen: false
+        speaker:
+          pcspeaker: true
+          disney: false
+          tandy: false
+      file: $GAMEDIR/dosbox.conf
+  files:
+  - gamearchive:
+      referer: https://classicreload.com/
+      filename: seek.zip
+      url: https://vfat.classicreload.com/msdos_Seek_and_Destroy_1996/Seek_and_Destroy_1996.zip
+  game:
+    config_file: $GAMEDIR/dosbox.conf
+    working_dir: $GAMEDIR

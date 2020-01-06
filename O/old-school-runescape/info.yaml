@@ -1,0 +1,19 @@
+name: Old School Runescape
+slug: old-school-runescape
+year: 2007
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: MMO
+- name: MMORPG
+aliases:
+- slug: old-school-rune-scape
+  name: Old School Rune Scape
+banner_url: /games/banner/old-school-runescape.jpg
+icon_url: /games/icon/old-school-runescape.png
+is_public: true
+updated: '2019-07-20T02:53:07.973413Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

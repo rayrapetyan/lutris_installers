@@ -1,0 +1,32 @@
+id: 4404
+game_id: 2141
+game_slug: 99-levels-to-hell
+name: 99 Levels To Hell
+year: 2014
+user: FakeShemp
+runner: wine
+slug: 99-levels-to-hell-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-06-16T19:35:19.943499Z'
+updated_at: '2018-05-19T03:41:50.777392Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 264280
+gogid: 1207659178
+gogslug: 99_levels_to_hell
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/99 Levels to Hell
+      file: $file1
+  files:
+  - file1: N/A:Please select the IndieGameStand archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/99 Levels to Hell/99LevelstoHell.exe
+    arch: win32

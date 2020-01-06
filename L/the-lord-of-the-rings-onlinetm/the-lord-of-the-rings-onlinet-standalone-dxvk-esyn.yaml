@@ -1,0 +1,55 @@
+id: 10679
+game_id: 824
+game_slug: the-lord-of-the-rings-onlinetm
+name: "The Lord of the Rings Online\u2122"
+year: null
+user: Todaug
+runner: wine
+slug: the-lord-of-the-rings-onlinet-standalone-dxvk-esyn
+version: Standalone DXVK + Esync
+description: null
+notes: https://www.youtube.com/watch?time_continue=3&v=kH5zCrJ4PGA
+created_at: '2018-10-29T02:53:50.652000Z'
+updated_at: '2019-11-16T09:17:48.064884Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 212500
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/StandingStoneGames/The Lord of the Rings Online/LotroLauncher.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Installing fonts
+      app: corefonts
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows version to Visual C++ 2017
+      app: vcrun2017
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: d3dcompiler_42 d3dcompiler_43 d3dx11_42 d3dx11_43 winhttp corefonts win10
+      name: winetricks
+  - task:
+      executable: lotro_installer
+      prefix: $GAMEDIR
+      args: --mode unattended
+      name: wineexec
+  wine:
+    version: lutris-4.13-x86_64
+    esync: true
+    dxvk: true
+  files:
+  - lotro_installer: http://content.turbine.com/sites/clientdl/lotro/lotrolive.exe

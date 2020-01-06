@@ -1,0 +1,31 @@
+id: 13160
+game_id: 27048
+game_slug: catacomb-prince
+name: Catacomb Prince
+year: 2019
+user: kimchitea
+runner: linux
+slug: catacomb-prince-itchio
+version: itch.io
+description: null
+notes: Download the Windows version.
+created_at: '2019-04-27T18:30:24.322000Z'
+updated_at: '2019-04-27T22:42:24.487309Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: CatacombPrince.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/CatacombPrince.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/CatacombPrince
+  - chmodx: $GAMEDIR/lib/linux-x86_64/CatacombPrince
+  files:
+  - file1: N/A:Please select the game archive

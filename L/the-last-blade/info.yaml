@@ -1,0 +1,16 @@
+name: THE LAST BLADE
+slug: the-last-blade
+year: null
+platforms:
+- name: Arcade
+- name: Windows
+genres:
+- name: Fighting
+aliases: []
+banner_url: /games/banner/the-last-blade.jpg
+icon_url: /games/icon/the-last-blade.png
+is_public: true
+updated: '2019-01-23T08:31:43.199958Z'
+steamid: 465840
+gogslug: the_last_blade
+humblestoreid: ''

@@ -1,0 +1,64 @@
+id: 8394
+game_id: 18479
+game_slug: pekka-kana
+name: Pekka Kana
+year: 1998
+user: nastys
+runner: dosbox
+slug: pekka-kana-ms-dos
+version: MS-DOS
+description: null
+notes: ''
+created_at: '2018-05-23T16:12:50.701000Z'
+updated_at: '2018-05-24T03:46:59.683090Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      src: game
+      description: Installing Pekka Kana...
+      dst: $GAMEDIR/PKANA
+  - extract:
+      src: patch
+      description: Installing Pekka Kana...
+      dst: $GAMEDIR/PKANA
+  - task:
+      commands:
+      - 'C:'
+      - cd PKANA
+      - PKANA.EXE
+      - exit
+      path: $GAMEDIR/dosbox.conf
+      drives:
+        c: $GAMEDIR
+      name: makeconfig
+  - write_file:
+      mode: a
+      content: '[cpu]
+
+        core=auto
+
+        cputype=auto
+
+        cycles=max 105%
+
+        cycleup=10
+
+        cycledown=20
+
+        '
+      file: $GAMEDIR/dosbox.conf
+  system:
+    disable_runtime: false
+  files:
+  - game: https://www.pistegamez.net/PK/pkanv08b.zip
+  - patch: https://www.pistegamez.net/PK/Pk_fixed.zip
+  game:
+    main_file: $GAMEDIR/dosbox.conf

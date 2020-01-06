@@ -1,0 +1,18 @@
+name: Sonic 3D Blast
+slug: sonic-3d-blast
+year: 1996
+platforms:
+- name: Sega Genesis / Mega Drive
+- name: Sega Saturn
+- name: Windows
+genres:
+- name: Action
+- name: Platform
+aliases: []
+banner_url: /games/banner/sonic-3d-blast.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:18.051676Z'
+steamid: 34278
+gogslug: ''
+humblestoreid: ''

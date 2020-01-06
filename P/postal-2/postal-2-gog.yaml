@@ -1,0 +1,45 @@
+id: 12657
+game_id: 479
+game_slug: postal-2
+name: POSTAL 2
+year: 2003
+user: Logeater
+runner: wine
+slug: postal-2-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-04-07T12:38:13.619000Z'
+updated_at: '2019-04-08T01:40:12.033719Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 223470
+gogid: 1207658755
+gogslug: postal_2
+humblestoreid: postal-2
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: directx9 vcrun2005 vcrun2010 vcrun2013
+      arch: win32
+      name: winetricks
+  - task:
+      executable: game
+      prefix: $GAMEDIR
+      args: /SP- /SUPPRESSMSGBOXES
+      arch: win32
+      name: wineexec
+  files:
+  - game: N/A:Please select the GOG.com Windows installer.
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/System/Postal2.exe
+    arch: win32

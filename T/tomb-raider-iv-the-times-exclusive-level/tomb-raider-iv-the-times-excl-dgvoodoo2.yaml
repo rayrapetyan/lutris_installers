@@ -1,0 +1,169 @@
+id: 14703
+game_id: 28554
+game_slug: tomb-raider-iv-the-times-exclusive-level
+name: 'Tomb Raider IV: The Times exclusive level'
+year: 1999
+user: legluondunet
+runner: wine
+slug: tomb-raider-iv-the-times-excl-dgvoodoo2
+version: DgVoodoo2
+description: "This script will install \"Tomb Raider IV: The Times exclusive level\"\
+  \ with support for modern resolution.\r\nDuring install please let all options by\
+  \ default.\r\nThis script uses different projects:\r\ndgVoodoo2: http://www.dege.freeweb.hu/\r\
+  \nTomb Raider 2-3-4 Widescreen Patch created by Mr.Blackfour : https://tombraiders.net/stella/downloads/widescreen.html\r\
+  \nOther sources: https://www.tombraiderforums.com\r\nThanks to the people who contributed\
+  \ to play this game in the best conditions."
+notes: "- \"Tomb Raider IV: The Times exclusive level\" has insufficient controller\
+  \ support, I invite you to use a keymapper. You will find profiles for x360 (Antimicro)\
+  \ and Steam Controller (sc-controller) in the \"gamepad profiles\" folder.\r\n-\
+  \ Please report issue concerning this script on my github page:\r\nhttps://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2019-07-24T17:39:58.556000Z'
+updated_at: '2019-09-08T22:59:07.740863Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  custom-name: Tomb Raider IV - The Times exclusive level
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files (x86)/Core Design/The Times - Exclusive Tomb Raider
+      Level/TR4TIMESM1.BAT
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Preparing wineprefix...
+      arch: win64
+      name: create_prefix
+  - extract:
+      dst: $CACHE
+      file: setup
+  - task:
+      executable: $GAMEDIR/drive_c/windows/explorer.exe
+      prefix: $GAMEDIR
+      args: /desktop=TombRaider4Times,1024x780 $CACHE/Setup.exe
+      description: Running setup of the game. Just proceed and keep all settings at
+        their defaults
+      name: wineexec
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Core Design/The Times - Exclusive
+        Tomb Raider Level/
+      file: dgv
+  - copy:
+      src: $GAMEDIR/drive_c/Program Files (x86)/Core Design/The Times - Exclusive
+        Tomb Raider Level/MS/x86/DDraw.dll
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Core Design/The Times - Exclusive
+        Tomb Raider Level/
+  - copy:
+      src: $GAMEDIR/drive_c/Program Files (x86)/Core Design/The Times - Exclusive
+        Tomb Raider Level/MS/x86/D3DImm.dll
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Core Design/The Times - Exclusive
+        Tomb Raider Level/
+  - execute:
+      command: cd "$GAMEDIR/drive_c/Program Files (x86)/Core Design/The Times - Exclusive
+        Tomb Raider Level/"; mv dgVoodoo.conf dgVoodoo_original.conf
+  - write_config:
+      data:
+        General:
+          CaptureMouse: false
+          ScalingMode: stretched_ar
+          FullScreenMode: false
+        DirectX:
+          dgVoodooWatermark: false
+          Resolution: max_qhd_isf
+          ForceVerticalSync: true
+          VRAM: 256
+      file: $GAMEDIR/drive_c/Program Files (x86)/Core Design/The Times - Exclusive
+        Tomb Raider Level/dgVoodoo.conf
+  - extract:
+      src: patch
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Core Design/The Times - Exclusive
+        Tomb Raider Level/
+  - copy:
+      src: menu1
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Core Design/The Times - Exclusive
+        Tomb Raider Level/
+  - copy:
+      src: menu2
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Core Design/The Times - Exclusive
+        Tomb Raider Level/
+  - copy:
+      src: wpp
+      dst: $GAMEDIR/drive_c/
+  - merge:
+      src: gpreadme
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Core Design/The Times - Exclusive
+        Tomb Raider Level/gamepad profiles/
+  - merge:
+      src: gpx360
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Core Design/The Times - Exclusive
+        Tomb Raider Level/gamepad profiles/
+  - merge:
+      src: gpsteam
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Core Design/The Times - Exclusive
+        Tomb Raider Level/gamepad profiles/
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: c:\\tr4times.bmp
+      key: wallpaper
+      path: HKEY_CURRENT_USER\Control Panel\Desktop\
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: 0 0 0
+      key: background
+      path: HKEY_CURRENT_USER\Control Panel\Colors\
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_DWORD
+      value: '00000000'
+      key: csmt
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D\
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: 0 0 0
+      key: ActiveTitle
+      path: HKEY_CURRENT_USER\Control Panel\Colors\
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: 255 255 255
+      key: GradientActiveTitle
+      path: HKEY_CURRENT_USER\Control Panel\Colors\
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: native,builtin
+      key: ddraw
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides\
+  wine:
+    dxvk: true
+    Desktop: true
+  files:
+  - setup: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Tomb%20Raider%20IV%20-%20The%20Times%20exclusive%20level/tomb_raider_4_times_bonus_level.zip
+  - dgv: https://github.com/legluondunet/mlls-tools/raw/master/dgVoodoo2/dgVoodoo2_61.zip
+  - menu1: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Tomb%20Raider%20IV%20-%20The%20Times%20exclusive%20level/TR4TIMESM1.BAT
+  - menu2: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Tomb%20Raider%20IV%20-%20The%20Times%20exclusive%20level/TR4TIMESM2.BAT
+  - gpx360: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Tomb%20Raider%20IV%20-%20The%20Times%20exclusive%20level/gamepad%20profiles/tr4_x360.gamecontroller.amgp
+  - gpsteam: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Tomb%20Raider%20IV%20-%20The%20Times%20exclusive%20level/gamepad%20profiles/tr4_steam.sccprofile
+  - gpreadme: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Tomb%20Raider%20IV%20-%20The%20Times%20exclusive%20level/gamepad%20profiles/tr4_gamepad_readme.html
+  - wpp: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Tomb%20Raider%20IV%20-%20The%20Times%20exclusive%20level/tr4times.bmp
+  - patch: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Tomb%20Raider%20IV%20-%20The%20Last%20Revelation/TombRaider234_Patch.zip

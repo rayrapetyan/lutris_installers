@@ -1,0 +1,49 @@
+id: 7726
+game_id: 17708
+game_slug: archimedean-dynasty
+name: Archimedean Dynasty
+year: 1996
+user: founderio
+runner: dosbox
+slug: archimedean-dynasty-gogcom
+version: GOG.com
+description: DOS files, extracted from the windows installer of Archimedean Dynasty
+  from GOG.com.
+notes: The original packaged version from GOG.com runs on the dosbox_ad_single.conf
+  which presents a menu to chose AD2.EXE (Software Renderer) or AD3DFX.EXE (3Dfx renderer).
+  This does not seem to work, so this launcher runs AD2.EXE as main file. Adjust if
+  needed.
+created_at: '2018-04-02T13:06:59.544000Z'
+updated_at: '2018-05-02T01:02:06.284683Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1436955893
+gogslug: archimedean_dynasty
+humblestoreid: ''
+script:
+  dosbox:
+    fullscreen: true
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $innoextract_tar
+  - execute:
+      args: -d "$CACHE" "$game"
+      file: $CACHE/innoextract
+  - merge:
+      src: $CACHE/app
+      dst: $GAMEDIR
+  - write_config:
+      section: sdl
+      key: fullscreen
+      value: false
+      file: $GAMEDIR/dosbox_ad.conf
+  files:
+  - game: N/A:Please select the GOG.com Windows installer
+  - innoextract_tar: https://lutris.net/files/tools/innoextract.tar.gz
+  game:
+    config_file: $GAMEDIR/dosbox_ad.conf
+    main_file: $GAMEDIR/AD2.EXE

@@ -1,0 +1,16 @@
+name: 'Uru: Complete Chronicles'
+slug: uru-complete-chronicles
+year: 2004
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/uru-complete-chronicles.jpg
+icon_url: /games/icon/uru-complete-chronicles.png
+is_public: true
+updated: '2019-01-23T08:32:00.902052Z'
+steamid: 63650
+gogslug: uru_complete_chronicles
+humblestoreid: ''

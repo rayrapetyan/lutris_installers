@@ -1,0 +1,36 @@
+id: 1877
+game_id: 1703
+game_slug: brothers-a-tale-of-two-sons
+name: Brothers - A Tale of Two Sons
+year: 2013
+user: RobLoach
+runner: winesteam
+slug: brothers-a-tale-of-two-sons-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2016-01-16T19:48:25.576000Z'
+updated_at: '2018-02-23T00:54:29.469159Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: 225080
+gogid: 1171070121
+gogslug: brothers_a_tale_of_two_sons
+humblestoreid: brothers-a-tale-of-two-sons
+script:
+  winesteam:
+    x360ce-path: $GAMEDIR/Binaries/Win32
+    dumbxinputemu: true
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: dotnet40
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 225080

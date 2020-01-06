@@ -1,0 +1,51 @@
+id: 9308
+game_id: 438
+game_slug: deus-ex
+name: Deus Ex
+year: 2000
+user: cxf
+runner: winesteam
+slug: deus-ex-gmdx_v903
+version: GMDX_v9.0.3
+description: null
+notes: Launch Deus Ex to the Title screen after downloading from Steam and quit to
+  proceed with the installation of GMDX.
+created_at: '2018-07-21T02:25:20.938000Z'
+updated_at: '2019-10-19T22:31:36.180136Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 6910
+gogid: 1207658995
+gogslug: deus_ex
+humblestoreid: deus-ex-game-of-the-year-edition
+script:
+  winesteam:
+    version: tkg-protonified-3.21-x86_64
+    run_without_steam: true
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2015
+      arch: win32
+      name: winetricks
+  - task:
+      executable: gmdx9
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: wineexec
+  files:
+  - gmdx9:
+      referer: https://www.moddb.com/mods/gmdx/downloads
+      filename: GMDX_v9.0.3.exe
+      url: https://www.moddb.com/downloads/mirror/124938/121/6cead27f75aebe402730f494baa4542e/
+  game:
+    prefix: $GAMEDIR/prefix
+    steamless_binary: $GAMEDIR/System/GMDX.exe
+    appid: 6910
+    arch: win32

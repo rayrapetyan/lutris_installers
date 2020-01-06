@@ -1,0 +1,79 @@
+id: 12775
+game_id: 26498
+game_slug: sonic-3-angel-island-revisited
+name: Sonic 3 Angel Island Revisited
+year: 2019
+user: TheFerenOSDeveloper
+runner: wine
+slug: sonic-3-angel-island-revisite-no-rom
+version: No ROM
+description: Installs Steam, SEGA Mega Drive & Genesis Classics (both prerequisites)
+  and Sonic 3 Angel Island Revisited for the No-ROM-File Sonic 3 A.I.R. experience.
+notes: "You MUST have bought 'Sonic 3 & Knuckles' (for SEGA Mega Drive & Genesis Classics)\
+  \ from the Steam Store and then log into Steam during the installation process with\
+  \ that account you purchased the game on for this installer to work.\r\n\r\nYou\
+  \ will need to do parts of the process manually, however the steps will be made\
+  \ obvious to you once manual input is needed. Steam will also need to be installed\
+  \ by the user during the installation process as a prerequisite first."
+created_at: '2019-04-13T21:51:37.918000Z'
+updated_at: '2019-04-17T00:46:32.775540Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      description: Setting Windows version to 10
+      app: win10
+      arch: win32
+      name: winetricks
+  - task:
+      executable: steaminstall
+      prefix: $GAMEDIR
+      description: Installing Steam Client
+      arch: win32
+      args: /s /v /qb
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - extract:
+      nomerge: true
+      description: Extracting and Installing Sonic 3 Angel Island Revisited files
+      dst: $GAMEDIR/drive_c
+      file: sonic3air
+  - task:
+      executable: s3andkhelper
+      prefix: $GAMEDIR
+      description: Installing Sonic 3 and Knuckles - SEGA Megadrive & Genesis Classics
+      arch: win32
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: winekill
+  - merge:
+      src: fixedairconfig
+      dst: $GAMEDIR/drive_c/sonic3air_game
+  files:
+  - steaminstall: https://steamcdn-a.akamaihd.net/client/installer/SteamSetup.exe
+  - fixedairconfig: https://github.com/feren/sonic3nkair-lutris-stuff/raw/master/config.json
+  - s3andkhelper: https://github.com/feren/sonic3nkair-lutris-stuff/raw/master/steam-install-s3andk.bat
+  - sonic3air:
+      referer: sonic3air.org
+      filename: sonic3air_game.zip
+      url: http://sonic3air.org/downloadgame.php
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/sonic3air_game/Sonic3AIR.exe
+    arch: win32

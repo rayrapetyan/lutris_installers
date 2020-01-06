@@ -1,0 +1,32 @@
+id: 2215
+game_id: 6352
+game_slug: lost-constellation
+name: Lost Constellation
+year: 2014
+user: Lulu
+runner: linux
+slug: lost-constellation-itchio
+version: itch.io
+description: Tested with v1.1
+notes: ''
+created_at: '2016-06-27T19:48:48.291120Z'
+updated_at: '2016-07-18T16:46:42.664160Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Lost Constellation.x86
+  installer:
+  - extract:
+      file: lost-constellation-game
+  - chmodx: $GAMEDIR/Lost Constellation.x86
+  - chmodx: $GAMEDIR/Lost Constellation.x86_64
+  exe64: Lost Constellation.x86_64
+  files:
+  - lost-constellation-game: 'N/A: Please select the .zip install file downloaded
+      from itch.io'

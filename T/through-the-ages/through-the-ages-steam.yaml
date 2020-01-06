@@ -1,0 +1,24 @@
+id: 7793
+game_id: 17752
+game_slug: through-the-ages
+name: Through the Ages
+year: 2018
+user: tarteka
+runner: winesteam
+slug: through-the-ages-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-04-05T09:57:40.113506Z'
+updated_at: '2018-04-05T23:02:57.271422Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 758370
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 758370

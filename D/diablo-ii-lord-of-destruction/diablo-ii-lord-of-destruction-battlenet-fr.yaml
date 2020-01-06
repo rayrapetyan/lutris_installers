@@ -1,0 +1,41 @@
+id: 17391
+game_id: 11301
+game_slug: diablo-ii-lord-of-destruction
+name: 'Diablo II: Lord of Destruction'
+year: 2001
+user: Erwhann
+runner: wine
+slug: diablo-ii-lord-of-destruction-battlenet-fr
+version: Battle.net (Fr)
+description: "T\xE9l\xE9charge et installe l\u2019expansion Diablo 2: Lord of Destruction\
+  \ en version fran\xE7aise."
+notes: "- Cet installeur doit \xEAtre lanc\xE9 depuis le m\xEAme Wine Prefix (le m\xEA\
+  me chemin) que l'installation de base de Diablo II\r\n- Installer dans C:\\Program\
+  \ File (x86)\\Diablo II\r\n- Le r\xE9seau de t\xE9l\xE9chargement pair-\xE0-pair\
+  \ ne semble pas fonctionner (les fichiers proviennent directement des serveurs de\
+  \ Blizzard)\r\n- D\xE9marre en mode fen\xEAtr\xE9\r\n- Si le t\xE9l\xE9chargement\
+  \ ne s'effectue pas compl\xE8tement il suffit de relancer cet installeur."
+created_at: '2019-12-17T16:47:07.659000Z'
+updated_at: '2019-12-22T11:20:56.144673Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - installer:
+      filename: Downloader_Diablo2_Lord_of_Destruction_frFR.exe
+      url: https://www.battle.net/download/getLegacy?product=D2XP&locale=frFR&os=WIN
+  game:
+    prefix: $GAMEDIR
+    args: -w
+    exe: drive_c/Program Files (x86)/Diablo II/Diablo II.exe

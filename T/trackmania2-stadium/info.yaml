@@ -1,0 +1,15 @@
+name: "TrackMania\xB2 Stadium"
+slug: trackmania2-stadium
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/trackmania2-stadium.jpg
+icon_url: /games/icon/trackmania2-stadium.png
+is_public: true
+updated: '2019-01-23T08:31:54.417272Z'
+steamid: 232910
+gogslug: ''
+humblestoreid: ''

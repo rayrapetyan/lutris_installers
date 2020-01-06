@@ -1,0 +1,15 @@
+name: Quake Champions
+slug: quake-champions
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: FPS
+aliases: []
+banner_url: /games/banner/quake-champions.jpg
+icon_url: /games/icon/quake-champions.png
+is_public: true
+updated: '2019-01-23T08:30:52.757292Z'
+steamid: 611500
+gogslug: ''
+humblestoreid: ''

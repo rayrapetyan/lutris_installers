@@ -1,0 +1,21 @@
+name: 'LEGO Batman: The Videogame'
+slug: lego-batman-the-videogame
+year: 2008
+platforms:
+- name: Nintendo DS
+- name: Nintendo Wii
+- name: Sony PlayStation 2
+- name: Sony Playstation 3
+- name: Sony PSP
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/lego-batman-the-videogame.jpg
+icon_url: /games/icon/lego-batman-the-videogame.png
+is_public: true
+updated: '2019-06-01T06:18:06.895493Z'
+steamid: 21000
+gogslug: lego_batman_the_videogame
+humblestoreid: ''

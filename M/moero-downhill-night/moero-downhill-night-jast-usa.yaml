@@ -1,0 +1,39 @@
+id: 6917
+game_id: 15572
+game_slug: moero-downhill-night
+name: Moero Downhill Night
+year: 2005
+user: FakeShemp
+runner: wine
+slug: moero-downhill-night-jast-usa
+version: JAST USA
+description: null
+notes: ''
+created_at: '2017-12-31T00:00:39.272000Z'
+updated_at: '2018-07-26T06:20:52.156125Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $file1
+  - task:
+      executable: $CACHE/Moero 1 Setup.exe
+      prefix: $GAMEDIR
+      args: /sp- /verysilent /norestart /suppressmsgboxes /nogui
+      arch: win32
+      name: wineexec
+  files:
+  - file1: N/A:Please select the JAST USA archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Moero Downhill Night Type R/Moero Downhill Night Type
+      R.exe
+    arch: win32

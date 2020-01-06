@@ -1,0 +1,17 @@
+name: Subnautica
+slug: subnautica
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Exploration
+- name: Survival
+aliases: []
+banner_url: /games/banner/subnautica.jpg
+icon_url: /games/icon/subnautica.png
+is_public: true
+updated: '2019-01-23T08:31:28.737390Z'
+steamid: 264710
+gogslug: ''
+humblestoreid: ''

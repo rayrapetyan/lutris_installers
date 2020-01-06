@@ -1,0 +1,16 @@
+name: DuckTales
+slug: ducktales
+year: 1989
+platforms:
+- name: Game Boy
+- name: NES
+genres:
+- name: Platformer
+aliases: []
+banner_url: /games/banner/ducktales.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:18.555066Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

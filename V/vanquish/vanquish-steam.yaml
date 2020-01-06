@@ -1,0 +1,24 @@
+id: 7608
+game_id: 11320
+game_slug: vanquish
+name: Vanquish
+year: 2013
+user: strider
+runner: winesteam
+slug: vanquish-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-20T02:25:15.863000Z'
+updated_at: '2018-05-17T01:08:45.681592Z'
+draft: false
+published: true
+published_by: null
+rating: '5'
+steamid: 460810
+gogid: null
+gogslug: ''
+humblestoreid: vanquish
+script:
+  game:
+    appid: 460810

@@ -1,0 +1,28 @@
+id: 7811
+game_id: 4132
+game_slug: transformice
+name: Transformice
+year: null
+user: Szaturnusz
+runner: winesteam
+slug: transformice-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-04-06T14:20:29.971000Z'
+updated_at: '2018-04-07T00:39:04.493172Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 335240
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  task:
+    prefix: $GAMEDIR
+    app: flash
+    name: winetricks
+  game:
+    appid: 335240

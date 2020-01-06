@@ -1,0 +1,24 @@
+id: 2857
+game_id: 7849
+game_slug: true-or-false
+name: True or False
+year: 2014
+user: Cronyk
+runner: steam
+slug: true-or-false-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2016-10-07T21:59:27.529000Z'
+updated_at: '2018-07-29T22:19:25.130538Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 521340
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 15620

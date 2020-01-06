@@ -1,0 +1,16 @@
+name: Double Dragon
+slug: double-dragon
+year: 1987
+platforms:
+- name: NES
+genres:
+- name: Action
+- name: Beat'em up
+aliases: []
+banner_url: /games/banner/double-dragon.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:15.819787Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

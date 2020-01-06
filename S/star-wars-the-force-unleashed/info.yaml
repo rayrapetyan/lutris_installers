@@ -1,0 +1,17 @@
+name: 'Star Wars: The Force Unleashed Ultimate Sith Edition'
+slug: star-wars-the-force-unleashed
+year: 2009
+platforms:
+- name: Windows
+genres:
+- name: Action
+aliases:
+- slug: star-wars-the-force-unleashed-ultimate-sith-editio
+  name: 'Star Wars: The Force Unleashed Ultimate Sith Edition'
+banner_url: /games/banner/star-wars-the-force-unleashed.jpg
+icon_url: /games/icon/star-wars-the-force-unleashed.png
+is_public: true
+updated: '2019-03-30T01:36:24.432996Z'
+steamid: 32430
+gogslug: star_wars_the_force_unleashed_ultimate_sith_edition
+humblestoreid: ''

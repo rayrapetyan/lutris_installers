@@ -1,0 +1,39 @@
+id: 2484
+game_id: 1645
+game_slug: duke-nukem-2
+name: Duke Nukem II
+year: 1993
+user: ssf
+runner: dosbox
+slug: duke-nukem-2-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2016-08-17T19:37:20.386120Z'
+updated_at: '2016-09-30T20:53:17.489622Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 240180
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  description: DRM-free GOG.com version
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR"
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/Game
+  files:
+  - game: N/A:Please select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz
+  game:
+    config_file: $GAMEDIR/Game/dosbox_duke2.conf
+    main_file: $GAMEDIR/Game/dosbox_duke2_single.conf

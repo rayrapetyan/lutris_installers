@@ -1,0 +1,19 @@
+name: 'Moonstone: A Hard Days Knight'
+slug: moonstone-a-hard-days-knight
+year: 1991
+platforms:
+- name: Amiga
+- name: MS-DOS
+genres:
+- name: Action
+- name: Role-playing
+aliases:
+- slug: moonstone
+  name: Moonstone
+banner_url: /games/banner/moonstone-a-hard-days-knight.jpg
+icon_url: /games/icon/moonstone-a-hard-days-knight.png
+is_public: true
+updated: '2019-02-07T19:29:35.959247Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

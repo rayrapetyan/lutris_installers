@@ -1,0 +1,15 @@
+name: 'Game & Watch: Octopus'
+slug: game-watch-octopus
+year: 1981
+platforms:
+- name: Arcade
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/game-watch-octopus.jpg
+icon_url: null
+is_public: true
+updated: '2019-08-08T18:37:49.269278Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

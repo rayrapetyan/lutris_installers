@@ -1,0 +1,17 @@
+name: 'Teenage Mutant Ninja Turtles: Tournament Fighters'
+slug: teenage-mutant-ninja-turtles-tournament-fighters
+year: 1993
+platforms:
+- name: NES
+- name: Sega Genesis / Mega Drive
+- name: Super Nintendo
+genres:
+- name: Fighting
+aliases: []
+banner_url: /games/banner/teenage-mutant-ninja-turtles-tournament-fighters.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:36.279591Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

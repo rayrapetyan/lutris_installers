@@ -1,0 +1,31 @@
+id: 8591
+game_id: 19194
+game_slug: andy-capp
+name: Andy Capp
+year: 1987
+user: MrCoolSpan
+runner: libretro
+slug: andy-capp-vice_x64
+version: vice_x64
+description: null
+notes: ''
+created_at: '2018-06-08T08:46:46.219866Z'
+updated_at: '2018-06-08T15:58:36.617218Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the game disk
+  game:
+    core: vice_x64
+    main_file: file1

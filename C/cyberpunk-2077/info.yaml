@@ -1,0 +1,17 @@
+name: Cyberpunk 2077
+slug: cyberpunk-2077
+year: 2020
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Role-playing
+- name: Sci-fi
+aliases: []
+banner_url: /games/banner/cyberpunk-2077.jpg
+icon_url: /games/icon/cyberpunk-2077.png
+is_public: true
+updated: '2019-06-24T05:21:19.732721Z'
+steamid: 1091500
+gogslug: cyberpunk_2077
+humblestoreid: ''

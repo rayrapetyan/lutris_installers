@@ -1,0 +1,17 @@
+name: Micro Machines V4
+slug: micro-machines-v4
+year: 2006
+platforms:
+- name: Sony PlayStation 2
+- name: Sony PSP
+- name: Windows
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/micro-machines-v4.jpg
+icon_url: /games/icon/micro-machines-v4.png
+is_public: true
+updated: '2019-01-23T08:30:22.820371Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

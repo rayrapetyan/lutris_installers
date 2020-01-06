@@ -1,0 +1,17 @@
+name: House Party
+slug: house-party
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Casual
+- name: Dating
+- name: Social simulation
+aliases: []
+banner_url: /games/banner/house-party.jpg
+icon_url: /games/icon/house-party.png
+is_public: true
+updated: '2019-01-23T08:29:52.727481Z'
+steamid: 611790
+gogslug: ''
+humblestoreid: ''

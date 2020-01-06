@@ -1,0 +1,16 @@
+name: The 7th Guest
+slug: the-7th-guest
+year: 1993
+platforms:
+- name: Linux
+- name: MS-DOS
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/the-7th-guest.jpg
+icon_url: /games/icon/the-7th-guest.png
+is_public: true
+updated: '2019-01-23T08:31:37.998924Z'
+steamid: 255920
+gogslug: the_7th_guest
+humblestoreid: ''

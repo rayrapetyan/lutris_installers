@@ -1,0 +1,44 @@
+id: 3282
+game_id: 5322
+game_slug: metal-slug
+name: METAL SLUG
+year: 1996
+user: FakeShemp
+runner: linux
+slug: metal-slug-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-02-19T12:40:46.279814Z'
+updated_at: '2017-03-17T22:49:37.776685Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 366250
+gogid: 1136471182
+gogslug: metal_slug
+humblestoreid: ''
+script:
+  exe: NeogeoEmu.bin.x86
+  installer:
+  - extract:
+      dst: $CACHE
+      file: unzip
+  - execute:
+      args: $file1 -d "$CACHE" "data/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - merge:
+      src: $CACHE/data/noarch
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86
+      dst: $GAMEDIR
+  - merge:
+      src: $CACHE/data/x86_64
+      dst: $GAMEDIR
+  exe64: NeogeoEmu.bin.x86_64
+  files:
+  - file1: N/A:Please select the Humble installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

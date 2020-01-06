@@ -1,0 +1,23 @@
+id: 1556
+game_id: 4492
+game_slug: host-master-and-the-conquest-of-humor
+name: Host Master and the Conquest of Humor
+year: 2009
+user: Xodetaetl
+runner: browser
+slug: host-master-and-the-conquest-browser
+version: Browser
+description: ''
+notes: ''
+created_at: '2015-06-01T17:11:49.241000Z'
+updated_at: '2015-06-01T17:11:54.210000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: http://www.doublefine.com/games/host_master

@@ -1,0 +1,24 @@
+id: 7456
+game_id: 6024
+game_slug: five-nights-at-freddys-4
+name: Five Nights at Freddy's 4
+year: null
+user: benoitj
+runner: winesteam
+slug: five-nights-at-freddys-4-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-04T18:42:02.279000Z'
+updated_at: '2018-03-04T23:02:17.578261Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 388090
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 388090

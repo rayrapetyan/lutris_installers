@@ -1,0 +1,17 @@
+name: Freelancer
+slug: freelancer
+year: 2003
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Sandbox
+- name: Space simulation
+aliases: []
+banner_url: /games/banner/freelancer.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:35.218742Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

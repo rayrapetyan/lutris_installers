@@ -1,0 +1,19 @@
+name: 'Colin McRae: DiRT 2'
+slug: colin-mcrae-dirt-2
+year: 2009
+platforms:
+- name: Nintendo DS
+- name: Nintendo Wii
+- name: Sony Playstation 3
+- name: Sony PSP
+- name: Windows
+genres:
+- name: Racing
+aliases: []
+banner_url: /games/banner/colin-mcrae-dirt-2.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:55.631581Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

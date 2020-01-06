@@ -1,0 +1,24 @@
+id: 14133
+game_id: 19473
+game_slug: the-stroke-of-midnight
+name: The Stroke of Midnight
+year: 2018
+user: kimchitea
+runner: steam
+slug: the-stroke-of-midnight-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-06-17T03:43:09.407830Z'
+updated_at: '2019-10-10T23:56:53.748424Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 828860
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 828860

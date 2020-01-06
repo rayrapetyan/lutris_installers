@@ -1,0 +1,61 @@
+id: 14113
+game_id: 5826
+game_slug: diablo
+name: Diablo
+year: 1996
+user: Haringat
+runner: linux
+slug: diablo-gog-devilution-linux
+version: GOG + Devilution (Linux native)
+description: extracts the game files from the GOG installer and runs the game using
+  the linux version of devilution. Requires innoextract to be installed.
+notes: ''
+created_at: '2019-06-15T20:29:06.302000Z'
+updated_at: '2019-09-09T01:04:40.755097Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: 1412601690
+gogslug: diablo
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/thing
+      file: inno
+  - execute:
+      command: innoextract --gog -d $CACHE/diabloinstaller "$installer"; exit 0
+      description: extracting game data
+  - extract:
+      description: extracting devilution
+      dst: $GAMEDIR/devilution
+      file: devilution
+  - extract:
+      description: extracting dsl
+      dst: $GAMEDIR/steamsdl
+      file: steamsdl
+  - move:
+      src: $CACHE/diabloinstaller/DIABDAT.MPQ
+      description: moving the game files
+      dst: $GAMEDIR/devilution/diabdat.mpq
+  - write_file:
+      content: '#!/bin/sh
+
+        '
+      file: $GAMEDIR/devilution.sh
+  - write_file:
+      mode: a
+      content: LD_LIBRARY_PATH=$GAMEDIR/steamsdl $GAMEDIR/devilution/devilutionx
+      file: $GAMEDIR/devilution.sh
+  - chmodx: $GAMEDIR/devilution.sh
+  files:
+  - installer: N/A:Please select the GOG installer
+  - devilution: https://github.com/diasurgical/devilutionX/releases/download/0.4.0/devilutionx-linux-i386.tar.xz
+  - inno: https://github.com/NickZ/misc/raw/master/innobin.zip
+  - steamsdl: https://github.com/NickZ/misc/raw/master/steamsdl.zip
+  game:
+    exe: $GAMEDIR/devilution.sh
+    arch: i386

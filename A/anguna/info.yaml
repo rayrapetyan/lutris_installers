@@ -1,0 +1,17 @@
+name: Anguna
+slug: anguna
+year: 2008
+platforms:
+- name: Atari 2600
+- name: Nintendo DS
+- name: Nintendo Game Boy Advance
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/anguna.jpg
+icon_url: null
+is_public: true
+updated: '2019-07-20T02:57:21.988899Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

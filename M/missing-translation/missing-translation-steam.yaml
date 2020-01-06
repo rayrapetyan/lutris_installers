@@ -1,0 +1,24 @@
+id: 8229
+game_id: 5068
+game_slug: missing-translation
+name: Missing Translation
+year: null
+user: soredake
+runner: winesteam
+slug: missing-translation-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T07:31:21.911214Z'
+updated_at: '2018-05-13T09:09:18.789852Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 395520
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 395520

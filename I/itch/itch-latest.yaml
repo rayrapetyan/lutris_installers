@@ -1,0 +1,48 @@
+id: 13649
+game_id: 17584
+game_slug: itch
+name: itch
+year: null
+user: ThaChillera
+runner: wine
+slug: itch-latest
+version: Latest
+description: null
+notes: "Known issues:\r\n - Title bar covers part of the Itch client"
+created_at: '2019-05-20T20:13:27.857000Z'
+updated_at: '2019-11-01T02:46:33.559989Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: arial
+      name: winetricks
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      description: 'Installing Itch App. An installer will open.
+
+        ------------------------------
+
+        To progress, manually continue installation in that window.'
+      arch: win64
+      exclude_processes: itch.exe
+      name: wineexec
+  files:
+  - installer: null
+    filename: itch-setup.exe
+    url: https://nuts.itch.zone/download/windows
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/users/$USER/Desktop/itch.lnk

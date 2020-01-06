@@ -1,0 +1,15 @@
+name: Sid Meier's Starships
+slug: sid-meiers-starships
+year: 2015
+platforms:
+- name: Windows
+genres:
+- name: Turn-based strategy
+aliases: []
+banner_url: /games/banner/sid-meiers-starships.jpg
+icon_url: /games/icon/sid-meiers-starships.png
+is_public: true
+updated: '2019-01-23T08:31:13.239935Z'
+steamid: 282210
+gogslug: ''
+humblestoreid: sid-meiers-starships

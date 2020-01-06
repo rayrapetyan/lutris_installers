@@ -1,0 +1,24 @@
+id: 1484
+game_id: 4205
+game_slug: dark-arcana-the-carnival
+name: 'Dark Arcana: The Carnival'
+year: 2012
+user: Xodetaetl
+runner: steam
+slug: dark-arcana-the-carnival-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-04-25T17:46:20.786000Z'
+updated_at: '2015-04-25T17:55:47.147000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 284730
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 284730

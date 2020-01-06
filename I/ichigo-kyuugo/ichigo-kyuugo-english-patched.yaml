@@ -1,0 +1,35 @@
+id: 16916
+game_id: 30433
+game_slug: ichigo-kyuugo
+name: Ichigo & Kyuugo
+year: 2010
+user: kimchitea
+runner: wine
+slug: ichigo-kyuugo-english-patched
+version: English Patched
+description: null
+notes: https://memeshii.home.blog/2019/09/20/otomege-tl-ichigo-kyuugo-full-release/
+created_at: '2019-11-21T05:58:34.039000Z'
+updated_at: '2019-12-23T20:02:34.239198Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: file1
+  system:
+    env:
+      LC_ALL: ja_JP.UTF-8
+  files:
+  - file1: N/A:Please select the game archive
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/ichigo.eXe
+    arch: win32

@@ -1,0 +1,16 @@
+name: Extinction
+slug: extinction
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/extinction.jpg
+icon_url: /games/icon/extinction.png
+is_public: true
+updated: '2019-01-23T08:29:26.931316Z'
+steamid: 570710
+gogslug: ''
+humblestoreid: ''

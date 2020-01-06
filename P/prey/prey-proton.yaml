@@ -1,0 +1,24 @@
+id: 17525
+game_id: 563
+game_slug: prey
+name: Prey
+year: 2006
+user: soredake
+runner: steam
+slug: prey-proton
+version: Proton
+description: null
+notes: ''
+created_at: '2019-12-23T18:56:16.866417Z'
+updated_at: '2019-12-23T18:56:23.103769Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 3970
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 3970

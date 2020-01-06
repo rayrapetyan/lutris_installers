@@ -1,0 +1,24 @@
+id: 1954
+game_id: 1241
+game_slug: call-of-duty-4-modern-warfare
+name: 'Call of Duty 4: Modern Warfare'
+year: 2007
+user: BurNiinTRee
+runner: winesteam
+slug: call-of-duty-4-modern-warfare-wine
+version: Wine
+description: null
+notes: ''
+created_at: '2016-01-31T20:24:07.606000Z'
+updated_at: '2018-10-29T05:48:24.404533Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 7940
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 7940

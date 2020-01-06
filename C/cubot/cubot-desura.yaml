@@ -1,0 +1,29 @@
+id: 6863
+game_id: 3813
+game_slug: cubot
+name: Cubot
+year: null
+user: FakeShemp
+runner: linux
+slug: cubot-desura
+version: Desura
+description: null
+notes: ''
+created_at: '2017-12-25T21:37:10.238990Z'
+updated_at: '2017-12-25T21:38:41.154365Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 340280
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Cubot.x86
+  installer:
+  - extract:
+      file: $file1
+  exe64: Cubot.x86_64
+  files:
+  - file1: N/A:Please select the Desura archive

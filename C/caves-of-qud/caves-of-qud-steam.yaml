@@ -1,0 +1,24 @@
+id: 16622
+game_id: 4720
+game_slug: caves-of-qud
+name: Caves of Qud
+year: null
+user: CrocodileSpacePope
+runner: steam
+slug: caves-of-qud-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-11-04T22:11:54.730656Z'
+updated_at: '2019-11-04T22:11:54.730691Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 333640
+gogid: 1625207125
+gogslug: caves_of_qud
+humblestoreid: ''
+script:
+  game:
+    appid: 333640

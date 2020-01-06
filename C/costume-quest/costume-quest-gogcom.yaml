@@ -1,0 +1,38 @@
+id: 4448
+game_id: 337
+game_slug: costume-quest
+name: Costume Quest
+year: 2010
+user: robotkinz
+runner: linux
+slug: costume-quest-gogcom
+version: GOG.com
+description: ''
+notes: ''
+created_at: '2017-06-17T23:40:18.578800Z'
+updated_at: '2017-06-18T23:23:23.083831Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 115100
+gogid: 1207659132
+gogslug: costume_quest
+humblestoreid: costume-quest
+script:
+  exe: game/start.sh
+  gogid: costume_quest
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Plese select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

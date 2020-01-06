@@ -1,0 +1,15 @@
+name: Moon Buggy
+slug: moon-buggy
+year: 2004
+platforms:
+- name: Linux
+genres:
+- name: Arcade
+aliases: []
+banner_url: /games/banner/moon-buggy.jpg
+icon_url: /games/icon/moon-buggy.png
+is_public: true
+updated: '2019-01-23T08:30:26.340534Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

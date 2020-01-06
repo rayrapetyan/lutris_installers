@@ -1,0 +1,24 @@
+id: 98
+game_id: 105
+game_slug: half-life-2
+name: Half-Life 2
+year: 2004
+user: Xodetaetl
+runner: steam
+slug: half-life-2-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-15T23:16:34.571000Z'
+updated_at: '2019-09-09T01:13:36.352992Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 220
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 220

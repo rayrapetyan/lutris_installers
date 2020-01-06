@@ -1,0 +1,15 @@
+name: 'STEINS;GATE: Linear Bounded Phenogram'
+slug: steinsgate-linear-bounded-phenogram
+year: 2019
+platforms:
+- name: Windows
+genres:
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/steinsgate-linear-bounded-phenogram.jpg
+icon_url: /games/icon/steinsgate-linear-bounded-phenogram.png
+is_public: false
+updated: '2019-03-19T19:33:49.107254Z'
+steamid: 930910
+gogslug: ''
+humblestoreid: ''

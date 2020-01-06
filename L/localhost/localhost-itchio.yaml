@@ -1,0 +1,28 @@
+id: 7425
+game_id: 16704
+game_slug: localhost
+name: Localhost
+year: 2017
+user: t-rex91
+runner: linux
+slug: localhost-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2018-03-02T13:07:26.221348Z'
+updated_at: '2018-03-03T05:53:57.855267Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: LOCALHOST
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive

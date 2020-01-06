@@ -1,0 +1,16 @@
+name: TumbleSeed
+slug: tumbleseed
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+aliases: []
+banner_url: /games/banner/tumbleseed.jpg
+icon_url: /games/icon/tumbleseed.png
+is_public: true
+updated: '2019-01-23T08:31:56.975152Z'
+steamid: 457890
+gogslug: ''
+humblestoreid: tumbleseed

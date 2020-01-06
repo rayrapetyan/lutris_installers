@@ -1,0 +1,29 @@
+id: 4967
+game_id: 7072
+game_slug: into-the-void
+name: Into the Void
+year: null
+user: FakeShemp
+runner: linux
+slug: into-the-void-groupees
+version: Groupees
+description: ''
+notes: ''
+created_at: '2017-07-11T17:05:53.921885Z'
+updated_at: '2017-08-08T18:06:02.051422Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 420270
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: IntoTheVoid.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/IntoTheVoid.x86
+  files:
+  - file1: N/A:Please select the Groupees archive

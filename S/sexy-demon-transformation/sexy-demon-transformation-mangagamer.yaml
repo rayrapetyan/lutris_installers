@@ -1,0 +1,28 @@
+id: 3750
+game_id: 11392
+game_slug: sexy-demon-transformation
+name: Sexy Demon Transformation!
+year: 2011
+user: FakeShemp
+runner: linux
+slug: sexy-demon-transformation-mangagamer
+version: MangaGamer
+description: ''
+notes: ''
+created_at: '2017-05-20T21:32:16.224282Z'
+updated_at: '2017-05-22T17:09:17.931599Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Sexy Demon Transformation.sh
+  installer:
+  - extract:
+      file: $file1
+  files:
+  - file1: N/A:Please select the MangaGamer archive

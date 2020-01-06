@@ -1,0 +1,24 @@
+id: 15820
+game_id: 29350
+game_slug: greedfall
+name: GreedFall
+year: 2019
+user: kimchitea
+runner: steam
+slug: greedfall-steam-proton
+version: Steam Proton
+description: null
+notes: 'Install the Media Foundation workaround: <a href="https://github.com/z0z0z/mf-install">https://github.com/z0z0z/mf-install</a>'
+created_at: '2019-09-27T12:44:41.013000Z'
+updated_at: '2019-10-11T01:45:02.716948Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 606880
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 606880

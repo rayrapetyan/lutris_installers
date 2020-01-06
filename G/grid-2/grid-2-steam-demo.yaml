@@ -1,0 +1,49 @@
+id: 12400
+game_id: 2090
+game_slug: grid-2
+name: GRID 2
+year: 2013
+user: cxf
+runner: winesteam
+slug: grid-2-steam-demo
+version: Steam Demo
+description: null
+notes: ''
+created_at: '2019-03-16T05:57:00.100000Z'
+updated_at: '2019-03-16T06:38:27.731131Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 44350
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing VC++ runtime 2010
+      app: vcrun2010
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing .NET 3.5
+      app: dotnet35 d3dcompiler_43 win7
+      name: winetricks
+  winesteam:
+    esync: true
+    dxvk: true
+  system:
+    disable_compositor: 'true'
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 248140
+    arch: win32

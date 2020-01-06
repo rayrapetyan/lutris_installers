@@ -1,0 +1,24 @@
+id: 1860
+game_id: 643
+game_slug: a-new-beginning-final-cut
+name: A New Beginning - Final Cut
+year: 2010
+user: WildCoder
+runner: winesteam
+slug: a-new-beginning-final-cut-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-01-13T23:11:30.419504Z'
+updated_at: '2016-09-25T19:51:49.343848Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 105000
+gogid: 1207659150
+gogslug: a_new_beginning
+humblestoreid: ''
+script:
+  game:
+    appid: 105000

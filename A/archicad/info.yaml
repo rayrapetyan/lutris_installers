@@ -1,0 +1,16 @@
+name: ArchiCAD
+slug: archicad
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Simulation
+- name: Tool
+aliases: []
+banner_url: /games/banner/archicad.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:24.270704Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

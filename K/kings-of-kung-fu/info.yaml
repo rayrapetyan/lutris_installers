@@ -1,0 +1,17 @@
+name: Kings of Kung Fu
+slug: kings-of-kung-fu
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Fighting
+- name: Indie
+aliases: []
+banner_url: /games/banner/kings-of-kung-fu.jpg
+icon_url: /games/icon/kings-of-kung-fu.png
+is_public: true
+updated: '2019-06-11T18:45:58.765318Z'
+steamid: 316930
+gogslug: ''
+humblestoreid: ''

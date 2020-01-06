@@ -1,0 +1,32 @@
+id: 5360
+game_id: 6827
+game_slug: redshift-blueshift
+name: Redshift Blueshift
+year: null
+user: FakeShemp
+runner: wine
+slug: redshift-blueshift-itchio
+version: itch.io
+description: ''
+notes: ''
+created_at: '2017-08-12T17:01:25.288401Z'
+updated_at: '2018-05-19T03:41:58.372206Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 367430
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Redshift Blueshift
+      file: $file1
+  files:
+  - file1: N/A:Please select the itch.io archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Redshift Blueshift/redshiftblueshift.exe
+    arch: win32

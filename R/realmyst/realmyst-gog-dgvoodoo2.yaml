@@ -1,0 +1,116 @@
+id: 15784
+game_id: 405
+game_slug: realmyst
+name: realMyst
+year: 2000
+user: legluondunet
+runner: wine
+slug: realmyst-gog-dgvoodoo2
+version: GOG + dgVoodoo2
+description: "This script will install \"realMyst\" GOG edition with support for modern\
+  \ computer configuration.\r\nDuring install please let all options by default.\r\
+  \nThis script uses dgVoodoo2: http://www.dege.freeweb.hu/\r\nThanks to the people\
+  \ who contributed to play this game in the best conditions."
+notes: "- Known issue: this game could look stretched in widescreen resolution.\r\n\
+  - GOG stopped to sell this game for 2014, but it stays available for download for\
+  \ gamers bought this game before this date.\r\n- Please report issue concerning\
+  \ this script on my github page:\r\nhttps://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2019-09-25T10:28:22.416000Z'
+updated_at: '2019-11-23T22:59:10.206894Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: 63600
+gogid: 1207658824
+gogslug: ''
+humblestoreid: ''
+script:
+  custom-name: realMyst - GOG
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/realMyst/RealMYST.exe
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating WINE prefix
+      arch: win64
+      install_mono: false
+      install_gecko: false
+      name: create_prefix
+  - task:
+      executable: setup
+      prefix: $GAMEDIR
+      args: /SUPPRESSMSGBOXES /SILENT
+      description: Installing...
+      name: wineexec
+  - extract:
+      dst: $GAMEDIR/drive_c/GOG Games/realMyst/
+      file: dgv
+  - copy:
+      src: $GAMEDIR/drive_c/GOG Games/realMyst/MS/x86/DDraw.dll
+      dst: $GAMEDIR/drive_c/GOG Games/realMyst/
+  - copy:
+      src: $GAMEDIR/drive_c/GOG Games/realMyst/MS/x86/D3DImm.dll
+      dst: $GAMEDIR/drive_c/GOG Games/realMyst/
+  - execute:
+      command: cd "$GAMEDIR/drive_c/GOG Games/realMyst/"; mv dgVoodoo.conf dgVoodoo_original.conf
+  - write_config:
+      data:
+        General:
+          CaptureMouse: false
+          ScalingMode: stretched_ar
+          FullScreenMode: false
+        DirectX:
+          dgVoodooWatermark: false
+          Resolution: max_qhd_isf
+          ForceVerticalSync: true
+          VRAM: 256
+      file: $GAMEDIR/drive_c/GOG Games/realMyst/dgVoodoo.conf
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: native,builtin
+      key: ddraw
+      path: HKEY_CURRENT_USER\Software\Wine\DllOverrides\
+  - task:
+      prefix: $GAMEDIR
+      app: d3dcompiler_47
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      app: icodecs
+      name: winetricks
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: 0 0 0
+      key: background
+      path: HKEY_CURRENT_USER\Control Panel\Colors\
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_DWORD
+      value: '00000000'
+      key: csmt
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D\
+  - execute:
+      command: cd "$GAMEDIR/drive_c/GOG Games/realMyst" ; rm -f -r 3Dfx* Doc MS ddraw.dll
+        webcache.zip glide* gog* Launch* nglide_* nGlideEULA.txt QuickGuide.html support.ico
+        unins000.* ;
+  - chmodx: script
+  - execute:
+      args: $RESOLUTION_WIDTH $RESOLUTION_HEIGHT
+      file: script
+  wine:
+    dxvk: true
+    Desktop: true
+  files:
+  - setup: N/A:Select the EXE downloaded from GOG
+  - dgv: https://github.com/legluondunet/mlls-tools/raw/master/dgVoodoo2/dgVoodoo2_61.zip
+  - script: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/realMyst/resolution.sh

@@ -1,0 +1,24 @@
+id: 1756
+game_id: 5010
+game_slug: headcrab-frenzy
+name: Headcrab Frenzy!
+year: 2015
+user: RobLoach
+runner: steam
+slug: headcrab-frenzy-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2015-12-27T18:32:49.765917Z'
+updated_at: '2016-01-05T18:29:40.573097Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 354900
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 354900

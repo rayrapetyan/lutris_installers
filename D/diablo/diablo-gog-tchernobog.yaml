@@ -1,0 +1,78 @@
+id: 13330
+game_id: 5826
+game_slug: diablo
+name: Diablo
+year: 1996
+user: legluondunet
+runner: wine
+slug: diablo-gog-tchernobog
+version: GOG + Tchernobog
+description: "This script will install \"Diablo\" GOG edition with Tchernobog mod,\
+  \ it's the new name and last version of the Belzebub mod. It has multiplayer  and\
+  \  others new features/corrected bugs. \r\nDuring install please let all options\
+  \ by default.\r\nTchernobog site: https://mod.diablo.noktis.pl/\r\nBig thanks to\
+  \ people who gave their time to permit us playing this game in the best conditions."
+notes: "- Project Tchernobog  v0.1.6c\r\n- To find others players for online games,\
+  \ ask on Discord: https://discord.gg/82BaSAP.\r\n- Please report issue concerning\
+  \ this script on my Github page:\r\nhttps://github.com/legluondunet/MyLittleLutrisScripts/"
+created_at: '2019-05-04T15:36:30.330000Z'
+updated_at: '2019-11-16T17:42:47.941608Z'
+draft: false
+published: true
+published_by: 494
+rating: ''
+steamid: null
+gogid: 1412601690
+gogslug: diablo
+humblestoreid: ''
+script:
+  custom-name: Diablo Tchernobog GOG
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating WINE prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: installer
+      prefix: $CACHE
+      args: /VERYSILENT /SUPPRESSMSGBOXES
+      description: Running Setup, please wait...
+      name: wineexec
+  - extract:
+      dst: $GAMEDIR/drive_c/Diablo Tchernobog/
+      file: tchernobog
+  - move:
+      src: $CACHE/drive_c/GOG Games/Diablo/DIABDAT.MPQ
+      dst: $GAMEDIR/drive_c/Diablo Tchernobog/
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: 0 0 0
+      key: background
+      path: HKEY_CURRENT_USER\Control Panel\Colors\
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: 0 0 0
+      key: ActiveTitle
+      path: HKEY_CURRENT_USER\Control Panel\Colors\
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_SZ
+      value: 242 59 13
+      key: GradientActiveTitle
+      path: HKEY_CURRENT_USER\Control Panel\Colors\
+  files:
+  - installer: N/A:Select the installer downloaded from GOG
+  - tchernobog: https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Diablo/Tchernobog.zip
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Diablo Tchernobog/Tchernobog.exe
+    arch: win64

@@ -1,0 +1,43 @@
+id: 16046
+game_id: 23293
+game_slug: jagged-alliance-2
+name: Jagged Alliance 2
+year: 1999
+user: hakensen
+runner: wine
+slug: jagged-alliance-2-change-me
+version: Change Me
+description: "GOG version 1.12\r\nJA2 Stracciatella"
+notes: ''
+created_at: '2019-10-07T17:23:48.661626Z'
+updated_at: '2019-10-07T17:23:48.661649Z'
+draft: false
+published: false
+published_by: 20548
+rating: ''
+steamid: null
+gogid: 1207658696
+gogslug: jagged_alliance_2
+humblestoreid: ''
+script:
+  exe: drive_c/GOG Games/Jagged Alliance 2/ja2.exe
+  installer:
+  - task:
+      executable: ja2_gog_installer
+      prefix: $GAMEDIR
+      args: null
+      name: wineexec
+  - task:
+      executable: ja2_stracciatella_installer
+      prefix: $GAMEDIR
+      args: null
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      app: directplay
+      name: winetricks
+  files:
+  - ja2_gog_installer: N/A:Select the Windows installer downloaded from GOG
+  - ja2_stracciatella_installer: https://github.com/ja2-stracciatella/ja2-stracciatella/releases/download/v0.16.1/ja2-stracciatella_0.16.1_win-msvc64.exe
+  game:
+    prefix: $GAMEDIR

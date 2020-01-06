@@ -1,0 +1,18 @@
+name: Dangerous Waters
+slug: dangerous-waters
+year: 2005
+platforms:
+- name: Windows
+genres:
+- name: Combat
+- name: Modern
+- name: Naval
+- name: Simulation
+aliases: []
+banner_url: /games/banner/dangerous-waters.jpg
+icon_url: /games/icon/dangerous-waters.png
+is_public: true
+updated: '2019-06-01T06:11:25.500328Z'
+steamid: 1600
+gogslug: ''
+humblestoreid: ''

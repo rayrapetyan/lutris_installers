@@ -1,0 +1,16 @@
+name: Cinders
+slug: cinders
+year: 2012
+platforms:
+- name: Windows
+genres:
+- name: Fantasy
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/cinders.jpg
+icon_url: /games/icon/cinders.png
+is_public: true
+updated: '2019-06-08T22:23:05.257806Z'
+steamid: 293680
+gogslug: cinders
+humblestoreid: ''

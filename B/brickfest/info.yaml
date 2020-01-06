@@ -1,0 +1,17 @@
+name: Brickfest
+slug: brickfest
+year: null
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Casual
+- name: Indie
+aliases: []
+banner_url: /games/banner/brickfest.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:41.931641Z'
+steamid: 845940
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 8212
+game_id: 308
+game_slug: company-of-heroes-opposing-fronts
+name: 'Company of Heroes: Opposing Fronts'
+year: null
+user: soredake
+runner: winesteam
+slug: company-of-heroes-opposing-fr-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-05-09T07:12:43.503243Z'
+updated_at: '2018-05-13T09:05:10.476101Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 9340
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 9340

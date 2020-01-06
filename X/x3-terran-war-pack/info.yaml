@@ -1,0 +1,18 @@
+name: 'X3: Terran War Pack'
+slug: x3-terran-war-pack
+year: 2008
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Management
+- name: Shooter
+- name: Simulation
+aliases: []
+banner_url: /games/banner/x3-terran-war-pack.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:32:11.893108Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

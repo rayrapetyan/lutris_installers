@@ -1,0 +1,32 @@
+id: 4180
+game_id: 3308
+game_slug: crazy-plant-shop
+name: Crazy Plant Shop
+year: null
+user: FakeShemp
+runner: wine
+slug: crazy-plant-shop-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-06T19:09:26.670566Z'
+updated_at: '2018-05-19T03:41:50.425218Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 292200
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Crazy Plant Shop
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Crazy Plant Shop/CrazyPlantShop.exe
+    arch: win32

@@ -1,0 +1,19 @@
+name: Tropico 5
+slug: tropico-5
+year: 2014
+platforms:
+- name: Linux
+- name: Windows
+genres:
+- name: City building
+- name: Sandbox
+- name: Simulation
+- name: Strategy
+aliases: []
+banner_url: /games/banner/tropico-5.jpg
+icon_url: /games/icon/tropico-5.png
+is_public: true
+updated: '2019-01-23T08:31:56.602889Z'
+steamid: 245620
+gogslug: tropico_5
+humblestoreid: ''

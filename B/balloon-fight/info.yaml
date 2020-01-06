@@ -1,0 +1,15 @@
+name: Balloon Fight
+slug: balloon-fight
+year: 1985
+platforms:
+- name: NES
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/balloon-fight.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:31.191106Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

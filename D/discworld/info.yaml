@@ -1,0 +1,17 @@
+name: Discworld
+slug: discworld
+year: 1995
+platforms:
+- name: MS-DOS
+- name: Sega Saturn
+- name: Sony PlayStation
+genres:
+- name: Adventure
+aliases: []
+banner_url: /games/banner/discworld.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:12.643246Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

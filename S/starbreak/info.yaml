@@ -1,0 +1,16 @@
+name: StarBreak
+slug: starbreak
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: MMO
+aliases: []
+banner_url: /games/banner/starbreak.jpg
+icon_url: /games/icon/starbreak.png
+is_public: true
+updated: '2019-01-23T08:31:23.931149Z'
+steamid: 420790
+gogslug: ''
+humblestoreid: ''

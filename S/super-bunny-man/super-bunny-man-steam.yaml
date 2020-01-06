@@ -1,0 +1,24 @@
+id: 17775
+game_id: 28084
+game_slug: super-bunny-man
+name: Super Bunny Man
+year: null
+user: deanveloper
+runner: winesteam
+slug: super-bunny-man-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2020-01-06T07:11:59.081144Z'
+updated_at: '2020-01-06T07:11:59.081169Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 673750
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 673750

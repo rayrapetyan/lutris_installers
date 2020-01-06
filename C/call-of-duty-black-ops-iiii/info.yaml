@@ -1,0 +1,19 @@
+name: 'Call of Duty: Black Ops IIII'
+slug: call-of-duty-black-ops-iiii
+year: 2018
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: FPS
+- name: Shooter
+aliases:
+- slug: call-of-duty-black-ops-4
+  name: Call of Duty Black Ops 4
+banner_url: /games/banner/call-of-duty-black-ops-iiii.jpg
+icon_url: /games/icon/call-of-duty-black-ops-iiii.png
+is_public: true
+updated: '2019-10-21T04:26:10.912546Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

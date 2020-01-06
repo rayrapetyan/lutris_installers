@@ -1,0 +1,25 @@
+id: 3290
+game_id: 4346
+game_slug: qbeh-1-the-atlas-cube
+name: 'Qbeh-1: The Atlas Cube'
+year: null
+user: NotMyTypeOfLoli
+runner: winesteam
+slug: qbeh-1-the-atlas-cube-steam
+version: Steam
+description: ''
+notes: Looking around with the mouse feels a bit jerky, as if the camera is forcefully
+  moving down.
+created_at: '2017-02-21T15:41:47.021000Z'
+updated_at: '2017-03-19T17:20:52.840690Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 252550
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 252550

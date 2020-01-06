@@ -1,0 +1,18 @@
+name: Harvest Moon 64
+slug: harvest-moon-64
+year: 1999
+platforms:
+- name: Nintendo 64
+genres:
+- name: Construction
+- name: Life simulation
+- name: Management
+- name: Simulation
+aliases: []
+banner_url: /games/banner/harvest-moon-64.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:47.399428Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

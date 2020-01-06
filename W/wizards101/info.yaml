@@ -1,0 +1,19 @@
+name: Wizards101
+slug: wizards101
+year: 2008
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Cards
+- name: Fantasy
+- name: MMO
+- name: Strategy
+aliases: []
+banner_url: /games/banner/wizards101.jpg
+icon_url: null
+is_public: true
+updated: '2019-03-01T22:57:32.073881Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

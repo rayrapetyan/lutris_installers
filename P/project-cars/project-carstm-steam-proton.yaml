@@ -1,0 +1,25 @@
+id: 13440
+game_id: 3165
+game_slug: project-cars
+name: "Project CARS\u2122"
+year: 2015
+user: nalquas
+runner: steam
+slug: project-carstm-steam-proton
+version: Steam Proton
+description: null
+notes: "As the game is not officially whitelisted, Steam Play for all titles has to\
+  \ be enabled.\r\nI recommend Proton 4.2 or newer."
+created_at: '2019-05-10T16:14:55.757000Z'
+updated_at: '2019-05-19T07:07:25.236882Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 234630
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 234630

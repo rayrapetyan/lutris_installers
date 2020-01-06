@@ -1,0 +1,24 @@
+id: 17611
+game_id: 15064
+game_slug: freddy-fazbears-pizzeria-simulator
+name: Freddy Fazbear's Pizzeria Simulator
+year: null
+user: soredake
+runner: steam
+slug: freddy-fazbears-pizzeria-simu-proton
+version: Proton
+description: null
+notes: ''
+created_at: '2019-12-28T15:29:18.327622Z'
+updated_at: '2019-12-28T15:29:22.789341Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 738060
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 738060

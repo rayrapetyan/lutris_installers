@@ -1,0 +1,131 @@
+id: 13036
+game_id: 8093
+game_slug: rayman-2-the-great-escape
+name: 'Rayman 2: The Great Escape'
+year: 1999
+user: tognee
+runner: wine
+slug: rayman-2-the-great-escape-retail-1
+version: Retail
+description: "Installs Retail version from disc and applies widescreen fix\r\nAlso\
+  \ nGlide is used to fix graphic problems (like blurry textures)"
+notes: "The installer can't download the widescreen fix automatically, so you need\
+  \ to download it (link is provided)\r\n\r\nBy default the resolution used is 1920x1080\r\
+  \nYou can change that by editing the ubi.ini file and running nglide_config with\
+  \ wineprefix and change it there as well"
+created_at: '2019-04-22T19:36:25.015000Z'
+updated_at: '2019-04-24T02:29:10.978618Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: 1207658940
+gogslug: rayman_2_the_great_escape
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/UbiSoft/Rayman2/Rayman2.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating WINE prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      executable: glide
+      description: Installing nGlide
+      arch: win32
+      name: wineexec
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      type: REG_SZ
+      value: '0'
+      key: Aspect
+      path: HKEY_CURRENT_USER\Software\Zeus Software\nGlide2
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      type: REG_SZ
+      value: '2'
+      key: Backend
+      path: HKEY_CURRENT_USER\Software\Zeus Software\nGlide2
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      type: REG_SZ
+      value: '2'
+      key: Gamma
+      path: HKEY_CURRENT_USER\Software\Zeus Software\nGlide2
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      type: REG_SZ
+      value: '2'
+      key: Refresh
+      path: HKEY_CURRENT_USER\Software\Zeus Software\nGlide2
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      type: REG_SZ
+      value: '21'
+      key: Resolution
+      path: HKEY_CURRENT_USER\Software\Zeus Software\nGlide2
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      type: REG_SZ
+      value: '0'
+      key: Splash
+      path: HKEY_CURRENT_USER\Software\Zeus Software\nGlide2
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      type: REG_SZ
+      value: '1'
+      key: Vsync
+      path: HKEY_CURRENT_USER\Software\Zeus Software\nGlide2
+  - insert-disc:
+      requires: Rayman2.exe
+  - task:
+      executable: $DISC/setup.exe
+      description: Installing Rayman 2, don't change default settings.
+      arch: win32
+      name: wineexec
+  - copy:
+      src: $DISC/Data/Vignette.cnt
+      dst: $GAMEDIR/drive_c/UbiSoft/Rayman2/Data/
+  - copy:
+      src: $DISC/Data/World/Levels/LEVELS0.dat
+      dst: $GAMEDIR/drive_c/UbiSoft/Rayman2/Data/World/Levels/
+  - extract:
+      dst: $GAMEDIR/widescreen
+      file: widescreenzip
+  - merge:
+      src: $GAMEDIR/widescreen/
+      dst: $GAMEDIR/drive_c/UbiSoft/Rayman2
+  - write_config:
+      data:
+        Rayman2:
+          GLI_Driver: ''
+          GLI_Dll: Glide2
+          GLI_Mode: 1 - 1920 x 1080 x 32
+          GLI_Device: ''
+          Language: English
+          GLI_DllFile: GliVd1
+      file: $GAMEDIR/drive_c/UbiSoft/Rayman2/ubi.ini
+  wine:
+    version: tkg-4.0-x86_64
+    WineDesktop: 1024x768
+    Desktop: true
+  files:
+  - glide:
+      referer: www.zeus-software.com
+      filename: nglide.exe
+      url: http://www.zeus-software.com/downloads/nglide/d-1.html
+  - widescreenzip: 'N/A:Select the widescreen fix zip file
+
+      https://raymanpc.com/forum/viewtopic.php?t=21665'

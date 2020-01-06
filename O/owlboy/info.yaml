@@ -1,0 +1,16 @@
+name: Owlboy
+slug: owlboy
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: Platform
+aliases: []
+banner_url: /games/banner/owlboy.jpg
+icon_url: /games/icon/owlboy.png
+is_public: true
+updated: '2019-01-23T08:30:40.380031Z'
+steamid: 115800
+gogslug: owlboy
+humblestoreid: ''

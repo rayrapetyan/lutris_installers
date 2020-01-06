@@ -1,0 +1,19 @@
+name: Dying Light
+slug: dying-light
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: FPS
+- name: RPG
+- name: Shooter
+aliases: []
+banner_url: /games/banner/dying-light.jpg
+icon_url: /games/icon/dying-light.png
+is_public: true
+updated: '2019-01-23T08:29:20.297700Z'
+steamid: 239140
+gogslug: ''
+humblestoreid: ''

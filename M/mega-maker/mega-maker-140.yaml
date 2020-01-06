@@ -1,0 +1,38 @@
+id: 9321
+game_id: 17500
+game_slug: mega-maker
+name: Mega Maker
+year: 2017
+user: Monti
+runner: wine
+slug: mega-maker-140
+version: 1.4.0
+description: null
+notes: ''
+created_at: '2018-07-22T16:10:02.076000Z'
+updated_at: '2019-10-28T20:40:24.522095Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/MMMv140
+      file: mmm
+  files:
+  - mmm:
+      filename: MegaManMaker_v1_4_0.zip
+      url: https://megamanmaker.com/downloads/MegaManMaker_v1_4_0.zip
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/MMMv140/MegaMaker.exe
+    arch: win32

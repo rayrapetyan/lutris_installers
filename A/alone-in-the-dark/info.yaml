@@ -1,0 +1,17 @@
+name: Alone in the Dark
+slug: alone-in-the-dark
+year: 2008
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Horror
+aliases: []
+banner_url: /games/banner/alone-in-the-dark.jpg
+icon_url: /games/icon/alone-in-the-dark.png
+is_public: true
+updated: '2019-01-23T08:28:19.634466Z'
+steamid: 259170
+gogslug: alone_in_the_dark
+humblestoreid: alone-in-the-dark

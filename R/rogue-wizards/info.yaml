@@ -1,0 +1,16 @@
+name: Rogue Wizards
+slug: rogue-wizards
+year: 2016
+platforms:
+- name: Windows
+genres:
+- name: Roguelike
+- name: RPG
+aliases: []
+banner_url: /games/banner/rogue-wizards.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:03.484644Z'
+steamid: 392260
+gogslug: rogue_wizards
+humblestoreid: ''

@@ -1,0 +1,32 @@
+id: 14643
+game_id: 28525
+game_slug: amazing-adventures-the-forgotten-dynasty
+name: 'Amazing Adventures: The Forgotten Dynasty'
+year: 2011
+user: violaian
+runner: wine
+slug: amazing-adventures-the-forgot-cd-installer
+version: CD Installer
+description: Installed from PopCap's original Hidden Object Treasure Trove collection
+notes: Must gave game disk
+created_at: '2019-07-20T20:53:32.079000Z'
+updated_at: '2019-09-09T00:42:48.301906Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: drive_c/Program Files(x86)/PopCap Games/Amazing Adventures 4/AmazingAdventures4.exe
+  installer:
+  - insert-disc: null
+  - task:
+      executable: $DISC/installers/AmazingAdventures4Setup.exe
+      prefix: $GAMEDIR
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    arch: win32

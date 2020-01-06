@@ -1,0 +1,31 @@
+id: 9162
+game_id: 19892
+game_slug: divide
+name: Divide
+year: 2016
+user: kimchitea
+runner: linux
+slug: divide-itchio
+version: itch.io
+description: null
+notes: ''
+created_at: '2018-07-11T12:38:53.549000Z'
+updated_at: '2018-09-06T10:27:41.775619Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 687270
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Divide.sh
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Divide.sh
+  - chmodx: $GAMEDIR/lib/linux-i686/Divide
+  - chmodx: $GAMEDIR/lib/linux-x86_64/Divide
+  files:
+  - file1: N/A:Please select the itch.io archive

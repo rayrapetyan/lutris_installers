@@ -1,0 +1,15 @@
+name: CLANNAD
+slug: clannad
+year: 2004
+platforms:
+- name: Windows
+genres:
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/clannad.jpg
+icon_url: /games/icon/clannad.png
+is_public: true
+updated: '2019-06-07T05:26:42.062209Z'
+steamid: 324160
+gogslug: ''
+humblestoreid: ''

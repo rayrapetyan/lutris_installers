@@ -1,0 +1,16 @@
+name: Sonic Lost World
+slug: sonic-lost-world
+year: 2013
+platforms:
+- name: Nintendo 3DS
+- name: Windows
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/sonic-lost-world.jpg
+icon_url: /games/icon/sonic-lost-world.png
+is_public: true
+updated: '2019-01-23T08:31:18.235457Z'
+steamid: 329440
+gogslug: ''
+humblestoreid: sonic-lost-world

@@ -1,0 +1,16 @@
+name: 'Metal Gear Rising: Revengeance'
+slug: metal-gear-rising-revengeance
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Hack and slash
+aliases: []
+banner_url: /games/banner/metal-gear-rising-revengeance.jpg
+icon_url: /games/icon/metal-gear-rising-revengeance.png
+is_public: true
+updated: '2019-02-27T04:46:07.800540Z'
+steamid: 235460
+gogslug: ''
+humblestoreid: ''

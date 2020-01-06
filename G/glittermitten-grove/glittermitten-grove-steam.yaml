@@ -1,0 +1,24 @@
+id: 5747
+game_id: 11598
+game_slug: glittermitten-grove
+name: Glittermitten Grove
+year: null
+user: FakeShemp
+runner: steam
+slug: glittermitten-grove-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-09-15T17:04:34.778116Z'
+updated_at: '2017-09-15T17:04:48.139535Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 536890
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 536890

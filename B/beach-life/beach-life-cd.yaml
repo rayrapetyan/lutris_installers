@@ -1,0 +1,33 @@
+id: 14035
+game_id: 27822
+game_slug: beach-life
+name: Beach Life
+year: 2005
+user: x_l_ours
+runner: linux
+slug: beach-life-cd
+version: CD
+description: Wine version 2.21 under playonlinux with directx 9
+notes: "was running under UBUNTU 12.04 with wine 2.21\r\nbut no more with UBUNTU 18.08"
+created_at: '2019-06-10T20:09:52.363664Z'
+updated_at: '2019-06-10T20:09:52.363699Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file_installer: N/A:Please select the Beach Life setup file
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/beachlife.exe
+    arch: win32

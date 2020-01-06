@@ -1,0 +1,29 @@
+id: 470
+game_id: 84
+game_slug: assault-cube
+name: AssaultCube
+year: 2013
+user: strider
+runner: linux
+slug: assaultcube-1202
+version: 1.2.0.2
+description: Assault Cube v1.2.0.2
+notes: ''
+created_at: '2014-05-29T14:58:57.595000Z'
+updated_at: '2015-03-15T00:02:18.095000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: assaultcube.sh
+  installer:
+  - extract:
+      format: bz2
+      file: assault-archive
+  files:
+  - assault-archive: http://sourceforge.net/projects/actiongame/files/AssaultCube%20Version%201.2.0.2/AssaultCube_v1.2.0.2.tar.bz2/download

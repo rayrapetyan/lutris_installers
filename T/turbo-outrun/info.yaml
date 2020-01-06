@@ -1,0 +1,23 @@
+name: Turbo OutRun
+slug: turbo-outrun
+year: 1989
+platforms:
+- name: Amiga
+- name: Arcade
+- name: Atari ST
+- name: Game Boy
+- name: MS-DOS
+- name: Sega Game Gear
+- name: Sega Genesis / Mega Drive
+- name: ZX Spectrum
+genres:
+- name: Arcade
+- name: Racing
+aliases: []
+banner_url: /games/banner/turbo-outrun.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:57.058096Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

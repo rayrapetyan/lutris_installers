@@ -1,0 +1,30 @@
+id: 17132
+game_id: 30617
+game_slug: alices-day-off
+name: Alice's Day Off
+year: 2018
+user: AwesomeToaster
+runner: linux
+slug: alices-day-off-itchio-demo
+version: Itch.io Demo
+description: null
+notes: ''
+created_at: '2019-12-01T01:47:44.562000Z'
+updated_at: '2019-12-23T10:48:14.516813Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      src: game_zip
+      dst: $GAMEDIR
+  files:
+  - game_zip: N/A:Please select the .zip file from itch.io
+  game:
+    exe: alice-demo.sh

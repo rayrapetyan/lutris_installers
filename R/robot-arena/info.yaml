@@ -1,0 +1,18 @@
+name: Robot Arena
+slug: robot-arena
+year: 2001
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Racing
+- name: Simulation
+- name: Sports
+aliases: []
+banner_url: /games/banner/robot-arena.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:02.506299Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

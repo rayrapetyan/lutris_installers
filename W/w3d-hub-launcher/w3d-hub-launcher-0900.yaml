@@ -1,0 +1,39 @@
+id: 11031
+game_id: 23578
+game_slug: w3d-hub-launcher
+name: W3D Hub Launcher
+year: 2015
+user: creat0r
+runner: wine
+slug: w3d-hub-launcher-0900
+version: 0.9.0.0
+description: null
+notes: ''
+created_at: '2018-11-29T19:09:14.268749Z'
+updated_at: '2018-12-14T13:10:17.310608Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/W3D Hub/W3D Hub Launcher.exe
+    arch: win32
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR
+      app: dotnet461
+      name: winetricks
+  wine:
+    version: 3.1-i686
+  files:
+  - installer: N/A:Select the W3DHub setup file ( w3dhub.com )

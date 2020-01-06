@@ -1,0 +1,25 @@
+id: 17110
+game_id: 821
+game_slug: tomb-raider
+name: Tomb Raider
+year: 2013
+user: krimcl
+runner: winesteam
+slug: tomb-raider-change-me
+version: Change Me
+description: Options=> Full screen disable
+notes: Shadow bug
+created_at: '2019-11-30T09:43:14.925313Z'
+updated_at: '2019-11-30T09:43:14.925353Z'
+draft: false
+published: false
+published_by: null
+rating: ''
+steamid: 203160
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 203160
+    arch: win64

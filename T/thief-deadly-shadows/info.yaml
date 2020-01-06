@@ -1,0 +1,19 @@
+name: 'Thief: Deadly Shadows'
+slug: thief-deadly-shadows
+year: 2004
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Simulation
+- name: Stealth
+aliases:
+- slug: thief-3-deadly-shadows
+  name: 'Thief 3: Deadly Shadows'
+banner_url: /games/banner/thief-deadly-shadows.jpg
+icon_url: /games/icon/thief-deadly-shadows.png
+is_public: true
+updated: '2019-11-16T08:33:28.077695Z'
+steamid: 6980
+gogslug: thief_3
+humblestoreid: ''

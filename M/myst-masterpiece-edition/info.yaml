@@ -1,0 +1,16 @@
+name: 'Myst: Masterpiece Edition'
+slug: myst-masterpiece-edition
+year: 2000
+platforms:
+- name: Windows
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/myst-masterpiece-edition.jpg
+icon_url: /games/icon/myst-masterpiece-edition.png
+is_public: true
+updated: '2019-10-22T20:35:21.557045Z'
+steamid: 63660
+gogslug: myst_masterpiece_edition
+humblestoreid: ''

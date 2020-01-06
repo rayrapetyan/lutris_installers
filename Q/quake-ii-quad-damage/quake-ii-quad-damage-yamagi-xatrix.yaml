@@ -1,0 +1,26 @@
+id: 8759
+game_id: 7217
+game_slug: quake-ii-quad-damage
+name: 'Quake II: Quad Damage'
+year: 1999
+user: edjaa84
+runner: linux
+slug: quake-ii-quad-damage-yamagi-xatrix
+version: Yamagi + Xatrix
+description: 'Acceso a Quake 2: The Reckoning'
+notes: ''
+created_at: '2018-06-16T20:40:08.792000Z'
+updated_at: '2018-06-19T04:44:27.140345Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: 1443696817
+gogslug: quake_ii_quad_damage
+humblestoreid: ''
+script:
+  custom-name: Quake II The Reckoning
+  game:
+    args: +set game xatrix
+    exe: quake2

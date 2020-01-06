@@ -1,0 +1,17 @@
+name: 'TRI: Of Friendship and Madness'
+slug: tri-of-friendship-and-madness
+year: 2014
+platforms:
+- name: Linux
+genres:
+- name: Adventure
+- name: FPP
+- name: Puzzle
+aliases: []
+banner_url: /games/banner/tri-of-friendship-and-madness.jpg
+icon_url: /games/icon/tri-of-friendship-and-madness.png
+is_public: true
+updated: '2019-01-23T08:31:55.974141Z'
+steamid: 293660
+gogslug: tri
+humblestoreid: ''

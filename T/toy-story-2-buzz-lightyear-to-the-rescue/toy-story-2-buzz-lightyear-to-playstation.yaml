@@ -1,0 +1,31 @@
+id: 6647
+game_id: 15090
+game_slug: toy-story-2-buzz-lightyear-to-the-rescue
+name: 'Toy Story 2: Buzz Lightyear to the Rescue!'
+year: 1999
+user: FakeShemp
+runner: libretro
+slug: toy-story-2-buzz-lightyear-to-playstation
+version: PlayStation
+description: null
+notes: ''
+created_at: '2017-12-11T20:37:03.614744Z'
+updated_at: '2017-12-11T20:45:11.579857Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the PlayStation image file
+  game:
+    core: mednafen_psx_hw
+    main_file: file1

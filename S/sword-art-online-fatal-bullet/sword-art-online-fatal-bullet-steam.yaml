@@ -1,0 +1,28 @@
+id: 9375
+game_id: 17669
+game_slug: sword-art-online-fatal-bullet
+name: 'Sword Art Online: Fatal Bullet'
+year: null
+user: Jozua
+runner: winesteam
+slug: sword-art-online-fatal-bullet-steam
+version: Steam
+description: Might work, might not work
+notes: ''
+created_at: '2018-07-25T12:04:31.772254Z'
+updated_at: '2018-10-25T12:11:55.122616Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 626690
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  system:
+    disable_monitoring: true
+    disable_runtime: true
+    pulse_latency: true
+  game:
+    appid: 626690

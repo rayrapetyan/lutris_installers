@@ -1,0 +1,29 @@
+id: 6537
+game_id: 6846
+game_slug: tic-toc-tower
+name: Tic-Toc-Tower
+year: null
+user: FakeShemp
+runner: linux
+slug: tic-toc-tower-groupees
+version: Groupees
+description: null
+notes: ''
+created_at: '2017-12-03T11:19:46.999554Z'
+updated_at: '2017-12-03T11:21:02.646459Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 389310
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: Tic-Toc-Tower.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/Tic-Toc-Tower.x86
+  files:
+  - file1: N/A:Please select the Groupees archive

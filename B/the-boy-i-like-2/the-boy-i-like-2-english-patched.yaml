@@ -1,0 +1,39 @@
+id: 9152
+game_id: 19884
+game_slug: the-boy-i-like-2
+name: The Boy I Like? 2
+year: 2016
+user: kimchitea
+runner: linux
+slug: the-boy-i-like-2-english-patched
+version: English patched
+description: null
+notes: "Download instructions: https://www.reddit.com/r/visualnovels/comments/4q8226/the_boy_i_like_2_translation_released/\
+  \ \r\nOnscripter: https://web.archive.org/web/20180804033515/http://unclemion.com/onscripter/releases"
+created_at: '2018-07-11T04:10:23.002000Z'
+updated_at: '2019-09-09T02:01:58.966211Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: onscripter-en
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: $file1
+  - extract:
+      dst: $GAMEDIR
+      file: $file2
+  - extract:
+      dst: $GAMEDIR
+      file: $file3
+  - chmodx: $GAMEDIR/onscripter-en
+  files:
+  - file1: N/A:Please select the game archive
+  - file2: N/A:Please select the Onscripter archive
+  - file3: N/A:Please select the patch archive

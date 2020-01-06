@@ -1,0 +1,17 @@
+name: Stardew Valley
+slug: stardew-valley
+year: 2016
+platforms:
+- name: Linux
+genres:
+- name: RPG
+- name: Sandbox
+- name: Simulation
+aliases: []
+banner_url: /games/banner/stardew-valley.jpg
+icon_url: /games/icon/stardew-valley.png
+is_public: true
+updated: '2019-01-23T08:31:24.112373Z'
+steamid: 413150
+gogslug: stardew_valley
+humblestoreid: ''

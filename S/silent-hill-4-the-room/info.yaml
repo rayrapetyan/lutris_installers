@@ -1,0 +1,17 @@
+name: 'Silent Hill 4: The Room'
+slug: silent-hill-4-the-room
+year: 2004
+platforms:
+- name: Sony PlayStation 2
+- name: Windows
+genres:
+- name: Action
+- name: Horror
+aliases: []
+banner_url: /games/banner/silent-hill-4-the-room.jpg
+icon_url: /games/icon/silent-hill-4-the-room.png
+is_public: true
+updated: '2019-10-07T03:58:15.231675Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

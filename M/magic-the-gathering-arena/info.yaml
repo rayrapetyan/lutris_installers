@@ -1,0 +1,15 @@
+name: 'Magic: The Gathering Arena'
+slug: magic-the-gathering-arena
+year: 2017
+platforms:
+- name: Windows
+genres:
+- name: Cards
+aliases: []
+banner_url: /games/banner/magic-the-gathering-arena.jpg
+icon_url: /games/icon/magic-the-gathering-arena.png
+is_public: true
+updated: '2019-10-26T03:40:40.651995Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

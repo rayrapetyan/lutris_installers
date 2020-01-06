@@ -1,0 +1,15 @@
+name: Shuvit
+slug: shuvit
+year: 2018
+platforms:
+- name: Linux
+genres:
+- name: Sports
+aliases: []
+banner_url: /games/banner/shuvit.jpg
+icon_url: /games/icon/shuvit.png
+is_public: true
+updated: '2019-01-23T08:31:12.955127Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

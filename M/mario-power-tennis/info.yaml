@@ -1,0 +1,16 @@
+name: Mario Power Tennis
+slug: mario-power-tennis
+year: 2004
+platforms:
+- name: GameCube
+- name: Nintendo Wii
+genres:
+- name: Sports
+aliases: []
+banner_url: /games/banner/mario-power-tennis.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:30:17.758346Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

@@ -1,0 +1,17 @@
+name: 'Lighthouse: The Dark Being'
+slug: lighthouse-the-dark-being
+year: 1996
+platforms:
+- name: MS-DOS
+- name: Windows
+genres:
+- name: Adventure
+- name: Point-and-click
+aliases: []
+banner_url: /games/banner/lighthouse-the-dark-being.jpg
+icon_url: /games/icon/lighthouse-the-dark-being.png
+is_public: true
+updated: '2019-10-22T10:45:10.502992Z'
+steamid: null
+gogslug: lighthouse_the_dark_being
+humblestoreid: ''

@@ -1,0 +1,24 @@
+id: 275
+game_id: 1062
+game_slug: legends-of-aethereus
+name: Legends of Aethereus
+year: null
+user: strider
+runner: steam
+slug: legends-of-aethereus-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-20T00:21:41.893000Z'
+updated_at: '2013-12-20T00:21:41.893000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 248410
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 248410

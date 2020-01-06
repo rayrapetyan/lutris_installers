@@ -1,0 +1,33 @@
+id: 4273
+game_id: 7960
+game_slug: our-love-will-grow
+name: Our Love Will Grow
+year: null
+user: FakeShemp
+runner: wine
+slug: our-love-will-grow-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-06-10T16:32:32.348454Z'
+updated_at: '2018-05-19T03:41:49.164199Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 423770
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      executable: $file1
+      prefix: $GAMEDIR
+      name: wineexec
+  files:
+  - file1: N/A:Please select the IndieGameStand installer
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Our Love Will Grow/Our Love Will Grow.exe
+    arch: win32

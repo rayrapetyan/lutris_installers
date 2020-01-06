@@ -1,0 +1,30 @@
+id: 10053
+game_id: 126
+game_slug: final-doom
+name: Final Doom
+year: 1996
+user: miky_kr5
+runner: zdoom
+slug: final-doom-tnt-wad-required
+version: TNT Wad Required
+description: null
+notes: ''
+created_at: '2018-09-05T18:36:06.907910Z'
+updated_at: '2018-09-06T10:24:48.700701Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 2290
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: wad-data
+      dst: $GAMEDIR
+  files:
+  - wad-data: N/A:Select a TNT Evilution WAD file
+  game:
+    main_file: TNT.WAD

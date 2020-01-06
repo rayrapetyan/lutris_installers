@@ -1,0 +1,23 @@
+id: 2177
+game_id: 6317
+game_slug: wingsio
+name: Wings.io
+year: 2015
+user: scottviger
+runner: browser
+slug: wingsio-browser
+version: Browser
+description: ''
+notes: ''
+created_at: '2016-06-20T21:08:27.667817Z'
+updated_at: '2016-07-08T10:33:31.853686Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://wings.io

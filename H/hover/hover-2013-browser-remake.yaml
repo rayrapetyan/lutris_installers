@@ -1,0 +1,25 @@
+id: 925
+game_id: 3234
+game_slug: hover
+name: Hover!
+year: 1995
+user: Xodetaetl
+runner: browser
+slug: hover-2013-browser-remake
+version: 2013 browser remake
+description: 'Tip: typing "bambi" on the main page will load a retro mode emulating
+  the 1995 version of the game.'
+notes: ''
+created_at: '2014-10-17T18:07:19.328000Z'
+updated_at: '2014-10-17T19:48:20.053000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    main_file: http://hover.ie/

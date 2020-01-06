@@ -1,0 +1,24 @@
+id: 646
+game_id: 2632
+game_slug: dreadout
+name: DreadOut
+year: null
+user: Xodetaetl
+runner: steam
+slug: dreadout-steam
+version: steam
+description: ''
+notes: ''
+created_at: '2014-09-14T21:55:34.356000Z'
+updated_at: '2014-09-14T23:23:35.815000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 269790
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 269790

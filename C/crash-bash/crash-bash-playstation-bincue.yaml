@@ -1,0 +1,37 @@
+id: 11287
+game_id: 12073
+game_slug: crash-bash
+name: Crash Bash
+year: 2000
+user: Zekromaster
+runner: mednafen
+slug: crash-bash-playstation-bincue
+version: Playstation (.bin/.cue)
+description: "If you don't have PSX BIOS:\r\n- Open or create ~/.mednafen/firmware\
+  \ directory.\r\n- Make sure PSX BIOS files scph5500.bin, scph5501.bin, and scph5502.bin\
+  \ are there."
+notes: ''
+created_at: '2018-12-21T14:20:01.838000Z'
+updated_at: '2018-12-23T02:49:39.813683Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - copy:
+      src: cue
+      dst: $GAMEDIR
+  - copy:
+      src: bin
+      dst: $GAMEDIR
+  files:
+  - cue: 'N/A: Please select your Crash Bash.cue file'
+  - bin: 'N/A: Please select your Crash Bash.bin file'
+  game:
+    machine: psx
+    main_file: cue

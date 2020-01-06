@@ -1,0 +1,32 @@
+id: 4147
+game_id: 3283
+game_slug: post-master
+name: 'Post Master '
+year: null
+user: FakeShemp
+runner: wine
+slug: post-master-humble
+version: Humble
+description: ''
+notes: ''
+created_at: '2017-06-05T21:26:47.910126Z'
+updated_at: '2018-05-19T03:41:48.885537Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 275080
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $GAMEDIR/drive_c/Program Files/Post Master
+      file: $file1
+  files:
+  - file1: N/A:Please select the Humble archive
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Post Master/PostMaster.exe
+    arch: win32

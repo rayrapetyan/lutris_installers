@@ -1,0 +1,31 @@
+id: 11450
+game_id: 24518
+game_slug: iron-blood-warriors-of-ravenloft
+name: 'Iron & Blood: Warriors of Ravenloft'
+year: null
+user: te_lanus
+runner: libretro
+slug: iron-blood-warriors-of-ravenl-playstation
+version: Playstation
+description: null
+notes: ''
+created_at: '2019-01-05T17:16:05.554227Z'
+updated_at: '2019-01-05T17:16:46.763479Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the Playstation game disc
+  game:
+    core: mednafen_psx
+    main_file: file1

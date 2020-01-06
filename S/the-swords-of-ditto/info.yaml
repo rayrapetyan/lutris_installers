@@ -1,0 +1,17 @@
+name: The Swords of Ditto
+slug: the-swords-of-ditto
+year: 2017
+platforms:
+- name: Linux
+genres:
+- name: Action
+- name: Adventure
+- name: RPG
+aliases: []
+banner_url: /games/banner/the-swords-of-ditto.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:47.869292Z'
+steamid: 619780
+gogslug: the_swords_of_ditto
+humblestoreid: ''

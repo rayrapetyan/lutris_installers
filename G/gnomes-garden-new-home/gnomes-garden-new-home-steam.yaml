@@ -1,0 +1,25 @@
+id: 8726
+game_id: 18706
+game_slug: gnomes-garden-new-home
+name: Gnomes Garden New Home
+year: null
+user: kimchitea
+runner: winesteam
+slug: gnomes-garden-new-home-steam
+version: Steam
+description: null
+notes: 64-bit only.
+created_at: '2018-06-14T12:53:14.729000Z'
+updated_at: '2018-08-16T06:20:02.911591Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 686520
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 686520
+    arch: win64

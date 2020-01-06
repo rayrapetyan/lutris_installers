@@ -1,0 +1,15 @@
+name: 'Golden Sun: The Lost Age'
+slug: golden-sun-the-lost-age
+year: 2003
+platforms:
+- name: Nintendo Game Boy Advance
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/golden-sun-the-lost-age.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:41.263801Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

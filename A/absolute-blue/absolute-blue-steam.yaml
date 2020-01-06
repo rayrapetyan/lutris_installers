@@ -1,0 +1,24 @@
+id: 10000
+game_id: 21452
+game_slug: absolute-blue
+name: Absolute Blue
+year: null
+user: yskar
+runner: steam
+slug: absolute-blue-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-09-02T07:43:30.777092Z'
+updated_at: '2018-09-04T14:46:17.999098Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 806220
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 806220

@@ -1,0 +1,24 @@
+id: 6775
+game_id: 3432
+game_slug: bionic-commando
+name: Bionic Commando
+year: null
+user: soredake
+runner: winesteam
+slug: bionic-commando-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-23T20:55:45.659452Z'
+updated_at: '2017-12-23T20:55:54.254492Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 21670
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 21670

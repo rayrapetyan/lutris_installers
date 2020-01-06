@@ -1,0 +1,18 @@
+name: Toy Story Mania
+slug: toy-story-mania
+year: 2009
+platforms:
+- name: Nintendo Wii
+- name: Sony Playstation 3
+- name: Windows
+genres:
+- name: Action
+- name: Party
+aliases: []
+banner_url: /games/banner/toy-story-mania.jpg
+icon_url: /games/icon/toy-story-mania.png
+is_public: false
+updated: '2019-11-06T02:25:46.571132Z'
+steamid: 317580
+gogslug: ''
+humblestoreid: ''

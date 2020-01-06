@@ -1,0 +1,24 @@
+id: 6616
+game_id: 1831
+game_slug: pandora-first-contact
+name: 'Pandora: First Contact'
+year: 2013
+user: Talvi
+runner: steam
+slug: pandora-first-contact-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2017-12-10T16:08:38.109062Z'
+updated_at: '2017-12-17T09:12:42.314182Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 287580
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 287580

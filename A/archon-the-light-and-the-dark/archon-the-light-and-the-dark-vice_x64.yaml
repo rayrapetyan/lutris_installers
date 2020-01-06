@@ -1,0 +1,31 @@
+id: 8592
+game_id: 19195
+game_slug: archon-the-light-and-the-dark
+name: 'Archon: The Light and the Dark'
+year: 1984
+user: MrCoolSpan
+runner: libretro
+slug: archon-the-light-and-the-dark-vice_x64
+version: vice_x64
+description: null
+notes: ''
+created_at: '2018-06-08T08:53:07.268230Z'
+updated_at: '2018-06-08T15:58:22.449962Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the game disk
+  game:
+    core: vice_x64
+    main_file: file1

@@ -1,0 +1,18 @@
+name: Daylight
+slug: daylight
+year: null
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Adventure
+- name: Horror
+- name: Indie
+aliases: []
+banner_url: /games/banner/daylight.jpg
+icon_url: /games/icon/daylight.png
+is_public: false
+updated: '2019-01-23T08:29:05.580618Z'
+steamid: 230840
+gogslug: ''
+humblestoreid: ''

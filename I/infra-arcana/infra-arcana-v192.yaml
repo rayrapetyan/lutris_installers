@@ -1,0 +1,30 @@
+id: 14084
+game_id: 21703
+game_slug: infra-arcana
+name: Infra Arcana
+year: 2011
+user: Pro_Tentious
+runner: linux
+slug: infra-arcana-v192
+version: v19.2
+description: null
+notes: ''
+created_at: '2019-06-14T09:35:03.774000Z'
+updated_at: '2019-09-09T01:40:20.498287Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: tgz
+      file: $file1
+  files:
+  - file1: https://github.com/martin-tornqvist/ia/releases/download/v19.2/ia_v19.2_linux_x64.tar.gz
+  game:
+    exe: $GAMEDIR/ia

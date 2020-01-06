@@ -1,0 +1,52 @@
+id: 12066
+game_id: 24131
+game_slug: dying-light-the-following-enhanced-edition
+name: "Dying Light: The Following \u2013 Enhanced Edition"
+year: 2016
+user: 0f2484ea66a28fdd6805e2db94bcd13d
+runner: wine
+slug: dying-light-the-following-enh-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-02-17T00:07:46.885000Z'
+updated_at: '2019-03-30T20:52:26.837757Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: 1448452156
+gogslug: dying_light_the_following_enhanced_edition
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating 64bit Wine prefix.
+      arch: win64
+      name: create_prefix
+  - task:
+      executable: goginstaller
+      prefix: $GAMEDIR
+      description: Installing game
+      arch: win64
+      name: wineexec
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/GOG Games/Dying Light/DyingLightGame.exe
+    arch: win64
+  system:
+    env:
+      DXVK_LOG_LEVEL: none
+      DXVK_HUD: 0
+      __GL_SHADER_DISK_CACHE: 1
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_STATE_CACHE: 1
+      mesa_glthread: true
+  wine:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  files:
+  - goginstaller: N/A:Select the game's setup file

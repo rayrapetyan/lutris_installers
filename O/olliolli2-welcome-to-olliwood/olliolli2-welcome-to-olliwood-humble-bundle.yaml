@@ -1,0 +1,30 @@
+id: 2170
+game_id: 4960
+game_slug: olliolli2-welcome-to-olliwood
+name: 'OlliOlli2: Welcome to Olliwood'
+year: 2015
+user: Lulu
+runner: linux
+slug: olliolli2-welcome-to-olliwood-humble-bundle
+version: Humble Bundle
+description: ''
+notes: ''
+created_at: '2016-06-20T19:50:30.939388Z'
+updated_at: '2016-09-30T20:45:07.941998Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 365660
+gogid: 1438603531
+gogslug: olliolli2_welcome_to_olliwood
+humblestoreid: olliolli2-welcome-to-olliwood
+script:
+  exe: olliolli2
+  installer:
+  - extract:
+      file: olliolli2-game
+  - chmodx: $GAMEDIR/olliolli2
+  files:
+  - olliolli2-game: 'N/A: Please select the .tar.gz install file downloaded from humblebundle.com'
+  steamid: '365660'

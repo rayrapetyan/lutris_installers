@@ -1,0 +1,24 @@
+id: 5297
+game_id: 1586
+game_slug: final-exam
+name: Final Exam
+year: null
+user: coco
+runner: winesteam
+slug: final-exam-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-08-07T17:40:20.721000Z'
+updated_at: '2017-08-08T18:02:23.563049Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 233190
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 233190

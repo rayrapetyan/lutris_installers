@@ -1,0 +1,24 @@
+id: 9221
+game_id: 16074
+game_slug: 1bitheart
+name: 1bitHeart
+year: 2017
+user: kimchitea
+runner: winesteam
+slug: 1bitheart-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-15T12:15:45.637697Z'
+updated_at: '2018-07-15T22:34:21.119322Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 618720
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 618720

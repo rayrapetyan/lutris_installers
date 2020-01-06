@@ -1,0 +1,15 @@
+name: 'Aliens: Colonial Marines'
+slug: aliens-colonial-marines
+year: 2013
+platforms:
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/aliens-colonial-marines.jpg
+icon_url: /games/icon/aliens-colonial-marines.png
+is_public: true
+updated: '2019-01-23T08:28:18.750518Z'
+steamid: 49540
+gogslug: ''
+humblestoreid: ''

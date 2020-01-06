@@ -1,0 +1,24 @@
+id: 5118
+game_id: 7015
+game_slug: porradaria-2-pagode-of-the-night
+name: 'Porradaria 2: Pagode of the Night'
+year: null
+user: FakeShemp
+runner: steam
+slug: porradaria-2-pagode-of-the-ni-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2017-07-20T17:22:36.233463Z'
+updated_at: '2017-07-26T07:24:08.093087Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 431220
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 431220

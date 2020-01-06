@@ -1,0 +1,24 @@
+id: 12505
+game_id: 14911
+game_slug: memoranda
+name: Memoranda
+year: 2017
+user: cxf
+runner: steam
+slug: memoranda-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2019-03-25T04:20:09.255107Z'
+updated_at: '2019-03-25T04:20:15.181618Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 430410
+gogid: 1675237416
+gogslug: memoranda
+humblestoreid: ''
+script:
+  game:
+    appid: 430410

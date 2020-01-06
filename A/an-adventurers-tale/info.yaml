@@ -1,0 +1,17 @@
+name: An Adventurer's Tale
+slug: an-adventurers-tale
+year: 2019
+platforms:
+- name: Linux
+genres:
+- name: jRPG
+- name: Sexual Content
+- name: Visual novel
+aliases: []
+banner_url: /games/banner/an-adventurers-tale.jpg
+icon_url: /games/icon/an-adventurers-tale.png
+is_public: true
+updated: '2019-10-07T03:28:26.638102Z'
+steamid: 942580
+gogslug: ''
+humblestoreid: ''

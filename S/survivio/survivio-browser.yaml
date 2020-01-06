@@ -1,0 +1,23 @@
+id: 11138
+game_id: 23737
+game_slug: survivio
+name: Surviv.io
+year: null
+user: ttpcodes
+runner: browser
+slug: survivio-browser
+version: Browser
+description: null
+notes: ''
+created_at: '2018-12-11T05:44:37.509512Z'
+updated_at: '2018-12-12T04:45:16.821585Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  main_file: https://surviv.io

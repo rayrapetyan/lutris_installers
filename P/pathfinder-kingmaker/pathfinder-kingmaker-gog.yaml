@@ -1,0 +1,34 @@
+id: 10475
+game_id: 19669
+game_slug: pathfinder-kingmaker
+name: 'Pathfinder: Kingmaker'
+year: 2018
+user: Lethiks
+runner: linux
+slug: pathfinder-kingmaker-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2018-10-10T20:29:45.447000Z'
+updated_at: '2019-03-30T00:31:26.439732Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 640820
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

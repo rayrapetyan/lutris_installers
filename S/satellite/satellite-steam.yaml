@@ -1,0 +1,24 @@
+id: 8893
+game_id: 17496
+game_slug: satellite
+name: Satellite
+year: 2018
+user: kimchitea
+runner: steam
+slug: satellite-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-06-25T00:26:00.587107Z'
+updated_at: '2018-06-25T04:00:56.507216Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 555310
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 555310

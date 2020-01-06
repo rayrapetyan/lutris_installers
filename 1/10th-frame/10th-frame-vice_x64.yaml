@@ -1,0 +1,31 @@
+id: 8582
+game_id: 19154
+game_slug: 10th-frame
+name: 10th Frame
+year: 1986
+user: MrCoolSpan
+runner: libretro
+slug: 10th-frame-vice_x64
+version: vice_x64
+description: null
+notes: ''
+created_at: '2018-06-08T08:22:56.747000Z'
+updated_at: '2018-06-08T15:59:28.680362Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the game disk
+  game:
+    core: vice_x64
+    main_file: file1

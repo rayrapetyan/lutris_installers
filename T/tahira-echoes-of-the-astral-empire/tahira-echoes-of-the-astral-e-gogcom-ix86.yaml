@@ -1,0 +1,38 @@
+id: 2662
+game_id: 7297
+game_slug: tahira-echoes-of-the-astral-empire
+name: 'Tahira: Echoes of the Astral Empire'
+year: 2016
+user: ssf
+runner: linux
+slug: tahira-echoes-of-the-astral-e-gogcom-ix86
+version: GOG.com - ix86
+description: ''
+notes: ''
+created_at: '2016-09-01T19:23:06.711376Z'
+updated_at: '2016-09-06T16:41:34.193696Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 396660
+gogid: 1852379375
+gogslug: tahira_echoes_of_the_astral_empire
+humblestoreid: ''
+script:
+  exe: game/start.sh
+  gogid: tahira_echoes_of_the_astral_empire
+  installer:
+  - extract:
+      dst: $CACHE
+      file: $unzip
+  - execute:
+      args: $game -d "$GAMEDIR" "data/noarch/*"
+      description: Extracting game data, it will take a while...
+      file: $CACHE/unzip
+  - rename:
+      src: $GAMEDIR/data/noarch
+      dst: $GAMEDIR/game
+  files:
+  - game: N/A:Please select the GOG.com Linux installer
+  - unzip: http://lutris.net/files/tools/unzip.tar.gz

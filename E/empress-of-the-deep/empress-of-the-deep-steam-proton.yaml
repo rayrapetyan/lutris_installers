@@ -1,0 +1,24 @@
+id: 11443
+game_id: 9337
+game_slug: empress-of-the-deep
+name: Empress Of The Deep
+year: null
+user: kimchitea
+runner: steam
+slug: empress-of-the-deep-steam-proton
+version: Steam Proton
+description: null
+notes: ''
+created_at: '2019-01-05T05:35:52.686000Z'
+updated_at: '2019-05-22T00:06:58.673576Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 299150
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 299150

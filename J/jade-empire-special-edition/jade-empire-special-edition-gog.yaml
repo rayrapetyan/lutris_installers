@@ -1,0 +1,48 @@
+id: 12523
+game_id: 1362
+game_slug: jade-empire-special-edition
+name: 'Jade Empire: Special Edition'
+year: 2007
+user: Ironlenny
+runner: wine
+slug: jade-empire-special-edition-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-03-26T05:05:07.675000Z'
+updated_at: '2019-03-28T04:11:59.685577Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 7110
+gogid: 1207659237
+gogslug: jade_empire_special_edition
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      dst: $CACHE/tmp/innoextract
+      file: innoextract
+  - execute:
+      args: --gog -d "$CACHE" setup
+      description: Extracting game data
+      file: $CACHE/tmp/innoextract/innoextract
+  - move:
+      src: $CACHE/app
+      description: Moving game data
+      dst: $GAMEDIR/drive_c/GOG Games/Jade Empire
+  - task:
+      prefix: $GAMEDIR
+      name: set_regedit
+      arch: win64
+      type: REG_DWORD
+      value: '00000000'
+      key: csmt
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D
+  files:
+  - setup: N/A:Select "Jade Empire" setup files
+  - innoextract: https://constexpr.org/innoextract/files/innoextract-1.7-linux.tar.xz
+  game:
+    prefix: $GAMEDIR
+    exe: $GAMEDIR/drive_c/GOG Games/Jade Empire/JadeEmpire.exe

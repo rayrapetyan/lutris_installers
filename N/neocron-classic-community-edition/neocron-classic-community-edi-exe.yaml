@@ -1,0 +1,37 @@
+id: 14807
+game_id: 28637
+game_slug: neocron-classic-community-edition
+name: Neocron Classic Community Edition
+year: null
+user: buddicus
+runner: wine
+slug: neocron-classic-community-edi-exe
+version: exe
+description: Test script
+notes: ''
+created_at: '2019-08-01T01:52:30.798606Z'
+updated_at: '2019-08-01T01:52:30.798638Z'
+draft: true
+published: false
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    prefix: $GAMEDIR
+    args: -w
+    exe: drive_c/Games/Neocron Classic/LauncherMcLaunchy.exe
+  installer:
+  - task:
+      executable: installer
+      prefix: $GAMEDIR
+      name: wineexec
+  wine:
+    version: tkg-4.0-x86_64
+  files:
+  - installer:
+      filename: neocron_setup.exe
+      url: https://patches.neocron.org/installer/neocron_setup.exe

@@ -1,0 +1,45 @@
+id: 1724
+game_id: 2090
+game_slug: grid-2
+name: GRID 2
+year: 2013
+user: strider
+runner: winesteam
+slug: grid-2-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2015-12-13T06:39:21.487000Z'
+updated_at: '2019-03-23T14:22:27.001645Z'
+draft: false
+published: true
+published_by: 51687
+rating: '1'
+steamid: 44350
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win32
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing .NET 3.5
+      app: dotnet35 win7
+      arch: win32
+      name: winetricks
+  winesteam:
+    esync: true
+    dxvk: true
+  system:
+    disable_compositor: 'true'
+    env:
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      DXVK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 44350
+    arch: win32

@@ -1,0 +1,17 @@
+name: Mafia
+slug: mafia
+year: 2002
+platforms:
+- name: Windows
+genres:
+- name: Action
+- name: Racing
+- name: Third-person shooter
+aliases: []
+banner_url: /games/banner/mafia.jpg
+icon_url: /games/icon/mafia.png
+is_public: true
+updated: '2019-01-23T08:30:15.329626Z'
+steamid: 40990
+gogslug: mafia
+humblestoreid: ''

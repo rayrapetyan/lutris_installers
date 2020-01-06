@@ -1,0 +1,31 @@
+id: 7510
+game_id: 17329
+game_slug: mega-man-x5
+name: Mega Man X5
+year: 2001
+user: cxf
+runner: libretro
+slug: mega-man-x5-sony-playstation
+version: Sony PlayStation
+description: null
+notes: ''
+created_at: '2018-03-13T00:57:49.511000Z'
+updated_at: '2018-03-13T22:23:28.073465Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - merge:
+      src: file1
+      dst: $GAMEDIR
+  files:
+  - file1: N/A:Please select the PlayStation image file
+  game:
+    core: mednafen_psx_hw
+    main_file: file1

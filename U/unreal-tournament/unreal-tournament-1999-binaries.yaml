@@ -1,0 +1,57 @@
+id: 1574
+game_id: 17
+game_slug: unreal-tournament
+name: Unreal Tournament (1999)
+year: 1999
+user: strider
+runner: linux
+slug: unreal-tournament-1999-binaries
+version: Binaries
+description: Linux binaries only, if you want to provide native support to an existing
+  install.
+notes: Same restrictions as the Steam installer.
+created_at: '2015-08-07T00:34:57.918000Z'
+updated_at: '2019-12-23T19:56:47.708224Z'
+draft: false
+published: true
+published_by: 20548
+rating: ''
+steamid: 13240
+gogid: 1207658692
+gogslug: unreal_tournament_goty
+humblestoreid: ''
+script:
+  exe: ut
+  installer:
+  - chmodx: $ut-bin
+  - execute:
+      args: --noexec --nox11 --target $CACHE/tmp
+      file: ut-bin
+  - extract:
+      nomerge: true
+      file: $CACHE/tmp/data.tar.gz
+  - extract:
+      nomerge: true
+      file: $CACHE/tmp/NetGamesUSA.com.tar.gz
+  - extract:
+      nomerge: true
+      file: $CACHE/tmp/OpenGL_S3TC.ini.tar.gz
+  - extract:
+      nomerge: true
+      file: $CACHE/tmp/UT436-OpenGLDrv-Linux-090602.tar.gz
+  - extract:
+      nomerge: true
+      file: $CACHE/tmp/Credits.tar.gz
+  - move:
+      src: $CACHE/tmp/bin/ut
+      dst: $GAMEDIR
+  - extract:
+      nomerge: true
+      dst: $GAMEDIR
+      file: utpg-patch
+  - move:
+      src: $GAMEDIR/System/UnrealTournament.ini.PATCH
+      dst: $GAMEDIR/System/UnrealTournament.ini
+  files:
+  - ut-bin: http://lutris.net/files/games/unreal-tournament/unreal.tournament_436-multilanguage.goty.run
+  - utpg-patch: http://lutris.net/files/games/unreal-tournament/UTPGPatch451.tar.bz2

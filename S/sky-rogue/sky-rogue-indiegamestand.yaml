@@ -1,0 +1,31 @@
+id: 4304
+game_id: 4695
+game_slug: sky-rogue
+name: Sky Rogue
+year: 2017
+user: FakeShemp
+runner: linux
+slug: sky-rogue-indiegamestand
+version: IndieGameStand
+description: ''
+notes: ''
+created_at: '2017-06-11T20:05:24.206405Z'
+updated_at: '2017-06-12T18:21:59.753620Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 381020
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  exe: skyrogue.x86
+  installer:
+  - extract:
+      file: $file1
+  - chmodx: $GAMEDIR/skyrogue.x86
+  - chmodx: $GAMEDIR/skyrogue.x86_64
+  exe64: skyrogue.x86_64
+  files:
+  - file1: N/A:Please select the IndieGameStand archive

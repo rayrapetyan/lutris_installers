@@ -1,0 +1,15 @@
+name: 'Game & Watch: Egg'
+slug: game-watch-egg
+year: 1981
+platforms:
+- name: Arcade
+genres:
+- name: Platform
+aliases: []
+banner_url: /games/banner/game-watch-egg.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:29:37.802737Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

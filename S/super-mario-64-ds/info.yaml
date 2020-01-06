@@ -1,0 +1,16 @@
+name: Super Mario 64 DS
+slug: super-mario-64-ds
+year: 2004
+platforms:
+- name: Nintendo DS
+genres:
+- name: Adventure
+- name: Platform
+aliases: []
+banner_url: /games/banner/super-mario-64-ds.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:31:30.525828Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

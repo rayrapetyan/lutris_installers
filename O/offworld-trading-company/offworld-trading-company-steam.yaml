@@ -1,0 +1,24 @@
+id: 2061
+game_id: 6112
+game_slug: offworld-trading-company
+name: Offworld Trading Company
+year: null
+user: jrb0001
+runner: winesteam
+slug: offworld-trading-company-steam
+version: Steam
+description: ''
+notes: ''
+created_at: '2016-05-01T12:04:17.082369Z'
+updated_at: '2016-09-30T20:40:00.781763Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 271240
+gogid: 1574464714
+gogslug: offworld_trading_company
+humblestoreid: ''
+script:
+  game:
+    appid: 271240

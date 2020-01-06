@@ -1,0 +1,15 @@
+name: 'Shadowrun: Hong Kong'
+slug: shadowrun-hong-kong
+year: 2015
+platforms:
+- name: Linux
+genres:
+- name: RPG
+aliases: []
+banner_url: /games/banner/shadowrun-hong-kong.jpg
+icon_url: /games/icon/shadowrun-hong-kong.png
+is_public: true
+updated: '2019-01-23T08:31:10.808653Z'
+steamid: 346940
+gogslug: shadowrun_hong_kong_extended_edition
+humblestoreid: ''

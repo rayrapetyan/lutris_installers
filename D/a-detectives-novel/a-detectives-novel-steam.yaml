@@ -1,0 +1,24 @@
+id: 9222
+game_id: 8142
+game_slug: a-detectives-novel
+name: A Detective's Novel
+year: 2016
+user: kimchitea
+runner: winesteam
+slug: a-detectives-novel-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-07-15T12:16:10.164873Z'
+updated_at: '2018-07-15T22:35:19.200437Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 503820
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 503820

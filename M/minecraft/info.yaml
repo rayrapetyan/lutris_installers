@@ -1,0 +1,22 @@
+name: Minecraft
+slug: minecraft
+year: 2011
+platforms:
+- name: Linux
+genres:
+- name: Construction
+- name: Exploration
+- name: Sandbox
+- name: Survival
+aliases:
+- slug: minecraft-bedrock-edition
+  name: Minecraft Bedrock Edition
+- slug: minecraft-launcher
+  name: Minecraft
+banner_url: /games/banner/minecraft.jpg
+icon_url: /games/icon/minecraft.png
+is_public: true
+updated: '2020-01-01T11:43:28.528471Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

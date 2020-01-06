@@ -1,0 +1,34 @@
+id: 11556
+game_id: 9007
+game_slug: the-last-blade
+name: THE LAST BLADE
+year: null
+user: Nobu
+runner: linux
+slug: the-last-blade-gog
+version: GOG
+description: null
+notes: ''
+created_at: '2019-01-12T06:16:50.729000Z'
+updated_at: '2019-01-19T10:45:27.812751Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 465840
+gogid: 2146639333
+gogslug: the_last_blade
+humblestoreid: ''
+script:
+  installer:
+  - extract:
+      format: zip
+      dst: $CACHE/GOG
+      file: goginstaller
+  - merge:
+      src: $CACHE/GOG/data/noarch/
+      dst: $GAMEDIR
+  files:
+  - goginstaller: N/A:Please select the GOG.com Linux installer
+  game:
+    exe: start.sh

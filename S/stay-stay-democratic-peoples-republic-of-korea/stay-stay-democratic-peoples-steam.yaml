@@ -1,0 +1,24 @@
+id: 7424
+game_id: 14233
+game_slug: stay-stay-democratic-peoples-republic-of-korea
+name: Stay! Stay! Democratic People's Republic of Korea!
+year: 2017
+user: t-rex91
+runner: steam
+slug: stay-stay-democratic-peoples-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-03-02T12:18:02.653292Z'
+updated_at: '2018-03-03T06:00:45.274343Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 512060
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  game:
+    appid: 512060

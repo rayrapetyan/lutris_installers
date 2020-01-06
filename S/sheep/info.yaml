@@ -1,0 +1,19 @@
+name: Sheep
+slug: sheep
+year: 2000
+platforms:
+- name: Windows
+genres:
+- name: Arcade
+- name: Casual
+- name: Puzzle
+- name: Real-time
+- name: Strategy
+aliases: []
+banner_url: /games/banner/sheep.jpg
+icon_url: null
+is_public: true
+updated: '2019-06-16T18:50:32.490341Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

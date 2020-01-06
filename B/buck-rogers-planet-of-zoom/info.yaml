@@ -1,0 +1,22 @@
+name: 'Buck Rogers: Planet of Zoom'
+slug: buck-rogers-planet-of-zoom
+year: 1982
+platforms:
+- name: Apple //e
+- name: Arcade
+- name: Atari 2600
+- name: Atari 5200
+- name: Colecovision
+- name: Commodore 64
+- name: MSX
+- name: ZX Spectrum
+genres:
+- name: Shooter
+aliases: []
+banner_url: /games/banner/buck-rogers-planet-of-zoom.jpg
+icon_url: null
+is_public: true
+updated: '2019-01-23T08:28:42.858369Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

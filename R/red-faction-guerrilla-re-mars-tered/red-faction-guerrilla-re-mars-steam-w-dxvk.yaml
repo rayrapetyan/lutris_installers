@@ -1,0 +1,42 @@
+id: 9142
+game_id: 19700
+game_slug: red-faction-guerrilla-re-mars-tered
+name: Red Faction Guerrilla Re-Mars-tered
+year: 2018
+user: TuiorGames
+runner: winesteam
+slug: red-faction-guerrilla-re-mars-steam-w-dxvk
+version: Steam w/ DXVK
+description: null
+notes: ''
+created_at: '2018-07-10T23:38:13.301000Z'
+updated_at: '2019-04-08T07:12:05.274086Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 667720
+gogid: 2029222893
+gogslug: red_faction_guerrilla_remarstered
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      app: vcrun2010 xact win7
+      arch: win64
+      name: winetricks
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  system:
+    env:
+      DXVK_HUD: 0
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 667720
+    arch: win64

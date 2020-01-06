@@ -1,0 +1,58 @@
+id: 9146
+game_id: 12086
+game_slug: the-simpsons-hit-run
+name: 'The Simpsons: Hit & Run'
+year: 2003
+user: __eMpTy__
+runner: wine
+slug: the-simpsons-hit-run-3-cd-windows
+version: 3 CD Windows
+description: null
+notes: "IMPORTANT NOTES, PLEASE READ:\r\nYou may have to drag the installer window\
+  \ around to look for important windows spawning UNDER the install window, such as\
+  \ the one for selecting additional discs as the installer requires them.\r\n\r\n\
+  As the game installer is running, everything on your computer OTHER THAN the installer\
+  \ windows may appear to visually freeze, upon finishing and closing the installer\
+  \ everything will return to normal."
+created_at: '2018-07-11T00:00:04.680000Z'
+updated_at: '2019-10-28T21:02:57.268561Z'
+draft: false
+published: true
+published_by: 51687
+rating: ''
+steamid: null
+gogid: null
+gogslug: ''
+humblestoreid: ''
+script:
+  installer:
+  - task:
+      prefix: $GAMEDIR
+      description: Creating Wine prefix.
+      arch: win32
+      name: create_prefix
+  - insert-disc:
+      requires: AutoRunLauncher.exe
+      description: Waiting for game installer EXE.
+      message: Insert disc 1 out of 3 from the Simpsons Hit & Run CD set.
+  - task:
+      executable: $DISC/AutoRunLauncher.exe
+      prefix: $GAMEDIR
+      description: Executing game installer EXE. When prompted for a setup type, select
+        2. Full Install. Keep the default destination location, and program folder.
+        When prompted to install DirectX 8.1, select no.
+      name: wineexec
+  - extract:
+      description: Applying SecuROM removal patch to game EXE.
+      dst: $GAMEDIR/drive_c/Program Files/Vivendi Universal Games/The Simpsons Hit
+        & Run/
+      file: hnr_patch
+  system:
+    MouseWarpOverride: enable
+    xboxdrv: --deadzone=6000 --trigger-as-button=true
+  files:
+  - hnr_patch: https://lutris.net/files/games/the-simpsons-hit-and-run/the-simpsons-hit-and-run-patch.tar.xz
+  game:
+    prefix: $GAMEDIR
+    exe: drive_c/Program Files/Vivendi Universal Games/The Simpsons Hit & Run/Simpsons.exe
+    arch: win32

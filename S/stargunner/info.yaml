@@ -1,0 +1,15 @@
+name: Stargunner
+slug: stargunner
+year: 1996
+platforms:
+- name: MS-DOS
+genres:
+- name: Shoot'em up
+aliases: []
+banner_url: /games/banner/stargunner.jpg
+icon_url: /games/icon/stargunner.png
+is_public: true
+updated: '2019-01-23T08:31:24.330934Z'
+steamid: 358390
+gogslug: stargunner
+humblestoreid: ''

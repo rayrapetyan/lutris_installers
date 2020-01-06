@@ -1,0 +1,68 @@
+id: 15678
+game_id: 11636
+game_slug: zork-grand-inquisitor
+name: 'Zork: Grand Inquisitor'
+year: null
+user: appoloin
+runner: scummvm
+slug: zork-grand-inquisitor-2cd
+version: 2CD
+description: null
+notes: ''
+created_at: '2019-09-18T23:43:32.798000Z'
+updated_at: '2019-12-15T18:53:22.743732Z'
+draft: false
+published: true
+published_by: 1
+rating: ''
+steamid: 570680
+gogid: 1207658948
+gogslug: zork_grand_inquisitor
+humblestoreid: ''
+script:
+  installer:
+  - insert-disc:
+      requires: ZGI
+      description: Please insert disc 1
+  - execute:
+      args: $GAMEDIR/zassets1 $GAMEDIR/zassets1  $GAMEDIR/zgi_mx
+      file: mkdir
+  - copy:
+      src: $DISC/zassets1
+      dst: $GAMEDIR/zassets1
+  - copy:
+      src: $DISC/zgi/zgi_mx
+      dst: $GAMEDIR/zgi_mx
+  - copy:
+      src: $DISC/zgi/cursor.zfs
+      dst: $GAMEDIR
+  - copy:
+      src: $DISC/zgi/death.zfs
+      dst: $GAMEDIR
+  - copy:
+      src: $DISC/zgi/inquis.str
+      dst: $GAMEDIR
+  - copy:
+      src: $DISC/zgi/inquis.zix
+      dst: $GAMEDIR
+  - copy:
+      src: $DISC/zgi/r.svr
+      dst: $GAMEDIR
+  - copy:
+      src: $DISC/zgi/scripts.zfs
+      dst: $GAMEDIR
+  - copy:
+      src: $DISC/zgi/subtitle.zfs
+      dst: $GAMEDIR
+  - insert-disc:
+      requires: zassets2
+      description: Please insert disc 2
+  - copy:
+      src: $DISC/zassets2
+      dst: $GAMEDIR/zassets2
+  - execute:
+      args: -R 775  "$GAMEDIR"
+      file: /bin/chmod
+  game:
+    game_id: zvision
+    path: $GAMEDIR

@@ -1,0 +1,17 @@
+name: Devilman
+slug: devilman
+year: 2000
+platforms:
+- name: NES
+- name: Sony PlayStation
+genres:
+- name: Beat'em up
+- name: Survival
+aliases: []
+banner_url: /games/banner/devilman.jpg
+icon_url: null
+is_public: true
+updated: '2019-12-17T19:54:36.634834Z'
+steamid: null
+gogslug: ''
+humblestoreid: ''

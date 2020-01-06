@@ -1,0 +1,24 @@
+id: 184
+game_id: 312
+game_slug: the-book-of-unwritten-tales-the-critter-chronicles
+name: 'The Book of Unwritten Tales: The Critter Chronicles'
+year: 2012
+user: strider
+runner: steam
+slug: the-book-of-unwritten-tales-th-steam
+version: steam
+description: null
+notes: ''
+created_at: '2013-12-19T23:56:17.336000Z'
+updated_at: '2013-12-19T23:56:17.337000Z'
+draft: false
+published: true
+published_by: null
+rating: ''
+steamid: 221830
+gogid: 1207659148
+gogslug: the_book_of_unwritten_tales_critter_chronicles
+humblestoreid: ''
+script:
+  game:
+    appid: 221830

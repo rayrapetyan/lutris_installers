@@ -1,0 +1,39 @@
+id: 10430
+game_id: 21336
+game_slug: star-control-origins
+name: 'Star Control: Origins'
+year: 2018
+user: CapRoo
+runner: winesteam
+slug: star-control-origins-steam
+version: Steam
+description: null
+notes: ''
+created_at: '2018-10-06T11:23:51.609000Z'
+updated_at: '2019-02-16T04:42:56.180453Z'
+draft: false
+published: true
+published_by: 19464
+rating: ''
+steamid: 271260
+gogid: 1893867643
+gogslug: star_control_origins
+humblestoreid: ''
+script:
+  winesteam:
+    version: tkg-4.0-x86_64
+    dxvk: true
+  installer:
+  - task:
+      prefix: $GAMEDIR/prefix
+      arch: win64
+      name: create_prefix
+  - task:
+      prefix: $GAMEDIR/prefix
+      description: Installing Winetricks vcrun2017
+      app: vcrun2017 win7
+      name: winetricks
+  game:
+    prefix: $GAMEDIR/prefix
+    appid: 271260
+    arch: win64

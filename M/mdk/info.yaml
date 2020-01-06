@@ -1,0 +1,15 @@
+name: MDK
+slug: mdk
+year: 1997
+platforms:
+- name: Windows
+genres:
+- name: Action
+aliases: []
+banner_url: /games/banner/mdk.jpg
+icon_url: /games/icon/mdk.png
+is_public: true
+updated: '2019-01-23T08:30:20.384550Z'
+steamid: 38450
+gogslug: mdk
+humblestoreid: ''
